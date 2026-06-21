@@ -1,4 +1,4 @@
-name: Activate SkillHot custom domain
+name: Verify SkillHot custom domain
 
 on:
   schedule:
@@ -8,14 +8,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
+  pages: read
 
 jobs:
-  activate:
+  verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Check DNS and current Pages state
-        id: state
+      - name: Verify DNS and Pages binding
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOMAIN: skillhot.savs-ai.com
@@ -26,31 +25,13 @@ jobs:
           current="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.cname // ""')"
           echo "DNS target: ${target:-missing}"
           echo "Pages custom domain: ${current:-not configured}"
+          test "$target" = "$EXPECTED_TARGET"
+          test "$current" = "$DOMAIN"
 
-          if [ "$current" = "$DOMAIN" ]; then
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "configured=true" >> "$GITHUB_OUTPUT"
-          elif [ "$target" = "$EXPECTED_TARGET" ]; then
-            echo "ready=true" >> "$GITHUB_OUTPUT"
-            echo "configured=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "Waiting for CNAME $DOMAIN -> $EXPECTED_TARGET"
-          fi
-
-      - name: Bind custom domain
-        if: steps.state.outputs.ready == 'true'
+      - name: Verify HTTPS site
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOMAIN: skillhot.savs-ai.com
         run: |
-          gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -f cname="$DOMAIN"
-
-      - name: Enforce HTTPS when certificate is ready
-        if: steps.state.outputs.configured == 'true'
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -F https_enforced=true
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-all-errors \
+            "https://$DOMAIN/" >/dev/null
