@@ -1,0 +1,56 @@
+name: Activate SkillHot custom domain
+
+on:
+  schedule:
+    # Recheck after the daily data deployment.
+    - cron: '35 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  activate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check DNS and current Pages state
+        id: state
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOMAIN: skillhot.savs-ai.com
+          EXPECTED_TARGET: savanna0425.github.io
+        run: |
+          set -euo pipefail
+          target="$(dig +short CNAME "$DOMAIN" | sed 's/\.$//' | head -n 1)"
+          current="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.cname // ""')"
+          echo "DNS target: ${target:-missing}"
+          echo "Pages custom domain: ${current:-not configured}"
+
+          if [ "$current" = "$DOMAIN" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          elif [ "$target" = "$EXPECTED_TARGET" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Waiting for CNAME $DOMAIN -> $EXPECTED_TARGET"
+          fi
+
+      - name: Bind custom domain
+        if: steps.state.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOMAIN: skillhot.savs-ai.com
+        run: |
+          gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -f cname="$DOMAIN"
+
+      - name: Enforce HTTPS when certificate is ready
+        if: steps.state.outputs.configured == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -F https_enforced=true
