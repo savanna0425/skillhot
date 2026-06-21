@@ -28,6 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-skills.mjs
+      - name: Validate generated data
+        run: node scripts/validate-data.mjs
       - name: Commit changed data
         run: |
           if git diff --quiet -- public/data; then
@@ -40,6 +42,8 @@ jobs:
           git commit -m "data: daily SkillHot update"
           git push
 
+  # Commits created with GITHUB_TOKEN do not trigger the push workflow, so daily
+  # snapshots deploy in this workflow as a separate job.
   deploy:
     needs: update
     runs-on: ubuntu-latest
@@ -58,6 +62,7 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm check
       - run: pnpm build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

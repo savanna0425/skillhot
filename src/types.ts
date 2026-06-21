@@ -33,7 +33,11 @@ export interface Skill {
   updatedAt: string
   createdAt: string
   sourceTopics: string[]
+  discoveredBy: string[]
   repoTopics: string[]
+  platforms: string[]
+  skillCount: number
+  isCollection: boolean
   media: SkillMedia
   readmeUrl: string
 }
@@ -52,11 +56,18 @@ export interface SkillData {
     topicPages: number
     repositories: number
     sourceTopics: number
+    discoveryChannels: number
     updateMode: string
-    tokenCost: number
   }
   topicPages: Array<{ page: number; topics: TopicItem[] }>
   sourceTopics: Array<{ name: string; url: string }>
+  topics: Array<{
+    name: string
+    url: string
+    repositories: number
+    activeRepositories: number
+    stars: number
+  }>
   categories: Array<{ name: string; description: string; count: number }>
   skills: Skill[]
 }

@@ -1,47 +1,56 @@
-import { Search } from 'lucide-react'
-import type { SkillData } from '../types'
-import { formatUpdatedAt } from '../utils'
+import { Menu, Search } from 'lucide-react'
+import type { ViewKey } from '../types'
 import { GithubMark } from './GithubMark'
 
-interface HeaderHeroProps {
-  data: SkillData
+const primaryNavigation: Array<{ key: ViewKey; label: string }> = [
+  { key: 'discover', label: '发现' },
+  { key: 'ranking', label: '榜单' },
+  { key: 'categories', label: '分类' },
+  { key: 'topics', label: '话题' },
+]
+
+interface SiteHeaderProps {
+  view: ViewKey
+  onNavigate: (view: ViewKey) => void
   query: string
   setQuery: (query: string) => void
-  compact?: boolean
+  repositoryUrl: string
+  onMenu: () => void
 }
 
-export function HeaderHero({ data, query, setQuery, compact = false }: HeaderHeroProps) {
+export function SiteHeader({ view, onNavigate, query, setQuery, repositoryUrl, onMenu }: SiteHeaderProps) {
   return (
-    <>
-      <header className="main-header">
-        <button className="wordmark" type="button">SkillHot</button>
-        <label className="search-field">
-          <Search size={19} />
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="搜索技能、仓库或使用场景"
-            aria-label="搜索技能、仓库或使用场景"
-          />
-          <kbd>⌘ K</kbd>
-        </label>
-        <a className="github-button secondary-button" href="https://github.com/topics/agent-skills" target="_blank" rel="noreferrer">
-          <GithubMark width={19} height={19} /> GitHub
-        </a>
-      </header>
-      {!compact ? (
-        <section className="hero-section">
-          <div>
-            <h1>今天，给 Agent 加点新本事。</h1>
-            <p>追踪 GitHub 高星、高活跃、真能落地的 Skills 与合集。每天自动更新，不烧 Token。</p>
-          </div>
-          <div className="update-card" aria-label="数据更新时间">
-            <span><i /> 今日已更新</span>
-            <strong>{formatUpdatedAt(data.meta.generatedAt)}</strong>
-            <small>GitHub API · {data.meta.tokenCost} Token</small>
-          </div>
-        </section>
-      ) : null}
-    </>
+    <header className="site-header">
+      <button className="site-wordmark" type="button" onClick={() => onNavigate('discover')}>SkillHot</button>
+      <nav className="primary-navigation" aria-label="主要页面">
+        {primaryNavigation.map((item) => (
+          <button
+            key={item.key}
+            type="button"
+            className={view === item.key ? 'active' : ''}
+            onClick={() => onNavigate(item.key)}
+            aria-current={view === item.key ? 'page' : undefined}
+          >
+            {item.label}
+          </button>
+        ))}
+      </nav>
+      <label className="global-search">
+        <Search size={18} />
+        <input
+          data-skill-search
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="搜索 Skills、仓库、场景或平台"
+          aria-label="搜索 Skills、仓库、场景或平台"
+        />
+        <kbd>⌘ K</kbd>
+      </label>
+      <a className="repository-link" href={repositoryUrl} target="_blank" rel="noreferrer">
+        <GithubMark width={19} height={19} />
+        <span>GitHub</span>
+      </a>
+      <button className="mobile-menu-button" type="button" aria-label="打开筛选菜单" onClick={onMenu}><Menu size={22} /></button>
+    </header>
   )
 }

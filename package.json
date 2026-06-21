@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "update:data": "node scripts/update-skills.mjs",
-    "check": "tsc -b --pretty false"
+    "check": "tsc -b --pretty false && node scripts/validate-data.mjs",
+    "validate:data": "node scripts/validate-data.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",

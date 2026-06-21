@@ -9,6 +9,50 @@ const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || ''
 const apiBase = 'https://api.github.com'
 const query = 'skill'
 const primaryTopics = ['skill', 'skills', 'agent-skills', 'claude-skills']
+const trackedTopics = [
+  ...primaryTopics,
+  'ai-skills',
+  'agentic-skills',
+  'ai-agent-skills',
+  'claude-code-skills',
+  'claude-code-skill',
+  'anthropic-skills',
+  'codex-skills',
+  'openai-codex-skills',
+  'openclaw-skills',
+  'karpathy-skills',
+  'mcp-skills',
+]
+
+const repositoryQueries = [
+  '"SKILL.md" in:readme archived:false fork:false stars:>20',
+  '"agent skills" in:name,description,readme archived:false fork:false stars:>20',
+  '"claude skills" in:name,description,readme archived:false fork:false stars:>20',
+  '"codex skills" in:name,description,readme archived:false fork:false stars:>10',
+  '"openclaw skills" in:name,description,readme archived:false fork:false stars:>10',
+  '"AI skills" in:name,description archived:false fork:false stars:>20',
+]
+
+const curatedRepositories = [
+  'KKKKhazix/Khazix-Skills',
+  'alchaincyf/karpathy-skill',
+  'PBNZ/newton-skill',
+  'op7418/guizang-ppt-skill',
+  'mattpocock/skills',
+  'garrytan/gstack',
+  'affaan-m/ECC',
+  'pbakaus/impeccable',
+  'nvidia/skills',
+  'dotnet/skills',
+  'agentskills/agentskills',
+  'googleworkspace/cli',
+  'phuryn/pm-skills',
+  'dpearson2699/swift-ios-skills',
+  'ComposioHQ/awesome-codex-skills',
+  'hashgraph-online/awesome-codex-plugins',
+]
+
+const maxRepositories = 600
 
 const curated = {
   'obra/superpowers': {
@@ -201,31 +245,107 @@ const curated = {
     category: '研究知识',
     scenarios: ['论文写作', '科研绘图', '学术表达'],
   },
+  'KKKKhazix/Khazix-Skills': {
+    summary: '数字生命卡兹克开源的 AI Skills 合集，包含 AIHot 资讯查询等实用技能',
+    category: '技能合集',
+    scenarios: ['AI 资讯追踪', '中文工作流', '跨平台技能安装'],
+  },
+  'alchaincyf/karpathy-skill': {
+    summary: '把 Andrej Karpathy 的思考方式整理成可运行的认知技能',
+    category: '研究学习',
+    scenarios: ['第一性原理思考', '技术判断', '深度对话'],
+  },
+  'PBNZ/newton-skill': {
+    summary: '受 Karpathy 方法启发的严谨推理与观点校准技能',
+    category: '研究学习',
+    scenarios: ['严谨推理', '观点辩论', '信息核验'],
+  },
+  'mattpocock/skills': {
+    summary: '来自资深工程师实践的开发技能集合',
+    category: '编程开发',
+    scenarios: ['TypeScript 工程', '代码质量', '开发工作流'],
+  },
+  'garrytan/gstack': {
+    summary: '覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈',
+    category: '产品与商业',
+    scenarios: ['产品开发', '创业团队协作', '端到端发布'],
+  },
+  'pbakaus/impeccable': {
+    summary: '帮助编程智能体产出更专业界面的设计语言与技能',
+    category: 'UI设计',
+    scenarios: ['界面设计', '视觉质量提升', '设计系统'],
+  },
+  'nvidia/skills': {
+    summary: 'NVIDIA 官方维护并验证的 Agent Skills 目录',
+    category: '技能合集',
+    scenarios: ['CUDA-X 开发', 'NVIDIA 平台', '官方技能复用'],
+  },
+  'dotnet/skills': {
+    summary: '.NET 团队为 C# 与 .NET 编程智能体维护的官方技能',
+    category: '编程开发',
+    scenarios: ['.NET 开发', '性能诊断', '数据访问'],
+  },
+  'googleworkspace/cli': {
+    summary: '统一操作 Drive、Gmail、Calendar、Sheets 与 Docs，并提供 Agent Skills',
+    category: '办公效率',
+    scenarios: ['Google Workspace', '办公自动化', '邮件与文档处理'],
+  },
+  'phuryn/pm-skills': {
+    summary: '覆盖产品发现、策略、执行、发布与增长的产品经理技能市场',
+    category: '产品与商业',
+    scenarios: ['产品管理', '用户研究', '发布与增长'],
+  },
+  'dpearson2699/swift-ios-skills': {
+    summary: '面向 Swift、SwiftUI 与现代 Apple 框架的 Agent Skills',
+    category: '编程开发',
+    scenarios: ['iOS 开发', 'SwiftUI', 'Apple 平台'],
+  },
 }
 
 const categoryRules = [
+  ['技能合集', /awesome|collection|directory|marketplace|registry|catalog|skills?\s+library/i],
+  ['UI设计', /\bui\b|\bux\b|ui.?ux|design system|web design|frontend design|visual design|figma/i],
+  ['安全', /security|secure|vulnerab|pentest|audit|threat|malware|forensic|owasp/i],
+  ['数据分析', /data analy|analytics|sql|spreadsheet|statistics|visualization|business intelligence|\bbi\b/i],
   ['记忆与上下文', /memory|context|mem\b|rag|retrieval|knowledge graph/i],
-  ['研究知识', /research|scient|paper|literature|notebook|knowledge|biology|chemistry|medical|academic/i],
-  ['内容创作', /design|image|video|slide|ppt|content|writing|marketing|social|audio|presentation/i],
-  ['编程工程', /code|coding|developer|engineering|react|frontend|backend|full.?stack|debug|test|review|security|database/i],
-  ['效率工具', /planning|productivity|automation|workspace|obsidian|calendar|docs|sheets|workflow/i],
-  ['技能合集', /awesome|collection|directory|marketplace|registry|library|skills?\s+library/i],
-  ['技能框架', /framework|methodology|skill.?seek|skill.?creator|generate.?skill|standard/i],
-  ['智能体平台', /agent|claude|codex|copilot|gemini|openclaw/i],
+  ['办公效率', /office|productivity|workspace|obsidian|calendar|gmail|docs|sheets|notion|pdf|document/i],
+  ['内容创作', /image|video|slide|ppt|content|writing|copywriting|social|audio|presentation|media/i],
+  ['研究学习', /research|scient|paper|literature|notebook|knowledge|biology|chemistry|medical|academic|learning|reasoning/i],
+  ['自动化', /automation|automate|browser|scrap|crawl|workflow|web.?pilot|integration/i],
+  ['产品与商业', /product.?manag|marketing|growth|seo|sales|finance|business|career|startup/i],
+  ['编程开发', /code|coding|developer|engineering|react|frontend|backend|full.?stack|debug|test|review|database|swift|dotnet/i],
+  ['技能开发', /framework|methodology|skill.?seek|skill.?creator|generate.?skill|skill.?manager|standard|specification/i],
+  ['Agent平台', /agent|claude|codex|copilot|gemini|openclaw|opencode|multi.?agent/i],
 ]
 
 const categoryMeta = {
-  '官方合集': '官方维护的技能规范、示例或目录',
-  '技能合集': '按领域整理的大型技能库与导航',
-  '技能框架': '创建、安装、组织与运行 Skills 的基础设施',
-  '编程工程': '面向开发、调试、评审、测试和性能优化',
-  '研究知识': '科研、知识检索、文献与数据工作流',
-  '内容创作': '图片、视频、演示、写作与设计生产',
+  'UI设计': '界面、体验、设计系统与视觉质量工作流',
+  '编程开发': '开发、调试、评审、测试与性能优化',
+  '办公效率': '文档、表格、邮件、日历与个人生产力',
+  '内容创作': '图片、视频、演示、写作与社交内容生产',
+  '数据分析': 'SQL、表格、统计、可视化与商业分析',
+  '研究学习': '科研、知识检索、文献、学习与推理工作流',
+  '自动化': '浏览器、网页、集成与重复流程自动化',
+  '安全': '安全审计、漏洞研究、威胁分析与合规',
   '记忆与上下文': '长期记忆、上下文压缩、检索与续接',
-  '效率工具': '计划、办公自动化与个人生产力',
-  '智能体平台': '多智能体、插件生态与通用 Agent 能力',
+  'Agent平台': '多智能体、插件生态与通用 Agent 能力',
+  '产品与商业': '产品管理、营销增长、销售与商业工作流',
+  '技能开发': '创建、安装、组织与运行 Skills 的基础设施',
+  '技能合集': '官方或社区维护的大型技能库与导航',
   '其他': '尚未归入主要类别的实用 Skill 项目',
 }
+
+const categoryAliases = {
+  '官方合集': '技能合集',
+  '技能框架': '技能开发',
+  '编程工程': '编程开发',
+  '研究知识': '研究学习',
+  '效率工具': '办公效率',
+  '智能体平台': 'Agent平台',
+}
+
+const curatedByLowerName = new Map(Object.entries(curated).map(([name, value]) => [name.toLowerCase(), value]))
+const curatedFor = (fullName) => curatedByLowerName.get(fullName.toLowerCase())
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 let lastSearchAt = 0
@@ -265,17 +385,21 @@ function relevantTopic(name) {
   return /skill|agent|claude|codex|openclaw|clawhub|hermes/i.test(name)
 }
 
-function relevantRepo(repo, sourceTopics) {
-  const specificSource = sourceTopics.some((topic) => !['skill', 'skills'].includes(topic))
-  if (specificSource) return true
-  const text = [repo.name, repo.full_name, repo.description].join(' ')
+function relevantRepo(repo, sourceTopics, channels) {
+  if (channels.includes('精选来源')) return true
+  const text = [repo.name, repo.full_name, repo.description, ...(repo.topics || [])].join(' ')
   const nameHasSkill = /skill/i.test(repo.name)
-  const descriptionConnectsSkillToAgents = /(?:agent|ai|claude|codex|copilot|gemini|openclaw|mcp).{0,48}skills?|skills?.{0,48}(?:agent|ai|claude|codex|copilot|gemini|openclaw|mcp)/i.test(text)
-  return nameHasSkill || descriptionConnectsSkillToAgents
+  const skillTopic = (repo.topics || []).some((topic) => /(?:^|-)skills?(?:-|$)|agentic-skill/i.test(topic))
+  const descriptionConnectsSkillToAgents = /(?:agent|ai|claude|codex|copilot|gemini|openclaw|opencode|mcp).{0,64}skills?|skills?.{0,64}(?:agent|ai|claude|codex|copilot|gemini|openclaw|opencode|mcp)/i.test(text)
+  const trustedTopic = sourceTopics.some((topic) => !['skill', 'skills'].includes(topic))
+  return nameHasSkill || skillTopic || descriptionConnectsSkillToAgents || (trustedTopic && /agent|claude|codex|skill/i.test(text))
 }
 
 function categoryFor(repo) {
-  if (curated[repo.full_name]?.category) return curated[repo.full_name].category
+  const override = curatedFor(repo.full_name)
+  if (override?.category) {
+    return categoryAliases[override.category] || override.category
+  }
   const text = [repo.name, repo.description, ...(repo.topics || [])].join(' ')
   for (const [category, matcher] of categoryRules) {
     if (matcher.test(text)) return category
@@ -285,24 +409,28 @@ function categoryFor(repo) {
 
 function scenariosFor(category) {
   return {
-    '官方合集': ['学习标准结构', '复用官方示例', '创建自定义技能'],
+    'UI设计': ['界面设计', '设计系统', '体验质量检查'],
+    '编程开发': ['软件开发', '代码质量', '工程自动化'],
+    '办公效率': ['文档与表格', '邮件与日历', '个人生产力'],
+    '内容创作': ['内容生产', '视觉创作', '多媒体工作流'],
+    '数据分析': ['数据处理', 'SQL 与表格', '分析与可视化'],
+    '研究学习': ['资料调研', '知识检索', '学习与推理'],
+    '自动化': ['重复任务', '浏览器操作', '跨工具集成'],
+    '安全': ['代码审计', '漏洞研究', '安全合规'],
     '技能合集': ['发现新技能', '按领域选型', '构建个人技能库'],
-    '技能框架': ['创建技能', '组织工作流', '扩展 Agent 能力'],
-    '编程工程': ['软件开发', '代码质量', '工程自动化'],
-    '研究知识': ['资料调研', '知识检索', '研究工作流'],
-    '内容创作': ['内容生产', '视觉设计', '多媒体工作流'],
+    '技能开发': ['创建技能', '组织工作流', '扩展 Agent 能力'],
     '记忆与上下文': ['长期任务', '跨会话续接', '上下文管理'],
-    '效率工具': ['任务规划', '办公自动化', '个人生产力'],
-    '智能体平台': ['Agent 编排', '能力扩展', '多平台协作'],
+    'Agent平台': ['Agent 编排', '能力扩展', '多平台协作'],
+    '产品与商业': ['产品管理', '营销增长', '商业决策'],
     '其他': ['能力探索', '流程扩展', '开源工具试用'],
   }[category]
 }
 
 function usageFor(category) {
-  if (category === '技能合集' || category === '官方合集') {
+  if (category === '技能合集') {
     return '先在仓库目录中选择目标 Skill，再按其 README 将对应目录复制或安装到你的 Agent Skills 目录。'
   }
-  if (category === '技能框架') {
+  if (category === '技能开发') {
     return '按 README 安装框架或 CLI，初始化项目后通过技能触发说明在 Agent 会话中调用。'
   }
   return '阅读仓库 README 的安装要求，将 Skill 目录或插件接入你的 Agent 环境，再用自然语言触发对应工作流。'
@@ -343,14 +471,38 @@ function extractInstall(markdown, fallback) {
   const blocks = [...markdown.matchAll(/```(?:bash|sh|shell|zsh|console)?\s*\n([\s\S]{1,1200}?)```/gi)]
   const candidate = blocks
     .map((match) => match[1].trim())
-    .find((block) => /(?:git clone|npx |pnpm |npm |pipx? install|uv tool|brew install|skills? add|claude plugin)/i.test(block))
+    .find((block) => /(?:git clone|npx |bunx |pnpm |npm |pipx? install|uv tool|brew install|skills? add|claude plugin)/i.test(block))
   if (!candidate) return fallback
-  return candidate
+  const normalized = candidate
     .split('\n')
     .filter((line) => line.trim() && !line.trim().startsWith('#'))
+    .map((line) => line.trim())
     .slice(0, 3)
     .join('\n')
     .slice(0, 360)
+  return normalized || fallback
+}
+
+function platformsFor(repo, markdown) {
+  const text = `${repo.name} ${repo.description || ''} ${(repo.topics || []).join(' ')} ${markdown.slice(0, 12000)}`
+  const platforms = [
+    ['Claude', /claude/i],
+    ['Codex', /codex/i],
+    ['Cursor', /cursor/i],
+    ['Gemini CLI', /gemini/i],
+    ['GitHub Copilot', /copilot/i],
+    ['OpenClaw', /openclaw/i],
+    ['OpenCode', /opencode/i],
+    ['Antigravity', /antigravity/i],
+  ].filter(([, matcher]) => matcher.test(text)).map(([name]) => name)
+  return platforms.length ? platforms.slice(0, 6) : ['Agent Skills']
+}
+
+function skillCountFor(markdown) {
+  const matches = [...markdown.matchAll(/(?:over\s+|more than\s+|\b)([\d,]{1,6})\+?\s+(?:agent\s+)?skills?/gi)]
+    .map((match) => Number(match[1].replaceAll(',', '')))
+    .filter((value) => Number.isFinite(value) && value > 1 && value < 100000)
+  return matches.length ? Math.max(...matches) : 1
 }
 
 function csvEscape(value) {
@@ -375,35 +527,67 @@ async function main() {
   }
 
   const discovered = topicPages.flatMap((page) => page.topics.map((topic) => topic.name))
-  const sourceTopics = [...new Set([...primaryTopics, ...discovered.filter(relevantTopic)])]
+  const sourceTopics = [...new Set([...trackedTopics, ...discovered.filter(relevantTopic)])]
   const repositories = new Map()
+
+  const addRepository = (repo, { topic = '', channel = '' } = {}) => {
+    const current = repositories.get(repo.full_name)
+    if (current) {
+      if (topic) current.sourceTopics.add(topic)
+      if (channel) current.channels.add(channel)
+      return
+    }
+    repositories.set(repo.full_name, {
+      repo,
+      sourceTopics: new Set(topic ? [topic] : []),
+      channels: new Set(channel ? [channel] : []),
+    })
+  }
 
   console.log(`Collecting repositories from ${sourceTopics.length} relevant topics…`)
   for (const topic of sourceTopics) {
-    const perPage = primaryTopics.includes(topic) ? 40 : 10
+    const perPage = trackedTopics.includes(topic) ? 100 : 30
     const payload = await github(`/search/repositories?q=topic:${encodeURIComponent(topic)}+archived:false+fork:false&sort=stars&order=desc&per_page=${perPage}`, { search: true })
-    for (const repo of payload.items) {
-      const current = repositories.get(repo.full_name)
-      if (current) {
-        current.sourceTopics.add(topic)
-      } else {
-        repositories.set(repo.full_name, { repo, sourceTopics: new Set([topic]) })
-      }
-    }
+    payload.items.forEach((repo) => addRepository(repo, { topic, channel: 'GitHub Topics' }))
   }
 
-  const ranked = [...repositories.values()]
-    .filter(({ repo, sourceTopics: topics }) => relevantRepo(repo, [...topics]))
-    .map(({ repo, sourceTopics: topics }) => ({ repo, sourceTopics: [...topics] }))
+  console.log(`Collecting repositories from ${repositoryQueries.length} focused searches…`)
+  for (const searchQuery of repositoryQueries) {
+    const payload = await github(`/search/repositories?q=${encodeURIComponent(searchQuery)}&sort=stars&order=desc&per_page=100`, { search: true })
+    payload.items.forEach((repo) => addRepository(repo, { channel: 'GitHub 搜索' }))
+  }
+
+  console.log(`Adding ${curatedRepositories.length} official and community sources…`)
+  for (let index = 0; index < curatedRepositories.length; index += 8) {
+    const batch = curatedRepositories.slice(index, index + 8)
+    const results = await Promise.all(batch.map(async (fullName) => {
+      try {
+        return await github(`/repos/${fullName}`)
+      } catch (error) {
+        console.warn(`Curated source skipped for ${fullName}: ${error.message}`)
+        return null
+      }
+    }))
+    results.filter(Boolean).forEach((repo) => addRepository(repo, { channel: '精选来源' }))
+  }
+
+  const allRanked = [...repositories.values()]
+    .filter(({ repo, sourceTopics: topics, channels }) => relevantRepo(repo, [...topics], [...channels]))
+    .map(({ repo, sourceTopics: topics, channels }) => ({ repo, sourceTopics: [...topics], channels: [...channels] }))
     .map((item) => ({ ...item, score: scoreFor(item.repo, item.sourceTopics) }))
     .sort((a, b) => b.score - a.score || b.repo.stargazers_count - a.repo.stargazers_count)
-    .slice(0, 180)
 
-  console.log(`Reading installation and video hints for the top ${Math.min(36, ranked.length)} repositories…`)
+  const ranked = [...new Map([
+    ...allRanked.slice(0, maxRepositories),
+    ...allRanked.filter((item) => item.channels.includes('精选来源')),
+  ].map((item) => [item.repo.full_name.toLowerCase(), item])).values()]
+    .sort((a, b) => b.score - a.score || b.repo.stargazers_count - a.repo.stargazers_count)
+
+  console.log(`Reading installation, platform and media hints for ${ranked.length} repositories…`)
   const readmes = new Map()
-  const readmeTargets = ranked.slice(0, 36)
-  for (let index = 0; index < readmeTargets.length; index += 6) {
-    const batch = readmeTargets.slice(index, index + 6)
+  const readmeTargets = ranked
+  for (let index = 0; index < readmeTargets.length; index += 10) {
+    const batch = readmeTargets.slice(index, index + 10)
     const results = await Promise.all(batch.map(async ({ repo }) => {
       try {
         const payload = await github(`/repos/${repo.full_name}/readme`)
@@ -416,11 +600,11 @@ async function main() {
     results.forEach(([name, markdown]) => readmes.set(name, markdown))
   }
 
-  const skills = ranked.map(({ repo, sourceTopics: topics, score }, index) => {
+  const skills = ranked.map(({ repo, sourceTopics: topics, channels, score }, index) => {
     const category = categoryFor(repo)
     const readme = readmes.get(repo.full_name) || ''
     const activity = activityFor(repo.pushed_at)
-    const override = curated[repo.full_name] || {}
+    const override = curatedFor(repo.full_name) || {}
     const cloneCommand = `git clone ${repo.html_url}.git`
     return {
       rank: index + 1,
@@ -449,7 +633,11 @@ async function main() {
       updatedAt: repo.updated_at,
       createdAt: repo.created_at,
       sourceTopics: topics,
+      discoveredBy: channels,
       repoTopics: repo.topics || [],
+      platforms: platformsFor(repo, readme),
+      skillCount: skillCountFor(readme),
+      isCollection: category === '技能合集' || /awesome|collection|library|marketplace|catalog/i.test(`${repo.name} ${repo.description || ''}`),
       media: {
         socialPreview: `https://opengraph.githubassets.com/skillhot/${repo.full_name}`,
         videoUrl: extractVideo(readme),
@@ -464,6 +652,18 @@ async function main() {
     count: skills.filter((skill) => skill.category === name).length,
   })).filter((category) => category.count > 0)
 
+  const topics = sourceTopics.map((name) => {
+    const matches = skills.filter((skill) => skill.sourceTopics.includes(name))
+    return {
+      name,
+      url: `https://github.com/topics/${name}`,
+      repositories: matches.length,
+      activeRepositories: matches.filter((skill) => daysSince(skill.pushedAt) <= 30).length,
+      stars: matches.reduce((total, skill) => total + skill.stars, 0),
+    }
+  }).filter((topic) => topic.repositories > 0)
+    .sort((a, b) => b.repositories - a.repositories || b.stars - a.stars)
+
   const generatedAt = new Date().toISOString()
   const data = {
     meta: {
@@ -472,16 +672,17 @@ async function main() {
       topicPages: 3,
       repositories: skills.length,
       sourceTopics: sourceTopics.length,
-      updateMode: 'GitHub REST API + deterministic rules',
-      tokenCost: 0,
+      discoveryChannels: 3,
+      updateMode: 'GitHub REST API + deterministic classification',
     },
     topicPages,
     sourceTopics: sourceTopics.map((name) => ({ name, url: `https://github.com/topics/${name}` })),
+    topics,
     categories,
     skills,
   }
 
-  const csvHeaders = ['排名', '仓库', '分类', '简介', 'Stars', '活跃度', '最近推送', '语言', '许可证', '来源话题', '适用场景', '用法', '图片', '视频', 'GitHub']
+  const csvHeaders = ['排名', '仓库', '分类', '简介', 'Stars', '活跃度', '最近推送', '语言', '许可证', '兼容平台', '技能数量', '发现渠道', '来源话题', '适用场景', '用法', '安装命令', '图片', '视频', 'GitHub']
   const csvRows = skills.map((skill) => [
     skill.rank,
     skill.fullName,
@@ -492,9 +693,13 @@ async function main() {
     skill.pushedAt,
     skill.language,
     skill.license,
+    skill.platforms.join(' | '),
+    skill.skillCount,
+    skill.discoveredBy.join(' | '),
     skill.sourceTopics.join(' | '),
     skill.scenarios.join(' | '),
     skill.howToUse,
+    skill.installCommand,
     skill.media.socialPreview,
     skill.media.videoUrl,
     skill.url,

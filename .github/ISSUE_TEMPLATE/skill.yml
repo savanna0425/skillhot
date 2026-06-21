@@ -1,0 +1,47 @@
+name: 推荐 Skill
+description: 推荐遗漏的 Agent Skill、合集或官方目录
+title: "[Skill] "
+labels: ["skill-source"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub 仓库
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Skill 证据
+      description: 说明 SKILL.md、技能目录、安装方式或兼容平台。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      options:
+        - UI设计
+        - 编程开发
+        - 办公效率
+        - 内容创作
+        - 数据分析
+        - 研究学习
+        - 自动化
+        - 安全
+        - 记忆与上下文
+        - Agent平台
+        - 产品与商业
+        - 技能开发
+        - 技能合集
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: scenarios
+    attributes:
+      label: 适用场景
+      placeholder: 它能解决哪些实际问题？
+    validations:
+      required: true

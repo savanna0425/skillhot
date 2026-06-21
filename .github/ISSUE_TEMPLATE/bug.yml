@@ -1,0 +1,28 @@
+name: 报告问题
+description: 报告网站、数据或自动更新问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明实际结果和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: 1. 打开… 2. 点击… 3. 看到…
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器与设备
+      placeholder: Chrome 136 / macOS / 1536×1024
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或相关仓库链接

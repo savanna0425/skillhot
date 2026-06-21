@@ -1,8 +1,10 @@
-import { Bookmark, Check, Copy, ExternalLink, Image as ImageIcon, PlayCircle, Star, X } from 'lucide-react'
+import { Bookmark, Check, ChevronLeft, ChevronRight, Copy, ExternalLink, Image as ImageIcon, PlayCircle, Star, X } from 'lucide-react'
 import { useState } from 'react'
 import type { Skill } from '../types'
-import { formatStars } from '../utils'
+import { daysFromNow, formatStars } from '../utils'
 import { GithubMark } from './GithubMark'
+
+const previewFallback = `${import.meta.env.BASE_URL}assets/illustrations/official-skills.png`
 
 interface DetailPanelProps {
   skill?: Skill
@@ -10,81 +12,82 @@ interface DetailPanelProps {
   isFavorite: boolean
   onFavorite: (skill: Skill) => void
   onClose: () => void
+  onRestore: () => void
 }
 
-export function DetailPanel({ skill, open, isFavorite, onFavorite, onClose }: DetailPanelProps) {
+export function DetailPanel({ skill, open, isFavorite, onFavorite, onClose, onRestore }: DetailPanelProps) {
   const [copied, setCopied] = useState(false)
 
-  if (!skill) {
+  if (!open) {
     return (
-      <aside className="detail-panel detail-empty">
-        <img src={`${import.meta.env.BASE_URL}assets/illustrations/official-skills.png`} alt="" />
-        <strong>挑一个 Skill 看看</strong>
-        <span>介绍、用法、场景、图片与视频都会在这里展开。</span>
+      <aside className="detail-restore" aria-label="详情栏已收起">
+        <button type="button" onClick={onRestore} disabled={!skill} aria-label="展开右侧详情栏"><ChevronLeft size={17} /><span>详情</span></button>
       </aside>
     )
   }
 
+  if (!skill) return null
+
   const copyInstall = async () => {
-    await navigator.clipboard.writeText(skill.installCommand)
-    setCopied(true)
-    window.setTimeout(() => setCopied(false), 1800)
+    try {
+      await navigator.clipboard.writeText(skill.installCommand)
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 1800)
+    } catch {
+      setCopied(false)
+    }
   }
 
   return (
-    <aside className={`detail-panel ${open ? 'open' : ''}`} aria-label={`${skill.fullName} 详情`}>
-      <div className="detail-topline">
-        <button className="mobile-close" type="button" onClick={onClose} aria-label="关闭详情"><X size={20} /></button>
-        <button className={`favorite-detail ${isFavorite ? 'active' : ''}`} onClick={() => onFavorite(skill)} aria-label="收藏">
-          <Bookmark size={19} fill={isFavorite ? 'currentColor' : 'none'} />
-        </button>
+    <aside className="detail-panel" aria-label={`${skill.fullName} 详情`}>
+      <div className="detail-toolbar">
+        <button type="button" onClick={onClose} aria-label="收起右侧详情栏"><ChevronRight size={18} /><span>收起</span></button>
+        <button className="detail-mobile-close" type="button" onClick={onClose} aria-label="关闭详情"><X size={20} /></button>
+        <button className={isFavorite ? 'saved' : ''} onClick={() => onFavorite(skill)} aria-label={isFavorite ? '取消收藏' : '收藏'}><Bookmark size={18} fill={isFavorite ? 'currentColor' : 'none'} /></button>
       </div>
-      <div className="detail-title">
-        <div>
-          <h2>{skill.fullName}</h2>
-          <span className="category-label">{skill.category}</span>
-        </div>
-        <strong><Star size={17} fill="currentColor" /> {formatStars(skill.stars)}</strong>
+
+      <div className="detail-heading">
+        <span>{skill.category}</span>
+        <h2>{skill.fullName}</h2>
+        <p>{skill.summary}</p>
+        <div><strong><Star size={15} fill="currentColor" /> {formatStars(skill.stars)}</strong><span>{daysFromNow(skill.pushedAt)} 天前更新</span></div>
       </div>
-      <p className="detail-summary">{skill.summary}</p>
-      <a className="preview-frame" href={skill.url} target="_blank" rel="noreferrer">
-        <img src={skill.media.socialPreview} alt={`${skill.fullName} GitHub 社交预览`} />
+
+      <a className="detail-preview" href={skill.url} target="_blank" rel="noreferrer">
+        <img src={skill.media.socialPreview} alt={`${skill.fullName} GitHub 预览`} onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = previewFallback }} />
       </a>
-      <div className="detail-block">
+
+      <dl className="detail-facts">
+        <div><dt>语言</dt><dd>{skill.language || '—'}</dd></div>
+        <div><dt>许可证</dt><dd>{skill.license || '未声明'}</dd></div>
+        <div><dt>技能规模</dt><dd>{skill.skillCount > 1 ? `${skill.skillCount}+` : '单项 / 未标注'}</dd></div>
+      </dl>
+
+      <section className="detail-section">
+        <h3>兼容平台</h3>
+        <div className="tag-list">{skill.platforms.map((platform) => <span key={platform}>{platform}</span>)}</div>
+      </section>
+      <section className="detail-section">
         <h3>适用场景</h3>
-        <div className="scenario-list">
-          {skill.scenarios.map((scenario) => <span key={scenario}>{scenario}</span>)}
-        </div>
-      </div>
-      <div className="detail-block">
-        <h3>怎么使用</h3>
+        <ul>{skill.scenarios.map((scenario) => <li key={scenario}><Check size={15} /> {scenario}</li>)}</ul>
+      </section>
+      <section className="detail-section">
+        <h3>安装与使用</h3>
         <p>{skill.howToUse}</p>
-        <pre><code>{skill.installCommand}</code></pre>
-      </div>
-      <div className="detail-block media-block">
-        <h3>图片 / 视频</h3>
-        <div>
-          <span><ImageIcon size={17} /> GitHub 预览</span>
-          {skill.media.videoUrl ? (
-            <a href={skill.media.videoUrl} target="_blank" rel="noreferrer"><PlayCircle size={17} /> 查看演示</a>
-          ) : <span className="muted"><PlayCircle size={17} /> 暂未发现视频</span>}
-        </div>
-      </div>
-      <div className="detail-block">
-        <h3>来源话题</h3>
-        <div className="topic-links">
-          {skill.sourceTopics.map((topic) => (
-            <a key={topic} href={`https://github.com/topics/${topic}`} target="_blank" rel="noreferrer"># {topic}</a>
-          ))}
-        </div>
-      </div>
+        <div className="install-command"><code>{skill.installCommand}</code><button type="button" onClick={copyInstall} aria-label="复制安装命令">{copied ? <Check size={16} /> : <Copy size={16} />}</button></div>
+      </section>
+      <section className="detail-section">
+        <h3>媒体</h3>
+        <div className="media-links"><a href={skill.media.socialPreview} target="_blank" rel="noreferrer"><ImageIcon size={16} /> 预览图</a>{skill.media.videoUrl ? <a href={skill.media.videoUrl} target="_blank" rel="noreferrer"><PlayCircle size={16} /> 演示视频</a> : <span><PlayCircle size={16} /> 暂无视频</span>}</div>
+      </section>
+      <section className="detail-section">
+        <h3>GitHub Topics</h3>
+        <div className="tag-list">{skill.sourceTopics.length ? skill.sourceTopics.map((topic) => <a key={topic} href={`https://github.com/topics/${topic}`} target="_blank" rel="noreferrer">#{topic}</a>) : <span>GitHub 搜索收录</span>}</div>
+      </section>
+
       <div className="detail-actions">
-        <a className="primary-button" href={skill.url} target="_blank" rel="noreferrer">
-          <GithubMark width={18} height={18} /> 查看 GitHub <ExternalLink size={15} />
-        </a>
-        <button className="copy-button" type="button" onClick={copyInstall}>
-          {copied ? <Check size={18} /> : <Copy size={18} />} {copied ? '已复制' : '复制安装命令'}
-        </button>
+        <a href={skill.url} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 在 GitHub 打开 <ExternalLink size={15} /></a>
+        <button type="button" onClick={copyInstall}>{copied ? <Check size={17} /> : <Copy size={17} />} {copied ? '已复制' : '复制安装命令'}</button>
       </div>
     </aside>
   )
