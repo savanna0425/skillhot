@@ -1,4 +1,4 @@
-export type ViewKey = 'discover' | 'ranking' | 'categories' | 'topics' | 'favorites' | 'about'
+export type ViewKey = 'discover' | 'ranking' | 'categories' | 'topics' | 'favorites' | 'about' | 'auth' | 'profile'
 export type SortKey = 'score' | 'stars' | 'recent'
 
 export interface SkillMedia {
@@ -57,6 +57,8 @@ export interface SkillData {
     repositories: number
     sourceTopics: number
     discoveryChannels: number
+    activeHighStarCutoff?: string
+    readmeEnriched?: number
     updateMode: string
   }
   topicPages: Array<{ page: number; topics: TopicItem[] }>

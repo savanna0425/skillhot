@@ -1,5 +1,5 @@
 import { ArrowRight, ArrowUpRight, Database, HeartHandshake, RefreshCw, SearchCheck, ShieldCheck } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Skill, SkillData } from '../types'
 import { formatStars, formatUpdatedAt } from '../utils'
 import { SkillGrid } from './FeaturedRail'
@@ -17,10 +17,22 @@ interface CategoriesViewProps extends SkillActions {
   skills: Skill[]
   category: string
   onCategory: (category: string) => void
+  scrollRequest: number
 }
 
-export function CategoriesView({ data, skills, category, onCategory, ...actions }: CategoriesViewProps) {
+export function CategoriesView({ data, skills, category, onCategory, scrollRequest, ...actions }: CategoriesViewProps) {
   const selectedMeta = data.categories.find((item) => item.name === category)
+  const resultsRef = useRef<HTMLDivElement>(null)
+  const selectCategory = (next: string) => {
+    onCategory(next)
+    requestAnimationFrame(() => resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }
+
+  useEffect(() => {
+    if (!scrollRequest) return
+    requestAnimationFrame(() => resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }, [scrollRequest])
+
   return (
     <section className="content-page categories-page">
       <div className="page-heading">
@@ -28,16 +40,16 @@ export function CategoriesView({ data, skills, category, onCategory, ...actions 
         <strong>{data.categories.length}</strong>
       </div>
       <div className="category-board">
-        <button className={category === '全部' ? 'selected' : ''} aria-pressed={category === '全部'} onClick={() => onCategory('全部')}>
+        <button className={category === '全部' ? 'selected' : ''} aria-pressed={category === '全部'} onClick={() => selectCategory('全部')}>
           <span>全部分类</span><strong>{data.meta.repositories}</strong><p>浏览 SkillHot 收录的全部开源项目。</p><ArrowRight size={18} />
         </button>
         {data.categories.map((item) => (
-          <button className={category === item.name ? 'selected' : ''} aria-pressed={category === item.name} key={item.name} onClick={() => onCategory(item.name)}>
+          <button className={category === item.name ? 'selected' : ''} aria-pressed={category === item.name} key={item.name} onClick={() => selectCategory(item.name)}>
             <span>{item.name}</span><strong>{item.count}</strong><p>{item.description}</p><ArrowRight size={18} />
           </button>
         ))}
       </div>
-      <div className="category-result-heading">
+      <div className="category-result-heading" ref={resultsRef} id="category-results">
         <div><h2>{selectedMeta?.name || '全部 Skills'}</h2><p>{selectedMeta?.description || '完整的开源 Agent Skills 索引。'}</p></div>
         <span>{skills.length} 个项目</span>
       </div>

@@ -77,9 +77,6 @@ export function SkillGrid({ skills, emptyText = '没有找到匹配的 Skills', 
 interface DiscoverViewProps extends SkillActions {
   data: SkillData
   skills: Skill[]
-  categories: string[]
-  category: string
-  onCategory: (category: string) => void
 }
 
 function hashName(value: string) {
@@ -88,19 +85,33 @@ function hashName(value: string) {
   return Math.abs(hash)
 }
 
-export function DiscoverView({ data, skills, category, onCategory, ...actions }: DiscoverViewProps) {
+function shuffledSkills(skills: Skill[], seed: number) {
+  const copy = [...skills]
+  let state = seed || 1
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    state = (state * 1664525 + 1013904223) >>> 0
+    const swapIndex = state % (index + 1)
+    ;[copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]]
+  }
+  return copy
+}
+
+export function DiscoverView({ data, skills, ...actions }: DiscoverViewProps) {
   const [refresh, setRefresh] = useState(0)
   const newest = useMemo(
-    () => data.skills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 8),
-    [data.skills],
+    () => skills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 8),
+    [skills],
   )
   const collections = useMemo(
-    () => data.skills.filter((skill) => skill.isCollection).toSorted((a, b) => b.score - a.score).slice(0, 4),
-    [data.skills],
+    () => skills.filter((skill) => skill.isCollection).toSorted((a, b) => b.score - a.score).slice(0, 4),
+    [skills],
   )
   const recommendations = useMemo(() => {
-    const seed = Math.floor(Date.now() / 86_400_000) + refresh * 97
-    return skills.toSorted((a, b) => hashName(`${a.fullName}${seed}`) - hashName(`${b.fullName}${seed}`)).slice(0, 12)
+    if (!skills.length) return []
+    const seed = hashName(`${new Date().toISOString().slice(0, 10)}:${skills.length}`)
+    const shuffled = shuffledSkills(skills, seed)
+    const offset = (refresh * 12) % shuffled.length
+    return [...shuffled, ...shuffled].slice(offset, offset + Math.min(12, shuffled.length))
   }, [refresh, skills])
 
   return (
@@ -116,20 +127,6 @@ export function DiscoverView({ data, skills, category, onCategory, ...actions }:
           </div>
         </div>
         <img src={`${import.meta.env.BASE_URL}assets/illustrations/superpowers.png`} alt="Agent 正在发现新技能" />
-      </section>
-
-      <section className="category-explorer" aria-labelledby="category-explorer-title">
-        <div className="section-title-row">
-          <div><h2 id="category-explorer-title">按类别探索</h2><p>从工作目标出发，找到更准确的技能组合。</p></div>
-          {category !== '全部' ? <button onClick={() => onCategory('全部')}>查看全部 <ArrowRight size={16} /></button> : null}
-        </div>
-        <div className="category-explorer-grid">
-          {data.categories.map((item) => (
-            <button key={item.name} className={category === item.name ? 'selected' : ''} aria-pressed={category === item.name} onClick={() => onCategory(item.name)}>
-              <span>{item.name}</span><strong>{item.count}</strong><small>{item.description}</small>
-            </button>
-          ))}
-        </div>
       </section>
 
       <section className="new-discoveries">
@@ -154,10 +151,10 @@ export function DiscoverView({ data, skills, category, onCategory, ...actions }:
 
       <section className="recommendation-section">
         <div className="section-title-row">
-          <div><h2>{category === '全部' ? '随机漫游' : `${category}精选`}</h2><p>换一批，也许会遇到意料之外的好工具。</p></div>
+          <div><h2>随机漫游</h2><p>换一批，也许会遇到意料之外的好工具。</p></div>
           <button onClick={() => setRefresh((value) => value + 1)}><RefreshCw size={16} /> 换一批</button>
         </div>
-        <SkillGrid skills={recommendations} {...actions} />
+        <div key={refresh} className="recommendation-batch"><SkillGrid skills={recommendations} {...actions} /></div>
       </section>
     </div>
   )

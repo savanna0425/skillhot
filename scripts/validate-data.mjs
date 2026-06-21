@@ -33,7 +33,7 @@ function assert(condition, message) {
 }
 
 assert(Array.isArray(data.skills), 'skills must be an array')
-assert(data.skills.length >= 500, `expected at least 500 repositories, received ${data.skills.length}`)
+assert(data.skills.length >= 1000, `expected at least 1000 repositories, received ${data.skills.length}`)
 assert(data.meta.repositories === data.skills.length, 'meta.repositories must match skills length')
 assert(!Object.hasOwn(data.meta, 'tokenCost'), 'tokenCost must not be part of public metadata')
 assert(Array.isArray(data.categories) && data.categories.length >= requiredCategories.length, 'category metadata is incomplete')
@@ -43,6 +43,9 @@ const categoryNames = new Set(data.categories.map((item) => item.name))
 requiredCategories.forEach((category) => assert(categoryNames.has(category), `missing category ${category}`))
 
 const names = new Set()
+let highStarActiveCount = 0
+const activeHighStarCutoff = Date.parse(data.meta.activeHighStarCutoff)
+assert(Number.isFinite(activeHighStarCutoff), 'active high-star cutoff is invalid')
 for (const skill of data.skills) {
   const normalizedName = skill.fullName.toLowerCase()
   assert(!names.has(normalizedName), `duplicate repository ${skill.fullName}`)
@@ -52,7 +55,15 @@ for (const skill of data.skills) {
   assert(categoryNames.has(skill.category), `unknown category ${skill.category} for ${skill.fullName}`)
   assert(Array.isArray(skill.platforms) && skill.platforms.length > 0, `missing platforms for ${skill.fullName}`)
   assert(typeof skill.installCommand === 'string' && skill.installCommand.length > 0, `missing install command for ${skill.fullName}`)
+  assert(/[\u3400-\u9fff]/.test(skill.summary), `summary must contain Chinese for ${skill.fullName}`)
+  if (skill.discoveredBy.includes('GitHub 高星活跃搜索')) {
+    highStarActiveCount += 1
+    assert(skill.stars >= 500, `high-star search result below 500 Stars: ${skill.fullName}`)
+    assert(Date.parse(skill.pushedAt) >= activeHighStarCutoff, `inactive high-star search result: ${skill.fullName}`)
+  }
 }
+
+assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)
 
 requiredRepositories.forEach((repository) => assert(names.has(repository.toLowerCase()), `missing required source ${repository}`))
 assert(csv.startsWith('\uFEFF排名,仓库,分类,'), 'CSV header is invalid')

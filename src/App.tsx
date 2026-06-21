@@ -1,15 +1,18 @@
 import { Download } from 'lucide-react'
 import { useDeferredValue, useEffect, useMemo, useState } from 'react'
+import { useAuth } from './auth/AuthContext'
+import { AuthView, ProfileView } from './components/AuthViews'
 import { DetailPanel } from './components/DetailPanel'
 import { DiscoverView, SkillGrid } from './components/FeaturedRail'
 import { SiteHeader } from './components/HeaderHero'
 import { AboutView, CategoriesView, TopicsView } from './components/InfoViews'
 import { Sidebar } from './components/Sidebar'
 import { RankingTable } from './components/SkillList'
+import { supabase } from './lib/supabase'
 import type { Skill, SkillData, SortKey, ViewKey } from './types'
 
 const repositoryUrl = 'https://github.com/savanna0425/skillhot'
-const validViews: ViewKey[] = ['discover', 'ranking', 'categories', 'topics', 'favorites', 'about']
+const validViews: ViewKey[] = ['discover', 'ranking', 'categories', 'topics', 'favorites', 'about', 'auth', 'profile']
 
 const emptyData: SkillData = {
   meta: {
@@ -34,6 +37,7 @@ function initialView(): ViewKey {
 }
 
 function App() {
+  const { configured: authConfigured, loading: authLoading, user } = useAuth()
   const [data, setData] = useState<SkillData>(emptyData)
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
@@ -46,14 +50,9 @@ function App() {
   const [detailOpen, setDetailOpen] = useState(false)
   const [leftCollapsed, setLeftCollapsed] = useState(false)
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
-  const [favorites, setFavorites] = useState<Set<string>>(() => {
-    try {
-      const stored = localStorage.getItem('skillhot:favorites:v1') || localStorage.getItem('skillhot:favorites') || '[]'
-      return new Set(JSON.parse(stored))
-    } catch {
-      return new Set()
-    }
-  })
+  const [favorites, setFavorites] = useState<Set<string>>(new Set())
+  const [favoritesLoading, setFavoritesLoading] = useState(false)
+  const [categoryScrollRequest, setCategoryScrollRequest] = useState(0)
 
   const updateQuery = (value: string) => {
     setQuery(value)
@@ -82,6 +81,26 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (!user || !supabase) {
+      setFavorites(new Set())
+      setFavoritesLoading(false)
+      return
+    }
+    let active = true
+    setFavoritesLoading(true)
+    supabase
+      .from('user_favorites')
+      .select('repository')
+      .then(({ data: rows, error }) => {
+        if (!active) return
+        if (error) console.error('SkillHot favorites failed to load', error)
+        else setFavorites(new Set((rows || []).map((row) => row.repository)))
+        setFavoritesLoading(false)
+      })
+    return () => { active = false }
+  }, [user])
+
+  useEffect(() => {
     const onHashChange = () => setView(initialView())
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
@@ -107,10 +126,9 @@ function App() {
 
   const categories = useMemo(() => ['全部', ...data.categories.map((item) => item.name)], [data.categories])
 
-  const visibleSkills = useMemo(() => {
+  const searchedSkills = useMemo(() => {
     const normalized = deferredQuery.trim().toLowerCase()
-    const filtered = data.skills.filter((skill) => {
-      const matchesCategory = category === '全部' || skill.category === category
+    return data.skills.filter((skill) => {
       const text = [
         skill.fullName,
         skill.summary,
@@ -120,28 +138,49 @@ function App() {
         ...skill.sourceTopics,
         ...skill.platforms,
       ].join(' ').toLowerCase()
-      return matchesCategory && (!normalized || text.includes(normalized))
+      return !normalized || text.includes(normalized)
     })
+  }, [data.skills, deferredQuery])
+
+  const visibleSkills = useMemo(() => {
+    const filtered = searchedSkills.filter((skill) => category === '全部' || skill.category === category)
     return filtered.toSorted((a, b) => {
       if (sort === 'stars') return b.stars - a.stars
       if (sort === 'recent') return new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()
       return b.score - a.score
     })
-  }, [category, data.skills, deferredQuery, sort])
+  }, [category, searchedSkills, sort])
 
   const favoriteSkills = useMemo(
     () => data.skills.filter((skill) => favorites.has(skill.fullName)),
     [data.skills, favorites],
   )
 
-  const toggleFavorite = (skill: Skill) => {
+  const toggleFavorite = async (skill: Skill) => {
+    if (!user || !supabase) {
+      navigate('auth')
+      return
+    }
+    const wasFavorite = favorites.has(skill.fullName)
     setFavorites((current) => {
       const next = new Set(current)
-      if (next.has(skill.fullName)) next.delete(skill.fullName)
+      if (wasFavorite) next.delete(skill.fullName)
       else next.add(skill.fullName)
-      localStorage.setItem('skillhot:favorites:v1', JSON.stringify([...next]))
       return next
     })
+    const request = wasFavorite
+      ? supabase.from('user_favorites').delete().eq('user_id', user.id).eq('repository', skill.fullName)
+      : supabase.from('user_favorites').insert({ user_id: user.id, repository: skill.fullName })
+    const { error } = await request
+    if (error) {
+      console.error('SkillHot favorite update failed', error)
+      setFavorites((current) => {
+        const next = new Set(current)
+        if (wasFavorite) next.add(skill.fullName)
+        else next.delete(skill.fullName)
+        return next
+      })
+    }
   }
 
   const selectSkill = (skill: Skill) => {
@@ -151,7 +190,8 @@ function App() {
 
   const selectSidebarCategory = (name: string) => {
     setCategory(name)
-    if (view === 'topics' || view === 'about' || view === 'favorites') navigate('categories')
+    navigate('categories')
+    setCategoryScrollRequest((value) => value + 1)
   }
 
   const sharedGridProps = {
@@ -173,30 +213,37 @@ function App() {
     }
     if (loading) return <section className="page-state"><span className="loading-dot" />正在同步 GitHub Skills 数据…</section>
     if (view === 'discover') {
-      return <DiscoverView data={data} skills={visibleSkills} categories={categories} category={category} onCategory={setCategory} {...sharedGridProps} />
+      return <DiscoverView data={data} skills={searchedSkills} {...sharedGridProps} />
     }
     if (view === 'ranking') {
       return <RankingTable skills={visibleSkills} categories={categories} category={category} onCategory={setCategory} sort={sort} onSort={setSort} {...sharedGridProps} />
     }
     if (view === 'categories') {
-      return <CategoriesView data={data} skills={visibleSkills} category={category} onCategory={setCategory} {...sharedGridProps} />
+      return <CategoriesView data={data} skills={visibleSkills} category={category} onCategory={setCategory} scrollRequest={categoryScrollRequest} {...sharedGridProps} />
     }
     if (view === 'topics') return <TopicsView data={data} onSelect={selectSkill} favorites={favorites} onFavorite={toggleFavorite} />
     if (view === 'about') return <AboutView data={data} repositoryUrl={repositoryUrl} />
+    if (view === 'auth') return user
+      ? <ProfileView favorites={favoriteSkills} selected={selected} onSelect={selectSkill} onFavorite={toggleFavorite} onSignOut={() => navigate('discover')} />
+      : <AuthView onContinue={() => navigate('discover')} onSuccess={() => navigate('profile')} />
+    if (view === 'profile') return user
+      ? <ProfileView favorites={favoriteSkills} selected={selected} onSelect={selectSkill} onFavorite={toggleFavorite} onSignOut={() => navigate('discover')} />
+      : <AuthView onContinue={() => navigate('discover')} onSuccess={() => navigate('profile')} />
+    if (!user) return <AuthView onContinue={() => navigate('discover')} onSuccess={() => navigate('favorites')} />
     return (
       <section className="content-page">
         <div className="page-heading">
-          <div><h1>收藏</h1><p>保存在当前浏览器中的 Skills，方便稍后继续查看。</p></div>
+          <div><h1>收藏</h1><p>与你的账号同步，在不同设备上继续查看。</p></div>
           <strong>{favoriteSkills.length}</strong>
         </div>
-        <SkillGrid skills={favoriteSkills} emptyText="还没有收藏任何 Skill" {...sharedGridProps} />
+        {favoritesLoading ? <div className="page-state"><span className="loading-dot" />正在读取收藏…</div> : <SkillGrid skills={favoriteSkills} emptyText="还没有收藏任何 Skill" {...sharedGridProps} />}
       </section>
     )
   }
 
   return (
     <div className="site-app">
-      <SiteHeader view={view} onNavigate={navigate} query={query} setQuery={updateQuery} repositoryUrl={repositoryUrl} onMenu={() => setMobileFiltersOpen(true)} />
+      <SiteHeader view={view} onNavigate={navigate} query={query} setQuery={updateQuery} repositoryUrl={repositoryUrl} onMenu={() => setMobileFiltersOpen(true)} userEmail={user?.email} authConfigured={authConfigured} authLoading={authLoading} />
       <div className={`site-layout ${leftCollapsed ? 'left-collapsed' : ''} ${detailOpen ? 'detail-visible' : ''}`}>
         <Sidebar
           view={view}

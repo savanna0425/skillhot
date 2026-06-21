@@ -13,17 +13,18 @@
 - 分类：统一覆盖 UI 设计、编程开发、办公效率、内容创作、数据分析、研究学习、自动化、安全等领域。
 - 话题：把 GitHub Topics 聚合成平台生态与能力地图。
 - 详情：展示适用场景、兼容平台、安装命令、许可证、预览图、视频和来源链接。
-- 收藏与搜索：收藏保存在浏览器本地，支持仓库、场景、分类和平台关键词检索。
+- 账号与收藏：访客可直接浏览；邮箱验证登录后，收藏由 Supabase Auth + Postgres RLS 按用户隔离并跨设备同步。
 - 响应式布局：桌面端左右侧栏可收起，移动端使用筛选抽屉和详情底部面板。
 
 ## 数据覆盖
 
-当前数据管线保留综合排名前 600 个去重仓库，并额外保留可能被星数排序遗漏的精选来源。来源包括：
+当前数据管线保留综合排名前 1,500 个去重仓库，并额外保留可能被排序遗漏的精选来源。来源包括：
 
 1. GitHub Topic Search `skill` 前三页，用作来源审计和新 Topic 发现。
 2. `agent-skills`、`claude-skills`、`codex-skills`、`openclaw-skills` 等持续跟踪的 Topic。
 3. `SKILL.md`、Agent Skills、Claude Skills、Codex Skills 等聚焦仓库搜索。
 4. 官方与社区精选来源，包括 Anthropic、NVIDIA、.NET、Google Workspace、Karpathy 相关技能和 Khazix Skills。
+5. Stars 不低于 500、最近 90 天仍有推送的 `skill` 搜索结果；按 Stars 区间分片，规避 GitHub 每个查询最多返回 1,000 条的限制。
 
 所有数据每天通过 GitHub REST API 更新。分类、筛选和评分由确定性脚本完成；README 用于提取安装方式、平台兼容性、技能规模与视频链接。
 
@@ -48,6 +49,8 @@ GITHUB_TOKEN="$(gh auth token)" pnpm update:data
 pnpm check
 pnpm build
 ```
+
+账号功能需要复制 `.env.example` 并配置 Supabase 公共 URL 与 anon key。数据库表结构见 `supabase/migrations/`。
 
 ## 自动更新与部署
 

@@ -8,12 +8,13 @@
 
 ## 部署架构
 
-SkillHot 是纯静态 React 网站，采用以下轻量架构：
+SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管的开源 Auth 与 Postgres：
 
 - 源代码与数据更新：GitHub 仓库 `savanna0425/skillhot`
 - 构建与定时任务：GitHub Actions
 - 静态托管与 HTTPS：GitHub Pages
 - DNS：Cloudflare
+- 邮箱登录与收藏：Supabase Auth + Postgres RLS
 - 正式域名：`https://skillhot.savs-ai.com`
 
 本项目没有部署到腾讯云 CVM。静态站使用 GitHub Pages 可以避免占用现有 API 服务器的 2 Mbps 带宽和内存，也无需维护额外容器。
@@ -25,7 +26,8 @@ SkillHot 是纯静态 React 网站，采用以下轻量架构：
 - 保存 GitHub Topic Search `skill` 前三页，共 30 个 Topic。
 - 固定跟踪 `skill`、`skills`、`agent-skills`、`claude-skills`、`codex-skills`、`openclaw-skills` 等 Topic，并自动吸收前三页中发现的相关话题；当前共 26 个来源 Topic。
 - 增加 `SKILL.md`、Agent Skills、Claude、Codex、OpenClaw 等聚焦仓库搜索和精选补漏来源。
-- 当前索引以综合排名前 600 个仓库为主，并额外保留精选补漏来源；当前共 602 个仓库。
+- 新增 Stars ≥ 500、最近 90 天仍活跃的 `skill` 分片搜索，避开单查询 1,000 条上限。
+- 当前索引以综合排名前 1,500 个仓库为主，并额外保留精选补漏来源；当前共 1,502 个仓库。
 - 数据包含分类、介绍、Stars、活跃度、最近更新时间、适用场景、兼容平台、技能规模、用法、安装命令、来源 Topic、仓库/主页链接、GitHub 社交预览图与视频链接。
 - JSON：`public/data/skills.json`
 - CSV：`public/data/skills.csv`
@@ -53,14 +55,33 @@ SkillHot 是纯静态 React 网站，采用以下轻量架构：
 `.github/workflows/daily-update.yml` 每天北京时间 08:20 执行：
 
 1. 调用 GitHub REST API 获取 Topic 与仓库数据。
-2. 使用本地确定性规则过滤、分类、评分和生成中文字段。
+2. 使用本地确定性规则过滤、分类、评分和生成中文摘要。
 3. 生成 JSON 与 CSV。
 4. 写入带最新更新时间的完整快照并提交到 `main`。
-5. 数据提交触发 `.github/workflows/deploy-pages.yml`，重新构建并发布网站。
+5. 同一工作流的 deploy job 重新构建并发布网站；普通代码提交由 `.github/workflows/deploy-pages.yml` 发布。
 
 日更流程不调用 OpenAI、Anthropic 或其他大模型 API。GitHub API 使用 Actions 自带的 `GITHUB_TOKEN`，无需保存个人令牌。
 
 `.github/workflows/activate-domain.yml` 每天北京时间 08:35 检查 CNAME、Pages 绑定和 HTTPS 是否正常；它只读验证，不修改 Cloudflare 或 GitHub 配置。
+
+### 5. Supabase 账号与收藏
+
+前端通过两个 GitHub Actions Secrets 连接 Supabase：
+
+- `VITE_SUPABASE_URL`：项目 URL，可公开。
+- `VITE_SUPABASE_ANON_KEY`：浏览器端 anon key，可公开；数据安全依赖 RLS，而不是隐藏这个 key。
+
+数据库初始化 SQL：`supabase/migrations/202606210001_user_favorites.sql`。它创建 `user_favorites`，只授予 authenticated 角色查询、新增、删除权限，并通过 `(select auth.uid()) = user_id` 保证用户只能访问自己的收藏。
+
+控制台配置步骤：
+
+1. 在 Supabase Free Plan 创建 `skillhot` 项目。
+2. 打开 SQL Editor，执行上述 migration。
+3. Authentication → URL Configuration：Site URL 填 `https://skillhot.savs-ai.com`，Redirect URLs 增加 `https://skillhot.savs-ai.com/**` 和本地开发地址。
+4. 保持 Email provider 开启，并保持 Confirm email 开启。
+5. 把项目 URL 与 anon key 写入 GitHub Actions Secrets，重新运行部署工作流。
+
+Supabase Free Plan 当前包含 50,000 MAU 与 500 MB 数据库，足够早期使用。内置邮件服务仅适合试用，项目级合计 2 封/小时；正式开放注册前应配置自有 SMTP。Custom SMTP 在 Free Plan 可用，不需要升级 Supabase 套餐。
 
 ## 本地项目
 
@@ -87,6 +108,14 @@ GITHUB_TOKEN="$(gh auth token)" pnpm update:data
 ```bash
 pnpm check
 pnpm build
+```
+
+本地账号联调：
+
+```bash
+cp .env.example .env.local
+# 填入 VITE_SUPABASE_URL 与 VITE_SUPABASE_ANON_KEY
+pnpm dev
 ```
 
 ## GitHub Actions 运维
@@ -134,7 +163,7 @@ gh api repos/savanna0425/skillhot/pages
 
 ### 页面仍显示旧数据
 
-先查看 `Update SkillHot data` 是否成功，再查看由数据提交触发的 `Deploy SkillHot to GitHub Pages`。GitHub Pages CDN 通常会在几分钟内完成刷新。
+先查看 `Update SkillHot data` 的 update 与 deploy 两个 job 是否成功；普通代码提交则查看 `Deploy SkillHot to GitHub Pages`。GitHub Pages CDN 通常会在几分钟内完成刷新。
 
 ### 自定义域名打不开
 
@@ -148,9 +177,18 @@ Actions 任务使用仓库 `GITHUB_TOKEN`，配额足以完成每日一次更新
 
 查看 `Validate generated data` 是否因缺少必需来源、字段或分类而阻止提交。验证门禁失败时，旧版线上数据会继续保留，不会发布不完整快照。
 
+### 登录页提示“登录服务等待部署配置”
+
+检查 GitHub 仓库的两个 Supabase Secrets 是否存在，并确认最近一次 Pages 构建步骤已读取它们。Vite 环境变量在构建时写入产物，因此修改 Secret 后必须重新部署。
+
+### 收到登录但看不到收藏
+
+在 Supabase Table Editor 确认 `user_favorites` 已创建并启用 RLS；在 SQL Editor 检查三条策略。不要为了排错关闭 RLS，也不要把 service role key 放进前端或 GitHub Pages。
+
 ## 安全与费用
 
 - 仓库不保存 Cloudflare 登录信息、个人 GitHub Token、SSH 密钥或服务器密码。
 - GitHub Pages、GitHub Actions 公共仓库额度与 Cloudflare DNS 当前均可零额外服务器成本运行。
 - 日更不使用大模型，保持更新成本和结果可预测。
+- Supabase Free 项目一周无活动会暂停；需要时可在 Dashboard 恢复，数据仍会保留。
 - 腾讯云 CVM 上的 Sav's API 与本项目相互独立，SkillHot 故障不会影响 API 服务。

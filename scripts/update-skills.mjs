@@ -33,6 +33,17 @@ const repositoryQueries = [
   '"AI skills" in:name,description archived:false fork:false stars:>20',
 ]
 
+const activeCutoff = new Date(Date.now() - 90 * 86_400_000).toISOString().slice(0, 10)
+const highStarQueries = [
+  `skill in:name,description,readme stars:500..999 pushed:>=${activeCutoff} archived:false fork:false`,
+  `skill in:name,description,readme stars:1000..1999 pushed:>=${activeCutoff} archived:false fork:false`,
+  `skill in:name,description,readme stars:2000..4999 pushed:>=${activeCutoff} archived:false fork:false`,
+  `skill in:name,description,readme stars:5000..9999 pushed:>=${activeCutoff} archived:false fork:false`,
+  `skill in:name,description,readme stars:>=10000 pushed:>=${activeCutoff} archived:false fork:false`,
+]
+const highStarPagesPerQuery = 4
+const readmeRequestBudget = 850
+
 const curatedRepositories = [
   'KKKKhazix/Khazix-Skills',
   'alchaincyf/karpathy-skill',
@@ -52,7 +63,7 @@ const curatedRepositories = [
   'hashgraph-online/awesome-codex-plugins',
 ]
 
-const maxRepositories = 600
+const maxRepositories = 1500
 
 const curated = {
   'obra/superpowers': {
@@ -392,7 +403,8 @@ function relevantRepo(repo, sourceTopics, channels) {
   const skillTopic = (repo.topics || []).some((topic) => /(?:^|-)skills?(?:-|$)|agentic-skill/i.test(topic))
   const descriptionConnectsSkillToAgents = /(?:agent|ai|claude|codex|copilot|gemini|openclaw|opencode|mcp).{0,64}skills?|skills?.{0,64}(?:agent|ai|claude|codex|copilot|gemini|openclaw|opencode|mcp)/i.test(text)
   const trustedTopic = sourceTopics.some((topic) => !['skill', 'skills'].includes(topic))
-  return nameHasSkill || skillTopic || descriptionConnectsSkillToAgents || (trustedTopic && /agent|claude|codex|skill/i.test(text))
+  const highStarAgentMatch = channels.includes('GitHub 高星活跃搜索') && /agent|ai|llm|claude|codex|copilot|gemini|openclaw|opencode|mcp|prompt|assistant|automation|workflow/i.test(text)
+  return nameHasSkill || skillTopic || descriptionConnectsSkillToAgents || highStarAgentMatch || (trustedTopic && /agent|claude|codex|skill/i.test(text))
 }
 
 function categoryFor(repo) {
@@ -434,6 +446,38 @@ function usageFor(category) {
     return '按 README 安装框架或 CLI，初始化项目后通过技能触发说明在 Agent 会话中调用。'
   }
   return '阅读仓库 README 的安装要求，将 Skill 目录或插件接入你的 Agent 环境，再用自然语言触发对应工作流。'
+}
+
+function summaryFor(repo, category, override) {
+  if (override.summary) return override.summary
+  const description = (repo.description || '').trim()
+  if (/[\u3400-\u9fff]/.test(description)) {
+    return description.replace(/([。！？；])\s+[A-Za-z][\x00-\x7F\s]{24,}$/s, '$1')
+  }
+  const name = repo.name
+  const text = `${repo.name} ${description} ${(repo.topics || []).join(' ')}`
+  if (/awesome|collection|directory|catalog|marketplace|registry/i.test(text)) {
+    return `${name} 汇总并整理相关 Agent Skills、工具与社区资源，便于集中发现和选型。`
+  }
+  if (/security|audit|vulnerab|pentest|threat/i.test(text)) {
+    return `${name} 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流。`
+  }
+  if (/research|paper|academic|scient|literature/i.test(text)) {
+    return `${name} 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。`
+  }
+  if (/design|\bui\b|\bux\b|figma|frontend/i.test(text)) {
+    return `${name} 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。`
+  }
+  if (/memory|context|rag|knowledge graph|retrieval/i.test(text)) {
+    return `${name} 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。`
+  }
+  if (/browser|automation|workflow|scrap|crawl|integration/i.test(text)) {
+    return `${name} 把浏览器、工具集成或重复流程封装为可复用的 Agent 自动化能力。`
+  }
+  if (/code|coding|developer|engineering|debug|test|review/i.test(text)) {
+    return `${name} 为软件开发、调试、测试与代码评审提供可复用的 Agent 工作流。`
+  }
+  return `${name} 是一个面向${categoryMeta[category]}的开源项目，可用于扩展 Agent 的实际工作能力。`
 }
 
 function daysSince(iso) {
@@ -557,6 +601,15 @@ async function main() {
     payload.items.forEach((repo) => addRepository(repo, { channel: 'GitHub 搜索' }))
   }
 
+  console.log(`Collecting high-star repositories pushed since ${activeCutoff}…`)
+  for (const searchQuery of highStarQueries) {
+    for (let page = 1; page <= highStarPagesPerQuery; page += 1) {
+      const payload = await github(`/search/repositories?q=${encodeURIComponent(searchQuery)}&sort=stars&order=desc&per_page=100&page=${page}`, { search: true })
+      payload.items.forEach((repo) => addRepository(repo, { channel: 'GitHub 高星活跃搜索' }))
+      if (payload.items.length < 100) break
+    }
+  }
+
   console.log(`Adding ${curatedRepositories.length} official and community sources…`)
   for (let index = 0; index < curatedRepositories.length; index += 8) {
     const batch = curatedRepositories.slice(index, index + 8)
@@ -585,9 +638,13 @@ async function main() {
 
   console.log(`Reading installation, platform and media hints for ${ranked.length} repositories…`)
   const readmes = new Map()
-  const readmeTargets = ranked
-  for (let index = 0; index < readmeTargets.length; index += 10) {
-    const batch = readmeTargets.slice(index, index + 10)
+  const readmeTargets = [...new Map([
+    ...ranked.filter((item) => item.channels.includes('精选来源')),
+    ...ranked,
+  ].map((item) => [item.repo.full_name.toLowerCase(), item])).values()].slice(0, readmeRequestBudget)
+  console.log(`README enrichment budget: ${readmeTargets.length}/${ranked.length} repositories`)
+  for (let index = 0; index < readmeTargets.length; index += 16) {
+    const batch = readmeTargets.slice(index, index + 16)
     const results = await Promise.all(batch.map(async ({ repo }) => {
       try {
         const payload = await github(`/repos/${repo.full_name}/readme`)
@@ -616,7 +673,7 @@ async function main() {
       url: repo.html_url,
       homepage: repo.homepage || '',
       description: repo.description || '',
-      summary: override.summary || repo.description || `${repo.name} 开源项目`,
+      summary: summaryFor(repo, category, override),
       category,
       categoryDescription: categoryMeta[category],
       scenarios: override.scenarios || scenariosFor(category),
@@ -672,7 +729,9 @@ async function main() {
       topicPages: 3,
       repositories: skills.length,
       sourceTopics: sourceTopics.length,
-      discoveryChannels: 3,
+      discoveryChannels: 4,
+      activeHighStarCutoff: activeCutoff,
+      readmeEnriched: readmeTargets.length,
       updateMode: 'GitHub REST API + deterministic classification',
     },
     topicPages,
