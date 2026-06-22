@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
+import { semanticQualityIssues } from './catalog-taxonomy.mjs'
 
 const data = JSON.parse(await readFile(new URL('../public/data/skills.json', import.meta.url), 'utf8'))
-const csv = await readFile(new URL('../public/data/skills.csv', import.meta.url), 'utf8')
 
 const requiredCategories = [
   'UI设计',
@@ -13,7 +13,7 @@ const requiredCategories = [
   '自动化',
   '安全',
   '记忆与上下文',
-  'Agent平台',
+  'Agent工具与平台',
   '产品与商业',
   '技能开发',
   '技能合集',
@@ -56,6 +56,10 @@ for (const skill of data.skills) {
   assert(Array.isArray(skill.platforms) && skill.platforms.length > 0, `missing platforms for ${skill.fullName}`)
   assert(typeof skill.installCommand === 'string' && skill.installCommand.length > 0, `missing install command for ${skill.fullName}`)
   assert(/[\u3400-\u9fff]/.test(skill.summary), `summary must contain Chinese for ${skill.fullName}`)
+  assert(skill.categoryDescription === data.categories.find((item) => item.name === skill.category)?.description, `stale category description for ${skill.fullName}`)
+  assert(typeof skill.categoryConfidence === 'string' && skill.categoryConfidence.length > 0, `missing category confidence for ${skill.fullName}`)
+  const semanticIssues = semanticQualityIssues(skill)
+  assert(semanticIssues.length === 0, `${skill.fullName} failed semantic QA: ${semanticIssues.join(', ')}`)
   if (skill.discoveredBy.includes('GitHub 高星活跃搜索')) {
     highStarActiveCount += 1
     assert(skill.stars >= 500, `high-star search result below 500 Stars: ${skill.fullName}`)
@@ -66,6 +70,7 @@ for (const skill of data.skills) {
 assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)
 
 requiredRepositories.forEach((repository) => assert(names.has(repository.toLowerCase()), `missing required source ${repository}`))
-assert(csv.startsWith('\uFEFF排名,仓库,分类,'), 'CSV header is invalid')
+assert(data.skills.find((skill) => skill.fullName === 'obra/superpowers')?.category === '编程开发', 'superpowers must be categorized as 编程开发')
+assert(data.skills.find((skill) => skill.fullName === 'farion1231/cc-switch')?.category === 'Agent工具与平台', 'cc-switch must be categorized as Agent工具与平台')
 
 console.log(`Validated ${data.skills.length} repositories, ${data.categories.length} categories and ${data.topics.length} topics.`)

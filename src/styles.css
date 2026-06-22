@@ -297,7 +297,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .detail-heading { padding: 24px 0 18px; border-bottom: 1px solid var(--line); }
 .detail-heading > span { font-size: 10px; font-weight: 750; }
 .detail-heading h2 { margin: 8px 0 10px; font-size: 24px; line-height: 1.15; letter-spacing: -.8px; overflow-wrap: anywhere; }
-.detail-heading p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
+.detail-heading p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
 .detail-heading > div { margin-top: 15px; display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; }
 .detail-heading strong { color: var(--ink); display: flex; align-items: center; gap: 5px; }
 .detail-preview { width: 100%; aspect-ratio: 1.9; margin: 18px 0; overflow: hidden; display: block; border: 1px solid var(--line); border-radius: 9px; background: #fff; }
@@ -308,10 +308,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .detail-facts dt { color: var(--muted); font-size: 8px; }
 .detail-facts dd { margin: 6px 0 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10px; font-weight: 750; }
 .detail-section { padding: 17px 0; border-bottom: 1px solid var(--line); }
-.detail-section h3 { margin: 0 0 10px; font-size: 12px; }
-.detail-section p { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.65; }
+.detail-section h3 { margin: 0 0 10px; font-size: 13px; }
+.detail-section p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
 .detail-section ul { margin: 0; padding: 0; display: grid; gap: 8px; list-style: none; }
-.detail-section li { display: flex; align-items: center; gap: 7px; color: #4f5057; font-size: 10px; }
+.detail-section li { display: flex; align-items: center; gap: 7px; color: #4f5057; font-size: 11px; }
+.original-description { overflow-wrap: anywhere; }
+.classification-evidence { margin-top: 12px; display: grid; gap: 4px; }
+.classification-evidence span { width: fit-content; padding: 4px 7px; border: 1px solid var(--line); border-radius: 5px; background: #fafafa; font-size: 9px; font-weight: 800; }
+.classification-evidence small { color: var(--soft-muted); font-size: 8px; line-height: 1.5; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag-list span, .tag-list a { padding: 5px 7px; border: 1px solid var(--line); border-radius: 6px; background: #fff; font-size: 9px; }
 .install-command { margin-top: 10px; padding: 9px; display: grid; grid-template-columns: minmax(0, 1fr) 28px; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 7px; background: #fff; }

@@ -1,9 +1,9 @@
 # SkillHot
 
-每天更新的开源 Agent Skills 中文发现站。
+每天更新的开源 Agent Skills 与配套工具中文发现站。
 
 - 在线访问：<https://skillhot.savs-ai.com>
-- 开放数据：[JSON](https://skillhot.savs-ai.com/data/skills.json) · [CSV](https://skillhot.savs-ai.com/data/skills.csv)
+- 数据由 GitHub 公开信息生成；站内导出入口已移除，分类与简介可回到原仓库复核。
 - 许可证：[MIT](LICENSE)
 
 ## 功能
@@ -48,7 +48,10 @@ GITHUB_TOKEN="$(gh auth token)" pnpm update:data
 ```bash
 pnpm check
 pnpm build
+pnpm test:e2e
 ```
+
+`test:e2e` 强制使用 Google Chrome，覆盖桌面搜索/详情/收藏/导航、CSV 导出限制和移动端菜单。
 
 账号功能需要复制 `.env.example` 并配置 Supabase 公共 URL 与 publishable key。数据库表结构见 `supabase/migrations/`。
 
@@ -59,6 +62,10 @@ pnpm build
 - `.github/workflows/activate-domain.yml`：每天检查自定义域名与 HTTPS。
 
 完整运维信息见 [部署交付文档](docs/DEPLOYMENT.md)。
+
+## 视频介绍
+
+横屏介绍视频源码位于 `video/skillhot-intro/`，使用真实 Chrome 录屏、Sav 同学本地克隆音色与 HyperFrames 制作。最终成片默认渲染到 `video/skillhot-intro/renders/skillhot-intro.mp4`；渲染产物和中间检查帧不提交 Git，避免持续增大仓库体积。
 
 ## 参与贡献
 

@@ -19,6 +19,8 @@ export interface Skill {
   summary: string
   category: string
   categoryDescription: string
+  categoryConfidence: string
+  categoryReason: string
   scenarios: string[]
   howToUse: string
   installCommand: string
@@ -59,6 +61,7 @@ export interface SkillData {
     discoveryChannels: number
     activeHighStarCutoff?: string
     readmeEnriched?: number
+    catalogReviewedAt?: string
     updateMode: string
   }
   topicPages: Array<{ page: number; topics: TopicItem[] }>

@@ -1,0 +1,14 @@
+{
+  "name": "skillhot-intro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "hyperframes preview",
+    "check": "hyperframes lint && hyperframes validate && hyperframes inspect",
+    "render": "hyperframes render",
+    "publish": "hyperframes publish"
+  },
+  "devDependencies": {
+    "hyperframes": "0.6.121"
+  }
+}

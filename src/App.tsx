@@ -1,4 +1,3 @@
-import { Download } from 'lucide-react'
 import { useDeferredValue, useEffect, useMemo, useState } from 'react'
 import { useAuth } from './auth/AuthContext'
 import { AuthView, ProfileView } from './components/AuthViews'
@@ -60,24 +59,27 @@ function App() {
   }
 
   useEffect(() => {
-    const controller = new AbortController()
-    fetch(`${import.meta.env.BASE_URL}data/skills.json`, { signal: controller.signal })
+    let active = true
+    fetch(`${import.meta.env.BASE_URL}data/skills.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
         return response.json() as Promise<SkillData>
       })
       .then((payload) => {
+        if (!active) return
         setData(payload)
         const preferred = payload.skills.find((skill) => skill.fullName === 'anthropics/skills')
         setSelected(preferred || payload.skills[0])
       })
       .catch((error: unknown) => {
-        if (error instanceof DOMException && error.name === 'AbortError') return
+        if (!active) return
         console.error('SkillHot data failed to load', error)
         setLoadError(true)
       })
-      .finally(() => setLoading(false))
-    return () => controller.abort()
+      .finally(() => {
+        if (active) setLoading(false)
+      })
+    return () => { active = false }
   }, [])
 
   useEffect(() => {
@@ -213,7 +215,7 @@ function App() {
     }
     if (loading) return <section className="page-state"><span className="loading-dot" />正在同步 GitHub Skills 数据…</section>
     if (view === 'discover') {
-      return <DiscoverView data={data} skills={searchedSkills} {...sharedGridProps} />
+      return <DiscoverView data={data} skills={searchedSkills} searching={Boolean(deferredQuery.trim())} {...sharedGridProps} />
     }
     if (view === 'ranking') {
       return <RankingTable skills={visibleSkills} categories={categories} category={category} onCategory={setCategory} sort={sort} onSort={setSort} {...sharedGridProps} />
@@ -260,11 +262,10 @@ function App() {
         <main id="main-content" className="site-main">
           {renderMain()}
           <footer className="site-footer">
-            <span>SkillHot · 每日更新的开源 Agent Skills 索引</span>
+            <span>SkillHot · 每日更新的 Agent Skills 与开源工具索引</span>
             <nav>
               <button onClick={() => navigate('about')}>关于</button>
               <a href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a>
-              <a href={`${import.meta.env.BASE_URL}data/skills.csv`} download><Download size={15} /> 导出 CSV</a>
             </nav>
           </footer>
         </main>
