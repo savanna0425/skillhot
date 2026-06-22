@@ -50,7 +50,7 @@ pnpm check
 pnpm build
 ```
 
-账号功能需要复制 `.env.example` 并配置 Supabase 公共 URL 与 anon key。数据库表结构见 `supabase/migrations/`。
+账号功能需要复制 `.env.example` 并配置 Supabase 公共 URL 与 publishable key。数据库表结构见 `supabase/migrations/`。
 
 ## 自动更新与部署
 

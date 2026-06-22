@@ -9,7 +9,7 @@ function friendlyAuthError(message: string) {
   if (/invalid login credentials/i.test(message)) return '邮箱或密码不正确。'
   if (/email not confirmed/i.test(message)) return '请先打开验证邮件完成邮箱确认。'
   if (/user already registered/i.test(message)) return '这个邮箱已经注册，请直接登录。'
-  if (/password should be at least/i.test(message)) return '密码至少需要 6 位。'
+  if (/password should be at least/i.test(message)) return '密码至少需要 8 位。'
   if (/rate limit/i.test(message)) return '验证邮件发送过于频繁，请稍后再试。'
   return message
 }
@@ -36,8 +36,8 @@ export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; on
       setError('请输入有效的邮箱地址。')
       return
     }
-    if (password.length < 6) {
-      setError('密码至少需要 6 位。')
+    if (password.length < 8) {
+      setError('密码至少需要 8 位。')
       return
     }
     setBusy(true)
@@ -76,7 +76,7 @@ export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; on
           </label>
           <label className="auth-field">
             <span>密码</span>
-            <div><ShieldCheck size={17} /><input type={showPassword ? 'text' : 'password'} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} placeholder="至少 6 位" value={password} onChange={(event) => setPassword(event.target.value)} /><button type="button" aria-label={showPassword ? '隐藏密码' : '显示密码'} onClick={() => setShowPassword((value) => !value)}>{showPassword ? <EyeOff size={16} /> : <Eye size={16} />}</button></div>
+            <div><ShieldCheck size={17} /><input type={showPassword ? 'text' : 'password'} autoComplete={mode === 'login' ? 'current-password' : 'new-password'} placeholder="至少 8 位" value={password} onChange={(event) => setPassword(event.target.value)} /><button type="button" aria-label={showPassword ? '隐藏密码' : '显示密码'} onClick={() => setShowPassword((value) => !value)}>{showPassword ? <EyeOff size={16} /> : <Eye size={16} />}</button></div>
           </label>
           {error ? <p className="auth-notice error" role="alert">{error}</p> : null}
           {message ? <p className="auth-notice success" role="status">{message}</p> : null}

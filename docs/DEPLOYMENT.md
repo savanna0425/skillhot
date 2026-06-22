@@ -66,14 +66,25 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 
 ### 5. Supabase 账号与收藏
 
+当前生产项目：
+
+- 项目名：`skillhot`
+- Project ref：`kcetjexmnbqdyznnrzwa`
+- 区域：Tokyo / `ap-northeast-1`
+- Project URL：`https://kcetjexmnbqdyznnrzwa.supabase.co`
+- 邮箱注册：已开启，必须完成邮箱确认
+- 匿名账号：已关闭；未登录访客仍可浏览公开的静态 Skills 数据
+- 数据库：`user_favorites` migration 已应用，RLS 已启用
+- GitHub Secrets：已配置 URL 与 publishable key；secret/service-role key 未进入前端
+
 前端通过两个 GitHub Actions Secrets 连接 Supabase：
 
 - `VITE_SUPABASE_URL`：项目 URL，可公开。
-- `VITE_SUPABASE_ANON_KEY`：浏览器端 anon key，可公开；数据安全依赖 RLS，而不是隐藏这个 key。
+- `VITE_SUPABASE_PUBLISHABLE_KEY`：浏览器端 publishable key，可公开；数据安全依赖 RLS，而不是隐藏这个 key。代码仍兼容旧项目的 `VITE_SUPABASE_ANON_KEY`。
 
 数据库初始化 SQL：`supabase/migrations/202606210001_user_favorites.sql`。它创建 `user_favorites`，只授予 authenticated 角色查询、新增、删除权限，并通过 `(select auth.uid()) = user_id` 保证用户只能访问自己的收藏。
 
-控制台配置步骤：
+新环境重建步骤：
 
 1. 在 Supabase Free Plan 创建 `skillhot` 项目。
 2. 打开 SQL Editor，执行上述 migration。
@@ -82,6 +93,8 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 5. 把项目 URL 与 anon key 写入 GitHub Actions Secrets，重新运行部署工作流。
 
 Supabase Free Plan 当前包含 50,000 MAU 与 500 MB 数据库，足够早期使用。内置邮件服务仅适合试用，项目级合计 2 封/小时；正式开放注册前应配置自有 SMTP。Custom SMTP 在 Free Plan 可用，不需要升级 Supabase 套餐。
+
+生产验证结果：匿名请求收藏表返回 HTTP 401；临时已确认用户读取返回 200、写入自己的收藏返回 201、伪造其他 `user_id` 返回 403、删除自己的收藏返回 204。临时测试用户已删除。
 
 ## 本地项目
 
@@ -114,7 +127,7 @@ pnpm build
 
 ```bash
 cp .env.example .env.local
-# 填入 VITE_SUPABASE_URL 与 VITE_SUPABASE_ANON_KEY
+# 填入 VITE_SUPABASE_URL 与 VITE_SUPABASE_PUBLISHABLE_KEY
 pnpm dev
 ```
 
@@ -179,7 +192,7 @@ Actions 任务使用仓库 `GITHUB_TOKEN`，配额足以完成每日一次更新
 
 ### 登录页提示“登录服务等待部署配置”
 
-检查 GitHub 仓库的两个 Supabase Secrets 是否存在，并确认最近一次 Pages 构建步骤已读取它们。Vite 环境变量在构建时写入产物，因此修改 Secret 后必须重新部署。
+检查 GitHub 仓库的 `VITE_SUPABASE_URL` 与 `VITE_SUPABASE_PUBLISHABLE_KEY` 是否存在，并确认最近一次 Pages 构建步骤已读取它们。Vite 环境变量在构建时写入产物，因此修改 Secret 后必须重新部署。
 
 ### 收到登录但看不到收藏
 
