@@ -111,8 +111,8 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
     <section className="content-page about-page">
       <div className="about-hero">
         <h1>让好用的 Agent Skills 更容易被发现。</h1>
-        <p>SkillHot 是一个开放的中文索引，持续整理 GitHub 上可安装、可复用、仍在维护的 Agent Skills。</p>
-        <div><a className="black-button" href={repositoryUrl} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 查看源代码</a><a href={`${import.meta.env.BASE_URL}data/skills.csv`} download>下载开放数据</a></div>
+        <p>SkillHot 是一个开放的中文索引，持续整理 GitHub 上可安装、可复用、仍在维护的 Agent Skills 与配套工具。</p>
+        <div><a className="black-button" href={repositoryUrl} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 查看源代码</a></div>
       </div>
       <div className="about-metrics">
         <article><strong>{data.meta.repositories}</strong><span>开源仓库</span></article>
@@ -123,7 +123,7 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
       <div className="principle-grid">
         <article><SearchCheck /><h2>多源发现</h2><p>综合 GitHub Topics、聚焦搜索和经过核验的社区来源，降低遗漏。</p></article>
         <article><RefreshCw /><h2>持续更新</h2><p>每天刷新 Stars、活跃度、README 安装方式、兼容平台与媒体信息。</p></article>
-        <article><Database /><h2>开放数据</h2><p>网站使用的 JSON 与 CSV 均公开，可下载、复核或用于自己的项目。</p></article>
+        <article><Database /><h2>信息可复核</h2><p>每条简介、分类、安装方式和活跃度都能回到 GitHub 原仓库核验。</p></article>
         <article><ShieldCheck /><h2>可追溯</h2><p>每个条目都链接回原始仓库与 GitHub Topic，不代替作者文档。</p></article>
       </div>
       <div className="community-callout">

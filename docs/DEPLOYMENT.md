@@ -1,6 +1,6 @@
 # SkillHot 部署交付文档
 
-更新时间：2026-06-21
+更新时间：2026-06-22
 
 ## 目标
 
@@ -30,7 +30,7 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 - 当前索引以综合排名前 1,500 个仓库为主，并额外保留精选补漏来源；当前共 1,502 个仓库。
 - 数据包含分类、介绍、Stars、活跃度、最近更新时间、适用场景、兼容平台、技能规模、用法、安装命令、来源 Topic、仓库/主页链接、GitHub 社交预览图与视频链接。
 - JSON：`public/data/skills.json`
-- CSV：`public/data/skills.csv`
+- 运行数据：`public/data/skills.json`（不提供站内 CSV 导出）
 
 ### 2. Cloudflare DNS
 
@@ -56,7 +56,7 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 
 1. 调用 GitHub REST API 获取 Topic 与仓库数据。
 2. 使用本地确定性规则过滤、分类、评分和生成中文摘要。
-3. 生成 JSON 与 CSV。
+3. 生成网站运行所需的 JSON，并执行全库分类与简介质量门禁。
 4. 写入带最新更新时间的完整快照并提交到 `main`。
 5. 同一工作流的 deploy job 重新构建并发布网站；普通代码提交由 `.github/workflows/deploy-pages.yml` 发布。
 
@@ -121,6 +121,44 @@ GITHUB_TOKEN="$(gh auth token)" pnpm update:data
 ```bash
 pnpm check
 pnpm build
+pnpm test:e2e
+```
+
+`pnpm test:e2e` 通过 Playwright 的 `channel: chrome` 明确调用 Google Chrome，而不是系统默认的 Edge。当前自动化覆盖：
+
+- 搜索 `cc-switch` 后只展示一组去重结果，并核验“Agent工具与平台”分类与中文简介。
+- 搜索 `superpowers` 后核验“编程开发”分类。
+- 详情栏的作者原始描述、分类置信度、安装与平台信息。
+- 访客收藏跳转登录、榜单/分类导航。
+- 页面不存在 CSV 导出、下载开放数据或 `skills.csv` 链接。
+- 390 × 844 窄屏下的筛选抽屉和分类页。
+
+### 全库语义审计
+
+- `scripts/audit-catalog-local.py`：一次性使用本地 Qwen3.5 翻译作者描述，不调用付费 API。
+- `scripts/catalog-review.json`：按仓库描述指纹缓存 1,502 条审核结果。
+- `scripts/catalog-taxonomy.mjs`：名称/作者描述高权重、Topics 低权重的确定性分类。
+- `scripts/rebuild-reviewed-catalog.mjs`：重建当前快照并生成 `docs/CATALOG_AUDIT.md`。
+- 每日任务只复用审核缓存和确定性规则，付费模型 Token 为 0。
+
+### 横屏介绍视频
+
+视频工程：`video/skillhot-intro/`
+
+- 1920 × 1080 / 30fps / 72 秒。
+- 素材：真实 Google Chrome 网站录屏与页面截图。
+- 旁白：本机 Qwen TTS 克隆 Sav 同学音色，离线生成并用本地 Whisper 转录校对。
+- 动画：HyperFrames + GSAP，包含推入、模糊交叉、zoom-through 和字幕时间线。
+- 最终成片：`video/skillhot-intro/renders/skillhot-intro.mp4`（本地交付，不提交 Git）。
+
+重新渲染：
+
+```bash
+cd "/Volumes/Mac SN7100/Documents/codex图文/skillhot/video/skillhot-intro"
+pnpm install
+pnpm exec hyperframes lint
+pnpm exec hyperframes validate
+pnpm exec hyperframes render -o renders/skillhot-intro.mp4 --quality high --fps 30 --video-frame-format png
 ```
 
 本地账号联调：

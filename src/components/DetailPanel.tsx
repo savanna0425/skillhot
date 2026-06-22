@@ -64,6 +64,11 @@ export function DetailPanel({ skill, open, isFavorite, onFavorite, onClose, onRe
       </dl>
 
       <section className="detail-section">
+        <h3>作者原始描述</h3>
+        <p className="original-description">{skill.description || '仓库作者暂未填写 GitHub 简介，请查看 README。'}</p>
+        <div className="classification-evidence"><span>分类置信度 · {skill.categoryConfidence}</span><small>依据仓库名称、作者描述与 GitHub Topics 综合判断</small></div>
+      </section>
+      <section className="detail-section">
         <h3>兼容平台</h3>
         <div className="tag-list">{skill.platforms.map((platform) => <span key={platform}>{platform}</span>)}</div>
       </section>

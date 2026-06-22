@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, height=1080" />
+  <script src="./assets/gsap.min.js"></script>
+  <style>
+    :root { --ink:#111114; --paper:#faf9f6; --white:#fff; --soft:#f7f7f8; --line:#e4e5e8; --muted:#6f7078; --coral:#f2555f; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html, body { width:1920px; height:1080px; overflow:hidden; background:var(--paper); }
+    body { color:var(--ink); font-family:sans-serif; }
+    #root { position:relative; width:1920px; height:1080px; overflow:hidden; background:var(--paper); }
+    .scene { position:absolute; inset:0; overflow:hidden; background:var(--paper); opacity:0; }
+    .s1 { opacity:1; }
+    .eyebrow { display:inline-flex; align-items:center; gap:12px; padding:11px 18px; border:1px solid var(--ink); border-radius:999px; background:var(--white); font-size:24px; font-weight:750; }
+    .eyebrow::before { content:""; width:10px; height:10px; border-radius:50%; background:var(--coral); }
+    .headline { font-size:92px; line-height:1.04; letter-spacing:-5px; font-weight:950; }
+    .subline { color:var(--muted); font-size:31px; line-height:1.5; font-weight:600; }
+    .mono { font-family:monospace; }
+
+    .browser { position:absolute; left:90px; top:56px; width:1740px; height:894px; overflow:hidden; border:1px solid #d5d6d9; border-radius:24px; background:#fff; box-shadow:0 34px 90px rgba(17,17,20,.16); }
+    .browser-bar { height:58px; padding:0 20px; display:flex; align-items:center; gap:10px; border-bottom:1px solid var(--line); background:#fff; }
+    .dot { width:12px; height:12px; border-radius:50%; background:#d8d9dd; }
+    .dot.hot { background:var(--coral); }
+    .address { height:34px; margin-left:14px; padding:0 18px; display:flex; align-items:center; flex:1; border:1px solid var(--line); border-radius:9px; color:#676870; background:var(--soft); font-size:17px; }
+    .browser-view { position:absolute; inset:58px 0 0; overflow:hidden; background:#fff; }
+    .browser-view img, .browser-view video { width:100%; height:100%; object-fit:cover; object-position:top center; display:block; }
+    .media-mask { position:absolute; inset:0; background:rgba(17,17,20,.12); pointer-events:none; }
+    .float-card { position:absolute; z-index:4; padding:24px 30px; border:1px solid var(--ink); border-radius:18px; background:#fff; box-shadow:0 18px 48px rgba(17,17,20,.14); }
+    .float-card.dark { border-color:var(--ink); background:var(--ink); color:#fff; }
+    .float-card.coral { border-color:var(--coral); background:var(--coral); color:#fff; }
+    .float-card strong { display:block; font-size:34px; line-height:1.18; letter-spacing:-1px; }
+    .float-card span { display:block; margin-top:7px; color:inherit; opacity:.72; font-size:20px; font-weight:650; }
+
+    .caption-wrap { position:absolute; z-index:100; left:0; right:0; bottom:38px; display:flex; justify-content:center; pointer-events:none; }
+    .caption { min-width:520px; max-width:1500px; min-height:78px; padding:14px 32px; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,.14); border-radius:16px; background:rgba(17,17,20,.94); color:#fff; box-shadow:0 12px 38px rgba(17,17,20,.2); text-align:center; font-size:42px; line-height:1.18; font-weight:760; letter-spacing:.2px; }
+
+    /* Scene 1 */
+    .s1 .browser { filter:saturate(.15); }
+    .s1 .hook { position:absolute; z-index:5; left:132px; top:122px; width:960px; padding:42px 48px 46px; border-radius:22px; background:rgba(17,17,20,.95); color:#fff; box-shadow:0 30px 80px rgba(17,17,20,.28); }
+    .s1 .hook small { color:#c8c9cd; font-size:25px; font-weight:650; }
+    .s1 .hook h1 { margin-top:16px; font-size:92px; line-height:1.03; letter-spacing:-5px; }
+    .s1 .hook h1 em { color:#ff7b72; font-style:normal; }
+    .s1 .hook p { margin-top:20px; color:#d9dade; font-size:30px; }
+    .s1 .answer { position:absolute; z-index:6; right:126px; bottom:154px; padding:28px 34px; border-radius:18px; background:var(--coral); color:#fff; font-size:46px; font-weight:900; box-shadow:0 20px 56px rgba(242,85,95,.32); }
+
+    /* Scene 2 */
+    .s2 .side-note { left:126px; top:104px; width:385px; }
+    .s2 .source-row { position:absolute; z-index:4; right:122px; top:104px; display:flex; gap:12px; }
+    .s2 .source-row span { padding:12px 17px; border:1px solid var(--ink); border-radius:999px; background:#fff; font-size:19px; font-weight:750; }
+    .s2 .daily { right:126px; bottom:156px; }
+
+    /* Scene 3 */
+    .s3 .feature-stack { position:absolute; z-index:4; left:122px; bottom:154px; display:flex; gap:12px; }
+    .s3 .feature-stack span { padding:15px 19px; border:1px solid var(--ink); border-radius:12px; background:#fff; font-size:21px; font-weight:760; box-shadow:0 12px 30px rgba(17,17,20,.1); }
+    .s3 .feature-title { right:126px; top:102px; width:420px; }
+
+    /* Scene 4 */
+    .s4 .compare-a { left:126px; top:105px; width:400px; }
+    .s4 .compare-b { right:126px; top:105px; width:455px; }
+    .s4 .arrow { position:absolute; z-index:5; left:50%; top:122px; width:84px; height:84px; margin-left:-42px; display:grid; place-items:center; border-radius:50%; background:#fff; border:1px solid var(--ink); font-size:42px; font-weight:900; }
+
+    /* Scene 5 */
+    .browser-shot { position:absolute; inset:0; opacity:0; }
+    .browser-shot:first-child { opacity:1; }
+    .s5 .metric { left:126px; top:103px; width:355px; }
+    .s5 .metric strong { font-size:76px; letter-spacing:-4px; }
+    .s5 .save-card { right:126px; bottom:158px; }
+
+    /* Scene 6 */
+    .s6 .domain-card { position:absolute; z-index:6; left:50%; top:50%; width:1420px; padding:58px 64px; transform:translate(-50%,-50%); border:2px solid var(--ink); border-radius:26px; background:rgba(255,255,255,.96); box-shadow:0 34px 90px rgba(17,17,20,.2); text-align:center; }
+    .s6 .domain-card small { display:block; color:var(--muted); font-size:30px; font-weight:700; }
+    .s6 .domain-card strong { display:block; margin-top:18px; font-size:96px; line-height:1; letter-spacing:-4px; }
+    .s6 .domain-card em { display:inline-block; margin-top:28px; padding:14px 22px; border-radius:999px; background:var(--coral); color:#fff; font-size:26px; font-style:normal; font-weight:800; }
+
+    /* Scene 7 */
+    .s7 { display:flex; align-items:center; justify-content:center; background:#fff; }
+    .s7::before { content:"SKILLHOT"; position:absolute; left:50%; top:49%; transform:translate(-50%,-50%); color:#f4f4f5; font-size:270px; font-weight:950; letter-spacing:-16px; }
+    .final-card { position:relative; z-index:3; width:1420px; min-height:650px; padding:74px 86px; display:grid; grid-template-columns:260px 1fr; align-items:center; gap:64px; border:1px solid var(--ink); border-radius:28px; background:#fff; box-shadow:0 34px 90px rgba(17,17,20,.13); }
+    .avatar { width:240px; height:240px; padding:7px; border:2px solid var(--ink); border-radius:50%; background:#fff; box-shadow:0 24px 60px rgba(17,17,20,.16); }
+    .avatar img { width:100%; height:100%; display:block; object-fit:cover; object-position:50% 28%; border-radius:50%; }
+    .final-copy h2 { font-size:76px; letter-spacing:-3px; }
+    .final-copy p { margin-top:16px; color:var(--muted); font-size:31px; font-weight:650; }
+    .final-domain { margin-top:40px; padding:22px 28px; border-radius:15px; background:var(--ink); color:#fff; font-size:42px; font-weight:850; }
+    .final-actions { margin-top:24px; display:flex; gap:14px; }
+    .final-actions span { padding:14px 22px; border:1px solid var(--ink); border-radius:999px; font-size:23px; font-weight:800; }
+    .final-actions .follow { border-color:var(--coral); background:var(--coral); color:#fff; }
+  </style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="64" data-width="1920" data-height="1080">
+  <audio id="voiceover" class="clip" data-start="0" data-duration="62" data-track-index="8" src="./assets/narration.wav"></audio>
+
+  <section id="s1" class="scene s1">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">GitHub · Agent Skills</div></div><div class="browser-view"><img src="./assets/site-home.png" alt="SkillHot 首页"></div><div class="media-mask"></div></div>
+    <div class="hook"><small>一个陌生 Agent Skill</small><h1>还要去 GitHub<br><em>翻半天？</em></h1><p>装完，可能还不适合你的工作流。</p></div>
+    <div class="answer">那就先筛一遍 →</div>
+  </section>
+
+  <section id="s2" class="scene s2">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">SkillHot · 中文技能导航</div></div><div class="browser-view"><video id="site-demo" class="clip" data-start="8.06" data-duration="16.52" data-track-index="3" src="./assets/site-demo.webm" poster="./assets/site-home.png" muted playsinline></video></div></div>
+    <div class="float-card dark side-note"><strong>SkillHot</strong><span>用 vibe coding 做的中文技能导航</span></div>
+    <div class="source-row" data-layout-allow-overflow><span>1500+ 开源项目</span><span>14 类使用场景</span></div>
+    <div class="float-card coral daily"><strong>每天更新</strong><span>更快找到还活跃的工具</span></div>
+  </section>
+
+  <section id="s3" class="scene s3">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">SkillHot · 分类与榜单</div></div><div class="browser-view"><img id="s3cat" class="browser-shot" src="./assets/site-categories.png" alt="技能分类"><img id="s3rank" class="browser-shot" src="./assets/site-ranking.png" alt="Skills 榜单"></div></div>
+    <div class="float-card dark feature-title"><strong>不知道从哪开始？</strong><span>按场景浏览，按榜单追热门</span></div>
+    <div class="feature-stack"><span>编程开发</span><span>内容创作</span><span>办公效率</span><span>自动化</span><span>Stars</span><span>更新活跃度</span></div>
+  </section>
+
+  <section id="s4" class="scene s4">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">SkillHot · 项目详情</div></div><div class="browser-view"><img src="./assets/site-detail-firecrawl.png" alt="SkillHot 项目详情页"></div></div>
+    <div class="float-card dark compare-a"><strong>详情页</strong><span>先看懂，再决定是否适合</span></div>
+    <div class="arrow">→</div>
+    <div class="float-card coral compare-b"><strong>信息聚合</strong><span>中文介绍 · 平台 · 用法 · 原始说明</span></div>
+  </section>
+
+  <section id="s5" class="scene s5">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">SkillHot · 话题与收藏</div></div><div class="browser-view"><img src="./assets/site-topics.png" alt="Skills 生态话题"></div></div>
+    <div class="float-card dark metric"><strong>横向比较</strong><span>同一话题下，看不同项目</span></div>
+    <div class="float-card coral save-card"><strong>登录后收藏</strong><span>以后想看，换设备继续看</span></div>
+  </section>
+
+  <section id="s6" class="scene s6">
+    <div class="browser"><div class="browser-bar"><i class="dot hot"></i><i class="dot"></i><i class="dot"></i><div class="address mono">SkillHot</div></div><div class="browser-view"><img src="./assets/site-search-firecrawl.png" alt="SkillHot 搜索"></div><div class="media-mask"></div></div>
+    <div class="domain-card"><small>下次看到陌生 Skill</small><strong>先去 SkillHot 查清楚</strong><em>入口在主页和置顶评论</em></div>
+  </section>
+
+  <section id="s7" class="scene s7">
+    <div class="final-card"><div class="avatar"><img src="./assets/sav-avatar.webp" alt="Sav同学"></div><div class="final-copy"><h2>我是 Sav同学</h2><p>继续分享真正能用起来的 AI 工具</p><div class="final-domain">SkillHot · Agent Skills 中文导航</div><div class="final-actions"><span>入口看主页</span><span class="follow">＋ 关注 Sav同学</span></div></div></div>
+  </section>
+
+  <div class="caption-wrap" data-layout-allow-occlusion><div id="caption" class="caption"></div></div>
+</div>
+
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused:true, defaults:{ ease:"power3.out" } });
+  const scenes = ["#s2","#s3","#s4","#s5","#s6","#s7"];
+  tl.set(scenes, { opacity:0 }, 0);
+
+  tl.fromTo("#s1 .browser", { scale:1.035 }, { scale:1, duration:7.6, ease:"none" }, 0);
+  tl.fromTo("#s1 .hook", { x:-70, opacity:0 }, { x:0, opacity:1, duration:.7 }, .15);
+  tl.fromTo("#s1 .answer", { y:36, opacity:0 }, { y:0, opacity:1, duration:.55 }, 6.0);
+
+  // CSS push transition
+  tl.fromTo("#s2", { x:1920, opacity:1 }, { x:0, opacity:1, duration:.72, ease:"power2.inOut" }, 7.72);
+  tl.fromTo("#s1", { x:0, opacity:1 }, { x:-320, opacity:0, duration:.72, ease:"power2.inOut", immediateRender:false }, 7.72);
+  tl.fromTo("#s2 .side-note", { y:-28, opacity:0 }, { y:0, opacity:1, duration:.55 }, 8.45);
+  tl.fromTo("#s2 .source-row span", { y:-20, opacity:0 }, { y:0, opacity:1, stagger:.1, duration:.45 }, 11.2);
+  tl.fromTo("#s2 .daily", { y:30, opacity:0 }, { y:0, opacity:1, duration:.55 }, 20.4);
+
+  // Blur crossfade transition
+  tl.fromTo("#s3", { opacity:0, filter:"blur(18px)", scale:1.03 }, { opacity:1, filter:"blur(0px)", scale:1, duration:.75 }, 22.25);
+  tl.to("#s2", { opacity:0, filter:"blur(14px)", duration:.7 }, 22.25);
+  tl.fromTo("#s3 .feature-title", { x:42, opacity:0 }, { x:0, opacity:1, duration:.58 }, 22.8);
+  tl.fromTo("#s3 .feature-stack span", { y:24, opacity:0 }, { y:0, opacity:1, stagger:.08, duration:.42 }, 24.0);
+  tl.to("#s3cat", { opacity:0, duration:.5 }, 26.2);
+  tl.to("#s3rank", { opacity:1, duration:.5 }, 26.2);
+
+  // Zoom-through transition
+  tl.to("#s3", { scale:1.08, opacity:0, duration:.7, ease:"power2.in" }, 32.65);
+  tl.fromTo("#s4", { scale:.92, opacity:0 }, { scale:1, opacity:1, duration:.72, ease:"power2.out" }, 32.65);
+  tl.fromTo(["#s4 .compare-a","#s4 .compare-b"], { y:-30, opacity:0 }, { y:0, opacity:1, stagger:.13, duration:.58 }, 33.25);
+  tl.fromTo("#s4 .arrow", { scale:.55, opacity:0, rotation:-20 }, { scale:1, opacity:1, rotation:0, duration:.5 }, 36.5);
+
+  // Dissolve transition
+  tl.fromTo("#s5", { opacity:0 }, { opacity:1, duration:.75 }, 43.65);
+  tl.to("#s4", { opacity:0, duration:.75 }, 43.65);
+  tl.fromTo("#s5 .metric", { x:-35, opacity:0 }, { x:0, opacity:1, duration:.55 }, 44.0);
+  tl.fromTo("#s5 .save-card", { y:32, opacity:0 }, { y:0, opacity:1, duration:.55 }, 46.7);
+
+  // Vertical push transition
+  tl.fromTo("#s6", { y:1080, opacity:1 }, { y:0, opacity:1, duration:.72, ease:"power2.inOut" }, 49.35);
+  tl.to("#s5", { y:-260, opacity:0, duration:.72, ease:"power2.inOut" }, 49.35);
+  tl.fromTo("#s6 .domain-card", { scale:.92, opacity:0 }, { scale:1, opacity:1, duration:.62 }, 50.0);
+  tl.fromTo("#s6 .domain-card strong", { letterSpacing:"2px", opacity:.45 }, { letterSpacing:"-2px", opacity:1, duration:.9 }, 53.0);
+
+  tl.fromTo("#s7", { opacity:0 }, { opacity:1, duration:.8, ease:"none", immediateRender:false }, 56.75);
+  tl.fromTo("#s6", { opacity:1 }, { opacity:0, duration:.65, ease:"none", immediateRender:false }, 57.0);
+  tl.fromTo("#s7 .final-card", { y:42, opacity:0, scale:.98 }, { y:0, opacity:1, scale:1, duration:.7 }, 57.2);
+  tl.fromTo("#s7 .avatar", { scale:.7, opacity:0, rotation:-8 }, { scale:1, opacity:1, rotation:0, duration:.6 }, 57.35);
+  tl.fromTo("#s7 .final-copy > *", { y:22, opacity:0 }, { y:0, opacity:1, stagger:.12, duration:.46 }, 57.45);
+
+  const captions = [
+    [0.40,1.96,"如果你每次找 Agent Skills"],[1.96,3.90,"都要在 GitHub 里翻项目"],[3.90,5.98,"看文档，猜它适不适合自己"],[5.98,8.00,"那就先试试 SkillHot"],
+    [8.54,10.90,"这是我用 vibe coding 做的中文技能导航"],[11.24,15.08,"它把 GitHub 上一千五百多个开源 Skills 和配套工具"],[15.08,16.28,"按编程开发"],[16.28,17.30,"内容创作"],[17.30,18.30,"办公效率"],[18.30,20.08,"自动化等十四类使用场景"],[20.08,20.84,"整理好"],[20.84,21.94,"并且每天更新"],
+    [22.54,23.56,"不知道从哪开始"],[23.56,24.98,"可以先按场景浏览"],[25.34,26.42,"想追最近热门"],[26.42,28.20,"就看榜单里的综合热度"],[28.20,30.12,"Stars 和更新活跃度"],[30.62,31.42,"已经有目标"],[31.42,32.42,"直接搜项目名"],
+    [33.04,34.04,"点进详情页"],[34.04,34.94,"中文介绍"],[34.94,36.26,"适用平台、使用方法"],[36.26,36.74,"许可证"],[36.74,39.26,"更新状态和作者原始说明都放在一起"],[39.94,42.14,"你可以更快看懂它能解决什么问题"],[42.14,43.94,"是否适合自己的工具链"],
+    [43.94,45.26,"遇到想以后再看的"],[45.26,46.42,"登录后收藏"],[46.90,48.52,"想比较同一话题下的项目"],[48.52,49.62,"也可以横向浏览"],
+    [49.62,51.62,"所以下次看到一个陌生 Skill"],[51.62,52.84,"别急着安装"],[53.18,54.84,"先去 SkillHot 查清楚"],[55.24,57.16,"入口在我的主页和置顶评论"],
+    [57.16,58.24,"我是 Sav同学"],[58.82,60.16,"关注我，继续分享"],[60.16,61.90,"真正能用起来的 AI 工具"]
+  ];
+  captions.forEach(([start,end,text]) => {
+    tl.set("#caption", { textContent:text, opacity:0, visibility:"visible", y:12 }, start);
+    tl.to("#caption", { opacity:1, y:0, duration:.14, ease:"power1.out", overwrite:"auto" }, start);
+    tl.to("#caption", { opacity:0, duration:.08, overwrite:"auto" }, Math.max(start+.18,end-.08));
+    tl.set("#caption", { opacity:0, visibility:"hidden" }, end);
+  });
+  tl.set("#caption", { opacity:0, visibility:"hidden" }, 61.95);
+  window.__timelines.main = tl;
+</script>
+</body>
+</html>

@@ -1,6 +1,13 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import {
+  categoryMeta as taxonomyCategoryMeta,
+  classifyCategory,
+  scenariosFor as taxonomyScenariosFor,
+  summaryFor as taxonomySummaryFor,
+  usageFor as taxonomyUsageFor,
+} from './catalog-taxonomy.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -68,8 +75,13 @@ const maxRepositories = 1500
 const curated = {
   'obra/superpowers': {
     summary: '一套面向智能体的软件开发方法与技能框架',
-    category: '技能框架',
+    category: '编程开发',
     scenarios: ['复杂软件开发', '规范化 Agent 工作流', '团队工程实践'],
+  },
+  'farion1231/cc-switch': {
+    summary: '跨平台管理 Claude Code、Codex 等编程智能体及模型服务配置',
+    category: 'Agent工具与平台',
+    scenarios: ['模型提供商切换', '编程智能体配置', '多平台客户端管理'],
   },
   'anthropics/skills': {
     summary: 'Agent Skills 公共仓库、规范示例与参考实现',
@@ -549,11 +561,6 @@ function skillCountFor(markdown) {
   return matches.length ? Math.max(...matches) : 1
 }
 
-function csvEscape(value) {
-  const text = String(value ?? '')
-  return /[",\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text
-}
-
 async function main() {
   console.log('Discovering the first three pages of GitHub topic search…')
   const topicPages = []
@@ -658,10 +665,11 @@ async function main() {
   }
 
   const skills = ranked.map(({ repo, sourceTopics: topics, channels, score }, index) => {
-    const category = categoryFor(repo)
+    const override = curatedFor(repo.full_name) || {}
+    const classification = classifyCategory(repo, override)
+    const category = classification.category
     const readme = readmes.get(repo.full_name) || ''
     const activity = activityFor(repo.pushed_at)
-    const override = curatedFor(repo.full_name) || {}
     const cloneCommand = `git clone ${repo.html_url}.git`
     return {
       rank: index + 1,
@@ -673,11 +681,13 @@ async function main() {
       url: repo.html_url,
       homepage: repo.homepage || '',
       description: repo.description || '',
-      summary: summaryFor(repo, category, override),
+      summary: taxonomySummaryFor(repo, category, override),
       category,
-      categoryDescription: categoryMeta[category],
-      scenarios: override.scenarios || scenariosFor(category),
-      howToUse: usageFor(category),
+      categoryDescription: taxonomyCategoryMeta[category],
+      categoryConfidence: classification.confidence,
+      categoryReason: classification.reason,
+      scenarios: override.scenarios || taxonomyScenariosFor(category),
+      howToUse: taxonomyUsageFor(category),
       installCommand: extractInstall(readme, cloneCommand),
       language: repo.language || '',
       license: repo.license?.spdx_id || '',
@@ -703,7 +713,7 @@ async function main() {
     }
   })
 
-  const categories = Object.entries(categoryMeta).map(([name, description]) => ({
+  const categories = Object.entries(taxonomyCategoryMeta).map(([name, description]) => ({
     name,
     description,
     count: skills.filter((skill) => skill.category === name).length,
@@ -732,7 +742,7 @@ async function main() {
       discoveryChannels: 4,
       activeHighStarCutoff: activeCutoff,
       readmeEnriched: readmeTargets.length,
-      updateMode: 'GitHub REST API + deterministic classification',
+      updateMode: 'GitHub REST API + reviewed summaries + weighted deterministic classification',
     },
     topicPages,
     sourceTopics: sourceTopics.map((name) => ({ name, url: `https://github.com/topics/${name}` })),
@@ -741,35 +751,8 @@ async function main() {
     skills,
   }
 
-  const csvHeaders = ['排名', '仓库', '分类', '简介', 'Stars', '活跃度', '最近推送', '语言', '许可证', '兼容平台', '技能数量', '发现渠道', '来源话题', '适用场景', '用法', '安装命令', '图片', '视频', 'GitHub']
-  const csvRows = skills.map((skill) => [
-    skill.rank,
-    skill.fullName,
-    skill.category,
-    skill.summary,
-    skill.stars,
-    skill.activity,
-    skill.pushedAt,
-    skill.language,
-    skill.license,
-    skill.platforms.join(' | '),
-    skill.skillCount,
-    skill.discoveredBy.join(' | '),
-    skill.sourceTopics.join(' | '),
-    skill.scenarios.join(' | '),
-    skill.howToUse,
-    skill.installCommand,
-    skill.media.socialPreview,
-    skill.media.videoUrl,
-    skill.url,
-  ])
-  const csv = `\uFEFF${[csvHeaders, ...csvRows].map((row) => row.map(csvEscape).join(',')).join('\n')}\n`
-
   await mkdir(outputDir, { recursive: true })
-  await Promise.all([
-    writeFile(path.join(outputDir, 'skills.json'), `${JSON.stringify(data, null, 2)}\n`),
-    writeFile(path.join(outputDir, 'skills.csv'), csv),
-  ])
+  await writeFile(path.join(outputDir, 'skills.json'), `${JSON.stringify(data, null, 2)}\n`)
   console.log(`Wrote ${skills.length} repositories, ${categories.length} categories and ${topicPages.length} topic pages at ${generatedAt}.`)
 }
 

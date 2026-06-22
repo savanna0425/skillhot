@@ -38,7 +38,7 @@ const iconByCategory: Record<string, ComponentType<LucideProps>> = {
   '自动化': Zap,
   '安全': ShieldCheck,
   '记忆与上下文': Database,
-  'Agent平台': Bot,
+  'Agent工具与平台': Bot,
   '产品与商业': FolderKanban,
   '技能开发': Sparkles,
   '技能合集': Library,

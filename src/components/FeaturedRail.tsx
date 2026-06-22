@@ -77,6 +77,7 @@ export function SkillGrid({ skills, emptyText = '没有找到匹配的 Skills', 
 interface DiscoverViewProps extends SkillActions {
   data: SkillData
   skills: Skill[]
+  searching?: boolean
 }
 
 function hashName(value: string) {
@@ -96,7 +97,7 @@ function shuffledSkills(skills: Skill[], seed: number) {
   return copy
 }
 
-export function DiscoverView({ data, skills, ...actions }: DiscoverViewProps) {
+export function DiscoverView({ data, skills, searching = false, ...actions }: DiscoverViewProps) {
   const [refresh, setRefresh] = useState(0)
   const newest = useMemo(
     () => skills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 8),
@@ -119,7 +120,7 @@ export function DiscoverView({ data, skills, ...actions }: DiscoverViewProps) {
       <section className="discover-hero">
         <div>
           <h1>发现适合你的 Agent Skills</h1>
-          <p>从开源社区持续发现真正可安装、可复用的技能，让 Agent 更懂你的工作。</p>
+          <p>持续整理可安装的 Skills 与配套 Agent 工具，用准确中文简介帮你更快选对。</p>
           <div className="hero-facts">
             <span><strong>{data.meta.repositories}</strong> 个仓库</span>
             <span><strong>{data.categories.length}</strong> 个分类</span>
@@ -128,6 +129,16 @@ export function DiscoverView({ data, skills, ...actions }: DiscoverViewProps) {
         </div>
         <img src={`${import.meta.env.BASE_URL}assets/illustrations/superpowers.png`} alt="Agent 正在发现新技能" />
       </section>
+
+      {searching ? (
+        <section className="search-results-section">
+          <div className="section-title-row">
+            <div><h2>搜索结果</h2><p>找到 {skills.length} 个匹配项目，按综合质量排序。</p></div>
+          </div>
+          <SkillGrid skills={skills} limit={48} {...actions} />
+        </section>
+      ) : (
+        <>
 
       <section className="new-discoveries">
         <div className="section-title-row"><div><h2>本周新发现</h2><p>最近仍在快速更新的实用项目。</p></div></div>
@@ -156,6 +167,8 @@ export function DiscoverView({ data, skills, ...actions }: DiscoverViewProps) {
         </div>
         <div key={refresh} className="recommendation-batch"><SkillGrid skills={recommendations} {...actions} /></div>
       </section>
+        </>
+      )}
     </div>
   )
 }
