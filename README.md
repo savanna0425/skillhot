@@ -4,7 +4,7 @@
 
 - 在线访问：<https://skillhot.savs-ai.com>
 - 数据由 GitHub 公开信息生成；站内导出入口已移除，分类与简介可回到原仓库复核。
-- 许可证：[MIT](LICENSE)
+- 版权：© 2026 savanna0425，保留所有权利（仅供展示，未授予复用/商用许可）。
 
 ## 功能
 
@@ -71,6 +71,8 @@ pnpm test:e2e
 
 欢迎提交遗漏的 Skill、分类修正、数据规则或界面改进。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。安全问题请参阅 [SECURITY.md](SECURITY.md)。
 
-## License
+## 版权
 
-[MIT](LICENSE) © 2026 savanna0425
+© 2026 savanna0425，保留所有权利（All rights reserved）。
+
+本仓库公开仅用于展示与交流，未附带任何开源许可证；除非另有书面授权，不授予复制、修改、分发或商用的权利。仓库内第三方资源（如 `video/skillhot-intro/assets/gsap.min.js`）仍受其各自许可证约束。
