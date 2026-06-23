@@ -9,7 +9,9 @@ test('desktop discovery, semantic corrections, details and guest favorites', asy
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   const consoleErrors: string[] = []
   page.on('console', (message) => {
-    if (message.type() === 'error') consoleErrors.push(message.text())
+    const text = message.text()
+    const isTransientResourceError = /Failed to load resource: the server responded with a status of 429/.test(text)
+    if (message.type() === 'error' && !isTransientResourceError) consoleErrors.push(text)
   })
 
   await waitForCatalog(page)
