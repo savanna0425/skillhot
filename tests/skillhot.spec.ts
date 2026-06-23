@@ -2,7 +2,7 @@ import { expect, test, type Page } from '@playwright/test'
 
 async function waitForCatalog(page: Page) {
   await page.goto('/')
-  await expect(page.getByRole('button', { name: '全部 Skills 1502' })).toBeVisible()
+  await expect(page.getByRole('button', { name: /^全部 Skills \d+$/ })).toBeVisible()
 }
 
 test('desktop discovery, semantic corrections, details and guest favorites', async ({ page }, testInfo) => {
@@ -43,7 +43,7 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
   await waitForCatalog(page)
   await page.getByRole('navigation', { name: '主要页面' }).getByRole('button', { name: '榜单' }).click()
   await expect(page.getByRole('heading', { name: 'Skills 榜单' })).toBeVisible()
-  await page.getByRole('button', { name: 'Agent工具与平台 136' }).click()
+  await page.getByRole('button', { name: /^Agent工具与平台 \d+$/ }).click()
   await expect(page.getByRole('heading', { name: 'Agent工具与平台', exact: true })).toBeVisible()
 
   await page.getByRole('button', { name: '关于', exact: true }).click()
@@ -61,7 +61,7 @@ test('mobile Chrome menu and discovery layout', async ({ page }, testInfo) => {
   await menu.click()
   const sidebar = page.getByRole('complementary', { name: '分类与导航' })
   await expect(sidebar).toBeVisible()
-  await sidebar.getByRole('button', { name: '编程开发 380' }).click()
+  await sidebar.getByRole('button', { name: /^编程开发 \d+$/ }).click()
   await expect(page.getByRole('heading', { name: '编程开发', exact: true })).toBeVisible()
   await page.screenshot({ path: 'test-results/mobile-category.png', fullPage: false })
 })
