@@ -31,7 +31,7 @@ test('desktop discovery, semantic corrections, details and guest favorites', asy
   await search.fill('superpowers')
   const superpowersCard = page.locator('.search-results-section article').filter({ hasText: 'obra/superpowers' })
   await expect(superpowersCard).toContainText('编程开发')
-  await expect(superpowersCard).toContainText('从需求澄清、规划到测试交付')
+  await expect(superpowersCard).toContainText('一套面向智能体的软件开发方法与技能框架')
 
   await page.screenshot({ path: 'test-results/desktop-search.png', fullPage: false })
   await superpowersCard.getByRole('button', { name: '收藏' }).click()
