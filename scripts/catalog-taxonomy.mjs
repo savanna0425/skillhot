@@ -245,7 +245,11 @@ export function semanticQualityIssues(skill) {
   if ((skill.summary || '').length < 8) issues.push('summary-too-short')
   if (/可用于扩展 Agent 的实际工作能力|是一个面向.+的开源项目/.test(skill.summary || '')) issues.push('generic-summary')
   if (/(\S{2,8})\1{4,}/.test(skill.summary || '')) issues.push('repeated-summary')
-  if (skill.category === 'UI设计' && !/\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|视觉|界面|设计|色彩/i.test(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
-  if (skill.category === '技能合集' && !(collectionPattern.test(`${skill.fullName} ${skill.description}`) && collectionSubject.test(`${skill.fullName} ${skill.description}`))) issues.push('collection-purpose-mismatch')
+  // 用途启发式仅用于纠正自动分类；人工复核（curated/manual）的类别以人工判断为准，
+  // 不被针对上游一句话描述的正则否决（例如 anthropics/skills 被人工标为官方合集，
+  // 但其 GitHub 描述 "Public repository for Agent Skills" 命中不了合集关键词）。
+  const humanCurated = skill.categoryConfidence === '人工复核'
+  if (!humanCurated && skill.category === 'UI设计' && !/\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|视觉|界面|设计|色彩/i.test(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
+  if (!humanCurated && skill.category === '技能合集' && !(collectionPattern.test(`${skill.fullName} ${skill.description}`) && collectionSubject.test(`${skill.fullName} ${skill.description}`))) issues.push('collection-purpose-mismatch')
   return issues
 }
