@@ -208,12 +208,17 @@ export function reviewedSummaryFor(repo) {
 }
 
 function cleanChineseDescription(description) {
-  return description
+  const cleaned = description
     .replace(/[\u{1F300}-\u{1FAFF}]/gu, '')
     .replace(/\s+/g, ' ')
     .replace(/([。！？；])\s+[A-Za-z][\x00-\x7F\s]{24,}$/s, '$1')
     .trim()
-    .slice(0, 120)
+  // English-first bilingual descriptions carry their Chinese past the first 120 chars
+  // (e.g. "Reverse Engineering ... 逆向/渗透/安全技能路由包 ..."). If the head has no
+  // Chinese, start from the first CJK character so the summary keeps the Chinese part.
+  const firstCJK = cleaned.search(/[㐀-鿿]/)
+  const body = firstCJK > 0 && !/[㐀-鿿]/.test(cleaned.slice(0, 120)) ? cleaned.slice(firstCJK) : cleaned
+  return body.slice(0, 120)
 }
 
 export function summaryFor(repo, category, override = {}) {
@@ -222,7 +227,10 @@ export function summaryFor(repo, category, override = {}) {
   if (reviewed) return reviewed
   const normalized = normalizedRepo(repo)
   const description = normalized.description
-  if (/[\u3400-\u9fff]/.test(description)) return cleanChineseDescription(description)
+  if (/[\u3400-\u9fff]/.test(description)) {
+    const cleaned = cleanChineseDescription(description)
+    if (/[\u3400-\u9fff]/.test(cleaned)) return cleaned
+  }
   const name = normalized.name
   const text = `${normalized.fullName} ${description} ${normalized.topics.join(' ')}`
   if (category === '技能合集') return `${name} 汇总相关 Skills、插件与社区资源，方便集中发现和选型。`
