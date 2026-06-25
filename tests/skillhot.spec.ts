@@ -55,6 +55,36 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
   await expect(page.locator('a[href*="skills.csv"]')).toHaveCount(0)
 })
 
+test('desktop detail panel resize and fullscreen', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+  // Disable the layout open-transition so width/position measurements are deterministic.
+  await page.addStyleTag({ content: '*, *::before, *::after { transition: none !important; animation: none !important; }' })
+  await page.locator('.detail-restore button').click()
+  const layout = page.locator('.site-layout')
+  await expect(page.locator('.detail-shell')).toBeVisible()
+  await expect(layout).toHaveCSS('--detail-width', '366px')
+
+  // fullscreen toggle covers the middle list, then restores
+  await page.locator('.detail-fullscreen-toggle').click()
+  await expect(layout).toHaveClass(/detail-fullscreen/)
+  await page.locator('.detail-fullscreen-toggle').click()
+  await expect(layout).not.toHaveClass(/detail-fullscreen/)
+
+  // drag the resizer left to widen, and persist the new width
+  const handle = page.locator('.detail-resizer')
+  const box = await handle.boundingBox()
+  if (!box) throw new Error('resizer not found')
+  await page.mouse.move(box.x + box.width / 2, box.y + 120)
+  await page.mouse.down()
+  await page.mouse.move(box.x - 220, box.y + 120, { steps: 10 })
+  await page.mouse.up()
+  const width = await layout.evaluate((el) => parseInt(getComputedStyle(el).getPropertyValue('--detail-width'), 10))
+  expect(width).toBeGreaterThan(500)
+  const stored = await page.evaluate(() => Number(localStorage.getItem('skillhot:detailWidth')))
+  expect(stored).toBeGreaterThan(500)
+})
+
 test('mobile Chrome menu and discovery layout', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-mobile', 'mobile product flow')
   await waitForCatalog(page)

@@ -1,4 +1,4 @@
-import { useDeferredValue, useEffect, useMemo, useState } from 'react'
+import { useDeferredValue, useEffect, useMemo, useRef, useState, type CSSProperties, type MouseEvent as ReactMouseEvent } from 'react'
 import { useAuth } from './auth/AuthContext'
 import { AuthView, ProfileView } from './components/AuthViews'
 import { DetailPanel } from './components/DetailPanel'
@@ -12,6 +12,15 @@ import type { Skill, SkillData, SortKey, ViewKey } from './types'
 
 const repositoryUrl = 'https://github.com/savanna0425/skillhot'
 const validViews: ViewKey[] = ['discover', 'ranking', 'categories', 'topics', 'favorites', 'about', 'auth', 'profile']
+
+const DETAIL_WIDTH_KEY = 'skillhot:detailWidth'
+const DETAIL_DEFAULT_WIDTH = 366
+const DETAIL_MIN_WIDTH = 320
+
+function initialDetailWidth(): number {
+  const stored = Number(window.localStorage.getItem(DETAIL_WIDTH_KEY))
+  return Number.isFinite(stored) && stored >= DETAIL_MIN_WIDTH ? stored : DETAIL_DEFAULT_WIDTH
+}
 
 const emptyData: SkillData = {
   meta: {
@@ -47,7 +56,10 @@ function App() {
   const [sort, setSort] = useState<SortKey>('score')
   const [selected, setSelected] = useState<Skill>()
   const [detailOpen, setDetailOpen] = useState(false)
+  const [detailWidth, setDetailWidth] = useState(initialDetailWidth)
+  const [detailFullscreen, setDetailFullscreen] = useState(false)
   const [leftCollapsed, setLeftCollapsed] = useState(false)
+  const layoutRef = useRef<HTMLDivElement>(null)
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
   const [favorites, setFavorites] = useState<Set<string>>(new Set())
   const [favoritesLoading, setFavoritesLoading] = useState(false)
@@ -107,6 +119,10 @@ function App() {
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
   }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem(DETAIL_WIDTH_KEY, String(detailWidth))
+  }, [detailWidth])
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -190,6 +206,37 @@ function App() {
     setDetailOpen(true)
   }
 
+  const startDetailResize = (event: ReactMouseEvent<HTMLDivElement>) => {
+    if (window.innerWidth < 1120) return
+    const layout = layoutRef.current
+    if (!layout) return
+    event.preventDefault()
+    setDetailFullscreen(false)
+    const layoutRect = layout.getBoundingClientRect()
+    const sidebar = layout.querySelector('.filter-sidebar')
+    const sidebarRight = sidebar ? sidebar.getBoundingClientRect().right : layoutRect.left
+    const maxWidth = Math.max(DETAIL_MIN_WIDTH, layoutRect.right - sidebarRight)
+    layout.classList.add('resizing')
+    let nextWidth = detailWidth
+    const onMove = (move: MouseEvent) => {
+      nextWidth = Math.min(Math.max(layoutRect.right - move.clientX, DETAIL_MIN_WIDTH), maxWidth)
+      layout.style.setProperty('--detail-width', `${nextWidth}px`)
+    }
+    const onUp = () => {
+      layout.classList.remove('resizing')
+      window.removeEventListener('mousemove', onMove)
+      window.removeEventListener('mouseup', onUp)
+      setDetailWidth(nextWidth)
+    }
+    window.addEventListener('mousemove', onMove)
+    window.addEventListener('mouseup', onUp)
+  }
+
+  const resetDetailWidth = () => {
+    setDetailFullscreen(false)
+    setDetailWidth(DETAIL_DEFAULT_WIDTH)
+  }
+
   const selectSidebarCategory = (name: string) => {
     setCategory(name)
     navigate('categories')
@@ -246,7 +293,11 @@ function App() {
   return (
     <div className="site-app">
       <SiteHeader view={view} onNavigate={navigate} query={query} setQuery={updateQuery} repositoryUrl={repositoryUrl} onMenu={() => setMobileFiltersOpen(true)} userEmail={user?.email} authConfigured={authConfigured} authLoading={authLoading} />
-      <div className={`site-layout ${leftCollapsed ? 'left-collapsed' : ''} ${detailOpen ? 'detail-visible' : ''}`}>
+      <div
+        ref={layoutRef}
+        className={`site-layout ${leftCollapsed ? 'left-collapsed' : ''} ${detailOpen ? 'detail-visible' : ''} ${detailFullscreen ? 'detail-fullscreen' : ''}`}
+        style={{ '--detail-width': `${detailWidth}px` } as CSSProperties}
+      >
         <Sidebar
           view={view}
           onNavigate={navigate}
@@ -276,6 +327,10 @@ function App() {
           onFavorite={toggleFavorite}
           onClose={() => setDetailOpen(false)}
           onRestore={() => setDetailOpen(true)}
+          fullscreen={detailFullscreen}
+          onToggleFullscreen={() => setDetailFullscreen((value) => !value)}
+          onResizeStart={startDetailResize}
+          onResizeReset={resetDetailWidth}
         />
       </div>
       {mobileFiltersOpen || detailOpen ? <button className="page-scrim" aria-label="关闭浮层" onClick={() => { setMobileFiltersOpen(false); setDetailOpen(false) }} /> : null}
