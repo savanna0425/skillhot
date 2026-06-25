@@ -540,12 +540,12 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* Middle content adapts to the actual width of .site-main, so when the detail
    panel takes the half/full slot the grids reduce columns instead of squishing. */
-@container main (max-width: 880px) {
-  .skill-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@container main (max-width: 780px) {
   .category-explorer-grid, .category-board { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .story-rail { grid-auto-columns: calc((100% - 11px) / 2); }
 }
-@container main (max-width: 680px) {
+@container main (max-width: 720px) {
+  .skill-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-rail { grid-auto-columns: calc((100% - 11px) / 2); }
   .discover-hero { grid-template-columns: 1fr; }
   .discover-hero > img { display: none; }
   .topic-feature-grid { grid-template-columns: repeat(2, 1fr); }
@@ -556,14 +556,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .rank-category, .rank-stars, .rank-activity, .rank-updated { display: none; }
   .rank-actions { grid-column: 2 / -1; justify-content: flex-start; }
 }
-@container main (max-width: 560px) {
+@container main (max-width: 480px) {
   .skill-card-grid { grid-template-columns: 1fr; }
   .category-explorer-grid, .category-board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .story-rail { grid-auto-columns: 100%; }
   .collection-list { grid-template-columns: 1fr; }
   .topic-feature-grid, .topic-groups, .principle-grid { grid-template-columns: 1fr; }
   .about-metrics { grid-template-columns: repeat(2, 1fr); }
-  .story-rail { grid-auto-columns: 100%; }
 }
-@container main (max-width: 430px) {
+@container main (max-width: 340px) {
   .category-explorer-grid, .category-board { grid-template-columns: 1fr; }
 }

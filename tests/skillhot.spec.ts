@@ -58,6 +58,7 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
 test('desktop detail panel width modes', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)
+  await page.addStyleTag({ content: '*, *::before, *::after { transition: none !important; animation: none !important; }' })
   await page.locator('.detail-restore button').click()
   const layout = page.locator('.site-layout')
   await expect(page.locator('.detail-shell')).toBeVisible()
