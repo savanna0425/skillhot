@@ -55,34 +55,28 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
   await expect(page.locator('a[href*="skills.csv"]')).toHaveCount(0)
 })
 
-test('desktop detail panel resize and fullscreen', async ({ page }, testInfo) => {
+test('desktop detail panel width modes', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)
-  // Disable the layout open-transition so width/position measurements are deterministic.
-  await page.addStyleTag({ content: '*, *::before, *::after { transition: none !important; animation: none !important; }' })
   await page.locator('.detail-restore button').click()
   const layout = page.locator('.site-layout')
   await expect(page.locator('.detail-shell')).toBeVisible()
-  await expect(layout).toHaveCSS('--detail-width', '366px')
+  await expect(layout).toHaveClass(/detail-side/)
 
-  // fullscreen toggle covers the middle list, then restores
-  await page.locator('.detail-fullscreen-toggle').click()
-  await expect(layout).toHaveClass(/detail-fullscreen/)
-  await page.locator('.detail-fullscreen-toggle').click()
-  await expect(layout).not.toHaveClass(/detail-fullscreen/)
+  // switch through the three width modes
+  await page.getByRole('button', { name: '占一半', exact: true }).click()
+  await expect(layout).toHaveClass(/detail-half/)
+  await page.getByRole('button', { name: '全屏', exact: true }).click()
+  await expect(layout).toHaveClass(/detail-full/)
+  expect(await page.evaluate(() => localStorage.getItem('skillhot:detailMode'))).toBe('full')
 
-  // drag the resizer left to widen, and persist the new width
-  const handle = page.locator('.detail-resizer')
-  const box = await handle.boundingBox()
-  if (!box) throw new Error('resizer not found')
-  await page.mouse.move(box.x + box.width / 2, box.y + 120)
-  await page.mouse.down()
-  await page.mouse.move(box.x - 220, box.y + 120, { steps: 10 })
-  await page.mouse.up()
-  const width = await layout.evaluate((el) => parseInt(getComputedStyle(el).getPropertyValue('--detail-width'), 10))
-  expect(width).toBeGreaterThan(500)
-  const stored = await page.evaluate(() => Number(localStorage.getItem('skillhot:detailWidth')))
-  expect(stored).toBeGreaterThan(500)
+  // the middle skill grid reflows to fewer columns when the panel takes half
+  const cols = () => page.locator('.skill-card-grid').first().evaluate((el) => getComputedStyle(el).gridTemplateColumns.split(' ').length)
+  await page.getByRole('button', { name: '靠右显示', exact: true }).click()
+  await expect(layout).toHaveClass(/detail-side/)
+  await expect.poll(cols).toBe(3)
+  await page.getByRole('button', { name: '占一半', exact: true }).click()
+  await expect.poll(cols).toBe(2)
 })
 
 test('mobile Chrome menu and discovery layout', async ({ page }, testInfo) => {

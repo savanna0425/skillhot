@@ -1,6 +1,6 @@
-import { Bookmark, Check, ChevronLeft, ChevronRight, Copy, ExternalLink, Image as ImageIcon, Maximize2, Minimize2, PlayCircle, Star, X } from 'lucide-react'
-import { useState, type MouseEvent as ReactMouseEvent } from 'react'
-import type { Skill } from '../types'
+import { Bookmark, Check, ChevronLeft, ChevronRight, Columns2, Copy, ExternalLink, Image as ImageIcon, Maximize2, PanelRight, PlayCircle, Star, X } from 'lucide-react'
+import { useState } from 'react'
+import type { DetailMode, Skill } from '../types'
 import { daysFromNow, formatStars } from '../utils'
 import { GithubMark } from './GithubMark'
 
@@ -10,16 +10,14 @@ interface DetailPanelProps {
   skill?: Skill
   open: boolean
   isFavorite: boolean
-  fullscreen: boolean
+  mode: DetailMode
   onFavorite: (skill: Skill) => void
   onClose: () => void
   onRestore: () => void
-  onToggleFullscreen: () => void
-  onResizeStart: (event: ReactMouseEvent<HTMLDivElement>) => void
-  onResizeReset: () => void
+  onMode: (mode: DetailMode) => void
 }
 
-export function DetailPanel({ skill, open, isFavorite, fullscreen, onFavorite, onClose, onRestore, onToggleFullscreen, onResizeStart, onResizeReset }: DetailPanelProps) {
+export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose, onRestore, onMode }: DetailPanelProps) {
   const [copied, setCopied] = useState(false)
 
   if (!open) {
@@ -44,21 +42,16 @@ export function DetailPanel({ skill, open, isFavorite, fullscreen, onFavorite, o
 
   return (
     <aside className="detail-shell" aria-label={`${skill.fullName} 详情`}>
-      <div
-        className="detail-resizer"
-        role="separator"
-        aria-orientation="vertical"
-        aria-label="拖动调整详情宽度"
-        title="拖动调整宽度 · 双击还原"
-        onMouseDown={onResizeStart}
-        onDoubleClick={onResizeReset}
-      />
       <div className="detail-panel">
         <div className="detail-toolbar">
           <button type="button" onClick={onClose} aria-label="收起右侧详情栏"><ChevronRight size={18} /><span>收起</span></button>
           <button className="detail-mobile-close" type="button" onClick={onClose} aria-label="关闭详情"><X size={20} /></button>
           <div className="detail-toolbar-actions">
-            <button className="detail-fullscreen-toggle" type="button" onClick={onToggleFullscreen} aria-pressed={fullscreen} aria-label={fullscreen ? '退出全屏' : '全屏'} title={fullscreen ? '退出全屏' : '全屏'}>{fullscreen ? <Minimize2 size={17} /> : <Maximize2 size={17} />}</button>
+            <div className="detail-mode-switch" role="group" aria-label="详情面板宽度">
+              <button type="button" className={mode === 'side' ? 'active' : ''} onClick={() => onMode('side')} aria-pressed={mode === 'side'} aria-label="靠右显示" title="靠右"><PanelRight size={15} /></button>
+              <button type="button" className={mode === 'half' ? 'active' : ''} onClick={() => onMode('half')} aria-pressed={mode === 'half'} aria-label="占一半" title="一半"><Columns2 size={15} /></button>
+              <button type="button" className={mode === 'full' ? 'active' : ''} onClick={() => onMode('full')} aria-pressed={mode === 'full'} aria-label="全屏" title="全屏"><Maximize2 size={15} /></button>
+            </div>
             <button className={isFavorite ? 'saved' : ''} onClick={() => onFavorite(skill)} aria-label={isFavorite ? '取消收藏' : '收藏'}><Bookmark size={18} fill={isFavorite ? 'currentColor' : 'none'} /></button>
           </div>
         </div>

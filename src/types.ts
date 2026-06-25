@@ -1,5 +1,6 @@
 export type ViewKey = 'discover' | 'ranking' | 'categories' | 'topics' | 'favorites' | 'about' | 'auth' | 'profile'
 export type SortKey = 'score' | 'stars' | 'recent'
+export type DetailMode = 'side' | 'half' | 'full'
 
 export interface SkillMedia {
   socialPreview: string
