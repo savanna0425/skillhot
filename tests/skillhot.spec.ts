@@ -80,6 +80,20 @@ test('desktop detail panel width modes', async ({ page }, testInfo) => {
   await expect.poll(cols).toBe(2)
 })
 
+test('guest feedback dialog opens, validates and closes', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+  await page.getByRole('button', { name: '反馈' }).click()
+  const dialog = page.getByRole('dialog', { name: '反馈' })
+  await expect(dialog).toBeVisible()
+  const submit = dialog.getByRole('button', { name: '提交反馈' })
+  await expect(submit).toBeDisabled()
+  await dialog.locator('.feedback-message').fill('这是一条测试反馈')
+  await expect(submit).toBeEnabled()
+  await page.keyboard.press('Escape')
+  await expect(dialog).toHaveCount(0)
+})
+
 test('mobile Chrome menu and discovery layout', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-mobile', 'mobile product flow')
   await waitForCatalog(page)

@@ -567,3 +567,24 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @container main (max-width: 340px) {
   .category-explorer-grid, .category-board { grid-template-columns: 1fr; }
 }
+
+/* Guest feedback dialog */
+.feedback-overlay { position: fixed; inset: 0; z-index: 90; display: grid; place-items: center; padding: 20px; background: rgba(17,17,20,.34); }
+.feedback-dialog { width: min(440px, 100%); max-height: calc(100vh - 40px); overflow-y: auto; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: 0 30px 80px rgba(17,17,20,.18); }
+.feedback-head { display: flex; align-items: center; justify-content: space-between; }
+.feedback-head h2 { margin: 0; font-size: 17px; letter-spacing: -.3px; }
+.feedback-head button { width: 30px; height: 30px; border: 0; border-radius: 8px; background: transparent; display: grid; place-items: center; color: var(--muted); cursor: pointer; }
+.feedback-head button:hover { background: var(--soft); color: var(--ink); }
+.feedback-intro { margin: 8px 0 14px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.feedback-message, .feedback-contact { width: 100%; box-sizing: border-box; border: 1px solid var(--line); border-radius: 9px; background: #fff; font: inherit; font-size: 13px; color: var(--ink); }
+.feedback-message { padding: 11px 12px; resize: vertical; min-height: 110px; line-height: 1.6; }
+.feedback-message:focus, .feedback-contact:focus { outline: 0; border-color: var(--ink); box-shadow: 0 0 0 3px rgba(17,17,20,.06); }
+.feedback-count { margin: 5px 2px 12px; text-align: right; color: var(--soft-muted); font-size: 10px; }
+.feedback-contact { padding: 10px 12px; }
+.feedback-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.feedback-error { margin-top: 12px; padding: 9px 11px; border-radius: 8px; background: #fff0f1; color: #a52831; font-size: 11px; line-height: 1.5; }
+.feedback-submit { margin-top: 14px; width: 100%; min-height: 44px; border: 1px solid var(--ink); border-radius: 9px; background: var(--ink); color: #fff; font-size: 12px; font-weight: 800; cursor: pointer; }
+.feedback-submit:disabled { opacity: .5; cursor: not-allowed; }
+.feedback-done { padding: 14px 0 4px; text-align: center; }
+.feedback-done p { margin: 0 0 16px; font-size: 14px; line-height: 1.6; }
+.feedback-done button { min-height: 40px; padding: 0 22px; border: 1px solid var(--line); border-radius: 9px; background: #fff; font-size: 12px; font-weight: 700; cursor: pointer; }

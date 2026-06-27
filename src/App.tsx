@@ -5,6 +5,7 @@ import { DetailPanel } from './components/DetailPanel'
 import { DiscoverView, SkillGrid } from './components/FeaturedRail'
 import { SiteHeader } from './components/HeaderHero'
 import { AboutView, CategoriesView, TopicsView } from './components/InfoViews'
+import { FeedbackDialog } from './components/FeedbackDialog'
 import { Sidebar } from './components/Sidebar'
 import { RankingTable } from './components/SkillList'
 import { supabase } from './lib/supabase'
@@ -58,6 +59,7 @@ function App() {
   const [detailMode, setDetailMode] = useState<DetailMode>(initialDetailMode)
   const [leftCollapsed, setLeftCollapsed] = useState(false)
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
+  const [feedbackOpen, setFeedbackOpen] = useState(false)
   const [favorites, setFavorites] = useState<Set<string>>(new Set())
   const [favoritesLoading, setFavoritesLoading] = useState(false)
   const [categoryScrollRequest, setCategoryScrollRequest] = useState(0)
@@ -271,6 +273,7 @@ function App() {
           onCollapse={() => setLeftCollapsed((value) => !value)}
           mobileOpen={mobileFiltersOpen}
           onMobileClose={() => setMobileFiltersOpen(false)}
+          onFeedback={() => setFeedbackOpen(true)}
         />
         <main id="main-content" className="site-main">
           {renderMain()}
@@ -294,6 +297,7 @@ function App() {
         />
       </div>
       {mobileFiltersOpen || detailOpen ? <button className="page-scrim" aria-label="关闭浮层" onClick={() => { setMobileFiltersOpen(false); setDetailOpen(false) }} /> : null}
+      <FeedbackDialog open={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
     </div>
   )
 }

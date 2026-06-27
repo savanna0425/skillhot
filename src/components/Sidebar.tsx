@@ -14,6 +14,7 @@ import {
   Grid2X2,
   Info,
   Library,
+  MessageSquarePlus,
   MessagesSquare,
   PanelLeftClose,
   PanelLeftOpen,
@@ -56,6 +57,7 @@ interface SidebarProps {
   onCollapse: () => void
   mobileOpen: boolean
   onMobileClose: () => void
+  onFeedback: () => void
 }
 
 export function Sidebar({
@@ -69,6 +71,7 @@ export function Sidebar({
   onCollapse,
   mobileOpen,
   onMobileClose,
+  onFeedback,
 }: SidebarProps) {
   return (
     <aside className={`filter-sidebar ${collapsed ? 'collapsed' : ''} ${mobileOpen ? 'mobile-open' : ''}`} aria-label="分类与导航">
@@ -98,6 +101,9 @@ export function Sidebar({
         </button>
         <button className={`mobile-shortcut ${view === 'about' ? 'active' : ''}`} onClick={() => onNavigate('about')} title="关于">
           <Info size={18} /><span>关于</span>
+        </button>
+        <button className="sidebar-feedback" type="button" onClick={onFeedback} title="反馈">
+          <MessageSquarePlus size={18} /><span>反馈</span>
         </button>
       </nav>
 
