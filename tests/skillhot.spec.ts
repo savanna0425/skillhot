@@ -26,7 +26,7 @@ test('desktop discovery, semantic corrections, details and guest favorites', asy
   await switchCard.getByRole('button', { name: '详情' }).click()
   const switchPanel = page.getByRole('complementary', { name: 'farion1231/cc-switch 详情' })
   await expect(switchPanel).toContainText('作者原始描述')
-  await expect(switchPanel).toContainText('分类置信度 · 人工复核')
+  await expect(switchPanel).toContainText('已人工核对')
 
   await search.fill('superpowers')
   const superpowersCard = page.locator('.search-results-section article').filter({ hasText: 'obra/superpowers' })
