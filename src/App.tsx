@@ -134,12 +134,13 @@ function App() {
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [])
 
-  const navigate = (next: ViewKey) => {
+  const navigate = (next: ViewKey, options: { scrollToTop?: boolean } = {}) => {
+    const { scrollToTop = true } = options
     setView(next)
     setMobileFiltersOpen(false)
     setDetailOpen(false)
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${next}`)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    if (scrollToTop) window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const categories = useMemo(() => ['全部', ...data.categories.map((item) => item.name)], [data.categories])
@@ -208,7 +209,7 @@ function App() {
 
   const selectSidebarCategory = (name: string) => {
     setCategory(name)
-    navigate('categories')
+    navigate('categories', { scrollToTop: false })
     setCategoryScrollRequest((value) => value + 1)
   }
 
@@ -281,7 +282,6 @@ function App() {
           <footer className="site-footer">
             <span>SkillHot · 每日更新的 Agent Skills 与开源工具索引</span>
             <nav>
-              <button onClick={() => navigate('about')}>关于</button>
               <a href={repositoryUrl} target="_blank" rel="noreferrer">GitHub</a>
             </nav>
           </footer>

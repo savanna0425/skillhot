@@ -1,5 +1,5 @@
 import { Bookmark, Check, ChevronLeft, ChevronRight, Columns2, Copy, ExternalLink, Image as ImageIcon, Maximize2, PanelRight, PlayCircle, Star, X } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { DetailMode, Skill } from '../types'
 import { daysFromNow, formatStars } from '../utils'
 import { GithubMark } from './GithubMark'
@@ -19,6 +19,12 @@ interface DetailPanelProps {
 
 export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose, onRestore, onMode }: DetailPanelProps) {
   const [copied, setCopied] = useState(false)
+  const panelRef = useRef<HTMLDivElement>(null)
+
+  // Each newly opened skill should start from the top, not inherit the previous one's scroll.
+  useEffect(() => {
+    panelRef.current?.scrollTo({ top: 0 })
+  }, [skill?.fullName])
 
   if (!open) {
     return (
@@ -42,7 +48,7 @@ export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose
 
   return (
     <aside className="detail-shell" aria-label={`${skill.fullName} 详情`}>
-      <div className="detail-panel">
+      <div className="detail-panel" ref={panelRef}>
         <div className="detail-toolbar">
           <button type="button" onClick={onClose} aria-label="收起右侧详情栏"><ChevronRight size={18} /><span>收起</span></button>
           <button className="detail-mobile-close" type="button" onClick={onClose} aria-label="关闭详情"><X size={20} /></button>
