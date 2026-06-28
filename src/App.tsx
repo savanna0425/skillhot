@@ -137,6 +137,7 @@ function App() {
   const navigate = (next: ViewKey) => {
     setView(next)
     setMobileFiltersOpen(false)
+    setDetailOpen(false)
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${next}`)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
