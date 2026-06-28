@@ -7,6 +7,7 @@ const primaryNavigation: Array<{ key: ViewKey; label: string }> = [
   { key: 'ranking', label: '榜单' },
   { key: 'categories', label: '分类' },
   { key: 'topics', label: '话题' },
+  { key: 'about', label: '关于' },
 ]
 
 interface SiteHeaderProps {

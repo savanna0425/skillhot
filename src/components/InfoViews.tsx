@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight, Database, HeartHandshake, RefreshCw, SearchCheck, ShieldCheck } from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Database, RefreshCw, SearchCheck, ShieldCheck } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Skill, SkillData } from '../types'
 import { formatStars, formatUpdatedAt } from '../utils'
@@ -36,7 +36,7 @@ export function CategoriesView({ data, skills, category, onCategory, scrollReque
   return (
     <section className="content-page categories-page">
       <div className="page-heading">
-        <div><h1>技能分类</h1><p>按真实工作场景浏览，所有页面使用同一套分类标准。</p></div>
+        <div><h1>技能分类</h1><p>按真实工作场景浏览，快速找到对口的 Skill。</p></div>
         <strong>{data.categories.length}</strong>
       </div>
       <div className="category-board">
@@ -110,9 +110,9 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
   return (
     <section className="content-page about-page">
       <div className="about-hero">
-        <h1>让好用的 Agent Skills 更容易被发现。</h1>
-        <p>SkillHot 是一个开放的中文索引，持续整理 GitHub 上可安装、可复用、仍在维护的 Agent Skills 与配套工具。</p>
-        <div><a className="black-button" href={repositoryUrl} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 查看源代码</a></div>
+        <h1>找 Skill，不用再翻遍 GitHub。</h1>
+        <p>SkillHot 把 GitHub 上可安装、仍在维护的 Agent Skills 与配套工具整理成一份每天更新的中文索引，帮你更快找到趁手的那一个。</p>
+        <div><a className="black-button" href={repositoryUrl} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 在 GitHub 查看源代码</a></div>
       </div>
       <div className="about-metrics">
         <article><strong>{data.meta.repositories}</strong><span>开源仓库</span></article>
@@ -121,15 +121,10 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
         <article><strong>{formatUpdatedAt(data.meta.generatedAt)}</strong><span>最近更新</span></article>
       </div>
       <div className="principle-grid">
-        <article><SearchCheck /><h2>多源发现</h2><p>综合 GitHub Topics、聚焦搜索和经过核验的社区来源，降低遗漏。</p></article>
-        <article><RefreshCw /><h2>持续更新</h2><p>每天刷新 Stars、活跃度、README 安装方式、兼容平台与媒体信息。</p></article>
-        <article><Database /><h2>信息可复核</h2><p>每条简介、分类、安装方式和活跃度都能回到 GitHub 原仓库核验。</p></article>
-        <article><ShieldCheck /><h2>可追溯</h2><p>每个条目都链接回原始仓库与 GitHub Topic，不代替作者文档。</p></article>
-      </div>
-      <div className="community-callout">
-        <HeartHandshake size={28} />
-        <div><h2>一起完善 Skills 地图</h2><p>欢迎在 GitHub 提交遗漏项目、分类建议或数据修正。</p></div>
-        <a href={`${repositoryUrl}/issues/new`} target="_blank" rel="noreferrer">提交建议 <ArrowUpRight size={16} /></a>
+        <article><SearchCheck /><h2>一站找全</h2><p>把分散在 GitHub Topics、搜索和社区里的 Skills 收拢到一处，省去到处翻找。</p></article>
+        <article><RefreshCw /><h2>每天更新</h2><p>Stars、活跃度、安装方式、兼容平台每天刷新，你看到的都是最新状态。</p></article>
+        <article><Database /><h2>信息齐全</h2><p>中文简介、适用平台、安装方法、许可证、更新状态，一页就看清楚。</p></article>
+        <article><ShieldCheck /><h2>放心参考</h2><p>每条信息都能链接回原始仓库核对，方便你自己判断要不要用。</p></article>
       </div>
     </section>
   )

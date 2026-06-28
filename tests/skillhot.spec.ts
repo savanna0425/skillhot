@@ -49,7 +49,7 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
   await expect(page.getByRole('heading', { name: 'Agent工具与平台', exact: true })).toBeVisible()
 
   await page.getByRole('button', { name: '关于', exact: true }).click()
-  await expect(page.getByRole('heading', { name: '让好用的 Agent Skills 更容易被发现。' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '找 Skill，不用再翻遍 GitHub。' })).toBeVisible()
   await expect(page.getByText('导出 CSV')).toHaveCount(0)
   await expect(page.getByText('下载开放数据')).toHaveCount(0)
   await expect(page.locator('a[href*="skills.csv"]')).toHaveCount(0)
@@ -95,6 +95,23 @@ test('desktop nav closes an open detail and the collapse toolbar is sticky', asy
   await page.getByRole('navigation', { name: '主要页面' }).getByRole('button', { name: '榜单' }).click()
   await expect(page.getByRole('heading', { name: 'Skills 榜单' })).toBeVisible()
   await expect(page.locator('.detail-shell')).toHaveCount(0)
+})
+
+test('opening another skill resets the detail panel scroll to the top', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+  await page.addStyleTag({ content: '*, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }' })
+
+  // open the pre-selected skill, then scroll its detail panel to the bottom
+  await page.locator('.detail-restore button').click()
+  const panel = page.locator('.detail-panel')
+  await expect(panel).toBeVisible()
+  await panel.evaluate((el) => { el.scrollTop = el.scrollHeight })
+  await expect.poll(() => panel.evaluate((el) => el.scrollTop)).toBeGreaterThan(40)
+
+  // open a different skill — its detail should start from the top, not inherit the scroll
+  await page.locator('.discovery-card:not(.selected)').first().getByRole('button', { name: '详情' }).click()
+  await expect.poll(() => panel.evaluate((el) => el.scrollTop)).toBe(0)
 })
 
 test('guest feedback dialog opens, validates and closes', async ({ page }, testInfo) => {

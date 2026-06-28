@@ -117,7 +117,7 @@ export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; on
         <div className="auth-illustration" aria-hidden="true">
           <img src={`${import.meta.env.BASE_URL}assets/illustrations/superpowers.png`} alt="" />
           <div><Bookmark size={20} /><strong>发现 · 收藏 · 随时回来</strong></div>
-          <p>你的资料页保持简单：邮箱账号、验证状态与收藏，不开放上传和自定义文字。</p>
+          <p>登录后就能收藏喜欢的 Skill，并在手机和电脑之间自动同步，换设备也不丢。</p>
         </div>
       </div>
     </section>
