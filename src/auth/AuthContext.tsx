@@ -10,6 +10,7 @@ interface AuthContextValue {
   user: User | null
   signIn: (email: string, password: string) => Promise<void>
   signUp: (email: string, password: string) => Promise<boolean>
+  signInWithGithub: () => Promise<void>
   signOut: () => Promise<void>
 }
 
@@ -57,6 +58,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       })
       if (error) throw error
       return !data.session
+    },
+    async signInWithGithub() {
+      if (!supabase) throw new Error('登录服务尚未配置')
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: 'github',
+        options: { redirectTo: `${window.location.origin}${window.location.pathname}` },
+      })
+      if (error) throw error
     },
     async signOut() {
       if (!supabase) return

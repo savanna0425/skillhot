@@ -96,6 +96,50 @@ Supabase Free Plan 当前包含 50,000 MAU 与 500 MB 数据库，足够早期�
 
 生产验证结果：匿名请求收藏表返回 HTTP 401；临时已确认用户读取返回 200、写入自己的收藏返回 201、伪造其他 `user_id` 返回 403、删除自己的收藏返回 204。临时测试用户已删除。
 
+### 6. GitHub 登录（OAuth）
+
+加 GitHub 登录是为了绕开邮箱验证：开发者用户基本都有 GitHub，走 OAuth **完全不消耗邮件发送额度**，因此即便不配 SMTP 也能让大多数人正常注册。收藏表 RLS 以 `auth.uid()` 为准，OAuth 用户同样有 `auth.uid()`，**无需改数据库或 migration**。
+
+前端代码已就绪，无新增环境变量：
+
+- `src/auth/AuthContext.tsx` 的 `signInWithGithub()` → `supabase.auth.signInWithOAuth({ provider: 'github' })`，`redirectTo` 为 `window.location.origin + pathname`。
+- `src/components/AuthViews.tsx` 登录/注册页的「用 GitHub 继续」按钮。
+- `src/lib/supabase.ts` 已设 `detectSessionInUrl: true`，回跳后自动建立会话。
+
+后台一次性配置：
+
+1. GitHub → Settings → Developer settings → OAuth Apps → New OAuth App：
+   - Homepage URL：`https://skillhot.savs-ai.com`
+   - Authorization callback URL：`https://kcetjexmnbqdyznnrzwa.supabase.co/auth/v1/callback`（**必须是 Supabase 的 callback，不是站点域名**）
+   - 记下 Client ID 与 Client secret。
+2. Supabase → Authentication → Providers → GitHub：启用，填入 Client ID / Client secret，保存。
+3. Authentication → URL Configuration → Redirect URLs：确认包含 `https://skillhot.savs-ai.com/**`；本地调试再加 `http://127.0.0.1:5173/**`。不在白名单里的回跳会被拒绝。
+
+回跳后落在首页且已是登录态（token 在 URL fragment 中被 `detectSessionInUrl` 消费后自动清掉），用户点头像即进个人主页。
+
+### 7. 自有 SMTP（解除「2 封/小时」限制）
+
+**关键认知**：Supabase 是从它自己的云服务器（Tokyo 区域）发信，不是从中国发信。所以 SMTP 服务器**不需要「在中国 / 能被中国访问」**；真正要紧的是三点——免费额度够用、能稳定送达国内收件箱（QQ / 163 / Gmail）、发件人用你自己的域名（`savs-ai.com`）并配好 SPF / DKIM。
+
+**首选 Brevo**（免费约 300 封/天，几分钟接好，无需国内备案）。配合 GitHub 登录分流，300/天对早期完全够。
+
+1. 注册 [brevo.com](https://www.brevo.com/) 免费 plan。
+2. Senders, Domains & Dedicated IPs → Domains 添加 `savs-ai.com`，按提示在 Cloudflare DNS 加上 Brevo 的 DKIM / SPF 记录并验证（先用单个发件邮箱也能快速试通，但域名验证后送达率明显更好）。
+3. SMTP & API → SMTP 拿到：Server `smtp-relay.brevo.com`、Port `587`、Login（账号邮箱）、Password（在该页生成的 **SMTP key**，不是登录密码）。
+4. Supabase → Authentication → Emails → SMTP Settings → Enable Custom SMTP：
+   - Sender email：`noreply@savs-ai.com`（已在 Brevo 验证的域名）
+   - Sender name：`SkillHot`
+   - Host `smtp-relay.brevo.com`、Port `587`、Username / Password 填上一步的 Login / SMTP key
+5. 保存后用 QQ、163 各注册一个测试邮箱，确认能收到验证邮件且不在垃圾箱。
+
+**国内送达备选**（若 Brevo 到 QQ/163 偶发进垃圾箱或被拦）：
+
+- **阿里云邮件推送（DirectMail）**：国内送达最稳，免费约 200/天；需在阿里云验证 `savs-ai.com` 发信域名并配 SPF/DKIM，SMTP host 形如 `smtpdm.aliyun.com`（端口 `80 / 465`）。
+- **腾讯云邮件推送（SES）**：同类，有免费额度，同样需域名验证。
+- `smtp.qq.com` / `smtp.163.com` + 邮箱授权码：零成本但每日上限很低、批量易判垃圾，仅适合临时极小量，不建议正式开放注册时使用。
+
+**送达通用建议**：发件域名务必配好 SPF、DKIM（服务商会给记录），再加一条 DMARC（`v=DMARC1; p=none; rua=mailto:...`）。国内收件箱对缺这些记录的境外发件人很容易直接拦截。各家免费额度数字以官网当前为准（本节按 2026-06 时点）。
+
 ## 本地项目
 
 工作目录：

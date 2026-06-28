@@ -10,12 +10,21 @@ function friendlyAuthError(message: string) {
   if (/email not confirmed/i.test(message)) return '请先打开验证邮件完成邮箱确认。'
   if (/user already registered/i.test(message)) return '这个邮箱已经注册，请直接登录。'
   if (/password should be at least/i.test(message)) return '密码至少需要 8 位。'
-  if (/rate limit/i.test(message)) return '验证邮件发送过于频繁，请稍后再试。'
+  if (/rate limit/i.test(message)) return '验证邮件发送过于频繁，请稍后再试，或改用 GitHub 登录。'
+  if (/provider.*not enabled|oauth/i.test(message)) return 'GitHub 登录尚未在后台启用，请稍后再试。'
   return message
 }
 
+function GithubMark() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.2 3.44 9.6 8.21 11.16.6.11.82-.25.82-.57 0-.28-.01-1.02-.02-2-3.34.71-4.04-1.58-4.04-1.58-.55-1.37-1.34-1.73-1.34-1.73-1.09-.72.08-.71.08-.71 1.2.08 1.84 1.21 1.84 1.21 1.07 1.79 2.81 1.27 3.5.97.11-.76.42-1.27.76-1.56-2.67-.3-5.47-1.31-5.47-5.83 0-1.29.47-2.34 1.24-3.17-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.21a11.6 11.6 0 0 1 6 0c2.29-1.53 3.3-1.21 3.3-1.21.66 1.66.24 2.88.12 3.18.77.83 1.24 1.88 1.24 3.17 0 4.53-2.81 5.53-5.49 5.82.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.22.69.83.57C20.56 21.88 24 17.49 24 12.29 24 5.78 18.63.5 12 .5Z" />
+    </svg>
+  )
+}
+
 export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; onSuccess: () => void }) {
-  const { configured, signIn, signUp } = useAuth()
+  const { configured, signIn, signUp, signInWithGithub } = useAuth()
   const [mode, setMode] = useState<'login' | 'register'>('login')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -23,6 +32,23 @@ export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; on
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
+
+  const githubLogin = async () => {
+    setError('')
+    setMessage('')
+    if (!configured) {
+      setError('登录服务等待部署配置，访客浏览不受影响。')
+      return
+    }
+    setBusy(true)
+    try {
+      await signInWithGithub()
+      // 浏览器会跳转到 GitHub 授权页，无需在此处理后续；保持 busy 直到跳转。
+    } catch (caught) {
+      setError(friendlyAuthError(caught instanceof Error ? caught.message : '暂时无法完成操作。'))
+      setBusy(false)
+    }
+  }
 
   const submit = async (event: FormEvent) => {
     event.preventDefault()
@@ -70,6 +96,10 @@ export function AuthView({ onContinue, onSuccess }: { onContinue: () => void; on
             <h1>{mode === 'login' ? '欢迎回来' : '创建 SkillHot 账号'}</h1>
             <p>{mode === 'login' ? '继续整理你的 Agent Skills 收藏。' : '验证邮箱后，即可在不同设备同步收藏。'}</p>
           </div>
+          <button type="button" className="auth-oauth" onClick={githubLogin} disabled={busy}>
+            <GithubMark /> 用 GitHub 继续
+          </button>
+          <div className="auth-divider">或用邮箱{mode === 'login' ? '登录' : '注册'}</div>
           <label className="auth-field">
             <span>邮箱</span>
             <div><Mail size={17} /><input type="email" autoComplete="email" placeholder="name@example.com" value={email} onChange={(event) => setEmail(event.target.value)} /></div>
