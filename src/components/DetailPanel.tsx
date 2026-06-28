@@ -6,6 +6,16 @@ import { GithubMark } from './GithubMark'
 
 const previewFallback = `${import.meta.env.BASE_URL}assets/illustrations/official-skills.png`
 
+function confidenceLabel(confidence: string) {
+  switch (confidence) {
+    case '人工复核': return '已人工核对'
+    case '高': return '归类较准'
+    case '中': return '大致归类'
+    case '待复核': return '待核对'
+    default: return confidence
+  }
+}
+
 interface DetailPanelProps {
   skill?: Skill
   open: boolean
@@ -82,7 +92,7 @@ export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose
         <section className="detail-section">
           <h3>作者原始描述</h3>
           <p className="original-description">{skill.description || '仓库作者暂未填写 GitHub 简介，请查看 README。'}</p>
-          <div className="classification-evidence"><span>分类置信度 · {skill.categoryConfidence}</span><small>依据仓库名称、作者描述与 GitHub Topics 综合判断</small></div>
+          <div className="classification-evidence"><span>{confidenceLabel(skill.categoryConfidence)}</span><small>结合仓库名、作者介绍和 GitHub Topics 帮你归的类，仅供参考</small></div>
         </section>
         <section className="detail-section">
           <h3>兼容平台</h3>
