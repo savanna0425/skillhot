@@ -80,6 +80,23 @@ test('desktop detail panel width modes', async ({ page }, testInfo) => {
   await expect.poll(cols).toBe(2)
 })
 
+test('desktop nav closes an open detail and the collapse toolbar is sticky', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+
+  // open the detail panel
+  await page.locator('.detail-restore button').click()
+  await expect(page.locator('.detail-shell')).toBeVisible()
+
+  // the collapse/收起 toolbar is pinned to the top of the scrolling panel, not static
+  await expect(page.locator('.detail-toolbar')).toHaveCSS('position', 'sticky')
+
+  // clicking a primary nav item goes straight to that page and dismisses the detail
+  await page.getByRole('navigation', { name: '主要页面' }).getByRole('button', { name: '榜单' }).click()
+  await expect(page.getByRole('heading', { name: 'Skills 榜单' })).toBeVisible()
+  await expect(page.locator('.detail-shell')).toHaveCount(0)
+})
+
 test('guest feedback dialog opens, validates and closes', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)
