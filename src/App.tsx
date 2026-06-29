@@ -262,7 +262,7 @@ function App() {
 
   return (
     <div className="site-app">
-      <SiteHeader view={view} onNavigate={navigate} query={query} setQuery={updateQuery} repositoryUrl={repositoryUrl} onMenu={() => setMobileFiltersOpen(true)} userEmail={user?.email} authConfigured={authConfigured} authLoading={authLoading} />
+      <SiteHeader view={view} onNavigate={navigate} query={query} setQuery={updateQuery} repositoryUrl={repositoryUrl} onMenu={() => { setDetailOpen(false); setMobileFiltersOpen(true) }} userEmail={user?.email} authConfigured={authConfigured} authLoading={authLoading} />
       <div className={`site-layout ${leftCollapsed ? 'left-collapsed' : ''} ${detailOpen ? 'detail-visible' : ''} detail-${detailMode}`}>
         <Sidebar
           view={view}

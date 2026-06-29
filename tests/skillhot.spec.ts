@@ -140,3 +140,17 @@ test('mobile Chrome menu and discovery layout', async ({ page }, testInfo) => {
   await expect(page.getByRole('heading', { name: '编程开发', exact: true })).toBeVisible()
   await page.screenshot({ path: 'test-results/mobile-category.png', fullPage: false })
 })
+
+test('mobile: opening the menu closes an open detail instead of overlapping it', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-mobile', 'mobile product flow')
+  await waitForCatalog(page)
+
+  // open a skill detail (full-screen drawer on mobile)
+  await page.getByRole('button', { name: '详情' }).first().click()
+  await expect(page.locator('.detail-shell')).toBeVisible()
+
+  // tapping the hamburger must dismiss the detail first, then show the sidebar — no overlap
+  await page.getByRole('button', { name: '打开筛选菜单' }).click()
+  await expect(page.getByRole('complementary', { name: '分类与导航' })).toBeVisible()
+  await expect(page.locator('.detail-shell')).toHaveCount(0)
+})
