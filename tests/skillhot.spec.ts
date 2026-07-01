@@ -55,6 +55,26 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
   await expect(page.locator('a[href*="skills.csv"]')).toHaveCount(0)
 })
 
+test('category and topic pages can load more repositories', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+
+  await page.getByRole('button', { name: '分类', exact: true }).click()
+  await expect(page.getByRole('heading', { name: '技能分类' })).toBeVisible()
+  await page.getByRole('button', { name: /^编程开发 \d+$/ }).click()
+  const categoryCards = page.locator('.categories-page .skill-card-grid article')
+  await expect(categoryCards).toHaveCount(24)
+  await page.locator('.categories-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(categoryCards).toHaveCount(48)
+
+  await page.getByRole('button', { name: '话题', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Skills 生态话题' })).toBeVisible()
+  const topicCards = page.locator('.topics-page .skill-card-grid article')
+  await expect(topicCards).toHaveCount(24)
+  await page.locator('.topics-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(topicCards).toHaveCount(48)
+})
+
 test('desktop detail panel width modes', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)

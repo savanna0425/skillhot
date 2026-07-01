@@ -12,6 +12,42 @@ interface SkillActions {
   onFavorite: (skill: Skill) => void
 }
 
+const PAGE_SIZE = 24
+
+interface PaginatedSkillGridProps extends SkillActions {
+  skills: Skill[]
+  resetKey: string
+  pageSize?: number
+  emptyText?: string
+}
+
+function PaginatedSkillGrid({ skills, resetKey, pageSize = PAGE_SIZE, emptyText, ...actions }: PaginatedSkillGridProps) {
+  const [limit, setLimit] = useState(pageSize)
+
+  useEffect(() => {
+    setLimit(pageSize)
+  }, [pageSize, resetKey])
+
+  const visible = skills.slice(0, limit)
+  const remaining = Math.max(0, skills.length - visible.length)
+
+  return (
+    <>
+      <SkillGrid skills={visible} emptyText={emptyText} {...actions} />
+      {remaining > 0 ? (
+        <button
+          className="load-more"
+          type="button"
+          onClick={() => setLimit((value) => value + pageSize)}
+          aria-label={`加载更多，还剩 ${remaining} 个项目`}
+        >
+          加载更多 <span>{remaining}</span>
+        </button>
+      ) : null}
+    </>
+  )
+}
+
 interface CategoriesViewProps extends SkillActions {
   data: SkillData
   skills: Skill[]
@@ -53,7 +89,7 @@ export function CategoriesView({ data, skills, category, onCategory, scrollReque
         <div><h2>{selectedMeta?.name || '全部 Skills'}</h2><p>{selectedMeta?.description || '完整的开源 Agent Skills 索引。'}</p></div>
         <span>{skills.length} 个项目</span>
       </div>
-      <SkillGrid skills={skills} limit={24} {...actions} />
+      <PaginatedSkillGrid skills={skills} resetKey={`category:${category}:${skills.length}`} {...actions} />
     </section>
   )
 }
@@ -68,7 +104,7 @@ interface TopicsViewProps {
 export function TopicsView({ data, favorites, onSelect, onFavorite }: TopicsViewProps) {
   const [selectedTopic, setSelectedTopic] = useState(data.topics[0]?.name || '')
   const topicSkills = useMemo(
-    () => data.skills.filter((skill) => skill.sourceTopics.includes(selectedTopic)).slice(0, 18),
+    () => data.skills.filter((skill) => skill.sourceTopics.includes(selectedTopic)),
     [data.skills, selectedTopic],
   )
   const platformTopics = data.topics.filter((topic) => /agent|claude|codex|openclaw|copilot|gemini|anthropic/i.test(topic.name))
@@ -101,7 +137,13 @@ export function TopicsView({ data, favorites, onSelect, onFavorite }: TopicsView
           <a href={selected.url} target="_blank" rel="noreferrer">在 GitHub 查看 <ArrowUpRight size={16} /></a>
         </div>
       ) : null}
-      <SkillGrid skills={topicSkills} favorites={favorites} onSelect={onSelect} onFavorite={onFavorite} />
+      <PaginatedSkillGrid
+        skills={topicSkills}
+        resetKey={`topic:${selectedTopic}:${topicSkills.length}`}
+        favorites={favorites}
+        onSelect={onSelect}
+        onFavorite={onFavorite}
+      />
     </section>
   )
 }
