@@ -1,6 +1,20 @@
 export type ViewKey = 'discover' | 'ranking' | 'categories' | 'topics' | 'favorites' | 'about' | 'auth' | 'profile'
 export type SortKey = 'score' | 'stars' | 'recent'
 export type DetailMode = 'side' | 'half' | 'full'
+export type CatalogStatus = 'new' | 'active' | 'watching' | 'hidden'
+export type CatalogDelta = 'new' | 'updated' | 'stable'
+
+export interface AiInsight {
+  summary: string
+  useCases: string[]
+  expectedEffects: string[]
+  targetUsers: string[]
+  gettingStarted: string
+  limitations: string[]
+  generatedAt: string
+  sourceHash: string
+  method: string
+}
 
 export interface SkillMedia {
   socialPreview: string
@@ -43,6 +57,10 @@ export interface Skill {
   isCollection: boolean
   media: SkillMedia
   readmeUrl: string
+  detailPath?: string
+  catalogStatus?: CatalogStatus
+  catalogDelta?: CatalogDelta
+  aiInsight?: AiInsight
 }
 
 export interface TopicItem {
@@ -76,4 +94,32 @@ export interface SkillData {
   }>
   categories: Array<{ name: string; description: string; count: number }>
   skills: Skill[]
+}
+
+export interface CatalogManifest {
+  version: string
+  generatedAt: string
+  stats: {
+    repositories: number
+    categories: number
+    topics: number
+    added: number
+    updated: number
+    removed: number
+  }
+  catalogPolicy: {
+    mode: 'dynamic-threshold'
+    description: string
+  }
+  files: {
+    home: string
+    skillsLite: string
+    categories: string
+    topics: string
+  }
+  diff: {
+    added: string[]
+    updated: string[]
+    removed: string[]
+  }
 }

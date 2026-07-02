@@ -1,4 +1,4 @@
-import { useDeferredValue, useEffect, useMemo, useState } from 'react'
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import { useAuth } from './auth/AuthContext'
 import { AuthView, ProfileView } from './components/AuthViews'
 import { DetailPanel } from './components/DetailPanel'
@@ -9,13 +9,27 @@ import { FeedbackDialog } from './components/FeedbackDialog'
 import { Sidebar } from './components/Sidebar'
 import { RankingTable } from './components/SkillList'
 import { supabase } from './lib/supabase'
-import type { DetailMode, Skill, SkillData, SortKey, ViewKey } from './types'
+import type { CatalogManifest, DetailMode, Skill, SkillData, SortKey, ViewKey } from './types'
 
 const repositoryUrl = 'https://github.com/savanna0425/skillhot'
 const validViews: ViewKey[] = ['discover', 'ranking', 'categories', 'topics', 'favorites', 'about', 'auth', 'profile']
 
 const DETAIL_MODE_KEY = 'skillhot:detailMode'
 const DETAIL_MODES: DetailMode[] = ['side', 'half', 'full']
+
+function dataUrl(path: string) {
+  return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`
+}
+
+async function loadJson<T>(path: string): Promise<T> {
+  const response = await fetch(dataUrl(path))
+  if (!response.ok) throw new Error(`HTTP ${response.status}: ${path}`)
+  return response.json() as Promise<T>
+}
+
+function viewNeedsFullCatalog(view: ViewKey, query: string) {
+  return Boolean(query.trim()) || ['ranking', 'categories', 'topics', 'favorites', 'profile'].includes(view)
+}
 
 function initialDetailMode(): DetailMode {
   const stored = window.localStorage.getItem(DETAIL_MODE_KEY) as DetailMode | null
@@ -47,8 +61,12 @@ function initialView(): ViewKey {
 function App() {
   const { configured: authConfigured, loading: authLoading, user } = useAuth()
   const [data, setData] = useState<SkillData>(emptyData)
+  const [manifest, setManifest] = useState<CatalogManifest>()
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
+  const [catalogLoading, setCatalogLoading] = useState(false)
+  const [catalogError, setCatalogError] = useState(false)
+  const [fullCatalogLoaded, setFullCatalogLoaded] = useState(false)
   const [view, setView] = useState<ViewKey>(initialView)
   const [query, setQuery] = useState('')
   const deferredQuery = useDeferredValue(query)
@@ -63,35 +81,81 @@ function App() {
   const [favorites, setFavorites] = useState<Set<string>>(new Set())
   const [favoritesLoading, setFavoritesLoading] = useState(false)
   const [categoryScrollRequest, setCategoryScrollRequest] = useState(0)
+  const detailCacheRef = useRef<Map<string, Skill>>(new Map())
+  const [detailLoading, setDetailLoading] = useState(false)
 
-  const updateQuery = (value: string) => {
-    setQuery(value)
-    if (value.trim()) setCategory('全部')
-  }
+  const loadFullCatalog = useCallback(async () => {
+    if (fullCatalogLoaded || catalogLoading) return
+    setCatalogLoading(true)
+    setCatalogError(false)
+    try {
+      let payload: SkillData
+      try {
+        payload = await loadJson<SkillData>('data/skills-lite.json')
+      } catch {
+        payload = await loadJson<SkillData>('data/skills.json')
+      }
+      setData(payload)
+      setFullCatalogLoaded(true)
+      setSelected((current) => {
+        if (current) return payload.skills.find((skill) => skill.fullName === current.fullName) || current
+        return payload.skills.find((skill) => skill.fullName === 'anthropics/skills') || payload.skills[0]
+      })
+    } catch (error: unknown) {
+      console.error('SkillHot full catalog failed to load', error)
+      setCatalogError(true)
+    } finally {
+      setCatalogLoading(false)
+    }
+  }, [catalogLoading, fullCatalogLoaded])
 
   useEffect(() => {
     let active = true
-    fetch(`${import.meta.env.BASE_URL}data/skills.json`)
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`)
-        return response.json() as Promise<SkillData>
-      })
-      .then((payload) => {
+    async function loadInitialCatalog() {
+      try {
+        const manifestPayload = await loadJson<CatalogManifest>('data/manifest.json').catch((error: unknown) => {
+          console.warn('SkillHot manifest failed to load', error)
+          return undefined
+        })
+        const payload = await loadJson<SkillData>('data/home.json')
         if (!active) return
+        if (manifestPayload) setManifest(manifestPayload)
         setData(payload)
         const preferred = payload.skills.find((skill) => skill.fullName === 'anthropics/skills')
         setSelected(preferred || payload.skills[0])
-      })
-      .catch((error: unknown) => {
+      } catch (error: unknown) {
+        try {
+          const payload = await loadJson<SkillData>('data/skills.json')
+          if (!active) return
+          setData(payload)
+          setFullCatalogLoaded(true)
+          const preferred = payload.skills.find((skill) => skill.fullName === 'anthropics/skills')
+          setSelected(preferred || payload.skills[0])
+        } catch {
+          if (!active) return
+          console.error('SkillHot data failed to load', error)
+          setLoadError(true)
+        }
+      } finally {
         if (!active) return
-        console.error('SkillHot data failed to load', error)
-        setLoadError(true)
-      })
-      .finally(() => {
-        if (active) setLoading(false)
-      })
+        setLoading(false)
+      }
+    }
+    loadInitialCatalog()
     return () => { active = false }
   }, [])
+
+  useEffect(() => {
+    if (viewNeedsFullCatalog(view, deferredQuery)) void loadFullCatalog()
+  }, [deferredQuery, loadFullCatalog, view])
+
+  const updateQuery = (value: string) => {
+    setQuery(value)
+    if (value.trim()) {
+      setCategory('全部')
+      void loadFullCatalog()
+    }
+  }
 
   useEffect(() => {
     if (!user || !supabase) {
@@ -142,6 +206,25 @@ function App() {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${next}`)
     if (scrollToTop) window.scrollTo({ top: 0, behavior: 'smooth' })
   }
+
+  const loadSkillDetail = useCallback(async (skill: Skill) => {
+    if (!skill.detailPath) return
+    const cached = detailCacheRef.current.get(skill.fullName)
+    if (cached) {
+      setSelected(cached)
+      return
+    }
+    setDetailLoading(true)
+    try {
+      const detail = await loadJson<Skill>(skill.detailPath)
+      detailCacheRef.current.set(skill.fullName, detail)
+      setSelected((current) => current?.fullName === skill.fullName ? { ...current, ...detail } : current)
+    } catch (error: unknown) {
+      console.warn(`SkillHot detail failed to load for ${skill.fullName}`, error)
+    } finally {
+      setDetailLoading(false)
+    }
+  }, [])
 
   const categories = useMemo(() => ['全部', ...data.categories.map((item) => item.name)], [data.categories])
 
@@ -205,6 +288,7 @@ function App() {
   const selectSkill = (skill: Skill) => {
     setSelected(skill)
     setDetailOpen(true)
+    void loadSkillDetail(skill)
   }
 
   const selectSidebarCategory = (name: string) => {
@@ -231,8 +315,19 @@ function App() {
       )
     }
     if (loading) return <section className="page-state"><span className="loading-dot" />正在同步 GitHub Skills 数据…</section>
+    if (viewNeedsFullCatalog(view, deferredQuery) && !fullCatalogLoaded) {
+      if (catalogError) {
+        return (
+          <section className="page-state" role="alert">
+            <h1>完整目录暂时没有加载成功</h1>
+            <p>首页数据仍可浏览，请稍后刷新后再查看榜单、分类或话题。</p>
+          </section>
+        )
+      }
+      return <section className="page-state"><span className="loading-dot" />正在加载完整 SkillHot 目录…</section>
+    }
     if (view === 'discover') {
-      return <DiscoverView data={data} skills={searchedSkills} searching={Boolean(deferredQuery.trim())} {...sharedGridProps} />
+      return <DiscoverView data={data} manifest={manifest} skills={searchedSkills} searching={Boolean(deferredQuery.trim())} catalogLoading={catalogLoading} {...sharedGridProps} />
     }
     if (view === 'ranking') {
       return <RankingTable skills={visibleSkills} categories={categories} category={category} onCategory={setCategory} sort={sort} onSort={setSort} {...sharedGridProps} />
@@ -295,6 +390,7 @@ function App() {
           onRestore={() => setDetailOpen(true)}
           mode={detailMode}
           onMode={setDetailMode}
+          loading={detailLoading}
         />
       </div>
       {mobileFiltersOpen || detailOpen ? <button className="page-scrim" aria-label="关闭浮层" onClick={() => { setMobileFiltersOpen(false); setDetailOpen(false) }} /> : null}

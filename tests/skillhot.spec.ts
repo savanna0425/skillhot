@@ -75,6 +75,32 @@ test('category and topic pages can load more repositories', async ({ page }, tes
   await expect(topicCards).toHaveCount(48)
 })
 
+test('home uses lightweight catalog and then loads full index lazily', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  const requests: string[] = []
+  page.on('request', (request) => requests.push(request.url()))
+
+  await page.goto('/')
+  await expect(page.getByRole('heading', { name: '发现适合你的 Agent Skills' })).toBeVisible()
+  expect(requests.some((url) => url.endsWith('/data/home.json'))).toBeTruthy()
+  expect(requests.some((url) => url.endsWith('/data/skills.json'))).toBeFalsy()
+
+  await page.getByRole('navigation', { name: '主要页面' }).getByRole('button', { name: '榜单' }).click()
+  await expect(page.getByRole('heading', { name: 'Skills 榜单' })).toBeVisible()
+  expect(requests.some((url) => url.endsWith('/data/skills-lite.json'))).toBeTruthy()
+})
+
+test('detail panel shows offline AI interpretation', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+
+  await page.getByRole('button', { name: '详情' }).first().click()
+  const panel = page.locator('.detail-shell')
+  await expect(panel.getByRole('heading', { name: 'AI 项目解读' })).toBeVisible()
+  await expect(panel).toContainText('适合谁')
+  await expect(panel).toContainText('预期效果')
+})
+
 test('desktop detail panel width modes', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)

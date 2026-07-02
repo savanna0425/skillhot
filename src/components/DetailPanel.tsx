@@ -21,13 +21,14 @@ interface DetailPanelProps {
   open: boolean
   isFavorite: boolean
   mode: DetailMode
+  loading?: boolean
   onFavorite: (skill: Skill) => void
   onClose: () => void
   onRestore: () => void
   onMode: (mode: DetailMode) => void
 }
 
-export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose, onRestore, onMode }: DetailPanelProps) {
+export function DetailPanel({ skill, open, isFavorite, mode, loading = false, onFavorite, onClose, onRestore, onMode }: DetailPanelProps) {
   const [copied, setCopied] = useState(false)
   const panelRef = useRef<HTMLDivElement>(null)
 
@@ -94,6 +95,39 @@ export function DetailPanel({ skill, open, isFavorite, mode, onFavorite, onClose
           <p className="original-description">{skill.description || '仓库作者暂未填写 GitHub 简介，请查看 README。'}</p>
           <div className="classification-evidence"><span>{confidenceLabel(skill.categoryConfidence)}</span><small>结合仓库名、作者介绍和 GitHub Topics 帮你归的类，仅供参考</small></div>
         </section>
+        {skill.aiInsight ? (
+          <section className="detail-section ai-insight-section">
+            <div className="ai-insight-heading">
+              <h3>AI 项目解读</h3>
+              <span>{skill.aiInsight.method === 'deterministic-offline-v1' ? '离线生成' : 'AI 生成'}</span>
+            </div>
+            <p>{skill.aiInsight.summary}</p>
+            <div className="ai-insight-grid">
+              <div>
+                <strong>适合谁</strong>
+                <ul>{skill.aiInsight.targetUsers.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+              </div>
+              <div>
+                <strong>适用场景</strong>
+                <ul>{skill.aiInsight.useCases.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+              </div>
+              <div>
+                <strong>预期效果</strong>
+                <ul>{skill.aiInsight.expectedEffects.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+              </div>
+              <div>
+                <strong>注意事项</strong>
+                <ul>{skill.aiInsight.limitations.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+              </div>
+            </div>
+            <div className="ai-getting-started"><strong>最快上手</strong><span>{skill.aiInsight.gettingStarted}</span></div>
+          </section>
+        ) : loading ? (
+          <section className="detail-section ai-insight-section">
+            <h3>AI 项目解读</h3>
+            <p><span className="loading-dot" />正在读取离线解读…</p>
+          </section>
+        ) : null}
         <section className="detail-section">
           <h3>兼容平台</h3>
           <div className="tag-list">{skill.platforms.map((platform) => <span key={platform}>{platform}</span>)}</div>

@@ -77,7 +77,7 @@ export function CategoriesView({ data, skills, category, onCategory, scrollReque
       </div>
       <div className="category-board">
         <button className={category === '全部' ? 'selected' : ''} aria-pressed={category === '全部'} onClick={() => selectCategory('全部')}>
-          <span>全部分类</span><strong>{data.meta.repositories}</strong><p>浏览 SkillHot 收录的全部开源项目。</p><ArrowRight size={18} />
+          <span>全部分类</span><strong>{data.meta.repositories}</strong><p>浏览 SkillHot 动态收录的全部开源项目。</p><ArrowRight size={18} />
         </button>
         {data.categories.map((item) => (
           <button className={category === item.name ? 'selected' : ''} aria-pressed={category === item.name} key={item.name} onClick={() => selectCategory(item.name)}>
@@ -157,15 +157,15 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
         <div><a className="black-button" href={repositoryUrl} target="_blank" rel="noreferrer"><GithubMark width={18} height={18} /> 在 GitHub 查看源代码</a></div>
       </div>
       <div className="about-metrics">
-        <article><strong>{data.meta.repositories}</strong><span>开源仓库</span></article>
+        <article><strong>{data.meta.repositories}</strong><span>动态收录</span></article>
         <article><strong>{data.categories.length}</strong><span>工作分类</span></article>
         <article><strong>{data.topics.length}</strong><span>生态话题</span></article>
         <article><strong>{formatUpdatedAt(data.meta.generatedAt)}</strong><span>最近更新</span></article>
       </div>
       <div className="principle-grid">
-        <article><SearchCheck /><h2>一站找全</h2><p>把分散在 GitHub Topics、搜索和社区里的 Skills 收拢到一处，省去到处翻找。</p></article>
-        <article><RefreshCw /><h2>每天更新</h2><p>Stars、活跃度、安装方式、兼容平台每天刷新，你看到的都是最新状态。</p></article>
-        <article><Database /><h2>信息齐全</h2><p>中文简介、适用平台、安装方法、许可证、更新状态，一页就看清楚。</p></article>
+        <article><SearchCheck /><h2>动态筛选</h2><p>不按固定数量截断，而是按相关性、活跃度、质量和精选来源决定是否收录。</p></article>
+        <article><RefreshCw /><h2>每天更新</h2><p>Stars、活跃度、安装方式、兼容平台和收录状态每天刷新。</p></article>
+        <article><Database /><h2>AI 解读</h2><p>用中文补充项目用途、适合场景和预期效果，先看懂再决定要不要点进 GitHub。</p></article>
         <article><ShieldCheck /><h2>放心参考</h2><p>每条信息都能链接回原始仓库核对，方便你自己判断要不要用。</p></article>
       </div>
     </section>

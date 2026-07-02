@@ -1,7 +1,7 @@
 import { ArrowRight, Bookmark, ExternalLink, RefreshCw, Sparkles, Star } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import type { SyntheticEvent } from 'react'
-import type { Skill, SkillData } from '../types'
+import type { CatalogManifest, Skill, SkillData } from '../types'
 import { daysFromNow, formatStars, formatUpdatedAt } from '../utils'
 
 const previewFallback = `${import.meta.env.BASE_URL}assets/illustrations/official-skills.png`
@@ -40,6 +40,7 @@ export function SkillCard({ skill, selected, favorites, onSelect, onFavorite, co
           <img src={skill.avatarUrl} alt="" loading="lazy" onError={(event) => useFallback(event, avatarFallback)} />
           <div><strong>{skill.fullName}</strong><small>{skill.platforms.slice(0, 3).join(' · ')}</small></div>
         </div>
+        {skill.aiInsight ? <span className="ai-brief-badge">AI 已解读</span> : null}
         <p>{skill.summary}</p>
         <div className="card-meta">
           <span><Star size={14} fill="currentColor" /> {formatStars(skill.stars)}</span>
@@ -76,8 +77,10 @@ export function SkillGrid({ skills, emptyText = '没有找到匹配的 Skills', 
 
 interface DiscoverViewProps extends SkillActions {
   data: SkillData
+  manifest?: CatalogManifest
   skills: Skill[]
   searching?: boolean
+  catalogLoading?: boolean
 }
 
 function hashName(value: string) {
@@ -97,7 +100,7 @@ function shuffledSkills(skills: Skill[], seed: number) {
   return copy
 }
 
-export function DiscoverView({ data, skills, searching = false, ...actions }: DiscoverViewProps) {
+export function DiscoverView({ data, manifest, skills, searching = false, catalogLoading = false, ...actions }: DiscoverViewProps) {
   const [refresh, setRefresh] = useState(0)
   const newest = useMemo(
     () => skills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 8),
@@ -120,12 +123,20 @@ export function DiscoverView({ data, skills, searching = false, ...actions }: Di
       <section className="discover-hero">
         <div>
           <h1>发现适合你的 Agent Skills</h1>
-          <p>持续整理可安装的 Skills 与配套 Agent 工具，用准确中文简介帮你更快选对。</p>
+          <p>每日从 GitHub 动态筛选 Agent Skills 与配套 AI 工具，用产品经理视角帮你更快看懂用途和价值。</p>
           <div className="hero-facts">
-            <span><strong>{data.meta.repositories}</strong> 个仓库</span>
+            <span><strong>{manifest?.stats.repositories || data.meta.repositories}</strong> 个动态收录项目</span>
             <span><strong>{data.categories.length}</strong> 个分类</span>
             <span>更新于 {formatUpdatedAt(data.meta.generatedAt)}</span>
           </div>
+          {manifest ? (
+            <div className="daily-diff">
+              <span>今日新增 <strong>{manifest.stats.added}</strong></span>
+              <span>更新 <strong>{manifest.stats.updated}</strong></span>
+              <span>移出 <strong>{manifest.stats.removed}</strong></span>
+            </div>
+          ) : null}
+          {catalogLoading ? <small className="catalog-loading-note">正在后台加载完整目录…</small> : null}
         </div>
         <img src={`${import.meta.env.BASE_URL}assets/illustrations/superpowers.png`} alt="Agent 正在发现新技能" />
       </section>
