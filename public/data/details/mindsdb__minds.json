@@ -1,0 +1,91 @@
+{
+  "rank": 110,
+  "id": 143328315,
+  "name": "minds",
+  "fullName": "mindsdb/minds",
+  "owner": "mindsdb",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/31035808?v=4",
+  "url": "https://github.com/mindsdb/minds",
+  "homepage": "https://mindshub.ai",
+  "description": "Delegate anything. It comes back done.",
+  "summary": "minds：SQL、数据处理、统计、可视化与商业分析。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone --recurse-submodules https://github.com/mindsdb/minds.git\ncd minds",
+  "language": "Makefile",
+  "license": "MIT",
+  "stars": 39360,
+  "forks": 6209,
+  "openIssues": 2,
+  "score": 140.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:51:28Z",
+  "updatedAt": "2026-07-01T02:16:06Z",
+  "createdAt": "2018-08-02T17:56:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "analytics",
+    "artificial-inteligence",
+    "bigquery",
+    "business-intelligence",
+    "databases",
+    "hacktoberfest",
+    "llms",
+    "mcp",
+    "mssql",
+    "mysql",
+    "postgresql",
+    "rag"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mindsdb/minds",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mindsdb/minds#readme",
+  "detailPath": "data/details/mindsdb__minds.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "minds：SQL、数据处理、统计、可视化与商业分析。",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6eaed7a7edc5f41c",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "rank": 1348,
+  "id": 1228004380,
+  "name": "goalbuddy",
+  "fullName": "tolibear/goalbuddy",
+  "owner": "tolibear",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3253693?v=4",
+  "url": "https://github.com/tolibear/goalbuddy",
+  "homepage": "http://goalbuddy.dev/",
+  "description": "A better /goal for Codex and Claude Code",
+  "summary": "Codex 与 Claude Code 的更好目标",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/tolibear/goalbuddy.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 786,
+  "forks": 67,
+  "openIssues": 0,
+  "score": 99.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T20:44:37Z",
+  "updatedAt": "2026-06-30T16:59:03Z",
+  "createdAt": "2026-05-03T13:16:02Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tolibear/goalbuddy",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/tolibear/goalbuddy#readme",
+  "detailPath": "data/details/tolibear__goalbuddy.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Codex 与 Claude Code 的更好目标",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ae4d7f212bcf1dfd",
+    "method": "deterministic-offline-v1"
+  }
+}

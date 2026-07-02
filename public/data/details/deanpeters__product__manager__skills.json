@@ -1,0 +1,87 @@
+{
+  "rank": 227,
+  "id": 1150205470,
+  "name": "Product-Manager-Skills",
+  "fullName": "deanpeters/Product-Manager-Skills",
+  "owner": "deanpeters",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/211423?v=4",
+  "url": "https://github.com/deanpeters/Product-Manager-Skills",
+  "homepage": "",
+  "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+  "summary": "基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "pip install -r app/requirements.txt\nstreamlit run app/main.py",
+  "language": "Shell",
+  "license": "NOASSERTION",
+  "stars": 5506,
+  "forks": 693,
+  "openIssues": 7,
+  "score": 131.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T18:23:06Z",
+  "updatedAt": "2026-07-01T03:24:37Z",
+  "createdAt": "2026-02-05T02:16:46Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "ai-product-management",
+    "claude-skills",
+    "pm-frameworks",
+    "product-management"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 52,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/deanpeters/Product-Manager-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/deanpeters/Product-Manager-Skills#readme",
+  "detailPath": "data/details/deanpeters__product__manager__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1a63775b002f6b01",
+    "method": "deterministic-offline-v1"
+  }
+}

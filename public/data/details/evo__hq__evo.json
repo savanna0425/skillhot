@@ -1,0 +1,87 @@
+{
+  "rank": 905,
+  "id": 1202113460,
+  "name": "evo",
+  "fullName": "evo-hq/evo",
+  "owner": "evo-hq",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/274232282?v=4",
+  "url": "https://github.com/evo-hq/evo",
+  "homepage": "https://evo-hq.com",
+  "description": "turns your codebase into an autoresearch loop — discovers what to measure, instruments the benchmark, then runs tree search with parallel subagents.",
+  "summary": "将代码库转化为自动检索循环——发现需测量的内容、构建测试仪表，随后执行并行子代理的树搜索",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/evo-hq/evo.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1269,
+  "forks": 93,
+  "openIssues": 14,
+  "score": 108.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T05:55:17Z",
+  "updatedAt": "2026-06-29T23:36:00Z",
+  "createdAt": "2026-04-05T16:04:50Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "autonomous-agents",
+    "autoresearch",
+    "claude-code",
+    "code-optimization",
+    "codex",
+    "evolutionary-algorithms",
+    "llm-agents"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/evo-hq/evo",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/evo-hq/evo#readme",
+  "detailPath": "data/details/evo__hq__evo.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "将代码库转化为自动检索循环——发现需测量的内容、构建测试仪表，随后执行并行子代理的树搜索",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "43987b7aa98dc64c",
+    "method": "deterministic-offline-v1"
+  }
+}

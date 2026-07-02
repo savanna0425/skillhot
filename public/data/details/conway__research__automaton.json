@@ -1,0 +1,76 @@
+{
+  "rank": 807,
+  "id": 1158123451,
+  "name": "automaton",
+  "fullName": "Conway-Research/automaton",
+  "owner": "Conway-Research",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/259196925?v=4",
+  "url": "https://github.com/Conway-Research/automaton",
+  "homepage": "https://web4.ai",
+  "description": "The first AI that can earn its own existence, replicate, and evolve — without needing a human",
+  "summary": "能够独立生存、复制并进化，无需人类介入的 AI",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Conway-Research/automaton.git\ncd automaton\nnpm install && npm run build",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4683,
+  "forks": 1008,
+  "openIssues": 184,
+  "score": 111.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-06T05:00:38Z",
+  "updatedAt": "2026-07-01T04:30:25Z",
+  "createdAt": "2026-02-14T20:46:44Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Conway-Research/automaton",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Conway-Research/automaton#readme",
+  "detailPath": "data/details/conway__research__automaton.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "能够独立生存、复制并进化，无需人类介入的 AI",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "cd3ab4fe6a814af2",
+    "method": "deterministic-offline-v1"
+  }
+}

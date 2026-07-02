@@ -1,0 +1,96 @@
+{
+  "rank": 260,
+  "id": 1085086903,
+  "name": "EverOS",
+  "fullName": "EverMind-AI/EverOS",
+  "owner": "EverMind-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/229275294?v=4",
+  "url": "https://github.com/EverMind-AI/EverOS",
+  "homepage": "https://evermind.ai/everos",
+  "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+  "summary": "EverOS 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv pip install everos",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 9893,
+  "forks": 825,
+  "openIssues": 40,
+  "score": 129.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T23:33:22Z",
+  "updatedAt": "2026-07-01T04:53:47Z",
+  "createdAt": "2025-10-28T15:09:32Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-memory",
+    "agentic-ai",
+    "ai",
+    "chats",
+    "clawdbot",
+    "clawdbot-skill",
+    "llm",
+    "long-term-memory",
+    "mcp",
+    "memory",
+    "memory-management",
+    "python3",
+    "rag",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/EverMind-AI/EverOS",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/EverMind-AI/EverOS#readme",
+  "detailPath": "data/details/evermind__ai__everos.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "EverOS 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b14296edfe98cda0",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "rank": 459,
+  "id": 1175870738,
+  "name": "OpenClaw-Medical-Skills",
+  "fullName": "FreedomIntelligence/OpenClaw-Medical-Skills",
+  "owner": "FreedomIntelligence",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/127706844?v=4",
+  "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
+  "homepage": "",
+  "description": "The largest open-source medical AI skills library for OpenClaw🦞.",
+  "summary": "OpenClaw 最大的开源医疗 AI 技能库",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone --depth=1 --no-checkout https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills.git\ncd OpenClaw-Medical-Skills\ngit sparse-checkout init --cone",
+  "language": "Python",
+  "license": "",
+  "stars": 2781,
+  "forks": 388,
+  "openIssues": 11,
+  "score": 121.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T02:42:43Z",
+  "updatedAt": "2026-06-30T19:02:18Z",
+  "createdAt": "2026-03-08T09:43:52Z",
+  "sourceTopics": [
+    "skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "awesome",
+    "claude-code",
+    "clawhub",
+    "medical",
+    "nanoclaw",
+    "openclaw",
+    "openclaw-skills",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/FreedomIntelligence/OpenClaw-Medical-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills#readme",
+  "detailPath": "data/details/freedomintelligence__openclaw__medical__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw 最大的开源医疗 AI 技能库",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2332503a86d4e22b",
+    "method": "deterministic-offline-v1"
+  }
+}

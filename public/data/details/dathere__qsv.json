@@ -1,0 +1,97 @@
+{
+  "rank": 658,
+  "id": 320463703,
+  "name": "qsv",
+  "fullName": "dathere/qsv",
+  "owner": "dathere",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/61702229?v=4",
+  "url": "https://github.com/dathere/qsv",
+  "homepage": "https://qsv.dathere.com",
+  "description": "Blazing-fast Data-Wrangling toolkit",
+  "summary": "快速数据整理工具包",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pacman -S qsv\nbrew install qsv\nsudo port install qsv",
+  "language": "Rust",
+  "license": "Unlicense",
+  "stars": 3699,
+  "forks": 104,
+  "openIssues": 27,
+  "score": 115.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:28:52Z",
+  "updatedAt": "2026-07-01T01:28:55Z",
+  "createdAt": "2020-12-11T04:08:39Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ckan",
+    "csv",
+    "data-engineering",
+    "data-wrangling",
+    "dcat",
+    "excel",
+    "fair-data",
+    "fairification",
+    "geocode",
+    "luau",
+    "metadata",
+    "opendata",
+    "polars",
+    "sampling",
+    "sql",
+    "statistics",
+    "stats-sighting",
+    "timeseries",
+    "visualization"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dathere/qsv",
+    "videoUrl": "https://www.youtube.com/watch?v=p9lf76xOA5k"
+  },
+  "readmeUrl": "https://github.com/dathere/qsv#readme",
+  "detailPath": "data/details/dathere__qsv.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "快速数据整理工具包",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Unlicense，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "70ab23a99d79431d",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "rank": 619,
+  "id": 1149517037,
+  "name": "medical-research-skills",
+  "fullName": "aipoch/medical-research-skills",
+  "owner": "aipoch",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/243506841?v=4",
+  "url": "https://github.com/aipoch/medical-research-skills",
+  "homepage": "https://aipoch.com/agent-skills",
+  "description": "Hundreds of agent skills for medical research, including protocol design, data analysis, evidence insights, and academic writing.",
+  "summary": "数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/aipoch/medical-research-skills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1277,
+  "forks": 84,
+  "openIssues": 3,
+  "score": 116.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T10:32:42Z",
+  "updatedAt": "2026-07-01T04:47:15Z",
+  "createdAt": "2026-02-04T07:50:06Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "academic-writing",
+    "agent-skills",
+    "ai",
+    "bioinformatics",
+    "biology",
+    "cancer-genomics",
+    "clinical-research",
+    "computational-biology",
+    "data-analysis",
+    "data-visualization",
+    "differential-expression",
+    "genomics",
+    "medical",
+    "medical-research",
+    "protocol-design",
+    "rna-seq-data",
+    "science",
+    "scrna-seq-data",
+    "single-cell",
+    "spatial-transcriptomics"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 79,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/aipoch/medical-research-skills",
+    "videoUrl": "https://www.youtube.com/watch?v=Pq4E9mCO1t8"
+  },
+  "readmeUrl": "https://github.com/aipoch/medical-research-skills#readme",
+  "detailPath": "data/details/aipoch__medical__research__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4db8d408bdec6873",
+    "method": "deterministic-offline-v1"
+  }
+}

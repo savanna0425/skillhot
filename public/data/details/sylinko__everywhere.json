@@ -1,0 +1,96 @@
+{
+  "rank": 353,
+  "id": 971243074,
+  "name": "Everywhere",
+  "fullName": "Sylinko/Everywhere",
+  "owner": "Sylinko",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/235630315?v=4",
+  "url": "https://github.com/Sylinko/Everywhere",
+  "homepage": "https://everywhere.sylinko.com",
+  "description": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
+  "summary": "桌面端 AI 助手，基于当前应用上下文、多模型及 MCP 工具，帮助您跨应用行动",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Sylinko/Everywhere.git",
+  "language": "C#",
+  "license": "NOASSERTION",
+  "stars": 6132,
+  "forks": 380,
+  "openIssues": 22,
+  "score": 124.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T16:21:31Z",
+  "updatedAt": "2026-07-01T00:08:14Z",
+  "createdAt": "2025-04-23T08:19:33Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "ai-assistant",
+    "avalonia",
+    "claude",
+    "deepseek",
+    "desktop-app",
+    "flow-state",
+    "gemini",
+    "hermes-agent",
+    "mcp",
+    "on-screen-awareness",
+    "openai",
+    "openclaw",
+    "personal",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Sylinko/Everywhere",
+    "videoUrl": "https://youtu.be/BGujYa5hbXo"
+  },
+  "readmeUrl": "https://github.com/Sylinko/Everywhere#readme",
+  "detailPath": "data/details/sylinko__everywhere.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "桌面端 AI 助手，基于当前应用上下文、多模型及 MCP 工具，帮助您跨应用行动",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "eaf6f0db13ca0590",
+    "method": "deterministic-offline-v1"
+  }
+}

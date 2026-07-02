@@ -1,0 +1,85 @@
+{
+  "rank": 1221,
+  "id": 1161958643,
+  "name": "agent-desktop",
+  "fullName": "lahfir/agent-desktop",
+  "owner": "lahfir",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/70215676?v=4",
+  "url": "https://github.com/lahfir/agent-desktop",
+  "homepage": "",
+  "description": "Native desktop automation CLI for AI agents. Control any application through OS accessibility trees with structured JSON output and deterministic element refs.",
+  "summary": "用于 AI 代理的原生桌面自动化命令行工具。通过操作系统可访问树控制任何应用程序，并提供结构化的 JSON 输出和确定性的元素引用",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/lahfir/agent-desktop.git",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 898,
+  "forks": 54,
+  "openIssues": 3,
+  "score": 101,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:40:23Z",
+  "updatedAt": "2026-06-30T13:48:34Z",
+  "createdAt": "2026-02-19T18:00:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "accessibility",
+    "accessibility-api",
+    "ai-agents",
+    "automation",
+    "cli",
+    "desktop-automation",
+    "macos",
+    "mcp",
+    "rust"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/lahfir/agent-desktop",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/lahfir/agent-desktop#readme",
+  "detailPath": "data/details/lahfir__agent__desktop.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于 AI 代理的原生桌面自动化命令行工具。通过操作系统可访问树控制任何应用程序，并提供结构化的 JSON 输出和确定性的元素引用",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c0e47ddf0b8ed91d",
+    "method": "deterministic-offline-v1"
+  }
+}

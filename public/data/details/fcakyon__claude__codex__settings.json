@@ -1,0 +1,101 @@
+{
+  "rank": 804,
+  "id": 1016566225,
+  "name": "claude-codex-settings",
+  "fullName": "fcakyon/claude-codex-settings",
+  "owner": "fcakyon",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/34196005?v=4",
+  "url": "https://github.com/fcakyon/claude-codex-settings",
+  "homepage": "",
+  "description": "My personal Claude Code and OpenAI Codex setup with battle-tested skills, plugins, hooks and agents that I use daily.",
+  "summary": "我的个人 Claude Code 和 OpenAI Codex 设置，配备经过实战检验的技能、插件、钩子和代理，这些是我日常使用的",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add https://github.com/fcakyon/claude-codex-settings/tree/main/plugins/anthropic-office-skills --skill '*'",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 763,
+  "forks": 68,
+  "openIssues": 10,
+  "score": 111.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T09:48:28Z",
+  "updatedAt": "2026-07-01T02:17:40Z",
+  "createdAt": "2025-07-09T07:46:08Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "ai-tools",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "claudecode",
+    "claudecode-config",
+    "codex",
+    "codex-cli",
+    "commit-message",
+    "cursor",
+    "dokploy",
+    "frontend-design",
+    "gemini-cli",
+    "github",
+    "hetzner",
+    "plugin",
+    "pull-requests",
+    "slack"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 7,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/fcakyon/claude-codex-settings",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/fcakyon/claude-codex-settings#readme",
+  "detailPath": "data/details/fcakyon__claude__codex__settings.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "我的个人 Claude Code 和 OpenAI Codex 设置，配备经过实战检验的技能、插件、钩子和代理，这些是我日常使用的",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "eeca5783dd508fca",
+    "method": "deterministic-offline-v1"
+  }
+}

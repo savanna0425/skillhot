@@ -1,0 +1,88 @@
+{
+  "rank": 1055,
+  "id": 1122873619,
+  "name": "cc-safety-net",
+  "fullName": "kenryu42/cc-safety-net",
+  "owner": "kenryu42",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/61741059?v=4",
+  "url": "https://github.com/kenryu42/cc-safety-net",
+  "homepage": "https://ccsafetynet.com",
+  "description": "A coding agent CLI hook that acts as a safety net, catching destructive git and filesystem commands before they execute. Supports Codex, Claude Code, OpenCode, Gemini CLI, Copilot CLI, Kimi Code and Pi.",
+  "summary": "一个作为安全网的安全钩子，在 Git 和文件系统命令执行前拦截破坏性操作。支持 Codex、Claude Code、OpenCode、Gemini CLI、Copilot CLI、Kimi Code 和 Pi",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/kenryu42/cc-safety-net.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1422,
+  "forks": 65,
+  "openIssues": 6,
+  "score": 105.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T02:36:33Z",
+  "updatedAt": "2026-07-01T02:09:54Z",
+  "createdAt": "2025-12-25T17:52:57Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "destructive-commands",
+    "kimi-code",
+    "pi-extension",
+    "security"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kenryu42/cc-safety-net",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/kenryu42/cc-safety-net#readme",
+  "detailPath": "data/details/kenryu42__cc__safety__net.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个作为安全网的安全钩子，在 Git 和文件系统命令执行前拦截破坏性操作。支持 Codex、Claude Code、OpenCode、Gemini CLI、Copilot CLI、Kimi Code 和 Pi",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f442a8fed65d87d8",
+    "method": "deterministic-offline-v1"
+  }
+}

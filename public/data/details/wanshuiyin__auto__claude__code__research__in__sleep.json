@@ -1,0 +1,105 @@
+{
+  "rank": 108,
+  "id": 1177608268,
+  "name": "Auto-claude-code-research-in-sleep",
+  "fullName": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "owner": "wanshuiyin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76990859?v=4",
+  "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "homepage": "",
+  "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+  "summary": "Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/tianyilt/claude-fleet\ncd claude-fleet && bash run.sh",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 12857,
+  "forks": 1170,
+  "openIssues": 51,
+  "score": 140.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T10:35:47Z",
+  "updatedAt": "2026-07-01T04:28:08Z",
+  "createdAt": "2026-03-10T07:31:45Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-research",
+    "ai-tools",
+    "aris",
+    "autonomous-agent",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "deep-learning",
+    "gpt",
+    "idea-generation",
+    "llm",
+    "machine-learning",
+    "mcp",
+    "mcp-server",
+    "ml-research",
+    "openai",
+    "paper-review",
+    "paper-writing",
+    "research-automation"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenClaw",
+    "Antigravity"
+  ],
+  "skillCount": 79,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wanshuiyin/Auto-claude-code-research-in-sleep",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep#readme",
+  "detailPath": "data/details/wanshuiyin__auto__claude__code__research__in__sleep.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "65aa6cef2d0dabc4",
+    "method": "deterministic-offline-v1"
+  }
+}

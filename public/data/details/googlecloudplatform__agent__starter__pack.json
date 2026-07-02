@@ -1,0 +1,86 @@
+{
+  "rank": 468,
+  "id": 925298844,
+  "name": "agent-starter-pack",
+  "fullName": "GoogleCloudPlatform/agent-starter-pack",
+  "owner": "GoogleCloudPlatform",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2810941?v=4",
+  "url": "https://github.com/GoogleCloudPlatform/agent-starter-pack",
+  "homepage": "http://goo.gle/agents-cli",
+  "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
+  "summary": "在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "python -m venv .venv && source .venv/bin/activate\npip install --upgrade agent-starter-pack\nagent-starter-pack create",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 6504,
+  "forks": 1497,
+  "openIssues": 45,
+  "score": 121.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T02:50:06Z",
+  "updatedAt": "2026-07-01T00:14:13Z",
+  "createdAt": "2025-01-31T16:03:06Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "gcp",
+    "gemini",
+    "genai-agents",
+    "generative-ai",
+    "llmops",
+    "mlops",
+    "observability"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/GoogleCloudPlatform/agent-starter-pack",
+    "videoUrl": "https://youtu.be/jHt-ZVD660g"
+  },
+  "readmeUrl": "https://github.com/GoogleCloudPlatform/agent-starter-pack#readme",
+  "detailPath": "data/details/googlecloudplatform__agent__starter__pack.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ffb24889ceccf585",
+    "method": "deterministic-offline-v1"
+  }
+}

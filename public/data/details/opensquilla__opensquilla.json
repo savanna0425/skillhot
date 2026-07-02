@@ -1,0 +1,91 @@
+{
+  "rank": 404,
+  "id": 1231170332,
+  "name": "opensquilla",
+  "fullName": "opensquilla/opensquilla",
+  "owner": "opensquilla",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/275098769?v=4",
+  "url": "https://github.com/opensquilla/opensquilla",
+  "homepage": "https://opensquilla.ai",
+  "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+  "summary": "OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "The script installs `.[recommended]` (SquillaRouter + memory + local\nmodels) into a dedicated user environment via `uv tool install`,\nfalling back to `python -m pip install --user` when `uv` is",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 5176,
+  "forks": 371,
+  "openIssues": 95,
+  "score": 123.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:29:35Z",
+  "updatedAt": "2026-07-01T04:54:39Z",
+  "createdAt": "2026-05-06T17:43:05Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "ai-agents",
+    "deep-learning",
+    "foundation-models",
+    "llm",
+    "mcp",
+    "memory",
+    "openclaw",
+    "python",
+    "skills"
+  ],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/opensquilla/opensquilla",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/opensquilla/opensquilla#readme",
+  "detailPath": "data/details/opensquilla__opensquilla.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b6c454cc0e40b444",
+    "method": "deterministic-offline-v1"
+  }
+}

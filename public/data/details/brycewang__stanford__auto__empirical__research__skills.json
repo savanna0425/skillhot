@@ -1,0 +1,97 @@
+{
+  "rank": 391,
+  "id": 1200204014,
+  "name": "Auto-Empirical-Research-Skills",
+  "fullName": "brycewang-stanford/Auto-Empirical-Research-Skills",
+  "owner": "brycewang-stanford",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/199214463?v=4",
+  "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+  "homepage": "https://copaper.ai",
+  "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+  "summary": "A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git\ncd Auto-Empirical-Research-Skills\nmake check        # 仓库校验 + 单元测试 + eval lint + 数值基准",
+  "language": "Stata",
+  "license": "NOASSERTION",
+  "stars": 2470,
+  "forks": 335,
+  "openIssues": 2,
+  "score": 123.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T11:01:03Z",
+  "updatedAt": "2026-07-01T04:41:03Z",
+  "createdAt": "2026-04-03T06:31:20Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "academic-research",
+    "agent-skills",
+    "ai-agent",
+    "awesome-list",
+    "communication",
+    "copaper",
+    "economics",
+    "education",
+    "empirical-research",
+    "international-relations",
+    "political-science",
+    "psychology",
+    "public-administration",
+    "reproducible-research",
+    "skills-library",
+    "social-science",
+    "sociology"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 23000,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/brycewang-stanford/Auto-Empirical-Research-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills#readme",
+  "detailPath": "data/details/brycewang__stanford__auto__empirical__research__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "229b2ba45f20c103",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "rank": 633,
+  "id": 1242679355,
+  "name": "claude-fuer-deutsches-recht",
+  "fullName": "Klotzkette/claude-fuer-deutsches-recht",
+  "owner": "Klotzkette",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/39582916?v=4",
+  "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+  "homepage": "",
+  "description": "⚠️ Experimentelle Skill-Sammlung für deutsches Recht (Arbeits-, Gesellschafts-, Insolvenz-, Datenschutz-, Prozessrecht u.a.) – inzwischen verbessert und im Alltag getestet, aber weiterhin Experiment. Bitte selber ausprobieren, Issues/PRs willkommen! Keine Rechtsberatung. Mandatsgeheimnis (§§ 203/204 StGB, § 43e BRAO), DSGVO, US-Transfer, KI-VO & Co",
+  "summary": "claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Klotzkette/claude-fuer-deutsches-recht.git\ncd claude-fuer-deutsches-recht\nclaude plugin marketplace add .",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1236,
+  "forks": 151,
+  "openIssues": 5,
+  "score": 116.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:49:53Z",
+  "updatedAt": "2026-06-30T21:49:50Z",
+  "createdAt": "2026-05-18T16:43:56Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "anthropic",
+    "bgh",
+    "claude-skills",
+    "deutsches-recht",
+    "dsgvo",
+    "german-law",
+    "kanzlei",
+    "legal-ai",
+    "legaltech"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 26134,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Klotzkette/claude-fuer-deutsches-recht",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Klotzkette/claude-fuer-deutsches-recht#readme",
+  "detailPath": "data/details/klotzkette__claude__fuer__deutsches__recht.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "87f1860ffcfe6186",
+    "method": "deterministic-offline-v1"
+  }
+}

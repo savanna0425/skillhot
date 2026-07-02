@@ -1,0 +1,86 @@
+{
+  "rank": 1101,
+  "id": 1178505369,
+  "name": "turbo",
+  "fullName": "tobihagemann/turbo",
+  "owner": "tobihagemann",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2924160?v=4",
+  "url": "https://github.com/tobihagemann/turbo",
+  "homepage": "",
+  "description": "A composable dev process for agentic coding harnesses, packaged as modular skills. Turbo has sibling editions for Claude Code and Codex.",
+  "summary": "面向敏捷开发的可组合代理编码工作流，以模块化技能包形式打包。Turbo 提供 Claude Code 和 Codex 的兄弟版本",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/tobihagemann/turbo.git",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 363,
+  "forks": 29,
+  "openIssues": 0,
+  "score": 103.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:07:54Z",
+  "updatedAt": "2026-07-01T03:36:28Z",
+  "createdAt": "2026-03-11T04:50:30Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "codex-skills",
+    "developer-tools",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tobihagemann/turbo",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/tobihagemann/turbo#readme",
+  "detailPath": "data/details/tobihagemann__turbo.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向敏捷开发的可组合代理编码工作流，以模块化技能包形式打包。Turbo 提供 Claude Code 和 Codex 的兄弟版本",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d24980da89197871",
+    "method": "deterministic-offline-v1"
+  }
+}

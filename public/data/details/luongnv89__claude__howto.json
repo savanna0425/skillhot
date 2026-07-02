@@ -1,0 +1,80 @@
+{
+  "rank": 112,
+  "id": 1092047360,
+  "name": "claude-howto",
+  "fullName": "luongnv89/claude-howto",
+  "owner": "luongnv89",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3288457?v=4",
+  "url": "https://github.com/luongnv89/claude-howto",
+  "homepage": "http://luongnv.com/claude-howto/",
+  "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+  "summary": "视觉化、示例驱动型指南：从基础概念到高级代理，附带可直接复制粘贴的模板，即刻提供价值",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/luongnv89/claude-howto.git\ncd claude-howto\nmkdir -p /path/to/your-project/.claude/commands",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 39006,
+  "forks": 4702,
+  "openIssues": 23,
+  "score": 140.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T21:59:41Z",
+  "updatedAt": "2026-07-01T04:41:30Z",
+  "createdAt": "2025-11-07T22:59:34Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "guide",
+    "tutorial"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/luongnv89/claude-howto",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/luongnv89/claude-howto#readme",
+  "detailPath": "data/details/luongnv89__claude__howto.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "视觉化、示例驱动型指南：从基础概念到高级代理，附带可直接复制粘贴的模板，即刻提供价值",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "347d764a5ef06648",
+    "method": "deterministic-offline-v1"
+  }
+}

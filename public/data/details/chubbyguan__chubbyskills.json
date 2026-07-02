@@ -1,0 +1,86 @@
+{
+  "rank": 1115,
+  "id": 1262740944,
+  "name": "chubbyskills",
+  "fullName": "chubbyguan/chubbyskills",
+  "owner": "chubbyguan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/291697539?v=4",
+  "url": "https://github.com/chubbyguan/chubbyskills",
+  "homepage": "",
+  "description": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 13 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, and a KB MCP server.",
+  "summary": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 13 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, and a KB MCP server.",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/chubbyguan/chubbyskills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 496,
+  "forks": 71,
+  "openIssues": 1,
+  "score": 102.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:06:15Z",
+  "updatedAt": "2026-06-30T14:41:24Z",
+  "createdAt": "2026-06-08T09:22:13Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "chinese",
+    "claude-code",
+    "knowledge-base",
+    "mcp",
+    "obsidian",
+    "second-brain",
+    "transcription",
+    "xiaohongshu"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chubbyguan/chubbyskills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/chubbyguan/chubbyskills#readme",
+  "detailPath": "data/details/chubbyguan__chubbyskills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 13 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, and a KB MCP server.",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "05b5f67ecd4c0606",
+    "method": "deterministic-offline-v1"
+  }
+}

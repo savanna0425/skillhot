@@ -1,0 +1,92 @@
+{
+  "rank": 147,
+  "id": 1135791677,
+  "name": "GenericAgent",
+  "fullName": "lsdefine/GenericAgent",
+  "owner": "lsdefine",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3377819?v=4",
+  "url": "https://github.com/lsdefine/GenericAgent",
+  "homepage": "https://github.com/lsdefine/GenericAgent",
+  "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+  "summary": "自进化智能体：从 3300 行种子代码中生长技能树，实现全系统控制，token 消耗降低 6 倍",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/lsdefine/GenericAgent.git && cd GenericAgent\nuv venv && uv pip install -e \".[ui]\"\ncp mykey_template_en.py mykey.py   # fill in your LLM API key",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 13221,
+  "forks": 1527,
+  "openIssues": 158,
+  "score": 136.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T10:33:54Z",
+  "updatedAt": "2026-07-01T04:47:51Z",
+  "createdAt": "2026-01-16T15:45:24Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "automation",
+    "autonomous-agent",
+    "browser-automation",
+    "claude",
+    "computer-control",
+    "desktop-automation",
+    "gemini",
+    "lightweight",
+    "llm-agent",
+    "memory-system",
+    "python",
+    "self-evolving",
+    "skill-tree",
+    "task-automation"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/lsdefine/GenericAgent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/lsdefine/GenericAgent#readme",
+  "detailPath": "data/details/lsdefine__genericagent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "自进化智能体：从 3300 行种子代码中生长技能树，实现全系统控制，token 消耗降低 6 倍",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d4af14bf15d46c7e",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "rank": 151,
+  "id": 10353211,
+  "name": "jscpd",
+  "fullName": "kucherenko/jscpd",
+  "owner": "kucherenko",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/159307?v=4",
+  "url": "https://github.com/kucherenko/jscpd",
+  "homepage": "https://jscpd.dev/",
+  "description": "Copy/paste detector for programming source code, supports 223 formats. AI-ready with token-efficient reporter, skill and MCP server.",
+  "summary": "代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "curl -fsSL https://jscpd.dev/install.sh | bash\nnpm install -g jscpd@4\njscpd /path/to/code",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5822,
+  "forks": 246,
+  "openIssues": 46,
+  "score": 136.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:08:22Z",
+  "updatedAt": "2026-06-30T14:43:54Z",
+  "createdAt": "2013-05-29T06:19:20Z",
+  "sourceTopics": [
+    "skill",
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "clones-detection",
+    "code-quality",
+    "coding-agents",
+    "copy-paste",
+    "copy-paste-detection",
+    "cpd",
+    "detector",
+    "dry",
+    "duplicates",
+    "duplications",
+    "mcp",
+    "quality",
+    "skill",
+    "skills"
+  ],
+  "platforms": [
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kucherenko/jscpd",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/kucherenko/jscpd#readme",
+  "detailPath": "data/details/kucherenko__jscpd.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f217d5655afd2435",
+    "method": "deterministic-offline-v1"
+  }
+}

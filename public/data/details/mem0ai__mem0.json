@@ -1,0 +1,95 @@
+{
+  "rank": 72,
+  "id": 656099147,
+  "name": "mem0",
+  "fullName": "mem0ai/mem0",
+  "owner": "mem0ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/137054526?v=4",
+  "url": "https://github.com/mem0ai/mem0",
+  "homepage": "https://mem0.ai",
+  "description": "Universal memory layer for AI Agents",
+  "summary": "通用 AI 代理记忆层",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @mem0/cli      # or: pip install mem0-cli\nmem0 init --agent --agent-caller claude-code\nmem0 add \"I am using mem0\"",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 59802,
+  "forks": 6930,
+  "openIssues": 466,
+  "score": 144.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T17:26:46Z",
+  "updatedAt": "2026-07-01T04:47:58Z",
+  "createdAt": "2023-06-20T08:58:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "application",
+    "chatbots",
+    "chatgpt",
+    "genai",
+    "llm",
+    "long-term-memory",
+    "memory",
+    "memory-management",
+    "python",
+    "rag",
+    "state-management"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mem0ai/mem0",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mem0ai/mem0#readme",
+  "detailPath": "data/details/mem0ai__mem0.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "通用 AI 代理记忆层",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2f9d9f38483442f1",
+    "method": "deterministic-offline-v1"
+  }
+}

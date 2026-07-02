@@ -1,0 +1,92 @@
+{
+  "rank": 262,
+  "id": 631285104,
+  "name": "google-maps-scraper",
+  "fullName": "gosom/google-maps-scraper",
+  "owner": "gosom",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/454718?v=4",
+  "url": "https://github.com/gosom/google-maps-scraper",
+  "homepage": "",
+  "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+  "summary": "从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add gosom/google-maps-scraper",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 4605,
+  "forks": 705,
+  "openIssues": 65,
+  "score": 129.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T05:29:16Z",
+  "updatedAt": "2026-07-01T04:24:18Z",
+  "createdAt": "2023-04-22T14:35:13Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "distributed-scraper",
+    "distributed-scraping",
+    "golang",
+    "google-maps",
+    "google-maps-scraping",
+    "web-scraper",
+    "web-scraping"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gosom/google-maps-scraper",
+    "videoUrl": "https://www.youtube.com/watch?v=STG9mZw_nac"
+  },
+  "readmeUrl": "https://github.com/gosom/google-maps-scraper#readme",
+  "detailPath": "data/details/gosom__google__maps__scraper.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9973a598bc75fc1b",
+    "method": "deterministic-offline-v1"
+  }
+}

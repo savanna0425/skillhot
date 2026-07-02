@@ -1,0 +1,87 @@
+{
+  "rank": 1095,
+  "id": 1204572994,
+  "name": "skill-based-architecture",
+  "fullName": "WoJiSama/skill-based-architecture",
+  "owner": "WoJiSama",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/114666353?v=4",
+  "url": "https://github.com/WoJiSama/skill-based-architecture",
+  "homepage": "",
+  "description": "A meta-skill that produces skills. Point it at any codebase and it distills the project's rules, workflows, and hard-won lessons into a dedicated skills/<name>/ directory — a project skill that becomes the single source of truth every AI agent (Cursor, Claude Code, Codex, Windsurf, Gemini) consults before every task.",
+  "summary": "生成技能：将项目规则、工作流程和珍贵经验提炼为 dedicated skills/<name>/ 目录，成为每个 AI 代理（Cursor、Claude Code、Codex、Windsurf、Gemini）在每次任务前咨询的唯一真理",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/WoJiSama/skill-based-architecture.git",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 375,
+  "forks": 36,
+  "openIssues": 0,
+  "score": 104.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T02:26:46Z",
+  "updatedAt": "2026-07-01T03:35:19Z",
+  "createdAt": "2026-04-08T06:08:53Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "chatbot",
+    "claude",
+    "markdown",
+    "skill"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/WoJiSama/skill-based-architecture",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/WoJiSama/skill-based-architecture#readme",
+  "detailPath": "data/details/wojisama__skill__based__architecture.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "生成技能：将项目规则、工作流程和珍贵经验提炼为 dedicated skills/<name>/ 目录，成为每个 AI 代理（Cursor、Claude Code、Codex、Windsurf、Gemini）在每次任务前咨询的唯一真理",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6bb80de4be3d60ae",
+    "method": "deterministic-offline-v1"
+  }
+}

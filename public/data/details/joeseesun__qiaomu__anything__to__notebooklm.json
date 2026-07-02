@@ -1,0 +1,84 @@
+{
+  "rank": 615,
+  "id": 1141853351,
+  "name": "qiaomu-anything-to-notebooklm",
+  "fullName": "joeseesun/qiaomu-anything-to-notebooklm",
+  "owner": "joeseesun",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3236682?v=4",
+  "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+  "homepage": "",
+  "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+  "summary": "把网页、视频、PDF 等多源内容加工后送入 NotebookLM",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "资料汇总",
+    "播客与测验生成",
+    "知识研究"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "cd ~/.claude/skills/\ngit clone https://github.com/joeseesun/qiaomu-anything-to-notebooklm\ncd qiaomu-anything-to-notebooklm",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 5450,
+  "forks": 602,
+  "openIssues": 6,
+  "score": 116.7,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-28T01:38:28Z",
+  "updatedAt": "2026-07-01T04:49:11Z",
+  "createdAt": "2026-01-25T14:48:01Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "automation",
+    "claude",
+    "mcp",
+    "notebooklm",
+    "skill"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/joeseesun/qiaomu-anything-to-notebooklm",
+    "videoUrl": "https://youtube.com/watch?v=xxx"
+  },
+  "readmeUrl": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm#readme",
+  "detailPath": "data/details/joeseesun__qiaomu__anything__to__notebooklm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "把网页、视频、PDF 等多源内容加工后送入 NotebookLM",
+    "useCases": [
+      "资料汇总",
+      "播客与测验生成",
+      "知识研究"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b469ba2200bd53c7",
+    "method": "deterministic-offline-v1"
+  }
+}

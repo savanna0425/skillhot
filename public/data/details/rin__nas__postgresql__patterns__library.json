@@ -1,0 +1,96 @@
+{
+  "rank": 1357,
+  "id": 163220466,
+  "name": "postgresql-patterns-library",
+  "fullName": "rin-nas/postgresql-patterns-library",
+  "owner": "rin-nas",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/956066?v=4",
+  "url": "https://github.com/rin-nas/postgresql-patterns-library",
+  "homepage": "",
+  "description": "Коллекция готовых SQL запросов для PostgreSQL по часто возникающим задачам (получение и модификация данных, ускорение запросов, обслуживание БД)",
+  "summary": "PostgreSQL 常用 SQL 查询集合（获取与修改数据、加速查询、数据库维护）",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/rin-nas/postgresql-patterns-library.git",
+  "language": "PLpgSQL",
+  "license": "MIT",
+  "stars": 776,
+  "forks": 172,
+  "openIssues": 4,
+  "score": 99.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T09:20:24Z",
+  "updatedAt": "2026-06-27T09:20:28Z",
+  "createdAt": "2018-12-26T21:52:07Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "batch",
+    "check",
+    "csv",
+    "ddl",
+    "deduplication",
+    "detect",
+    "determine",
+    "email",
+    "function",
+    "gender",
+    "howto",
+    "parse",
+    "phone",
+    "postgres",
+    "postgresql",
+    "recipes",
+    "sql",
+    "syntax",
+    "update",
+    "validation"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rin-nas/postgresql-patterns-library",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/rin-nas/postgresql-patterns-library#readme",
+  "detailPath": "data/details/rin__nas__postgresql__patterns__library.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "PostgreSQL 常用 SQL 查询集合（获取与修改数据、加速查询、数据库维护）",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a79dfa1a5925d056",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "rank": 95,
+  "id": 1219042200,
+  "name": "guizang-ppt-skill",
+  "fullName": "op7418/guizang-ppt-skill",
+  "owner": "op7418",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/13505770?v=4",
+  "url": "https://github.com/op7418/guizang-ppt-skill",
+  "homepage": "",
+  "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+  "summary": "生成杂志感、瑞士风等高质量 HTML 演示文稿",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "演示文稿",
+    "社交封面",
+    "HTML Slides"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill",
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "stars": 19556,
+  "forks": 1421,
+  "openIssues": 24,
+  "score": 142,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-02T09:53:57Z",
+  "updatedAt": "2026-07-01T04:48:43Z",
+  "createdAt": "2026-04-23T13:23:07Z",
+  "sourceTopics": [
+    "skill",
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索",
+    "精选来源"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "html-deck",
+    "image-generation",
+    "ppt",
+    "presentation",
+    "skill",
+    "skills",
+    "swiss-design",
+    "web-ppt"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/op7418/guizang-ppt-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/op7418/guizang-ppt-skill#readme",
+  "detailPath": "data/details/op7418__guizang__ppt__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "生成杂志感、瑞士风等高质量 HTML 演示文稿",
+    "useCases": [
+      "演示文稿",
+      "社交封面",
+      "HTML Slides"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c106c0353ef22ee0",
+    "method": "deterministic-offline-v1"
+  }
+}

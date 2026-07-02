@@ -1,0 +1,75 @@
+{
+  "rank": 550,
+  "id": 1161277811,
+  "name": "lossless-claw",
+  "fullName": "Martian-Engineering/lossless-claw",
+  "owner": "Martian-Engineering",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/181138551?v=4",
+  "url": "https://github.com/Martian-Engineering/lossless-claw",
+  "homepage": "",
+  "description": "Lossless Claw — LCM (Lossless Context Management) plugin for OpenClaw",
+  "summary": "无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx --package @martian-engineering/lossless-claw@latest lossless-claw-migrate-sessions --state-dir ~/.openclaw",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4855,
+  "forks": 426,
+  "openIssues": 225,
+  "score": 118.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:55:20Z",
+  "updatedAt": "2026-07-01T03:41:38Z",
+  "createdAt": "2026-02-18T23:36:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Martian-Engineering/lossless-claw",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Martian-Engineering/lossless-claw#readme",
+  "detailPath": "data/details/martian__engineering__lossless__claw.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9c965aea477d692d",
+    "method": "deterministic-offline-v1"
+  }
+}

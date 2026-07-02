@@ -1,0 +1,77 @@
+{
+  "rank": 777,
+  "id": 1114840147,
+  "name": "vibium",
+  "fullName": "VibiumDev/vibium",
+  "owner": "VibiumDev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/249011745?v=4",
+  "url": "https://github.com/VibiumDev/vibium",
+  "homepage": "https://vibium.com",
+  "description": "The verification layer for coding agents",
+  "summary": "代码代理的验证层",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g vibium\nnpx skills add https://github.com/VibiumDev/vibium --skill vibe-check",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 2830,
+  "forks": 170,
+  "openIssues": 50,
+  "score": 112.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:39:17Z",
+  "updatedAt": "2026-07-01T03:39:22Z",
+  "createdAt": "2025-12-12T00:56:53Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/VibiumDev/vibium",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/VibiumDev/vibium#readme",
+  "detailPath": "data/details/vibiumdev__vibium.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "代码代理的验证层",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "48a4acfa8078ecf6",
+    "method": "deterministic-offline-v1"
+  }
+}

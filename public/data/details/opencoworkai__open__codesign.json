@@ -1,0 +1,99 @@
+{
+  "rank": 428,
+  "id": 1214028719,
+  "name": "open-codesign",
+  "fullName": "OpenCoworkAI/open-codesign",
+  "owner": "OpenCoworkAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/254727761?v=4",
+  "url": "https://github.com/OpenCoworkAI/open-codesign",
+  "homepage": "https://opencoworkai.github.io/open-codesign/",
+  "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+  "summary": "开源的 Claude 设计替代方案。一键导入 Claude Code/Codex API 密钥。提示词 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。BYOK，本地优先，MIT",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install --cask opencoworkai/tap/open-codesign\nscoop bucket add opencoworkai https://github.com/OpenCoworkAI/scoop-bucket\nscoop install opencoworkai/open-codesign",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 7024,
+  "forks": 733,
+  "openIssues": 69,
+  "score": 122.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T22:04:03Z",
+  "updatedAt": "2026-07-01T04:43:44Z",
+  "createdAt": "2026-04-18T03:14:33Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-design",
+    "anthropic",
+    "byok",
+    "claude",
+    "claude-code",
+    "claude-design",
+    "claude-design-alternative",
+    "deepseek",
+    "design-to-code",
+    "desktop-app",
+    "electron",
+    "figma-alternative",
+    "gemini",
+    "local-first",
+    "multi-model",
+    "ollama",
+    "openai",
+    "openrouter",
+    "typescript",
+    "ui-generator"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenCoworkAI/open-codesign",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenCoworkAI/open-codesign#readme",
+  "detailPath": "data/details/opencoworkai__open__codesign.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "开源的 Claude 设计替代方案。一键导入 Claude Code/Codex API 密钥。提示词 → 原型/幻灯片/PDF。多模型（Claude、GPT、Gemini、Kimi、GLM、Ollama）。BYOK，本地优先，MIT",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9d5444777705b4a7",
+    "method": "deterministic-offline-v1"
+  }
+}

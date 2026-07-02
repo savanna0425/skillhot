@@ -1,0 +1,99 @@
+{
+  "rank": 135,
+  "id": 1014729376,
+  "name": "MemOS",
+  "fullName": "MemTensor/MemOS",
+  "owner": "MemTensor",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/210160027?v=4",
+  "url": "https://github.com/MemTensor/MemOS",
+  "homepage": "https://memos.openmem.net",
+  "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
+  "summary": "面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/MemTensor/MemOS.git\ncd MemOS\npip install -r ./docker/requirements.txt",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 10047,
+  "forks": 913,
+  "openIssues": 273,
+  "score": 138.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:50:59Z",
+  "updatedAt": "2026-07-01T04:44:12Z",
+  "createdAt": "2025-07-06T09:51:27Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "ai-agents",
+    "chatgpt",
+    "claude",
+    "hermes",
+    "llm",
+    "long-term-memory",
+    "mcp",
+    "memory",
+    "memory-management",
+    "multi-agent",
+    "openclaw",
+    "python",
+    "rag",
+    "self-evolving",
+    "self-hosted",
+    "skills",
+    "token-savings"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MemTensor/MemOS",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/MemTensor/MemOS#readme",
+  "detailPath": "data/details/memtensor__memos.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5e1796473933e020",
+    "method": "deterministic-offline-v1"
+  }
+}

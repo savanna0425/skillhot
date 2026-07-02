@@ -1,0 +1,75 @@
+{
+  "rank": 544,
+  "id": 1245699721,
+  "name": "Kun",
+  "fullName": "KunAgent/Kun",
+  "owner": "KunAgent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/292492812?v=4",
+  "url": "https://github.com/KunAgent/Kun",
+  "homepage": "https://www.kun-agent.com",
+  "description": "AI agent workspace with Code and Write modes built into your application.",
+  "summary": "您的应用程序内已内置代码与写作模式",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/KunAgent/Kun.git\ncd Kun\nnpm install",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 4937,
+  "forks": 465,
+  "openIssues": 12,
+  "score": 118.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T18:05:30Z",
+  "updatedAt": "2026-07-01T03:57:48Z",
+  "createdAt": "2026-05-21T13:22:06Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/KunAgent/Kun",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/KunAgent/Kun#readme",
+  "detailPath": "data/details/kunagent__kun.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "您的应用程序内已内置代码与写作模式",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3d103d091277daec",
+    "method": "deterministic-offline-v1"
+  }
+}

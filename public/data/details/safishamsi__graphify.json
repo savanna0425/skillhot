@@ -1,0 +1,96 @@
+{
+  "rank": 10,
+  "id": 1200597263,
+  "name": "graphify",
+  "fullName": "safishamsi/graphify",
+  "owner": "safishamsi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/216348667?v=4",
+  "url": "https://github.com/safishamsi/graphify",
+  "homepage": "https://graphifylabs.ai/",
+  "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+  "summary": "把代码、数据库、文档与多媒体转成可查询知识图谱",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "代码库理解",
+    "跨模态知识图谱",
+    "复杂项目检索"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install python@3.12 uv",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 74953,
+  "forks": 7449,
+  "openIssues": 401,
+  "score": 159,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T22:27:47Z",
+  "updatedAt": "2026-07-01T04:48:56Z",
+  "createdAt": "2026-04-03T15:49:07Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "antigravity",
+    "claude-code",
+    "codex",
+    "gemini",
+    "graphrag",
+    "knowledge-graph",
+    "leiden",
+    "openclaw",
+    "rag",
+    "skills",
+    "tree-sitter"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/safishamsi/graphify",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/safishamsi/graphify#readme",
+  "detailPath": "data/details/safishamsi__graphify.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "把代码、数据库、文档与多媒体转成可查询知识图谱",
+    "useCases": [
+      "代码库理解",
+      "跨模态知识图谱",
+      "复杂项目检索"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8600aec317b34177",
+    "method": "deterministic-offline-v1"
+  }
+}

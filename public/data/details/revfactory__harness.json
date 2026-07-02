@@ -1,0 +1,82 @@
+{
+  "rank": 355,
+  "id": 1193082155,
+  "name": "harness",
+  "fullName": "revfactory/harness",
+  "owner": "revfactory",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2889542?v=4",
+  "url": "https://github.com/revfactory/harness",
+  "homepage": "https://revfactory.github.io/harness/",
+  "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+  "summary": "元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/revfactory/harness.git",
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "stars": 8113,
+  "forks": 1101,
+  "openIssues": 23,
+  "score": 124.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-10T05:30:36Z",
+  "updatedAt": "2026-07-01T04:50:27Z",
+  "createdAt": "2026-03-26T21:22:07Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-code-plugin",
+    "harness",
+    "harness-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 149,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/revfactory/harness",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/revfactory/harness#readme",
+  "detailPath": "data/details/revfactory__harness.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "da5f792c79346153",
+    "method": "deterministic-offline-v1"
+  }
+}

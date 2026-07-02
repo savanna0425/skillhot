@@ -1,0 +1,80 @@
+{
+  "rank": 810,
+  "id": 1141582887,
+  "name": "skills-hub",
+  "fullName": "qufei1993/skills-hub",
+  "owner": "qufei1993",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/17956058?v=4",
+  "url": "https://github.com/qufei1993/skills-hub",
+  "homepage": "",
+  "description": "A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.",
+  "summary": "一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "npm install\nnpm run tauri:dev",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 1093,
+  "forks": 130,
+  "openIssues": 8,
+  "score": 111,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:01:30Z",
+  "updatedAt": "2026-07-01T02:01:34Z",
+  "createdAt": "2026-01-25T03:31:21Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/qufei1993/skills-hub",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/qufei1993/skills-hub#readme",
+  "detailPath": "data/details/qufei1993__skills__hub.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5a5c06b81f1fee60",
+    "method": "deterministic-offline-v1"
+  }
+}

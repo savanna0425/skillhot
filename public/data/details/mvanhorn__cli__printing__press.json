@@ -1,0 +1,84 @@
+{
+  "rank": 647,
+  "id": 1189732822,
+  "name": "cli-printing-press",
+  "fullName": "mvanhorn/cli-printing-press",
+  "owner": "mvanhorn",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/455140?v=4",
+  "url": "https://github.com/mvanhorn/cli-printing-press",
+  "homepage": "",
+  "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
+  "summary": "每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "curl -fsSL https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/scripts/install.sh | bash -s -- --skills-only --agent codex\nnpx -y skills@latest list -g -a codex --json",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 3792,
+  "forks": 409,
+  "openIssues": 122,
+  "score": 115.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:36:59Z",
+  "updatedAt": "2026-07-01T02:45:51Z",
+  "createdAt": "2026-03-23T16:02:09Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "cli",
+    "cli-generator",
+    "developer-tools",
+    "golang",
+    "openapi"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mvanhorn/cli-printing-press",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mvanhorn/cli-printing-press#readme",
+  "detailPath": "data/details/mvanhorn__cli__printing__press.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "328e6d739c11f565",
+    "method": "deterministic-offline-v1"
+  }
+}

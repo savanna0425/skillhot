@@ -1,0 +1,85 @@
+{
+  "rank": 779,
+  "id": 1172273835,
+  "name": "Claude-Red",
+  "fullName": "SnailSploit/Claude-Red",
+  "owner": "SnailSploit",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/95986478?v=4",
+  "url": "https://github.com/SnailSploit/Claude-Red",
+  "homepage": "",
+  "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+  "summary": "claude-red 是专为 Claude 技能系统设计的恶意安全技能库。每个技能均为结构化的 SKILL.md 文件，旨在为特定攻击面（从 SQLi 到壳码，从 EDR 规避到漏洞开发）预置专家级方法论",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red\ngit clone --filter=blob:none --sparse https://github.com/SnailSploit/claude-red\ncd claude-red && git sparse-checkout set Skills/web Skills/active-directory",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2563,
+  "forks": 418,
+  "openIssues": 3,
+  "score": 112.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-08T16:05:21Z",
+  "updatedAt": "2026-07-01T04:00:14Z",
+  "createdAt": "2026-03-04T05:52:35Z",
+  "sourceTopics": [
+    "skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-ai",
+    "claude-pt",
+    "claude-skills",
+    "redteam",
+    "redteam-tools",
+    "skills"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 107,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/SnailSploit/Claude-Red",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/SnailSploit/Claude-Red#readme",
+  "detailPath": "data/details/snailsploit__claude__red.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-red 是专为 Claude 技能系统设计的恶意安全技能库。每个技能均为结构化的 SKILL.md 文件，旨在为特定攻击面（从 SQLi 到壳码，从 EDR 规避到漏洞开发）预置专家级方法论",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "302cbafddc6be3a4",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "rank": 190,
+  "id": 465303307,
+  "name": "lo",
+  "fullName": "samber/lo",
+  "owner": "samber",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2951285?v=4",
+  "url": "https://github.com/samber/lo",
+  "homepage": "https://lo.samber.dev",
+  "description": "💥  A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+  "summary": "基于 Go 1.18+ 泛型的 Lodash 风格 Go 库（支持 map、filter、contains、find 等）",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "go get github.com/samber/lo@v1\nnpx skills add https://github.com/samber/cc-skills-golang --skill golang-samber-lo",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 21361,
+  "forks": 942,
+  "openIssues": 217,
+  "score": 133.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:33:12Z",
+  "updatedAt": "2026-07-01T03:20:25Z",
+  "createdAt": "2022-03-02T12:48:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "constraints",
+    "contract",
+    "filterable",
+    "foldable",
+    "functional",
+    "generics",
+    "go",
+    "golang",
+    "lodash",
+    "programming",
+    "typesafe"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/samber/lo",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/samber/lo#readme",
+  "detailPath": "data/details/samber__lo.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Go 1.18+ 泛型的 Lodash 风格 Go 库（支持 map、filter、contains、find 等）",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "de4fe613d628d47e",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "rank": 879,
+  "id": 1175748759,
+  "name": "claude-bug-bounty",
+  "fullName": "shuvonsec/claude-bug-bounty",
+  "owner": "shuvonsec",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/83355567?v=4",
+  "url": "https://github.com/shuvonsec/claude-bug-bounty",
+  "homepage": "https://shuvonsec.me/",
+  "description": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code.",
+  "summary": "基于终端的 AI 驱动漏洞赏金猎 - 侦察、2 类漏洞、自主猎杀及报告生成。所有功能均在 Claude Code 内完成",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/shuvonsec/claude-bug-bounty.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3790,
+  "forks": 663,
+  "openIssues": 10,
+  "score": 108.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-21T09:58:47Z",
+  "updatedAt": "2026-07-01T04:35:12Z",
+  "createdAt": "2026-03-08T05:34:18Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-security",
+    "bug-bounty",
+    "bugcrowd",
+    "claude-ai",
+    "claude-code",
+    "ethical-hacking",
+    "hackerone",
+    "penetration-testing",
+    "recon",
+    "vulnerability-scanner"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/shuvonsec/claude-bug-bounty",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/shuvonsec/claude-bug-bounty#readme",
+  "detailPath": "data/details/shuvonsec__claude__bug__bounty.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于终端的 AI 驱动漏洞赏金猎 - 侦察、2 类漏洞、自主猎杀及报告生成。所有功能均在 Claude Code 内完成",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9b51fa0ddf2f6d15",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "rank": 43,
+  "id": 1028070615,
+  "name": "memU",
+  "fullName": "NevaMind-AI/memU",
+  "owner": "NevaMind-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/217726889?v=4",
+  "url": "https://github.com/NevaMind-AI/memU",
+  "homepage": "https://memu.pro",
+  "description": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost.",
+  "summary": "memU 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install memu-py",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 13954,
+  "forks": 1038,
+  "openIssues": 97,
+  "score": 149.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:26:12Z",
+  "updatedAt": "2026-07-01T03:25:40Z",
+  "createdAt": "2025-07-29T01:54:40Z",
+  "sourceTopics": [
+    "skills",
+    "claude-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-memory",
+    "claude-skills",
+    "harness",
+    "loop-engineering",
+    "mcp",
+    "memory",
+    "openclaw",
+    "openclaw-skills",
+    "sandbox",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NevaMind-AI/memU",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NevaMind-AI/memU#readme",
+  "detailPath": "data/details/nevamind__ai__memu.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "memU 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f9cd6780a4c995a3",
+    "method": "deterministic-offline-v1"
+  }
+}

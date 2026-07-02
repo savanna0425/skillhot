@@ -1,0 +1,94 @@
+{
+  "rank": 244,
+  "id": 1217522067,
+  "name": "text-to-cad",
+  "fullName": "earthtojake/text-to-cad",
+  "owner": "earthtojake",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/10742417?v=4",
+  "url": "https://github.com/earthtojake/text-to-cad",
+  "homepage": "https://www.cadskills.xyz",
+  "description": "A collection of agent skills for CAD, robotics and hardware design",
+  "summary": "CAD、机器人及硬件设计领域专用技能集",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "npx skills install earthtojake/text-to-cad",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 7351,
+  "forks": 867,
+  "openIssues": 12,
+  "score": 130.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T18:12:00Z",
+  "updatedAt": "2026-07-01T04:38:56Z",
+  "createdAt": "2026-04-22T01:09:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "3mf",
+    "agents",
+    "ai-agents",
+    "build123d",
+    "cad",
+    "dxf",
+    "glb",
+    "mechanical-engineering",
+    "opencascade",
+    "robotics",
+    "sdf",
+    "srdf",
+    "step",
+    "stl",
+    "stp",
+    "text-to-cad",
+    "urdf"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/earthtojake/text-to-cad",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/earthtojake/text-to-cad#readme",
+  "detailPath": "data/details/earthtojake__text__to__cad.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "CAD、机器人及硬件设计领域专用技能集",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f246303046bd97ae",
+    "method": "deterministic-offline-v1"
+  }
+}

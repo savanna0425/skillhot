@@ -1,0 +1,99 @@
+{
+  "rank": 1484,
+  "id": 1235464336,
+  "name": "claude-skills",
+  "fullName": "jianshuo/claude-skills",
+  "owner": "jianshuo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2012831?v=4",
+  "url": "https://github.com/jianshuo/claude-skills",
+  "homepage": "",
+  "description": "13 Claude Code skills for video production (transcribe / translate / dub / multicam / subtitles / reframe) + WeChat publishing. Compatible with Claude Code, OpenAI Codex CLI, Cursor, Gemini.",
+  "summary": "13 种视频制作技能（转写/翻译/配音/多机位/字幕/重制）+ 微信公众号发布。兼容 Claude Code、OpenAI Codex CLI、Cursor 及 Gemini",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/jianshuo/claude-skills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 96,
+  "forks": 12,
+  "openIssues": 0,
+  "score": 94.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T17:07:48Z",
+  "updatedAt": "2026-07-01T00:52:34Z",
+  "createdAt": "2026-05-11T10:55:36Z",
+  "sourceTopics": [
+    "codex-skills",
+    "skill-md"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "codex-skills",
+    "dubbing",
+    "ffmpeg",
+    "multicam",
+    "openclaw",
+    "skill-md",
+    "subtitles",
+    "transcription",
+    "video-production",
+    "wechat"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jianshuo/claude-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jianshuo/claude-skills#readme",
+  "detailPath": "data/details/jianshuo__claude__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "13 种视频制作技能（转写/翻译/配音/多机位/字幕/重制）+ 微信公众号发布。兼容 Claude Code、OpenAI Codex CLI、Cursor 及 Gemini",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3e9d8f4c4160c4e1",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "rank": 860,
+  "id": 1106580780,
+  "name": "pydantic-deepagents",
+  "fullName": "vstorm-co/pydantic-deepagents",
+  "owner": "vstorm-co",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/80465946?v=4",
+  "url": "https://github.com/vstorm-co/pydantic-deepagents",
+  "homepage": "https://vstorm-co.github.io/pydantic-deepagents/",
+  "description": "Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model.",
+  "summary": "pydantic-deepagents 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/vstorm-co/pydantic-deepagents.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 913,
+  "forks": 104,
+  "openIssues": 3,
+  "score": 109.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T15:27:43Z",
+  "updatedAt": "2026-06-30T18:33:53Z",
+  "createdAt": "2025-11-29T14:36:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-framework",
+    "ai-agents",
+    "anthropic",
+    "claude-code",
+    "cli",
+    "coding-agent",
+    "deep-research",
+    "docker-sandbox",
+    "llms",
+    "mcp",
+    "playwright",
+    "pydantic",
+    "pydantic-ai",
+    "python",
+    "subagents",
+    "tui",
+    "vstorm"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vstorm-co/pydantic-deepagents",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/vstorm-co/pydantic-deepagents#readme",
+  "detailPath": "data/details/vstorm__co__pydantic__deepagents.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "pydantic-deepagents 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "dfdb500d66b5e4a4",
+    "method": "deterministic-offline-v1"
+  }
+}

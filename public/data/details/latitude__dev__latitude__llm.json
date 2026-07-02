@@ -1,0 +1,87 @@
+{
+  "rank": 589,
+  "id": 821360765,
+  "name": "latitude-llm",
+  "fullName": "latitude-dev/latitude-llm",
+  "owner": "latitude-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/98949449?v=4",
+  "url": "https://github.com/latitude-dev/latitude-llm",
+  "homepage": "https://latitude.so",
+  "description": "Latitude is the open-source ai monitoring platform.",
+  "summary": "纬度是开源的 AI 监控平台",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx -y @latitude-data/claude-code-telemetry install",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4347,
+  "forks": 347,
+  "openIssues": 23,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:19:06Z",
+  "updatedAt": "2026-06-30T16:46:55Z",
+  "createdAt": "2024-06-28T11:16:02Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-monitoring",
+    "agent-observability",
+    "ai-error-monitor",
+    "ai-monitoring",
+    "ai-observability",
+    "llm-error-tracing",
+    "llm-observability",
+    "llm-tools"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/latitude-dev/latitude-llm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/latitude-dev/latitude-llm#readme",
+  "detailPath": "data/details/latitude__dev__latitude__llm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "纬度是开源的 AI 监控平台",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c9d89b8db8d124bf",
+    "method": "deterministic-offline-v1"
+  }
+}

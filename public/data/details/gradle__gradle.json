@@ -1,0 +1,83 @@
+{
+  "rank": 209,
+  "id": 302322,
+  "name": "gradle",
+  "fullName": "gradle/gradle",
+  "owner": "gradle",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/124156?v=4",
+  "url": "https://github.com/gradle/gradle",
+  "homepage": "https://gradle.org",
+  "description": "Adaptable, fast automation for all",
+  "summary": "可适应、快速自动化，适用于所有场景",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/gradle/gradle.git",
+  "language": "Groovy",
+  "license": "Apache-2.0",
+  "stars": 18665,
+  "forks": 5142,
+  "openIssues": 3493,
+  "score": 132.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:09:21Z",
+  "updatedAt": "2026-07-01T02:44:02Z",
+  "createdAt": "2009-09-09T18:27:19Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "build-tool",
+    "good-first-issue",
+    "gradle",
+    "gradle-bt",
+    "groovy",
+    "java",
+    "kotlin"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gradle/gradle",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gradle/gradle#readme",
+  "detailPath": "data/details/gradle__gradle.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "可适应、快速自动化，适用于所有场景",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "874e7fab9136ea8a",
+    "method": "deterministic-offline-v1"
+  }
+}

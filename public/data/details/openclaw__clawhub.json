@@ -1,0 +1,82 @@
+{
+  "rank": 143,
+  "id": 1127248221,
+  "name": "clawhub",
+  "fullName": "openclaw/clawhub",
+  "owner": "openclaw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252820863?v=4",
+  "url": "https://github.com/openclaw/clawhub",
+  "homepage": "https://clawhub.ai",
+  "description": "Skill + Plugin Registry for OpenClaw",
+  "summary": "OpenClaw 的插件注册表：技能 + 插件",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "bun install\ncp .env.local.example .env.local\nbunx convex dev",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 9076,
+  "forks": 1416,
+  "openIssues": 66,
+  "score": 137,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:27:49Z",
+  "updatedAt": "2026-07-01T03:27:54Z",
+  "createdAt": "2026-01-03T13:49:41Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "directory",
+    "skill"
+  ],
+  "platforms": [
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openclaw/clawhub",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/openclaw/clawhub#readme",
+  "detailPath": "data/details/openclaw__clawhub.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw 的插件注册表：技能 + 插件",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a3f525b7d15975ca",
+    "method": "deterministic-offline-v1"
+  }
+}

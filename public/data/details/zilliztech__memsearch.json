@@ -1,0 +1,101 @@
+{
+  "rank": 711,
+  "id": 1153190876,
+  "name": "memsearch",
+  "fullName": "zilliztech/memsearch",
+  "owner": "zilliztech",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/18416694?v=4",
+  "url": "https://github.com/zilliztech/memsearch",
+  "homepage": "https://zilliztech.github.io/memsearch/",
+  "description": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.",
+  "summary": "所有 AI 代理（如 Claude Code、Codex）的持久化统一记忆层，基于 Markdown 和 Milvus 构建",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone --depth 1 https://github.com/zilliztech/memsearch.git\nbash memsearch/plugins/codex/scripts/install.sh\ncodex --yolo  # needed for ONNX model network access",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2167,
+  "forks": 192,
+  "openIssues": 220,
+  "score": 114.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:37:24Z",
+  "updatedAt": "2026-06-30T21:42:09Z",
+  "createdAt": "2026-02-09T02:29:16Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-memory",
+    "ai-agents",
+    "claude-code",
+    "claude-code-plugin",
+    "codex",
+    "codex-cli",
+    "embeddings",
+    "harness",
+    "hybrid-search",
+    "long-term-memory",
+    "memory",
+    "milvus",
+    "openclaw",
+    "opencode",
+    "progressive-disclosure",
+    "rag",
+    "reranker",
+    "semantic-search",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zilliztech/memsearch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/zilliztech/memsearch#readme",
+  "detailPath": "data/details/zilliztech__memsearch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "所有 AI 代理（如 Claude Code、Codex）的持久化统一记忆层，基于 Markdown 和 Milvus 构建",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2b1cee9d9fa1b4c0",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "rank": 425,
+  "id": 1186202698,
+  "name": "narrator-ai-cli-skill",
+  "fullName": "NarratorAI-Studio/narrator-ai-cli-skill",
+  "owner": "NarratorAI-Studio",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/275748302?v=4",
+  "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
+  "homepage": "",
+  "description": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
+  "summary": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install \"narrator-ai-cli @ git+https://github.com/NarratorAI-Studio/narrator-ai-cli.git\"",
+  "language": "",
+  "license": "MIT",
+  "stars": 1386,
+  "forks": 193,
+  "openIssues": 2,
+  "score": 122.5,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-03T08:05:33Z",
+  "updatedAt": "2026-07-01T03:40:16Z",
+  "createdAt": "2026-03-19T11:29:19Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-code-skill",
+    "openclaw-skill",
+    "skill-md"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "ai-video",
+    "claude-code",
+    "claude-code-skill",
+    "content-creation",
+    "cursor",
+    "film-commentary",
+    "narrator-ai",
+    "openclaw",
+    "openclaw-skill",
+    "short-drama",
+    "skill-md",
+    "video-narration",
+    "windsurf"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NarratorAI-Studio/narrator-ai-cli-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill#readme",
+  "detailPath": "data/details/narratorai__studio__narrator__ai__cli__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8d4a4bc637d228b5",
+    "method": "deterministic-offline-v1"
+  }
+}

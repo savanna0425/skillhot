@@ -1,0 +1,95 @@
+{
+  "rank": 507,
+  "id": 1156797572,
+  "name": "mission-control",
+  "fullName": "builderz-labs/mission-control",
+  "owner": "builderz-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/108542510?v=4",
+  "url": "https://github.com/builderz-labs/mission-control",
+  "homepage": "https://mc.builderz.dev",
+  "description": "Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard.",
+  "summary": "自托管 AI 代理编排平台：从单一指挥仪表盘出发，调度任务、运行多代理工作流、监控支出并管理运营",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/builderz-labs/mission-control.git\ncd mission-control\nbash install.sh --local     # or: bash install.sh --docker",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5486,
+  "forks": 937,
+  "openIssues": 24,
+  "score": 119.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T00:24:38Z",
+  "updatedAt": "2026-07-01T04:18:58Z",
+  "createdAt": "2026-02-13T04:06:19Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-orchestration",
+    "ai-agents",
+    "ai-automation",
+    "ai-dashboard",
+    "claude",
+    "dashboard",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "nextjs",
+    "open-source",
+    "openclaw",
+    "self-hosted",
+    "sqlite",
+    "task-management",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 5,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/builderz-labs/mission-control",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/builderz-labs/mission-control#readme",
+  "detailPath": "data/details/builderz__labs__mission__control.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "自托管 AI 代理编排平台：从单一指挥仪表盘出发，调度任务、运行多代理工作流、监控支出并管理运营",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0267f4fe54f1e954",
+    "method": "deterministic-offline-v1"
+  }
+}

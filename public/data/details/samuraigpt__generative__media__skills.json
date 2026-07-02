@@ -1,0 +1,105 @@
+{
+  "rank": 208,
+  "id": 645381450,
+  "name": "Generative-Media-Skills",
+  "fullName": "SamurAIGPT/Generative-Media-Skills",
+  "owner": "SamurAIGPT",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131431084?v=4",
+  "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+  "homepage": "https://muapi.ai?utm_source=github&utm_medium=about&utm_campaign=generative-media-skills",
+  "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+  "summary": "面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g muapi-cli\npip install muapi-cli\nnpx muapi-cli --help",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 3660,
+  "forks": 409,
+  "openIssues": 3,
+  "score": 132.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-22T09:38:26Z",
+  "updatedAt": "2026-07-01T02:46:54Z",
+  "createdAt": "2023-05-25T14:21:12Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills",
+    "claude-skills",
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agent-tools",
+    "ai-agents",
+    "ai-video",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "flux",
+    "generative-ai",
+    "image-generation",
+    "kling",
+    "mcp",
+    "midjourney",
+    "muapi",
+    "multimodal-ai",
+    "skills",
+    "suno",
+    "text-to-image",
+    "text-to-video",
+    "video-generation"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/SamurAIGPT/Generative-Media-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/SamurAIGPT/Generative-Media-Skills#readme",
+  "detailPath": "data/details/samuraigpt__generative__media__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b51cb712f75af75f",
+    "method": "deterministic-offline-v1"
+  }
+}

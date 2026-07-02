@@ -1,0 +1,97 @@
+{
+  "rank": 723,
+  "id": 173961960,
+  "name": "DeepCamera",
+  "fullName": "SharpAI/DeepCamera",
+  "owner": "SharpAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/36420545?v=4",
+  "url": "https://github.com/SharpAI/DeepCamera",
+  "homepage": "http://www.sharpai.org",
+  "description": "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26. LLM-powered agentic security camera agent — watches, understands, remembers & guards your home via Telegram, Discord or Slack. Pluggable AI skills. OpenAI, Google, Anthropic or local AI. Runs on Mac Mini & AI PC.",
+  "summary": "DeepCamera 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/SharpAI/DeepCamera.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2867,
+  "forks": 453,
+  "openIssues": 10,
+  "score": 114,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T04:37:54Z",
+  "updatedAt": "2026-06-30T16:37:55Z",
+  "createdAt": "2019-03-05T14:29:23Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-camera",
+    "ai-nvr",
+    "camera",
+    "cctv",
+    "computer-vision",
+    "deep-learning",
+    "face-recognition",
+    "home-assistant",
+    "home-security",
+    "llama-cpp",
+    "llm",
+    "local-ai",
+    "machine-learning",
+    "object-detection",
+    "python",
+    "raspberry-pi",
+    "security-camera",
+    "video-surveillance",
+    "vlm"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 19,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/SharpAI/DeepCamera",
+    "videoUrl": "https://youtu.be/BtHpenIO5WU"
+  },
+  "readmeUrl": "https://github.com/SharpAI/DeepCamera#readme",
+  "detailPath": "data/details/sharpai__deepcamera.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "DeepCamera 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a2655d9f6fae1835",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "rank": 165,
+  "id": 1187630119,
+  "name": "SkillSpector",
+  "fullName": "NVIDIA/SkillSpector",
+  "owner": "NVIDIA",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
+  "url": "https://github.com/NVIDIA/SkillSpector",
+  "homepage": "",
+  "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+  "summary": "AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "中",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv tool install git+https://github.com/NVIDIA/skillspector.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 11638,
+  "forks": 951,
+  "openIssues": 74,
+  "score": 135.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:44:54Z",
+  "updatedAt": "2026-07-01T04:55:37Z",
+  "createdAt": "2026-03-21T00:28:43Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 42447,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NVIDIA/SkillSpector",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NVIDIA/SkillSpector#readme",
+  "detailPath": "data/details/nvidia__skillspector.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3d44870fbec3a64b",
+    "method": "deterministic-offline-v1"
+  }
+}

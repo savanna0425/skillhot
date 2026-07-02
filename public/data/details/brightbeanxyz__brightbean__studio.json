@@ -1,0 +1,91 @@
+{
+  "rank": 884,
+  "id": 1191561598,
+  "name": "brightbean-studio",
+  "fullName": "brightbeanxyz/brightbean-studio",
+  "owner": "brightbeanxyz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268594138?v=4",
+  "url": "https://github.com/brightbeanxyz/brightbean-studio",
+  "homepage": "https://brightbean.xyz/studio/",
+  "description": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
+  "summary": "开源、可自建的社会媒体管理平台。从单一仪表板跨 10 多个平台进行日程安排、发布和内容管理。Buffer、Sendible 和 SocialPilot 的免费替代方案",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/brightbeanxyz/brightbean-studio.git",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 1918,
+  "forks": 381,
+  "openIssues": 19,
+  "score": 108.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T11:52:05Z",
+  "updatedAt": "2026-07-01T04:48:36Z",
+  "createdAt": "2026-03-25T11:16:28Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agpl",
+    "buffer-alternative",
+    "content-management",
+    "django",
+    "docker",
+    "htmx",
+    "multi-platform",
+    "open-source",
+    "python",
+    "scheduling",
+    "self-hosted",
+    "social-media",
+    "social-media-management",
+    "social-media-scheduler",
+    "tailwindcss"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/brightbeanxyz/brightbean-studio",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/brightbeanxyz/brightbean-studio#readme",
+  "detailPath": "data/details/brightbeanxyz__brightbean__studio.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "开源、可自建的社会媒体管理平台。从单一仪表板跨 10 多个平台进行日程安排、发布和内容管理。Buffer、Sendible 和 SocialPilot 的免费替代方案",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "60dea9e47c709266",
+    "method": "deterministic-offline-v1"
+  }
+}

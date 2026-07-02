@@ -1,0 +1,80 @@
+{
+  "rank": 172,
+  "id": 703411624,
+  "name": "letta",
+  "fullName": "letta-ai/letta",
+  "owner": "letta-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/177780362?v=4",
+  "url": "https://github.com/letta-ai/letta",
+  "homepage": "https://docs.letta.com/",
+  "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+  "summary": "面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install @letta-ai/letta-client",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 23600,
+  "forks": 2502,
+  "openIssues": 65,
+  "score": 135,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T00:15:00Z",
+  "updatedAt": "2026-07-01T03:58:15Z",
+  "createdAt": "2023-10-11T07:38:37Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "llm",
+    "llm-agent"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/letta-ai/letta",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/letta-ai/letta#readme",
+  "detailPath": "data/details/letta__ai__letta.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2c0762ab60516463",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "rank": 306,
+  "id": 1147470802,
+  "name": "pro-workflow",
+  "fullName": "rohitg00/pro-workflow",
+  "owner": "rohitg00",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/48523873?v=4",
+  "url": "https://github.com/rohitg00/pro-workflow",
+  "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
+  "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
+  "summary": "Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skillkit install rohitg00/pro-workflow --agent <name> --force",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 2528,
+  "forks": 240,
+  "openIssues": 5,
+  "score": 127.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T20:24:33Z",
+  "updatedAt": "2026-07-01T04:42:14Z",
+  "createdAt": "2026-02-01T19:47:29Z",
+  "sourceTopics": [
+    "claude-skills",
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-orchestration",
+    "ai-agents",
+    "ai-coding",
+    "ai-workflow",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "context-engineering",
+    "cursor",
+    "developer-tools",
+    "gemini-cli",
+    "hooks",
+    "productivity",
+    "self-correction",
+    "workflow",
+    "worktrees"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 140,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rohitg00/pro-workflow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/rohitg00/pro-workflow#readme",
+  "detailPath": "data/details/rohitg00__pro__workflow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b213e0c7f1f5961f",
+    "method": "deterministic-offline-v1"
+  }
+}

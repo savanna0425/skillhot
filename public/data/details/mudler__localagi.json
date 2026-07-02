@@ -1,0 +1,75 @@
+{
+  "rank": 1184,
+  "id": 671691886,
+  "name": "LocalAGI",
+  "fullName": "mudler/LocalAGI",
+  "owner": "mudler",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2420543?v=4",
+  "url": "https://github.com/mudler/LocalAGI",
+  "homepage": "",
+  "description": "LocalAGI is a powerful, self-hostable AI Agent platform designed for maximum privacy and flexibility. A complete drop-in replacement for OpenAI's Responses APIs with advanced agentic capabilities. No clouds.  Local AI that works on consumer-grade hardware (CPU and GPU).",
+  "summary": "LocalAGI 是一款功能强大、可本地部署的 AI 代理平台，专为最高隐私与灵活性而设计。它是 OpenAI Responses API 的完全即插即用替代品，具备先进的代理能力。无云。支持消费级硬件（CPU 和 GPU）运行的本地 AI",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/mudler/LocalAGI.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 1856,
+  "forks": 269,
+  "openIssues": 82,
+  "score": 101.5,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T14:48:37Z",
+  "updatedAt": "2026-06-30T22:20:53Z",
+  "createdAt": "2023-07-27T23:21:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mudler/LocalAGI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mudler/LocalAGI#readme",
+  "detailPath": "data/details/mudler__localagi.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "LocalAGI 是一款功能强大、可本地部署的 AI 代理平台，专为最高隐私与灵活性而设计。它是 OpenAI Responses API 的完全即插即用替代品，具备先进的代理能力。无云。支持消费级硬件（CPU 和 GPU）运行的本地 AI",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c308faba1ab33e32",
+    "method": "deterministic-offline-v1"
+  }
+}

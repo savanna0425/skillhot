@@ -1,0 +1,99 @@
+{
+  "rank": 39,
+  "id": 997737944,
+  "name": "RuView",
+  "fullName": "ruvnet/RuView",
+  "owner": "ruvnet",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2934394?v=4",
+  "url": "https://github.com/ruvnet/RuView",
+  "homepage": "https://Cognitum.One/RuView",
+  "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+  "summary": "π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install huggingface_hub\nhuggingface-cli download ruvnet/wifi-densepose-pretrained --local-dir models/wifi-densepose-pretrained",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 76013,
+  "forks": 10177,
+  "openIssues": 302,
+  "score": 151.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:03:53Z",
+  "updatedAt": "2026-07-01T04:52:05Z",
+  "createdAt": "2025-06-07T04:32:30Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "awesome",
+    "claude",
+    "densepose",
+    "esp32",
+    "firmware",
+    "home-assistant",
+    "home-automation",
+    "iot",
+    "monitoring",
+    "networking",
+    "npm",
+    "pose-estimation",
+    "react",
+    "rf",
+    "self-learning",
+    "skills",
+    "spatial-intelligence",
+    "typescript",
+    "wifi",
+    "wifi-security"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 9,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ruvnet/RuView",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ruvnet/RuView#readme",
+  "detailPath": "data/details/ruvnet__ruview.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b0f7f09379a3f2bc",
+    "method": "deterministic-offline-v1"
+  }
+}

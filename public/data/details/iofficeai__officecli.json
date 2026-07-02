@@ -1,0 +1,98 @@
+{
+  "rank": 300,
+  "id": 1182212878,
+  "name": "OfficeCLI",
+  "fullName": "iOfficeAI/OfficeCLI",
+  "owner": "iOfficeAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
+  "url": "https://github.com/iOfficeAI/OfficeCLI",
+  "homepage": "https://officecli.ai",
+  "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+  "summary": "OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/iOfficeAI/OfficeCLI.git",
+  "language": "C#",
+  "license": "Apache-2.0",
+  "stars": 8254,
+  "forks": 613,
+  "openIssues": 16,
+  "score": 128,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:12:54Z",
+  "updatedAt": "2026-07-01T04:38:22Z",
+  "createdAt": "2026-03-15T07:39:12Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "claude-code",
+    "cli",
+    "codex",
+    "docx",
+    "excel",
+    "office",
+    "openclaw",
+    "pptx",
+    "presentation",
+    "skills",
+    "word",
+    "xlsx"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/iOfficeAI/OfficeCLI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/iOfficeAI/OfficeCLI#readme",
+  "detailPath": "data/details/iofficeai__officecli.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "60c47ae0c8f7ac71",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "rank": 47,
+  "id": 1171026502,
+  "name": "cli",
+  "fullName": "googleworkspace/cli",
+  "owner": "googleworkspace",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3708359?v=4",
+  "url": "https://github.com/googleworkspace/cli",
+  "homepage": "https://developers.google.com/workspace",
+  "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+  "summary": "统一操作 Drive、Gmail、Calendar、Sheets 与 Docs，并提供 Agent Skills",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "Google Workspace",
+    "办公自动化",
+    "邮件与文档处理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @googleworkspace/cli",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 29234,
+  "forks": 1667,
+  "openIssues": 125,
+  "score": 149.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:10:20Z",
+  "updatedAt": "2026-07-01T04:39:00Z",
+  "createdAt": "2026-03-02T19:46:06Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索",
+    "精选来源"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "automation",
+    "cli",
+    "discovery-api",
+    "gemini-cli-extension",
+    "google-admin",
+    "google-api",
+    "google-calendar",
+    "google-chat",
+    "google-docs",
+    "google-drive",
+    "google-sheets",
+    "google-workspace",
+    "oauth2",
+    "rust"
+  ],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 100,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/googleworkspace/cli",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/googleworkspace/cli#readme",
+  "detailPath": "data/details/googleworkspace__cli.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "统一操作 Drive、Gmail、Calendar、Sheets 与 Docs，并提供 Agent Skills",
+    "useCases": [
+      "Google Workspace",
+      "办公自动化",
+      "邮件与文档处理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ab3d7e2688235bfc",
+    "method": "deterministic-offline-v1"
+  }
+}

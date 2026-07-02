@@ -1,0 +1,87 @@
+{
+  "rank": 191,
+  "id": 1028492186,
+  "name": "eigent",
+  "fullName": "eigent-ai/eigent",
+  "owner": "eigent-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/163795819?v=4",
+  "url": "https://github.com/eigent-ai/eigent",
+  "homepage": "https://www.eigent.ai",
+  "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity. Local and Free Alternative to Claude Cowork.",
+  "summary": "Eigent：开源办公桌面，解锁您的卓越生产力。Claude Cowork 的免费本地替代方案",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/eigent-ai/eigent.git\ncd eigent\nnpm install",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 14427,
+  "forks": 1703,
+  "openIssues": 227,
+  "score": 133.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T11:38:24Z",
+  "updatedAt": "2026-07-01T02:36:12Z",
+  "createdAt": "2025-07-29T15:56:02Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-framework",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "claude-cowork",
+    "claude-cowork-alternative",
+    "claude-cowork-free",
+    "desktop-agent",
+    "multi-agent-systems"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/eigent-ai/eigent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/eigent-ai/eigent#readme",
+  "detailPath": "data/details/eigent__ai__eigent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Eigent：开源办公桌面，解锁您的卓越生产力。Claude Cowork 的免费本地替代方案",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ccbf506bd701c7fc",
+    "method": "deterministic-offline-v1"
+  }
+}

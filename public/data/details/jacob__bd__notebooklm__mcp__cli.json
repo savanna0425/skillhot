@@ -1,0 +1,80 @@
+{
+  "rank": 319,
+  "id": 1121438740,
+  "name": "notebooklm-mcp-cli",
+  "fullName": "jacob-bd/notebooklm-mcp-cli",
+  "owner": "jacob-bd",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/47641890?v=4",
+  "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+  "homepage": "",
+  "description": "Programmatic access to Google NotebookLM — via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+  "summary": "通过命令行接口（CLI）、Model Context Protocol (MCP) 服务器和 AI 技能，可获取 Google NotebookLM 的编程式访问",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "notebooklm|deep research|fact.?check|knowledge discove",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv tool install notebooklm-mcp-cli",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 5124,
+  "forks": 794,
+  "openIssues": 3,
+  "score": 127.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:51:38Z",
+  "updatedAt": "2026-07-01T03:54:05Z",
+  "createdAt": "2025-12-23T02:07:42Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jacob-bd/notebooklm-mcp-cli",
+    "videoUrl": "https://www.youtube.com/watch?v=KrgLCrvU1dw"
+  },
+  "readmeUrl": "https://github.com/jacob-bd/notebooklm-mcp-cli#readme",
+  "detailPath": "data/details/jacob__bd__notebooklm__mcp__cli.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "通过命令行接口（CLI）、Model Context Protocol (MCP) 服务器和 AI 技能，可获取 Google NotebookLM 的编程式访问",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c47fda6390ecebfe",
+    "method": "deterministic-offline-v1"
+  }
+}

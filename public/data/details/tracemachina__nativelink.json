@@ -1,0 +1,92 @@
+{
+  "rank": 1010,
+  "id": 324254942,
+  "name": "nativelink",
+  "fullName": "TraceMachina/nativelink",
+  "owner": "TraceMachina",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/144973251?v=4",
+  "url": "https://github.com/TraceMachina/nativelink",
+  "homepage": "https://nativelink.com",
+  "description": "NativeLink is a Nix-powered, open source, high-performance build cache and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient, and other RE-compatible build systems. It offers drastically faster builds, reduced test flakiness, and support for specialized hardware.",
+  "summary": "NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/TraceMachina/nativelink.git",
+  "language": "Rust",
+  "license": "NOASSERTION",
+  "stars": 1550,
+  "forks": 218,
+  "openIssues": 135,
+  "score": 106.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:47:58Z",
+  "updatedAt": "2026-07-01T02:31:56Z",
+  "createdAt": "2020-12-24T23:55:21Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "apache2",
+    "bazel",
+    "buck2",
+    "build-automation",
+    "build-system",
+    "chromium",
+    "ci",
+    "content-addressable-storage",
+    "free",
+    "nix",
+    "pants",
+    "re-client",
+    "remote-execution",
+    "rust",
+    "simulation",
+    "soong"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/TraceMachina/nativelink",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/TraceMachina/nativelink#readme",
+  "detailPath": "data/details/tracemachina__nativelink.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ce967dc34e40acce",
+    "method": "deterministic-offline-v1"
+  }
+}

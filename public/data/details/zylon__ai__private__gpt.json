@@ -1,0 +1,82 @@
+{
+  "rank": 77,
+  "id": 635240594,
+  "name": "private-gpt",
+  "fullName": "zylon-ai/private-gpt",
+  "owner": "zylon-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/143802295?v=4",
+  "url": "https://github.com/zylon-ai/private-gpt",
+  "homepage": "https://www.zylon.ai/private-gpt",
+  "description": "Interact with your documents using the power of GPT, 100% privately, no data leaks",
+  "summary": "利用 GPT 的权力，与您的文档互动，100% 私密，无数据泄露",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nuv tool install --python 3.11 \\",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 57305,
+  "forks": 7598,
+  "openIssues": 4,
+  "score": 144.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T16:32:03Z",
+  "updatedAt": "2026-07-01T01:51:53Z",
+  "createdAt": "2023-05-02T09:15:31Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-tools",
+    "on-premise"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zylon-ai/private-gpt",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/zylon-ai/private-gpt#readme",
+  "detailPath": "data/details/zylon__ai__private__gpt.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "利用 GPT 的权力，与您的文档互动，100% 私密，无数据泄露",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "763d83bea73bed59",
+    "method": "deterministic-offline-v1"
+  }
+}

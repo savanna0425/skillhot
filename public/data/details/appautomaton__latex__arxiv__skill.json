@@ -1,0 +1,99 @@
+{
+  "rank": 1097,
+  "id": 950805672,
+  "name": "latex-arxiv-SKILL",
+  "fullName": "appautomaton/latex-arxiv-SKILL",
+  "owner": "appautomaton",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/229419921?v=4",
+  "url": "https://github.com/appautomaton/latex-arxiv-SKILL",
+  "homepage": "https://appautomaton.github.io/latex-arxiv-SKILL/",
+  "description": "A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.",
+  "summary": "latex-arxiv-SKILL 支持资料研究、知识检索或学习任务。",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/appautomaton/latex-arxiv-SKILL.git",
+  "language": "TeX",
+  "license": "MIT",
+  "stars": 370,
+  "forks": 34,
+  "openIssues": 0,
+  "score": 103.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T02:35:54Z",
+  "updatedAt": "2026-06-30T12:55:27Z",
+  "createdAt": "2025-03-18T17:58:07Z",
+  "sourceTopics": [
+    "agent-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "academic-writing",
+    "agent-skill",
+    "agentic",
+    "agentic-ai",
+    "ai-agents",
+    "anthropic",
+    "arxiv",
+    "bibtex",
+    "citations",
+    "claude-code",
+    "codex",
+    "ieeetran",
+    "latex",
+    "literature-review",
+    "llm",
+    "openai",
+    "paper-generation",
+    "research-paper",
+    "review-paper",
+    "scientific-writing"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/appautomaton/latex-arxiv-SKILL",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/appautomaton/latex-arxiv-SKILL#readme",
+  "detailPath": "data/details/appautomaton__latex__arxiv__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "latex-arxiv-SKILL 支持资料研究、知识检索或学习任务。",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a35a0e8a47f20018",
+    "method": "deterministic-offline-v1"
+  }
+}

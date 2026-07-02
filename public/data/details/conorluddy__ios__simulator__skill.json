@@ -1,0 +1,98 @@
+{
+  "rank": 919,
+  "id": 1078249898,
+  "name": "ios-simulator-skill",
+  "fullName": "conorluddy/ios-simulator-skill",
+  "owner": "conorluddy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/846373?v=4",
+  "url": "https://github.com/conorluddy/ios-simulator-skill",
+  "homepage": "https://www.conor.fyi",
+  "description": "An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps. I mainly use it as an xcodebuild wrapper to save context.",
+  "summary": "为 Claude 设计的 iOS 模拟器技能。利用它优化 Claude 构建、运行及与您的应用交互的能力。我主要将其用作 Xcode 构建包装器以保存上下文",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/conorluddy/ios-simulator-skill.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1120,
+  "forks": 76,
+  "openIssues": 19,
+  "score": 108.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T15:29:20Z",
+  "updatedAt": "2026-06-30T00:10:35Z",
+  "createdAt": "2025-10-17T12:43:15Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-ai",
+    "ai-agents",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claude-skills",
+    "claudecode",
+    "claudeskills",
+    "dx",
+    "ios",
+    "iossimulator",
+    "mcp",
+    "mcp-tools",
+    "python",
+    "simulator",
+    "skills",
+    "testing",
+    "tooling",
+    "xcode"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/conorluddy/ios-simulator-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/conorluddy/ios-simulator-skill#readme",
+  "detailPath": "data/details/conorluddy__ios__simulator__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Claude 设计的 iOS 模拟器技能。利用它优化 Claude 构建、运行及与您的应用交互的能力。我主要将其用作 Xcode 构建包装器以保存上下文",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e0f6507ece9252c5",
+    "method": "deterministic-offline-v1"
+  }
+}

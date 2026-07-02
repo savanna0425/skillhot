@@ -1,0 +1,77 @@
+{
+  "rank": 837,
+  "id": 1144717747,
+  "name": "awesome-openclaw-skills-zh",
+  "fullName": "clawdbot-ai/awesome-openclaw-skills-zh",
+  "owner": "clawdbot-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/257971763?v=4",
+  "url": "https://github.com/clawdbot-ai/awesome-openclaw-skills-zh",
+  "homepage": "",
+  "description": "OpenClaw 中文官方技能库 | 翻译自 Clawdbot 官方技能，按场景分类整理，支持中文自然语言调用",
+  "summary": "OpenClaw 中文官方技能库 | 翻译自 Clawdbot 官方技能，按场景分类整理，支持中文自然语言调用",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git",
+  "language": "",
+  "license": "",
+  "stars": 4145,
+  "forks": 403,
+  "openIssues": 21,
+  "score": 109.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-26T11:39:31Z",
+  "updatedAt": "2026-06-30T13:24:52Z",
+  "createdAt": "2026-01-29T01:10:05Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/clawdbot-ai/awesome-openclaw-skills-zh",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/clawdbot-ai/awesome-openclaw-skills-zh#readme",
+  "detailPath": "data/details/clawdbot__ai__awesome__openclaw__skills__zh.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw 中文官方技能库 | 翻译自 Clawdbot 官方技能，按场景分类整理，支持中文自然语言调用",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3e991eb24f84275b",
+    "method": "deterministic-offline-v1"
+  }
+}

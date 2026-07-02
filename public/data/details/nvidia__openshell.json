@@ -1,0 +1,79 @@
+{
+  "rank": 415,
+  "id": 1166129534,
+  "name": "OpenShell",
+  "fullName": "NVIDIA/OpenShell",
+  "owner": "NVIDIA",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
+  "url": "https://github.com/NVIDIA/OpenShell",
+  "homepage": "https://docs.nvidia.com/openshell/latest/",
+  "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+  "summary": "OpenShell 是自主 AI 代理的可靠、私密运行时",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv tool install -U openshell",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 7337,
+  "forks": 904,
+  "openIssues": 289,
+  "score": 122.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T00:31:23Z",
+  "updatedAt": "2026-07-01T04:48:51Z",
+  "createdAt": "2026-02-24T22:52:22Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "GitHub Copilot",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NVIDIA/OpenShell",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NVIDIA/OpenShell#readme",
+  "detailPath": "data/details/nvidia__openshell.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenShell 是自主 AI 代理的可靠、私密运行时",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8545456a7b2228f7",
+    "method": "deterministic-offline-v1"
+  }
+}

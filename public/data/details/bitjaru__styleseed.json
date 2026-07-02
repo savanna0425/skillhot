@@ -1,0 +1,100 @@
+{
+  "rank": 861,
+  "id": 1203405919,
+  "name": "styleseed",
+  "fullName": "bitjaru/styleseed",
+  "owner": "bitjaru",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/23206862?v=4",
+  "url": "https://github.com/bitjaru/styleseed",
+  "homepage": "https://styleseed-demo.vercel.app",
+  "description": "Design engine for Claude Code, Codex & Cursor — teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT.",
+  "summary": "styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/bitjaru/styleseed.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 622,
+  "forks": 60,
+  "openIssues": 0,
+  "score": 109.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:59:50Z",
+  "updatedAt": "2026-07-01T01:59:54Z",
+  "createdAt": "2026-04-07T02:32:20Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-coding",
+    "ai-design",
+    "ai-ui",
+    "claude-code",
+    "claude-design",
+    "claude-skills",
+    "cursor",
+    "design-judgment",
+    "design-system",
+    "design-tokens",
+    "nextjs",
+    "radix-ui",
+    "react",
+    "react-components",
+    "shadcn",
+    "shadcn-ui",
+    "tailwindcss",
+    "typescript",
+    "ui-design",
+    "vibe-coding"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bitjaru/styleseed",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/bitjaru/styleseed#readme",
+  "detailPath": "data/details/bitjaru__styleseed.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0679f9e9b08ea63a",
+    "method": "deterministic-offline-v1"
+  }
+}

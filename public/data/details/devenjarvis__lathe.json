@@ -1,0 +1,79 @@
+{
+  "rank": 694,
+  "id": 1228403229,
+  "name": "lathe",
+  "fullName": "devenjarvis/lathe",
+  "owner": "devenjarvis",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11398789?v=4",
+  "url": "https://github.com/devenjarvis/lathe",
+  "homepage": "",
+  "description": "Generate hands-on, multi-part technical tutorials on demand, with LLM skills tuned to make content approachable. Then you work through them yourself, by hand ✋",
+  "summary": "按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install devenjarvis/tap/lathe",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 1552,
+  "forks": 43,
+  "openIssues": 2,
+  "score": 114.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T18:16:10Z",
+  "updatedAt": "2026-07-01T03:03:20Z",
+  "createdAt": "2026-05-04T01:22:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/devenjarvis/lathe",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/devenjarvis/lathe#readme",
+  "detailPath": "data/details/devenjarvis__lathe.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "279015f29ad7a2c6",
+    "method": "deterministic-offline-v1"
+  }
+}

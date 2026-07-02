@@ -1,0 +1,93 @@
+{
+  "rank": 121,
+  "id": 575865240,
+  "name": "AstrBot",
+  "fullName": "AstrBotDevs/AstrBot",
+  "owner": "AstrBotDevs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/197911947?v=4",
+  "url": "https://github.com/AstrBotDevs/AstrBot",
+  "homepage": "https://astrbot.app",
+  "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+  "summary": "集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "uv tool install astrbot --python 3.12\nastrbot init # Only execute this command for the first time to initialize the environment\nastrbot run",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 35648,
+  "forks": 2460,
+  "openIssues": 1299,
+  "score": 139.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T00:53:21Z",
+  "updatedAt": "2026-07-01T04:07:41Z",
+  "createdAt": "2022-12-08T13:27:46Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "chatbot",
+    "chatgpt",
+    "discord",
+    "docker",
+    "gemini",
+    "gpt",
+    "llama",
+    "llm",
+    "mcp",
+    "openai",
+    "python",
+    "qq",
+    "qqbot",
+    "telegram"
+  ],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AstrBotDevs/AstrBot",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/AstrBotDevs/AstrBot#readme",
+  "detailPath": "data/details/astrbotdevs__astrbot.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "abc59d92c271e3c2",
+    "method": "deterministic-offline-v1"
+  }
+}

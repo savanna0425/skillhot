@@ -1,0 +1,81 @@
+{
+  "rank": 1448,
+  "id": 459628681,
+  "name": "cyberowl",
+  "fullName": "karimhabush/cyberowl",
+  "owner": "karimhabush",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/37211852?v=4",
+  "url": "https://github.com/karimhabush/cyberowl",
+  "homepage": "http://cyberowlai.com/",
+  "description": "Aggregates security advisories from 10 international CERTs daily and provides an AI skill that cross-references alerts against your project's tech stack.",
+  "summary": "每日聚合来自 10 个国际 CERT 的安全建议，并提供一个 AI 技能，该技能可将警报与您的项目技术栈进行交叉比对",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/karimhabush/cyberowl.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 258,
+  "forks": 21,
+  "openIssues": 18,
+  "score": 96.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:52:11Z",
+  "updatedAt": "2026-06-30T15:52:15Z",
+  "createdAt": "2022-02-15T15:06:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "cisa",
+    "cve",
+    "security",
+    "security-alerts",
+    "vulnerability"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/karimhabush/cyberowl",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/karimhabush/cyberowl#readme",
+  "detailPath": "data/details/karimhabush__cyberowl.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "每日聚合来自 10 个国际 CERT 的安全建议，并提供一个 AI 技能，该技能可将警报与您的项目技术栈进行交叉比对",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b4949f506f94c5a3",
+    "method": "deterministic-offline-v1"
+  }
+}

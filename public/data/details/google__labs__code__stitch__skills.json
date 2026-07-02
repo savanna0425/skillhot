@@ -1,0 +1,79 @@
+{
+  "rank": 273,
+  "id": 1135847870,
+  "name": "stitch-skills",
+  "fullName": "google-labs-code/stitch-skills",
+  "owner": "google-labs-code",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/161364575?v=4",
+  "url": "https://github.com/google-labs-code/stitch-skills",
+  "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+  "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+  "summary": "为 Stitch MCP 服务器设计的 Agent 技能库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code 及 Cursor 等代码生成型代理",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx plugins add google-labs-code/stitch-skills --scope project --target claude-code",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 6285,
+  "forks": 749,
+  "openIssues": 20,
+  "score": 129.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T23:38:54Z",
+  "updatedAt": "2026-07-01T03:41:13Z",
+  "createdAt": "2026-01-16T17:17:17Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google-labs-code/stitch-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/google-labs-code/stitch-skills#readme",
+  "detailPath": "data/details/google__labs__code__stitch__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Stitch MCP 服务器设计的 Agent 技能库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code 及 Cursor 等代码生成型代理",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d6c8e2e1da3a7486",
+    "method": "deterministic-offline-v1"
+  }
+}

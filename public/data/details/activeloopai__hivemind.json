@@ -1,0 +1,101 @@
+{
+  "rank": 460,
+  "id": 1200802466,
+  "name": "hivemind",
+  "fullName": "activeloopai/hivemind",
+  "owner": "activeloopai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/34816118?v=4",
+  "url": "https://github.com/activeloopai/hivemind",
+  "homepage": "https://deeplake.ai/hivemind",
+  "description": "Hivemind turns your traces into reusable skills across agents",
+  "summary": "Hivemind 将您的轨迹转化为跨代理的复用技能",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i -g @deeplake/hivemind && hivemind install",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1412,
+  "forks": 88,
+  "openIssues": 40,
+  "score": 121.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T00:43:06Z",
+  "updatedAt": "2026-07-01T02:00:12Z",
+  "createdAt": "2026-04-03T21:02:08Z",
+  "sourceTopics": [
+    "claude-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "artificial-intelligence",
+    "claude",
+    "claude-agent-sdk",
+    "claude-agents",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "embeddings",
+    "long-term-memory",
+    "memory-engine",
+    "openclaw",
+    "openclaw-skills",
+    "postgres",
+    "rag"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/activeloopai/hivemind",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/activeloopai/hivemind#readme",
+  "detailPath": "data/details/activeloopai__hivemind.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Hivemind 将您的轨迹转化为跨代理的复用技能",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "810a4de5719757e7",
+    "method": "deterministic-offline-v1"
+  }
+}

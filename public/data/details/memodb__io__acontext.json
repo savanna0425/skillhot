@@ -1,0 +1,92 @@
+{
+  "rank": 400,
+  "id": 1020834440,
+  "name": "Acontext",
+  "fullName": "memodb-io/Acontext",
+  "owner": "memodb-io",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/180244457?v=4",
+  "url": "https://github.com/memodb-io/Acontext",
+  "homepage": "https://acontext.io",
+  "description": "Agent Skills as a Memory Layer",
+  "summary": "Agent 技能作为记忆层",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/memodb-io/Acontext.git",
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "stars": 3560,
+  "forks": 323,
+  "openIssues": 35,
+  "score": 123.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T18:35:29Z",
+  "updatedAt": "2026-06-30T16:51:42Z",
+  "createdAt": "2025-07-16T13:15:48Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-development-kit",
+    "agent-observability",
+    "ai-agent",
+    "anthropic",
+    "context-data-platform",
+    "context-engineering",
+    "data-platform",
+    "llm",
+    "llm-observability",
+    "llmops",
+    "memory",
+    "openai",
+    "self-evolving",
+    "self-learning"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/memodb-io/Acontext",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/memodb-io/Acontext#readme",
+  "detailPath": "data/details/memodb__io__acontext.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Agent 技能作为记忆层",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f0aa0d3e9943427b",
+    "method": "deterministic-offline-v1"
+  }
+}

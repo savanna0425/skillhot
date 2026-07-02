@@ -1,0 +1,88 @@
+{
+  "rank": 1214,
+  "id": 1121405464,
+  "name": "Continuous-Claude-v3",
+  "fullName": "parcadei/Continuous-Claude-v3",
+  "owner": "parcadei",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/227596144?v=4",
+  "url": "https://github.com/parcadei/Continuous-Claude-v3",
+  "homepage": "",
+  "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.",
+  "summary": "Claude 代码上下文管理。钩子通过账本和交接维持状态。无上下文污染的 MCP 执行。具备隔离上下文窗口的代理编排",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/parcadei/Continuous-Claude-v3.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3851,
+  "forks": 293,
+  "openIssues": 44,
+  "score": 101.1,
+  "activity": "活跃",
+  "pushedAt": "2026-01-26T15:27:49Z",
+  "updatedAt": "2026-06-30T05:36:09Z",
+  "createdAt": "2025-12-23T00:12:49Z",
+  "sourceTopics": [
+    "claude-skills",
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agents",
+    "claude-code",
+    "claude-code-cli",
+    "claude-code-hooks",
+    "claude-code-mcp",
+    "claude-code-skills",
+    "claude-code-subagents",
+    "claude-skills",
+    "mcp"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/parcadei/Continuous-Claude-v3",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/parcadei/Continuous-Claude-v3#readme",
+  "detailPath": "data/details/parcadei__continuous__claude__v3.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude 代码上下文管理。钩子通过账本和交接维持状态。无上下文污染的 MCP 执行。具备隔离上下文窗口的代理编排",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "295e9bde03c4a788",
+    "method": "deterministic-offline-v1"
+  }
+}

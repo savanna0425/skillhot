@@ -1,0 +1,99 @@
+{
+  "rank": 1004,
+  "id": 630824392,
+  "name": "llm-wiki-agent",
+  "fullName": "SamurAIGPT/llm-wiki-agent",
+  "owner": "SamurAIGPT",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131431084?v=4",
+  "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+  "homepage": "",
+  "description": "A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.",
+  "summary": "llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/SamurAIGPT/llm-wiki-agent.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3089,
+  "forks": 365,
+  "openIssues": 2,
+  "score": 106.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-23T00:35:45Z",
+  "updatedAt": "2026-07-01T03:55:32Z",
+  "createdAt": "2023-04-21T08:31:00Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "ai-tools",
+    "automation",
+    "claude-code",
+    "codex",
+    "gemini",
+    "generative-ai",
+    "knowledge-base",
+    "knowledge-graph",
+    "llm",
+    "markdown",
+    "muapi",
+    "note-taking",
+    "obsidian",
+    "open-source",
+    "personal-knowledge-management",
+    "rag",
+    "research",
+    "second-brain",
+    "wiki"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/SamurAIGPT/llm-wiki-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/SamurAIGPT/llm-wiki-agent#readme",
+  "detailPath": "data/details/samuraigpt__llm__wiki__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1e9450bca5e0d2fd",
+    "method": "deterministic-offline-v1"
+  }
+}

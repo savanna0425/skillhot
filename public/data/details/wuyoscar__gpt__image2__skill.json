@@ -1,0 +1,100 @@
+{
+  "rank": 508,
+  "id": 1217942969,
+  "name": "GPT-Image2-Skill",
+  "fullName": "wuyoscar/GPT-Image2-Skill",
+  "owner": "wuyoscar",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/72287536?v=4",
+  "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
+  "homepage": "",
+  "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
+  "summary": "GPT Image 2 提示词画廊、提示词库、代理技能及用于 OpenAI 图像生成/编辑的命令行工具",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "command -v gpt-image || true\ncommand -v uv >/dev/null && uv tool list | grep -E '^gpt-image-cli([[:space:]]|$)' || true\ntest -n \"${OPENAI_API_KEY:-}\" && echo \"OPENAI_API_KEY is already set (value hidden)\"",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3413,
+  "forks": 295,
+  "openIssues": 2,
+  "score": 119.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-23T09:30:10Z",
+  "updatedAt": "2026-07-01T04:51:39Z",
+  "createdAt": "2026-04-22T11:27:21Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-code-skill",
+    "codex-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-image-prompts",
+    "claude-code-skill",
+    "cli",
+    "codex-skill",
+    "gpt-image",
+    "gpt-image-2",
+    "gpt-image-2-prompts",
+    "image-editing",
+    "image-generation",
+    "image-prompt",
+    "openai",
+    "prompt-library",
+    "prompt-templates",
+    "research-figures",
+    "text-to-image"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wuyoscar/GPT-Image2-Skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/wuyoscar/GPT-Image2-Skill#readme",
+  "detailPath": "data/details/wuyoscar__gpt__image2__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "GPT Image 2 提示词画廊、提示词库、代理技能及用于 OpenAI 图像生成/编辑的命令行工具",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "89563b04bb1a7549",
+    "method": "deterministic-offline-v1"
+  }
+}

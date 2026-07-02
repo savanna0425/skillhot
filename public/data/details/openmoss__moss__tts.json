@@ -1,0 +1,82 @@
+{
+  "rank": 896,
+  "id": 1152193330,
+  "name": "MOSS-TTS",
+  "fullName": "OpenMOSS/MOSS-TTS",
+  "owner": "OpenMOSS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/156300419?v=4",
+  "url": "https://github.com/OpenMOSS/MOSS-TTS",
+  "homepage": "https://mosi.cn/models/moss-tts",
+  "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+  "summary": "MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/OpenMOSS/MOSS-TTS.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 3683,
+  "forks": 322,
+  "openIssues": 14,
+  "score": 108.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-22T11:51:50Z",
+  "updatedAt": "2026-07-01T03:45:41Z",
+  "createdAt": "2026-02-07T14:05:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "audio",
+    "audio-tokenizer",
+    "llm",
+    "multimodal",
+    "text-to-speech",
+    "voice-cloning"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenMOSS/MOSS-TTS",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenMOSS/MOSS-TTS#readme",
+  "detailPath": "data/details/openmoss__moss__tts.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "05af13f67b9914c2",
+    "method": "deterministic-offline-v1"
+  }
+}

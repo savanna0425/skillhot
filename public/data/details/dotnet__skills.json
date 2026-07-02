@@ -1,0 +1,84 @@
+{
+  "rank": 316,
+  "id": 1149257427,
+  "name": "skills",
+  "fullName": "dotnet/skills",
+  "owner": "dotnet",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9141961?v=4",
+  "url": "https://github.com/dotnet/skills",
+  "homepage": "",
+  "description": "Repository for skills to assist AI coding agents with .NET and C#",
+  "summary": ".NET 团队为 C# 与 .NET 编程智能体维护的官方技能",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    ".NET 开发",
+    "性能诊断",
+    "数据访问"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/dotnet/skills.git",
+  "language": "C#",
+  "license": "MIT",
+  "stars": 3566,
+  "forks": 267,
+  "openIssues": 73,
+  "score": 127.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:00:02Z",
+  "updatedAt": "2026-06-30T22:14:09Z",
+  "createdAt": "2026-02-03T22:51:09Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索",
+    "精选来源"
+  ],
+  "repoTopics": [
+    "agent-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dotnet/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/dotnet/skills#readme",
+  "detailPath": "data/details/dotnet__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": ".NET 团队为 C# 与 .NET 编程智能体维护的官方技能",
+    "useCases": [
+      ".NET 开发",
+      "性能诊断",
+      "数据访问"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7f90d0d60c6ed32f",
+    "method": "deterministic-offline-v1"
+  }
+}

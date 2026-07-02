@@ -1,0 +1,88 @@
+{
+  "rank": 307,
+  "id": 974157595,
+  "name": "nexent",
+  "fullName": "ModelEngine-Group/nexent",
+  "owner": "ModelEngine-Group",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/200162819?v=4",
+  "url": "https://github.com/ModelEngine-Group/nexent",
+  "homepage": "",
+  "description": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
+  "summary": "Nexent 是一款基于 Harness 工程原理解零代码的 AI 代理生成平台，提供统一工具、技能、记忆及编排，内置约束、反馈循环与控制平面",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/ModelEngine-Group/nexent.git\ncd nexent/docker\nbash deploy.sh",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 5409,
+  "forks": 672,
+  "openIssues": 268,
+  "score": 127.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:51:20Z",
+  "updatedAt": "2026-07-01T03:44:54Z",
+  "createdAt": "2025-04-28T10:44:33Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-rag",
+    "agentic-workflow",
+    "ai",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "rag"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ModelEngine-Group/nexent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ModelEngine-Group/nexent#readme",
+  "detailPath": "data/details/modelengine__group__nexent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Nexent 是一款基于 Harness 工程原理解零代码的 AI 代理生成平台，提供统一工具、技能、记忆及编排，内置约束、反馈循环与控制平面",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "28942a6b27ba480d",
+    "method": "deterministic-offline-v1"
+  }
+}

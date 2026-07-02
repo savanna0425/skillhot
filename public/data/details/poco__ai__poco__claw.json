@@ -1,0 +1,84 @@
+{
+  "rank": 1412,
+  "id": 1130325611,
+  "name": "poco-claw",
+  "fullName": "poco-ai/poco-claw",
+  "owner": "poco-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255312149?v=4",
+  "url": "https://github.com/poco-ai/poco-claw",
+  "homepage": "https://poco-docs.vercel.app/",
+  "description": "A more beautiful and easier-to-use alternative to OpenClaw. It features a nicer Web UI, built-in IM support, a sandboxed runtime and channel-based team collaboration. Under the hood, it is powered by a Claude Code–based agent.",
+  "summary": "poco-claw 帮助改进界面设计、用户体验与视觉质量。",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/poco-ai/poco-claw.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1342,
+  "forks": 125,
+  "openIssues": 1,
+  "score": 98.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T02:32:30Z",
+  "updatedAt": "2026-07-01T03:00:50Z",
+  "createdAt": "2026-01-08T10:48:17Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "chatbot",
+    "claude-code",
+    "clawdbot",
+    "manus",
+    "openclaw"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/poco-ai/poco-claw",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/poco-ai/poco-claw#readme",
+  "detailPath": "data/details/poco__ai__poco__claw.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "poco-claw 帮助改进界面设计、用户体验与视觉质量。",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "df28c097fc7bed9b",
+    "method": "deterministic-offline-v1"
+  }
+}

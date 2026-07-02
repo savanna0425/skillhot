@@ -1,0 +1,75 @@
+{
+  "rank": 688,
+  "id": 963038660,
+  "name": "mcp",
+  "fullName": "microsoft/mcp",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/mcp",
+  "homepage": "",
+  "description": "Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration",
+  "summary": "微软官方 MCP（模型上下文协议）服务器实现集：用于 AI 驱动的访问和数据工具集成",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/microsoft/mcp.git",
+  "language": "C#",
+  "license": "MIT",
+  "stars": 3389,
+  "forks": 542,
+  "openIssues": 309,
+  "score": 114.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:37:41Z",
+  "updatedAt": "2026-07-01T03:37:46Z",
+  "createdAt": "2025-04-09T04:12:30Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/mcp",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/microsoft/mcp#readme",
+  "detailPath": "data/details/microsoft__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "微软官方 MCP（模型上下文协议）服务器实现集：用于 AI 驱动的访问和数据工具集成",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "87a1435c9b5179ac",
+    "method": "deterministic-offline-v1"
+  }
+}

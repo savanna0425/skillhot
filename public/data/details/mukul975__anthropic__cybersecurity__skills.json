@@ -1,0 +1,101 @@
+{
+  "rank": 87,
+  "id": 1166506614,
+  "name": "Anthropic-Cybersecurity-Skills",
+  "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+  "owner": "mukul975",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/42860185?v=4",
+  "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+  "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
+  "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+  "summary": "Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add mukul975/Anthropic-Cybersecurity-Skills\ngit clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git\ncd Anthropic-Cybersecurity-Skills",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 23529,
+  "forks": 2676,
+  "openIssues": 29,
+  "score": 142.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T14:37:50Z",
+  "updatedAt": "2026-07-01T04:50:22Z",
+  "createdAt": "2026-02-25T09:47:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "claude-code",
+    "cloud-security",
+    "cybersecurity",
+    "devsecops",
+    "ethical-hacking",
+    "incident-response",
+    "infosec",
+    "llm",
+    "malware-analysis",
+    "mcp",
+    "mitre-attack",
+    "nist-csf",
+    "osint",
+    "penetration-testing",
+    "red-team",
+    "security",
+    "security-automation",
+    "threat-hunting",
+    "threat-intelligence"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1000,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mukul975/Anthropic-Cybersecurity-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills#readme",
+  "detailPath": "data/details/mukul975__anthropic__cybersecurity__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ad8eb630b7189c03",
+    "method": "deterministic-offline-v1"
+  }
+}

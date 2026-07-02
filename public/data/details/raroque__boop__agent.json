@@ -1,0 +1,76 @@
+{
+  "rank": 1250,
+  "id": 1210872431,
+  "name": "boop-agent",
+  "fullName": "raroque/boop-agent",
+  "owner": "raroque",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6283166?v=4",
+  "url": "https://github.com/raroque/boop-agent",
+  "homepage": "",
+  "description": "iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations.",
+  "summary": "个人消息助手：请选择 Claude Agent SDK（Claude Code）或 Codex 应用服务器运行时（Codex/ChatGPT），支持记忆、子代理、自动化及集成",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/raroque/boop-agent.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 866,
+  "forks": 199,
+  "openIssues": 15,
+  "score": 100.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T04:32:58Z",
+  "updatedAt": "2026-06-28T13:07:13Z",
+  "createdAt": "2026-04-14T20:58:38Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/raroque/boop-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/raroque/boop-agent#readme",
+  "detailPath": "data/details/raroque__boop__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "个人消息助手：请选择 Claude Agent SDK（Claude Code）或 Codex 应用服务器运行时（Codex/ChatGPT），支持记忆、子代理、自动化及集成",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "551fe5f0cd742847",
+    "method": "deterministic-offline-v1"
+  }
+}

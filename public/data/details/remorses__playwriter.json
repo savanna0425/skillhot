@@ -1,0 +1,79 @@
+{
+  "rank": 664,
+  "id": 1095948794,
+  "name": "playwriter",
+  "fullName": "remorses/playwriter",
+  "owner": "remorses",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/31321188?v=4",
+  "url": "https://github.com/remorses/playwriter",
+  "homepage": "https://playwriter.dev",
+  "description": "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP",
+  "summary": "浏览器扩展及命令行工具，让代理控制您的浏览器。在受控沙箱中运行 Playwright 片段。支持作为命令行或 MCP 使用",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i -g playwriter\nplaywriter -s 1 -e 'await page.goto(\"https://example.com\")'",
+  "language": "HTML",
+  "license": "MIT",
+  "stars": 3657,
+  "forks": 159,
+  "openIssues": 20,
+  "score": 115.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T08:14:54Z",
+  "updatedAt": "2026-07-01T03:52:11Z",
+  "createdAt": "2025-11-13T18:23:26Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "mcp",
+    "playwright"
+  ],
+  "platforms": [
+    "Claude",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/remorses/playwriter",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/remorses/playwriter#readme",
+  "detailPath": "data/details/remorses__playwriter.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "浏览器扩展及命令行工具，让代理控制您的浏览器。在受控沙箱中运行 Playwright 片段。支持作为命令行或 MCP 使用",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0e5706aefd7735c9",
+    "method": "deterministic-offline-v1"
+  }
+}

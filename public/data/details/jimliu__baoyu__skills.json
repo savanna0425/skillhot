@@ -1,0 +1,90 @@
+{
+  "rank": 14,
+  "id": 1133207146,
+  "name": "baoyu-skills",
+  "fullName": "JimLiu/baoyu-skills",
+  "owner": "JimLiu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/648674?v=4",
+  "url": "https://github.com/JimLiu/baoyu-skills",
+  "homepage": "",
+  "description": "",
+  "summary": "覆盖图文、网页与内容生产的一组实用 Agent Skills",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "图文创作",
+    "网页内容",
+    "社交媒体生产"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add jimliu/baoyu-skills",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 22875,
+  "forks": 2596,
+  "openIssues": 1,
+  "score": 158.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T06:42:07Z",
+  "updatedAt": "2026-07-01T04:49:05Z",
+  "createdAt": "2026-01-13T03:04:56Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "openclaw-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 20,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JimLiu/baoyu-skills",
+    "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID"
+  },
+  "readmeUrl": "https://github.com/JimLiu/baoyu-skills#readme",
+  "detailPath": "data/details/jimliu__baoyu__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "覆盖图文、网页与内容生产的一组实用 Agent Skills",
+    "useCases": [
+      "图文创作",
+      "网页内容",
+      "社交媒体生产"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "de1c84e3a68a902d",
+    "method": "deterministic-offline-v1"
+  }
+}

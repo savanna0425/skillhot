@@ -1,0 +1,90 @@
+{
+  "rank": 783,
+  "id": 820144741,
+  "name": "datachain",
+  "fullName": "datachain-ai/datachain",
+  "owner": "datachain-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/211070623?v=4",
+  "url": "https://github.com/datachain-ai/datachain",
+  "homepage": "https://docs.datachain.ai",
+  "description": "The Context Layer for unstructured data: typed, versioned datasets over S3, GCS, Azure",
+  "summary": "未结构化数据上下文层：S3、GCS、Azure 上的类型化、版本化数据集",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install datachain",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 2791,
+  "forks": 147,
+  "openIssues": 71,
+  "score": 112.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:50:38Z",
+  "updatedAt": "2026-06-30T01:02:57Z",
+  "createdAt": "2024-06-25T22:29:35Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "data-context-layer",
+    "data-processing",
+    "harness-engineering",
+    "knowledge-base",
+    "mlops",
+    "multimodal",
+    "pydantic",
+    "unstructured-data"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/datachain-ai/datachain",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/datachain-ai/datachain#readme",
+  "detailPath": "data/details/datachain__ai__datachain.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "未结构化数据上下文层：S3、GCS、Azure 上的类型化、版本化数据集",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f62644b38baa549e",
+    "method": "deterministic-offline-v1"
+  }
+}

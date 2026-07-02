@@ -1,0 +1,82 @@
+{
+  "rank": 956,
+  "id": 1069465928,
+  "name": "jarvis-registry",
+  "fullName": "ascending-llc/jarvis-registry",
+  "owner": "ascending-llc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/53379549?v=4",
+  "url": "https://github.com/ascending-llc/jarvis-registry",
+  "homepage": "https://jarvisregistry.com",
+  "description": "Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability.",
+  "summary": "将任何 AI copilots 或自主代理连接到您的企业工具——通过一个安全、单点的 MCP/Agent 网关，内置身份验证、访问控制及完整可观测性",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/ascending-llc/jarvis-registry.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1724,
+  "forks": 266,
+  "openIssues": 2,
+  "score": 107.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:07:54Z",
+  "updatedAt": "2026-07-01T01:14:36Z",
+  "createdAt": "2025-10-04T01:52:24Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-gateway",
+    "agent-orchestration",
+    "mcp",
+    "mcp-gateway",
+    "orchestration"
+  ],
+  "platforms": [
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ascending-llc/jarvis-registry",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ascending-llc/jarvis-registry#readme",
+  "detailPath": "data/details/ascending__llc__jarvis__registry.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "将任何 AI copilots 或自主代理连接到您的企业工具——通过一个安全、单点的 MCP/Agent 网关，内置身份验证、访问控制及完整可观测性",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "331acc703ea80165",
+    "method": "deterministic-offline-v1"
+  }
+}

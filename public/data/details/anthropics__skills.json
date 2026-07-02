@@ -1,0 +1,81 @@
+{
+  "rank": 2,
+  "id": 1061953414,
+  "name": "skills",
+  "fullName": "anthropics/skills",
+  "owner": "anthropics",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "url": "https://github.com/anthropics/skills",
+  "homepage": "",
+  "description": "Public repository for Agent Skills",
+  "summary": "Agent Skills 公共仓库、规范示例与参考实现",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "学习 Skills 结构",
+    "复用官方技能",
+    "编写自定义技能"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/anthropics/skills.git",
+  "language": "Python",
+  "license": "",
+  "stars": 157071,
+  "forks": 18504,
+  "openIssues": 992,
+  "score": 166.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:23:22Z",
+  "updatedAt": "2026-07-01T04:49:54Z",
+  "createdAt": "2025-09-22T15:53:31Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/anthropics/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/anthropics/skills#readme",
+  "detailPath": "data/details/anthropics__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Agent Skills 公共仓库、规范示例与参考实现",
+    "useCases": [
+      "学习 Skills 结构",
+      "复用官方技能",
+      "编写自定义技能"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e3ec2f228fbbaa4e",
+    "method": "deterministic-offline-v1"
+  }
+}

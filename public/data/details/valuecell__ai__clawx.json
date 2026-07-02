@@ -1,0 +1,89 @@
+{
+  "rank": 320,
+  "id": 1150626239,
+  "name": "ClawX",
+  "fullName": "ValueCell-ai/ClawX",
+  "owner": "ValueCell-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/234340495?v=4",
+  "url": "https://github.com/ValueCell-ai/ClawX",
+  "homepage": "https://claw-x.com",
+  "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
+  "summary": "ClawX 是一款桌面应用程序，为 OpenClaw AI 代理提供图形化界面。它无需终端即可将基于 CLI 的 AI 编排转化为桌面体验。中国官网为 https://clawx.com.cn",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/ValueCell-ai/ClawX.git\ncd ClawX\npnpm run init",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 7464,
+  "forks": 1113,
+  "openIssues": 70,
+  "score": 127,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:04:13Z",
+  "updatedAt": "2026-07-01T02:29:22Z",
+  "createdAt": "2026-02-05T13:58:36Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "clawdbot",
+    "moltbot",
+    "openclaw",
+    "skill"
+  ],
+  "platforms": [
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ValueCell-ai/ClawX",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ValueCell-ai/ClawX#readme",
+  "detailPath": "data/details/valuecell__ai__clawx.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "ClawX 是一款桌面应用程序，为 OpenClaw AI 代理提供图形化界面。它无需终端即可将基于 CLI 的 AI 编排转化为桌面体验。中国官网为 https://clawx.com.cn",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "cfeb8e8921b44633",
+    "method": "deterministic-offline-v1"
+  }
+}

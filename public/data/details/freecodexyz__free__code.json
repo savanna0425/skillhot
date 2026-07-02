@@ -1,0 +1,76 @@
+{
+  "rank": 585,
+  "id": 1197145423,
+  "name": "free-code",
+  "fullName": "freecodexyz/free-code",
+  "owner": "freecodexyz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/288356909?v=4",
+  "url": "https://github.com/freecodexyz/free-code",
+  "homepage": "https://x.com/paoloanzn/status/2039022418698907949?s=20",
+  "description": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
+  "summary": "Claude Code 免费构建版。已移除所有遥测数据，已移除安全提示保护护栏，已启用所有实验性功能",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/paoloanzn/free-code.git\ncd free-code\nbun build",
+  "language": "TypeScript",
+  "license": "",
+  "stars": 8537,
+  "forks": 2026,
+  "openIssues": 21,
+  "score": 117.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-10T14:52:08Z",
+  "updatedAt": "2026-07-01T02:48:27Z",
+  "createdAt": "2026-03-31T11:11:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/freecodexyz/free-code",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/freecodexyz/free-code#readme",
+  "detailPath": "data/details/freecodexyz__free__code.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude Code 免费构建版。已移除所有遥测数据，已移除安全提示保护护栏，已启用所有实验性功能",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "396d8afb77a001be",
+    "method": "deterministic-offline-v1"
+  }
+}

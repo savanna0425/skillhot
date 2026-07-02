@@ -1,0 +1,95 @@
+{
+  "rank": 169,
+  "id": 1166408297,
+  "name": "agentmemory",
+  "fullName": "rohitg00/agentmemory",
+  "owner": "rohitg00",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/48523873?v=4",
+  "url": "https://github.com/rohitg00/agentmemory",
+  "homepage": "https://agent-memory.dev",
+  "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+  "summary": "基于真实世界基准的 AI 编程代理持久内存",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @agentmemory/agentmemory   # once — bare `agentmemory` on PATH\nagentmemory                                      # start the memory server on :3111\nagentmemory demo                                 # seed sample sessions + prove recall",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 24369,
+  "forks": 2001,
+  "openIssues": 348,
+  "score": 135.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T06:13:48Z",
+  "updatedAt": "2026-07-01T04:39:02Z",
+  "createdAt": "2026-02-25T07:32:52Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentmemory",
+    "agents",
+    "ai",
+    "claude",
+    "claudecode",
+    "codex",
+    "copilot",
+    "cursor",
+    "genai",
+    "harness",
+    "hermes",
+    "memory",
+    "openclaw"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 15,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rohitg00/agentmemory",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/rohitg00/agentmemory#readme",
+  "detailPath": "data/details/rohitg00__agentmemory.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于真实世界基准的 AI 编程代理持久内存",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f2886b2849f5a64d",
+    "method": "deterministic-offline-v1"
+  }
+}

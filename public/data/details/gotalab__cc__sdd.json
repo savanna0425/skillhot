@@ -1,0 +1,97 @@
+{
+  "rank": 789,
+  "id": 1021219064,
+  "name": "cc-sdd",
+  "fullName": "gotalab/cc-sdd",
+  "owner": "gotalab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/75576618?v=4",
+  "url": "https://github.com/gotalab/cc-sdd",
+  "homepage": "",
+  "description": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
+  "summary": "cc-sdd 的作者尚未提供足够简介，请查看 README 了解具体用途",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "cd your-project\nnpx cc-sdd@latest",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 3529,
+  "forks": 265,
+  "openIssues": 20,
+  "score": 112.2,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-20T08:45:14Z",
+  "updatedAt": "2026-07-01T02:25:09Z",
+  "createdAt": "2025-07-17T04:41:37Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "kiro",
+    "opencode",
+    "sdd",
+    "spec-driven-development",
+    "steering",
+    "subagents"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 17,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gotalab/cc-sdd",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gotalab/cc-sdd#readme",
+  "detailPath": "data/details/gotalab__cc__sdd.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "cc-sdd 的作者尚未提供足够简介，请查看 README 了解具体用途",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6a76a9f76250aa3d",
+    "method": "deterministic-offline-v1"
+  }
+}

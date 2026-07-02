@@ -1,0 +1,94 @@
+{
+  "rank": 98,
+  "id": 1147094660,
+  "name": "nanobot",
+  "fullName": "HKUDS/nanobot",
+  "owner": "HKUDS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
+  "url": "https://github.com/HKUDS/nanobot",
+  "homepage": "https://nanobot.wiki",
+  "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+  "summary": "轻量级开源 AI 工具、聊天与工作流助手",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "The default command installs or upgrades `nanobot-ai` from PyPI, then starts `nanobot onboard --wizard`. It avoids system-wide pip installs by using an active virtual environment, `uv`, `pipx`, or a managed venv under `~/.nanobot/venv`. If Quick Start finishes and you enabled the WebSocket channel, skip the manual initialize/configure steps below and go stra",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 44905,
+  "forks": 7918,
+  "openIssues": 866,
+  "score": 141.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:45:12Z",
+  "updatedAt": "2026-07-01T04:54:24Z",
+  "createdAt": "2026-02-01T07:16:15Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "codex-cli",
+    "llm",
+    "nanobot",
+    "openai",
+    "openclaw"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/nanobot",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/HKUDS/nanobot#readme",
+  "detailPath": "data/details/hkuds__nanobot.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "轻量级开源 AI 工具、聊天与工作流助手",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e425eef6bab0a824",
+    "method": "deterministic-offline-v1"
+  }
+}

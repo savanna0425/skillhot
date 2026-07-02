@@ -1,0 +1,101 @@
+{
+  "rank": 456,
+  "id": 1167732163,
+  "name": "SocratiCode",
+  "fullName": "giancarloerra/SocratiCode",
+  "owner": "giancarloerra",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/105157948?v=4",
+  "url": "https://github.com/giancarloerra/SocratiCode",
+  "homepage": "https://socraticode.cloud",
+  "description": "Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge. 61% less tokens, 84% fewer calls, 37x faster. Cloud in beta.",
+  "summary": "SocratiCode 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "> **Updating:** `npx` caches the package after the first run. To get the latest version, clear the cache and restart your MCP host: `rm -rf ~/.npm/_npx && claude mcp restart socraticode`. Alternatively, use `npx -y socraticode@latest` in your config to always check for updates on startup (slightly slower).\n**OpenCode** — add to your `opencode.json` (or `open",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 3062,
+  "forks": 394,
+  "openIssues": 0,
+  "score": 121.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T20:24:41Z",
+  "updatedAt": "2026-07-01T00:34:02Z",
+  "createdAt": "2026-02-26T16:12:26Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-assistant",
+    "ast",
+    "claude",
+    "claude-code",
+    "code-graph",
+    "codebase-intelligence",
+    "context-engine",
+    "docker",
+    "embeddings",
+    "gemini",
+    "gemini-cli-extension",
+    "mcp",
+    "openai",
+    "qdrant",
+    "semantic",
+    "semantic-search",
+    "vector-database",
+    "vector-embeddings",
+    "vector-search"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/giancarloerra/SocratiCode",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/giancarloerra/SocratiCode#readme",
+  "detailPath": "data/details/giancarloerra__socraticode.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "SocratiCode 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "806c06e0792b69cc",
+    "method": "deterministic-offline-v1"
+  }
+}

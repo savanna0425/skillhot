@@ -1,0 +1,92 @@
+{
+  "rank": 7,
+  "id": 1158722119,
+  "name": "agent-skills",
+  "fullName": "addyosmani/agent-skills",
+  "owner": "addyosmani",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/110953?v=4",
+  "url": "https://github.com/addyosmani/agent-skills",
+  "homepage": "",
+  "description": "Production-grade engineering skills for AI coding agents.",
+  "summary": "面向生产环境的工程技能合集",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "代码评审",
+    "性能优化",
+    "工程交付"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/addyosmani/agent-skills.git\nclaude --plugin-dir /path/to/agent-skills",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 68234,
+  "forks": 7398,
+  "openIssues": 146,
+  "score": 162,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T18:11:20Z",
+  "updatedAt": "2026-07-01T04:55:23Z",
+  "createdAt": "2026-02-15T20:20:26Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "antigravity",
+    "antigravity-ide",
+    "claude-code",
+    "cursor",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 24,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/addyosmani/agent-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/addyosmani/agent-skills#readme",
+  "detailPath": "data/details/addyosmani__agent__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向生产环境的工程技能合集",
+    "useCases": [
+      "代码评审",
+      "性能优化",
+      "工程交付"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2d0d95331474cf08",
+    "method": "deterministic-offline-v1"
+  }
+}

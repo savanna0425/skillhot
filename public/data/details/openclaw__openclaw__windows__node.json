@@ -1,0 +1,75 @@
+{
+  "rank": 874,
+  "id": 1144728715,
+  "name": "openclaw-windows-node",
+  "fullName": "openclaw/openclaw-windows-node",
+  "owner": "openclaw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252820863?v=4",
+  "url": "https://github.com/openclaw/openclaw-windows-node",
+  "homepage": "",
+  "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+  "summary": "Windows 配套套件：OpenClaw - 系统托盘应用、共享库、Node 和 PowerToys 命令面板扩展",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/openclaw/openclaw-windows-node.git",
+  "language": "C#",
+  "license": "MIT",
+  "stars": 1947,
+  "forks": 237,
+  "openIssues": 56,
+  "score": 109,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T19:06:59Z",
+  "updatedAt": "2026-06-30T19:07:13Z",
+  "createdAt": "2026-01-29T01:34:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openclaw/openclaw-windows-node",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/openclaw/openclaw-windows-node#readme",
+  "detailPath": "data/details/openclaw__openclaw__windows__node.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Windows 配套套件：OpenClaw - 系统托盘应用、共享库、Node 和 PowerToys 命令面板扩展",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c2af98e2b759195e",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "rank": 756,
+  "id": 1204415882,
+  "name": "Webwright",
+  "fullName": "microsoft/Webwright",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/Webwright",
+  "homepage": "",
+  "description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks. ",
+  "summary": "一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "pip install flask\npython assets/task_showcase/app.py    # http://127.0.0.1:5005",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 5739,
+  "forks": 362,
+  "openIssues": 37,
+  "score": 113.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-03T22:29:25Z",
+  "updatedAt": "2026-07-01T03:27:42Z",
+  "createdAt": "2026-04-08T01:48:09Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/Webwright",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/microsoft/Webwright#readme",
+  "detailPath": "data/details/microsoft__webwright.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ca1efca8430218dc",
+    "method": "deterministic-offline-v1"
+  }
+}

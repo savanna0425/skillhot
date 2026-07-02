@@ -1,0 +1,87 @@
+{
+  "rank": 495,
+  "id": 819733173,
+  "name": "Mooncake",
+  "fullName": "kvcache-ai/Mooncake",
+  "owner": "kvcache-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/170996193?v=4",
+  "url": "https://github.com/kvcache-ai/Mooncake",
+  "homepage": "https://kvcache-ai.github.io/Mooncake/",
+  "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+  "summary": "Mooncake 是 Kimi 的服务平台，由 Moonshot AI 提供",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install mooncake-transfer-engine",
+  "language": "C++",
+  "license": "Apache-2.0",
+  "stars": 5700,
+  "forks": 909,
+  "openIssues": 499,
+  "score": 120.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:34:29Z",
+  "updatedAt": "2026-07-01T04:34:34Z",
+  "createdAt": "2024-06-25T05:21:05Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "disaggregation",
+    "inference",
+    "kvcache",
+    "llm",
+    "rdma",
+    "reinforcement-learning",
+    "sglang",
+    "tokenspeed",
+    "trt-llm",
+    "vllm"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kvcache-ai/Mooncake",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/kvcache-ai/Mooncake#readme",
+  "detailPath": "data/details/kvcache__ai__mooncake.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Mooncake 是 Kimi 的服务平台，由 Moonshot AI 提供",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e00b2b45872aa064",
+    "method": "deterministic-offline-v1"
+  }
+}

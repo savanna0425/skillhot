@@ -1,0 +1,90 @@
+{
+  "rank": 689,
+  "id": 1174224707,
+  "name": "avoid-ai-writing",
+  "fullName": "conorbronsdon/avoid-ai-writing",
+  "owner": "conorbronsdon",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/120674402?v=4",
+  "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+  "homepage": "https://avoidaiwriting.com",
+  "description": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes.",
+  "summary": "能审计并改写内容以去除 AI 写作模式。可与您的 favorite agents 一起使用，包括 Claude Code、OpenClaw 和 Hermes",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/conorbronsdon/avoid-ai-writing ~/.claude/skills/avoid-ai-writing",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2098,
+  "forks": 209,
+  "openIssues": 0,
+  "score": 114.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T23:02:06Z",
+  "updatedAt": "2026-07-01T04:45:44Z",
+  "createdAt": "2026-03-06T07:47:40Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "ai-writing",
+    "claude",
+    "claude-code",
+    "llm",
+    "prompt-engineering",
+    "skill",
+    "writing"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/conorbronsdon/avoid-ai-writing",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/conorbronsdon/avoid-ai-writing#readme",
+  "detailPath": "data/details/conorbronsdon__avoid__ai__writing.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "能审计并改写内容以去除 AI 写作模式。可与您的 favorite agents 一起使用，包括 Claude Code、OpenClaw 和 Hermes",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "332c1ddeca8c5f0c",
+    "method": "deterministic-offline-v1"
+  }
+}

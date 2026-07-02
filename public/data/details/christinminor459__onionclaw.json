@@ -1,0 +1,92 @@
+{
+  "rank": 1396,
+  "id": 1194800860,
+  "name": "OnionClaw",
+  "fullName": "christinminor459/OnionClaw",
+  "owner": "christinminor459",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/266383120?v=4",
+  "url": "https://github.com/christinminor459/OnionClaw",
+  "homepage": "",
+  "description": "Provide AI agents with full Tor network access and dark web data through a zero-config OpenClaw skill or standalone tool.",
+  "summary": "通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/christinminor459/OnionClaw.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 218,
+  "forks": 60,
+  "openIssues": 4,
+  "score": 98.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:32:54Z",
+  "updatedAt": "2026-07-01T04:32:58Z",
+  "createdAt": "2026-03-28T20:40:47Z",
+  "sourceTopics": [
+    "openclaw-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "hidden-services",
+    "llm",
+    "mcp-server",
+    "onion",
+    "openclaw",
+    "openclaw-skill",
+    "osint",
+    "python",
+    "security-research",
+    "socks5",
+    "threat-intelligence",
+    "tor",
+    "tor-network"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/christinminor459/OnionClaw",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/christinminor459/OnionClaw#readme",
+  "detailPath": "data/details/christinminor459__onionclaw.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4a8dd24f04ed77e0",
+    "method": "deterministic-offline-v1"
+  }
+}

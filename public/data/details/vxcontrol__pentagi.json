@@ -1,0 +1,94 @@
+{
+  "rank": 217,
+  "id": 913030762,
+  "name": "pentagi",
+  "fullName": "vxcontrol/pentagi",
+  "owner": "vxcontrol",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/39194251?v=4",
+  "url": "https://github.com/vxcontrol/pentagi",
+  "homepage": "https://pentagi.com",
+  "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+  "summary": "完全自主的 AI 代理系统，可执行复杂渗透测试任务",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx swagger-typescript-api \\\n-p https://your-pentagi-instance:8443/api/v1/swagger/doc.json \\\n-o ./src/api \\",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 18047,
+  "forks": 2466,
+  "openIssues": 57,
+  "score": 132.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T09:31:36Z",
+  "updatedAt": "2026-07-01T04:21:38Z",
+  "createdAt": "2025-01-06T22:22:48Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "ai-security-tool",
+    "anthropic",
+    "autonomous-agents",
+    "golang",
+    "gpt",
+    "graphql",
+    "multi-agent-system",
+    "offensive-security",
+    "open-source",
+    "openai",
+    "penetration-testing",
+    "penetration-testing-tools",
+    "react",
+    "security-automation",
+    "security-testing",
+    "security-tools",
+    "self-hosted"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vxcontrol/pentagi",
+    "videoUrl": "https://youtu.be/R70x5Ddzs1o"
+  },
+  "readmeUrl": "https://github.com/vxcontrol/pentagi#readme",
+  "detailPath": "data/details/vxcontrol__pentagi.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "完全自主的 AI 代理系统，可执行复杂渗透测试任务",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "00f53ac1cc858c05",
+    "method": "deterministic-offline-v1"
+  }
+}

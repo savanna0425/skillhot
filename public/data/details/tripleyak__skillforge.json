@@ -1,0 +1,82 @@
+{
+  "rank": 1452,
+  "id": 1124990304,
+  "name": "SkillForge",
+  "fullName": "tripleyak/SkillForge",
+  "owner": "tripleyak",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/132320136?v=4",
+  "url": "https://github.com/tripleyak/SkillForge",
+  "homepage": "",
+  "description": "Intelligent skill router and creator for Claude Code and Codex. Analyzes any input to recommend existing skills, improve them, or create new ones from scratch.",
+  "summary": "为 Claude Code 和 Codex 设计的智能技能路由器与创建器。分析任何输入，推荐现有技能、优化技能，或从零创建新技能",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/tripleyak/SkillForge.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 739,
+  "forks": 81,
+  "openIssues": 0,
+  "score": 96,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-24T15:41:21Z",
+  "updatedAt": "2026-07-01T02:40:20Z",
+  "createdAt": "2025-12-30T01:02:27Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-ai",
+    "claude-code",
+    "claude-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tripleyak/SkillForge",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/tripleyak/SkillForge#readme",
+  "detailPath": "data/details/tripleyak__skillforge.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Claude Code 和 Codex 设计的智能技能路由器与创建器。分析任何输入，推荐现有技能、优化技能，或从零创建新技能",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "88797e6bdce98454",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "rank": 301,
+  "id": 1028159967,
+  "name": "InsForge",
+  "fullName": "InsForge/InsForge",
+  "owner": "InsForge",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/198419463?v=4",
+  "url": "https://github.com/InsForge/InsForge",
+  "homepage": "https://insforge.dev",
+  "description": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.",
+  "summary": "全栈开源代理编程后端平台。InsForge 为您提供编码代理数据库、认证、存储、计算、托管及 AI 网关，支持端到端全栈应用交付",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/InsForge/InsForge.git\ncd insforge\ncp .env.example .env",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 12015,
+  "forks": 1033,
+  "openIssues": 73,
+  "score": 127.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T18:39:43Z",
+  "updatedAt": "2026-07-01T02:51:01Z",
+  "createdAt": "2025-07-29T05:56:00Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "coding",
+    "deno",
+    "embeddings",
+    "insforge",
+    "nextjs",
+    "oauth2",
+    "pgvector",
+    "postgresql",
+    "realtime",
+    "vectors",
+    "websockets"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/InsForge/InsForge",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/InsForge/InsForge#readme",
+  "detailPath": "data/details/insforge__insforge.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "全栈开源代理编程后端平台。InsForge 为您提供编码代理数据库、认证、存储、计算、托管及 AI 网关，支持端到端全栈应用交付",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c53fc2f8de6d6fd6",
+    "method": "deterministic-offline-v1"
+  }
+}

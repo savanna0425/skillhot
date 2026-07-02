@@ -1,0 +1,94 @@
+{
+  "rank": 94,
+  "id": 615869301,
+  "name": "LocalAI",
+  "fullName": "mudler/LocalAI",
+  "owner": "mudler",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2420543?v=4",
+  "url": "https://github.com/mudler/LocalAI",
+  "homepage": "https://localai.io",
+  "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+  "summary": "LocalAI 是一款开源 AI 引擎，支持在任意硬件上运行任何模型——包括大语言模型、视觉模型、语音模型、图像模型和视频模型。无需 GPU",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/mudler/LocalAI.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 47243,
+  "forks": 4182,
+  "openIssues": 204,
+  "score": 142.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:34:01Z",
+  "updatedAt": "2026-07-01T03:49:45Z",
+  "createdAt": "2023-03-18T22:58:02Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "api",
+    "audio-generation",
+    "decentralized",
+    "distributed",
+    "image-generation",
+    "libp2p",
+    "llama",
+    "llm",
+    "mamba",
+    "mcp",
+    "musicgen",
+    "object-detection",
+    "rerank",
+    "stable-diffusion",
+    "text-generation",
+    "tts"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mudler/LocalAI",
+    "videoUrl": "https://www.youtube.com/watch?v=cMVNnlqwfw4"
+  },
+  "readmeUrl": "https://github.com/mudler/LocalAI#readme",
+  "detailPath": "data/details/mudler__localai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "LocalAI 是一款开源 AI 引擎，支持在任意硬件上运行任何模型——包括大语言模型、视觉模型、语音模型、图像模型和视频模型。无需 GPU",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3e5b91934ae9f1a5",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "rank": 894,
+  "id": 1153416852,
+  "name": "codeg",
+  "fullName": "xintaofei/codeg",
+  "owner": "xintaofei",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/247335392?v=4",
+  "url": "https://github.com/xintaofei/codeg",
+  "homepage": "",
+  "description": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, etc. Desktop app, self-hosted server, or Docker.",
+  "summary": "codeg 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/xintaofei/codeg.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1886,
+  "forks": 223,
+  "openIssues": 82,
+  "score": 108.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:36:48Z",
+  "updatedAt": "2026-07-01T04:36:11Z",
+  "createdAt": "2026-02-09T09:22:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "acp",
+    "agent",
+    "claude-code",
+    "code-generation",
+    "codex",
+    "gemini-cli",
+    "git",
+    "gui",
+    "ilink",
+    "lark",
+    "openclaw",
+    "opencode",
+    "telegram",
+    "worktree"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/xintaofei/codeg",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/xintaofei/codeg#readme",
+  "detailPath": "data/details/xintaofei__codeg.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "codeg 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d84906e43555b36a",
+    "method": "deterministic-offline-v1"
+  }
+}

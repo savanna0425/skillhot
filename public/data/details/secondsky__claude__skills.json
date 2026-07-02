@@ -1,0 +1,86 @@
+{
+  "rank": 1259,
+  "id": 1092415361,
+  "name": "claude-skills",
+  "fullName": "secondsky/claude-skills",
+  "owner": "secondsky",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/5509203?v=4",
+  "url": "https://github.com/secondsky/claude-skills",
+  "homepage": "",
+  "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
+  "summary": "claude-skills 用于自动化浏览器、工具集成或重复流程。",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/secondsky/claude-skills.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 179,
+  "forks": 28,
+  "openIssues": 1,
+  "score": 100.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T08:52:19Z",
+  "updatedAt": "2026-07-01T02:58:23Z",
+  "createdAt": "2025-11-08T15:34:35Z",
+  "sourceTopics": [
+    "claude-code-skills",
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-code-commands",
+    "claude-code-hooks",
+    "claude-code-plugin",
+    "claude-code-plugins",
+    "claude-code-skill",
+    "claude-code-skills"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/secondsky/claude-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/secondsky/claude-skills#readme",
+  "detailPath": "data/details/secondsky__claude__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-skills 用于自动化浏览器、工具集成或重复流程。",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "da1036ba69589974",
+    "method": "deterministic-offline-v1"
+  }
+}

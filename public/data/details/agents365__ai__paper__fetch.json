@@ -1,0 +1,102 @@
+{
+  "rank": 1403,
+  "id": 1204723538,
+  "name": "paper-fetch",
+  "fullName": "Agents365-ai/paper-fetch",
+  "owner": "Agents365-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
+  "url": "https://github.com/Agents365-ai/paper-fetch",
+  "homepage": "https://agents365-ai.github.io/paper-fetch/",
+  "description": "DOI → PDF resolver with 7-source fallback (Unpaywall, S2, arXiv, PMC, bioRxiv, publisher, Sci-Hub). Multi-agent, zero-deps Python.",
+  "summary": "paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Agents365-ai/paper-fetch.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 143,
+  "forks": 7,
+  "openIssues": 0,
+  "score": 98.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T05:48:07Z",
+  "updatedAt": "2026-06-28T07:28:50Z",
+  "createdAt": "2026-04-08T09:14:24Z",
+  "sourceTopics": [
+    "claude-code-skill",
+    "openclaw-skills",
+    "skill-md",
+    "skillsmp"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "academic",
+    "agent-skill",
+    "agent-skills",
+    "biorxiv",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skills",
+    "crossref",
+    "doi",
+    "open-access",
+    "openclaw",
+    "openclaw-skills",
+    "paper-fetch",
+    "pdf-downloader",
+    "pubmed",
+    "research",
+    "semantic-scholar",
+    "skill-md",
+    "skillsmp",
+    "unpaywall"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/paper-fetch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Agents365-ai/paper-fetch#readme",
+  "detailPath": "data/details/agents365__ai__paper__fetch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4bc4179d16c60638",
+    "method": "deterministic-offline-v1"
+  }
+}

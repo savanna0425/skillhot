@@ -1,0 +1,89 @@
+{
+  "rank": 494,
+  "id": 872005985,
+  "name": "DataFlow",
+  "fullName": "OpenDCAI/DataFlow",
+  "owner": "OpenDCAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/177615276?v=4",
+  "url": "https://github.com/OpenDCAI/DataFlow",
+  "homepage": "https://OpenDCAI.github.io/DataFlow-Doc/",
+  "description": "Easy Data Preparation with latest LLMs-based Operators and Pipelines.",
+  "summary": "基于最新大语言模型的操作器与管道，轻松完成数据准备",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install uv\nuv pip install open-dataflow",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 5715,
+  "forks": 668,
+  "openIssues": 8,
+  "score": 120.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T08:10:57Z",
+  "updatedAt": "2026-07-01T04:54:20Z",
+  "createdAt": "2024-10-13T14:45:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "data",
+    "data-agent",
+    "data-cleaning",
+    "data-pipelines",
+    "data-processing",
+    "data-science",
+    "data-synthesis",
+    "gradio-interface",
+    "llms",
+    "operators",
+    "quick-data-processing",
+    "sglang-bankend",
+    "vllm-backend"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenDCAI/DataFlow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenDCAI/DataFlow#readme",
+  "detailPath": "data/details/opendcai__dataflow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于最新大语言模型的操作器与管道，轻松完成数据准备",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6d0942af1234648d",
+    "method": "deterministic-offline-v1"
+  }
+}

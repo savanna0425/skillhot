@@ -1,0 +1,94 @@
+{
+  "rank": 267,
+  "id": 1240191065,
+  "name": "agents-best-practices",
+  "fullName": "DenisSergeevitch/agents-best-practices",
+  "owner": "DenisSergeevitch",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2140110?v=4",
+  "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+  "homepage": "",
+  "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
+  "summary": "为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add DenisSergeevitch/agents-best-practices -g",
+  "language": "",
+  "license": "MIT",
+  "stars": 2068,
+  "forks": 184,
+  "openIssues": 4,
+  "score": 129.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T21:15:14Z",
+  "updatedAt": "2026-07-01T02:26:49Z",
+  "createdAt": "2026-05-15T21:32:21Z",
+  "sourceTopics": [
+    "agent-skills",
+    "agent-skill",
+    "codex-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "agent-skills",
+    "agentic-workflows",
+    "agents",
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "codex",
+    "codex-skill",
+    "mcp",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/DenisSergeevitch/agents-best-practices",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/DenisSergeevitch/agents-best-practices#readme",
+  "detailPath": "data/details/denissergeevitch__agents__best__practices.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "fd7433d845bdcafd",
+    "method": "deterministic-offline-v1"
+  }
+}

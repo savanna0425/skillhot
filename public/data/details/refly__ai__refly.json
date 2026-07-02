@@ -1,0 +1,99 @@
+{
+  "rank": 644,
+  "id": 759799529,
+  "name": "refly",
+  "fullName": "refly-ai/refly",
+  "owner": "refly-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/132635806?v=4",
+  "url": "https://github.com/refly-ai/refly",
+  "homepage": "https://refly.ai",
+  "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
+  "summary": "开源技能构建器。通过氛围工作流定义技能，在 Claude Code、Cursor、Codex 等平台上运行。构建 Clawdbot · 为 Lovable 提供 API，打造 Slack 及 Lark/飞书机器人。技能即基础设施，非提示词",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "npm install -g @powerformer/refly-cli",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 7411,
+  "forks": 720,
+  "openIssues": 93,
+  "score": 115.9,
+  "activity": "活跃",
+  "pushedAt": "2026-03-25T14:51:18Z",
+  "updatedAt": "2026-07-01T01:20:47Z",
+  "createdAt": "2024-02-19T11:04:30Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "automation",
+    "claude",
+    "clawdbot",
+    "codex",
+    "cursor",
+    "lark-bot",
+    "lovable",
+    "n8n-alternative",
+    "skills",
+    "skills-builder",
+    "slack",
+    "slack-bot",
+    "vibe-coding",
+    "vibe-workflow",
+    "workflow"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/refly-ai/refly",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/refly-ai/refly#readme",
+  "detailPath": "data/details/refly__ai__refly.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "开源技能构建器。通过氛围工作流定义技能，在 Claude Code、Cursor、Codex 等平台上运行。构建 Clawdbot · 为 Lovable 提供 API，打造 Slack 及 Lark/飞书机器人。技能即基础设施，非提示词",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7b3b089f57959c45",
+    "method": "deterministic-offline-v1"
+  }
+}

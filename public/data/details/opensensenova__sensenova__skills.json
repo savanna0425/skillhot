@@ -1,0 +1,88 @@
+{
+  "rank": 259,
+  "id": 1210155353,
+  "name": "SenseNova-Skills",
+  "fullName": "OpenSenseNova/SenseNova-Skills",
+  "owner": "OpenSenseNova",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/175909011?v=4",
+  "url": "https://github.com/OpenSenseNova/SenseNova-Skills",
+  "homepage": "",
+  "description": "Modular SenseNova skills for building AI-powered office assistants and productivity workflows",
+  "summary": "模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/OpenSenseNova/SenseNova-Skills.git --depth=1\nmkdir -p ~/.openclaw/skills\ncp -r SenseNova-Skills/skills/* ~/.openclaw/skills/",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 4631,
+  "forks": 317,
+  "openIssues": 16,
+  "score": 130,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T11:29:37Z",
+  "updatedAt": "2026-07-01T04:05:49Z",
+  "createdAt": "2026-04-14T06:21:51Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "ai-agents",
+    "ai-assistant",
+    "data-analysis",
+    "document-processing",
+    "office-automation",
+    "presentation-slides"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenSenseNova/SenseNova-Skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenSenseNova/SenseNova-Skills#readme",
+  "detailPath": "data/details/opensensenova__sensenova__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "956f8662855500b7",
+    "method": "deterministic-offline-v1"
+  }
+}

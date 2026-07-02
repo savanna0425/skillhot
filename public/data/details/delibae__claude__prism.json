@@ -1,0 +1,95 @@
+{
+  "rank": 682,
+  "id": 1162309594,
+  "name": "claude-prism",
+  "fullName": "delibae/claude-prism",
+  "owner": "delibae",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/82585834?v=4",
+  "url": "https://github.com/delibae/claude-prism",
+  "homepage": "https://claudeprism.delibae.dev",
+  "description": "An offline-first scientific writing workspace powered by Claude. LaTeX + Python + 100+ scientific skills all running locally.",
+  "summary": "基于 Claude 的离线首字科学写作工作区，LaTeX、Python 及 100 项科学技能均本地运行",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/delibae/claude-prism.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1626,
+  "forks": 150,
+  "openIssues": 32,
+  "score": 115.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T09:19:49Z",
+  "updatedAt": "2026-06-30T17:24:32Z",
+  "createdAt": "2026-02-20T05:19:42Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "academic",
+    "ai",
+    "claude",
+    "claude-code",
+    "desktop-app",
+    "editor",
+    "latex",
+    "llm",
+    "offline",
+    "open-source",
+    "privacy",
+    "python",
+    "research",
+    "rust",
+    "scientific-writing",
+    "tauri",
+    "tectonic",
+    "zotero"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/delibae/claude-prism",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/delibae/claude-prism#readme",
+  "detailPath": "data/details/delibae__claude__prism.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Claude 的离线首字科学写作工作区，LaTeX、Python 及 100 项科学技能均本地运行",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6342b4540a973083",
+    "method": "deterministic-offline-v1"
+  }
+}

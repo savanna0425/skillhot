@@ -1,0 +1,98 @@
+{
+  "rank": 663,
+  "id": 1170939774,
+  "name": "Agentic-SEO-Skill",
+  "fullName": "Bhanunamikaze/Agentic-SEO-Skill",
+  "owner": "Bhanunamikaze",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/17119658?v=4",
+  "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+  "homepage": "",
+  "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts used as evidence collectors.",
+  "summary": "面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "product management|product manager|marketing|growth|se",
+  "scenarios": [
+    "产品管理",
+    "营销增长",
+    "商业决策"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "| Flag | Default | Purpose |\n|---|---|---|\n| `--target <name>` | `claude` | Pick a target (see IDE Compatibility table). With `--online` and no flag, defaults to `all`. |",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 714,
+  "forks": 114,
+  "openIssues": 7,
+  "score": 115.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T17:33:53Z",
+  "updatedAt": "2026-07-01T04:09:57Z",
+  "createdAt": "2026-03-02T17:37:53Z",
+  "sourceTopics": [
+    "claude-skills",
+    "ai-skills",
+    "codex-skills",
+    "codex-skill",
+    "ai-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-skill",
+    "ai-skills",
+    "antigravity-ai",
+    "antigravity-skills",
+    "antigravity-tools",
+    "claude-skill",
+    "claude-skills",
+    "codex-skill",
+    "codex-skills",
+    "seo",
+    "seo-optimization",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Bhanunamikaze/Agentic-SEO-Skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill#readme",
+  "detailPath": "data/details/bhanunamikaze__agentic__seo__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）",
+    "useCases": [
+      "产品管理",
+      "营销增长",
+      "商业决策"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "eb05f8f93c630411",
+    "method": "deterministic-offline-v1"
+  }
+}

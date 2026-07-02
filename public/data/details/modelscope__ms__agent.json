@@ -1,0 +1,83 @@
+{
+  "rank": 592,
+  "id": 674153903,
+  "name": "ms-agent",
+  "fullName": "modelscope/ms-agent",
+  "owner": "modelscope",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/109945100?v=4",
+  "url": "https://github.com/modelscope/ms-agent",
+  "homepage": "https://ms-agent-en.readthedocs.io",
+  "description": "MS-Agent: a lightweight framework to empower agentic execution of complex tasks",
+  "summary": "MS-Agent：一个轻量级框架，赋能复杂任务的本体执行",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install ms-agent\npip install 'ms-agent[research]'",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 4324,
+  "forks": 509,
+  "openIssues": 23,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:45:38Z",
+  "updatedAt": "2026-07-01T02:58:19Z",
+  "createdAt": "2023-08-03T09:06:03Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-insight",
+    "agentic-search",
+    "chat-bot",
+    "code-generation",
+    "deep-research",
+    "memory"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/modelscope/ms-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/modelscope/ms-agent#readme",
+  "detailPath": "data/details/modelscope__ms__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "MS-Agent：一个轻量级框架，赋能复杂任务的本体执行",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5872db81c2450efc",
+    "method": "deterministic-offline-v1"
+  }
+}

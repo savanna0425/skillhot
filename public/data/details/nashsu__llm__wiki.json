@@ -1,0 +1,76 @@
+{
+  "rank": 276,
+  "id": 1204828304,
+  "name": "llm_wiki",
+  "fullName": "nashsu/llm_wiki",
+  "owner": "nashsu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2127280?v=4",
+  "url": "https://github.com/nashsu/llm_wiki",
+  "homepage": "",
+  "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+  "summary": "LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "高",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/nashsu/llm_wiki.git\ncd llm_wiki\nnpm install",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 13319,
+  "forks": 1605,
+  "openIssues": 175,
+  "score": 129,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T03:51:53Z",
+  "updatedAt": "2026-07-01T04:42:50Z",
+  "createdAt": "2026-04-08T11:24:01Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nashsu/llm_wiki",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nashsu/llm_wiki#readme",
+  "detailPath": "data/details/nashsu__llm__wiki.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4883ba7a32630826",
+    "method": "deterministic-offline-v1"
+  }
+}

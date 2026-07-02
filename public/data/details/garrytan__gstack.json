@@ -1,0 +1,82 @@
+{
+  "rank": 34,
+  "id": 1179264259,
+  "name": "gstack",
+  "fullName": "garrytan/gstack",
+  "owner": "garrytan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/19957?v=4",
+  "url": "https://github.com/garrytan/gstack",
+  "homepage": "",
+  "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+  "summary": "覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "产品开发",
+    "创业团队协作",
+    "端到端发布"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack\ncd ~/gstack && ./setup",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 118485,
+  "forks": 17640,
+  "openIssues": 757,
+  "score": 151.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T16:42:45Z",
+  "updatedAt": "2026-07-01T04:50:21Z",
+  "createdAt": "2026-03-11T21:22:45Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索",
+    "精选来源"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/garrytan/gstack",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/garrytan/gstack#readme",
+  "detailPath": "data/details/garrytan__gstack.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈",
+    "useCases": [
+      "产品开发",
+      "创业团队协作",
+      "端到端发布"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ab79db0fe490812c",
+    "method": "deterministic-offline-v1"
+  }
+}

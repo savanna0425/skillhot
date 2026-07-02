@@ -1,0 +1,91 @@
+{
+  "rank": 233,
+  "id": 1180917769,
+  "name": "autoresearch",
+  "fullName": "uditgoenka/autoresearch",
+  "owner": "uditgoenka",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1478769?v=4",
+  "url": "https://github.com/uditgoenka/autoresearch",
+  "homepage": "https://udit.co/projects/autoresearch",
+  "description": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
+  "summary": "Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add uditgoenka/autoresearch",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 5223,
+  "forks": 388,
+  "openIssues": 0,
+  "score": 131.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T07:34:41Z",
+  "updatedAt": "2026-06-30T21:58:53Z",
+  "createdAt": "2026-03-13T14:51:54Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "autonomous-agent",
+    "autoresearch",
+    "claude",
+    "claude-code",
+    "iteration",
+    "karpathy",
+    "productivity",
+    "skill"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/uditgoenka/autoresearch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/uditgoenka/autoresearch#readme",
+  "detailPath": "data/details/uditgoenka__autoresearch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a8d6e147098bf143",
+    "method": "deterministic-offline-v1"
+  }
+}

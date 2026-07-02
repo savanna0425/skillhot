@@ -1,0 +1,101 @@
+{
+  "rank": 28,
+  "id": 995029641,
+  "name": "ruflo",
+  "fullName": "ruvnet/ruflo",
+  "owner": "ruvnet",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2934394?v=4",
+  "url": "https://github.com/ruvnet/ruflo",
+  "homepage": "https://Cognitum.One",
+  "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+  "summary": "面向 Claude、Codex 的多智能体协作、记忆与 RAG 编排框架",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "多智能体协作",
+    "任务编排",
+    "长期记忆"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npx ruflo@latest init wizard\nnpm install -g ruflo@latest",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 62276,
+  "forks": 7305,
+  "openIssues": 694,
+  "score": 153.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:12:38Z",
+  "updatedAt": "2026-07-01T04:55:36Z",
+  "createdAt": "2025-06-02T21:24:20Z",
+  "sourceTopics": [
+    "skills",
+    "ai-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-rag",
+    "agentic-workflow",
+    "agents",
+    "ai-agents",
+    "ai-assistant",
+    "ai-coding",
+    "ai-skills",
+    "autonomous-agents",
+    "claude-code",
+    "codex",
+    "mcp-server",
+    "multi-agent",
+    "multi-agent-systems",
+    "npm",
+    "skills",
+    "swarm",
+    "swarm-intelligence",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 30,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ruvnet/ruflo",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ruvnet/ruflo#readme",
+  "detailPath": "data/details/ruvnet__ruflo.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向 Claude、Codex 的多智能体协作、记忆与 RAG 编排框架",
+    "useCases": [
+      "多智能体协作",
+      "任务编排",
+      "长期记忆"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "38cb8a443eeab3e3",
+    "method": "deterministic-offline-v1"
+  }
+}

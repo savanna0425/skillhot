@@ -1,0 +1,88 @@
+{
+  "rank": 740,
+  "id": 1059472549,
+  "name": "apm",
+  "fullName": "microsoft/apm",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/apm",
+  "homepage": "https://microsoft.github.io/apm/",
+  "description": "Agent Package Manager",
+  "summary": "用于安装、发布与管理 Agent 软件包的包管理器",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "```bash\ngit clone <org/repo> && cd <repo>\napm install    # every agent is configured",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3048,
+  "forks": 259,
+  "openIssues": 81,
+  "score": 113.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:16:43Z",
+  "updatedAt": "2026-07-01T02:59:28Z",
+  "createdAt": "2025-09-18T13:45:22Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "context-engineering",
+    "github-copilot",
+    "package-manager",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/apm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/microsoft/apm#readme",
+  "detailPath": "data/details/microsoft__apm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于安装、发布与管理 Agent 软件包的包管理器",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e54e5918e6bfc699",
+    "method": "deterministic-offline-v1"
+  }
+}

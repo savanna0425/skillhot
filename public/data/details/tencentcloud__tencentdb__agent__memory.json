@@ -1,0 +1,85 @@
+{
+  "rank": 473,
+  "id": 1203558071,
+  "name": "TencentDB-Agent-Memory",
+  "fullName": "TencentCloud/TencentDB-Agent-Memory",
+  "owner": "TencentCloud",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/20101770?v=4",
+  "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+  "homepage": "",
+  "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+  "summary": "腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/TencentCloud/TencentDB-Agent-Memory.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 6352,
+  "forks": 586,
+  "openIssues": 194,
+  "score": 121.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T03:31:09Z",
+  "updatedAt": "2026-07-01T04:48:07Z",
+  "createdAt": "2026-04-07T06:34:26Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai-agent",
+    "embedding",
+    "llm",
+    "local-first",
+    "long-term-memory",
+    "memory",
+    "openclaw-plugin",
+    "vector-search"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/TencentCloud/TencentDB-Agent-Memory",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/TencentCloud/TencentDB-Agent-Memory#readme",
+  "detailPath": "data/details/tencentcloud__tencentdb__agent__memory.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a632211cefca4547",
+    "method": "deterministic-offline-v1"
+  }
+}

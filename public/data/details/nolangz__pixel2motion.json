@@ -1,0 +1,94 @@
+{
+  "rank": 616,
+  "id": 1266923310,
+  "name": "pixel2motion",
+  "fullName": "nolangz/pixel2motion",
+  "owner": "nolangz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/64394910?v=4",
+  "url": "https://github.com/nolangz/pixel2motion",
+  "homepage": "https://nolangz.github.io/pixel2motion/",
+  "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+  "summary": "AI 标志动画技能：将位图标志转换为平滑的 SVG 动画，生成动画 HTML 演示、GIF/视频预览及运动质量证据",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "python3 -m venv .venv\n.venv/bin/pip install pillow numpy playwright\n.venv/bin/python -m playwright install chromium",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1289,
+  "forks": 111,
+  "openIssues": 6,
+  "score": 116.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T05:39:25Z",
+  "updatedAt": "2026-07-01T03:34:40Z",
+  "createdAt": "2026-06-12T04:25:17Z",
+  "sourceTopics": [
+    "codex-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-design-tools",
+    "animated-logo",
+    "brand-motion",
+    "claude-skill",
+    "codex-skill",
+    "html-animation",
+    "logo-animation",
+    "logo-motion",
+    "logo-reveal",
+    "motion-design",
+    "pixel-to-svg",
+    "raster-to-svg",
+    "svg-animation",
+    "svg-motion",
+    "vector-animation"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nolangz/pixel2motion",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nolangz/pixel2motion#readme",
+  "detailPath": "data/details/nolangz__pixel2motion.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "AI 标志动画技能：将位图标志转换为平滑的 SVG 动画，生成动画 HTML 演示、GIF/视频预览及运动质量证据",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6523b11b67f9e558",
+    "method": "deterministic-offline-v1"
+  }
+}

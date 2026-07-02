@@ -1,0 +1,88 @@
+{
+  "rank": 38,
+  "id": 1000362065,
+  "name": "awesome-copilot",
+  "fullName": "github/awesome-copilot",
+  "owner": "github",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
+  "url": "https://github.com/github/awesome-copilot",
+  "homepage": "https://awesome-copilot.github.com/",
+  "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+  "summary": "GitHub Copilot 社区指令、Agent、Skills 与配置合集",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "Copilot 定制",
+    "团队指令复用",
+    "Agent 配置"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/github/awesome-copilot.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 35997,
+  "forks": 4454,
+  "openIssues": 26,
+  "score": 151.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:07:58Z",
+  "updatedAt": "2026-07-01T04:54:00Z",
+  "createdAt": "2025-06-11T16:57:39Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agents",
+    "ai",
+    "awesome",
+    "custom-agents",
+    "github-copilot",
+    "hacktoberfest",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/github/awesome-copilot",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/github/awesome-copilot#readme",
+  "detailPath": "data/details/github__awesome__copilot.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "GitHub Copilot 社区指令、Agent、Skills 与配置合集",
+    "useCases": [
+      "Copilot 定制",
+      "团队指令复用",
+      "Agent 配置"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "fcfa4d24e8c59db3",
+    "method": "deterministic-offline-v1"
+  }
+}

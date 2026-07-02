@@ -1,0 +1,84 @@
+{
+  "rank": 83,
+  "id": 1131513930,
+  "name": "daily_stock_analysis",
+  "fullName": "ZhuLinsen/daily_stock_analysis",
+  "owner": "ZhuLinsen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/42829555?v=4",
+  "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+  "homepage": "https://dsa.zhulinsen.tech",
+  "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+  "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis\npip install -r requirements.txt\ncp .env.example .env && vim .env",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 52619,
+  "forks": 45636,
+  "openIssues": 47,
+  "score": 143.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T23:21:14Z",
+  "updatedAt": "2026-07-01T04:51:43Z",
+  "createdAt": "2026-01-10T06:43:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance",
+    "quantitative-trading"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZhuLinsen/daily_stock_analysis",
+    "videoUrl": "https://www.bilibili.com/video/BV11FEb66EXG/"
+  },
+  "readmeUrl": "https://github.com/ZhuLinsen/daily_stock_analysis#readme",
+  "detailPath": "data/details/zhulinsen__daily__stock__analysis.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "87b1ba36a10ce250",
+    "method": "deterministic-offline-v1"
+  }
+}

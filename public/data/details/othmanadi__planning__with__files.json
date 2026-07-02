@@ -1,0 +1,106 @@
+{
+  "rank": 78,
+  "id": 1127110039,
+  "name": "planning-with-files",
+  "fullName": "OthmanAdi/planning-with-files",
+  "owner": "OthmanAdi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/78882424?v=4",
+  "url": "https://github.com/OthmanAdi/planning-with-files",
+  "homepage": "",
+  "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
+  "summary": "用持久化文件计划承接长任务，抵抗上下文丢失",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "长周期任务",
+    "上下文恢复",
+    "多人或多 Agent 协作"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 24204,
+  "forks": 2097,
+  "openIssues": 10,
+  "score": 144.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-16T15:16:19Z",
+  "updatedAt": "2026-07-01T04:32:24Z",
+  "createdAt": "2026-01-03T07:37:28Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "autonomous-agents",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "coding-agent",
+    "context-engineering",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "github-copilot",
+    "llm-agents",
+    "long-running-agents",
+    "manus",
+    "multi-agent-systems",
+    "pi",
+    "planning"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 13,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OthmanAdi/planning-with-files",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OthmanAdi/planning-with-files#readme",
+  "detailPath": "data/details/othmanadi__planning__with__files.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用持久化文件计划承接长任务，抵抗上下文丢失",
+    "useCases": [
+      "长周期任务",
+      "上下文恢复",
+      "多人或多 Agent 协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c90830f1d564547f",
+    "method": "deterministic-offline-v1"
+  }
+}

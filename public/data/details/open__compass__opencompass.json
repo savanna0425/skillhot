@@ -1,0 +1,84 @@
+{
+  "rank": 424,
+  "id": 654124617,
+  "name": "opencompass",
+  "fullName": "open-compass/opencompass",
+  "owner": "open-compass",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/143521324?v=4",
+  "url": "https://github.com/open-compass/opencompass",
+  "homepage": "https://opencompass.org.cn/",
+  "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+  "summary": "OpenCompass 是一个支持 100 多个数据集的 LLM 评估平台，兼容 Llama3、Mistral、InternLM2、GPT-4、LLaMa2、Qwen、GLM 及 Claude 等模型",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "待复核",
+  "categoryReason": "pandas|jupyter|chart|dataset|etl|data pipeline",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install -U opencompass",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 7137,
+  "forks": 794,
+  "openIssues": 448,
+  "score": 122.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T08:35:01Z",
+  "updatedAt": "2026-07-01T03:43:08Z",
+  "createdAt": "2023-06-15T12:42:58Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "benchmark",
+    "chatgpt",
+    "evaluation",
+    "large-language-model",
+    "llama2",
+    "llama3",
+    "llm",
+    "openai"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/open-compass/opencompass",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/open-compass/opencompass#readme",
+  "detailPath": "data/details/open__compass__opencompass.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenCompass 是一个支持 100 多个数据集的 LLM 评估平台，兼容 Llama3、Mistral、InternLM2、GPT-4、LLaMa2、Qwen、GLM 及 Claude 等模型",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4f8e211ec78460ad",
+    "method": "deterministic-offline-v1"
+  }
+}

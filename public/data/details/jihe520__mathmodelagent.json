@@ -1,0 +1,85 @@
+{
+  "rank": 390,
+  "id": 924706399,
+  "name": "MathModelAgent",
+  "fullName": "jihe520/MathModelAgent",
+  "owner": "jihe520",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/36144612?v=4",
+  "url": "https://github.com/jihe520/MathModelAgent",
+  "homepage": "https://mathmodel.top/home",
+  "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+  "summary": "专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add jihe520/MathModelAgent --all",
+  "language": "Python",
+  "license": "",
+  "stars": 2499,
+  "forks": 287,
+  "openIssues": 23,
+  "score": 123.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T03:02:39Z",
+  "updatedAt": "2026-07-01T04:43:39Z",
+  "createdAt": "2025-01-30T14:02:20Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "llm",
+    "mathmodel",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jihe520/MathModelAgent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jihe520/MathModelAgent#readme",
+  "detailPath": "data/details/jihe520__mathmodelagent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f384deb681cb8893",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "rank": 819,
+  "id": 1143440578,
+  "name": "unbrowse",
+  "fullName": "unbrowse-ai/unbrowse",
+  "owner": "unbrowse-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/263146700?v=4",
+  "url": "https://github.com/unbrowse-ai/unbrowse",
+  "homepage": "https://unbrowse.ai",
+  "description": "Unbrowse — api native browser Skill/CLI/MCP/SDK for any agent. Auto-discovers APIs from browser traffic, generates skills on the fly to call APIs directly 100x faster, 80% cheaper locally.",
+  "summary": "Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "That's it. `npx` fetches the `unbrowse` binary on first run; every web task in that host now routes through Unbrowse. Local browsing tools (`unbrowse_go`, `unbrowse_snap`, `unbrowse_eval`, `unbrowse_fetch`) work without registration. Backend-bound tools (`unbrowse_resolve`, `unbrowse_execute`, `unbrowse_publish`, `unbrowse_earnings`) require an API key — reg",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 712,
+  "forks": 59,
+  "openIssues": 23,
+  "score": 110.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T06:05:07Z",
+  "updatedAt": "2026-06-30T20:41:30Z",
+  "createdAt": "2026-01-27T15:30:07Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agents",
+    "agentskills",
+    "browser-use",
+    "clawdbot",
+    "clawdbot-plugin",
+    "har",
+    "moltbot",
+    "openclaw",
+    "openclaw-skills",
+    "reverse-engineering",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/unbrowse-ai/unbrowse",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/unbrowse-ai/unbrowse#readme",
+  "detailPath": "data/details/unbrowse__ai__unbrowse.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "dff78a76492c7e0f",
+    "method": "deterministic-offline-v1"
+  }
+}

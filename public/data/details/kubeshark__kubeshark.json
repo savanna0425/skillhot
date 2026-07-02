@@ -1,0 +1,98 @@
+{
+  "rank": 478,
+  "id": 359419233,
+  "name": "kubeshark",
+  "fullName": "kubeshark/kubeshark",
+  "owner": "kubeshark",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/99263827?v=4",
+  "url": "https://github.com/kubeshark/kubeshark",
+  "homepage": "https://kubeshark.com",
+  "description": "eBPF-powered network observability for Kubernetes. Indexes L4/L7 traffic with full K8s context, decrypts TLS without keys. Queryable by AI agents via MCP and humans via dashboard.",
+  "summary": "基于 eBPF 的 Kubernetes 网络可观测性。索引 L4/L7 流量，包含完整 K8s 上下文，无需密钥即可解密 TLS。支持 AI 代理通过 MCP 查询，也可通过仪表盘由人类查询",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install kubeshark\nclaude mcp add kubeshark -- kubeshark mcp",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 11978,
+  "forks": 543,
+  "openIssues": 143,
+  "score": 120.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-16T20:55:25Z",
+  "updatedAt": "2026-06-30T10:03:15Z",
+  "createdAt": "2021-04-19T10:29:56Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "cloud-native",
+    "devops",
+    "docker",
+    "ebpf",
+    "golang",
+    "grpc",
+    "incident-response",
+    "kubernetes",
+    "mcp",
+    "network-analysis",
+    "network-engineering",
+    "network-observability",
+    "network-security",
+    "observability",
+    "pcap",
+    "rest",
+    "root-cause-analysis",
+    "sniffer",
+    "sre",
+    "wireshark"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kubeshark/kubeshark",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/kubeshark/kubeshark#readme",
+  "detailPath": "data/details/kubeshark__kubeshark.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 eBPF 的 Kubernetes 网络可观测性。索引 L4/L7 流量，包含完整 K8s 上下文，无需密钥即可解密 TLS。支持 AI 代理通过 MCP 查询，也可通过仪表盘由人类查询",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "52b5cf2d11e231e4",
+    "method": "deterministic-offline-v1"
+  }
+}

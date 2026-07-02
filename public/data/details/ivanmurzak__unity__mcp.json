@@ -1,0 +1,101 @@
+{
+  "rank": 416,
+  "id": 959123498,
+  "name": "Unity-MCP",
+  "fullName": "IvanMurzak/Unity-MCP",
+  "owner": "IvanMurzak",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9135028?v=4",
+  "url": "https://github.com/IvanMurzak/Unity-MCP",
+  "homepage": "https://ai-game.dev",
+  "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+  "summary": "Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g unity-mcp-cli\nunity-mcp-cli install-plugin ./MyUnityProject\nunity-mcp-cli login ./MyUnityProject",
+  "language": "C#",
+  "license": "Apache-2.0",
+  "stars": 3399,
+  "forks": 305,
+  "openIssues": 42,
+  "score": 122.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T04:26:08Z",
+  "updatedAt": "2026-07-01T03:52:53Z",
+  "createdAt": "2025-04-02T09:57:01Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-integration",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "cli",
+    "copilot",
+    "cursor",
+    "game-development",
+    "gamedev",
+    "gemini",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "openai",
+    "unity",
+    "windsurf"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/IvanMurzak/Unity-MCP",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/IvanMurzak/Unity-MCP#readme",
+  "detailPath": "data/details/ivanmurzak__unity__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "fdf5ee7f270b8fb6",
+    "method": "deterministic-offline-v1"
+  }
+}

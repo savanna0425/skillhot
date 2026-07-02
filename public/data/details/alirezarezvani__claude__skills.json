@@ -1,0 +1,109 @@
+{
+  "rank": 16,
+  "id": 1079084637,
+  "name": "claude-skills",
+  "fullName": "alirezarezvani/claude-skills",
+  "owner": "alirezarezvani",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/5697919?v=4",
+  "url": "https://github.com/alirezarezvani/claude-skills",
+  "homepage": "https://alirezarezvani.medium.com/",
+  "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+  "summary": "覆盖工程、营销、产品、合规与运营的综合 Skills 套装",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "业务工作流",
+    "工程开发",
+    "日常生产力"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/alirezarezvani/claude-skills.git\ncd claude-skills\n./scripts/gemini-install.sh",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 19513,
+  "forks": 2682,
+  "openIssues": 8,
+  "score": 157,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:14:44Z",
+  "updatedAt": "2026-07-01T04:26:07Z",
+  "createdAt": "2025-10-19T04:04:05Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills",
+    "claude-code-skills",
+    "codex-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-plugins",
+    "agent-skills",
+    "agentic-ai",
+    "ai-coding-agent",
+    "anthropic-claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugins",
+    "claude-code-skills",
+    "claude-skills",
+    "codex-skills",
+    "coding-agent-plugins",
+    "cursor-skills",
+    "developer-tools",
+    "gemini-cli-skills",
+    "openai-codex",
+    "openclaw",
+    "openclaw-plugins",
+    "openclaw-skills",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 345,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/alirezarezvani/claude-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/alirezarezvani/claude-skills#readme",
+  "detailPath": "data/details/alirezarezvani__claude__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "覆盖工程、营销、产品、合规与运营的综合 Skills 套装",
+    "useCases": [
+      "业务工作流",
+      "工程开发",
+      "日常生产力"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a6443c840f718e59",
+    "method": "deterministic-offline-v1"
+  }
+}

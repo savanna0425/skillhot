@@ -1,0 +1,88 @@
+{
+  "rank": 317,
+  "id": 1220899692,
+  "name": "academic-research-skills-codex",
+  "fullName": "Imbad0202/academic-research-skills-codex",
+  "owner": "Imbad0202",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/132531341?v=4",
+  "url": "https://github.com/Imbad0202/academic-research-skills-codex",
+  "homepage": "https://github.com/Imbad0202/academic-research-skills",
+  "description": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+  "summary": "基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "The plugin root lives at `plugins/academic-research-skills/`. Its `skills/`\ndirectory contains a materialized copy of `academic-research-suite`, not a\nsymlink. This keeps Codex Desktop installs portable on Windows, where plugin",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 5154,
+  "forks": 272,
+  "openIssues": 0,
+  "score": 127.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T02:09:38Z",
+  "updatedAt": "2026-07-01T04:56:56Z",
+  "createdAt": "2026-04-25T13:39:58Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "academic-pipeline",
+    "academic-research",
+    "academic-writing",
+    "ai-research",
+    "codex",
+    "literature-review",
+    "openai-codex",
+    "peer-review",
+    "prompt-engineering",
+    "research-assistant"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Imbad0202/academic-research-skills-codex",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Imbad0202/academic-research-skills-codex#readme",
+  "detailPath": "data/details/imbad0202__academic__research__skills__codex.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7e5638519a408766",
+    "method": "deterministic-offline-v1"
+  }
+}

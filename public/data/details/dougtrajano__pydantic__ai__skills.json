@@ -1,0 +1,83 @@
+{
+  "rank": 1394,
+  "id": 1118556483,
+  "name": "pydantic-ai-skills",
+  "fullName": "DougTrajano/pydantic-ai-skills",
+  "owner": "DougTrajano",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8703022?v=4",
+  "url": "https://github.com/DougTrajano/pydantic-ai-skills",
+  "homepage": "https://dougtrajano.github.io/pydantic-ai-skills/",
+  "description": "This package implements Agent Skills (https://agentskills.io) support with progressive disclosure for Pydantic AI. Supports filesystem and programmatic skills.",
+  "summary": "pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/DougTrajano/pydantic-ai-skills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 326,
+  "forks": 26,
+  "openIssues": 0,
+  "score": 98.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T18:48:10Z",
+  "updatedAt": "2026-06-30T19:25:59Z",
+  "createdAt": "2025-12-18T00:05:56Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent-framework",
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "claude-code",
+    "pydantic-ai",
+    "python"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/DougTrajano/pydantic-ai-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/DougTrajano/pydantic-ai-skills#readme",
+  "detailPath": "data/details/dougtrajano__pydantic__ai__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d91caa6101e0ad32",
+    "method": "deterministic-offline-v1"
+  }
+}

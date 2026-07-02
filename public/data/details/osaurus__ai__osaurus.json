@@ -1,0 +1,86 @@
+{
+  "rank": 469,
+  "id": 1039587768,
+  "name": "osaurus",
+  "fullName": "osaurus-ai/osaurus",
+  "owner": "osaurus-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/259953775?v=4",
+  "url": "https://github.com/osaurus-ai/osaurus",
+  "homepage": "https://osaurus.ai",
+  "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
+  "summary": "拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install --cask osaurus",
+  "language": "Swift",
+  "license": "MIT",
+  "stars": 6483,
+  "forks": 363,
+  "openIssues": 97,
+  "score": 121.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:49:05Z",
+  "updatedAt": "2026-07-01T03:43:09Z",
+  "createdAt": "2025-08-17T15:05:39Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "anthropic",
+    "apple-foundation-models",
+    "apple-intelligence",
+    "apple-neural-engine",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "mlx",
+    "openai",
+    "swift"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/osaurus-ai/osaurus",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/osaurus-ai/osaurus#readme",
+  "detailPath": "data/details/osaurus__ai__osaurus.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c2968e04d0f7c68c",
+    "method": "deterministic-offline-v1"
+  }
+}

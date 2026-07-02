@@ -1,0 +1,87 @@
+{
+  "rank": 1186,
+  "id": 1127638187,
+  "name": "cc-use-exp",
+  "fullName": "doccker/cc-use-exp",
+  "owner": "doccker",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/36027017?v=4",
+  "url": "https://github.com/doccker/cc-use-exp",
+  "homepage": "",
+  "description": "让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验，持续完善中……",
+  "summary": "让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验，持续完善中……",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/doccker/cc-use-exp.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 946,
+  "forks": 96,
+  "openIssues": 3,
+  "score": 101.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:13:54Z",
+  "updatedAt": "2026-07-01T03:02:46Z",
+  "createdAt": "2026-01-04T09:52:00Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/doccker/cc-use-exp",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/doccker/cc-use-exp#readme",
+  "detailPath": "data/details/doccker__cc__use__exp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验，持续完善中……",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4d4a78fb1bab7223",
+    "method": "deterministic-offline-v1"
+  }
+}

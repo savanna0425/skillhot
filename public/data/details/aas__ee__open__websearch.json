@@ -1,0 +1,75 @@
+{
+  "rank": 1362,
+  "id": 1005553140,
+  "name": "open-webSearch",
+  "fullName": "Aas-ee/open-webSearch",
+  "owner": "Aas-ee",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/81606643?v=4",
+  "url": "https://github.com/Aas-ee/open-webSearch",
+  "homepage": "https://open-web-search.vercel.app/mcp",
+  "description": "Multi-engine MCP server, CLI, and local daemon for agent web search and content retrieval — skill-guided workflows, no API keys.",
+  "summary": "多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Aas-ee/open-webSearch.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1511,
+  "forks": 167,
+  "openIssues": 19,
+  "score": 99.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-16T07:26:04Z",
+  "updatedAt": "2026-07-01T04:05:00Z",
+  "createdAt": "2025-06-20T12:09:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Aas-ee/open-webSearch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Aas-ee/open-webSearch#readme",
+  "detailPath": "data/details/aas__ee__open__websearch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "74d6afea9d23a9a7",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "rank": 752,
+  "id": 1146193768,
+  "name": "agent-device",
+  "fullName": "callstack/agent-device",
+  "owner": "callstack",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/42239399?v=4",
+  "url": "https://github.com/callstack/agent-device",
+  "homepage": "https://agent-device.dev",
+  "description": "CLI to control iOS and Android devices for AI agents",
+  "summary": "命令行控制用于 AI 代理的 iOS 和 Android 设备",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g agent-device@latest\nagent-device --version\nagent-device help workflow",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 2991,
+  "forks": 163,
+  "openIssues": 29,
+  "score": 113.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:14:14Z",
+  "updatedAt": "2026-07-01T03:57:58Z",
+  "createdAt": "2026-01-30T18:41:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "adb",
+    "agentic-ai",
+    "agents",
+    "ai-agents",
+    "android-emulator",
+    "automation",
+    "e2e-testing",
+    "expo",
+    "flutter",
+    "ios-simulator",
+    "mcp",
+    "mobile",
+    "mobile-testing",
+    "performance-optimization",
+    "react-native",
+    "testing",
+    "xcuitest"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/callstack/agent-device",
+    "videoUrl": "https://youtu.be/kZDU-k5r9kE"
+  },
+  "readmeUrl": "https://github.com/callstack/agent-device#readme",
+  "detailPath": "data/details/callstack__agent__device.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "命令行控制用于 AI 代理的 iOS 和 Android 设备",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "aa1edc26f72f10d6",
+    "method": "deterministic-offline-v1"
+  }
+}

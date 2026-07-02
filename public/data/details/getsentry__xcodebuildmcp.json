@@ -1,0 +1,85 @@
+{
+  "rank": 481,
+  "id": 945551361,
+  "name": "XcodeBuildMCP",
+  "fullName": "getsentry/XcodeBuildMCP",
+  "owner": "getsentry",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1396951?v=4",
+  "url": "https://github.com/getsentry/XcodeBuildMCP",
+  "homepage": "https://www.xcodebuildmcp.com",
+  "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
+  "summary": "一个支持在 iOS 和 macOS 项目中使用 Agent 的工具，以及提供 MCP 服务器的 CLI",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew tap getsentry/xcodebuildmcp\nbrew install xcodebuildmcp",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 6009,
+  "forks": 298,
+  "openIssues": 20,
+  "score": 120.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T07:45:38Z",
+  "updatedAt": "2026-07-01T03:16:57Z",
+  "createdAt": "2025-03-09T17:31:18Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "model-context-protocol-servers",
+    "tag-production",
+    "xcode",
+    "xcodebuild"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/getsentry/XcodeBuildMCP",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/getsentry/XcodeBuildMCP#readme",
+  "detailPath": "data/details/getsentry__xcodebuildmcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个支持在 iOS 和 macOS 项目中使用 Agent 的工具，以及提供 MCP 服务器的 CLI",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "911f5737cd06370d",
+    "method": "deterministic-offline-v1"
+  }
+}

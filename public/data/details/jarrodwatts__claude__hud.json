@@ -1,0 +1,83 @@
+{
+  "rank": 275,
+  "id": 1126473386,
+  "name": "claude-hud",
+  "fullName": "jarrodwatts/claude-hud",
+  "owner": "jarrodwatts",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/35651410?v=4",
+  "url": "https://github.com/jarrodwatts/claude-hud",
+  "homepage": "",
+  "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+  "summary": "Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/jarrodwatts/claude-hud\ncd claude-hud\nnpm ci && npm run build",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 25987,
+  "forks": 1184,
+  "openIssues": 11,
+  "score": 129,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-20T21:32:31Z",
+  "updatedAt": "2026-07-01T04:26:18Z",
+  "createdAt": "2026-01-02T01:35:07Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "anthropic",
+    "claude",
+    "claude-code",
+    "cli",
+    "plugin",
+    "statusline",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jarrodwatts/claude-hud",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jarrodwatts/claude-hud#readme",
+  "detailPath": "data/details/jarrodwatts__claude__hud.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9101a0b4cd573657",
+    "method": "deterministic-offline-v1"
+  }
+}

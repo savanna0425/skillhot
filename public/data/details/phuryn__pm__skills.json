@@ -1,0 +1,93 @@
+{
+  "rank": 86,
+  "id": 1170266927,
+  "name": "pm-skills",
+  "fullName": "phuryn/pm-skills",
+  "owner": "phuryn",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/7837354?v=4",
+  "url": "https://github.com/phuryn/pm-skills",
+  "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+  "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+  "summary": "覆盖产品发现、策略、执行、发布与增长的产品经理技能市场",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "产品管理",
+    "用户研究",
+    "发布与增长"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "claude plugin marketplace add phuryn/pm-skills\nclaude plugin install pm-toolkit@pm-skills\nclaude plugin install pm-product-strategy@pm-skills",
+  "language": "",
+  "license": "MIT",
+  "stars": 21926,
+  "forks": 2209,
+  "openIssues": 32,
+  "score": 143.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-22T09:34:56Z",
+  "updatedAt": "2026-07-01T04:55:21Z",
+  "createdAt": "2026-03-01T23:33:44Z",
+  "sourceTopics": [
+    "agent-skills",
+    "agentic-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索",
+    "精选来源"
+  ],
+  "repoTopics": [
+    "agent-skill-repository",
+    "agent-skills",
+    "agentic-skills",
+    "claude-code-marketplace",
+    "claude-code-plugins",
+    "claude-cowork-plugin",
+    "product-management"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 16,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/phuryn/pm-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/phuryn/pm-skills#readme",
+  "detailPath": "data/details/phuryn__pm__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "覆盖产品发现、策略、执行、发布与增长的产品经理技能市场",
+    "useCases": [
+      "产品管理",
+      "用户研究",
+      "发布与增长"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "47e194f004756c8e",
+    "method": "deterministic-offline-v1"
+  }
+}

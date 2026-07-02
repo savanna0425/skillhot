@@ -1,0 +1,95 @@
+{
+  "rank": 1309,
+  "id": 1111263109,
+  "name": "NornicDB",
+  "fullName": "orneryd/NornicDB",
+  "owner": "orneryd",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1736223?v=4",
+  "url": "https://github.com/orneryd/NornicDB",
+  "homepage": "",
+  "description": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Using Neo4j Bolt/Cypher and qdrant's gRPC means you can switch with no changes while adding intelligent features like schemas, managed embeddings, reranking+llm, GPU accel, Auto-TLP, Policy-based Memory Decay, and MCP server.",
+  "summary": "NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/orneryd/NornicDB.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 816,
+  "forks": 45,
+  "openIssues": 5,
+  "score": 100,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:57:06Z",
+  "updatedAt": "2026-06-30T19:55:51Z",
+  "createdAt": "2025-12-06T15:46:33Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "bolt",
+    "cypher",
+    "database",
+    "enterprise-solutions",
+    "golang",
+    "graph-rag",
+    "graphql",
+    "hnsw",
+    "local-llm",
+    "mcp-server",
+    "memoryos",
+    "mvcc",
+    "neo4j",
+    "openai-api",
+    "qdrant-vector-database",
+    "snapshot-isolation",
+    "tlp",
+    "vector-database",
+    "vector-search"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/orneryd/NornicDB",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/orneryd/NornicDB#readme",
+  "detailPath": "data/details/orneryd__nornicdb.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d83aa52abfbc5eff",
+    "method": "deterministic-offline-v1"
+  }
+}

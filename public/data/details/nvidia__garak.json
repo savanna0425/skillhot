@@ -1,0 +1,81 @@
+{
+  "rank": 379,
+  "id": 639097338,
+  "name": "garak",
+  "fullName": "NVIDIA/garak",
+  "owner": "NVIDIA",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
+  "url": "https://github.com/NVIDIA/garak",
+  "homepage": "https://discord.gg/uVch4puUCs",
+  "description": "the LLM vulnerability scanner",
+  "summary": "LLM 漏洞扫描器",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "python -m pip install -U garak",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 8281,
+  "forks": 1057,
+  "openIssues": 341,
+  "score": 124,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:09:46Z",
+  "updatedAt": "2026-07-01T03:48:11Z",
+  "createdAt": "2023-05-10T18:52:16Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "llm-evaluation",
+    "llm-security",
+    "security-scanners",
+    "vulnerability-assessment"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NVIDIA/garak",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NVIDIA/garak#readme",
+  "detailPath": "data/details/nvidia__garak.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "LLM 漏洞扫描器",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "bc8c2612656e8c8e",
+    "method": "deterministic-offline-v1"
+  }
+}

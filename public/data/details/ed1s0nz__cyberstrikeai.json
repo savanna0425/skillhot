@@ -1,0 +1,85 @@
+{
+  "rank": 328,
+  "id": 1092279475,
+  "name": "CyberStrikeAI",
+  "fullName": "Ed1s0nZ/CyberStrikeAI",
+  "owner": "Ed1s0nZ",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/83812544?v=4",
+  "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+  "homepage": "",
+  "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+  "summary": "CyberStrikeAI 是一款基于 Go 构建的 AI 原生安全测试平台，集成 100 多种安全工具、智能编排引擎、基于角色的预设安全角色、具备专业测试技能的技能系统以及全生命周期的管理能力",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Ed1s0nZ/CyberStrikeAI.git\ncd CyberStrikeAI\nchmod +x run.sh && ./run.sh",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 4890,
+  "forks": 795,
+  "openIssues": 30,
+  "score": 126.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:49:31Z",
+  "updatedAt": "2026-07-01T04:24:52Z",
+  "createdAt": "2025-11-08T10:41:23Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "ai-cybersecurity",
+    "ai-hacking",
+    "ai-penetration-testing",
+    "ai-security-tool",
+    "ctf-tools",
+    "mcp",
+    "pentesting-tools"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Ed1s0nZ/CyberStrikeAI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Ed1s0nZ/CyberStrikeAI#readme",
+  "detailPath": "data/details/ed1s0nz__cyberstrikeai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "CyberStrikeAI 是一款基于 Go 构建的 AI 原生安全测试平台，集成 100 多种安全工具、智能编排引擎、基于角色的预设安全角色、具备专业测试技能的技能系统以及全生命周期的管理能力",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "cfc99d060b7f91d1",
+    "method": "deterministic-offline-v1"
+  }
+}

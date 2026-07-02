@@ -1,0 +1,99 @@
+{
+  "rank": 678,
+  "id": 484434975,
+  "name": "dagu",
+  "fullName": "dagucloud/dagu",
+  "owner": "dagucloud",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131097250?v=4",
+  "url": "https://github.com/dagucloud/dagu",
+  "homepage": "https://dagu.sh",
+  "description": "Local-first workflow engine with a Web UI for small teams. Define DAGs in a declarative YAML format. Self-contained and no DBMS required. Use any AI agent to manage your DAGs.",
+  "summary": "面向小团队的本地首效工作流引擎，支持 Web 界面。使用声明式 YAML 格式定义有向无环图（DAG）。无需数据库管理系统即可实现完全自包含。可借助任何 AI 代理来管理您的有向无环图",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install dagu",
+  "language": "Go",
+  "license": "GPL-3.0",
+  "stars": 3533,
+  "forks": 288,
+  "openIssues": 127,
+  "score": 115.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:47:47Z",
+  "updatedAt": "2026-07-01T04:47:51Z",
+  "createdAt": "2022-04-22T13:00:42Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-workflow",
+    "cron",
+    "data-pipeline",
+    "devops",
+    "durable-execution",
+    "durable-workflows",
+    "human-in-the-loop",
+    "job-scheduler",
+    "mcp-server",
+    "multiplayer-agent",
+    "on-premise",
+    "private-runners",
+    "self-hosted",
+    "self-service",
+    "selfservice-portal",
+    "task-automation",
+    "task-scheduler",
+    "workflow-engine",
+    "workflow-orchestration",
+    "workflow-scheduler"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dagucloud/dagu",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/dagucloud/dagu#readme",
+  "detailPath": "data/details/dagucloud__dagu.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向小团队的本地首效工作流引擎，支持 Web 界面。使用声明式 YAML 格式定义有向无环图（DAG）。无需数据库管理系统即可实现完全自包含。可借助任何 AI 代理来管理您的有向无环图",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a00f0b23c5776d74",
+    "method": "deterministic-offline-v1"
+  }
+}

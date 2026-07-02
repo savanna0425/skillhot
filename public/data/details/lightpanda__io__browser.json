@@ -1,0 +1,85 @@
+{
+  "rank": 137,
+  "id": 598667202,
+  "name": "browser",
+  "fullName": "lightpanda-io/browser",
+  "owner": "lightpanda-io",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/145980012?v=4",
+  "url": "https://github.com/lightpanda-io/browser",
+  "homepage": "https://lightpanda.io",
+  "description": "Lightpanda: the headless browser designed for AI and automation",
+  "summary": "Lightpanda：专为 AI 与自动化设计的无头浏览器",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install lightpanda-io/browser/lightpanda",
+  "language": "Zig",
+  "license": "AGPL-3.0",
+  "stars": 31514,
+  "forks": 1395,
+  "openIssues": 89,
+  "score": 138,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:38:24Z",
+  "updatedAt": "2026-07-01T04:28:15Z",
+  "createdAt": "2023-02-07T15:19:34Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "browser",
+    "browser-automation",
+    "cdp",
+    "headless",
+    "lightpanda",
+    "playwright",
+    "puppeteer",
+    "zig"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/lightpanda-io/browser",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/lightpanda-io/browser#readme",
+  "detailPath": "data/details/lightpanda__io__browser.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Lightpanda：专为 AI 与自动化设计的无头浏览器",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8c671de0bbd3f5f9",
+    "method": "deterministic-offline-v1"
+  }
+}

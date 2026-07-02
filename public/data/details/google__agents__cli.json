@@ -1,0 +1,87 @@
+{
+  "rank": 346,
+  "id": 1205137520,
+  "name": "agents-cli",
+  "fullName": "google/agents-cli",
+  "owner": "google",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+  "url": "https://github.com/google/agents-cli",
+  "homepage": "https://google.github.io/agents-cli/",
+  "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+  "summary": "命令行工具与技能，将任何编程助手转化为在 Google Cloud 上创建、评估和部署 AI 代理的专家",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add google/agents-cli",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 4330,
+  "forks": 465,
+  "openIssues": 24,
+  "score": 125.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T17:24:21Z",
+  "updatedAt": "2026-07-01T04:56:51Z",
+  "createdAt": "2026-04-08T17:09:55Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "adk",
+    "agent-development-kit",
+    "agents",
+    "coding-agent",
+    "gemini",
+    "gemini-enterprise-agent-platform",
+    "generative-ai",
+    "google-cloud"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google/agents-cli",
+    "videoUrl": "https://youtu.be/ECYKo70pPNc"
+  },
+  "readmeUrl": "https://github.com/google/agents-cli#readme",
+  "detailPath": "data/details/google__agents__cli.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "命令行工具与技能，将任何编程助手转化为在 Google Cloud 上创建、评估和部署 AI 代理的专家",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "18db3070024aa938",
+    "method": "deterministic-offline-v1"
+  }
+}

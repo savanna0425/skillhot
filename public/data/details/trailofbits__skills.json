@@ -1,0 +1,82 @@
+{
+  "rank": 207,
+  "id": 1134447175,
+  "name": "skills",
+  "fullName": "trailofbits/skills",
+  "owner": "trailofbits",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2314423?v=4",
+  "url": "https://github.com/trailofbits/skills",
+  "homepage": "",
+  "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+  "summary": "Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "中",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/trailofbits/skills.git",
+  "language": "Python",
+  "license": "CC-BY-SA-4.0",
+  "stars": 5945,
+  "forks": 522,
+  "openIssues": 26,
+  "score": 132.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:14:46Z",
+  "updatedAt": "2026-07-01T03:54:25Z",
+  "createdAt": "2026-01-14T18:23:21Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/trailofbits/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/trailofbits/skills#readme",
+  "detailPath": "data/details/trailofbits__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "333157b16117b1d1",
+    "method": "deterministic-offline-v1"
+  }
+}

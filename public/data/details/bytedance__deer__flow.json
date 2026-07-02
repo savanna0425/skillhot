@@ -1,0 +1,98 @@
+{
+  "rank": 19,
+  "id": 979115477,
+  "name": "deer-flow",
+  "fullName": "bytedance/deer-flow",
+  "owner": "bytedance",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+  "url": "https://github.com/bytedance/deer-flow",
+  "homepage": "https://deerflow.tech",
+  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "summary": "一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "- Codex CLI reads `~/.codex/auth.json`\n- Claude Code accepts `CLAUDE_CODE_OAUTH_TOKEN`, `ANTHROPIC_AUTH_TOKEN`, `CLAUDE_CODE_CREDENTIALS_PATH`, or `~/.claude/.credentials.json`\n- ACP agent entries are separate from model providers — if you configure `acp_agents.codex`, point it at a Codex ACP adapter such as `npx -y @zed-industries/codex-acp`",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 75667,
+  "forks": 10212,
+  "openIssues": 988,
+  "score": 155.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:15:27Z",
+  "updatedAt": "2026-07-01T04:44:10Z",
+  "createdAt": "2025-05-07T02:50:19Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic",
+    "agentic-framework",
+    "agentic-workflow",
+    "ai",
+    "ai-agents",
+    "deep-research",
+    "harness",
+    "langchain",
+    "langgraph",
+    "langmanus",
+    "llm",
+    "multi-agent",
+    "nodejs",
+    "podcast",
+    "python",
+    "superagent",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bytedance/deer-flow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/bytedance/deer-flow#readme",
+  "detailPath": "data/details/bytedance__deer__flow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "cee84867254f9b9e",
+    "method": "deterministic-offline-v1"
+  }
+}

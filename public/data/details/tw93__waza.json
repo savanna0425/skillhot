@@ -1,0 +1,90 @@
+{
+  "rank": 200,
+  "id": 1179363570,
+  "name": "Waza",
+  "fullName": "tw93/Waza",
+  "owner": "tw93",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8736212?v=4",
+  "url": "https://github.com/tw93/Waza",
+  "homepage": "https://x.com/HiTw93/status/2041312649510822103",
+  "description": "🥷 Engineering habits you already know, turned into skills Claude can run.",
+  "summary": "您已知的工程习惯，已转化为 Claude 可运行的技能",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add tw93/Waza -a claude-code codex cursor -g -y",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 6155,
+  "forks": 372,
+  "openIssues": 0,
+  "score": 133,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T04:23:07Z",
+  "updatedAt": "2026-07-01T04:09:58Z",
+  "createdAt": "2026-03-12T00:35:56Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude",
+    "claude-code",
+    "des",
+    "design",
+    "engineer",
+    "lear",
+    "skil",
+    "skills",
+    "superpowers"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tw93/Waza",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/tw93/Waza#readme",
+  "detailPath": "data/details/tw93__waza.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "您已知的工程习惯，已转化为 Claude 可运行的技能",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7932a235ea1d4a35",
+    "method": "deterministic-offline-v1"
+  }
+}

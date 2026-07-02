@@ -1,0 +1,95 @@
+{
+  "rank": 245,
+  "id": 771350543,
+  "name": "WrenAI",
+  "fullName": "Canner/WrenAI",
+  "owner": "Canner",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/7250217?v=4",
+  "url": "https://github.com/Canner/WrenAI",
+  "homepage": "https://docs.getwren.ai/oss/introduction",
+  "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+  "summary": "WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install wrenai                      # core (DuckDB included)\npip install \"wrenai[postgres,memory]\"   # add per-datasource and memory extras as needed",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 15698,
+  "forks": 1793,
+  "openIssues": 338,
+  "score": 130.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T02:17:55Z",
+  "updatedAt": "2026-07-01T03:31:30Z",
+  "createdAt": "2024-03-13T06:18:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "anthropic",
+    "bigquery",
+    "charts",
+    "context-engineering",
+    "duckdb",
+    "genbi",
+    "llm",
+    "openai",
+    "postgresql",
+    "rag",
+    "sql",
+    "sqlai",
+    "text-to-chart",
+    "text-to-sql",
+    "text2sql",
+    "vertex"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Canner/WrenAI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Canner/WrenAI#readme",
+  "detailPath": "data/details/canner__wrenai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e1e90aecaedf3593",
+    "method": "deterministic-offline-v1"
+  }
+}

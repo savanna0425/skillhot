@@ -1,0 +1,96 @@
+{
+  "rank": 1465,
+  "id": 1158621117,
+  "name": "comfyui-mcp",
+  "fullName": "artokun/comfyui-mcp",
+  "owner": "artokun",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/7666455?v=4",
+  "url": "https://github.com/artokun/comfyui-mcp",
+  "homepage": "https://comfyui-mcp.artokun.io/docs",
+  "description": "The local-first, agent-native control plane for ComfyUI — MCP server + Claude Code plugin. 108 tools, 29 AI skills (Flux · WAN · LTX video · Qwen · Z-Image). Author & run workflows, edit your live graph in natural language, manage models & custom nodes. Local, LAN, VPS, or Comfy Cloud.",
+  "summary": "comfyui-mcp：图片、视频、演示、写作、音频与社交内容生产。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/artokun/comfyui-mcp.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 231,
+  "forks": 40,
+  "openIssues": 2,
+  "score": 95.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:56:29Z",
+  "updatedAt": "2026-07-01T04:22:52Z",
+  "createdAt": "2026-02-15T17:08:48Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "claude-code",
+    "claude-plugin",
+    "claude-skills",
+    "comfyui",
+    "comfyui-extension",
+    "comfyui-mcp",
+    "comfyui-mcp-server",
+    "flux",
+    "image-generation",
+    "local-first",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "qwen",
+    "stable-diffusion",
+    "text-to-image",
+    "video-generation",
+    "wan"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/artokun/comfyui-mcp",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/artokun/comfyui-mcp#readme",
+  "detailPath": "data/details/artokun__comfyui__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "comfyui-mcp：图片、视频、演示、写作、音频与社交内容生产。",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2592729d4b8be11f",
+    "method": "deterministic-offline-v1"
+  }
+}

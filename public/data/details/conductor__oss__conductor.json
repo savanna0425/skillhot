@@ -1,0 +1,91 @@
+{
+  "rank": 134,
+  "id": 728981719,
+  "name": "conductor",
+  "fullName": "conductor-oss/conductor",
+  "owner": "conductor-oss",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/153258413?v=4",
+  "url": "https://github.com/conductor-oss/conductor",
+  "homepage": "https://docs.conductor-oss.org/",
+  "description": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+  "summary": "Conductor 是一个事件驱动的代理工作流引擎，为应用和 AI 代理提供持久且高度容错的执行引擎",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @conductor-oss/conductor-cli\nconductor server start",
+  "language": "Java",
+  "license": "Apache-2.0",
+  "stars": 31980,
+  "forks": 946,
+  "openIssues": 204,
+  "score": 138.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T23:52:07Z",
+  "updatedAt": "2026-07-01T03:22:24Z",
+  "createdAt": "2023-12-08T06:06:09Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "distributed-systems",
+    "durable-execution",
+    "grpc",
+    "java",
+    "javascript",
+    "microservice-orchestration",
+    "orchestration-engine",
+    "orchestrator",
+    "reactjs",
+    "spring-boot",
+    "workflow-automation",
+    "workflow-engine",
+    "workflow-management",
+    "workflows"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/conductor-oss/conductor",
+    "videoUrl": "https://youtu.be/4azDdDlx27M"
+  },
+  "readmeUrl": "https://github.com/conductor-oss/conductor#readme",
+  "detailPath": "data/details/conductor__oss__conductor.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Conductor 是一个事件驱动的代理工作流引擎，为应用和 AI 代理提供持久且高度容错的执行引擎",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "33e29493af99e631",
+    "method": "deterministic-offline-v1"
+  }
+}

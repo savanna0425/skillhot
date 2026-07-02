@@ -1,0 +1,81 @@
+{
+  "rank": 501,
+  "id": 1221509404,
+  "name": "open-slide",
+  "fullName": "1weiho/open-slide",
+  "owner": "1weiho",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/75478661?v=4",
+  "url": "https://github.com/1weiho/open-slide",
+  "homepage": "https://open-slide.dev",
+  "description": "A slide framework built for agents.",
+  "summary": "为智能体构建的幻灯片框架",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx @open-slide/cli init my-slide",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5596,
+  "forks": 388,
+  "openIssues": 50,
+  "score": 120,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T18:32:46Z",
+  "updatedAt": "2026-07-01T04:41:23Z",
+  "createdAt": "2026-04-26T10:04:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "react",
+    "slides"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/1weiho/open-slide",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/1weiho/open-slide#readme",
+  "detailPath": "data/details/1weiho__open__slide.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为智能体构建的幻灯片框架",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "53b4acbacf0ffa7e",
+    "method": "deterministic-offline-v1"
+  }
+}

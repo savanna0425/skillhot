@@ -1,0 +1,94 @@
+{
+  "rank": 943,
+  "id": 934139122,
+  "name": "copilot-mcp",
+  "fullName": "VikashLoomba/copilot-mcp",
+  "owner": "VikashLoomba",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2976130?v=4",
+  "url": "https://github.com/VikashLoomba/copilot-mcp",
+  "homepage": "https://discord.gg/cloudmcp",
+  "description": "A VSCode extension that lets you find and install Agent Skills and MCP Apps to use with GitHub Copilot, Claude Code, and Codex CLI.",
+  "summary": "支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/VikashLoomba/copilot-mcp.git",
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "stars": 497,
+  "forks": 54,
+  "openIssues": 7,
+  "score": 107.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-15T20:18:27Z",
+  "updatedAt": "2026-06-30T10:51:52Z",
+  "createdAt": "2025-02-17T10:40:33Z",
+  "sourceTopics": [
+    "claude-skills",
+    "claude-code-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude-code-skills",
+    "claude-skills",
+    "codex-skills",
+    "copilot",
+    "copilot-chat",
+    "mcp",
+    "mcp-apps",
+    "mcp-server",
+    "modelcontextprotocol",
+    "skills",
+    "vscode-extension"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/VikashLoomba/copilot-mcp",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/VikashLoomba/copilot-mcp#readme",
+  "detailPath": "data/details/vikashloomba__copilot__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "909a3469e184fa6a",
+    "method": "deterministic-offline-v1"
+  }
+}

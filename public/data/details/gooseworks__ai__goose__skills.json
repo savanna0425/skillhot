@@ -1,0 +1,90 @@
+{
+  "rank": 767,
+  "id": 1170279318,
+  "name": "goose-skills",
+  "fullName": "gooseworks-ai/goose-skills",
+  "owner": "gooseworks-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/271170269?v=4",
+  "url": "https://github.com/gooseworks-ai/goose-skills",
+  "homepage": "https://gooseworks.ai/cli",
+  "description": "Library of Growth & GTM skills + data APIs for Claude Code, Codex, Cursor to run ads, social, content, lead gen, seo and data scraping",
+  "summary": "goose-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "npx gooseworks install --claude    # Claude Code\nnpx gooseworks install --cursor    # Cursor\nnpx gooseworks install --codex     # Codex",
+  "language": "Python",
+  "license": "",
+  "stars": 903,
+  "forks": 164,
+  "openIssues": 38,
+  "score": 113.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T17:16:01Z",
+  "updatedAt": "2026-07-01T04:25:40Z",
+  "createdAt": "2026-03-02T00:07:48Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude",
+    "claude-skills",
+    "claudecode",
+    "claudecode-skills",
+    "codex",
+    "cursor",
+    "gtm",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 100,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gooseworks-ai/goose-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gooseworks-ai/goose-skills#readme",
+  "detailPath": "data/details/gooseworks__ai__goose__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "goose-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2db846b5fb4a1184",
+    "method": "deterministic-offline-v1"
+  }
+}

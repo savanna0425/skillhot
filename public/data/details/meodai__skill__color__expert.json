@@ -1,0 +1,88 @@
+{
+  "rank": 983,
+  "id": 1188851946,
+  "name": "skill.color-expert",
+  "fullName": "meodai/skill.color-expert",
+  "owner": "meodai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/608386?v=4",
+  "url": "https://github.com/meodai/skill.color-expert",
+  "homepage": "",
+  "description": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette   generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
+  "summary": "基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/meodai/skill.color-expert.git",
+  "language": "",
+  "license": "CC-BY-4.0",
+  "stars": 509,
+  "forks": 34,
+  "openIssues": 0,
+  "score": 107.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T23:28:46Z",
+  "updatedAt": "2026-07-01T04:24:13Z",
+  "createdAt": "2026-03-22T17:09:18Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "copilot",
+    "cursor",
+    "skill"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/meodai/skill.color-expert",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/meodai/skill.color-expert#readme",
+  "detailPath": "data/details/meodai__skill__color__expert.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c430e20fe9a7e677",
+    "method": "deterministic-offline-v1"
+  }
+}

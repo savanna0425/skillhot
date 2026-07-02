@@ -1,0 +1,91 @@
+{
+  "rank": 654,
+  "id": 1202549948,
+  "name": "obsidian-wiki",
+  "fullName": "Ar9av/obsidian-wiki",
+  "owner": "Ar9av",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/29639685?v=4",
+  "url": "https://github.com/Ar9av/obsidian-wiki",
+  "homepage": "",
+  "description": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki using Karpathy's LLM Wiki pattern",
+  "summary": "基于 Karpathy 的 LLM Wiki 模式，利用 Obsidian Wiki 构建和维护数字大脑的 AI 代理框架",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install obsidian-wiki\nobsidian-wiki setup --vault /path/to/your/digital/brain",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2557,
+  "forks": 253,
+  "openIssues": 6,
+  "score": 115.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:20:27Z",
+  "updatedAt": "2026-07-01T04:34:07Z",
+  "createdAt": "2026-04-06T06:20:10Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "brain",
+    "knowledge-base",
+    "llm-tools",
+    "obsidian",
+    "obsidian-brain",
+    "wiki"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Ar9av/obsidian-wiki",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Ar9av/obsidian-wiki#readme",
+  "detailPath": "data/details/ar9av__obsidian__wiki.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Karpathy 的 LLM Wiki 模式，利用 Obsidian Wiki 构建和维护数字大脑的 AI 代理框架",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f75d24295904ae8c",
+    "method": "deterministic-offline-v1"
+  }
+}

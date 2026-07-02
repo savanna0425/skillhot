@@ -1,0 +1,98 @@
+{
+  "rank": 502,
+  "id": 1025052801,
+  "name": "pg-aiguide",
+  "fullName": "timescale/pg-aiguide",
+  "owner": "timescale",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8986001?v=4",
+  "url": "https://github.com/timescale/pg-aiguide",
+  "homepage": "",
+  "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+  "summary": "MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add timescale/pg-aiguide --skill postgres",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1775,
+  "forks": 96,
+  "openIssues": 28,
+  "score": 120,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T19:47:09Z",
+  "updatedAt": "2026-06-30T18:56:24Z",
+  "createdAt": "2025-07-23T16:40:10Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "ai-coding",
+    "claude-code-plugin",
+    "claude-code-plugins",
+    "claude-code-plugins-marketplace",
+    "claude-marketplace",
+    "claude-plugin",
+    "claude-skills",
+    "docs",
+    "documentation",
+    "mcp",
+    "mcp-server",
+    "postgres",
+    "postgresql",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/timescale/pg-aiguide",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/timescale/pg-aiguide#readme",
+  "detailPath": "data/details/timescale__pg__aiguide.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0cdc949aac6d8ab1",
+    "method": "deterministic-offline-v1"
+  }
+}

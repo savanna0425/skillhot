@@ -1,0 +1,99 @@
+{
+  "rank": 342,
+  "id": 1173152133,
+  "name": "Shadowbroker",
+  "fullName": "BigBodyCobain/Shadowbroker",
+  "owner": "BigBodyCobain",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/43977454?v=4",
+  "url": "https://github.com/BigBodyCobain/Shadowbroker",
+  "homepage": "",
+  "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+  "summary": "全球战场的开源情报。从富人的私人飞机和间谍卫星，到地震事件，一切尽在统一界面。将 AI 代理挂钩，使其解析数据并发现先前未见的关联。该知识现已向所有用户开放，但此前极少聚合",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/bigbodycobain/Shadowbroker.git\ncd Shadowbroker\ndocker compose pull",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 9496,
+  "forks": 1476,
+  "openIssues": 0,
+  "score": 125.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:51:48Z",
+  "updatedAt": "2026-07-01T04:52:25Z",
+  "createdAt": "2026-03-05T03:59:55Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ads-b",
+    "adsb",
+    "aircraft",
+    "aircraft-tracking",
+    "asdb",
+    "cctv",
+    "cctv-cameras",
+    "cctv-surveillance",
+    "earthquake-visualization",
+    "elonjet",
+    "maritime-surveillance",
+    "osint",
+    "osint-resources",
+    "osint-tool",
+    "plane",
+    "sattelite",
+    "sattelite-imagery",
+    "sdr",
+    "surveillance",
+    "tracking"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BigBodyCobain/Shadowbroker",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/BigBodyCobain/Shadowbroker#readme",
+  "detailPath": "data/details/bigbodycobain__shadowbroker.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "全球战场的开源情报。从富人的私人飞机和间谍卫星，到地震事件，一切尽在统一界面。将 AI 代理挂钩，使其解析数据并发现先前未见的关联。该知识现已向所有用户开放，但此前极少聚合",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e10c08c303f896ee",
+    "method": "deterministic-offline-v1"
+  }
+}

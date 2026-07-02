@@ -1,0 +1,85 @@
+{
+  "rank": 5,
+  "id": 1103012935,
+  "name": "openclaw",
+  "fullName": "openclaw/openclaw",
+  "owner": "openclaw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252820863?v=4",
+  "url": "https://github.com/openclaw/openclaw",
+  "homepage": "https://openclaw.ai",
+  "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+  "summary": "可运行在多种系统和平台上的开源个人 AI 助手",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npm install -g openclaw@latest\nopenclaw onboard --install-daemon",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 381216,
+  "forks": 79862,
+  "openIssues": 6728,
+  "score": 163.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:57:01Z",
+  "updatedAt": "2026-07-01T04:56:39Z",
+  "createdAt": "2025-11-24T10:16:47Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "assistant",
+    "crustacean",
+    "molty",
+    "openclaw",
+    "own-your-data",
+    "personal"
+  ],
+  "platforms": [
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openclaw/openclaw",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/openclaw/openclaw#readme",
+  "detailPath": "data/details/openclaw__openclaw.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "可运行在多种系统和平台上的开源个人 AI 助手",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "fb2da61ffbc841ce",
+    "method": "deterministic-offline-v1"
+  }
+}

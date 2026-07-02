@@ -1,0 +1,97 @@
+{
+  "rank": 384,
+  "id": 1138835447,
+  "name": "nano-banana-pro-prompts-recommend-skill",
+  "fullName": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+  "owner": "YouMind-OpenLab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/245655810?v=4",
+  "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+  "homepage": "https://youmind.com/nano-banana-pro-prompts",
+  "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
+  "summary": "OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npx skills i YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+  "language": "TypeScript",
+  "license": "",
+  "stars": 1733,
+  "forks": 179,
+  "openIssues": 6,
+  "score": 123.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:26:45Z",
+  "updatedAt": "2026-07-01T04:26:49Z",
+  "createdAt": "2026-01-21T07:15:20Z",
+  "sourceTopics": [
+    "claude-code-skill",
+    "openclaw-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "ai-image",
+    "claude-code-skill",
+    "clawhub",
+    "content-creation",
+    "gemini",
+    "image-generation",
+    "nano-banana",
+    "openclaw",
+    "openclaw-skill",
+    "prompt-engineering",
+    "prompt-library"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill#readme",
+  "detailPath": "data/details/youmind__openlab__nano__banana__pro__prompts__recommend__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "13efae088c38dfd2",
+    "method": "deterministic-offline-v1"
+  }
+}

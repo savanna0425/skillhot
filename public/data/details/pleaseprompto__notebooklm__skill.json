@@ -1,0 +1,76 @@
+{
+  "rank": 953,
+  "id": 1079107863,
+  "name": "notebooklm-skill",
+  "fullName": "PleasePrompto/notebooklm-skill",
+  "owner": "PleasePrompto",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/238042401?v=4",
+  "url": "https://github.com/PleasePrompto/notebooklm-skill",
+  "homepage": "",
+  "description": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.",
+  "summary": "使用此技能可让 Claude Code 直接与您的 Google NotebookLM 笔记本通信。查询上传的文档，并获取基于来源和引用的答案。功能包括浏览器自动化、库管理、持久化认证，以及仅从您自己的知识库中获取答案",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/PleasePrompto/notebooklm-skill.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 7258,
+  "forks": 820,
+  "openIssues": 33,
+  "score": 107.7,
+  "activity": "活跃",
+  "pushedAt": "2025-11-21T17:42:12Z",
+  "updatedAt": "2026-07-01T04:51:35Z",
+  "createdAt": "2025-10-19T05:36:13Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/PleasePrompto/notebooklm-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/PleasePrompto/notebooklm-skill#readme",
+  "detailPath": "data/details/pleaseprompto__notebooklm__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "使用此技能可让 Claude Code 直接与您的 Google NotebookLM 笔记本通信。查询上传的文档，并获取基于来源和引用的答案。功能包括浏览器自动化、库管理、持久化认证，以及仅从您自己的知识库中获取答案",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "44a553da776fc307",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "rank": 571,
+  "id": 1229774092,
+  "name": "Claude-BugHunter",
+  "fullName": "elementalsouls/Claude-BugHunter",
+  "owner": "elementalsouls",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/49252733?v=4",
+  "url": "https://github.com/elementalsouls/Claude-BugHunter",
+  "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+  "description": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "summary": "为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/elementalsouls/Claude-BugHunter.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 2810,
+  "forks": 426,
+  "openIssues": 3,
+  "score": 117.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-16T07:18:32Z",
+  "updatedAt": "2026-07-01T04:28:56Z",
+  "createdAt": "2026-05-05T11:22:32Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-security",
+    "anthropic",
+    "application-security",
+    "bug-bounty",
+    "bugbounty",
+    "bugcrowd",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "ethical-hacking",
+    "hackerone",
+    "offensive-security",
+    "pentesting",
+    "red-team",
+    "security-tools",
+    "web-security"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 71,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/elementalsouls/Claude-BugHunter",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/elementalsouls/Claude-BugHunter#readme",
+  "detailPath": "data/details/elementalsouls__claude__bughunter.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9188c1c00bbebfdb",
+    "method": "deterministic-offline-v1"
+  }
+}

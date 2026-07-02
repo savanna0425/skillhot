@@ -1,0 +1,90 @@
+{
+  "rank": 649,
+  "id": 749137,
+  "name": "atmosphere",
+  "fullName": "Atmosphere/atmosphere",
+  "owner": "Atmosphere",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/318873?v=4",
+  "url": "https://github.com/Atmosphere/atmosphere",
+  "homepage": "https://async-io.live",
+  "description": "Real-time transport layer for Java AI agents. Build once with @Agent — deliver over WebSocket, SSE, gRPC, and WebTransport/HTTP3. Talk MCP, A2A and AG-UI. ",
+  "summary": "Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install Atmosphere/tap/atmosphere\ncurl -fsSL https://raw.githubusercontent.com/Atmosphere/atmosphere/main/cli/install.sh | sh\natmosphere run spring-boot-multi-agent-startup-team",
+  "language": "Java",
+  "license": "Apache-2.0",
+  "stars": 3783,
+  "forks": 759,
+  "openIssues": 1,
+  "score": 115.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:31:14Z",
+  "updatedAt": "2026-07-01T02:14:52Z",
+  "createdAt": "2010-06-30T14:26:23Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "acp",
+    "agentic-ai",
+    "embabel",
+    "event-driven",
+    "java",
+    "koog",
+    "langchain4j",
+    "mcp",
+    "multiagent",
+    "quarkus",
+    "spring-ai",
+    "spring-boot",
+    "sse",
+    "websocket"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Atmosphere/atmosphere",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Atmosphere/atmosphere#readme",
+  "detailPath": "data/details/atmosphere__atmosphere.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0511acd9a4b5eb3c",
+    "method": "deterministic-offline-v1"
+  }
+}

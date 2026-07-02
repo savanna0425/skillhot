@@ -1,0 +1,82 @@
+{
+  "rank": 458,
+  "id": 520357130,
+  "name": "ManiSkill",
+  "fullName": "mani-skill/ManiSkill",
+  "owner": "mani-skill",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/291445403?v=4",
+  "url": "https://github.com/mani-skill/ManiSkill",
+  "homepage": "https://maniskill.ai/",
+  "description": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark",
+  "summary": "SAPIEN 操作技能框架，一个基于 GPU 并行化的开源机器人模拟与评测系统",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install --upgrade mani_skill\npip install torch",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 3056,
+  "forks": 505,
+  "openIssues": 123,
+  "score": 121.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T05:07:23Z",
+  "updatedAt": "2026-07-01T04:52:14Z",
+  "createdAt": "2022-08-02T04:56:58Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "embodied-ai",
+    "reinforcement-learning",
+    "robot-learning",
+    "robot-manipulation",
+    "robotics",
+    "simulation"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mani-skill/ManiSkill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mani-skill/ManiSkill#readme",
+  "detailPath": "data/details/mani__skill__maniskill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "SAPIEN 操作技能框架，一个基于 GPU 并行化的开源机器人模拟与评测系统",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2f8b5e47960dc68b",
+    "method": "deterministic-offline-v1"
+  }
+}

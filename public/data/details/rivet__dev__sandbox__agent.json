@@ -1,0 +1,88 @@
+{
+  "rank": 1381,
+  "id": 1141720197,
+  "name": "sandbox-agent",
+  "fullName": "rivet-dev/sandbox-agent",
+  "owner": "rivet-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/57733614?v=4",
+  "url": "https://github.com/rivet-dev/sandbox-agent",
+  "homepage": "https://sandboxagent.dev",
+  "description": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
+  "summary": "在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/rivet-dev/sandbox-agent.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1454,
+  "forks": 114,
+  "openIssues": 76,
+  "score": 99,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-19T06:05:41Z",
+  "updatedAt": "2026-06-30T16:55:22Z",
+  "createdAt": "2026-01-25T10:03:02Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "amp",
+    "claude",
+    "claude-code",
+    "codex",
+    "daytona",
+    "e2b",
+    "opencode",
+    "sandbox"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rivet-dev/sandbox-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/rivet-dev/sandbox-agent#readme",
+  "detailPath": "data/details/rivet__dev__sandbox__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1776819adcc17dd2",
+    "method": "deterministic-offline-v1"
+  }
+}

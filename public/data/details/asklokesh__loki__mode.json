@@ -1,0 +1,97 @@
+{
+  "rank": 1147,
+  "id": 1123323771,
+  "name": "loki-mode",
+  "fullName": "asklokesh/loki-mode",
+  "owner": "asklokesh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/49921737?v=4",
+  "url": "https://github.com/asklokesh/loki-mode",
+  "homepage": "https://www.autonomi.dev",
+  "description": "Multi-agent autonomous SDLC framework. Spec to deployed app. PRD, GitHub issue, OpenAPI/JSON/YAML, or one-line brief. 5 AI providers, 11 quality gates.",
+  "summary": "多代理自主软件开发生命周期框架。规格到部署应用。PRD、GitHub 问题、OpenAPI/JSON/YAML 或单行概要。5 个 AI 提供商，11 个质量门禁",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/asklokesh/loki-mode.git",
+  "language": "Shell",
+  "license": "NOASSERTION",
+  "stars": 997,
+  "forks": 192,
+  "openIssues": 3,
+  "score": 102.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:42:35Z",
+  "updatedAt": "2026-07-01T03:39:53Z",
+  "createdAt": "2025-12-26T16:26:14Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "aider",
+    "anthropic",
+    "autonomous",
+    "ci-cd",
+    "claude",
+    "cline",
+    "code-review",
+    "devops",
+    "gemini",
+    "github-action",
+    "github-issues",
+    "loki-mode",
+    "multi-agent",
+    "openai-codex",
+    "openapi",
+    "pull-request-review",
+    "sdlc",
+    "spec-driven-development"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/asklokesh/loki-mode",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/asklokesh/loki-mode#readme",
+  "detailPath": "data/details/asklokesh__loki__mode.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "多代理自主软件开发生命周期框架。规格到部署应用。PRD、GitHub 问题、OpenAPI/JSON/YAML 或单行概要。5 个 AI 提供商，11 个质量门禁",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "950de4cfed302850",
+    "method": "deterministic-offline-v1"
+  }
+}

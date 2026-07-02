@@ -1,0 +1,76 @@
+{
+  "rank": 434,
+  "id": 1078171437,
+  "name": "raptor",
+  "fullName": "gadievron/raptor",
+  "owner": "gadievron",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/223177581?v=4",
+  "url": "https://github.com/gadievron/raptor",
+  "homepage": "",
+  "description": "Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.",
+  "summary": "Raptor 将 Claude Code 转化为通用型 AI 攻防安全代理。通过利用 Claude.md、创建规则、子代理及技能，并编排安全工具的使用，我们配置代理进行对抗性思考，执行研究或攻防操作",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/gadievron/raptor.git\ncd raptor\npip install -r requirements.txt",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 3221,
+  "forks": 514,
+  "openIssues": 21,
+  "score": 122.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T10:53:20Z",
+  "updatedAt": "2026-07-01T02:16:13Z",
+  "createdAt": "2025-10-17T10:10:40Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gadievron/raptor",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gadievron/raptor#readme",
+  "detailPath": "data/details/gadievron__raptor.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Raptor 将 Claude Code 转化为通用型 AI 攻防安全代理。通过利用 Claude.md、创建规则、子代理及技能，并编排安全工具的使用，我们配置代理进行对抗性思考，执行研究或攻防操作",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0dd3b92782ef3354",
+    "method": "deterministic-offline-v1"
+  }
+}

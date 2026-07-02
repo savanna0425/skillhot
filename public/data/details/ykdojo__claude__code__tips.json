@@ -1,0 +1,90 @@
+{
+  "rank": 203,
+  "id": 1105657641,
+  "name": "claude-code-tips",
+  "fullName": "ykdojo/claude-code-tips",
+  "owner": "ykdojo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1811651?v=4",
+  "url": "https://github.com/ykdojo/claude-code-tips",
+  "homepage": "",
+  "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+  "summary": "claude-code-tips 聚焦软件开发、代码质量与工程交付。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "claude plugin marketplace add ykdojo/claude-code-tips\nclaude plugin install dx@ykdojo",
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "stars": 8979,
+  "forks": 690,
+  "openIssues": 4,
+  "score": 132.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T04:34:19Z",
+  "updatedAt": "2026-07-01T04:28:06Z",
+  "createdAt": "2025-11-28T00:52:00Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic",
+    "agentic-ai",
+    "agentic-coding",
+    "agentic-workflow",
+    "ai",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "cli",
+    "developer-tools",
+    "productivity",
+    "tips-and-tricks"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ykdojo/claude-code-tips",
+    "videoUrl": "https://www.youtube.com/watch?v=hiISl558JGE"
+  },
+  "readmeUrl": "https://github.com/ykdojo/claude-code-tips#readme",
+  "detailPath": "data/details/ykdojo__claude__code__tips.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-code-tips 聚焦软件开发、代码质量与工程交付。",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4237f5bf8e05393c",
+    "method": "deterministic-offline-v1"
+  }
+}

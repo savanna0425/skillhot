@@ -1,0 +1,81 @@
+{
+  "rank": 376,
+  "id": 1052845083,
+  "name": "LifeOS",
+  "fullName": "danielmiessler/LifeOS",
+  "owner": "danielmiessler",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/50654?v=4",
+  "url": "https://github.com/danielmiessler/LifeOS",
+  "homepage": "",
+  "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+  "summary": "面向放大人类能力的智能体 AI 基础设施",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/danielmiessler/Personal_AI_Infrastructure.git\ncd Personal_AI_Infrastructure/Releases/v5.0.0\ncp -R .claude ~/",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 16205,
+  "forks": 2228,
+  "openIssues": 142,
+  "score": 124,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-21T04:04:38Z",
+  "updatedAt": "2026-07-01T04:14:26Z",
+  "createdAt": "2025-09-08T16:18:30Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "augmentation",
+    "humans",
+    "productivity"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 63,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/danielmiessler/LifeOS",
+    "videoUrl": "https://youtu.be/Le0DLrn7ta0"
+  },
+  "readmeUrl": "https://github.com/danielmiessler/LifeOS#readme",
+  "detailPath": "data/details/danielmiessler__lifeos.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向放大人类能力的智能体 AI 基础设施",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6b94a8a2601a92ec",
+    "method": "deterministic-offline-v1"
+  }
+}

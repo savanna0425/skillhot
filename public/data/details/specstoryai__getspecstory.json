@@ -1,0 +1,102 @@
+{
+  "rank": 363,
+  "id": 903002140,
+  "name": "getspecstory",
+  "fullName": "specstoryai/getspecstory",
+  "owner": "specstoryai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/166310736?v=4",
+  "url": "https://github.com/specstoryai/getspecstory",
+  "homepage": "https://specstory.com/",
+  "description": "Install our local first extensions for your favorite AI IDE or Terminal Agent. Process your histories into reusable skills with Lore. Sync your conversations to the cloud. File issues and requests.",
+  "summary": "安装本地首推扩展，为您的首选 AI IDE 或终端代理处理历史记录，利用 Lore 将其转化为可复用技能。同步对话至云端。提交问题与请求",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add specstoryai/getspecstory --skill lore",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 1264,
+  "forks": 78,
+  "openIssues": 61,
+  "score": 124.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T05:19:47Z",
+  "updatedAt": "2026-06-30T06:36:24Z",
+  "createdAt": "2024-12-13T18:05:13Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-code-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai",
+    "chat-history",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "codex-cli",
+    "codex-skills",
+    "copilot",
+    "copilot-chat",
+    "copilot-skills",
+    "cursor-ai",
+    "cursor-cli",
+    "cursorai",
+    "skills",
+    "vscode",
+    "vscode-extension"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/specstoryai/getspecstory",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/specstoryai/getspecstory#readme",
+  "detailPath": "data/details/specstoryai__getspecstory.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "安装本地首推扩展，为您的首选 AI IDE 或终端代理处理历史记录，利用 Lore 将其转化为可复用技能。同步对话至云端。提交问题与请求",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e122cdfd03186d2c",
+    "method": "deterministic-offline-v1"
+  }
+}

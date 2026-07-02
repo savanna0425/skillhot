@@ -1,0 +1,80 @@
+{
+  "rank": 841,
+  "id": 1134675966,
+  "name": "bioSkills",
+  "fullName": "GPTomics/bioSkills",
+  "owner": "GPTomics",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/128078558?v=4",
+  "url": "https://github.com/GPTomics/bioSkills",
+  "homepage": "",
+  "description": "a set of SKILLS.md for doing bioinformatics with agents like claude code",
+  "summary": "一套包含 CLAUDE、CODEX、MCP 和 RAG 等代理技能集，用于进行生物信息学分析",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install biopython pysam cyvcf2 pybedtools pyBigWig scikit-allel anndata mygene",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 965,
+  "forks": 169,
+  "openIssues": 0,
+  "score": 109.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T12:50:25Z",
+  "updatedAt": "2026-07-01T03:31:59Z",
+  "createdAt": "2026-01-15T03:26:22Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode",
+    "Antigravity"
+  ],
+  "skillCount": 552,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/GPTomics/bioSkills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/GPTomics/bioSkills#readme",
+  "detailPath": "data/details/gptomics__bioskills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一套包含 CLAUDE、CODEX、MCP 和 RAG 等代理技能集，用于进行生物信息学分析",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "87a52e48aab26054",
+    "method": "deterministic-offline-v1"
+  }
+}

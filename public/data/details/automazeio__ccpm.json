@@ -1,0 +1,82 @@
+{
+  "rank": 868,
+  "id": 1040397982,
+  "name": "ccpm",
+  "fullName": "automazeio/ccpm",
+  "owner": "automazeio",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/125381035?v=4",
+  "url": "https://github.com/automazeio/ccpm",
+  "homepage": "https://automaze.io",
+  "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
+  "summary": "基于 GitHub Issues 和 Git 工作树进行并行执行的代理项目管理系统",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/automazeio/ccpm.git",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 8235,
+  "forks": 832,
+  "openIssues": 4,
+  "score": 109,
+  "activity": "活跃",
+  "pushedAt": "2026-03-18T12:15:24Z",
+  "updatedAt": "2026-07-01T04:28:48Z",
+  "createdAt": "2025-08-18T23:20:08Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "ai-coding",
+    "claude",
+    "claude-code",
+    "project-management",
+    "vibe-coding"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/automazeio/ccpm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/automazeio/ccpm#readme",
+  "detailPath": "data/details/automazeio__ccpm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 GitHub Issues 和 Git 工作树进行并行执行的代理项目管理系统",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e67b813d22f2684b",
+    "method": "deterministic-offline-v1"
+  }
+}

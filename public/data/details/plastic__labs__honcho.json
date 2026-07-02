@@ -1,0 +1,99 @@
+{
+  "rank": 496,
+  "id": 689777286,
+  "name": "honcho",
+  "fullName": "plastic-labs/honcho",
+  "owner": "plastic-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/123981229?v=4",
+  "url": "https://github.com/plastic-labs/honcho",
+  "homepage": "https://docs.honcho.dev",
+  "description": " Memory library for building stateful agents",
+  "summary": "构建状态化代理的内存库",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install honcho-ai",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 5673,
+  "forks": 676,
+  "openIssues": 141,
+  "score": 120.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:37:31Z",
+  "updatedAt": "2026-07-01T02:12:37Z",
+  "createdAt": "2023-09-10T21:29:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-memory",
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "context-engineering",
+    "continual-learning",
+    "embeddings",
+    "fastapi",
+    "langchain",
+    "llm",
+    "long-term-memory",
+    "memory",
+    "openai",
+    "personalization",
+    "python",
+    "rag",
+    "state-management",
+    "typescript",
+    "vector-database"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/plastic-labs/honcho",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/plastic-labs/honcho#readme",
+  "detailPath": "data/details/plastic__labs__honcho.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "构建状态化代理的内存库",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a81316be2ead773a",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rank": 751,
+  "id": 1271113810,
+  "name": "eve",
+  "fullName": "vercel/eve",
+  "owner": "vercel",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/14985020?v=4",
+  "url": "https://github.com/vercel/eve",
+  "homepage": "https://eve.dev",
+  "description": "The Framework for Building Agents",
+  "summary": "eve 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/vercel/eve.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 2994,
+  "forks": 230,
+  "openIssues": 136,
+  "score": 113.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:00:06Z",
+  "updatedAt": "2026-07-01T03:45:26Z",
+  "createdAt": "2026-06-16T10:51:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "framework",
+    "harness",
+    "javascript",
+    "markdown",
+    "sandbox",
+    "typescript",
+    "vercel",
+    "workflows"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vercel/eve",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/vercel/eve#readme",
+  "detailPath": "data/details/vercel__eve.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "eve 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c8b8be39afe571cd",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "rank": 114,
+  "id": 1132001614,
+  "name": "agent-browser",
+  "fullName": "vercel-labs/agent-browser",
+  "owner": "vercel-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/108547162?v=4",
+  "url": "https://github.com/vercel-labs/agent-browser",
+  "homepage": "https://agent-browser.dev",
+  "description": "Browser automation CLI for AI agents",
+  "summary": "浏览器自动化命令行工具，用于 AI 代理",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 37596,
+  "forks": 2412,
+  "openIssues": 547,
+  "score": 139.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T17:22:26Z",
+  "updatedAt": "2026-07-01T04:50:47Z",
+  "createdAt": "2026-01-11T05:38:15Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vercel-labs/agent-browser",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/vercel-labs/agent-browser#readme",
+  "detailPath": "data/details/vercel__labs__agent__browser.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "浏览器自动化命令行工具，用于 AI 代理",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "cc2abd901f240012",
+    "method": "deterministic-offline-v1"
+  }
+}

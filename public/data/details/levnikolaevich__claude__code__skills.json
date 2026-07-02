@@ -1,0 +1,98 @@
+{
+  "rank": 1301,
+  "id": 1082673951,
+  "name": "claude-code-skills",
+  "fullName": "levnikolaevich/claude-code-skills",
+  "owner": "levnikolaevich",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/66056575?v=4",
+  "url": "https://github.com/levnikolaevich/claude-code-skills",
+  "homepage": "https://levnikolaevich.github.io/claude-code-skills/",
+  "description": "Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.",
+  "summary": "claude-code-skills 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/levnikolaevich/claude-code-skills.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 505,
+  "forks": 72,
+  "openIssues": 10,
+  "score": 100.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-10T16:29:34Z",
+  "updatedAt": "2026-06-29T16:49:11Z",
+  "createdAt": "2025-10-24T15:36:01Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agile-workflows",
+    "ai-agents",
+    "anthropic",
+    "claude-ai",
+    "claude-code",
+    "claude-code-skills",
+    "code-analysis",
+    "code-review",
+    "codebase-audit",
+    "developer-productivity",
+    "developer-tools",
+    "documentation-generator",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "performance-optimization",
+    "remote-ssh",
+    "software-architecture",
+    "tree-sitter",
+    "workflow-automation"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/levnikolaevich/claude-code-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/levnikolaevich/claude-code-skills#readme",
+  "detailPath": "data/details/levnikolaevich__claude__code__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-code-skills 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d291a87f1c768066",
+    "method": "deterministic-offline-v1"
+  }
+}

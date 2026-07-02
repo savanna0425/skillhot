@@ -1,0 +1,90 @@
+{
+  "rank": 192,
+  "id": 1155383451,
+  "name": "claude-ads",
+  "fullName": "AgriciDaniel/claude-ads",
+  "owner": "AgriciDaniel",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
+  "url": "https://github.com/AgriciDaniel/claude-ads",
+  "homepage": "https://claude-ads.md",
+  "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+  "summary": "claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "产品管理",
+    "营销增长",
+    "商业决策"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/AI-Marketing-Hub/claude-ads.git\ncd claude-ads\n./install.sh                # Unix/macOS/Linux, default target=claude",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 6611,
+  "forks": 992,
+  "openIssues": 28,
+  "score": 133.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T21:03:50Z",
+  "updatedAt": "2026-07-01T04:22:25Z",
+  "createdAt": "2026-02-11T13:01:49Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-marketing",
+    "claude-code",
+    "claude-code-skill",
+    "marketing-automation",
+    "open-source"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-ads",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/AgriciDaniel/claude-ads#readme",
+  "detailPath": "data/details/agricidaniel__claude__ads.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "useCases": [
+      "产品管理",
+      "营销增长",
+      "商业决策"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "36cf4675e7b71fb1",
+    "method": "deterministic-offline-v1"
+  }
+}

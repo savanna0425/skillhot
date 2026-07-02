@@ -1,0 +1,101 @@
+{
+  "rank": 648,
+  "id": 1159938129,
+  "name": "openpencil",
+  "fullName": "ZSeven-W/openpencil",
+  "owner": "ZSeven-W",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/218180147?v=4",
+  "url": "https://github.com/ZSeven-W/openpencil",
+  "homepage": "https://op.zseven.tech",
+  "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+  "summary": "世界首个原生 AI 向量设计工具，率先支持并发 Agent Teams。以代码驱动设计。直接在实时画布上将提示词转化为 UI。Pencil 的现代替代方案",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew tap zseven-w/openpencil\nbrew install --cask openpencil",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 3786,
+  "forks": 378,
+  "openIssues": 21,
+  "score": 115.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T14:42:00Z",
+  "updatedAt": "2026-07-01T04:51:34Z",
+  "createdAt": "2026-02-17T10:51:46Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-team",
+    "ai",
+    "claude",
+    "claude-code",
+    "codex",
+    "fimga",
+    "flutter",
+    "html",
+    "mcp",
+    "opencode",
+    "openpencil",
+    "pencil",
+    "react",
+    "react-native",
+    "svelte",
+    "ui",
+    "vibecoding",
+    "vibedesign",
+    "vue"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZSeven-W/openpencil",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ZSeven-W/openpencil#readme",
+  "detailPath": "data/details/zseven__w__openpencil.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "世界首个原生 AI 向量设计工具，率先支持并发 Agent Teams。以代码驱动设计。直接在实时画布上将提示词转化为 UI。Pencil 的现代替代方案",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a68dd4b2556e312a",
+    "method": "deterministic-offline-v1"
+  }
+}

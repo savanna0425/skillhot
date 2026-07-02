@@ -1,0 +1,101 @@
+{
+  "rank": 774,
+  "id": 929599382,
+  "name": "plinth",
+  "fullName": "jabrena/plinth",
+  "owner": "jabrena",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/147263?v=4",
+  "url": "https://github.com/jabrena/plinth",
+  "homepage": "https://jabrena.github.io/plinth/",
+  "description": "An opinionated, AI-native development workflow for Java Enterprise — reusable Skills, Agents, Commands, and MCP servers combined with a human-in-the-loop model to modernize real-world SDLC practices.",
+  "summary": "plinth 聚焦软件开发、代码质量与工程交付。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add jabrena/cursor-rules-java --skill '*' --agent cursor -y\nnpx skills add jabrena/cursor-rules-java --skill '*' --agent claude-code -y\nnpx skills add jabrena/cursor-rules-java --skill '*' --agent codex -y",
+  "language": "Java",
+  "license": "Apache-2.0",
+  "stars": 412,
+  "forks": 82,
+  "openIssues": 15,
+  "score": 113,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:36:19Z",
+  "updatedAt": "2026-06-30T17:29:30Z",
+  "createdAt": "2025-02-08T23:14:36Z",
+  "sourceTopics": [
+    "ai-skills",
+    "claude-code-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-skills",
+    "claude",
+    "claude-agents",
+    "claude-code",
+    "claude-code-skills",
+    "claude-commands",
+    "claude-skills",
+    "codex",
+    "codex-agents",
+    "codex-skills",
+    "cursor-agents",
+    "cursor-ai",
+    "cursor-commands",
+    "cursor-skills",
+    "github-copilot",
+    "github-copilot-skills",
+    "java"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 116,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jabrena/plinth",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jabrena/plinth#readme",
+  "detailPath": "data/details/jabrena__plinth.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "plinth 聚焦软件开发、代码质量与工程交付。",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b87a11bdb632c527",
+    "method": "deterministic-offline-v1"
+  }
+}

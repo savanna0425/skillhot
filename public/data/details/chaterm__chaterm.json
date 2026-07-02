@@ -1,0 +1,92 @@
+{
+  "rank": 749,
+  "id": 965885460,
+  "name": "Chaterm",
+  "fullName": "chaterm/Chaterm",
+  "owner": "chaterm",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/206796645?v=4",
+  "url": "https://github.com/chaterm/Chaterm",
+  "homepage": "https://chaterm.ai",
+  "description": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
+  "summary": "基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i electron -D",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 3007,
+  "forks": 284,
+  "openIssues": 60,
+  "score": 113.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:03:16Z",
+  "updatedAt": "2026-07-01T04:00:16Z",
+  "createdAt": "2025-04-14T04:19:01Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "aiagent",
+    "bastion",
+    "codex-cli",
+    "cursor",
+    "cyberark",
+    "devops",
+    "pam",
+    "putty",
+    "security",
+    "sre",
+    "ssh",
+    "terminal",
+    "vibe-coding",
+    "vibecoding",
+    "windsurf"
+  ],
+  "platforms": [
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chaterm/Chaterm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/chaterm/Chaterm#readme",
+  "detailPath": "data/details/chaterm__chaterm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "10118feac1113510",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "rank": 251,
+  "id": 1196617276,
+  "name": "hermes-webui",
+  "fullName": "nesquena/hermes-webui",
+  "owner": "nesquena",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6511?v=4",
+  "url": "https://github.com/nesquena/hermes-webui",
+  "homepage": "https://get-hermes.ai/",
+  "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+  "summary": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式！",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/nesquena/hermes-webui.git hermes-webui\ncd hermes-webui\npython3 bootstrap.py",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 15254,
+  "forks": 1975,
+  "openIssues": 221,
+  "score": 130.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:42:45Z",
+  "updatedAt": "2026-07-01T04:34:31Z",
+  "createdAt": "2026-03-30T21:50:12Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai-agents",
+    "hermes",
+    "hermes-agent",
+    "nous-research"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nesquena/hermes-webui",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nesquena/hermes-webui#readme",
+  "detailPath": "data/details/nesquena__hermes__webui.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式！",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a7b2f184729c2658",
+    "method": "deterministic-offline-v1"
+  }
+}

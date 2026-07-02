@@ -1,0 +1,78 @@
+{
+  "rank": 651,
+  "id": 983246568,
+  "name": "DeepCode",
+  "fullName": "HKUDS/DeepCode",
+  "owner": "HKUDS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
+  "url": "https://github.com/HKUDS/DeepCode",
+  "homepage": "http://arxiv.org/abs/2512.07921",
+  "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
+  "summary": "DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "python --version   # Should be 3.9+\nnode --version     # Should be 18+\nnpm --version      # Should be 8+",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 15867,
+  "forks": 2092,
+  "openIssues": 51,
+  "score": 115.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-18T03:30:41Z",
+  "updatedAt": "2026-07-01T02:12:22Z",
+  "createdAt": "2025-05-14T05:23:02Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-coding",
+    "llm-agent"
+  ],
+  "platforms": [
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/DeepCode",
+    "videoUrl": "https://youtu.be/PRgmP8pOI08"
+  },
+  "readmeUrl": "https://github.com/HKUDS/DeepCode#readme",
+  "detailPath": "data/details/hkuds__deepcode.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "fa9a58b5bf71c1ea",
+    "method": "deterministic-offline-v1"
+  }
+}

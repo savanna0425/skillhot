@@ -1,0 +1,77 @@
+{
+  "rank": 773,
+  "id": 1192745137,
+  "name": "wewrite",
+  "fullName": "oaker-io/wewrite",
+  "owner": "oaker-io",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/16276127?v=4",
+  "url": "https://github.com/oaker-io/wewrite",
+  "homepage": "",
+  "description": "公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱",
+  "summary": "公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "product management|product manager|marketing|growth|se",
+  "scenarios": [
+    "产品管理",
+    "营销增长",
+    "商业决策"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "之后在 Codex 里用 `/wewrite 写一篇关于 X 的文章` 触发完整流程。Codex 没有 SKILL.md 自动触发机制，所以通过自定义 prompt 承载；源 `SKILL.md` 更新后重跑 `build_codex.py --install` 同步。详见 [`dist/codex/README.md`](dist/codex/README.md)。\n`install.sh` 会在 `.venv` 里创建隔离环境并安装依赖，自动绕过 macOS Homebrew Python 的 PEP 668 限制。skill 运行时会自动使用该 venv，无需手动 `activate`。\n> 若你的环境没有 PEP 668 限制，也可以照旧直接 `pip install -r requirements.t",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2606,
+  "forks": 420,
+  "openIssues": 7,
+  "score": 113,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-17T06:20:56Z",
+  "updatedAt": "2026-07-01T04:20:11Z",
+  "createdAt": "2026-03-26T14:18:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/oaker-io/wewrite",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/oaker-io/wewrite#readme",
+  "detailPath": "data/details/oaker__io__wewrite.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱",
+    "useCases": [
+      "产品管理",
+      "营销增长",
+      "商业决策"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "05f92e8214763e9f",
+    "method": "deterministic-offline-v1"
+  }
+}

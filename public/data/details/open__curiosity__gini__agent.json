@@ -1,0 +1,86 @@
+{
+  "rank": 1329,
+  "id": 1230293192,
+  "name": "gini-agent",
+  "fullName": "Open-Curiosity/gini-agent",
+  "owner": "Open-Curiosity",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/297305621?v=4",
+  "url": "https://github.com/Open-Curiosity/gini-agent",
+  "homepage": "",
+  "description": "The agent that remembers and learns.",
+  "summary": "gini-agent 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Open-Curiosity/gini-agent.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 799,
+  "forks": 203,
+  "openIssues": 18,
+  "score": 99.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T07:33:06Z",
+  "updatedAt": "2026-07-01T04:23:19Z",
+  "createdAt": "2026-05-05T21:28:15Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-runtime",
+    "ai-agent",
+    "bun",
+    "llm",
+    "local-first",
+    "mcp",
+    "nextjs",
+    "personal-agent",
+    "typescript"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Open-Curiosity/gini-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Open-Curiosity/gini-agent#readme",
+  "detailPath": "data/details/open__curiosity__gini__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "gini-agent 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f74485625c4f5609",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rank": 806,
+  "id": 332135599,
+  "name": "yahoo-finance2",
+  "fullName": "gadicc/yahoo-finance2",
+  "owner": "gadicc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/381978?v=4",
+  "url": "https://github.com/gadicc/yahoo-finance2",
+  "homepage": "https://www.npmjs.com/package/yahoo-finance2",
+  "description": "Unofficial API for Yahoo Finance with CLI, MCP and Agent Skill",
+  "summary": "Yahoo Finance 官方 API 的 unofficial 版本，支持 CLI、MCP 和 Agent Skill",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "product management|product manager|marketing|growth|se",
+  "scenarios": [
+    "产品管理",
+    "营销增长",
+    "商业决策"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "$ npx yahoo-finance2 --help\n$ npx yahoo-finance2 search AMZN\n$ npx yahoo-finance2 quoteSummary GOOGL",
+  "language": "HTML",
+  "license": "MIT",
+  "stars": 751,
+  "forks": 104,
+  "openIssues": 95,
+  "score": 111.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T23:32:50Z",
+  "updatedAt": "2026-06-30T10:12:53Z",
+  "createdAt": "2021-01-23T05:31:46Z",
+  "sourceTopics": [
+    "agent-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "finance",
+    "mcp-server",
+    "yahoo",
+    "yahoo-finance"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gadicc/yahoo-finance2",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gadicc/yahoo-finance2#readme",
+  "detailPath": "data/details/gadicc__yahoo__finance2.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Yahoo Finance 官方 API 的 unofficial 版本，支持 CLI、MCP 和 Agent Skill",
+    "useCases": [
+      "产品管理",
+      "营销增长",
+      "商业决策"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "54aaf5f773025e56",
+    "method": "deterministic-offline-v1"
+  }
+}

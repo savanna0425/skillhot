@@ -1,0 +1,82 @@
+{
+  "rank": 1207,
+  "id": 1200309199,
+  "name": "skills-vote",
+  "fullName": "MemTensor/skills-vote",
+  "owner": "MemTensor",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/210160027?v=4",
+  "url": "https://github.com/MemTensor/skills-vote",
+  "homepage": "https://skills.vote",
+  "description": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution",
+  "summary": "SkillsVote：从技能集、推荐到演化的代理技能生命周期治理",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/MemTensor/skills-vote.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 286,
+  "forks": 15,
+  "openIssues": 1,
+  "score": 101.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T06:03:06Z",
+  "updatedAt": "2026-06-29T09:47:21Z",
+  "createdAt": "2026-04-03T09:05:04Z",
+  "sourceTopics": [
+    "agent-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "agent-skills",
+    "llm",
+    "llm-agent"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MemTensor/skills-vote",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/MemTensor/skills-vote#readme",
+  "detailPath": "data/details/memtensor__skills__vote.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "SkillsVote：从技能集、推荐到演化的代理技能生命周期治理",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "87c94f5305589a42",
+    "method": "deterministic-offline-v1"
+  }
+}

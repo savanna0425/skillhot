@@ -1,0 +1,80 @@
+{
+  "rank": 555,
+  "id": 1159234860,
+  "name": "engram",
+  "fullName": "Gentleman-Programming/engram",
+  "owner": "Gentleman-Programming",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/97131605?v=4",
+  "url": "https://github.com/Gentleman-Programming/engram",
+  "homepage": "",
+  "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+  "summary": "持久内存系统，专为 AI 编程代理设计。基于 Go 的二进制程序，支持 SQLite 与全文检索（FTS5），配备 MCP 服务器、HTTP API、命令行界面及终端用户界面",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install gentleman-programming/tap/engram",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 4784,
+  "forks": 547,
+  "openIssues": 83,
+  "score": 118.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T12:32:54Z",
+  "updatedAt": "2026-07-01T03:52:23Z",
+  "createdAt": "2026-02-16T13:38:41Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Gentleman-Programming/engram",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Gentleman-Programming/engram#readme",
+  "detailPath": "data/details/gentleman__programming__engram.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "持久内存系统，专为 AI 编程代理设计。基于 Go 的二进制程序，支持 SQLite 与全文检索（FTS5），配备 MCP 服务器、HTTP API、命令行界面及终端用户界面",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7ea0502f6c83f412",
+    "method": "deterministic-offline-v1"
+  }
+}

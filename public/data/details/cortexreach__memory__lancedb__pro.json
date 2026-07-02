@@ -1,0 +1,85 @@
+{
+  "rank": 582,
+  "id": 1165507389,
+  "name": "memory-lancedb-pro",
+  "fullName": "CortexReach/memory-lancedb-pro",
+  "owner": "CortexReach",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/266910790?v=4",
+  "url": "https://github.com/CortexReach/memory-lancedb-pro",
+  "homepage": "https://youtu.be/bhuGrjuCM_g",
+  "description": "Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI",
+  "summary": "OpenClaw 增强版 LanceDB 内存插件——混合检索（向量 + BM25）、跨编码器重排序、多范围隔离、管理 CLI",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i memory-lancedb-pro@beta",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 4444,
+  "forks": 729,
+  "openIssues": 36,
+  "score": 117.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T10:10:02Z",
+  "updatedAt": "2026-06-30T23:33:52Z",
+  "createdAt": "2026-02-24T08:38:15Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "lancedb",
+    "memory",
+    "openclaw",
+    "openclaw-agent",
+    "openclaw-plugin",
+    "rag"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CortexReach/memory-lancedb-pro",
+    "videoUrl": "https://youtu.be/MtukF1C8epQ"
+  },
+  "readmeUrl": "https://github.com/CortexReach/memory-lancedb-pro#readme",
+  "detailPath": "data/details/cortexreach__memory__lancedb__pro.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw 增强版 LanceDB 内存插件——混合检索（向量 + BM25）、跨编码器重排序、多范围隔离、管理 CLI",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "06c20e1875587238",
+    "method": "deterministic-offline-v1"
+  }
+}

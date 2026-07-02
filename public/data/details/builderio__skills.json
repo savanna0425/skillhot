@@ -1,0 +1,84 @@
+{
+  "rank": 347,
+  "id": 1265265111,
+  "name": "skills",
+  "fullName": "BuilderIO/skills",
+  "owner": "BuilderIO",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/35700027?v=4",
+  "url": "https://github.com/BuilderIO/skills",
+  "homepage": "https://www.agent-native.com/",
+  "description": "Skills for coding agents",
+  "summary": "供编码 Agent 使用的工程技能集合",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx @agent-native/skills@latest add",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2955,
+  "forks": 152,
+  "openIssues": 1,
+  "score": 125.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T18:17:40Z",
+  "updatedAt": "2026-07-01T04:47:47Z",
+  "createdAt": "2026-06-10T16:04:20Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BuilderIO/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/BuilderIO/skills#readme",
+  "detailPath": "data/details/builderio__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "供编码 Agent 使用的工程技能集合",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b96e665cc73c8707",
+    "method": "deterministic-offline-v1"
+  }
+}

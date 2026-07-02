@@ -1,0 +1,98 @@
+{
+  "rank": 225,
+  "id": 1024118326,
+  "name": "WeKnora",
+  "fullName": "Tencent/WeKnora",
+  "owner": "Tencent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/18461506?v=4",
+  "url": "https://github.com/Tencent/WeKnora",
+  "homepage": "https://weknora.weixin.qq.com",
+  "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+  "summary": "开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Tencent/WeKnora.git\ncd WeKnora\ncp .env.example .env   # Edit .env as needed, see comments in the file",
+  "language": "Go",
+  "license": "NOASSERTION",
+  "stars": 17591,
+  "forks": 2329,
+  "openIssues": 293,
+  "score": 131.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:20:10Z",
+  "updatedAt": "2026-07-01T04:34:12Z",
+  "createdAt": "2025-07-22T08:01:23Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic",
+    "ai",
+    "chatbot",
+    "embeddings",
+    "evaluation",
+    "generative-ai",
+    "golang",
+    "knowledge-base",
+    "llm",
+    "multi-tenant",
+    "multimodel",
+    "ollama",
+    "openai",
+    "question-answering",
+    "rag",
+    "reranking",
+    "semantic-search",
+    "vector-search",
+    "wiki"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Tencent/WeKnora",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Tencent/WeKnora#readme",
+  "detailPath": "data/details/tencent__weknora.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "61897819cf2972f5",
+    "method": "deterministic-offline-v1"
+  }
+}

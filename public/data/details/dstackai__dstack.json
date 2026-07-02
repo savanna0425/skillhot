@@ -1,0 +1,98 @@
+{
+  "rank": 710,
+  "id": 444377346,
+  "name": "dstack",
+  "fullName": "dstackai/dstack",
+  "owner": "dstackai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/54146142?v=4",
+  "url": "https://github.com/dstackai/dstack",
+  "homepage": "https://dstack.ai/docs",
+  "description": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.",
+  "summary": "支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "$ uv tool install \"dstack[all]\" -U\n$ dstack server\nApplying ~/.dstack/server/config.yml...",
+  "language": "Python",
+  "license": "MPL-2.0",
+  "stars": 2168,
+  "forks": 236,
+  "openIssues": 65,
+  "score": 114.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:53:41Z",
+  "updatedAt": "2026-06-30T16:41:19Z",
+  "createdAt": "2022-01-04T10:29:46Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-orchestration",
+    "amd",
+    "cloud",
+    "containers",
+    "docker",
+    "fine-tuning",
+    "gpu",
+    "inference",
+    "k8s",
+    "kubernetes",
+    "llms",
+    "machine-learning",
+    "nvidia",
+    "orchestration",
+    "python",
+    "slurm",
+    "training"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dstackai/dstack",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/dstackai/dstack#readme",
+  "detailPath": "data/details/dstackai__dstack.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MPL-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c6b10a5986618e96",
+    "method": "deterministic-offline-v1"
+  }
+}

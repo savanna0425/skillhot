@@ -1,0 +1,94 @@
+{
+  "rank": 1241,
+  "id": 1232681444,
+  "name": "SearchCLI",
+  "fullName": "volcengine/SearchCLI",
+  "owner": "volcengine",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/67365215?v=4",
+  "url": "https://github.com/volcengine/SearchCLI",
+  "homepage": "",
+  "description": "Open CLI for integrating AI search, recommendation, and conversational retrieval into agent systems and business systems",
+  "summary": "SearchCLI 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/volcengine/SearchCLI.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 875,
+  "forks": 24,
+  "openIssues": 2,
+  "score": 100.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T07:55:42Z",
+  "updatedAt": "2026-06-30T18:08:43Z",
+  "createdAt": "2026-05-08T06:57:11Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-tools",
+    "ai-agents",
+    "ai-search",
+    "ai-search-engine",
+    "automation",
+    "cli",
+    "command-line-tool",
+    "conversational-search",
+    "information-retrieval",
+    "rag",
+    "recommendation",
+    "recommendation-system",
+    "retrieval",
+    "search-cli",
+    "search-engine",
+    "semantic-search",
+    "typescript",
+    "volcengine"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/volcengine/SearchCLI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/volcengine/SearchCLI#readme",
+  "detailPath": "data/details/volcengine__searchcli.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "SearchCLI 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6916ad80efba3034",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "rank": 369,
+  "id": 820145382,
+  "name": "ogx",
+  "fullName": "ogx-ai/ogx",
+  "owner": "ogx-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/272781975?v=4",
+  "url": "https://github.com/ogx-ai/ogx",
+  "homepage": "https://ogx-ai.github.io/",
+  "description": "Open GenAI Stack",
+  "summary": "开源英中翻译。忠实翻译作者的开源仓库简介，不增删功能，不解释，不评价。保留项目名、Claude、Codex、MCP、RAG 等专名。只输出一行简体中文译文",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "curl -LsSf https://github.com/ogx-ai/ogx/raw/main/scripts/install.sh | bash\nuv pip install ogx[starter]\nuv run ogx run starter",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 8416,
+  "forks": 1317,
+  "openIssues": 159,
+  "score": 124.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:46:50Z",
+  "updatedAt": "2026-07-01T04:38:39Z",
+  "createdAt": "2024-06-25T22:32:26Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ogx-ai/ogx",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ogx-ai/ogx#readme",
+  "detailPath": "data/details/ogx__ai__ogx.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "开源英中翻译。忠实翻译作者的开源仓库简介，不增删功能，不解释，不评价。保留项目名、Claude、Codex、MCP、RAG 等专名。只输出一行简体中文译文",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "16b6bb0400b8daa2",
+    "method": "deterministic-offline-v1"
+  }
+}

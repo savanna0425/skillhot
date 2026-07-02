@@ -1,0 +1,75 @@
+{
+  "rank": 1246,
+  "id": 1098348050,
+  "name": "iothackbot",
+  "fullName": "BrownFineSecurity/iothackbot",
+  "owner": "BrownFineSecurity",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/175156966?v=4",
+  "url": "https://github.com/BrownFineSecurity/iothackbot",
+  "homepage": "",
+  "description": "IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting",
+  "summary": "IoT HackBot：用于混合物联网渗透测试的 Claude 技能集及自定义工具集",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/BrownFineSecurity/iothackbot.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 793,
+  "forks": 121,
+  "openIssues": 6,
+  "score": 100.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-01T14:56:31Z",
+  "updatedAt": "2026-06-29T16:53:00Z",
+  "createdAt": "2025-11-17T15:18:28Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BrownFineSecurity/iothackbot",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/BrownFineSecurity/iothackbot#readme",
+  "detailPath": "data/details/brownfinesecurity__iothackbot.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "IoT HackBot：用于混合物联网渗透测试的 Claude 技能集及自定义工具集",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c5d1b57250de0539",
+    "method": "deterministic-offline-v1"
+  }
+}

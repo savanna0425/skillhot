@@ -1,0 +1,100 @@
+{
+  "rank": 984,
+  "id": 1204553951,
+  "name": "asta-skill",
+  "fullName": "Agents365-ai/asta-skill",
+  "owner": "Agents365-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
+  "url": "https://github.com/Agents365-ai/asta-skill",
+  "homepage": "",
+  "description": "Pure instruction-pack skill wrapping Ai2's Asta MCP server (Semantic Scholar). Intent-to-tool routing, safe defaults, multi-agent.",
+  "summary": "Pure instruction-pack 技能包装，基于 Asta MCP 服务器（Semantic Scholar）的 AI2 插件，支持意图到工具路由、安全默认值及多代理架构",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Agents365-ai/asta-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 154,
+  "forks": 5,
+  "openIssues": 0,
+  "score": 107.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T13:28:03Z",
+  "updatedAt": "2026-07-01T02:18:11Z",
+  "createdAt": "2026-04-08T05:41:32Z",
+  "sourceTopics": [
+    "claude-code-skill",
+    "openclaw-skills",
+    "skill-md",
+    "skillsmp"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "academic",
+    "agent-skill",
+    "agent-skills",
+    "asta",
+    "asta-skill",
+    "citations",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skills",
+    "mcp",
+    "openclaw",
+    "openclaw-skills",
+    "paper-search",
+    "research",
+    "semantic-scholar",
+    "semantic-search",
+    "skill-md",
+    "skillsmp"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/asta-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Agents365-ai/asta-skill#readme",
+  "detailPath": "data/details/agents365__ai__asta__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Pure instruction-pack 技能包装，基于 Asta MCP 服务器（Semantic Scholar）的 AI2 插件，支持意图到工具路由、安全默认值及多代理架构",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "272b40c4baab24dc",
+    "method": "deterministic-offline-v1"
+  }
+}

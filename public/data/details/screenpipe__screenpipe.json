@@ -1,0 +1,98 @@
+{
+  "rank": 198,
+  "id": 817326197,
+  "name": "screenpipe",
+  "fullName": "screenpipe/screenpipe",
+  "owner": "screenpipe",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/259178917?v=4",
+  "url": "https://github.com/screenpipe/screenpipe",
+  "homepage": "https://screenpipe.com",
+  "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+  "summary": "YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npx screenpipe record",
+  "language": "Rust",
+  "license": "NOASSERTION",
+  "stars": 19578,
+  "forks": 1888,
+  "openIssues": 108,
+  "score": 133,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T00:24:09Z",
+  "updatedAt": "2026-07-01T04:12:49Z",
+  "createdAt": "2024-06-19T13:23:56Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "agi",
+    "ai",
+    "ai-memory",
+    "audio-recording",
+    "computer-vision",
+    "hermes",
+    "hermes-agent",
+    "llm",
+    "local-ai",
+    "local-first",
+    "machine-learning",
+    "mcp",
+    "multimodal",
+    "openclaw",
+    "privacy",
+    "rewind",
+    "screen-recording",
+    "speech-to-text",
+    "ycombinator"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/screenpipe/screenpipe",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/screenpipe/screenpipe#readme",
+  "detailPath": "data/details/screenpipe__screenpipe.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "40d7bb3b72ebd5a2",
+    "method": "deterministic-offline-v1"
+  }
+}

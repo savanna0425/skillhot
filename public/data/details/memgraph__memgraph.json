@@ -1,0 +1,91 @@
+{
+  "rank": 607,
+  "id": 297302063,
+  "name": "memgraph",
+  "fullName": "memgraph/memgraph",
+  "owner": "memgraph",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/17707542?v=4",
+  "url": "https://github.com/memgraph/memgraph",
+  "homepage": "https://memgraph.com",
+  "description": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
+  "summary": "高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/memgraph/memgraph.git",
+  "language": "C++",
+  "license": "NOASSERTION",
+  "stars": 4206,
+  "forks": 241,
+  "openIssues": 689,
+  "score": 117,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T22:33:15Z",
+  "updatedAt": "2026-06-30T22:20:56Z",
+  "createdAt": "2020-09-21T10:14:04Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "context-graph",
+    "cypher",
+    "enterprise-context",
+    "graph",
+    "graph-algorithms",
+    "graph-analysis",
+    "graph-database",
+    "graphrag",
+    "kafka",
+    "nosql",
+    "opencypher",
+    "streaming"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/memgraph/memgraph",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/memgraph/memgraph#readme",
+  "detailPath": "data/details/memgraph__memgraph.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ad1f6d586f8474fa",
+    "method": "deterministic-offline-v1"
+  }
+}

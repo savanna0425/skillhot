@@ -1,0 +1,91 @@
+{
+  "rank": 1322,
+  "id": 1208598546,
+  "name": "kubernetes-skill",
+  "fullName": "LukasNiessen/kubernetes-skill",
+  "owner": "LukasNiessen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/64063489?v=4",
+  "url": "https://github.com/LukasNiessen/kubernetes-skill",
+  "homepage": "https://lukasniessen.github.io/kubernetes-skill/",
+  "description": "Kubernetes Skill for Claude Code and Codex. LLMs hallucinate a lot with K8s - KubeShark fixes this. It eliminates hallucinations and grounds your Kubernetes, Helm etc official best practices.",
+  "summary": "Kubernetes 技能：为 Claude Code 和 Codex 打造。LLM 在 Kubernetes 上容易幻觉，KubeShark 可消除幻觉，确保您的 Kubernetes 和 Helm 等最佳实践有据可依",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/LukasNiessen/kubernetes-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 249,
+  "forks": 10,
+  "openIssues": 1,
+  "score": 99.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T23:17:01Z",
+  "updatedAt": "2026-06-30T19:14:24Z",
+  "createdAt": "2026-04-12T14:00:09Z",
+  "sourceTopics": [
+    "codex-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "codex-skill",
+    "devops",
+    "helm",
+    "k8s",
+    "kubernetes",
+    "kubernetes-deployment",
+    "kubernetes-setup",
+    "skills",
+    "sre"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/LukasNiessen/kubernetes-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/LukasNiessen/kubernetes-skill#readme",
+  "detailPath": "data/details/lukasniessen__kubernetes__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Kubernetes 技能：为 Claude Code 和 Codex 打造。LLM 在 Kubernetes 上容易幻觉，KubeShark 可消除幻觉，确保您的 Kubernetes 和 Helm 等最佳实践有据可依",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "eaa96ca53f3234d5",
+    "method": "deterministic-offline-v1"
+  }
+}

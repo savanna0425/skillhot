@@ -1,0 +1,84 @@
+{
+  "rank": 787,
+  "id": 1209396858,
+  "name": "GEOFlow",
+  "fullName": "yaojingang/GEOFlow",
+  "owner": "yaojingang",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/266242792?v=4",
+  "url": "https://github.com/yaojingang/GEOFlow",
+  "homepage": "",
+  "description": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
+  "summary": "GEOFlow：SQL、数据处理、统计、可视化与商业分析。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/yaojingang/GEOFlow.git\ncd GEOFlow\ncp .env.example .env",
+  "language": "PHP",
+  "license": "Apache-2.0",
+  "stars": 2775,
+  "forks": 642,
+  "openIssues": 2,
+  "score": 112.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T07:31:04Z",
+  "updatedAt": "2026-07-01T03:19:55Z",
+  "createdAt": "2026-04-13T11:42:03Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "cms",
+    "content-automation",
+    "geo",
+    "openai-compatible",
+    "php",
+    "postgresql",
+    "seo"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/yaojingang/GEOFlow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/yaojingang/GEOFlow#readme",
+  "detailPath": "data/details/yaojingang__geoflow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "GEOFlow：SQL、数据处理、统计、可视化与商业分析。",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2e75a1c9bced3071",
+    "method": "deterministic-offline-v1"
+  }
+}

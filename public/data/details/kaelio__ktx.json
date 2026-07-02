@@ -1,0 +1,103 @@
+{
+  "rank": 729,
+  "id": 1234904564,
+  "name": "ktx",
+  "fullName": "Kaelio/ktx",
+  "owner": "Kaelio",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/189464497?v=4",
+  "url": "https://github.com/Kaelio/ktx",
+  "homepage": "https://docs.kaelio.com/ktx",
+  "description": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
+  "summary": "ktx：SQL、数据处理、统计、可视化与商业分析。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @kaelio/ktx\nktx setup\nktx status",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1439,
+  "forks": 85,
+  "openIssues": 24,
+  "score": 113.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T23:16:58Z",
+  "updatedAt": "2026-06-30T23:25:00Z",
+  "createdAt": "2026-05-10T19:42:32Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "agents",
+    "ai-agent",
+    "ai-agents",
+    "analytics",
+    "analytics-engineering",
+    "business-intelligence",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "context-layer",
+    "data-analysis",
+    "data-engineering",
+    "llm",
+    "mcp",
+    "memory",
+    "semantic-layer",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Kaelio/ktx",
+    "videoUrl": "https://youtu.be/5V4TuzYVlrA"
+  },
+  "readmeUrl": "https://github.com/Kaelio/ktx#readme",
+  "detailPath": "data/details/kaelio__ktx.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "ktx：SQL、数据处理、统计、可视化与商业分析。",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2b6cf24eb074f9a4",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "rank": 935,
+  "id": 1182353280,
+  "name": "translate-book",
+  "fullName": "deusyu/translate-book",
+  "owner": "deusyu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/42929363?v=4",
+  "url": "https://github.com/deusyu/translate-book",
+  "homepage": "",
+  "description": "Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents",
+  "summary": "Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/deusyu/translate-book.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 813,
+  "forks": 100,
+  "openIssues": 28,
+  "score": 108,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T11:05:07Z",
+  "updatedAt": "2026-06-30T08:54:23Z",
+  "createdAt": "2026-03-15T12:04:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/deusyu/translate-book",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/deusyu/translate-book#readme",
+  "detailPath": "data/details/deusyu__translate__book.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3122289132f47144",
+    "method": "deterministic-offline-v1"
+  }
+}

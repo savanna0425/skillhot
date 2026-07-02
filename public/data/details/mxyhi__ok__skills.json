@@ -1,0 +1,99 @@
+{
+  "rank": 743,
+  "id": 1147757151,
+  "name": "ok-skills",
+  "fullName": "mxyhi/ok-skills",
+  "owner": "mxyhi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/78336556?v=4",
+  "url": "https://github.com/mxyhi/ok-skills",
+  "homepage": "",
+  "description": "Curated AI coding agent skills and AGENTS.md playbooks for Codex, Claude Code, Cursor, OpenClaw, and other SKILL.md-compatible tools.",
+  "summary": "为 Codex、Claude Code、Cursor、OpenClaw 及其他 SKILL.md 兼容工具，精选整理 AI 编程技能与 AGENTS.md 剧本",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "mkdir -p ~/.agents/skills\ncd ~/.agents/skills\ngit clone https://github.com/mxyhi/ok-skills.git ok-skills",
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "stars": 442,
+  "forks": 36,
+  "openIssues": 1,
+  "score": 113.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T10:50:46Z",
+  "updatedAt": "2026-06-30T04:33:20Z",
+  "createdAt": "2026-02-02T07:02:25Z",
+  "sourceTopics": [
+    "claude-code-skills",
+    "codex-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agents-md",
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "codex-skills",
+    "coding-agents",
+    "cursor",
+    "cursor-skills",
+    "openclaw-skills",
+    "openfang",
+    "pi-mono",
+    "prompt-engineering",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mxyhi/ok-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mxyhi/ok-skills#readme",
+  "detailPath": "data/details/mxyhi__ok__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Codex、Claude Code、Cursor、OpenClaw 及其他 SKILL.md 兼容工具，精选整理 AI 编程技能与 AGENTS.md 剧本",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "54f44a73f0a59c9b",
+    "method": "deterministic-offline-v1"
+  }
+}

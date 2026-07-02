@@ -1,0 +1,88 @@
+{
+  "rank": 1372,
+  "id": 1202783418,
+  "name": "cti-expert",
+  "fullName": "7onez/cti-expert",
+  "owner": "7onez",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/72960444?v=4",
+  "url": "https://github.com/7onez/cti-expert",
+  "homepage": "",
+  "description": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys required.",
+  "summary": "cti-expert 聚焦安全审计、漏洞检查与风险治理。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/7onez/cti-expert.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 232,
+  "forks": 34,
+  "openIssues": 0,
+  "score": 99.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T17:39:57Z",
+  "updatedAt": "2026-06-30T21:39:32Z",
+  "createdAt": "2026-04-06T11:52:32Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-code-skill",
+    "cti",
+    "cyber-threat-intelligence",
+    "digital-forensics",
+    "investigation",
+    "osint",
+    "reconnaissance",
+    "security",
+    "threat-intelligence"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/7onez/cti-expert",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/7onez/cti-expert#readme",
+  "detailPath": "data/details/7onez__cti__expert.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "cti-expert 聚焦安全审计、漏洞检查与风险治理。",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0d50dc1e9a70daa3",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "rank": 81,
+  "id": 1025856648,
+  "name": "agents",
+  "fullName": "wshobson/agents",
+  "owner": "wshobson",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/553618?v=4",
+  "url": "https://github.com/wshobson/agents",
+  "homepage": "https://sethhobson.com",
+  "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+  "summary": "面向多种编程智能体的插件与技能市场",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "多智能体编排",
+    "插件市场",
+    "工程自动化"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npx codex-marketplace add wshobson/agents        # Codex; then install individual plugins",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 37379,
+  "forks": 4018,
+  "openIssues": 6,
+  "score": 143.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T01:08:41Z",
+  "updatedAt": "2026-07-01T04:44:30Z",
+  "createdAt": "2025-07-24T23:28:14Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-ai",
+    "agents",
+    "ai-agents",
+    "anthropic",
+    "automation",
+    "claude-code",
+    "claude-code-plugins",
+    "codex-cli",
+    "copilot",
+    "cursor",
+    "cursor-rules",
+    "developer-tools",
+    "gemini-cli",
+    "mcp",
+    "multi-agent",
+    "opencode",
+    "orchestration",
+    "prompt-engineering",
+    "workflows"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 158,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wshobson/agents",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/wshobson/agents#readme",
+  "detailPath": "data/details/wshobson__agents.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向多种编程智能体的插件与技能市场",
+    "useCases": [
+      "多智能体编排",
+      "插件市场",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "596c5148055a19de",
+    "method": "deterministic-offline-v1"
+  }
+}

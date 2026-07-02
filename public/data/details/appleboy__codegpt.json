@@ -1,0 +1,83 @@
+{
+  "rank": 1029,
+  "id": 609542180,
+  "name": "CodeGPT",
+  "fullName": "appleboy/CodeGPT",
+  "owner": "appleboy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/21979?v=4",
+  "url": "https://github.com/appleboy/CodeGPT",
+  "homepage": "",
+  "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+  "summary": "一个使用 Go 语言编写的命令行工具，可让您使用 ChatGPT AI（gpt-4.1 或 gpt-4o 模型）生成 Git 提交消息或进行代码审查摘要，并自动安装 Git prepare-commit-msg 钩子",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/appleboy/CodeGPT.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 1496,
+  "forks": 130,
+  "openIssues": 11,
+  "score": 106.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T04:14:14Z",
+  "updatedAt": "2026-06-28T14:58:38Z",
+  "createdAt": "2023-03-04T13:49:29Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "chatgpt",
+    "chatgpt-api",
+    "git",
+    "git-hook",
+    "golang",
+    "openai",
+    "openai-api"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/appleboy/CodeGPT",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/appleboy/CodeGPT#readme",
+  "detailPath": "data/details/appleboy__codegpt.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个使用 Go 语言编写的命令行工具，可让您使用 ChatGPT AI（gpt-4.1 或 gpt-4o 模型）生成 Git 提交消息或进行代码审查摘要，并自动安装 Git prepare-commit-msg 钩子",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c7942df04007ed21",
+    "method": "deterministic-offline-v1"
+  }
+}

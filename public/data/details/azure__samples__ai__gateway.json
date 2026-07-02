@@ -1,0 +1,87 @@
+{
+  "rank": 1179,
+  "id": 781422111,
+  "name": "AI-Gateway",
+  "fullName": "Azure-Samples/AI-Gateway",
+  "owner": "Azure-Samples",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1844662?v=4",
+  "url": "https://github.com/Azure-Samples/AI-Gateway",
+  "homepage": "https://aka.ms/ai-gateway/labs",
+  "description": "Labs to explore AI Models, MCP servers, and Agents with the AI Gateway powered by Azure API Management and Microsoft Foundry 🚀",
+  "summary": "探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Azure-Samples/AI-Gateway.git",
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "stars": 948,
+  "forks": 486,
+  "openIssues": 61,
+  "score": 101.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T15:45:35Z",
+  "updatedAt": "2026-06-30T16:46:08Z",
+  "createdAt": "2024-04-03T10:56:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "a2a",
+    "agents",
+    "apimanagement",
+    "autogen",
+    "azure",
+    "foundry",
+    "genai",
+    "mcp",
+    "mcp-server",
+    "openai",
+    "openai-api"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Azure-Samples/AI-Gateway",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Azure-Samples/AI-Gateway#readme",
+  "detailPath": "data/details/azure__samples__ai__gateway.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b15e77c09849b8de",
+    "method": "deterministic-offline-v1"
+  }
+}

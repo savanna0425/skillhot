@@ -1,0 +1,97 @@
+{
+  "rank": 707,
+  "id": 201403923,
+  "name": "deeplake",
+  "fullName": "activeloopai/deeplake",
+  "owner": "activeloopai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/34816118?v=4",
+  "url": "https://github.com/activeloopai/deeplake",
+  "homepage": "https://deeplake.ai",
+  "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+  "summary": "DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install deeplake",
+  "language": "C++",
+  "license": "Apache-2.0",
+  "stars": 9193,
+  "forks": 719,
+  "openIssues": 69,
+  "score": 114.1,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-21T15:28:00Z",
+  "updatedAt": "2026-06-30T19:04:45Z",
+  "createdAt": "2019-08-09T06:17:59Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-rag",
+    "ai",
+    "clawbot",
+    "computer-vision",
+    "datalake",
+    "deep-learning",
+    "filesystem",
+    "large-language-models",
+    "llm",
+    "memory",
+    "mlops",
+    "multimodal",
+    "openclaw",
+    "postgres",
+    "pytorch",
+    "rag",
+    "skill",
+    "vector-database"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/activeloopai/deeplake",
+    "videoUrl": "https://www.youtube.com/watch?v=SxsofpSIw3k"
+  },
+  "readmeUrl": "https://github.com/activeloopai/deeplake#readme",
+  "detailPath": "data/details/activeloopai__deeplake.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e29e77271965252a",
+    "method": "deterministic-offline-v1"
+  }
+}

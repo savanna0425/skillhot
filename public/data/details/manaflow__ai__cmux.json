@@ -1,0 +1,89 @@
+{
+  "rank": 173,
+  "id": 1144115288,
+  "name": "cmux",
+  "fullName": "manaflow-ai/cmux",
+  "owner": "manaflow-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/171392238?v=4",
+  "url": "https://github.com/manaflow-ai/cmux",
+  "homepage": "https://cmux.com",
+  "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+  "summary": "cmux 聚焦软件开发、代码质量与工程交付。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew tap manaflow-ai/cmux\nbrew install --cask cmux",
+  "language": "Swift",
+  "license": "NOASSERTION",
+  "stars": 23239,
+  "forks": 1842,
+  "openIssues": 3074,
+  "score": 134.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:55:45Z",
+  "updatedAt": "2026-07-01T04:52:22Z",
+  "createdAt": "2026-01-28T10:03:24Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "amp",
+    "claude-code",
+    "codex",
+    "gemini",
+    "ghostty",
+    "opencode",
+    "terminal",
+    "tmux"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/manaflow-ai/cmux",
+    "videoUrl": "https://www.youtube.com/watch?v=i-WxO5YUTOs"
+  },
+  "readmeUrl": "https://github.com/manaflow-ai/cmux#readme",
+  "detailPath": "data/details/manaflow__ai__cmux.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "cmux 聚焦软件开发、代码质量与工程交付。",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "df48972dc6335187",
+    "method": "deterministic-offline-v1"
+  }
+}

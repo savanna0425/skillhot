@@ -1,0 +1,107 @@
+{
+  "rank": 792,
+  "id": 1269836503,
+  "name": "compass-skills",
+  "fullName": "dongshuyan/compass-skills",
+  "owner": "dongshuyan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/17682201?v=4",
+  "url": "https://github.com/dongshuyan/compass-skills",
+  "homepage": "",
+  "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+  "summary": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add dongshuyan/compass-skills --skill '*' -a claude-code",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 506,
+  "forks": 41,
+  "openIssues": 0,
+  "score": 112.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-21T20:05:33Z",
+  "updatedAt": "2026-07-01T04:15:35Z",
+  "createdAt": "2026-06-15T06:28:04Z",
+  "sourceTopics": [
+    "claude-skills",
+    "ai-skills",
+    "codex-skills",
+    "agent-skill",
+    "skill-md",
+    "skills-sh",
+    "skillsmp"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-memory",
+    "agent-skill",
+    "agent-skills",
+    "ai-agents",
+    "ai-coding-agent",
+    "ai-skills",
+    "claude-code",
+    "claude-skills",
+    "codex-skills",
+    "developer-tools",
+    "local-first",
+    "openai-codex",
+    "personal-ai",
+    "prompt-engineering",
+    "skill-md",
+    "skill-md-skillsmp",
+    "skills-sh",
+    "skillsmp",
+    "task-management",
+    "workflow-automation"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dongshuyan/compass-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/dongshuyan/compass-skills#readme",
+  "detailPath": "data/details/dongshuyan__compass__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0fbe41a4f6af6f12",
+    "method": "deterministic-offline-v1"
+  }
+}

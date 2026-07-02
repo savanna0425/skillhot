@@ -1,0 +1,85 @@
+{
+  "rank": 780,
+  "id": 1201253077,
+  "name": "OpenKB",
+  "fullName": "VectifyAI/OpenKB",
+  "owner": "VectifyAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/133959746?v=4",
+  "url": "https://github.com/VectifyAI/OpenKB",
+  "homepage": "https://pageindex.ai",
+  "description": "OpenKB: Open LLM Knowledge Base",
+  "summary": "OpenKB：文档、表格、邮件、日历、笔记与个人生产力。",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install openkb",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 2802,
+  "forks": 308,
+  "openIssues": 27,
+  "score": 112.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:43:51Z",
+  "updatedAt": "2026-07-01T03:10:05Z",
+  "createdAt": "2026-04-04T12:26:04Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "knowledge-base",
+    "llm",
+    "rag",
+    "retrieval"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/VectifyAI/OpenKB",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/VectifyAI/OpenKB#readme",
+  "detailPath": "data/details/vectifyai__openkb.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenKB：文档、表格、邮件、日历、笔记与个人生产力。",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8e4b02282bb86d82",
+    "method": "deterministic-offline-v1"
+  }
+}

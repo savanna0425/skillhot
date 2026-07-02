@@ -1,0 +1,102 @@
+{
+  "rank": 337,
+  "id": 1132020002,
+  "name": "md2wechat-skill",
+  "fullName": "geekjourneyx/md2wechat-skill",
+  "owner": "geekjourneyx",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/24422856?v=4",
+  "url": "https://github.com/geekjourneyx/md2wechat-skill",
+  "homepage": "https://md2wechat.cn",
+  "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+  "summary": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @geekjourneyx/md2wechat\nmd2wechat config init",
+  "language": "Go",
+  "license": "NOASSERTION",
+  "stars": 3056,
+  "forks": 356,
+  "openIssues": 3,
+  "score": 125.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T12:31:38Z",
+  "updatedAt": "2026-06-30T23:57:20Z",
+  "createdAt": "2026-01-11T06:36:13Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-cli",
+    "ai-agent",
+    "ai-writing",
+    "claude-code",
+    "claude-skills",
+    "cli",
+    "go",
+    "markdown",
+    "markdown-converter",
+    "markdown-formatter",
+    "markdown-to-html",
+    "markdown-to-wechat",
+    "mcp-server",
+    "md2wechat",
+    "wechat",
+    "wechat-article",
+    "wechat-mp",
+    "wechat-official-account",
+    "wechat-public-account",
+    "weixin"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/geekjourneyx/md2wechat-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/geekjourneyx/md2wechat-skill#readme",
+  "detailPath": "data/details/geekjourneyx__md2wechat__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "510710e2f06376fa",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "rank": 925,
+  "id": 1244162403,
+  "name": "codex-windows-fast-patch-skill",
+  "fullName": "chen0416ccc-cpu/codex-windows-fast-patch-skill",
+  "owner": "chen0416ccc-cpu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255150494?v=4",
+  "url": "https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill",
+  "homepage": "",
+  "description": "此skills用于指导智能体在 Windows 上恢复 Codex Desktop 升级后失效的本地补丁和能力开关。（Computer Use，插件，破限，codex强制汉化，fast mode，手机远控，会话消失等问题）支持每次使用前自动将skills更新到最新版。/These skills are designed to guide the agent in restoring local patches and feature toggles that have been disabled or invalidated following a Codex Desktop upgrade on Windows. Supports auto-updating translations.",
+  "summary": "此skills用于指导智能体在 Windows 上恢复 Codex Desktop 升级后失效的本地补丁和能力开关。（Computer Use，插件，破限，codex强制汉化，fast mode，手机远控，会话消失等问题）支持每次使用前自动",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "中",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill.git",
+  "language": "PowerShell",
+  "license": "",
+  "stars": 833,
+  "forks": 86,
+  "openIssues": 1,
+  "score": 108.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:05:37Z",
+  "updatedAt": "2026-07-01T02:28:55Z",
+  "createdAt": "2026-05-20T02:45:32Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chen0416ccc-cpu/codex-windows-fast-patch-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/chen0416ccc-cpu/codex-windows-fast-patch-skill#readme",
+  "detailPath": "data/details/chen0416ccc__cpu__codex__windows__fast__patch__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "此skills用于指导智能体在 Windows 上恢复 Codex Desktop 升级后失效的本地补丁和能力开关。（Computer Use，插件，破限，codex强制汉化，fast mode，手机远控，会话消失等问题）支持每次使用前自动",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "46304bbe563c9026",
+    "method": "deterministic-offline-v1"
+  }
+}

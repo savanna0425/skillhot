@@ -1,0 +1,75 @@
+{
+  "rank": 655,
+  "id": 1033427112,
+  "name": "production-agentic-rag-course",
+  "fullName": "jamwithai/production-agentic-rag-course",
+  "owner": "jamwithai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/186450365?v=4",
+  "url": "https://github.com/jamwithai/production-agentic-rag-course",
+  "homepage": "",
+  "description": "",
+  "summary": "production-agentic-rag-course 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone <repository-url>\ncd arxiv-paper-curator\ncp .env.example .env",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 7281,
+  "forks": 1623,
+  "openIssues": 21,
+  "score": 115.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-05T07:23:49Z",
+  "updatedAt": "2026-07-01T02:51:10Z",
+  "createdAt": "2025-08-06T19:52:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jamwithai/production-agentic-rag-course",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jamwithai/production-agentic-rag-course#readme",
+  "detailPath": "data/details/jamwithai__production__agentic__rag__course.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "production-agentic-rag-course 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5c4cf5b001bd5d50",
+    "method": "deterministic-offline-v1"
+  }
+}

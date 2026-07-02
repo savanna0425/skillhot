@@ -1,0 +1,95 @@
+{
+  "rank": 590,
+  "id": 618514446,
+  "name": "gptme",
+  "fullName": "gptme/gptme",
+  "owner": "gptme",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/157223935?v=4",
+  "url": "https://github.com/gptme/gptme",
+  "homepage": "https://gptme.org/docs/",
+  "description": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
+  "summary": "你的终端中的代理，配备本地工具：编写代码、使用终端、浏览网页。在此基础上构建你自己的持久化自主代理！",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pipx install gptme  # MCP support included by default",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 4345,
+  "forks": 392,
+  "openIssues": 5,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:10:01Z",
+  "updatedAt": "2026-06-30T22:38:02Z",
+  "createdAt": "2023-03-24T16:25:01Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agents",
+    "ai-agents",
+    "ai-assistant",
+    "anthropic",
+    "chatbot",
+    "chatgpt",
+    "cli",
+    "code-generation",
+    "llamacpp",
+    "llm",
+    "llm-agent",
+    "llm-apps",
+    "openai",
+    "openrouter",
+    "rag"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gptme/gptme",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gptme/gptme#readme",
+  "detailPath": "data/details/gptme__gptme.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "你的终端中的代理，配备本地工具：编写代码、使用终端、浏览网页。在此基础上构建你自己的持久化自主代理！",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7bec3a8ef20deda2",
+    "method": "deterministic-offline-v1"
+  }
+}

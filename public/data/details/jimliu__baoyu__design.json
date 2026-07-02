@@ -1,0 +1,90 @@
+{
+  "rank": 432,
+  "id": 1261650101,
+  "name": "baoyu-design",
+  "fullName": "JimLiu/baoyu-design",
+  "owner": "JimLiu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/648674?v=4",
+  "url": "https://github.com/JimLiu/baoyu-design",
+  "homepage": "",
+  "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+  "summary": "运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add JimLiu/baoyu-design\nnpx skills add JimLiu/baoyu-design -g\nnpx skills add JimLiu/baoyu-design --agent claude-code",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2204,
+  "forks": 171,
+  "openIssues": 1,
+  "score": 122.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T07:18:42Z",
+  "updatedAt": "2026-07-01T03:25:42Z",
+  "createdAt": "2026-06-07T01:16:18Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "claude",
+    "claude-code",
+    "claude-design",
+    "cursor",
+    "design",
+    "prototyping",
+    "ui-design"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JimLiu/baoyu-design",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/JimLiu/baoyu-design#readme",
+  "detailPath": "data/details/jimliu__baoyu__design.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a09994f6d6eaf9d3",
+    "method": "deterministic-offline-v1"
+  }
+}

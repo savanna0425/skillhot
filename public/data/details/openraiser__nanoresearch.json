@@ -1,0 +1,94 @@
+{
+  "rank": 1370,
+  "id": 1184170771,
+  "name": "NanoResearch",
+  "fullName": "OpenRaiser/NanoResearch",
+  "owner": "OpenRaiser",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/239348636?v=4",
+  "url": "https://github.com/OpenRaiser/NanoResearch",
+  "homepage": "",
+  "description": "🦞+🔬 NanoResearch: The Autonomous AI Research Assistant",
+  "summary": "NanoResearch：自主 AI 研究助手",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/OpenRaiser/NanoResearch.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1486,
+  "forks": 104,
+  "openIssues": 5,
+  "score": 99.2,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-26T09:16:37Z",
+  "updatedAt": "2026-06-30T20:13:29Z",
+  "createdAt": "2026-03-17T10:20:31Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agents",
+    "ai",
+    "ai-agents",
+    "ai-scientist",
+    "artificial-intelligence",
+    "autonomous-agents",
+    "autonomous-research",
+    "autoresearch",
+    "claude-code",
+    "claude-skills",
+    "nanobot",
+    "openclaw"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenRaiser/NanoResearch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenRaiser/NanoResearch#readme",
+  "detailPath": "data/details/openraiser__nanoresearch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "NanoResearch：自主 AI 研究助手",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a99991b8860c5259",
+    "method": "deterministic-offline-v1"
+  }
+}

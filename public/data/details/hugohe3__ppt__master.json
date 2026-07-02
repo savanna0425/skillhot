@@ -1,0 +1,91 @@
+{
+  "rank": 122,
+  "id": 1113573066,
+  "name": "ppt-master",
+  "fullName": "hugohe3/ppt-master",
+  "owner": "hugohe3",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/188330578?v=4",
+  "url": "https://github.com/hugohe3/ppt-master",
+  "homepage": "https://hugohe3.github.io/ppt-master/",
+  "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+  "summary": "从任何文档生成真实可编辑的 PowerPoint——原生形状与动画、以语音朗读的形式呈现演讲者备注，并支持自定义 .pptx 模板，而非幻灯片图片",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install python\npip install -r requirements.txt\nsudo apt install python3 python3-pip",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 35371,
+  "forks": 2954,
+  "openIssues": 6,
+  "score": 139.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T04:25:34Z",
+  "updatedAt": "2026-07-01T04:56:39Z",
+  "createdAt": "2025-12-10T06:54:33Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "aippt",
+    "office",
+    "powerpoint",
+    "powerpoint-generation",
+    "ppt",
+    "pptx",
+    "presentation",
+    "slide",
+    "slides"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/hugohe3/ppt-master",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/hugohe3/ppt-master#readme",
+  "detailPath": "data/details/hugohe3__ppt__master.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "从任何文档生成真实可编辑的 PowerPoint——原生形状与动画、以语音朗读的形式呈现演讲者备注，并支持自定义 .pptx 模板，而非幻灯片图片",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a07ca56395507d57",
+    "method": "deterministic-offline-v1"
+  }
+}

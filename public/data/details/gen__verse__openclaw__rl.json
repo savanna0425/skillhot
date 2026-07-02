@@ -1,0 +1,91 @@
+{
+  "rank": 883,
+  "id": 1167576951,
+  "name": "OpenClaw-RL",
+  "fullName": "Gen-Verse/OpenClaw-RL",
+  "owner": "Gen-Verse",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/197493814?v=4",
+  "url": "https://github.com/Gen-Verse/OpenClaw-RL",
+  "homepage": "https://arxiv.org/abs/2603.10165",
+  "description": "OpenClaw-RL: Train any agent simply by talking",
+  "summary": "OpenClaw-RL：只需开口，即可训练任何智能体",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Gen-Verse/OpenClaw-RL.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 5532,
+  "forks": 599,
+  "openIssues": 70,
+  "score": 108.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-23T04:17:31Z",
+  "updatedAt": "2026-07-01T02:18:40Z",
+  "createdAt": "2026-02-26T12:57:42Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "async",
+    "coding",
+    "grpo",
+    "gui-application",
+    "memory-systems",
+    "on-policy-distillation",
+    "open-claw",
+    "openclaw-skills",
+    "rlhf",
+    "sglang",
+    "skill-learning",
+    "slime",
+    "tinker"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Gen-Verse/OpenClaw-RL",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Gen-Verse/OpenClaw-RL#readme",
+  "detailPath": "data/details/gen__verse__openclaw__rl.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenClaw-RL：只需开口，即可训练任何智能体",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5c523adc78252645",
+    "method": "deterministic-offline-v1"
+  }
+}

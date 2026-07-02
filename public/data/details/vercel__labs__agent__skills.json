@@ -1,0 +1,76 @@
+{
+  "rank": 138,
+  "id": 1112540808,
+  "name": "agent-skills",
+  "fullName": "vercel-labs/agent-skills",
+  "owner": "vercel-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/108547162?v=4",
+  "url": "https://github.com/vercel-labs/agent-skills",
+  "homepage": "https://skills.sh/vercel-labs/agent-skills",
+  "description": "Vercel's official collection of agent skills",
+  "summary": "Vercel 官方代理技能集合",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "npx skills add vercel-labs/agent-skills",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 28539,
+  "forks": 2567,
+  "openIssues": 156,
+  "score": 137.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-10T21:21:47Z",
+  "updatedAt": "2026-07-01T04:52:03Z",
+  "createdAt": "2025-12-08T19:10:06Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vercel-labs/agent-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/vercel-labs/agent-skills#readme",
+  "detailPath": "data/details/vercel__labs__agent__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Vercel 官方代理技能集合",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ba5e1b81e2d81b77",
+    "method": "deterministic-offline-v1"
+  }
+}

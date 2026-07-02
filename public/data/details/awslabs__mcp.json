@@ -1,0 +1,86 @@
+{
+  "rank": 345,
+  "id": 952238700,
+  "name": "mcp",
+  "fullName": "awslabs/mcp",
+  "owner": "awslabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3299148?v=4",
+  "url": "https://github.com/awslabs/mcp",
+  "homepage": "https://awslabs.github.io/mcp/",
+  "description": "Open source MCP Servers for AWS",
+  "summary": "为 AWS 打造的开源 MCP 服务器",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/awslabs/mcp.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 9360,
+  "forks": 1613,
+  "openIssues": 855,
+  "score": 125.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:02:09Z",
+  "updatedAt": "2026-07-01T03:11:14Z",
+  "createdAt": "2025-03-21T00:39:00Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "aws",
+    "mcp",
+    "mcp-client",
+    "mcp-clients",
+    "mcp-host",
+    "mcp-server",
+    "mcp-servers",
+    "mcp-tools",
+    "modelcontextprotocol"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/awslabs/mcp",
+    "videoUrl": "https://www.youtube.com/watch?v=qXGQQRMrcz0"
+  },
+  "readmeUrl": "https://github.com/awslabs/mcp#readme",
+  "detailPath": "data/details/awslabs__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 AWS 打造的开源 MCP 服务器",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5168420faf8bfc86",
+    "method": "deterministic-offline-v1"
+  }
+}

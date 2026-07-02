@@ -1,0 +1,76 @@
+{
+  "rank": 89,
+  "id": 1103643573,
+  "name": "skills",
+  "fullName": "openai/skills",
+  "owner": "openai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "url": "https://github.com/openai/skills",
+  "homepage": "",
+  "description": "Skills Catalog for Codex",
+  "summary": "Codex 技能目录",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/openai/skills.git",
+  "language": "Python",
+  "license": "",
+  "stars": 23078,
+  "forks": 1565,
+  "openIssues": 279,
+  "score": 142.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T02:36:15Z",
+  "updatedAt": "2026-07-01T04:56:52Z",
+  "createdAt": "2025-11-25T06:25:42Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openai/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/openai/skills#readme",
+  "detailPath": "data/details/openai__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Codex 技能目录",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1d9b5e74b5fae6c9",
+    "method": "deterministic-offline-v1"
+  }
+}

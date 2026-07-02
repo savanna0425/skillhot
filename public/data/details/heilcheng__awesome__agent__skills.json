@@ -1,0 +1,102 @@
+{
+  "rank": 470,
+  "id": 1124920990,
+  "name": "awesome-agent-skills",
+  "fullName": "heilcheng/awesome-agent-skills",
+  "owner": "heilcheng",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/155233908?v=4",
+  "url": "https://github.com/heilcheng/awesome-agent-skills",
+  "homepage": "http://agent-skill.co",
+  "description": "Tutorials, Guides and Agent Skills Directories",
+  "summary": "教程、指南和智能体技能目录",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "npx skills find [query]            # Search for related skills\nnpx skills add <owner/repo>        # Install skills (supports GitHub shorthand, full URL, local path)\nnpx skills list                    # List installed skills",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5917,
+  "forks": 528,
+  "openIssues": 173,
+  "score": 121.5,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-05T20:39:24Z",
+  "updatedAt": "2026-07-01T03:07:29Z",
+  "createdAt": "2025-12-29T21:13:40Z",
+  "sourceTopics": [
+    "agent-skills",
+    "skill-md"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-development",
+    "anthropic",
+    "automation",
+    "awesome",
+    "awesome-list",
+    "claude",
+    "codex",
+    "github-copilot",
+    "llm",
+    "mcp",
+    "openai",
+    "productivity",
+    "skill-md",
+    "vscode"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/heilcheng/awesome-agent-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/heilcheng/awesome-agent-skills#readme",
+  "detailPath": "data/details/heilcheng__awesome__agent__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "教程、指南和智能体技能目录",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9ebeb04aa757f9eb",
+    "method": "deterministic-offline-v1"
+  }
+}

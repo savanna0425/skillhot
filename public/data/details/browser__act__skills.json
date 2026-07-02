@@ -1,0 +1,108 @@
+{
+  "rank": 126,
+  "id": 1151333143,
+  "name": "skills",
+  "fullName": "browser-act/skills",
+  "owner": "browser-act",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255086931?v=4",
+  "url": "https://github.com/browser-act/skills",
+  "homepage": "https://www.browseract.com",
+  "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
+  "summary": "专为 AI 代理构建的浏览器自动化命令行工具。突破反自动化壁垒，在卡顿时跨平台移交人类。支持并行多任务执行、独立多会话操作及隔离多账号浏览",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/browser-act/skills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3373,
+  "forks": 158,
+  "openIssues": 4,
+  "score": 138.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T12:34:30Z",
+  "updatedAt": "2026-07-01T04:51:30Z",
+  "createdAt": "2026-02-06T10:35:35Z",
+  "sourceTopics": [
+    "claude-skills",
+    "claude-code-skills",
+    "openclaw-skills",
+    "codex-skill",
+    "openclaw-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-infrastructure",
+    "ai-agents",
+    "automation",
+    "claude-cli",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "codex-cli",
+    "codex-skill",
+    "cursor",
+    "data-extraction",
+    "no-code",
+    "openclaw",
+    "openclaw-cli",
+    "openclaw-skill",
+    "openclaw-skills",
+    "web-data-extraction",
+    "web-scraping",
+    "web-scraping-api"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/browser-act/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/browser-act/skills#readme",
+  "detailPath": "data/details/browser__act__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "专为 AI 代理构建的浏览器自动化命令行工具。突破反自动化壁垒，在卡顿时跨平台移交人类。支持并行多任务执行、独立多会话操作及隔离多账号浏览",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4ca97010304d071c",
+    "method": "deterministic-offline-v1"
+  }
+}

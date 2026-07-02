@@ -1,0 +1,88 @@
+{
+  "rank": 237,
+  "id": 1179046874,
+  "name": "prompt-master",
+  "fullName": "nidhinjs/prompt-master",
+  "owner": "nidhinjs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/254035488?v=4",
+  "url": "https://github.com/nidhinjs/prompt-master",
+  "homepage": "",
+  "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+  "summary": "为任何 AI 工具编写准确提示词的 Claude 技能。零消耗 Token 或费用。完整上下文与记忆保留",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "mkdir -p ~/.claude/skills\ngit clone https://github.com/nidhinjs/prompt-master.git ~/.claude/skills/prompt-master",
+  "language": "",
+  "license": "MIT",
+  "stars": 10063,
+  "forks": 1198,
+  "openIssues": 24,
+  "score": 131.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-10T16:14:44Z",
+  "updatedAt": "2026-07-01T04:45:37Z",
+  "createdAt": "2026-03-11T16:25:43Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "claude-ai",
+    "claude-skills",
+    "llm",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nidhinjs/prompt-master",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nidhinjs/prompt-master#readme",
+  "detailPath": "data/details/nidhinjs__prompt__master.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为任何 AI 工具编写准确提示词的 Claude 技能。零消耗 Token 或费用。完整上下文与记忆保留",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "22a14c6a4f9f8a74",
+    "method": "deterministic-offline-v1"
+  }
+}

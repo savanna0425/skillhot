@@ -1,0 +1,81 @@
+{
+  "rank": 321,
+  "id": 1129930192,
+  "name": "ui-skills",
+  "fullName": "ibelick/ui-skills",
+  "owner": "ibelick",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/14288396?v=4",
+  "url": "https://github.com/ibelick/ui-skills",
+  "homepage": "https://www.ui-skills.com/",
+  "description": "Skills for Design Engineers",
+  "summary": "面向设计工程师的 UI 设计与实现 Skills 集合",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx ui-skills\nnpx ui-skills start\nnpx ui-skills categories",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 3461,
+  "forks": 144,
+  "openIssues": 6,
+  "score": 127,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T10:13:36Z",
+  "updatedAt": "2026-07-01T04:40:50Z",
+  "createdAt": "2026-01-07T19:35:54Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "skills",
+    "ui-skills"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ibelick/ui-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ibelick/ui-skills#readme",
+  "detailPath": "data/details/ibelick__ui__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向设计工程师的 UI 设计与实现 Skills 集合",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "037c48c26d19a3c8",
+    "method": "deterministic-offline-v1"
+  }
+}

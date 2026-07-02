@@ -1,0 +1,76 @@
+{
+  "rank": 155,
+  "id": 793784055,
+  "name": "timesfm",
+  "fullName": "google-research/timesfm",
+  "owner": "google-research",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/43830688?v=4",
+  "url": "https://github.com/google-research/timesfm",
+  "homepage": "https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/",
+  "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+  "summary": "TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install timesfm[torch]\npip install timesfm[flax]\npip install timesfm[xreg]",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 26280,
+  "forks": 2545,
+  "openIssues": 227,
+  "score": 136.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-23T18:50:53Z",
+  "updatedAt": "2026-07-01T04:24:54Z",
+  "createdAt": "2024-04-29T21:26:26Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google-research/timesfm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/google-research/timesfm#readme",
+  "detailPath": "data/details/google__research__timesfm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "53625ecf38481bfb",
+    "method": "deterministic-offline-v1"
+  }
+}

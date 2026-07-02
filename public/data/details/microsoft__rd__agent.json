@@ -1,0 +1,84 @@
+{
+  "rank": 426,
+  "id": 781261349,
+  "name": "RD-Agent",
+  "fullName": "microsoft/RD-Agent",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/RD-Agent",
+  "homepage": "https://rdagent.azurewebsites.net/",
+  "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
+  "summary": "RD-Agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "高",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install rdagent",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 13711,
+  "forks": 1737,
+  "openIssues": 192,
+  "score": 122.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-15T18:03:02Z",
+  "updatedAt": "2026-07-01T04:36:13Z",
+  "createdAt": "2024-04-03T03:39:33Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "automation",
+    "data-mining",
+    "data-science",
+    "development",
+    "llm",
+    "research"
+  ],
+  "platforms": [
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/RD-Agent",
+    "videoUrl": "https://www.youtube.com/watch?v=JJ4JYO3HscM&list=PLALmKB0_N3_i52fhUmPQiL4jsO354uopR"
+  },
+  "readmeUrl": "https://github.com/microsoft/RD-Agent#readme",
+  "detailPath": "data/details/microsoft__rd__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "RD-Agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "078082345a2e036e",
+    "method": "deterministic-offline-v1"
+  }
+}

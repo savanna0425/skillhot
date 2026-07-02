@@ -1,0 +1,84 @@
+{
+  "rank": 332,
+  "id": 1108682714,
+  "name": "dev-browser",
+  "fullName": "SawyerHood/dev-browser",
+  "owner": "SawyerHood",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2380669?v=4",
+  "url": "https://github.com/SawyerHood/dev-browser",
+  "homepage": "",
+  "description": "A Claude Skill to give your agent the ability to use a web browser",
+  "summary": "Claude 技能：赋予您的代理使用浏览器的能力",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g dev-browser\ndev-browser install    # installs Playwright + Chromium",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 6349,
+  "forks": 400,
+  "openIssues": 6,
+  "score": 126.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-05T18:37:05Z",
+  "updatedAt": "2026-07-01T04:22:25Z",
+  "createdAt": "2025-12-02T19:20:20Z",
+  "sourceTopics": [
+    "skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "playwright",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/SawyerHood/dev-browser",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/SawyerHood/dev-browser#readme",
+  "detailPath": "data/details/sawyerhood__dev__browser.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Claude 技能：赋予您的代理使用浏览器的能力",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "3f3e9509f67c482f",
+    "method": "deterministic-offline-v1"
+  }
+}

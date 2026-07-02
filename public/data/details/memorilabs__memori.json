@@ -1,0 +1,100 @@
+{
+  "rank": 387,
+  "id": 1025381911,
+  "name": "Memori",
+  "fullName": "MemoriLabs/Memori",
+  "owner": "MemoriLabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/239418677?v=4",
+  "url": "https://github.com/MemoriLabs/Memori",
+  "homepage": "https://memorilabs.ai",
+  "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.",
+  "summary": "Memori 是原生 Agent 内存基础设施。一个不依赖特定大语言模型（LLM）的层，将 Agent 执行与对话转化为结构化、持久化的状态，以支持生产系统",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install @memorilabs/memori",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 15506,
+  "forks": 2763,
+  "openIssues": 21,
+  "score": 123.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-15T23:18:56Z",
+  "updatedAt": "2026-07-01T04:46:55Z",
+  "createdAt": "2025-07-24T07:07:51Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-memory",
+    "ai",
+    "ai-memory",
+    "aiagent",
+    "awesome",
+    "chatgpt",
+    "llm",
+    "long-short-term-memory",
+    "memori-ai",
+    "memory",
+    "memory-management",
+    "memory-mcp",
+    "openclaw-memory",
+    "python",
+    "rag",
+    "state-management",
+    "stateful",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MemoriLabs/Memori",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/MemoriLabs/Memori#readme",
+  "detailPath": "data/details/memorilabs__memori.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Memori 是原生 Agent 内存基础设施。一个不依赖特定大语言模型（LLM）的层，将 Agent 执行与对话转化为结构化、持久化的状态，以支持生产系统",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b746ac393e283e89",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "rank": 385,
+  "id": 1128204614,
+  "name": "jcode",
+  "fullName": "1jehuang/jcode",
+  "owner": "1jehuang",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/94247773?v=4",
+  "url": "https://github.com/1jehuang/jcode",
+  "homepage": "",
+  "description": "Coding Agent Harness",
+  "summary": "用于构建和运行代码 Agent 的开源框架",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew tap 1jehuang/jcode\nbrew install jcode",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 8027,
+  "forks": 892,
+  "openIssues": 96,
+  "score": 123.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T18:09:02Z",
+  "updatedAt": "2026-07-01T04:32:00Z",
+  "createdAt": "2026-01-05T09:43:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "claude",
+    "cli",
+    "coding-agent",
+    "llm",
+    "mcp",
+    "openai",
+    "rust",
+    "terminal",
+    "tui"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
+    "OpenCode",
+    "Antigravity"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/1jehuang/jcode",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/1jehuang/jcode#readme",
+  "detailPath": "data/details/1jehuang__jcode.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于构建和运行代码 Agent 的开源框架",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "ef7e54745f36ca4e",
+    "method": "deterministic-offline-v1"
+  }
+}

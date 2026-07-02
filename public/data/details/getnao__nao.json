@@ -1,0 +1,95 @@
+{
+  "rank": 1074,
+  "id": 1125445550,
+  "name": "nao",
+  "fullName": "getnao/nao",
+  "owner": "getnao",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/174858057?v=4",
+  "url": "https://github.com/getnao/nao",
+  "homepage": "https://docs.getnao.io",
+  "description": "👾 nao is an open source analytics agent. (1) Create context with nao-core cli, (2) deploy nao chat interface for everyone",
+  "summary": "nao：SQL、数据处理、统计、可视化与商业分析。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/getnao/nao.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 1357,
+  "forks": 194,
+  "openIssues": 134,
+  "score": 105.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:10:15Z",
+  "updatedAt": "2026-06-30T21:03:01Z",
+  "createdAt": "2025-12-30T18:33:25Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-analytics",
+    "analytics",
+    "analytics-engineering",
+    "bigquery",
+    "business-intelligence",
+    "chat-with-your-data",
+    "context-engineering",
+    "data",
+    "data-analysis",
+    "data-analyst",
+    "data-engineering",
+    "databricks",
+    "postgresql",
+    "self-hosted",
+    "slack-bot",
+    "slackbot",
+    "snowflake",
+    "sql",
+    "text-to-sql"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/getnao/nao",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/getnao/nao#readme",
+  "detailPath": "data/details/getnao__nao.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "nao：SQL、数据处理、统计、可视化与商业分析。",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "514c47000e95f939",
+    "method": "deterministic-offline-v1"
+  }
+}

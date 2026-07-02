@@ -1,0 +1,94 @@
+{
+  "rank": 11,
+  "id": 1141704318,
+  "name": "awesome-openclaw-skills",
+  "fullName": "VoltAgent/awesome-openclaw-skills",
+  "owner": "VoltAgent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/201282378?v=4",
+  "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+  "homepage": "https://clawskills.sh/",
+  "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+  "summary": "从官方注册表筛选整理 5,400+ OpenClaw Skills",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "OpenClaw 技能发现",
+    "按领域筛选",
+    "技能市场调研"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "npx clawhub install <skill-slug>",
+  "language": "",
+  "license": "MIT",
+  "stars": 50791,
+  "forks": 4917,
+  "openIssues": 9,
+  "score": 158.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T05:50:01Z",
+  "updatedAt": "2026-07-01T04:52:39Z",
+  "createdAt": "2026-01-25T09:22:32Z",
+  "sourceTopics": [
+    "agent-skills",
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "awesome",
+    "awesome-list",
+    "awesome-lists",
+    "clawd",
+    "clawdbot",
+    "clawdbot-skill",
+    "clawdhub",
+    "moltbot",
+    "moltbot-skills",
+    "openclaw",
+    "openclaw-skills"
+  ],
+  "platforms": [
+    "Codex",
+    "OpenClaw"
+  ],
+  "skillCount": 1200,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/VoltAgent/awesome-openclaw-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/VoltAgent/awesome-openclaw-skills#readme",
+  "detailPath": "data/details/voltagent__awesome__openclaw__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "从官方注册表筛选整理 5,400+ OpenClaw Skills",
+    "useCases": [
+      "OpenClaw 技能发现",
+      "按领域筛选",
+      "技能市场调研"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "db1b0f2adc5f3202",
+    "method": "deterministic-offline-v1"
+  }
+}

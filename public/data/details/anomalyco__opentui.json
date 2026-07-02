@@ -1,0 +1,78 @@
+{
+  "rank": 297,
+  "id": 1023522611,
+  "name": "opentui",
+  "fullName": "anomalyco/opentui",
+  "owner": "anomalyco",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/66570915?v=4",
+  "url": "https://github.com/anomalyco/opentui",
+  "homepage": "https://opentui.com",
+  "description": "OpenTUI is a library for building terminal user interfaces (TUIs)",
+  "summary": "OpenTUI 是一个构建终端用户界面（TUI）的库",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add anomalyco/opentui --skill opentui",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 12236,
+  "forks": 628,
+  "openIssues": 164,
+  "score": 128.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T10:35:59Z",
+  "updatedAt": "2026-07-01T04:42:28Z",
+  "createdAt": "2025-07-21T09:35:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "opencode",
+    "tui"
+  ],
+  "platforms": [
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/anomalyco/opentui",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/anomalyco/opentui#readme",
+  "detailPath": "data/details/anomalyco__opentui.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "OpenTUI 是一个构建终端用户界面（TUI）的库",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "14092e43c0f1d54e",
+    "method": "deterministic-offline-v1"
+  }
+}

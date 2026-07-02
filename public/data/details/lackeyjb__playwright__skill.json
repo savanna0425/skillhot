@@ -1,0 +1,91 @@
+{
+  "rank": 1155,
+  "id": 1079469057,
+  "name": "playwright-skill",
+  "fullName": "lackeyjb/playwright-skill",
+  "owner": "lackeyjb",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9823496?v=4",
+  "url": "https://github.com/lackeyjb/playwright-skill",
+  "homepage": "",
+  "description": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+  "summary": "基于 Playwright 的浏览器自动化 Claude Code 技能。由模型调用 - Claude 自主编写和执行用于测试和验证的自定义自动化",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "高",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/lackeyjb/playwright-skill.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2845,
+  "forks": 200,
+  "openIssues": 16,
+  "score": 101.9,
+  "activity": "活跃",
+  "pushedAt": "2025-12-19T16:23:38Z",
+  "updatedAt": "2026-07-01T02:47:50Z",
+  "createdAt": "2025-10-19T21:33:51Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-tools",
+    "automation",
+    "browser-automation",
+    "claude",
+    "claude-code",
+    "claude-plugin",
+    "claude-skills",
+    "developer-tools",
+    "e2e-testing",
+    "model-invoked",
+    "nodejs",
+    "playwright",
+    "web-testing"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/lackeyjb/playwright-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/lackeyjb/playwright-skill#readme",
+  "detailPath": "data/details/lackeyjb__playwright__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Playwright 的浏览器自动化 Claude Code 技能。由模型调用 - Claude 自主编写和执行用于测试和验证的自定义自动化",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8a42fe1968a04c3c",
+    "method": "deterministic-offline-v1"
+  }
+}

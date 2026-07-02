@@ -1,0 +1,96 @@
+{
+  "rank": 314,
+  "id": 1073337396,
+  "name": "claude-code-plugins-plus-skills",
+  "fullName": "jeremylongshore/claude-code-plugins-plus-skills",
+  "owner": "jeremylongshore",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/213859472?v=4",
+  "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+  "homepage": "https://tonsofskills.com",
+  "description": "425 plugins, 2,810 skills, 200 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.",
+  "summary": "425 个插件，2,810 个技能，200 个代理，专为 Claude Code 打造。在 tonsofskills.com 开源市场上提供 ccpi CLI 包管理器",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
+  "scenarios": [
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "pnpm add -g @intentsolutionsio/ccpi    # Install the CLI\nccpi install devops-automation-pack     # Install any plugin",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2457,
+  "forks": 347,
+  "openIssues": 17,
+  "score": 127.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:08:24Z",
+  "updatedAt": "2026-06-30T23:16:26Z",
+  "createdAt": "2025-10-10T01:01:00Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "automation",
+    "claude-code",
+    "claude-code-plugins",
+    "developer-tools",
+    "devops",
+    "llm",
+    "marketplace",
+    "mcp",
+    "plugin-marketplace",
+    "plugin-system",
+    "saas",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 2769,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jeremylongshore/claude-code-plugins-plus-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills#readme",
+  "detailPath": "data/details/jeremylongshore__claude__code__plugins__plus__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "425 个插件，2,810 个技能，200 个代理，专为 Claude Code 打造。在 tonsofskills.com 开源市场上提供 ccpi CLI 包管理器",
+    "useCases": [
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4d6a99d37b361e00",
+    "method": "deterministic-offline-v1"
+  }
+}

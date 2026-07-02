@@ -1,0 +1,79 @@
+{
+  "rank": 1263,
+  "id": 1255291036,
+  "name": "Arbor",
+  "fullName": "RUC-NLPIR/Arbor",
+  "owner": "RUC-NLPIR",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/139615285?v=4",
+  "url": "https://github.com/RUC-NLPIR/Arbor",
+  "homepage": "https://ruc-nlpir.github.io/Arbor/",
+  "description": "A generalist autonomous research agent — runs experiments, researches, and iteratively optimizes, autonomously.",
+  "summary": "Arbor 支持资料研究、知识检索或学习任务。",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/RUC-NLPIR/Arbor.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 859,
+  "forks": 110,
+  "openIssues": 0,
+  "score": 100.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T02:22:27Z",
+  "updatedAt": "2026-07-01T03:58:11Z",
+  "createdAt": "2026-05-31T16:42:47Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "autonomous-agents",
+    "autoresearch"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/RUC-NLPIR/Arbor",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/RUC-NLPIR/Arbor#readme",
+  "detailPath": "data/details/ruc__nlpir__arbor.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Arbor 支持资料研究、知识检索或学习任务。",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2f2f1d90f9cb4933",
+    "method": "deterministic-offline-v1"
+  }
+}

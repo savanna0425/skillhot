@@ -1,0 +1,75 @@
+{
+  "rank": 1389,
+  "id": 1128063451,
+  "name": "skill-prompt-generator",
+  "fullName": "huangserva/skill-prompt-generator",
+  "owner": "huangserva",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/201197786?v=4",
+  "url": "https://github.com/huangserva/skill-prompt-generator",
+  "homepage": "",
+  "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+  "summary": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/huangserva/skill-prompt-generator.git",
+  "language": "Python",
+  "license": "",
+  "stars": 1411,
+  "forks": 207,
+  "openIssues": 4,
+  "score": 98.7,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-10T09:16:55Z",
+  "updatedAt": "2026-06-30T07:00:16Z",
+  "createdAt": "2026-01-05T04:49:44Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/huangserva/skill-prompt-generator",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/huangserva/skill-prompt-generator#readme",
+  "detailPath": "data/details/huangserva__skill__prompt__generator.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "734259cbe7bbb801",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "rank": 836,
+  "id": 1172896941,
+  "name": "EvoSkill",
+  "fullName": "sentient-agi/EvoSkill",
+  "owner": "sentient-agi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/175796272?v=4",
+  "url": "https://github.com/sentient-agi/EvoSkill",
+  "homepage": "",
+  "description": "EvoSkill — An open-source framework that automatically discovers and synthesizes reusable agent skills from failed trajectories to improve coding agent performance.",
+  "summary": "EvoSkill：一个开源框架，能够从失败的轨迹中自动发现并合成可复用的代理技能，以提升编码代理的性能",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv sync\npip install -e .",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 978,
+  "forks": 108,
+  "openIssues": 11,
+  "score": 109.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T15:20:10Z",
+  "updatedAt": "2026-06-30T16:54:43Z",
+  "createdAt": "2026-03-04T20:00:30Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sentient-agi/EvoSkill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/sentient-agi/EvoSkill#readme",
+  "detailPath": "data/details/sentient__agi__evoskill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "EvoSkill：一个开源框架，能够从失败的轨迹中自动发现并合成可复用的代理技能，以提升编码代理的性能",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e295b0141e65970c",
+    "method": "deterministic-offline-v1"
+  }
+}

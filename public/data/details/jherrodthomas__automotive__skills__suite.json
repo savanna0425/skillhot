@@ -1,0 +1,85 @@
+{
+  "rank": 612,
+  "id": 1226387273,
+  "name": "automotive-skills-suite",
+  "fullName": "jherrodthomas/automotive-skills-suite",
+  "owner": "jherrodthomas",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/275361233?v=4",
+  "url": "https://github.com/jherrodthomas/automotive-skills-suite",
+  "homepage": "",
+  "description": "100+ installable Claude skills covering Engineering areas such as, ISO 26262 functional safety, ISO/SAE 21434 cybersecurity, ISO 21448 SOTIF, AIAG-VDA quality (APQP/PPAP/FMEA), Automotive SPICE, and continuous improvement tools — every builder paired with a confirmation reviewer.",
+  "summary": "automotive-skills-suite 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "中",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/jherrodthomas/automotive-skills-suite.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 1909,
+  "forks": 122,
+  "openIssues": 0,
+  "score": 116.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T11:08:02Z",
+  "updatedAt": "2026-07-01T04:33:47Z",
+  "createdAt": "2026-05-01T10:30:37Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "apqp",
+    "aspice",
+    "automotive",
+    "autosar",
+    "engineering",
+    "fusa",
+    "hardware",
+    "software-engineering",
+    "system"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jherrodthomas/automotive-skills-suite",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jherrodthomas/automotive-skills-suite#readme",
+  "detailPath": "data/details/jherrodthomas__automotive__skills__suite.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "automotive-skills-suite 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9012e42b6bd2212d",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "rank": 1295,
+  "id": 1016903129,
+  "name": "nuwax",
+  "fullName": "nuwax-ai/nuwax",
+  "owner": "nuwax-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/220066786?v=4",
+  "url": "https://github.com/nuwax-ai/nuwax",
+  "homepage": "https://nuwax.com",
+  "description": "Nuwax Agent OS - An enterprise-grade AI Agent Development and Operation Platform - Providing a complete solution for agent creation and distribution, knowledge base management, model proxy, memory system, and plugin ecosystem.",
+  "summary": "Nuwax Agent OS - 企业级 AI 代理开发及运营平台 - 提供代理创建与分发、知识库管理、模型代理、记忆系统及插件生态的完整解决方案",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/nuwax-ai/nuwax.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 825,
+  "forks": 165,
+  "openIssues": 13,
+  "score": 100.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T20:22:47Z",
+  "updatedAt": "2026-07-01T02:48:56Z",
+  "createdAt": "2025-07-09T17:50:12Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "a2a",
+    "agent",
+    "agent-os",
+    "agent-sandbox",
+    "agentic",
+    "agentic-rag",
+    "agentos",
+    "application",
+    "chatbot",
+    "mcp",
+    "rag",
+    "skills",
+    "workflow"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nuwax-ai/nuwax",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nuwax-ai/nuwax#readme",
+  "detailPath": "data/details/nuwax__ai__nuwax.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Nuwax Agent OS - 企业级 AI 代理开发及运营平台 - 提供代理创建与分发、知识库管理、模型代理、记忆系统及插件生态的完整解决方案",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "944b9cdc14148835",
+    "method": "deterministic-offline-v1"
+  }
+}

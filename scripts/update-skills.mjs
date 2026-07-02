@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { copyFile, mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
@@ -8,6 +8,7 @@ import {
   summaryFor as taxonomySummaryFor,
   usageFor as taxonomyUsageFor,
 } from './catalog-taxonomy.mjs'
+import { writeDerivedCatalog } from './catalog-derived.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -70,7 +71,7 @@ const curatedRepositories = [
   'hashgraph-online/awesome-codex-plugins',
 ]
 
-const maxRepositories = 1500
+const minimumCatalogScore = 60
 
 const curated = {
   'obra/superpowers': {
@@ -638,7 +639,7 @@ async function main() {
     .sort((a, b) => b.score - a.score || b.repo.stargazers_count - a.repo.stargazers_count)
 
   const ranked = [...new Map([
-    ...allRanked.slice(0, maxRepositories),
+    ...allRanked.filter((item) => item.score >= minimumCatalogScore),
     ...allRanked.filter((item) => item.channels.includes('精选来源')),
   ].map((item) => [item.repo.full_name.toLowerCase(), item])).values()]
     .sort((a, b) => b.score - a.score || b.repo.stargazers_count - a.repo.stargazers_count)
@@ -752,7 +753,15 @@ async function main() {
   }
 
   await mkdir(outputDir, { recursive: true })
+  const previousPath = path.join(outputDir, 'skills.previous.json')
+  try {
+    await copyFile(path.join(outputDir, 'skills.json'), previousPath)
+  } catch {
+    // First run has no previous snapshot; derived data will mark everything as stable.
+  }
   await writeFile(path.join(outputDir, 'skills.json'), `${JSON.stringify(data, null, 2)}\n`)
+  await writeDerivedCatalog(data, { outputDir, previousPath })
+  await rm(previousPath, { force: true })
   console.log(`Wrote ${skills.length} repositories, ${categories.length} categories and ${topicPages.length} topic pages at ${generatedAt}.`)
 }
 

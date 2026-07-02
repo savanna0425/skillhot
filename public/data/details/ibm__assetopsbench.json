@@ -1,0 +1,84 @@
+{
+  "rank": 873,
+  "id": 976286833,
+  "name": "AssetOpsBench",
+  "fullName": "IBM/AssetOpsBench",
+  "owner": "IBM",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1459110?v=4",
+  "url": "https://github.com/IBM/AssetOpsBench",
+  "homepage": "",
+  "description": "AssetOpsBench - Industry 4.0: A unified benchmark and framework for building, orchestrating, and evaluating domain-specific AI agents for Industry 4.0 asset operations and maintenance, with 460+ scenarios, 5 specialist agents (IoT, FMSR, TSFM, Work Order,...), and multi-agent orchestration blueprints (MetaAgent, AgentHive) over MCP.",
+  "summary": "AssetOpsBench 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/IBM/AssetOpsBench.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1951,
+  "forks": 287,
+  "openIssues": 43,
+  "score": 109,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:10:04Z",
+  "updatedAt": "2026-07-01T03:45:10Z",
+  "createdAt": "2025-05-01T20:48:50Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-for-physical-assets",
+    "condition-based-maintenance",
+    "hvac-maintenance",
+    "iot",
+    "llm-agents",
+    "model-context-protocol",
+    "predictive-maintenance",
+    "time-series-forecasting"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/IBM/AssetOpsBench",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/IBM/AssetOpsBench#readme",
+  "detailPath": "data/details/ibm__assetopsbench.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "AssetOpsBench 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "be9f82bd0eacb384",
+    "method": "deterministic-offline-v1"
+  }
+}

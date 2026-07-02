@@ -1,0 +1,93 @@
+{
+  "rank": 335,
+  "id": 1167788341,
+  "name": "code-review-graph",
+  "fullName": "tirth8205/code-review-graph",
+  "owner": "tirth8205",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/68604113?v=4",
+  "url": "https://github.com/tirth8205/code-review-graph",
+  "homepage": "https://code-review-graph.com",
+  "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+  "summary": "基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install code-review-graph                     # or: pipx install code-review-graph\ncode-review-graph install          # auto-detects and configures all supported platforms\ncode-review-graph build            # parse your codebase",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 19034,
+  "forks": 2039,
+  "openIssues": 161,
+  "score": 125.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-14T17:20:41Z",
+  "updatedAt": "2026-07-01T04:23:17Z",
+  "createdAt": "2026-02-26T17:25:13Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-coding",
+    "claude",
+    "claude-code",
+    "code-review",
+    "graphrag",
+    "incremental",
+    "knowledge-graph",
+    "llm",
+    "mcp",
+    "python",
+    "static-analysis",
+    "tree-sitter"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tirth8205/code-review-graph",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/tirth8205/code-review-graph#readme",
+  "detailPath": "data/details/tirth8205__code__review__graph.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4de21fbf9be00328",
+    "method": "deterministic-offline-v1"
+  }
+}

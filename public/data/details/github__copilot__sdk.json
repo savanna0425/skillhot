@@ -1,0 +1,75 @@
+{
+  "rank": 343,
+  "id": 1133883850,
+  "name": "copilot-sdk",
+  "fullName": "github/copilot-sdk",
+  "owner": "github",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
+  "url": "https://github.com/github/copilot-sdk",
+  "homepage": "",
+  "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+  "summary": "面向多平台的 SDK，用于将 GitHub Copilot Agent 集成到应用和服务中",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/github/copilot-sdk.git",
+  "language": "Java",
+  "license": "MIT",
+  "stars": 9474,
+  "forks": 1284,
+  "openIssues": 219,
+  "score": 125.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:34:09Z",
+  "updatedAt": "2026-07-01T04:28:09Z",
+  "createdAt": "2026-01-14T00:23:22Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/github/copilot-sdk",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/github/copilot-sdk#readme",
+  "detailPath": "data/details/github__copilot__sdk.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向多平台的 SDK，用于将 GitHub Copilot Agent 集成到应用和服务中",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9592371fc0ac1ecc",
+    "method": "deterministic-offline-v1"
+  }
+}

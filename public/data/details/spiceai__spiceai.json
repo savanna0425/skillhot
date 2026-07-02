@@ -1,0 +1,85 @@
+{
+  "rank": 750,
+  "id": 394089041,
+  "name": "spiceai",
+  "fullName": "spiceai/spiceai",
+  "owner": "spiceai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/73862742?v=4",
+  "url": "https://github.com/spiceai/spiceai",
+  "homepage": "https://docs.spiceai.org",
+  "description": "A portable accelerated SQL query, search, and LLM-inference engine, written in Rust, for data-grounded AI apps and agents.",
+  "summary": "基于数据驱动的 AI 应用与代理的便携式加速 SQL 查询、搜索及大语言模型推理引擎，用 Rust 编写",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install spiceai/spiceai/spice",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 3004,
+  "forks": 209,
+  "openIssues": 390,
+  "score": 113.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:47:21Z",
+  "updatedAt": "2026-07-01T03:04:49Z",
+  "createdAt": "2021-08-08T23:26:13Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "artificial-intelligence",
+    "data",
+    "data-federation",
+    "developers",
+    "full-text-search",
+    "infrastructure",
+    "llm-inference",
+    "machine-learning",
+    "sql"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/spiceai/spiceai",
+    "videoUrl": "https://www.youtube.com/watch?v=tyM-ec1lKfU"
+  },
+  "readmeUrl": "https://github.com/spiceai/spiceai#readme",
+  "detailPath": "data/details/spiceai__spiceai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于数据驱动的 AI 应用与代理的便携式加速 SQL 查询、搜索及大语言模型推理引擎，用 Rust 编写",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7e189ee41711d743",
+    "method": "deterministic-offline-v1"
+  }
+}

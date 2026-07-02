@@ -1,0 +1,83 @@
+{
+  "rank": 80,
+  "id": 710601088,
+  "name": "crewAI",
+  "fullName": "crewAIInc/crewAI",
+  "owner": "crewAIInc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/170677839?v=4",
+  "url": "https://github.com/crewAIInc/crewAI",
+  "homepage": "https://crewai.com",
+  "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "summary": "用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add crewaiinc/skills",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 54661,
+  "forks": 7661,
+  "openIssues": 575,
+  "score": 143.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:19:00Z",
+  "updatedAt": "2026-07-01T04:54:19Z",
+  "createdAt": "2023-10-27T03:26:59Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/crewAIInc/crewAI",
+    "videoUrl": "https://www.youtube.com/watch?v=-kSOTtYzgEw"
+  },
+  "readmeUrl": "https://github.com/crewAIInc/crewAI#readme",
+  "detailPath": "data/details/crewaiinc__crewai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "499b4e18b828aa1e",
+    "method": "deterministic-offline-v1"
+  }
+}

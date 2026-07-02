@@ -1,0 +1,95 @@
+{
+  "rank": 844,
+  "id": 628729877,
+  "name": "langroid",
+  "fullName": "langroid/langroid",
+  "owner": "langroid",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/130325191?v=4",
+  "url": "https://github.com/langroid/langroid",
+  "homepage": "https://langroid.github.io/langroid/",
+  "description": "Harness LLMs with Multi-Agent Programming",
+  "summary": "利用多代理编程调用大语言模型",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "pip install langroid",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 4049,
+  "forks": 378,
+  "openIssues": 71,
+  "score": 109.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-15T15:52:28Z",
+  "updatedAt": "2026-06-30T16:32:29Z",
+  "createdAt": "2023-04-16T20:47:28Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "chatgpt",
+    "function-calling",
+    "gpt",
+    "gpt-4",
+    "gpt4",
+    "information-retrieval",
+    "language-model",
+    "llama",
+    "llm",
+    "llm-agent",
+    "llm-framework",
+    "local-llm",
+    "multi-agent-systems",
+    "openai-api",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/langroid/langroid",
+    "videoUrl": "https://vimeo.com/871429249"
+  },
+  "readmeUrl": "https://github.com/langroid/langroid#readme",
+  "detailPath": "data/details/langroid__langroid.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "利用多代理编程调用大语言模型",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f470ddf4a17078f7",
+    "method": "deterministic-offline-v1"
+  }
+}

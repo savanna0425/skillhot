@@ -1,0 +1,99 @@
+{
+  "rank": 236,
+  "id": 726082384,
+  "name": "open-saas",
+  "fullName": "wasp-lang/open-saas",
+  "owner": "wasp-lang",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/55102317?v=4",
+  "url": "https://github.com/wasp-lang/open-saas",
+  "homepage": "https://opensaas.sh",
+  "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
+  "summary": "open-saas 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "高",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i -g @wasp.sh/wasp-cli",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 14801,
+  "forks": 1763,
+  "openIssues": 113,
+  "score": 131.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-19T16:00:12Z",
+  "updatedAt": "2026-07-01T01:28:59Z",
+  "createdAt": "2023-12-01T13:54:36Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai",
+    "authentication",
+    "aws-s3",
+    "boilerplate",
+    "chatgpt",
+    "full-stack",
+    "google-auth",
+    "hacktoberfest",
+    "nodejs",
+    "open-source",
+    "openai-api",
+    "postgresql",
+    "prisma",
+    "react",
+    "saas",
+    "saas-boilerplate",
+    "saas-starter",
+    "saas-template",
+    "typesafe",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wasp-lang/open-saas",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/wasp-lang/open-saas#readme",
+  "detailPath": "data/details/wasp__lang__open__saas.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "open-saas 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a1806b878ea29d0f",
+    "method": "deterministic-offline-v1"
+  }
+}

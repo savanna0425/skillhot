@@ -1,0 +1,92 @@
+{
+  "rank": 295,
+  "id": 1008373485,
+  "name": "claudecodeui",
+  "fullName": "siteboon/claudecodeui",
+  "owner": "siteboon",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/194797703?v=4",
+  "url": "https://github.com/siteboon/claudecodeui",
+  "homepage": "https://cloudcli.ai",
+  "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
+  "summary": "claudecodeui 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "categoryConfidence": "高",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "scenarios": [
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx @cloudcli-ai/cloudcli",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 12278,
+  "forks": 1672,
+  "openIssues": 111,
+  "score": 128.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:44:29Z",
+  "updatedAt": "2026-07-01T04:41:18Z",
+  "createdAt": "2025-06-25T12:51:12Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "anthropic",
+    "anthropic-ai",
+    "anthropic-claude",
+    "claude",
+    "claude-api",
+    "claude-code",
+    "claude-code-ui",
+    "claudecode",
+    "gui",
+    "mobile-first",
+    "react",
+    "ui"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/siteboon/claudecodeui",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/siteboon/claudecodeui#readme",
+  "detailPath": "data/details/siteboon__claudecodeui.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "claudecodeui 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+    "useCases": [
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "d5df2f4f8ad9174f",
+    "method": "deterministic-offline-v1"
+  }
+}

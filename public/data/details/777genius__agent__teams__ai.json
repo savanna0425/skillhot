@@ -1,0 +1,98 @@
+{
+  "rank": 1051,
+  "id": 1163183284,
+  "name": "agent-teams-ai",
+  "fullName": "777genius/agent-teams-ai",
+  "owner": "777genius",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/13103045?v=4",
+  "url": "https://github.com/777genius/agent-teams-ai",
+  "homepage": "https://agentteams.live",
+  "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams.",
+  "summary": "你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/777genius/agent-teams-ai.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 1435,
+  "forks": 265,
+  "openIssues": 13,
+  "score": 105.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:21:10Z",
+  "updatedAt": "2026-06-30T20:28:29Z",
+  "createdAt": "2026-02-21T08:14:44Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-teams",
+    "agent-to-agent",
+    "ai",
+    "ai-agents",
+    "ai-assistant",
+    "ai-tools",
+    "anthropic",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "electron",
+    "llm",
+    "mcp-server",
+    "multi-agent",
+    "openai",
+    "opencode",
+    "team-management",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/777genius/agent-teams-ai",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/777genius/agent-teams-ai#readme",
+  "detailPath": "data/details/777genius__agent__teams__ai.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "94d87540dba0a32e",
+    "method": "deterministic-offline-v1"
+  }
+}

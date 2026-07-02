@@ -1,0 +1,90 @@
+{
+  "rank": 397,
+  "id": 1179413000,
+  "name": "inkos",
+  "fullName": "Narcooo/inkos",
+  "owner": "Narcooo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/33502405?v=4",
+  "url": "https://github.com/Narcooo/inkos",
+  "homepage": "",
+  "description": "Story Creation AI Agent for novel, scripts, interactive games, and IP content",
+  "summary": "小说、剧本、互动游戏及 IP 内容故事创作 AI 代理",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm i -g @actalk/inkos",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 7686,
+  "forks": 1439,
+  "openIssues": 193,
+  "score": 123.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:31:51Z",
+  "updatedAt": "2026-07-01T03:39:52Z",
+  "createdAt": "2026-03-12T02:12:54Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "ai-agent",
+    "ai-writing",
+    "chinese-novel",
+    "cli",
+    "creative-writing-ai",
+    "fiction",
+    "game",
+    "novel-ai",
+    "novel-generation"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Narcooo/inkos",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Narcooo/inkos#readme",
+  "detailPath": "data/details/narcooo__inkos.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "小说、剧本、互动游戏及 IP 内容故事创作 AI 代理",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a1cd556da8c2f926",
+    "method": "deterministic-offline-v1"
+  }
+}

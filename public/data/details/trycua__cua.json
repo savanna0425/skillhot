@@ -1,0 +1,98 @@
+{
+  "rank": 204,
+  "id": 925270205,
+  "name": "cua",
+  "fullName": "trycua/cua",
+  "owner": "trycua",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4",
+  "url": "https://github.com/trycua/cua",
+  "homepage": "https://cua.ai",
+  "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+  "summary": "用于计算机使用代理的开源基础设施。提供沙箱、SDK 和基准，用于训练和评估可控制完整桌面（macOS、Linux、Windows）的 AI 代理",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/trycua/cua && cd cua/cua-bench\nuv tool install -e . && cb image create linux-docker\ncb run dataset datasets/cua-bench-basic --agent cua-agent --max-parallel 4",
+  "language": "HTML",
+  "license": "MIT",
+  "stars": 19245,
+  "forks": 1265,
+  "openIssues": 451,
+  "score": 132.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:51:50Z",
+  "updatedAt": "2026-07-01T04:55:40Z",
+  "createdAt": "2025-01-31T15:02:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai-agent",
+    "apple",
+    "computer-use",
+    "computer-use-agent",
+    "containerization",
+    "cua",
+    "desktop-automation",
+    "hacktoberfest",
+    "lume",
+    "macos",
+    "manus",
+    "operator",
+    "swift",
+    "virtualization",
+    "virtualization-framework",
+    "windows",
+    "windows-sandbox"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/trycua/cua",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/trycua/cua#readme",
+  "detailPath": "data/details/trycua__cua.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于计算机使用代理的开源基础设施。提供沙箱、SDK 和基准，用于训练和评估可控制完整桌面（macOS、Linux、Windows）的 AI 代理",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "94e6d9c131191f3a",
+    "method": "deterministic-offline-v1"
+  }
+}

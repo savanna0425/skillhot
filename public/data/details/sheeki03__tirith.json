@@ -1,0 +1,86 @@
+{
+  "rank": 509,
+  "id": 1147679251,
+  "name": "tirith",
+  "fullName": "sheeki03/tirith",
+  "owner": "sheeki03",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/36009418?v=4",
+  "url": "https://github.com/sheeki03/tirith",
+  "homepage": "https://tirith.sh",
+  "description": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
+  "summary": "终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "brew install tirith",
+  "language": "Rust",
+  "license": "AGPL-3.0",
+  "stars": 2541,
+  "forks": 85,
+  "openIssues": 19,
+  "score": 119.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T08:09:15Z",
+  "updatedAt": "2026-06-30T23:59:10Z",
+  "createdAt": "2026-02-02T04:33:47Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "cli",
+    "devtools",
+    "homograph-attack",
+    "rust",
+    "security",
+    "shell",
+    "supply-chain-security",
+    "terminal",
+    "unicode",
+    "url-security"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sheeki03/tirith",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/sheeki03/tirith#readme",
+  "detailPath": "data/details/sheeki03__tirith.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a480d5c37bc585b3",
+    "method": "deterministic-offline-v1"
+  }
+}

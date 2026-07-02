@@ -2,6 +2,9 @@ import { readFile } from 'node:fs/promises'
 import { semanticQualityIssues } from './catalog-taxonomy.mjs'
 
 const data = JSON.parse(await readFile(new URL('../public/data/skills.json', import.meta.url), 'utf8'))
+const manifest = JSON.parse(await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'))
+const home = JSON.parse(await readFile(new URL('../public/data/home.json', import.meta.url), 'utf8'))
+const lite = JSON.parse(await readFile(new URL('../public/data/skills-lite.json', import.meta.url), 'utf8'))
 
 const requiredCategories = [
   'UI设计',
@@ -38,6 +41,10 @@ assert(data.meta.repositories === data.skills.length, 'meta.repositories must ma
 assert(!Object.hasOwn(data.meta, 'tokenCost'), 'tokenCost must not be part of public metadata')
 assert(Array.isArray(data.categories) && data.categories.length >= requiredCategories.length, 'category metadata is incomplete')
 assert(Array.isArray(data.topics) && data.topics.length >= 10, 'topic aggregation is incomplete')
+assert(manifest.catalogPolicy.mode === 'dynamic-threshold', 'manifest must describe dynamic catalog policy')
+assert(manifest.stats.repositories === data.skills.length, 'manifest stats must match skills.json')
+assert(home.skills.length > 0 && home.skills.length < data.skills.length, 'home.json must be a lightweight subset')
+assert(lite.skills.length === data.skills.length, 'skills-lite.json must contain every visible repository')
 
 const categoryNames = new Set(data.categories.map((item) => item.name))
 requiredCategories.forEach((category) => assert(categoryNames.has(category), `missing category ${category}`))
@@ -65,6 +72,15 @@ for (const skill of data.skills) {
     assert(skill.stars >= 500, `high-star search result below 500 Stars: ${skill.fullName}`)
     assert(Date.parse(skill.pushedAt) >= activeHighStarCutoff, `inactive high-star search result: ${skill.fullName}`)
   }
+}
+
+for (const skill of lite.skills) {
+  assert(skill.detailPath, `missing detailPath for ${skill.fullName}`)
+  assert(skill.catalogStatus === 'active', `invalid catalog status for ${skill.fullName}`)
+  assert(['new', 'updated', 'stable'].includes(skill.catalogDelta), `invalid catalog delta for ${skill.fullName}`)
+  assert(skill.aiInsight?.summary, `missing AI summary for ${skill.fullName}`)
+  assert(Array.isArray(skill.aiInsight.useCases) && skill.aiInsight.useCases.length > 0, `missing AI use cases for ${skill.fullName}`)
+  assert(Array.isArray(skill.aiInsight.expectedEffects) && skill.aiInsight.expectedEffects.length > 0, `missing AI expected effects for ${skill.fullName}`)
 }
 
 assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)

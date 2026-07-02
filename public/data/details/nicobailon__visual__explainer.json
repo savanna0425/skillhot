@@ -1,0 +1,80 @@
+{
+  "rank": 197,
+  "id": 1159484260,
+  "name": "visual-explainer",
+  "fullName": "nicobailon/visual-explainer",
+  "owner": "nicobailon",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2958133?v=4",
+  "url": "https://github.com/nicobailon/visual-explainer",
+  "homepage": "",
+  "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+  "summary": "生成用于图表、差异审查、计划审计、数据表及项目回顾的丰富 HTML 页面的 Agent 技能",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone --depth 1 https://github.com/nicobailon/visual-explainer.git\npi install ./visual-explainer",
+  "language": "HTML",
+  "license": "MIT",
+  "stars": 9121,
+  "forks": 621,
+  "openIssues": 35,
+  "score": 133.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-25T07:48:15Z",
+  "updatedAt": "2026-07-01T00:58:26Z",
+  "createdAt": "2026-02-16T19:33:52Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nicobailon/visual-explainer",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nicobailon/visual-explainer#readme",
+  "detailPath": "data/details/nicobailon__visual__explainer.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "生成用于图表、差异审查、计划审计、数据表及项目回顾的丰富 HTML 页面的 Agent 技能",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "567816499b3da5a2",
+    "method": "deterministic-offline-v1"
+  }
+}

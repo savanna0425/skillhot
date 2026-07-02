@@ -1,0 +1,87 @@
+{
+  "rank": 53,
+  "id": 730534580,
+  "name": "ragflow",
+  "fullName": "infiniflow/ragflow",
+  "owner": "infiniflow",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/69962740?v=4",
+  "url": "https://github.com/infiniflow/ragflow",
+  "homepage": "https://ragflow.io",
+  "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+  "summary": "RAGFlow 是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "$ git clone https://github.com/infiniflow/ragflow.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 83992,
+  "forks": 9754,
+  "openIssues": 2666,
+  "score": 148.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T02:47:39Z",
+  "updatedAt": "2026-07-01T04:54:11Z",
+  "createdAt": "2023-12-12T06:13:13Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-ai",
+    "agentic-retrieval",
+    "agentic-search",
+    "ai",
+    "ai-agents",
+    "context-engine",
+    "context-management",
+    "llm-apps",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/infiniflow/ragflow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/infiniflow/ragflow#readme",
+  "detailPath": "data/details/infiniflow__ragflow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "RAGFlow 是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "204a2a1e89f4e419",
+    "method": "deterministic-offline-v1"
+  }
+}

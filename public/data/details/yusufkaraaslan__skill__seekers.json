@@ -1,0 +1,101 @@
+{
+  "rank": 100,
+  "id": 1078319457,
+  "name": "Skill_Seekers",
+  "fullName": "yusufkaraaslan/Skill_Seekers",
+  "owner": "yusufkaraaslan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11597362?v=4",
+  "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+  "homepage": "https://skillseekersweb.com/",
+  "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+  "summary": "把文档网站、GitHub 仓库和 PDF 自动转换为 Skills",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "知识产品化",
+    "文档转技能",
+    "技能生成"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "pip install skill-seekers\nskill-seekers create https://docs.django.com/\nskill-seekers package output/django --target claude",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 14318,
+  "forks": 1466,
+  "openIssues": 104,
+  "score": 141.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T19:31:31Z",
+  "updatedAt": "2026-07-01T03:34:02Z",
+  "createdAt": "2025-10-17T14:43:48Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-tools",
+    "ast-parser",
+    "automation",
+    "claude-ai",
+    "claude-skills",
+    "code-analysis",
+    "conflict-detection",
+    "documentation",
+    "documentation-generator",
+    "github",
+    "github-scraper",
+    "mcp",
+    "mcp-server",
+    "multi-source",
+    "ocr",
+    "pdf",
+    "python",
+    "web-scraping"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/yusufkaraaslan/Skill_Seekers",
+    "videoUrl": "https://www.youtube.com/watch?v=..."
+  },
+  "readmeUrl": "https://github.com/yusufkaraaslan/Skill_Seekers#readme",
+  "detailPath": "data/details/yusufkaraaslan__skill__seekers.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "把文档网站、GitHub 仓库和 PDF 自动转换为 Skills",
+    "useCases": [
+      "知识产品化",
+      "文档转技能",
+      "技能生成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f361a456f76fe4f1",
+    "method": "deterministic-offline-v1"
+  }
+}

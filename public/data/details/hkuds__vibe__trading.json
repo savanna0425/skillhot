@@ -1,0 +1,87 @@
+{
+  "rank": 240,
+  "id": 1198306812,
+  "name": "Vibe-Trading",
+  "fullName": "HKUDS/Vibe-Trading",
+  "owner": "HKUDS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
+  "url": "https://github.com/HKUDS/Vibe-Trading",
+  "homepage": "https://vibetrading.wiki/",
+  "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+  "summary": "Vibe-Trading：您的个人交易代理",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install vibe-trading-ai\nvibe-trading run -p \"Backtest a BTC-USDT 20/50 moving-average strategy for 2024, summarize return and drawdown, then export the report\"\nvibe-trading alpha bench --zoo gtja191 --universe csi300 --period 2018-2025 --top 20",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 15913,
+  "forks": 2746,
+  "openIssues": 38,
+  "score": 130.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T07:09:49Z",
+  "updatedAt": "2026-07-01T04:56:38Z",
+  "createdAt": "2026-04-01T09:52:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "algorithmic-trading",
+    "backtesting",
+    "fintech",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "python",
+    "quantitative-finance",
+    "trading"
+  ],
+  "platforms": [
+    "Gemini CLI"
+  ],
+  "skillCount": 79,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/Vibe-Trading",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/HKUDS/Vibe-Trading#readme",
+  "detailPath": "data/details/hkuds__vibe__trading.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "Vibe-Trading：您的个人交易代理",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7c5062eeec6b6a5b",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "rank": 68,
+  "id": 1052050442,
+  "name": "hello-agents",
+  "fullName": "datawhalechina/hello-agents",
+  "owner": "datawhalechina",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/46047812?v=4",
+  "url": "https://github.com/datawhalechina/hello-agents",
+  "homepage": "https://hello-agents.datawhale.cc",
+  "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+  "summary": "《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/datawhalechina/hello-agents.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 63048,
+  "forks": 7795,
+  "openIssues": 144,
+  "score": 145.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T17:33:54Z",
+  "updatedAt": "2026-07-01T04:46:57Z",
+  "createdAt": "2025-09-07T09:50:24Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "llm",
+    "rag",
+    "tutorial"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/datawhalechina/hello-agents",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/datawhalechina/hello-agents#readme",
+  "detailPath": "data/details/datawhalechina__hello__agents.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1f2c2e429fad6b8d",
+    "method": "deterministic-offline-v1"
+  }
+}

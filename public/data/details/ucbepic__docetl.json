@@ -1,0 +1,89 @@
+{
+  "rank": 638,
+  "id": 826111692,
+  "name": "docetl",
+  "fullName": "ucbepic/docetl",
+  "owner": "ucbepic",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/88680502?v=4",
+  "url": "https://github.com/ucbepic/docetl",
+  "homepage": "https://docetl.org",
+  "description": "A system for agentic LLM-powered data processing and ETL",
+  "summary": "一个支持代理式大语言模型驱动的数据处理和 ETL 系统",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "待复核",
+  "categoryReason": "pandas|jupyter|chart|dataset|etl|data pipeline",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install docetl\nexport OPENAI_API_KEY=your_key   # or any LLM provider key",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3848,
+  "forks": 411,
+  "openIssues": 41,
+  "score": 116.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-26T22:16:51Z",
+  "updatedAt": "2026-06-30T20:45:30Z",
+  "createdAt": "2024-07-09T05:57:16Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "data",
+    "data-pipelines",
+    "document-analysis",
+    "document-processing",
+    "elt",
+    "etl",
+    "llm",
+    "python",
+    "semantic-data",
+    "unstructured-data",
+    "unstructured-data-analysis",
+    "workflow"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ucbepic/docetl",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ucbepic/docetl#readme",
+  "detailPath": "data/details/ucbepic__docetl.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "一个支持代理式大语言模型驱动的数据处理和 ETL 系统",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8c8c148830dd5863",
+    "method": "deterministic-offline-v1"
+  }
+}

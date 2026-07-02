@@ -1,0 +1,76 @@
+{
+  "rank": 671,
+  "id": 875378461,
+  "name": "dimos",
+  "fullName": "dimensionalOS/dimos",
+  "owner": "dimensionalOS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/178742426?v=4",
+  "url": "https://github.com/dimensionalOS/dimos",
+  "homepage": "https://dimensionalos.com/",
+  "description": "Dimensional is the agentic operating system for physical space. Vibecode humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
+  "summary": "维度是物理空间的代理操作系统。Vibecode 人类、四足动物、无人机及其他硬件平台，支持自然语言交互并构建多智能体系统，与物理输入（如摄像头、激光雷达、执行器）无缝协同工作",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "```bash\nuv pip install 'dimos[base,unitree,sim]'\ndimos --simulation run unitree-go2",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 3567,
+  "forks": 710,
+  "openIssues": 449,
+  "score": 115.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T04:40:46Z",
+  "updatedAt": "2026-07-01T03:43:34Z",
+  "createdAt": "2024-10-19T20:13:16Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dimensionalOS/dimos",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/dimensionalOS/dimos#readme",
+  "detailPath": "data/details/dimensionalos__dimos.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "维度是物理空间的代理操作系统。Vibecode 人类、四足动物、无人机及其他硬件平台，支持自然语言交互并构建多智能体系统，与物理输入（如摄像头、激光雷达、执行器）无缝协同工作",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5e5b21861bf562e7",
+    "method": "deterministic-offline-v1"
+  }
+}

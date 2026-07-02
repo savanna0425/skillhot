@@ -1,0 +1,103 @@
+{
+  "rank": 27,
+  "id": 1079456184,
+  "name": "scientific-agent-skills",
+  "fullName": "K-Dense-AI/scientific-agent-skills",
+  "owner": "K-Dense-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/238572432?v=4",
+  "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "homepage": "https://k-dense.ai",
+  "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+  "summary": "把通用 Agent 扩展成覆盖科研数据库与实验流程的 AI 科学家",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "文献调研",
+    "生物医药研究",
+    "科学数据库检索"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add K-Dense-AI/scientific-agent-skills",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 29687,
+  "forks": 3022,
+  "openIssues": 34,
+  "score": 153.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T17:45:05Z",
+  "updatedAt": "2026-07-01T04:51:54Z",
+  "createdAt": "2025-10-19T20:54:15Z",
+  "sourceTopics": [
+    "agent-skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-scientist",
+    "bioinformatics",
+    "chemoinformatics",
+    "claude",
+    "claude-skills",
+    "claudecode",
+    "clinical-research",
+    "computational-biology",
+    "data-analysis",
+    "drug-discovery",
+    "genomics",
+    "materials-science",
+    "metabolomics",
+    "proteomics",
+    "scientific-computing",
+    "scientific-visualization"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw",
+    "Antigravity"
+  ],
+  "skillCount": 148,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/K-Dense-AI/scientific-agent-skills",
+    "videoUrl": "https://youtu.be/ZxbnDaD_FVg"
+  },
+  "readmeUrl": "https://github.com/K-Dense-AI/scientific-agent-skills#readme",
+  "detailPath": "data/details/k__dense__ai__scientific__agent__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "把通用 Agent 扩展成覆盖科研数据库与实验流程的 AI 科学家",
+    "useCases": [
+      "文献调研",
+      "生物医药研究",
+      "科学数据库检索"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e1d83f36139e1904",
+    "method": "deterministic-offline-v1"
+  }
+}

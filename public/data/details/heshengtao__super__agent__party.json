@@ -1,0 +1,96 @@
+{
+  "rank": 673,
+  "id": 945068402,
+  "name": "super-agent-party",
+  "fullName": "heshengtao/super-agent-party",
+  "owner": "heshengtao",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/20573295?v=4",
+  "url": "https://github.com/heshengtao/super-agent-party",
+  "homepage": "https://www.agentparty.top",
+  "description": "⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!",
+  "summary": "⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "待复核",
+  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/heshengtao/super-agent-party.git\ncd super-agent-party\ndocker-compose up -d",
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "stars": 2432,
+  "forks": 250,
+  "openIssues": 13,
+  "score": 115.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T17:49:47Z",
+  "updatedAt": "2026-07-01T04:11:19Z",
+  "createdAt": "2025-03-08T15:31:51Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-companion",
+    "ai-vtuber",
+    "claude-code",
+    "comfyui",
+    "cowork",
+    "discord-bot",
+    "home-assistant",
+    "im-bot",
+    "livestream",
+    "mcp",
+    "neuro-sama",
+    "openclaw",
+    "sap",
+    "sillytavern",
+    "super-agent-party",
+    "vrm"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/heshengtao/super-agent-party",
+    "videoUrl": "https://www.youtube.com/watch?v=fIzlQOsuhZE"
+  },
+  "readmeUrl": "https://github.com/heshengtao/super-agent-party#readme",
+  "detailPath": "data/details/heshengtao__super__agent__party.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "⭐ All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! ⭐ 全能AI伴侣！超级智能体派对 = 自托管neuro sama + openclaw!",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "e1fa2eccf61cc4c4",
+    "method": "deterministic-offline-v1"
+  }
+}

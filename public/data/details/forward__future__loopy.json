@@ -1,0 +1,86 @@
+{
+  "rank": 431,
+  "id": 1267442907,
+  "name": "loopy",
+  "fullName": "Forward-Future/loopy",
+  "owner": "Forward-Future",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/259970374?v=4",
+  "url": "https://github.com/Forward-Future/loopy",
+  "homepage": "https://signals.forwardfuture.ai/loop-library/",
+  "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+  "summary": "loopy 用于创建、验证、安装或管理 Agent Skills。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "npx skills add Forward-Future/loopy \\\n--skill loopy \\\n--agent codex \\",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 2217,
+  "forks": 198,
+  "openIssues": 2,
+  "score": 122.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-27T15:33:13Z",
+  "updatedAt": "2026-07-01T04:44:12Z",
+  "createdAt": "2026-06-12T14:44:22Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-workflows",
+    "ai-agents",
+    "automation",
+    "codex",
+    "prompt-engineering"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Forward-Future/loopy",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Forward-Future/loopy#readme",
+  "detailPath": "data/details/forward__future__loopy.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "loopy 用于创建、验证、安装或管理 Agent Skills。",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "8410166794c32294",
+    "method": "deterministic-offline-v1"
+  }
+}

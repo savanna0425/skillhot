@@ -1,0 +1,75 @@
+{
+  "rank": 1236,
+  "id": 1246148135,
+  "name": "ai-memory",
+  "fullName": "akitaonrails/ai-memory",
+  "owner": "akitaonrails",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2840?v=4",
+  "url": "https://github.com/akitaonrails/ai-memory",
+  "homepage": "",
+  "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+  "summary": "ai-memory 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/akitaonrails/ai-memory.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 879,
+  "forks": 89,
+  "openIssues": 3,
+  "score": 100.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:39:41Z",
+  "updatedAt": "2026-07-01T04:20:18Z",
+  "createdAt": "2026-05-21T23:23:51Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/akitaonrails/ai-memory",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/akitaonrails/ai-memory#readme",
+  "detailPath": "data/details/akitaonrails__ai__memory.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "ai-memory 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "df0ac7674b003b65",
+    "method": "deterministic-offline-v1"
+  }
+}

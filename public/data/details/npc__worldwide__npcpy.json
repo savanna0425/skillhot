@@ -1,0 +1,87 @@
+{
+  "rank": 1057,
+  "id": 863930645,
+  "name": "npcpy",
+  "fullName": "NPC-Worldwide/npcpy",
+  "owner": "NPC-Worldwide",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/209010789?v=4",
+  "url": "https://github.com/NPC-Worldwide/npcpy",
+  "homepage": "",
+  "description": "The python library for research and development in NLP, multimodal LLMs, Agents, ML, Knowledge Graphs, and more.",
+  "summary": "用于 NLP、多模态大语言模型（LLMs）、代理、机器学习及知识图谱等研究与开发的 Python 库",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/NPC-Worldwide/npcpy.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1412,
+  "forks": 104,
+  "openIssues": 12,
+  "score": 105.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T03:56:27Z",
+  "updatedAt": "2026-07-01T02:16:15Z",
+  "createdAt": "2024-09-27T07:18:20Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai",
+    "llm",
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "ollama",
+    "perplexity",
+    "python",
+    "sql",
+    "yaml"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NPC-Worldwide/npcpy",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NPC-Worldwide/npcpy#readme",
+  "detailPath": "data/details/npc__worldwide__npcpy.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于 NLP、多模态大语言模型（LLMs）、代理、机器学习及知识图谱等研究与开发的 Python 库",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9f9195fdb83b1778",
+    "method": "deterministic-offline-v1"
+  }
+}

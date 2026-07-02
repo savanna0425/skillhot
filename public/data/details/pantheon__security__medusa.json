@@ -1,0 +1,93 @@
+{
+  "rank": 961,
+  "id": 1097137279,
+  "name": "medusa",
+  "fullName": "Pantheon-Security/medusa",
+  "owner": "Pantheon-Security",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/244360889?v=4",
+  "url": "https://github.com/Pantheon-Security/medusa",
+  "homepage": "https://pantheonsecurity.io",
+  "description": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to vet any repo, medusa secrets scan for leaked API keys. 40,000+ patterns, zero setup.",
+  "summary": "medusa 聚焦软件开发、代码质量与工程交付。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Pantheon-Security/medusa.git",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 783,
+  "forks": 139,
+  "openIssues": 2,
+  "score": 107.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-24T07:51:51Z",
+  "updatedAt": "2026-07-01T04:57:03Z",
+  "createdAt": "2025-11-15T15:55:22Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-security",
+    "ai-security",
+    "code-analysis",
+    "cve-detection",
+    "devsecops",
+    "llm-security",
+    "mcp",
+    "nextjs",
+    "open-source",
+    "python",
+    "react",
+    "sast",
+    "scanner",
+    "security",
+    "security-tools",
+    "static-analysis",
+    "vulnerability-scanner"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Pantheon-Security/medusa",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Pantheon-Security/medusa#readme",
+  "detailPath": "data/details/pantheon__security__medusa.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "medusa 聚焦软件开发、代码质量与工程交付。",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "53338eb240c260a6",
+    "method": "deterministic-offline-v1"
+  }
+}

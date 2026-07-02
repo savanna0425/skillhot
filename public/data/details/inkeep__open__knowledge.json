@@ -1,0 +1,99 @@
+{
+  "rank": 803,
+  "id": 1258203278,
+  "name": "open-knowledge",
+  "fullName": "inkeep/open-knowledge",
+  "owner": "inkeep",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/123133689?v=4",
+  "url": "https://github.com/inkeep/open-knowledge",
+  "homepage": "https://openknowledge.ai",
+  "description": "Beautiful, AI-native markdown editor and LLM Wiki",
+  "summary": "open-knowledge：尚未归入主要类别的实用项目。",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npm install -g @inkeep/open-knowledge\ncd your-project\nok init          # scaffold the project + wire up Claude Code, Cursor, and Codex",
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "stars": 1656,
+  "forks": 80,
+  "openIssues": 14,
+  "score": 111.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:21:07Z",
+  "updatedAt": "2026-07-01T04:46:56Z",
+  "createdAt": "2026-06-03T11:12:40Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "2nd-brain",
+    "agent-skills",
+    "claude",
+    "codex",
+    "docs",
+    "knowledge-base",
+    "knowledge-management",
+    "llm",
+    "llm-wiki",
+    "markdown",
+    "markdown-editor",
+    "md",
+    "mdx",
+    "notes",
+    "pkm",
+    "second-brain",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/inkeep/open-knowledge",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/inkeep/open-knowledge#readme",
+  "detailPath": "data/details/inkeep__open__knowledge.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "open-knowledge：尚未归入主要类别的实用项目。",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "0bac847da4a1f038",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "rank": 626,
+  "id": 1184090452,
+  "name": "fallow",
+  "fullName": "fallow-rs/fallow",
+  "owner": "fallow-rs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/269229952?v=4",
+  "url": "https://github.com/fallow-rs/fallow",
+  "homepage": "https://docs.fallow.tools",
+  "description": "Codebase intelligence for TypeScript and JavaScript. Free static layer: unused code, duplication, circular deps, complexity hotspots, architecture boundaries. Optional paid runtime layer: hot-path review and cold-path deletion evidence from real production traffic. Rust-native, sub-second, zero-config framework support.",
+  "summary": "基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx fallow audit",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 3953,
+  "forks": 126,
+  "openIssues": 4,
+  "score": 116.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T15:59:08Z",
+  "updatedAt": "2026-06-30T23:32:29Z",
+  "createdAt": "2026-03-17T08:40:57Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "cli",
+    "code-duplication",
+    "code-quality",
+    "codebase-intelligence",
+    "copy-paste-detection",
+    "dead-code",
+    "developer-tools",
+    "duplicate-code",
+    "javascript",
+    "linter",
+    "oxc",
+    "runtime-intelligence",
+    "rust",
+    "static-analysis",
+    "typescript",
+    "unused-code",
+    "unused-dependencies",
+    "unused-exports"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/fallow-rs/fallow",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/fallow-rs/fallow#readme",
+  "detailPath": "data/details/fallow__rs__fallow.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "04e39f0b11aeb909",
+    "method": "deterministic-offline-v1"
+  }
+}

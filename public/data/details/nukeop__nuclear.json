@@ -1,0 +1,95 @@
+{
+  "rank": 219,
+  "id": 68968979,
+  "name": "nuclear",
+  "fullName": "nukeop/nuclear",
+  "owner": "nukeop",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/12746779?v=4",
+  "url": "https://github.com/nukeop/nuclear",
+  "homepage": "https://nuclearplayer.com",
+  "description": "Streaming music player that finds free music for you",
+  "summary": "流媒体音乐播放器，为您找到免费音乐",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "The MCP is designed to be discoverable, but there's a skill you can load to get your AI up to speed: [Nuclear MCP Skill](./packages/docs/public/skills/nuclear-mcp.zip)\nNuclear is a pnpm monorepo managed with Turborepo. The main app is built with Tauri (Rust + React).\n- Node.js >= 22",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 17940,
+  "forks": 1297,
+  "openIssues": 5,
+  "score": 132.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T01:07:44Z",
+  "updatedAt": "2026-07-01T04:45:18Z",
+  "createdAt": "2016-09-22T22:58:21Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "desktop-app",
+    "linux",
+    "mac",
+    "mcp",
+    "mcp-server",
+    "music",
+    "music-player",
+    "react",
+    "rust",
+    "spotify",
+    "streaming",
+    "tauri",
+    "typescript",
+    "windows"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nukeop/nuclear",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nukeop/nuclear#readme",
+  "detailPath": "data/details/nukeop__nuclear.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "流媒体音乐播放器，为您找到免费音乐",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "f204c35734c3c7d9",
+    "method": "deterministic-offline-v1"
+  }
+}

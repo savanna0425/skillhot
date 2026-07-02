@@ -1,0 +1,91 @@
+{
+  "rank": 493,
+  "id": 135768037,
+  "name": "DALI",
+  "fullName": "NVIDIA/DALI",
+  "owner": "NVIDIA",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
+  "url": "https://github.com/NVIDIA/DALI",
+  "homepage": "https://docs.nvidia.com/deeplearning/dali/user-guide/docs/index.html",
+  "description": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications.",
+  "summary": "支持 GPU 加速的库，包含高度优化的构建块和执行引擎，以加速深度学习训练与推理应用",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/NVIDIA/DALI.git",
+  "language": "C++",
+  "license": "Apache-2.0",
+  "stars": 5716,
+  "forks": 669,
+  "openIssues": 223,
+  "score": 120.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:20:14Z",
+  "updatedAt": "2026-06-30T16:37:11Z",
+  "createdAt": "2018-06-01T22:18:01Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "audio-processing",
+    "data-augmentation",
+    "data-processing",
+    "deep-learning",
+    "fast-data-pipeline",
+    "gpu",
+    "gpu-tensorflow",
+    "image-augmentation",
+    "image-processing",
+    "machine-learning",
+    "mxnet",
+    "neural-network",
+    "paddle",
+    "python",
+    "pytorch"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NVIDIA/DALI",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/NVIDIA/DALI#readme",
+  "detailPath": "data/details/nvidia__dali.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "支持 GPU 加速的库，包含高度优化的构建块和执行引擎，以加速深度学习训练与推理应用",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "a4895052487106cf",
+    "method": "deterministic-offline-v1"
+  }
+}

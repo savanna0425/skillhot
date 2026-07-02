@@ -1,0 +1,76 @@
+{
+  "rank": 656,
+  "id": 1246399437,
+  "name": "PilotDeck",
+  "fullName": "OpenBMB/PilotDeck",
+  "owner": "OpenBMB",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/89920203?v=4",
+  "url": "https://github.com/OpenBMB/PilotDeck",
+  "homepage": "https://pilotdeck.openbmb.cn",
+  "description": "Task-oriented AI Agent productivity platform",
+  "summary": "面向任务的人工智能代理生产力平台",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "scenarios": [
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/OpenBMB/PilotDeck.git\ncd PilotDeck\nnode --version          # must be v22.13.0 or newer",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 3718,
+  "forks": 381,
+  "openIssues": 121,
+  "score": 115.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:06:38Z",
+  "updatedAt": "2026-07-01T01:46:16Z",
+  "createdAt": "2026-05-22T06:50:28Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenBMB/PilotDeck",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/OpenBMB/PilotDeck#readme",
+  "detailPath": "data/details/openbmb__pilotdeck.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向任务的人工智能代理生产力平台",
+    "useCases": [
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "4d09a229a4c2530d",
+    "method": "deterministic-offline-v1"
+  }
+}

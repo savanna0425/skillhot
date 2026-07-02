@@ -1,0 +1,84 @@
+{
+  "rank": 311,
+  "id": 1142423471,
+  "name": "Trellis",
+  "fullName": "mindfold-ai/Trellis",
+  "owner": "mindfold-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/219217320?v=4",
+  "url": "https://github.com/mindfold-ai/Trellis",
+  "homepage": "https://docs.trytrellis.app",
+  "description": "The best agent harness.",
+  "summary": "用于构建和运行 AI Agent 的开源执行框架",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "npm install -g @mindfoldhq/trellis@latest\ntrellis init -u your-name\ntrellis init --cursor --opencode --codex -u your-name",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 11492,
+  "forks": 647,
+  "openIssues": 15,
+  "score": 127.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T06:50:29Z",
+  "updatedAt": "2026-07-01T04:48:19Z",
+  "createdAt": "2026-01-26T11:49:10Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agentic-coding",
+    "ai-workflow",
+    "claudecode",
+    "codex",
+    "harness"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mindfold-ai/Trellis",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/mindfold-ai/Trellis#readme",
+  "detailPath": "data/details/mindfold__ai__trellis.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "用于构建和运行 AI Agent 的开源执行框架",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "931998cd1ff01333",
+    "method": "deterministic-offline-v1"
+  }
+}

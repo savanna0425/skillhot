@@ -1,0 +1,84 @@
+{
+  "rank": 59,
+  "id": 1219596233,
+  "name": "nature-skills",
+  "fullName": "Yuan1z0825/nature-skills",
+  "owner": "Yuan1z0825",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/140061814?v=4",
+  "url": "https://github.com/Yuan1z0825/nature-skills",
+  "homepage": "",
+  "description": "符合nature论文学术表达和科研绘图的Skill",
+  "summary": "面向 Nature 风格学术表达与科研绘图的 Skills",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "论文写作",
+    "科研绘图",
+    "学术表达"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Yuan1z0825/nature-skills.git\ncd nature-skills\nscripts/update-codex-skills.sh --pull",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 24749,
+  "forks": 1498,
+  "openIssues": 1,
+  "score": 147.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T02:08:36Z",
+  "updatedAt": "2026-07-01T04:52:15Z",
+  "createdAt": "2026-04-24T03:11:46Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "codex-skills",
+    "nature",
+    "nature-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Yuan1z0825/nature-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Yuan1z0825/nature-skills#readme",
+  "detailPath": "data/details/yuan1z0825__nature__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "面向 Nature 风格学术表达与科研绘图的 Skills",
+    "useCases": [
+      "论文写作",
+      "科研绘图",
+      "学术表达"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "2e06dc462b0bac65",
+    "method": "deterministic-offline-v1"
+  }
+}

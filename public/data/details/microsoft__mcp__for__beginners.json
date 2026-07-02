@@ -1,0 +1,90 @@
+{
+  "rank": 230,
+  "id": 960665821,
+  "name": "mcp-for-beginners",
+  "fullName": "microsoft/mcp-for-beginners",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/mcp-for-beginners",
+  "homepage": "",
+  "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+  "summary": "mcp-for-beginners 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "> git clone --filter=blob:none --sparse https://github.com/microsoft/mcp-for-beginners.git\n> cd mcp-for-beginners\n> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'",
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "stars": 16645,
+  "forks": 5436,
+  "openIssues": 2,
+  "score": 131.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T06:28:35Z",
+  "updatedAt": "2026-07-01T03:57:08Z",
+  "createdAt": "2025-04-04T20:46:17Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "csharp",
+    "java",
+    "javascript",
+    "javascript-applications",
+    "mcp",
+    "mcp-client",
+    "mcp-security",
+    "mcp-server",
+    "model",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/mcp-for-beginners",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/microsoft/mcp-for-beginners#readme",
+  "detailPath": "data/details/microsoft__mcp__for__beginners.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "mcp-for-beginners 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "6a0131931c5dbe0e",
+    "method": "deterministic-offline-v1"
+  }
+}

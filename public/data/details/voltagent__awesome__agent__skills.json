@@ -1,0 +1,103 @@
+{
+  "rank": 9,
+  "id": 1084853233,
+  "name": "awesome-agent-skills",
+  "fullName": "VoltAgent/awesome-agent-skills",
+  "owner": "VoltAgent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/201282378?v=4",
+  "url": "https://github.com/VoltAgent/awesome-agent-skills",
+  "homepage": "https://officialskills.sh/",
+  "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+  "summary": "跨 Claude、Codex、Gemini CLI 等平台的技能精选目录",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "跨平台选型",
+    "批量发现技能",
+    "技能生态调研"
+  ],
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+  "installCommand": "git clone https://github.com/VoltAgent/awesome-agent-skills.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 26973,
+  "forks": 2885,
+  "openIssues": 26,
+  "score": 160.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T10:58:35Z",
+  "updatedAt": "2026-07-01T04:53:33Z",
+  "createdAt": "2025-10-28T08:55:32Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills",
+    "claude-skills",
+    "claude-code-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity-skills",
+    "awesome",
+    "awesome-list",
+    "awesome-lists",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex-skills",
+    "cursor-skills",
+    "gemini-skills",
+    "opencode-skills",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
+  ],
+  "skillCount": 155,
+  "isCollection": true,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/VoltAgent/awesome-agent-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/VoltAgent/awesome-agent-skills#readme",
+  "detailPath": "data/details/voltagent__awesome__agent__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "跨 Claude、Codex、Gemini CLI 等平台的技能精选目录",
+    "useCases": [
+      "跨平台选型",
+      "批量发现技能",
+      "技能生态调研"
+    ],
+    "expectedEffects": [
+      "减少逐个搜索同类项目的时间",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "想集中发现和比较 Skills 的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "b71fb26b15f426a0",
+    "method": "deterministic-offline-v1"
+  }
+}

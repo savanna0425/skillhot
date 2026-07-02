@@ -1,0 +1,92 @@
+{
+  "rank": 1379,
+  "id": 1188133194,
+  "name": "PrismerCloud",
+  "fullName": "Prismer-AI/PrismerCloud",
+  "owner": "Prismer-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/202446192?v=4",
+  "url": "https://github.com/Prismer-AI/PrismerCloud",
+  "homepage": "https://prismer.cloud",
+  "description": "Prismer Cloud",
+  "summary": "PrismerCloud 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Prismer-AI/PrismerCloud.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1457,
+  "forks": 14,
+  "openIssues": 0,
+  "score": 99,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-11T03:05:24Z",
+  "updatedAt": "2026-06-29T20:38:40Z",
+  "createdAt": "2026-03-21T16:58:43Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-communication",
+    "agent-memory",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "docker",
+    "knowledge-base",
+    "llm-tools",
+    "mcp",
+    "mcp-server",
+    "nextjs",
+    "rag",
+    "self-hosted",
+    "typescript",
+    "windsurf"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Prismer-AI/PrismerCloud",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Prismer-AI/PrismerCloud#readme",
+  "detailPath": "data/details/prismer__ai__prismercloud.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "PrismerCloud 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "7f880438189b749a",
+    "method": "deterministic-offline-v1"
+  }
+}

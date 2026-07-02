@@ -1,0 +1,95 @@
+{
+  "rank": 55,
+  "id": 1128123594,
+  "name": "OpenViking",
+  "fullName": "volcengine/OpenViking",
+  "owner": "volcengine",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/67365215?v=4",
+  "url": "https://github.com/volcengine/OpenViking",
+  "homepage": "https://openviking.ai",
+  "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+  "summary": "以文件系统范式统一管理 Agent 的记忆、资源与 Skills",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "精选项目人工校正",
+  "scenarios": [
+    "上下文数据库",
+    "分层记忆",
+    "Agent 自进化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install openviking --upgrade --force-reinstall",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 26204,
+  "forks": 2033,
+  "openIssues": 279,
+  "score": 148,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T03:57:05Z",
+  "updatedAt": "2026-07-01T04:20:27Z",
+  "createdAt": "2026-01-05T07:11:17Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agentic-rag",
+    "ai-agents",
+    "clawbot",
+    "context-database",
+    "context-engineering",
+    "filesystem",
+    "llm",
+    "memory",
+    "openclaw",
+    "opencode",
+    "rag",
+    "skill"
+  ],
+  "platforms": [
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/volcengine/OpenViking",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/volcengine/OpenViking#readme",
+  "detailPath": "data/details/volcengine__openviking.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "以文件系统范式统一管理 Agent 的记忆、资源与 Skills",
+    "useCases": [
+      "上下文数据库",
+      "分层记忆",
+      "Agent 自进化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "60164be692132b1e",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "rank": 60,
+  "id": 1135212071,
+  "name": "marketingskills",
+  "fullName": "coreyhaines31/marketingskills",
+  "owner": "coreyhaines31",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/34802794?v=4",
+  "url": "https://github.com/coreyhaines31/marketingskills",
+  "homepage": "https://marketing-skills.com",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "summary": "为 Claude Code 和 AI 代理打造营销技能，涵盖 CRO、文案、SEO 及增长工程",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "产品管理",
+    "营销增长",
+    "商业决策"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add coreyhaines31/marketingskills\nnpx skills add coreyhaines31/marketingskills --skill cro copywriting\nnpx skills add coreyhaines31/marketingskills --list",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 35633,
+  "forks": 5812,
+  "openIssues": 36,
+  "score": 147.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T22:30:39Z",
+  "updatedAt": "2026-07-01T04:56:55Z",
+  "createdAt": "2026-01-15T19:45:23Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "claude",
+    "codex",
+    "marketing"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 17,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/coreyhaines31/marketingskills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/coreyhaines31/marketingskills#readme",
+  "detailPath": "data/details/coreyhaines31__marketingskills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "为 Claude Code 和 AI 代理打造营销技能，涵盖 CRO、文案、SEO 及增长工程",
+    "useCases": [
+      "产品管理",
+      "营销增长",
+      "商业决策"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "904c8eb87f9d95a0",
+    "method": "deterministic-offline-v1"
+  }
+}

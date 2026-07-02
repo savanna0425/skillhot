@@ -1,0 +1,86 @@
+{
+  "rank": 628,
+  "id": 1146153471,
+  "name": "openakita",
+  "fullName": "openakita/openakita",
+  "owner": "openakita",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/258245504?v=4",
+  "url": "https://github.com/openakita/openakita",
+  "homepage": "http://openakita.ai",
+  "description": "An open-source AI assistant framework with skills and agent architecture",
+  "summary": "支持技能与智能体架构的开源 AI 助手框架",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "pip install openakita[all]\nopenakita init\nopenakita run \"Build a weather scraper\"",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 1836,
+  "forks": 260,
+  "openIssues": 75,
+  "score": 116.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T07:57:00Z",
+  "updatedAt": "2026-06-30T16:55:36Z",
+  "createdAt": "2026-01-30T17:36:05Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "assistant",
+    "automation",
+    "claw",
+    "clawd",
+    "clawdbot",
+    "openclaw",
+    "python"
+  ],
+  "platforms": [
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openakita/openakita",
+    "videoUrl": "https://www.bilibili.com/video/BV1psP5zTEE7"
+  },
+  "readmeUrl": "https://github.com/openakita/openakita#readme",
+  "detailPath": "data/details/openakita__openakita.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "支持技能与智能体架构的开源 AI 助手框架",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "345ae5276245a7b9",
+    "method": "deterministic-offline-v1"
+  }
+}

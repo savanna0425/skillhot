@@ -1,0 +1,90 @@
+{
+  "rank": 816,
+  "id": 1143237475,
+  "name": "claude-scholar",
+  "fullName": "Galaxy-Dawn/claude-scholar",
+  "owner": "Galaxy-Dawn",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/121143489?v=4",
+  "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+  "homepage": "",
+  "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+  "summary": "半自动化学术研究与软件开发助手。支持 Claude Code、Codex CLI、Kimi Code CLI 及 OpenCode，覆盖构思、编码、实验、写作与发表全流程",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Galaxy-Dawn/claude-scholar.git /tmp/claude-scholar\nbash /tmp/claude-scholar/scripts/setup.sh",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 4461,
+  "forks": 388,
+  "openIssues": 3,
+  "score": 110.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-05T12:00:07Z",
+  "updatedAt": "2026-07-01T03:30:47Z",
+  "createdAt": "2026-01-27T10:32:17Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "academic-research",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "codex-cli",
+    "developer-tools",
+    "kimi-code",
+    "mcp",
+    "openai-codex",
+    "opencode",
+    "paper-writing",
+    "zotero"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 40,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Galaxy-Dawn/claude-scholar",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Galaxy-Dawn/claude-scholar#readme",
+  "detailPath": "data/details/galaxy__dawn__claude__scholar.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "半自动化学术研究与软件开发助手。支持 Claude Code、Codex CLI、Kimi Code CLI 及 OpenCode，覆盖构思、编码、实验、写作与发表全流程",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "9007abba1ed63a2b",
+    "method": "deterministic-offline-v1"
+  }
+}

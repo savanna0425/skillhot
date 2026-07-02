@@ -1,0 +1,97 @@
+{
+  "rank": 866,
+  "id": 1153178500,
+  "name": "jcodemunch-mcp",
+  "fullName": "jgravelle/jcodemunch-mcp",
+  "owner": "jgravelle",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3400540?v=4",
+  "url": "https://github.com/jgravelle/jcodemunch-mcp",
+  "homepage": "https://jcodemunch.com/",
+  "description": "Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client. 313B+ tokens saved.",
+  "summary": "jcodemunch-mcp 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/jgravelle/jcodemunch-mcp.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 1959,
+  "forks": 299,
+  "openIssues": 1,
+  "score": 109.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T21:14:11Z",
+  "updatedAt": "2026-07-01T03:19:52Z",
+  "createdAt": "2026-02-09T01:58:27Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "ai-coding",
+    "ai-tools",
+    "ast",
+    "claude",
+    "claude-code",
+    "code-intelligence",
+    "code-retrieval",
+    "context-window",
+    "cursor",
+    "developer-tools",
+    "github",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "structured-retrieval",
+    "token-efficient",
+    "token-optimization",
+    "token-savings",
+    "tree-sitter"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jgravelle/jcodemunch-mcp",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jgravelle/jcodemunch-mcp#readme",
+  "detailPath": "data/details/jgravelle__jcodemunch__mcp.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "jcodemunch-mcp 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "c11b15333064689b",
+    "method": "deterministic-offline-v1"
+  }
+}

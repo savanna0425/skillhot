@@ -1,0 +1,88 @@
+{
+  "rank": 1003,
+  "id": 1031738741,
+  "name": "TuriX-CUA",
+  "fullName": "TurixAI/TuriX-CUA",
+  "owner": "TurixAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/224534622?v=4",
+  "url": "https://github.com/TurixAI/TuriX-CUA",
+  "homepage": "https://turix.ai",
+  "description": "This is the official website for TuriX Computer-use-Agent",
+  "summary": "TuriX 计算机使用代理的官方网站",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/TurixAI/TuriX-CUA.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3090,
+  "forks": 318,
+  "openIssues": 4,
+  "score": 106.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-08T08:38:15Z",
+  "updatedAt": "2026-06-30T06:15:34Z",
+  "createdAt": "2025-08-04T08:59:43Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai-agents",
+    "browser-use",
+    "computer-automation",
+    "computer-use",
+    "computer-use-agent",
+    "cua",
+    "gui-agent",
+    "gui-operator",
+    "mcp",
+    "qwen3-vl"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/TurixAI/TuriX-CUA",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/TurixAI/TuriX-CUA#readme",
+  "detailPath": "data/details/turixai__turix__cua.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "TuriX 计算机使用代理的官方网站",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "af68139ad4a016ab",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "rank": 366,
+  "id": 1136782037,
+  "name": "web-quality-skills",
+  "fullName": "addyosmani/web-quality-skills",
+  "owner": "addyosmani",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/110953?v=4",
+  "url": "https://github.com/addyosmani/web-quality-skills",
+  "homepage": "",
+  "description": "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.",
+  "summary": "基于 Lighthouse 和核心网页指标优化网页质量的 Agent 技能",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "npx skills add addyosmani/web-quality-skills",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 2443,
+  "forks": 222,
+  "openIssues": 6,
+  "score": 124.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-14T09:08:35Z",
+  "updatedAt": "2026-07-01T00:38:33Z",
+  "createdAt": "2026-01-18T10:53:04Z",
+  "sourceTopics": [
+    "skills",
+    "agent-skills",
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "accessibility",
+    "agent-skills",
+    "claude-skills",
+    "core-web-vitals",
+    "lighthouse",
+    "skills",
+    "testing",
+    "web-performance"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/addyosmani/web-quality-skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/addyosmani/web-quality-skills#readme",
+  "detailPath": "data/details/addyosmani__web__quality__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "基于 Lighthouse 和核心网页指标优化网页质量的 Agent 技能",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "5dafa3356a0052de",
+    "method": "deterministic-offline-v1"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rank": 420,
+  "id": 1144727401,
+  "name": "skill-scanner",
+  "fullName": "cisco-ai-defense/skill-scanner",
+  "owner": "cisco-ai-defense",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/220944709?v=4",
+  "url": "https://github.com/cisco-ai-defense/skill-scanner",
+  "homepage": "https://cisco-ai-defense.github.io/docs/skill-scanner",
+  "description": "Security Scanner for Agent Skills",
+  "summary": "安全扫描器：智能技能",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
+  "scenarios": [
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "uv pip install cisco-ai-skill-scanner\npip install cisco-ai-skill-scanner",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 2293,
+  "forks": 281,
+  "openIssues": 7,
+  "score": 122.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-29T13:59:58Z",
+  "updatedAt": "2026-07-01T03:55:00Z",
+  "createdAt": "2026-01-29T01:31:32Z",
+  "sourceTopics": [
+    "agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "security"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/cisco-ai-defense/skill-scanner",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/cisco-ai-defense/skill-scanner#readme",
+  "detailPath": "data/details/cisco__ai__defense__skill__scanner.json",
+  "catalogStatus": "active",
+  "catalogDelta": "stable",
+  "aiInsight": {
+    "summary": "安全扫描器：智能技能",
+    "useCases": [
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要尚未归入主要类别的实用项目能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-01T04:58:17.110Z",
+    "sourceHash": "1d82943e07bacdea",
+    "method": "deterministic-offline-v1"
+  }
+}
