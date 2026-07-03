@@ -8,7 +8,7 @@
   "url": "https://github.com/farion1231/cc-switch",
   "homepage": "https://ccswitch.io",
   "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
-  "summary": "跨平台管理 Claude Code、Codex 等编程智能体及模型服务配置",
+  "summary": "cc-switch 是一个用来管理 Claude Code、Codex 等编程智能体配置和模型服务的工具，适合在多个 Agent、模型或 API 配置之间快速切换。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "人工复核",
@@ -100,5 +100,48 @@
     "sourceHash": "2b771043b246d660",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "cc-switch 是一个用来管理 Claude Code、Codex 等编程智能体配置和模型服务的工具，适合在多个 Agent、模型或 API 配置之间快速切换。",
+    "whatItIs": "它解决的是“我有好几个编程智能体和模型配置，不想每次手动改环境变量或配置文件”的问题。你可以把它理解成一个 Agent 配置切换器：把不同模型、不同服务商、不同工具的配置整理起来，需要时一键切换。",
+    "problemSolved": [
+      "同时使用 Claude Code、Codex 或其他 Agent 时，配置容易混乱。",
+      "不同模型服务的 API 地址、Key、模型名经常要手动切换。",
+      "临时改配置容易出错，也不方便回到之前的工作环境。"
+    ],
+    "coreCapabilities": [
+      "集中管理多个 Agent 或模型服务配置。",
+      "在不同 Claude Code、Codex 或模型提供商配置之间快速切换。",
+      "减少手动改配置文件、环境变量带来的错误。"
+    ],
+    "bestFor": [
+      "同时使用多个编程智能体或模型服务的开发者。",
+      "经常在不同 API 提供商、模型或项目环境之间切换的人。",
+      "想把本地 Agent 配置管理得更清楚的重度用户。"
+    ],
+    "notFor": [
+      "只固定使用一个模型、一个工具、一个配置的人。",
+      "完全不想接触命令行或本地配置文件的人。"
+    ],
+    "howItWorks": [
+      "你先把不同 Agent 或模型服务的配置写入 cc-switch 支持的配置格式。",
+      "需要切换时，通过命令选择目标配置。",
+      "工具会把当前环境切到对应模型、服务商或 Agent 配置。"
+    ],
+    "gettingStarted": [
+      "先阅读 README，确认它支持你正在使用的 Agent 工具。",
+      "准备好不同服务商的 API 地址、Key 和模型名。",
+      "按示例创建配置，再用一个低风险项目测试切换是否生效。"
+    ],
+    "expectedOutcome": [
+      "多个 Agent 和模型配置不再散落在不同文件里。",
+      "切换模型服务更快，出错概率更低。",
+      "你可以更清楚地知道当前项目正在用哪套配置。"
+    ],
+    "caveats": [
+      "它是配置管理工具，不是模型服务本身，也不会提供 API Key。",
+      "涉及 API Key 时要注意本地权限和密钥泄露风险。",
+      "不同工具版本的配置格式可能变化，使用前要核对 README。"
+    ]
   }
 }

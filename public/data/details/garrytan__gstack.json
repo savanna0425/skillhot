@@ -8,7 +8,7 @@
   "url": "https://github.com/garrytan/gstack",
   "homepage": "",
   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-  "summary": "覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈",
+  "summary": "gstack：覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "人工复核",
@@ -79,5 +79,51 @@
     "sourceHash": "1b5f73d3d06ed9be",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "gstack：覆盖产品、设计、工程、发布与质量保障的完整 Claude Code 工作栈。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "gstack 可以先理解为一个「产品与商业工作流项目」。它围绕「产品开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
+      "团队想让 Agent 辅助决策，但需要更清晰的流程。",
+      "从用户需求到策略输出之间缺少可复用方法。",
+      "如果你的任务和「产品开发」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助产品发现、市场调研、增长分析、营销内容、销售或商业决策。",
+      "把商业工作流整理成 Agent 可以执行的步骤。",
+      "帮助你判断它是否适合当前业务问题。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "产品经理、创业者、运营、市场和销售团队。",
+      "想用 Agent 做用户研究、竞品分析或增长方案的人。",
+      "需要把业务流程模板化的小团队。",
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "把输出直接当作法律、财务或投资建议的人。",
+      "没有真实业务数据和人工判断，只想自动替代决策的人。"
+    ],
+    "howItWorks": [
+      "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
+      "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
+      "最终决策仍需要结合真实数据和业务经验。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先用一个具体业务问题试跑。",
+      "补充目标用户、市场背景和约束条件。",
+      "把输出当作初稿，再用真实数据和团队经验修订。"
+    ],
+    "expectedOutcome": [
+      "业务分析和材料初稿更快。",
+      "产品或增长流程更容易复用。",
+      "团队讨论有更清楚的起点。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

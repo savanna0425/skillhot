@@ -8,7 +8,7 @@
   "url": "https://github.com/Sunnyeung369/ai-agent-team",
   "homepage": "",
   "description": " AI Agent Team SKILL - 基于 newtype-profile 架构的 AI Agent 协作系统",
-  "summary": "AI Agent Team SKILL - 基于 newtype-profile 架构的 AI Agent 协作系统",
+  "summary": "ai-agent-team：AI Agent Team SKILL - 基于 newtype-profile 架构的 AI Agent 协作系统。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "待复核",
@@ -88,5 +88,51 @@
     "sourceHash": "250c76e7f291a5e1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "ai-agent-team：AI Agent Team SKILL - 基于 newtype-profile 架构的 AI Agent 协作系统。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "ai-agent-team 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "资料、论文、课程或知识点太分散，整理成本高。",
+      "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
+      "学习或调研需要从大量材料中快速建立脉络。",
+      "如果你的任务和「资料调研」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助完成资料检索、文献阅读、知识整理、推理或学习计划。",
+      "把研究问题拆成可追踪、可复核的步骤。",
+      "帮助你判断它是否适合当前研究主题。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "学生、研究者、知识工作者和需要快速调研的人。",
+      "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
+      "需要把研究过程沉淀成固定流程的团队。",
+      "正在使用 Claude 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "把输出直接当作学术结论、医疗建议或投资建议的人。",
+      "不愿核对来源和原文的人。"
+    ],
+    "howItWorks": [
+      "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
+      "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
+      "可信度取决于来源质量和你的人工复核。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先用一个小主题测试它的资料组织方式。",
+      "确认输出是否保留来源、链接或可追溯线索。",
+      "再用于正式论文、报告或学习项目。"
+    ],
+    "expectedOutcome": [
+      "更快看清一个主题的主要脉络。",
+      "阅读和整理资料的重复劳动减少。",
+      "学习或研究过程更容易复盘。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

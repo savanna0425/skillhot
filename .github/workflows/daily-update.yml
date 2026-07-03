@@ -28,17 +28,29 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-skills.mjs
+      - name: Optionally enrich project detail copy
+        env:
+          SKILLHOT_LLM_BASE_URL: ${{ secrets.SKILLHOT_LLM_BASE_URL }}
+          SKILLHOT_LLM_API_KEY: ${{ secrets.SKILLHOT_LLM_API_KEY }}
+          SKILLHOT_LLM_MODEL: ${{ secrets.SKILLHOT_LLM_MODEL }}
+          SKILLHOT_LLM_MAX_REPOS: ${{ vars.SKILLHOT_LLM_MAX_REPOS }}
+        run: |
+          node scripts/enrich-project-profiles.mjs --only-new --limit="${SKILLHOT_LLM_MAX_REPOS:-5}"
+          node scripts/catalog-derived.mjs
       - name: Validate generated data
         run: node scripts/validate-data.mjs
       - name: Commit changed data
         run: |
-          if git diff --quiet -- public/data; then
+          if [ -z "$(git status --porcelain -- public/data scripts/project-profile-overrides.json)" ]; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "Sav同学"
           git config user.email "83158499+savanna0425@users.noreply.github.com"
           git add public/data
+          if [ -f scripts/project-profile-overrides.json ]; then
+            git add scripts/project-profile-overrides.json
+          fi
           git commit -m "data: daily SkillHot update"
           git push
 

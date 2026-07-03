@@ -8,7 +8,7 @@
   "url": "https://github.com/nuxt/ui",
   "homepage": "https://ui.nuxt.com",
   "description": "The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS.",
-  "summary": "基于 Reka UI 和 Tailwind CSS 构建的直观 Vue UI 库",
+  "summary": "ui 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -80,5 +80,51 @@
     "sourceHash": "9809357f38484bc7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "ui 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "ui 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "problemSolved": [
+      "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
+      "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
+      "从想法到可展示界面之间缺少一个稳定的辅助流程。",
+      "如果你的任务和「界面设计」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助生成或改进界面、组件、演示页面与视觉方案。",
+      "把设计系统、布局、色彩或可访问性要求整理成 Agent 可执行的步骤。",
+      "帮助你在打开 README 前判断它是否适合当前 UI 任务。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "用 Agent 做网页、App 原型或视觉材料的人。",
+      "希望提高前端页面完成度的开发者。",
+      "需要把设计规范沉淀为可复用流程的小团队。",
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",
+      "需要完整商业设计服务或品牌策略的人。"
+    ],
+    "howItWorks": [
+      "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
+      "用户把它接入目标工具后，在界面任务中调用对应流程。",
+      "具体生成效果取决于你的模型能力、素材质量和项目约束。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先看 README 中的示例截图或输出案例。",
+      "确认它支持你的前端框架、设计工具或 Agent 客户端。",
+      "用一个小页面或组件试跑，再决定是否用于正式项目。"
+    ],
+    "expectedOutcome": [
+      "更快得到可展示的界面雏形。",
+      "减少“能运行但不好看”的 Agent 输出。",
+      "把审美要求变成更稳定的工作流。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

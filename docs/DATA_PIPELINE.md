@@ -27,10 +27,11 @@
 1. 合并并按 `owner/repo` 去重。
 2. 排除与 Agent Skills 无关的宽泛结果。
 3. 计算 Stars、更新时间、来源数量和技能相关性组成的综合分数。
-4. 保留综合排名前 1,500 个仓库，并额外保留未进入前 1,500 的精选来源。
+4. 使用动态阈值保留符合相关性、活跃度、质量与精选规则的仓库，不再把目录固定截断为某个展示数量。
 5. 在 GitHub Actions 每仓库每小时 1,000 次核心 API 配额内，最多读取 850 个高排名仓库与精选来源的 README；其余条目使用仓库元数据与通用安装命令。
 6. 使用确定性规则分到统一分类；英文介绍生成中文摘要，仓库名与 Agent、Claude、Codex、MCP 等专有名词保留原文。
-7. 输出网站运行所需的 `public/data/skills.json`。公开导出入口已按产品策略移除。
+7. 为每个仓库生成用户视角详情页说明：这是什么、解决什么问题、能做什么、适合谁、不适合谁、怎么开始用、注意事项。默认由本地规则生成，不调用大模型。
+8. 输出网站运行所需的 `public/data/skills.json`、`home.json`、`skills-lite.json`、分类/话题分包和每仓库 detail JSON。公开导出入口已按产品策略移除。
 
 ## 分类体系
 
@@ -53,10 +54,20 @@
 
 ## 更新成本
 
-日常更新只调用 GitHub REST API 和本地脚本，不调用大模型，因此不会产生 Token 消耗。README 请求属于 GitHub 的常规 API 配额；搜索请求按 GitHub 的搜索限流主动节流。一次性中文语义复核使用本机模型，审核结果按作者描述指纹缓存；日常更新只复用缓存或走确定性规则。
+日常更新只调用 GitHub REST API 和本地脚本，因此默认不会产生大模型 Token 消耗。README 请求属于 GitHub 的常规 API 配额；搜索请求按 GitHub 的搜索限流主动节流。
+
+项目详情页默认由 `scripts/project-profile-rules.mjs` 的确定性模板生成，所以即使每天发现新仓库，也一定会有详情页输出。可选的大模型增强由 `pnpm enrich:profiles` 或 GitHub Actions 中的 “Optionally enrich project detail copy” 步骤执行；只有配置以下环境变量时才会请求模型：
+
+- `SKILLHOT_LLM_BASE_URL`
+- `SKILLHOT_LLM_API_KEY`
+- `SKILLHOT_LLM_MODEL`
+- `SKILLHOT_LLM_MAX_REPOS`，默认小批量，建议只处理新增或高星项目
+
+增强结果写入 `scripts/project-profile-overrides.json` 缓存，后续派生数据复用缓存；网站页面不会显示“AI 解读”“离线生成”等生产过程标签。
 
 ## 已知边界
 
-- GitHub 搜索最多返回每个查询的前 1,000 个结果，因此使用多个互补查询降低遗漏。
+- GitHub 搜索最多返回每个查询的前 1,000 个结果，因此使用多个互补查询和 Stars 分片降低遗漏。
 - 没有标准化 README 的仓库可能只能得到通用安装说明。
 - 分类基于仓库元数据和规则；欢迎通过 Pull Request 修正精选条目。
+- 规则生成的详情页适合做第一层选型说明；重点项目可以通过人工样例或可选大模型缓存继续加深。

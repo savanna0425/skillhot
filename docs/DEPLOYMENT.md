@@ -1,10 +1,10 @@
 # SkillHot 部署交付文档
 
-更新时间：2026-06-22
+更新时间：2026-07-03
 
 ## 目标
 
-把 SkillHot 部署为自动更新的 GitHub Agent Skills 中文发现站，通过 `skillhot.savs-ai.com` 对外提供服务。站点每天获取 GitHub 最新数据，更新榜单、分类、Stars、活跃度、图片、视频和使用信息，不依赖大模型执行日更。
+把 SkillHot 部署为自动更新的 GitHub Agent Skills 中文发现站，通过 `skillhot.savs-ai.com` 对外提供服务。站点每天获取 GitHub 最新数据，更新榜单、分类、Stars、活跃度、图片、视频、使用信息和用户视角项目详情；默认不依赖大模型执行日更。
 
 ## 部署架构
 
@@ -27,8 +27,8 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 - 固定跟踪 `skill`、`skills`、`agent-skills`、`claude-skills`、`codex-skills`、`openclaw-skills` 等 Topic，并自动吸收前三页中发现的相关话题；当前共 26 个来源 Topic。
 - 增加 `SKILL.md`、Agent Skills、Claude、Codex、OpenClaw 等聚焦仓库搜索和精选补漏来源。
 - 新增 Stars ≥ 500、最近 90 天仍活跃的 `skill` 分片搜索，避开单查询 1,000 条上限。
-- 当前索引以综合排名前 1,500 个仓库为主，并额外保留精选补漏来源；当前共 1,502 个仓库。
-- 数据包含分类、介绍、Stars、活跃度、最近更新时间、适用场景、兼容平台、技能规模、用法、安装命令、来源 Topic、仓库/主页链接、GitHub 社交预览图与视频链接。
+- 当前索引使用动态阈值，不再固定截断为 1,500 或 1,502 个仓库；当前本地快照共 2,209 个仓库。
+- 数据包含分类、介绍、Stars、活跃度、最近更新时间、用户视角项目详情、兼容平台、技能规模、用法、安装命令、来源 Topic、仓库/主页链接、GitHub 社交预览图与视频链接。
 - JSON：`public/data/skills.json`
 - 运行数据：`public/data/skills.json`（不提供站内 CSV 导出）
 
@@ -55,12 +55,13 @@ SkillHot 前端仍是纯静态 React 网站，账号收藏使用 Supabase 托管
 `.github/workflows/daily-update.yml` 每天北京时间 08:20 执行：
 
 1. 调用 GitHub REST API 获取 Topic 与仓库数据。
-2. 使用本地确定性规则过滤、分类、评分和生成中文摘要。
-3. 生成网站运行所需的 JSON，并执行全库分类与简介质量门禁。
-4. 写入带最新更新时间的完整快照并提交到 `main`。
-5. 同一工作流的 deploy job 重新构建并发布网站；普通代码提交由 `.github/workflows/deploy-pages.yml` 发布。
+2. 使用本地确定性规则过滤、分类、评分、生成中文摘要和基础项目详情。
+3. 可选执行 `scripts/enrich-project-profiles.mjs`：只有配置 `SKILLHOT_LLM_BASE_URL`、`SKILLHOT_LLM_API_KEY`、`SKILLHOT_LLM_MODEL` 时才会小批量请求 OpenAI-compatible 接口，并把结果写入缓存；未配置时该步骤安全跳过，Token 成本为 0。
+4. 生成网站运行所需的 JSON，并执行全库分类、简介与详情质量门禁。
+5. 写入带最新更新时间的完整快照并提交到 `main`。
+6. 同一工作流的 deploy job 重新构建并发布网站；普通代码提交由 `.github/workflows/deploy-pages.yml` 发布。
 
-日更流程不调用 OpenAI、Anthropic 或其他大模型 API。GitHub API 使用 Actions 自带的 `GITHUB_TOKEN`，无需保存个人令牌。
+默认日更流程不调用 OpenAI、Anthropic 或其他大模型 API。GitHub API 使用 Actions 自带的 `GITHUB_TOKEN`，无需保存个人令牌。
 
 `.github/workflows/activate-domain.yml` 每天北京时间 08:35 检查 CNAME、Pages 绑定和 HTTPS 是否正常；它只读验证，不修改 Cloudflare 或 GitHub 配置。
 
@@ -173,6 +174,7 @@ pnpm test:e2e
 - 搜索 `cc-switch` 后只展示一组去重结果，并核验“Agent工具与平台”分类与中文简介。
 - 搜索 `superpowers` 后核验“编程开发”分类。
 - 详情栏的作者原始描述、分类置信度、安装与平台信息。
+- 详情栏的“看懂这个项目”用户视角说明，不暴露“AI 解读”“离线生成”等生产过程标签。
 - 访客收藏跳转登录、榜单/分类导航。
 - 页面不存在 CSV 导出、下载开放数据或 `skills.csv` 链接。
 - 390 × 844 窄屏下的筛选抽屉和分类页。
@@ -180,7 +182,9 @@ pnpm test:e2e
 ### 全库语义审计
 
 - `scripts/audit-catalog-local.py`：一次性使用本地 Qwen3.5 翻译作者描述，不调用付费 API。
-- `scripts/catalog-review.json`：按仓库描述指纹缓存 1,502 条审核结果。
+- `scripts/catalog-review.json`：按仓库描述指纹缓存人工/本地语义审核结果。
+- `scripts/project-profile-rules.mjs`：为每个仓库生成用户视角项目详情，确保新项目进入索引后也有详情页输出。
+- `scripts/enrich-project-profiles.mjs`：可选大模型增强脚本，按环境变量配置后写入 `scripts/project-profile-overrides.json` 缓存。
 - `scripts/catalog-taxonomy.mjs`：名称/作者描述高权重、Topics 低权重的确定性分类。
 - `scripts/rebuild-reviewed-catalog.mjs`：重建当前快照并生成 `docs/CATALOG_AUDIT.md`。
 - 每日任务只复用审核缓存和确定性规则，付费模型 Token 为 0。
@@ -284,6 +288,6 @@ Actions 任务使用仓库 `GITHUB_TOKEN`，配额足以完成每日一次更新
 
 - 仓库不保存 Cloudflare 登录信息、个人 GitHub Token、SSH 密钥或服务器密码。
 - GitHub Pages、GitHub Actions 公共仓库额度与 Cloudflare DNS 当前均可零额外服务器成本运行。
-- 日更不使用大模型，保持更新成本和结果可预测。
+- 日更默认不使用大模型，保持更新成本和结果可预测；若后续配置可选增强，请通过 `SKILLHOT_LLM_MAX_REPOS` 控制每天处理数量。
 - Supabase Free 项目一周无活动会暂停；需要时可在 Dashboard 恢复，数据仍会保留。
 - 腾讯云 CVM 上的 Sav's API 与本项目相互独立，SkillHot 故障不会影响 API 服务。

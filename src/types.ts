@@ -17,6 +17,19 @@ export interface ProjectInsight {
   sourceNote: string
 }
 
+export interface ProjectProfile {
+  plainIntro: string
+  whatItIs: string
+  problemSolved: string[]
+  coreCapabilities: string[]
+  bestFor: string[]
+  notFor: string[]
+  howItWorks: string[]
+  gettingStarted: string[]
+  expectedOutcome: string[]
+  caveats: string[]
+}
+
 export interface SkillMedia {
   socialPreview: string
   videoUrl: string
@@ -62,6 +75,7 @@ export interface Skill {
   catalogStatus?: CatalogStatus
   catalogDelta?: CatalogDelta
   projectInsight?: ProjectInsight
+  projectProfile?: ProjectProfile
 }
 
 export interface TopicItem {

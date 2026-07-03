@@ -8,7 +8,7 @@
   "url": "https://github.com/anthropics/skills",
   "homepage": "",
   "description": "Public repository for Agent Skills",
-  "summary": "Agent Skills 公共仓库、规范示例与参考实现",
+  "summary": "anthropics/skills 是 Agent Skills 的官方公共仓库，集中放了 Anthropic 提供的规范示例和参考实现，适合用来学习一个 Skill 应该怎么组织、描述和交付。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "人工复核",
@@ -78,5 +78,47 @@
     "sourceHash": "f674cb80bb1cbdfe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "anthropics/skills 是 Agent Skills 的官方公共仓库，集中放了 Anthropic 提供的规范示例和参考实现，适合用来学习一个 Skill 应该怎么组织、描述和交付。",
+    "whatItIs": "它更像一个官方样板间，而不是单个业务工具。你可以在这里看 Anthropic 如何组织 Agent Skills：目录结构怎么放、说明文档怎么写、技能边界怎么定义，以及一个可复用 skill 应该交代哪些信息。",
+    "problemSolved": [
+      "想写自己的 skill，但不知道标准结构和说明应该长什么样。",
+      "网上有很多零散示例，难判断哪些写法更接近官方推荐。",
+      "团队需要一个参考仓库，统一内部 skills 的命名、描述和交付方式。"
+    ],
+    "coreCapabilities": [
+      "提供官方 Agent Skills 示例，方便学习结构和写法。",
+      "作为创建自定义 skills 时的参考模板。",
+      "帮助团队统一 skill 文档、入口和使用说明的风格。"
+    ],
+    "bestFor": [
+      "准备创建或维护 Agent Skills 的开发者。",
+      "想研究 Anthropic 官方 skill 设计方式的人。",
+      "需要给团队建立 skills 规范的技术负责人。"
+    ],
+    "notFor": [
+      "想直接找某个垂直业务工具的人。",
+      "不打算自己创建或改造 skills 的普通使用者。"
+    ],
+    "howItWorks": [
+      "仓库按 skill 示例和说明组织内容。",
+      "你可以复制其中的结构，改成自己的领域能力。",
+      "也可以把它当作检查清单，对照自己的 skill 是否说明清楚。"
+    ],
+    "gettingStarted": [
+      "先阅读 README，了解官方对 Agent Skills 的基本组织方式。",
+      "选择一个与你需求接近的示例，观察它的目录和说明文档。",
+      "用同样结构新建自己的 skill，再在 Agent 环境里测试。"
+    ],
+    "expectedOutcome": [
+      "更快理解官方 skill 的写法，不从零摸索。",
+      "写出来的 skill 更容易被别人理解、安装和复用。",
+      "团队内部的 skills 更统一，后续维护成本更低。"
+    ],
+    "caveats": [
+      "它主要是示例和参考，不等于所有 skill 都能直接解决你的业务问题。",
+      "官方仓库会变化，具体格式仍以最新 README 为准。"
+    ]
   }
 }

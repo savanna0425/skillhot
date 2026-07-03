@@ -8,7 +8,7 @@
   "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
   "homepage": "",
   "description": "The largest open-source medical AI skills library for OpenClaw🦞.",
-  "summary": "OpenClaw 最大的开源医疗 AI 技能库",
+  "summary": "OpenClaw-Medical-Skills 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -87,5 +87,51 @@
     "sourceHash": "3a170481504a17ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "OpenClaw-Medical-Skills 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "OpenClaw-Medical-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "problemSolved": [
+      "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
+      "用户不知道哪些技能值得先看。",
+      "团队需要一个集中入口来对比不同资源。",
+      "如果你的任务和「发现新技能」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "集中整理 Skills、插件、示例、教程或资源链接。",
+      "按领域、平台或用途帮助用户快速发现项目。",
+      "帮助你判断哪些条目值得继续打开 README。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
+      "想快速了解某个生态有哪些资源的人。",
+      "需要给团队建立候选清单的人。",
+      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "想要一个单一成品工具、马上解决具体业务问题的人。",
+      "不愿逐项筛选和阅读 README 的人。"
+    ],
+    "howItWorks": [
+      "通常以 README、目录结构或清单形式维护资源。",
+      "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
+      "质量取决于维护者更新频率和收录标准。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先看目录是否按平台、领域或用途分类。",
+      "优先打开更新较新、说明完整、Stars 和社区反馈较好的条目。",
+      "选出 2 到 3 个候选后再实际安装测试。"
+    ],
+    "expectedOutcome": [
+      "减少搜索同类项目的时间。",
+      "更快建立一个技能生态的整体地图。",
+      "选型时更容易横向比较。"
+    ],
+    "caveats": [
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

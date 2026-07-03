@@ -8,7 +8,7 @@
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "homepage": "",
   "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-  "summary": "腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API",
+  "summary": "TencentDB-Agent-Memory：腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -82,5 +82,51 @@
     "sourceHash": "16a95a9501b4a0c7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "TencentDB-Agent-Memory：腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "TencentDB-Agent-Memory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "长任务容易丢上下文，Agent 记不住项目历史。",
+      "资料、代码和决策分散，下一次会话很难续接。",
+      "团队需要让 Agent 更可靠地检索旧信息。",
+      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
+      "帮助 Agent 在长任务中保留关键事实和决策。",
+      "帮助你判断它是否适合当前长期项目。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "长期使用 Agent 做项目的人。",
+      "需要跨会话续接、知识库检索或团队记忆的人。",
+      "代码库、文档库或资料库较大的团队。",
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "只做一次性短任务、不需要保存上下文的人。",
+      "涉及敏感数据但没有权限隔离和清理方案的场景。"
+    ],
+    "howItWorks": [
+      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
+      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
+      "效果取决于数据质量、分块方式和权限管理。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先用一个小项目或公开资料库测试。",
+      "确认数据存储位置、权限和删除方式。",
+      "再把长期项目资料逐步迁入。"
+    ],
+    "expectedOutcome": [
+      "跨会话续接更顺。",
+      "Agent 更容易找回项目背景和历史决策。",
+      "长任务的上下文管理成本下降。"
+    ],
+    "caveats": [
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

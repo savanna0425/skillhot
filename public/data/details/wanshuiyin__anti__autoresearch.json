@@ -8,7 +8,7 @@
   "url": "https://github.com/wanshuiyin/Anti-Autoresearch",
   "homepage": "",
   "description": "Don't trust an autoresearch paper at face value. Reviewer-side integrity forensics (self-consistency + fabrication), deterministic verdict. 61 signals: 46 integrity hack-patterns (families A–H, verdict-bearing) + 13 zero-weight AI writing-style impressions (AIS) + 2 advisory. Not an opaque AI-text classifier. The dual of ARIS.",
-  "summary": "Anti-Autoresearch 聚焦安全审计、漏洞检查与风险治理。",
+  "summary": "Anti-Autoresearch：Anti-Autoresearch 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -96,5 +96,51 @@
     "sourceHash": "c92028eff377bd10",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "Anti-Autoresearch：Anti-Autoresearch 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Anti-Autoresearch 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
+      "安全排查需要固定流程，不能只靠临时经验。",
+      "团队希望把安全审计能力前置到开发或使用阶段。",
+      "如果你的任务和「代码审计」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助安全审计、漏洞研究、权限检查、合规排查或威胁分析。",
+      "把安全检查步骤整理成可复用的 Agent 工作流。",
+      "帮助你判断它是否适合当前风险场景。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "开发者、安全研究员和需要做风险自查的团队。",
+      "想把安全检查嵌入 Agent 或开发流程的人。",
+      "需要快速筛查配置、依赖或代码风险的人。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "未经授权的攻击、绕过或滥用场景。",
+      "把工具输出当作最终安全结论而不做人工复核的人。"
+    ],
+    "howItWorks": [
+      "通常通过规则、脚本、扫描器、Skill 或报告模板执行检查。",
+      "用户提供目标代码、配置或范围后，Agent 按流程分析并输出线索。",
+      "安全结论需要结合上下文和专业复核。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先阅读许可和使用边界。",
+      "在你有授权的项目中试跑。",
+      "把发现的问题交给人工确认后再修复或披露。"
+    ],
+    "expectedOutcome": [
+      "更早发现潜在风险。",
+      "安全检查过程更有结构。",
+      "团队可以复用固定审计流程。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

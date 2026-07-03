@@ -22,7 +22,7 @@ test('desktop discovery, semantic corrections, details and guest favorites', asy
   await expect(page.locator('.search-results-section article')).toHaveCount(2)
   const switchCard = page.locator('.search-results-section article').filter({ hasText: 'farion1231/cc-switch' })
   await expect(switchCard).toContainText('Agent工具与平台')
-  await expect(switchCard).toContainText('跨平台管理 Claude Code、Codex 等编程智能体及模型服务配置')
+  await expect(switchCard).toContainText('管理 Claude Code、Codex 等编程智能体配置和模型服务')
   await switchCard.getByRole('button', { name: '详情' }).click()
   const switchPanel = page.getByRole('complementary', { name: 'farion1231/cc-switch 详情' })
   await expect(switchPanel).toContainText('作者原始描述')
@@ -31,7 +31,7 @@ test('desktop discovery, semantic corrections, details and guest favorites', asy
   await search.fill('superpowers')
   const superpowersCard = page.locator('.search-results-section article').filter({ hasText: 'obra/superpowers' })
   await expect(superpowersCard).toContainText('编程开发')
-  await expect(superpowersCard).toContainText('一套面向智能体的软件开发方法与技能框架')
+  await expect(superpowersCard).toContainText('给 Claude Code、Codex 这类编程智能体使用的软件开发方法和技能集合')
 
   await page.screenshot({ path: 'test-results/desktop-search.png', fullPage: false })
   await superpowersCard.getByRole('button', { name: '收藏' }).click()
@@ -98,13 +98,52 @@ test('detail panel shows product-facing project interpretation without technical
 
   await page.locator('.detail-restore button').click()
   const panel = page.locator('.detail-shell')
-  await expect(panel.getByRole('heading', { name: '项目解读' })).toBeVisible({ timeout: 10_000 })
+  await expect(panel).toContainText(/看懂这个项目|项目解读/, { timeout: 10_000 })
   await expect(panel).toContainText('适合谁')
   await expect(panel).toContainText('预期效果')
-  await expect(panel).toContainText('根据仓库公开信息整理')
   await expect(panel).not.toContainText('AI 项目解读')
   await expect(panel).not.toContainText('离线生成')
   await expect(panel).not.toContainText('AI 已解读')
+})
+
+test('sample detail explains a project in plain user-facing language', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+
+  await page.getByPlaceholder('搜索 Skills、仓库、场景或平台').fill('superpowers')
+  const superpowersCard = page.locator('.search-results-section article').filter({ hasText: 'obra/superpowers' })
+  await superpowersCard.getByRole('button', { name: '详情' }).click()
+  const panel = page.getByRole('complementary', { name: 'obra/superpowers 详情' })
+
+  await expect(panel).toContainText('superpowers 是一套给 Claude Code、Codex 这类编程智能体使用的软件开发方法和技能集合')
+  await expect(panel.getByRole('heading', { name: '这是什么' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '它解决什么问题' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '你能用它做什么' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '不适合谁' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '怎么开始用' })).toBeVisible()
+  await expect(panel).toContainText('让智能体按计划、实现、测试、评审这些步骤推进任务')
+  await expect(panel.getByRole('heading', { name: '适用场景' })).toHaveCount(0)
+})
+
+test('batch-generated detail explains non-sample projects from a user perspective', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+  await waitForCatalog(page)
+
+  await page.getByPlaceholder('搜索 Skills、仓库、场景或平台').fill('affaan-m/ECC')
+  const card = page.locator('.search-results-section article').filter({ hasText: 'affaan-m/ECC' })
+  await expect(card).toContainText('性能优化与工程方法系统')
+  await card.getByRole('button', { name: '详情' }).click()
+  const panel = page.getByRole('complementary', { name: 'affaan-m/ECC 详情' })
+
+  await expect(panel).toContainText('看懂这个项目')
+  await expect(panel.getByRole('heading', { name: '这是什么' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '它解决什么问题' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '你能用它做什么' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '不适合谁' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '怎么开始用' })).toBeVisible()
+  await expect(panel).toContainText('先判断它是否适合你的当前任务')
+  await expect(panel).not.toContainText('离线生成')
+  await expect(panel.getByRole('heading', { name: '适用场景' })).toHaveCount(0)
 })
 
 test('desktop detail panel width modes', async ({ page }, testInfo) => {

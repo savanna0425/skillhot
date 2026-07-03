@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/RD-Agent",
   "homepage": "https://rdagent.azurewebsites.net/",
   "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
-  "summary": "RD-Agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
+  "summary": "RD-Agent：RD-Agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "高",
@@ -81,5 +81,51 @@
     "sourceHash": "ec26817c38782d8c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "RD-Agent：RD-Agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "whatItIs": "RD-Agent 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
+      "不同办公工具之间的信息流转需要手动复制、整理和检查。",
+      "用户想把个人工作流交给 Agent 承接，但缺少现成入口。",
+      "如果你的任务和「文档与表格」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助处理文档、表格、邮件、笔记、PDF 或日程相关任务。",
+      "把常见办公流程封装成更容易调用的 Agent 能力。",
+      "帮助你判断它是否能接入自己的日常工具链。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "经常处理文档、知识库、邮件或会议资料的人。",
+      "希望用 Agent 降低重复办公成本的个人或团队。",
+      "需要把资料整理流程标准化的人。",
+      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "需要严格企业级权限审计但尚未核对安全边界的场景。",
+      "只想找传统办公软件替代品、不打算使用 Agent 的人。"
+    ],
+    "howItWorks": [
+      "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
+      "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
+      "涉及个人数据时，需要自己确认权限和隐私设置。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先确认它支持你正在用的办公平台。",
+      "用不敏感的测试文档或样例数据试跑。",
+      "再决定是否接入真实邮箱、日历、文档或知识库。"
+    ],
+    "expectedOutcome": [
+      "重复整理工作减少。",
+      "资料查找、生成和同步更快。",
+      "个人工作流更容易被 Agent 接住。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

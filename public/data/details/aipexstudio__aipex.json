@@ -8,7 +8,7 @@
   "url": "https://github.com/AIPexStudio/AIPex",
   "homepage": "https://claudechrome.com",
   "description": "AIPex: AI browser automation assistant, no migration and privacy first. Alternative to Manus Browser Operator、 Claude Chrome and Agent Browser",
-  "summary": "AIPex 用于自动化浏览器、工具集成或重复流程。",
+  "summary": "AIPex：AIPex 用于自动化浏览器、工具集成或重复流程。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -89,5 +89,51 @@
     "sourceHash": "d234e110bc8312ea",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "AIPex：AIPex 用于自动化浏览器、工具集成或重复流程。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "AIPex 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
+      "跨平台工作流缺少统一入口。",
+      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
+      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
+      "把重复任务封装成 Agent 可以触发的流程。",
+      "帮助你判断它是否适合当前自动化任务。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "经常处理重复网页操作、数据搬运或工具联动的人。",
+      "想让 Agent 执行半自动流程的开发者和运营人员。",
+      "需要把日常任务脚本化的小团队。",
+      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
+      "没有能力检查自动化结果和异常的人。"
+    ],
+    "howItWorks": [
+      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
+      "用户配置目标工具后，让 Agent 按流程操作。",
+      "稳定性取决于目标网站、权限和异常处理。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先用测试账号或非关键任务验证。",
+      "确认它是否遵守目标平台规则。",
+      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
+    ],
+    "expectedOutcome": [
+      "重复操作耗时减少。",
+      "跨工具流程更顺。",
+      "Agent 可以承担更多可控的执行型任务。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

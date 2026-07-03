@@ -8,7 +8,7 @@
   "url": "https://github.com/openclaw/openclaw-windows-node",
   "homepage": "",
   "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
-  "summary": "Windows 配套套件：OpenClaw - 系统托盘应用、共享库、Node 和 PowerToys 命令面板扩展",
+  "summary": "openclaw-windows-node 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -72,5 +72,51 @@
     "sourceHash": "b008578a20f7cd20",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "openclaw-windows-node 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "openclaw-windows-node 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "problemSolved": [
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
+    ],
+    "howItWorks": [
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
+    ],
+    "expectedOutcome": [
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

@@ -8,7 +8,7 @@
   "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
   "homepage": "",
   "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-  "summary": "将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）",
+  "summary": "SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -75,5 +75,51 @@
     "sourceHash": "c0e9f9f566064de9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "SwiftUI-Agent-Skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
+      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
+      "团队希望把开发经验沉淀成可重复执行的能力。",
+      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
+      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
+      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
+      "需要让 Agent 参与真实工程任务的团队。",
+      "想把开发流程标准化、可复盘的人。",
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "只想找一个无需配置的成品 SaaS 工具的人。",
+      "不打算让 Agent 参与代码或工程流程的人。"
+    ],
+    "howItWorks": [
+      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
+      "Agent 会根据仓库提供的方法处理具体开发任务。",
+      "最终质量仍需要你用测试、构建和代码评审来确认。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先读 README 的安装步骤和示例任务。",
+      "在一个小仓库或低风险分支中试用。",
+      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
+    ],
+    "expectedOutcome": [
+      "开发流程更有章法，长任务更不容易散。",
+      "重复性的工程经验可以被复用。",
+      "你能更快判断一个仓库是否值得投入时间试用。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

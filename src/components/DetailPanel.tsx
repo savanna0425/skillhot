@@ -1,6 +1,6 @@
 import { Bookmark, Check, ChevronLeft, ChevronRight, Columns2, Copy, ExternalLink, Image as ImageIcon, Maximize2, PanelRight, PlayCircle, Star, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import type { DetailMode, Skill } from '../types'
+import type { DetailMode, ProjectProfile, Skill } from '../types'
 import { daysFromNow, formatStars } from '../utils'
 import { GithubMark } from './GithubMark'
 
@@ -28,6 +28,59 @@ interface DetailPanelProps {
   onMode: (mode: DetailMode) => void
 }
 
+function ProfileList({ items }: { items: string[] }) {
+  return <ul>{items.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+}
+
+function ProjectProfileSection({ profile }: { profile: ProjectProfile }) {
+  return (
+    <section className="detail-section project-profile-section">
+      <div className="project-profile-heading">
+        <h3>看懂这个项目</h3>
+        <p>按用户选型视角整理，先判断它值不值得继续打开 README。</p>
+      </div>
+      <div className="project-profile-block project-profile-intro">
+        <h4>这是什么</h4>
+        <p>{profile.whatItIs}</p>
+      </div>
+      <div className="project-profile-grid">
+        <div className="project-profile-block">
+          <h4>它解决什么问题</h4>
+          <ProfileList items={profile.problemSolved} />
+        </div>
+        <div className="project-profile-block">
+          <h4>你能用它做什么</h4>
+          <ProfileList items={profile.coreCapabilities} />
+        </div>
+        <div className="project-profile-block">
+          <h4>适合谁</h4>
+          <ProfileList items={profile.bestFor} />
+        </div>
+        <div className="project-profile-block">
+          <h4>不适合谁</h4>
+          <ProfileList items={profile.notFor} />
+        </div>
+        <div className="project-profile-block">
+          <h4>它大概怎么工作</h4>
+          <ProfileList items={profile.howItWorks} />
+        </div>
+        <div className="project-profile-block">
+          <h4>怎么开始用</h4>
+          <ProfileList items={profile.gettingStarted} />
+        </div>
+        <div className="project-profile-block">
+          <h4>预期效果</h4>
+          <ProfileList items={profile.expectedOutcome} />
+        </div>
+        <div className="project-profile-block">
+          <h4>注意事项</h4>
+          <ProfileList items={profile.caveats} />
+        </div>
+      </div>
+    </section>
+  )
+}
+
 export function DetailPanel({ skill, open, isFavorite, mode, loading = false, onFavorite, onClose, onRestore, onMode }: DetailPanelProps) {
   const [copied, setCopied] = useState(false)
   const panelRef = useRef<HTMLDivElement>(null)
@@ -46,6 +99,7 @@ export function DetailPanel({ skill, open, isFavorite, mode, loading = false, on
   }
 
   if (!skill) return null
+  const hasProjectProfile = Boolean(skill.projectProfile)
 
   const copyInstall = async () => {
     try {
@@ -76,7 +130,7 @@ export function DetailPanel({ skill, open, isFavorite, mode, loading = false, on
         <div className="detail-heading">
           <span>{skill.category}</span>
           <h2>{skill.fullName}</h2>
-          <p>{skill.summary}</p>
+          <p>{skill.projectProfile?.plainIntro || skill.summary}</p>
           <div><strong><Star size={15} fill="currentColor" /> {formatStars(skill.stars)}</strong><span>{daysFromNow(skill.pushedAt)} 天前更新</span></div>
         </div>
 
@@ -90,12 +144,14 @@ export function DetailPanel({ skill, open, isFavorite, mode, loading = false, on
           <div><dt>技能规模</dt><dd>{skill.skillCount > 1 ? `${skill.skillCount}+` : '单项 / 未标注'}</dd></div>
         </dl>
 
+        {skill.projectProfile ? <ProjectProfileSection profile={skill.projectProfile} /> : null}
+
         <section className="detail-section">
           <h3>作者原始描述</h3>
           <p className="original-description">{skill.description || '仓库作者暂未填写 GitHub 简介，请查看 README。'}</p>
           <div className="classification-evidence"><span>{confidenceLabel(skill.categoryConfidence)}</span><small>结合仓库名、作者介绍和 GitHub Topics 帮你归的类，仅供参考</small></div>
         </section>
-        {skill.projectInsight ? (
+        {!hasProjectProfile && skill.projectInsight ? (
           <section className="detail-section project-insight-section">
             <div className="project-insight-heading">
               <h3>项目解读</h3>
@@ -132,13 +188,13 @@ export function DetailPanel({ skill, open, isFavorite, mode, loading = false, on
           <h3>兼容平台</h3>
           <div className="tag-list">{skill.platforms.map((platform) => <span key={platform}>{platform}</span>)}</div>
         </section>
-        <section className="detail-section">
+        {!hasProjectProfile ? <section className="detail-section">
           <h3>适用场景</h3>
           <ul>{skill.scenarios.map((scenario) => <li key={scenario}><Check size={15} /> {scenario}</li>)}</ul>
-        </section>
+        </section> : null}
         <section className="detail-section">
-          <h3>安装与使用</h3>
-          <p>{skill.howToUse}</p>
+          <h3>{hasProjectProfile ? '安装入口' : '安装与使用'}</h3>
+          <p>{hasProjectProfile ? '如果你决定试用，可以从 GitHub README 开始；下面是仓库克隆命令。' : skill.howToUse}</p>
           <div className="install-command"><code>{skill.installCommand}</code><button type="button" onClick={copyInstall} aria-label="复制安装命令">{copied ? <Check size={16} /> : <Copy size={16} />}</button></div>
         </section>
         <section className="detail-section">

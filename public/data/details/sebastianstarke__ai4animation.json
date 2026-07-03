@@ -8,7 +8,7 @@
   "url": "https://github.com/sebastianstarke/AI4Animation",
   "homepage": "",
   "description": "Bringing Characters to Life with Computer Brains in Unity",
-  "summary": "使用 Unity 中的计算机大脑为角色赋予生命",
+  "summary": "AI4Animation：使用 Unity 中的计算机大脑为角色赋予生命。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -72,5 +72,51 @@
     "sourceHash": "e0244b2839f163d3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "AI4Animation：使用 Unity 中的计算机大脑为角色赋予生命。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "AI4Animation 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
+      "同一套内容风格难以稳定复用。",
+      "创作任务需要把素材、脚本、生成和发布流程串起来。",
+      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
+      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
+      "帮助你先判断它是否适合当前内容生产任务。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "内容创作者、运营、设计师和需要频繁产出素材的人。",
+      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
+      "想把固定内容流程模板化的小团队。",
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
+      "只想要一键生成所有内容且不参与编辑的人。"
+    ],
+    "howItWorks": [
+      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
+      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
+      "最终发布前仍需要人工审稿、校对和版权检查。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先看 README 里的输入格式和示例输出。",
+      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
+      "确认可编辑性和导出格式后再纳入正式流程。"
+    ],
+    "expectedOutcome": [
+      "从选题到初稿的速度更快。",
+      "内容风格更容易保持一致。",
+      "重复性创作流程可以被复用。"
+    ],
+    "caveats": [
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }

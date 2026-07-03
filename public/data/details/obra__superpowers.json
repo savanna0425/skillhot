@@ -8,7 +8,7 @@
   "url": "https://github.com/obra/superpowers",
   "homepage": "",
   "description": "An agentic skills framework & software development methodology that works.",
-  "summary": "一套面向智能体的软件开发方法与技能框架",
+  "summary": "superpowers 是一套给 Claude Code、Codex 这类编程智能体使用的软件开发方法和技能集合，帮助它们按更稳定的流程写代码、测试、评审和交付。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -90,5 +90,50 @@
     "sourceHash": "d432dc6aec057b95",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "superpowers 是一套给 Claude Code、Codex 这类编程智能体使用的软件开发方法和技能集合，帮助它们按更稳定的流程写代码、测试、评审和交付。",
+    "whatItIs": "它不是一个单独的 UI 工具，也不是一组零散 prompt，而是一套可以放进 Agent 环境里的软件工程工作方法。你可以把它理解成给编程智能体配的一本团队开发手册：什么时候先计划、什么时候写测试、什么时候调试、什么时候做代码评审，都有对应的 skill 来约束流程。",
+    "problemSolved": [
+      "编程智能体容易跳过计划、测试或复盘，任务一长就开始跑偏。",
+      "同一套开发习惯很难稳定复用，每次都要重新写一大段提示词。",
+      "团队想让 AI 写代码更像真实工程流程，而不是只靠一次性聊天指令。"
+    ],
+    "coreCapabilities": [
+      "让智能体按计划、实现、测试、评审这些步骤推进任务。",
+      "把常用软件开发方法沉淀成可重复调用的 skills。",
+      "在复杂任务中提醒 Agent 先确认需求、再计划，再实现，再验证。",
+      "帮助你把个人或团队的开发纪律变成 Agent 能执行的工作流。"
+    ],
+    "bestFor": [
+      "经常用 Claude Code、Codex、OpenCode 等工具写代码的开发者。",
+      "希望 AI 编程过程更稳定、更可复盘的人。",
+      "想把团队工程规范沉淀成可复用 Agent 工作流的小团队。"
+    ],
+    "notFor": [
+      "只想找一个可视化 UI 组件库或桌面软件的人。",
+      "不使用 Claude Code、Codex 或类似编程智能体的人。",
+      "只需要一次性 prompt，不打算维护长期工作流的人。"
+    ],
+    "howItWorks": [
+      "仓库提供一组面向软件开发流程的 skills 和方法说明。",
+      "你把需要的 skill 安装到对应 Agent 环境后，在任务中让 Agent 调用它。",
+      "Agent 会按 skill 里的流程提醒自己：先理解问题，再计划，再实现，再验证。"
+    ],
+    "gettingStarted": [
+      "先打开 README，确认你的 Agent 工具是否支持这种 skill 组织方式。",
+      "把仓库里的相关 skill 复制或安装到自己的 Agent Skills 目录。",
+      "用一个小代码任务试跑，观察它是否真的按计划、测试、评审流程执行。"
+    ],
+    "expectedOutcome": [
+      "AI 写代码时更少跳步骤，长任务更容易保持纪律。",
+      "重复的开发方法可以被复用，而不是每次重新写提示词。",
+      "你能更快判断一次 AI 改动是否经过了必要的验证。"
+    ],
+    "caveats": [
+      "它提供的是方法和 skill 框架，不会替你自动保证代码质量。",
+      "不同 Agent 工具的 skill 安装方式可能不同，仍要按 README 核对。",
+      "如果你的团队流程很特殊，需要基于它再改成自己的版本。"
+    ]
   }
 }

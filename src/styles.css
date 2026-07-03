@@ -343,6 +343,18 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .project-insight-grid strong, .project-getting-started strong { display: block; margin-bottom: 8px; font-size: 11px; letter-spacing: .02em; }
 .project-getting-started { margin-top: 14px; padding: 12px; border-radius: 9px; background: #fff; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .project-getting-started span { display: block; }
+.project-profile-section { margin: 16px 0; padding: 17px; border: 1px solid var(--line); border-radius: 12px; background: #fbfbfc; }
+.project-profile-heading { margin-bottom: 14px; display: grid; gap: 5px; }
+.project-profile-heading h3 { margin: 0; font-size: 1.182em; }
+.project-profile-heading p { margin: 0; color: var(--soft-muted); font-size: 0.818em; line-height: 1.55; }
+.project-profile-grid { display: grid; gap: 0; }
+.project-profile-block { padding: 14px 0; border-top: 1px solid var(--line); }
+.project-profile-intro { padding-top: 0; border-top: 0; }
+.project-profile-block h4 { margin: 0 0 8px; font-size: 0.955em; letter-spacing: .01em; }
+.project-profile-block p { margin: 0; color: var(--muted); font-size: 1em; line-height: 1.7; }
+.project-profile-block ul { margin: 0; padding: 0; display: grid; gap: 8px; list-style: none; }
+.project-profile-block li { display: flex; align-items: flex-start; gap: 7px; color: #4f5057; font-size: 1em; line-height: 1.6; }
+.project-profile-block li svg { flex: 0 0 auto; margin-top: 0.2em; }
 .original-description { overflow-wrap: anywhere; }
 .classification-evidence { margin-top: 12px; display: grid; gap: 4px; }
 .classification-evidence span { width: fit-content; padding: 4px 7px; border: 1px solid var(--line); border-radius: 5px; background: #fafafa; font-size: 0.818em; font-weight: 800; }

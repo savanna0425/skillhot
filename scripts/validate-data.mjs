@@ -31,6 +31,25 @@ const requiredRepositories = [
   'dotnet/skills',
 ]
 
+const sampleProjectProfiles = new Map([
+  ['obra/superpowers', 'Claude Code、Codex'],
+  ['anthropics/skills', 'Agent Skills 的官方公共仓库'],
+  ['farion1231/cc-switch', '管理 Claude Code、Codex'],
+])
+
+const requiredProjectProfileFields = [
+  ['plainIntro', 'string'],
+  ['whatItIs', 'string'],
+  ['problemSolved', 'array'],
+  ['coreCapabilities', 'array'],
+  ['bestFor', 'array'],
+  ['notFor', 'array'],
+  ['howItWorks', 'array'],
+  ['gettingStarted', 'array'],
+  ['expectedOutcome', 'array'],
+  ['caveats', 'array'],
+]
+
 const dynamicClassificationProbes = [
   {
     repo: {
@@ -63,6 +82,8 @@ assert(!Object.hasOwn(data.meta, 'tokenCost'), 'tokenCost must not be part of pu
 assert(Array.isArray(data.categories) && data.categories.length >= requiredCategories.length, 'category metadata is incomplete')
 assert(Array.isArray(data.topics) && data.topics.length >= 10, 'topic aggregation is incomplete')
 assert(manifest.catalogPolicy.mode === 'dynamic-threshold', 'manifest must describe dynamic catalog policy')
+assert(manifest.projectProfilePolicy?.mode === 'deterministic-rules-with-optional-llm-cache', 'manifest must describe project profile generation policy')
+assert(manifest.projectProfilePolicy?.defaultTokenCost === 0, 'project profile default token cost must be zero')
 assert(manifest.stats.repositories === data.skills.length, 'manifest stats must match skills.json')
 assert(home.skills.length > 0 && home.skills.length < data.skills.length, 'home.json must be a lightweight subset')
 assert(lite.skills.length === data.skills.length, 'skills-lite.json must contain every visible repository')
@@ -108,6 +129,26 @@ for (const skill of lite.skills) {
   assert(Array.isArray(detail.projectInsight.useCases) && detail.projectInsight.useCases.length > 0, `missing project use cases for ${skill.fullName}`)
   assert(Array.isArray(detail.projectInsight.expectedEffects) && detail.projectInsight.expectedEffects.length > 0, `missing project expected effects for ${skill.fullName}`)
   assert(/公开信息整理/.test(detail.projectInsight.sourceNote), `missing public-source note for ${skill.fullName}`)
+  assert(detail.projectProfile, `missing user-facing project profile for ${skill.fullName}`)
+  for (const [field, kind] of requiredProjectProfileFields) {
+    const value = detail.projectProfile[field]
+    if (kind === 'array') {
+      assert(Array.isArray(value) && value.length >= 2, `project profile ${field} must contain at least two items for ${skill.fullName}`)
+      value.forEach((item, index) => assert(typeof item === 'string' && /[\u3400-\u9fff]/.test(item), `project profile ${field}[${index}] must be Chinese text for ${skill.fullName}`))
+    } else {
+      assert(typeof value === 'string' && /[\u3400-\u9fff]/.test(value), `project profile ${field} must be Chinese text for ${skill.fullName}`)
+    }
+  }
+  assert(!/离线生成|AI 已解读|AI 项目解读/.test(JSON.stringify(detail.projectProfile)), `project profile must not expose generation labels for ${skill.fullName}`)
+  const sampleIntro = sampleProjectProfiles.get(skill.fullName)
+  if (sampleIntro) {
+    assert(detail.projectProfile?.plainIntro?.includes(sampleIntro), `missing sample plain intro for ${skill.fullName}`)
+    assert(detail.projectProfile?.whatItIs, `missing sample whatItIs for ${skill.fullName}`)
+    assert(Array.isArray(detail.projectProfile.problemSolved) && detail.projectProfile.problemSolved.length >= 3, `missing sample problems for ${skill.fullName}`)
+    assert(Array.isArray(detail.projectProfile.coreCapabilities) && detail.projectProfile.coreCapabilities.length >= 3, `missing sample capabilities for ${skill.fullName}`)
+    assert(Array.isArray(detail.projectProfile.notFor) && detail.projectProfile.notFor.length >= 2, `missing sample notFor for ${skill.fullName}`)
+    assert(Array.isArray(detail.projectProfile.gettingStarted) && detail.projectProfile.gettingStarted.length >= 3, `missing sample gettingStarted for ${skill.fullName}`)
+  }
 }
 
 assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)

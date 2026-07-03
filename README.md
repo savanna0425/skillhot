@@ -12,13 +12,13 @@
 - 榜单：按综合热度、Stars 和最近更新查看完整索引。
 - 分类：统一覆盖 UI 设计、编程开发、办公效率、内容创作、数据分析、研究学习、自动化、安全等领域。
 - 话题：把 GitHub Topics 聚合成平台生态与能力地图。
-- 详情：展示适用场景、兼容平台、安装命令、许可证、预览图、视频和来源链接。
+- 详情：用用户视角解释“这是什么、解决什么问题、能做什么、适合谁、不适合谁、怎么开始用”，并展示兼容平台、安装命令、许可证、预览图、视频和来源链接。
 - 账号与收藏：访客可直接浏览；通过邮箱验证或 GitHub 登录后，收藏由 Supabase Auth + Postgres RLS 按用户隔离并跨设备同步。
 - 响应式布局：桌面端左右侧栏可收起，移动端使用筛选抽屉和详情底部面板。
 
 ## 数据覆盖
 
-当前数据管线保留综合排名前 1,500 个去重仓库，并额外保留可能被排序遗漏的精选来源。来源包括：
+当前数据管线使用动态阈值，不再把目录固定截断为某个展示数量；符合相关性、活跃度、质量与精选规则的仓库会自然进入索引。来源包括：
 
 1. GitHub Topic Search `skill` 前三页，用作来源审计和新 Topic 发现。
 2. `agent-skills`、`claude-skills`、`codex-skills`、`openclaw-skills` 等持续跟踪的 Topic。
@@ -26,7 +26,7 @@
 4. 官方与社区精选来源，包括 Anthropic、NVIDIA、.NET、Google Workspace、Karpathy 相关技能和 Khazix Skills。
 5. Stars 不低于 500、最近 90 天仍有推送的 `skill` 搜索结果；按 Stars 区间分片，规避 GitHub 每个查询最多返回 1,000 条的限制。
 
-所有数据每天通过 GitHub REST API 更新。分类、筛选和评分由确定性脚本完成；README 用于提取安装方式、平台兼容性、技能规模与视频链接。
+所有数据每天通过 GitHub REST API 更新。分类、筛选、评分和基础详情由确定性脚本完成；README 用于提取安装方式、平台兼容性、技能规模与视频链接。可选的大模型增强只在你配置 `SKILLHOT_LLM_BASE_URL`、`SKILLHOT_LLM_API_KEY` 和 `SKILLHOT_LLM_MODEL` 后手动或定时小批量运行，默认更新成本为 0 token。
 
 详细规则见 [数据管线文档](docs/DATA_PIPELINE.md)。
 
@@ -41,6 +41,13 @@ pnpm dev
 
 ```bash
 GITHUB_TOKEN="$(gh auth token)" pnpm update:data
+```
+
+可选增强项目详情文案：
+
+```bash
+pnpm enrich:profiles -- --dry-run --limit=5
+# 配置 SKILLHOT_LLM_BASE_URL / SKILLHOT_LLM_API_KEY / SKILLHOT_LLM_MODEL 后，去掉 --dry-run 才会写入缓存
 ```
 
 检查与构建：

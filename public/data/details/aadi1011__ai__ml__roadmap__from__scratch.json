@@ -8,7 +8,7 @@
   "url": "https://github.com/aadi1011/AI-ML-Roadmap-from-scratch",
   "homepage": "https://aadi1011.github.io/AI-ML-Roadmap-from-scratch/",
   "description": "Become skilled in Artificial Intelligence, Machine Learning, Generative AI, Deep Learning, Data Science, Natural Language Processing, Reinforcement Learning and more with this complete 0 to 100 repository.",
-  "summary": "掌握人工智能、机器学习、生成式人工智能、深度学习、数据科学、自然语言处理、强化学习等，通过本涵盖从零到一百的完整仓库",
+  "summary": "AI-ML-Roadmap-from-scratch：掌握人工智能、机器学习、生成式人工智能、深度学习、数据科学、自然语言处理、强化学习等，通过本涵盖从零到一百的完整仓库。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -86,5 +86,51 @@
     "sourceHash": "b77b9bb8256c43bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "AI-ML-Roadmap-from-scratch：掌握人工智能、机器学习、生成式人工智能、深度学习、数据科学、自然语言处理、强化学习等，通过本涵盖从零到一百的完整仓库。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "AI-ML-Roadmap-from-scratch 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
+      "非数据团队成员看不懂数据处理流程。",
+      "Agent 做数据任务时需要更明确的工具和边界。",
+      "如果你的任务和「数据处理」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助处理 SQL、表格、统计、图表、数据清洗或分析报告。",
+      "把数据任务拆成可执行步骤，方便 Agent 跟进。",
+      "帮助你判断它是否适合当前分析场景。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "需要快速探索数据的开发者、分析师和运营人员。",
+      "希望用 Agent 生成分析脚本、图表或报告的人。",
+      "想把常见数据流程标准化的团队。",
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
+      "完全不愿检查结果准确性的人。"
+    ],
+    "howItWorks": [
+      "通常通过脚本、Notebook、CLI、数据库连接或 Skill 执行分析流程。",
+      "用户提供数据源或问题，Agent 按步骤生成查询、处理和解读。",
+      "关键结论仍要回到原始数据验证。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先用公开或脱敏数据试跑。",
+      "确认依赖环境、数据库权限和导出格式。",
+      "再用于真实业务数据，并保留人工复核。"
+    ],
+    "expectedOutcome": [
+      "更快完成数据探索和初步报告。",
+      "重复分析步骤更容易复用。",
+      "数据任务的输入、处理和输出更清楚。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
   }
 }
