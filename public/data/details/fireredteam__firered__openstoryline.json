@@ -64,7 +64,7 @@
   "detailPath": "data/details/fireredteam__firered__openstoryline.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "FireRed-OpenStoryline 是一款将手动编辑转化为意图驱动的导演的 AI 视频编辑代理，通过自然语言交互、LLM 规划以及精确的工具编排实现。它支持透明、人机共存的创作流程，并采用可复用的风格技能，确保专业且连贯的叙事",
     "useCases": [
       "内容生产",
@@ -82,10 +82,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "cec9d0ec36f3a979",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

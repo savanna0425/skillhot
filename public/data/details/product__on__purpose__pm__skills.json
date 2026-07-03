@@ -64,7 +64,7 @@
   "detailPath": "data/details/product__on__purpose__pm__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "pm-skills 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
     "useCases": [
       "创建技能",
@@ -82,10 +82,11 @@
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "aff10c480ce04302",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

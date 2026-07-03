@@ -48,7 +48,7 @@
   "detailPath": "data/details/larksuite__cli.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "官方 Lark/飞书命令行工具，由 larksuite 团队维护——专为人类及 AI 代理构建。涵盖核心业务领域，包括通讯、文档、基础、表格、日历、邮件、任务、会议等，并提供 200 多个命令和 20 多个 AI 代理技能",
     "useCases": [
       "文档与表格",
@@ -66,10 +66,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "120dc488b97033a8",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -66,7 +66,7 @@
   "detailPath": "data/details/juneyaooo__gpt__image2__ppt__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill.",
     "useCases": [
       "内容生产",
@@ -84,10 +84,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "dbfa337186c81c20",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

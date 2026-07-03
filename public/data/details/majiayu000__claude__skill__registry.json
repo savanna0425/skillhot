@@ -57,7 +57,7 @@
   "detailPath": "data/details/majiayu000__claude__skill__registry.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Claude Code 技能注册表：最全面 | 网页搜索：https://majiayu000.github.io/claude-skill-registry-core/",
     "useCases": [
       "发现新技能",
@@ -75,10 +75,11 @@
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "5ac0cfcaffe9da3f",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

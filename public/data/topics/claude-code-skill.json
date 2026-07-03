@@ -557,13 +557,10 @@
       "owner": "Agents365-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "url": "https://github.com/Agents365-ai/drawio-skill",
-      "homepage": "https://agents365-ai.github.io/drawio-skill/",
       "description": "Generate draw.io diagrams from natural language — 6 presets, vision self-check + up to 5-round refinement, codebase-to-diagram, 10,000+ official shapes & 321 AI/LLM brand logos. Exports PNG/SVG/PDF/JPG.",
       "summary": "生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -574,13 +571,9 @@
       "language": "Python",
       "license": "MIT",
       "stars": 4911,
-      "forks": 366,
-      "openIssues": 0,
       "score": 142.6,
       "activity": "本周活跃",
       "pushedAt": "2026-06-27T14:21:45Z",
-      "updatedAt": "2026-07-01T04:51:41Z",
-      "createdAt": "2026-03-03T16:54:59Z",
       "sourceTopics": [
         "agent-skills",
         "claude-skills",
@@ -589,27 +582,6 @@
         "agent-skill",
         "skill-md",
         "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agent-skill",
-        "agent-skills",
-        "architecture-diagram",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "diagram",
-        "drawio",
-        "erd",
-        "flowchart",
-        "openclaw",
-        "openclaw-skills",
-        "skill-md",
-        "skillsmp",
-        "uml"
       ],
       "platforms": [
         "Claude",
@@ -625,34 +597,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/drawio-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Agents365-ai/drawio-skill#readme",
       "detailPath": "data/details/agents365__ai__drawio__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "3ef950aa80f9c44e",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 109,
@@ -662,13 +609,10 @@
       "owner": "mksglu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6067714?v=4",
       "url": "https://github.com/mksglu/context-mode",
-      "homepage": "https://context-mode.com",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
       "summary": "context-mode 聚焦软件开发、代码质量与工程交付。",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "高",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -679,42 +623,12 @@
       "language": "TypeScript",
       "license": "NOASSERTION",
       "stars": 18393,
-      "forks": 1290,
-      "openIssues": 25,
       "score": 140.4,
       "activity": "本周活跃",
       "pushedAt": "2026-06-30T12:37:10Z",
-      "updatedAt": "2026-07-01T04:38:40Z",
-      "createdAt": "2026-02-23T05:56:28Z",
       "sourceTopics": [
         "skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "antigravity",
-        "claude",
-        "claude-code",
-        "claude-code-hooks",
-        "claude-code-plugins",
-        "claude-code-skill",
-        "codex",
-        "codex-cli",
-        "context-mode",
-        "copilot",
-        "cursor-plugin",
-        "kiro",
-        "mcp",
-        "mcp-server",
-        "mcp-tools",
-        "openclaw",
-        "opencode",
-        "pi-agent",
-        "skills",
-        "zed-extension"
       ],
       "platforms": [
         "Claude",
@@ -730,34 +644,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/mksglu/context-mode",
         "videoUrl": "https://www.youtube.com/watch?v=QUHrntlfPo4"
       },
-      "readmeUrl": "https://github.com/mksglu/context-mode#readme",
       "detailPath": "data/details/mksglu__context__mode.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "context-mode 聚焦软件开发、代码质量与工程交付。",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "ec5f7a23c7de27e1",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 192,
@@ -767,13 +656,10 @@
       "owner": "AgriciDaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "url": "https://github.com/AgriciDaniel/claude-ads",
-      "homepage": "https://claude-ads.md",
       "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
       "summary": "claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
       "category": "产品与商业",
-      "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
       "categoryConfidence": "待复核",
-      "categoryReason": "仓库 Topic 弱信号",
       "scenarios": [
         "产品管理",
         "营销增长",
@@ -784,28 +670,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 6611,
-      "forks": 992,
-      "openIssues": 28,
       "score": 133.7,
       "activity": "本周活跃",
       "pushedAt": "2026-06-26T21:03:50Z",
-      "updatedAt": "2026-07-01T04:22:25Z",
-      "createdAt": "2026-02-11T13:01:49Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 搜索",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai",
-        "ai-marketing",
-        "claude-code",
-        "claude-code-skill",
-        "marketing-automation",
-        "open-source"
       ],
       "platforms": [
         "Claude",
@@ -820,34 +689,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-ads",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/AgriciDaniel/claude-ads#readme",
       "detailPath": "data/details/agricidaniel__claude__ads.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
-        "useCases": [
-          "产品管理",
-          "营销增长",
-          "商业决策"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "36cf4675e7b71fb1",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 235,
@@ -857,13 +701,10 @@
       "owner": "AgriciDaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "url": "https://github.com/AgriciDaniel/claude-seo",
-      "homepage": "https://claude-seo.md",
       "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
       "summary": "claude-seo 把浏览器、工具集成或重复流程封装为可复用的 Agent 自动化能力",
       "category": "自动化",
-      "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
       "categoryConfidence": "中",
-      "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
       "scenarios": [
         "重复任务",
         "浏览器操作",
@@ -874,28 +715,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 10221,
-      "forks": 1473,
-      "openIssues": 19,
       "score": 131.2,
       "activity": "本月活跃",
       "pushedAt": "2026-06-22T06:08:48Z",
-      "updatedAt": "2026-07-01T04:32:18Z",
-      "createdAt": "2026-02-07T08:17:38Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 搜索"
-      ],
-      "repoTopics": [
-        "ai",
-        "ai-seo",
-        "claude-code",
-        "claude-code-skill",
-        "marketing-automation",
-        "open-source",
-        "seo"
       ],
       "platforms": [
         "Claude",
@@ -907,34 +731,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-seo",
         "videoUrl": "https://www.youtube.com/watch?v=COMnNlUakQk"
       },
-      "readmeUrl": "https://github.com/AgriciDaniel/claude-seo#readme",
       "detailPath": "data/details/agricidaniel__claude__seo.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "claude-seo 把浏览器、工具集成或重复流程封装为可复用的 Agent 自动化能力",
-        "useCases": [
-          "重复任务",
-          "浏览器操作",
-          "跨工具集成"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "9276bba0370f4ea7",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 290,
@@ -944,13 +743,10 @@
       "owner": "glitternetwork",
       "avatarUrl": "https://avatars.githubusercontent.com/u/102277171?v=4",
       "url": "https://github.com/glitternetwork/pinme",
-      "homepage": "https://pinme.eth.limo",
       "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
       "summary": "在单一命令中部署前端。Claude Code 技能支持",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -961,38 +757,13 @@
       "language": "TypeScript",
       "license": "MIT",
       "stars": 3696,
-      "forks": 271,
-      "openIssues": 4,
       "score": 128.7,
       "activity": "本月活跃",
       "pushedAt": "2026-06-22T10:03:47Z",
-      "updatedAt": "2026-07-01T02:24:56Z",
-      "createdAt": "2025-04-13T01:41:33Z",
       "sourceTopics": [
         "skills",
         "claude-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai-tools",
-        "claude-code-skill",
-        "claude-skills",
-        "deployment",
-        "deployment-tools",
-        "frontend",
-        "frontend-deployment",
-        "hosting",
-        "serverless",
-        "skills",
-        "static-site",
-        "static-site-deploy",
-        "static-site-hosting",
-        "web-hosting",
-        "zero-configuration"
       ],
       "platforms": [
         "Claude"
@@ -1003,34 +774,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/glitternetwork/pinme",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/glitternetwork/pinme#readme",
       "detailPath": "data/details/glitternetwork__pinme.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "在单一命令中部署前端。Claude Code 技能支持",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "45c39b2b493df1d5",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 354,
@@ -1040,13 +786,10 @@
       "owner": "eugeniughelbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229805713?v=4",
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
-      "homepage": "https://theaioperator.io",
       "description": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi. 44 commands - self-rewriting notes, local+hybrid semantic search, key-less web research, /obsidian-architect codebase docs, and scheduled agents that maintain the vault while you sleep.",
       "summary": "obsidian-second-brain：文档、表格、邮件、日历、笔记与个人生产力。",
       "category": "办公效率",
-      "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
       "categoryConfidence": "中",
-      "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
       "scenarios": [
         "文档与表格",
         "邮件与日历",
@@ -1057,41 +800,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 2844,
-      "forks": 340,
-      "openIssues": 1,
       "score": 124.9,
       "activity": "本周活跃",
       "pushedAt": "2026-06-29T13:46:36Z",
-      "updatedAt": "2026-07-01T03:59:56Z",
-      "createdAt": "2026-03-24T11:58:12Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai-agent",
-        "ai-agents",
-        "ai-automation",
-        "ai-research",
-        "ai-tools",
-        "anthropic",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "knowledge-management",
-        "llm-tools",
-        "note-taking",
-        "obsidian",
-        "obsidian-md",
-        "obsidian-plugin",
-        "obsidian-skill",
-        "personal-knowledge-management",
-        "second-brain"
       ],
       "platforms": [
         "Claude",
@@ -1105,34 +818,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/eugeniughelbur/obsidian-second-brain",
         "videoUrl": "https://youtu.be/...`"
       },
-      "readmeUrl": "https://github.com/eugeniughelbur/obsidian-second-brain#readme",
       "detailPath": "data/details/eugeniughelbur__obsidian__second__brain.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "obsidian-second-brain：文档、表格、邮件、日历、笔记与个人生产力。",
-        "useCases": [
-          "文档与表格",
-          "邮件与日历",
-          "个人生产力"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "f10a80b72b90df6e",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 384,
@@ -1142,13 +830,10 @@
       "owner": "YouMind-OpenLab",
       "avatarUrl": "https://avatars.githubusercontent.com/u/245655810?v=4",
       "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
-      "homepage": "https://youmind.com/nano-banana-pro-prompts",
       "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
       "summary": "OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "待复核",
-      "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -1159,35 +844,12 @@
       "language": "TypeScript",
       "license": "",
       "stars": 1733,
-      "forks": 179,
-      "openIssues": 6,
       "score": 123.8,
       "activity": "本周活跃",
       "pushedAt": "2026-07-01T04:26:45Z",
-      "updatedAt": "2026-07-01T04:26:49Z",
-      "createdAt": "2026-01-21T07:15:20Z",
       "sourceTopics": [
         "claude-code-skill",
         "openclaw-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 搜索",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai-agent",
-        "ai-image",
-        "claude-code-skill",
-        "clawhub",
-        "content-creation",
-        "gemini",
-        "image-generation",
-        "nano-banana",
-        "openclaw",
-        "openclaw-skill",
-        "prompt-engineering",
-        "prompt-library"
       ],
       "platforms": [
         "Claude",
@@ -1202,34 +864,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill#readme",
       "detailPath": "data/details/youmind__openlab__nano__banana__pro__prompts__recommend__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "仓库未声明许可证，商用前需要谨慎核对。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "13efae088c38dfd2",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 425,
@@ -1239,13 +876,10 @@
       "owner": "NarratorAI-Studio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/275748302?v=4",
       "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
-      "homepage": "",
       "description": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
       "summary": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
       "category": "内容创作",
-      "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
       "categoryConfidence": "待复核",
-      "categoryReason": "仓库 Topic 弱信号",
       "scenarios": [
         "内容生产",
         "视觉创作",
@@ -1256,40 +890,14 @@
       "language": "",
       "license": "MIT",
       "stars": 1386,
-      "forks": 193,
-      "openIssues": 2,
       "score": 122.5,
       "activity": "本月活跃",
       "pushedAt": "2026-06-03T08:05:33Z",
-      "updatedAt": "2026-07-01T03:40:16Z",
-      "createdAt": "2026-03-19T11:29:19Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skill",
         "openclaw-skill",
         "skill-md"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 搜索",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "ai-agent",
-        "ai-video",
-        "claude-code",
-        "claude-code-skill",
-        "content-creation",
-        "cursor",
-        "film-commentary",
-        "narrator-ai",
-        "openclaw",
-        "openclaw-skill",
-        "short-drama",
-        "skill-md",
-        "video-narration",
-        "windsurf"
       ],
       "platforms": [
         "Claude",
@@ -1303,34 +911,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/NarratorAI-Studio/narrator-ai-cli-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill#readme",
       "detailPath": "data/details/narratorai__studio__narrator__ai__cli__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
-        "useCases": [
-          "内容生产",
-          "视觉创作",
-          "多媒体工作流"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "8d4a4bc637d228b5",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 441,
@@ -1340,13 +923,10 @@
       "owner": "htdt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5243839?v=4",
       "url": "https://github.com/htdt/godogen",
-      "homepage": "https://x.com/alex_erm",
       "description": "Autonomous game development for Godot and Bevy with Claude Code and Codex",
       "summary": "使用 Claude Code 和 Codex 开发基于 Godot 和 Bevy 的自主游戏",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "待复核",
-      "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -1357,33 +937,13 @@
       "language": "Python",
       "license": "MIT",
       "stars": 4191,
-      "forks": 371,
-      "openIssues": 4,
       "score": 122,
       "activity": "本月活跃",
       "pushedAt": "2026-06-13T20:12:33Z",
-      "updatedAt": "2026-07-01T03:36:51Z",
-      "createdAt": "2026-02-06T18:46:52Z",
       "sourceTopics": [
         "skills",
         "claude-code-skill",
         "codex-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "claude",
-        "claude-code",
-        "claude-code-skill",
-        "codex",
-        "codex-cli",
-        "codex-skill",
-        "game-development",
-        "godot",
-        "godot4",
-        "skills"
       ],
       "platforms": [
         "Claude",
@@ -1396,34 +956,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/htdt/godogen",
         "videoUrl": "https://youtu.be/eUz19GROIpY"
       },
-      "readmeUrl": "https://github.com/htdt/godogen#readme",
       "detailPath": "data/details/htdt__godogen.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "使用 Claude Code 和 Codex 开发基于 Godot 和 Bevy 的自主游戏",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "125b95408794c7c9",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 489,
@@ -1433,13 +968,10 @@
       "owner": "AgriciDaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "url": "https://github.com/AgriciDaniel/claude-blog",
-      "homepage": "https://claude-blog.md",
       "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
       "summary": "Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行",
       "category": "产品与商业",
-      "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
       "categoryConfidence": "中",
-      "categoryReason": "product management|product manager|marketing|growth|se",
       "scenarios": [
         "产品管理",
         "营销增长",
@@ -1450,41 +982,12 @@
       "language": "Python",
       "license": "MIT",
       "stars": 1250,
-      "forks": 219,
-      "openIssues": 20,
       "score": 120.4,
       "activity": "本周活跃",
       "pushedAt": "2026-07-01T04:26:44Z",
-      "updatedAt": "2026-07-01T03:04:03Z",
-      "createdAt": "2026-02-17T22:40:44Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "ai",
-        "ai-citations",
-        "ai-content",
-        "ai-marketing",
-        "ai-marketing-hub",
-        "blog",
-        "blog-writing",
-        "claude-code",
-        "claude-code-skill",
-        "claude-plugin",
-        "claude-skill",
-        "content-creation",
-        "content-optimization",
-        "content-strategy",
-        "eeat",
-        "geo",
-        "multilingual",
-        "open-source",
-        "seo"
       ],
       "platforms": [
         "Claude",
@@ -1497,34 +1000,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-blog",
         "videoUrl": "https://youtu.be/7Q4GaSgUFHo"
       },
-      "readmeUrl": "https://github.com/AgriciDaniel/claude-blog#readme",
       "detailPath": "data/details/agricidaniel__claude__blog.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行",
-        "useCases": [
-          "产品管理",
-          "营销增长",
-          "商业决策"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "8373db529eb34d0c",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 508,
@@ -1534,13 +1012,10 @@
       "owner": "wuyoscar",
       "avatarUrl": "https://avatars.githubusercontent.com/u/72287536?v=4",
       "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
-      "homepage": "",
       "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
       "summary": "GPT Image 2 提示词画廊、提示词库、代理技能及用于 OpenAI 图像生成/编辑的命令行工具",
       "category": "内容创作",
-      "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
       "categoryConfidence": "中",
-      "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
       "scenarios": [
         "内容生产",
         "视觉创作",
@@ -1551,40 +1026,13 @@
       "language": "Python",
       "license": "MIT",
       "stars": 3413,
-      "forks": 295,
-      "openIssues": 2,
       "score": 119.8,
       "activity": "近期活跃",
       "pushedAt": "2026-05-23T09:30:10Z",
-      "updatedAt": "2026-07-01T04:51:39Z",
-      "createdAt": "2026-04-22T11:27:21Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skill",
         "codex-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 搜索",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "ai-image-prompts",
-        "claude-code-skill",
-        "cli",
-        "codex-skill",
-        "gpt-image",
-        "gpt-image-2",
-        "gpt-image-2-prompts",
-        "image-editing",
-        "image-generation",
-        "image-prompt",
-        "openai",
-        "prompt-library",
-        "prompt-templates",
-        "research-figures",
-        "text-to-image"
       ],
       "platforms": [
         "Claude",
@@ -1597,34 +1045,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/wuyoscar/GPT-Image2-Skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/wuyoscar/GPT-Image2-Skill#readme",
       "detailPath": "data/details/wuyoscar__gpt__image2__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "GPT Image 2 提示词画廊、提示词库、代理技能及用于 OpenAI 图像生成/编辑的命令行工具",
-        "useCases": [
-          "内容生产",
-          "视觉创作",
-          "多媒体工作流"
-        ],
-        "expectedEffects": [
-          "减少逐个搜索同类项目的时间",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "想集中发现和比较 Skills 的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "89563b04bb1a7549",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 594,
@@ -1634,13 +1057,10 @@
       "owner": "AgriciDaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "homepage": "https://agricidaniel.com/blog/claude-obsidian-ai-second-brain",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
       "summary": "claude-obsidian 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
       "category": "办公效率",
-      "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
       "categoryConfidence": "中",
-      "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
       "scenarios": [
         "文档与表格",
         "邮件与日历",
@@ -1651,42 +1071,12 @@
       "language": "Python",
       "license": "MIT",
       "stars": 8384,
-      "forks": 963,
-      "openIssues": 79,
       "score": 117.2,
       "activity": "近期活跃",
       "pushedAt": "2026-05-28T00:42:43Z",
-      "updatedAt": "2026-07-01T03:59:31Z",
-      "createdAt": "2026-04-07T08:59:37Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "ai-note-taking",
-        "ai-second-brain",
-        "claude-code",
-        "claude-code-skill",
-        "claude-memory",
-        "claude-plugin",
-        "karpathy-llm-wiki",
-        "knowledge-graph",
-        "knowledge-management",
-        "note-taking",
-        "notion-alternative",
-        "obsidian",
-        "obsidian-ai",
-        "obsidian-plugin",
-        "obsidian-second-brain",
-        "open-source",
-        "personal-knowledge-management",
-        "pkm",
-        "second-brain"
       ],
       "platforms": [
         "Claude",
@@ -1701,34 +1091,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-obsidian",
         "videoUrl": "https://www.youtube.com/watch?v=a2hgayvr-H4"
       },
-      "readmeUrl": "https://github.com/AgriciDaniel/claude-obsidian#readme",
       "detailPath": "data/details/agricidaniel__claude__obsidian.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "claude-obsidian 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
-        "useCases": [
-          "文档与表格",
-          "邮件与日历",
-          "个人生产力"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "76651a8ac262fd91",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 829,
@@ -1738,13 +1103,10 @@
       "owner": "alexgreensh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/210140430?v=4",
       "url": "https://github.com/alexgreensh/token-optimizer",
-      "homepage": "",
       "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
       "summary": "查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "待复核",
-      "categoryReason": "仓库 Topic 弱信号",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -1755,31 +1117,11 @@
       "language": "Python",
       "license": "NOASSERTION",
       "stars": 1494,
-      "forks": 121,
-      "openIssues": 1,
       "score": 110.3,
       "activity": "本周活跃",
       "pushedAt": "2026-06-30T15:48:39Z",
-      "updatedAt": "2026-07-01T01:06:45Z",
-      "createdAt": "2026-02-26T17:29:10Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agentskills",
-        "claude-code",
-        "claude-code-skill",
-        "claude-plugin",
-        "context-engineering",
-        "context-window",
-        "ghost-tokens",
-        "token-optimization",
-        "token-optimizer",
-        "token-usage"
       ],
       "platforms": [
         "Claude",
@@ -1795,34 +1137,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/alexgreensh/token-optimizer",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/alexgreensh/token-optimizer#readme",
       "detailPath": "data/details/alexgreensh__token__optimizer.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "2060fdd8a077f9b3",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 830,
@@ -1832,13 +1149,10 @@
       "owner": "AI272",
       "avatarUrl": "https://avatars.githubusercontent.com/u/171536614?v=4",
       "url": "https://github.com/AI272/speaker",
-      "homepage": "",
       "description": "Speaker is a Codex skill project for academic presentations: read real.pptx, combine text extraction, PPTX structure parsing, page-by-page rendering, OCR, and visual review to generate page-by-page speaker notes, and write a clean version of the lecture into the PowerPoint comment area.",
       "summary": "Speaker 是一款用于学术演示的 Codex 技能项目：读取真实.pptx 文件，结合文本提取、PPTX 结构解析、逐页渲染、OCR 及视觉审查，生成逐页演讲备注，并将干净的讲座内容写入 PowerPoint 的评论区域",
       "category": "内容创作",
-      "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
       "categoryConfidence": "中",
-      "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
       "scenarios": [
         "内容生产",
         "视觉创作",
@@ -1849,28 +1163,13 @@
       "language": "Python",
       "license": "",
       "stars": 315,
-      "forks": 11,
-      "openIssues": 1,
       "score": 110.3,
       "activity": "本周活跃",
       "pushedAt": "2026-06-23T12:25:55Z",
-      "updatedAt": "2026-07-01T03:59:30Z",
-      "createdAt": "2026-06-03T11:33:33Z",
       "sourceTopics": [
         "skill",
         "claude-code-skill",
         "codex-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "ai",
-        "claude-code",
-        "claude-code-skill",
-        "codex",
-        "codex-skill",
-        "skill"
       ],
       "platforms": [
         "Claude",
@@ -1882,34 +1181,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AI272/speaker",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/AI272/speaker#readme",
       "detailPath": "data/details/ai272__speaker.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Speaker 是一款用于学术演示的 Codex 技能项目：读取真实.pptx 文件，结合文本提取、PPTX 结构解析、逐页渲染、OCR 及视觉审查，生成逐页演讲备注，并将干净的讲座内容写入 PowerPoint 的评论区域",
-        "useCases": [
-          "内容生产",
-          "视觉创作",
-          "多媒体工作流"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "仓库未声明许可证，商用前需要谨慎核对。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "1bbc0e1414e171ca",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 962,
@@ -1919,13 +1193,10 @@
       "owner": "ombulabs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8408804?v=4",
       "url": "https://github.com/ombulabs/claude-code_rails-upgrade-skill",
-      "homepage": "https://www.fastruby.io/blog/open-source-claude-code-skill-for-rails-upgrades.html",
       "description": "A Claude Code Skill to Upgrade Rails",
       "summary": "使用 Claude Code 升级 Rails",
       "category": "其他",
-      "categoryDescription": "尚未归入主要类别的实用项目",
       "categoryConfidence": "待复核",
-      "categoryReason": "元数据没有足够的用途信号",
       "scenarios": [
         "能力探索",
         "流程扩展",
@@ -1936,26 +1207,12 @@
       "language": "Ruby",
       "license": "MIT",
       "stars": 359,
-      "forks": 9,
-      "openIssues": 20,
       "score": 107.6,
       "activity": "本周活跃",
       "pushedAt": "2026-06-27T19:36:19Z",
-      "updatedAt": "2026-06-30T08:03:41Z",
-      "createdAt": "2026-01-30T21:58:31Z",
       "sourceTopics": [
         "claude-code-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "claude-code",
-        "claude-code-skill",
-        "claude-code-skills",
-        "ruby-on-rails",
-        "technical-debt"
       ],
       "platforms": [
         "Claude"
@@ -1966,34 +1223,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/ombulabs/claude-code_rails-upgrade-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/ombulabs/claude-code_rails-upgrade-skill#readme",
       "detailPath": "data/details/ombulabs__claude__code__rails__upgrade__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "使用 Claude Code 升级 Rails",
-        "useCases": [
-          "能力探索",
-          "流程扩展",
-          "开源工具试用"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要尚未归入主要类别的实用项目能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "8abe8e1c1a484bf9",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 984,
@@ -2003,13 +1235,10 @@
       "owner": "Agents365-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "url": "https://github.com/Agents365-ai/asta-skill",
-      "homepage": "",
       "description": "Pure instruction-pack skill wrapping Ai2's Asta MCP server (Semantic Scholar). Intent-to-tool routing, safe defaults, multi-agent.",
       "summary": "Pure instruction-pack 技能包装，基于 Asta MCP 服务器（Semantic Scholar）的 AI2 插件，支持意图到工具路由、安全默认值及多代理架构",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "高",
-      "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -2020,39 +1249,12 @@
       "language": "",
       "license": "MIT",
       "stars": 154,
-      "forks": 5,
-      "openIssues": 0,
       "score": 107.2,
       "activity": "本周活跃",
       "pushedAt": "2026-06-27T13:28:03Z",
-      "updatedAt": "2026-07-01T02:18:11Z",
-      "createdAt": "2026-04-08T05:41:32Z",
       "sourceTopics": [
         "claude-code-skill",
         "openclaw-skills",
-        "skill-md",
-        "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "academic",
-        "agent-skill",
-        "agent-skills",
-        "asta",
-        "asta-skill",
-        "citations",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "mcp",
-        "openclaw",
-        "openclaw-skills",
-        "paper-search",
-        "research",
-        "semantic-scholar",
-        "semantic-search",
         "skill-md",
         "skillsmp"
       ],
@@ -2066,34 +1268,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/asta-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Agents365-ai/asta-skill#readme",
       "detailPath": "data/details/agents365__ai__asta__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Pure instruction-pack 技能包装，基于 Asta MCP 服务器（Semantic Scholar）的 AI2 插件，支持意图到工具路由、安全默认值及多代理架构",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "272b40c4baab24dc",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1009,
@@ -2103,13 +1280,10 @@
       "owner": "codeaashu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/130897584?v=4",
       "url": "https://github.com/codeaashu/claude-code",
-      "homepage": "https://repoxray.devdisplay.org",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "summary": "Claude Code 是一个驻留在终端内的代理编程工具，理解您的代码库，并通过自然语言命令帮助您加速编程、解释复杂代码并处理 Git 工作流",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -2120,30 +1294,12 @@
       "language": "TypeScript",
       "license": "NOASSERTION",
       "stars": 3038,
-      "forks": 3554,
-      "openIssues": 14,
       "score": 106.6,
       "activity": "近期活跃",
       "pushedAt": "2026-04-22T07:08:37Z",
-      "updatedAt": "2026-06-30T22:41:26Z",
-      "createdAt": "2026-03-31T12:56:05Z",
       "sourceTopics": [
         "claude-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-leaked",
-        "claude-code-skill",
-        "claude-desktop",
-        "claude-leak",
-        "claude-skills"
       ],
       "platforms": [
         "Claude"
@@ -2154,34 +1310,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/codeaashu/claude-code",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/codeaashu/claude-code#readme",
       "detailPath": "data/details/codeaashu__claude__code.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Claude Code 是一个驻留在终端内的代理编程工具，理解您的代码库，并通过自然语言命令帮助您加速编程、解释复杂代码并处理 Git 工作流",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "122df185e891ce53",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1089,
@@ -2191,13 +1322,10 @@
       "owner": "aaronjmars",
       "avatarUrl": "https://avatars.githubusercontent.com/u/61592645?v=4",
       "url": "https://github.com/aaronjmars/soul.md",
-      "homepage": "https://www.aeon.fun/",
       "description": "The best way to build a personality for your agent. Let Claude Code / OpenClaw ingest your data & build your AI soul.",
       "summary": "构建代理人格的最佳方式：让 Claude Code 和 OpenClaw 摄入您的数据，并构建您的 AI 灵魂",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "待复核",
-      "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -2208,27 +1336,12 @@
       "language": "JavaScript",
       "license": "MIT",
       "stars": 594,
-      "forks": 67,
-      "openIssues": 0,
       "score": 104.7,
       "activity": "本周活跃",
       "pushedAt": "2026-06-25T13:07:57Z",
-      "updatedAt": "2026-07-01T02:24:16Z",
-      "createdAt": "2026-02-02T18:27:15Z",
       "sourceTopics": [
         "claude-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agents",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "openclaw",
-        "soul"
       ],
       "platforms": [
         "Claude",
@@ -2240,34 +1353,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/aaronjmars/soul.md",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/aaronjmars/soul.md#readme",
       "detailPath": "data/details/aaronjmars__soul__md.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "构建代理人格的最佳方式：让 Claude Code 和 OpenClaw 摄入您的数据，并构建您的 AI 灵魂",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "05b6919e3e25479a",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1090,
@@ -2277,13 +1365,10 @@
       "owner": "notque",
       "avatarUrl": "https://avatars.githubusercontent.com/u/220916?v=4",
       "url": "https://github.com/notque/vexjoy-agent",
-      "homepage": "https://vexjoy.com",
       "description": "VexJoy AI Agent with Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.",
       "summary": "VexJoy AI Agent with Intelligent Routing - 将平实英语请求路由至专业代理，并通过审查、测试和反馈循环来管理工作",
       "category": "研究学习",
-      "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
       "categoryConfidence": "中",
-      "categoryReason": "research|scientific|academic|paper|literature|citation",
       "scenarios": [
         "资料调研",
         "知识检索",
@@ -2294,35 +1379,13 @@
       "language": "Python",
       "license": "MIT",
       "stars": 401,
-      "forks": 38,
-      "openIssues": 1,
       "score": 104.7,
       "activity": "本周活跃",
       "pushedAt": "2026-07-01T04:56:05Z",
-      "updatedAt": "2026-07-01T04:30:59Z",
-      "createdAt": "2026-03-18T01:39:09Z",
       "sourceTopics": [
         "ai-skills",
         "claude-code-skill",
         "codex-skills"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "ai",
-        "ai-agents",
-        "ai-pipelines",
-        "ai-skills",
-        "ai-workflows",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "codex-skills",
-        "developer-tools",
-        "factory-ai"
       ],
       "platforms": [
         "Claude",
@@ -2334,34 +1397,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/notque/vexjoy-agent",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/notque/vexjoy-agent#readme",
       "detailPath": "data/details/notque__vexjoy__agent.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "VexJoy AI Agent with Intelligent Routing - 将平实英语请求路由至专业代理，并通过审查、测试和反馈循环来管理工作",
-        "useCases": [
-          "资料调研",
-          "知识检索",
-          "学习与推理"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "1fca205507de638e",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1124,
@@ -2371,13 +1409,10 @@
       "owner": "mohi-devhub",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184735608?v=4",
       "url": "https://github.com/mohi-devhub/antivibe",
-      "homepage": "",
       "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
       "summary": "学习 AI 写什么，而非被动接受。一款将 AI 生成的代码转化为教育深度解析的 Claude Code 技能",
       "category": "研究学习",
-      "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
       "categoryConfidence": "中",
-      "categoryReason": "research|scientific|academic|paper|literature|citation",
       "scenarios": [
         "资料调研",
         "知识检索",
@@ -2388,27 +1423,11 @@
       "language": "Shell",
       "license": "MIT",
       "stars": 650,
-      "forks": 42,
-      "openIssues": 2,
       "score": 102.7,
       "activity": "本月活跃",
       "pushedAt": "2026-06-06T12:59:50Z",
-      "updatedAt": "2026-06-26T00:30:10Z",
-      "createdAt": "2026-04-10T18:07:20Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "ai",
-        "claude-code",
-        "claude-code-skill",
-        "code-explanation",
-        "education",
-        "learning",
-        "vibecoding"
       ],
       "platforms": [
         "Claude"
@@ -2419,34 +1438,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/mohi-devhub/antivibe",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/mohi-devhub/antivibe#readme",
       "detailPath": "data/details/mohi__devhub__antivibe.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "学习 AI 写什么，而非被动接受。一款将 AI 生成的代码转化为教育深度解析的 Claude Code 技能",
-        "useCases": [
-          "资料调研",
-          "知识检索",
-          "学习与推理"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "b7e0fc1bd755680d",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1259,
@@ -2456,13 +1450,10 @@
       "owner": "secondsky",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5509203?v=4",
       "url": "https://github.com/secondsky/claude-skills",
-      "homepage": "",
       "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
       "summary": "claude-skills 用于自动化浏览器、工具集成或重复流程。",
       "category": "自动化",
-      "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
       "categoryConfidence": "中",
-      "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
       "scenarios": [
         "重复任务",
         "浏览器操作",
@@ -2473,28 +1464,12 @@
       "language": "TypeScript",
       "license": "MIT",
       "stars": 179,
-      "forks": 28,
-      "openIssues": 1,
       "score": 100.6,
       "activity": "本周活跃",
       "pushedAt": "2026-06-30T08:52:19Z",
-      "updatedAt": "2026-07-01T02:58:23Z",
-      "createdAt": "2025-11-08T15:34:35Z",
       "sourceTopics": [
         "claude-code-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "claude-code",
-        "claude-code-commands",
-        "claude-code-hooks",
-        "claude-code-plugin",
-        "claude-code-plugins",
-        "claude-code-skill",
-        "claude-code-skills"
       ],
       "platforms": [
         "Claude"
@@ -2505,34 +1480,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/secondsky/claude-skills",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/secondsky/claude-skills#readme",
       "detailPath": "data/details/secondsky__claude__skills.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "claude-skills 用于自动化浏览器、工具集成或重复流程。",
-        "useCases": [
-          "重复任务",
-          "浏览器操作",
-          "跨工具集成"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "da1036ba69589974",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1274,
@@ -2542,13 +1492,10 @@
       "owner": "peterfei",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3395011?v=4",
       "url": "https://github.com/peterfei/ai-agent-team",
-      "homepage": "",
       "description": "AI Agent Team-拥有24/7专业AI开发团队：产品经理、前端开发、后端开发、测试工程师、DevOps工程师、技术负责人。一键安装，支持中英文命令，大幅提升开发效率！",
       "summary": "AI Agent Team-拥有24/7专业AI开发团队：产品经理、前端开发、后端开发、测试工程师、DevOps工程师、技术负责人。一键安装，支持中英文命令，大幅提升开发效率！",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -2559,33 +1506,12 @@
       "language": "JavaScript",
       "license": "MIT",
       "stars": 389,
-      "forks": 58,
-      "openIssues": 0,
       "score": 100.4,
       "activity": "本周活跃",
       "pushedAt": "2026-06-29T22:49:44Z",
-      "updatedAt": "2026-06-30T02:31:14Z",
-      "createdAt": "2025-11-07T15:22:33Z",
       "sourceTopics": [
         "skill",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "24886",
-        "ai",
-        "ai-agents",
-        "claude-code",
-        "claude-code-skill",
-        "drawnotes",
-        "ide",
-        "mcp-server",
-        "notebook",
-        "peterfei",
-        "skill",
-        "skills"
       ],
       "platforms": [
         "Claude"
@@ -2596,34 +1522,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/peterfei/ai-agent-team",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/peterfei/ai-agent-team#readme",
       "detailPath": "data/details/peterfei__ai__agent__team.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "AI Agent Team-拥有24/7专业AI开发团队：产品经理、前端开发、后端开发、测试工程师、DevOps工程师、技术负责人。一键安装，支持中英文命令，大幅提升开发效率！",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "49c3b03a57d1436e",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1372,
@@ -2633,13 +1534,10 @@
       "owner": "7onez",
       "avatarUrl": "https://avatars.githubusercontent.com/u/72960444?v=4",
       "url": "https://github.com/7onez/cti-expert",
-      "homepage": "",
       "description": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys required.",
       "summary": "cti-expert 聚焦安全审计、漏洞检查与风险治理。",
       "category": "安全",
-      "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
       "categoryConfidence": "高",
-      "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
       "scenarios": [
         "代码审计",
         "漏洞研究",
@@ -2650,30 +1548,11 @@
       "language": "Python",
       "license": "NOASSERTION",
       "stars": 232,
-      "forks": 34,
-      "openIssues": 0,
       "score": 99.2,
       "activity": "本周活跃",
       "pushedAt": "2026-06-30T17:39:57Z",
-      "updatedAt": "2026-06-30T21:39:32Z",
-      "createdAt": "2026-04-06T11:52:32Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "claude-code",
-        "claude-code-skill",
-        "cti",
-        "cyber-threat-intelligence",
-        "digital-forensics",
-        "investigation",
-        "osint",
-        "reconnaissance",
-        "security",
-        "threat-intelligence"
       ],
       "platforms": [
         "Claude"
@@ -2684,34 +1563,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/7onez/cti-expert",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/7onez/cti-expert#readme",
       "detailPath": "data/details/7onez__cti__expert.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "cti-expert 聚焦安全审计、漏洞检查与风险治理。",
-        "useCases": [
-          "代码审计",
-          "漏洞研究",
-          "安全合规"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "0d50dc1e9a70daa3",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1395,
@@ -2721,13 +1575,10 @@
       "owner": "giuseppe-trisciuoglio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/191514443?v=4",
       "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
-      "homepage": "",
       "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
       "summary": "Claude 代码与具身智能 CLI 的模块化插件市场，提供针对 Java、TypeScript、Python、PHP、AWS 及 AI 的验证技能、规范驱动的技能、代理、命令和工作流",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -2738,38 +1589,12 @@
       "language": "Python",
       "license": "MIT",
       "stars": 294,
-      "forks": 34,
-      "openIssues": 18,
       "score": 98.6,
       "activity": "本月活跃",
       "pushedAt": "2026-06-22T13:32:49Z",
-      "updatedAt": "2026-06-29T17:51:20Z",
-      "createdAt": "2025-10-21T08:08:21Z",
       "sourceTopics": [
         "claude-code-skills",
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agentic-code",
-        "agentic-coding",
-        "agents",
-        "aws",
-        "aws-cloudformation",
-        "claude-code",
-        "claude-code-skill",
-        "claude-code-skills",
-        "claude-skills",
-        "claude-skills-creator",
-        "java",
-        "langchain4j",
-        "php",
-        "python",
-        "skills",
-        "spring-boot",
-        "typescript"
       ],
       "platforms": [
         "Claude"
@@ -2780,34 +1605,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/giuseppe-trisciuoglio/developer-kit",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/giuseppe-trisciuoglio/developer-kit#readme",
       "detailPath": "data/details/giuseppe__trisciuoglio__developer__kit.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Claude 代码与具身智能 CLI 的模块化插件市场，提供针对 Java、TypeScript、Python、PHP、AWS 及 AI 的验证技能、规范驱动的技能、代理、命令和工作流",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "减少逐个搜索同类项目的时间",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "想集中发现和比较 Skills 的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "c566fc1d657dabd6",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1403,
@@ -2817,13 +1617,10 @@
       "owner": "Agents365-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "url": "https://github.com/Agents365-ai/paper-fetch",
-      "homepage": "https://agents365-ai.github.io/paper-fetch/",
       "description": "DOI → PDF resolver with 7-source fallback (Unpaywall, S2, arXiv, PMC, bioRxiv, publisher, Sci-Hub). Multi-agent, zero-deps Python.",
       "summary": "paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "中",
-      "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -2834,43 +1631,14 @@
       "language": "Python",
       "license": "MIT",
       "stars": 143,
-      "forks": 7,
-      "openIssues": 0,
       "score": 98.4,
       "activity": "本周活跃",
       "pushedAt": "2026-06-24T05:48:07Z",
-      "updatedAt": "2026-06-28T07:28:50Z",
-      "createdAt": "2026-04-08T09:14:24Z",
       "sourceTopics": [
         "claude-code-skill",
         "openclaw-skills",
         "skill-md",
         "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "academic",
-        "agent-skill",
-        "agent-skills",
-        "biorxiv",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "crossref",
-        "doi",
-        "open-access",
-        "openclaw",
-        "openclaw-skills",
-        "paper-fetch",
-        "pdf-downloader",
-        "pubmed",
-        "research",
-        "semantic-scholar",
-        "skill-md",
-        "skillsmp",
-        "unpaywall"
       ],
       "platforms": [
         "Claude",
@@ -2882,34 +1650,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/paper-fetch",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Agents365-ai/paper-fetch#readme",
       "detailPath": "data/details/agents365__ai__paper__fetch.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "4bc4179d16c60638",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1407,
@@ -2919,13 +1662,10 @@
       "owner": "Agents365-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "url": "https://github.com/Agents365-ai/excalidraw-skill",
-      "homepage": "https://agents365-ai.github.io/excalidraw-skill/",
       "description": "Hand-drawn Excalidraw diagrams from natural language. 5 patterns, 8-color semantic palette, Kroki API or local CLI. PNG/SVG, multi-agent.",
       "summary": "手绘自然语言图：5 种模式，8 色语义调色板，支持 Kroki API 或本地 CLI，输出 PNG/SVG，支持多代理",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "高",
-      "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -2936,34 +1676,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 127,
-      "forks": 12,
-      "openIssues": 0,
       "score": 98.3,
       "activity": "本月活跃",
       "pushedAt": "2026-06-03T17:21:24Z",
-      "updatedAt": "2026-06-30T15:19:09Z",
-      "createdAt": "2026-03-03T15:54:16Z",
       "sourceTopics": [
         "claude-code-skill",
-        "openclaw-skills",
-        "skill-md",
-        "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-skill",
-        "agent-skills",
-        "architecture-diagram",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "diagram",
-        "excalidraw",
-        "flowchart",
-        "kroki",
-        "openclaw",
         "openclaw-skills",
         "skill-md",
         "skillsmp"
@@ -2978,34 +1695,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/excalidraw-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Agents365-ai/excalidraw-skill#readme",
       "detailPath": "data/details/agents365__ai__excalidraw__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "手绘自然语言图：5 种模式，8 色语义调色板，支持 Kroki API 或本地 CLI，输出 PNG/SVG，支持多代理",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "ce90e31212d6d288",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1422,
@@ -3015,13 +1707,10 @@
       "owner": "vast-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/47128086?v=4",
       "url": "https://github.com/vast-ai/vast-cli",
-      "homepage": "https://vast.ai",
       "description": "Vast.ai python and cli api client",
       "summary": "Vast.ai Python 和 CLI API 客户端",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "待复核",
-      "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -3032,25 +1721,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 203,
-      "forks": 86,
-      "openIssues": 44,
       "score": 97.9,
       "activity": "本周活跃",
       "pushedAt": "2026-07-01T00:39:49Z",
-      "updatedAt": "2026-07-01T02:36:32Z",
-      "createdAt": "2019-01-29T00:44:09Z",
       "sourceTopics": [
         "claude-code-skill",
-        "skill-md",
-        "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "claude-code-skill",
-        "claude-skills",
         "skill-md",
         "skillsmp"
       ],
@@ -3063,34 +1738,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/vast-ai/vast-cli",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/vast-ai/vast-cli#readme",
       "detailPath": "data/details/vast__ai__vast__cli.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "Vast.ai Python 和 CLI API 客户端",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "801c4862f00e5312",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1441,
@@ -3100,13 +1750,10 @@
       "owner": "AgriciDaniel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "url": "https://github.com/AgriciDaniel/banana-claude",
-      "homepage": "https://agricidaniel.com/blog/banana-claude-ai-image-generation",
       "description": "AI image generation skill for Claude Code -- Creative Director powered by Gemini",
       "summary": "为 Claude Code 打造的 AI 图像生成技能，由 Gemini 创意总监驱动",
       "category": "内容创作",
-      "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
       "categoryConfidence": "中",
-      "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
       "scenarios": [
         "内容生产",
         "视觉创作",
@@ -3117,27 +1764,11 @@
       "language": "Python",
       "license": "MIT",
       "stars": 794,
-      "forks": 155,
-      "openIssues": 3,
       "score": 96.7,
       "activity": "近期活跃",
       "pushedAt": "2026-04-13T22:21:27Z",
-      "updatedAt": "2026-06-30T16:57:46Z",
-      "createdAt": "2026-03-13T16:34:33Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai",
-        "ai-content",
-        "claude-code",
-        "claude-code-skill",
-        "content-creation",
-        "open-source"
       ],
       "platforms": [
         "Claude",
@@ -3149,34 +1780,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/banana-claude",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/AgriciDaniel/banana-claude#readme",
       "detailPath": "data/details/agricidaniel__banana__claude.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "为 Claude Code 打造的 AI 图像生成技能，由 Gemini 创意总监驱动",
-        "useCases": [
-          "内容生产",
-          "视觉创作",
-          "多媒体工作流"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "e094da8d3b0cabb6",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1443,
@@ -3186,13 +1792,10 @@
       "owner": "Aspegio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/277085652?v=4",
       "url": "https://github.com/Aspegio/nelson",
-      "homepage": "",
       "description": "Organisation for your agent teams inspired by time-tested Royal Navy operating procedures.",
       "summary": "nelson：尚未归入主要类别的实用项目。",
       "category": "其他",
-      "categoryDescription": "尚未归入主要类别的实用项目",
       "categoryConfidence": "待复核",
-      "categoryReason": "元数据没有足够的用途信号",
       "scenarios": [
         "能力探索",
         "流程扩展",
@@ -3203,24 +1806,10 @@
       "language": "Python",
       "license": "MIT",
       "stars": 396,
-      "forks": 34,
-      "openIssues": 3,
       "score": 96.6,
       "activity": "本周活跃",
       "pushedAt": "2026-06-26T14:10:59Z",
-      "updatedAt": "2026-06-29T14:58:25Z",
-      "createdAt": "2026-02-09T15:29:44Z",
       "sourceTopics": [
-        "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-coordination",
-        "ai-agents",
-        "anthropic",
-        "claude-code",
         "claude-code-skill"
       ],
       "platforms": [
@@ -3232,34 +1821,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Aspegio/nelson",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Aspegio/nelson#readme",
       "detailPath": "data/details/aspegio__nelson.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "nelson：尚未归入主要类别的实用项目。",
-        "useCases": [
-          "能力探索",
-          "流程扩展",
-          "开源工具试用"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要尚未归入主要类别的实用项目能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "8a7166bdb77acb86",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1446,
@@ -3269,13 +1833,10 @@
       "owner": "Adancurusul",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54146249?v=4",
       "url": "https://github.com/Adancurusul/embedded-debugger-mcp",
-      "homepage": "",
       "description": "MCP server, CLI, and Codex/Claude skill for embedded debugging with probe-rs, supporting ARM Cortex-M and RISC-V debug workflows.",
       "summary": "embedded-debugger-mcp 聚焦软件开发、代码质量与工程交付。",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -3286,38 +1847,12 @@
       "language": "Rust",
       "license": "MIT",
       "stars": 116,
-      "forks": 19,
-      "openIssues": 0,
       "score": 96.4,
       "activity": "本周活跃",
       "pushedAt": "2026-06-24T08:15:23Z",
-      "updatedAt": "2026-06-29T13:57:57Z",
-      "createdAt": "2025-08-05T11:44:40Z",
       "sourceTopics": [
         "claude-code-skill",
         "ai-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "ai-skill",
-        "arm-cortex-m",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "cli",
-        "codex-skill",
-        "debug-probe",
-        "embedded-debugging",
-        "embedded-systems",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "probe-rs",
-        "riscv",
-        "rust",
-        "skill"
       ],
       "platforms": [
         "Claude",
@@ -3329,34 +1864,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Adancurusul/embedded-debugger-mcp",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Adancurusul/embedded-debugger-mcp#readme",
       "detailPath": "data/details/adancurusul__embedded__debugger__mcp.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "embedded-debugger-mcp 聚焦软件开发、代码质量与工程交付。",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "061330712a7f2eb3",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1447,
@@ -3366,13 +1876,10 @@
       "owner": "Agents365-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
       "url": "https://github.com/Agents365-ai/mermaid-skill",
-      "homepage": "https://agents365-ai.github.io/mermaid-skill/",
       "description": "Mermaid diagrams (.mmd) from natural language with validation loop. 11+ types, multi-backend (mmdc / Kroki), PNG/SVG/PDF, multi-agent.",
       "summary": "基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理",
       "category": "Agent工具与平台",
-      "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
       "categoryConfidence": "高",
-      "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
       "scenarios": [
         "模型与客户端管理",
         "Agent 编排",
@@ -3383,36 +1890,12 @@
       "language": "Mermaid",
       "license": "MIT",
       "stars": 104,
-      "forks": 10,
-      "openIssues": 2,
       "score": 96.4,
       "activity": "本月活跃",
       "pushedAt": "2026-06-03T17:28:55Z",
-      "updatedAt": "2026-06-30T12:09:11Z",
-      "createdAt": "2026-03-03T17:16:23Z",
       "sourceTopics": [
         "claude-code-skill",
         "openclaw-skills",
-        "skill-md",
-        "skillsmp"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-skill",
-        "agent-skills",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "diagram",
-        "erd",
-        "flowchart",
-        "kroki",
-        "mermaid",
-        "openclaw",
-        "openclaw-skills",
-        "sequence-diagram",
         "skill-md",
         "skillsmp"
       ],
@@ -3426,34 +1909,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/mermaid-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Agents365-ai/mermaid-skill#readme",
       "detailPath": "data/details/agents365__ai__mermaid__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理",
-        "useCases": [
-          "模型与客户端管理",
-          "Agent 编排",
-          "多平台协作"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "36bb2e2b2ccbd5c1",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1474,
@@ -3463,13 +1921,10 @@
       "owner": "oh-my-mermaid",
       "avatarUrl": "https://avatars.githubusercontent.com/u/270088729?v=4",
       "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
-      "homepage": "",
       "description": "Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
       "summary": "使用 Claude Code 将复杂代码库转化为清晰、可导航的架构图",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -3480,31 +1935,11 @@
       "language": "TypeScript",
       "license": "MIT",
       "stars": 1434,
-      "forks": 128,
-      "openIssues": 7,
       "score": 94.8,
       "activity": "近期活跃",
       "pushedAt": "2026-04-07T05:23:24Z",
-      "updatedAt": "2026-06-30T09:58:00Z",
-      "createdAt": "2026-03-22T12:24:32Z",
       "sourceTopics": [
         "claude-code-skill"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "ai",
-        "architecture",
-        "claude-code",
-        "claude-code-skill",
-        "cli",
-        "codebase-visualization",
-        "developer-tools",
-        "diagrams",
-        "documentation",
-        "mermaid"
       ],
       "platforms": [
         "Claude"
@@ -3515,34 +1950,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/oh-my-mermaid/oh-my-mermaid",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/oh-my-mermaid/oh-my-mermaid#readme",
       "detailPath": "data/details/oh__my__mermaid__oh__my__mermaid.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "使用 Claude Code 将复杂代码库转化为清晰、可导航的架构图",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "d3b20fa1df8502ae",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     }
   ]
 }

@@ -59,7 +59,7 @@
   "detailPath": "data/details/osaurus__ai__osaurus.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源",
     "useCases": [
       "长期任务",
@@ -77,10 +77,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "c2968e04d0f7c68c",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

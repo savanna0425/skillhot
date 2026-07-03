@@ -67,7 +67,7 @@
   "detailPath": "data/details/enricoros__big__agi.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "由尖端模型驱动，提供先进 AI/AGI 功能。包括 AI 人格、AGI 功能、世界级的 Beam 多模型对话、文本转图像、语音、响应流、代码高亮与执行、PDF 导入、开发者预设等。支持本地部署或云端部署",
     "useCases": [
       "文档与表格",
@@ -85,10 +85,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "7f716b20c2ca9c5f",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

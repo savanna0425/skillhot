@@ -95,37 +95,37 @@ export function DetailPanel({ skill, open, isFavorite, mode, loading = false, on
           <p className="original-description">{skill.description || '仓库作者暂未填写 GitHub 简介，请查看 README。'}</p>
           <div className="classification-evidence"><span>{confidenceLabel(skill.categoryConfidence)}</span><small>结合仓库名、作者介绍和 GitHub Topics 帮你归的类，仅供参考</small></div>
         </section>
-        {skill.aiInsight ? (
-          <section className="detail-section ai-insight-section">
-            <div className="ai-insight-heading">
-              <h3>AI 项目解读</h3>
-              <span>{skill.aiInsight.method === 'deterministic-offline-v1' ? '离线生成' : 'AI 生成'}</span>
+        {skill.projectInsight ? (
+          <section className="detail-section project-insight-section">
+            <div className="project-insight-heading">
+              <h3>项目解读</h3>
+              <small>{skill.projectInsight.sourceNote}</small>
             </div>
-            <p>{skill.aiInsight.summary}</p>
-            <div className="ai-insight-grid">
+            <p>{skill.projectInsight.summary}</p>
+            <div className="project-insight-grid">
               <div>
                 <strong>适合谁</strong>
-                <ul>{skill.aiInsight.targetUsers.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+                <ul>{skill.projectInsight.targetUsers.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
               </div>
               <div>
                 <strong>适用场景</strong>
-                <ul>{skill.aiInsight.useCases.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+                <ul>{skill.projectInsight.useCases.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
               </div>
               <div>
                 <strong>预期效果</strong>
-                <ul>{skill.aiInsight.expectedEffects.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+                <ul>{skill.projectInsight.expectedEffects.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
               </div>
               <div>
                 <strong>注意事项</strong>
-                <ul>{skill.aiInsight.limitations.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
+                <ul>{skill.projectInsight.limitations.map((item) => <li key={item}><Check size={15} /> {item}</li>)}</ul>
               </div>
             </div>
-            <div className="ai-getting-started"><strong>最快上手</strong><span>{skill.aiInsight.gettingStarted}</span></div>
+            <div className="project-getting-started"><strong>最快上手</strong><span>{skill.projectInsight.gettingStarted}</span></div>
           </section>
         ) : loading ? (
-          <section className="detail-section ai-insight-section">
-            <h3>AI 项目解读</h3>
-            <p><span className="loading-dot" />正在读取离线解读…</p>
+          <section className="detail-section project-insight-section">
+            <h3>项目解读</h3>
+            <p><span className="loading-dot" />正在读取项目解读…</p>
           </section>
         ) : null}
         <section className="detail-section">

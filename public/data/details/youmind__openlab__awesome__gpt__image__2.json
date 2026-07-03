@@ -65,7 +65,7 @@
   "detailPath": "data/details/youmind__openlab__awesome__gpt__image__2.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "世界最大 GPT 图像 2 提示词库，每日更新——包含 2000 多个精选提示词及预览图，支持 16 种语言。拥有 OpenAI 下一代图像模型，具备像素级文本渲染、跨图像一致性及商业级插画能力。完全免费且开源",
     "useCases": [
       "发现新技能",
@@ -83,10 +83,11 @@
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "52fc0ef38189e265",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -48,7 +48,7 @@
   "detailPath": "data/details/thecraighewitt__seomachine.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "为任何业务打造长篇、SEO 优化的博客内容的专业 Claude Code 工作区。该系统帮助您研究、撰写、分析并优化排名良好且满足目标受众的内容",
     "useCases": [
       "产品管理",
@@ -66,10 +66,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "3afe841269f92b09",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

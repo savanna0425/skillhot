@@ -67,7 +67,7 @@
   "detailPath": "data/details/cassidoo__getting__a__gig.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "获取技术学生兼职指南",
     "useCases": [
       "能力探索",
@@ -89,6 +89,7 @@
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "a966666f46c788a0",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

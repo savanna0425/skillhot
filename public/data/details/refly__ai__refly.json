@@ -72,7 +72,7 @@
   "detailPath": "data/details/refly__ai__refly.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "开源技能构建器。通过氛围工作流定义技能，在 Claude Code、Cursor、Codex 等平台上运行。构建 Clawdbot · 为 Lovable 提供 API，打造 Slack 及 Lark/飞书机器人。技能即基础设施，非提示词",
     "useCases": [
       "创建技能",
@@ -90,10 +90,11 @@
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "7b3b089f57959c45",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

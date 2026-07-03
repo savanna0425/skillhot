@@ -557,13 +557,10 @@
       "owner": "guanyang",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18542157?v=4",
       "url": "https://github.com/guanyang/open-agent-hub",
-      "homepage": "",
       "description": "A lightweight, zero-dependency CLI tool to manage and activate capabilities for AI coding assistants (such as Claude Code, Cursor, Trae, etc.).",
       "summary": "轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）",
       "category": "编程开发",
-      "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
       "categoryConfidence": "中",
-      "categoryReason": "software development|coding|codebase|developer|enginee",
       "scenarios": [
         "软件开发",
         "代码质量",
@@ -574,35 +571,12 @@
       "language": "TypeScript",
       "license": "MIT",
       "stars": 926,
-      "forks": 165,
-      "openIssues": 6,
       "score": 109.3,
       "activity": "本周活跃",
       "pushedAt": "2026-07-01T04:14:44Z",
-      "updatedAt": "2026-07-01T04:14:47Z",
-      "createdAt": "2026-01-13T04:29:34Z",
       "sourceTopics": [
         "ai-skills",
         "anthropic-skills"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "GitHub 高星活跃搜索"
-      ],
-      "repoTopics": [
-        "agents",
-        "ai-agents",
-        "ai-skills",
-        "anthropic-skills",
-        "claude-code",
-        "cli-tool",
-        "context-engineering",
-        "full-stack",
-        "planning",
-        "skills",
-        "superpowers",
-        "ui-ux-design",
-        "workflows"
       ],
       "platforms": [
         "Claude",
@@ -614,34 +588,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/guanyang/open-agent-hub",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/guanyang/open-agent-hub#readme",
       "detailPath": "data/details/guanyang__open__agent__hub.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）",
-        "useCases": [
-          "软件开发",
-          "代码质量",
-          "工程自动化"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要开发、调试、评审、测试、架构与工程交付能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 MIT，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "7f031e6447ac6ff5",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 882,
@@ -651,13 +600,10 @@
       "owner": "Classic298",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27028174?v=4",
       "url": "https://github.com/Classic298/open-webui-plugins",
-      "homepage": "",
       "description": "A curated collection of Open WebUI plugins - tools, skills, filters, pipes, actions and events that extend your AI chat experience.",
       "summary": "open-webui-plugins 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
       "category": "技能合集",
-      "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
       "categoryConfidence": "高",
-      "categoryReason": "名称或作者描述明确说明是目录/合集",
       "scenarios": [
         "发现新技能",
         "按领域选型",
@@ -668,41 +614,12 @@
       "language": "Python",
       "license": "BSD-3-Clause",
       "stars": 406,
-      "forks": 16,
-      "openIssues": 2,
       "score": 108.9,
       "activity": "本周活跃",
       "pushedAt": "2026-06-29T20:20:47Z",
-      "updatedAt": "2026-06-29T22:46:54Z",
-      "createdAt": "2026-03-10T23:39:43Z",
       "sourceTopics": [
         "skill",
         "anthropic-skills"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "action",
-        "anthropic-skills",
-        "cusomization",
-        "event",
-        "events",
-        "filter",
-        "function",
-        "mcp",
-        "open-webui",
-        "open-webui-functions",
-        "open-webui-plugins",
-        "open-webui-tools",
-        "pipe",
-        "pipeline",
-        "plugin",
-        "plugins",
-        "skill",
-        "skills",
-        "tool",
-        "tools"
       ],
       "platforms": [
         "Agent Skills"
@@ -713,34 +630,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/Classic298/open-webui-plugins",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/Classic298/open-webui-plugins#readme",
       "detailPath": "data/details/classic298__open__webui__plugins.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "open-webui-plugins 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
-        "useCases": [
-          "发现新技能",
-          "按领域选型",
-          "构建个人技能库"
-        ],
-        "expectedEffects": [
-          "减少逐个搜索同类项目的时间",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "想集中发现和比较 Skills 的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-        "limitations": [
-          "许可证为 BSD-3-Clause，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "f527c13f72b42759",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1428,
@@ -750,13 +642,10 @@
       "owner": "breath57",
       "avatarUrl": "https://avatars.githubusercontent.com/u/48155693?v=4",
       "url": "https://github.com/breath57/dingtalk-skills",
-      "homepage": "",
       "description": "【Openclaw & Hermes & 企业机器人🤖】钉钉Skill库，含：钉钉文档、知识库、AI(多维)表格、群(单)聊、会议室、日程、待办、通讯录、AI搜索等，自动管理配置，轻量级—仅依赖curl， skill经过严格测试。Lightweight DingTalk Skill Library (curl only). Includes AI search, docs, sheets, chat, meetings, calendar, todos & contacts. Auto-configured & rigorously tested.",
       "summary": "【Openclaw & Hermes & 企业机器人】钉钉Skill库，含：钉钉文档、知识库、AI(多维)表格、群(单)聊、会议室、日程、待办、通讯录、AI搜索等，自动管理配置，轻量级—仅依赖curl， skill经过严格测试。Lightw",
       "category": "技能合集",
-      "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
       "categoryConfidence": "高",
-      "categoryReason": "名称或作者描述明确说明是目录/合集",
       "scenarios": [
         "发现新技能",
         "按领域选型",
@@ -767,30 +656,11 @@
       "language": "Python",
       "license": "",
       "stars": 85,
-      "forks": 9,
-      "openIssues": 3,
       "score": 97.5,
       "activity": "本周活跃",
       "pushedAt": "2026-06-26T11:35:40Z",
-      "updatedAt": "2026-06-29T03:20:34Z",
-      "createdAt": "2026-03-05T06:43:35Z",
       "sourceTopics": [
         "anthropic-skills",
-        "openclaw-skill",
-        "skills-sh"
-      ],
-      "discoveredBy": [
-        "GitHub Topics"
-      ],
-      "repoTopics": [
-        "agent-skills",
-        "ai-agent",
-        "ai-table",
-        "anthropic-skills",
-        "dingtalk",
-        "dingtalk-api",
-        "document",
-        "openclaw",
         "openclaw-skill",
         "skills-sh"
       ],
@@ -803,34 +673,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/breath57/dingtalk-skills",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/breath57/dingtalk-skills#readme",
       "detailPath": "data/details/breath57__dingtalk__skills.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "【Openclaw & Hermes & 企业机器人】钉钉Skill库，含：钉钉文档、知识库、AI(多维)表格、群(单)聊、会议室、日程、待办、通讯录、AI搜索等，自动管理配置，轻量级—仅依赖curl， skill经过严格测试。Lightw",
-        "useCases": [
-          "发现新技能",
-          "按领域选型",
-          "构建个人技能库"
-        ],
-        "expectedEffects": [
-          "减少逐个搜索同类项目的时间",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "想集中发现和比较 Skills 的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-        "limitations": [
-          "仓库未声明许可证，商用前需要谨慎核对。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "c1255d3c995c1bd0",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     },
     {
       "rank": 1502,
@@ -840,13 +685,10 @@
       "owner": "PBNZ",
       "avatarUrl": "https://avatars.githubusercontent.com/u/93853627?v=4",
       "url": "https://github.com/PBNZ/newton-skill",
-      "homepage": "https://newton.mystuffonline.org/",
       "description": "A Claude skill that turns Claude into a rigorous reasoning and sparring partner — honest engagement, calibrated pushback, current sources, reuse before reinvention.",
       "summary": "受 Karpathy 方法启发的严谨推理与观点校准技能",
       "category": "研究学习",
-      "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
       "categoryConfidence": "人工复核",
-      "categoryReason": "精选项目人工校正",
       "scenarios": [
         "严谨推理",
         "观点辩论",
@@ -857,41 +699,12 @@
       "language": "Python",
       "license": "Apache-2.0",
       "stars": 4,
-      "forks": 0,
-      "openIssues": 0,
       "score": 58.5,
       "activity": "近期活跃",
       "pushedAt": "2026-04-20T05:11:39Z",
-      "updatedAt": "2026-05-21T17:23:10Z",
-      "createdAt": "2026-04-17T23:23:27Z",
       "sourceTopics": [
         "anthropic-skills",
         "karpathy-skills"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "精选来源"
-      ],
-      "repoTopics": [
-        "ai-skill",
-        "ai-skills",
-        "anthropic",
-        "anthropic-compatible",
-        "anthropic-skills",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-code-plugins-marketplace",
-        "claude-code-skill",
-        "claude-cowork",
-        "claude-cowork-plugin",
-        "claude-skills",
-        "codex",
-        "codex-plugin",
-        "codex-skills",
-        "karpathy",
-        "karpathy-skills",
-        "prompt-engineering",
-        "reasoning"
       ],
       "platforms": [
         "Claude",
@@ -905,34 +718,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/PBNZ/newton-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/PBNZ/newton-skill#readme",
       "detailPath": "data/details/pbnz__newton__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "受 Karpathy 方法启发的严谨推理与观点校准技能",
-        "useCases": [
-          "严谨推理",
-          "观点辩论",
-          "信息核验"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "925138a0c8b591b3",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     }
   ]
 }

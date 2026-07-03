@@ -60,7 +60,7 @@
   "detailPath": "data/details/ai272__speaker.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Speaker 是一款用于学术演示的 Codex 技能项目：读取真实.pptx 文件，结合文本提取、PPTX 结构解析、逐页渲染、OCR 及视觉审查，生成逐页演讲备注，并将干净的讲座内容写入 PowerPoint 的评论区域",
     "useCases": [
       "内容生产",
@@ -78,10 +78,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "仓库未声明许可证，商用前需要谨慎核对。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "1bbc0e1414e171ca",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -73,7 +73,7 @@
   "detailPath": "data/details/calesthio__openmontage.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "世界首个开源的具身智能视频生产系统。包含 12 条流水线、52 种工具及 500 余项智能体技能。将您的 AI 编程助手转化为全功能视频制作工作室",
     "useCases": [
       "内容生产",
@@ -91,10 +91,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "8704b0d1fa45dfd6",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -71,7 +71,7 @@
   "detailPath": "data/details/screenpipe__screenpipe.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用",
     "useCases": [
       "模型与客户端管理",
@@ -89,10 +89,11 @@
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "40d7bb3b72ebd5a2",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

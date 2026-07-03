@@ -60,7 +60,7 @@
   "detailPath": "data/details/nanocoai__nanoclaw.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上",
     "useCases": [
       "文档与表格",
@@ -78,10 +78,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "b1d5822b35678113",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

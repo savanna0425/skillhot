@@ -40,7 +40,6 @@ export function SkillCard({ skill, selected, favorites, onSelect, onFavorite, co
           <img src={skill.avatarUrl} alt="" loading="lazy" onError={(event) => useFallback(event, avatarFallback)} />
           <div><strong>{skill.fullName}</strong><small>{skill.platforms.slice(0, 3).join(' · ')}</small></div>
         </div>
-        {skill.aiInsight ? <span className="ai-brief-badge">AI 已解读</span> : null}
         <p>{skill.summary}</p>
         <div className="card-meta">
           <span><Star size={14} fill="currentColor" /> {formatStars(skill.stars)}</span>

@@ -78,7 +78,7 @@
   "detailPath": "data/details/agents365__ai__drawio__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG",
     "useCases": [
       "软件开发",
@@ -96,10 +96,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "3ef950aa80f9c44e",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

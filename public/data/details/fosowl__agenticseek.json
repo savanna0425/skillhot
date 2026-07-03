@@ -57,7 +57,7 @@
   "detailPath": "data/details/fosowl__agenticseek.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Fully 本地 Manus AI。无 API，无 200 美元/月账单。享受一个仅用电费成本即可思考、浏览网页并写代码的自主代理。 官方更新仅通过 Twitter @Martin993886460（谨防假冒账号）",
     "useCases": [
       "内容生产",
@@ -75,10 +75,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "6a16f38d267b993e",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -557,13 +557,10 @@
       "owner": "PBNZ",
       "avatarUrl": "https://avatars.githubusercontent.com/u/93853627?v=4",
       "url": "https://github.com/PBNZ/newton-skill",
-      "homepage": "https://newton.mystuffonline.org/",
       "description": "A Claude skill that turns Claude into a rigorous reasoning and sparring partner — honest engagement, calibrated pushback, current sources, reuse before reinvention.",
       "summary": "受 Karpathy 方法启发的严谨推理与观点校准技能",
       "category": "研究学习",
-      "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
       "categoryConfidence": "人工复核",
-      "categoryReason": "精选项目人工校正",
       "scenarios": [
         "严谨推理",
         "观点辩论",
@@ -574,41 +571,12 @@
       "language": "Python",
       "license": "Apache-2.0",
       "stars": 4,
-      "forks": 0,
-      "openIssues": 0,
       "score": 58.5,
       "activity": "近期活跃",
       "pushedAt": "2026-04-20T05:11:39Z",
-      "updatedAt": "2026-05-21T17:23:10Z",
-      "createdAt": "2026-04-17T23:23:27Z",
       "sourceTopics": [
         "anthropic-skills",
         "karpathy-skills"
-      ],
-      "discoveredBy": [
-        "GitHub Topics",
-        "精选来源"
-      ],
-      "repoTopics": [
-        "ai-skill",
-        "ai-skills",
-        "anthropic",
-        "anthropic-compatible",
-        "anthropic-skills",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-code-plugins-marketplace",
-        "claude-code-skill",
-        "claude-cowork",
-        "claude-cowork-plugin",
-        "claude-skills",
-        "codex",
-        "codex-plugin",
-        "codex-skills",
-        "karpathy",
-        "karpathy-skills",
-        "prompt-engineering",
-        "reasoning"
       ],
       "platforms": [
         "Claude",
@@ -622,34 +590,9 @@
         "socialPreview": "https://opengraph.githubassets.com/skillhot/PBNZ/newton-skill",
         "videoUrl": ""
       },
-      "readmeUrl": "https://github.com/PBNZ/newton-skill#readme",
       "detailPath": "data/details/pbnz__newton__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable",
-      "aiInsight": {
-        "summary": "受 Karpathy 方法启发的严谨推理与观点校准技能",
-        "useCases": [
-          "严谨推理",
-          "观点辩论",
-          "信息核验"
-        ],
-        "expectedEffects": [
-          "把重复工作沉淀成可复用能力",
-          "帮助用户更快判断项目是否值得进一步阅读 README"
-        ],
-        "targetUsers": [
-          "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
-          "开发者和 AI 工具使用者"
-        ],
-        "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-        "limitations": [
-          "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-          "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
-        ],
-        "generatedAt": "2026-07-01T04:58:17.110Z",
-        "sourceHash": "925138a0c8b591b3",
-        "method": "deterministic-offline-v1"
-      }
+      "catalogDelta": "stable"
     }
   ]
 }

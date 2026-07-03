@@ -22,7 +22,7 @@ function sourceHashFor(skill) {
   ].join('\n')).digest('hex').slice(0, 16)
 }
 
-export function aiInsightFor(skill, generatedAt = new Date().toISOString()) {
+export function projectInsightFor(skill, generatedAt = new Date().toISOString()) {
   const targetUser = skill.isCollection
     ? '想集中发现和比较 Skills 的用户'
     : `需要${skill.categoryDescription || skill.category}能力的用户`
@@ -31,7 +31,7 @@ export function aiInsightFor(skill, generatedAt = new Date().toISOString()) {
     skill.license ? `许可证为 ${skill.license}，商用前仍建议核对仓库条款。` : '仓库未声明许可证，商用前需要谨慎核对。',
     skill.activity === '低活跃'
       ? '项目近期更新较少，使用前建议确认兼容性。'
-      : 'AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。',
+      : '这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。',
   ]
   return {
     summary: skill.summary || skill.description || `${skill.fullName} 是一个可用于扩展 Agent 工作流的开源项目。`,
@@ -45,7 +45,8 @@ export function aiInsightFor(skill, generatedAt = new Date().toISOString()) {
     limitations,
     generatedAt,
     sourceHash: sourceHashFor(skill),
-    method: 'deterministic-offline-v1',
+    method: 'metadata-derived-v1',
+    sourceNote: '根据仓库公开信息整理，仅供选型参考。',
   }
 }
 
@@ -67,7 +68,7 @@ function withDerivedFields(skill, previousNames, generatedAt) {
     detailPath,
     catalogStatus: 'active',
     catalogDelta,
-    aiInsight: aiInsightFor(skill, generatedAt),
+    projectInsight: projectInsightFor(skill, generatedAt),
   }
 }
 
@@ -79,17 +80,52 @@ function uniqueByFullName(skills) {
   return [...new Map(skills.map((skill) => [skill.fullName, skill])).values()]
 }
 
+function liteSkillFor(skill) {
+  return {
+    rank: skill.rank,
+    id: skill.id,
+    name: skill.name,
+    fullName: skill.fullName,
+    owner: skill.owner,
+    avatarUrl: skill.avatarUrl,
+    url: skill.url,
+    description: skill.description,
+    summary: skill.summary,
+    category: skill.category,
+    categoryConfidence: skill.categoryConfidence,
+    scenarios: skill.scenarios,
+    howToUse: skill.howToUse,
+    installCommand: skill.installCommand,
+    language: skill.language,
+    license: skill.license,
+    stars: skill.stars,
+    score: skill.score,
+    activity: skill.activity,
+    pushedAt: skill.pushedAt,
+    sourceTopics: skill.sourceTopics,
+    platforms: skill.platforms,
+    skillCount: skill.skillCount,
+    isCollection: skill.isCollection,
+    media: skill.media,
+    detailPath: skill.detailPath,
+    catalogStatus: skill.catalogStatus,
+    catalogDelta: skill.catalogDelta,
+  }
+}
+
 export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, previousPath = '' } = {}) {
   const previousNames = await readPreviousNames(previousPath)
   const generatedAt = data.meta.generatedAt || new Date().toISOString()
   const skills = data.skills.map((skill) => withDerivedFields(skill, previousNames, generatedAt))
+  const skillNames = new Set(skills.map((skill) => skill.fullName.toLowerCase()))
   const added = previousNames.size ? skills.filter((skill) => skill.catalogDelta === 'new').map((skill) => skill.fullName) : []
+  const removed = previousNames.size ? [...previousNames].filter((name) => !skillNames.has(name)).sort() : []
   const updated = skills
     .filter((skill) => skill.activity !== '低活跃')
     .toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime())
     .slice(0, 80)
     .map((skill) => skill.fullName)
-  const removed = []
+  const liteSkills = skills.map(liteSkillFor)
   const manifest = {
     version: generatedAt,
     generatedAt,
@@ -113,17 +149,17 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
     },
     diff: { added, updated, removed },
   }
-  const recent = skills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 24)
-  const collections = skills.filter((skill) => skill.isCollection).slice(0, 12)
+  const recent = liteSkills.toSorted((a, b) => new Date(b.pushedAt).getTime() - new Date(a.pushedAt).getTime()).slice(0, 24)
+  const collections = liteSkills.filter((skill) => skill.isCollection).slice(0, 12)
   const home = {
     ...data,
     meta: { ...data.meta, repositories: skills.length },
-    skills: uniqueByFullName([...skills.slice(0, 36), ...recent, ...collections]),
+    skills: uniqueByFullName([...liteSkills.slice(0, 36), ...recent, ...collections]),
   }
   const skillsLite = {
     ...data,
     meta: { ...data.meta, repositories: skills.length },
-    skills,
+    skills: liteSkills,
   }
 
   await mkdir(outputDir, { recursive: true })
@@ -139,12 +175,12 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
   await writeFile(path.join(outputDir, 'topics.json'), `${JSON.stringify(data.topics, null, 2)}\n`)
 
   for (const category of data.categories) {
-    const payload = { ...skillsLite, skills: skills.filter((skill) => skill.category === category.name) }
+    const payload = { ...skillsLite, skills: liteSkills.filter((skill) => skill.category === category.name) }
     await writeFile(path.join(outputDir, 'categories', `${category.name}.json`), `${JSON.stringify(payload, null, 2)}\n`)
   }
 
   for (const topic of data.topics) {
-    const payload = { ...skillsLite, skills: skills.filter((skill) => skill.sourceTopics.includes(topic.name)) }
+    const payload = { ...skillsLite, skills: liteSkills.filter((skill) => skill.sourceTopics.includes(topic.name)) }
     await writeFile(path.join(outputDir, 'topics', `${topic.name}.json`), `${JSON.stringify(payload, null, 2)}\n`)
   }
 
@@ -157,7 +193,8 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1] || '')) {
   const dataPath = path.join(defaultOutputDir, 'skills.json')
+  const previousPath = path.join(defaultOutputDir, 'skills-lite.json')
   const data = JSON.parse(await readFile(dataPath, 'utf8'))
-  const { manifest } = await writeDerivedCatalog(data, { outputDir: defaultOutputDir, previousPath: dataPath })
+  const { manifest } = await writeDerivedCatalog(data, { outputDir: defaultOutputDir, previousPath })
   console.log(`Wrote derived catalog: ${manifest.stats.repositories} repositories, ${manifest.stats.categories} categories, ${manifest.stats.topics} topics.`)
 }

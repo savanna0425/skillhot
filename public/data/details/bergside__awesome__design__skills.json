@@ -72,7 +72,7 @@
   "detailPath": "data/details/bergside__awesome__design__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "67 个优秀的设计.md 和 SKILL.md 设计技能文件列表，适用于代理工具如 Claude Design、Google Stitch、Codex、Cursor 及其他 AI 工具",
     "useCases": [
       "发现新技能",
@@ -90,10 +90,11 @@
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "80d2ef2ee6e1b742",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -68,7 +68,7 @@
   "detailPath": "data/details/netease__youdao__lobsterai.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "开源桌面级 AI 代理，能完成真实工作——数据分析、幻灯片、文档、视频及网页研究。基于 OpenClaw 构建；在您的真实桌面运行工具，并通过微信、飞书、钉钉和 Telegram 接收来自您的手机指令",
     "useCases": [
       "内容生产",
@@ -86,10 +86,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "626388bad6b0b0ff",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -4,7 +4,7 @@ export type DetailMode = 'side' | 'half' | 'full'
 export type CatalogStatus = 'new' | 'active' | 'watching' | 'hidden'
 export type CatalogDelta = 'new' | 'updated' | 'stable'
 
-export interface AiInsight {
+export interface ProjectInsight {
   summary: string
   useCases: string[]
   expectedEffects: string[]
@@ -14,6 +14,7 @@ export interface AiInsight {
   generatedAt: string
   sourceHash: string
   method: string
+  sourceNote: string
 }
 
 export interface SkillMedia {
@@ -60,7 +61,7 @@ export interface Skill {
   detailPath?: string
   catalogStatus?: CatalogStatus
   catalogDelta?: CatalogDelta
-  aiInsight?: AiInsight
+  projectInsight?: ProjectInsight
 }
 
 export interface TopicItem {

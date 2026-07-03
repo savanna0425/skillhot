@@ -60,7 +60,7 @@
   "detailPath": "data/details/doccker__cc__use__exp.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验，持续完善中……",
     "useCases": [
       "模型与客户端管理",
@@ -78,10 +78,11 @@
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "4d4a78fb1bab7223",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

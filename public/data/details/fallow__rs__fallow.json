@@ -67,7 +67,7 @@
   "detailPath": "data/details/fallow__rs__fallow.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持",
     "useCases": [
       "软件开发",
@@ -85,10 +85,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "04e39f0b11aeb909",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

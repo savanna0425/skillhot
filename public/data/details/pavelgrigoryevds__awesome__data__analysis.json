@@ -69,7 +69,7 @@
   "detailPath": "data/details/pavelgrigoryevds__awesome__data__analysis.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "500+ 精选数据分析与数据科学资源：涵盖 Python、SQL、统计学、机器学习、人工智能、可视化、速查表与路线图。面向初学者与专家",
     "useCases": [
       "发现新技能",
@@ -87,10 +87,11 @@
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
       "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "151fb103ab5f0a75",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

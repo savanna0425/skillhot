@@ -61,7 +61,7 @@
   "detailPath": "data/details/onestardao__wfgy.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "WFGY 正迈向 WFGY 5.0 Polaris 协议，这是一个面向 AI 推理、RAG、智能体及现实工作流的重大开源发布。包含问题地图、全局调试卡、WFGY 4.0 以及 CFV 彩蛋",
     "useCases": [
       "长期任务",
@@ -79,10 +79,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "292529df29a31a55",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

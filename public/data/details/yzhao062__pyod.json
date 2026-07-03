@@ -70,7 +70,7 @@
   "detailPath": "data/details/yzhao062__pyod.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "用于表格、时间序列、图、文本、图像和音频数据异常检测的 Python 库。包含 60 多种检测器，基于基准的 ADEngine 编排，以及支持 AI 代理的代理工作流",
     "useCases": [
       "内容生产",
@@ -88,10 +88,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 BSD-2-Clause，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "6193a6520cd1b742",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

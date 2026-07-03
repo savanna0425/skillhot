@@ -48,7 +48,7 @@
   "detailPath": "data/details/startuphakk__openmonoagent__ai.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "（BETA）AI 不应设有令牌限制。无限令牌。永无止境。您的机器，您的代理。随时随地使用。基于本地大语言模型的终端原生编码代理——100% 开源，永久免费，单命令安装。由 C#/.NET 自豪构建，因为 AI 工具应作为基础设施而非订阅服务",
     "useCases": [
       "软件开发",
@@ -66,10 +66,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "c5302c79570a0c8d",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

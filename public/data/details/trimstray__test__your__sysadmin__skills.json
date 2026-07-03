@@ -71,7 +71,7 @@
   "detailPath": "data/details/trimstray__test__your__sysadmin__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Linux 系统管理员测试题库与答案集。通过此题库，在多个领域测试您的知识与技能",
     "useCases": [
       "发现新技能",
@@ -93,6 +93,7 @@
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "d73a91c5c165b528",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

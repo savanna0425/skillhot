@@ -48,7 +48,7 @@
   "detailPath": "data/details/huangserva__skill__prompt__generator.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
     "useCases": [
       "创建技能",
@@ -66,10 +66,11 @@
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
       "仓库未声明许可证，商用前需要谨慎核对。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "734259cbe7bbb801",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

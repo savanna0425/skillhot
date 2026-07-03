@@ -58,7 +58,7 @@
   "detailPath": "data/details/dromara__liteflow.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力",
     "useCases": [
       "软件开发",
@@ -76,10 +76,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "28480e732922bc67",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -50,6 +50,8 @@ test('desktop navigation and export restriction', async ({ page }, testInfo) => 
 
   await page.getByRole('button', { name: '关于', exact: true }).click()
   await expect(page.getByRole('heading', { name: '找 Skill，不用再翻遍 GitHub。' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: '项目解读' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'AI 解读' })).toHaveCount(0)
   await expect(page.getByText('导出 CSV')).toHaveCount(0)
   await expect(page.getByText('下载开放数据')).toHaveCount(0)
   await expect(page.locator('a[href*="skills.csv"]')).toHaveCount(0)
@@ -90,15 +92,19 @@ test('home uses lightweight catalog and then loads full index lazily', async ({ 
   expect(requests.some((url) => url.endsWith('/data/skills-lite.json'))).toBeTruthy()
 })
 
-test('detail panel shows offline AI interpretation', async ({ page }, testInfo) => {
+test('detail panel shows product-facing project interpretation without technical labels', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)
 
   await page.getByRole('button', { name: '详情' }).first().click()
   const panel = page.locator('.detail-shell')
-  await expect(panel.getByRole('heading', { name: 'AI 项目解读' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '项目解读' })).toBeVisible()
   await expect(panel).toContainText('适合谁')
   await expect(panel).toContainText('预期效果')
+  await expect(panel).toContainText('根据仓库公开信息整理')
+  await expect(panel).not.toContainText('AI 项目解读')
+  await expect(panel).not.toContainText('离线生成')
+  await expect(panel).not.toContainText('AI 已解读')
 })
 
 test('desktop detail panel width modes', async ({ page }, testInfo) => {

@@ -72,7 +72,7 @@
   "detailPath": "data/details/prompt__security__clawsec.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件",
     "useCases": [
       "重复任务",
@@ -90,10 +90,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "07e2694415762a47",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -48,7 +48,7 @@
   "detailPath": "data/details/snaplii__inc__agent__to__merchant__payments.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "支付对 AI 代理而言已不再可行。Snaplii 通过基于 500 多家商户礼品卡的安全代币化支付层，解锁了现实世界商业，并作为唯一真正为您节省资金（每笔交易最多节省 10%）的解决方案，叠加任何现有优惠或促销之上",
     "useCases": [
       "能力探索",
@@ -66,10 +66,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "仓库未声明许可证，商用前需要谨慎核对。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "87b098b059853e8d",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

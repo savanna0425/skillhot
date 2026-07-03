@@ -48,7 +48,7 @@
   "detailPath": "data/details/yetone__native__feel__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "为设计原生感跨平台桌面应用而开发的 Agent 技能，源自 Raycast 2.0 的深度解析与逆向工程。包含八项架构原则、四层架构、WebKit/WebView2 生存指南及 75 项船检清单",
     "useCases": [
       "软件开发",
@@ -66,10 +66,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "ff9024a8d6590b0a",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

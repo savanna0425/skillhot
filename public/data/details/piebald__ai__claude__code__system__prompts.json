@@ -52,7 +52,7 @@
   "detailPath": "data/details/piebald__ai__claude__code__system__prompts.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Claude Code 系统提示词及工具说明：包含 27 个内置工具描述、子任务提示（计划/探索/任务）、通用提示（Claude.md、紧凑、状态线、魔法文档、WebFetch、Bash 命令、安全审查、代理创建）。已更新至各版本",
     "useCases": [
       "能力探索",
@@ -70,10 +70,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "2a4de8d92f37d7e9",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

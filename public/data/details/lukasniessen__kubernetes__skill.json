@@ -64,7 +64,7 @@
   "detailPath": "data/details/lukasniessen__kubernetes__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Kubernetes 技能：为 Claude Code 和 Codex 打造。LLM 在 Kubernetes 上容易幻觉，KubeShark 可消除幻觉，确保您的 Kubernetes 和 Helm 等最佳实践有据可依",
     "useCases": [
       "软件开发",
@@ -82,10 +82,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "eaa96ca53f3234d5",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

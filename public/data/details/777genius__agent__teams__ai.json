@@ -71,7 +71,7 @@
   "detailPath": "data/details/777genius__agent__teams__ai.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司",
     "useCases": [
       "模型与客户端管理",
@@ -89,10 +89,11 @@
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "94d87540dba0a32e",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

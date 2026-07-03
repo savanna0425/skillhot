@@ -72,7 +72,7 @@
   "detailPath": "data/details/mervinpraison__praisonai.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "PraisonAI —— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持",
     "useCases": [
       "长期任务",
@@ -90,10 +90,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "df9abb31a0fc4caf",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

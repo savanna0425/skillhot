@@ -165,7 +165,7 @@ export function AboutView({ data, repositoryUrl }: { data: SkillData; repository
       <div className="principle-grid">
         <article><SearchCheck /><h2>动态筛选</h2><p>不按固定数量截断，而是按相关性、活跃度、质量和精选来源决定是否收录。</p></article>
         <article><RefreshCw /><h2>每天更新</h2><p>Stars、活跃度、安装方式、兼容平台和收录状态每天刷新。</p></article>
-        <article><Database /><h2>AI 解读</h2><p>用中文补充项目用途、适合场景和预期效果，先看懂再决定要不要点进 GitHub。</p></article>
+        <article><Database /><h2>项目解读</h2><p>用中文补充项目用途、适合场景和预期效果，先看懂再决定要不要点进 GitHub。</p></article>
         <article><ShieldCheck /><h2>放心参考</h2><p>每条信息都能链接回原始仓库核对，方便你自己判断要不要用。</p></article>
       </div>
     </section>

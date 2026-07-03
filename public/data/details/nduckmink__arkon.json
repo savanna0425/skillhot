@@ -61,7 +61,7 @@
   "detailPath": "data/details/nduckmink__arkon.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Arkon：企业级 AI 知识枢纽与 MCP 服务器。为团队提供自托管的知识库，用于管理 RAG 上下文、访问策略及 AI 技能。通过模型上下文协议（MCP）连接 Claude 及其他大语言模型，实现自动化、安全的组织知识集成",
     "useCases": [
       "重复任务",
@@ -79,10 +79,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "09e7b2e00fd3ae91",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

@@ -64,7 +64,7 @@
   "detailPath": "data/details/leo__lilinxiao__codex__autoresearch.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "Codex Autoresearch 技能——一个自主迭代系统，用于 Codex，持续循环修改、验证、保留或丢弃，无限重复。灵感源自 Karpathy 的自动搜索概念",
     "useCases": [
       "重复任务",
@@ -82,10 +82,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "19e1bbef47125cc3",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

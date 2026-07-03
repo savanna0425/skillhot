@@ -69,7 +69,7 @@
   "detailPath": "data/details/agentera__agently.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
-  "aiInsight": {
+  "projectInsight": {
     "summary": "[GenAI 应用开发框架] 快速轻松构建 GenAI 应用 使用结构数据和链式调用语法，在代码中轻松与 GenAI 代理交互 使用事件驱动流 *TriggerFlow* 管理复杂的 GenAI 工作逻辑 无需重写代码即可切换任意模型",
     "useCases": [
       "文档与表格",
@@ -87,10 +87,11 @@
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
-      "AI 解读基于仓库元数据和 README 摘要，仍建议打开 GitHub 核对细节。"
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
     "generatedAt": "2026-07-01T04:58:17.110Z",
     "sourceHash": "668c8c8da130608d",
-    "method": "deterministic-offline-v1"
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
 }

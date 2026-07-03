@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises'
+import { readFile, stat } from 'node:fs/promises'
 import { semanticQualityIssues } from './catalog-taxonomy.mjs'
 
 const data = JSON.parse(await readFile(new URL('../public/data/skills.json', import.meta.url), 'utf8'))
@@ -45,6 +45,7 @@ assert(manifest.catalogPolicy.mode === 'dynamic-threshold', 'manifest must descr
 assert(manifest.stats.repositories === data.skills.length, 'manifest stats must match skills.json')
 assert(home.skills.length > 0 && home.skills.length < data.skills.length, 'home.json must be a lightweight subset')
 assert(lite.skills.length === data.skills.length, 'skills-lite.json must contain every visible repository')
+assert((await stat(new URL('../public/data/skills-lite.json', import.meta.url))).size < (await stat(new URL('../public/data/skills.json', import.meta.url))).size, 'skills-lite.json must be smaller than the compatibility skills.json')
 
 const categoryNames = new Set(data.categories.map((item) => item.name))
 requiredCategories.forEach((category) => assert(categoryNames.has(category), `missing category ${category}`))
@@ -78,9 +79,14 @@ for (const skill of lite.skills) {
   assert(skill.detailPath, `missing detailPath for ${skill.fullName}`)
   assert(skill.catalogStatus === 'active', `invalid catalog status for ${skill.fullName}`)
   assert(['new', 'updated', 'stable'].includes(skill.catalogDelta), `invalid catalog delta for ${skill.fullName}`)
-  assert(skill.aiInsight?.summary, `missing AI summary for ${skill.fullName}`)
-  assert(Array.isArray(skill.aiInsight.useCases) && skill.aiInsight.useCases.length > 0, `missing AI use cases for ${skill.fullName}`)
-  assert(Array.isArray(skill.aiInsight.expectedEffects) && skill.aiInsight.expectedEffects.length > 0, `missing AI expected effects for ${skill.fullName}`)
+  assert(!Object.hasOwn(skill, 'aiInsight'), `lite catalog must not expose aiInsight for ${skill.fullName}`)
+  assert(!Object.hasOwn(skill, 'projectInsight'), `lite catalog must not include full project insight for ${skill.fullName}`)
+  const detail = JSON.parse(await readFile(new URL(`../public/${skill.detailPath}`, import.meta.url), 'utf8'))
+  assert(!Object.hasOwn(detail, 'aiInsight'), `detail must not expose aiInsight for ${skill.fullName}`)
+  assert(detail.projectInsight?.summary, `missing project summary for ${skill.fullName}`)
+  assert(Array.isArray(detail.projectInsight.useCases) && detail.projectInsight.useCases.length > 0, `missing project use cases for ${skill.fullName}`)
+  assert(Array.isArray(detail.projectInsight.expectedEffects) && detail.projectInsight.expectedEffects.length > 0, `missing project expected effects for ${skill.fullName}`)
+  assert(/公开信息整理/.test(detail.projectInsight.sourceNote), `missing public-source note for ${skill.fullName}`)
 }
 
 assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)
