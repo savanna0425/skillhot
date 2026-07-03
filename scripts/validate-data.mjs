@@ -41,6 +41,15 @@ const dynamicClassificationProbes = [
     },
     category: 'Agent工具与平台',
   },
+  {
+    repo: {
+      full_name: 'wdhdev/free-for-life',
+      name: 'free-for-life',
+      description: 'A huge list of great stuff you can get for free!',
+      topics: ['ai', 'api', 'awesome-list', 'code', 'data', 'design', 'free', 'list', 'services', 'software', 'ui'],
+    },
+    category: '其他',
+  },
 ]
 
 function assert(condition, message) {

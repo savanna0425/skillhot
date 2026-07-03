@@ -83,6 +83,7 @@ const categoryPatterns = {
 
 const collectionPattern = /awesome|collection|directory|marketplace|registry|catalog|curated list|skill library|skills library|plugin library|resource list/i
 const collectionSubject = /skills?|agents?|claude|codex|copilot|gemini|openclaw|mcp|plugins?|prompts?|resources?/i
+const uiPurposePattern = /\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|视觉|界面|设计|色彩/i
 
 const manualCategories = new Map(Object.entries({
   'obra/superpowers': '编程开发',
@@ -151,6 +152,13 @@ export function classifyCategory(input, override = {}) {
 
   // "Claude/Codex skills for X" should be categorized by X, not by the host.
   if (/skills?/i.test(primary) && scores.get('Agent工具与平台') <= 4) scores.set('Agent工具与平台', 0)
+  // Generic awesome/free/resource lists often carry broad `ui` or `design` topics.
+  // If the repository name/description itself does not describe UI work, treat that
+  // topic-only signal as too weak to own the category; otherwise daily updates can
+  // be blocked by one unrelated high-star repository.
+  if (scores.get('UI设计') > 0 && !reasons.get('UI设计').length && !uiPurposePattern.test(primary)) {
+    scores.set('UI设计', 0)
+  }
   const ranked = [...scores.entries()].sort((a, b) => b[1] - a[1] || Object.keys(categoryMeta).indexOf(a[0]) - Object.keys(categoryMeta).indexOf(b[0]))
   const [category, score] = ranked[0]
   const runnerUp = ranked[1][1]
@@ -257,7 +265,7 @@ export function semanticQualityIssues(skill) {
   // 不被针对上游一句话描述的正则否决（例如 anthropics/skills 被人工标为官方合集，
   // 但其 GitHub 描述 "Public repository for Agent Skills" 命中不了合集关键词）。
   const humanCurated = skill.categoryConfidence === '人工复核'
-  if (!humanCurated && skill.category === 'UI设计' && !/\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|视觉|界面|设计|色彩/i.test(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
+  if (!humanCurated && skill.category === 'UI设计' && !uiPurposePattern.test(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
   if (!humanCurated && skill.category === '技能合集' && !(collectionPattern.test(`${skill.fullName} ${skill.description}`) && collectionSubject.test(`${skill.fullName} ${skill.description}`))) issues.push('collection-purpose-mismatch')
   return issues
 }
