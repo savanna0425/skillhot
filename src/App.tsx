@@ -291,6 +291,11 @@ function App() {
     void loadSkillDetail(skill)
   }
 
+  const restoreDetail = () => {
+    setDetailOpen(true)
+    if (selected) void loadSkillDetail(selected)
+  }
+
   const selectSidebarCategory = (name: string) => {
     setCategory(name)
     navigate('categories', { scrollToTop: false })
@@ -387,7 +392,7 @@ function App() {
           isFavorite={selected ? favorites.has(selected.fullName) : false}
           onFavorite={toggleFavorite}
           onClose={() => setDetailOpen(false)}
-          onRestore={() => setDetailOpen(true)}
+          onRestore={restoreDetail}
           mode={detailMode}
           onMode={setDetailMode}
           loading={detailLoading}

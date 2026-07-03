@@ -96,9 +96,9 @@ test('detail panel shows product-facing project interpretation without technical
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   await waitForCatalog(page)
 
-  await page.getByRole('button', { name: '详情' }).first().click()
+  await page.locator('.detail-restore button').click()
   const panel = page.locator('.detail-shell')
-  await expect(panel.getByRole('heading', { name: '项目解读' })).toBeVisible()
+  await expect(panel.getByRole('heading', { name: '项目解读' })).toBeVisible({ timeout: 10_000 })
   await expect(panel).toContainText('适合谁')
   await expect(panel).toContainText('预期效果')
   await expect(panel).toContainText('根据仓库公开信息整理')
