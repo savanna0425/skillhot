@@ -1,5 +1,5 @@
 import { readFile, stat } from 'node:fs/promises'
-import { semanticQualityIssues } from './catalog-taxonomy.mjs'
+import { classifyCategory, semanticQualityIssues } from './catalog-taxonomy.mjs'
 
 const data = JSON.parse(await readFile(new URL('../public/data/skills.json', import.meta.url), 'utf8'))
 const manifest = JSON.parse(await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'))
@@ -29,6 +29,18 @@ const requiredRepositories = [
   'op7418/guizang-ppt-skill',
   'NVIDIA/skills',
   'dotnet/skills',
+]
+
+const dynamicClassificationProbes = [
+  {
+    repo: {
+      full_name: 'milisp/codexia',
+      name: 'codexia',
+      description: 'Lightweight Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktree & remote control, skills management',
+      topics: ['agentic-ai', 'ai-agents', 'claude-code', 'codex-cli', 'codex-ui', 'mcp-client', 'openai-codex-cli'],
+    },
+    category: 'Agent工具与平台',
+  },
 ]
 
 function assert(condition, message) {
@@ -92,6 +104,10 @@ for (const skill of lite.skills) {
 assert(highStarActiveCount >= 1000, `expected at least 1000 active high-star search results, received ${highStarActiveCount}`)
 
 requiredRepositories.forEach((repository) => assert(names.has(repository.toLowerCase()), `missing required source ${repository}`))
+dynamicClassificationProbes.forEach(({ repo, category }) => {
+  const classification = classifyCategory(repo)
+  assert(classification.category === category, `${repo.full_name} must classify as ${category}, received ${classification.category}`)
+})
 assert(data.skills.find((skill) => skill.fullName === 'obra/superpowers')?.category === '编程开发', 'superpowers must be categorized as 编程开发')
 assert(data.skills.find((skill) => skill.fullName === 'farion1231/cc-switch')?.category === 'Agent工具与平台', 'cc-switch must be categorized as Agent工具与平台')
 

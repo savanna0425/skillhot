@@ -67,9 +67,9 @@ const categoryPatterns = {
     [/vector database|semantic search|context layer|remember|memory/i, 5],
   ],
   'Agent工具与平台': [
-    [/agent platform|agent framework|agent harness|multi.?agent|agent runtime|agent orchestr|agent operating system|personal ai assistant/i, 9],
+    [/agent platform|agent framework|agent harness|agent workstation|multi.?agent|agent runtime|agent orchestr|agent operating system|personal ai assistant/i, 9],
     [/model switch|provider management|model gateway|llm gateway|ai client|chat client|desktop assistant|ai workspace|model router/i, 10],
-    [/claude code.*codex|codex.*claude code|openclaw|opencode|mcp client|mcp server/i, 4],
+    [/claude[-\s]?code.*codex|codex.*claude[-\s]?code|codex[-\s]?(cli|desktop|gui|ide|ui)|openai[-\s]?codex|openclaw|opencode|mcp[-\s]?(client|server)/i, 7],
   ],
   '产品与商业': [
     [/product management|product manager|marketing|growth|seo|sales|finance|business|startup|customer research|career|recruit|conversion rate|\bcro\b/i, 8],
