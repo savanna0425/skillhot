@@ -1,5 +1,5 @@
 {
-  "rank": 1051,
+  "rank": 1055,
   "id": 1163183284,
   "name": "agent-teams-ai",
   "fullName": "777genius/agent-teams-ai",
@@ -11,8 +11,8 @@
   "summary": "你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "高",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/777genius/agent-teams-ai.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 1435,
-  "forks": 265,
+  "stars": 1446,
+  "forks": 264,
   "openIssues": 13,
-  "score": 105.8,
+  "score": 105.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T01:21:10Z",
-  "updatedAt": "2026-06-30T20:28:29Z",
+  "pushedAt": "2026-07-03T01:27:02Z",
+  "updatedAt": "2026-07-02T21:44:52Z",
   "createdAt": "2026-02-21T08:14:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -91,8 +91,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "94d87540dba0a32e",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "6285e3a615ded957",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

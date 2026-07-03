@@ -1,5 +1,5 @@
 {
-  "rank": 234,
+  "rank": 236,
   "id": 1133911335,
   "name": "openwork",
   "fullName": "different-ai/openwork",
@@ -11,8 +11,8 @@
   "summary": "开源替代 Claude Cowork（由 opencode 驱动）",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git checkout dev\ngit pull --ff-only origin dev\npnpm install --frozen-lockfile",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 16531,
-  "forks": 1665,
-  "openIssues": 215,
-  "score": 131.2,
+  "stars": 16571,
+  "forks": 1675,
+  "openIssues": 220,
+  "score": 131.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:53:27Z",
-  "updatedAt": "2026-07-01T04:50:16Z",
+  "pushedAt": "2026-07-03T01:27:16Z",
+  "updatedAt": "2026-07-03T01:23:43Z",
   "createdAt": "2026-01-14T01:39:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,8 +71,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "57396fdde464f0a2",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "8e9eaadca9d8300a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

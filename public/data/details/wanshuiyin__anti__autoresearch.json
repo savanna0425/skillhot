@@ -1,0 +1,100 @@
+{
+  "rank": 1874,
+  "id": 1280925898,
+  "name": "Anti-Autoresearch",
+  "fullName": "wanshuiyin/Anti-Autoresearch",
+  "owner": "wanshuiyin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76990859?v=4",
+  "url": "https://github.com/wanshuiyin/Anti-Autoresearch",
+  "homepage": "",
+  "description": "Don't trust an autoresearch paper at face value. Reviewer-side integrity forensics (self-consistency + fabrication), deterministic verdict. 61 signals: 46 integrity hack-patterns (families A–H, verdict-bearing) + 13 zero-weight AI writing-style impressions (AIS) + 2 advisory. Not an opaque AI-text classifier. The dual of ARIS.",
+  "summary": "Anti-Autoresearch 聚焦安全审计、漏洞检查与风险治理。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/wanshuiyin/Anti-Autoresearch.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 75,
+  "forks": 2,
+  "openIssues": 0,
+  "score": 80.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:10:35Z",
+  "updatedAt": "2026-07-02T13:43:23Z",
+  "createdAt": "2026-06-26T04:19:19Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-generated-content",
+    "ai-research",
+    "ai-scientist",
+    "aris",
+    "autoresearch",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "forensics",
+    "gpt",
+    "llm",
+    "llm-agents",
+    "machine-learning",
+    "mcp",
+    "ml-research",
+    "openai",
+    "paper-review",
+    "peer-review",
+    "research-integrity"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wanshuiyin/Anti-Autoresearch",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/wanshuiyin/Anti-Autoresearch#readme",
+  "detailPath": "data/details/wanshuiyin__anti__autoresearch.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "Anti-Autoresearch 聚焦安全审计、漏洞检查与风险治理。",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "c92028eff377bd10",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "rank": 55,
+  "rank": 77,
   "id": 1128123594,
   "name": "OpenViking",
   "fullName": "volcengine/OpenViking",
   "owner": "volcengine",
   "avatarUrl": "https://avatars.githubusercontent.com/u/67365215?v=4",
   "url": "https://github.com/volcengine/OpenViking",
-  "homepage": "https://openviking.ai",
-  "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+  "homepage": "https://openviking.ai/",
+  "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
   "summary": "以文件系统范式统一管理 Agent 的记忆、资源与 Skills",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
@@ -22,41 +22,27 @@
   "installCommand": "pip install openviking --upgrade --force-reinstall",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 26204,
-  "forks": 2033,
-  "openIssues": 279,
-  "score": 148,
+  "stars": 26262,
+  "forks": 2043,
+  "openIssues": 275,
+  "score": 144.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T03:57:05Z",
-  "updatedAt": "2026-07-01T04:20:27Z",
+  "pushedAt": "2026-07-02T20:04:54Z",
+  "updatedAt": "2026-07-03T01:25:52Z",
   "createdAt": "2026-01-05T07:11:17Z",
-  "sourceTopics": [
-    "skill"
-  ],
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
+    "agent-memory",
+    "agent-plugins",
     "agentic-rag",
-    "ai-agents",
-    "clawbot",
     "context-database",
-    "context-engineering",
-    "filesystem",
-    "llm",
-    "memory",
-    "openclaw",
-    "opencode",
-    "rag",
-    "skill"
+    "self-evolving"
   ],
   "platforms": [
-    "Codex",
-    "Gemini CLI",
-    "OpenClaw",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -88,8 +74,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "60164be692132b1e",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "cb9d71c6b0639906",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

@@ -1,0 +1,96 @@
+{
+  "rank": 1933,
+  "id": 1119141547,
+  "name": "claude-brain",
+  "fullName": "memvid/claude-brain",
+  "owner": "memvid",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/241489775?v=4",
+  "url": "https://github.com/memvid/claude-brain",
+  "homepage": "https://memvid.com",
+  "description": "Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no ChromaDB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations.",
+  "summary": "claude-brain：SQL、数据处理、统计、可视化与商业分析。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
+  "categoryConfidence": "中",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "scenarios": [
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/memvid/claude-brain.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 519,
+  "forks": 55,
+  "openIssues": 8,
+  "score": 76.4,
+  "activity": "活跃",
+  "pushedAt": "2026-01-19T18:38:28Z",
+  "updatedAt": "2026-07-01T16:41:31Z",
+  "createdAt": "2025-12-18T20:11:22Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-tools",
+    "anthropic",
+    "claude",
+    "claude-agents",
+    "claude-ai",
+    "claude-code",
+    "claude-skills",
+    "context-window",
+    "developer-tools",
+    "llm-memory",
+    "long-term-memory",
+    "memvid",
+    "persistent-memory",
+    "portable",
+    "rag",
+    "rust",
+    "single-file"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/memvid/claude-brain",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/memvid/claude-brain#readme",
+  "detailPath": "data/details/memvid__claude__brain.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "claude-brain：SQL、数据处理、统计、可视化与商业分析。",
+    "useCases": [
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "e4fd3dcbdd795ddd",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

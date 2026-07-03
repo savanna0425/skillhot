@@ -1,5 +1,5 @@
 {
-  "rank": 746,
+  "rank": 742,
   "id": 1165581971,
   "name": "claw0",
   "fullName": "shareAI-lab/claw0",
@@ -11,8 +11,8 @@
   "summary": "claw0 是用于运行、管理或编排 AI Agent 的开源工具。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/shareAI-lab/claw0.git && cd claw0\npip install -r requirements.txt\ncp .env.example .env",
   "language": "Python",
   "license": "",
-  "stars": 3026,
-  "forks": 352,
+  "stars": 3045,
+  "forks": 354,
   "openIssues": 3,
   "score": 113.6,
   "activity": "本周活跃",
   "pushedAt": "2026-06-30T16:13:05Z",
-  "updatedAt": "2026-07-01T02:22:39Z",
+  "updatedAt": "2026-07-02T23:00:33Z",
   "createdAt": "2026-02-24T10:16:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,8 +69,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "d39227de32469865",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "bf7f0f8f57cc029b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

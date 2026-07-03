@@ -1,5 +1,5 @@
 {
-  "rank": 315,
+  "rank": 320,
   "id": 1131107802,
   "name": "claude-code-ultimate-guide",
   "fullName": "FlorianBruniaux/claude-code-ultimate-guide",
@@ -8,27 +8,27 @@
   "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
   "homepage": "https://cc.bruniaux.com/",
   "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-  "summary": "claude-code-ultimate-guide 聚焦软件开发、代码质量与工程交付。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "summary": "claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/FlorianBruniaux/cc-copilot-bridge.git && cd cc-copilot-bridge && ./install.sh\nccc   # Copilot mode (flat $10/month)\nccd   # Direct Anthropic mode (per-token)",
   "language": "Python",
   "license": "CC-BY-SA-4.0",
-  "stars": 5268,
-  "forks": 696,
-  "openIssues": 7,
-  "score": 127.3,
+  "stars": 5300,
+  "forks": 701,
+  "openIssues": 10,
+  "score": 127.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-29T13:53:22Z",
-  "updatedAt": "2026-07-01T04:26:25Z",
+  "pushedAt": "2026-07-02T12:54:15Z",
+  "updatedAt": "2026-07-03T01:18:22Z",
   "createdAt": "2026-01-09T13:42:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,27 +71,27 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-code-ultimate-guide 聚焦软件开发、代码质量与工程交付。",
+    "summary": "claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "4c58da11e974aed9",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "38150a1c5fdf733d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

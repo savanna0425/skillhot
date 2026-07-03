@@ -1,0 +1,91 @@
+{
+  "rank": 1875,
+  "id": 1103296721,
+  "name": "skrills",
+  "fullName": "athola/skrills",
+  "owner": "athola",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9769290?v=4",
+  "url": "https://github.com/athola/skrills",
+  "homepage": "https://athola.github.io/skrills",
+  "description": "Coordinate skills between Codex, Copilot, and Claude Code. Validates, analyzes, and syncs skills, subagents, commands, and configuration between multiple CLIs.",
+  "summary": "skrills 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/athola/skrills.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 67,
+  "forks": 10,
+  "openIssues": 23,
+  "score": 80.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-18T22:15:21Z",
+  "updatedAt": "2026-07-01T14:24:19Z",
+  "createdAt": "2025-11-24T17:23:54Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "codex-cli",
+    "codex-skills",
+    "copilot",
+    "copilot-skills",
+    "mcp",
+    "mcp-server",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/athola/skrills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/athola/skrills#readme",
+  "detailPath": "data/details/athola__skrills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "skrills 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "eb3e9aa38357cbf0",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

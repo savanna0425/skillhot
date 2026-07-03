@@ -1,5 +1,5 @@
 {
-  "rank": 1002,
+  "rank": 1006,
   "id": 1153564598,
   "name": "XiaohongshuSkills",
   "fullName": "white0dew/XiaohongshuSkills",
@@ -9,26 +9,26 @@
   "homepage": "https://blog.aistar.cool",
   "description": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
   "summary": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3107,
+  "stars": 3115,
   "forks": 325,
-  "openIssues": 6,
-  "score": 106.8,
+  "openIssues": 2,
+  "score": 106.9,
   "activity": "近期活跃",
   "pushedAt": "2026-05-21T16:26:05Z",
-  "updatedAt": "2026-07-01T04:00:57Z",
+  "updatedAt": "2026-07-02T23:37:25Z",
   "createdAt": "2026-02-09T12:55:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,25 +52,25 @@
   "projectInsight": {
     "summary": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "ea38bed72bbb5576",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "80c3628372820acd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

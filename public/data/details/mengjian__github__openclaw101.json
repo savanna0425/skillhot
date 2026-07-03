@@ -11,8 +11,8 @@
   "summary": "OpenClaw 101 — 从零开始，7天掌握你的AI私人助理 | 全网资源聚合站",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mengjian-github/openclaw101.git\ncd openclaw101\nnpm install",
   "language": "TypeScript",
   "license": "",
-  "stars": 2930,
+  "stars": 2933,
   "forks": 340,
   "openIssues": 7,
-  "score": 113.2,
+  "score": 113.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T03:57:26Z",
-  "updatedAt": "2026-07-01T03:57:31Z",
+  "pushedAt": "2026-07-02T02:23:07Z",
+  "updatedAt": "2026-07-02T23:40:27Z",
   "createdAt": "2026-02-02T05:07:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,8 +75,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "336a08d9b5d3e227",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "ac052b742bfe7e73",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

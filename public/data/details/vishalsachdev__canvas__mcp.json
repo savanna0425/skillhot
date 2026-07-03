@@ -1,5 +1,5 @@
 {
-  "rank": 1469,
+  "rank": 1464,
   "id": 940315969,
   "name": "canvas-mcp",
   "fullName": "vishalsachdev/canvas-mcp",
@@ -9,26 +9,26 @@
   "homepage": "http://canvas-mcp.illinihunt.org/",
   "description": "Canvas LMS MCP server — 80+ tools and 5 agent skills for students & educators. Works with Claude, Cursor, Codex, and 40+ agents. v1.1.0",
   "summary": "Canvas LMS MCP 服务器——为师生提供 80+ 工具与 5 项代理技能。支持与 Claude、Cursor、Codex 及 40+ 代理协作。v1.1.0",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/vishalsachdev/canvas-mcp.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 153,
+  "stars": 154,
   "forks": 45,
-  "openIssues": 5,
-  "score": 95.1,
+  "openIssues": 3,
+  "score": 95.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T01:04:36Z",
-  "updatedAt": "2026-06-30T06:25:57Z",
+  "pushedAt": "2026-07-03T00:52:56Z",
+  "updatedAt": "2026-07-03T00:53:00Z",
   "createdAt": "2025-02-28T01:02:01Z",
   "sourceTopics": [
     "skills-sh"
@@ -58,25 +58,25 @@
   "projectInsight": {
     "summary": "Canvas LMS MCP 服务器——为师生提供 80+ 工具与 5 项代理技能。支持与 Claude、Cursor、Codex 及 40+ 代理协作。v1.1.0",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "505ce25e815ddb7f",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "9869f82f78ad87b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

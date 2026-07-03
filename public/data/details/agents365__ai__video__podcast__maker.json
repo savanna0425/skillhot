@@ -1,5 +1,5 @@
 {
-  "rank": 847,
+  "rank": 853,
   "id": 1159261054,
   "name": "video-podcast-maker",
   "fullName": "Agents365-ai/video-podcast-maker",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew install ffmpeg node python3\nsudo apt install ffmpeg nodejs python3 python3-pip\npip install -r skills/video-podcast-maker/requirements.txt",
+  "installCommand": "git clone https://github.com/Agents365-ai/video-podcast-maker.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1396,
-  "forks": 144,
+  "stars": 1403,
+  "forks": 145,
   "openIssues": 0,
   "score": 109.6,
   "activity": "本周活跃",
   "pushedAt": "2026-06-28T07:26:11Z",
-  "updatedAt": "2026-07-01T04:26:23Z",
+  "updatedAt": "2026-07-02T15:25:08Z",
   "createdAt": "2026-02-16T14:15:27Z",
   "sourceTopics": [
     "agent-skill"
@@ -43,11 +43,7 @@
     "video-generation"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
-    "OpenClaw",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -79,8 +75,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "89a7aff8196853c8",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "07536dbdeec4247a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

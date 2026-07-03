@@ -1,0 +1,82 @@
+{
+  "rank": 1656,
+  "id": 1210629129,
+  "name": "hermes-arxiv-agent",
+  "fullName": "genggng/hermes-arxiv-agent",
+  "owner": "genggng",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/47470904?v=4",
+  "url": "https://github.com/genggng/hermes-arxiv-agent",
+  "homepage": "https://genggng.github.io/hermes-arxiv-agent/",
+  "description": "一个基于 Hermes 的 agent skill：每天自动从 arXiv 抓取论文，用 AI 生成中文摘要和作者单位，推送到飞书，并提供本地静态阅读网站。 ",
+  "summary": "一个基于 Hermes 的 agent skill：每天自动从 arXiv 抓取论文，用 AI 生成中文摘要和作者单位，推送到飞书，并提供本地静态阅读网站。",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "资料调研",
+    "知识检索",
+    "学习与推理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/genggng/hermes-arxiv-agent.git",
+  "language": "Python",
+  "license": "",
+  "stars": 90,
+  "forks": 36,
+  "openIssues": 1,
+  "score": 90,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T01:25:28Z",
+  "updatedAt": "2026-07-02T01:25:32Z",
+  "createdAt": "2026-04-14T15:48:17Z",
+  "sourceTopics": [
+    "skill-md"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "arxiv-papers",
+    "hermes-agent",
+    "skill-md"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/genggng/hermes-arxiv-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/genggng/hermes-arxiv-agent#readme",
+  "detailPath": "data/details/genggng__hermes__arxiv__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "一个基于 Hermes 的 agent skill：每天自动从 arXiv 抓取论文，用 AI 生成中文摘要和作者单位，推送到飞书，并提供本地静态阅读网站。",
+    "useCases": [
+      "资料调研",
+      "知识检索",
+      "学习与推理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "a85c1ca93c7b7c2a",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

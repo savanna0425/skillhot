@@ -1,0 +1,101 @@
+{
+  "rank": 2048,
+  "id": 1259454744,
+  "name": "skillcheck",
+  "fullName": "sx4im/skillcheck",
+  "owner": "sx4im",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/128062316?v=4",
+  "url": "https://github.com/sx4im/skillcheck",
+  "homepage": "https://skillcheck.page",
+  "description": " 🧪 A/B test your agent skills — skillcheck measures whether a SKILL.md actually improves an LLM's task performance, with blind grading, bootstrap confidence intervals, and a 0–100 score. CLI for Claude Code, Codex & Cursor skills.",
+  "summary": "skillcheck 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/sx4im/skillcheck.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4,
+  "forks": 1,
+  "openIssues": 4,
+  "score": 69.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T16:44:23Z",
+  "updatedAt": "2026-06-21T05:31:15Z",
+  "createdAt": "2026-06-04T14:23:07Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ab-testing",
+    "agent-skill",
+    "agentic-workflow",
+    "ai-agent-skills",
+    "ai-agents",
+    "anthropic",
+    "benchamrk",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skill",
+    "cli",
+    "codex-skills",
+    "llm-evals",
+    "llm-evaluation-benchmark",
+    "openclaw-skills",
+    "skill-eval",
+    "skill-library",
+    "skill-testing",
+    "typescript"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sx4im/skillcheck",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/sx4im/skillcheck#readme",
+  "detailPath": "data/details/sx4im__skillcheck.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "skillcheck 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "eedcbbcdd0a8c078",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

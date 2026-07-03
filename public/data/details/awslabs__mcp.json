@@ -1,5 +1,5 @@
 {
-  "rank": 345,
+  "rank": 351,
   "id": 952238700,
   "name": "mcp",
   "fullName": "awslabs/mcp",
@@ -11,8 +11,8 @@
   "summary": "为 AWS 打造的开源 MCP 服务器",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/awslabs/mcp.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 9360,
-  "forks": 1613,
-  "openIssues": 855,
+  "stars": 9375,
+  "forks": 1618,
+  "openIssues": 854,
   "score": 125.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T21:02:09Z",
-  "updatedAt": "2026-07-01T03:11:14Z",
+  "pushedAt": "2026-07-02T20:48:51Z",
+  "updatedAt": "2026-07-03T00:45:52Z",
   "createdAt": "2025-03-21T00:39:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -79,8 +79,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "5168420faf8bfc86",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "080ee2a81ccfd4e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

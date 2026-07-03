@@ -1,5 +1,5 @@
 {
-  "rank": 1468,
+  "rank": 1461,
   "id": 1185003107,
   "name": "wechat-article-skills",
   "fullName": "aiworkskills/wechat-article-skills",
@@ -11,8 +11,8 @@
   "summary": "微信公众号 AI 运营助手 | 选题、写稿、审稿、排版、配图、发布全流程 Skill，支持 OpenClaw / Claude Code / Cursor / Codex",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aiworkskills/wechat-article-skills.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 308,
-  "forks": 50,
+  "stars": 319,
+  "forks": 51,
   "openIssues": 0,
-  "score": 95.1,
+  "score": 95.4,
   "activity": "本月活跃",
   "pushedAt": "2026-06-20T15:19:05Z",
-  "updatedAt": "2026-07-01T02:17:58Z",
+  "updatedAt": "2026-07-02T11:15:20Z",
   "createdAt": "2026-03-18T06:21:44Z",
   "sourceTopics": [
     "ai-skills"
@@ -88,8 +88,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "5ed2259bfc3cd37d",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "78a043f6207e43cf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

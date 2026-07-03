@@ -1,5 +1,5 @@
 {
-  "rank": 92,
+  "rank": 90,
   "id": 976921297,
   "name": "system_prompts_leaks",
   "fullName": "asgeirtj/system_prompts_leaks",
@@ -11,8 +11,8 @@
   "summary": "system_prompts_leaks 的作者尚未提供足够简介，请查看 README 了解具体用途",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/asgeirtj/system_prompts_leaks.git",
   "language": "JavaScript",
   "license": "CC0-1.0",
-  "stars": 47448,
-  "forks": 7743,
-  "openIssues": 26,
-  "score": 142.2,
+  "stars": 47873,
+  "forks": 7796,
+  "openIssues": 28,
+  "score": 142.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T00:26:54Z",
-  "updatedAt": "2026-07-01T04:52:19Z",
+  "pushedAt": "2026-07-03T00:23:46Z",
+  "updatedAt": "2026-07-03T01:34:16Z",
   "createdAt": "2025-05-03T02:43:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -94,8 +94,8 @@
       "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "ef7762304898ebd1",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "18ffcb9354cfbaa5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

@@ -1,0 +1,88 @@
+{
+  "rank": 1882,
+  "id": 1173627851,
+  "name": "aspm",
+  "fullName": "arkylab/aspm",
+  "owner": "arkylab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/264723361?v=4",
+  "url": "https://github.com/arkylab/aspm",
+  "homepage": "",
+  "description": "A Git-based package manager designed for AI-assisted development, similar to npm but supporting skills, agents, commands, hooks, and any AI resource types.",
+  "summary": "aspm 用于创建、验证、安装或管理 Agent Skills。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/arkylab/aspm.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 99,
+  "forks": 8,
+  "openIssues": 0,
+  "score": 79.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-02T05:10:37Z",
+  "updatedAt": "2026-06-23T17:17:08Z",
+  "createdAt": "2026-03-05T15:21:23Z",
+  "sourceTopics": [
+    "claude-code-skill",
+    "ai-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-skill",
+    "claude",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skill",
+    "package-manager",
+    "skill",
+    "skill-manager"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/arkylab/aspm",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/arkylab/aspm#readme",
+  "detailPath": "data/details/arkylab__aspm.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "aspm 用于创建、验证、安装或管理 Agent Skills。",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "549dd7d6a008168a",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

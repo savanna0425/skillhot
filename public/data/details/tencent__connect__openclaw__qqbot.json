@@ -1,5 +1,5 @@
 {
-  "rank": 1359,
+  "rank": 1354,
   "id": 1144084209,
   "name": "openclaw-qqbot",
   "fullName": "tencent-connect/openclaw-qqbot",
@@ -11,8 +11,8 @@
   "summary": "openclaw-qqbot 的作者尚未提供足够简介，请查看 README 了解具体用途",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/tencent-connect/openclaw-qqbot.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1519,
-  "forks": 191,
+  "stars": 1521,
+  "forks": 192,
   "openIssues": 117,
   "score": 99.4,
   "activity": "本月活跃",
   "pushedAt": "2026-06-09T06:06:31Z",
-  "updatedAt": "2026-06-30T09:40:27Z",
+  "updatedAt": "2026-07-02T10:12:05Z",
   "createdAt": "2026-01-28T09:17:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "5323f05f33f84939",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "675fcffa9629acc8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

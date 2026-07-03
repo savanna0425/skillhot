@@ -1,5 +1,5 @@
 {
-  "rank": 320,
+  "rank": 325,
   "id": 1150626239,
   "name": "ClawX",
   "fullName": "ValueCell-ai/ClawX",
@@ -11,8 +11,8 @@
   "summary": "ClawX 是一款桌面应用程序，为 OpenClaw AI 代理提供图形化界面。它无需终端即可将基于 CLI 的 AI 编排转化为桌面体验。中国官网为 https://clawx.com.cn",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ValueCell-ai/ClawX.git\ncd ClawX\npnpm run init",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 7464,
-  "forks": 1113,
-  "openIssues": 70,
+  "stars": 7473,
+  "forks": 1114,
+  "openIssues": 67,
   "score": 127,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T01:04:13Z",
-  "updatedAt": "2026-07-01T02:29:22Z",
+  "pushedAt": "2026-07-03T00:49:28Z",
+  "updatedAt": "2026-07-03T00:28:43Z",
   "createdAt": "2026-02-05T13:58:36Z",
   "sourceTopics": [
     "skill"
@@ -82,8 +82,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "cfeb8e8921b44633",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "4f1e53b54515fb1f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

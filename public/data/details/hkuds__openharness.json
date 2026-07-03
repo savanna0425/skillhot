@@ -1,5 +1,5 @@
 {
-  "rank": 417,
+  "rank": 414,
   "id": 1198616956,
   "name": "OpenHarness",
   "fullName": "HKUDS/OpenHarness",
@@ -12,7 +12,7 @@
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/HKUDS/OpenHarness/main/scripts/install.sh | bash\npip install openharness-ai",
   "language": "Python",
   "license": "MIT",
-  "stars": 14319,
-  "forks": 2356,
+  "stars": 14421,
+  "forks": 2361,
   "openIssues": 54,
-  "score": 122.7,
+  "score": 122.8,
   "activity": "本月活跃",
   "pushedAt": "2026-06-04T02:42:40Z",
-  "updatedAt": "2026-07-01T04:47:16Z",
+  "updatedAt": "2026-07-03T01:33:28Z",
   "createdAt": "2026-04-01T15:37:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,8 +73,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "d3bd4be081deff17",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "3a0ba4d1de7e7690",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

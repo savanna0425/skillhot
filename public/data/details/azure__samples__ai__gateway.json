@@ -11,8 +11,8 @@
   "summary": "探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -23,11 +23,11 @@
   "language": "Jupyter Notebook",
   "license": "MIT",
   "stars": 948,
-  "forks": 486,
-  "openIssues": 61,
+  "forks": 487,
+  "openIssues": 62,
   "score": 101.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-23T15:45:35Z",
+  "pushedAt": "2026-07-02T08:08:56Z",
   "updatedAt": "2026-06-30T16:46:08Z",
   "createdAt": "2024-04-03T10:56:50Z",
   "sourceTopics": [],
@@ -80,8 +80,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "b15e77c09849b8de",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "adb37eaf45744dee",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

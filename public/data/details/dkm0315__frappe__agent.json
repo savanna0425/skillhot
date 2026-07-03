@@ -1,0 +1,98 @@
+{
+  "rank": 2077,
+  "id": 1218462294,
+  "name": "frappe-agent",
+  "fullName": "Dkm0315/frappe-agent",
+  "owner": "Dkm0315",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/127371606?v=4",
+  "url": "https://github.com/Dkm0315/frappe-agent",
+  "homepage": "https://hol.org/registry/plugins/dhairya-marwaha%2Ffrappe-agent",
+  "description": "Frappe, ERPNext, and Frappe ecosystem agent plugin for Codex, Claude Code, Cursor, Copilot, Helpdesk, CRM, LMS, Drive, HRMS, Insights, Builder, and Payments.",
+  "summary": "frappe-agent 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Dkm0315/frappe-agent.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 16,
+  "forks": 2,
+  "openIssues": 2,
+  "score": 68,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-28T03:12:24Z",
+  "updatedAt": "2026-06-29T08:40:41Z",
+  "createdAt": "2026-04-22T22:47:25Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-coding",
+    "claude-code",
+    "codex",
+    "codex-plugin",
+    "codex-skills",
+    "developer-tools",
+    "erpnext",
+    "erpnext-customization",
+    "frappe",
+    "frappe-builder",
+    "frappe-crm",
+    "frappe-drive",
+    "frappe-framework",
+    "frappe-helpdesk",
+    "frappe-hrms",
+    "frappe-lms"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Dkm0315/frappe-agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Dkm0315/frappe-agent#readme",
+  "detailPath": "data/details/dkm0315__frappe__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "frappe-agent 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "f46318647d53968b",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "rank": 474,
+  "rank": 471,
   "id": 1135179558,
   "name": "oh-my-opencode-slim",
   "fullName": "alvinunreal/oh-my-opencode-slim",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/204474669?v=4",
   "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
   "homepage": "https://ohmyopencodeslim.com",
-  "description": "Slimmed, cleaned and fine-tuned oh-my-opencode fork, consumes much less tokens",
-  "summary": "瘦削、清洗并微调的 oh-my-opencode 分支，消耗更少的令牌",
+  "description": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
+  "summary": "oh-my-opencode-slim 是用于运行、管理或编排 AI Agent 的开源工具。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "bunx oh-my-opencode-slim@latest install",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6305,
-  "forks": 387,
-  "openIssues": 105,
-  "score": 121.2,
+  "stars": 6417,
+  "forks": 391,
+  "openIssues": 114,
+  "score": 121.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T20:54:21Z",
-  "updatedAt": "2026-07-01T04:44:27Z",
+  "pushedAt": "2026-07-02T07:23:31Z",
+  "updatedAt": "2026-07-03T00:51:35Z",
   "createdAt": "2026-01-15T18:45:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "瘦削、清洗并微调的 oh-my-opencode 分支，消耗更少的令牌",
+    "summary": "oh-my-opencode-slim 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,8 +78,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "29ed29cabc7686db",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "2f202123ecc799b2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

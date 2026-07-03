@@ -1,5 +1,5 @@
 {
-  "rank": 409,
+  "rank": 408,
   "id": 1222917575,
   "name": "hallmark",
   "fullName": "Nutlope/hallmark",
@@ -9,26 +9,26 @@
   "homepage": "https://www.usehallmark.com/",
   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
   "summary": "为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "npx skills add nutlope/hallmark",
   "language": "CSS",
   "license": "MIT",
-  "stars": 3473,
-  "forks": 213,
+  "stars": 3508,
+  "forks": 215,
   "openIssues": 5,
-  "score": 123,
+  "score": 123.1,
   "activity": "本周活跃",
   "pushedAt": "2026-06-26T10:08:58Z",
-  "updatedAt": "2026-06-30T22:49:58Z",
+  "updatedAt": "2026-07-03T01:09:19Z",
   "createdAt": "2026-04-27T20:47:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,25 +54,25 @@
   "projectInsight": {
     "summary": "为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "1d9ccd34b3cfe114",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "d5bb98c7fd51923c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

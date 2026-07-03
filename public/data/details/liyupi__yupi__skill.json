@@ -1,0 +1,97 @@
+{
+  "rank": 1674,
+  "id": 1205759917,
+  "name": "yupi-skill",
+  "fullName": "liyupi/yupi-skill",
+  "owner": "liyupi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/26037703?v=4",
+  "url": "https://github.com/liyupi/yupi-skill",
+  "homepage": "https://www.codefather.cn",
+  "description": "🐟 程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
+  "summary": "程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/liyupi/yupi-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 361,
+  "forks": 54,
+  "openIssues": 3,
+  "score": 88.7,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-09T10:00:15Z",
+  "updatedAt": "2026-07-02T12:34:11Z",
+  "createdAt": "2026-04-09T08:54:00Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "ai",
+    "ai-coding",
+    "career",
+    "claude-code",
+    "codefather",
+    "cursor",
+    "interview",
+    "java",
+    "opensource",
+    "programming",
+    "resume",
+    "skill",
+    "skills",
+    "yupi"
+  ],
+  "platforms": [
+    "Claude",
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/liyupi/yupi-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/liyupi/yupi-skill#readme",
+  "detailPath": "data/details/liyupi__yupi__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "a9de9b56452c9d04",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "rank": 858,
+  "rank": 867,
   "id": 1132664039,
   "name": "Memoh",
   "fullName": "memohai/Memoh",
@@ -8,27 +8,27 @@
   "url": "https://github.com/memohai/Memoh",
   "homepage": "https://memoh.ai",
   "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
-  "summary": "Memoh 聚焦软件开发、代码质量与工程交付。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "summary": "Memoh 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/memohai/Memoh.git",
   "language": "Go",
   "license": "AGPL-3.0",
-  "stars": 1981,
-  "forks": 186,
-  "openIssues": 19,
+  "stars": 1986,
+  "forks": 187,
+  "openIssues": 24,
   "score": 109.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:05:05Z",
-  "updatedAt": "2026-07-01T04:11:51Z",
+  "pushedAt": "2026-07-02T05:51:30Z",
+  "updatedAt": "2026-07-02T09:59:23Z",
   "createdAt": "2026-01-12T09:27:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,27 +56,27 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Memoh 聚焦软件开发、代码质量与工程交付。",
+    "summary": "Memoh 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "508a7741e52996bf",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "182351132365a812",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

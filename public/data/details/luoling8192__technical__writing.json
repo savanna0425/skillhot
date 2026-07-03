@@ -1,0 +1,86 @@
+{
+  "rank": 1836,
+  "id": 1239774861,
+  "name": "technical-writing",
+  "fullName": "luoling8192/technical-writing",
+  "owner": "luoling8192",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/44741987?v=4",
+  "url": "https://github.com/luoling8192/technical-writing",
+  "homepage": "",
+  "description": "中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构",
+  "summary": "中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/luoling8192/technical-writing.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 194,
+  "forks": 10,
+  "openIssues": 0,
+  "score": 82.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-27T10:18:20Z",
+  "updatedAt": "2026-06-28T12:53:14Z",
+  "createdAt": "2026-05-15T12:31:42Z",
+  "sourceTopics": [
+    "agent-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "chinese",
+    "claude-code",
+    "codex",
+    "documentation",
+    "technical-writing"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/luoling8192/technical-writing",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/luoling8192/technical-writing#readme",
+  "detailPath": "data/details/luoling8192__technical__writing.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "3ae0f4232ade8892",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

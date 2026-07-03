@@ -1,0 +1,88 @@
+{
+  "rank": 1427,
+  "id": 1209910880,
+  "name": "GodotMaker",
+  "fullName": "RandallLiuXin/GodotMaker",
+  "owner": "RandallLiuXin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/32125402?v=4",
+  "url": "https://github.com/RandallLiuXin/GodotMaker",
+  "homepage": "https://randallliuxin.github.io/GodotMaker/",
+  "description": "Autonomous text-to-game pipeline for Godot, powered by Claude Code,Codex,Opencode",
+  "summary": "GodotMaker 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/RandallLiuXin/GodotMaker.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 418,
+  "forks": 32,
+  "openIssues": 13,
+  "score": 97.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T07:54:09Z",
+  "updatedAt": "2026-07-02T15:13:42Z",
+  "createdAt": "2026-04-13T22:53:41Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "claude-code",
+    "claude-code-skill",
+    "codex",
+    "game-development",
+    "godot-4",
+    "text-to-game"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "OpenCode"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/RandallLiuXin/GodotMaker",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/RandallLiuXin/GodotMaker#readme",
+  "detailPath": "data/details/randallliuxin__godotmaker.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "GodotMaker 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "6048ac5b8376970c",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

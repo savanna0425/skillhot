@@ -1,5 +1,5 @@
 {
-  "rank": 1212,
+  "rank": 1200,
   "id": 1138593495,
   "name": "work-iq",
   "fullName": "microsoft/work-iq",
@@ -11,8 +11,8 @@
   "summary": "MCP 服务器和命令行接口，用于访问 Work IQ",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/microsoft/work-iq.git",
   "language": "PowerShell",
   "license": "NOASSERTION",
-  "stars": 913,
+  "stars": 921,
   "forks": 102,
-  "openIssues": 71,
-  "score": 101.2,
+  "openIssues": 72,
+  "score": 101.3,
   "activity": "本周活跃",
   "pushedAt": "2026-06-30T18:14:35Z",
-  "updatedAt": "2026-07-01T03:40:47Z",
+  "updatedAt": "2026-07-02T17:41:59Z",
   "createdAt": "2026-01-20T21:49:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "ea8cf604e0e54c46",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "c481ab71794e8255",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

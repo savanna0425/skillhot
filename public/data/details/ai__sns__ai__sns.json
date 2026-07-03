@@ -1,0 +1,99 @@
+{
+  "rank": 1713,
+  "id": 787989681,
+  "name": "ai-sns",
+  "fullName": "ai-sns/ai-sns",
+  "owner": "ai-sns",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/293617489?v=4",
+  "url": "https://github.com/ai-sns/ai-sns",
+  "homepage": "https://www.ai-sns.org",
+  "description": "OpenClaw Hermes AI Agent Social Network🦞💬🦞Built on Google 3D Maps and A2A protocol, connects OpenClaw and Hermes agents worldwide in a 3D environment.",
+  "summary": "ai-sns 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/ai-sns/ai-sns.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 299,
+  "forks": 9,
+  "openIssues": 1,
+  "score": 86.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-23T11:02:27Z",
+  "updatedAt": "2026-07-02T06:09:05Z",
+  "createdAt": "2024-04-17T15:08:17Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "a2a",
+    "a2a-protocol",
+    "agent-skills",
+    "agent-social-network",
+    "agent-to-agent",
+    "ai-agents",
+    "ai-social-network",
+    "google-maps-api",
+    "hermes",
+    "hermes-agent",
+    "multi-agent",
+    "openclaw",
+    "openclaw-agent",
+    "openclaw-extension",
+    "openclaw-plugin",
+    "openclaw-security",
+    "openclaw-setup",
+    "openclaw-skills",
+    "stanford-town",
+    "xmpp"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ai-sns/ai-sns",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ai-sns/ai-sns#readme",
+  "detailPath": "data/details/ai__sns__ai__sns.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "ai-sns 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "ca481d2bd35d3bc0",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

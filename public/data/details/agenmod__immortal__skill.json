@@ -1,0 +1,92 @@
+{
+  "rank": 1525,
+  "id": 1198654685,
+  "name": "immortal-skill",
+  "fullName": "agenmod/immortal-skill",
+  "owner": "agenmod",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/272135193?v=4",
+  "url": "https://github.com/agenmod/immortal-skill",
+  "homepage": "https://agenworld.com",
+  "description": "♾️ 开源数字永生框架 — 从聊天记录蒸馏任何人的七维数字分身。支持微信/飞书/iMessage/Telegram等12+平台，7种角色模板，对齐 OpenClaw Soul Spec 标准。一行指令让你的AI学会蒸馏。",
+  "summary": "♾️ 开源数字永生框架 — 从聊天记录蒸馏任何人的七维数字分身。支持微信/飞书/iMessage/Telegram等12+平台，7种角色模板，对齐 OpenClaw Soul Spec 标准。一行指令让你的AI学会蒸馏。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/agenmod/immortal-skill.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 877,
+  "forks": 76,
+  "openIssues": 7,
+  "score": 93.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-15T03:21:58Z",
+  "updatedAt": "2026-07-02T08:57:30Z",
+  "createdAt": "2026-04-01T16:19:14Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "chatbot",
+    "cursor",
+    "digital-immortality",
+    "digital-twin",
+    "distillation",
+    "feishu",
+    "llm",
+    "openclaw",
+    "persona",
+    "soul-spec",
+    "wechat"
+  ],
+  "platforms": [
+    "Cursor",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/agenmod/immortal-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/agenmod/immortal-skill#readme",
+  "detailPath": "data/details/agenmod__immortal__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "♾️ 开源数字永生框架 — 从聊天记录蒸馏任何人的七维数字分身。支持微信/飞书/iMessage/Telegram等12+平台，7种角色模板，对齐 OpenClaw Soul Spec 标准。一行指令让你的AI学会蒸馏。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "d1dc836027d82d59",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

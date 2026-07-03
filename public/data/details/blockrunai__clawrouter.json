@@ -1,5 +1,5 @@
 {
-  "rank": 453,
+  "rank": 458,
   "id": 1149071982,
   "name": "ClawRouter",
   "fullName": "BlockRunAI/ClawRouter",
@@ -11,8 +11,8 @@
   "summary": "OpenClaw 的代理原生 LLM 路由。41+ 模型，<1ms 路由，在 Base 和 Solana 上通过 x402 支付 USDC",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @blockrun/clawrouter\nclawrouter setup            # finishes OpenClaw integration — REQUIRED\nopenclaw gateway restart",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6609,
-  "forks": 617,
+  "stars": 6618,
+  "forks": 621,
   "openIssues": 35,
   "score": 121.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T07:20:48Z",
-  "updatedAt": "2026-07-01T00:06:38Z",
+  "pushedAt": "2026-07-01T05:28:22Z",
+  "updatedAt": "2026-07-02T16:55:39Z",
   "createdAt": "2026-02-03T17:32:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -89,8 +89,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "0d4f70bfb8a81134",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "2e427104e57d575b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

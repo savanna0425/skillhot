@@ -1,0 +1,87 @@
+{
+  "rank": 1710,
+  "id": 1170617094,
+  "name": "openclaw-backup",
+  "fullName": "LeoYeAI/openclaw-backup",
+  "owner": "LeoYeAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/121472001?v=4",
+  "url": "https://github.com/LeoYeAI/openclaw-backup",
+  "homepage": "https://myclaw.ai",
+  "description": "One-click backup & restore for OpenClaw instances — workspace, credentials, skills, agent history. Powered by MyClaw.ai",
+  "summary": "openclaw-backup 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/LeoYeAI/openclaw-backup.git",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 668,
+  "forks": 125,
+  "openIssues": 2,
+  "score": 86.9,
+  "activity": "活跃",
+  "pushedAt": "2026-03-03T06:02:58Z",
+  "updatedAt": "2026-06-30T16:56:51Z",
+  "createdAt": "2026-03-02T10:21:54Z",
+  "sourceTopics": [
+    "skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "backup",
+    "clawhub",
+    "migration",
+    "myclaw",
+    "openclaw",
+    "restore",
+    "skill"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/LeoYeAI/openclaw-backup",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/LeoYeAI/openclaw-backup#readme",
+  "detailPath": "data/details/leoyeai__openclaw__backup.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "openclaw-backup 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "48b671e3daa53c7c",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "rank": 205,
+  "rank": 210,
   "id": 1178737655,
   "name": "OpenMAIC",
   "fullName": "THU-MAIC/OpenMAIC",
@@ -12,7 +12,7 @@
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/THU-MAIC/OpenMAIC.git\ncd OpenMAIC\npnpm install",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 19163,
-  "forks": 3770,
-  "openIssues": 220,
+  "stars": 19251,
+  "forks": 3783,
+  "openIssues": 203,
   "score": 132.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T03:51:58Z",
-  "updatedAt": "2026-07-01T04:44:14Z",
+  "pushedAt": "2026-07-02T12:04:16Z",
+  "updatedAt": "2026-07-03T01:09:25Z",
   "createdAt": "2026-03-11T10:13:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,8 +71,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "414b3fb343ae6de9",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "de1e6099f2f8deff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

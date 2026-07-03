@@ -1,5 +1,5 @@
 {
-  "rank": 1039,
+  "rank": 479,
   "id": 1165855406,
   "name": "opengap",
   "fullName": "open-gitagent/opengap",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/open-gitagent/opengap.git",
+  "installCommand": "npm i -g @open-gitagent/opengap\nopengap init --template standard\nopengap validate",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 2886,
-  "forks": 342,
+  "stars": 2887,
+  "forks": 341,
   "openIssues": 16,
-  "score": 106.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-28T05:42:54Z",
-  "updatedAt": "2026-07-01T01:05:36Z",
+  "score": 121.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T21:15:45Z",
+  "updatedAt": "2026-07-03T01:02:04Z",
   "createdAt": "2026-02-24T16:08:24Z",
   "sourceTopics": [
     "skills",
@@ -84,8 +84,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "c0046d7ca39e4160",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "7d86e8fdde188419",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 1186,
+  "rank": 1172,
   "id": 1127638187,
   "name": "cc-use-exp",
   "fullName": "doccker/cc-use-exp",
@@ -11,8 +11,8 @@
   "summary": "让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验，持续完善中……",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/doccker/cc-use-exp.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 946,
-  "forks": 96,
+  "stars": 962,
+  "forks": 98,
   "openIssues": 3,
-  "score": 101.5,
+  "score": 101.7,
   "activity": "本周活跃",
   "pushedAt": "2026-06-30T13:13:54Z",
-  "updatedAt": "2026-07-01T03:02:46Z",
+  "updatedAt": "2026-07-02T18:06:10Z",
   "createdAt": "2026-01-04T09:52:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -80,8 +80,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "4d4a78fb1bab7223",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "c8ccedaa01e98d7e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

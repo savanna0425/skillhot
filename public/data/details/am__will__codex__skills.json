@@ -1,5 +1,5 @@
 {
-  "rank": 842,
+  "rank": 854,
   "id": 1135937291,
   "name": "codex-skills",
   "fullName": "am-will/codex-skills",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add am-will/codex-skills --list\nnpx skills add am-will/codex-skills --skill planner --skill context7 -g\nnpx skills add am-will/codex-skills -g",
+  "installCommand": "git clone https://github.com/am-will/codex-skills.git",
   "language": "Shell",
   "license": "",
-  "stars": 957,
+  "stars": 956,
   "forks": 57,
   "openIssues": 5,
-  "score": 109.7,
+  "score": 109.6,
   "activity": "本周活跃",
   "pushedAt": "2026-06-28T03:02:51Z",
-  "updatedAt": "2026-06-30T07:14:50Z",
+  "updatedAt": "2026-07-02T12:56:49Z",
   "createdAt": "2026-01-16T20:04:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,9 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,8 +68,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "d9659b0e251bddb1",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "33fcb42f5c22c6c0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

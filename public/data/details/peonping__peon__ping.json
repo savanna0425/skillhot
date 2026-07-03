@@ -1,5 +1,5 @@
 {
-  "rank": 549,
+  "rank": 553,
   "id": 1154009261,
   "name": "peon-ping",
   "fullName": "PeonPing/peon-ping",
@@ -9,26 +9,26 @@
   "homepage": "https://www.peonping.com",
   "description": "Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today.",
   "summary": "Warcraft III 平民语音通知（更多！）适用于 Claude Code、Codex、IDE 及任何 AI 代理。停止托管终端。今日雇佣平民",
-  "category": "内容创作",
-  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "内容生产",
-    "视觉创作",
-    "多媒体工作流"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "brew install PeonPing/tap/peon-ping",
   "language": "Shell",
   "license": "MIT",
-  "stars": 4874,
-  "forks": 360,
-  "openIssues": 24,
+  "stars": 4878,
+  "forks": 359,
+  "openIssues": 19,
   "score": 118.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-27T14:29:48Z",
-  "updatedAt": "2026-07-01T01:36:20Z",
+  "pushedAt": "2026-07-02T04:56:47Z",
+  "updatedAt": "2026-07-02T16:14:53Z",
   "createdAt": "2026-02-09T23:12:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,25 +66,25 @@
   "projectInsight": {
     "summary": "Warcraft III 平民语音通知（更多！）适用于 Claude Code、Codex、IDE 及任何 AI 代理。停止托管终端。今日雇佣平民",
     "useCases": [
-      "内容生产",
-      "视觉创作",
-      "多媒体工作流"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "dbc6be2ae2e79894",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "b0f1d847bd8d8c25",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

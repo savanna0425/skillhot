@@ -1,0 +1,102 @@
+{
+  "rank": 1806,
+  "id": 1200286794,
+  "name": "humanizer-ru",
+  "fullName": "ilyautov/humanizer-ru",
+  "owner": "ilyautov",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9898202?v=4",
+  "url": "https://github.com/ilyautov/humanizer-ru",
+  "homepage": "",
+  "description": "Скилл для Claude. Убирает 52 признака нейросети в русском тексте: канцелярит, кальки, фингерпринты ChatGPT и Claude. Обходит GPTZero, DivEye, RuBERT-детекторы. 20 жёстких банов, quad-pass аудит, калибровка под голос автора.",
+  "summary": "humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/ilyautov/humanizer-ru.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 116,
+  "forks": 8,
+  "openIssues": 0,
+  "score": 84.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T22:58:43Z",
+  "updatedAt": "2026-07-01T22:58:40Z",
+  "createdAt": "2026-04-03T08:33:05Z",
+  "sourceTopics": [
+    "skill-md"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-detection",
+    "ai-writing-detection",
+    "anthropic",
+    "anti-ai-detector",
+    "chatgpt-humanizer",
+    "claude",
+    "claude-code",
+    "claude-cowork",
+    "claude-skill",
+    "codex-cli",
+    "copywriting",
+    "cursor",
+    "gemini-cli",
+    "humanizer",
+    "humanizer-ru",
+    "russian",
+    "skill-md",
+    "text-humanizer",
+    "ux-writing"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ilyautov/humanizer-ru",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/ilyautov/humanizer-ru#readme",
+  "detailPath": "data/details/ilyautov__humanizer__ru.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "e7a6ff2182db73de",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

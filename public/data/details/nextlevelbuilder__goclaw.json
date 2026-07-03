@@ -1,5 +1,5 @@
 {
-  "rank": 691,
+  "rank": 687,
   "id": 1163814566,
   "name": "goclaw",
   "fullName": "nextlevelbuilder/goclaw",
@@ -12,7 +12,7 @@
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nextlevelbuilder/goclaw.git",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 3364,
-  "forks": 947,
-  "openIssues": 295,
+  "stars": 3377,
+  "forks": 950,
+  "openIssues": 300,
   "score": 114.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:00:05Z",
-  "updatedAt": "2026-07-01T03:54:39Z",
+  "pushedAt": "2026-07-03T01:30:39Z",
+  "updatedAt": "2026-07-03T01:30:52Z",
   "createdAt": "2026-02-22T07:26:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -88,8 +88,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "02f7682b4e9fa773",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "135d77998b6afd0b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

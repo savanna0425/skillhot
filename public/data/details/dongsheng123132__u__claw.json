@@ -1,5 +1,5 @@
 {
-  "rank": 971,
+  "rank": 980,
   "id": 1176414483,
   "name": "u-claw",
   "fullName": "dongsheng123132/u-claw",
@@ -11,8 +11,8 @@
   "summary": "U-Claw 虾盘 - OpenClaw AI 助手离线安装 U 盘 | 提供远程维护·定制开发·企业私有化部署服务 | Remote support & custom AI development",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dongsheng123132/u-claw.git",
   "language": "HTML",
   "license": "MIT",
-  "stars": 1670,
-  "forks": 393,
+  "stars": 1676,
+  "forks": 394,
   "openIssues": 5,
   "score": 107.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-24T04:58:32Z",
-  "updatedAt": "2026-06-30T16:57:07Z",
+  "pushedAt": "2026-07-01T05:15:58Z",
+  "updatedAt": "2026-07-02T19:33:39Z",
   "createdAt": "2026-03-09T02:01:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -85,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "82732f8bee708f3a",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "acc008a4065c63f5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

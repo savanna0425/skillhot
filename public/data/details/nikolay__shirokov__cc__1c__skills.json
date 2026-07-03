@@ -1,5 +1,5 @@
 {
-  "rank": 1181,
+  "rank": 1176,
   "id": 1152709086,
   "name": "cc-1c-skills",
   "fullName": "Nikolay-Shirokov/cc-1c-skills",
@@ -9,26 +9,26 @@
   "homepage": "",
   "description": "Набор навыков для AI(ИИ)-агентов (Claude Code, Cursor, Codex и др.), помогающий охватить полный цикл разработки на платформе 1С:Предприятие 8.3. Даёт модели абстракции над XML-форматами и CLI конфигуратора, а также глаза и руки для тестирования через веб-клиент. AI skills for 1C:Enterprise 8.3.",
   "summary": "AI 技能集合（针对 1C:Предприятие 8.3 平台的全周期开发），涵盖 XML 格式与命令行配置器模型抽象，以及基于 Web 客户端的测试“眼睛”与“双手”",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/Nikolay-Shirokov/cc-1c-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 436,
+  "stars": 440,
   "forks": 80,
-  "openIssues": 2,
-  "score": 101.6,
+  "openIssues": 1,
+  "score": 101.7,
   "activity": "本周活跃",
   "pushedAt": "2026-06-30T15:48:31Z",
-  "updatedAt": "2026-06-30T15:48:16Z",
+  "updatedAt": "2026-07-02T11:32:42Z",
   "createdAt": "2026-02-08T09:59:37Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,25 +60,25 @@
   "projectInsight": {
     "summary": "AI 技能集合（针对 1C:Предприятие 8.3 平台的全周期开发），涵盖 XML 格式与命令行配置器模型抽象，以及基于 Web 客户端的测试“眼睛”与“双手”",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "60e8190fc5e6ef7b",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "aa4e39942242c332",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

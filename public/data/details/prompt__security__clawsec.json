@@ -9,26 +9,26 @@
   "homepage": "https://prompt.security/clawsec",
   "description": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents (and variants). Protect your SOUL.md (etc') with drift detection, live security recommendations, automated audits, and skill integrity verification. All from one installable suite.",
   "summary": "OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "待复核",
-  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "npx clawhub@latest install clawsec-suite",
   "language": "JavaScript",
   "license": "AGPL-3.0",
-  "stars": 1054,
+  "stars": 1056,
   "forks": 111,
-  "openIssues": 15,
-  "score": 122.6,
+  "openIssues": 13,
+  "score": 122.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:52:17Z",
-  "updatedAt": "2026-07-01T03:19:30Z",
+  "pushedAt": "2026-07-02T07:38:44Z",
+  "updatedAt": "2026-07-02T07:38:46Z",
   "createdAt": "2026-02-05T19:59:46Z",
   "sourceTopics": [
     "openclaw-skills",
@@ -75,25 +75,25 @@
   "projectInsight": {
     "summary": "OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "07e2694415762a47",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "84eb3ae706122430",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

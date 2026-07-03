@@ -1,0 +1,100 @@
+{
+  "rank": 2145,
+  "id": 1260957344,
+  "name": "AgentX",
+  "fullName": "DezXBT/AgentX",
+  "owner": "DezXBT",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/180554863?v=4",
+  "url": "https://github.com/DezXBT/AgentX",
+  "homepage": "",
+  "description": "Agent-first X/Twitter client in Go — JSON envelope per command, multi-account, cookie-safe anti-detection for autonomous agents",
+  "summary": "AgentX 用于自动化浏览器、工具集成或重复流程。",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/DezXBT/AgentX.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 26,
+  "forks": 3,
+  "openIssues": 1,
+  "score": 64.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-06T10:52:35Z",
+  "updatedAt": "2026-06-28T05:19:39Z",
+  "createdAt": "2026-06-06T04:18:24Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "automation",
+    "autonomous-agent",
+    "bot",
+    "claude-skills",
+    "cli",
+    "cookie-auth",
+    "golang",
+    "graphql",
+    "grok",
+    "hermes-skill",
+    "json-envelope",
+    "multi-account",
+    "openclaw-skill",
+    "skill-md",
+    "social-media",
+    "twitter",
+    "twitter-api",
+    "x-api",
+    "x-twitter"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/DezXBT/AgentX",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/DezXBT/AgentX#readme",
+  "detailPath": "data/details/dezxbt__agentx.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "AgentX 用于自动化浏览器、工具集成或重复流程。",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "18a4a36d1970e8b4",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

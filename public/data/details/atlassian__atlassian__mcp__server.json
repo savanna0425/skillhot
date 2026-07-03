@@ -1,5 +1,5 @@
 {
-  "rank": 1310,
+  "rank": 1305,
   "id": 1030580992,
   "name": "atlassian-mcp-server",
   "fullName": "atlassian/atlassian-mcp-server",
@@ -11,8 +11,8 @@
   "summary": "atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/atlassian/atlassian-mcp-server.git",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 816,
+  "stars": 824,
   "forks": 104,
-  "openIssues": 66,
-  "score": 100,
+  "openIssues": 64,
+  "score": 100.1,
   "activity": "本周活跃",
   "pushedAt": "2026-06-29T18:40:11Z",
-  "updatedAt": "2026-06-30T12:45:45Z",
+  "updatedAt": "2026-07-02T21:47:59Z",
   "createdAt": "2025-08-01T22:31:35Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -91,8 +91,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "245faa1403c28d5e",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "e0f7d82972d5cb6c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

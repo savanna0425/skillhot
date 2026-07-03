@@ -1,5 +1,5 @@
 {
-  "rank": 441,
+  "rank": 278,
   "id": 1151667698,
   "name": "godogen",
   "fullName": "htdt/godogen",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/5243839?v=4",
   "url": "https://github.com/htdt/godogen",
   "homepage": "https://x.com/alex_erm",
-  "description": "Autonomous game development for Godot and Bevy with Claude Code and Codex",
-  "summary": "使用 Claude Code 和 Codex 开发基于 Godot 和 Bevy 的自主游戏",
+  "description": "Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex",
+  "summary": "godogen 是用于运行、管理或编排 AI Agent 的开源工具。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/htdt/godogen.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 4191,
-  "forks": 371,
+  "stars": 4228,
+  "forks": 376,
   "openIssues": 4,
-  "score": 122,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-13T20:12:33Z",
-  "updatedAt": "2026-07-01T03:36:51Z",
+  "score": 129.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T19:23:33Z",
+  "updatedAt": "2026-07-03T01:02:06Z",
   "createdAt": "2026-02-06T18:46:52Z",
   "sourceTopics": [
     "skills",
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "使用 Claude Code 和 Codex 开发基于 Godot 和 Bevy 的自主游戏",
+    "summary": "godogen 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -86,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "125b95408794c7c9",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "d1c004d3b73a2e1e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

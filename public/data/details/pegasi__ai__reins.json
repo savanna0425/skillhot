@@ -1,0 +1,94 @@
+{
+  "rank": 1844,
+  "id": 627427591,
+  "name": "reins",
+  "fullName": "pegasi-ai/reins",
+  "owner": "pegasi-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/139900397?v=4",
+  "url": "https://github.com/pegasi-ai/reins",
+  "homepage": "https://www.reins.sh",
+  "description": "Stop AI agents from doing things you didn't ask for.",
+  "summary": "reins 用于自动化浏览器、工具集成或重复流程。",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/pegasi-ai/reins.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 407,
+  "forks": 64,
+  "openIssues": 18,
+  "score": 81.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-22T18:03:15Z",
+  "updatedAt": "2026-07-02T14:01:42Z",
+  "createdAt": "2023-04-13T12:53:46Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-observability",
+    "agent-security",
+    "ai-monitoring",
+    "ai-safety",
+    "audit-trail",
+    "browser-automation",
+    "claude-code-marketplace",
+    "claude-code-plugin",
+    "claude-code-skill",
+    "cua",
+    "human-in-the-loop",
+    "intervention",
+    "mcp",
+    "openclaw-security"
+  ],
+  "platforms": [
+    "Claude",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/pegasi-ai/reins",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/pegasi-ai/reins#readme",
+  "detailPath": "data/details/pegasi__ai__reins.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "reins 用于自动化浏览器、工具集成或重复流程。",
+    "useCases": [
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "9e8aa42e4a4d7786",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

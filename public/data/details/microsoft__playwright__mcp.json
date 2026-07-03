@@ -1,5 +1,5 @@
 {
-  "rank": 123,
+  "rank": 124,
   "id": 952688112,
   "name": "playwright-mcp",
   "fullName": "microsoft/playwright-mcp",
@@ -11,8 +11,8 @@
   "summary": "Playwright MCP 服务器",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "For more information, see the [Copilot CLI documentation](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli).\n</details>\n<details>",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 34548,
-  "forks": 2867,
-  "openIssues": 1,
-  "score": 138.9,
+  "stars": 34636,
+  "forks": 2873,
+  "openIssues": 2,
+  "score": 139,
   "activity": "本周活跃",
   "pushedAt": "2026-06-29T23:06:50Z",
-  "updatedAt": "2026-07-01T04:05:26Z",
+  "updatedAt": "2026-07-03T01:33:52Z",
   "createdAt": "2025-03-21T17:48:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -76,8 +76,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "9854dabc193ab553",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "cc92799ec2e7356e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

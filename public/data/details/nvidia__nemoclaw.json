@@ -1,5 +1,5 @@
 {
-  "rank": 188,
+  "rank": 192,
   "id": 1182547092,
   "name": "NemoClaw",
   "fullName": "NVIDIA/NemoClaw",
@@ -11,8 +11,8 @@
   "summary": "在 NVIDIA OpenShell 内更安全地运行 Hermes 和 OpenClaw 等代理，并实现托管推理",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/NVIDIA/NemoClaw.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 21518,
-  "forks": 2893,
-  "openIssues": 400,
+  "stars": 21564,
+  "forks": 2898,
+  "openIssues": 398,
   "score": 134,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:56:27Z",
-  "updatedAt": "2026-07-01T04:54:55Z",
+  "pushedAt": "2026-07-03T01:26:32Z",
+  "updatedAt": "2026-07-03T01:32:21Z",
   "createdAt": "2026-03-15T17:04:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,6 +44,10 @@
     "typescript"
   ],
   "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "GitHub Copilot",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -76,8 +80,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "70b99000cf767b92",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "df811f02e57cb4c8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

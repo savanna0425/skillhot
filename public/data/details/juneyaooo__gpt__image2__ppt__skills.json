@@ -1,5 +1,5 @@
 {
-  "rank": 562,
+  "rank": 564,
   "id": 1214805512,
   "name": "gpt-image2-ppt-skills",
   "fullName": "JuneYaooo/gpt-image2-ppt-skills",
@@ -11,7 +11,7 @@
   "summary": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill.",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -22,13 +22,13 @@
   "installCommand": "git clone git@github.com:JuneYaooo/gpt-image2-ppt-skills.git\ncd gpt-image2-ppt-skills\nbash install_as_skill.sh --target claude   # Claude Code",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 999,
+  "stars": 1009,
   "forks": 55,
   "openIssues": 2,
-  "score": 118.1,
+  "score": 118.2,
   "activity": "本周活跃",
   "pushedAt": "2026-06-30T15:51:41Z",
-  "updatedAt": "2026-07-01T04:28:50Z",
+  "updatedAt": "2026-07-02T14:12:28Z",
   "createdAt": "2026-04-19T04:25:35Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -36,8 +36,7 @@
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub 搜索"
   ],
   "repoTopics": [
     "ai-ppt",
@@ -86,8 +85,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "dbfa337186c81c20",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "05b580d64bc6e5c6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

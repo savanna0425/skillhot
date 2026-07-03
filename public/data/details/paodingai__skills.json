@@ -1,0 +1,85 @@
+{
+  "rank": 2059,
+  "id": 1178462368,
+  "name": "skills",
+  "fullName": "PaodingAI/skills",
+  "owner": "PaodingAI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/26276333?v=4",
+  "url": "https://github.com/PaodingAI/skills",
+  "homepage": "",
+  "description": "Reusable skills for document parsing and agent workflows, turning PDFs, DOCX, PPTs, and images into LLM-ready Markdown. ",
+  "summary": "skills：图片、视频、演示、写作、音频与社交内容生产。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "scenarios": [
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/PaodingAI/skills.git",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 16,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 69,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-05T09:23:28Z",
+  "updatedAt": "2026-06-07T05:47:22Z",
+  "createdAt": "2026-03-11T03:32:48Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code-skill",
+    "claude-code-skills",
+    "claude-skills",
+    "codex-skill",
+    "codex-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/PaodingAI/skills",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/PaodingAI/skills#readme",
+  "detailPath": "data/details/paodingai__skills.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "skills：图片、视频、演示、写作、音频与社交内容生产。",
+    "useCases": [
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "仓库未声明许可证，商用前需要谨慎核对。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "308b3bcb738eccb9",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

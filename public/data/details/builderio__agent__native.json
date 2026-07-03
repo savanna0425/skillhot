@@ -1,5 +1,5 @@
 {
-  "rank": 702,
+  "rank": 688,
   "id": 1179959183,
   "name": "agent-native",
   "fullName": "BuilderIO/agent-native",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx @agent-native/core@latest skills add visual-plan",
+  "installCommand": "npx @agent-native/core@latest create my-app\ncd my-app\npnpm install",
   "language": "TypeScript",
   "license": "",
-  "stars": 3222,
-  "forks": 311,
-  "openIssues": 14,
-  "score": 114.2,
+  "stars": 3377,
+  "forks": 321,
+  "openIssues": 22,
+  "score": 114.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T04:57:38Z",
-  "updatedAt": "2026-07-01T04:54:09Z",
+  "pushedAt": "2026-07-03T01:34:02Z",
+  "updatedAt": "2026-07-03T01:27:56Z",
   "createdAt": "2026-03-12T14:57:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,11 +40,7 @@
     "react"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "GitHub Copilot",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -76,8 +72,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "e7075f32b476971b",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "b75e81b59c7130de",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 874,
+  "rank": 883,
   "id": 1144728715,
   "name": "openclaw-windows-node",
   "fullName": "openclaw/openclaw-windows-node",
@@ -11,8 +11,8 @@
   "summary": "Windows 配套套件：OpenClaw - 系统托盘应用、共享库、Node 和 PowerToys 命令面板扩展",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/openclaw/openclaw-windows-node.git",
   "language": "C#",
   "license": "MIT",
-  "stars": 1947,
-  "forks": 237,
-  "openIssues": 56,
+  "stars": 1950,
+  "forks": 238,
+  "openIssues": 69,
   "score": 109,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T19:06:59Z",
-  "updatedAt": "2026-06-30T19:07:13Z",
+  "pushedAt": "2026-07-02T19:44:20Z",
+  "updatedAt": "2026-07-02T22:06:58Z",
   "createdAt": "2026-01-29T01:34:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "c2af98e2b759195e",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "b008578a20f7cd20",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

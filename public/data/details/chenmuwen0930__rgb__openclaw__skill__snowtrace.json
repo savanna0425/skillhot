@@ -1,0 +1,81 @@
+{
+  "rank": 2188,
+  "id": 1163218469,
+  "name": "openclaw-skill-snowtrace",
+  "fullName": "chenmuwen0930-rgb/openclaw-skill-snowtrace",
+  "owner": "chenmuwen0930-rgb",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/228934401?v=4",
+  "url": "https://github.com/chenmuwen0930-rgb/openclaw-skill-snowtrace",
+  "homepage": "",
+  "description": "OpenClaw skill for Xueqiu (雪球) — auto-fetch KOL posts & watchlist quotes, then generate investment summary reports with AI.              ",
+  "summary": "OpenClaw skill for Xueqiu (雪球) — auto-fetch KOL posts & watchlist quotes, then generate investment summary reports with ",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/chenmuwen0930-rgb/openclaw-skill-snowtrace.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 47,
+  "forks": 12,
+  "openIssues": 1,
+  "score": 61.1,
+  "activity": "活跃",
+  "pushedAt": "2026-02-21T10:04:26Z",
+  "updatedAt": "2026-06-10T16:40:53Z",
+  "createdAt": "2026-02-21T09:30:55Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "openclaw",
+    "openclaw-skills"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chenmuwen0930-rgb/openclaw-skill-snowtrace",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/chenmuwen0930-rgb/openclaw-skill-snowtrace#readme",
+  "detailPath": "data/details/chenmuwen0930__rgb__openclaw__skill__snowtrace.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "OpenClaw skill for Xueqiu (雪球) — auto-fetch KOL posts & watchlist quotes, then generate investment summary reports with ",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "c641f8e52ad8b638",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rank": 2127,
+  "id": 1152654468,
+  "name": "github-explorer-skill",
+  "fullName": "blessonism/github-explorer-skill",
+  "owner": "blessonism",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/87158944?v=4",
+  "url": "https://github.com/blessonism/github-explorer-skill",
+  "homepage": "",
+  "description": "OpenClaw Agent Skill — 对任意 GitHub 项目进行多源深度分析，输出结构化研判报告",
+  "summary": "OpenClaw Agent Skill — 对任意 GitHub 项目进行多源深度分析，输出结构化研判报告",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/blessonism/github-explorer-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 79,
+  "forks": 5,
+  "openIssues": 2,
+  "score": 65.8,
+  "activity": "活跃",
+  "pushedAt": "2026-02-13T08:32:21Z",
+  "updatedAt": "2026-06-27T17:01:46Z",
+  "createdAt": "2026-02-08T07:55:17Z",
+  "sourceTopics": [
+    "openclaw-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "github",
+    "openclaw",
+    "openclaw-skill",
+    "project-analysis",
+    "skill"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/blessonism/github-explorer-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/blessonism/github-explorer-skill#readme",
+  "detailPath": "data/details/blessonism__github__explorer__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "OpenClaw Agent Skill — 对任意 GitHub 项目进行多源深度分析，输出结构化研判报告",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "b2029c152e140929",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

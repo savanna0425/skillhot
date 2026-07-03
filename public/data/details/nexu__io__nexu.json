@@ -1,5 +1,5 @@
 {
-  "rank": 1111,
+  "rank": 1116,
   "id": 1166243835,
   "name": "nexu",
   "fullName": "nexu-io/nexu",
@@ -9,26 +9,26 @@
   "homepage": "https://nexu.io",
   "description": "The simplest desktop client for OpenClaw 🦞 — bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
   "summary": "OpenClaw 最简单桌面客户端——一键桥接 Agent 至微信、飞书、Slack 及 Discord，支持 Claude Code、Codex 及任何 LLM，支持 BYOK、OAuth 及本地优先，支持手机 24/7 聊天",
-  "category": "办公效率",
-  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "文档与表格",
-    "邮件与日历",
-    "个人生产力"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/nexu-io/nexu.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3160,
+  "stars": 3166,
   "forks": 255,
   "openIssues": 84,
   "score": 103,
   "activity": "近期活跃",
   "pushedAt": "2026-04-26T13:40:30Z",
-  "updatedAt": "2026-07-01T03:15:26Z",
+  "updatedAt": "2026-07-03T00:39:44Z",
   "createdAt": "2026-02-25T02:47:19Z",
   "sourceTopics": [
     "skills"
@@ -76,25 +76,25 @@
   "projectInsight": {
     "summary": "OpenClaw 最简单桌面客户端——一键桥接 Agent 至微信、飞书、Slack 及 Discord，支持 Claude Code、Codex 及任何 LLM，支持 BYOK、OAuth 及本地优先，支持手机 24/7 聊天",
     "useCases": [
-      "文档与表格",
-      "邮件与日历",
-      "个人生产力"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "dc611caaee6ff41b",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "69fdb5e6af282587",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

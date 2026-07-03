@@ -1,5 +1,5 @@
 {
-  "rank": 1008,
+  "rank": 744,
   "id": 471249443,
   "name": "ultracite",
   "fullName": "haydenbleasel/ultracite",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/haydenbleasel/ultracite.git",
+  "installCommand": "npx ultracite init",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3039,
-  "forks": 116,
-  "openIssues": 9,
-  "score": 106.6,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-10T04:45:56Z",
-  "updatedAt": "2026-07-01T00:13:38Z",
+  "stars": 3041,
+  "forks": 115,
+  "openIssues": 5,
+  "score": 113.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T18:23:50Z",
+  "updatedAt": "2026-07-02T18:23:13Z",
   "createdAt": "2022-03-18T05:42:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,7 +45,10 @@
     "zed"
   ],
   "platforms": [
-    "Cursor"
+    "Claude",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -77,8 +80,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "1b56b72588ff269f",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "2cd2b55f5c92fb70",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

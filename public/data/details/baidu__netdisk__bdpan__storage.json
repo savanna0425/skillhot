@@ -1,0 +1,99 @@
+{
+  "rank": 1830,
+  "id": 1179728372,
+  "name": "bdpan-storage",
+  "fullName": "baidu-netdisk/bdpan-storage",
+  "owner": "baidu-netdisk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/220886436?v=4",
+  "url": "https://github.com/baidu-netdisk/bdpan-storage",
+  "homepage": "https://pan.baidu.com/apaastobui/developer#/developer/skill",
+  "description": "Agent Skill for Baidu Netdisk (百度网盘) — upload, download, transfer,    share, search files via natural language. Works with Claude Code,   Cursor, Codex, Gemini CLI, OpenClaw.",
+  "summary": "Agent Skill for Baidu Netdisk (百度网盘) — upload, download, transfer, share, search files via natural language. Works with ",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/baidu-netdisk/bdpan-storage.git",
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "stars": 135,
+  "forks": 11,
+  "openIssues": 9,
+  "score": 82.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-01T09:43:41Z",
+  "updatedAt": "2026-07-01T15:24:08Z",
+  "createdAt": "2026-03-12T10:16:30Z",
+  "sourceTopics": [
+    "claude-code-skills",
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "baidu",
+    "baidu-netdisk",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skills",
+    "clawhub",
+    "cloud-storage",
+    "codex-skills",
+    "developer-tools",
+    "file-management",
+    "openclaw",
+    "skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/baidu-netdisk/bdpan-storage",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/baidu-netdisk/bdpan-storage#readme",
+  "detailPath": "data/details/baidu__netdisk__bdpan__storage.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "Agent Skill for Baidu Netdisk (百度网盘) — upload, download, transfer, share, search files via natural language. Works with ",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "62542a75368f2202",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

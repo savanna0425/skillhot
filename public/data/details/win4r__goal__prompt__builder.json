@@ -1,0 +1,82 @@
+{
+  "rank": 1966,
+  "id": 1229423932,
+  "name": "goal-prompt-builder",
+  "fullName": "win4r/goal-prompt-builder",
+  "owner": "win4r",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/42172631?v=4",
+  "url": "https://github.com/win4r/goal-prompt-builder",
+  "homepage": "https://youtu.be/sAYM1xvDXw4",
+  "description": "Build audit-friendly /goal prompts for OpenAI Codex",
+  "summary": "goal-prompt-builder 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/win4r/goal-prompt-builder.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 195,
+  "forks": 16,
+  "openIssues": 2,
+  "score": 74.5,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-05T03:29:01Z",
+  "updatedAt": "2026-07-01T03:48:26Z",
+  "createdAt": "2026-05-05T03:04:55Z",
+  "sourceTopics": [
+    "codex-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "codex",
+    "codex-cli",
+    "codex-skill"
+  ],
+  "platforms": [
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/win4r/goal-prompt-builder",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/win4r/goal-prompt-builder#readme",
+  "detailPath": "data/details/win4r__goal__prompt__builder.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "goal-prompt-builder 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "2b40aab5c4238be2",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

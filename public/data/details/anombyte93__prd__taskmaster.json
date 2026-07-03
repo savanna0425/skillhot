@@ -1,0 +1,89 @@
+{
+  "rank": 1549,
+  "id": 1080617301,
+  "name": "prd-taskmaster",
+  "fullName": "anombyte93/prd-taskmaster",
+  "owner": "anombyte93",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/212644172?v=4",
+  "url": "https://github.com/anombyte93/prd-taskmaster",
+  "homepage": "",
+  "description": "Zero-config goal-to-tasks engine for Claude Code (the Atlas engine). Graded PRD validation, dependency-ordered task graph, evidence-gated execution.",
+  "summary": "Claude 代码的零配置目标到任务引擎（Atlas 引擎）。分级产品需求验证、依赖有序任务图、证据 gated 执行",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/anombyte93/prd-taskmaster.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 570,
+  "forks": 56,
+  "openIssues": 7,
+  "score": 93.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-17T08:46:21Z",
+  "updatedAt": "2026-07-02T21:59:22Z",
+  "createdAt": "2025-10-21T16:08:42Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agents",
+    "ai-development",
+    "claude-code",
+    "claude-skills",
+    "mcp",
+    "prd",
+    "product-management",
+    "product-requirements",
+    "requirements-engineering",
+    "taskmaster"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/anombyte93/prd-taskmaster",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/anombyte93/prd-taskmaster#readme",
+  "detailPath": "data/details/anombyte93__prd__taskmaster.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "Claude 代码的零配置目标到任务引擎（Atlas 引擎）。分级产品需求验证、依赖有序任务图、证据 gated 执行",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "f64859e5cd08bb51",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

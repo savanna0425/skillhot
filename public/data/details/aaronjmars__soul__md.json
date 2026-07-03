@@ -1,5 +1,5 @@
 {
-  "rank": 1089,
+  "rank": 1090,
   "id": 1148236572,
   "name": "soul.md",
   "fullName": "aaronjmars/soul.md",
@@ -11,8 +11,8 @@
   "summary": "构建代理人格的最佳方式：让 Claude Code 和 OpenClaw 摄入您的数据，并构建您的 AI 灵魂",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aaronjmars/soul.md.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 594,
+  "stars": 595,
   "forks": 67,
   "openIssues": 0,
-  "score": 104.7,
+  "score": 104.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-25T13:07:57Z",
-  "updatedAt": "2026-07-01T02:24:16Z",
+  "pushedAt": "2026-07-02T22:36:30Z",
+  "updatedAt": "2026-07-02T22:39:00Z",
   "createdAt": "2026-02-02T18:27:15Z",
   "sourceTopics": [
     "claude-skills",
@@ -79,8 +79,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "05b6919e3e25479a",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "ea3126bcb4bccefa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

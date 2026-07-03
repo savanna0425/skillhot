@@ -1,0 +1,84 @@
+{
+  "rank": 1833,
+  "id": 1127464508,
+  "name": "llm-council-skill",
+  "fullName": "gcpdev/llm-council-skill",
+  "owner": "gcpdev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6644593?v=4",
+  "url": "https://github.com/gcpdev/llm-council-skill",
+  "homepage": "",
+  "description": "A skill to claude code that enables brainstorming with other LLMs (ChatGPT, Gemini) before presenting the implementation plan to the user",
+  "summary": "llm-council-skill 聚焦软件开发、代码质量与工程交付。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "categoryConfidence": "中",
+  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "scenarios": [
+    "软件开发",
+    "代码质量",
+    "工程自动化"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/gcpdev/llm-council-skill.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 294,
+  "forks": 40,
+  "openIssues": 0,
+  "score": 82.6,
+  "activity": "活跃",
+  "pushedAt": "2026-01-08T09:44:29Z",
+  "updatedAt": "2026-07-02T21:44:27Z",
+  "createdAt": "2026-01-03T23:56:16Z",
+  "sourceTopics": [
+    "claude-code-skills",
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code-skill",
+    "claude-code-skills",
+    "claude-skills"
+  ],
+  "platforms": [
+    "Claude",
+    "Gemini CLI"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/gcpdev/llm-council-skill",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/gcpdev/llm-council-skill#readme",
+  "detailPath": "data/details/gcpdev__llm__council__skill.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "llm-council-skill 聚焦软件开发、代码质量与工程交付。",
+    "useCases": [
+      "软件开发",
+      "代码质量",
+      "工程自动化"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "ab7c300269ac5793",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

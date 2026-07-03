@@ -1,0 +1,99 @@
+{
+  "rank": 2094,
+  "id": 1184941838,
+  "name": "forgecat-agent-profiles",
+  "fullName": "nota-america/forgecat-agent-profiles",
+  "owner": "nota-america",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/264240174?v=4",
+  "url": "https://github.com/nota-america/forgecat-agent-profiles",
+  "homepage": "https://forgecat.ai",
+  "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages.",
+  "summary": "forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/nota-america/forgecat-agent-profiles.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 14,
+  "forks": 1,
+  "openIssues": 7,
+  "score": 67.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T23:31:30Z",
+  "updatedAt": "2026-07-02T09:48:02Z",
+  "createdAt": "2026-03-18T04:39:13Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-md-file",
+    "agent-profiles",
+    "agent-skills",
+    "agent-workflows",
+    "ai-agent",
+    "ai-agent-marketplace",
+    "ai-agents",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "codex",
+    "codex-plugin",
+    "codex-skills",
+    "cursor",
+    "cursor-rules",
+    "forgecat",
+    "mcp",
+    "skills-md"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nota-america/forgecat-agent-profiles",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/nota-america/forgecat-agent-profiles#readme",
+  "detailPath": "data/details/nota__america__forgecat__agent__profiles.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "a18667fb589b5bf6",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

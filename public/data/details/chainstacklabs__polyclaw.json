@@ -1,0 +1,81 @@
+{
+  "rank": 1680,
+  "id": 1145872589,
+  "name": "polyclaw",
+  "fullName": "chainstacklabs/polyclaw",
+  "owner": "chainstacklabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/124540248?v=4",
+  "url": "https://github.com/chainstacklabs/polyclaw",
+  "homepage": "https://chainstack.com/build-better-with-polygon",
+  "description": "Trading-enabled Polymarket skill for OpenClaw - browse markets, execute trades, track positions, discover hedges",
+  "summary": "polyclaw 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "scenarios": [
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
+  ],
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/chainstacklabs/polyclaw.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 354,
+  "forks": 65,
+  "openIssues": 1,
+  "score": 88.5,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-28T09:30:11Z",
+  "updatedAt": "2026-06-30T16:02:32Z",
+  "createdAt": "2026-01-30T10:19:05Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "openclaw-skills",
+    "polymarket-arbitrage-trading"
+  ],
+  "platforms": [
+    "OpenClaw"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chainstacklabs/polyclaw",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/chainstacklabs/polyclaw#readme",
+  "detailPath": "data/details/chainstacklabs__polyclaw.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "polyclaw 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "useCases": [
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "limitations": [
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "0ad6dfff4efde9b2",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

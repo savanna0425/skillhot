@@ -1,5 +1,5 @@
 {
-  "rank": 545,
+  "rank": 800,
   "id": 971992642,
   "name": "53AIHub",
   "fullName": "53AI/53AIHub",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/208957673?v=4",
   "url": "https://github.com/53AI/53AIHub",
   "homepage": "https://hub.53ai.com",
-  "description": "53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow.",
-  "summary": "53AIHub 用于自动化浏览器、工具集成或重复流程。",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "中",
-  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "description": "53AI Hub is an open-source AI portal and knowledge base for managing enterprise knowledge, AI agents, prompts, and AI tools, seamlessly integrating with Coze, Dify, FastGPT, RAGFlow. 一个AI知识库与Agent门户",
+  "summary": "一个AI知识库与Agent门户",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/53ai/53aihub.git\ncd 53aihub",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 4925,
-  "forks": 526,
+  "stars": 4930,
+  "forks": 525,
   "openIssues": 17,
-  "score": 118.6,
-  "activity": "本周活跃",
+  "score": 111.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-06-24T11:41:56Z",
-  "updatedAt": "2026-06-30T11:05:36Z",
+  "updatedAt": "2026-07-02T12:59:55Z",
   "createdAt": "2025-04-24T11:24:11Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -39,10 +39,12 @@
     "dify",
     "fastgpt",
     "go",
+    "knowledge",
     "maxkb",
     "mcp",
     "openai",
     "prompt",
+    "rag",
     "ragflow"
   ],
   "platforms": [
@@ -59,18 +61,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "53AIHub 用于自动化浏览器、工具集成或重复流程。",
+    "summary": "一个AI知识库与Agent门户",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -78,8 +80,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "8d269ad055822949",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "18a30d54228d9a89",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

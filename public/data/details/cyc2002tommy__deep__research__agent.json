@@ -1,0 +1,83 @@
+{
+  "rank": 1745,
+  "id": 1264175252,
+  "name": "Deep-Research-Agent",
+  "fullName": "CYC2002tommy/Deep-Research-Agent",
+  "owner": "CYC2002tommy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/99888185?v=4",
+  "url": "https://github.com/CYC2002tommy/Deep-Research-Agent",
+  "homepage": "",
+  "description": "An autonomous AI agent pipeline for rigorous academic research, featuring strict DOI verification, multi-agent Scopus/OpenAlex/Semantic Scholar retrieval, and APA 7th .docx generation",
+  "summary": "Deep-Research-Agent 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/CYC2002tommy/Deep-Research-Agent.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 268,
+  "forks": 35,
+  "openIssues": 1,
+  "score": 85.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-21T20:01:01Z",
+  "updatedAt": "2026-07-02T06:20:06Z",
+  "createdAt": "2026-06-09T16:23:08Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "hermes-skill",
+    "literature-mining",
+    "literature-review",
+    "literature-search"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CYC2002tommy/Deep-Research-Agent",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/CYC2002tommy/Deep-Research-Agent#readme",
+  "detailPath": "data/details/cyc2002tommy__deep__research__agent.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "Deep-Research-Agent 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "37e80ae0c0e05efb",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rank": 1860,
+  "id": 1185476238,
+  "name": "sheal",
+  "fullName": "liwala/sheal",
+  "owner": "liwala",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/269240759?v=4",
+  "url": "https://github.com/liwala/sheal",
+  "homepage": "https://liwala.dev",
+  "description": "your ai agent keeps making the same mistakes. sheal fixes that.",
+  "summary": "sheal 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/liwala/sheal.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 82,
+  "forks": 12,
+  "openIssues": 0,
+  "score": 81.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-06-30T13:34:18Z",
+  "updatedAt": "2026-06-30T13:33:51Z",
+  "createdAt": "2026-03-18T16:13:03Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "claude-code",
+    "claude-code-skill",
+    "codex",
+    "memory",
+    "sessions"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/liwala/sheal",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/liwala/sheal#readme",
+  "detailPath": "data/details/liwala__sheal.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "sheal 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "5aaebbc060a03df9",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

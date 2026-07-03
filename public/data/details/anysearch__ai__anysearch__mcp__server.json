@@ -1,5 +1,5 @@
 {
-  "rank": 728,
+  "rank": 707,
   "id": 1225179105,
   "name": "anysearch-mcp-server",
   "fullName": "anysearch-ai/anysearch-mcp-server",
@@ -8,27 +8,27 @@
   "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
   "homepage": "https://www.anysearch.com",
   "description": "Unified real-time search engine skill for AI agents.",
-  "summary": "anysearch-mcp-server：尚未归入主要类别的实用项目。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "summary": "anysearch-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/anysearch-ai/anysearch-mcp-server.git",
   "language": "",
   "license": "Apache-2.0",
-  "stars": 1445,
-  "forks": 164,
+  "stars": 1482,
+  "forks": 173,
   "openIssues": 0,
-  "score": 113.9,
+  "score": 114.2,
   "activity": "本周活跃",
   "pushedAt": "2026-06-26T11:05:28Z",
-  "updatedAt": "2026-07-01T04:11:30Z",
+  "updatedAt": "2026-07-03T01:33:43Z",
   "createdAt": "2026-04-30T02:55:53Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,27 +60,27 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "anysearch-mcp-server：尚未归入主要类别的实用项目。",
+    "summary": "anysearch-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "8f39f11ea9eea31b",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "7a024901d053d6ae",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

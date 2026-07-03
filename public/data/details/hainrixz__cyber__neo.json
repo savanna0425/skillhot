@@ -1,0 +1,94 @@
+{
+  "rank": 1998,
+  "id": 1208341360,
+  "name": "cyber-neo",
+  "fullName": "Hainrixz/cyber-neo",
+  "owner": "Hainrixz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/121574818?v=4",
+  "url": "https://github.com/Hainrixz/cyber-neo",
+  "homepage": "https://tododeia.com",
+  "description": "Open-source cybersecurity analysis agent for Claude Code. Scans projects for vulnerabilities across all OWASP 2025 Top 10 and CWE Top 25 categories. 11 security domains, 60+ secret patterns, parallel subagent analysis, professional report generation. Built by tododeia.com",
+  "summary": "cyber-neo 聚焦安全审计、漏洞检查与风险治理。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "高",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
+  "scenarios": [
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Hainrixz/cyber-neo.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 163,
+  "forks": 20,
+  "openIssues": 1,
+  "score": 72.7,
+  "activity": "近期活跃",
+  "pushedAt": "2026-04-12T06:42:10Z",
+  "updatedAt": "2026-07-01T04:31:40Z",
+  "createdAt": "2026-04-12T06:20:48Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "application-security",
+    "claude-code",
+    "claude-code-skill",
+    "cwe",
+    "cybersecurity",
+    "devsecops",
+    "open-source",
+    "owasp",
+    "sast",
+    "secret-detection",
+    "security",
+    "security-audit",
+    "supply-chain-security",
+    "vulnerability-scanner"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Hainrixz/cyber-neo",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Hainrixz/cyber-neo#readme",
+  "detailPath": "data/details/hainrixz__cyber__neo.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "cyber-neo 聚焦安全审计、漏洞检查与风险治理。",
+    "useCases": [
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "8bd85a5d73f9cc44",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

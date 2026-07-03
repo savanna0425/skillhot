@@ -1,5 +1,5 @@
 {
-  "rank": 198,
+  "rank": 202,
   "id": 817326197,
   "name": "screenpipe",
   "fullName": "screenpipe/screenpipe",
@@ -11,8 +11,8 @@
   "summary": "YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "npx screenpipe record",
   "language": "Rust",
   "license": "NOASSERTION",
-  "stars": 19578,
-  "forks": 1888,
-  "openIssues": 108,
+  "stars": 19617,
+  "forks": 1894,
+  "openIssues": 91,
   "score": 133,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-01T00:24:09Z",
-  "updatedAt": "2026-07-01T04:12:49Z",
+  "pushedAt": "2026-07-03T01:25:13Z",
+  "updatedAt": "2026-07-03T01:25:17Z",
   "createdAt": "2024-06-19T13:23:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -91,8 +91,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "40d7bb3b72ebd5a2",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "43b189fdd5ff81b3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

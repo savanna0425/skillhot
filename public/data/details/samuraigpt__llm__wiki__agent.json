@@ -1,5 +1,5 @@
 {
-  "rank": 1004,
+  "rank": 1008,
   "id": 630824392,
   "name": "llm-wiki-agent",
   "fullName": "SamurAIGPT/llm-wiki-agent",
@@ -9,26 +9,26 @@
   "homepage": "",
   "description": "A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.",
   "summary": "llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
-  "category": "办公效率",
-  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "文档与表格",
-    "邮件与日历",
-    "个人生产力"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/SamurAIGPT/llm-wiki-agent.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3089,
+  "stars": 3115,
   "forks": 365,
   "openIssues": 2,
-  "score": 106.8,
+  "score": 106.9,
   "activity": "本月活跃",
   "pushedAt": "2026-06-23T00:35:45Z",
-  "updatedAt": "2026-07-01T03:55:32Z",
+  "updatedAt": "2026-07-02T17:45:17Z",
   "createdAt": "2023-04-21T08:31:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,25 +75,25 @@
   "projectInsight": {
     "summary": "llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
     "useCases": [
-      "文档与表格",
-      "邮件与日历",
-      "个人生产力"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "1e9450bca5e0d2fd",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "df91c4433dadcb65",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

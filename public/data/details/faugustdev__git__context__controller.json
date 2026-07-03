@@ -1,0 +1,88 @@
+{
+  "rank": 1910,
+  "id": 1167010033,
+  "name": "git-context-controller",
+  "fullName": "faugustdev/git-context-controller",
+  "owner": "faugustdev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/107934062?v=4",
+  "url": "https://github.com/faugustdev/git-context-controller",
+  "homepage": "https://gcc.faugust.com",
+  "description": "Structured context management framework for LLM agents. Implements Git-like operations (COMMIT, BRANCH, MERGE) to manage long-horizon agent memory.",
+  "summary": "git-context-controller 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/faugustdev/git-context-controller.git",
+  "language": "Shell",
+  "license": "MIT",
+  "stars": 57,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 77.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-02T02:53:03Z",
+  "updatedAt": "2026-07-02T02:53:07Z",
+  "createdAt": "2026-02-25T21:11:32Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "agentic-workflows",
+    "ai-memory",
+    "claude-code-skill",
+    "context-management",
+    "devops-for-ai",
+    "git-context-controller",
+    "llm-agents",
+    "skills"
+  ],
+  "platforms": [
+    "Claude"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/faugustdev/git-context-controller",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/faugustdev/git-context-controller#readme",
+  "detailPath": "data/details/faugustdev__git__context__controller.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "git-context-controller 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "d21cf9c0837e0799",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

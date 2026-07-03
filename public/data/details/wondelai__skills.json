@@ -1,5 +1,5 @@
 {
-  "rank": 256,
+  "rank": 254,
   "id": 1145158024,
   "name": "skills",
   "fullName": "wondelai/skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/138923546?v=4",
   "url": "https://github.com/wondelai/skills",
   "homepage": "https://skills.wondel.ai",
-  "description": "Agent skills for Claude Code and other agentskills.io-compatible agents. See https://developertoolkit.ai for more information about skills in general.",
-  "summary": "Claude Code 及其他兼容 agentskills.io 的代理技能。有关技能的一般信息，请参见 https://developertoolkit.ai",
+  "description": "Agent skills for Claude, Claude Code, Claude Cowork, Codex, Cursor, OpenClaw, Hermes Agent and other agentskills.io-compatible agents. See https://developertoolkit.ai to learn more how to use skills properly and create new ones.",
+  "summary": "skills 聚焦软件开发、代码质量与工程交付。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/wondelai/skills.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 1504,
-  "forks": 152,
+  "stars": 1533,
+  "forks": 155,
   "openIssues": 7,
-  "score": 130.3,
+  "score": 130.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T22:30:05Z",
-  "updatedAt": "2026-07-01T04:25:44Z",
+  "pushedAt": "2026-07-01T11:09:24Z",
+  "updatedAt": "2026-07-02T21:24:17Z",
   "createdAt": "2026-01-29T13:54:15Z",
   "sourceTopics": [
     "agent-skills",
@@ -55,7 +55,10 @@
     "skillsmp"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude Code 及其他兼容 agentskills.io 的代理技能。有关技能的一般信息，请参见 https://developertoolkit.ai",
+    "summary": "skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,8 +90,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "e84fad1dfa9d1ef5",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "8522cfa00632a9e8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

@@ -1,0 +1,87 @@
+{
+  "rank": 925,
+  "id": 1228687488,
+  "name": "Photo-agents",
+  "fullName": "jmerelnyc/Photo-agents",
+  "owner": "jmerelnyc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/164396066?v=4",
+  "url": "https://github.com/jmerelnyc/Photo-agents",
+  "homepage": "",
+  "description": "Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer.",
+  "summary": "Photo-agents 提供记忆、上下文管理或知识检索能力。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
+  "scenarios": [
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/jmerelnyc/Photo-agents.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 844,
+  "forks": 24,
+  "openIssues": 0,
+  "score": 108.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T09:36:31Z",
+  "updatedAt": "2026-07-01T09:36:35Z",
+  "createdAt": "2026-05-04T09:14:09Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-memory",
+    "ai-agents",
+    "autonomous-agents",
+    "computer-use",
+    "llm",
+    "photo-agents",
+    "photographic-memory",
+    "python",
+    "self-evolving-agents",
+    "vision-agents"
+  ],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jmerelnyc/Photo-agents",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/jmerelnyc/Photo-agents#readme",
+  "detailPath": "data/details/jmerelnyc__photo__agents.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "Photo-agents 提供记忆、上下文管理或知识检索能力。",
+    "useCases": [
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "f5184375bcf9a6ad",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  }
+}

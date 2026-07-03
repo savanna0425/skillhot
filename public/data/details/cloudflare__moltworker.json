@@ -1,5 +1,5 @@
 {
-  "rank": 811,
+  "rank": 814,
   "id": 1143261428,
   "name": "moltworker",
   "fullName": "cloudflare/moltworker",
@@ -11,8 +11,8 @@
   "summary": "运行 OpenClaw（原名为 Moltbot，原名为 Clawdbot）于 Cloudflare Workers",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "claude code.*codex|codex.*claude code|openclaw|opencod",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "npm install\nnpx wrangler secret put ANTHROPIC_API_KEY\nexport MOLTBOT_GATEWAY_TOKEN=$(openssl rand -hex 32)",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 9916,
-  "forks": 1763,
+  "stars": 9914,
+  "forks": 1759,
   "openIssues": 97,
   "score": 110.9,
   "activity": "近期活跃",
   "pushedAt": "2026-05-09T02:37:13Z",
-  "updatedAt": "2026-06-30T22:39:26Z",
+  "updatedAt": "2026-07-02T15:35:22Z",
   "createdAt": "2026-01-27T11:09:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,8 +72,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "d6dcc6d08a994fd9",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "48f9c1c9e767597a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

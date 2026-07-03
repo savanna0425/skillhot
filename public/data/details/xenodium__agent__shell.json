@@ -1,5 +1,5 @@
 {
-  "rank": 1044,
+  "rank": 1049,
   "id": 1053496366,
   "name": "agent-shell",
   "fullName": "xenodium/agent-shell",
@@ -9,26 +9,26 @@
   "homepage": "https://xenodium.com",
   "description": "A native Emacs buffer to interact with LLM agents powered by ACP",
   "summary": "基于 ACP 的由原生 Emacs 缓冲区驱动的 LLM 代理",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/xenodium/agent-shell.git",
   "language": "Emacs Lisp",
   "license": "GPL-3.0",
-  "stars": 1463,
-  "forks": 186,
-  "openIssues": 91,
-  "score": 106,
+  "stars": 1474,
+  "forks": 187,
+  "openIssues": 94,
+  "score": 106.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-30T16:47:42Z",
-  "updatedAt": "2026-07-01T04:42:05Z",
+  "pushedAt": "2026-07-02T22:20:32Z",
+  "updatedAt": "2026-07-03T00:52:40Z",
   "createdAt": "2025-09-09T14:26:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,25 +64,25 @@
   "projectInsight": {
     "summary": "基于 ACP 的由原生 Emacs 缓冲区驱动的 LLM 代理",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "00b013e203963201",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "05ca1e6bfc7bebb2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

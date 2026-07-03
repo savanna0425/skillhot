@@ -1,5 +1,5 @@
 {
-  "rank": 844,
+  "rank": 848,
   "id": 628729877,
   "name": "langroid",
   "fullName": "langroid/langroid",
@@ -12,23 +12,23 @@
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|multi.?ag",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "pip install langroid",
+  "installCommand": "git clone https://github.com/langroid/langroid.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 4049,
-  "forks": 378,
-  "openIssues": 71,
+  "stars": 4051,
+  "forks": 379,
+  "openIssues": 72,
   "score": 109.6,
   "activity": "本月活跃",
   "pushedAt": "2026-06-15T15:52:28Z",
-  "updatedAt": "2026-06-30T16:32:29Z",
+  "updatedAt": "2026-07-03T01:25:26Z",
   "createdAt": "2023-04-16T20:47:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,14 +55,13 @@
     "retrieval-augmented-generation"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/langroid/langroid",
-    "videoUrl": "https://vimeo.com/871429249"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/langroid/langroid#readme",
   "detailPath": "data/details/langroid__langroid.json",
@@ -88,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "f470ddf4a17078f7",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "ae63c0dde7b1c5c9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

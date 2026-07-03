@@ -1,5 +1,5 @@
 {
-  "rank": 629,
+  "rank": 612,
   "id": 1148878535,
   "name": "AcademicForge",
   "fullName": "HughYau/AcademicForge",
@@ -19,19 +19,20 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/HughYau/AcademicForge.git",
-  "language": "Shell",
+  "installCommand": "npm run site:install\nnpm run build\nnpm run preview",
+  "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1831,
-  "forks": 108,
-  "openIssues": 4,
-  "score": 116.4,
+  "stars": 1955,
+  "forks": 115,
+  "openIssues": 3,
+  "score": 117,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-29T13:02:19Z",
-  "updatedAt": "2026-07-01T04:47:32Z",
+  "pushedAt": "2026-07-02T22:04:53Z",
+  "updatedAt": "2026-07-03T01:28:55Z",
   "createdAt": "2026-02-03T13:26:21Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -46,7 +47,7 @@
     "Codex",
     "OpenCode"
   ],
-  "skillCount": 133,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/HughYau/AcademicForge",
@@ -76,8 +77,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "4b19de2c1668bbe7",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "80d252595271af1b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

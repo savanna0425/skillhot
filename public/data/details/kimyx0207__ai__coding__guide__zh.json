@@ -1,5 +1,5 @@
 {
-  "rank": 795,
+  "rank": 796,
   "id": 1155091202,
   "name": "AI-Coding-Guide-Zh",
   "fullName": "KimYx0207/AI-Coding-Guide-Zh",
@@ -9,26 +9,26 @@
   "homepage": "",
   "description": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
   "summary": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/KimYx0207/AI-Coding-Guide-Zh.git\ncd AI-Coding-Guide-Zh",
   "language": "",
   "license": "MIT",
-  "stars": 5058,
-  "forks": 916,
+  "stars": 5094,
+  "forks": 919,
   "openIssues": 1,
-  "score": 111.9,
+  "score": 112,
   "activity": "本月活跃",
   "pushedAt": "2026-06-10T05:22:12Z",
-  "updatedAt": "2026-07-01T04:08:13Z",
+  "updatedAt": "2026-07-03T00:28:06Z",
   "createdAt": "2026-02-11T05:34:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,25 +63,25 @@
   "projectInsight": {
     "summary": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "d4387d079aaab7d8",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "7dd5e44cb108497b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }

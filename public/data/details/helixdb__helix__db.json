@@ -1,5 +1,5 @@
 {
-  "rank": 503,
+  "rank": 506,
   "id": 893031915,
   "name": "helix-db",
   "fullName": "HelixDB/helix-db",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/189895202?v=4",
   "url": "https://github.com/HelixDB/helix-db",
   "homepage": "https://helix-db.com",
-  "description": "HelixDB is an OLTP graph-vector database built in Rust.",
-  "summary": "HelixDB 是一款基于 Rust 构建的 OLTP 图 - 向量数据库",
+  "description": "HelixDB is an OLTP graph-vector database built in Rust on Object Storage.",
+  "summary": "helix-db 提供记忆、上下文管理或知识检索能力。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/HelixDB/helix-db.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 5535,
-  "forks": 306,
+  "stars": 5547,
+  "forks": 307,
   "openIssues": 9,
   "score": 119.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-25T09:30:29Z",
-  "updatedAt": "2026-07-01T00:49:28Z",
+  "pushedAt": "2026-07-02T13:52:28Z",
+  "updatedAt": "2026-07-02T16:34:35Z",
   "createdAt": "2024-11-23T11:02:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "HelixDB 是一款基于 Rust 构建的 OLTP 图 - 向量数据库",
+    "summary": "helix-db 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,8 +86,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-01T04:58:17.110Z",
-    "sourceHash": "f664e137721d9ae9",
+    "generatedAt": "2026-07-03T01:34:51.796Z",
+    "sourceHash": "61832b62b918e49c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   }
