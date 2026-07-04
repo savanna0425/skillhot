@@ -1,5 +1,5 @@
 {
-  "rank": 766,
+  "rank": 762,
   "id": 149898634,
   "name": "front-end-rss",
   "fullName": "ChanceYu/front-end-rss",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ChanceYu/front-end-rss",
   "homepage": "https://fed.chanceyu.com",
   "description": ":orange_book: 根据 RSS 订阅最新前端技术文章并自动分类",
-  "summary": "front-end-rss：:orange_book: 根据 RSS 订阅最新前端技术文章并自动分类。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "front-end-rss：:orange_book: 根据 RSS 订阅最新前端技术文章并自动分类。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -27,8 +27,8 @@
   "openIssues": 0,
   "score": 113.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-02T20:50:46Z",
-  "updatedAt": "2026-07-02T20:50:51Z",
+  "pushedAt": "2026-07-04T01:45:49Z",
+  "updatedAt": "2026-07-04T01:45:54Z",
   "createdAt": "2018-09-22T17:10:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,6 +51,7 @@
   ],
   "platforms": [
     "Claude",
+    "Cursor",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -83,13 +84,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "505903851e890e68",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "abbc3081c0c3b02b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "front-end-rss：:orange_book: 根据 RSS 订阅最新前端技术文章并自动分类。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "front-end-rss：:orange_book: 根据 RSS 订阅最新前端技术文章并自动分类。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "front-end-rss 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -107,7 +108,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

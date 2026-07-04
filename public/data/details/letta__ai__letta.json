@@ -1,5 +1,5 @@
 {
-  "rank": 180,
+  "rank": 178,
   "id": 703411624,
   "name": "letta",
   "fullName": "letta-ai/letta",
@@ -8,7 +8,7 @@
   "url": "https://github.com/letta-ai/letta",
   "homepage": "https://docs.letta.com/",
   "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
-  "summary": "letta：面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "letta：面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化。适合在 Claude 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install @letta-ai/letta-client",
+  "installCommand": "npm install @letta-ai/letta-agent-sdk",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 23628,
+  "stars": 23639,
   "forks": 2504,
-  "openIssues": 52,
+  "openIssues": 50,
   "score": 135,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-26T00:15:00Z",
-  "updatedAt": "2026-07-03T04:06:01Z",
+  "pushedAt": "2026-07-03T18:53:41Z",
+  "updatedAt": "2026-07-04T03:48:02Z",
   "createdAt": "2023-10-11T07:38:37Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,7 +41,7 @@
     "llm-agent"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -73,13 +73,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "48bdf4681cdb791f",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "e5d9a3e5102e03ed",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "letta：面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "letta：面向状态化代理的平台：具备先进记忆能力的 AI，可随时间学习和自我进化。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "letta 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -97,7 +97,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

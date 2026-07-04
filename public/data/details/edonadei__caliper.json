@@ -1,14 +1,14 @@
 {
-  "rank": 1800,
-  "id": 1161940285,
-  "name": "room",
-  "fullName": "quoroom-ai/room",
-  "owner": "quoroom-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/262635923?v=4",
-  "url": "https://github.com/quoroom-ai/room",
-  "homepage": "https://quoroom.ai",
-  "description": "Open-source earning-focused swarm intelligence engine. Self-governing AI collectives (queen, workers, quorum voting) running locally via MCP. Works with Claude Code, Codex, or pay-per-use APIs.",
-  "summary": "room：room 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1888,
+  "id": 1237259189,
+  "name": "caliper",
+  "fullName": "edonadei/caliper",
+  "owner": "edonadei",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/21025565?v=4",
+  "url": "https://github.com/edonadei/caliper",
+  "homepage": "https://pypi.org/project/caliper-eval/",
+  "description": "Local-first eval harness for Claude Code, Codex, Hermes and Pi skills",
+  "summary": "caliper：caliper 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,50 +19,53 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/quoroom-ai/room.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/edonadei/caliper.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 778,
-  "forks": 24,
-  "openIssues": 5,
-  "score": 84.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-12T19:28:38Z",
-  "updatedAt": "2026-07-01T08:36:55Z",
-  "createdAt": "2026-02-19T17:35:25Z",
-  "sourceTopics": [],
+  "stars": 26,
+  "forks": 3,
+  "openIssues": 7,
+  "score": 79.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-03T20:07:28Z",
+  "updatedAt": "2026-07-04T03:43:46Z",
+  "createdAt": "2026-05-13T02:48:44Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "automaton",
-    "claude",
-    "claudecode",
-    "giminiapi",
-    "linux",
-    "llm",
-    "macos",
-    "openclaw",
-    "windows"
+    "ai-agents",
+    "claude-code",
+    "cli",
+    "codex",
+    "evals",
+    "evaluation",
+    "hermes",
+    "hermes-agent",
+    "hermes-skill",
+    "pi",
+    "reliability",
+    "skills"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/quoroom-ai/room",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/edonadei/caliper",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/quoroom-ai/room#readme",
-  "detailPath": "data/details/quoroom__ai__room.json",
+  "readmeUrl": "https://github.com/edonadei/caliper#readme",
+  "detailPath": "data/details/edonadei__caliper.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "room 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "caliper 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,14 +84,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "3d64dad605645618",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "c81b3b65022bb396",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "room：room 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "room 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "caliper：caliper 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "caliper 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +108,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

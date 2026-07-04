@@ -1,5 +1,5 @@
 {
-  "rank": 102,
+  "rank": 99,
   "id": 1031059905,
   "name": "GitNexus",
   "fullName": "abhigyanpatwari/GitNexus",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx gitnexus analyze",
+  "installCommand": "npx gitnexus analyze\nnpx gitnexus setup",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 43489,
-  "forks": 4856,
-  "openIssues": 266,
+  "stars": 43553,
+  "forks": 4861,
+  "openIssues": 259,
   "score": 141.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-02T20:14:12Z",
-  "updatedAt": "2026-07-03T03:58:50Z",
+  "pushedAt": "2026-07-03T21:50:09Z",
+  "updatedAt": "2026-07-04T03:39:27Z",
   "createdAt": "2025-08-02T23:20:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,11 +40,10 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
     "OpenCode",
     "Antigravity"
   ],
-  "skillCount": 4,
+  "skillCount": 6,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/abhigyanpatwari/GitNexus",
@@ -74,8 +73,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "4993c0c0db25f762",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "c33b194d49e365eb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -108,7 +107,7 @@
       "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
       "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
       "效果取决于数据质量、分块方式和权限管理。",
-      "仓库信息显示它包含 4+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 6+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个小项目或公开资料库测试。",

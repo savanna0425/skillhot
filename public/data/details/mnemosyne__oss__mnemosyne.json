@@ -1,46 +1,46 @@
 {
-  "rank": 863,
-  "id": 823596198,
-  "name": "chatwiki",
-  "fullName": "zhimaAi/chatwiki",
-  "owner": "zhimaAi",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/170062741?v=4",
-  "url": "https://github.com/zhimaAi/chatwiki",
-  "homepage": "https://chatwiki.ai",
-  "description": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。",
-  "summary": "chatwiki：ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1073,
+  "id": 1202070696,
+  "name": "mnemosyne",
+  "fullName": "mnemosyne-oss/mnemosyne",
+  "owner": "mnemosyne-oss",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/297304183?v=4",
+  "url": "https://github.com/mnemosyne-oss/mnemosyne",
+  "homepage": "https://mnemosyne.site",
+  "description": "The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!",
+  "summary": "mnemosyne：mnemosyne 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zhimaAi/chatwiki.git",
-  "language": "Vue",
-  "license": "NOASSERTION",
-  "stars": 1998,
-  "forks": 313,
-  "openIssues": 3,
-  "score": 109.3,
+  "installCommand": "git clone https://github.com/mnemosyne-oss/mnemosyne.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1380,
+  "forks": 130,
+  "openIssues": 20,
+  "score": 105.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-26T10:07:29Z",
-  "updatedAt": "2026-07-03T03:44:44Z",
-  "createdAt": "2024-07-03T10:32:49Z",
+  "pushedAt": "2026-07-03T20:16:44Z",
+  "updatedAt": "2026-07-04T03:12:03Z",
+  "createdAt": "2026-04-05T14:59:04Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
+    "agents",
     "ai",
-    "aytomation",
-    "llm",
-    "rag",
-    "workflow"
+    "hermes",
+    "hermes-agent",
+    "ml",
+    "nousresearch"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +48,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhimaAi/chatwiki",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mnemosyne-oss/mnemosyne",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/zhimaAi/chatwiki#readme",
-  "detailPath": "data/details/zhimaai__chatwiki.json",
+  "readmeUrl": "https://github.com/mnemosyne-oss/mnemosyne#readme",
+  "detailPath": "data/details/mnemosyne__oss__mnemosyne.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n",
+    "summary": "mnemosyne 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -72,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "5e4fa563073000cc",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "662887fe3d54a96a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chatwiki：ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "chatwiki 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mnemosyne：mnemosyne 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "mnemosyne 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -122,7 +122,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

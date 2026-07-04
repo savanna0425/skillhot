@@ -1,5 +1,5 @@
 {
-  "rank": 558,
+  "rank": 547,
   "id": 1212163658,
   "name": "cangjie-skill",
   "fullName": "kangarooking/cangjie-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kangarooking/cangjie-skill",
   "homepage": "",
   "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-  "summary": "cangjie-skill：把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "cangjie-skill：把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/kangarooking/cangjie-skill.git",
   "language": "",
   "license": "MIT",
-  "stars": 1511,
-  "forks": 251,
+  "stars": 1542,
+  "forks": 255,
   "openIssues": 4,
-  "score": 118.4,
+  "score": 118.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-29T17:52:48Z",
-  "updatedAt": "2026-07-03T04:00:38Z",
+  "pushedAt": "2026-07-03T08:54:55Z",
+  "updatedAt": "2026-07-04T02:33:12Z",
   "createdAt": "2026-04-16T05:54:32Z",
   "sourceTopics": [
     "ai-skills"
@@ -49,6 +49,7 @@
   ],
   "platforms": [
     "Claude",
+    "Cursor",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -81,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "3f2a800f7f170c44",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "e8f7953d698e13ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cangjie-skill：把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "cangjie-skill：把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "cangjie-skill 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -105,7 +106,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

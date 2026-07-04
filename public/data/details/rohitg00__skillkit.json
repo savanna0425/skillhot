@@ -1,5 +1,5 @@
 {
-  "rank": 837,
+  "rank": 1151,
   "id": 1138376193,
   "name": "skillkit",
   "fullName": "rohitg00/skillkit",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skillkit add anthropics/skills",
+  "installCommand": "git clone https://github.com/rohitg00/skillkit.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 1328,
-  "forks": 121,
+  "stars": 1341,
+  "forks": 123,
   "openIssues": 23,
-  "score": 110,
-  "activity": "本月活跃",
+  "score": 102.1,
+  "activity": "近期活跃",
   "pushedAt": "2026-06-02T09:43:09Z",
-  "updatedAt": "2026-07-03T03:47:08Z",
+  "updatedAt": "2026-07-03T20:48:30Z",
   "createdAt": "2026-01-20T15:41:14Z",
   "sourceTopics": [
     "agent-skills"
@@ -55,7 +55,7 @@
     "GitHub Copilot",
     "OpenCode"
   ],
-  "skillCount": 3737,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/rohitg00/skillkit",
@@ -85,8 +85,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-03T04:13:59.120Z",
-    "sourceHash": "d67d7600ad9279b6",
+    "generatedAt": "2026-07-04T04:07:18.369Z",
+    "sourceHash": "1969fd90fd3063a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -119,7 +119,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 3737+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",
