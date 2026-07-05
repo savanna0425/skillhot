@@ -29,6 +29,7 @@ const requiredRepositories = [
   'op7418/guizang-ppt-skill',
   'NVIDIA/skills',
   'dotnet/skills',
+  'Emily2040/seedance-2.0',
 ]
 
 const sampleProjectProfiles = new Map([
@@ -160,5 +161,6 @@ dynamicClassificationProbes.forEach(({ repo, category }) => {
 })
 assert(data.skills.find((skill) => skill.fullName === 'obra/superpowers')?.category === '编程开发', 'superpowers must be categorized as 编程开发')
 assert(data.skills.find((skill) => skill.fullName === 'farion1231/cc-switch')?.category === 'Agent工具与平台', 'cc-switch must be categorized as Agent工具与平台')
+assert(data.skills.find((skill) => skill.fullName === 'Emily2040/seedance-2.0')?.category === '内容创作', 'seedance-2.0 must be categorized as 内容创作')
 
 console.log(`Validated ${data.skills.length} repositories, ${data.categories.length} categories and ${data.topics.length} topics.`)

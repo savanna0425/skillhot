@@ -108,6 +108,7 @@ const manualCategories = new Map(Object.entries({
   'coreyhaines31/marketingskills': '产品与商业',
   'Imbad0202/academic-research-skills': '研究学习',
   'ruvnet/RuView': '其他',
+  'Emily2040/seedance-2.0': '内容创作',
   'laravel/laravel': '编程开发',
 }))
 

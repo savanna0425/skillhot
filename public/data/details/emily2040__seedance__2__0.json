@@ -1,0 +1,125 @@
+{
+  "rank": 832,
+  "id": 1166205118,
+  "name": "seedance-2.0",
+  "fullName": "Emily2040/seedance-2.0",
+  "owner": "Emily2040",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/191656017?v=4",
+  "url": "https://github.com/Emily2040/seedance-2.0",
+  "homepage": "",
+  "description": "Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0",
+  "summary": "seedance-2.0 是一套面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS，帮助 Agent 把短片、分镜、参考素材、音频和后期交付整理成更像导演工作流的流程。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "categoryConfidence": "人工复核",
+  "categoryReason": "重点项目人工校正",
+  "scenarios": [
+    "AI 视频创作",
+    "分镜与镜头提示词",
+    "长故事连续生成"
+  ],
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "installCommand": "git clone https://github.com/Emily2040/seedance-2.0.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2227,
+  "forks": 330,
+  "openIssues": 2,
+  "score": 110.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-04T22:27:36Z",
+  "updatedAt": "2026-07-05T05:27:59Z",
+  "createdAt": "2026-02-25T01:28:49Z",
+  "sourceTopics": [],
+  "discoveredBy": [
+    "GitHub 搜索",
+    "精选来源"
+  ],
+  "repoTopics": [],
+  "platforms": [
+    "Agent Skills"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Emily2040/seedance-2.0",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/Emily2040/seedance-2.0#readme",
+  "detailPath": "data/details/emily2040__seedance__2__0.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS",
+    "useCases": [
+      "AI 视频创作",
+      "分镜与镜头提示词",
+      "长故事连续生成"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-07-05T05:36:08.807Z",
+    "sourceHash": "065e73f243897a80",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "seedance-2.0 是一套面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS，帮助 Agent 把短片、分镜、参考素材、音频和后期交付整理成更像导演工作流的流程。",
+    "whatItIs": "它不是单纯的提示词合集，而是给 AI 视频创作准备的一套“导演型”工作系统。它会把一个视频需求拆成创意访谈、镜头意图、参考素材角色、Seedance 提示词、连续片段状态、失败重试和交付检查，让 Agent 不只是堆“cinematic”形容词，而是按场景目的来写镜头。",
+    "problemSolved": [
+      "AI 视频提示词很容易只写风格词，缺少镜头目的、角色连续性和动作终点。",
+      "长故事、多段视频或首尾帧续写时，前后片段容易断裂。",
+      "图片、视频、音频参考素材经常混在一起，模型不知道每个参考到底负责什么。",
+      "面向客户或发布的 AI 视频还需要版权、安全、字幕、音频、画幅和 QC 检查。"
+    ],
+    "coreCapabilities": [
+      "把 Seedance 2.0 的文生视频、图生视频、视频参考、音频参考和首尾帧流程整理成可调用技能。",
+      "先判断场景的戏剧功能，再生成镜头、光线、动作、声音和参考素材说明。",
+      "支持中文、英文、日文、韩文等读者入口和提示词词汇路径。",
+      "提供连续视频、失败诊断、重拍策略、安全改写、交付质检等制作环节。"
+    ],
+    "bestFor": [
+      "用 Seedance 2.0、即梦、豆包、火山方舟、Runway 等工具做 AI 视频的人。",
+      "想把短片、广告、MV、剧情分镜或产品视频做得更稳定的创作者。",
+      "需要让 Agent 帮忙写镜头提示词、分镜计划和多段连续视频的人。",
+      "希望把 AI 视频制作流程标准化的内容团队或个人工作室。"
+    ],
+    "notFor": [
+      "只想随便生成一条单镜头视频、不需要流程控制的人。",
+      "不愿阅读 README 或不想处理模型平台差异、素材授权和人工复核的人。",
+      "把它当作 Seedance 官方 API 或模型本体的人。"
+    ],
+    "howItWorks": [
+      "用户先描述视频目标、素材和平台，Agent 根据技能路由选择访谈、提示词、连续片段或排错流程。",
+      "技能会给参考图、参考视频、音频和首尾帧分配明确角色，减少模型误读素材。",
+      "长故事会先拆成片段，再根据已生成片段的真实结尾继续写下一段。",
+      "涉及名人、品牌、IP、声音或敏感内容时，会先做更安全的创意改写。"
+    ],
+    "gettingStarted": [
+      "先从 README 的 Start Here 选择你的场景： vague idea、single prompt、long sequence、continuation 或 troubleshooting。",
+      "如果用中文创作，优先看中文指南和 seedance-vocab-zh、seedance-examples-zh。",
+      "用一个 5 到 10 秒的小片段测试镜头语言和参考素材绑定，再扩展成长故事或正式项目。"
+    ],
+    "expectedOutcome": [
+      "视频提示词更像导演说明，而不是形容词堆叠。",
+      "多段视频的角色、动作和风格更容易保持连续。",
+      "创作流程从“试运气”变成更可复盘的分镜、生成、观察、修正、交付流程。"
+    ],
+    "caveats": [
+      "它是社区 Skill OS，不是 Seedance 2.0 官方服务或 API 凭据。",
+      "Seedance、即梦、豆包、火山方舟、Runway 等平台能力和限制变化很快，正式使用前要核对当前平台文档。",
+      "涉及版权、肖像、品牌、声音和商用发布时，仍需要人工确认授权与平台规则。"
+    ]
+  }
+}

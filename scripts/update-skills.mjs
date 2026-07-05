@@ -69,6 +69,7 @@ const curatedRepositories = [
   'dpearson2699/swift-ios-skills',
   'ComposioHQ/awesome-codex-skills',
   'hashgraph-online/awesome-codex-plugins',
+  'Emily2040/seedance-2.0',
 ]
 
 const minimumCatalogScore = 60
@@ -323,6 +324,11 @@ const curated = {
     summary: '面向 Swift、SwiftUI 与现代 Apple 框架的 Agent Skills',
     category: '编程开发',
     scenarios: ['iOS 开发', 'SwiftUI', 'Apple 平台'],
+  },
+  'Emily2040/seedance-2.0': {
+    summary: '面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS',
+    category: '内容创作',
+    scenarios: ['AI 视频创作', '分镜与镜头提示词', '长故事连续生成'],
   },
 }
 
