@@ -1,5 +1,5 @@
 {
-  "rank": 248,
+  "rank": 252,
   "id": 1118625972,
   "name": "aaron-marketing-skills",
   "fullName": "aaron-he-zhu/aaron-marketing-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
   "homepage": "",
   "description": "69 marketing skills + 5 commands for Claude Code & AI agents across 4 disciplines — SEO/GEO, influencer (IMPACT), paid ads (ROAS) & email (SEND) — on one shared contract. 5 quality frameworks with auditor gates: CORE-EEAT · CITE · C³ · ROAS · SEND.",
-  "summary": "aaron-marketing-skills：aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "aaron-marketing-skills：aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aaron-he-zhu/aaron-marketing-skills.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 2307,
-  "forks": 317,
+  "stars": 2312,
+  "forks": 318,
   "openIssues": 0,
   "score": 130.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T16:56:01Z",
-  "updatedAt": "2026-07-04T02:02:21Z",
+  "pushedAt": "2026-07-05T04:07:47Z",
+  "updatedAt": "2026-07-05T04:07:51Z",
   "createdAt": "2025-12-18T03:35:29Z",
   "sourceTopics": [
     "agent-skills",
@@ -61,7 +61,12 @@
     "seo-tools"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
   ],
   "skillCount": 69,
   "isCollection": false,
@@ -93,13 +98,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "b3d9889aaaf650da",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "d7f98a8cc71492a1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aaron-marketing-skills：aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "aaron-marketing-skills：aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "aaron-marketing-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -117,7 +122,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

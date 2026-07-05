@@ -1,5 +1,5 @@
 {
-  "rank": 1391,
+  "rank": 1063,
   "id": 1130952330,
   "name": "pm-skills",
   "fullName": "product-on-purpose/pm-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/253892650?v=4",
   "url": "https://github.com/product-on-purpose/pm-skills",
   "homepage": "https://product-on-purpose.github.io/pm-skills/",
-  "description": "67 plug-and-play, best-practice, product management skills for AI agents: 30 Triple Diamond phase + 8 foundation + 10 utility + 15 tool (Foundation Sprint + Design Sprint)... Plus 4 sub-agents, templates, workflows, samples, learning resources & guides, CI-enforced contracts. Apache 2.0.",
-  "summary": "pm-skills：pm-skills 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "68 plug-and-play, best-practice product management skills for AI agents: 30 Triple Diamond phase + 11 foundation + 12 utility + 15 tool (Foundation Sprint + Design Sprint). Plus 6 sub-agents, workflows, 200+ output samples, guides, and CI-enforced contracts. Apache 2.0.",
+  "summary": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/product-on-purpose/pm-skills.git",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 440,
+  "stars": 443,
   "forks": 56,
-  "openIssues": 9,
-  "score": 98.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-24T07:14:56Z",
-  "updatedAt": "2026-07-03T19:33:30Z",
+  "openIssues": 14,
+  "score": 105.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-05T04:32:48Z",
+  "updatedAt": "2026-07-04T19:18:19Z",
   "createdAt": "2026-01-09T08:56:00Z",
   "sourceTopics": [
     "ai-skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pm-skills 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+    "summary": "pm-skills 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "366837ac510bcbfd",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "079b6ba54c7b7cc6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pm-skills：pm-skills 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "pm-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

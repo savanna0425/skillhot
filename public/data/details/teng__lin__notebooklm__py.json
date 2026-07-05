@@ -1,5 +1,5 @@
 {
-  "rank": 35,
+  "rank": 33,
   "id": 1129786550,
   "name": "notebooklm-py",
   "fullName": "teng-lin/notebooklm-py",
@@ -8,7 +8,7 @@
   "url": "https://github.com/teng-lin/notebooklm-py",
   "homepage": "https://github.com/teng-lin/notebooklm-py",
   "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-  "summary": "notebooklm-py：NotebookLM 的 Python API、CLI 与 Agent Skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "notebooklm-py：NotebookLM 的 Python API、CLI 与 Agent Skill。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install \"notebooklm-py[browser]\"   # or: pipx install \"notebooklm-py[browser]\"\nnotebooklm login                           # first run auto-downloads Chromium (~170 MB), then Google sign-in\nnotebooklm auth check --test --json        # verify: expect \"status\": \"ok\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 17155,
-  "forks": 2332,
+  "stars": 17197,
+  "forks": 2334,
   "openIssues": 11,
-  "score": 151.6,
+  "score": 151.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T22:18:09Z",
-  "updatedAt": "2026-07-04T02:13:06Z",
+  "pushedAt": "2026-07-05T04:20:49Z",
+  "updatedAt": "2026-07-05T04:21:23Z",
   "createdAt": "2026-01-07T15:27:19Z",
   "sourceTopics": [
     "skills",
@@ -59,7 +59,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
     "Gemini CLI",
     "OpenClaw"
   ],
@@ -67,7 +66,7 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/teng-lin/notebooklm-py",
-    "videoUrl": "https://www.youtube.com/watch?v=usTeU4Uh0iM"
+    "videoUrl": "https://www.youtube.com/watch?v=kU3qYQ7ACMA"
   },
   "readmeUrl": "https://github.com/teng-lin/notebooklm-py#readme",
   "detailPath": "data/details/teng__lin__notebooklm__py.json",
@@ -93,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "28476359c894d113",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "00f2c6fdea0d51ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "notebooklm-py：NotebookLM 的 Python API、CLI 与 Agent Skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "notebooklm-py：NotebookLM 的 Python API、CLI 与 Agent Skill。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "notebooklm-py 可以先理解为一个「研究与学习辅助项目」。它围绕「NotebookLM 自动化」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -117,7 +116,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

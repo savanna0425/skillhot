@@ -1,14 +1,14 @@
 {
-  "rank": 1278,
-  "id": 1079332068,
-  "name": "OpenPhone",
-  "fullName": "HKUDS/OpenPhone",
-  "owner": "HKUDS",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
-  "url": "https://github.com/HKUDS/OpenPhone",
-  "homepage": "https://arxiv.org/abs/2510.22009",
-  "description": "[ACL 2026] \"OpenPhone: Mobile Agentic Foundation Models for AI Phone\"",
-  "summary": "OpenPhone：OpenPhone：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1078,
+  "id": 1196881191,
+  "name": "mindfs",
+  "fullName": "a9gent/mindfs",
+  "owner": "a9gent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/269861495?v=4",
+  "url": "https://github.com/a9gent/mindfs",
+  "homepage": "https://relay.a9gent.com/",
+  "description": "Access your personal AI agents and workstation data anywhere, anytime through MindFS.",
+  "summary": "mindfs：mindfs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,41 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/HKUDS/OpenPhone.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 855,
-  "forks": 173,
-  "openIssues": 1,
-  "score": 100.5,
+  "installCommand": "git clone https://github.com/a9gent/mindfs.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 1372,
+  "forks": 88,
+  "openIssues": 15,
+  "score": 105.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-29T08:23:40Z",
-  "updatedAt": "2026-07-04T03:17:11Z",
-  "createdAt": "2025-10-19T15:42:33Z",
+  "pushedAt": "2026-07-03T03:12:10Z",
+  "updatedAt": "2026-07-05T02:55:10Z",
+  "createdAt": "2026-03-31T06:06:42Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-phone",
-    "mobile-agents",
-    "phone-agent"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/OpenPhone",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/a9gent/mindfs",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HKUDS/OpenPhone#readme",
-  "detailPath": "data/details/hkuds__openphone.json",
+  "readmeUrl": "https://github.com/a9gent/mindfs#readme",
+  "detailPath": "data/details/a9gent__mindfs.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenPhone：尚未归入主要类别的实用项目。",
+    "summary": "mindfs：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -69,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "fb1547e0864e3772",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "5222c7183daac685",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenPhone：OpenPhone：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "OpenPhone 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mindfs：mindfs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "mindfs 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -119,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

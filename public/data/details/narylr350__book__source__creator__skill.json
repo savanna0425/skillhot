@@ -1,67 +1,73 @@
 {
-  "rank": 1376,
-  "id": 1172187340,
-  "name": "hello-claw",
-  "fullName": "datawhalechina/hello-claw",
-  "owner": "datawhalechina",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/46047812?v=4",
-  "url": "https://github.com/datawhalechina/hello-claw",
-  "homepage": "https://datawhalechina.github.io/hello-claw",
-  "description": "哈喽！龙虾 🙋‍♀️ Adopt from scratch and build your first claw 🦞 来领养你的第一只龙虾！",
-  "summary": "hello-claw：哈喽！龙虾 ‍♀️ Adopt from scratch and build your first claw 来领养你的第一只龙虾。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1714,
+  "id": 1186364491,
+  "name": "book-source-creator-skill",
+  "fullName": "Narylr350/book-source-creator-skill",
+  "owner": "Narylr350",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/265438635?v=4",
+  "url": "https://github.com/Narylr350/book-source-creator-skill",
+  "homepage": "",
+  "description": "Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等",
+  "summary": "book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/datawhalechina/hello-claw.git",
+  "installCommand": "git clone https://github.com/Narylr350/book-source-creator-skill.git",
   "language": "JavaScript",
   "license": "",
-  "stars": 2148,
-  "forks": 223,
-  "openIssues": 1,
-  "score": 99,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-10T21:05:55Z",
-  "updatedAt": "2026-07-03T01:24:47Z",
-  "createdAt": "2026-03-04T03:04:38Z",
+  "stars": 63,
+  "forks": 22,
+  "openIssues": 0,
+  "score": 86.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-05T01:47:58Z",
+  "updatedAt": "2026-07-05T04:28:57Z",
+  "createdAt": "2026-03-19T14:48:56Z",
   "sourceTopics": [
-    "skills"
+    "ai-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "assistant",
-    "clawuhub",
-    "llm",
-    "openclaw",
-    "own-your-data",
-    "personal",
-    "skills",
-    "tutorial"
+    "ai-skill",
+    "android-webview",
+    "book-source",
+    "booksource",
+    "claude-code",
+    "codex",
+    "codex-validator",
+    "javascript",
+    "kotlin",
+    "legado",
+    "novel",
+    "novel-reader",
+    "reader",
+    "yuedu"
   ],
   "platforms": [
-    "OpenClaw"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/datawhalechina/hello-claw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Narylr350/book-source-creator-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/datawhalechina/hello-claw#readme",
-  "detailPath": "data/details/datawhalechina__hello__claw.json",
+  "readmeUrl": "https://github.com/Narylr350/book-source-creator-skill#readme",
+  "detailPath": "data/details/narylr350__book__source__creator__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "哈喽！龙虾 ‍♀️ Adopt from scratch and build your first claw 来领养你的第一只龙虾！",
+    "summary": "Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,14 +86,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "5f91983b53b6145d",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "fab44285d8645c71",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hello-claw：哈喽！龙虾 ‍♀️ Adopt from scratch and build your first claw 来领养你的第一只龙虾。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "hello-claw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：哈喽！龙虾 🙋‍♀️ Adopt from scratch and build your first claw 🦞 来领养你的第一只龙虾。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "book-source-creator-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -104,7 +110,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 702,
+  "rank": 697,
   "id": 1170548091,
   "name": "council-of-high-intelligence",
   "fullName": "0xNyk/council-of-high-intelligence",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/93952610?v=4",
   "url": "https://github.com/0xNyk/council-of-high-intelligence",
   "homepage": "",
-  "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
-  "summary": "council-of-high-intelligence：18 位 AI 人格在多个 LLM 提供商间进行深思熟虑，做出最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔DS 等——采用结构化多轮审议，结合真实模型多样性。只需一条命令：/council。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Structured multi-round deliberation, confidence-weighted verdicts, genuine model diversity. Install as a Claude Code plugin — one command: /council",
+  "summary": "council-of-high-intelligence：council-of-high-intelligence 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
   "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/0xNyk/council-of-high-intelligence.git\ncd council-of-high-intelligence\n./install.sh",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/0xNyk/council-of-high-intelligence.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 3200,
-  "forks": 274,
+  "stars": 3246,
+  "forks": 279,
   "openIssues": 7,
-  "score": 114.2,
+  "score": 114.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T15:47:26Z",
-  "updatedAt": "2026-07-04T03:31:37Z",
+  "pushedAt": "2026-07-04T08:53:40Z",
+  "updatedAt": "2026-07-05T03:15:55Z",
   "createdAt": "2026-03-02T08:47:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -39,9 +39,11 @@
     "ai-agents",
     "claude",
     "claude-code",
+    "claude-plugin",
     "decision-making",
     "deliberation",
     "gemini",
+    "multi-agent-debate",
     "multi-llm",
     "ollama",
     "openai",
@@ -64,70 +66,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "18 位 AI 人格在多个 LLM 提供商间进行深思熟虑，做出最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔DS 等——采用结构化多轮审议，结合真实模型多样性。只需一条命令：/council",
+    "summary": "council-of-high-intelligence 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "5bbd6f154c03e190",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "3ed2a7af61711531",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "council-of-high-intelligence：18 位 AI 人格在多个 LLM 提供商间进行深思熟虑，做出最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔DS 等——采用结构化多轮审议，结合真实模型多样性。只需一条命令：/council。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "council-of-high-intelligence 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "council-of-high-intelligence：council-of-high-intelligence 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "council-of-high-intelligence 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
-      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
-      "团队希望把开发经验沉淀成可重复执行的能力。",
-      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
-      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
-      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
-      "需要让 Agent 参与真实工程任务的团队。",
-      "想把开发流程标准化、可复盘的人。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想找一个无需配置的成品 SaaS 工具的人。",
-      "不打算让 Agent 参与代码或工程流程的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
-      "Agent 会根据仓库提供的方法处理具体开发任务。",
-      "最终质量仍需要你用测试、构建和代码评审来确认。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先读 README 的安装步骤和示例任务。",
-      "在一个小仓库或低风险分支中试用。",
-      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "开发流程更有章法，长任务更不容易散。",
-      "重复性的工程经验可以被复用。",
-      "你能更快判断一个仓库是否值得投入时间试用。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

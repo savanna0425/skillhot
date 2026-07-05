@@ -8,7 +8,7 @@
   "url": "https://github.com/punkpeye/awesome-mcp-servers",
   "homepage": "https://glama.ai/mcp/servers",
   "description": "A collection of MCP servers.",
-  "summary": "awesome-mcp-servers 是一个面向 Claude、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-mcp-servers 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/punkpeye/awesome-mcp-servers.git",
   "language": "",
   "license": "MIT",
-  "stars": 90254,
-  "forks": 12446,
-  "openIssues": 2169,
+  "stars": 90294,
+  "forks": 12487,
+  "openIssues": 2179,
   "score": 148.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-06-26T06:26:58Z",
-  "updatedAt": "2026-07-04T03:48:23Z",
+  "pushedAt": "2026-07-04T12:53:14Z",
+  "updatedAt": "2026-07-05T04:30:15Z",
   "createdAt": "2024-11-30T04:49:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,14 +40,13 @@
     "mcp"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/punkpeye/awesome-mcp-servers",
-    "videoUrl": "https://youtu.be/wxCCzo9dGj0"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/punkpeye/awesome-mcp-servers#readme",
   "detailPath": "data/details/punkpeye__awesome__mcp__servers.json",
@@ -73,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "c571622410630c3d",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "b3522b4d03199a23",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-mcp-servers 是一个面向 Claude、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-mcp-servers 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-mcp-servers 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -97,7 +96,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

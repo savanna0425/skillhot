@@ -1,14 +1,14 @@
 {
-  "rank": 574,
-  "id": 1148878535,
-  "name": "AcademicForge",
-  "fullName": "HughYau/AcademicForge",
-  "owner": "HughYau",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/42570255?v=4",
-  "url": "https://github.com/HughYau/AcademicForge",
-  "homepage": "http://hughyau.com/AcademicForge/",
-  "description": "One Forge, All Skills: A curated skill collection for academic writing and research.  点开即用，按需配置的一站式学术研究skills平台。",
-  "summary": "AcademicForge 是一个面向 Claude、Codex、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 2124,
+  "id": 1289340334,
+  "name": "promptc-os-ai-prompt-wiki",
+  "fullName": "marktantongco/promptc-os-ai-prompt-wiki",
+  "owner": "marktantongco",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11040959?v=4",
+  "url": "https://github.com/marktantongco/promptc-os-ai-prompt-wiki",
+  "homepage": "https://promptc-os-ai-prompt-wiki.vercel.app",
+  "description": "Interactive AI prompt engineering wiki — 400+ prompts, 7 animal reasoning modes, 20 design combos with synergy ratings, 30 motion-stack combos, live 21st.dev registry, skill stacks, monetization recipes. Mobile-first. Next.js 16 + Tailwind 4.",
+  "summary": "promptc-os-ai-prompt-wiki 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,45 +19,55 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npm run site:install\nnpm run build\nnpm run preview",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 2086,
-  "forks": 128,
-  "openIssues": 2,
-  "score": 117.7,
+  "installCommand": "git clone https://github.com/marktantongco/promptc-os-ai-prompt-wiki.git",
+  "language": "HTML",
+  "license": "",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 66,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T09:16:53Z",
-  "updatedAt": "2026-07-04T03:45:36Z",
-  "createdAt": "2026-02-03T13:26:21Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-04T17:52:47Z",
+  "updatedAt": "2026-07-04T17:52:51Z",
+  "createdAt": "2026-07-04T16:14:41Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "ai-for-research",
-    "research-tool",
-    "scientific-agents",
-    "skills"
+    "ai-agent-skills",
+    "ai-prompts",
+    "ai-tools",
+    "design-system",
+    "knowledge-base",
+    "mobile-first",
+    "monetization",
+    "nextjs",
+    "prompt-engineering",
+    "react",
+    "shadcn-ui",
+    "skill-stacks",
+    "tailwindcss",
+    "typescript",
+    "wiki"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HughYau/AcademicForge",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/marktantongco/promptc-os-ai-prompt-wiki",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HughYau/AcademicForge#readme",
-  "detailPath": "data/details/hughyau__academicforge.json",
+  "readmeUrl": "https://github.com/marktantongco/promptc-os-ai-prompt-wiki#readme",
+  "detailPath": "data/details/marktantongco__promptc__os__ai__prompt__wiki.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "One Forge, All Skills: A curated skill collection for academic writing and research. 点开即用，按需配置的一站式学术研究skills平台",
+    "summary": "promptc-os-ai-prompt-wiki 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -73,17 +83,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "58ec029750a648bc",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "9b366a30f6903ce2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AcademicForge 是一个面向 Claude、Codex、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "AcademicForge 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "promptc-os-ai-prompt-wiki 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "promptc-os-ai-prompt-wiki 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -100,7 +110,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -123,7 +133,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

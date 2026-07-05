@@ -1,5 +1,5 @@
 {
-  "rank": 619,
+  "rank": 620,
   "id": 1184090452,
   "name": "fallow",
   "fullName": "fallow-rs/fallow",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/269229952?v=4",
   "url": "https://github.com/fallow-rs/fallow",
   "homepage": "https://docs.fallow.tools",
-  "description": "Codebase intelligence for TypeScript and JavaScript. Free static layer: unused code, duplication, circular deps, complexity hotspots, architecture boundaries. Optional paid runtime layer: hot-path review and cold-path deletion evidence from real production traffic. Rust-native, sub-second, zero-config framework support.",
-  "summary": "fallow：基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Codebase intelligence for TypeScript and JavaScript. Free static analysis of code and styles: unused code, duplication, circular deps, complexity hotspots, architecture boundaries, design-system drift. Optional paid runtime layer (Fallow Runtime): hot-path review and cold-path deletion evidence from real production traffic.",
+  "summary": "fallow：fallow 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx fallow audit",
   "language": "Rust",
   "license": "MIT",
-  "stars": 3993,
+  "stars": 4003,
   "forks": 130,
-  "openIssues": 22,
+  "openIssues": 11,
   "score": 116.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T23:12:43Z",
-  "updatedAt": "2026-07-03T23:06:47Z",
+  "pushedAt": "2026-07-04T18:38:26Z",
+  "updatedAt": "2026-07-04T20:41:56Z",
   "createdAt": "2026-03-17T08:40:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持",
+    "summary": "fallow 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-04T04:07:18.369Z",
-    "sourceHash": "a6ce1107408b42d7",
+    "generatedAt": "2026-07-05T04:34:49.663Z",
+    "sourceHash": "3df15b8109ea44ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "fallow：基于 TypeScript 和 JavaScript 的代码库智能分析。免费静态层：未使用代码、重复代码、循环依赖及复杂热点。可选付费运行时层：基于真实生产流量的热路径审查与冷路径删除证据。原生 Rust，亚秒级，零配置框架支持。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "fallow：fallow 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "fallow 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
