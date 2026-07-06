@@ -1,17 +1,17 @@
 {
-  "rank": 2181,
-  "id": 1162804031,
-  "name": "skill-email-html-mjml",
-  "fullName": "framix-team/skill-email-html-mjml",
-  "owner": "framix-team",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/103632774?v=4",
-  "url": "https://github.com/framix-team/skill-email-html-mjml",
-  "homepage": "",
-  "description": "Claude Code skill — generate cross-client HTML email with MJML. Outlook-safe, Gmail-optimized, WCAG 2.1 AA accessible.",
-  "summary": "skill-email-html-mjml：skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1092,
+  "id": 1169880696,
+  "name": "LetsFG",
+  "fullName": "LetsFG/LetsFG",
+  "owner": "LetsFG",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/219992303?v=4",
+  "url": "https://github.com/LetsFG/LetsFG",
+  "homepage": "https://letsfg.co/en",
+  "description": "Agent-native flight search & booking. Saved $116 across 5 routes vs Google Flights (verified). 400+ airlines in 5 seconds. Join the community - Star and spread the word",
+  "summary": "LetsFG：LetsFG：文档、表格、邮件、日历、笔记与个人生产力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
@@ -19,46 +19,54 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/framix-team/skill-email-html-mjml.git",
-  "language": "",
-  "license": "",
-  "stars": 52,
-  "forks": 7,
-  "openIssues": 0,
-  "score": 62,
-  "activity": "活跃",
-  "pushedAt": "2026-02-28T06:46:29Z",
-  "updatedAt": "2026-07-04T22:29:20Z",
-  "createdAt": "2026-02-20T18:03:16Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "installCommand": "git clone https://github.com/LetsFG/LetsFG.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 1367,
+  "forks": 72,
+  "openIssues": 1,
+  "score": 105.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-05T09:55:10Z",
+  "updatedAt": "2026-07-06T04:20:31Z",
+  "createdAt": "2026-03-01T11:17:50Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "claude-code-skill",
-    "claude-skills",
-    "email-template",
-    "llm-skills",
-    "mjml"
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "airline-api",
+    "booking",
+    "business",
+    "flight-search",
+    "flights",
+    "framework",
+    "hermes",
+    "hermes-agent",
+    "mcp",
+    "openclaw",
+    "personal",
+    "python-sdk",
+    "travel"
   ],
   "platforms": [
-    "Claude"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/framix-team/skill-email-html-mjml",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/LetsFG/LetsFG",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/framix-team/skill-email-html-mjml#readme",
-  "detailPath": "data/details/framix__team__skill__email__html__mjml.json",
+  "readmeUrl": "https://github.com/LetsFG/LetsFG#readme",
+  "detailPath": "data/details/letsfg__letsfg.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "LetsFG：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -74,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "379a3382781dba62",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "a4b22e33825a8488",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-email-html-mjml：skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "skill-email-html-mjml 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "LetsFG：LetsFG：文档、表格、邮件、日历、笔记与个人生产力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "LetsFG 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -101,7 +109,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -124,7 +132,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

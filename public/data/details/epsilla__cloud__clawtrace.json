@@ -1,78 +1,74 @@
 {
-  "rank": 349,
-  "id": 1203777920,
-  "name": "ai-berkshire",
-  "fullName": "xbtlin/ai-berkshire",
-  "owner": "xbtlin",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/6993203?v=4",
-  "url": "https://github.com/xbtlin/ai-berkshire",
-  "homepage": "https://github.com/xbtlin/ai-berkshire#readme",
-  "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-  "summary": "ai-berkshire：AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1981,
+  "id": 1206515214,
+  "name": "clawtrace",
+  "fullName": "epsilla-cloud/clawtrace",
+  "owner": "epsilla-cloud",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/132872759?v=4",
+  "url": "https://github.com/epsilla-cloud/clawtrace",
+  "homepage": "https://www.clawtrace.ai/",
+  "description": "Make your OpenClaw agents better, cheaper, and faster.",
+  "summary": "clawtrace：clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npm install -g @anthropic-ai/claude-code",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 9768,
-  "forks": 1235,
-  "openIssues": 9,
-  "score": 125.8,
+  "installCommand": "git clone https://github.com/epsilla-cloud/clawtrace.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 37,
+  "forks": 9,
+  "openIssues": 3,
+  "score": 74.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-04T07:12:39Z",
-  "updatedAt": "2026-07-05T05:30:11Z",
-  "createdAt": "2026-04-07T11:19:51Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-05T21:59:11Z",
+  "updatedAt": "2026-07-03T22:54:50Z",
+  "createdAt": "2026-04-10T01:51:17Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
   "discoveredBy": [
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
+    "agent-observability",
+    "agent-telemetry",
     "ai-agent",
-    "anthropic",
-    "berkshire-hathaway",
-    "charlie-munger",
-    "china-stock",
-    "claude",
-    "claude-code",
-    "financial-analysis",
-    "fintech",
-    "fundamental-analysis",
-    "investment",
-    "investment-research",
-    "llm",
-    "mcp",
-    "portfolio-management",
-    "stock-analysis",
-    "stock-market",
-    "value-investing",
-    "warren-buffett"
+    "ai-agent-observability",
+    "ai-evaluation",
+    "ai-observability",
+    "automomous-agents",
+    "claude-harness",
+    "open-telemetry",
+    "openclaw",
+    "openclaw-plugin",
+    "openclaw-skills",
+    "self-evolving-agents",
+    "self-evolving-ai",
+    "telemetry"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xbtlin/ai-berkshire",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/epsilla-cloud/clawtrace",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xbtlin/ai-berkshire#readme",
-  "detailPath": "data/details/xbtlin__ai__berkshire.json",
+  "readmeUrl": "https://github.com/epsilla-cloud/clawtrace#readme",
+  "detailPath": "data/details/epsilla__cloud__clawtrace.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea",
+    "summary": "clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -88,17 +84,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "9bd98589543a182f",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "be32d602c232f534",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-berkshire：AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "ai-berkshire 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "clawtrace：clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "clawtrace 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -115,7 +111,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -138,7 +134,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

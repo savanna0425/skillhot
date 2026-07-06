@@ -1,5 +1,5 @@
 {
-  "rank": 687,
+  "rank": 973,
   "id": 1228403229,
   "name": "lathe",
   "fullName": "devenjarvis/lathe",
@@ -8,7 +8,7 @@
   "url": "https://github.com/devenjarvis/lathe",
   "homepage": "",
   "description": "Generate hands-on, multi-part technical tutorials on demand, with LLM skills tuned to make content approachable. Then you work through them yourself, by hand ✋",
-  "summary": "lathe：按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "lathe：按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew install devenjarvis/tap/lathe",
+  "installCommand": "git clone https://github.com/devenjarvis/lathe.git",
   "language": "Go",
   "license": "MIT",
-  "stars": 1561,
+  "stars": 1563,
   "forks": 43,
   "openIssues": 2,
-  "score": 114.7,
-  "activity": "本周活跃",
+  "score": 107.7,
+  "activity": "本月活跃",
   "pushedAt": "2026-06-27T18:16:10Z",
-  "updatedAt": "2026-07-04T21:59:08Z",
+  "updatedAt": "2026-07-05T19:45:32Z",
   "createdAt": "2026-05-04T01:22:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,11 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -72,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "a414a945b2f9ef7d",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "912eaa0289a06459",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lathe：按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "lathe：按需生成动手型多部分技术教程，并具备经过调优的 LLM 技能，使内容易于理解。随后，我将亲自通过手✋ 进行讲解。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "lathe 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -96,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

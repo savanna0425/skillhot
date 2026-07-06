@@ -1,17 +1,17 @@
 {
-  "rank": 2077,
-  "id": 1182644596,
-  "name": "symphony-linear-starter",
-  "fullName": "jvogan/symphony-linear-starter",
-  "owner": "jvogan",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/6239693?v=4",
-  "url": "https://github.com/jvogan/symphony-linear-starter",
-  "homepage": "https://jvogan.github.io/",
-  "description": "Agent skill for running Codex or Claude Code as an orchestrator over Symphony workers and Linear issues. Plans waves, dispatches workers, reviews and merges, and optionally pursues a goal across many waves under hard budget caps.",
-  "summary": "symphony-linear-starter：symphony-linear-starter 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 310,
+  "id": 1157102282,
+  "name": "OmniRoute",
+  "fullName": "diegosouzapw/OmniRoute",
+  "owner": "diegosouzapw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8016841?v=4",
+  "url": "https://github.com/diegosouzapw/OmniRoute",
+  "homepage": "https://omniroute.online",
+  "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+  "summary": "OmniRoute：OmniRoute 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
@@ -19,57 +19,64 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/jvogan/symphony-linear-starter.git",
-  "language": "Python",
+  "installCommand": "npm install -g omniroute\nomniroute",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 14,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 68.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-21T01:43:22Z",
-  "updatedAt": "2026-06-21T01:43:25Z",
-  "createdAt": "2026-03-15T19:41:09Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "stars": 11998,
+  "forks": 1742,
+  "openIssues": 130,
+  "score": 127.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-06T04:33:30Z",
+  "updatedAt": "2026-07-06T04:43:56Z",
+  "createdAt": "2026-02-13T12:38:31Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-orchestration",
+    "a2a",
     "ai-agents",
-    "ai-orchestration",
-    "automation",
+    "ai-gateway",
+    "anthropic",
+    "claude",
     "claude-code",
+    "cline",
     "codex",
-    "codex-skills",
-    "developer-tools",
-    "linear",
-    "multi-agent",
-    "orchestration",
-    "runbooks",
-    "self-improving-agents",
-    "software-engineering",
-    "symphony",
-    "workflow-automation"
+    "copilot",
+    "cursor",
+    "deepseek",
+    "free-ai",
+    "gemini",
+    "gemini-cli",
+    "llm-gateway",
+    "mcp",
+    "openai",
+    "openai-proxy",
+    "qwen",
+    "token-saver"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 43,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jvogan/symphony-linear-starter",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/diegosouzapw/OmniRoute",
+    "videoUrl": "https://www.youtube.com/watch?v=Rxdc36yUyOQ"
   },
-  "readmeUrl": "https://github.com/jvogan/symphony-linear-starter#readme",
-  "detailPath": "data/details/jvogan__symphony__linear__starter.json",
+  "readmeUrl": "https://github.com/diegosouzapw/OmniRoute#readme",
+  "detailPath": "data/details/diegosouzapw__omniroute.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "symphony-linear-starter 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "OmniRoute 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -88,14 +95,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "faa26339c096423c",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "c52440ddf1d34dd0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "symphony-linear-starter：symphony-linear-starter 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "symphony-linear-starter 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "OmniRoute：OmniRoute 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "OmniRoute 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -112,7 +119,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -122,7 +129,7 @@
       "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
       "用户配置模型服务、权限和项目后，在平台里发起任务。",
       "稳定性取决于模型服务、插件生态和本地/云端配置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 43+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你常用的模型和 Agent 客户端。",

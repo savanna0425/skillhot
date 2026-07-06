@@ -1,56 +1,47 @@
 {
-  "rank": 2201,
-  "id": 1259174573,
-  "name": "python-health-audit",
-  "fullName": "laurentvv/python-health-audit",
-  "owner": "laurentvv",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/8775515?v=4",
-  "url": "https://github.com/laurentvv/python-health-audit",
+  "rank": 2133,
+  "id": 1221160700,
+  "name": "coding-harness",
+  "fullName": "drafael/coding-harness",
+  "owner": "drafael",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/887501?v=4",
+  "url": "https://github.com/drafael/coding-harness",
   "homepage": "",
-  "description": "Read-only static audit skill for Python projects (Ruff + Vulture + Radon + Pylint via uvx). Generates a single Markdown health report with a deterministic A–F grade and 3-item action plan. 100% pass rate vs 29% baseline.",
-  "summary": "python-health-audit：python-health-audit 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Reusable agent skills and workflows for everyday development.",
+  "summary": "coding-harness：coding-harness 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
-  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/laurentvv/python-health-audit.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/drafael/coding-harness.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 2,
+  "stars": 0,
   "forks": 0,
   "openIssues": 0,
-  "score": 60.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-04T09:53:25Z",
-  "updatedAt": "2026-06-09T08:21:59Z",
-  "createdAt": "2026-06-04T08:59:36Z",
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-05T20:34:15Z",
+  "updatedAt": "2026-07-05T20:34:19Z",
+  "createdAt": "2026-04-25T20:42:39Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "ai-agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agents",
-    "anthropic-skills",
-    "claude",
-    "code-quality",
-    "linter",
-    "pylint",
-    "python",
-    "radon",
-    "ruff",
-    "skill",
-    "skills-sh",
-    "static-analysis",
-    "technical-debt",
-    "vulture"
+    "ai-agent",
+    "ai-agent-skills",
+    "claude-code",
+    "pi-coding-agent",
+    "skills"
   ],
   "platforms": [
     "Claude"
@@ -58,15 +49,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/laurentvv/python-health-audit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/drafael/coding-harness",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/laurentvv/python-health-audit#readme",
-  "detailPath": "data/details/laurentvv__python__health__audit.json",
+  "readmeUrl": "https://github.com/drafael/coding-harness#readme",
+  "detailPath": "data/details/drafael__coding__harness.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "python-health-audit 聚焦软件开发、代码质量与工程交付。",
+    "summary": "coding-harness 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "d80ed9e9d1b47dbc",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "1c56c3001d51795e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "python-health-audit：python-health-audit 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "python-health-audit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "coding-harness：coding-harness 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "coding-harness 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

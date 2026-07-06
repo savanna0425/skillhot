@@ -19,16 +19,16 @@
     "学术表达"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Yuan1z0825/nature-skills.git\ncd nature-skills\nscripts/update-codex-skills.sh --pull",
+  "installCommand": "npm install -g @anthropic-ai/claude-code\nclaude",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 25985,
-  "forks": 1576,
-  "openIssues": 0,
-  "score": 148,
+  "stars": 26243,
+  "forks": 1589,
+  "openIssues": 2,
+  "score": 148.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-05T01:45:11Z",
-  "updatedAt": "2026-07-05T05:32:04Z",
+  "pushedAt": "2026-07-06T02:44:18Z",
+  "updatedAt": "2026-07-06T04:36:30Z",
   "createdAt": "2026-04-24T03:11:46Z",
   "sourceTopics": [
     "codex-skills"
@@ -77,8 +77,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "fd1c6f2fbc7deb3b",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "a4ea265517b531b4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

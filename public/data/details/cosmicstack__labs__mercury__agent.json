@@ -1,5 +1,5 @@
 {
-  "rank": 787,
+  "rank": 1062,
   "id": 1215974868,
   "name": "mercury-agent",
   "fullName": "cosmicstack-labs/mercury-agent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/cosmicstack-labs/mercury-agent",
   "homepage": "https://mercuryagent.sh/",
   "description": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram.",
-  "summary": "mercury-agent：mercury-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Cursor 相关工作流里先做选型判断。",
+  "summary": "mercury-agent：mercury-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "Or via npm if you already have Node.js 20+:",
+  "installCommand": "git clone https://github.com/cosmicstack-labs/mercury-agent.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 2764,
-  "forks": 292,
-  "openIssues": 44,
-  "score": 112.6,
-  "activity": "本周活跃",
+  "stars": 2854,
+  "forks": 300,
+  "openIssues": 45,
+  "score": 106,
+  "activity": "本月活跃",
   "pushedAt": "2026-06-27T08:30:52Z",
-  "updatedAt": "2026-07-04T08:30:43Z",
+  "updatedAt": "2026-07-06T04:37:16Z",
   "createdAt": "2026-04-20T12:46:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,9 +40,9 @@
     "llm"
   ],
   "platforms": [
-    "Cursor"
+    "Agent Skills"
   ],
-  "skillCount": 126,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/cosmicstack-labs/mercury-agent",
@@ -72,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "e6ef9f023633347d",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "9f04cbd02a7ae46b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mercury-agent：mercury-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mercury-agent：mercury-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "mercury-agent 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -96,7 +96,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -106,7 +106,7 @@
       "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
       "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
       "涉及个人数据时，需要自己确认权限和隐私设置。",
-      "仓库信息显示它包含 126+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先确认它支持你正在用的办公平台。",

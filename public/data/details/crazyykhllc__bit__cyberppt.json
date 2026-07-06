@@ -1,17 +1,17 @@
 {
-  "rank": 1837,
-  "id": 1239774861,
-  "name": "technical-writing",
-  "fullName": "luoling8192/technical-writing",
-  "owner": "luoling8192",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/44741987?v=4",
-  "url": "https://github.com/luoling8192/technical-writing",
+  "rank": 967,
+  "id": 1278676835,
+  "name": "CyberPPT",
+  "fullName": "crazyykhllc-bit/CyberPPT",
+  "owner": "crazyykhllc-bit",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/229693705?v=4",
+  "url": "https://github.com/crazyykhllc-bit/CyberPPT",
   "homepage": "",
-  "description": "中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构",
-  "summary": "technical-writing：中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
+  "summary": "CyberPPT：一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。适合在 Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,47 +19,37 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/luoling8192/technical-writing.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/crazyykhllc-bit/CyberPPT.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 197,
-  "forks": 10,
-  "openIssues": 0,
-  "score": 82.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-27T10:18:20Z",
-  "updatedAt": "2026-07-04T07:23:43Z",
-  "createdAt": "2026-05-15T12:31:42Z",
-  "sourceTopics": [
-    "agent-skill"
-  ],
+  "stars": 798,
+  "forks": 84,
+  "openIssues": 3,
+  "score": 107.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-01T15:47:48Z",
+  "updatedAt": "2026-07-06T04:35:17Z",
+  "createdAt": "2026-06-24T02:32:21Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-skill",
-    "chinese",
-    "claude-code",
-    "codex",
-    "documentation",
-    "technical-writing"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
     "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/luoling8192/technical-writing",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/crazyykhllc-bit/CyberPPT",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/luoling8192/technical-writing#readme",
-  "detailPath": "data/details/luoling8192__technical__writing.json",
+  "readmeUrl": "https://github.com/crazyykhllc-bit/CyberPPT#readme",
+  "detailPath": "data/details/crazyykhllc__bit__cyberppt.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构",
+    "summary": "一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -78,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "58719e94c5d41203",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "a392879c35af0d9e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "technical-writing：中文内部技术写作的 agent skill，约束设计文档 / 评审稿 / postmortem / 分享稿场景的语气、句法、结构。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "technical-writing 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "CyberPPT：一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "CyberPPT 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -102,7 +92,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

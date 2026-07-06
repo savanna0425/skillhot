@@ -1,5 +1,5 @@
 {
-  "rank": 1231,
+  "rank": 1241,
   "id": 1208990819,
   "name": "Fusion",
   "fullName": "Runfusion/Fusion",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/275577877?v=4",
   "url": "https://github.com/Runfusion/Fusion",
   "homepage": "http://runfusion.ai",
-  "description": "Multi node agent orchestrator - build faster and better",
-  "summary": "Fusion：Fusion 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "Agent工具与平台",
-  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "description": "Your Software Factory - build faster and better with multi node agents that work 24/7",
+  "summary": "Fusion：Fusion：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "其他",
+  "categoryDescription": "尚未归入主要类别的实用项目",
+  "categoryConfidence": "待复核",
+  "categoryReason": "元数据没有足够的用途信号",
   "scenarios": [
-    "模型与客户端管理",
-    "Agent 编排",
-    "多平台协作"
+    "能力探索",
+    "流程扩展",
+    "开源工具试用"
   ],
-  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/Runfusion/Fusion.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 905,
-  "forks": 106,
-  "openIssues": 21,
-  "score": 101.1,
+  "stars": 915,
+  "forks": 107,
+  "openIssues": 19,
+  "score": 101.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-05T05:01:46Z",
-  "updatedAt": "2026-07-05T04:28:31Z",
+  "pushedAt": "2026-07-06T04:37:26Z",
+  "updatedAt": "2026-07-06T04:37:32Z",
   "createdAt": "2026-04-13T01:43:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,70 +55,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Fusion 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "Fusion：尚未归入主要类别的实用项目。",
     "useCases": [
-      "模型与客户端管理",
-      "Agent 编排",
-      "多平台协作"
+      "能力探索",
+      "流程扩展",
+      "开源工具试用"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "需要尚未归入主要类别的实用项目能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-05T05:36:08.807Z",
-    "sourceHash": "88d4f262c05fe0eb",
+    "generatedAt": "2026-07-06T04:45:15.376Z",
+    "sourceHash": "34a2d031d88bd8a7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Fusion：Fusion 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Fusion 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Fusion：Fusion：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Fusion 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "多个 Agent、模型、工具和配置之间切换成本高。",
-      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
-      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
-      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
+      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
+      "用户需要先快速判断它和自己的任务有没有关系。",
+      "没有统一分类时，仍需要一个可读的选型入口。",
+      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
-      "把模型、插件、工作流和配置集中管理。",
-      "帮助你判断它是否适合自己的 Agent 工具链。",
+      "整理仓库公开信息，帮助你理解它可能服务的任务。",
+      "把平台、用法、限制和下一步试用方式摆在同一页。",
+      "帮助你决定是否继续打开 README。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
-      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
-      "想搭建个人或团队 Agent 工作台的人。",
+      "愿意探索垂直开源项目的人。",
+      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
+      "想发现非典型但可能有用工具的人。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只需要一个简单聊天窗口、不想配置工具链的人。",
-      "不愿处理 API Key、权限、部署或本地环境的人。"
+      "需要成熟商业产品和完整售后的人。",
+      "不愿阅读 README 或自己验证项目质量的人。"
     ],
     "howItWorks": [
-      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
-      "用户配置模型服务、权限和项目后，在平台里发起任务。",
-      "稳定性取决于模型服务、插件生态和本地/云端配置。",
+      "通常依赖仓库提供的 README、代码、示例或安装命令。",
+      "用户按文档把它接入目标环境。",
+      "真实效果需要通过小任务试用来判断。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你常用的模型和 Agent 客户端。",
-      "用低权限 API Key 或测试配置跑一个小任务。",
-      "确认日志、权限和密钥存储方式后再接入正式项目。"
+      "先看作者原始描述和 README。",
+      "确认许可证、最近更新和安装方式。",
+      "用低风险样例任务测试，再决定是否收藏或深入使用。"
     ],
     "expectedOutcome": [
-      "多个 Agent 或模型配置更清楚。",
-      "任务编排和工具调用更集中。",
-      "个人 Agent 工作流更容易长期维护。"
+      "更快判断项目是否值得继续看。",
+      "减少在 GitHub 上反复跳转的成本。",
+      "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",
