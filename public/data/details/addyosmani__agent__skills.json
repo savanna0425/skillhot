@@ -19,16 +19,16 @@
     "工程交付"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/addyosmani/agent-skills.git\nclaude --plugin-dir /path/to/agent-skills",
-  "language": "Shell",
+  "installCommand": "npx skills add addyosmani/agent-skills            # install all 24 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 69946,
-  "forks": 7578,
-  "openIssues": 135,
-  "score": 162.3,
+  "stars": 71046,
+  "forks": 7690,
+  "openIssues": 141,
+  "score": 162.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-04T06:57:31Z",
-  "updatedAt": "2026-07-06T04:41:21Z",
+  "pushedAt": "2026-07-07T00:59:41Z",
+  "updatedAt": "2026-07-07T04:17:31Z",
   "createdAt": "2026-02-15T20:20:26Z",
   "sourceTopics": [
     "skills",
@@ -42,8 +42,8 @@
   "repoTopics": [
     "agent-skills",
     "antigravity",
-    "antigravity-ide",
     "claude-code",
+    "codex",
     "cursor",
     "skills"
   ],
@@ -85,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "f2495ea6aa63a450",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "15b9b9e145a034e2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

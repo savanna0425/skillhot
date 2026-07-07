@@ -1,34 +1,34 @@
 {
-  "rank": 1014,
+  "rank": 665,
   "id": 736198723,
   "name": "neo-chat",
   "fullName": "u14app/neo-chat",
   "owner": "u14app",
   "avatarUrl": "https://avatars.githubusercontent.com/u/190910900?v=4",
   "url": "https://github.com/u14app/neo-chat",
-  "homepage": "https://gemini.u14.app",
-  "description": "Deploy your private Gemini application for free with one click, supporting Gemini 1.5, Gemini 2.0 models.",
-  "summary": "neo-chat：neo-chat：尚未归入主要类别的实用项目。适合在 Gemini CLI 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "homepage": "https://neo.u14.app",
+  "description": "A local-first AI chat workspace for models, agents, skills, plugins, search, RAG, voice, memory, and artifacts.",
+  "summary": "neo-chat：neo-chat 提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/u14app/neo-chat.git",
+  "installCommand": "pnpm install\npnpm dev",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1603,
-  "forks": 588,
-  "openIssues": 1,
-  "score": 107,
+  "stars": 1669,
+  "forks": 597,
+  "openIssues": 0,
+  "score": 115.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-05T19:34:45Z",
-  "updatedAt": "2026-07-05T19:34:49Z",
+  "pushedAt": "2026-07-06T18:14:06Z",
+  "updatedAt": "2026-07-07T03:58:20Z",
   "createdAt": "2023-12-27T08:48:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,20 +36,10 @@
   ],
   "repoTopics": [
     "ai",
+    "ai-chat",
     "gemini",
-    "gemini-15-flash",
-    "gemini-15-pro",
-    "gemini-2",
-    "gemini-2-0-flash",
-    "gemini-ai",
-    "gemini-app",
-    "gemini-client",
-    "gemini-flash",
-    "gemini-pro",
-    "gemini-pro-vision",
-    "google-gemini",
-    "google-gemini-ai",
-    "vercel-ai"
+    "openai",
+    "skills"
   ],
   "platforms": [
     "Gemini CLI"
@@ -65,18 +55,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "neo-chat：尚未归入主要类别的实用项目。",
+    "summary": "neo-chat 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -84,51 +74,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "f9db41006f26f13d",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "f2aef106ca0b86b3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "neo-chat：neo-chat：尚未归入主要类别的实用项目。适合在 Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "neo-chat 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "neo-chat：neo-chat 提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "neo-chat 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "长任务容易丢上下文，Agent 记不住项目历史。",
+      "资料、代码和决策分散，下一次会话很难续接。",
+      "团队需要让 Agent 更可靠地检索旧信息。",
+      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
+      "帮助 Agent 在长任务中保留关键事实和决策。",
+      "帮助你判断它是否适合当前长期项目。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
+      "长期使用 Agent 做项目的人。",
+      "需要跨会话续接、知识库检索或团队记忆的人。",
+      "代码库、文档库或资料库较大的团队。",
       "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "只做一次性短任务、不需要保存上下文的人。",
+      "涉及敏感数据但没有权限隔离和清理方案的场景。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
+      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
+      "效果取决于数据质量、分块方式和权限管理。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先用一个小项目或公开资料库测试。",
+      "确认数据存储位置、权限和删除方式。",
+      "再把长期项目资料逐步迁入。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "跨会话续接更顺。",
+      "Agent 更容易找回项目背景和历史决策。",
+      "长任务的上下文管理成本下降。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

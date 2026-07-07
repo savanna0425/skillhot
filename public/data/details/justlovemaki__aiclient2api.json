@@ -1,5 +1,5 @@
 {
-  "rank": 381,
+  "rank": 388,
   "id": 1022937426,
   "name": "AIClient2API",
   "fullName": "justlovemaki/AIClient2API",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/22851716?v=4",
   "url": "https://github.com/justlovemaki/AIClient2API",
   "homepage": "https://aiproxy.justlikemaki.vip",
-  "description": "Simulates Gemini CLI, Antigravity, Codex, Grok, and Kiro client requests, compatible with the OpenAI API. It supports thousands of Gemini model requests per day and offers free use of the built-in Claude model in Kiro. Easily connect to any client via the API, making AI development more efficient!",
-  "summary": "AIClient2API：AIClient2API 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Self-hosted multi-protocol AI API proxy for Antigravity, Codex, Grok, Kiro, OpenAI, Claude, and custom providers. Supports OpenAI-compatible API, Claude API, Gemini protocol conversion, GPT, Grok Build, Claude Opus, Gemini Pro, Kimi, MiniMax, provider pools, smart routing, and automatic failover.",
+  "summary": "AIClient2API：AIClient2API 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "> npm install\n> # Default startup\n> npm start",
   "language": "JavaScript",
   "license": "GPL-3.0",
-  "stars": 8377,
+  "stars": 8389,
   "forks": 1330,
-  "openIssues": 7,
+  "openIssues": 5,
   "score": 124.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T04:35:28Z",
-  "updatedAt": "2026-07-06T03:39:19Z",
+  "pushedAt": "2026-07-06T08:51:25Z",
+  "updatedAt": "2026-07-07T03:42:46Z",
   "createdAt": "2025-07-20T07:05:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AIClient2API 的作者尚未提供足够简介，请查看 README 了解具体用途",
+    "summary": "AIClient2API 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -75,13 +75,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "dfa1abff0d43a6a9",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "6775ad2f0b0cfc18",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AIClient2API：AIClient2API 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "AIClient2API：AIClient2API 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "AIClient2API 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

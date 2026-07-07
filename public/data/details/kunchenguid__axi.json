@@ -1,14 +1,14 @@
 {
-  "rank": 1224,
-  "id": 1288292418,
-  "name": "local-llm",
-  "fullName": "jamesob/local-llm",
-  "owner": "jamesob",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/73197?v=4",
-  "url": "https://github.com/jamesob/local-llm",
-  "homepage": "",
-  "description": "Everything I know about running LLMs locally",
-  "summary": "local-llm：local-llm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1102,
+  "id": 1188221632,
+  "name": "axi",
+  "fullName": "kunchenguid/axi",
+  "owner": "kunchenguid",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3233006?v=4",
+  "url": "https://github.com/kunchenguid/axi",
+  "homepage": "https://axi.md/",
+  "description": "Design principles for agent ergonomics. Higher accuracy with lower token cost than both MCP and regular CLI.",
+  "summary": "axi：Agent ergonomics 设计原则：在降低 token 成本的同时，实现比 MCP 和常规 CLI 更高的准确率。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,17 +19,17 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jamesob/local-llm.git",
-  "language": "Shell",
-  "license": "",
-  "stars": 930,
-  "forks": 53,
-  "openIssues": 2,
-  "score": 101.4,
+  "installCommand": "git clone https://github.com/kunchenguid/axi.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1359,
+  "forks": 70,
+  "openIssues": 7,
+  "score": 105.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-03T20:12:00Z",
-  "updatedAt": "2026-07-06T04:02:22Z",
-  "createdAt": "2026-07-03T13:06:03Z",
+  "pushedAt": "2026-07-06T19:16:40Z",
+  "updatedAt": "2026-07-07T02:54:49Z",
+  "createdAt": "2026-03-21T19:28:09Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
@@ -41,15 +41,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jamesob/local-llm",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kunchenguid/axi",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jamesob/local-llm#readme",
-  "detailPath": "data/details/jamesob__local__llm.json",
+  "readmeUrl": "https://github.com/kunchenguid/axi#readme",
+  "detailPath": "data/details/kunchenguid__axi.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "local-llm：尚未归入主要类别的实用项目。",
+    "summary": "Agent ergonomics 设计原则：在降低 token 成本的同时，实现比 MCP 和常规 CLI 更高的准确率",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "7228221b995a952d",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "3eb7f8f27898418b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "local-llm：local-llm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "local-llm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "axi：Agent ergonomics 设计原则：在降低 token 成本的同时，实现比 MCP 和常规 CLI 更高的准确率。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "axi 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 29,
+  "rank": 75,
   "id": 1201476594,
   "name": "career-ops",
   "fullName": "santifer/career-ops",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/256850418?v=4",
   "url": "https://github.com/santifer/career-ops",
   "homepage": "https://career-ops.org",
-  "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-  "summary": "career-ops：基于 Claude Code 构建的 AI 驱动求职系统，支持 14 种技能模式、Go 仪表盘及 PDF 生成和批量处理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
+  "summary": "career-ops：career-ops：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -22,13 +22,13 @@
   "installCommand": "npx @santifer/career-ops init",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 58706,
-  "forks": 11519,
-  "openIssues": 147,
-  "score": 152.5,
+  "stars": 58885,
+  "forks": 11562,
+  "openIssues": 153,
+  "score": 144.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T03:06:55Z",
-  "updatedAt": "2026-07-06T04:43:48Z",
+  "pushedAt": "2026-07-06T22:41:05Z",
+  "updatedAt": "2026-07-07T04:17:52Z",
   "createdAt": "2026-04-04T18:21:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,10 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "ai",
     "ai-agent",
     "anthropic",
+    "ats",
     "automation",
     "beginner-friendly",
     "career",
@@ -49,6 +51,8 @@
     "golang",
     "good-first-issue",
     "interview-prep",
+    "job-application",
+    "job-hunting",
     "job-search",
     "open-source",
     "resume"
@@ -72,7 +76,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Claude Code 构建的 AI 驱动求职系统，支持 14 种技能模式、Go 仪表盘及 PDF 生成和批量处理",
+    "summary": "career-ops：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -91,13 +95,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "aefbe7cf3a2781db",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "dfa50e8d8ae80ee8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "career-ops：基于 Claude Code 构建的 AI 驱动求职系统，支持 14 种技能模式、Go 仪表盘及 PDF 生成和批量处理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "career-ops：career-ops：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "career-ops 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",

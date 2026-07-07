@@ -1,14 +1,14 @@
 {
-  "rank": 872,
-  "id": 1179679081,
-  "name": "clowder-ai",
-  "fullName": "zts212653/clowder-ai",
-  "owner": "zts212653",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/26771442?v=4",
-  "url": "https://github.com/zts212653/clowder-ai",
+  "rank": 1448,
+  "id": 1285705904,
+  "name": "gzh-design-skill",
+  "fullName": "isjiamu/gzh-design-skill",
+  "owner": "isjiamu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/30619280?v=4",
+  "url": "https://github.com/isjiamu/gzh-design-skill",
   "homepage": "",
-  "description": "Build AI teams, not just agents. Hard rails, soft power, shared mission.",
-  "summary": "clowder-ai：构建 AI 团队，而非仅构建代理。硬约束，软权力，共同使命。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+  "summary": "gzh-design-skill：把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeC。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,55 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zts212653/clowder-ai.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 1993,
-  "forks": 538,
-  "openIssues": 210,
-  "score": 109.2,
+  "installCommand": "git clone https://github.com/isjiamu/gzh-design-skill.git",
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "stars": 187,
+  "forks": 31,
+  "openIssues": 0,
+  "score": 97.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T03:26:34Z",
-  "updatedAt": "2026-07-06T04:09:43Z",
-  "createdAt": "2026-03-12T09:14:51Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-07-06T19:05:47Z",
+  "updatedAt": "2026-07-07T04:18:20Z",
+  "createdAt": "2026-07-01T04:28:03Z",
+  "sourceTopics": [
+    "skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gongzhonghao",
+    "html",
+    "markdown",
+    "rich-text",
+    "skill",
+    "typesetting",
+    "wechat",
+    "weixin"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/zts212653/clowder-ai",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/isjiamu/gzh-design-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/zts212653/clowder-ai#readme",
-  "detailPath": "data/details/zts212653__clowder__ai.json",
+  "readmeUrl": "https://github.com/isjiamu/gzh-design-skill#readme",
+  "detailPath": "data/details/isjiamu__gzh__design__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "构建 AI 团队，而非仅构建代理。硬约束，软权力，共同使命",
+    "summary": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeC",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "f6397ce19bd73412",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "3c61eda4e8eb39b1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "clowder-ai：构建 AI 团队，而非仅构建代理。硬约束，软权力，共同使命。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "clowder-ai 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gzh-design-skill：把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeC。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "gzh-design-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +110,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +133,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

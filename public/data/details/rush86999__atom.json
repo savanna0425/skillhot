@@ -1,52 +1,56 @@
 {
-  "rank": 1180,
-  "id": 1190390511,
-  "name": "agentrq",
-  "fullName": "agentrq/agentrq",
-  "owner": "agentrq",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/270256433?v=4",
-  "url": "https://github.com/agentrq/agentrq",
-  "homepage": "https://agentrq.com",
-  "description": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents.",
-  "summary": "agentrq：agentrq 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1370,
+  "id": 591995344,
+  "name": "atom",
+  "fullName": "rush86999/atom",
+  "owner": "rush86999",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/16848240?v=4",
+  "url": "https://github.com/rush86999/atom",
+  "homepage": "",
+  "description": "Atom Agent, Open-Source AI Agent Platform for Self-Hosted Automation",
+  "summary": "atom：atom 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/agentrq/agentrq.git",
-  "language": "Go",
-  "license": "Apache-2.0",
-  "stars": 983,
-  "forks": 76,
-  "openIssues": 22,
-  "score": 101.9,
+  "installCommand": "git clone https://github.com/rush86999/atom.git",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 781,
+  "forks": 79,
+  "openIssues": 0,
+  "score": 99.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T01:16:09Z",
-  "updatedAt": "2026-07-06T02:30:40Z",
-  "createdAt": "2026-03-24T08:35:45Z",
+  "pushedAt": "2026-07-07T01:56:46Z",
+  "updatedAt": "2026-07-07T01:56:50Z",
+  "createdAt": "2023-01-22T15:55:04Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "acp-client",
-    "acp-gateway",
-    "agentic-ai",
     "agentic-workflow",
-    "agents",
-    "mcp",
-    "mcp-server",
-    "supervisor",
-    "task",
-    "task-manager",
-    "task-scheduler",
-    "todo"
+    "ai",
+    "ai-agent",
+    "calendar",
+    "finance",
+    "gdrive",
+    "gmail",
+    "google-calendar",
+    "notion",
+    "productivity",
+    "scheduler",
+    "shopify",
+    "slack",
+    "tasks",
+    "zoho",
+    "zoom"
   ],
   "platforms": [
     "Agent Skills"
@@ -54,15 +58,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/agentrq/agentrq",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rush86999/atom",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/agentrq/agentrq#readme",
-  "detailPath": "data/details/agentrq__agentrq.json",
+  "readmeUrl": "https://github.com/rush86999/atom#readme",
+  "detailPath": "data/details/rush86999__atom.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agentrq 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "atom 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +82,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "9fdda4d1db6e43ff",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "d26911841994be4b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentrq：agentrq 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agentrq 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "atom：atom 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "atom 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -128,7 +132,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 314,
+  "rank": 320,
   "id": 1156994049,
   "name": "agent-orchestrator",
   "fullName": "AgentWrapper/agent-orchestrator",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "cd backend\ngo test -race ./...\ncd frontend",
+  "installCommand": "npm install -g @aoagents/ao\nao start",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 8076,
-  "forks": 1148,
-  "openIssues": 663,
+  "stars": 8099,
+  "forks": 1155,
+  "openIssues": 400,
   "score": 127.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T04:41:55Z",
-  "updatedAt": "2026-07-06T04:42:59Z",
+  "pushedAt": "2026-07-06T19:21:59Z",
+  "updatedAt": "2026-07-07T01:27:55Z",
   "createdAt": "2026-02-13T09:52:36Z",
   "sourceTopics": [
     "skills"
@@ -87,8 +87,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "9ab9ce5efd04c7b8",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "ebeeb93085dc63d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

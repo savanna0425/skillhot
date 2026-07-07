@@ -1,14 +1,14 @@
 {
-  "rank": 1777,
-  "id": 1189465288,
-  "name": "swapper-toolkit",
-  "fullName": "swapperfinance/swapper-toolkit",
-  "owner": "swapperfinance",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/175687158?v=4",
-  "url": "https://github.com/swapperfinance/swapper-toolkit",
-  "homepage": "https://swapper.finance",
-  "description": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor,   Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent frameworks.",
-  "summary": "swapper-toolkit：swapper-toolkit 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 1369,
+  "id": 1183057754,
+  "name": "CORAL",
+  "fullName": "Human-Agent-Society/CORAL",
+  "owner": "Human-Agent-Society",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268553699?v=4",
+  "url": "https://github.com/Human-Agent-Society/CORAL",
+  "homepage": "https://docs.coralxyz.com",
+  "description": "CORAL is a robust, lightweight infrastructure for multi-agent autonomous self-evolution, built for autoresearch. Works with Claude Code, Codex, Cursor, OpenCode, Kiro, and more.",
+  "summary": "CORAL：CORAL 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -19,61 +19,58 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/swapperfinance/swapper-toolkit.git",
-  "language": "",
-  "license": "MIT",
-  "stars": 822,
-  "forks": 34,
-  "openIssues": 4,
-  "score": 85.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-07T18:19:11Z",
-  "updatedAt": "2026-07-05T19:55:22Z",
-  "createdAt": "2026-03-23T10:53:26Z",
+  "installCommand": "git clone https://github.com/Human-Agent-Society/CORAL.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 782,
+  "forks": 101,
+  "openIssues": 12,
+  "score": 99.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-05T08:47:07Z",
+  "updatedAt": "2026-07-06T22:30:27Z",
+  "createdAt": "2026-03-16T08:25:25Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
-    "ai-agent-tools",
-    "ai-coding-assistant",
-    "autogpt",
+    "agent-framework",
+    "agentic-ai",
+    "alpha-evolve",
     "autonomous-agents",
-    "blockchain",
+    "autoresearch",
     "claude-code",
-    "copilot",
-    "crewai",
-    "crypto",
-    "cursor",
-    "defi",
-    "dex",
-    "langchain",
-    "openclaw",
-    "token-swap",
-    "trading",
-    "wallet",
-    "web3",
-    "windsurf"
+    "code-generation",
+    "codex",
+    "coding-agent",
+    "evolutionary-algorithm",
+    "large-language-models",
+    "llm-agents",
+    "multi-agent",
+    "opencode",
+    "self-evolving",
+    "self-evolving-agents",
+    "swe-bench"
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor",
-    "GitHub Copilot",
-    "OpenClaw"
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/swapperfinance/swapper-toolkit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Human-Agent-Society/CORAL",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/swapperfinance/swapper-toolkit#readme",
-  "detailPath": "data/details/swapperfinance__swapper__toolkit.json",
+  "readmeUrl": "https://github.com/Human-Agent-Society/CORAL#readme",
+  "detailPath": "data/details/human__agent__society__coral.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "swapper-toolkit 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "CORAL 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,17 +86,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-06T04:45:15.376Z",
-    "sourceHash": "29aa8e90def5f16b",
+    "generatedAt": "2026-07-07T04:20:43.016Z",
+    "sourceHash": "a7ab0c3114da5224",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "swapper-toolkit：swapper-toolkit 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "swapper-toolkit 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "CORAL：CORAL 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "CORAL 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -116,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -139,7 +136,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
