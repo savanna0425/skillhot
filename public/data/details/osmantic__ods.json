@@ -1,71 +1,73 @@
 {
-  "rank": 2038,
-  "id": 1268866363,
-  "name": "duanju-master",
-  "fullName": "woqianfu/duanju-master",
-  "owner": "woqianfu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/293492133?v=4",
-  "url": "https://github.com/woqianfu/duanju-master",
-  "homepage": "",
-  "description": "🎬 短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-one micro-drama creation skill for Hermes Agent | 21-Master 4-Corps Legion + Evolution KPI Oversight | From one-line idea to XiaoYunQue final cut",
-  "summary": "duanju-master：短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 789,
+  "id": 1153579168,
+  "name": "ODS",
+  "fullName": "Osmantic/ODS",
+  "owner": "Osmantic",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/262014141?v=4",
+  "url": "https://github.com/Osmantic/ODS",
+  "homepage": "https://discord.gg/qGVygYada3",
+  "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+  "summary": "ODS：ODS：图片、视频、演示、写作、音频与社交内容生产。适合在 OpenClaw、OpenCode 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/woqianfu/duanju-master.git",
-  "language": "HTML",
-  "license": "",
-  "stars": 7,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 71.5,
+  "installCommand": "git clone https://github.com/Light-Heart-Labs/ODS.git\ncd ODS/ods\n./install.sh",
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "stars": 2809,
+  "forks": 406,
+  "openIssues": 106,
+  "score": 112.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T19:09:34Z",
-  "updatedAt": "2026-07-06T19:09:38Z",
-  "createdAt": "2026-06-14T03:02:37Z",
-  "sourceTopics": [
-    "hermes-skill"
-  ],
+  "pushedAt": "2026-07-06T21:55:57Z",
+  "updatedAt": "2026-07-08T03:37:23Z",
+  "createdAt": "2026-02-09T13:14:58Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
-    "ai-video",
-    "dci-copyright",
-    "hermes-skill",
-    "mini-drama",
-    "prompt-engineering",
-    "quality-assurance",
-    "screenwriting",
-    "self-evolution",
-    "short-drama",
-    "vertical-drama",
-    "video-generation",
-    "xiaoque"
+    "ai-agents",
+    "amd",
+    "comfyui",
+    "docker",
+    "llama-cpp",
+    "llm",
+    "local-ai",
+    "n8n",
+    "nvidia",
+    "open-webui",
+    "rag",
+    "self-hosted",
+    "speech-to-text",
+    "strix-halo",
+    "text-to-speech",
+    "workflow-automation"
   ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/woqianfu/duanju-master",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Osmantic/ODS",
+    "videoUrl": "https://youtu.be/nO8xFNHX-HA"
   },
-  "readmeUrl": "https://github.com/woqianfu/duanju-master#readme",
-  "detailPath": "data/details/woqianfu__duanju__master.json",
+  "readmeUrl": "https://github.com/Osmantic/ODS#readme",
+  "detailPath": "data/details/osmantic__ods.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on",
+    "summary": "ODS：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -81,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "1e2d29ed86a6dcd9",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "a48307f4e00ff671",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "duanju-master：短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "duanju-master 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ODS：ODS：图片、视频、演示、写作、音频与社交内容生产。适合在 OpenClaw、OpenCode 相关工作流里先做选型判断。",
+    "whatItIs": "ODS 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -108,7 +110,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -131,7 +133,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

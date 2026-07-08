@@ -1,80 +1,76 @@
 {
-  "rank": 2149,
-  "id": 1252713846,
-  "name": "PolyBrain",
-  "fullName": "mosesman831/PolyBrain",
-  "owner": "mosesman831",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/56060463?v=4",
-  "url": "https://github.com/mosesman831/PolyBrain",
+  "rank": 1329,
+  "id": 186368869,
+  "name": "JustTryHarder",
+  "fullName": "sinfulz/JustTryHarder",
+  "owner": "sinfulz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/20607239?v=4",
+  "url": "https://github.com/sinfulz/JustTryHarder",
   "homepage": "",
-  "description": "Multi-model orchestration skill for Hermes Agent - parallel subagents, citation enforcement, source verification",
-  "summary": "PolyBrain：PolyBrain 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "JustTryHarder, a cheat sheet which will aid you through the PWK course & the OSCP Exam. (Inspired by PayloadAllTheThings)",
+  "summary": "JustTryHarder：JustTryHarder 支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "categoryConfidence": "待复核",
+  "categoryReason": "notebooklm|deep research|fact.?check|knowledge discove",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mosesman831/PolyBrain.git",
+  "installCommand": "git clone https://github.com/sinfulz/JustTryHarder.git",
   "language": "Python",
-  "license": "GPL-3.0",
-  "stars": 9,
-  "forks": 1,
+  "license": "",
+  "stars": 831,
+  "forks": 106,
   "openIssues": 0,
-  "score": 65.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-06T22:15:35Z",
-  "updatedAt": "2026-07-06T02:21:03Z",
-  "createdAt": "2026-05-28T19:48:27Z",
-  "sourceTopics": [
-    "hermes-skill"
-  ],
+  "score": 100.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-07T18:59:32Z",
+  "updatedAt": "2026-07-07T18:59:36Z",
+  "createdAt": "2019-05-13T07:36:18Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "agentic-workflow",
-    "ai",
-    "ai-agent",
-    "ai-agents",
-    "ai-orchestration",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "codex",
-    "hermes",
-    "hermes-agent",
-    "hermes-agent-skill",
-    "hermes-skill",
-    "llm",
-    "nous-research",
-    "openai",
-    "openclaw",
-    "openclaw-skill",
-    "orchestration"
+    "hacktoberfest",
+    "hacktoberfest-accepted",
+    "oscp",
+    "penetration",
+    "penetration-test",
+    "penetration-test-framework",
+    "penetration-testing",
+    "penetration-testing-tools",
+    "penetration-tests",
+    "pentest",
+    "pentest-environment",
+    "pentest-scripts",
+    "pentest-tool",
+    "pentest-tools",
+    "pentesters",
+    "pentesting",
+    "pentesting-networks",
+    "pentesting-tools",
+    "pentesting-windows",
+    "testing"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/mosesman831/PolyBrain",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sinfulz/JustTryHarder",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/mosesman831/PolyBrain#readme",
-  "detailPath": "data/details/mosesman831__polybrain.json",
+  "readmeUrl": "https://github.com/sinfulz/JustTryHarder#readme",
+  "detailPath": "data/details/sinfulz__justtryharder.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "PolyBrain 支持资料研究、知识检索或学习任务。",
+    "summary": "JustTryHarder 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -90,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "a48c2d30bb76449e",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "25b66ad451f2136e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PolyBrain：PolyBrain 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "PolyBrain 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "JustTryHarder：JustTryHarder 支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "JustTryHarder 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -117,7 +113,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -140,7 +136,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

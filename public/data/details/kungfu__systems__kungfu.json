@@ -1,14 +1,14 @@
 {
-  "rank": 421,
-  "id": 1185389803,
-  "name": "ai-job-search",
-  "fullName": "MadsLorentzen/ai-job-search",
-  "owner": "MadsLorentzen",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/50207393?v=4",
-  "url": "https://github.com/MadsLorentzen/ai-job-search",
-  "homepage": "",
-  "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-  "summary": "ai-job-search：基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 627,
+  "id": 110795721,
+  "name": "kungfu",
+  "fullName": "kungfu-systems/kungfu",
+  "owner": "kungfu-systems",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/297358506?v=4",
+  "url": "https://github.com/kungfu-systems/kungfu",
+  "homepage": "https://kungfu.tech",
+  "description": "Kungfu - Agent Work Ledger",
+  "summary": "kungfu：kungfu：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,39 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/MadsLorentzen/ai-job-search.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 7437,
-  "forks": 2893,
-  "openIssues": 3,
-  "score": 122.9,
+  "installCommand": "git clone git@github.com:kungfu-systems/kungfu.git\ncd kungfu\n./kungfu-code sync && ./kungfu-code build",
+  "language": "C++",
+  "license": "Apache-2.0",
+  "stars": 3881,
+  "forks": 1208,
+  "openIssues": 1,
+  "score": 116.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T19:25:27Z",
-  "updatedAt": "2026-07-07T04:19:36Z",
-  "createdAt": "2026-03-18T14:33:04Z",
+  "pushedAt": "2026-07-08T02:54:45Z",
+  "updatedAt": "2026-07-08T02:53:59Z",
+  "createdAt": "2017-11-15T06:54:01Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "kungfu"
+  ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MadsLorentzen/ai-job-search",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kungfu-systems/kungfu",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MadsLorentzen/ai-job-search#readme",
-  "detailPath": "data/details/madslorentzen__ai__job__search.json",
+  "readmeUrl": "https://github.com/kungfu-systems/kungfu#readme",
+  "detailPath": "data/details/kungfu__systems__kungfu.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试",
+    "summary": "kungfu：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +67,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "dd9b25d374293482",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "c301fcaf52cc6ee3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-job-search：基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "ai-job-search 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "kungfu：kungfu：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "kungfu 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +94,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +117,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

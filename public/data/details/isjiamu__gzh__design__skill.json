@@ -1,5 +1,5 @@
 {
-  "rank": 1448,
+  "rank": 521,
   "id": 1285705904,
   "name": "gzh-design-skill",
   "fullName": "isjiamu/gzh-design-skill",
@@ -19,19 +19,20 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/isjiamu/gzh-design-skill.git",
+  "installCommand": "npx skills add https://github.com/isjiamu/gzh-design-skill",
   "language": "HTML",
   "license": "NOASSERTION",
-  "stars": 187,
-  "forks": 31,
+  "stars": 1161,
+  "forks": 131,
   "openIssues": 0,
-  "score": 97.1,
+  "score": 119.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T19:05:47Z",
-  "updatedAt": "2026-07-07T04:18:20Z",
+  "pushedAt": "2026-07-08T01:44:18Z",
+  "updatedAt": "2026-07-08T03:47:29Z",
   "createdAt": "2026-07-01T04:28:03Z",
   "sourceTopics": [
-    "skill"
+    "skill",
+    "agent-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
@@ -54,7 +55,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -86,8 +88,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "3c61eda4e8eb39b1",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "b8d91b8ee1307009",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

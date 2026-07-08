@@ -1,5 +1,5 @@
 {
-  "rank": 787,
+  "rank": 784,
   "id": 1258203278,
   "name": "open-knowledge",
   "fullName": "inkeep/open-knowledge",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g @inkeep/open-knowledge\ncd your-project\nok init          # scaffold the project + wire up Claude Code, Cursor, and Codex",
+  "installCommand": "npm install -g @inkeep/open-knowledge\ncd your-project\nok init          # scaffold the project + wire up your AI editors (Claude Code, Claude Desktop, Cursor, Codex, OpenCode, OpenClaw)",
   "language": "TypeScript",
   "license": "GPL-3.0",
-  "stars": 1901,
-  "forks": 95,
-  "openIssues": 20,
-  "score": 112.8,
+  "stars": 1928,
+  "forks": 98,
+  "openIssues": 17,
+  "score": 112.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-07T04:18:27Z",
-  "updatedAt": "2026-07-07T04:00:12Z",
+  "pushedAt": "2026-07-08T03:46:58Z",
+  "updatedAt": "2026-07-08T03:44:19Z",
   "createdAt": "2026-06-03T11:12:40Z",
   "sourceTopics": [
     "agent-skills"
@@ -60,6 +60,7 @@
     "Claude",
     "Codex",
     "Cursor",
+    "OpenClaw",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -92,8 +93,8 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "d5d86db9c4f2c84c",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "c528c61145e65823",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

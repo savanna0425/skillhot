@@ -1,5 +1,5 @@
 {
-  "rank": 181,
+  "rank": 178,
   "id": 1217942969,
   "name": "GPT-Image2-Skill",
   "fullName": "wuyoscar/GPT-Image2-Skill",
@@ -22,13 +22,13 @@
   "installCommand": "command -v gpt-image || true\ncommand -v uv >/dev/null && uv tool list | grep -E '^gpt-image-cli([[:space:]]|$)' || true\ntest -n \"${OPENAI_API_KEY:-}\" && echo \"OPENAI_API_KEY is already set (value hidden)\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 3564,
-  "forks": 306,
+  "stars": 3590,
+  "forks": 307,
   "openIssues": 2,
-  "score": 135.3,
+  "score": 135.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-01T07:31:37Z",
-  "updatedAt": "2026-07-07T03:32:05Z",
+  "updatedAt": "2026-07-08T03:05:13Z",
   "createdAt": "2026-04-22T11:27:21Z",
   "sourceTopics": [
     "agent-skills",
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "07aa09795e0db5b5",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "ad6807b1b0fdfa4a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

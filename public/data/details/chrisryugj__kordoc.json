@@ -1,14 +1,14 @@
 {
-  "rank": 1872,
-  "id": 1183358218,
-  "name": "skill",
-  "fullName": "detaildotdesign/skill",
-  "owner": "detaildotdesign",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/71576005?v=4",
-  "url": "https://github.com/detaildotdesign/skill",
-  "homepage": "https://detail.design",
-  "description": "Skills that craft your projects with details. Micro interactions, extra considerations, wording, and more.",
-  "summary": "skill：skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1106,
+  "id": 1194353632,
+  "name": "kordoc",
+  "fullName": "chrisryugj/kordoc",
+  "owner": "chrisryugj",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/212630997?v=4",
+  "url": "https://github.com/chrisryugj/kordoc",
+  "homepage": "https://www.npmjs.com/package/kordoc",
+  "description": "모두 파싱해버리겠다 — HWP3·HWP·HWPX·HWPML·PDF·XLS·XLSX·DOCX → Markdown. 신구대조·양식 자동 채우기·MCP 통합 (CLI + MCP Server) | Parse Korean documents (HWP3-5, HWPX, HWPML, PDF, Office) to Markdown — CLI + MCP Server with form-filler & diff",
+  "summary": "kordoc：kordoc：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,26 +19,35 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/detaildotdesign/skill.git",
-  "language": "",
-  "license": "",
-  "stars": 35,
-  "forks": 2,
-  "openIssues": 0,
-  "score": 81.7,
+  "installCommand": "git clone https://github.com/chrisryugj/kordoc.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1359,
+  "forks": 262,
+  "openIssues": 2,
+  "score": 105.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-04T12:10:11Z",
-  "updatedAt": "2026-07-06T03:32:27Z",
-  "createdAt": "2026-03-16T14:27:02Z",
-  "sourceTopics": [
-    "skills-sh"
-  ],
+  "pushedAt": "2026-07-08T00:17:07Z",
+  "updatedAt": "2026-07-08T01:57:16Z",
+  "createdAt": "2026-03-28T08:33:25Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "skills",
-    "skills-sh"
+    "cli",
+    "document-parser",
+    "docx",
+    "hancom",
+    "hwp",
+    "hwpx",
+    "korean",
+    "markdown",
+    "mcp",
+    "office",
+    "parser",
+    "pdf",
+    "xlsx"
   ],
   "platforms": [
     "Agent Skills"
@@ -46,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/detaildotdesign/skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chrisryugj/kordoc",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/detaildotdesign/skill#readme",
-  "detailPath": "data/details/detaildotdesign__skill.json",
+  "readmeUrl": "https://github.com/chrisryugj/kordoc#readme",
+  "detailPath": "data/details/chrisryugj__kordoc.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "kordoc：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -70,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "3678a48af489aef2",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "a5abdd6aa2dce04e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill：skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "kordoc：kordoc：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "kordoc 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -120,7 +129,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

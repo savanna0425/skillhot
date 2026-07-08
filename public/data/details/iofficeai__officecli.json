@@ -1,5 +1,5 @@
 {
-  "rank": 294,
+  "rank": 266,
   "id": 1182212878,
   "name": "OfficeCLI",
   "fullName": "iOfficeAI/OfficeCLI",
@@ -19,24 +19,23 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "```javascript\n// Node.js — `npm install @officecli/sdk`\nimport { Doc } from \"@officecli/sdk\";",
+  "installCommand": "curl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash\nofficecli create deck.pptx\nofficecli watch deck.pptx",
   "language": "C#",
   "license": "Apache-2.0",
-  "stars": 8869,
-  "forks": 642,
-  "openIssues": 17,
-  "score": 128.8,
+  "stars": 10274,
+  "forks": 692,
+  "openIssues": 20,
+  "score": 130.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-07T01:29:06Z",
-  "updatedAt": "2026-07-07T04:17:53Z",
+  "pushedAt": "2026-07-08T03:47:24Z",
+  "updatedAt": "2026-07-08T03:48:10Z",
   "createdAt": "2026-03-15T07:39:12Z",
   "sourceTopics": [
     "skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub 搜索"
   ],
   "repoTopics": [
     "agent",
@@ -91,8 +90,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-07T04:20:43.016Z",
-    "sourceHash": "8c2ba7dd35a82cc3",
+    "generatedAt": "2026-07-08T03:50:32.641Z",
+    "sourceHash": "95eef95b7bdfa256",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
