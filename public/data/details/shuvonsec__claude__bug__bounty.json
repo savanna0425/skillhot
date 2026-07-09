@@ -1,5 +1,5 @@
 {
-  "rank": 876,
+  "rank": 626,
   "id": 1175748759,
   "name": "claude-bug-bounty",
   "fullName": "shuvonsec/claude-bug-bounty",
@@ -19,16 +19,16 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/shuvonsec/claude-bug-bounty.git",
+  "installCommand": "git clone https://github.com/shuvonsec/claude-bug-bounty.git\ncd claude-bug-bounty\n./install.sh --agent standalone",
   "language": "Python",
   "license": "MIT",
-  "stars": 3911,
+  "stars": 3920,
   "forks": 692,
-  "openIssues": 10,
-  "score": 109.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-21T09:58:47Z",
-  "updatedAt": "2026-07-07T19:53:02Z",
+  "openIssues": 9,
+  "score": 116.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-09T02:04:23Z",
+  "updatedAt": "2026-07-09T03:27:10Z",
   "createdAt": "2026-03-08T05:34:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -79,8 +79,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "145d0d7899ab14be",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "697f8dc475011316",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,14 +1,14 @@
 {
-  "rank": 1227,
-  "id": 1245465729,
-  "name": "Raven",
-  "fullName": "EverMind-AI/Raven",
-  "owner": "EverMind-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/229275294?v=4",
-  "url": "https://github.com/EverMind-AI/Raven",
-  "homepage": "https://raven.evermind.ai",
-  "description": "The memory-first self-improving agent harness built on EverOS.",
-  "summary": "Raven：Raven 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 314,
+  "id": 1203777920,
+  "name": "ai-berkshire",
+  "fullName": "xbtlin/ai-berkshire",
+  "owner": "xbtlin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6993203?v=4",
+  "url": "https://github.com/xbtlin/ai-berkshire",
+  "homepage": "https://github.com/xbtlin/ai-berkshire#readme",
+  "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+  "summary": "ai-berkshire：AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -19,55 +19,60 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/EverMind-AI/Raven.git",
+  "installCommand": "npm install -g @anthropic-ai/claude-code",
   "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 946,
-  "forks": 13,
-  "openIssues": 7,
-  "score": 101.5,
+  "license": "MIT",
+  "stars": 12097,
+  "forks": 1585,
+  "openIssues": 12,
+  "score": 128,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T03:45:28Z",
-  "updatedAt": "2026-07-08T03:46:13Z",
-  "createdAt": "2026-05-21T08:45:07Z",
+  "pushedAt": "2026-07-08T16:45:28Z",
+  "updatedAt": "2026-07-09T04:14:49Z",
+  "createdAt": "2026-04-07T11:19:51Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "ai",
-    "ai-agents",
+    "ai-agent",
     "anthropic",
-    "chatgpt",
+    "berkshire-hathaway",
+    "charlie-munger",
+    "china-stock",
     "claude",
-    "codex",
-    "evermind",
-    "hermes",
-    "hermes-agent",
+    "claude-code",
+    "financial-analysis",
+    "fintech",
+    "fundamental-analysis",
+    "investment",
+    "investment-research",
     "llm",
-    "openai",
-    "openclaw",
-    "openhuman",
-    "self-evolving",
-    "self-improving"
+    "mcp",
+    "portfolio-management",
+    "stock-analysis",
+    "stock-market",
+    "value-investing",
+    "warren-buffett"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/EverMind-AI/Raven",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/xbtlin/ai-berkshire",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/EverMind-AI/Raven#readme",
-  "detailPath": "data/details/evermind__ai__raven.json",
+  "readmeUrl": "https://github.com/xbtlin/ai-berkshire#readme",
+  "detailPath": "data/details/xbtlin__ai__berkshire.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Raven 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -83,17 +88,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "d4b1767f01239e78",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "da32034660fe24ed",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Raven：Raven 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "Raven 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-berkshire：AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing resea。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "ai-berkshire 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -110,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -133,7 +138,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

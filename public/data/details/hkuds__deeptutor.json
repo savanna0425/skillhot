@@ -1,5 +1,5 @@
 {
-  "rank": 172,
+  "rank": 173,
   "id": 1124219907,
   "name": "DeepTutor",
   "fullName": "HKUDS/DeepTutor",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
   "url": "https://github.com/HKUDS/DeepTutor",
   "homepage": "http://arxiv.org/abs/2604.26962",
-  "description": "DeepTutor: Agent-native Personalized Tutoring. https://deeptutor.info/.",
-  "summary": "DeepTutor：DeepTutor：基于代理的个性化辅导。https://deeptutor.info/。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "summary": "DeepTutor：DeepTutor 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "mkdir -p my-deeptutor && cd my-deeptutor\npip install -U deeptutor\ndeeptutor init     # prompts for ports + LLM provider + optional embedding",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 25331,
-  "forks": 3448,
+  "stars": 25402,
+  "forks": 3458,
   "openIssues": 46,
   "score": 135.7,
   "activity": "本周活跃",
   "pushedAt": "2026-07-04T08:40:33Z",
-  "updatedAt": "2026-07-08T03:40:33Z",
+  "updatedAt": "2026-07-09T04:16:57Z",
   "createdAt": "2025-12-28T15:35:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DeepTutor：基于代理的个性化辅导。https://deeptutor.info/",
+    "summary": "DeepTutor 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "225ef682f9d90b30",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "06e96016ea26ee29",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeepTutor：DeepTutor：基于代理的个性化辅导。https://deeptutor.info/。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "DeepTutor：DeepTutor 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "DeepTutor 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

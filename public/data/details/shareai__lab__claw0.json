@@ -1,5 +1,5 @@
 {
-  "rank": 738,
+  "rank": 1025,
   "id": 1165581971,
   "name": "claw0",
   "fullName": "shareAI-lab/claw0",
@@ -8,7 +8,7 @@
   "url": "https://github.com/shareAI-lab/claw0",
   "homepage": "",
   "description": "0 - 1 learn OpenClaw: sections to build an claw-AI agent from scratch",
-  "summary": "claw0：claw0 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "claw0：claw0 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/shareAI-lab/claw0.git && cd claw0\npip install -r requirements.txt\ncp .env.example .env",
+  "installCommand": "git clone https://github.com/shareAI-lab/claw0.git",
   "language": "Python",
   "license": "",
-  "stars": 3083,
-  "forks": 360,
+  "stars": 3091,
+  "forks": 361,
   "openIssues": 3,
-  "score": 113.8,
-  "activity": "本周活跃",
+  "score": 106.8,
+  "activity": "本月活跃",
   "pushedAt": "2026-06-30T16:13:05Z",
-  "updatedAt": "2026-07-08T03:24:53Z",
+  "updatedAt": "2026-07-09T03:49:10Z",
   "createdAt": "2026-02-24T10:16:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,6 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -69,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "0364f205b8340b07",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "f1c850bf9fef7fce",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claw0：claw0 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "claw0：claw0 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "claw0 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -93,7 +92,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

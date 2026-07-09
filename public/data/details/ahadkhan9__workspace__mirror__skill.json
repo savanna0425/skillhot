@@ -1,81 +1,100 @@
 {
-  "rank": 1189,
-  "id": 1275653543,
-  "name": "mediary-scout",
-  "fullName": "fancydirty/mediary-scout",
-  "owner": "fancydirty",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/165763919?v=4",
-  "url": "https://github.com/fancydirty/mediary-scout",
-  "homepage": "https://mediary.dirtyfancy.sbs",
-  "description": "Agent-driven media library for your cloud drives (115 / Quark / 光鸭 GuangYaPan).",
-  "summary": "mediary-scout 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 2053,
+  "id": 1293318573,
+  "name": "workspace-mirror-skill",
+  "fullName": "ahadkhan9/workspace-mirror-skill",
+  "owner": "ahadkhan9",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/73303850?v=4",
+  "url": "https://github.com/ahadkhan9/workspace-mirror-skill",
+  "homepage": "",
+  "description": "",
+  "summary": "workspace-mirror-skill：workspace-mirror-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/fancydirty/mediary-scout.git",
-  "language": "TypeScript",
-  "license": "0BSD",
-  "stars": 992,
-  "forks": 52,
-  "openIssues": 3,
-  "score": 102,
+  "installCommand": "git clone https://github.com/ahadkhan9/workspace-mirror-skill.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 5,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 70.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-07T08:35:46Z",
-  "updatedAt": "2026-07-08T03:27:22Z",
-  "createdAt": "2026-06-21T01:25:20Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-07-08T20:23:02Z",
+  "updatedAt": "2026-07-08T20:23:06Z",
+  "createdAt": "2026-07-08T08:41:19Z",
+  "sourceTopics": [
+    "ai-agent-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agentic-workflows",
+    "ai-agent-skills",
+    "antigravity",
+    "antigravity-ide",
+    "antigravity-sdk",
+    "antigravity-skill",
+    "backup-tool",
+    "developer-tools",
+    "gemini-local",
+    "gemini-mirror",
+    "google-antigravity",
+    "llm-workspace",
+    "mcp",
+    "mcp-server",
+    "sqlite-backup"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/fancydirty/mediary-scout",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ahadkhan9/workspace-mirror-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/fancydirty/mediary-scout#readme",
-  "detailPath": "data/details/fancydirty__mediary__scout.json",
+  "readmeUrl": "https://github.com/ahadkhan9/workspace-mirror-skill#readme",
+  "detailPath": "data/details/ahadkhan9__workspace__mirror__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agent-driven media library for your cloud drives (115 / Quark / 光鸭 GuangYaPan).",
+    "summary": "workspace-mirror-skill：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
       "个人生产力"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 0BSD，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "4f891a8b3c29da67",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "0227911e9fa3f882",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mediary-scout 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "mediary-scout 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "workspace-mirror-skill：workspace-mirror-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
+    "whatItIs": "workspace-mirror-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -92,7 +111,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -115,7 +134,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 0BSD，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

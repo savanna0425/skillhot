@@ -1,5 +1,5 @@
 {
-  "rank": 372,
+  "rank": 370,
   "id": 908108028,
   "name": "AI-Infra-Guard",
   "fullName": "Tencent/AI-Infra-Guard",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Tencent/AI-Infra-Guard",
   "homepage": "https://tencent.github.io/AI-Infra-Guard/",
   "description": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
-  "summary": "AI-Infra-Guard：全栈 AI 红队平台，通过 OpenClaw Security Scan、Agent Scan、Skills Scan、MCP 扫描、AI Infra 扫描及 LLM 劫持评估，安全保护 AI 生态系统。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "AI-Infra-Guard：全栈 AI 红队平台，通过 OpenClaw Security Scan、Agent Scan、Skills Scan、MCP 扫描、AI Infra 扫描及 LLM 劫持评估，安全保护 AI 生态系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Tencent/AI-Infra-Guard.git\ncd AI-Infra-Guard\ndocker-compose -f docker-compose.images.yml up -d",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4068,
+  "stars": 4076,
   "forks": 393,
   "openIssues": 18,
   "score": 124.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T03:23:10Z",
-  "updatedAt": "2026-07-08T03:23:14Z",
+  "pushedAt": "2026-07-08T08:11:22Z",
+  "updatedAt": "2026-07-09T03:24:12Z",
   "createdAt": "2024-12-25T06:39:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,6 +56,8 @@
     "vulnerability"
   ],
   "platforms": [
+    "Claude",
+    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -88,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "1da50bfe2ced93d3",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "ad8216d379b9ed63",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-Infra-Guard：全栈 AI 红队平台，通过 OpenClaw Security Scan、Agent Scan、Skills Scan、MCP 扫描、AI Infra 扫描及 LLM 劫持评估，安全保护 AI 生态系统。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "AI-Infra-Guard：全栈 AI 红队平台，通过 OpenClaw Security Scan、Agent Scan、Skills Scan、MCP 扫描、AI Infra 扫描及 LLM 劫持评估，安全保护 AI 生态系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "AI-Infra-Guard 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
@@ -112,7 +114,7 @@
       "开发者、安全研究员和需要做风险自查的团队。",
       "想把安全检查嵌入 Agent 或开发流程的人。",
       "需要快速筛查配置、依赖或代码风险的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "未经授权的攻击、绕过或滥用场景。",

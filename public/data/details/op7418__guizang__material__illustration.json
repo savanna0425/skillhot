@@ -1,71 +1,71 @@
 {
-  "rank": 891,
-  "id": 1191561598,
-  "name": "brightbean-studio",
-  "fullName": "brightbeanxyz/brightbean-studio",
-  "owner": "brightbeanxyz",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/268594138?v=4",
-  "url": "https://github.com/brightbeanxyz/brightbean-studio",
-  "homepage": "https://brightbean.xyz/studio/",
-  "description": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
-  "summary": "brightbean-studio：开源、可自建的社会媒体管理平台。从单一仪表板跨 10 多个平台进行日程安排、发布和内容管理。Buffer、Sendible 和 SocialPilot 的免费替代方案。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1132,
+  "id": 1292406637,
+  "name": "guizang-material-illustration",
+  "fullName": "op7418/guizang-material-illustration",
+  "owner": "op7418",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/13505770?v=4",
+  "url": "https://github.com/op7418/guizang-material-illustration",
+  "homepage": "",
+  "description": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
+  "summary": "guizang-material-illustration：归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/brightbeanxyz/brightbean-studio.git",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stars": 1962,
-  "forks": 389,
-  "openIssues": 17,
-  "score": 109.1,
+  "installCommand": "git clone https://github.com/op7418/guizang-material-illustration.git",
+  "language": "",
+  "license": "",
+  "stars": 359,
+  "forks": 32,
+  "openIssues": 0,
+  "score": 103.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-02T20:16:40Z",
-  "updatedAt": "2026-07-08T03:00:07Z",
-  "createdAt": "2026-03-25T11:16:28Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-07T18:13:06Z",
+  "updatedAt": "2026-07-09T04:11:33Z",
+  "createdAt": "2026-07-07T13:57:13Z",
+  "sourceTopics": [
+    "skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agpl",
-    "buffer-alternative",
-    "content-management",
-    "django",
-    "docker",
-    "htmx",
-    "multi-platform",
-    "open-source",
-    "python",
-    "scheduling",
-    "self-hosted",
-    "social-media",
-    "social-media-management",
-    "social-media-scheduler",
-    "tailwindcss"
+    "agent",
+    "chart-visualization",
+    "chinese",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "explainer",
+    "illustration",
+    "image-generation",
+    "material-illustration",
+    "skill",
+    "social-media"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/brightbeanxyz/brightbean-studio",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/op7418/guizang-material-illustration",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/brightbeanxyz/brightbean-studio#readme",
-  "detailPath": "data/details/brightbeanxyz__brightbean__studio.json",
+  "readmeUrl": "https://github.com/op7418/guizang-material-illustration#readme",
+  "detailPath": "data/details/op7418__guizang__material__illustration.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源、可自建的社会媒体管理平台。从单一仪表板跨 10 多个平台进行日程安排、发布和内容管理。Buffer、Sendible 和 SocialPilot 的免费替代方案",
+    "summary": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -81,17 +81,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "93bd59a43bb76aba",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "adbcada5dfa4dda5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "brightbean-studio：开源、可自建的社会媒体管理平台。从单一仪表板跨 10 多个平台进行日程安排、发布和内容管理。Buffer、Sendible 和 SocialPilot 的免费替代方案。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "brightbean-studio 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "guizang-material-illustration：归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "guizang-material-illustration 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -108,7 +108,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -131,7 +131,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

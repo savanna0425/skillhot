@@ -1,72 +1,63 @@
 {
-  "rank": 1833,
-  "id": 1282107840,
-  "name": "AngleCraft",
-  "fullName": "MADEVAL/AngleCraft",
-  "owner": "MADEVAL",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/10908537?v=4",
-  "url": "https://github.com/MADEVAL/AngleCraft",
-  "homepage": "https://github.com/MADEVAL/AngleCraft",
-  "description": "Turn dry expert topics into high-engagement content with 7+2 journalistic angle types. An AI skill for any LLM, any niche, any language.",
-  "summary": "AngleCraft：AngleCraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1893,
+  "id": 1275873724,
+  "name": "bili-note",
+  "fullName": "Rimagination/bili-note",
+  "owner": "Rimagination",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/57791834?v=4",
+  "url": "https://github.com/Rimagination/bili-note",
+  "homepage": "",
+  "description": "Extract Bilibili videos into learning-oriented Markdown notes with full subtitle and comment archives",
+  "summary": "bili-note：bili-note：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/MADEVAL/AngleCraft.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/Rimagination/bili-note.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 46,
-  "forks": 14,
+  "stars": 157,
+  "forks": 11,
   "openIssues": 0,
-  "score": 84,
-  "activity": "本周活跃",
-  "pushedAt": "2026-06-30T21:10:54Z",
-  "updatedAt": "2026-06-30T21:11:11Z",
-  "createdAt": "2026-06-27T10:33:05Z",
+  "score": 80.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-25T19:25:06Z",
+  "updatedAt": "2026-07-08T22:09:20Z",
+  "createdAt": "2026-06-21T08:42:43Z",
   "sourceTopics": [
-    "ai-skill"
+    "codex-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skill",
-    "ai-skill",
-    "anglecraft",
-    "content-creation",
-    "content-marketing",
-    "content-strategy",
-    "copywriting",
-    "infotainment",
-    "llm",
-    "marketing",
-    "newsletter",
-    "prompt-engineering",
-    "social-media",
-    "storytelling"
+    "bilibili",
+    "codex-skill",
+    "markdown",
+    "notes",
+    "rag"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MADEVAL/AngleCraft",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Rimagination/bili-note",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MADEVAL/AngleCraft#readme",
-  "detailPath": "data/details/madeval__anglecraft.json",
+  "readmeUrl": "https://github.com/Rimagination/bili-note#readme",
+  "detailPath": "data/details/rimagination__bili__note.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AngleCraft：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "bili-note：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -85,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "681d2b795fe933bd",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "fe842bf685f945fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AngleCraft：AngleCraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "AngleCraft 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "bili-note：bili-note：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "bili-note 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -109,7 +100,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

@@ -1,5 +1,5 @@
 {
-  "rank": 756,
+  "rank": 1088,
   "id": 1197055882,
   "name": "ex-skill",
   "fullName": "therealXiaomanChu/ex-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/therealXiaomanChu/ex-skill",
   "homepage": "",
   "description": "把前任蒸馏成 AI Skill，用ta的方式跟你说话。",
-  "summary": "ex-skill：把前任蒸馏成 AI Skill，用ta的方式跟你说话。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ex-skill：把前任蒸馏成 AI Skill，用ta的方式跟你说话。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "mkdir -p .claude/skills\ngit clone https://github.com/therealXiaomanChu/ex-skill .claude/skills/create-ex\ngit clone https://github.com/therealXiaomanChu/ex-skill ~/.claude/skills/create-ex",
+  "installCommand": "git clone https://github.com/therealXiaomanChu/ex-skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 5805,
+  "stars": 5806,
   "forks": 537,
   "openIssues": 21,
-  "score": 113.3,
-  "activity": "近期活跃",
+  "score": 105.4,
+  "activity": "活跃",
   "pushedAt": "2026-04-08T16:46:35Z",
-  "updatedAt": "2026-07-07T18:06:57Z",
+  "updatedAt": "2026-07-09T03:07:58Z",
   "createdAt": "2026-03-31T09:36:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "227e6ca6f46c2504",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "dc517bae7474ab63",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ex-skill：把前任蒸馏成 AI Skill，用ta的方式跟你说话。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ex-skill：把前任蒸馏成 AI Skill，用ta的方式跟你说话。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "ex-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -93,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

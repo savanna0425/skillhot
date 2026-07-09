@@ -1,5 +1,5 @@
 {
-  "rank": 1807,
+  "rank": 1620,
   "id": 925651676,
   "name": ".context",
   "fullName": "forefy/.context",
@@ -7,16 +7,16 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/166978930?v=4",
   "url": "https://github.com/forefy/.context",
   "homepage": "",
-  "description": "AI Agent Skills for Smart Contract Auditing to generate triaged, industry grade report findings, code locations, pocs, attacker story flow graphs and more",
-  "summary": ".context：.context：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "description": "AI Agent Skills for Security Auditing to generate triaged, industry grade report findings, code locations, pocs, attacker story flow graphs and more",
+  "summary": ".context：.context 聚焦安全审计、漏洞检查与风险治理。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
+  "categoryConfidence": "中",
+  "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/forefy/.context.git",
@@ -25,10 +25,10 @@
   "stars": 109,
   "forks": 25,
   "openIssues": 0,
-  "score": 84.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-09T22:44:15Z",
-  "updatedAt": "2026-07-05T01:43:53Z",
+  "score": 91.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-08T10:13:46Z",
+  "updatedAt": "2026-07-08T11:09:07Z",
   "createdAt": "2025-02-01T12:00:50Z",
   "sourceTopics": [
     "skill-md"
@@ -58,18 +58,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": ".context：尚未归入主要类别的实用项目。",
+    "summary": ".context 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -77,51 +77,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "678431348f1b5560",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "8a61cd396077d460",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": ".context：.context：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": ".context 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": ".context：.context 聚焦安全审计、漏洞检查与风险治理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": ".context 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
+      "安全排查需要固定流程，不能只靠临时经验。",
+      "团队希望把安全审计能力前置到开发或使用阶段。",
+      "如果你的任务和「代码审计」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "辅助安全审计、漏洞研究、权限检查、合规排查或威胁分析。",
+      "把安全检查步骤整理成可复用的 Agent 工作流。",
+      "帮助你判断它是否适合当前风险场景。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
+      "开发者、安全研究员和需要做风险自查的团队。",
+      "想把安全检查嵌入 Agent 或开发流程的人。",
+      "需要快速筛查配置、依赖或代码风险的人。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "未经授权的攻击、绕过或滥用场景。",
+      "把工具输出当作最终安全结论而不做人工复核的人。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过规则、脚本、扫描器、Skill 或报告模板执行检查。",
+      "用户提供目标代码、配置或范围后，Agent 按流程分析并输出线索。",
+      "安全结论需要结合上下文和专业复核。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先阅读许可和使用边界。",
+      "在你有授权的项目中试跑。",
+      "把发现的问题交给人工确认后再修复或披露。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "更早发现潜在风险。",
+      "安全检查过程更有结构。",
+      "团队可以复用固定审计流程。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

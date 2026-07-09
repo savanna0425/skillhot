@@ -1,5 +1,5 @@
 {
-  "rank": 802,
+  "rank": 1091,
   "id": 1252198341,
   "name": "claude-skill-web-clone",
   "fullName": "Jane-xiaoer/claude-skill-web-clone",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Jane-xiaoer/claude-skill-web-clone",
   "homepage": "",
   "description": "Methodology for faithfully cloning any website (static / React / WebGL) — without copying AI-hallucinated code. Real source first.",
-  "summary": "claude-skill-web-clone：claude-skill-web-clone 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "claude-skill-web-clone：claude-skill-web-clone 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Jane-xiaoer/claude-skill-web-clone.git ~/.claude/skills/web-clone",
+  "installCommand": "git clone https://github.com/Jane-xiaoer/claude-skill-web-clone.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 561,
-  "forks": 81,
+  "stars": 577,
+  "forks": 82,
   "openIssues": 0,
-  "score": 112.2,
-  "activity": "本周活跃",
+  "score": 105.4,
+  "activity": "本月活跃",
   "pushedAt": "2026-06-30T10:47:19Z",
-  "updatedAt": "2026-07-08T03:38:08Z",
+  "updatedAt": "2026-07-09T01:18:26Z",
   "createdAt": "2026-05-28T09:31:24Z",
   "sourceTopics": [
     "skill",
@@ -47,9 +47,7 @@
     "webgl"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -81,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "dcc2056a3b99c301",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "9008dbd722c0c875",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skill-web-clone：claude-skill-web-clone 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-skill-web-clone：claude-skill-web-clone 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-skill-web-clone 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -105,7 +103,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 16,
+  "rank": 15,
   "id": 1024554267,
   "name": "hermes-agent",
   "fullName": "NousResearch/hermes-agent",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash\ncd \"${HERMES_HOME:-$HOME/.hermes}/hermes-agent\"\nuv pip install -e \".[all,dev]\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 211099,
-  "forks": 38753,
-  "openIssues": 26694,
+  "stars": 211693,
+  "forks": 38929,
+  "openIssues": 27011,
   "score": 157.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T03:43:15Z",
-  "updatedAt": "2026-07-08T03:49:08Z",
+  "pushedAt": "2026-07-09T04:15:25Z",
+  "updatedAt": "2026-07-09T04:14:48Z",
   "createdAt": "2025-07-22T22:22:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -87,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-08T03:50:32.641Z",
-    "sourceHash": "1a1c6e492fc304c6",
+    "generatedAt": "2026-07-09T04:18:31.404Z",
+    "sourceHash": "2f19bdc16994cab1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
