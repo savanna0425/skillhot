@@ -1,14 +1,14 @@
 {
-  "rank": 1712,
-  "id": 287581924,
-  "name": "awesome-biomechanics",
-  "fullName": "modenaxe/awesome-biomechanics",
-  "owner": "modenaxe",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/7674529?v=4",
-  "url": "https://github.com/modenaxe/awesome-biomechanics",
-  "homepage": "",
-  "description": "A curated, public list of resources for biomechanics and human motion analysis: datasets, processing tools,  software for simulation, educational videos, lectures, etc.",
-  "summary": "awesome-biomechanics 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 151,
+  "id": 655459367,
+  "name": "awesome-ai-agents",
+  "fullName": "e2b-dev/awesome-ai-agents",
+  "owner": "e2b-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/129434473?v=4",
+  "url": "https://github.com/e2b-dev/awesome-ai-agents",
+  "homepage": "https://e2b.dev/docs",
+  "description": "A list of AI autonomous agents",
+  "summary": "awesome-ai-agents 是一个面向 Claude、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,55 +19,52 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/modenaxe/awesome-biomechanics.git",
+  "installCommand": "git clone https://github.com/e2b-dev/awesome-ai-agents.git",
   "language": "",
-  "license": "",
-  "stars": 997,
-  "forks": 150,
-  "openIssues": 208,
-  "score": 87.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-10T16:20:10Z",
-  "updatedAt": "2026-07-08T17:41:37Z",
-  "createdAt": "2020-08-14T16:53:40Z",
+  "license": "NOASSERTION",
+  "stars": 28671,
+  "forks": 3129,
+  "openIssues": 822,
+  "score": 137,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-09T17:41:48Z",
+  "updatedAt": "2026-07-10T03:53:13Z",
+  "createdAt": "2023-06-19T00:20:06Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent",
+    "ai",
+    "artificial-intelligence",
+    "autogpt",
+    "autonomous-agents",
     "awesome",
-    "awesome-list",
-    "bioengineering",
-    "biomechanics",
-    "computer-simulation",
-    "dataset",
-    "dynamics",
-    "gait",
-    "gait-analysis",
-    "human-motion",
-    "human-motion-analysis",
-    "motion",
-    "motion-capture",
-    "motion-tracking",
-    "musculoskeletal-models",
-    "musculoskeletal-simulations",
-    "science"
+    "babyagi",
+    "copilot",
+    "gpt",
+    "gpt-4",
+    "gpt-engineer",
+    "openai",
+    "python"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/modenaxe/awesome-biomechanics",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/e2b-dev/awesome-ai-agents",
+    "videoUrl": "https://www.youtube.com/watch?v=id7XRcEIBvg&ab_channel=StephenBonifacio"
   },
-  "readmeUrl": "https://github.com/modenaxe/awesome-biomechanics#readme",
-  "detailPath": "data/details/modenaxe__awesome__biomechanics.json",
+  "readmeUrl": "https://github.com/e2b-dev/awesome-ai-agents#readme",
+  "detailPath": "data/details/e2b__dev__awesome__ai__agents.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "awesome-biomechanics 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+    "summary": "awesome-ai-agents 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -83,17 +80,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "69667c764ef9debd",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "d47615dc486139f6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-biomechanics 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-biomechanics 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-ai-agents 是一个面向 Claude、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-ai-agents 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -110,7 +107,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -133,7 +130,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

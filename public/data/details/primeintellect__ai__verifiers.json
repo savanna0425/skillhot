@@ -1,5 +1,5 @@
 {
-  "rank": 590,
+  "rank": 595,
   "id": 920603619,
   "name": "verifiers",
   "fullName": "PrimeIntellect-ai/verifiers",
@@ -8,7 +8,7 @@
   "url": "https://github.com/PrimeIntellect-ai/verifiers",
   "homepage": "",
   "description": "Our library for RL environments + evals",
-  "summary": "verifiers 是一个面向 Claude、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "verifiers 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh\nuv tool install prime\nprime login",
+  "installCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh\nuv tool install prime",
   "language": "Python",
   "license": "MIT",
-  "stars": 4276,
-  "forks": 574,
-  "openIssues": 278,
+  "stars": 4285,
+  "forks": 576,
+  "openIssues": 274,
   "score": 117.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-09T02:37:56Z",
-  "updatedAt": "2026-07-09T03:57:39Z",
+  "pushedAt": "2026-07-10T04:10:01Z",
+  "updatedAt": "2026-07-09T22:35:08Z",
   "createdAt": "2025-01-22T12:58:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -69,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "ee94bd80a6a7fd31",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "2585cd4520537b65",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "verifiers 是一个面向 Claude、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "verifiers 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "verifiers 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -93,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

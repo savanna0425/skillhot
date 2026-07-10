@@ -1,5 +1,5 @@
 {
-  "rank": 222,
+  "rank": 224,
   "id": 812975380,
   "name": "agent-zero",
   "fullName": "agent0ai/agent-zero",
@@ -8,7 +8,7 @@
   "url": "https://github.com/agent0ai/agent-zero",
   "homepage": "https://agent-zero.ai",
   "description": "Agent Zero AI framework",
-  "summary": "agent-zero：零号 Agent 人工智能框架。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "agent-zero：零号 Agent 人工智能框架。适合在 Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/agent0ai/agent-zero.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 18374,
-  "forks": 3680,
-  "openIssues": 249,
+  "stars": 18377,
+  "forks": 3679,
+  "openIssues": 242,
   "score": 132.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T12:47:35Z",
-  "updatedAt": "2026-07-09T03:28:25Z",
+  "pushedAt": "2026-07-09T16:29:21Z",
+  "updatedAt": "2026-07-10T02:01:34Z",
   "createdAt": "2024-06-10T09:10:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,15 +44,13 @@
     "zero"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/agent0ai/agent-zero",
-    "videoUrl": "https://www.youtube.com/watch?v=k78HX_RA9Q0&t=19s"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/agent0ai/agent-zero#readme",
   "detailPath": "data/details/agent0ai__agent__zero.json",
@@ -78,13 +76,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "cdb7b7592e044056",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "f687f89d62e2cc3c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-zero：零号 Agent 人工智能框架。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "agent-zero：零号 Agent 人工智能框架。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "agent-zero 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -102,7 +100,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

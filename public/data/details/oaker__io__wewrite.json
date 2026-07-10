@@ -1,5 +1,5 @@
 {
-  "rank": 756,
+  "rank": 763,
   "id": 1192745137,
   "name": "wewrite",
   "fullName": "oaker-io/wewrite",
@@ -22,13 +22,13 @@
   "installCommand": "之后在 Codex 里用 `/wewrite 写一篇关于 X 的文章` 触发完整流程。Codex 没有 SKILL.md 自动触发机制，所以通过自定义 prompt 承载；源 `SKILL.md` 更新后重跑 `build_codex.py --install` 同步。详见 [`dist/codex/README.md`](dist/codex/README.md)。\n`install.sh` 会在 `.venv` 里创建隔离环境并安装依赖，自动绕过 macOS Homebrew Python 的 PEP 668 限制。skill 运行时会自动使用该 venv，无需手动 `activate`。\n> 若你的环境没有 PEP 668 限制，也可以照旧直接 `pip install -r requirements.t",
   "language": "Python",
   "license": "MIT",
-  "stars": 2704,
+  "stars": 2712,
   "forks": 431,
   "openIssues": 9,
   "score": 113.4,
   "activity": "本月活跃",
   "pushedAt": "2026-06-17T06:20:56Z",
-  "updatedAt": "2026-07-09T04:05:50Z",
+  "updatedAt": "2026-07-10T01:15:31Z",
   "createdAt": "2026-03-26T14:18:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,8 +70,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "46410d545b2e29a9",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "71805b5c27f49625",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

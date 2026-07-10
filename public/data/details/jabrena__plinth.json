@@ -1,5 +1,5 @@
 {
-  "rank": 772,
+  "rank": 604,
   "id": 929599382,
   "name": "plinth",
   "fullName": "jabrena/plinth",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/147263?v=4",
   "url": "https://github.com/jabrena/plinth",
   "homepage": "https://jabrena.github.io/plinth/",
-  "description": "An opinionated, AI-native development workflow for Java Enterprise — reusable Skills, Agents, Commands, and MCP servers combined with a human-in-the-loop model to modernize real-world SDLC practices.",
+  "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise development, powered by Commands, Agents, Skills & MCP Servers.",
   "summary": "plinth：plinth 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
-  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,18 +22,19 @@
   "installCommand": "npx skills add jabrena/plinth --skill '*' --agent cursor -y\nnpx skills add jabrena/plinth --skill '*' --agent claude-code -y\nnpx skills add jabrena/plinth --skill '*' --agent codex -y",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 414,
+  "stars": 415,
   "forks": 83,
-  "openIssues": 15,
-  "score": 113.1,
+  "openIssues": 16,
+  "score": 117.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T21:56:47Z",
-  "updatedAt": "2026-07-08T22:23:59Z",
+  "pushedAt": "2026-07-09T22:01:20Z",
+  "updatedAt": "2026-07-09T20:59:20Z",
   "createdAt": "2025-02-08T23:14:36Z",
   "sourceTopics": [
     "ai-skills",
     "claude-code-skills",
-    "codex-skills"
+    "codex-skills",
+    "cursor-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
@@ -94,8 +95,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "778852c656514519",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "3f7f1ee8c21da531",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

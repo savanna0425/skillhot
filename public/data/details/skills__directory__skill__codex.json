@@ -1,14 +1,14 @@
 {
-  "rank": 2223,
-  "id": 1239763318,
-  "name": "awesome-sre-skills",
-  "fullName": "anyshift-io/awesome-sre-skills",
-  "owner": "anyshift-io",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/165938460?v=4",
-  "url": "https://github.com/anyshift-io/awesome-sre-skills",
+  "rank": 1413,
+  "id": 1080728121,
+  "name": "skill-codex",
+  "fullName": "skills-directory/skill-codex",
+  "owner": "skills-directory",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/239328412?v=4",
+  "url": "https://github.com/skills-directory/skill-codex",
   "homepage": "",
-  "description": "A curated list of SRE skills, MCP servers, and AI-SRE resources",
-  "summary": "awesome-sre-skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "A claude code skill to delegate prompts to codex",
+  "summary": "skill-codex 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,48 +19,42 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/anyshift-io/awesome-sre-skills.git",
+  "installCommand": "git clone https://github.com/skills-directory/skill-codex.git",
   "language": "",
-  "license": "Apache-2.0",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-08T14:37:33Z",
-  "updatedAt": "2026-07-02T15:57:17Z",
-  "createdAt": "2026-05-15T12:17:28Z",
-  "sourceTopics": [
-    "anthropic-skills"
-  ],
+  "license": "MIT",
+  "stars": 1362,
+  "forks": 105,
+  "openIssues": 1,
+  "score": 98.3,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-03T13:22:20Z",
+  "updatedAt": "2026-07-10T03:38:42Z",
+  "createdAt": "2025-10-21T19:28:43Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "anthropic-skills",
-    "anyshift",
-    "awesome",
-    "awesome-list",
-    "claude-skills",
-    "site-reliability-engineering",
-    "sre"
+    "claude",
+    "claude-code",
+    "codex"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/anyshift-io/awesome-sre-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/skills-directory/skill-codex",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/anyshift-io/awesome-sre-skills#readme",
-  "detailPath": "data/details/anyshift__io__awesome__sre__skills.json",
+  "readmeUrl": "https://github.com/skills-directory/skill-codex#readme",
+  "detailPath": "data/details/skills__directory__skill__codex.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "awesome-sre-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+    "summary": "Claude 代码技能：将提示词委托给 Codex",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -76,17 +70,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "269591ed334af0f1",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "5544033b6704ad53",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-sre-skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-sre-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "skill-codex 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "skill-codex 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -103,7 +97,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -126,7 +120,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

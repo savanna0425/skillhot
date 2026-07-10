@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/86360035?v=4",
   "url": "https://github.com/jeecgboot/JeecgBoot",
   "homepage": "https://jeecg.com",
-  "description": "AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。",
+  "description": "【低代码迈入 v2.0】AI低代码平台，AI Skills 一句话生成整个系统；一键生成前后端代码甚至整个模块。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
   "summary": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jeecgboot/JeecgBoot.git",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 46975,
-  "forks": 16080,
-  "openIssues": 51,
+  "stars": 46988,
+  "forks": 16083,
+  "openIssues": 52,
   "score": 154.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T14:48:25Z",
-  "updatedAt": "2026-07-09T04:06:25Z",
+  "pushedAt": "2026-07-09T12:22:40Z",
+  "updatedAt": "2026-07-10T03:23:03Z",
   "createdAt": "2018-11-26T10:40:00Z",
   "sourceTopics": [
     "skills"
@@ -94,14 +94,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "4125a27e61779f6f",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "1c8a950dfe9b1545",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
     "plainIntro": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：【低代码迈入 v2.0】AI低代码平台，AI Skills 一句话生成整个系统；一键生成前后端代码甚至整个模块。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

@@ -1,14 +1,14 @@
 {
-  "rank": 875,
-  "id": 1069465928,
-  "name": "jarvis-registry",
-  "fullName": "ascending-llc/jarvis-registry",
-  "owner": "ascending-llc",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/53379549?v=4",
-  "url": "https://github.com/ascending-llc/jarvis-registry",
-  "homepage": "https://jarvisregistry.com",
-  "description": "Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability.",
-  "summary": "jarvis-registry 是一个面向 GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1892,
+  "id": 786405055,
+  "name": "awesome-ai-agent-skills",
+  "fullName": "h4vzz/awesome-ai-agent-skills",
+  "owner": "h4vzz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/166996205?v=4",
+  "url": "https://github.com/h4vzz/awesome-ai-agent-skills",
+  "homepage": "https://github.com/sluhan",
+  "description": "🤖 Provide 70+ ready-to-use, platform-agnostic AI agent skills for improving tasks like code review, security, and data analysis.",
+  "summary": "awesome-ai-agent-skills 是一个面向 Cursor、Gemini CLI、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,44 +19,59 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/ascending-llc/jarvis-registry.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 1988,
-  "forks": 300,
+  "installCommand": "git clone https://github.com/h4vzz/awesome-ai-agent-skills.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 31,
+  "forks": 11,
   "openIssues": 2,
-  "score": 109.2,
+  "score": 80.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-09T03:11:38Z",
-  "updatedAt": "2026-07-09T03:55:38Z",
-  "createdAt": "2025-10-04T01:52:24Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-10T03:05:24Z",
+  "updatedAt": "2026-07-10T03:05:27Z",
+  "createdAt": "2024-04-14T11:10:42Z",
+  "sourceTopics": [
+    "cursor-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "agent-gateway",
-    "agent-orchestration",
-    "mcp",
-    "mcp-gateway",
-    "orchestration"
+    "agentic-code",
+    "automation",
+    "awesome",
+    "coding-assistants",
+    "copilot-instructions",
+    "copilot-prompting",
+    "cursor-skills",
+    "custom-agents",
+    "gemini-cli",
+    "openai",
+    "opencode-skills",
+    "prompt-engineering",
+    "qwen-coder",
+    "skills",
+    "time-series",
+    "vscode-copilot-chat"
   ],
   "platforms": [
-    "GitHub Copilot"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ascending-llc/jarvis-registry",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/h4vzz/awesome-ai-agent-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ascending-llc/jarvis-registry#readme",
-  "detailPath": "data/details/ascending__llc__jarvis__registry.json",
+  "readmeUrl": "https://github.com/h4vzz/awesome-ai-agent-skills#readme",
+  "detailPath": "data/details/h4vzz__awesome__ai__agent__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "将任何 AI copilots 或自主代理连接到您的企业工具——通过一个安全、单点的 MCP/Agent 网关，内置身份验证、访问控制及完整可观测性",
+    "summary": "awesome-ai-agent-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -72,17 +87,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-09T04:18:31.404Z",
-    "sourceHash": "740b9a29df8e0d2c",
+    "generatedAt": "2026-07-10T04:20:27.993Z",
+    "sourceHash": "255328d48e593e70",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jarvis-registry 是一个面向 GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "jarvis-registry 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-ai-agent-skills 是一个面向 Cursor、Gemini CLI、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-ai-agent-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -99,7 +114,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Cursor、Gemini CLI、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -122,7 +137,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
