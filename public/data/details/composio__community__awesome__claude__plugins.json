@@ -1,14 +1,14 @@
 {
-  "rank": 2221,
-  "id": 1184156814,
-  "name": "awesome-openclaw-plugins",
-  "fullName": "composio-community/awesome-openclaw-plugins",
+  "rank": 1443,
+  "id": 1080989149,
+  "name": "awesome-claude-plugins",
+  "fullName": "composio-community/awesome-claude-plugins",
   "owner": "composio-community",
   "avatarUrl": "https://avatars.githubusercontent.com/u/267807433?v=4",
-  "url": "https://github.com/composio-community/awesome-openclaw-plugins",
+  "url": "https://github.com/composio-community/awesome-claude-plugins",
   "homepage": "",
-  "description": "A curated collection of OpenClaw plugins — covering everything from git stats, cost   tracking, and secret detection to Docker, API testing, and time tracking. The awesome list for the OpenClaw ecosystem.",
-  "summary": "awesome-openclaw-plugins 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+  "summary": "awesome-claude-plugins 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,45 +19,53 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/composio-community/awesome-openclaw-plugins.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/composio-community/awesome-claude-plugins.git",
+  "language": "JavaScript",
   "license": "",
-  "stars": 47,
-  "forks": 14,
-  "openIssues": 10,
-  "score": 61.1,
+  "stars": 1819,
+  "forks": 493,
+  "openIssues": 251,
+  "score": 97.3,
   "activity": "近期活跃",
-  "pushedAt": "2026-04-10T10:03:47Z",
-  "updatedAt": "2026-06-22T22:49:54Z",
-  "createdAt": "2026-03-17T10:03:16Z",
+  "pushedAt": "2026-05-01T07:08:01Z",
+  "updatedAt": "2026-07-11T02:35:38Z",
+  "createdAt": "2025-10-22T06:42:09Z",
   "sourceTopics": [
-    "openclaw-skills"
+    "claude-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "openclaw",
-    "openclaw-extension",
-    "openclaw-plugin",
-    "openclaw-plugins",
-    "openclaw-skills"
+    "anthropic",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-plugin-marketplace",
+    "claude-code-plugins",
+    "claude-code-plugins-marketplace",
+    "claude-cowork",
+    "claude-desktop",
+    "claude-plugins",
+    "claude-skills",
+    "plugins"
   ],
   "platforms": [
-    "OpenClaw"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/composio-community/awesome-openclaw-plugins",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/composio-community/awesome-claude-plugins",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/composio-community/awesome-openclaw-plugins#readme",
-  "detailPath": "data/details/composio__community__awesome__openclaw__plugins.json",
+  "readmeUrl": "https://github.com/composio-community/awesome-claude-plugins#readme",
+  "detailPath": "data/details/composio__community__awesome__claude__plugins.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "awesome-openclaw-plugins 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+    "summary": "awesome-claude-plugins 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -76,14 +84,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "18a9a96786bb5e88",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "a4906cba945b0e0c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-openclaw-plugins 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-openclaw-plugins 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-claude-plugins 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-claude-plugins 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -100,7 +108,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

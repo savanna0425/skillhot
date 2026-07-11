@@ -1,14 +1,14 @@
 {
-  "rank": 1894,
-  "id": 1250422671,
-  "name": "xiaobei-skill-image-to-vba",
-  "fullName": "xiao24bei/xiaobei-skill-image-to-vba",
-  "owner": "xiao24bei",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/275339446?v=4",
-  "url": "https://github.com/xiao24bei/xiaobei-skill-image-to-vba",
-  "homepage": "https://xiaobeiai.top",
-  "description": "XiaoBei skill for converting academic images into editable Office VBA Shapes and PowerPoint reconstructions.",
-  "summary": "xiaobei-skill-image-to-vba：xiaobei-skill-image-to-vba：文档、表格、邮件、日历、笔记与个人生产力。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 770,
+  "id": 1167413446,
+  "name": "openocta",
+  "fullName": "openocta/openocta",
+  "owner": "openocta",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/264121059?v=4",
+  "url": "https://github.com/openocta/openocta",
+  "homepage": "http://www.openocta.com",
+  "description": "Open-source work buddy. Open-source personal desktop AI agent.Go runtime for office/ITops/marketing workflows.",
+  "summary": "openocta：openocta：文档、表格、邮件、日历、笔记与个人生产力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,52 +19,53 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/xiao24bei/xiaobei-skill-image-to-vba.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/openocta/openocta.git",
+  "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 159,
-  "forks": 14,
-  "openIssues": 2,
-  "score": 80.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-26T16:42:55Z",
-  "updatedAt": "2026-07-09T15:05:31Z",
-  "createdAt": "2026-05-26T16:03:14Z",
-  "sourceTopics": [
-    "codex-skill"
-  ],
+  "stars": 2976,
+  "forks": 329,
+  "openIssues": 19,
+  "score": 113.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-11T01:26:33Z",
+  "updatedAt": "2026-07-11T01:27:50Z",
+  "createdAt": "2026-02-26T09:12:26Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "academic-figures",
-    "codex-skill",
-    "image-to-vba",
-    "office-shapes",
-    "office-vba",
-    "openai-codex",
-    "powerpoint",
-    "ppt",
-    "research-figures",
-    "wps",
-    "xiaobei",
-    "xiaobei-skill"
+    "ai",
+    "ai-agent",
+    "ai-assistants",
+    "clawhub",
+    "golang",
+    "hermes",
+    "itops",
+    "llm",
+    "multi-agent",
+    "office",
+    "office-automation",
+    "openclaw",
+    "openhuman",
+    "work",
+    "workbuddy"
   ],
   "platforms": [
-    "Codex"
+    "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 766,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xiao24bei/xiaobei-skill-image-to-vba",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openocta/openocta",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xiao24bei/xiaobei-skill-image-to-vba#readme",
-  "detailPath": "data/details/xiao24bei__xiaobei__skill__image__to__vba.json",
+  "readmeUrl": "https://github.com/openocta/openocta#readme",
+  "detailPath": "data/details/openocta__openocta.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "xiaobei-skill-image-to-vba：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "openocta：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -83,14 +84,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "57cc65a825c70104",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "367e45b467a6c56d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "xiaobei-skill-image-to-vba：xiaobei-skill-image-to-vba：文档、表格、邮件、日历、笔记与个人生产力。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "xiaobei-skill-image-to-vba 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "openocta：openocta：文档、表格、邮件、日历、笔记与个人生产力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "openocta 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -107,7 +108,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -117,7 +118,7 @@
       "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
       "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
       "涉及个人数据时，需要自己确认权限和隐私设置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 766+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你正在用的办公平台。",

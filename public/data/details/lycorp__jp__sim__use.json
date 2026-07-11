@@ -1,68 +1,62 @@
 {
-  "rank": 1571,
-  "id": 1152654395,
-  "name": "secure-openclaw",
-  "fullName": "ComposioHQ/secure-openclaw",
-  "owner": "ComposioHQ",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/128464815?v=4",
-  "url": "https://github.com/ComposioHQ/secure-openclaw",
+  "rank": 1369,
+  "id": 1280990105,
+  "name": "sim-use",
+  "fullName": "lycorp-jp/sim-use",
+  "owner": "lycorp-jp",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/132046583?v=4",
+  "url": "https://github.com/lycorp-jp/sim-use",
   "homepage": "",
-  "description": "A personal 24x7 AI assistant like OpenClaw that runs on your messaging platforms. Send a message on WhatsApp, Telegram, Signal, or iMessage and get responses from Claude with full tool access, persistent memory, scheduled reminders, and integrations with 500+ apps.",
-  "summary": "secure-openclaw：secure-openclaw 用于自动化浏览器、工具集成或重复流程。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
+  "summary": "sim-use：sim-use 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "中",
-  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "重复任务",
     "浏览器操作",
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ComposioHQ/secure-openclaw.git",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 1203,
-  "forks": 165,
-  "openIssues": 4,
-  "score": 93,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-08T01:24:30Z",
-  "updatedAt": "2026-07-03T19:30:56Z",
-  "createdAt": "2026-02-08T07:55:07Z",
-  "sourceTopics": [
-    "openclaw-skills"
-  ],
+  "installCommand": "git clone https://github.com/lycorp-jp/sim-use.git",
+  "language": "Swift",
+  "license": "Apache-2.0",
+  "stars": 782,
+  "forks": 42,
+  "openIssues": 6,
+  "score": 99.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-10T15:25:49Z",
+  "updatedAt": "2026-07-11T03:43:17Z",
+  "createdAt": "2026-06-26T05:59:56Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "clawdbot",
-    "clawdbot-security",
-    "moltbot",
-    "moltbot-skills",
-    "openclaw",
-    "openclaw-plugin",
-    "openclaw-security",
-    "openclaw-skills",
-    "openclawd"
+    "accessibility",
+    "ai-agents",
+    "ai-development",
+    "android-emulator",
+    "ios-simulator",
+    "mobile-automation"
   ],
   "platforms": [
-    "Claude",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ComposioHQ/secure-openclaw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/lycorp-jp/sim-use",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ComposioHQ/secure-openclaw#readme",
-  "detailPath": "data/details/composiohq__secure__openclaw.json",
+  "readmeUrl": "https://github.com/lycorp-jp/sim-use#readme",
+  "detailPath": "data/details/lycorp__jp__sim__use.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "secure-openclaw 用于自动化浏览器、工具集成或重复流程。",
+    "summary": "sim-use 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -78,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "d5e7b76788ccbbff",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "5c3b6fd0658c66c5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "secure-openclaw：secure-openclaw 用于自动化浏览器、工具集成或重复流程。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "secure-openclaw 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "sim-use：sim-use 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "sim-use 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -105,7 +99,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
@@ -128,7 +122,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

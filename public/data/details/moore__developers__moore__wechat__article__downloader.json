@@ -1,74 +1,69 @@
 {
-  "rank": 868,
-  "id": 1153416852,
-  "name": "codeg",
-  "fullName": "xintaofei/codeg",
-  "owner": "xintaofei",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/247335392?v=4",
-  "url": "https://github.com/xintaofei/codeg",
+  "rank": 1629,
+  "id": 1293051640,
+  "name": "moore-wechat-article-downloader",
+  "fullName": "Moore-developers/moore-wechat-article-downloader",
+  "owner": "Moore-developers",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/189973447?v=4",
+  "url": "https://github.com/Moore-developers/moore-wechat-article-downloader",
   "homepage": "",
-  "description": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, etc. Desktop app, self-hosted server, or Docker.",
-  "summary": "codeg：codeg 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+  "summary": "moore-wechat-article-downloader：本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/xintaofei/codeg.git",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 1998,
-  "forks": 236,
-  "openIssues": 92,
-  "score": 109.3,
+  "installCommand": "git clone https://github.com/Moore-developers/moore-wechat-article-downloader.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 240,
+  "forks": 34,
+  "openIssues": 0,
+  "score": 91.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-09T23:40:30Z",
-  "updatedAt": "2026-07-10T04:02:20Z",
-  "createdAt": "2026-02-09T09:22:50Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-10T15:16:16Z",
+  "updatedAt": "2026-07-11T02:01:34Z",
+  "createdAt": "2026-07-08T04:29:05Z",
+  "sourceTopics": [
+    "codex-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "acp",
-    "agent",
+    "ai-agent",
     "claude-code",
-    "code-generation",
-    "codex",
-    "gemini-cli",
-    "git",
-    "gui",
-    "ilink",
-    "lark",
-    "openclaw",
-    "opencode",
-    "telegram",
-    "worktree"
+    "codex-skill",
+    "content-analysis",
+    "knowledge-base",
+    "local-first",
+    "markdown",
+    "wechat",
+    "wechat-articles",
+    "wechat-mp"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Gemini CLI",
-    "OpenClaw",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xintaofei/codeg",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Moore-developers/moore-wechat-article-downloader",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xintaofei/codeg#readme",
-  "detailPath": "data/details/xintaofei__codeg.json",
+  "readmeUrl": "https://github.com/Moore-developers/moore-wechat-article-downloader#readme",
+  "detailPath": "data/details/moore__developers__moore__wechat__article__downloader.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "codeg 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,17 +79,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "1fbb313f9151b9c7",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "47186d85af2ec59b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codeg：codeg 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "codeg 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "moore-wechat-article-downloader：本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "moore-wechat-article-downloader 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -111,7 +106,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -134,7 +129,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

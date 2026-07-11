@@ -1,5 +1,5 @@
 {
-  "rank": 853,
+  "rank": 613,
   "id": 1151146214,
   "name": "Skills-Manager",
   "fullName": "jiweiyeah/Skills-Manager",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jiweiyeah/Skills-Manager",
   "homepage": "",
   "description": "A high-performance desktop application for managing skills across multiple AI coding assistants. Seamlessly organize, sync, and share skills for Claude Code、Codex、Opencode and other AI tools. Built with Tauri 2.0, React 19, and Rust.",
-  "summary": "Skills-Manager：跨多 AI 编程助手的管理高性能桌面应用程序。流畅组织、同步和分享 Claude Code、Codex、Opencode 及其他 AI 工具的技能。使用 Tauri 2.0、React 19 和 Rust 构建。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "Skills-Manager：跨多 AI 编程助手的管理高性能桌面应用程序。流畅组织、同步和分享 Claude Code、Codex、Opencode 及其他 AI 工具的技能。使用 Tauri 2.0、React 19 和 Rust 构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jiweiyeah/Skills-Manager.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 880,
+  "stars": 881,
   "forks": 59,
   "openIssues": 39,
-  "score": 109.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-24T11:36:36Z",
-  "updatedAt": "2026-07-09T13:35:13Z",
+  "score": 116.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-10T14:49:05Z",
+  "updatedAt": "2026-07-11T01:18:20Z",
   "createdAt": "2026-02-06T05:25:20Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -54,6 +54,8 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
+    "Gemini CLI",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -86,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "48f35d8e34fde059",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "d648c15b4318eb0d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Skills-Manager：跨多 AI 编程助手的管理高性能桌面应用程序。流畅组织、同步和分享 Claude Code、Codex、Opencode 及其他 AI 工具的技能。使用 Tauri 2.0、React 19 和 Rust 构建。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "Skills-Manager：跨多 AI 编程助手的管理高性能桌面应用程序。流畅组织、同步和分享 Claude Code、Codex、Opencode 及其他 AI 工具的技能。使用 Tauri 2.0、React 19 和 Rust 构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Skills-Manager 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -110,7 +112,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

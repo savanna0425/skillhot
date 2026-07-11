@@ -1,5 +1,5 @@
 {
-  "rank": 825,
+  "rank": 832,
   "id": 1223142852,
   "name": "AppGenesisForge",
   "fullName": "pcliangx/AppGenesisForge",
@@ -19,7 +19,7 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/pcliangx/AppGenesisForge.git\ncd AppGenesisForge\nbash setup/agf-install.sh",
+  "installCommand": "git clone https://github.com/pcliangx/AppGenesisForge.git\ncd AppGenesisForge\nbash setup/install-to-existing.sh ~/path/to/your-repo   # 目标须是 git 仓；新项目先 mkdir + git init",
   "language": "Python",
   "license": "MIT",
   "stars": 740,
@@ -27,8 +27,8 @@
   "openIssues": 1,
   "score": 111,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-10T01:07:12Z",
-  "updatedAt": "2026-07-09T06:42:43Z",
+  "pushedAt": "2026-07-10T16:01:21Z",
+  "updatedAt": "2026-07-10T16:02:48Z",
   "createdAt": "2026-04-28T03:36:39Z",
   "sourceTopics": [
     "claude-skills"
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "99055820e9c7c56c",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "e5eaac8ceac41203",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

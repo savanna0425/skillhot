@@ -1,5 +1,5 @@
 {
-  "rank": 1428,
+  "rank": 1113,
   "id": 1140988056,
   "name": "math-modeling-skill",
   "fullName": "XiaoMaColtAI/math-modeling-skill",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/153588766?v=4",
   "url": "https://github.com/XiaoMaColtAI/math-modeling-skill",
   "homepage": "https://mms.weseeworld.cn/",
-  "description": "数学建模技能 - 为CUMCM、MCM/ICM等数学建模竞赛提供结构化的三阶段工作流程：建模分析、代码实现、论文撰写。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本。",
-  "summary": "math-modeling-skill：数学建模技能 - 为CUMCM、MCM/ICM等数学建模竞赛提供结构化的三阶段工作流程：建模分析、代码实现、论文撰写。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
+  "summary": "math-modeling-skill：数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/XiaoMaColtAI/math-modeling-skill.git",
   "language": "Python",
   "license": "",
-  "stars": 403,
+  "stars": 406,
   "forks": 22,
   "openIssues": 0,
-  "score": 97.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-30T02:18:50Z",
-  "updatedAt": "2026-07-09T10:52:27Z",
+  "score": 104.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-10T10:21:37Z",
+  "updatedAt": "2026-07-11T03:13:47Z",
   "createdAt": "2026-01-24T03:29:18Z",
   "sourceTopics": [
     "codex-skill"
@@ -41,6 +41,9 @@
     "claude-skills",
     "codex",
     "codex-skill",
+    "cumcm",
+    "math-modeling",
+    "mcm-icm",
     "skills",
     "vibe-coding"
   ],
@@ -59,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "数学建模技能 - 为CUMCM、MCM/ICM等数学建模竞赛提供结构化的三阶段工作流程：建模分析、代码实现、论文撰写。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
+    "summary": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -78,13 +81,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "5297fab7799bf15b",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "4c44207fc4ca524f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "math-modeling-skill：数学建模技能 - 为CUMCM、MCM/ICM等数学建模竞赛提供结构化的三阶段工作流程：建模分析、代码实现、论文撰写。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "math-modeling-skill：数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "math-modeling-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

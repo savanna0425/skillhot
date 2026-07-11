@@ -1,71 +1,57 @@
 {
-  "rank": 797,
-  "id": 1145420469,
-  "name": "moltis",
-  "fullName": "moltis-org/moltis",
-  "owner": "moltis-org",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/258745078?v=4",
-  "url": "https://github.com/moltis-org/moltis",
-  "homepage": "https://moltis.org",
-  "description": "A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.",
-  "summary": "moltis：基于 Rust 的端到端安全持久个人代理服务器。一个二进制文件，沙箱化执行，多提供商大语言模型，语音、记忆、Telegram、WhatsApp、Discord、Teams 以及 MCP 工具。按设计安全，运行于您的硬件之上。适合在 Codex、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 702,
+  "id": 1148744000,
+  "name": "Skills",
+  "fullName": "MengTo/Skills",
+  "owner": "MengTo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1065452?v=4",
+  "url": "https://github.com/MengTo/Skills",
+  "homepage": "",
+  "description": "Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+  "summary": "Skills：Skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
-  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "curl -fsSL https://www.moltis.org/install.sh | sh\nbrew install moltis-org/tap/moltis\ndocker pull ghcr.io/moltis-org/moltis:latest",
-  "language": "Rust",
+  "installCommand": "git clone https://github.com/MengTo/Skills.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 2768,
-  "forks": 326,
-  "openIssues": 99,
-  "score": 112.6,
+  "stars": 1582,
+  "forks": 207,
+  "openIssues": 1,
+  "score": 114.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-06T10:32:22Z",
-  "updatedAt": "2026-07-09T16:46:23Z",
-  "createdAt": "2026-01-29T19:36:31Z",
+  "pushedAt": "2026-07-08T06:32:23Z",
+  "updatedAt": "2026-07-11T03:43:20Z",
+  "createdAt": "2026-02-03T10:10:55Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-agent",
-    "ai-assistant",
-    "clawdbot",
-    "llm",
-    "mcp",
-    "openclaw",
-    "rust",
-    "sandbox",
-    "self-hosted",
-    "single-binary",
-    "telegram-bot",
-    "voice-assistant"
-  ],
+  "repoTopics": [],
   "platforms": [
+    "Claude",
     "Codex",
-    "Cursor",
-    "GitHub Copilot",
-    "OpenClaw"
+    "Cursor"
   ],
-  "skillCount": 1,
+  "skillCount": 75,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/moltis-org/moltis",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MengTo/Skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/moltis-org/moltis#readme",
-  "detailPath": "data/details/moltis__org__moltis.json",
+  "readmeUrl": "https://github.com/MengTo/Skills#readme",
+  "detailPath": "data/details/mengto__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Rust 的端到端安全持久个人代理服务器。一个二进制文件，沙箱化执行，多提供商大语言模型，语音、记忆、Telegram、WhatsApp、Discord、Teams 以及 MCP 工具。按设计安全，运行于您的硬件之上",
+    "summary": "Skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -84,14 +70,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "465a627f0b31f2ce",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "f7484ac0b8888e7d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "moltis：基于 Rust 的端到端安全持久个人代理服务器。一个二进制文件，沙箱化执行，多提供商大语言模型，语音、记忆、Telegram、WhatsApp、Discord、Teams 以及 MCP 工具。按设计安全，运行于您的硬件之上。适合在 Codex、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "moltis 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Skills：Skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "Skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -108,7 +94,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Codex、Cursor、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -118,7 +104,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 75+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

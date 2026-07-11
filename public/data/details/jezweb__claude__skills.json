@@ -1,5 +1,5 @@
 {
-  "rank": 780,
+  "rank": 1066,
   "id": 1079547517,
   "name": "claude-skills",
   "fullName": "jezweb/claude-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jezweb/claude-skills",
   "homepage": "https://jezweb.com.au",
   "description": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
-  "summary": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jezweb/claude-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 910,
+  "stars": 911,
   "forks": 96,
   "openIssues": 17,
-  "score": 113.1,
-  "activity": "本周活跃",
+  "score": 106.1,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-02T07:34:37Z",
-  "updatedAt": "2026-07-10T02:02:31Z",
+  "updatedAt": "2026-07-10T18:52:55Z",
   "createdAt": "2025-10-20T02:12:38Z",
   "sourceTopics": [
     "claude-skills"
@@ -52,11 +52,9 @@
     "vite"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Claude"
   ],
-  "skillCount": 105,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/jezweb/claude-skills",
@@ -86,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "76df76d9ba724a71",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "3a48e58350d76e23",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-skills 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -110,7 +108,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
@@ -120,7 +118,7 @@
       "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
       "用户配置目标工具后，让 Agent 按流程操作。",
       "稳定性取决于目标网站、权限和异常处理。",
-      "仓库信息显示它包含 105+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先用测试账号或非关键任务验证。",

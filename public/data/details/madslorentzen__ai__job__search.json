@@ -1,5 +1,5 @@
 {
-  "rank": 214,
+  "rank": 200,
   "id": 1185389803,
   "name": "ai-job-search",
   "fullName": "MadsLorentzen/ai-job-search",
@@ -7,35 +7,48 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/50207393?v=4",
   "url": "https://github.com/MadsLorentzen/ai-job-search",
   "homepage": "",
-  "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-  "summary": "ai-job-search：基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
+  "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "summary": "ai-job-search：ai-job-search：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+  "category": "产品与商业",
+  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "产品管理",
+    "营销增长",
+    "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/MadsLorentzen/ai-job-search.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 19474,
-  "forks": 5578,
-  "openIssues": 14,
-  "score": 133,
+  "stars": 20668,
+  "forks": 5982,
+  "openIssues": 2,
+  "score": 133.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-09T19:32:43Z",
-  "updatedAt": "2026-07-10T04:18:21Z",
+  "pushedAt": "2026-07-10T13:24:21Z",
+  "updatedAt": "2026-07-11T03:44:35Z",
   "createdAt": "2026-03-18T14:33:04Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "career",
+    "claude-code",
+    "cover-letter",
+    "cv",
+    "interview-preparation",
+    "job-application",
+    "job-hunting",
+    "job-search",
+    "latex",
+    "resume"
+  ],
   "platforms": [
     "Claude"
   ],
@@ -50,18 +63,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试",
+    "summary": "ai-job-search：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "产品管理",
+      "营销增长",
+      "商业决策"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -69,51 +82,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "d9fd691ce3b9368c",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "aead10bc98a94b7d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-job-search：基于 Claude Code 构建的 AI 驱动求职框架。可 Fork 项目，填充个人档案，让 Claude 评估职位、定制简历、撰写求职信，并帮助您准备面试。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "ai-job-search 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-job-search：ai-job-search：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "ai-job-search 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
+      "团队想让 Agent 辅助决策，但需要更清晰的流程。",
+      "从用户需求到策略输出之间缺少可复用方法。",
+      "如果你的任务和「产品管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "辅助产品发现、市场调研、增长分析、营销内容、销售或商业决策。",
+      "把商业工作流整理成 Agent 可以执行的步骤。",
+      "帮助你判断它是否适合当前业务问题。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
+      "产品经理、创业者、运营、市场和销售团队。",
+      "想用 Agent 做用户研究、竞品分析或增长方案的人。",
+      "需要把业务流程模板化的小团队。",
       "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "把输出直接当作法律、财务或投资建议的人。",
+      "没有真实业务数据和人工判断，只想自动替代决策的人。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
+      "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
+      "最终决策仍需要结合真实数据和业务经验。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先用一个具体业务问题试跑。",
+      "补充目标用户、市场背景和约束条件。",
+      "把输出当作初稿，再用真实数据和团队经验修订。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "业务分析和材料初稿更快。",
+      "产品或增长流程更容易复用。",
+      "团队讨论有更清楚的起点。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

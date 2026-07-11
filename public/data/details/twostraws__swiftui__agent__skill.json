@@ -1,5 +1,5 @@
 {
-  "rank": 845,
+  "rank": 853,
   "id": 1173845549,
   "name": "SwiftUI-Agent-Skill",
   "fullName": "twostraws/SwiftUI-Agent-Skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
   "homepage": "",
   "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-  "summary": "SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx skills add https://github.com/twostraws/swiftui-agent-skill --skill swiftui-pro",
+  "installCommand": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git",
   "language": "",
   "license": "MIT",
-  "stars": 4279,
+  "stars": 4283,
   "forks": 151,
   "openIssues": 11,
   "score": 110.2,
   "activity": "近期活跃",
   "pushedAt": "2026-04-20T08:02:42Z",
-  "updatedAt": "2026-07-09T16:20:56Z",
+  "updatedAt": "2026-07-10T15:21:34Z",
   "createdAt": "2026-03-05T20:13:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,15 +37,13 @@
   "repoTopics": [],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/twostraws/SwiftUI-Agent-Skill",
-    "videoUrl": "https://www.youtube.com/watch?v=nKVZBKoB6P4"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/twostraws/SwiftUI-Agent-Skill#readme",
   "detailPath": "data/details/twostraws__swiftui__agent__skill.json",
@@ -71,13 +69,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-10T04:20:27.993Z",
-    "sourceHash": "360811244f1f5045",
+    "generatedAt": "2026-07-11T03:47:48.734Z",
+    "sourceHash": "6acd01e6339a51f5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "SwiftUI-Agent-Skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -95,7 +93,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
