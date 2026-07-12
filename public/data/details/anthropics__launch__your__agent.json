@@ -1,14 +1,14 @@
 {
-  "rank": 224,
-  "id": 1183325896,
-  "name": "skills",
-  "fullName": "emilkowalski/skills",
-  "owner": "emilkowalski",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/36730035?v=4",
-  "url": "https://github.com/emilkowalski/skills",
-  "homepage": "https://emilkowal.ski/skill",
-  "description": "Skills for Design Engineers.",
-  "summary": "skills：面向设计工程师的 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 984,
+  "id": 1271323125,
+  "name": "launch-your-agent",
+  "fullName": "anthropics/launch-your-agent",
+  "owner": "anthropics",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76263028?v=4",
+  "url": "https://github.com/anthropics/launch-your-agent",
+  "homepage": "",
+  "description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+  "summary": "launch-your-agent：launch-your-agent：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills@latest add emilkowalski/skills",
-  "language": "",
-  "license": "MIT",
-  "stars": 8602,
-  "forks": 472,
-  "openIssues": 1,
-  "score": 132.4,
+  "installCommand": "git clone https://github.com/anthropics/launch-your-agent.git",
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "stars": 781,
+  "forks": 149,
+  "openIssues": 2,
+  "score": 107.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-10T18:48:12Z",
-  "updatedAt": "2026-07-11T03:47:15Z",
-  "createdAt": "2026-03-16T13:52:31Z",
+  "pushedAt": "2026-07-07T12:53:08Z",
+  "updatedAt": "2026-07-12T00:53:51Z",
+  "createdAt": "2026-06-16T14:49:50Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/emilkowalski/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/anthropics/launch-your-agent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/emilkowalski/skills#readme",
-  "detailPath": "data/details/emilkowalski__skills.json",
+  "readmeUrl": "https://github.com/anthropics/launch-your-agent#readme",
+  "detailPath": "data/details/anthropics__launch__your__agent.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向设计工程师的 Skills 集合",
+    "summary": "launch-your-agent：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-11T03:47:48.734Z",
-    "sourceHash": "e0206cf5330ea61c",
+    "generatedAt": "2026-07-12T04:03:28.310Z",
+    "sourceHash": "e32e20e543f52b10",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：面向设计工程师的 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "launch-your-agent：launch-your-agent：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "launch-your-agent 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

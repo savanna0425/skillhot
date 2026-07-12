@@ -1,5 +1,5 @@
 {
-  "rank": 2119,
+  "rank": 2125,
   "id": 1293134171,
   "name": "apostle-skills",
   "fullName": "kaile9/apostle-skills",
@@ -7,16 +7,16 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/65069696?v=4",
   "url": "https://github.com/kaile9/apostle-skills",
   "homepage": "https://space.bilibili.com/1878125647",
-  "description": "Load-bearing Agent Skills for serious thinking, reading, and translation — by KL9 & Luciole Studio (萤火社). AGPL-3.0-or-later.",
-  "summary": "apostle-skills：Load-bearing Agent Skills for serious thinking, reading, and translation — by KL9 & Luciole Studio (萤火社). AGPL-3.0-or-la。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "description": "Exacting Agent Skills for serious thinking, reading, research, and translation.",
+  "summary": "apostle-skills：apostle-skills 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "资料调研",
+    "知识检索",
+    "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/kaile9/apostle-skills.git",
@@ -27,8 +27,8 @@
   "openIssues": 0,
   "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T13:09:34Z",
-  "updatedAt": "2026-07-08T13:10:24Z",
+  "pushedAt": "2026-07-11T19:01:12Z",
+  "updatedAt": "2026-07-11T19:01:34Z",
   "createdAt": "2026-07-08T06:13:00Z",
   "sourceTopics": [
     "anthropic-skills"
@@ -63,18 +63,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Load-bearing Agent Skills for serious thinking, reading, and translation — by KL9 & Luciole Studio (萤火社). AGPL-3.0-or-la",
+    "summary": "apostle-skills 支持资料研究、知识检索或学习任务。",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "资料调研",
+      "知识检索",
+      "学习与推理"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -82,51 +82,51 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-11T03:47:48.734Z",
-    "sourceHash": "350ee8724710f9be",
+    "generatedAt": "2026-07-12T04:03:28.310Z",
+    "sourceHash": "1c26509bb7037046",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "apostle-skills：Load-bearing Agent Skills for serious thinking, reading, and translation — by KL9 & Luciole Studio (萤火社). AGPL-3.0-or-la。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "apostle-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "apostle-skills：apostle-skills 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "apostle-skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "资料、论文、课程或知识点太分散，整理成本高。",
+      "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
+      "学习或调研需要从大量材料中快速建立脉络。",
+      "如果你的任务和「资料调研」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "辅助完成资料检索、文献阅读、知识整理、推理或学习计划。",
+      "把研究问题拆成可追踪、可复核的步骤。",
+      "帮助你判断它是否适合当前研究主题。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
+      "学生、研究者、知识工作者和需要快速调研的人。",
+      "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
+      "需要把研究过程沉淀成固定流程的团队。",
       "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "把输出直接当作学术结论、医疗建议或投资建议的人。",
+      "不愿核对来源和原文的人。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
+      "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
+      "可信度取决于来源质量和你的人工复核。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先用一个小主题测试它的资料组织方式。",
+      "确认输出是否保留来源、链接或可追溯线索。",
+      "再用于正式论文、报告或学习项目。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "更快看清一个主题的主要脉络。",
+      "阅读和整理资料的重复劳动减少。",
+      "学习或研究过程更容易复盘。"
     ],
     "caveats": [
       "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",

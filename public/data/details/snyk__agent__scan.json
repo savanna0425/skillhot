@@ -1,14 +1,14 @@
 {
-  "rank": 1804,
-  "id": 1161940285,
-  "name": "room",
-  "fullName": "quoroom-ai/room",
-  "owner": "quoroom-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/262635923?v=4",
-  "url": "https://github.com/quoroom-ai/room",
-  "homepage": "https://quoroom.ai",
-  "description": "Open-source earning-focused swarm intelligence engine. Self-governing AI collectives (queen, workers, quorum voting) running locally via MCP. Works with Claude Code, Codex, or pay-per-use APIs.",
-  "summary": "room：room 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 488,
+  "id": 962024783,
+  "name": "agent-scan",
+  "fullName": "snyk/agent-scan",
+  "owner": "snyk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/12959162?v=4",
+  "url": "https://github.com/snyk/agent-scan",
+  "homepage": "",
+  "description": "Security scanner for AI agents, MCP servers and agent skills.",
+  "summary": "agent-scan：agent-scan 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,50 +19,48 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/quoroom-ai/room.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 806,
-  "forks": 25,
-  "openIssues": 5,
-  "score": 84.9,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-12T19:28:38Z",
-  "updatedAt": "2026-07-10T08:59:52Z",
-  "createdAt": "2026-02-19T17:35:25Z",
+  "installCommand": "git clone https://github.com/snyk/agent-scan.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 2770,
+  "forks": 246,
+  "openIssues": 1,
+  "score": 120.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-09T16:33:46Z",
+  "updatedAt": "2026-07-11T22:46:27Z",
+  "createdAt": "2025-04-07T14:31:26Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent",
     "ai",
-    "automaton",
-    "claude",
-    "claudecode",
-    "giminiapi",
-    "linux",
-    "llm",
-    "macos",
-    "openclaw",
-    "windows"
+    "mcp",
+    "modelcontextprotocol",
+    "security"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "OpenClaw"
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/quoroom-ai/room",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/snyk/agent-scan",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/quoroom-ai/room#readme",
-  "detailPath": "data/details/quoroom__ai__room.json",
+  "readmeUrl": "https://github.com/snyk/agent-scan#readme",
+  "detailPath": "data/details/snyk__agent__scan.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "room 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "agent-scan 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +76,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-11T03:47:48.734Z",
-    "sourceHash": "1fa1c176f9ce6cc8",
+    "generatedAt": "2026-07-12T04:03:28.310Z",
+    "sourceHash": "bad495ffe0402967",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "room：room 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "room 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-scan：agent-scan 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agent-scan 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +103,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -128,7 +126,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

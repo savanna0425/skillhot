@@ -1,66 +1,74 @@
 {
-  "rank": 316,
-  "id": 974445592,
-  "name": "agent-framework",
-  "fullName": "microsoft/agent-framework",
-  "owner": "microsoft",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "url": "https://github.com/microsoft/agent-framework",
-  "homepage": "https://aka.ms/agent-framework",
-  "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
-  "summary": "agent-framework：构建、编排和部署支持 Python 和 .NET 的 AI 代理及多代理工作流框架。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 2145,
+  "id": 1278383227,
+  "name": "pharn-oss",
+  "fullName": "pharn-dev/pharn-oss",
+  "owner": "pharn-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/282059132?v=4",
+  "url": "https://github.com/pharn-dev/pharn-oss",
+  "homepage": "https://pharn.dev",
+  "description": "Audit-grade methodology for AI-native development. Skills, commands, lenses, and rules that turn AI sessions into versioned, auditable artifacts — with a deterministic floor that holds even when no one reads them. Claude Code first; Codex and Cursor next.",
+  "summary": "pharn-oss：pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "pip install agent-framework",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 12020,
-  "forks": 2021,
-  "openIssues": 662,
-  "score": 127.9,
+  "installCommand": "git clone https://github.com/pharn-dev/pharn-oss.git",
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 66,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T03:19:19Z",
-  "updatedAt": "2026-07-11T01:16:14Z",
-  "createdAt": "2025-04-28T19:40:42Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-10T10:14:21Z",
+  "updatedAt": "2026-07-10T10:14:15Z",
+  "createdAt": "2026-06-23T18:31:57Z",
+  "sourceTopics": [
+    "agentic-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-framework",
-    "agentic-ai",
-    "agents",
-    "ai",
-    "dotnet",
-    "multi-agent",
-    "orchestration",
-    "python",
-    "sdk",
-    "workflows"
+    "agentic-coding",
+    "agentic-skill-",
+    "agentic-skills",
+    "agentic-workflow",
+    "ai-developer-tools",
+    "ai-development",
+    "ai-development-tools",
+    "ai-native",
+    "audit",
+    "claude-code",
+    "developer-tool",
+    "developer-tools",
+    "developer-tools-ai-agent",
+    "methodology"
   ],
   "platforms": [
-    "GitHub Copilot"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/agent-framework",
-    "videoUrl": "https://www.youtube.com/watch?v=AAgdMhftj8w"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/pharn-dev/pharn-oss",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/microsoft/agent-framework#readme",
-  "detailPath": "data/details/microsoft__agent__framework.json",
+  "readmeUrl": "https://github.com/pharn-dev/pharn-oss#readme",
+  "detailPath": "data/details/pharn__dev__pharn__oss.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "构建、编排和部署支持 Python 和 .NET 的 AI 代理及多代理工作流框架",
+    "summary": "pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,17 +84,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-11T03:47:48.734Z",
-    "sourceHash": "f1851da103e6b4b9",
+    "generatedAt": "2026-07-12T04:03:28.310Z",
+    "sourceHash": "261d69ab9ed308d6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-framework：构建、编排和部署支持 Python 和 .NET 的 AI 代理及多代理工作流框架。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "agent-framework 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pharn-oss：pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "pharn-oss 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -103,7 +111,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -126,7 +134,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

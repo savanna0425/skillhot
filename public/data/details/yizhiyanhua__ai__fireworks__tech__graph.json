@@ -1,5 +1,5 @@
 {
-  "rank": 383,
+  "rank": 373,
   "id": 1207091162,
   "name": "fireworks-tech-graph",
   "fullName": "yizhiyanhua-ai/fireworks-tech-graph",
@@ -8,7 +8,7 @@
   "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
   "homepage": "https://yizhiyanhua-ai.github.io/fireworks-tech-graph/",
   "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
-  "summary": "fireworks-tech-graph：生成基于自然语言的 SVG 和 PNG 级技术图表。支持 7 种风格，支持 UML，以及 AI/Agent 工作流模式。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "fireworks-tech-graph：生成基于自然语言的 SVG 和 PNG 级技术图表。支持 7 种风格，支持 UML，以及 AI/Agent 工作流模式。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "If the runtime cannot read images, the skill reports `visual_review: skipped (image reader unavailable)` explicitly. The workflow remains bounded and auditable; it does not claim visual verification without image evidence.\n---\n> [!WARNING]",
   "language": "Python",
   "license": "MIT",
-  "stars": 8484,
-  "forks": 729,
-  "openIssues": 3,
-  "score": 124.3,
+  "stars": 8576,
+  "forks": 736,
+  "openIssues": 0,
+  "score": 124.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-10T08:23:50Z",
-  "updatedAt": "2026-07-11T03:36:36Z",
+  "pushedAt": "2026-07-11T15:53:17Z",
+  "updatedAt": "2026-07-12T03:49:00Z",
   "createdAt": "2026-04-10T15:07:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,6 +45,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "GitHub Copilot"
   ],
   "skillCount": 1,
@@ -77,13 +78,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-11T03:47:48.734Z",
-    "sourceHash": "63253f9f8aa3438a",
+    "generatedAt": "2026-07-12T04:03:28.310Z",
+    "sourceHash": "a3ceeb31aa86ff9f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "fireworks-tech-graph：生成基于自然语言的 SVG 和 PNG 级技术图表。支持 7 种风格，支持 UML，以及 AI/Agent 工作流模式。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "fireworks-tech-graph：生成基于自然语言的 SVG 和 PNG 级技术图表。支持 7 种风格，支持 UML，以及 AI/Agent 工作流模式。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "fireworks-tech-graph 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -101,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
