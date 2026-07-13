@@ -8,7 +8,7 @@
   "url": "https://github.com/dontbesilent2025/dbskill",
   "homepage": "",
   "description": "dontbesilent 的商业诊断 Skills",
-  "summary": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,27 +19,25 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "claude plugin marketplace add dontbesilent2025/dbskill\nclaude plugin install dbs@dontbesilent-skills",
+  "installCommand": "claude plugin marketplace update dontbesilent-skills\nclaude plugin update dbs@dontbesilent-skills",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 7771,
-  "forks": 947,
+  "stars": 7950,
+  "forks": 963,
   "openIssues": 15,
-  "score": 131.4,
+  "score": 131.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T15:57:16Z",
-  "updatedAt": "2026-07-12T03:59:22Z",
+  "pushedAt": "2026-07-13T03:38:35Z",
+  "updatedAt": "2026-07-13T04:01:28Z",
   "createdAt": "2026-03-20T16:52:16Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -71,13 +69,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "7684be7466c6ee96",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "3550dd6799d6add7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "dbskill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -95,7 +93,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

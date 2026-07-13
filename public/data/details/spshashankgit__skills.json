@@ -1,14 +1,14 @@
 {
-  "rank": 1354,
-  "id": 962134278,
-  "name": "ii-agent",
-  "fullName": "Intelligent-Internet/ii-agent",
-  "owner": "Intelligent-Internet",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/173073912?v=4",
-  "url": "https://github.com/Intelligent-Internet/ii-agent",
-  "homepage": "https://ii.inc/web/blog/post/ii-agent",
-  "description": "II-Agent: a new open-source framework to build and deploy intelligent agents",
-  "summary": "ii-agent：II-Agent：构建与部署智能代理的新开源框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2155,
+  "id": 1298121217,
+  "name": "skills",
+  "fullName": "spShashankGit/skills",
+  "owner": "spShashankGit",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/25440265?v=4",
+  "url": "https://github.com/spShashankGit/skills",
+  "homepage": "https://www.skills.sh/spshashankgit/skills",
+  "description": "Public Repository for Agent Skills",
+  "summary": "skills：skills：尚未归入主要类别的实用项目。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,45 +19,48 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Intelligent-Internet/ii-agent.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/spShashankGit/skills.git",
+  "language": "",
   "license": "Apache-2.0",
-  "stars": 3369,
-  "forks": 518,
-  "openIssues": 14,
-  "score": 99.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-13T03:54:06Z",
-  "updatedAt": "2026-07-11T21:53:00Z",
-  "createdAt": "2025-04-07T17:45:48Z",
-  "sourceTopics": [],
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-12T10:22:50Z",
+  "updatedAt": "2026-07-12T10:23:30Z",
+  "createdAt": "2026-07-12T08:44:55Z",
+  "sourceTopics": [
+    "anthropic-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "agentic-ai",
-    "ai",
-    "ai-agent",
-    "ai-agent-framework",
-    "llm",
-    "manus"
+    "agentskills",
+    "anthropic-skills",
+    "claude-skills",
+    "gemini-skills",
+    "google-skills",
+    "openai-skills",
+    "skills-sh"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Intelligent-Internet/ii-agent",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/spShashankGit/skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Intelligent-Internet/ii-agent#readme",
-  "detailPath": "data/details/intelligent__internet__ii__agent.json",
+  "readmeUrl": "https://github.com/spShashankGit/skills#readme",
+  "detailPath": "data/details/spshashankgit__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "II-Agent：构建与部署智能代理的新开源框架",
+    "summary": "skills：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -76,14 +79,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "c30b9bd6dd7f3d1d",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "852b17dd30be92c2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ii-agent：II-Agent：构建与部署智能代理的新开源框架。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ii-agent 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skills：skills：尚未归入主要类别的实用项目。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -100,7 +103,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

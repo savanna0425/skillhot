@@ -1,5 +1,5 @@
 {
-  "rank": 551,
+  "rank": 559,
   "id": 1133901637,
   "name": "ouroboros",
   "fullName": "Q00/ouroboros",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install 'ouroboros-ai[claude]'\nouroboros setup            # detects Kiro CLI and registers MCP server",
+  "installCommand": "pip install 'ouroboros-ai[mcp,claude]'\nouroboros setup            # detects Kiro CLI and registers MCP server",
   "language": "Python",
   "license": "MIT",
-  "stars": 4869,
+  "stars": 4877,
   "forks": 481,
-  "openIssues": 33,
+  "openIssues": 37,
   "score": 118.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-12T03:28:09Z",
-  "updatedAt": "2026-07-12T03:55:04Z",
+  "pushedAt": "2026-07-12T19:55:29Z",
+  "updatedAt": "2026-07-13T00:49:26Z",
   "createdAt": "2026-01-14T01:14:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -78,8 +78,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "fe5c254b43512673",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "794aae5b6407fd47",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

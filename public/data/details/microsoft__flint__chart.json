@@ -1,17 +1,17 @@
 {
-  "rank": 1193,
-  "id": 1132063646,
-  "name": "claude-swap",
-  "fullName": "realiti4/claude-swap",
-  "owner": "realiti4",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/43709619?v=4",
-  "url": "https://github.com/realiti4/claude-swap",
-  "homepage": "",
-  "description": "Switch between multiple Claude Code accounts, with automatic rate-limit rotation, usage dashboard, and parallel sessions",
-  "summary": "claude-swap：claude-swap：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1078,
+  "id": 1237164513,
+  "name": "flint-chart",
+  "fullName": "microsoft/flint-chart",
+  "owner": "microsoft",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "url": "https://github.com/microsoft/flint-chart",
+  "homepage": "https://microsoft.github.io/flint-chart/",
+  "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
+  "summary": "flint-chart：flint-chart：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
   "scenarios": [
     "数据处理",
@@ -19,46 +19,42 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/realiti4/claude-swap.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/microsoft/flint-chart.git",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 980,
-  "forks": 99,
-  "openIssues": 17,
-  "score": 101.9,
+  "stars": 1423,
+  "forks": 62,
+  "openIssues": 9,
+  "score": 105.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T21:35:35Z",
-  "updatedAt": "2026-07-12T01:54:22Z",
-  "createdAt": "2026-01-11T08:47:31Z",
+  "pushedAt": "2026-07-12T06:41:19Z",
+  "updatedAt": "2026-07-13T03:56:06Z",
+  "createdAt": "2026-05-13T00:00:28Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "account-manager",
-    "account-switcher",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "cli",
-    "multi-account",
-    "tui"
+    "ai-agents",
+    "charting-library",
+    "data-visualization",
+    "mcp-server"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/realiti4/claude-swap",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/flint-chart",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/realiti4/claude-swap#readme",
-  "detailPath": "data/details/realiti4__claude__swap.json",
+  "readmeUrl": "https://github.com/microsoft/flint-chart#readme",
+  "detailPath": "data/details/microsoft__flint__chart.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-swap：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "flint-chart：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -77,14 +73,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "9c1d480327f05983",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "c0a34cd1184ebb7c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-swap：claude-swap：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-swap 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "flint-chart：flint-chart：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "flint-chart 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -101,7 +97,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

@@ -1,65 +1,76 @@
 {
-  "rank": 1972,
-  "id": 1117317344,
-  "name": "seiro-mcp",
-  "fullName": "karad/seiro-mcp",
-  "owner": "karad",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/199387?v=4",
-  "url": "https://github.com/karad/seiro-mcp",
-  "homepage": "https://karad.github.io/seiro-mcp/",
-  "description": "Lightweight visionOS development MCP server and skills for AI coding agents.",
-  "summary": "seiro-mcp：seiro-mcp 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 989,
+  "id": 1115093974,
+  "name": "stock-sdk",
+  "fullName": "chengzuopeng/stock-sdk",
+  "owner": "chengzuopeng",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/32048561?v=4",
+  "url": "https://github.com/chengzuopeng/stock-sdk",
+  "homepage": "https://chengzuopeng.github.io/stock-sdk/",
+  "description": "为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。",
+  "summary": "stock-sdk：为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/karad/seiro-mcp.git",
-  "language": "Rust",
-  "license": "MIT",
-  "stars": 16,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 76,
+  "installCommand": "git clone https://github.com/chengzuopeng/stock-sdk.git",
+  "language": "TypeScript",
+  "license": "ISC",
+  "stars": 1692,
+  "forks": 154,
+  "openIssues": 3,
+  "score": 107.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-07T02:09:54Z",
-  "updatedAt": "2026-07-07T02:08:48Z",
-  "createdAt": "2025-12-16T06:27:19Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "pushedAt": "2026-07-13T02:24:34Z",
+  "updatedAt": "2026-07-13T03:08:58Z",
+  "createdAt": "2025-12-12T10:30:17Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "codex-cli",
-    "codex-skills",
-    "openai",
-    "spatial",
-    "swift",
-    "swiftui",
-    "visionos"
+    "a-share",
+    "ai-agent",
+    "akshare",
+    "finance",
+    "financial-data",
+    "fintech",
+    "free-stock-market-api",
+    "mcp",
+    "nodejs",
+    "quantitative-finance",
+    "sdk",
+    "stock",
+    "stock-data",
+    "stock-market",
+    "stock-prices",
+    "stocks",
+    "stocks-api",
+    "technical-analysis",
+    "trading",
+    "typescript"
   ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/karad/seiro-mcp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chengzuopeng/stock-sdk",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/karad/seiro-mcp#readme",
-  "detailPath": "data/details/karad__seiro__mcp.json",
+  "readmeUrl": "https://github.com/chengzuopeng/stock-sdk#readme",
+  "detailPath": "data/details/chengzuopeng__stock__sdk.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "seiro-mcp 聚焦软件开发、代码质量与工程交付。",
+    "summary": "为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -75,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 ISC，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "55a532325e2b749c",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "b418a5011277450b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "seiro-mcp：seiro-mcp 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "seiro-mcp 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "stock-sdk：为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "stock-sdk 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -102,7 +113,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -125,7 +136,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 ISC，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

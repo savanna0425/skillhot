@@ -1,14 +1,14 @@
 {
-  "rank": 642,
-  "id": 110795721,
-  "name": "kungfu",
-  "fullName": "kungfu-systems/kungfu",
-  "owner": "kungfu-systems",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/297358506?v=4",
-  "url": "https://github.com/kungfu-systems/kungfu",
-  "homepage": "https://kungfu.tech",
-  "description": "Kungfu - Agent Work Ledger",
-  "summary": "kungfu：kungfu：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 177,
+  "id": 1230751102,
+  "name": "CodexPlusPlus",
+  "fullName": "BigPizzaV3/CodexPlusPlus",
+  "owner": "BigPizzaV3",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/237402563?v=4",
+  "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
+  "homepage": "",
+  "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
+  "summary": "CodexPlusPlus：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,39 +19,40 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kungfu-systems/kungfu.git\ncd kungfu\n./shifu doctor",
-  "language": "C++",
-  "license": "Apache-2.0",
-  "stars": 3882,
-  "forks": 1208,
-  "openIssues": 12,
-  "score": 116.2,
+  "installCommand": "cd apps/codex-plus-manager\nnpm ci\nnpm run check",
+  "language": "Rust",
+  "license": "AGPL-3.0",
+  "stars": 24855,
+  "forks": 1583,
+  "openIssues": 905,
+  "score": 135.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T20:27:55Z",
-  "updatedAt": "2026-07-11T20:27:54Z",
-  "createdAt": "2017-11-15T06:54:01Z",
+  "pushedAt": "2026-07-12T16:55:39Z",
+  "updatedAt": "2026-07-13T04:03:32Z",
+  "createdAt": "2026-05-06T09:32:49Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "kungfu"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kungfu-systems/kungfu",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BigPizzaV3/CodexPlusPlus",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kungfu-systems/kungfu#readme",
-  "detailPath": "data/details/kungfu__systems__kungfu.json",
+  "readmeUrl": "https://github.com/BigPizzaV3/CodexPlusPlus#readme",
+  "detailPath": "data/details/bigpizzav3__codexplusplus.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "kungfu：尚未归入主要类别的实用项目。",
+    "summary": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -67,17 +68,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-12T04:03:28.310Z",
-    "sourceHash": "a49478ac3e80d906",
+    "generatedAt": "2026-07-13T04:05:41.669Z",
+    "sourceHash": "fdc987bc6051ce77",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kungfu：kungfu：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "kungfu 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "CodexPlusPlus：An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "CodexPlusPlus 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -94,7 +95,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -117,7 +118,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
