@@ -1,5 +1,5 @@
 {
-  "rank": 2149,
+  "rank": 2129,
   "id": 1297220054,
   "name": "ai-content-skills",
   "fullName": "MarchTalk/ai-content-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/282011316?v=4",
   "url": "https://github.com/MarchTalk/ai-content-skills",
   "homepage": "",
-  "description": "中文内容创作技能集：给 AI 编程助手用的带质检闸门的内容工作流零件 · 出品：隐拾三月·AI内容系统",
-  "summary": "ai-content-skills：中文内容创作技能集：给 AI 编程助手用的带质检闸门的内容工作流零件 · 出品：隐拾三月·AI内容系统。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线",
+  "summary": "ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/MarchTalk/ai-content-skills.git",
   "language": "",
   "license": "MIT",
-  "stars": 0,
+  "stars": 1,
   "forks": 0,
   "openIssues": 0,
-  "score": 66,
+  "score": 67,
   "activity": "本周活跃",
   "pushedAt": "2026-07-11T09:14:36Z",
-  "updatedAt": "2026-07-11T09:14:35Z",
+  "updatedAt": "2026-07-13T16:31:56Z",
   "createdAt": "2026-07-11T07:17:52Z",
   "sourceTopics": [
     "ai-agent-skills"
@@ -40,7 +40,8 @@
     "ai-agent-skills",
     "chinese",
     "claude-code",
-    "content-creation"
+    "content-creation",
+    "marchskill"
   ],
   "platforms": [
     "Claude"
@@ -56,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "中文内容创作技能集：给 AI 编程助手用的带质检闸门的内容工作流零件 · 出品：隐拾三月·AI内容系统",
+    "summary": "MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -75,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "09b2f299ec8c845a",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "fe1cfbc6b9fabfe4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-content-skills：中文内容创作技能集：给 AI 编程助手用的带质检闸门的内容工作流零件 · 出品：隐拾三月·AI内容系统。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "ai-content-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

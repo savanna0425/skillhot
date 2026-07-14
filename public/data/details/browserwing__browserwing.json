@@ -1,68 +1,60 @@
 {
-  "rank": 917,
-  "id": 1185430378,
-  "name": "OpenOmniBot",
-  "fullName": "omnimind-ai/OpenOmniBot",
-  "owner": "omnimind-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/212129436?v=4",
-  "url": "https://github.com/omnimind-ai/OpenOmniBot",
-  "homepage": "https://omnimind-ai.github.io/OmniBot-Docs/",
-  "description": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务 ",
-  "summary": "OpenOmniBot：Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 1434,
+  "id": 1114124458,
+  "name": "browserwing",
+  "fullName": "browserwing/browserwing",
+  "owner": "browserwing",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/248979480?v=4",
+  "url": "https://github.com/browserwing/browserwing",
+  "homepage": "https://www.browserwing.com",
+  "description": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+  "summary": "browserwing：browserwing 用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
   "scenarios": [
     "重复任务",
     "浏览器操作",
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/omnimind-ai/OpenOmniBot.git",
-  "language": "Dart",
-  "license": "NOASSERTION",
-  "stars": 1893,
-  "forks": 103,
+  "installCommand": "git clone https://github.com/browserwing/browserwing.git",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 1367,
+  "forks": 129,
   "openIssues": 22,
-  "score": 108.7,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-10T03:27:50Z",
-  "updatedAt": "2026-07-12T21:03:43Z",
-  "createdAt": "2026-03-18T15:18:51Z",
+  "score": 98.3,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-13T08:56:09Z",
+  "updatedAt": "2026-07-14T01:54:09Z",
+  "createdAt": "2025-12-10T23:54:17Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai",
-    "alpine",
-    "android",
-    "automation",
-    "bot",
-    "claw",
-    "codex",
-    "gui",
-    "linux",
-    "on-device",
-    "skills"
+    "aibrowser",
+    "golang",
+    "llm",
+    "react"
   ],
   "platforms": [
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/omnimind-ai/OpenOmniBot",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/browserwing/browserwing",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/omnimind-ai/OpenOmniBot#readme",
-  "detailPath": "data/details/omnimind__ai__openomnibot.json",
+  "readmeUrl": "https://github.com/browserwing/browserwing#readme",
+  "detailPath": "data/details/browserwing__browserwing.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务",
+    "summary": "browserwing 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -78,17 +70,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "1ad7f46bf24b6a3f",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "719817ba7d5f84c9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenOmniBot：Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "OpenOmniBot 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "browserwing：browserwing 用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "browserwing 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -105,7 +97,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
@@ -128,7 +120,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

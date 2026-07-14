@@ -1,14 +1,14 @@
 {
-  "rank": 316,
-  "id": 1999522,
-  "name": "compromise",
-  "fullName": "spencermountain/compromise",
-  "owner": "spencermountain",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/399657?v=4",
-  "url": "https://github.com/spencermountain/compromise",
-  "homepage": "http://compromise.cool",
-  "description": "modest natural-language processing",
-  "summary": "compromise：朴素自然语言处理。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1460,
+  "id": 1296462200,
+  "name": "liurun-bookwriter-skills",
+  "fullName": "liangdabiao/liurun-bookwriter-skills",
+  "owner": "liangdabiao",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1232260?v=4",
+  "url": "https://github.com/liangdabiao/liurun-bookwriter-skills",
+  "homepage": "https://liangdabiao.github.io/",
+  "description": "蒸馏skill : 基于刘润28 年商业写作经验的完整复刻。基于其《我这28年的写作心法》提炼的 8 大心法、3 种结构、SCQA 逻辑势能、5商派 SCA++ 模板、7 种 callout，专为商业长文创作设计。你让它随便写任何 东西的 商业评论，都没有问题，都有意思，有洞见。",
+  "summary": "liurun-bookwriter-skills：蒸馏skill : 基于刘润28 年商业写作经验的完整复刻。基于其《我这28年的写作心法》提炼的 8 大心法、3 种结构、SCQA 逻辑势能、5商派 SCA++ 模板、7 种 callout，专为商业长文创作设计。你让它随便写任何 东西的。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,25 +19,25 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/spencermountain/compromise.git",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 12135,
-  "forks": 667,
-  "openIssues": 121,
-  "score": 128,
+  "installCommand": "git clone https://github.com/liangdabiao/liurun-bookwriter-skills.git",
+  "language": "Python",
+  "license": "",
+  "stars": 189,
+  "forks": 23,
+  "openIssues": 0,
+  "score": 97.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T19:33:26Z",
-  "updatedAt": "2026-07-10T11:23:32Z",
-  "createdAt": "2011-07-05T09:04:38Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-11T01:05:32Z",
+  "updatedAt": "2026-07-14T02:39:23Z",
+  "createdAt": "2026-07-10T12:10:08Z",
+  "sourceTopics": [
+    "skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "named-entity-recognition",
-    "nlp",
-    "part-of-speech"
+    "skill"
   ],
   "platforms": [
     "Agent Skills"
@@ -45,15 +45,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/spencermountain/compromise",
-    "videoUrl": "https://www.youtube.com/watch?v=WuPVS2tCg8s"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/liangdabiao/liurun-bookwriter-skills",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/spencermountain/compromise#readme",
-  "detailPath": "data/details/spencermountain__compromise.json",
+  "readmeUrl": "https://github.com/liangdabiao/liurun-bookwriter-skills#readme",
+  "detailPath": "data/details/liangdabiao__liurun__bookwriter__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "朴素自然语言处理",
+    "summary": "蒸馏skill : 基于刘润28 年商业写作经验的完整复刻。基于其《我这28年的写作心法》提炼的 8 大心法、3 种结构、SCQA 逻辑势能、5商派 SCA++ 模板、7 种 callout，专为商业长文创作设计。你让它随便写任何 东西的 ",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -69,17 +69,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "af10f6df78b6f7b7",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "312ec373808ead63",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "compromise：朴素自然语言处理。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "compromise 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "liurun-bookwriter-skills：蒸馏skill : 基于刘润28 年商业写作经验的完整复刻。基于其《我这28年的写作心法》提炼的 8 大心法、3 种结构、SCQA 逻辑势能、5商派 SCA++ 模板、7 种 callout，专为商业长文创作设计。你让它随便写任何 东西的。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "liurun-bookwriter-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -119,7 +119,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

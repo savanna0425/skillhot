@@ -1,5 +1,5 @@
 {
-  "rank": 550,
+  "rank": 209,
   "id": 1086161926,
   "name": "claude-code-infrastructure-showcase",
   "fullName": "diet103/claude-code-infrastructure-showcase",
@@ -8,7 +8,7 @@
   "url": "https://github.com/diet103/claude-code-infrastructure-showcase",
   "homepage": "",
   "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
-  "summary": "claude-code-infrastructure-showcase：我的 Claude 代码基础设施技能自动激活、钩子与代理。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "claude-code-infrastructure-showcase：我的 Claude 代码基础设施技能自动激活、钩子与代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/diet103/claude-code-infrastructure-showcase.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/diet103/claude-code-infrastructure-showcase.git\ncd claude-code-infrastructure-showcase\nnpx tsx setup.ts ~/my-project",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 9736,
-  "forks": 1214,
+  "stars": 9740,
+  "forks": 1215,
   "openIssues": 15,
-  "score": 118.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-17T04:22:53Z",
-  "updatedAt": "2026-07-13T02:08:55Z",
+  "score": 133.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-13T22:59:08Z",
+  "updatedAt": "2026-07-14T02:52:52Z",
   "createdAt": "2025-10-30T03:12:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,13 +70,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "2449b8198c3ae683",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "eb1f04579028d49c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-infrastructure-showcase：我的 Claude 代码基础设施技能自动激活、钩子与代理。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-infrastructure-showcase：我的 Claude 代码基础设施技能自动激活、钩子与代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-infrastructure-showcase 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -93,7 +94,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

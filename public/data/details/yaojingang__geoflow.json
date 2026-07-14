@@ -1,5 +1,5 @@
 {
-  "rank": 792,
+  "rank": 1063,
   "id": 1209396858,
   "name": "GEOFlow",
   "fullName": "yaojingang/GEOFlow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/yaojingang/GEOFlow",
   "homepage": "",
   "description": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
-  "summary": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/yaojingang/GEOFlow.git\ncd GEOFlow\ncp .env.example .env",
+  "installCommand": "git clone https://github.com/yaojingang/GEOFlow.git",
   "language": "PHP",
   "license": "Apache-2.0",
-  "stars": 2886,
-  "forks": 668,
+  "stars": 2896,
+  "forks": 669,
   "openIssues": 2,
-  "score": 113.1,
-  "activity": "本周活跃",
+  "score": 106.1,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-05T11:38:19Z",
-  "updatedAt": "2026-07-13T02:15:28Z",
+  "updatedAt": "2026-07-14T02:44:21Z",
   "createdAt": "2026-04-13T11:42:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,7 +45,7 @@
     "seo"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -77,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "7ad9d06781795c90",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "1e89b1e3d180dea1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "GEOFlow 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -101,7 +101,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

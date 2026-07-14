@@ -1,17 +1,17 @@
 {
-  "rank": 313,
-  "id": 1264811161,
-  "name": "dashiAI-ppt-skill",
-  "fullName": "chuspeeism/dashiAI-ppt-skill",
-  "owner": "chuspeeism",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/70992554?v=4",
-  "url": "https://github.com/chuspeeism/dashiAI-ppt-skill",
+  "rank": 1606,
+  "id": 1240701554,
+  "name": "video-spec-builder",
+  "fullName": "feicaiclub/video-spec-builder",
+  "owner": "feicaiclub",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/156590182?v=4",
+  "url": "https://github.com/feicaiclub/video-spec-builder",
   "homepage": "",
-  "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
-  "summary": "dashiAI-ppt-skill：dashiAI-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor / Codex:npx skills add feicaiclub/video-spec-builder",
+  "summary": "video-spec-builder：video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor / Codex:npx skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,40 +19,22 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx dashiai-ppt-skill@latest",
+  "installCommand": "git clone https://github.com/feicaiclub/video-spec-builder.git",
   "language": "JavaScript",
-  "license": "AGPL-3.0",
-  "stars": 2619,
-  "forks": 267,
-  "openIssues": 6,
-  "score": 128.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-13T01:56:07Z",
-  "updatedAt": "2026-07-13T03:52:02Z",
-  "createdAt": "2026-06-10T07:46:43Z",
-  "sourceTopics": [
-    "skill",
-    "agent-skill"
-  ],
+  "license": "MIT",
+  "stars": 784,
+  "forks": 93,
+  "openIssues": 1,
+  "score": 92.6,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-18T06:21:03Z",
+  "updatedAt": "2026-07-14T02:38:30Z",
+  "createdAt": "2026-05-16T13:10:41Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-skill",
-    "ai-agent",
-    "ai-ppt",
-    "claude",
-    "claude-code",
-    "dashial",
-    "html-presentation",
-    "ppt",
-    "pptx",
-    "presentation",
-    "presentation-generator",
-    "skill",
-    "slide-generator",
-    "slides"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Claude",
     "Codex",
@@ -61,15 +43,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chuspeeism/dashiAI-ppt-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/feicaiclub/video-spec-builder",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chuspeeism/dashiAI-ppt-skill#readme",
-  "detailPath": "data/details/chuspeeism__dashiai__ppt__skill.json",
+  "readmeUrl": "https://github.com/feicaiclub/video-spec-builder#readme",
+  "detailPath": "data/details/feicaiclub__video__spec__builder.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dashiAI-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor / Codex:npx skill",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -85,17 +67,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "51d74b064488737f",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "323300fff634172a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dashiAI-ppt-skill：dashiAI-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "dashiAI-ppt-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "video-spec-builder：video-spec-builder —— 把我想做个视频逼成一份精确到秒的分镜脚本 video-spec.md,交给 HyperFrames 渲染。一条命令装到 Claude Code / Cursor / Codex:npx skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "video-spec-builder 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -135,7 +117,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

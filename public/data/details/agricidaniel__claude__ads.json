@@ -1,5 +1,5 @@
 {
-  "rank": 330,
+  "rank": 134,
   "id": 1155383451,
   "name": "claude-ads",
   "fullName": "AgriciDaniel/claude-ads",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
   "url": "https://github.com/AgriciDaniel/claude-ads",
   "homepage": "https://claude-ads.md",
-  "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
-  "summary": "claude-ads：claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.",
+  "summary": "claude-ads：claude-ads：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "待复核",
@@ -19,39 +19,43 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AI-Marketing-Hub/claude-ads.git\ncd claude-ads\n./install.sh                # Unix/macOS/Linux, default target=claude",
+  "installCommand": "python3.12 -m venv .venv\n.venv/bin/python -m pip install --no-deps -e .\n.venv/bin/python -m pip install --require-hashes --only-binary=:all: -r requirements.lock",
   "language": "Python",
   "license": "MIT",
-  "stars": 6931,
-  "forks": 1030,
-  "openIssues": 32,
-  "score": 127.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-26T21:03:50Z",
-  "updatedAt": "2026-07-13T03:21:42Z",
+  "stars": 6981,
+  "forks": 1033,
+  "openIssues": 33,
+  "score": 138.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-13T20:22:29Z",
+  "updatedAt": "2026-07-14T03:38:45Z",
   "createdAt": "2026-02-11T13:01:49Z",
   "sourceTopics": [
+    "agent-skills",
     "claude-code-skill"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "ai",
     "ai-marketing",
     "claude-code",
     "claude-code-skill",
+    "google-ads",
     "marketing-automation",
-    "open-source"
+    "meta-ads",
+    "open-source",
+    "paid-advertising",
+    "ppc"
   ],
   "platforms": [
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -64,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流",
+    "summary": "claude-ads：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -83,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "ac18f5704a89ca68",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "a6c4fb0b3875fa9d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-ads：claude-ads 面向安全审计、漏洞研究与风险检查，为 Agent 提供可复用的安全工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-ads：claude-ads：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "claude-ads 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",

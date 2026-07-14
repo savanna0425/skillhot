@@ -1,5 +1,5 @@
 {
-  "rank": 1025,
+  "rank": 1019,
   "id": 1163183284,
   "name": "agent-teams-ai",
   "fullName": "777genius/agent-teams-ai",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/13103045?v=4",
   "url": "https://github.com/777genius/agent-teams-ai",
   "homepage": "https://agentteams.live",
-  "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams.",
-  "summary": "agent-teams-ai：你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/Grok/GitHub Copilot/Cursor/Kiro/Z.AI/MiniMax/Kimi/OpenCode(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams",
+  "summary": "agent-teams-ai：agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/777genius/agent-teams-ai.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 1582,
-  "forks": 281,
+  "stars": 1587,
+  "forks": 280,
   "openIssues": 12,
-  "score": 106.8,
+  "score": 106.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T03:39:53Z",
-  "updatedAt": "2026-07-13T00:56:43Z",
+  "pushedAt": "2026-07-14T03:34:27Z",
+  "updatedAt": "2026-07-14T03:39:02Z",
   "createdAt": "2026-02-21T08:14:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,6 +59,8 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
+    "GitHub Copilot",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -72,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司",
+    "summary": "agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +93,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "24cde4d850fccff3",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "38e6f0f790556097",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-teams-ai：你是老板，代理是你的团队。它们各自处理任务、相互沟通并互相审查工作。你只需监控看板并下达高层指令。Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，无认证免费模型）。组建多团队构建您的 AI 公司。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "agent-teams-ai：agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-teams-ai 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -115,7 +117,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

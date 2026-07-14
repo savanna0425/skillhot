@@ -1,5 +1,5 @@
 {
-  "rank": 245,
+  "rank": 251,
   "id": 1133911335,
   "name": "openwork",
   "fullName": "different-ai/openwork",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/118544361?v=4",
   "url": "https://github.com/different-ai/openwork",
   "homepage": "https://openworklabs.com",
-  "description": "An open-source alternative to Claude Cowork (powered by opencode)",
-  "summary": "openwork：开源替代 Claude Cowork（由 opencode 驱动）。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+  "summary": "openwork：openwork 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,26 +19,26 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git checkout dev\ngit pull --ff-only origin dev\npnpm install --frozen-lockfile",
+  "installCommand": "git clone https://github.com/different-ai/openwork.git",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 16827,
-  "forks": 1722,
-  "openIssues": 267,
+  "stars": 16849,
+  "forks": 1729,
+  "openIssues": 268,
   "score": 131.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T03:07:34Z",
-  "updatedAt": "2026-07-13T04:03:51Z",
+  "pushedAt": "2026-07-14T01:52:52Z",
+  "updatedAt": "2026-07-14T01:47:33Z",
   "createdAt": "2026-01-14T01:39:31Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -52,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源替代 Claude Cowork（由 opencode 驱动）",
+    "summary": "openwork 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -71,13 +71,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "9b43e31c08fd0e2b",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "1b52aa638649861d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openwork：开源替代 Claude Cowork（由 opencode 驱动）。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "openwork：openwork 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "openwork 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -95,7 +95,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 1892,
-  "id": 1275873724,
-  "name": "bili-note",
-  "fullName": "Rimagination/bili-note",
-  "owner": "Rimagination",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/57791834?v=4",
-  "url": "https://github.com/Rimagination/bili-note",
+  "rank": 309,
+  "id": 1264811161,
+  "name": "dashi-ppt-skill",
+  "fullName": "chuspeeism/dashi-ppt-skill",
+  "owner": "chuspeeism",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/70992554?v=4",
+  "url": "https://github.com/chuspeeism/dashi-ppt-skill",
   "homepage": "",
-  "description": "Extract Bilibili videos into learning-oriented Markdown notes with full subtitle and comment archives",
-  "summary": "bili-note：bili-note：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+  "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+  "summary": "dashi-ppt-skill：dashi-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,45 +19,57 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Rimagination/bili-note.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 163,
-  "forks": 10,
-  "openIssues": 0,
-  "score": 80.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-25T19:25:06Z",
-  "updatedAt": "2026-07-12T06:48:49Z",
-  "createdAt": "2026-06-21T08:42:43Z",
+  "installCommand": "npx dashi-ppt-skill@latest",
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "stars": 2729,
+  "forks": 275,
+  "openIssues": 5,
+  "score": 128.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-13T05:43:37Z",
+  "updatedAt": "2026-07-14T03:30:30Z",
+  "createdAt": "2026-06-10T07:46:43Z",
   "sourceTopics": [
-    "codex-skill"
+    "skill",
+    "agent-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "bilibili",
-    "codex-skill",
-    "markdown",
-    "notes",
-    "rag"
+    "agent-skill",
+    "ai-agent",
+    "ai-ppt",
+    "claude",
+    "claude-code",
+    "dashial",
+    "html-presentation",
+    "ppt",
+    "pptx",
+    "presentation",
+    "presentation-generator",
+    "skill",
+    "slide-generator",
+    "slides"
   ],
   "platforms": [
-    "Codex"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Rimagination/bili-note",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chuspeeism/dashi-ppt-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Rimagination/bili-note#readme",
-  "detailPath": "data/details/rimagination__bili__note.json",
+  "readmeUrl": "https://github.com/chuspeeism/dashi-ppt-skill#readme",
+  "detailPath": "data/details/chuspeeism__dashi__ppt__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "bili-note：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "dashi-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -73,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "650d89f948c328d9",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "2cb18acc8f38c5a8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "bili-note：bili-note：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "bili-note 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dashi-ppt-skill：dashi-ppt-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "dashi-ppt-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -100,7 +112,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -123,7 +135,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

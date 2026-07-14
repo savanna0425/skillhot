@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
   "url": "https://github.com/Agents365-ai/drawio-skill",
   "homepage": "https://agents365-ai.github.io/drawio-skill/",
-  "description": "Generate draw.io diagrams from natural language — 6 presets, vision self-check + up to 5-round refinement, codebase-to-diagram, 10,000+ official shapes & 321 AI/LLM brand logos. Exports PNG/SVG/PDF/JPG.",
-  "summary": "drawio-skill：生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 31 tools: codebase/CI-pipeline/infra-to-diagram, bilingual relabel, dark-mode restyle, heatmaps. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
+  "summary": "drawio-skill：drawio-skill 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add Agents365-ai/365-skills -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 5677,
-  "forks": 458,
+  "stars": 5726,
+  "forks": 461,
   "openIssues": 0,
-  "score": 144.1,
+  "score": 144.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-12T09:36:58Z",
-  "updatedAt": "2026-07-13T03:59:15Z",
+  "pushedAt": "2026-07-14T02:12:52Z",
+  "updatedAt": "2026-07-14T03:27:53Z",
   "createdAt": "2026-03-03T16:54:59Z",
   "sourceTopics": [
     "agent-skills",
@@ -47,6 +47,7 @@
     "agent-skill",
     "agent-skills",
     "architecture-diagram",
+    "bpmn",
     "claude-code",
     "claude-code-skill",
     "claude-skills",
@@ -54,10 +55,14 @@
     "drawio",
     "erd",
     "flowchart",
+    "github-actions",
+    "mbse",
+    "network-topology",
     "openclaw",
     "openclaw-skills",
     "skill-md",
     "skillsmp",
+    "sysml",
     "uml"
   ],
   "platforms": [
@@ -79,7 +84,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG",
+    "summary": "drawio-skill 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -98,13 +103,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-13T04:05:41.669Z",
-    "sourceHash": "e9308358ee8054a5",
+    "generatedAt": "2026-07-14T03:41:18.214Z",
+    "sourceHash": "2ce92aad45b89f61",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "drawio-skill：生成基于自然语言绘制 draw.io 图表——6 种预设、视觉自我检查 + 最多 5 轮迭代、代码库转图表、1 万 + 官方形状及 321 个 AI/LLM 品牌标志。导出 PNG/SVG/PDF/JPG。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "drawio-skill：drawio-skill 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "drawio-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
