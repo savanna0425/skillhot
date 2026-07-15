@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
   "url": "https://github.com/Agents365-ai/drawio-skill",
   "homepage": "https://agents365-ai.github.io/drawio-skill/",
-  "description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 31 tools: codebase/CI-pipeline/infra-to-diagram, bilingual relabel, dark-mode restyle, heatmaps. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
+  "description": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
   "summary": "drawio-skill：drawio-skill 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,21 +22,19 @@
   "installCommand": "npx skills add Agents365-ai/365-skills -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 5726,
-  "forks": 461,
+  "stars": 5788,
+  "forks": 464,
   "openIssues": 0,
-  "score": 144.2,
+  "score": 144.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T02:12:52Z",
-  "updatedAt": "2026-07-14T03:27:53Z",
+  "pushedAt": "2026-07-14T11:41:30Z",
+  "updatedAt": "2026-07-15T03:06:44Z",
   "createdAt": "2026-03-03T16:54:59Z",
   "sourceTopics": [
     "agent-skills",
     "claude-skills",
     "claude-code-skill",
     "openclaw-skills",
-    "agent-skill",
-    "skill-md",
     "skillsmp"
   ],
   "discoveredBy": [
@@ -44,7 +42,6 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skill",
     "agent-skills",
     "architecture-diagram",
     "bpmn",
@@ -56,11 +53,12 @@
     "erd",
     "flowchart",
     "github-actions",
+    "image-to-diagram",
     "mbse",
+    "mindmap",
     "network-topology",
     "openclaw",
     "openclaw-skills",
-    "skill-md",
     "skillsmp",
     "sysml",
     "uml"
@@ -103,8 +101,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "2ce92aad45b89f61",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "9ffc77622fbb692d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

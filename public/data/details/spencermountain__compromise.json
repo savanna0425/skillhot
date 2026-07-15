@@ -1,14 +1,14 @@
 {
-  "rank": 1199,
-  "id": 1288848940,
-  "name": "Codex-X",
-  "fullName": "yynxxxxx/Codex-X",
-  "owner": "yynxxxxx",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/139136586?v=4",
-  "url": "https://github.com/yynxxxxx/Codex-X",
-  "homepage": "https://github.com/yynxxxxx/Codex-X",
-  "description": "Codex Switch & Instruct desktop manager",
-  "summary": "Codex-X：Codex-X：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 320,
+  "id": 1999522,
+  "name": "compromise",
+  "fullName": "spencermountain/compromise",
+  "owner": "spencermountain",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/399657?v=4",
+  "url": "https://github.com/spencermountain/compromise",
+  "homepage": "http://compromise.cool",
+  "description": "modest natural-language processing",
+  "summary": "compromise：朴素自然语言处理。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,41 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/yynxxxxx/Codex-X.git",
-  "language": "Rust",
+  "installCommand": "git clone https://github.com/spencermountain/compromise.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 973,
-  "forks": 153,
-  "openIssues": 5,
-  "score": 101.8,
+  "stars": 12138,
+  "forks": 668,
+  "openIssues": 118,
+  "score": 128,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T17:59:01Z",
-  "updatedAt": "2026-07-14T03:36:34Z",
-  "createdAt": "2026-07-04T03:28:35Z",
+  "pushedAt": "2026-07-14T17:57:20Z",
+  "updatedAt": "2026-07-15T03:07:33Z",
+  "createdAt": "2011-07-05T09:04:38Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "named-entity-recognition",
+    "nlp",
+    "part-of-speech"
+  ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/yynxxxxx/Codex-X",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/spencermountain/compromise",
+    "videoUrl": "https://www.youtube.com/watch?v=WuPVS2tCg8s"
   },
-  "readmeUrl": "https://github.com/yynxxxxx/Codex-X#readme",
-  "detailPath": "data/details/yynxxxxx__codex__x.json",
+  "readmeUrl": "https://github.com/spencermountain/compromise#readme",
+  "detailPath": "data/details/spencermountain__compromise.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Codex-X：尚未归入主要类别的实用项目。",
+    "summary": "朴素自然语言处理",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +72,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "8e9c36236e57bbf0",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "2e4bf33f9da5795c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Codex-X：Codex-X：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "Codex-X 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "compromise：朴素自然语言处理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "compromise 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +96,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 1030,
-  "id": 1155268703,
-  "name": "awesome-seedance-2-prompts",
-  "fullName": "YouMind-OpenLab/awesome-seedance-2-prompts",
-  "owner": "YouMind-OpenLab",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/245655810?v=4",
-  "url": "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts",
-  "homepage": "https://youmind.com/seedance-2-0-prompts",
-  "description": "🎬 2000+ curated Seedance 2.0 video generation prompts — cinematic, anime, UGC, ads, meme styles. Includes Seedance API guides, character consistency tips, and advanced video workflows.",
-  "summary": "awesome-seedance-2-prompts 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 256,
+  "id": 1132750706,
+  "name": "awesome-codex-skills",
+  "fullName": "composio-community/awesome-codex-skills",
+  "owner": "composio-community",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/267807433?v=4",
+  "url": "https://github.com/composio-community/awesome-codex-skills",
+  "homepage": "",
+  "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+  "summary": "awesome-codex-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,48 +19,59 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 1561,
-  "forks": 185,
-  "openIssues": 3,
-  "score": 106.7,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-14T02:48:55Z",
-  "updatedAt": "2026-07-14T02:49:01Z",
-  "createdAt": "2026-02-11T10:15:40Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/ComposioHQ/awesome-codex-skills.git\ncd awesome-codex-skills\npython skill-installer/scripts/install-skill-from-github.py --repo ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions",
+  "language": "Python",
+  "license": "",
+  "stars": 14974,
+  "forks": 1443,
+  "openIssues": 126,
+  "score": 131.2,
+  "activity": "近期活跃",
+  "pushedAt": "2026-05-15T06:24:47Z",
+  "updatedAt": "2026-07-15T02:49:32Z",
+  "createdAt": "2026-01-12T11:58:21Z",
+  "sourceTopics": [
+    "skills",
+    "codex-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索",
+    "精选来源"
   ],
   "repoTopics": [
-    "ai-video",
     "awesome",
-    "awesome-list",
-    "prompt-engineering",
-    "seedance",
-    "seedance-2",
-    "seedance-api",
-    "seedance2",
-    "video-generation",
-    "video-prompt"
+    "awesome-lists",
+    "awesome-resources",
+    "codex",
+    "codex-cli",
+    "codex-skills",
+    "coding-agent-skills",
+    "coding-agents",
+    "gpt-5-1-codex",
+    "gpt-5-codex",
+    "llm",
+    "skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 340,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/YouMind-OpenLab/awesome-seedance-2-prompts",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/composio-community/awesome-codex-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts#readme",
-  "detailPath": "data/details/youmind__openlab__awesome__seedance__2__prompts.json",
+  "readmeUrl": "https://github.com/composio-community/awesome-codex-skills#readme",
+  "detailPath": "data/details/composio__community__awesome__codex__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "包含 2000+ 精选 Seedance 2.0 视频生成提示词，涵盖电影级、动漫、UGC、广告及迷因风格。内容包括 Seedance API 指南、角色一致性提示及高级视频工作流",
+    "summary": "awesome-codex-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -76,17 +87,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "a4ee0ef4532b5d64",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "ba53cab290c5b269",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-seedance-2-prompts 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-seedance-2-prompts 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-codex-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-codex-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -103,7 +114,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -113,7 +124,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 340+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",
@@ -126,7 +137,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

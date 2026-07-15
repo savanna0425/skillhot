@@ -1,17 +1,17 @@
 {
-  "rank": 2204,
-  "id": 1210846354,
-  "name": "microsoft-workspace-skill",
-  "fullName": "Andrew-Girgis/microsoft-workspace-skill",
-  "owner": "Andrew-Girgis",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/31972098?v=4",
-  "url": "https://github.com/Andrew-Girgis/microsoft-workspace-skill",
-  "homepage": "",
-  "description": "Microsoft Graph API skill for Hermes Agent — Outlook Calendar, Mail, Contacts integration",
-  "summary": "microsoft-workspace-skill：microsoft-workspace-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1383,
+  "id": 1232030145,
+  "name": "wesight",
+  "fullName": "freestylefly/wesight",
+  "owner": "freestylefly",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/43960064?v=4",
+  "url": "https://github.com/freestylefly/wesight",
+  "homepage": "https://wesight.ai",
+  "description": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
+  "summary": "wesight：wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
@@ -19,48 +19,54 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Andrew-Girgis/microsoft-workspace-skill.git",
-  "language": "Python",
-  "license": "",
-  "stars": 20,
-  "forks": 6,
-  "openIssues": 1,
-  "score": 62.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-14T20:52:57Z",
-  "updatedAt": "2026-07-08T05:27:36Z",
-  "createdAt": "2026-04-14T20:17:07Z",
-  "sourceTopics": [
-    "hermes-skill"
-  ],
+  "installCommand": "git clone https://github.com/freestylefly/wesight.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 788,
+  "forks": 193,
+  "openIssues": 19,
+  "score": 99.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-14T04:13:33Z",
+  "updatedAt": "2026-07-15T02:49:10Z",
+  "createdAt": "2026-05-07T14:18:06Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "calendar",
-    "email",
-    "hermes-skill",
-    "hotmail",
-    "microsoft-graph",
-    "oauth2",
-    "outlook",
-    "productivity"
+    "agent-workspace",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "desktop-app",
+    "electron",
+    "hermes-agent",
+    "llm",
+    "local-first",
+    "macos",
+    "model-router",
+    "openclaw",
+    "react",
+    "typescript"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Andrew-Girgis/microsoft-workspace-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/freestylefly/wesight",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Andrew-Girgis/microsoft-workspace-skill#readme",
-  "detailPath": "data/details/andrew__girgis__microsoft__workspace__skill.json",
+  "readmeUrl": "https://github.com/freestylefly/wesight#readme",
+  "detailPath": "data/details/freestylefly__wesight.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "microsoft-workspace-skill：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "wesight：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -76,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "93e87ceaae7837b8",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "5532946bb7217406",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "microsoft-workspace-skill：microsoft-workspace-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "microsoft-workspace-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "wesight：wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "wesight 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -103,7 +109,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -126,7 +132,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

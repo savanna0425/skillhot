@@ -1,14 +1,14 @@
 {
-  "rank": 494,
-  "id": 1192745137,
-  "name": "wewrite",
-  "fullName": "imraywang/wewrite",
-  "owner": "imraywang",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/16276127?v=4",
-  "url": "https://github.com/imraywang/wewrite",
+  "rank": 1629,
+  "id": 1298998324,
+  "name": "beautify-github-readme",
+  "fullName": "oil-oil/beautify-github-readme",
+  "owner": "oil-oil",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/57465570?v=4",
+  "url": "https://github.com/oil-oil/beautify-github-readme",
   "homepage": "",
-  "description": "公众号内容全流程 AI Skill —— 从热点抓取到草稿箱推送，一句话搞定；每个环节也能单独调用。",
-  "summary": "wewrite：公众号内容全流程 AI Skill —— 从热点抓取到草稿箱推送，一句话搞定；每个环节也能单独调用。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown",
+  "summary": "beautify-github-readme：beautify-github-readme：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,40 +19,45 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --depth 1 https://github.com/imraywang/wewrite.git ~/wewrite\ncd ~/wewrite && bash install.sh",
+  "installCommand": "git clone https://github.com/oil-oil/beautify-github-readme.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 2806,
-  "forks": 445,
-  "openIssues": 9,
-  "score": 120.8,
+  "stars": 247,
+  "forks": 19,
+  "openIssues": 0,
+  "score": 91.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T07:10:17Z",
-  "updatedAt": "2026-07-14T03:29:35Z",
-  "createdAt": "2026-03-26T14:18:54Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-07-15T02:22:39Z",
+  "updatedAt": "2026-07-15T03:39:24Z",
+  "createdAt": "2026-07-13T07:31:56Z",
+  "sourceTopics": [
+    "codex-skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skill",
+    "codex-skill",
+    "github-readme",
+    "readme-design",
+    "svg"
+  ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/imraywang/wewrite",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/oil-oil/beautify-github-readme",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/imraywang/wewrite#readme",
-  "detailPath": "data/details/imraywang__wewrite.json",
+  "readmeUrl": "https://github.com/oil-oil/beautify-github-readme#readme",
+  "detailPath": "data/details/oil__oil__beautify__github__readme.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "公众号内容全流程 AI Skill —— 从热点抓取到草稿箱推送，一句话搞定；每个环节也能单独调用。",
+    "summary": "beautify-github-readme：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -71,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "f9bbadc413c94f42",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "228ae29e8ce0f1b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "wewrite：公众号内容全流程 AI Skill —— 从热点抓取到草稿箱推送，一句话搞定；每个环节也能单独调用。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "wewrite 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "beautify-github-readme：beautify-github-readme：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "beautify-github-readme 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -95,7 +100,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

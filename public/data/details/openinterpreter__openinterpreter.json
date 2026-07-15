@@ -1,5 +1,5 @@
 {
-  "rank": 66,
+  "rank": 67,
   "id": 666299222,
   "name": "openinterpreter",
   "fullName": "openinterpreter/openinterpreter",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/163192481?v=4",
   "url": "https://github.com/openinterpreter/openinterpreter",
   "homepage": "http://openinterpreter.com/",
-  "description": "A lightweight coding agent, optimized for open models like GLM, Deepseek, and Kimi",
+  "description": "A coding agent for low-cost models",
   "summary": "openinterpreter：openinterpreter 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,26 +22,25 @@
   "installCommand": "git clone https://github.com/openinterpreter/openinterpreter.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 64782,
-  "forks": 5620,
-  "openIssues": 276,
+  "stars": 65032,
+  "forks": 5631,
+  "openIssues": 274,
   "score": 145.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T03:18:38Z",
-  "updatedAt": "2026-07-14T03:40:08Z",
+  "pushedAt": "2026-07-15T02:17:28Z",
+  "updatedAt": "2026-07-15T03:29:03Z",
   "createdAt": "2023-07-14T07:10:44Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "acp",
     "coding-agent",
     "deepseek",
-    "interpreter",
     "kimi",
     "qwen",
-    "rust",
-    "tui"
+    "rust"
   ],
   "platforms": [
     "Claude",
@@ -77,8 +76,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "090aeb2e25d60439",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "7ba8c2381568b2ee",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

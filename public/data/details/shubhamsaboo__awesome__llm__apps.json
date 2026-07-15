@@ -1,5 +1,5 @@
 {
-  "rank": 35,
+  "rank": 33,
   "id": 793375104,
   "name": "awesome-llm-apps",
   "fullName": "Shubhamsaboo/awesome-llm-apps",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git\ncd awesome-llm-apps/starter_ai_agents/ai_travel_agent\npip install -r requirements.txt",
+  "installCommand": "npx skills add https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/project-graveyard",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 119834,
-  "forks": 17785,
-  "openIssues": 17,
-  "score": 151.9,
+  "stars": 121018,
+  "forks": 17902,
+  "openIssues": 19,
+  "score": 152,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T00:14:37Z",
-  "updatedAt": "2026-07-14T03:39:22Z",
+  "pushedAt": "2026-07-14T06:23:01Z",
+  "updatedAt": "2026-07-15T03:40:09Z",
   "createdAt": "2024-04-29T05:30:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -77,8 +77,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-14T03:41:18.214Z",
-    "sourceHash": "5e57373601ff4809",
+    "generatedAt": "2026-07-15T03:41:42.627Z",
+    "sourceHash": "b14cfd929ed59d2b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
