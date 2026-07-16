@@ -1,55 +1,71 @@
 {
-  "rank": 59,
-  "id": 1255180606,
-  "name": "odysseus",
-  "fullName": "pewdiepie-archdaemon/odysseus",
-  "owner": "pewdiepie-archdaemon",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/229018391?v=4",
-  "url": "https://github.com/pewdiepie-archdaemon/odysseus",
-  "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/",
-  "description": "Self-hosted AI workspace. ",
-  "summary": "odysseus：本地部署的 AI 工作区。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 809,
+  "id": 1248955957,
+  "name": "lazycodex",
+  "fullName": "code-yeongyu/lazycodex",
+  "owner": "code-yeongyu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11153873?v=4",
+  "url": "https://github.com/code-yeongyu/lazycodex",
+  "homepage": "https://lazycodex.ai",
+  "description": "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex.",
+  "summary": "lazycodex：唯一适用于复杂代码库的代理。在 Codex 内完成记忆、规划、执行与验证。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "model switch|provider management|model gateway|llm gat",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/pewdiepie-archdaemon/odysseus.git\ncd odysseus\ncp .env.example .env",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stars": 82797,
-  "forks": 10908,
-  "openIssues": 1732,
-  "score": 148,
+  "installCommand": "> npx lazycodex-ai install\n>",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 2807,
+  "forks": 177,
+  "openIssues": 19,
+  "score": 112.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T14:33:10Z",
-  "updatedAt": "2026-07-15T03:12:57Z",
-  "createdAt": "2026-05-31T14:05:51Z",
+  "pushedAt": "2026-07-14T11:27:27Z",
+  "updatedAt": "2026-07-16T02:03:01Z",
+  "createdAt": "2026-05-25T07:56:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "cli",
+    "codex",
+    "developer-tools",
+    "lazy",
+    "lazycodex",
+    "oh-my-openagent",
+    "omo",
+    "openai",
+    "orchestration",
+    "typescript"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/pewdiepie-archdaemon/odysseus",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/code-yeongyu/lazycodex",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/pewdiepie-archdaemon/odysseus#readme",
-  "detailPath": "data/details/pewdiepie__archdaemon__odysseus.json",
+  "readmeUrl": "https://github.com/code-yeongyu/lazycodex#readme",
+  "detailPath": "data/details/code__yeongyu__lazycodex.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "本地部署的 AI 工作区",
+    "summary": "唯一适用于复杂代码库的代理。在 Codex 内完成记忆、规划、执行与验证",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -65,17 +81,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "497c71dea3bc66ee",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "58580875162efc26",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "odysseus：本地部署的 AI 工作区。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "odysseus 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "lazycodex：唯一适用于复杂代码库的代理。在 Codex 内完成记忆、规划、执行与验证。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "lazycodex 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -92,7 +108,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -115,7 +131,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

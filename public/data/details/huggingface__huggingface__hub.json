@@ -1,72 +1,67 @@
 {
-  "rank": 2224,
-  "id": 1215724110,
-  "name": "unikit-ai",
-  "fullName": "NintendaDev/unikit-ai",
-  "owner": "NintendaDev",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/181320258?v=4",
-  "url": "https://github.com/NintendaDev/unikit-ai",
-  "homepage": "https://unikit.nintenda.dev",
-  "description": "AI-Powered Code Toolkit for Game Engines",
-  "summary": "unikit-ai：unikit-ai 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 665,
+  "id": 323591830,
+  "name": "huggingface_hub",
+  "fullName": "huggingface/huggingface_hub",
+  "owner": "huggingface",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/25720743?v=4",
+  "url": "https://github.com/huggingface/huggingface_hub",
+  "homepage": "https://huggingface.co/docs/huggingface_hub",
+  "description": "The official CLI and Python client for the Hugging Face Hub.",
+  "summary": "huggingface_hub：huggingface_hub 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/NintendaDev/unikit-ai.git",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 16,
-  "forks": 1,
-  "openIssues": 1,
-  "score": 61,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-15T01:31:02Z",
-  "updatedAt": "2026-06-30T16:18:14Z",
-  "createdAt": "2026-04-20T07:36:53Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "installCommand": "hf skills add\nhf skills add --claude",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 3747,
+  "forks": 1096,
+  "openIssues": 198,
+  "score": 115.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-15T15:14:23Z",
+  "updatedAt": "2026-07-15T16:14:00Z",
+  "createdAt": "2020-12-22T10:20:28Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "antrophic",
-    "claude-code",
-    "claude-code-skills",
-    "codex",
-    "codex-skills",
-    "game-development",
-    "gamedev",
-    "godot",
-    "indie-game-dev",
-    "spec-driven-development",
-    "unity",
-    "unreal-engine"
+    "deep-learning",
+    "hacktoberfest",
+    "machine-learning",
+    "model-hub",
+    "models",
+    "natural-language-processing",
+    "pretrained-models",
+    "pytorch"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/NintendaDev/unikit-ai",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/huggingface/huggingface_hub",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/NintendaDev/unikit-ai#readme",
-  "detailPath": "data/details/nintendadev__unikit__ai.json",
+  "readmeUrl": "https://github.com/huggingface/huggingface_hub#readme",
+  "detailPath": "data/details/huggingface__huggingface__hub.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "unikit-ai 聚焦软件开发、代码质量与工程交付。",
+    "summary": "huggingface_hub 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,17 +77,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "8246609992e3b6ed",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "79ca7d7d5fd92f3b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "unikit-ai：unikit-ai 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "unikit-ai 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "huggingface_hub：huggingface_hub 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "huggingface_hub 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -109,7 +104,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -132,7 +127,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

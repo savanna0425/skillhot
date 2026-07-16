@@ -1,74 +1,55 @@
 {
-  "rank": 2146,
-  "id": 1278383227,
-  "name": "pharn-oss",
-  "fullName": "pharn-dev/pharn-oss",
-  "owner": "pharn-dev",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/282059132?v=4",
-  "url": "https://github.com/pharn-dev/pharn-oss",
-  "homepage": "https://pharn.dev",
-  "description": "Audit-grade methodology for AI-native development. Skills, commands, lenses, and rules that turn AI sessions into versioned, auditable artifacts — with a deterministic floor that holds even when no one reads them. Claude Code first; Codex and Cursor next.",
-  "summary": "pharn-oss：pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 58,
+  "id": 1255180606,
+  "name": "odysseus",
+  "fullName": "odysseus-dev/odysseus",
+  "owner": "odysseus-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/305418735?v=4",
+  "url": "https://github.com/odysseus-dev/odysseus",
+  "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/",
+  "description": "Self-hosted AI workspace. ",
+  "summary": "odysseus：odysseus 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "model switch|provider management|model gateway|llm gat",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/pharn-dev/pharn-oss.git",
-  "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 5,
-  "score": 66,
+  "installCommand": "git clone https://github.com/pewdiepie-archdaemon/odysseus.git\ncd odysseus\ncp .env.example .env",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 82910,
+  "forks": 10928,
+  "openIssues": 1748,
+  "score": 148,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T19:54:29Z",
-  "updatedAt": "2026-07-10T10:14:15Z",
-  "createdAt": "2026-06-23T18:31:57Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "pushedAt": "2026-07-14T14:33:10Z",
+  "updatedAt": "2026-07-16T03:22:32Z",
+  "createdAt": "2026-05-31T14:05:51Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agentic-coding",
-    "agentic-skill-",
-    "agentic-skills",
-    "agentic-workflow",
-    "ai-developer-tools",
-    "ai-development",
-    "ai-development-tools",
-    "ai-native",
-    "audit",
-    "claude-code",
-    "developer-tool",
-    "developer-tools",
-    "developer-tools-ai-agent",
-    "methodology"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/pharn-dev/pharn-oss",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/odysseus-dev/odysseus",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/pharn-dev/pharn-oss#readme",
-  "detailPath": "data/details/pharn__dev__pharn__oss.json",
+  "readmeUrl": "https://github.com/odysseus-dev/odysseus#readme",
+  "detailPath": "data/details/odysseus__dev__odysseus.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "odysseus 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,17 +65,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "fc5e3a91f4e2df54",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "abe0780ddd4571ae",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pharn-oss：pharn-oss 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "pharn-oss 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "odysseus：odysseus 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "odysseus 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -111,7 +92,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -134,7 +115,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,13 +1,13 @@
 {
-  "rank": 275,
+  "rank": 204,
   "id": 1189234446,
   "name": "awesome-hermes-agent",
   "fullName": "0xNyk/awesome-hermes-agent",
   "owner": "0xNyk",
   "avatarUrl": "https://avatars.githubusercontent.com/u/93952610?v=4",
   "url": "https://github.com/0xNyk/awesome-hermes-agent",
-  "homepage": "",
-  "description": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research",
+  "homepage": "https://www.nyk.dev/oss/awesome-hermes-agent",
+  "description": "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent.",
   "summary": "awesome-hermes-agent 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -22,26 +22,31 @@
   "installCommand": "git clone https://github.com/0xNyk/awesome-hermes-agent.git",
   "language": "",
   "license": "NOASSERTION",
-  "stars": 4704,
-  "forks": 327,
-  "openIssues": 23,
-  "score": 130.2,
+  "stars": 4717,
+  "forks": 329,
+  "openIssues": 0,
+  "score": 134.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T18:42:26Z",
-  "updatedAt": "2026-07-15T03:26:00Z",
+  "pushedAt": "2026-07-15T21:41:31Z",
+  "updatedAt": "2026-07-16T02:45:31Z",
   "createdAt": "2026-03-23T05:34:37Z",
   "sourceTopics": [
-    "skills"
+    "skills",
+    "agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "ai-agents",
+    "ai-tools",
     "awesome",
     "awesome-list",
     "hermes-agent",
+    "mcp",
+    "memory",
     "nous-research",
     "skills"
   ],
@@ -64,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Nous Research 的 Hermes Agent 精选技能、工具、集成与资源列表",
+    "summary": "awesome-hermes-agent 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -83,8 +88,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "a30206697236dc1c",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "9de7851fbc1a8bea",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

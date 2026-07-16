@@ -1,71 +1,71 @@
 {
-  "rank": 893,
-  "id": 1184996128,
-  "name": "minutes",
-  "fullName": "silverstein/minutes",
-  "owner": "silverstein",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/4837632?v=4",
-  "url": "https://github.com/silverstein/minutes",
-  "homepage": "https://useminutes.app",
-  "description": "Every meeting, every idea, every voice note — searchable by your AI. Open-source, privacy-first conversation memory layer.",
-  "summary": "minutes：每次会议、每一个想法、每一条语音笔记——皆可由您的 AI 检索。开源、以隐私为先的对话记忆层。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 772,
+  "id": 164347647,
+  "name": "0x4447_product_s3_email",
+  "fullName": "0x4447/0x4447_product_s3_email",
+  "owner": "0x4447",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/24189473?v=4",
+  "url": "https://github.com/0x4447/0x4447_product_s3_email",
+  "homepage": "https://0x4447.com",
+  "description": "📫 A serverless email server on AWS using S3 and SES",
+  "summary": "0x4447_product_s3_email：0x4447_product_s3_email：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/silverstein/minutes.git",
-  "language": "Rust",
+  "installCommand": "git clone https://github.com/0x4447/0x4447_product_s3_email.git",
+  "language": "",
   "license": "MIT",
-  "stars": 1340,
-  "forks": 140,
-  "openIssues": 26,
-  "score": 109.1,
+  "stars": 3039,
+  "forks": 162,
+  "openIssues": 0,
+  "score": 113.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T02:02:54Z",
-  "updatedAt": "2026-07-15T01:14:53Z",
-  "createdAt": "2026-03-18T06:11:04Z",
-  "sourceTopics": [
-    "agent-skills"
-  ],
+  "pushedAt": "2026-07-15T16:42:37Z",
+  "updatedAt": "2026-07-15T16:42:57Z",
+  "createdAt": "2019-01-06T21:35:50Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai",
-    "claude",
-    "mcp",
-    "meeting-notes",
-    "meetings",
-    "parakeet",
-    "privacy",
-    "rust",
-    "speech-to-text",
-    "transcription",
-    "voice-memo",
-    "whisper"
+    "0x4447",
+    "0x4447-product-s3-email",
+    "0x4447-products",
+    "aws",
+    "aws-lambda",
+    "aws-s3",
+    "aws-ses",
+    "codepipeline",
+    "email",
+    "email-sender",
+    "free",
+    "free-email",
+    "s3",
+    "s3-bucket",
+    "s3-email"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/silverstein/minutes",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/0x4447/0x4447_product_s3_email",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/silverstein/minutes#readme",
-  "detailPath": "data/details/silverstein__minutes.json",
+  "readmeUrl": "https://github.com/0x4447/0x4447_product_s3_email#readme",
+  "detailPath": "data/details/0x4447__0x4447__product__s3__email.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "每次会议、每一个想法、每一条语音笔记——皆可由您的 AI 检索。开源、以隐私为先的对话记忆层",
+    "summary": "0x4447_product_s3_email：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -84,14 +84,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "97b5b91f56c5d953",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "b8a41c1a0dae21fa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "minutes：每次会议、每一个想法、每一条语音笔记——皆可由您的 AI 检索。开源、以隐私为先的对话记忆层。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "minutes 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "0x4447_product_s3_email：0x4447_product_s3_email：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "0x4447_product_s3_email 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -108,7 +108,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

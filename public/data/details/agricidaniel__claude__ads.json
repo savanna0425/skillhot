@@ -22,13 +22,13 @@
   "installCommand": "python3.12 -m venv .venv\n.venv/bin/python -m pip install --no-deps -e .\n.venv/bin/python -m pip install --require-hashes --only-binary=:all: -r requirements.lock",
   "language": "Python",
   "license": "MIT",
-  "stars": 7047,
-  "forks": 1050,
+  "stars": 7090,
+  "forks": 1055,
   "openIssues": 32,
   "score": 138.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-13T20:22:29Z",
-  "updatedAt": "2026-07-15T02:48:14Z",
+  "updatedAt": "2026-07-16T03:11:50Z",
   "createdAt": "2026-02-11T13:01:49Z",
   "sourceTopics": [
     "agent-skills",
@@ -87,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "bbd1c0909a0ba3ba",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "93e255b434b2d05e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

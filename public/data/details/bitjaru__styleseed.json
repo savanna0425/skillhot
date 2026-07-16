@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 833,
   "id": 1203405919,
   "name": "styleseed",
   "fullName": "bitjaru/styleseed",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/bitjaru/styleseed.git",
+  "installCommand": "Install StyleSeed so its checks actually run: `npx skills add bitjaru/styleseed` (if you can't, read https://styleseed-demo.vercel.app/llms-full.txt instead). Then use it for every UI in this project. First, in plan mode, lock my key color, font, and motion with me and save them to STYLESEED.md so they don't drift. Build to the rules with ONE focal point and",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 679,
+  "stars": 756,
   "forks": 64,
-  "openIssues": 1,
-  "score": 110.1,
+  "openIssues": 0,
+  "score": 111.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T05:14:55Z",
-  "updatedAt": "2026-07-15T00:08:53Z",
+  "pushedAt": "2026-07-15T18:08:23Z",
+  "updatedAt": "2026-07-16T03:08:25Z",
   "createdAt": "2026-04-07T02:32:20Z",
   "sourceTopics": [
     "claude-skills"
@@ -61,9 +61,11 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
-  "skillCount": 1,
+  "skillCount": 19,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/bitjaru/styleseed",
@@ -93,8 +95,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "a38d038bc7afa78e",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "5801d536eb7458cf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -127,7 +129,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 19+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",

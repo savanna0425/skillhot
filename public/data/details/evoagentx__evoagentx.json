@@ -1,5 +1,5 @@
 {
-  "rank": 752,
+  "rank": 1024,
   "id": 967062640,
   "name": "EvoAgentX",
   "fullName": "EvoAgentX/EvoAgentX",
@@ -8,7 +8,7 @@
   "url": "https://github.com/EvoAgentX/EvoAgentX",
   "homepage": "https://evoagentx.github.io/EvoAgentX/",
   "description": "🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
-  "summary": "EvoAgentX：EvoAgentX 提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "EvoAgentX：EvoAgentX 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install evoagentx",
+  "installCommand": "git clone https://github.com/EvoAgentX/EvoAgentX.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 3140,
-  "forks": 275,
-  "openIssues": 15,
-  "score": 114,
-  "activity": "本周活跃",
+  "stars": 3143,
+  "forks": 276,
+  "openIssues": 16,
+  "score": 107,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-07T09:07:14Z",
-  "updatedAt": "2026-07-15T01:33:00Z",
+  "updatedAt": "2026-07-16T02:34:12Z",
   "createdAt": "2025-04-15T21:48:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,13 +48,13 @@
     "tools"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/EvoAgentX/EvoAgentX",
-    "videoUrl": "https://www.youtube.com/watch?v=8ALcspHOe0o"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/EvoAgentX/EvoAgentX#readme",
   "detailPath": "data/details/evoagentx__evoagentx.json",
@@ -80,13 +80,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "21cca64e9077b373",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "4b3da182a18924e1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "EvoAgentX：EvoAgentX 提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "EvoAgentX：EvoAgentX 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "EvoAgentX 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -104,7 +104,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 49,
+  "rank": 101,
   "id": 1028070615,
   "name": "memU",
   "fullName": "NevaMind-AI/memU",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/217726889?v=4",
   "url": "https://github.com/NevaMind-AI/memU",
   "homepage": "https://memu.pro",
-  "description": "Personal memory for agents - fast memory retrieval, self-evolving skills, and lower cost.",
-  "summary": "memU：memU 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "description": "Personal memory across agents",
+  "summary": "memU：memU 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install memu-py        # library + `memu` CLI\nnpx memu-cli --help",
+  "installCommand": "pip install memu-cli         # library + memu + memu-codex CLIs\nnpx memu-cli --help          # CLI via npm launcher (engine: PyPI package memu-cli)\nuvx --from memu-cli memu     # CLI via uv, no install",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 14025,
-  "forks": 1042,
+  "stars": 14031,
+  "forks": 1040,
   "openIssues": 86,
-  "score": 149.5,
+  "score": 141.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T07:45:50Z",
-  "updatedAt": "2026-07-15T02:10:34Z",
+  "pushedAt": "2026-07-15T17:09:15Z",
+  "updatedAt": "2026-07-15T22:56:09Z",
   "createdAt": "2025-07-29T01:54:40Z",
   "sourceTopics": [
     "skills",
@@ -54,6 +54,8 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
+    "Cursor",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -86,13 +88,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-15T03:41:42.627Z",
-    "sourceHash": "8f38fb515478de21",
+    "generatedAt": "2026-07-16T03:43:38.521Z",
+    "sourceHash": "d9a9872ed6303b41",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "memU：memU 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "memU：memU 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "memU 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -110,7 +112,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
