@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/188330578?v=4",
   "url": "https://github.com/hugohe3/ppt-master",
   "homepage": "https://hugohe3.github.io/ppt-master/",
-  "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, editable charts & tables you can change the data on, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
-  "summary": "ppt-master：ppt-master：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+  "summary": "ppt-master：ppt-master：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "</details>\n---\n**All you need to install is [Python](https://www.python.org/downloads/) 3.10+.** Everything else comes with one line — `pip install -r requirements.txt` — after you download the project in Step 3.",
   "language": "Python",
   "license": "MIT",
-  "stars": 39286,
-  "forks": 3254,
+  "stars": 39527,
+  "forks": 3273,
   "openIssues": 4,
   "score": 140.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T02:13:49Z",
-  "updatedAt": "2026-07-16T03:42:04Z",
+  "pushedAt": "2026-07-17T00:59:59Z",
+  "updatedAt": "2026-07-17T03:38:47Z",
   "createdAt": "2025-12-10T06:54:33Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,9 +50,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -84,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "197f389bf998775f",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "117bd6ca89820c22",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ppt-master：ppt-master：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ppt-master：ppt-master：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "ppt-master 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -108,7 +106,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

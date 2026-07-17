@@ -1,5 +1,5 @@
 {
-  "rank": 188,
+  "rank": 187,
   "id": 1198306812,
   "name": "Vibe-Trading",
   "fullName": "HKUDS/Vibe-Trading",
@@ -8,7 +8,7 @@
   "url": "https://github.com/HKUDS/Vibe-Trading",
   "homepage": "https://vibetrading.wiki/",
   "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-  "summary": "Vibe-Trading：Vibe-Trading：您的个人交易代理。适合在 Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "Vibe-Trading：Vibe-Trading：您的个人交易代理。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install vibe-trading-ai\nvibe-trading run -p \"Backtest a BTC-USDT 20/50 moving-average strategy for 2024, summarize return and drawdown, then export the report\"\nvibe-trading alpha bench --zoo gtja191 --universe csi300 --period 2018-2025 --top 20",
   "language": "Python",
   "license": "MIT",
-  "stars": 23802,
-  "forks": 4050,
-  "openIssues": 23,
-  "score": 135,
+  "stars": 24353,
+  "forks": 4032,
+  "openIssues": 148,
+  "score": 135.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T13:09:10Z",
-  "updatedAt": "2026-07-16T03:35:48Z",
+  "pushedAt": "2026-07-16T12:16:25Z",
+  "updatedAt": "2026-07-17T03:41:56Z",
   "createdAt": "2026-04-01T09:52:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,8 +48,7 @@
     "trading"
   ],
   "platforms": [
-    "Codex",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 87,
   "isCollection": false,
@@ -81,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "9077848bdc070e9e",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "36a6310dc1b1417a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Vibe-Trading：Vibe-Trading：您的个人交易代理。适合在 Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "Vibe-Trading：Vibe-Trading：您的个人交易代理。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Vibe-Trading 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -105,7 +104,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

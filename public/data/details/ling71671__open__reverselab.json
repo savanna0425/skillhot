@@ -1,5 +1,5 @@
 {
-  "rank": 1360,
+  "rank": 1349,
   "id": 1272358389,
   "name": "open-reverselab",
   "fullName": "LING71671/open-reverselab",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/231181387?v=4",
   "url": "https://github.com/LING71671/open-reverselab",
   "homepage": "https://ling71671.github.io/open-reverselab/",
-  "description": "Open-source reverse engineering lab: 197-article knowledge base + MCP tools + CTF/APK/PE automation toolchain. Agent-native.  Note:由于场景原因，目前有让几乎所有（除fable5）AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试😉（项目可以让5.6干活，但是会cyber，等作者改改）",
-  "summary": "open-reverselab：由于场景原因，目前有让几乎所有（除fable5）AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试（项目可以让5.6干活，但是会cyber，等作者改改）。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Agent-native reverse-engineering lab with a 197-article knowledge base, MCP tools, and CTF/APK/PE automation workflows.",
+  "summary": "open-reverselab：open-reverselab 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/LING71671/open-reverselab.git",
   "language": "Python",
   "license": "GPL-3.0",
-  "stars": 809,
-  "forks": 219,
+  "stars": 827,
+  "forks": 223,
   "openIssues": 4,
-  "score": 99.9,
+  "score": 100.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-12T18:03:02Z",
-  "updatedAt": "2026-07-16T03:02:19Z",
+  "updatedAt": "2026-07-17T02:21:43Z",
   "createdAt": "2026-06-17T14:31:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,20 +36,20 @@
   ],
   "repoTopics": [
     "ai-agent",
-    "ai-jailbreak",
-    "ai-jailbreak-universal",
     "android-reverse-engineering",
     "binary-analysis",
-    "claude-code",
     "cryptography",
     "ctf",
+    "digital-forensics",
     "frida",
     "ghidra",
+    "ios-reverse-engineering",
     "knowledge-base",
     "malware-analysis",
     "mcp-server",
     "model-context-protocol",
     "pe-analysis",
+    "protocol-analysis",
     "reverse-engineering",
     "security-automation",
     "vulnerability-research",
@@ -57,7 +57,7 @@
     "x64dbg"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "由于场景原因，目前有让几乎所有（除fable5）AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试（项目可以让5.6干活，但是会cyber，等作者改改）",
+    "summary": "open-reverselab 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,14 +89,14 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "5873d1126a85c05d",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "c9fe366c18de09fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-reverselab：由于场景原因，目前有让几乎所有（除fable5）AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试（项目可以让5.6干活，但是会cyber，等作者改改）。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "open-reverselab 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：Open-source reverse engineering lab: 197-article knowledge base + MCP tools + CTF/APK/PE automation toolchain. Agent-native. Note:由于场景原因，目前有让几乎所有（除fable5）AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试😉（项目可以让5.6干活，但是会cyber，等作者改改）。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-reverselab：open-reverselab 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "open-reverselab 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -113,7 +113,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1165,
+  "rank": 872,
   "id": 1168281163,
   "name": "qinyan-academic-skills",
   "fullName": "LeonChaoX/qinyan-academic-skills",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/264305920?v=4",
   "url": "https://github.com/LeonChaoX/qinyan-academic-skills",
   "homepage": "",
-  "description": "沁言学术科研论文Skills库 - 177个学术研究Agent Skills的综合集合，涵盖论文检索、科学写作、生物信息、药物发现、临床医学等17个分类",
-  "summary": "qinyan-academic-skills：沁言学术科研论文Skills库 - 177个学术研究Agent Skills的综合集合，涵盖论文检索、科学写作、生物信息、药物发现、临床医学等17个分类。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-  "category": "研究学习",
-  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "description": "A curated, multilingual library of 182 installable AI agent skills for end-to-end academic research—spanning literature discovery, scientific writing, grant development, bioinformatics, drug discovery, clinical research, machine learning, and data analysis.",
+  "summary": "qinyan-academic-skills 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
-  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
-    "资料调研",
-    "知识检索",
-    "学习与推理"
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/LeonChaoX/qinyan-academic-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 644,
-  "forks": 56,
+  "stars": 649,
+  "forks": 57,
   "openIssues": 0,
-  "score": 102.6,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-01T05:33:39Z",
-  "updatedAt": "2026-07-15T20:35:56Z",
+  "score": 109.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-16T09:43:26Z",
+  "updatedAt": "2026-07-17T00:24:27Z",
   "createdAt": "2026-02-27T07:53:27Z",
   "sourceTopics": [
     "skill"
@@ -53,7 +53,7 @@
     "OpenClaw"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/LeonChaoX/qinyan-academic-skills",
     "videoUrl": ""
@@ -63,18 +63,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "沁言学术科研论文Skills库 - 177个学术研究Agent Skills的综合集合，涵盖论文检索、科学写作、生物信息、药物发现、临床医学等17个分类",
+    "summary": "qinyan-academic-skills：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
-      "资料调研",
-      "知识检索",
-      "学习与推理"
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -82,51 +82,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "c078996cfee224f6",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "2bae1bd2acb6024e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "qinyan-academic-skills：沁言学术科研论文Skills库 - 177个学术研究Agent Skills的综合集合，涵盖论文检索、科学写作、生物信息、药物发现、临床医学等17个分类。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "qinyan-academic-skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "qinyan-academic-skills 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "qinyan-academic-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
-      "资料、论文、课程或知识点太分散，整理成本高。",
-      "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
-      "学习或调研需要从大量材料中快速建立脉络。",
-      "如果你的任务和「资料调研」有关，它能帮你先建立一个可试用的入口。"
+      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
+      "同一套内容风格难以稳定复用。",
+      "创作任务需要把素材、脚本、生成和发布流程串起来。",
+      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助完成资料检索、文献阅读、知识整理、推理或学习计划。",
-      "把研究问题拆成可追踪、可复核的步骤。",
-      "帮助你判断它是否适合当前研究主题。",
+      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
+      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
+      "帮助你先判断它是否适合当前内容生产任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "学生、研究者、知识工作者和需要快速调研的人。",
-      "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
-      "需要把研究过程沉淀成固定流程的团队。",
+      "内容创作者、运营、设计师和需要频繁产出素材的人。",
+      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
+      "想把固定内容流程模板化的小团队。",
       "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "把输出直接当作学术结论、医疗建议或投资建议的人。",
-      "不愿核对来源和原文的人。"
+      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
+      "只想要一键生成所有内容且不参与编辑的人。"
     ],
     "howItWorks": [
-      "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
-      "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
-      "可信度取决于来源质量和你的人工复核。",
+      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
+      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
+      "最终发布前仍需要人工审稿、校对和版权检查。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用一个小主题测试它的资料组织方式。",
-      "确认输出是否保留来源、链接或可追溯线索。",
-      "再用于正式论文、报告或学习项目。"
+      "先看 README 里的输入格式和示例输出。",
+      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
+      "确认可编辑性和导出格式后再纳入正式流程。"
     ],
     "expectedOutcome": [
-      "更快看清一个主题的主要脉络。",
-      "阅读和整理资料的重复劳动减少。",
-      "学习或研究过程更容易复盘。"
+      "从选题到初稿的速度更快。",
+      "内容风格更容易保持一致。",
+      "重复性创作流程可以被复用。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

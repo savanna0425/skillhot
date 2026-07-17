@@ -1,17 +1,17 @@
 {
-  "rank": 2143,
-  "id": 1292946155,
-  "name": "claude-plugins",
-  "fullName": "Topurrra/claude-plugins",
-  "owner": "Topurrra",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/36174597?v=4",
-  "url": "https://github.com/Topurrra/claude-plugins",
-  "homepage": "",
-  "description": "My Claude Code plugins, one repo, any machine: a universal coding-discipline skill and 15 foundational build-from-scratch skills behind one orchestrator.",
-  "summary": "claude-plugins：claude-plugins 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 444,
+  "id": 1158692577,
+  "name": "one-skill-to-rule-them-all",
+  "fullName": "rebelytics/one-skill-to-rule-them-all",
+  "owner": "rebelytics",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/261660926?v=4",
+  "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
+  "homepage": "https://www.rebelytics.com/task-observer/",
+  "description": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions, captures corrections and judgement calls, and turns them into skill improvements automatically. Practical application of the Augmented Expertise methodology. Open-source, domain-agnostic, CC BY 4.0.",
+  "summary": "one-skill-to-rule-them-all：one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
   "scenarios": [
     "创建技能",
@@ -19,45 +19,66 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/Topurrra/claude-plugins.git",
+  "installCommand": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git",
   "language": "",
-  "license": "",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 66,
+  "license": "CC-BY-4.0",
+  "stars": 1051,
+  "forks": 117,
+  "openIssues": 4,
+  "score": 122.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-08T18:17:22Z",
-  "updatedAt": "2026-07-08T18:17:51Z",
-  "createdAt": "2026-07-08T01:38:43Z",
+  "pushedAt": "2026-07-16T20:30:48Z",
+  "updatedAt": "2026-07-16T22:29:12Z",
+  "createdAt": "2026-02-15T19:18:12Z",
   "sourceTopics": [
+    "skill",
+    "ai-skills",
     "agentic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-skill",
+    "agent-skills",
     "agentic-skills",
-    "claude-code-plugin",
-    "claude-code-skills",
-    "claude-skills"
+    "ai-skills",
+    "augmented-expertise",
+    "awesome-skills",
+    "claude",
+    "claude-code",
+    "claude-cowork",
+    "improve-skills",
+    "meta-skill",
+    "meta-skills",
+    "rebelytics",
+    "skill",
+    "skill-automation",
+    "skill-builder",
+    "skill-creation",
+    "skill-generation",
+    "skill-improvement",
+    "skill-management",
+    "skills"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 50,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Topurrra/claude-plugins",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rebelytics/one-skill-to-rule-them-all",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Topurrra/claude-plugins#readme",
-  "detailPath": "data/details/topurrra__claude__plugins.json",
+  "readmeUrl": "https://github.com/rebelytics/one-skill-to-rule-them-all#readme",
+  "detailPath": "data/details/rebelytics__one__skill__to__rule__them__all.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-plugins 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -73,17 +94,17 @@
     ],
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "99482c8f01a2cd13",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "60dc36a1bdeda3e6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-plugins：claude-plugins 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-plugins 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "one-skill-to-rule-them-all：one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "one-skill-to-rule-them-all 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -100,7 +121,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
@@ -110,7 +131,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 50+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",
@@ -123,7 +144,7 @@
       "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 CC-BY-4.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

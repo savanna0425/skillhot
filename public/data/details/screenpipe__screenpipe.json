@@ -1,5 +1,5 @@
 {
-  "rank": 220,
+  "rank": 219,
   "id": 817326197,
   "name": "screenpipe",
   "fullName": "screenpipe/screenpipe",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/259178917?v=4",
   "url": "https://github.com/screenpipe/screenpipe",
   "homepage": "https://screenpipe.com",
-  "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
-  "summary": "screenpipe：YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+  "description": "YC (S26) | Record how you work and turn that into agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+  "summary": "screenpipe：screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx screenpipe record",
   "language": "Rust",
   "license": "NOASSERTION",
-  "stars": 20113,
-  "forks": 1972,
-  "openIssues": 103,
+  "stars": 20195,
+  "forks": 1982,
+  "openIssues": 104,
   "score": 133.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T02:57:13Z",
-  "updatedAt": "2026-07-16T03:39:34Z",
+  "pushedAt": "2026-07-17T02:55:43Z",
+  "updatedAt": "2026-07-17T03:17:29Z",
   "createdAt": "2024-06-19T13:23:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用",
+    "summary": "screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +91,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "53869073e334daac",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "c6eea2716e263301",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "screenpipe：YC（S26）| 知晓您所见、所言、所闻的 AI。全天候记录您的所作所为、所言所闻，本地、私密、安全运行。连接 OpenClaw、Hermes 代理及 100 多个应用。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "screenpipe：screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "screenpipe 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

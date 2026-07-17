@@ -1,14 +1,14 @@
 {
-  "rank": 1807,
-  "id": 1193381430,
-  "name": "ASI-Evolve",
-  "fullName": "GAIR-NLP/ASI-Evolve",
-  "owner": "GAIR-NLP",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/121574224?v=4",
-  "url": "https://github.com/GAIR-NLP/ASI-Evolve",
-  "homepage": "",
-  "description": "",
-  "summary": "ASI-Evolve：ASI-Evolve：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1116,
+  "id": 445620962,
+  "name": "monoscope",
+  "fullName": "monoscope-tech/monoscope",
+  "owner": "monoscope-tech",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/94645724?v=4",
+  "url": "https://github.com/monoscope-tech/monoscope",
+  "homepage": "https://monoscope.tech",
+  "description": "Monoscope lets you ingest and explore your logs, traces and metrics. We store these in S3 compatible buckets. Query in natural language via LLMs.",
+  "summary": "monoscope：monoscope：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,48 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/GAIR-NLP/ASI-Evolve.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 807,
-  "forks": 206,
-  "openIssues": 0,
-  "score": 84.9,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-17T05:22:08Z",
-  "updatedAt": "2026-07-15T15:19:18Z",
-  "createdAt": "2026-03-27T06:50:39Z",
+  "installCommand": "git clone https://github.com/monoscope-tech/monoscope.git",
+  "language": "Haskell",
+  "license": "AGPL-3.0",
+  "stars": 1382,
+  "forks": 59,
+  "openIssues": 15,
+  "score": 105.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-16T23:33:39Z",
+  "updatedAt": "2026-07-17T01:23:00Z",
+  "createdAt": "2022-01-07T18:46:04Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "haskell",
+    "logs",
+    "metrics",
+    "monitoring",
+    "observability",
+    "opentelemetry",
+    "s3",
+    "self-hosted",
+    "timescaledb",
+    "tracing"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/GAIR-NLP/ASI-Evolve",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/monoscope-tech/monoscope",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/GAIR-NLP/ASI-Evolve#readme",
-  "detailPath": "data/details/gair__nlp__asi__evolve.json",
+  "readmeUrl": "https://github.com/monoscope-tech/monoscope#readme",
+  "detailPath": "data/details/monoscope__tech__monoscope.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ASI-Evolve：尚未归入主要类别的实用项目。",
+    "summary": "monoscope：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "8d314ebf21b8c323",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "c023e508aaeb0884",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ASI-Evolve：ASI-Evolve：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ASI-Evolve 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "monoscope：monoscope：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "monoscope 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +126,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

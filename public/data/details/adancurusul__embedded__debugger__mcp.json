@@ -1,5 +1,5 @@
 {
-  "rank": 1675,
+  "rank": 1469,
   "id": 1032495027,
   "name": "embedded-debugger-mcp",
   "fullName": "Adancurusul/embedded-debugger-mcp",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/54146249?v=4",
   "url": "https://github.com/Adancurusul/embedded-debugger-mcp",
   "homepage": "",
-  "description": "MCP server, CLI, and Codex/Claude skill for embedded debugging with probe-rs, supporting ARM Cortex-M and RISC-V debug workflows.",
+  "description": "MCP server + CLI + Codex/Claude skill for embedded debugging via probe-rs or OpenOCD — ARM Cortex-M, RISC-V, and Xtensa (ESP32), with AI crash diagnosis",
   "summary": "embedded-debugger-mcp：embedded-debugger-mcp 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -25,10 +25,10 @@
   "stars": 124,
   "forks": 20,
   "openIssues": 0,
-  "score": 90.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-24T08:15:23Z",
-  "updatedAt": "2026-07-15T11:00:44Z",
+  "score": 97.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-16T12:50:13Z",
+  "updatedAt": "2026-07-16T12:50:42Z",
   "createdAt": "2025-08-05T11:44:40Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -48,13 +48,16 @@
     "debug-probe",
     "embedded-debugging",
     "embedded-systems",
+    "esp32",
     "mcp",
     "mcp-server",
     "model-context-protocol",
+    "openocd",
     "probe-rs",
     "riscv",
     "rust",
-    "skill"
+    "skill",
+    "xtensa"
   ],
   "platforms": [
     "Claude",
@@ -90,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "9435ae3a826d9edb",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "784837d48f288e21",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

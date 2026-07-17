@@ -1,66 +1,63 @@
 {
-  "rank": 1492,
-  "id": 1197690052,
-  "name": "claude-video-vision",
-  "fullName": "jordanrendric/claude-video-vision",
-  "owner": "jordanrendric",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/196128771?v=4",
-  "url": "https://github.com/jordanrendric/claude-video-vision",
-  "homepage": "https://github.com/jordanrendric/claude-video-vision",
-  "description": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
-  "summary": "claude-video-vision：claude-video-vision：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1468,
+  "id": 1244583841,
+  "name": "Jacky-motion",
+  "fullName": "Jackywxsz/Jacky-motion",
+  "owner": "Jackywxsz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131797343?v=4",
+  "url": "https://github.com/Jackywxsz/Jacky-motion",
+  "homepage": "",
+  "description": "Chinese voiceover script to 16:9 motion HTML skill for creator workflows",
+  "summary": "Jacky-motion：Jacky-motion：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jordanrendric/claude-video-vision.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/Jackywxsz/Jacky-motion.git",
+  "language": "CSS",
   "license": "MIT",
-  "stars": 996,
-  "forks": 115,
-  "openIssues": 17,
-  "score": 95.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-01T14:37:37Z",
-  "updatedAt": "2026-07-15T18:04:06Z",
-  "createdAt": "2026-03-31T19:49:52Z",
-  "sourceTopics": [],
+  "stars": 190,
+  "forks": 34,
+  "openIssues": 0,
+  "score": 97.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-14T09:02:46Z",
+  "updatedAt": "2026-07-17T01:20:58Z",
+  "createdAt": "2026-05-20T12:01:28Z",
+  "sourceTopics": [
+    "skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "claude-code",
-    "claude-code-plugin",
-    "ffmpeg",
-    "gemini",
-    "mcp",
-    "mcp-server",
-    "multimodal",
-    "video-analysis",
-    "whisper"
+    "agent-skill",
+    "chinese",
+    "content-creation",
+    "motion-html",
+    "skill"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jordanrendric/claude-video-vision",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Jackywxsz/Jacky-motion",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jordanrendric/claude-video-vision#readme",
-  "detailPath": "data/details/jordanrendric__claude__video__vision.json",
+  "readmeUrl": "https://github.com/Jackywxsz/Jacky-motion#readme",
+  "detailPath": "data/details/jackywxsz__jacky__motion.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-video-vision：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "Jacky-motion：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "4bbea377765c2aaa",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "563630d0045cee13",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-video-vision：claude-video-vision：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "claude-video-vision 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Jacky-motion：Jacky-motion：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Jacky-motion 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -103,7 +100,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

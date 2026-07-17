@@ -1,5 +1,5 @@
 {
-  "rank": 562,
+  "rank": 561,
   "id": 1053292493,
   "name": "dograh",
   "fullName": "dograh-hq/dograh",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dograh-hq/dograh",
   "homepage": "https://app.dograh.com",
   "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across  Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
-  "summary": "dograh：开源语音 AI 平台。自托管的 Vapi 和 Retell 替代方案。支持本地部署，支持 BYOK，涵盖语音转语音或 LLM/STT/TTS，配备可视化工作流构建器、原生 MCP 支持及电话支持。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "dograh：开源语音 AI 平台。自托管的 Vapi 和 Retell 替代方案。支持本地部署，支持 BYOK，涵盖语音转语音或 LLM/STT/TTS，配备可视化工作流构建器、原生 MCP 支持及电话支持。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dograh-hq/dograh.git",
   "language": "Python",
   "license": "BSD-2-Clause",
-  "stars": 4881,
-  "forks": 1121,
-  "openIssues": 12,
-  "score": 118.5,
+  "stars": 4899,
+  "forks": 1125,
+  "openIssues": 17,
+  "score": 118.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T14:40:44Z",
-  "updatedAt": "2026-07-16T02:35:09Z",
+  "pushedAt": "2026-07-16T08:36:40Z",
+  "updatedAt": "2026-07-17T03:23:19Z",
   "createdAt": "2025-09-09T08:48:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -90,13 +91,13 @@
       "许可证为 BSD-2-Clause，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-16T03:43:38.521Z",
-    "sourceHash": "fb22af8321c1d5b0",
+    "generatedAt": "2026-07-17T03:43:25.915Z",
+    "sourceHash": "ede0ddb032f62fcb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dograh：开源语音 AI 平台。自托管的 Vapi 和 Retell 替代方案。支持本地部署，支持 BYOK，涵盖语音转语音或 LLM/STT/TTS，配备可视化工作流构建器、原生 MCP 支持及电话支持。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "dograh：开源语音 AI 平台。自托管的 Vapi 和 Retell 替代方案。支持本地部署，支持 BYOK，涵盖语音转语音或 LLM/STT/TTS，配备可视化工作流构建器、原生 MCP 支持及电话支持。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "dograh 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -114,7 +115,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
