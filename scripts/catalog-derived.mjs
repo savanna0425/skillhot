@@ -250,6 +250,11 @@ function liteSkillFor(skill) {
   }
 }
 
+function catalogSkillFor(skill) {
+  const { projectInsight, projectProfile, ...catalogSkill } = skill
+  return catalogSkill
+}
+
 export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, previousPath = '' } = {}) {
   const previousNames = await readPreviousNames(previousPath)
   const generatedAt = data.meta.generatedAt || new Date().toISOString()
@@ -263,6 +268,7 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
     .slice(0, 80)
     .map((skill) => skill.fullName)
   const liteSkills = skills.map(liteSkillFor)
+  const catalogSkills = skills.map(catalogSkillFor)
   const manifest = {
     version: generatedAt,
     generatedAt,
@@ -304,6 +310,11 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
     meta: { ...data.meta, repositories: skills.length },
     skills: liteSkills,
   }
+  const fullCatalog = {
+    ...data,
+    meta: { ...data.meta, repositories: skills.length },
+    skills: catalogSkills,
+  }
 
   await mkdir(outputDir, { recursive: true })
   await mkdir(path.join(outputDir, 'categories'), { recursive: true })
@@ -312,6 +323,7 @@ export async function writeDerivedCatalog(data, { outputDir = defaultOutputDir, 
   await mkdir(path.join(outputDir, 'details'), { recursive: true })
 
   await writeFile(path.join(outputDir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`)
+  await writeFile(path.join(outputDir, 'skills.json'), `${JSON.stringify(fullCatalog, null, 2)}\n`)
   await writeFile(path.join(outputDir, 'home.json'), `${JSON.stringify(home, null, 2)}\n`)
   await writeFile(path.join(outputDir, 'skills-lite.json'), `${JSON.stringify(skillsLite, null, 2)}\n`)
   await writeFile(path.join(outputDir, 'categories.json'), `${JSON.stringify(data.categories, null, 2)}\n`)

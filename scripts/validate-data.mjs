@@ -109,6 +109,9 @@ for (const skill of data.skills) {
   assert(/[\u3400-\u9fff]/.test(skill.summary), `summary must contain Chinese for ${skill.fullName}`)
   assert(skill.categoryDescription === data.categories.find((item) => item.name === skill.category)?.description, `stale category description for ${skill.fullName}`)
   assert(typeof skill.categoryConfidence === 'string' && skill.categoryConfidence.length > 0, `missing category confidence for ${skill.fullName}`)
+  assert(skill.detailPath, `skills.json must include detailPath for ${skill.fullName}`)
+  assert(!Object.hasOwn(skill, 'projectInsight'), `skills.json must not include full project insight for ${skill.fullName}`)
+  assert(!Object.hasOwn(skill, 'projectProfile'), `skills.json must not include full project profile for ${skill.fullName}`)
   const semanticIssues = semanticQualityIssues(skill)
   assert(semanticIssues.length === 0, `${skill.fullName} failed semantic QA: ${semanticIssues.join(', ')}`)
   if (skill.discoveredBy.includes('GitHub 高星活跃搜索')) {
