@@ -1,5 +1,5 @@
 {
-  "rank": 331,
+  "rank": 334,
   "id": 743825398,
   "name": "ruoyi-ai",
   "fullName": "ageerle/ruoyi-ai",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ageerle/ruoyi-ai",
   "homepage": "https://doc.ruoyiai.chat",
   "description": "面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。",
-  "summary": "ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ageerle/ruoyi-ai.git\ncd ruoyi-ai\ndocker-compose -f docker-compose-all.yaml up -d",
   "language": "Java",
   "license": "MIT",
-  "stars": 5517,
-  "forks": 1356,
+  "stars": 5526,
+  "forks": 1359,
   "openIssues": 8,
   "score": 127.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T10:25:57Z",
-  "updatedAt": "2026-07-17T03:39:09Z",
+  "pushedAt": "2026-07-17T06:47:28Z",
+  "updatedAt": "2026-07-17T22:38:11Z",
   "createdAt": "2024-01-16T04:16:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -42,7 +42,7 @@
     "rag"
   ],
   "platforms": [
-    "Agent Skills"
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "205a4cf591259ee5",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "c4a8b19def812b26",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "ruoyi-ai 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -98,7 +98,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

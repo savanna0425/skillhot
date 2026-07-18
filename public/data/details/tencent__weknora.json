@@ -1,5 +1,5 @@
 {
-  "rank": 237,
+  "rank": 235,
   "id": 1024118326,
   "name": "WeKnora",
   "fullName": "Tencent/WeKnora",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Tencent/WeKnora",
   "homepage": "https://weknora.weixin.qq.com",
   "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-  "summary": "WeKnora：开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "WeKnora：开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Tencent/WeKnora.git\ncd WeKnora\ncp .env.example .env   # Edit .env as needed, see comments in the file",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 18430,
-  "forks": 2545,
-  "openIssues": 392,
+  "stars": 18473,
+  "forks": 2558,
+  "openIssues": 400,
   "score": 132.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T03:38:35Z",
-  "updatedAt": "2026-07-17T03:38:40Z",
+  "pushedAt": "2026-07-17T10:42:46Z",
+  "updatedAt": "2026-07-18T02:47:22Z",
   "createdAt": "2025-07-22T08:01:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,6 @@
     "wiki"
   ],
   "platforms": [
-    "Claude",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -91,13 +90,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "8dd4f7a9fb5d700f",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "d34758da9708087a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "WeKnora：开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "WeKnora：开源大语言模型知识库平台：将原始文档转化为可查询的 RAG、自主推理代理及自我维护的 Wiki。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "WeKnora 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -115,7 +114,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

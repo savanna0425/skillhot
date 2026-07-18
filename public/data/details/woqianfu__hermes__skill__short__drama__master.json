@@ -1,56 +1,71 @@
 {
-  "rank": 790,
-  "id": 1134568207,
-  "name": "chengfeng-videocut-skills",
-  "fullName": "Agentchengfeng/chengfeng-videocut-skills",
-  "owner": "Agentchengfeng",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/46671717?v=4",
-  "url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
+  "rank": 2034,
+  "id": 1268866125,
+  "name": "hermes-skill-short-drama-master",
+  "fullName": "woqianfu/hermes-skill-short-drama-master",
+  "owner": "woqianfu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/293492133?v=4",
+  "url": "https://github.com/woqianfu/hermes-skill-short-drama-master",
   "homepage": "",
-  "description": "用 Claude Code Skills 做的视频剪辑 Agent",
-  "summary": "chengfeng-videocut-skills：用 Claude Code Skills 做的视频剪辑 Agent。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "🎬 短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-one micro-drama creation skill for Hermes Agent | 21-Master 4-Corps Legion + Evolution KPI Oversight | From one-line idea to XiaoYunQue final cut",
+  "summary": "hermes-skill-short-drama-master：短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "这个 npm 包只是一个很小的安装器。真正的 Skills 源码在 GitHub，每次安装都会从这里拉取最新版本：",
+  "installCommand": "git clone https://github.com/woqianfu/hermes-skill-short-drama-master.git",
   "language": "HTML",
-  "license": "Apache-2.0",
-  "stars": 2677,
-  "forks": 368,
-  "openIssues": 19,
-  "score": 113.3,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-26T15:36:41Z",
-  "updatedAt": "2026-07-17T03:18:29Z",
-  "createdAt": "2026-01-14T22:30:01Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 搜索"
+  "license": "",
+  "stars": 9,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 72.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-11T19:43:46Z",
+  "updatedAt": "2026-07-17T07:41:12Z",
+  "createdAt": "2026-06-14T03:02:05Z",
+  "sourceTopics": [
+    "hermes-skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agent",
+    "ai-video",
+    "dci-copyright",
+    "hermes-skill",
+    "mini-drama",
+    "prompt-engineering",
+    "quality-assurance",
+    "screenwriting",
+    "self-evolution",
+    "short-drama",
+    "vertical-drama",
+    "video-generation",
+    "xiaoque"
+  ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Agentchengfeng/chengfeng-videocut-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/woqianfu/hermes-skill-short-drama-master",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Agentchengfeng/chengfeng-videocut-skills#readme",
-  "detailPath": "data/details/agentchengfeng__chengfeng__videocut__skills.json",
+  "readmeUrl": "https://github.com/woqianfu/hermes-skill-short-drama-master#readme",
+  "detailPath": "data/details/woqianfu__hermes__skill__short__drama__master.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "用 Claude Code Skills 做的视频剪辑 Agent",
+    "summary": "短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -66,17 +81,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "5e1b2b700bf7e67f",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "fc5feedd38b9765c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chengfeng-videocut-skills：用 Claude Code Skills 做的视频剪辑 Agent。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "chengfeng-videocut-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hermes-skill-short-drama-master：短剧大师™ v6.2.4 — 微短剧全流程一体化创作技能 | 二十一位大师四军团+进化总督察 | 研究军团案例驱动创作 | 进化大师KPI监督 | 从一句话创意到小云雀成片 | Short Drama Master™ — All-in-on。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "hermes-skill-short-drama-master 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -93,7 +108,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -116,7 +131,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

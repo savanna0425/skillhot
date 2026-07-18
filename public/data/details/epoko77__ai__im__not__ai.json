@@ -1,5 +1,5 @@
 {
-  "rank": 1267,
+  "rank": 664,
   "id": 1220000506,
   "name": "im-not-ai",
   "fullName": "epoko77-ai/im-not-ai",
@@ -8,7 +8,7 @@
   "url": "https://github.com/epoko77-ai/im-not-ai",
   "homepage": "",
   "description": "AI가 쓴 글이 아닌 것처럼 윤문해주는 스킬",
-  "summary": "im-not-ai：能够伪装成 AI 写出的内容，并以此进行伦理规避的技能。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "im-not-ai：能够伪装成 AI 写出的内容，并以此进行伦理规避的技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/epoko77-ai/im-not-ai.git",
+  "installCommand": "git clone https://github.com/epoko77-ai/im-not-ai.git\ncd im-not-ai\n./install.sh            # 설치된 claude/codex 자동 감지 → 전역 심링크",
   "language": "Python",
   "license": "MIT",
-  "stars": 3818,
+  "stars": 3825,
   "forks": 384,
   "openIssues": 24,
-  "score": 101,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-09T08:32:52Z",
-  "updatedAt": "2026-07-17T03:24:00Z",
+  "score": 116,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-18T01:06:31Z",
+  "updatedAt": "2026-07-18T01:06:04Z",
   "createdAt": "2026-04-24T12:48:40Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,10 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "f1c5e1165258086c",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "8515db09282cccd7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "im-not-ai：能够伪装成 AI 写出的内容，并以此进行伦理规避的技能。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "im-not-ai：能够伪装成 AI 写出的内容，并以此进行伦理规避的技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "im-not-ai 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -93,7 +96,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

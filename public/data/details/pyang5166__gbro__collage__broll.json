@@ -1,17 +1,17 @@
 {
-  "rank": 1347,
-  "id": 1279325204,
-  "name": "universal-examprep-skill",
-  "fullName": "ZeKaiNie/universal-examprep-skill",
-  "owner": "ZeKaiNie",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/258440625?v=4",
-  "url": "https://github.com/ZeKaiNie/universal-examprep-skill",
+  "rank": 1260,
+  "id": 1301607598,
+  "name": "gbro-collage-broll",
+  "fullName": "pyang5166/gbro-collage-broll",
+  "owner": "pyang5166",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/176493563?v=4",
+  "url": "https://github.com/pyang5166/gbro-collage-broll",
   "homepage": "",
-  "description": "Last-night exam-cram coach as a Claude Agent Skill: turns your slides, notes and past papers into a chaptered knowledge base + quiz bank, teaches only what's in your materials, and never fabricates (measured 100% out-of-scope abstention). Bilingual EN/中文 — the 期末极速备考 skill.",
-  "summary": "universal-examprep-skill：中文 — the 期末极速备考 skill。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+  "summary": "gbro-collage-broll：半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
@@ -19,17 +19,17 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ZeKaiNie/universal-examprep-skill.git",
+  "installCommand": "git clone https://github.com/pyang5166/gbro-collage-broll.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 256,
-  "forks": 14,
-  "openIssues": 1,
-  "score": 100.2,
+  "stars": 281,
+  "forks": 28,
+  "openIssues": 2,
+  "score": 101.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T23:08:27Z",
-  "updatedAt": "2026-07-16T23:08:31Z",
-  "createdAt": "2026-06-24T15:25:04Z",
+  "pushedAt": "2026-07-15T12:50:50Z",
+  "updatedAt": "2026-07-18T03:09:11Z",
+  "createdAt": "2026-07-15T12:45:47Z",
   "sourceTopics": [
     "agent-skill"
   ],
@@ -38,36 +38,26 @@
   ],
   "repoTopics": [
     "agent-skill",
-    "ai-tutor",
-    "anthropic",
-    "anti-hallucination",
-    "claude",
-    "claude-code",
-    "claude-skill",
-    "cram",
-    "edtech",
-    "education",
-    "exam-prep",
-    "llm",
-    "quiz",
-    "rag",
-    "study-tool"
+    "broll",
+    "gemini",
+    "paper-collage",
+    "video-generation"
   ],
   "platforms": [
-    "Claude"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZeKaiNie/universal-examprep-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/pyang5166/gbro-collage-broll",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ZeKaiNie/universal-examprep-skill#readme",
-  "detailPath": "data/details/zekainie__universal__examprep__skill.json",
+  "readmeUrl": "https://github.com/pyang5166/gbro-collage-broll#readme",
+  "detailPath": "data/details/pyang5166__gbro__collage__broll.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "中文 — the 期末极速备考 skill.",
+    "summary": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -86,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "473e0c6b150cb74a",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "c9c0e65b94072a83",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "universal-examprep-skill：中文 — the 期末极速备考 skill。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "universal-examprep-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gbro-collage-broll：半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "gbro-collage-broll 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -110,7 +100,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

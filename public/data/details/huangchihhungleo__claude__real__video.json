@@ -1,5 +1,5 @@
 {
-  "rank": 1002,
+  "rank": 991,
   "id": 1284959612,
   "name": "claude-real-video",
   "fullName": "HUANGCHIHHUNGLeo/claude-real-video",
@@ -11,7 +11,7 @@
   "summary": "claude-real-video：claude-real-video：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -22,19 +22,32 @@
   "installCommand": "git clone https://github.com/HUANGCHIHHUNGLeo/claude-real-video.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1693,
-  "forks": 136,
-  "openIssues": 1,
-  "score": 107.5,
+  "stars": 1716,
+  "forks": 139,
+  "openIssues": 0,
+  "score": 107.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T00:04:35Z",
-  "updatedAt": "2026-07-17T02:42:29Z",
+  "pushedAt": "2026-07-17T16:52:18Z",
+  "updatedAt": "2026-07-18T03:29:52Z",
   "createdAt": "2026-06-30T10:55:02Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "claude",
+    "claude-code",
+    "cli",
+    "ffmpeg",
+    "keyframe-extraction",
+    "llm",
+    "multimodal",
+    "python",
+    "scene-detection",
+    "transcription",
+    "video-analysis",
+    "whisper"
+  ],
   "platforms": [
     "Claude"
   ],
@@ -68,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "d0b7b97a392a73f9",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "de1357b93519b3fd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

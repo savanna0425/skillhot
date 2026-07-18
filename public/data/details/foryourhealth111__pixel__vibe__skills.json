@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/251585801?v=4",
   "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
   "homepage": "",
-  "description": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgrade its functionality—eliminating the friction of fragmented tools and complex harnesses.",
-  "summary": "Vibe-Skills：Vibe-Skills 是一款全栈式 AI 技能包。它将专家级能力与上下文管理无缝集成于通用技能包中，使任何 AI 代理能瞬间升级其功能，从而消除碎片化工具与复杂接口的摩擦。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "记忆与上下文",
-  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "中",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "description": "Governed workflow runtime for AI agents: scope complex requests, coordinate local Skills, verify delivery, and preserve resumable context.",
+  "summary": "Vibe-Skills：Vibe-Skills 用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "自动化",
+  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "长期任务",
-    "跨会话续接",
-    "上下文管理"
+    "重复任务",
+    "浏览器操作",
+    "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/foryourhealth111-pixel/Vibe-Skills.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 2382,
+  "stars": 2385,
   "forks": 168,
-  "openIssues": 14,
+  "openIssues": 15,
   "score": 131.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T03:35:17Z",
-  "updatedAt": "2026-07-17T03:35:21Z",
+  "pushedAt": "2026-07-18T02:12:11Z",
+  "updatedAt": "2026-07-18T00:39:24Z",
   "createdAt": "2026-02-22T13:51:44Z",
   "sourceTopics": [
     "skills",
@@ -36,8 +36,7 @@
     "ai-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-framework",
@@ -62,10 +61,7 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "OpenClaw",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -78,18 +74,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Vibe-Skills 是一款全栈式 AI 技能包。它将专家级能力与上下文管理无缝集成于通用技能包中，使任何 AI 代理能瞬间升级其功能，从而消除碎片化工具与复杂接口的摩擦",
+    "summary": "Vibe-Skills 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
-      "长期任务",
-      "跨会话续接",
-      "上下文管理"
+      "重复任务",
+      "浏览器操作",
+      "跨工具集成"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -97,51 +93,51 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "1e6f6115a2895698",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "382251ea3d5df413",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Vibe-Skills：Vibe-Skills 是一款全栈式 AI 技能包。它将专家级能力与上下文管理无缝集成于通用技能包中，使任何 AI 代理能瞬间升级其功能，从而消除碎片化工具与复杂接口的摩擦。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "Vibe-Skills 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Vibe-Skills：Vibe-Skills 用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Vibe-Skills 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "长任务容易丢上下文，Agent 记不住项目历史。",
-      "资料、代码和决策分散，下一次会话很难续接。",
-      "团队需要让 Agent 更可靠地检索旧信息。",
-      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
+      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
+      "跨平台工作流缺少统一入口。",
+      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
+      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
-      "帮助 Agent 在长任务中保留关键事实和决策。",
-      "帮助你判断它是否适合当前长期项目。",
+      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
+      "把重复任务封装成 Agent 可以触发的流程。",
+      "帮助你判断它是否适合当前自动化任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "长期使用 Agent 做项目的人。",
-      "需要跨会话续接、知识库检索或团队记忆的人。",
-      "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "经常处理重复网页操作、数据搬运或工具联动的人。",
+      "想让 Agent 执行半自动流程的开发者和运营人员。",
+      "需要把日常任务脚本化的小团队。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只做一次性短任务、不需要保存上下文的人。",
-      "涉及敏感数据但没有权限隔离和清理方案的场景。"
+      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
+      "没有能力检查自动化结果和异常的人。"
     ],
     "howItWorks": [
-      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
-      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
-      "效果取决于数据质量、分块方式和权限管理。",
+      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
+      "用户配置目标工具后，让 Agent 按流程操作。",
+      "稳定性取决于目标网站、权限和异常处理。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用一个小项目或公开资料库测试。",
-      "确认数据存储位置、权限和删除方式。",
-      "再把长期项目资料逐步迁入。"
+      "先用测试账号或非关键任务验证。",
+      "确认它是否遵守目标平台规则。",
+      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
     ],
     "expectedOutcome": [
-      "跨会话续接更顺。",
-      "Agent 更容易找回项目背景和历史决策。",
-      "长任务的上下文管理成本下降。"
+      "重复操作耗时减少。",
+      "跨工具流程更顺。",
+      "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
       "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",

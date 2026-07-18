@@ -1,5 +1,5 @@
 {
-  "rank": 959,
+  "rank": 955,
   "id": 1188191061,
   "name": "agency-orchestrator",
   "fullName": "jnMetaCode/agency-orchestrator",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/12096460?v=4",
   "url": "https://github.com/jnMetaCode/agency-orchestrator",
   "homepage": "https://ao.aiolaola.com",
-  "description": "🚀 One sentence → multi-AI-role collaboration → complete plan in minutes. Built on the agency-agents role library (216+ experts), zero-code YAML, web Studio + desktop app, 10 LLM providers (7 free). 基于 agency-agents 专家库，一句话调度多个 AI 专家自动协作，几分钟交付完整方案。",
-  "summary": "agency-orchestrator 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "🚀 One sentence → your one-person company of AI experts → complete deliverable in minutes. 216 CN + 184 EN roles · zero-code YAML · auto-verified acceptance · Web Studio / Desktop / Docker · 11 LLM providers (7 key-free). 一句话组建你的「一人公司」AI 专家团队，几分钟交付完整方案；验收自动核验，网页 / 桌面 / Docker 全渠道。",
+  "summary": "agency-orchestrator：一句话组建你的「一人公司」AI 专家团队，几分钟交付完整方案；验收自动核验，网页 / 桌面 / Docker 全渠道。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jnMetaCode/agency-orchestrator.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 1803,
-  "forks": 239,
-  "openIssues": 14,
-  "score": 108.2,
+  "stars": 1812,
+  "forks": 241,
+  "openIssues": 11,
+  "score": 108.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T10:39:28Z",
-  "updatedAt": "2026-07-17T02:18:02Z",
+  "pushedAt": "2026-07-17T14:14:54Z",
+  "updatedAt": "2026-07-17T22:33:12Z",
   "createdAt": "2026-03-21T18:32:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
     "GitHub Copilot"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/jnMetaCode/agency-orchestrator",
     "videoUrl": ""
@@ -74,18 +74,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "One sentence → multi-AI-role collaboration → complete plan in minutes. Built on the agency-agents role library (216+ experts), zero-code YAML, web Studio + desktop app, 10 LLM providers (7 free). 基于 agency-agents 专家库，一句话调度多个 AI 专家自动协作，几分钟交付完整方案",
+    "summary": "一句话组建你的「一人公司」AI 专家团队，几分钟交付完整方案；验收自动核验，网页 / 桌面 / Docker 全渠道。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
       "多平台协作"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
@@ -93,14 +93,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "eb632e856c570602",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "39003e22a6019355",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agency-orchestrator 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "agency-orchestrator 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "agency-orchestrator：一句话组建你的「一人公司」AI 专家团队，几分钟交付完整方案；验收自动核验，网页 / 桌面 / Docker 全渠道。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agency-orchestrator 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

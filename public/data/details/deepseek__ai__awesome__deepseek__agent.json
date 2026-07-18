@@ -1,5 +1,5 @@
 {
-  "rank": 833,
+  "rank": 1155,
   "id": 1222213350,
   "name": "awesome-deepseek-agent",
   "fullName": "deepseek-ai/awesome-deepseek-agent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
   "homepage": "",
   "description": "",
-  "summary": "awesome-deepseek-agent 是一个面向 Claude、Codex、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-deepseek-agent 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/deepseek-ai/awesome-deepseek-agent.git",
   "language": "",
   "license": "",
-  "stars": 4729,
-  "forks": 569,
-  "openIssues": 232,
-  "score": 111.2,
-  "activity": "本月活跃",
+  "stars": 4736,
+  "forks": 571,
+  "openIssues": 234,
+  "score": 103.2,
+  "activity": "近期活跃",
   "pushedAt": "2026-06-17T01:24:37Z",
-  "updatedAt": "2026-07-17T02:56:12Z",
+  "updatedAt": "2026-07-18T03:28:32Z",
   "createdAt": "2026-04-27T06:37:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,11 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "GitHub Copilot",
-    "OpenClaw",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -72,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-17T03:43:25.915Z",
-    "sourceHash": "b019bd1239105903",
+    "generatedAt": "2026-07-18T03:38:41.372Z",
+    "sourceHash": "a0910dc3bde345e7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-deepseek-agent 是一个面向 Claude、Codex、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-deepseek-agent 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-deepseek-agent 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -96,7 +92,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
