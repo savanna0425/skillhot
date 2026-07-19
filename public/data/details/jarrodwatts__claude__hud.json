@@ -1,5 +1,5 @@
 {
-  "rank": 174,
+  "rank": 173,
   "id": 1126473386,
   "name": "claude-hud",
   "fullName": "jarrodwatts/claude-hud",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jarrodwatts/claude-hud",
   "homepage": "",
   "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-  "summary": "claude-hud：Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "claude-hud：claude-hud：Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jarrodwatts/claude-hud\ncd claude-hud\nnpm ci && npm run build",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 26535,
-  "forks": 1224,
-  "openIssues": 3,
+  "stars": 26573,
+  "forks": 1227,
+  "openIssues": 5,
   "score": 136.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T23:30:21Z",
-  "updatedAt": "2026-07-18T03:07:18Z",
+  "pushedAt": "2026-07-18T21:32:38Z",
+  "updatedAt": "2026-07-19T03:39:02Z",
   "createdAt": "2026-01-02T01:35:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度",
+    "summary": "claude-hud：Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "a60e8a454f95a86f",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "f7f2bc55e72bf3e0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-hud：Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "claude-hud：claude-hud：Claude Code 插件：展示当前状态 - 上下文使用情况、活跃工具、运行中的代理以及待办事项进度。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-hud 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

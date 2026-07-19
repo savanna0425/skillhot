@@ -1,5 +1,5 @@
 {
-  "rank": 29,
+  "rank": 30,
   "id": 1266797999,
   "name": "ponytail",
   "fullName": "DietrichGebert/ponytail",
@@ -8,7 +8,7 @@
   "url": "https://github.com/DietrichGebert/ponytail",
   "homepage": "https://ponytail.dev",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "summary": "ponytail：让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "ponytail：ponytail：让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "swival skills add --global https://github.com/DietrichGebert/ponytail  # stage into ~/.config/swival/library\nswival skills add ponytail                                             # install the collection into this project\nswival skills add --global ponytail                                    # or activate it in every project",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 85252,
-  "forks": 4637,
-  "openIssues": 81,
-  "score": 152.3,
+  "stars": 85636,
+  "forks": 4667,
+  "openIssues": 85,
+  "score": 152.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-15T21:32:15Z",
-  "updatedAt": "2026-07-18T03:31:55Z",
+  "updatedAt": "2026-07-19T03:57:14Z",
   "createdAt": "2026-06-12T00:52:37Z",
   "sourceTopics": [
     "agent-skills"
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码",
+    "summary": "ponytail：让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -88,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "88ea4499272ab625",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "18bcb67f1fcc33b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ponytail：让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ponytail：ponytail：让 AI 代理像房间里最懒的资深开发者那样思考。最好的代码是你从未写过的代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ponytail 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

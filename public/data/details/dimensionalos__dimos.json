@@ -1,5 +1,5 @@
 {
-  "rank": 682,
+  "rank": 681,
   "id": 875378461,
   "name": "dimos",
   "fullName": "dimensionalOS/dimos",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dimensionalOS/dimos",
   "homepage": "https://dimensionalos.com/",
   "description": "Dimensional is the agentic operating system for physical space. Command humanoids, quadrupeds, drones, and other hardware platforms in natural language and build multi-agent systems that work seamlessly with physical input (cameras, lidar, actuators).",
-  "summary": "dimos：dimos 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "dimos：dimos：dimos 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "```bash\nuv pip install 'dimos[base,unitree,sim]'\ndimos --simulation run unitree-go2",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 3716,
-  "forks": 748,
-  "openIssues": 580,
+  "stars": 3726,
+  "forks": 751,
+  "openIssues": 588,
   "score": 115.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T03:29:09Z",
-  "updatedAt": "2026-07-18T00:35:48Z",
+  "pushedAt": "2026-07-19T01:35:25Z",
+  "updatedAt": "2026-07-19T03:02:54Z",
   "createdAt": "2024-10-19T20:13:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dimos 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "dimos：dimos 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,13 +69,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9292d6c0b50ade55",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "7559f62e500b08aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dimos：dimos 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "dimos：dimos：dimos 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "dimos 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

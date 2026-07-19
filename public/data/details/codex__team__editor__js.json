@@ -1,5 +1,5 @@
 {
-  "rank": 146,
+  "rank": 145,
   "id": 47039255,
   "name": "editor.js",
   "fullName": "codex-team/editor.js",
@@ -8,7 +8,7 @@
   "url": "https://github.com/codex-team/editor.js",
   "homepage": "https://editorjs.io",
   "description": "A block-style editor with clean JSON output",
-  "summary": "editor.js：基于块的编辑器，输出干净的 JSON。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "editor.js：editor.js：基于块的编辑器，输出干净的 JSON。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npm i @editorjs/editorjs",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 31849,
+  "stars": 31850,
   "forks": 2239,
   "openIssues": 697,
   "score": 138.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T20:43:38Z",
-  "updatedAt": "2026-07-17T18:35:54Z",
+  "updatedAt": "2026-07-18T12:47:40Z",
   "createdAt": "2015-11-28T20:56:35Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于块的编辑器，输出干净的 JSON",
+    "summary": "editor.js：基于块的编辑器，输出干净的 JSON。适合在 Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "734c046a2ed3beea",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "3e5ad78e896aac5d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "editor.js：基于块的编辑器，输出干净的 JSON。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "editor.js：editor.js：基于块的编辑器，输出干净的 JSON。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "editor.js 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

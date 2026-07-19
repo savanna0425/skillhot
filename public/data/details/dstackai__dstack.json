@@ -1,5 +1,5 @@
 {
-  "rank": 753,
+  "rank": 752,
   "id": 444377346,
   "name": "dstack",
   "fullName": "dstackai/dstack",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dstackai/dstack",
   "homepage": "https://dstack.ai/docs",
   "description": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal.",
-  "summary": "dstack：支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "dstack：dstack：支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "$ uv tool install \"dstack[all]\" -U\n$ dstack server\nApplying ~/.dstack/server/config.yml...",
   "language": "Python",
   "license": "MPL-2.0",
-  "stars": 2183,
+  "stars": 2185,
   "forks": 239,
   "openIssues": 61,
   "score": 114.2,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T14:48:45Z",
-  "updatedAt": "2026-07-17T11:42:12Z",
+  "updatedAt": "2026-07-18T13:46:12Z",
   "createdAt": "2022-01-04T10:29:46Z",
   "sourceTopics": [
     "agent-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排",
+    "summary": "dstack：支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MPL-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "8adcc0ff7d740209",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "345547f90834fa28",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dstack：支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "dstack：dstack：支持在云、Kubernetes 和裸金属上，为 NVIDIA、AMD、TPU 和 Tenstorrent 的分布式训练、推理和代理工作负载提供通用编排。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "dstack 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

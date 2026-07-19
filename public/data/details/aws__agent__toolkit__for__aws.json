@@ -1,5 +1,5 @@
 {
-  "rank": 630,
+  "rank": 627,
   "id": 1219009070,
   "name": "agent-toolkit-for-aws",
   "fullName": "aws/agent-toolkit-for-aws",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aws/agent-toolkit-for-aws",
   "homepage": "",
   "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-  "summary": "agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "agent-toolkit-for-aws：agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add aws/agent-toolkit-for-aws/skills",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1947,
-  "forks": 176,
-  "openIssues": 12,
-  "score": 117,
+  "stars": 1964,
+  "forks": 179,
+  "openIssues": 11,
+  "score": 117.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T14:55:47Z",
-  "updatedAt": "2026-07-18T02:45:27Z",
+  "pushedAt": "2026-07-18T13:05:48Z",
+  "updatedAt": "2026-07-19T00:54:13Z",
   "createdAt": "2026-04-23T12:44:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建",
+    "summary": "agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -70,13 +70,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "960f6c2728361795",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "4028a54635b07039",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "agent-toolkit-for-aws：agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-toolkit-for-aws 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 267,
+  "rank": 269,
   "id": 983246568,
   "name": "DeepCode",
   "fullName": "HKUDS/DeepCode",
@@ -8,7 +8,7 @@
   "url": "https://github.com/HKUDS/DeepCode",
   "homepage": "http://arxiv.org/abs/2512.07921",
   "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
-  "summary": "DeepCode：DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "DeepCode：DeepCode：DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "python --version   # Should be 3.9+\nnode --version     # Should be 18+\nnpm --version      # Should be 8+",
   "language": "Python",
   "license": "MIT",
-  "stars": 16058,
-  "forks": 2105,
+  "stars": 16060,
+  "forks": 2108,
   "openIssues": 53,
   "score": 130.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T10:32:20Z",
-  "updatedAt": "2026-07-17T22:28:33Z",
+  "updatedAt": "2026-07-18T15:54:53Z",
   "createdAt": "2025-05-14T05:23:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）",
+    "summary": "DeepCode：DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -72,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "af18cabebeddfbbf",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "182f17ae363f3c62",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeepCode：DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "DeepCode：DeepCode：DeepCode：开源代理编程（Paper2Code、Text2Web 与 Text2Backend）。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "DeepCode 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 39,
+  "rank": 38,
   "id": 1127110039,
   "name": "planning-with-files",
   "fullName": "OthmanAdi/planning-with-files",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "homepage": "",
   "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
-  "summary": "planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "planning-with-files：planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 25457,
+  "stars": 25475,
   "forks": 2152,
   "openIssues": 5,
-  "score": 151.7,
+  "score": 151.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T14:32:40Z",
-  "updatedAt": "2026-07-17T22:05:18Z",
+  "pushedAt": "2026-07-18T10:14:06Z",
+  "updatedAt": "2026-07-19T03:40:25Z",
   "createdAt": "2026-01-03T07:37:28Z",
   "sourceTopics": [
     "agent-skills",
@@ -65,9 +65,9 @@
     "Claude",
     "Codex",
     "Cursor",
+    "Gemini CLI",
     "GitHub Copilot",
-    "OpenClaw",
-    "OpenCode"
+    "OpenClaw"
   ],
   "skillCount": 13,
   "isCollection": false,
@@ -80,7 +80,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "用持久化文件计划承接长任务，抵抗上下文丢失",
+    "summary": "planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长周期任务",
       "上下文恢复",
@@ -99,13 +99,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "1abfb2ba60e40383",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "66e37cc3aeca4ae6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "planning-with-files：planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "planning-with-files 可以先理解为一个「办公与个人效率工具」。它围绕「长周期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

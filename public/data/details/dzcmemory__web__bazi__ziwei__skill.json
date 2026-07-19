@@ -1,5 +1,5 @@
 {
-  "rank": 1498,
+  "rank": 1496,
   "id": 1268429667,
   "name": "bazi-ziwei-skill",
   "fullName": "dzcmemory-web/bazi-ziwei-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
   "homepage": "",
   "description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
-  "summary": "bazi-ziwei-skill：AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "bazi-ziwei-skill：bazi-ziwei-skill：AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dzcmemory-web/bazi-ziwei-skill.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 662,
+  "stars": 666,
   "forks": 106,
   "openIssues": 2,
   "score": 94.9,
   "activity": "近期活跃",
   "pushedAt": "2026-06-14T03:53:54Z",
-  "updatedAt": "2026-07-18T03:07:30Z",
+  "updatedAt": "2026-07-18T15:32:51Z",
   "createdAt": "2026-06-13T14:22:28Z",
   "sourceTopics": [
     "skill-md"
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent",
+    "summary": "bazi-ziwei-skill：AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -83,13 +83,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9ed95357b2c5f1d2",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "7f2adbd2bade1ed3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "bazi-ziwei-skill：AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "bazi-ziwei-skill：bazi-ziwei-skill：AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "bazi-ziwei-skill 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

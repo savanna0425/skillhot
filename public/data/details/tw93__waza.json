@@ -1,5 +1,5 @@
 {
-  "rank": 216,
+  "rank": 214,
   "id": 1179363570,
   "name": "Waza",
   "fullName": "tw93/Waza",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tw93/Waza",
   "homepage": "",
   "description": "🥷 Engineering habits you already know, turned into skills Claude can run.",
-  "summary": "Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Waza：Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add tw93/Waza -a claude-code codex cursor -g -y",
+  "installCommand": "npx skills add tw93/Waza -a claude-code codex cursor antigravity-cli -g -y",
   "language": "Python",
   "license": "MIT",
-  "stars": 6465,
-  "forks": 381,
-  "openIssues": 1,
+  "stars": 6498,
+  "forks": 382,
+  "openIssues": 0,
   "score": 133.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-11T03:24:54Z",
-  "updatedAt": "2026-07-17T13:32:46Z",
+  "pushedAt": "2026-07-19T01:15:09Z",
+  "updatedAt": "2026-07-19T03:30:51Z",
   "createdAt": "2026-03-12T00:35:56Z",
   "sourceTopics": [
     "skills"
@@ -51,7 +51,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -64,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "您已知的工程习惯，已转化为 Claude 可运行的技能",
+    "summary": "Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -83,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "8c45540721b332bf",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "8949c1e2649c6b48",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Waza：Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Waza 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

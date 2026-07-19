@@ -1,5 +1,5 @@
 {
-  "rank": 735,
+  "rank": 732,
   "id": 563831285,
   "name": "nixos-anywhere",
   "fullName": "nix-community/nixos-anywhere",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nix-community/nixos-anywhere",
   "homepage": "https://nix-community.github.io/nixos-anywhere/",
   "description": "Install NixOS everywhere via SSH [maintainers=@Mic92 @Lassulus @phaer @Enzime @a-kenji]",
-  "summary": "nixos-anywhere：在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "nixos-anywhere：nixos-anywhere：在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nix-community/nixos-anywhere.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 3292,
+  "stars": 3296,
   "forks": 209,
   "openIssues": 105,
   "score": 114.5,
   "activity": "本周活跃",
   "pushedAt": "2026-07-15T07:26:51Z",
-  "updatedAt": "2026-07-18T01:04:16Z",
+  "updatedAt": "2026-07-18T19:40:43Z",
   "createdAt": "2022-11-09T12:36:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]",
+    "summary": "nixos-anywhere：在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d6f3e5b28bb597a8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "9ef5d82d6b2c5a66",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nixos-anywhere：在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "nixos-anywhere：nixos-anywhere：在 SSH 上全球安装 NixOS [维护者：@Mic92 @Lassulus @phaer @Enzime @a-kenji]。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "nixos-anywhere 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

@@ -1,5 +1,5 @@
 {
-  "rank": 520,
+  "rank": 519,
   "id": 1054512829,
   "name": "vllm-omni",
   "fullName": "vllm-project/vllm-omni",
@@ -8,7 +8,7 @@
   "url": "https://github.com/vllm-project/vllm-omni",
   "homepage": "https://docs.vllm.ai/projects/vllm-omni",
   "description": "A framework for efficient model inference with omni-modality models",
-  "summary": "vllm-omni：支持多模态模型的高效推理框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "vllm-omni：vllm-omni：支持多模态模型的高效推理框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/vllm-project/vllm-omni.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 5610,
-  "forks": 1292,
-  "openIssues": 1182,
+  "stars": 5611,
+  "forks": 1296,
+  "openIssues": 1184,
   "score": 120,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T03:28:30Z",
-  "updatedAt": "2026-07-17T23:25:04Z",
+  "pushedAt": "2026-07-18T11:52:44Z",
+  "updatedAt": "2026-07-19T03:31:29Z",
   "createdAt": "2025-09-11T00:34:43Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "支持多模态模型的高效推理框架",
+    "summary": "vllm-omni：支持多模态模型的高效推理框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e9f039b221e81781",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "9c3e38ba29bfee6e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "vllm-omni：支持多模态模型的高效推理框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "vllm-omni：vllm-omni：支持多模态模型的高效推理框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "vllm-omni 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

@@ -8,7 +8,7 @@
   "url": "https://github.com/Kaelio/ktx",
   "homepage": "https://docs.kaelio.com/ktx",
   "description": "ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, or other AI agents to query analytical databases accurately and with full context of your company",
-  "summary": "ktx：ktx：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "ktx：ktx：ktx：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @kaelio/ktx\nktx setup\nktx status",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 1502,
+  "stars": 1503,
   "forks": 94,
   "openIssues": 41,
   "score": 114.3,
   "activity": "本周活跃",
   "pushedAt": "2026-07-12T11:41:25Z",
-  "updatedAt": "2026-07-18T00:18:27Z",
+  "updatedAt": "2026-07-18T15:48:42Z",
   "createdAt": "2026-05-10T19:42:32Z",
   "sourceTopics": [
     "agent-skills",
@@ -77,7 +77,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ktx：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "ktx：ktx：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -96,13 +96,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "509df613c34e6d62",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "b73f1d31d3ee5877",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ktx：ktx：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ktx：ktx：ktx：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ktx 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

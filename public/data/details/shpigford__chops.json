@@ -1,5 +1,5 @@
 {
-  "rank": 1423,
+  "rank": 1424,
   "id": 1185528404,
   "name": "chops",
   "fullName": "Shpigford/chops",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Shpigford/chops",
   "homepage": "https://chops.md",
   "description": "Your AI agent skills, finally organized. A macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, Windsurf, and Amp.",
-  "summary": "chops：您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "chops：chops：您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Shpigford/chops.git",
   "language": "Swift",
   "license": "NOASSERTION",
-  "stars": 1449,
+  "stars": 1450,
   "forks": 93,
   "openIssues": 14,
   "score": 98.9,
   "activity": "近期活跃",
   "pushedAt": "2026-04-29T00:33:16Z",
-  "updatedAt": "2026-07-17T09:55:49Z",
+  "updatedAt": "2026-07-19T03:05:01Z",
   "createdAt": "2026-03-18T17:17:12Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能",
+    "summary": "chops：您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -76,13 +76,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "45954431205166eb",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "73b64301890267a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chops：您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "chops：chops：您的 AI 代理技能，现已全部整理。一款 macOS 应用程序，用于浏览、编辑和管理在 Claude Code、Cursor、Codex、Windsurf 和 Amp 中运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "chops 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

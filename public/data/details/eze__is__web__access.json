@@ -1,5 +1,5 @@
 {
-  "rank": 625,
+  "rank": 623,
   "id": 1184985738,
   "name": "web-access",
   "fullName": "eze-is/web-access",
@@ -8,7 +8,7 @@
   "url": "https://github.com/eze-is/web-access",
   "homepage": "",
   "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
-  "summary": "web-access：给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "web-access：web-access：给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add eze-is/web-access",
   "language": "JavaScript",
   "license": "",
-  "stars": 8325,
+  "stars": 8334,
   "forks": 593,
-  "openIssues": 34,
+  "openIssues": 35,
   "score": 117.1,
   "activity": "近期活跃",
   "pushedAt": "2026-05-16T05:22:35Z",
-  "updatedAt": "2026-07-18T03:31:56Z",
+  "updatedAt": "2026-07-18T18:43:40Z",
   "createdAt": "2026-03-18T05:54:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+    "summary": "web-access：给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,13 +72,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4b0743e6fa793f01",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "65809536e305fcd6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "web-access：给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "web-access：web-access：给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "web-access 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

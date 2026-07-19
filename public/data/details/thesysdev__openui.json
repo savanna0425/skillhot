@@ -8,7 +8,7 @@
   "url": "https://github.com/thesysdev/openui",
   "homepage": "https://www.openui.com",
   "description": "The Open Standard for Generative UI",
-  "summary": "openui：生成式 UI 开放标准。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "openui：openui：生成式 UI 开放标准。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx @openuidev/cli@latest create --name genui-chat-app\ncd genui-chat-app\necho \"OPENAI_API_KEY=sk-your-key-here\" > .env",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 8097,
-  "forks": 599,
+  "stars": 8122,
+  "forks": 601,
   "openIssues": 108,
   "score": 123.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T18:05:55Z",
-  "updatedAt": "2026-07-18T02:53:23Z",
+  "pushedAt": "2026-07-18T11:01:14Z",
+  "updatedAt": "2026-07-19T02:48:05Z",
   "createdAt": "2024-12-02T10:40:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "生成式 UI 开放标准",
+    "summary": "openui：生成式 UI 开放标准。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b28c94a710ff67cc",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "04f9fb99ca0c97fc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openui：生成式 UI 开放标准。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "openui：openui：生成式 UI 开放标准。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "openui 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

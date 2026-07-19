@@ -1,5 +1,5 @@
 {
-  "rank": 1551,
+  "rank": 1549,
   "id": 1030580992,
   "name": "atlassian-mcp-server",
   "fullName": "atlassian/atlassian-mcp-server",
@@ -8,7 +8,7 @@
   "url": "https://github.com/atlassian/atlassian-mcp-server",
   "homepage": "https://atlassian.com/platform/rovo-mcp",
   "description": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
-  "summary": "atlassian-mcp-server：atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "atlassian-mcp-server：atlassian-mcp-server：atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/atlassian/atlassian-mcp-server.git",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 868,
+  "stars": 871,
   "forks": 111,
   "openIssues": 69,
-  "score": 93.6,
+  "score": 93.7,
   "activity": "本月活跃",
   "pushedAt": "2026-07-08T18:14:03Z",
-  "updatedAt": "2026-07-17T18:38:35Z",
+  "updatedAt": "2026-07-18T12:53:46Z",
   "createdAt": "2025-08-01T22:31:35Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "atlassian-mcp-server：atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +91,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "bd4aa757f2637632",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "7c47ef9581afe897",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "atlassian-mcp-server：atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "atlassian-mcp-server：atlassian-mcp-server：atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "atlassian-mcp-server 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

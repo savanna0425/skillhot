@@ -1,5 +1,5 @@
 {
-  "rank": 736,
+  "rank": 733,
   "id": 1124479538,
   "name": "skillsbench",
   "fullName": "benchflow-ai/skillsbench",
@@ -8,7 +8,7 @@
   "url": "https://github.com/benchflow-ai/skillsbench",
   "homepage": "https://www.skillsbench.ai",
   "description": "SkillsBench evaluates how well skills work and how effective agents are at using them.",
-  "summary": "skillsbench：SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "skillsbench：skillsbench：SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/benchflow-ai/skillsbench.git\ncd skillsbench\nuv tool install benchflow",
   "language": "PDDL",
   "license": "Apache-2.0",
-  "stars": 1525,
+  "stars": 1530,
   "forks": 335,
   "openIssues": 98,
   "score": 114.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T17:24:39Z",
-  "updatedAt": "2026-07-18T01:43:02Z",
+  "pushedAt": "2026-07-18T17:02:22Z",
+  "updatedAt": "2026-07-19T02:14:51Z",
   "createdAt": "2025-12-29T05:04:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性",
+    "summary": "skillsbench：SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,13 +72,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "41be88e2a495fe17",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "bddfff30184ceee0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skillsbench：SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "skillsbench：skillsbench：SkillsBench 评估技能的使用效果以及代理利用这些技能的有效性。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "skillsbench 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

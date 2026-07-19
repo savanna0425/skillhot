@@ -1,5 +1,5 @@
 {
-  "rank": 1425,
+  "rank": 1427,
   "id": 1128063451,
   "name": "skill-prompt-generator",
   "fullName": "huangserva/skill-prompt-generator",
@@ -8,7 +8,7 @@
   "url": "https://github.com/huangserva/skill-prompt-generator",
   "homepage": "",
   "description": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
-  "summary": "skill-prompt-generator：这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "skill-prompt-generator：skill-prompt-generator：这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/huangserva/skill-prompt-generator.git",
   "language": "Python",
   "license": "",
-  "stars": 1430,
+  "stars": 1432,
   "forks": 207,
   "openIssues": 3,
   "score": 98.8,
   "activity": "近期活跃",
   "pushedAt": "2026-05-10T09:16:55Z",
-  "updatedAt": "2026-07-18T01:29:57Z",
+  "updatedAt": "2026-07-18T23:38:25Z",
   "createdAt": "2026-01-05T04:49:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制",
+    "summary": "skill-prompt-generator：这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -68,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "3245bc006dc8c1cf",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "27db482b0747331f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-prompt-generator：这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "skill-prompt-generator：skill-prompt-generator：这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。 核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "skill-prompt-generator 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

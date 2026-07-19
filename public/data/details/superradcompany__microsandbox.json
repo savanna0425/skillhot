@@ -1,5 +1,5 @@
 {
-  "rank": 452,
+  "rank": 451,
   "id": 867192625,
   "name": "microsandbox",
   "fullName": "superradcompany/microsandbox",
@@ -8,7 +8,7 @@
   "url": "https://github.com/superradcompany/microsandbox",
   "homepage": "https://docs.microsandbox.dev",
   "description": "🧱 easy, fast and local-first microVM runtime",
-  "summary": "microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "microsandbox：microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "> npm i microsandbox                                       # 🟦 TypeScript\n>",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 6960,
+  "stars": 6964,
   "forks": 351,
-  "openIssues": 46,
+  "openIssues": 47,
   "score": 122.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T01:24:33Z",
-  "updatedAt": "2026-07-18T03:08:31Z",
+  "pushedAt": "2026-07-19T03:17:28Z",
+  "updatedAt": "2026-07-18T23:42:18Z",
   "createdAt": "2024-10-03T15:57:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "易用、快速、本地优先的微虚拟机运行时",
+    "summary": "microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -90,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "3a6628051a13bee8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "b72f227349a4225b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "microsandbox：microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "microsandbox 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

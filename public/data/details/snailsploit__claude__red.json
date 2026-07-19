@@ -1,5 +1,5 @@
 {
-  "rank": 791,
+  "rank": 792,
   "id": 1172273835,
   "name": "Claude-Red",
   "fullName": "SnailSploit/Claude-Red",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red\ngit clone --filter=blob:none --sparse https://github.com/SnailSploit/claude-red\ncd claude-red && git sparse-checkout set Skills/web Skills/active-directory",
   "language": "Python",
   "license": "MIT",
-  "stars": 2710,
+  "stars": 2713,
   "forks": 447,
   "openIssues": 3,
   "score": 113.4,
   "activity": "近期活跃",
   "pushedAt": "2026-05-08T16:05:21Z",
-  "updatedAt": "2026-07-18T03:03:23Z",
+  "updatedAt": "2026-07-18T23:41:09Z",
   "createdAt": "2026-03-04T05:52:35Z",
   "sourceTopics": [
     "skills",
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-red 是专为 Claude 技能系统设计的恶意安全技能库。每个技能均为结构化的 SKILL.md 文件，旨在为特定攻击面（从 SQLi 到壳码，从 EDR 规避到漏洞开发）预置专家级方法论",
+    "summary": "Claude-Red 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -78,8 +78,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c9864068837090d8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "a7258f2e53dbe3ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 647,
+  "rank": 646,
   "id": 1189732822,
   "name": "cli-printing-press",
   "fullName": "mvanhorn/cli-printing-press",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mvanhorn/cli-printing-press",
   "homepage": "",
   "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
-  "summary": "cli-printing-press：每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "cli-printing-press：cli-printing-press：每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/scripts/install.sh | bash -s -- --skills-only --agent codex\nnpx -y skills@latest list -g -a codex --json",
   "language": "Go",
   "license": "MIT",
-  "stars": 4016,
-  "forks": 439,
-  "openIssues": 164,
+  "stars": 4028,
+  "forks": 441,
+  "openIssues": 169,
   "score": 116.5,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T21:29:13Z",
-  "updatedAt": "2026-07-17T22:54:01Z",
+  "updatedAt": "2026-07-19T00:34:50Z",
   "createdAt": "2026-03-23T16:02:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能",
+    "summary": "cli-printing-press：每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -77,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "38da8771b7efa8f4",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "3d904f9f27674651",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cli-printing-press：每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "cli-printing-press：cli-printing-press：每个 API 都有秘密身份。此项目通过搜寻并吸收所有竞争对手的工具特性，构建了 GOAT CLI——专为 AI 代理打造，具备 SQLite 同步、离线搜索及复合洞察命令功能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "cli-printing-press 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

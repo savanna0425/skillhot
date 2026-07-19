@@ -1,5 +1,5 @@
 {
-  "rank": 156,
+  "rank": 155,
   "id": 1187630119,
   "name": "SkillSpector",
   "fullName": "NVIDIA/SkillSpector",
@@ -8,7 +8,7 @@
   "url": "https://github.com/NVIDIA/SkillSpector",
   "homepage": "",
   "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-  "summary": "SkillSpector：AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "SkillSpector：SkillSpector：AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install git+https://github.com/NVIDIA/skillspector.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 13359,
-  "forks": 1092,
-  "openIssues": 86,
-  "score": 137,
+  "stars": 13397,
+  "forks": 1098,
+  "openIssues": 88,
+  "score": 137.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-14T23:13:01Z",
-  "updatedAt": "2026-07-18T02:32:37Z",
+  "updatedAt": "2026-07-19T01:58:36Z",
   "createdAt": "2026-03-21T00:28:43Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险",
+    "summary": "SkillSpector：AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -70,13 +70,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7ec936ad6630acd7",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d2ad25fe55fd109f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SkillSpector：AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "SkillSpector：SkillSpector：AI 代理技能安全扫描器。检测漏洞、恶意模式及安全风险。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "SkillSpector 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

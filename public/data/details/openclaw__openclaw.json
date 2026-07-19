@@ -8,7 +8,7 @@
   "url": "https://github.com/openclaw/openclaw",
   "homepage": "https://openclaw.ai",
   "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-  "summary": "openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g openclaw@latest\nopenclaw onboard --install-daemon",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 383302,
-  "forks": 80524,
-  "openIssues": 6881,
+  "stars": 383413,
+  "forks": 80533,
+  "openIssues": 6878,
   "score": 164,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T03:37:15Z",
-  "updatedAt": "2026-07-18T03:33:28Z",
+  "pushedAt": "2026-07-19T03:58:23Z",
+  "updatedAt": "2026-07-19T03:57:28Z",
   "createdAt": "2025-11-24T10:16:47Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "可运行在多种系统和平台上的开源个人 AI 助手",
+    "summary": "openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "00c8d4ec755df4b4",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d5f7ed86f5439bb1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "openclaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

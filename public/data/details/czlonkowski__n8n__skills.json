@@ -8,7 +8,7 @@
   "url": "https://github.com/czlonkowski/n8n-skills",
   "homepage": "https://www.n8n-skills.com",
   "description": "n8n skillset for Claude Code to build flawless n8n workflows",
-  "summary": "n8n-skills：为 Claude Code 构建完美 n8n 工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "n8n-skills：n8n-skills：为 Claude Code 构建完美 n8n 工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/czlonkowski/n8n-skills.git\ncp -r n8n-skills/skills/* ~/.claude/skills/",
   "language": "Shell",
   "license": "MIT",
-  "stars": 5820,
+  "stars": 5824,
   "forks": 981,
   "openIssues": 2,
   "score": 128.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T10:49:37Z",
-  "updatedAt": "2026-07-17T21:48:32Z",
+  "updatedAt": "2026-07-19T00:23:51Z",
   "createdAt": "2025-10-20T05:51:27Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "为 Claude Code 构建完美 n8n 工作流",
+    "summary": "n8n-skills：为 Claude Code 构建完美 n8n 工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "6b73df298a5e6238",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "bd15919f4012ccd1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "n8n-skills：为 Claude Code 构建完美 n8n 工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "n8n-skills：n8n-skills：为 Claude Code 构建完美 n8n 工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "n8n-skills 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

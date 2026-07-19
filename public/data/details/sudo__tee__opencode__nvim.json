@@ -1,5 +1,5 @@
 {
-  "rank": 1259,
+  "rank": 1263,
   "id": 1009671693,
   "name": "opencode.nvim",
   "fullName": "sudo-tee/opencode.nvim",
@@ -8,7 +8,7 @@
   "url": "https://github.com/sudo-tee/opencode.nvim",
   "homepage": "",
   "description": "neovim frontend for opencode - a terminal-based AI coding agent",
-  "summary": "opencode.nvim：neovim 前端 - opencode：基于终端的 AI 编程代理。适合在 OpenCode 相关工作流里先做选型判断。",
+  "summary": "opencode.nvim：opencode.nvim：neovim 前端 - opencode：基于终端的 AI 编程代理。适合在 OpenCode 相关工作流里先做选型判断。适合在 OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/sudo-tee/opencode.nvim.git",
   "language": "Lua",
   "license": "Apache-2.0",
-  "stars": 904,
-  "forks": 69,
-  "openIssues": 11,
+  "stars": 905,
+  "forks": 70,
+  "openIssues": 12,
   "score": 101.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T12:15:52Z",
-  "updatedAt": "2026-07-17T14:17:02Z",
+  "updatedAt": "2026-07-18T22:34:21Z",
   "createdAt": "2025-06-27T14:12:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "neovim 前端 - opencode：基于终端的 AI 编程代理",
+    "summary": "opencode.nvim：neovim 前端 - opencode：基于终端的 AI 编程代理。适合在 OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -68,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e2841c47144a9ea1",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "94511f5856369bfe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "opencode.nvim：neovim 前端 - opencode：基于终端的 AI 编程代理。适合在 OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "opencode.nvim：opencode.nvim：neovim 前端 - opencode：基于终端的 AI 编程代理。适合在 OpenCode 相关工作流里先做选型判断。适合在 OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "opencode.nvim 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

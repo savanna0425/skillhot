@@ -1,5 +1,5 @@
 {
-  "rank": 80,
+  "rank": 81,
   "id": 1128123594,
   "name": "OpenViking",
   "fullName": "volcengine/OpenViking",
@@ -8,7 +8,7 @@
   "url": "https://github.com/volcengine/OpenViking",
   "homepage": "https://openviking.ai/",
   "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-  "summary": "OpenViking：以文件系统范式统一管理 Agent 的记忆、资源与 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "OpenViking：OpenViking：以文件系统范式统一管理 Agent 的记忆、资源与 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install openviking --upgrade --force-reinstall",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 26888,
-  "forks": 2110,
-  "openIssues": 352,
+  "stars": 26941,
+  "forks": 2113,
+  "openIssues": 367,
   "score": 144.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T16:25:30Z",
-  "updatedAt": "2026-07-18T02:08:34Z",
+  "pushedAt": "2026-07-19T01:51:36Z",
+  "updatedAt": "2026-07-19T03:45:39Z",
   "createdAt": "2026-01-05T07:11:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "以文件系统范式统一管理 Agent 的记忆、资源与 Skills",
+    "summary": "OpenViking：以文件系统范式统一管理 Agent 的记忆、资源与 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "上下文数据库",
       "分层记忆",
@@ -78,13 +78,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "187f89b006158596",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "40ca9fca8090865b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenViking：以文件系统范式统一管理 Agent 的记忆、资源与 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "OpenViking：OpenViking：以文件系统范式统一管理 Agent 的记忆、资源与 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "OpenViking 可以先理解为一个「记忆与上下文管理项目」。它围绕「上下文数据库」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

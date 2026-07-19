@@ -8,7 +8,7 @@
   "url": "https://github.com/flipped-aurora/gin-vue-admin",
   "homepage": "http://demo.gin-vue-admin.com/",
   "description": "🚀Vite+Vue3+Gin拥有AI辅助的基础开发平台，企业级业务AI+开发解决方案，内置mcp辅助服务，内置skills管理，支持TS和JS混用。它集成了JWT鉴权、权限管理、动态路由、显隐可控组件、分页封装、多点登录拦截、资源权限、上传下载、代码生成器、表单生成器和可配置的导入导出等开发必备功能。",
-  "summary": "gin-vue-admin：内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "gin-vue-admin：gin-vue-admin：内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/flipped-aurora/gin-vue-admin.git\ncd server\ngo generate",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 24856,
-  "forks": 7091,
+  "stars": 24858,
+  "forks": 7092,
   "openIssues": 41,
   "score": 147.5,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T15:32:41Z",
-  "updatedAt": "2026-07-18T02:55:13Z",
+  "updatedAt": "2026-07-18T17:39:35Z",
   "createdAt": "2019-09-01T13:22:35Z",
   "sourceTopics": [
     "skills"
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台",
+    "summary": "gin-vue-admin：内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "前后端开发",
       "后台管理系统",
@@ -92,13 +92,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5c69ed4dc0154fcb",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "e9829a25a2f3eb5e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gin-vue-admin：内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "gin-vue-admin：gin-vue-admin：内置 MCP 与 Skills 管理的 Vue + Gin 企业开发平台。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "gin-vue-admin 可以先理解为一个「软件开发辅助项目」。它围绕「前后端开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：🚀Vite+Vue3+Gin拥有AI辅助的基础开发平台，企业级业务AI+开发解决方案，内置mcp辅助服务，内置skills管理，支持TS和JS混用。它集成了JWT鉴权、权限管理、动态路由、显隐可控组件、分页封装、多点登录拦截、资源权限、上传下载、代码生成器、表单生成器和可配置的导入导出等开发必备功能。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

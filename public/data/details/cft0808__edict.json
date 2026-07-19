@@ -1,5 +1,5 @@
 {
-  "rank": 397,
+  "rank": 399,
   "id": 1164832776,
   "name": "edict",
   "fullName": "cft0808/edict",
@@ -8,7 +8,7 @@
   "url": "https://github.com/cft0808/edict",
   "homepage": "https://openclaw.ai",
   "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
-  "summary": "edict：️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "edict：edict：️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/cft0808/edict.git\ncd edict\nchmod +x install.sh && ./install.sh",
   "language": "Python",
   "license": "MIT",
-  "stars": 16236,
-  "forks": 1704,
+  "stars": 16244,
+  "forks": 1705,
   "openIssues": 38,
   "score": 124.1,
   "activity": "本月活跃",
   "pushedAt": "2026-07-06T13:11:57Z",
-  "updatedAt": "2026-07-17T16:16:49Z",
+  "updatedAt": "2026-07-19T02:08:27Z",
   "createdAt": "2026-02-23T14:35:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+    "summary": "edict：️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,14 +84,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c793e83d3f084e77",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "57b3c167108e6e09",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "edict：️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "edict 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "edict：edict：️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "edict 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

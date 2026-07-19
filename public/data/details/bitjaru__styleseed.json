@@ -1,5 +1,5 @@
 {
-  "rank": 830,
+  "rank": 824,
   "id": 1203405919,
   "name": "styleseed",
   "fullName": "bitjaru/styleseed",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bitjaru/styleseed",
   "homepage": "https://styleseed-demo.vercel.app",
   "description": "Design engine for Claude Code, Codex & Cursor — teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT.",
-  "summary": "styleseed：styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "styleseed：styleseed：styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -19,22 +19,23 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "Install StyleSeed so its checks actually run: `npx skills add bitjaru/styleseed` (if you can't, read https://styleseed-demo.vercel.app/llms-full.txt instead). Then use it for every UI in this project. First, in plan mode, lock my key color, font, and motion with me and save them to STYLESEED.md so they don't drift. Build to the rules with ONE focal point and",
+  "installCommand": "Install StyleSeed: `npx skills add bitjaru/styleseed` (or read https://styleseed-demo.vercel.app/llms-full.txt). Before building, choose the output grammar and surface adapter for my result, then save bounded decisions to STYLESEED.md. If I provide references that StyleSeed does not model, run `/ss-reference` in Claude Code or `$ss-reference` in Codex to com",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 786,
-  "forks": 68,
+  "stars": 796,
+  "forks": 71,
   "openIssues": 0,
-  "score": 111.6,
+  "score": 111.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T07:56:22Z",
-  "updatedAt": "2026-07-17T21:50:21Z",
+  "pushedAt": "2026-07-18T12:18:21Z",
+  "updatedAt": "2026-07-19T01:47:43Z",
   "createdAt": "2026-04-07T02:32:20Z",
   "sourceTopics": [
     "claude-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "ai-coding",
@@ -65,7 +66,7 @@
     "Gemini CLI",
     "GitHub Copilot"
   ],
-  "skillCount": 19,
+  "skillCount": 20,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/bitjaru/styleseed",
@@ -76,7 +77,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面",
+    "summary": "styleseed：styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -95,13 +96,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "bc47fb08bd6ac7fb",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "85b927ab27bfdc6a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "styleseed：styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "styleseed：styleseed：styleseed 面向 UI/UX 与前端设计，让 Agent 更稳定地产出清晰、可用的界面。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "styleseed 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
@@ -129,7 +130,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "仓库信息显示它包含 19+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 20+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",

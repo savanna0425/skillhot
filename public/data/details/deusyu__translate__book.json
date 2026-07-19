@@ -8,7 +8,7 @@
   "url": "https://github.com/deusyu/translate-book",
   "homepage": "",
   "description": "Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents",
-  "summary": "translate-book：Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "translate-book：translate-book：Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/deusyu/translate-book.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 925,
+  "stars": 927,
   "forks": 122,
   "openIssues": 29,
   "score": 102.3,
   "activity": "本月活跃",
   "pushedAt": "2026-07-02T08:30:55Z",
-  "updatedAt": "2026-07-17T18:03:55Z",
+  "updatedAt": "2026-07-19T03:18:48Z",
   "createdAt": "2026-03-15T12:04:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术",
+    "summary": "translate-book：Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -68,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e16237740b3bf2d9",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "b6ca9b8c9e92497a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "translate-book：Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "translate-book：translate-book：Claude Code 插件：支持将整本书（PDF/DOCX/EPUB）翻译为任意语言，采用并行子代理技术。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "translate-book 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

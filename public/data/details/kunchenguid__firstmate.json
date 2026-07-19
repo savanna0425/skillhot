@@ -1,14 +1,14 @@
 {
-  "rank": 1980,
-  "id": 1166278249,
-  "name": "agent-skills",
-  "fullName": "powersync-ja/agent-skills",
-  "owner": "powersync-ja",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/147553714?v=4",
-  "url": "https://github.com/powersync-ja/agent-skills",
-  "homepage": "https://powersync.com",
-  "description": "Official agent skills for PowerSync",
-  "summary": "agent-skills：agent-skills：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1088,
+  "id": 1266884317,
+  "name": "firstmate",
+  "fullName": "kunchenguid/firstmate",
+  "owner": "kunchenguid",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3233006?v=4",
+  "url": "https://github.com/kunchenguid/firstmate",
+  "homepage": "",
+  "description": "Talk to one agent. Ship with a crew.",
+  "summary": "firstmate：firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,51 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/powersync-ja/agent-skills.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/kunchenguid/firstmate.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 16,
-  "forks": 0,
-  "openIssues": 3,
-  "score": 76,
+  "stars": 1459,
+  "forks": 453,
+  "openIssues": 224,
+  "score": 106,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-10T09:00:33Z",
-  "updatedAt": "2026-07-09T22:19:16Z",
-  "createdAt": "2026-02-25T03:54:12Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "pushedAt": "2026-07-19T03:09:31Z",
+  "updatedAt": "2026-07-19T03:58:30Z",
+  "createdAt": "2026-06-12T03:21:10Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "claude-code",
-    "claude-skills",
-    "codex-skills",
-    "cursor-rules",
-    "local-first",
-    "offline-first",
-    "skills",
-    "skills-sh",
-    "sync-engine"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/powersync-ja/agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kunchenguid/firstmate",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/powersync-ja/agent-skills#readme",
-  "detailPath": "data/details/powersync__ja__agent__skills.json",
+  "readmeUrl": "https://github.com/kunchenguid/firstmate#readme",
+  "detailPath": "data/details/kunchenguid__firstmate.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-skills：尚未归入主要类别的实用项目。",
+    "summary": "firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -82,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4d38e832810a64bf",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "be3014d4b1f65945",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skills：agent-skills：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "agent-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "firstmate：firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "firstmate 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -106,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

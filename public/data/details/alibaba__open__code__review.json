@@ -1,5 +1,5 @@
 {
-  "rank": 272,
+  "rank": 273,
   "id": 1241960226,
   "name": "open-code-review",
   "fullName": "alibaba/open-code-review",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alibaba/open-code-review",
   "homepage": "https://alibaba.github.io/open-code-review/",
   "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "summary": "open-code-review：开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "open-code-review：open-code-review：开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @alibaba-group/open-code-review",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 10664,
-  "forks": 720,
-  "openIssues": 36,
+  "stars": 10689,
+  "forks": 727,
+  "openIssues": 37,
   "score": 130.7,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T14:08:33Z",
-  "updatedAt": "2026-07-18T03:17:02Z",
+  "updatedAt": "2026-07-19T03:16:47Z",
   "createdAt": "2026-05-18T02:16:36Z",
   "sourceTopics": [
     "agent-skills"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic",
+    "summary": "open-code-review：开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5d4f6c539238d369",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "16d0170ce0529872",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-code-review：开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "open-code-review：open-code-review：开源免费——在阿里规模验证。混合架构代码审查工具：确定性流水线 + LLM 代理，精确行级注释，内置微调规则集（支持 NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "open-code-review 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

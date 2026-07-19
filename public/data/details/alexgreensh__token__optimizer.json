@@ -1,5 +1,5 @@
 {
-  "rank": 832,
+  "rank": 829,
   "id": 1167791343,
   "name": "token-optimizer",
   "fullName": "alexgreensh/token-optimizer",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alexgreensh/token-optimizer",
   "homepage": "",
   "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
-  "summary": "token-optimizer：查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "token-optimizer：token-optimizer：查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alexgreensh/token-optimizer.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1668,
-  "forks": 133,
+  "stars": 1674,
+  "forks": 134,
   "openIssues": 2,
   "score": 111.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T09:50:03Z",
-  "updatedAt": "2026-07-18T02:55:56Z",
+  "updatedAt": "2026-07-18T23:51:11Z",
   "createdAt": "2026-02-26T17:29:10Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减",
+    "summary": "token-optimizer：查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +87,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "556a94567b6ddaec",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "116bebb248f6e1bd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "token-optimizer：查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "token-optimizer：token-optimizer：查找幽灵令牌。修复它们。存活压缩。避免上下文质量衰减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "token-optimizer 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 271,
+  "rank": 270,
   "id": 771350543,
   "name": "WrenAI",
   "fullName": "Canner/WrenAI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Canner/WrenAI",
   "homepage": "https://docs.getwren.ai/oss/introduction",
   "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
-  "summary": "WrenAI：WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "WrenAI：WrenAI：WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "pip install wrenai                      # core (DuckDB included)\npip install \"wrenai[postgres,memory]\"   # add per-datasource and memory extras as needed",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 15891,
-  "forks": 1821,
-  "openIssues": 364,
-  "score": 130.8,
+  "stars": 16004,
+  "forks": 1828,
+  "openIssues": 368,
+  "score": 130.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T11:35:27Z",
-  "updatedAt": "2026-07-18T03:14:51Z",
+  "updatedAt": "2026-07-19T03:52:56Z",
   "createdAt": "2024-03-13T06:18:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "summary": "WrenAI：WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -88,13 +88,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "45996b4d70300734",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "466cbfc45854f13a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "WrenAI：WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "WrenAI：WrenAI：WrenAI 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "WrenAI 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

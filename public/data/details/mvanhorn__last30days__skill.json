@@ -8,7 +8,7 @@
   "url": "https://github.com/mvanhorn/last30days-skill",
   "homepage": "",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "summary": "last30days-skill：跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "last30days-skill：last30days-skill：跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add mvanhorn/last30days-skill -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 52554,
-  "forks": 4523,
-  "openIssues": 68,
+  "stars": 52676,
+  "forks": 4542,
+  "openIssues": 69,
   "score": 155.3,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T00:18:46Z",
-  "updatedAt": "2026-07-18T03:17:13Z",
+  "updatedAt": "2026-07-19T03:58:36Z",
   "createdAt": "2026-01-23T20:37:37Z",
   "sourceTopics": [
     "ai-skill"
@@ -79,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点",
+    "summary": "last30days-skill：跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "趋势调研",
       "社交媒体研究",
@@ -98,13 +98,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7948975dff077bd5",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "e0f66cfd21ecc564",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "last30days-skill：跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "last30days-skill：last30days-skill：跨 Reddit、X、YouTube、HN 等来源调研最近 30 天热点。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "last30days-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「趋势调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

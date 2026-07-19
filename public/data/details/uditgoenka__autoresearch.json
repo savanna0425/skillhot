@@ -1,5 +1,5 @@
 {
-  "rank": 384,
+  "rank": 385,
   "id": 1180917769,
   "name": "autoresearch",
   "fullName": "uditgoenka/autoresearch",
@@ -8,7 +8,7 @@
   "url": "https://github.com/uditgoenka/autoresearch",
   "homepage": "https://udit.co/projects/autoresearch",
   "description": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
-  "summary": "autoresearch：Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "autoresearch：autoresearch：Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add uditgoenka/autoresearch",
   "language": "Shell",
   "license": "MIT",
-  "stars": 5341,
+  "stars": 5345,
   "forks": 397,
   "openIssues": 4,
   "score": 124.5,
   "activity": "本月活跃",
   "pushedAt": "2026-06-23T07:34:41Z",
-  "updatedAt": "2026-07-17T16:16:01Z",
+  "updatedAt": "2026-07-19T00:29:40Z",
   "createdAt": "2026-03-13T14:51:54Z",
   "sourceTopics": [
     "skill"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境",
+    "summary": "autoresearch：Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b475628de48266e7",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "a43084409f05ae3d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "autoresearch：Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "autoresearch：autoresearch：Claude Autoresearch 技能——面向 Claude Code 的自主目标导向迭代。灵感源自 Karpathy 的自动检索。修改 → 验证 → 保留/丢弃 → 永无止境。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "autoresearch 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

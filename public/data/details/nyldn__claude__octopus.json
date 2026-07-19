@@ -1,5 +1,5 @@
 {
-  "rank": 662,
+  "rank": 663,
   "id": 1134819911,
   "name": "claude-octopus",
   "fullName": "nyldn/claude-octopus",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nyldn/claude-octopus",
   "homepage": "https://reddit.com/r/ClaudeOctopus/",
   "description": "Surface AI blindspots before you ship. Put up to 8 AI models on every research, design or coding task.",
-  "summary": "claude-octopus：在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "claude-octopus：claude-octopus：在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add https://github.com/nyldn/plugins.git\nclaude plugin install octo@nyldn-plugins\n/octo:setup",
   "language": "Shell",
   "license": "MIT",
-  "stars": 3830,
-  "forks": 356,
-  "openIssues": 6,
+  "stars": 3833,
+  "forks": 357,
+  "openIssues": 7,
   "score": 116,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T16:36:41Z",
-  "updatedAt": "2026-07-18T01:17:46Z",
+  "pushedAt": "2026-07-19T01:36:56Z",
+  "updatedAt": "2026-07-18T23:57:47Z",
   "createdAt": "2026-01-15T08:49:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型",
+    "summary": "claude-octopus：在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e1cebe5ef5f98c16",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ab2b47ab32600f85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-octopus：在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-octopus：claude-octopus：在发布前，Surface AI 将揭示您的盲区。为每项研究、设计或编码任务，最多集成 8 个 AI 模型。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "claude-octopus 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

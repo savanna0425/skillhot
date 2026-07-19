@@ -1,5 +1,5 @@
 {
-  "rank": 686,
+  "rank": 677,
   "id": 1025381911,
   "name": "Memori",
   "fullName": "MemoriLabs/Memori",
@@ -8,7 +8,7 @@
   "url": "https://github.com/MemoriLabs/Memori",
   "homepage": "https://memorilabs.ai",
   "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
-  "summary": "Memori：Memori 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Memori：Memori：Memori 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install @memorilabs/memori",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 15602,
-  "forks": 2847,
+  "stars": 15617,
+  "forks": 2856,
   "openIssues": 26,
-  "score": 115.6,
+  "score": 115.7,
   "activity": "近期活跃",
   "pushedAt": "2026-06-15T23:18:56Z",
-  "updatedAt": "2026-07-18T02:50:58Z",
+  "updatedAt": "2026-07-19T00:57:06Z",
   "createdAt": "2025-07-24T07:07:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Memori 提供记忆、上下文管理或知识检索能力。",
+    "summary": "Memori：Memori 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -92,13 +92,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7f061559a4bb1af5",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "7ab95f1433690d0a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Memori：Memori 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Memori：Memori：Memori 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Memori 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

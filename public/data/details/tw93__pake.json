@@ -8,7 +8,7 @@
   "url": "https://github.com/tw93/Pake",
   "homepage": "",
   "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
-  "summary": "Pake：Pake 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "Pake：Pake：Pake 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pnpm install -g pake-cli\npake https://github.com --name GitHub\npake https://weekly.tw93.fun --name Weekly --icon https://cdn.tw93.fun/pake/weekly.icns --width 1200 --height 800 --hide-title-bar",
   "language": "Rust",
   "license": "GPL-3.0",
-  "stars": 60009,
-  "forks": 12138,
-  "openIssues": 2,
+  "stars": 60029,
+  "forks": 12145,
+  "openIssues": 1,
   "score": 144.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T00:43:21Z",
-  "updatedAt": "2026-07-18T03:38:12Z",
+  "pushedAt": "2026-07-18T11:27:51Z",
+  "updatedAt": "2026-07-19T03:45:40Z",
   "createdAt": "2022-10-14T09:32:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Pake 聚焦软件开发、代码质量与工程交付。",
+    "summary": "Pake：Pake 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -83,13 +83,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "516baa877f5b00d6",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "077a729295b7d5fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Pake：Pake 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "Pake：Pake：Pake 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "Pake 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

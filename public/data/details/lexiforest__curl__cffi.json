@@ -1,5 +1,5 @@
 {
-  "rank": 497,
+  "rank": 491,
   "id": 468168223,
   "name": "curl_cffi",
   "fullName": "lexiforest/curl_cffi",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lexiforest/curl_cffi",
   "homepage": "https://curl-cffi.readthedocs.io/",
   "description": "Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.",
-  "summary": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "curl_cffi：curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/lexiforest/curl_cffi.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 6089,
-  "forks": 520,
-  "openIssues": 75,
-  "score": 120.8,
+  "stars": 6096,
+  "forks": 522,
+  "openIssues": 62,
+  "score": 120.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T08:16:42Z",
-  "updatedAt": "2026-07-18T00:26:13Z",
+  "pushedAt": "2026-07-19T01:06:09Z",
+  "updatedAt": "2026-07-19T00:49:03Z",
   "createdAt": "2022-03-10T02:39:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端",
+    "summary": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4b5d70c5bd322202",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ab15d0f97d0376ae",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "curl_cffi：curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "curl_cffi 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

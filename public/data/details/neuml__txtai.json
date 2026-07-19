@@ -8,7 +8,7 @@
   "url": "https://github.com/neuml/txtai",
   "homepage": "https://neuml.github.io/txtai",
   "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
-  "summary": "txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "txtai：txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install txtai",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 12728,
+  "stars": 12732,
   "forks": 847,
   "openIssues": 20,
   "score": 128.5,
   "activity": "本周活跃",
   "pushedAt": "2026-07-14T19:34:56Z",
-  "updatedAt": "2026-07-16T21:28:05Z",
+  "updatedAt": "2026-07-18T19:58:24Z",
   "createdAt": "2020-08-09T19:14:59Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架",
+    "summary": "txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -89,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7f9bc6ebadc8ed0b",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "7db9078585eb6a0c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "txtai：txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "txtai 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

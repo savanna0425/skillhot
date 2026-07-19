@@ -1,5 +1,5 @@
 {
-  "rank": 1413,
+  "rank": 1416,
   "id": 1204723538,
   "name": "paper-fetch",
   "fullName": "Agents365-ai/paper-fetch",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Agents365-ai/paper-fetch",
   "homepage": "https://agents365-ai.github.io/paper-fetch/",
   "description": "DOI → PDF resolver with 7-source fallback (Unpaywall, S2, arXiv, PMC, bioRxiv, publisher, Sci-Hub). Multi-agent, zero-deps Python.",
-  "summary": "paper-fetch：paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "paper-fetch：paper-fetch：paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Agents365-ai/paper-fetch.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 154,
+  "stars": 155,
   "forks": 7,
   "openIssues": 0,
   "score": 99.2,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T10:57:06Z",
-  "updatedAt": "2026-07-17T18:22:06Z",
+  "updatedAt": "2026-07-18T14:27:35Z",
   "createdAt": "2026-04-08T09:14:24Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -76,7 +76,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "paper-fetch：paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -95,13 +95,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "72da16f1d175ab9c",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "f9149def9b349261",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "paper-fetch：paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "paper-fetch：paper-fetch：paper-fetch 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "paper-fetch 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

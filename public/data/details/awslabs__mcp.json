@@ -8,7 +8,7 @@
   "url": "https://github.com/awslabs/mcp",
   "homepage": "https://awslabs.github.io/mcp/",
   "description": "Open source MCP Servers for AWS",
-  "summary": "mcp：为 AWS 打造的开源 MCP 服务器。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "mcp：mcp：为 AWS 打造的开源 MCP 服务器。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/awslabs/mcp.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 9464,
+  "stars": 9466,
   "forks": 1650,
-  "openIssues": 286,
+  "openIssues": 290,
   "score": 125.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T00:01:59Z",
-  "updatedAt": "2026-07-18T00:16:56Z",
+  "pushedAt": "2026-07-18T05:47:11Z",
+  "updatedAt": "2026-07-19T01:02:58Z",
   "createdAt": "2025-03-21T00:39:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "为 AWS 打造的开源 MCP 服务器",
+    "summary": "mcp：为 AWS 打造的开源 MCP 服务器。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -79,13 +79,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "dd4c90acb31de828",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "965123a5d8eea687",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mcp：为 AWS 打造的开源 MCP 服务器。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mcp：mcp：为 AWS 打造的开源 MCP 服务器。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

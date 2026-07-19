@@ -8,7 +8,7 @@
   "url": "https://github.com/webiny/webiny-js",
   "homepage": "https://www.webiny.com",
   "description": "Open-source, self-hosted CMS platform on AWS serverless (Lambda, DynamoDB, S3). TypeScript framework with multi-tenancy, lifecycle hooks, GraphQL API, and AI-assisted development via MCP server. Built for developers at large organizations.",
-  "summary": "webiny-js：基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "webiny-js：webiny-js：基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx create-webiny-project my-project\ncd my-project\nyarn webiny deploy",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 8014,
+  "stars": 8015,
   "forks": 676,
   "openIssues": 343,
   "score": 123.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T22:31:51Z",
-  "updatedAt": "2026-07-17T10:57:49Z",
+  "pushedAt": "2026-07-18T18:32:05Z",
+  "updatedAt": "2026-07-18T12:49:03Z",
   "createdAt": "2018-01-09T13:09:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建",
+    "summary": "webiny-js：基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -88,13 +88,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d2722f655a3700d2",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "fa8be9010b485680",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "webiny-js：基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "webiny-js：webiny-js：基于 AWS 的自托管 CMS 平台（Lambda、DynamoDB、S3）。支持 TypeScript 框架，具备多租户、生命周期钩子、GraphQL API 及通过 MCP 服务器实现的 AI 辅助开发。专为大型组织开发者构建。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "webiny-js 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

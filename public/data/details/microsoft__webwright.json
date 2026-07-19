@@ -1,5 +1,5 @@
 {
-  "rank": 1117,
+  "rank": 1116,
   "id": 1204415882,
   "name": "Webwright",
   "fullName": "microsoft/Webwright",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/Webwright",
   "homepage": "",
   "description": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks. ",
-  "summary": "Webwright：一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "Webwright：Webwright：一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/microsoft/Webwright.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 5818,
-  "forks": 366,
+  "stars": 5820,
+  "forks": 365,
   "openIssues": 45,
   "score": 105.4,
   "activity": "近期活跃",
   "pushedAt": "2026-06-03T22:29:25Z",
-  "updatedAt": "2026-07-17T08:21:38Z",
+  "updatedAt": "2026-07-19T03:43:27Z",
   "createdAt": "2026-04-08T01:48:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果",
+    "summary": "Webwright：一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,13 +69,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9a66e87fe0c358ae",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "19765fdf5063cb3b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Webwright：一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Webwright：Webwright：一个简单的 SWE 风格浏览器代理框架，在长时域 Web 任务上达到 SOTA 结果。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Webwright 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

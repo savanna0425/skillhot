@@ -1,5 +1,5 @@
 {
-  "rank": 93,
+  "rank": 94,
   "id": 1197652028,
   "name": "skills",
   "fullName": "google/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/google/skills",
   "homepage": "",
   "description": "Agent Skills for Google products and technologies",
-  "summary": "skills：Google 产品与技术所需的 Agent 技能。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "skills：skills：Google 产品与技术所需的 Agent 技能。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add google/skills",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 14908,
-  "forks": 1144,
+  "stars": 14933,
+  "forks": 1147,
   "openIssues": 32,
   "score": 142.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T18:02:39Z",
-  "updatedAt": "2026-07-18T02:22:55Z",
+  "pushedAt": "2026-07-18T23:03:58Z",
+  "updatedAt": "2026-07-19T03:41:36Z",
   "createdAt": "2026-03-31T19:02:20Z",
   "sourceTopics": [
     "skills"
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Google 产品与技术所需的 Agent 技能",
+    "summary": "skills：Google 产品与技术所需的 Agent 技能。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -75,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "fc6b78a5b3e38f07",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "eb2c18627716ba01",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：Google 产品与技术所需的 Agent 技能。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "skills：skills：Google 产品与技术所需的 Agent 技能。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

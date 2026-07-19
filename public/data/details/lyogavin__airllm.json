@@ -1,5 +1,5 @@
 {
-  "rank": 196,
+  "rank": 190,
   "id": 652712035,
   "name": "airllm",
   "fullName": "lyogavin/airllm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lyogavin/airllm",
   "homepage": "",
   "description": "AirLLM 70B inference with single 4GB GPU",
-  "summary": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "airllm：airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install airllm",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "stars": 23101,
-  "forks": 2639,
+  "stars": 23377,
+  "forks": 2658,
   "openIssues": 106,
-  "score": 134.7,
+  "score": 134.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T20:32:44Z",
-  "updatedAt": "2026-07-18T03:31:38Z",
+  "updatedAt": "2026-07-19T03:51:48Z",
   "createdAt": "2023-06-12T16:28:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "使用单张 4GB 显卡即可实现 AirLLM 70B 推理",
+    "summary": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "90a8226a3c231aa9",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "05d5fa98dcc4f76a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "airllm：airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "airllm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

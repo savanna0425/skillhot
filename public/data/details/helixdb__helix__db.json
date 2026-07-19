@@ -8,7 +8,7 @@
   "url": "https://github.com/HelixDB/helix-db",
   "homepage": "https://helix-db.com",
   "description": "HelixDB is an OLTP graph-vector database built in Rust on Object Storage.",
-  "summary": "helix-db：helix-db 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "helix-db：helix-db：helix-db 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/HelixDB/helix-db.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 5642,
+  "stars": 5648,
   "forks": 312,
   "openIssues": 11,
   "score": 120.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T12:15:27Z",
-  "updatedAt": "2026-07-17T16:06:02Z",
+  "updatedAt": "2026-07-18T21:44:49Z",
   "createdAt": "2024-11-23T11:02:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "helix-db 提供记忆、上下文管理或知识检索能力。",
+    "summary": "helix-db：helix-db 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,13 +86,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "8067c8676a8879e3",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "5616fa1c48106117",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "helix-db：helix-db 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "helix-db：helix-db：helix-db 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "helix-db 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

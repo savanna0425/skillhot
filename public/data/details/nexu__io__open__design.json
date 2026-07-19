@@ -8,7 +8,7 @@
   "url": "https://github.com/nexu-io/open-design",
   "homepage": "https://open-design.ai",
   "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-  "summary": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "open-design：open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nexu-io/open-design.git\ncd open-design/deploy\ncp .env.example .env",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 79341,
-  "forks": 9141,
-  "openIssues": 670,
+  "stars": 79559,
+  "forks": 9179,
+  "openIssues": 673,
   "score": 151.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T01:36:44Z",
-  "updatedAt": "2026-07-18T03:25:22Z",
+  "pushedAt": "2026-07-19T01:37:31Z",
+  "updatedAt": "2026-07-19T03:54:50Z",
   "createdAt": "2026-04-28T04:25:20Z",
   "sourceTopics": [
     "agent-skills"
@@ -68,7 +68,7 @@
     "GitHub Copilot",
     "OpenClaw"
   ],
-  "skillCount": 100,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/nexu-io/open-design",
@@ -79,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统",
+    "summary": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "界面原型",
       "演示与视频",
@@ -98,13 +98,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "81e2063b804275ee",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d8504b937c399cff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "open-design：open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "open-design 可以先理解为一个「内容生产辅助项目」。它围绕「界面原型」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -132,7 +132,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "仓库信息显示它包含 100+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

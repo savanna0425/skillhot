@@ -1,5 +1,5 @@
 {
-  "rank": 1981,
+  "rank": 1983,
   "id": 1150789817,
   "name": "FreeRide",
   "fullName": "Shaivpidadi/FreeRide",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Shaivpidadi/FreeRide",
   "homepage": "https://clawhub.ai/Shaivpidadi/free-ride",
   "description": "FreeRide gives you unlimited free AI in OpenClaw by automatically managing OpenRouter's free models.",
-  "summary": "FreeRide：FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "FreeRide：FreeRide：FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Shaivpidadi/FreeRide.git",
   "language": "Python",
   "license": "",
-  "stars": 226,
+  "stars": 227,
   "forks": 40,
   "openIssues": 0,
-  "score": 75.9,
+  "score": 76,
   "activity": "近期活跃",
   "pushedAt": "2026-05-07T20:29:34Z",
-  "updatedAt": "2026-07-13T01:51:41Z",
+  "updatedAt": "2026-07-18T21:43:20Z",
   "createdAt": "2026-02-05T17:35:41Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "FreeRide：FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,13 +76,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b19e180e4f212d56",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "fbb019f68b111e86",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "FreeRide：FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "FreeRide：FreeRide：FreeRide 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "FreeRide 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

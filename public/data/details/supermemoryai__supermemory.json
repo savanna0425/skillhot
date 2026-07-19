@@ -8,7 +8,7 @@
   "url": "https://github.com/supermemoryai/supermemory",
   "homepage": "https://supermemory.ai/docs",
   "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-  "summary": "supermemory：内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "supermemory：supermemory：内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx -y install-mcp@latest https://mcp.supermemory.ai/mcp --client claude --oauth=yes",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 28449,
-  "forks": 2475,
+  "stars": 28466,
+  "forks": 2478,
   "openIssues": 82,
   "score": 136.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T23:47:07Z",
-  "updatedAt": "2026-07-18T03:29:12Z",
+  "pushedAt": "2026-07-18T23:28:40Z",
+  "updatedAt": "2026-07-19T02:00:19Z",
   "createdAt": "2024-02-27T20:10:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API",
+    "summary": "supermemory：内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7172fd7c7c7dc080",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "a13889ed303e7678",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "supermemory：内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "supermemory：supermemory：内存与上下文引擎 + 极速可扩展应用，可完全本地运行。AI 时代的内存 API。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "supermemory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

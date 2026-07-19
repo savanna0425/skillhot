@@ -1,5 +1,5 @@
 {
-  "rank": 99,
+  "rank": 102,
   "id": 1031059905,
   "name": "GitNexus",
   "fullName": "abhigyanpatwari/GitNexus",
@@ -8,7 +8,7 @@
   "url": "https://github.com/abhigyanpatwari/GitNexus",
   "homepage": "https://gitnexus.vercel.app",
   "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
-  "summary": "GitNexus：GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "GitNexus：GitNexus：GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx gitnexus analyze\nnpx gitnexus setup",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 44302,
-  "forks": 4926,
-  "openIssues": 266,
+  "stars": 44344,
+  "forks": 4925,
+  "openIssues": 272,
   "score": 141.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T21:15:22Z",
-  "updatedAt": "2026-07-18T02:49:31Z",
+  "pushedAt": "2026-07-18T22:45:33Z",
+  "updatedAt": "2026-07-19T03:30:54Z",
   "createdAt": "2025-08-02T23:20:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "summary": "GitNexus：GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -73,13 +73,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5d8b9601d03ab936",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d0108b83dc8fd2ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GitNexus：GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "GitNexus：GitNexus：GitNexus 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "GitNexus 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

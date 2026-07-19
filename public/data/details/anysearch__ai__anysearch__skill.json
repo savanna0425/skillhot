@@ -1,5 +1,5 @@
 {
-  "rank": 213,
+  "rank": 210,
   "id": 1225178950,
   "name": "anysearch-skill",
   "fullName": "anysearch-ai/anysearch-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/anysearch-ai/anysearch-skill",
   "homepage": "https://www.anysearch.com",
   "description": "Unified real-time search engine skill for AI agents. ",
-  "summary": "anysearch-skill：面向 AI 代理的统一实时搜索引擎技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "anysearch-skill：anysearch-skill：面向 AI 代理的统一实时搜索引擎技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/anysearch-ai/anysearch-skill.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4503,
-  "forks": 303,
+  "stars": 4529,
+  "forks": 304,
   "openIssues": 2,
-  "score": 133.7,
+  "score": 133.8,
   "activity": "本周活跃",
   "pushedAt": "2026-07-14T06:26:49Z",
-  "updatedAt": "2026-07-18T02:41:24Z",
+  "updatedAt": "2026-07-19T02:58:45Z",
   "createdAt": "2026-04-30T02:55:36Z",
   "sourceTopics": [
     "skill",
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向 AI 代理的统一实时搜索引擎技能",
+    "summary": "anysearch-skill：面向 AI 代理的统一实时搜索引擎技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -83,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "bb299a65fb8a2513",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "5a7464ec07858239",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anysearch-skill：面向 AI 代理的统一实时搜索引擎技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "anysearch-skill：anysearch-skill：面向 AI 代理的统一实时搜索引擎技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "anysearch-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

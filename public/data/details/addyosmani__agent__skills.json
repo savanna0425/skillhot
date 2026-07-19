@@ -8,7 +8,7 @@
   "url": "https://github.com/addyosmani/agent-skills",
   "homepage": "",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "summary": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "agent-skills：agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add addyosmani/agent-skills            # install all 24 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 79013,
-  "forks": 8496,
-  "openIssues": 122,
-  "score": 163.5,
+  "stars": 79176,
+  "forks": 8508,
+  "openIssues": 124,
+  "score": 163.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T23:51:54Z",
-  "updatedAt": "2026-07-18T03:30:43Z",
+  "pushedAt": "2026-07-18T13:19:55Z",
+  "updatedAt": "2026-07-19T03:48:29Z",
   "createdAt": "2026-02-15T20:20:26Z",
   "sourceTopics": [
     "skills",
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向生产环境的工程技能合集",
+    "summary": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "代码评审",
       "性能优化",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9e043ae0dd673c99",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "9719616f69da22eb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "agent-skills：agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-skills 可以先理解为一个「软件开发辅助项目」。它围绕「代码评审」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

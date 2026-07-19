@@ -1,5 +1,5 @@
 {
-  "rank": 1743,
+  "rank": 1745,
   "id": 1200286794,
   "name": "humanizer-ru",
   "fullName": "ilyautov/humanizer-ru",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ilyautov/humanizer-ru",
   "homepage": "",
   "description": "Скилл для Claude. Убирает 54 признака нейросети в русском тексте: канцелярит, кальки, фингерпринты ChatGPT и Claude. Метит в то, что меряют GPTZero, DivEye, RuBERT: поднимает perplexity и burstiness. 20 жёстких банов, quad-pass аудит, калибровка под голос автора.",
-  "summary": "humanizer-ru：humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "humanizer-ru：humanizer-ru：humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ilyautov/humanizer-ru.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 145,
+  "stars": 146,
   "forks": 8,
-  "openIssues": 5,
+  "openIssues": 0,
   "score": 86.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T20:44:25Z",
-  "updatedAt": "2026-07-17T04:09:42Z",
+  "pushedAt": "2026-07-18T10:41:15Z",
+  "updatedAt": "2026-07-18T20:22:25Z",
   "createdAt": "2026-04-03T08:33:05Z",
   "sourceTopics": [
     "skill-md"
@@ -75,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "humanizer-ru：humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -94,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "65ba01dc9326ce4b",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "129d32c1bf69da5d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "humanizer-ru：humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "humanizer-ru：humanizer-ru：humanizer-ru：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "humanizer-ru 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

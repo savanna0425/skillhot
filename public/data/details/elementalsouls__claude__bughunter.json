@@ -1,5 +1,5 @@
 {
-  "rank": 572,
+  "rank": 567,
   "id": 1229774092,
   "name": "Claude-BugHunter",
   "fullName": "elementalsouls/Claude-BugHunter",
@@ -8,7 +8,7 @@
   "url": "https://github.com/elementalsouls/Claude-BugHunter",
   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
   "description": "A Claude Code skill bundle for bug hunting and external red-team work — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-  "summary": "Claude-BugHunter：为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "Claude-BugHunter：Claude-BugHunter：为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "**What each install path gives you:**\n| Path | 71 skills + 15 slash commands | `cbh` CLI | `hunt` scaffolder |\n|---|---|---|---|",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 2986,
-  "forks": 459,
-  "openIssues": 2,
-  "score": 118.4,
+  "stars": 2991,
+  "forks": 460,
+  "openIssues": 3,
+  "score": 118.5,
   "activity": "本月活跃",
   "pushedAt": "2026-07-01T09:25:27Z",
-  "updatedAt": "2026-07-17T19:50:29Z",
+  "updatedAt": "2026-07-19T02:11:40Z",
   "createdAt": "2026-05-05T11:22:32Z",
   "sourceTopics": [
     "claude-skills"
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵",
+    "summary": "Claude-BugHunter：为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -90,13 +90,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7fd7ee75ba5814a3",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "988643359e8f892a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Claude-BugHunter：为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "Claude-BugHunter：Claude-BugHunter：为漏洞挖掘及外部红队工作打造的 Claude 代码技能包——包含 71 项技能、15 条斜杠命令，覆盖 24 类核心漏洞类共 681 种披露报告模式，并包含企业身份与基础设施攻击矩阵。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "Claude-BugHunter 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

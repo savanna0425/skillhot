@@ -1,5 +1,5 @@
 {
-  "rank": 915,
+  "rank": 913,
   "id": 1187100345,
   "name": "ClawManager",
   "fullName": "Yuan-lab-LLM/ClawManager",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Yuan-lab-LLM/ClawManager",
   "homepage": "https://yuan-lab-llm.github.io/ClawManager/",
   "description": "A Kubernetes-native control plane for AI agent instance management, with governed AI access, runtime orchestration, and reusable resources across multiple agent runtimes.",
-  "summary": "ClawManager：基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ClawManager：ClawManager：基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -27,8 +27,8 @@
   "openIssues": 25,
   "score": 108.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T09:48:58Z",
-  "updatedAt": "2026-07-17T16:18:12Z",
+  "pushedAt": "2026-07-18T03:51:59Z",
+  "updatedAt": "2026-07-18T14:41:32Z",
   "createdAt": "2026-03-20T10:43:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源",
+    "summary": "ClawManager：基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "8edd39e4f361dcb9",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "c54d395d3b4f89cd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ClawManager：基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ClawManager：ClawManager：基于 Kubernetes 的 AI 代理实例管理控制平面，具备受管理的 AI 访问、运行时编排以及跨多个代理运行时可复用的资源。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ClawManager 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

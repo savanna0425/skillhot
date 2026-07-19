@@ -8,7 +8,7 @@
   "url": "https://github.com/code-yeongyu/oh-my-openagent",
   "homepage": "https://omo.dev",
   "description": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
-  "summary": "oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "oh-my-openagent：oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "> npx lazycodex-ai install\n>",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 66037,
-  "forks": 5388,
-  "openIssues": 864,
+  "stars": 66122,
+  "forks": 5392,
+  "openIssues": 873,
   "score": 149.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T03:24:14Z",
-  "updatedAt": "2026-07-18T03:24:20Z",
+  "pushedAt": "2026-07-18T08:58:23Z",
+  "updatedAt": "2026-07-19T03:47:15Z",
   "createdAt": "2025-12-03T01:40:05Z",
   "sourceTopics": [
     "claude-skills"
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向复杂代码库与长任务的高强度编程 Agent Harness",
+    "summary": "oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "复杂代码库",
       "长链路开发",
@@ -93,13 +93,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "6e7eb8fa1598dc10",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "638894cfc3785698",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "oh-my-openagent：oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "oh-my-openagent 可以先理解为一个「软件开发辅助项目」。它围绕「复杂代码库」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

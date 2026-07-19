@@ -1,5 +1,5 @@
 {
-  "rank": 1008,
+  "rank": 1004,
   "id": 1261422007,
   "name": "guard-skills",
   "fullName": "amElnagdy/guard-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/amElnagdy/guard-skills",
   "homepage": "https://skills.sh/amElnagdy/guard-skills",
   "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
-  "summary": "guard-skills：代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "guard-skills：guard-skills：代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/amElnagdy/guard-skills.git",
   "language": "",
   "license": "MIT",
-  "stars": 1034,
-  "forks": 121,
+  "stars": 1043,
+  "forks": 123,
   "openIssues": 4,
-  "score": 107.4,
+  "score": 107.5,
   "activity": "本月活跃",
   "pushedAt": "2026-07-04T15:26:29Z",
-  "updatedAt": "2026-07-17T23:27:08Z",
+  "updatedAt": "2026-07-18T20:21:45Z",
   "createdAt": "2026-06-06T16:59:27Z",
   "sourceTopics": [
     "skills-sh"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门",
+    "summary": "guard-skills：代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c608dc6d46c26c07",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "2a545768be1bf32e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "guard-skills：代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "guard-skills：guard-skills：代码代理的守护技能，用于在代码、测试和文档中捕获 AI 生成失败模式的质检门。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "guard-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

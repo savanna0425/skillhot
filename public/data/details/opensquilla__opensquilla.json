@@ -8,7 +8,7 @@
   "url": "https://github.com/opensquilla/opensquilla",
   "homepage": "https://opensquilla.ai",
   "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
-  "summary": "opensquilla：OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "opensquilla：opensquilla：OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "The script installs `.[recommended]` (SquillaRouter + memory + local\nmodels) into a dedicated user environment via `uv tool install`,\nfalling back to `python -m pip install --user` when `uv` is",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6165,
-  "forks": 452,
+  "stars": 6184,
+  "forks": 456,
   "openIssues": 78,
   "score": 125,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T19:15:47Z",
-  "updatedAt": "2026-07-18T03:14:08Z",
+  "updatedAt": "2026-07-19T03:17:41Z",
   "createdAt": "2026-05-06T17:43:05Z",
   "sourceTopics": [
     "skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理",
+    "summary": "opensquilla：OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7e070edd9cfb9902",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "5b3f2e397c79ad87",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "opensquilla：OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "opensquilla：opensquilla：OpenSquilla——同预算下，拥有更高智能密度的 Token 高效 AI 代理。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "opensquilla 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

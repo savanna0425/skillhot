@@ -1,5 +1,5 @@
 {
-  "rank": 1253,
+  "rank": 1257,
   "id": 998658053,
   "name": "mcp",
   "fullName": "MicrosoftDocs/mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/MicrosoftDocs/mcp",
   "homepage": "https://learn.microsoft.com",
   "description": "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.",
-  "summary": "mcp：官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "mcp：mcp：官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/MicrosoftDocs/mcp.git",
   "language": "TypeScript",
   "license": "CC-BY-4.0",
-  "stars": 1784,
-  "forks": 216,
+  "stars": 1785,
+  "forks": 215,
   "openIssues": 17,
   "score": 101.1,
   "activity": "本月活跃",
   "pushedAt": "2026-06-20T04:01:22Z",
-  "updatedAt": "2026-07-17T20:13:12Z",
+  "updatedAt": "2026-07-18T12:53:33Z",
   "createdAt": "2025-06-09T03:31:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力",
+    "summary": "mcp：官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,13 +81,13 @@
       "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "0cae7ac287706a80",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "a6e65a9ed6323081",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mcp：官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "mcp：mcp：官方 Microsoft Learn MCP 服务器和命令行工具 – 利用实时、可信的 Microsoft 文档和代码示例，为 LLMs 和 AI 代理提供动力。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

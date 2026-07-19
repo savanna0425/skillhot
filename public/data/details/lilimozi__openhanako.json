@@ -1,5 +1,5 @@
 {
-  "rank": 530,
+  "rank": 529,
   "id": 1182194959,
   "name": "openhanako",
   "fullName": "liliMozi/openhanako",
@@ -8,7 +8,7 @@
   "url": "https://github.com/liliMozi/openhanako",
   "homepage": "",
   "description": "A personal AI agent with memory, personality, and autonomy.",
-  "summary": "openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "openhanako：openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npm install\nnpm start\nnpm run start:vite",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 5400,
-  "forks": 486,
-  "openIssues": 709,
+  "stars": 5410,
+  "forks": 491,
+  "openIssues": 714,
   "score": 119.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T07:44:55Z",
-  "updatedAt": "2026-07-18T02:22:58Z",
+  "pushedAt": "2026-07-18T08:29:20Z",
+  "updatedAt": "2026-07-19T03:55:23Z",
   "createdAt": "2026-03-15T07:01:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "一个拥有记忆、个性与自主性的个人 AI 代理",
+    "summary": "openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -69,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e688fa6c95a8bb4f",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "b768435136117f93",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "openhanako：openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "openhanako 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

@@ -1,5 +1,5 @@
 {
-  "rank": 143,
+  "rank": 142,
   "id": 1126947080,
   "name": "obsidian-skills",
   "fullName": "kepano/obsidian-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kepano/obsidian-skills",
   "homepage": "",
   "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-  "summary": "obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "obsidian-skills：obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add git@github.com:kepano/obsidian-skills.git",
   "language": "",
   "license": "MIT",
-  "stars": 42430,
-  "forks": 3022,
-  "openIssues": 54,
+  "stars": 42548,
+  "forks": 3034,
+  "openIssues": 55,
   "score": 138.1,
   "activity": "近期活跃",
   "pushedAt": "2026-06-08T16:12:01Z",
-  "updatedAt": "2026-07-18T03:25:37Z",
+  "updatedAt": "2026-07-19T03:55:29Z",
   "createdAt": "2026-01-02T21:45:11Z",
   "sourceTopics": [
     "skills"
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas",
+    "summary": "obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "知识库维护",
       "笔记自动化",
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4e6537a2446d9eda",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "5c325f2e930ccbe4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "obsidian-skills：obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "obsidian-skills 可以先理解为一个「办公与个人效率工具」。它围绕「知识库维护」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

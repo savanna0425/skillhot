@@ -8,7 +8,7 @@
   "url": "https://github.com/llmware-ai/llmware",
   "homepage": "https://llmware-ai.github.io/llmware/",
   "description": "Unified framework for building enterprise RAG pipelines with small, specialized models",
-  "summary": "llmware：构建企业级 RAG 管道的小众专用框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "llmware：llmware：构建企业级 RAG 管道的小众专用框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone git@github.com:llmware-ai/llmware.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 14806,
-  "forks": 2908,
+  "stars": 14824,
+  "forks": 2933,
   "openIssues": 92,
   "score": 115.1,
   "activity": "近期活跃",
   "pushedAt": "2026-05-17T13:53:37Z",
-  "updatedAt": "2026-07-17T15:30:00Z",
+  "updatedAt": "2026-07-18T23:45:02Z",
   "createdAt": "2023-09-29T15:19:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "构建企业级 RAG 管道的小众专用框架",
+    "summary": "llmware：构建企业级 RAG 管道的小众专用框架。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -78,13 +78,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9be1d63e19d1a431",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "1576c8e00b20cdf6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llmware：构建企业级 RAG 管道的小众专用框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "llmware：llmware：构建企业级 RAG 管道的小众专用框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "llmware 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

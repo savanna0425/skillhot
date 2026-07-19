@@ -1,5 +1,5 @@
 {
-  "rank": 1729,
+  "rank": 1724,
   "id": 1196007932,
   "name": "skill-optimizer",
   "fullName": "hqhq1025/skill-optimizer",
@@ -8,7 +8,7 @@
   "url": "https://github.com/hqhq1025/skill-optimizer",
   "homepage": "https://hqhq1025.github.io/skill-optimizer/",
   "description": "Agent Skills lifecycle toolkit: mine repeated coding-agent workflows, audit and personalize skills, and generalize personal skills for public release.",
-  "summary": "skill-optimizer：skill-optimizer 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skill-optimizer：skill-optimizer：skill-optimizer 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/hqhq1025/skill-optimizer.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 136,
+  "stars": 138,
   "forks": 4,
   "openIssues": 1,
-  "score": 86.9,
+  "score": 87.1,
   "activity": "近期活跃",
   "pushedAt": "2026-05-14T07:25:31Z",
-  "updatedAt": "2026-07-18T02:41:45Z",
+  "updatedAt": "2026-07-18T15:10:03Z",
   "createdAt": "2026-03-30T09:26:16Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -77,7 +77,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-optimizer 聚焦软件开发、代码质量与工程交付。",
+    "summary": "skill-optimizer：skill-optimizer 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -96,13 +96,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "75dfb1c2617b4bd0",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d7abef53bec966c3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-optimizer：skill-optimizer 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skill-optimizer：skill-optimizer：skill-optimizer 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skill-optimizer 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

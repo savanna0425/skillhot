@@ -1,5 +1,5 @@
 {
-  "rank": 804,
+  "rank": 801,
   "id": 1025052801,
   "name": "pg-aiguide",
   "fullName": "timescale/pg-aiguide",
@@ -8,7 +8,7 @@
   "url": "https://github.com/timescale/pg-aiguide",
   "homepage": "",
   "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
-  "summary": "pg-aiguide：MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "pg-aiguide：pg-aiguide：MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add timescale/pg-aiguide --skill postgres",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1789,
-  "forks": 97,
-  "openIssues": 28,
+  "stars": 1790,
+  "forks": 98,
+  "openIssues": 29,
   "score": 113.1,
   "activity": "本月活跃",
   "pushedAt": "2026-06-26T19:47:09Z",
-  "updatedAt": "2026-07-16T15:43:09Z",
+  "updatedAt": "2026-07-18T23:18:17Z",
   "createdAt": "2025-07-23T16:40:10Z",
   "sourceTopics": [
     "claude-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码",
+    "summary": "pg-aiguide：MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -91,13 +91,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "0f46ae34876db5d6",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "1c387a67548776cb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pg-aiguide：MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "pg-aiguide：pg-aiguide：MCP 服务器及 Claude 插件，用于 Postgres 技能与文档。帮助 AI 编程工具生成更优质的 PostgreSQL 代码。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "pg-aiguide 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

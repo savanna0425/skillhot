@@ -8,7 +8,7 @@
   "url": "https://github.com/Martian-Engineering/lossless-claw",
   "homepage": "",
   "description": "Lossless Claw — LCM (Lossless Context Management) plugin for OpenClaw",
-  "summary": "lossless-claw：无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "lossless-claw：lossless-claw：无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx --package @martian-engineering/lossless-claw@latest lossless-claw-migrate-sessions --state-dir ~/.openclaw",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4888,
+  "stars": 4891,
   "forks": 435,
-  "openIssues": 218,
+  "openIssues": 213,
   "score": 118.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T22:54:33Z",
-  "updatedAt": "2026-07-18T01:59:27Z",
+  "pushedAt": "2026-07-18T13:39:18Z",
+  "updatedAt": "2026-07-18T21:11:07Z",
   "createdAt": "2026-02-18T23:36:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计",
+    "summary": "lossless-claw：无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -68,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e6beedd33d58b00b",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "257b4b02f0a7ed8a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lossless-claw：无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "lossless-claw：lossless-claw：无损耗爪 - 无损耗上下文管理插件（Lossless Context Management）- 为 OpenClaw 设计。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "lossless-claw 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

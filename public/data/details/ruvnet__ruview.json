@@ -1,5 +1,5 @@
 {
-  "rank": 36,
+  "rank": 37,
   "id": 997737944,
   "name": "RuView",
   "fullName": "ruvnet/RuView",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ruvnet/RuView",
   "homepage": "https://Cognitum.One/RuView",
   "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-  "summary": "RuView：π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "RuView：RuView：π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install huggingface_hub\nhuggingface-cli download ruvnet/wifi-densepose-pretrained --local-dir models/wifi-densepose-pretrained",
   "language": "Rust",
   "license": "MIT",
-  "stars": 81042,
-  "forks": 10914,
-  "openIssues": 352,
+  "stars": 81184,
+  "forks": 10935,
+  "openIssues": 333,
   "score": 151.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T00:38:46Z",
-  "updatedAt": "2026-07-18T03:25:16Z",
+  "pushedAt": "2026-07-19T03:04:34Z",
+  "updatedAt": "2026-07-19T03:57:17Z",
   "createdAt": "2025-06-07T04:32:30Z",
   "sourceTopics": [
     "skills"
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素",
+    "summary": "RuView：π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "fe41f7dca1d3c6f0",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "3cdb0f5a121ee28f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "RuView：π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "RuView：RuView：π RuView 将商品级 WiFi 信号转化为实时空间智能、生命体征监测与人员存在检测，无需任何视频像素。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "RuView 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

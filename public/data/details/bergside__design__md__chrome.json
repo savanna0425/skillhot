@@ -1,5 +1,5 @@
 {
-  "rank": 946,
+  "rank": 944,
   "id": 1210537388,
   "name": "design-md-chrome",
   "fullName": "bergside/design-md-chrome",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bergside/design-md-chrome",
   "homepage": "https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma",
   "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
-  "summary": "design-md-chrome：Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "design-md-chrome：design-md-chrome：Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/bergside/design-md-chrome.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2458,
+  "stars": 2463,
   "forks": 284,
   "openIssues": 2,
   "score": 108.4,
   "activity": "近期活跃",
   "pushedAt": "2026-05-25T18:28:25Z",
-  "updatedAt": "2026-07-17T16:49:12Z",
+  "updatedAt": "2026-07-18T19:42:15Z",
   "createdAt": "2026-04-14T14:10:22Z",
   "sourceTopics": [
     "skills"
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能",
+    "summary": "design-md-chrome：Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "dd9e1dd7ed35a75f",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "f6c64587b1b0c1c1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "design-md-chrome：Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "design-md-chrome：design-md-chrome：Chrome 扩展，从任何网站提取样式并生成基于 TypeUI 的 DESIGN.md 文件和 AI 设计技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "design-md-chrome 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

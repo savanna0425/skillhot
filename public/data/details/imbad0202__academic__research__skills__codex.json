@@ -1,5 +1,5 @@
 {
-  "rank": 296,
+  "rank": 295,
   "id": 1220899692,
   "name": "academic-research-skills-codex",
   "fullName": "Imbad0202/academic-research-skills-codex",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Imbad0202/academic-research-skills-codex",
   "homepage": "https://github.com/Imbad0202/academic-research-skills",
   "description": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
-  "summary": "academic-research-skills-codex：基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "academic-research-skills-codex：academic-research-skills-codex：基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "The plugin root lives at `plugins/academic-research-skills/`. Its `skills/`\ndirectory contains a materialized copy of `academic-research-suite`, not a\nsymlink. This keeps Codex Desktop installs portable on Windows, where plugin",
+  "installCommand": "git clone https://github.com/Imbad0202/academic-research-skills-codex.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 6512,
-  "forks": 328,
+  "stars": 6568,
+  "forks": 331,
   "openIssues": 0,
-  "score": 129.5,
+  "score": 129.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T06:16:11Z",
-  "updatedAt": "2026-07-18T03:37:34Z",
+  "pushedAt": "2026-07-18T13:44:09Z",
+  "updatedAt": "2026-07-19T03:48:23Z",
   "createdAt": "2026-04-25T13:39:58Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流",
+    "summary": "academic-research-skills-codex：基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -81,13 +81,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "f7387164c38b8267",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "eca6bee50adb4723",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "academic-research-skills-codex：基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "academic-research-skills-codex：academic-research-skills-codex：基于 Claude 的学术研究技能套件，支持人类介入的学术研究工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "academic-research-skills-codex 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1412,
+  "rank": 1414,
   "id": 1118556483,
   "name": "pydantic-ai-skills",
   "fullName": "DougTrajano/pydantic-ai-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/DougTrajano/pydantic-ai-skills",
   "homepage": "https://dougtrajano.github.io/pydantic-ai-skills/",
   "description": "This package implements Agent Skills (https://agentskills.io) support with progressive disclosure for Pydantic AI. Supports filesystem and programmatic skills.",
-  "summary": "pydantic-ai-skills：pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "pydantic-ai-skills：pydantic-ai-skills：pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/DougTrajano/pydantic-ai-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 344,
+  "stars": 345,
   "forks": 27,
   "openIssues": 0,
   "score": 99.2,
   "activity": "本周活跃",
   "pushedAt": "2026-07-15T02:37:05Z",
-  "updatedAt": "2026-07-17T09:48:46Z",
+  "updatedAt": "2026-07-19T00:56:47Z",
   "createdAt": "2025-12-18T00:05:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "pydantic-ai-skills：pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -76,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d8a6b56a334afebb",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "dfb96e9da37778d2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pydantic-ai-skills：pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "pydantic-ai-skills：pydantic-ai-skills：pydantic-ai-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "pydantic-ai-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

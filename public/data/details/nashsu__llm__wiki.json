@@ -1,5 +1,5 @@
 {
-  "rank": 281,
+  "rank": 283,
   "id": 1204828304,
   "name": "llm_wiki",
   "fullName": "nashsu/llm_wiki",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nashsu/llm_wiki",
   "homepage": "",
   "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
-  "summary": "llm_wiki：LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "llm_wiki：llm_wiki：LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nashsu/llm_wiki.git\ncd llm_wiki\nnpm install",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 14810,
-  "forks": 1760,
+  "stars": 14860,
+  "forks": 1763,
   "openIssues": 207,
   "score": 130.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T09:04:44Z",
-  "updatedAt": "2026-07-18T03:32:07Z",
+  "updatedAt": "2026-07-19T03:57:36Z",
   "createdAt": "2026-04-08T11:24:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库",
+    "summary": "llm_wiki：LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -70,13 +70,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "87fccd8157af9137",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "2ead484b6dd37dee",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llm_wiki：LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "llm_wiki：llm_wiki：LLM Wiki 是一款跨平台桌面应用程序，它将您的文档转化为组织化、相互链接的知识库——自动完成。与传统 RAG 每次从头检索答案不同，LLM 会增量构建并维护来自您的源文档的持久知识库。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "llm_wiki 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

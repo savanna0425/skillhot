@@ -8,7 +8,7 @@
   "url": "https://github.com/BuilderIO/skills",
   "homepage": "https://www.agent-native.com/",
   "description": "Skills for coding agents",
-  "summary": "skills：供编码 Agent 使用的工程技能集合。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills：skills：供编码 Agent 使用的工程技能集合。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx @agent-native/skills@latest add",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 3677,
-  "forks": 189,
+  "stars": 3690,
+  "forks": 190,
   "openIssues": 4,
   "score": 127.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T23:37:56Z",
-  "updatedAt": "2026-07-18T01:43:05Z",
+  "pushedAt": "2026-07-18T19:14:19Z",
+  "updatedAt": "2026-07-19T03:29:04Z",
   "createdAt": "2026-06-10T16:04:20Z",
   "sourceTopics": [
     "skills"
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "供编码 Agent 使用的工程技能集合",
+    "summary": "skills：供编码 Agent 使用的工程技能集合。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d46c830e1ca77062",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d04c00167672be1d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：供编码 Agent 使用的工程技能集合。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills：skills：供编码 Agent 使用的工程技能集合。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

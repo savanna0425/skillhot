@@ -1,5 +1,5 @@
 {
-  "rank": 320,
+  "rank": 480,
   "id": 1147566999,
   "name": "ctf-skills",
   "fullName": "ljagiello/ctf-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ljagiello/ctf-skills",
   "homepage": "https://ljagiello.github.io/ctf-skills",
   "description": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
-  "summary": "ctf-skills：针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "ctf-skills：ctf-skills：针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add ljagiello/ctf-skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 2736,
-  "forks": 330,
+  "stars": 2751,
+  "forks": 329,
   "openIssues": 0,
-  "score": 128.5,
-  "activity": "本周活跃",
+  "score": 121.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-10T22:28:42Z",
-  "updatedAt": "2026-07-17T16:18:56Z",
+  "updatedAt": "2026-07-19T02:41:25Z",
   "createdAt": "2026-02-01T23:49:52Z",
   "sourceTopics": [
     "agent-skills",
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等",
+    "summary": "ctf-skills：针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "90bdba1c2406d85a",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "bd0fab546e19e2ef",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ctf-skills：针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "ctf-skills：ctf-skills：针对 CTF 挑战的代理技能 - 网络渗透、二进制漏洞利用、加密、逆向工程、取证、公开信息检索等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "ctf-skills 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

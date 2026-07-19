@@ -1,5 +1,5 @@
 {
-  "rank": 336,
+  "rank": 337,
   "id": 1131107802,
   "name": "claude-code-ultimate-guide",
   "fullName": "FlorianBruniaux/claude-code-ultimate-guide",
@@ -8,7 +8,7 @@
   "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
   "homepage": "https://cc.bruniaux.com/",
   "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
-  "summary": "claude-code-ultimate-guide：claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "claude-code-ultimate-guide：claude-code-ultimate-guide：claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/FlorianBruniaux/cc-copilot-bridge.git && cd cc-copilot-bridge && ./install.sh\nccc   # Copilot mode (flat $10/month)\nccd   # Direct Anthropic mode (per-token)",
   "language": "Python",
   "license": "CC-BY-SA-4.0",
-  "stars": 5485,
-  "forks": 721,
+  "stars": 5494,
+  "forks": 722,
   "openIssues": 14,
   "score": 127.8,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T09:44:12Z",
-  "updatedAt": "2026-07-18T02:55:12Z",
+  "updatedAt": "2026-07-19T00:11:47Z",
   "createdAt": "2026-01-09T13:42:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "claude-code-ultimate-guide：claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -90,13 +90,13 @@
       "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "aae2a4b07a83ec59",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "46be9fb01e27a33e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-ultimate-guide：claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-ultimate-guide：claude-code-ultimate-guide：claude-code-ultimate-guide 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-ultimate-guide 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 422,
+  "rank": 417,
   "id": 959123498,
   "name": "Unity-MCP",
   "fullName": "IvanMurzak/Unity-MCP",
@@ -8,7 +8,7 @@
   "url": "https://github.com/IvanMurzak/Unity-MCP",
   "homepage": "https://ai-game.dev",
   "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
-  "summary": "Unity-MCP：Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Unity-MCP：Unity-MCP：Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g unity-mcp-cli\nunity-mcp-cli install-plugin ./MyUnityProject\nunity-mcp-cli login ./MyUnityProject",
+  "installCommand": "npm install -g unity-mcp-cli\nunity-mcp-cli install-plugin ./MyUnityProject\nunity-mcp-cli login",
   "language": "C#",
   "license": "Apache-2.0",
-  "stars": 3588,
+  "stars": 3596,
   "forks": 321,
   "openIssues": 47,
-  "score": 123.3,
+  "score": 123.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T19:55:32Z",
-  "updatedAt": "2026-07-17T21:09:06Z",
+  "pushedAt": "2026-07-19T02:16:21Z",
+  "updatedAt": "2026-07-19T03:39:48Z",
   "createdAt": "2025-04-02T09:57:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
+    "summary": "Unity-MCP：Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -94,13 +94,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "2017e15156a65c42",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "4707fa540c0ac89c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Unity-MCP：Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Unity-MCP：Unity-MCP：Unity-MCP 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Unity-MCP 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1902,
+  "rank": 1898,
   "id": 1186364491,
   "name": "book-source-creator-skill",
   "fullName": "Narylr350/book-source-creator-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Narylr350/book-source-creator-skill",
   "homepage": "",
   "description": "Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等",
-  "summary": "book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "book-source-creator-skill：book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Narylr350/book-source-creator-skill.git",
   "language": "JavaScript",
   "license": "",
-  "stars": 72,
+  "stars": 73,
   "forks": 24,
   "openIssues": 0,
-  "score": 80.9,
+  "score": 81.1,
   "activity": "本月活跃",
   "pushedAt": "2026-07-05T08:49:14Z",
-  "updatedAt": "2026-07-16T07:28:01Z",
+  "updatedAt": "2026-07-18T11:29:56Z",
   "createdAt": "2026-03-19T14:48:56Z",
   "sourceTopics": [
     "ai-skill"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等",
+    "summary": "book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -86,13 +86,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "6d16793bebcd932a",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "578c8760f4041887",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "book-source-creator-skill：book-source-creator-skill：Legado / 阅读 AI 书源生成 Skill：生成并验证阅读书源 JSON，支持Claude Code / Codex等。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "book-source-creator-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

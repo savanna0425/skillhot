@@ -1,5 +1,5 @@
 {
-  "rank": 558,
+  "rank": 557,
   "id": 914964527,
   "name": "solace-agent-mesh",
   "fullName": "SolaceLabs/solace-agent-mesh",
@@ -8,7 +8,7 @@
   "url": "https://github.com/SolaceLabs/solace-agent-mesh",
   "homepage": "https://solacelabs.github.io/solace-agent-mesh/",
   "description": "An event-driven framework designed to build and orchestrate multi-agent AI systems. It enables seamless integration of AI agents with real-world data sources and systems, facilitating complex, multi-step workflows.",
-  "summary": "solace-agent-mesh：一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "solace-agent-mesh：solace-agent-mesh：一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install -e .[test]\npytest",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4965,
+  "stars": 4964,
   "forks": 271,
   "openIssues": 71,
   "score": 118.7,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T15:38:17Z",
-  "updatedAt": "2026-07-17T19:00:53Z",
+  "updatedAt": "2026-07-19T00:11:12Z",
   "createdAt": "2025-01-10T17:11:47Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现",
+    "summary": "solace-agent-mesh：一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7b1beef9e13edc57",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "720196aedd84ac34",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "solace-agent-mesh：一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "solace-agent-mesh：solace-agent-mesh：一个基于事件驱动的框架，用于构建和编排多智能体 AI 系统。它支持 AI 智能体与真实世界数据源及系统的无缝集成，促进复杂多步骤工作流的实现。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "solace-agent-mesh 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

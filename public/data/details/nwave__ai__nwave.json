@@ -1,5 +1,5 @@
 {
-  "rank": 1561,
+  "rank": 1559,
   "id": 1156929150,
   "name": "nWave",
   "fullName": "nWave-ai/nWave",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nWave-ai/nWave",
   "homepage": "https://nwave.ai",
   "description": "AI agents that guide you from idea to working code, with you in control at every step.",
-  "summary": "nWave：引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+  "summary": "nWave：nWave：引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权。适合在 Claude、OpenCode 相关工作流里先做选型判断。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nWave-ai/nWave.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 577,
-  "forks": 58,
+  "stars": 579,
+  "forks": 59,
   "openIssues": 19,
-  "score": 93.4,
+  "score": 93.5,
   "activity": "本月活跃",
   "pushedAt": "2026-06-27T14:16:13Z",
-  "updatedAt": "2026-07-14T21:23:26Z",
+  "updatedAt": "2026-07-18T12:54:03Z",
   "createdAt": "2026-02-13T08:10:46Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权",
+    "summary": "nWave：引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c4bc2c6ca79f847d",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "48362d9738ea7b2b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nWave：引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "nWave：nWave：引导您从构思到生成代码的 AI 代理，每一步您都拥有控制权。适合在 Claude、OpenCode 相关工作流里先做选型判断。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "nWave 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

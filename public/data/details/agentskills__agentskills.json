@@ -8,7 +8,7 @@
   "url": "https://github.com/agentskills/agentskills",
   "homepage": "https://agentskills.io",
   "description": "Specification and documentation for Agent Skills",
-  "summary": "agentskills：Agent 技能规范与文档。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "agentskills：agentskills：Agent 技能规范与文档。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/agentskills/agentskills.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 23144,
-  "forks": 1530,
+  "stars": 23188,
+  "forks": 1536,
   "openIssues": 47,
   "score": 139.8,
   "activity": "本月活跃",
   "pushedAt": "2026-07-10T00:11:48Z",
-  "updatedAt": "2026-07-18T02:30:40Z",
+  "updatedAt": "2026-07-19T03:50:23Z",
   "createdAt": "2025-12-16T15:47:19Z",
   "sourceTopics": [
     "agent-skills"
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agent 技能规范与文档",
+    "summary": "agentskills：Agent 技能规范与文档。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -75,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "29e54a458709fe91",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "4e4680c580b2aae8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentskills：Agent 技能规范与文档。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "agentskills：agentskills：Agent 技能规范与文档。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "agentskills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

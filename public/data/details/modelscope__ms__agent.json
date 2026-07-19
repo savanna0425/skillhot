@@ -1,5 +1,5 @@
 {
-  "rank": 615,
+  "rank": 613,
   "id": 674153903,
   "name": "ms-agent",
   "fullName": "modelscope/ms-agent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/modelscope/ms-agent",
   "homepage": "https://ms-agent-en.readthedocs.io",
   "description": "MS-Agent: a lightweight framework to empower agentic execution of complex tasks",
-  "summary": "ms-agent：MS-Agent：一个轻量级框架，赋能复杂任务的本体执行。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ms-agent：ms-agent：MS-Agent：一个轻量级框架，赋能复杂任务的本体执行。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install ms-agent\npip install 'ms-agent[research]'",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4334,
+  "stars": 4336,
   "forks": 513,
   "openIssues": 23,
   "score": 117.3,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T12:43:19Z",
-  "updatedAt": "2026-07-17T22:16:08Z",
+  "updatedAt": "2026-07-18T20:29:03Z",
   "createdAt": "2023-08-03T09:06:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "MS-Agent：一个轻量级框架，赋能复杂任务的本体执行",
+    "summary": "ms-agent：MS-Agent：一个轻量级框架，赋能复杂任务的本体执行。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -77,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b578cc3c34b46cd0",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "2b00d63604963e3f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ms-agent：MS-Agent：一个轻量级框架，赋能复杂任务的本体执行。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ms-agent：ms-agent：MS-Agent：一个轻量级框架，赋能复杂任务的本体执行。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ms-agent 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

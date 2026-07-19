@@ -1,5 +1,5 @@
 {
-  "rank": 1373,
+  "rank": 1382,
   "id": 1162355550,
   "name": "openclaw-a2a-gateway",
   "fullName": "win4r/openclaw-a2a-gateway",
@@ -8,7 +8,7 @@
   "url": "https://github.com/win4r/openclaw-a2a-gateway",
   "homepage": "https://youtu.be/aI77F7vVodE",
   "description": "OpenClaw plugin implementing the A2A (Agent-to-Agent) protocol v0.3.0 — bidirectional agent communication gateway",
-  "summary": "openclaw-a2a-gateway：openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "openclaw-a2a-gateway：openclaw-a2a-gateway：openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/win4r/openclaw-a2a-gateway.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 545,
+  "stars": 544,
   "forks": 111,
   "openIssues": 6,
-  "score": 99.9,
+  "score": 99.8,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T13:52:39Z",
-  "updatedAt": "2026-07-17T13:54:12Z",
+  "updatedAt": "2026-07-18T16:34:35Z",
   "createdAt": "2026-02-20T06:46:24Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "openclaw-a2a-gateway：openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "ee90c450b0fc94e8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "9d67c951c0a1bb40",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw-a2a-gateway：openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openclaw-a2a-gateway：openclaw-a2a-gateway：openclaw-a2a-gateway 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "openclaw-a2a-gateway 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 138,
+  "rank": 137,
   "id": 1014729376,
   "name": "MemOS",
   "fullName": "MemTensor/MemOS",
@@ -8,7 +8,7 @@
   "url": "https://github.com/MemTensor/MemOS",
   "homepage": "https://memos.openmem.net",
   "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings",
-  "summary": "MemOS：面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "MemOS：MemOS：面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/MemTensor/MemOS.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 10254,
-  "forks": 935,
+  "stars": 10262,
+  "forks": 937,
   "openIssues": 79,
   "score": 138.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T07:22:31Z",
-  "updatedAt": "2026-07-18T00:36:20Z",
+  "pushedAt": "2026-07-19T03:39:13Z",
+  "updatedAt": "2026-07-19T03:39:18Z",
   "createdAt": "2025-07-06T09:51:27Z",
   "sourceTopics": [
     "skills"
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token",
+    "summary": "MemOS：面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -92,13 +92,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "562980380074a093",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "8a4dedd813ad23c8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "MemOS：面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "MemOS：MemOS：面向 LLM 与 AI 代理的自进化记忆操作系统：超持久记忆、混合检索与跨任务技能复用，节省 35.24% 的 Token。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "MemOS 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

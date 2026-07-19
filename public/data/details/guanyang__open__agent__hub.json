@@ -1,5 +1,5 @@
 {
-  "rank": 886,
+  "rank": 882,
   "id": 1133238996,
   "name": "open-agent-hub",
   "fullName": "guanyang/open-agent-hub",
@@ -8,7 +8,7 @@
   "url": "https://github.com/guanyang/open-agent-hub",
   "homepage": "",
   "description": "A lightweight, zero-dependency CLI tool to manage and activate capabilities for AI coding assistants (such as Claude Code, Cursor, Trae, etc.).",
-  "summary": "open-agent-hub：轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "open-agent-hub：open-agent-hub：轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/guanyang/open-agent-hub.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 928,
+  "stars": 932,
   "forks": 163,
   "openIssues": 5,
-  "score": 109.3,
+  "score": 109.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T02:54:00Z",
-  "updatedAt": "2026-07-17T02:54:04Z",
+  "pushedAt": "2026-07-19T03:16:38Z",
+  "updatedAt": "2026-07-19T03:55:44Z",
   "createdAt": "2026-01-13T04:29:34Z",
   "sourceTopics": [
     "ai-skills",
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）",
+    "summary": "open-agent-hub：轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "897b33bff89e9173",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ce723c0e41cae489",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-agent-hub：轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "open-agent-hub：open-agent-hub：轻量级零依赖命令行工具，用于管理和激活 AI 编程助手的能力（如 Claude Code、Cursor、Trae 等）。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "open-agent-hub 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

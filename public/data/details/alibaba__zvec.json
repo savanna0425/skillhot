@@ -1,5 +1,5 @@
 {
-  "rank": 202,
+  "rank": 200,
   "id": 1110443421,
   "name": "zvec",
   "fullName": "alibaba/zvec",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alibaba/zvec",
   "homepage": "https://zvec.org",
   "description": "A lightweight, lightning-fast, in-process vector database",
-  "summary": "zvec：轻量级、闪电级速度、在线向量数据库。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "zvec：zvec：轻量级、闪电级速度、在线向量数据库。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alibaba/zvec.git",
   "language": "C++",
   "license": "Apache-2.0",
-  "stars": 15058,
-  "forks": 943,
-  "openIssues": 67,
+  "stars": 15107,
+  "forks": 948,
+  "openIssues": 68,
   "score": 134.3,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T08:56:22Z",
-  "updatedAt": "2026-07-18T03:14:21Z",
+  "updatedAt": "2026-07-19T03:40:04Z",
   "createdAt": "2025-12-05T07:45:38Z",
   "sourceTopics": [
     "agent-skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "轻量级、闪电级速度、在线向量数据库",
+    "summary": "zvec：轻量级、闪电级速度、在线向量数据库。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "881e704fa63a857f",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "02dd9adb654ba49f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "zvec：轻量级、闪电级速度、在线向量数据库。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "zvec：zvec：轻量级、闪电级速度、在线向量数据库。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "zvec 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

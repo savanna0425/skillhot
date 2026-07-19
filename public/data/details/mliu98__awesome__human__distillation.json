@@ -1,5 +1,5 @@
 {
-  "rank": 850,
+  "rank": 848,
   "id": 1199916658,
   "name": "awesome-human-distillation",
   "fullName": "mliu98/awesome-human-distillation",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mliu98/awesome-human-distillation",
   "homepage": "",
   "description": "A curated catalog of human distillliation agent skills",
-  "summary": "awesome-human-distillation 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-human-distillation 是一个面向 Claude、Codex、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mliu98/awesome-human-distillation.git",
   "language": "Python",
   "license": "",
-  "stars": 700,
+  "stars": 701,
   "forks": 63,
   "openIssues": 3,
   "score": 110.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T04:49:03Z",
-  "updatedAt": "2026-07-17T10:22:33Z",
+  "pushedAt": "2026-07-18T04:37:57Z",
+  "updatedAt": "2026-07-18T14:37:07Z",
   "createdAt": "2026-04-02T21:01:53Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -45,7 +45,9 @@
     "human-distillation"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -58,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "人类蒸馏技能精选集",
+    "summary": "awesome-human-distillation 是一个面向 Claude、Codex、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -77,13 +79,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "2d247db83586656e",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "0f735398138ff051",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-human-distillation 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-human-distillation 是一个面向 Claude、Codex、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-human-distillation 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -101,7 +103,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

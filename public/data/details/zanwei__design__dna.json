@@ -1,5 +1,5 @@
 {
-  "rank": 1637,
+  "rank": 1625,
   "id": 1189432033,
   "name": "design-dna",
   "fullName": "zanwei/design-dna",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zanwei/design-dna",
   "homepage": "",
   "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
-  "summary": "design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "design-dna：design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/zanwei/design-dna.git",
   "language": "",
   "license": "MIT",
-  "stars": 1031,
+  "stars": 1057,
   "forks": 51,
   "openIssues": 0,
-  "score": 91.4,
+  "score": 91.7,
   "activity": "活跃",
   "pushedAt": "2026-04-13T01:30:34Z",
-  "updatedAt": "2026-07-17T23:00:22Z",
+  "updatedAt": "2026-07-19T03:26:55Z",
   "createdAt": "2026-03-23T10:10:39Z",
   "sourceTopics": [
     "claude-skills",
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "design-dna 帮助改进界面设计、用户体验与视觉质量。",
+    "summary": "design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e429dad6480fb243",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "0ef1b3cdf1e6c73c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "design-dna：design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "design-dna 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

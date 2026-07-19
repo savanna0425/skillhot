@@ -8,7 +8,7 @@
   "url": "https://github.com/affaan-m/ECC",
   "homepage": "https://ecc.tools",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "summary": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "ECC：ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/affaan-m/ECC.git\ncd ECC\nnpm install        # or: pnpm install | yarn install | bun install",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 230702,
-  "forks": 35204,
-  "openIssues": 105,
+  "stars": 230971,
+  "forks": 35241,
+  "openIssues": 109,
   "score": 166.7,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T21:16:52Z",
-  "updatedAt": "2026-07-18T03:37:25Z",
+  "updatedAt": "2026-07-19T03:56:59Z",
   "createdAt": "2026-01-18T00:51:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统",
+    "summary": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5844447545542613",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "f6cdc83df5cb5d4b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ECC：ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ECC 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

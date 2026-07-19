@@ -1,14 +1,14 @@
 {
-  "rank": 885,
-  "id": 1176335208,
-  "name": "agi",
-  "fullName": "hyperspaceai/agi",
-  "owner": "hyperspaceai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/12701374?v=4",
-  "url": "https://github.com/hyperspaceai/agi",
-  "homepage": "https://agents.hyper.space/",
-  "description": "The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here. Fully peer-to-peer. Join from your browser or CLI.",
-  "summary": "agi：分布式通用人工智能系统。数千个自主 AI 代理协作训练模型，通过 P2P gossip 分享实验，在此推动突破。完全基于去中心化。可从浏览器或命令行启动。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2224,
+  "id": 1218683765,
+  "name": "LitReviewSkill",
+  "fullName": "Zsun79/LitReviewSkill",
+  "owner": "Zsun79",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/105461887?v=4",
+  "url": "https://github.com/Zsun79/LitReviewSkill",
+  "homepage": "",
+  "description": "LitReview Skill is an installable agent skill for end-to-end literature review generation. It helps agents conduct literature reviews with a well-designed and widely used review framework so the search process is broad, iterative, and less likely to miss relevant articles.",
+  "summary": "LitReviewSkill：LitReviewSkill：LitReviewSkill 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,50 +19,48 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/hyperspaceai/agi.git",
-  "language": "",
-  "license": "MIT",
-  "stars": 1998,
-  "forks": 240,
-  "openIssues": 24,
-  "score": 109.3,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-18T03:34:16Z",
-  "updatedAt": "2026-07-18T00:16:05Z",
-  "createdAt": "2026-03-08T23:08:37Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/Zsun79/LitReviewSkill.git",
+  "language": "Python",
+  "license": "",
+  "stars": 17,
+  "forks": 3,
+  "openIssues": 0,
+  "score": 61.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-08T03:15:48Z",
+  "updatedAt": "2026-07-18T14:21:45Z",
+  "createdAt": "2026-04-23T05:44:21Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agi",
-    "ai-agents",
-    "ai-research",
-    "artificial-general-intelligence",
-    "autonomous-agents",
-    "autonomous-agents-",
-    "autoresearch",
-    "collaborative-ai",
-    "decentralized",
-    "distributed-ai",
-    "llm",
-    "p2p"
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "literature-review",
+    "research-agents",
+    "skill-md",
+    "systematic-reviews"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/hyperspaceai/agi",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Zsun79/LitReviewSkill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/hyperspaceai/agi#readme",
-  "detailPath": "data/details/hyperspaceai__agi.json",
+  "readmeUrl": "https://github.com/Zsun79/LitReviewSkill#readme",
+  "detailPath": "data/details/zsun79__litreviewskill.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "分布式通用人工智能系统。数千个自主 AI 代理协作训练模型，通过 P2P gossip 分享实验，在此推动突破。完全基于去中心化。可从浏览器或命令行启动",
+    "summary": "LitReviewSkill：LitReviewSkill 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -78,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "48adf452fd679a0d",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "98d4ca39c0085930",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agi：分布式通用人工智能系统。数千个自主 AI 代理协作训练模型，通过 P2P gossip 分享实验，在此推动突破。完全基于去中心化。可从浏览器或命令行启动。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agi 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "LitReviewSkill：LitReviewSkill：LitReviewSkill 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "LitReviewSkill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -105,7 +103,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -128,7 +126,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

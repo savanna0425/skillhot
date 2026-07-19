@@ -1,5 +1,5 @@
 {
-  "rank": 1065,
+  "rank": 1064,
   "id": 1130952330,
   "name": "pm-skills",
   "fullName": "product-on-purpose/pm-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/product-on-purpose/pm-skills",
   "homepage": "https://product-on-purpose.github.io/pm-skills/",
   "description": "68 plug-and-play, best-practice product management skills for AI agents: 30 Triple Diamond phase + 11 foundation + 12 utility + 15 tool (Foundation Sprint + Design Sprint). Plus 6 sub-agents, workflows, 200+ output samples, guides, and CI-enforced contracts. Apache 2.0.",
-  "summary": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "pm-skills：pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -23,7 +23,7 @@
   "language": "JavaScript",
   "license": "Apache-2.0",
   "stars": 476,
-  "forks": 62,
+  "forks": 64,
   "openIssues": 15,
   "score": 106.5,
   "activity": "本周活跃",
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pm-skills 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b38bf4c2dd05c70e",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "95f03ba62f7fe326",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "pm-skills：pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "pm-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

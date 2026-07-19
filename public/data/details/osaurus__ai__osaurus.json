@@ -1,5 +1,5 @@
 {
-  "rank": 443,
+  "rank": 444,
   "id": 1039587768,
   "name": "osaurus",
   "fullName": "osaurus-ai/osaurus",
@@ -8,7 +8,7 @@
   "url": "https://github.com/osaurus-ai/osaurus",
   "homepage": "https://osaurus.ai",
   "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
-  "summary": "osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "osaurus：osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "brew install --cask osaurus",
   "language": "Swift",
   "license": "MIT",
-  "stars": 7216,
+  "stars": 7225,
   "forks": 404,
-  "openIssues": 135,
+  "openIssues": 137,
   "score": 122.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T02:59:16Z",
-  "updatedAt": "2026-07-18T02:59:19Z",
+  "pushedAt": "2026-07-19T03:49:13Z",
+  "updatedAt": "2026-07-19T03:49:15Z",
   "createdAt": "2025-08-17T15:05:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源",
+    "summary": "osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d2034a70d11b54c4",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "15240f0fe30ae609",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "osaurus：osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "osaurus 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

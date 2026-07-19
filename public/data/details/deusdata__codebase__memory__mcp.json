@@ -1,5 +1,5 @@
 {
-  "rank": 136,
+  "rank": 135,
   "id": 1166102148,
   "name": "codebase-memory-mcp",
   "fullName": "DeusData/codebase-memory-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
   "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-  "summary": "codebase-memory-mcp：codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "codebase-memory-mcp：codebase-memory-mcp：codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "3. **Restart** your coding agent.\nThe `install` command automatically strips macOS quarantine attributes and ad-hoc signs the binary — no manual `xattr`/`codesign` needed.\n</details>",
   "language": "C",
   "license": "MIT",
-  "stars": 32465,
-  "forks": 2483,
-  "openIssues": 255,
-  "score": 138.3,
+  "stars": 32745,
+  "forks": 2500,
+  "openIssues": 264,
+  "score": 138.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T01:16:45Z",
-  "updatedAt": "2026-07-18T03:31:23Z",
+  "pushedAt": "2026-07-18T22:42:28Z",
+  "updatedAt": "2026-07-19T03:53:00Z",
   "createdAt": "2026-02-24T22:01:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。",
+    "summary": "codebase-memory-mcp：codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -94,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "d0bcfaef7854bee6",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ec90d311c2594cd0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codebase-memory-mcp：codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "codebase-memory-mcp：codebase-memory-mcp：codebase-memory-mcp 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "codebase-memory-mcp 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

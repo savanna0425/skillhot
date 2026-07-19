@@ -1,5 +1,5 @@
 {
-  "rank": 477,
+  "rank": 474,
   "id": 324025361,
   "name": "himalaya",
   "fullName": "pimalaya/himalaya",
@@ -8,7 +8,7 @@
   "url": "https://github.com/pimalaya/himalaya",
   "homepage": "https://pimalaya.org",
   "description": "CLI to manage emails",
-  "summary": "himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "himalaya：himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://aur.archlinux.org/himalaya-git.git\ncd himalaya-git\nmakepkg -isc",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 6631,
+  "stars": 6635,
   "forks": 213,
   "openIssues": 14,
   "score": 121.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T23:18:49Z",
-  "updatedAt": "2026-07-18T01:52:22Z",
+  "pushedAt": "2026-07-18T19:48:12Z",
+  "updatedAt": "2026-07-19T01:04:55Z",
   "createdAt": "2020-12-23T23:56:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "命令行工具用于管理邮件",
+    "summary": "himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -83,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "dc750ad3352d7a1d",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ba45d6a5c4d2bffd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "himalaya：himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "himalaya 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

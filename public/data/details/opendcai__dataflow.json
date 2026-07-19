@@ -1,5 +1,5 @@
 {
-  "rank": 480,
+  "rank": 477,
   "id": 872005985,
   "name": "DataFlow",
   "fullName": "OpenDCAI/DataFlow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenDCAI/DataFlow",
   "homepage": "https://OpenDCAI.github.io/DataFlow-Doc/",
   "description": "Easy Data Preparation with latest LLMs-based Operators and Pipelines.",
-  "summary": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "DataFlow：DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install uv\nuv pip install open-dataflow",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6532,
-  "forks": 798,
+  "stars": 6576,
+  "forks": 805,
   "openIssues": 10,
   "score": 121.6,
   "activity": "本周活跃",
   "pushedAt": "2026-07-15T05:10:42Z",
-  "updatedAt": "2026-07-18T03:18:03Z",
+  "updatedAt": "2026-07-19T03:37:05Z",
   "createdAt": "2024-10-13T14:45:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于最新大语言模型的操作器与管道，轻松完成数据准备",
+    "summary": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "26df8c5a5e787eff",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "17527b7ba31b3c10",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "DataFlow：DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "DataFlow 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

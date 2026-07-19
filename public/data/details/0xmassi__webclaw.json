@@ -1,5 +1,5 @@
 {
-  "rank": 985,
+  "rank": 958,
   "id": 1178117518,
   "name": "webclaw",
   "fullName": "0xMassi/webclaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/0xMassi/webclaw",
   "homepage": "https://webclaw.io",
   "description": "Fast, local-first web content extraction for LLMs. Scrape, crawl, extract structured data — all from Rust. CLI, REST API, and MCP server.",
-  "summary": "webclaw：webclaw 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "webclaw：webclaw：webclaw 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/0xMassi/webclaw.git",
   "language": "Rust",
   "license": "AGPL-3.0",
-  "stars": 1735,
-  "forks": 183,
+  "stars": 1779,
+  "forks": 189,
   "openIssues": 2,
-  "score": 107.8,
+  "score": 108.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T10:50:06Z",
-  "updatedAt": "2026-07-17T16:16:00Z",
+  "pushedAt": "2026-07-19T02:10:27Z",
+  "updatedAt": "2026-07-19T03:54:23Z",
   "createdAt": "2026-03-10T17:50:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "webclaw 用于自动化浏览器、工具集成或重复流程。",
+    "summary": "webclaw：webclaw 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -89,13 +89,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "62d770decaa902c8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "672f12cd35cdd2e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "webclaw：webclaw 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "webclaw：webclaw：webclaw 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "webclaw 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 311,
+  "rank": 307,
   "id": 1217942969,
   "name": "GPT-Image2-Skill",
   "fullName": "wuyoscar/GPT-Image2-Skill",
@@ -22,13 +22,13 @@
   "installCommand": "command -v gpt-image || true\ncommand -v uv >/dev/null && uv tool list | grep -E '^gpt-image-cli([[:space:]]|$)' || true\ntest -n \"${OPENAI_API_KEY:-}\" && echo \"OPENAI_API_KEY is already set (value hidden)\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 3799,
-  "forks": 319,
+  "stars": 3817,
+  "forks": 322,
   "openIssues": 3,
-  "score": 128.9,
+  "score": 129,
   "activity": "本月活跃",
   "pushedAt": "2026-07-01T07:31:37Z",
-  "updatedAt": "2026-07-18T03:29:13Z",
+  "updatedAt": "2026-07-19T03:00:04Z",
   "createdAt": "2026-04-22T11:27:21Z",
   "sourceTopics": [
     "agent-skills",
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "GPT Image 2 提示词画廊、提示词库、代理技能及用于 OpenAI 图像生成/编辑的命令行工具",
+    "summary": "GPT-Image2-Skill 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "8cd4f8cda0536be6",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d8911a372863d305",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

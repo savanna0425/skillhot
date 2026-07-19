@@ -1,5 +1,5 @@
 {
-  "rank": 634,
+  "rank": 628,
   "id": 1141853351,
   "name": "qiaomu-anything-to-notebooklm",
   "fullName": "joeseesun/qiaomu-anything-to-notebooklm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
   "homepage": "",
   "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
-  "summary": "qiaomu-anything-to-notebooklm：把网页、视频、PDF 等多源内容加工后送入 NotebookLM。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "qiaomu-anything-to-notebooklm：qiaomu-anything-to-notebooklm：把网页、视频、PDF 等多源内容加工后送入 NotebookLM。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "cd ~/.claude/skills/\ngit clone https://github.com/joeseesun/qiaomu-anything-to-notebooklm\ncd qiaomu-anything-to-notebooklm",
   "language": "Python",
   "license": "MIT",
-  "stars": 5585,
+  "stars": 5591,
   "forks": 616,
   "openIssues": 6,
-  "score": 116.9,
+  "score": 117,
   "activity": "近期活跃",
   "pushedAt": "2026-04-28T01:38:28Z",
-  "updatedAt": "2026-07-18T02:42:34Z",
+  "updatedAt": "2026-07-18T16:37:23Z",
   "createdAt": "2026-01-25T14:48:01Z",
   "sourceTopics": [
     "skill"
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "把网页、视频、PDF 等多源内容加工后送入 NotebookLM",
+    "summary": "qiaomu-anything-to-notebooklm：把网页、视频、PDF 等多源内容加工后送入 NotebookLM。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "资料汇总",
       "播客与测验生成",
@@ -77,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "ce606bedf92e4a57",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "ad37ca47f03240bd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "qiaomu-anything-to-notebooklm：把网页、视频、PDF 等多源内容加工后送入 NotebookLM。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "qiaomu-anything-to-notebooklm：qiaomu-anything-to-notebooklm：把网页、视频、PDF 等多源内容加工后送入 NotebookLM。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "qiaomu-anything-to-notebooklm 可以先理解为一个「研究与学习辅助项目」。它围绕「资料汇总」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

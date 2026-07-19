@@ -1,5 +1,5 @@
 {
-  "rank": 349,
+  "rank": 344,
   "id": 1250818845,
   "name": "nihaisha-nishi-tcm",
   "fullName": "JuneYaooo/nihaisha-nishi-tcm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/JuneYaooo/nihaisha-nishi-tcm",
   "homepage": "",
   "description": "倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 |  An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing.",
-  "summary": "nihaisha-nishi-tcm：倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "nihaisha-nishi-tcm：nihaisha-nishi-tcm：倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "python3 -m venv .venv\nsource .venv/bin/activate\npython -m pip install -e \".[runtime]\"",
+  "installCommand": "git clone https://github.com/JuneYaooo/nihaisha-nishi-tcm.git",
   "language": "Python",
   "license": "",
-  "stars": 1550,
-  "forks": 345,
+  "stars": 1610,
+  "forks": 360,
   "openIssues": 1,
-  "score": 126.6,
+  "score": 127,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T08:19:15Z",
-  "updatedAt": "2026-07-18T03:12:19Z",
+  "pushedAt": "2026-07-18T09:40:43Z",
+  "updatedAt": "2026-07-19T01:19:56Z",
   "createdAt": "2026-05-27T02:01:16Z",
   "sourceTopics": [
     "agent-skills",
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing.",
+    "summary": "nihaisha-nishi-tcm：倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -89,13 +89,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "7b4bde0a46b62b42",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "011e2c2b325cec53",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nihaisha-nishi-tcm：倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "nihaisha-nishi-tcm：nihaisha-nishi-tcm：倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 | An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "nihaisha-nishi-tcm 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

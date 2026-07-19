@@ -1,5 +1,5 @@
 {
-  "rank": 298,
+  "rank": 299,
   "id": 1182108611,
   "name": "AutoResearchClaw",
   "fullName": "aiming-lab/AutoResearchClaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aiming-lab/AutoResearchClaw",
   "homepage": "",
   "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
-  "summary": "AutoResearchClaw：完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "AutoResearchClaw：AutoResearchClaw：完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install -e . && researchclaw setup && researchclaw init && researchclaw run --topic \"Your research idea here\" --auto-approve\nresearchclaw run --topic \"Your research idea here\" --mode co-pilot",
   "language": "Python",
   "license": "MIT",
-  "stars": 13828,
+  "stars": 13832,
   "forks": 1626,
   "openIssues": 7,
   "score": 129.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-13T08:57:26Z",
-  "updatedAt": "2026-07-17T20:21:12Z",
+  "updatedAt": "2026-07-18T19:37:28Z",
   "createdAt": "2026-03-15T03:38:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文",
+    "summary": "AutoResearchClaw：完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "1faeb4d1f71f73de",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "488e4690bf8c9526",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AutoResearchClaw：完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "AutoResearchClaw：AutoResearchClaw：完全自主且自我进化的研究，从构思到成文。与想法对话，获取论文。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "AutoResearchClaw 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 601,
+  "rank": 596,
   "id": 924706399,
   "name": "MathModelAgent",
   "fullName": "jihe520/MathModelAgent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jihe520/MathModelAgent",
   "homepage": "https://mathmodel.top/home",
   "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
-  "summary": "MathModelAgent：专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "MathModelAgent：MathModelAgent：专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add jihe520/MathModelAgent --all",
   "language": "Python",
   "license": "",
-  "stars": 2757,
-  "forks": 304,
+  "stars": 2778,
+  "forks": 306,
   "openIssues": 26,
-  "score": 117.6,
+  "score": 117.7,
   "activity": "本月活跃",
   "pushedAt": "2026-06-30T03:02:39Z",
-  "updatedAt": "2026-07-18T03:34:35Z",
+  "updatedAt": "2026-07-19T03:54:40Z",
   "createdAt": "2025-01-30T14:02:20Z",
   "sourceTopics": [
     "skills"
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+    "summary": "MathModelAgent：专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -78,14 +78,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c9141426816b455c",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "75f76599531f5e4e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "MathModelAgent：专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "MathModelAgent 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "MathModelAgent：MathModelAgent：专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "MathModelAgent 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",

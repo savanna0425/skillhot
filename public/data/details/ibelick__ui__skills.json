@@ -1,5 +1,5 @@
 {
-  "rank": 285,
+  "rank": 268,
   "id": 1129930192,
   "name": "ui-skills",
   "fullName": "ibelick/ui-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ibelick/ui-skills",
   "homepage": "https://www.ui-skills.com/",
   "description": "Skills for Design Engineers",
-  "summary": "ui-skills：面向设计工程师的 UI 设计与实现 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "ui-skills：ui-skills：面向设计工程师的 UI 设计与实现 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx ui-skills\nnpx ui-skills start\nnpx ui-skills categories",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4639,
-  "forks": 199,
-  "openIssues": 10,
-  "score": 130,
+  "stars": 5101,
+  "forks": 219,
+  "openIssues": 11,
+  "score": 131,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T12:31:36Z",
-  "updatedAt": "2026-07-18T03:08:28Z",
+  "updatedAt": "2026-07-19T03:58:10Z",
   "createdAt": "2026-01-07T19:35:54Z",
   "sourceTopics": [
     "skills"
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向设计工程师的 UI 设计与实现 Skills 集合",
+    "summary": "ui-skills：面向设计工程师的 UI 设计与实现 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "414139053db19d30",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "abc12ebd887905dd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ui-skills：面向设计工程师的 UI 设计与实现 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "ui-skills：ui-skills：面向设计工程师的 UI 设计与实现 Skills 集合。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "ui-skills 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

@@ -1,5 +1,5 @@
 {
-  "rank": 91,
+  "rank": 92,
   "id": 1054793726,
   "name": "chrome-devtools-mcp",
   "fullName": "ChromeDevTools/chrome-devtools-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
   "description": "Chrome DevTools for coding agents",
-  "summary": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "chrome-devtools-mcp：chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "Google handles this data in accordance with the [Google Privacy Policy](https://policies.google.com/privacy).\nGoogle's collection of usage statistics for Chrome DevTools MCP is independent from the Chrome browser's usage statistics. Opting out of Chrome metrics does not automatically opt you out of this tool, and vice-versa.\nCollection is disabled if `CHROME",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 47106,
-  "forks": 3136,
-  "openIssues": 107,
+  "stars": 47156,
+  "forks": 3144,
+  "openIssues": 108,
   "score": 142.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T09:11:43Z",
-  "updatedAt": "2026-07-18T03:23:20Z",
+  "pushedAt": "2026-07-19T00:04:39Z",
+  "updatedAt": "2026-07-19T03:47:17Z",
   "createdAt": "2025-09-11T10:39:55Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Chrome DevTools 开发代理",
+    "summary": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "2bbfe5dfdd715935",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "6feb4d863fa43671",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "chrome-devtools-mcp：chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "chrome-devtools-mcp 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

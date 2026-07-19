@@ -1,5 +1,5 @@
 {
-  "rank": 305,
+  "rank": 291,
   "id": 1222917575,
   "name": "hallmark",
   "fullName": "Nutlope/hallmark",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Nutlope/hallmark",
   "homepage": "https://www.usehallmark.com/",
   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-  "summary": "hallmark：为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "hallmark：hallmark：为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,17 +22,18 @@
   "installCommand": "npx skills add nutlope/hallmark",
   "language": "CSS",
   "license": "MIT",
-  "stars": 12145,
-  "forks": 608,
+  "stars": 12902,
+  "forks": 645,
   "openIssues": 20,
-  "score": 129,
+  "score": 129.7,
   "activity": "本月活跃",
   "pushedAt": "2026-06-26T10:08:58Z",
-  "updatedAt": "2026-07-18T03:37:29Z",
+  "updatedAt": "2026-07-19T03:54:31Z",
   "createdAt": "2026-04-27T20:47:10Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
@@ -51,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能",
+    "summary": "hallmark：为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -70,13 +71,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4d179a63563ae332",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "eca6bee3a9dbb2aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hallmark：为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "hallmark：hallmark：为 Claude Code、Cursor 和 Codex 设计的反 AI 垃圾内容设计技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "hallmark 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

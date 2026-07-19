@@ -1,5 +1,5 @@
 {
-  "rank": 1419,
+  "rank": 1422,
   "id": 14259857,
   "name": "SecurityShepherd",
   "fullName": "OWASP/SecurityShepherd",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OWASP/SecurityShepherd",
   "homepage": "https://owasp.org/www-project-security-shepherd/",
   "description": "Web and mobile application security training platform",
-  "summary": "SecurityShepherd：Web 及移动应用程序安全培训平台。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "SecurityShepherd：SecurityShepherd：Web 及移动应用程序安全培训平台。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/OWASP/SecurityShepherd.git",
   "language": "Java",
   "license": "GPL-3.0",
-  "stars": 1451,
+  "stars": 1452,
   "forks": 506,
   "openIssues": 149,
   "score": 99,
   "activity": "本月活跃",
   "pushedAt": "2026-07-08T00:53:42Z",
-  "updatedAt": "2026-07-18T00:57:08Z",
+  "updatedAt": "2026-07-18T12:46:30Z",
   "createdAt": "2013-11-09T15:57:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Web 及移动应用程序安全培训平台",
+    "summary": "SecurityShepherd：Web 及移动应用程序安全培训平台。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -68,13 +68,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "de1c3113cd1f0666",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "3ff4c5910bfe8540",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SecurityShepherd：Web 及移动应用程序安全培训平台。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "SecurityShepherd：SecurityShepherd：Web 及移动应用程序安全培训平台。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "SecurityShepherd 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

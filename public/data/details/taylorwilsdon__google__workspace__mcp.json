@@ -1,5 +1,5 @@
 {
-  "rank": 807,
+  "rank": 803,
   "id": 973788136,
   "name": "google_workspace_mcp",
   "fullName": "taylorwilsdon/google_workspace_mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
   "homepage": "https://workspacemcp.com",
   "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
-  "summary": "google_workspace_mcp：使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "google_workspace_mcp：google_workspace_mcp：使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "uv sync --extra gcs\npip install \"workspace-mcp[gcs]\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 2867,
+  "stars": 2870,
   "forks": 880,
-  "openIssues": 156,
+  "openIssues": 159,
   "score": 113,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T20:16:51Z",
-  "updatedAt": "2026-07-17T20:50:00Z",
+  "pushedAt": "2026-07-18T12:45:49Z",
+  "updatedAt": "2026-07-18T22:57:44Z",
   "createdAt": "2025-04-27T18:31:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具",
+    "summary": "google_workspace_mcp：使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -90,13 +90,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c4a15eac59143a9e",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "9397e1316689fd40",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "google_workspace_mcp：使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "google_workspace_mcp：google_workspace_mcp：使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单和任务，并搜索及访问 Google 存储——全面的 Google Workspace/G 套件 MCP 服务器及命令行工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "google_workspace_mcp 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

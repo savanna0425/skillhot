@@ -1,5 +1,5 @@
 {
-  "rank": 661,
+  "rank": 660,
   "id": 1246399437,
   "name": "PilotDeck",
   "fullName": "OpenBMB/PilotDeck",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenBMB/PilotDeck",
   "homepage": "https://pilotdeck.openbmb.cn",
   "description": "Task-oriented AI Agent productivity platform",
-  "summary": "PilotDeck：面向任务的人工智能代理生产力平台。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "PilotDeck：PilotDeck：面向任务的人工智能代理生产力平台。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "**`npm.ps1` cannot be loaded because running scripts is disabled**\nThis can still happen when you run development commands such as `npm run dev` directly in Windows PowerShell for the first time. PowerShell may resolve `npm` to `npm.ps1`, and the default execution policy can block that shim.\nFix it once for the current user, then reopen PowerShell:",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 3834,
-  "forks": 401,
-  "openIssues": 115,
-  "score": 116,
+  "stars": 3844,
+  "forks": 406,
+  "openIssues": 117,
+  "score": 116.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T07:32:12Z",
-  "updatedAt": "2026-07-17T21:15:03Z",
+  "pushedAt": "2026-07-18T09:29:32Z",
+  "updatedAt": "2026-07-18T21:44:30Z",
   "createdAt": "2026-05-22T06:50:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向任务的人工智能代理生产力平台",
+    "summary": "PilotDeck：面向任务的人工智能代理生产力平台。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -69,13 +69,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9564e0ddff4c9005",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "802b9be075eef1d3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PilotDeck：面向任务的人工智能代理生产力平台。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "PilotDeck：PilotDeck：面向任务的人工智能代理生产力平台。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "PilotDeck 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

@@ -1,5 +1,5 @@
 {
-  "rank": 669,
+  "rank": 670,
   "id": 749137,
   "name": "atmosphere",
   "fullName": "Atmosphere/atmosphere",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Atmosphere/atmosphere",
   "homepage": "https://async-io.live",
   "description": "Real-time transport layer for Java AI agents. Build once with @Agent — deliver over WebSocket, SSE, gRPC, and WebTransport/HTTP3. Talk MCP, A2A and AG-UI. ",
-  "summary": "atmosphere：Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "atmosphere：atmosphere：Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "brew install Atmosphere/tap/atmosphere\ncurl -fsSL https://raw.githubusercontent.com/Atmosphere/atmosphere/main/cli/install.sh | sh\natmosphere run spring-boot-multi-agent-startup-team",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 3784,
+  "stars": 3786,
   "forks": 759,
   "openIssues": 9,
   "score": 115.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T22:58:19Z",
-  "updatedAt": "2026-07-17T22:53:36Z",
+  "updatedAt": "2026-07-18T16:24:43Z",
   "createdAt": "2010-06-30T14:26:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI",
+    "summary": "atmosphere：Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -83,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "386bacfd663a713c",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "e2f6845743dd0d72",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "atmosphere：Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "atmosphere：atmosphere：Java AI 代理的实时传输层。使用@Agent 构建一次，通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 交付。支持 MCP、A2A 和 AG-UI。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "atmosphere 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

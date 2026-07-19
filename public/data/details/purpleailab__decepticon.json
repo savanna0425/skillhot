@@ -1,5 +1,5 @@
 {
-  "rank": 571,
+  "rank": 568,
   "id": 997390194,
   "name": "Decepticon",
   "fullName": "PurpleAILAB/Decepticon",
@@ -8,7 +8,7 @@
   "url": "https://github.com/PurpleAILAB/Decepticon",
   "homepage": "https://decepticon.red",
   "description": "Autonomous Hacking Agent for Red Team",
-  "summary": "Decepticon：面向红队安全测试的自主攻击 Agent。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "Decepticon：Decepticon：面向红队安全测试的自主攻击 Agent。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/PurpleAILAB/Decepticon.git\ncd Decepticon\nmake dogfood  # Full OSS UX (launcher → onboard → CLI) on local code",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4801,
-  "forks": 937,
+  "stars": 4827,
+  "forks": 939,
   "openIssues": 5,
   "score": 118.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-13T23:43:57Z",
-  "updatedAt": "2026-07-18T03:25:45Z",
+  "updatedAt": "2026-07-19T02:52:53Z",
   "createdAt": "2025-06-06T12:55:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "面向红队安全测试的自主攻击 Agent",
+    "summary": "Decepticon：面向红队安全测试的自主攻击 Agent。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "cf18692e1eac9a40",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "3afb770f81d1e9b0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Decepticon：面向红队安全测试的自主攻击 Agent。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "Decepticon：Decepticon：面向红队安全测试的自主攻击 Agent。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "Decepticon 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

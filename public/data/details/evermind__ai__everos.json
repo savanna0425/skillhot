@@ -8,7 +8,7 @@
   "url": "https://github.com/EverMind-AI/EverOS",
   "homepage": "https://evermind.ai/everos",
   "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
-  "summary": "EverOS：EverOS 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "EverOS：EverOS：EverOS 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "uv pip install everos",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 11212,
-  "forks": 859,
+  "stars": 11276,
+  "forks": 860,
   "openIssues": 56,
-  "score": 131.2,
+  "score": 131.3,
   "activity": "本周活跃",
   "pushedAt": "2026-07-14T23:02:17Z",
-  "updatedAt": "2026-07-18T03:05:11Z",
+  "updatedAt": "2026-07-19T03:48:33Z",
   "createdAt": "2025-10-28T15:09:32Z",
   "sourceTopics": [
     "skills"
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "EverOS 提供记忆、上下文管理或知识检索能力。",
+    "summary": "EverOS：EverOS 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -88,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "48c0310cdb92d3d2",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "bf757831ee891018",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "EverOS：EverOS 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "EverOS：EverOS：EverOS 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "EverOS 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

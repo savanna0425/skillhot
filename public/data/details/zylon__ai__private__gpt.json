@@ -1,5 +1,5 @@
 {
-  "rank": 31,
+  "rank": 32,
   "id": 635240594,
   "name": "private-gpt",
   "fullName": "zylon-ai/private-gpt",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zylon-ai/private-gpt",
   "homepage": "https://www.zylon.ai/private-gpt",
   "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
-  "summary": "private-gpt：private-gpt 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。",
+  "summary": "private-gpt：private-gpt：private-gpt 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nuv tool install --python 3.11 \\",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 57339,
-  "forks": 7598,
+  "stars": 57340,
+  "forks": 7599,
   "openIssues": 5,
   "score": 152.2,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T18:43:43Z",
-  "updatedAt": "2026-07-17T22:06:54Z",
+  "updatedAt": "2026-07-18T21:08:41Z",
   "createdAt": "2023-05-02T09:15:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "private-gpt 提供记忆、上下文管理或知识检索能力。",
+    "summary": "private-gpt：private-gpt 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -75,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5cb5c46e474f53d8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "f5052e5d10bca96e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "private-gpt：private-gpt 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "private-gpt：private-gpt：private-gpt 提供记忆、上下文管理或知识检索能力。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。适合在 Claude、OpenClaw、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "private-gpt 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

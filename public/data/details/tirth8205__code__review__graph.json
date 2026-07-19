@@ -1,5 +1,5 @@
 {
-  "rank": 224,
+  "rank": 217,
   "id": 1167788341,
   "name": "code-review-graph",
   "fullName": "tirth8205/code-review-graph",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tirth8205/code-review-graph",
   "homepage": "https://code-review-graph.com",
   "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-  "summary": "code-review-graph：基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "code-review-graph：code-review-graph：基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install code-review-graph                     # or: pipx install code-review-graph\ncode-review-graph install          # auto-detects and configures all supported platforms\ncode-review-graph build            # parse your codebase",
   "language": "Python",
   "license": "MIT",
-  "stars": 19798,
-  "forks": 2111,
-  "openIssues": 76,
-  "score": 133.1,
+  "stars": 20245,
+  "forks": 2129,
+  "openIssues": 79,
+  "score": 133.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-18T00:32:48Z",
-  "updatedAt": "2026-07-18T03:36:27Z",
+  "updatedAt": "2026-07-19T03:59:07Z",
   "createdAt": "2026-02-26T17:25:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减",
+    "summary": "code-review-graph：基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "9fcd6f395b3d65d8",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "1f5c937eada35a9b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "code-review-graph：基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "code-review-graph：code-review-graph：基于本地优先的 MCP 和 CLI 代码智能图。构建持久化的代码库映射，使 AI 编程工具仅读取关键内容，并在审查和大型仓库工作流中提供经过验证的上下文缩减。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "code-review-graph 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

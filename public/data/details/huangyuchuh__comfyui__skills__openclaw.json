@@ -1,5 +1,5 @@
 {
-  "rank": 1700,
+  "rank": 1703,
   "id": 1174614095,
   "name": "ComfyUI_Skills_OpenClaw",
   "fullName": "HuangYuChuh/ComfyUI_Skills_OpenClaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw",
   "homepage": "https://huangyuchuh.github.io/ComfyUI_Skills_OpenClaw/",
   "description": "Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent, Codex, and Claude Code. Turn any ComfyUI workflow into a callable AI agent skill via CLI.",
-  "summary": "ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 345,
+  "stars": 346,
   "forks": 35,
   "openIssues": 0,
   "score": 88.2,
   "activity": "近期活跃",
   "pushedAt": "2026-04-21T05:23:12Z",
-  "updatedAt": "2026-07-13T05:17:57Z",
+  "updatedAt": "2026-07-19T01:03:33Z",
   "createdAt": "2026-03-06T16:37:05Z",
   "sourceTopics": [
     "skill"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "464d79b1bd1815c0",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "eb4bd5e0a2c240a1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw：ComfyUI_Skills_OpenClaw 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ComfyUI_Skills_OpenClaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

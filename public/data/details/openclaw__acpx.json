@@ -1,5 +1,5 @@
 {
-  "rank": 789,
+  "rank": 787,
   "id": 1160289278,
   "name": "acpx",
   "fullName": "openclaw/acpx",
@@ -8,7 +8,7 @@
   "url": "https://github.com/openclaw/acpx",
   "homepage": "https://acpx.sh",
   "description": "Headless CLI client for stateful Agent Client Protocol (ACP) sessions",
-  "summary": "acpx：状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "acpx：acpx：状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "$ acpx codex sessions new\n$ acpx codex \"find the flaky test and fix it\"\n[thinking] Investigating test suite for flaky failures",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 2980,
-  "forks": 297,
-  "openIssues": 14,
-  "score": 113.4,
+  "stars": 2999,
+  "forks": 299,
+  "openIssues": 17,
+  "score": 113.5,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T13:25:17Z",
-  "updatedAt": "2026-07-17T15:56:42Z",
+  "updatedAt": "2026-07-19T01:58:22Z",
   "createdAt": "2026-02-17T19:06:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端",
+    "summary": "acpx：状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -72,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "65bf3d038d7a5eaa",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "c75a503a5ab6a25b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "acpx：状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "acpx：acpx：状态式 Agent 客户端协议 (ACP) 会话的无头 CLI 客户端。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "acpx 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

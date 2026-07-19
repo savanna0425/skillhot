@@ -1,14 +1,14 @@
 {
-  "rank": 1161,
-  "id": 1251086916,
-  "name": "harness-anything",
-  "fullName": "yb2460/harness-anything",
-  "owner": "yb2460",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/282223297?v=4",
-  "url": "https://github.com/yb2460/harness-anything",
+  "rank": 654,
+  "id": 1053118194,
+  "name": "ai-agent-book",
+  "fullName": "bojieli/ai-agent-book",
+  "owner": "bojieli",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1421793?v=4",
+  "url": "https://github.com/bojieli/ai-agent-book",
   "homepage": "",
-  "description": "Harness Anything - AI agent control hub: WPS, MS Office, Zotero, Photoshop, 47 CLI commands, 27 academic skills, SVG-to-PPTX",
-  "summary": "harness-anything：任何万物 - AI 代理控制中枢：WPS、MS Office、Zotero、Photoshop，47 个 CLI 命令，27 项学术技能，SVG 转 PPTX。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+  "summary": "ai-agent-book：ai-agent-book：《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,47 +19,51 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/yb2460/harness-anything.git",
+  "installCommand": "git clone https://github.com/bojieli/ai-agent-book.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 995,
-  "forks": 55,
-  "openIssues": 4,
-  "score": 103.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-06T14:45:26Z",
-  "updatedAt": "2026-07-18T00:57:02Z",
-  "createdAt": "2026-05-27T08:25:28Z",
+  "license": "Apache-2.0",
+  "stars": 3910,
+  "forks": 392,
+  "openIssues": 0,
+  "score": 116.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-18T10:09:56Z",
+  "updatedAt": "2026-07-19T03:58:44Z",
+  "createdAt": "2025-09-09T02:41:44Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent",
+    "agent-memory",
     "ai-agent",
-    "automation",
-    "cli",
-    "cli-anything",
-    "com",
-    "office",
-    "python",
-    "windows",
-    "wps"
+    "book",
+    "coding-agent",
+    "context-engineering",
+    "large-language-models",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "multimodal",
+    "rag",
+    "reinforcement-learning"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/yb2460/harness-anything",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bojieli/ai-agent-book",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/yb2460/harness-anything#readme",
-  "detailPath": "data/details/yb2460__harness__anything.json",
+  "readmeUrl": "https://github.com/bojieli/ai-agent-book#readme",
+  "detailPath": "data/details/bojieli__ai__agent__book.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "任何万物 - AI 代理控制中枢：WPS、MS Office、Zotero、Photoshop，47 个 CLI 命令，27 项学术技能，SVG 转 PPTX",
+    "summary": "ai-agent-book：《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -75,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "c1564e85badf5d72",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "1060f654239257fc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "harness-anything：任何万物 - AI 代理控制中枢：WPS、MS Office、Zotero、Photoshop，47 个 CLI 命令，27 项学术技能，SVG 转 PPTX。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "harness-anything 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-agent-book：ai-agent-book：《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "ai-agent-book 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -102,7 +106,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -125,7 +129,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

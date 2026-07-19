@@ -1,5 +1,5 @@
 {
-  "rank": 837,
+  "rank": 835,
   "id": 1176559390,
   "name": "kicad-happy",
   "fullName": "aklofas/kicad-happy",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aklofas/kicad-happy",
   "homepage": "https://github.com/aklofas/kicad-happy",
   "description": "AI coding agent skills for KiCad electronics design. Works with Claude Code and OpenAI Codex. Analyze schematics, review PCB layouts, EMC pre-compliance, SPICE simulation, download datasheets, source components, and prep boards for fabrication.",
-  "summary": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "kicad-happy：kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aklofas/kicad-happy.git\ngemini skills link ./kicad-happy/skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 751,
-  "forks": 59,
-  "openIssues": 1,
+  "stars": 754,
+  "forks": 58,
+  "openIssues": 2,
   "score": 111.2,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T06:48:54Z",
-  "updatedAt": "2026-07-17T22:11:56Z",
+  "updatedAt": "2026-07-19T01:07:36Z",
   "createdAt": "2026-03-09T06:19:59Z",
   "sourceTopics": [
     "ai-skills"
@@ -76,7 +76,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造",
+    "summary": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -95,13 +95,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "4c8e785669e49c42",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "fb3c099657f56f0c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "kicad-happy：kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "kicad-happy 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

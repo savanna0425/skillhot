@@ -1,5 +1,5 @@
 {
-  "rank": 1098,
+  "rank": 1095,
   "id": 1171850560,
   "name": "mermaid-skill",
   "fullName": "Agents365-ai/mermaid-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Agents365-ai/mermaid-skill",
   "homepage": "https://agents365-ai.github.io/mermaid-skill/",
   "description": "Mermaid diagrams (.mmd) from natural language with validation loop. 11+ types, multi-backend (mmdc / Kroki), PNG/SVG/PDF, multi-agent.",
-  "summary": "mermaid-skill：基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "mermaid-skill：mermaid-skill：基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Agents365-ai/mermaid-skill.git",
   "language": "Mermaid",
   "license": "MIT",
-  "stars": 134,
+  "stars": 136,
   "forks": 10,
   "openIssues": 0,
-  "score": 105.8,
+  "score": 105.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-16T10:56:52Z",
-  "updatedAt": "2026-07-17T08:25:44Z",
+  "updatedAt": "2026-07-19T00:39:12Z",
   "createdAt": "2026-03-03T17:16:23Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理",
+    "summary": "mermaid-skill：基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -90,13 +90,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "e12ce8273c69aa12",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "bf570dbf257fcd7a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mermaid-skill：基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "mermaid-skill：mermaid-skill：基于自然语言生成 Mermaid 图表（.mmd 格式），包含 11 种类型，支持多后端（mmdc / Kroki），支持 PNG/SVG/PDF 输出，支持多代理。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "mermaid-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

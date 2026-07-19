@@ -1,5 +1,5 @@
 {
-  "rank": 195,
+  "rank": 192,
   "id": 1102903896,
   "name": "skills",
   "fullName": "huggingface/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/huggingface/skills",
   "homepage": "https://huggingface.co",
   "description": "Give your agents the power of the Hugging Face ecosystem",
-  "summary": "skills：赋予您的代理 Hugging Face 生态系统的力量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills：skills：赋予您的代理 Hugging Face 生态系统的力量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "hf skills add <skill-name>",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 10834,
+  "stars": 10840,
   "forks": 721,
   "openIssues": 32,
-  "score": 134.8,
+  "score": 134.9,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T09:52:13Z",
-  "updatedAt": "2026-07-18T02:40:26Z",
+  "updatedAt": "2026-07-19T02:32:47Z",
   "createdAt": "2025-11-24T07:31:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "赋予您的代理 Hugging Face 生态系统的力量",
+    "summary": "skills：赋予您的代理 Hugging Face 生态系统的力量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -71,13 +71,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "f8e8181225dc7ea3",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "b425638f9eb5917a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：赋予您的代理 Hugging Face 生态系统的力量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills：skills：赋予您的代理 Hugging Face 生态系统的力量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

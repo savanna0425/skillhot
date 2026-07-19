@@ -8,7 +8,7 @@
   "url": "https://github.com/vercel-labs/agent-browser",
   "homepage": "https://agent-browser.dev",
   "description": "Browser automation CLI for AI agents",
-  "summary": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "agent-browser：agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 38667,
-  "forks": 2517,
-  "openIssues": 592,
+  "stars": 38719,
+  "forks": 2519,
+  "openIssues": 588,
   "score": 140.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T22:06:58Z",
-  "updatedAt": "2026-07-18T03:32:15Z",
+  "updatedAt": "2026-07-19T03:32:22Z",
   "createdAt": "2026-01-11T05:38:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "浏览器自动化命令行工具，用于 AI 代理",
+    "summary": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -69,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "b70e756496ec61be",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "8616276d4b5d9c22",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "agent-browser：agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "agent-browser 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

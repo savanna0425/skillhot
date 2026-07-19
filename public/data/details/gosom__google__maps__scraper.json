@@ -1,5 +1,5 @@
 {
-  "rank": 266,
+  "rank": 265,
   "id": 631285104,
   "name": "google-maps-scraper",
   "fullName": "gosom/google-maps-scraper",
@@ -8,7 +8,7 @@
   "url": "https://github.com/gosom/google-maps-scraper",
   "homepage": "",
   "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
-  "summary": "google-maps-scraper：从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "google-maps-scraper：google-maps-scraper：从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add gosom/google-maps-scraper",
   "language": "Go",
   "license": "MIT",
-  "stars": 5091,
-  "forks": 805,
-  "openIssues": 66,
-  "score": 131,
+  "stars": 5141,
+  "forks": 810,
+  "openIssues": 67,
+  "score": 131.1,
   "activity": "本周活跃",
   "pushedAt": "2026-07-13T10:44:08Z",
-  "updatedAt": "2026-07-18T02:55:48Z",
+  "updatedAt": "2026-07-19T03:08:20Z",
   "createdAt": "2023-04-22T14:35:13Z",
   "sourceTopics": [
     "agent-skills",
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息",
+    "summary": "google-maps-scraper：从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "018cc36ad8f58fbc",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "287d4105fc39fd7a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "google-maps-scraper：从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "google-maps-scraper：google-maps-scraper：从 Google Maps 抓取数据，提取每个地点的名称、地址、电话号码、网站 URL、评分、评论数量、经纬度、评论数、邮箱等信息。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "google-maps-scraper 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

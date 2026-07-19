@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 850,
   "id": 1079345325,
   "name": "OpenMemory",
   "fullName": "CaviraOSS/OpenMemory",
@@ -8,7 +8,7 @@
   "url": "https://github.com/CaviraOSS/OpenMemory",
   "homepage": "https://openmemory.cavira.app",
   "description": "Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.",
-  "summary": "OpenMemory：支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "OpenMemory：OpenMemory：支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/CaviraOSS/OpenMemory.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 4347,
-  "forks": 491,
+  "stars": 4350,
+  "forks": 492,
   "openIssues": 13,
   "score": 110.3,
   "activity": "本月活跃",
   "pushedAt": "2026-06-27T05:17:02Z",
-  "updatedAt": "2026-07-17T23:44:17Z",
+  "updatedAt": "2026-07-18T23:49:46Z",
   "createdAt": "2025-10-19T16:12:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等",
+    "summary": "OpenMemory：支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -93,13 +93,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "207c16b4da8281bd",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "27a0a551cb0f7f9c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenMemory：支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "OpenMemory：OpenMemory：支持本地持久化存储的 LLM 应用，包括 Claude 桌面版、GitHub Copilot、Codex 及 Antigravity 等。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "OpenMemory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

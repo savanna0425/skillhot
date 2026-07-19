@@ -1,5 +1,5 @@
 {
-  "rank": 473,
+  "rank": 469,
   "id": 1149071982,
   "name": "ClawRouter",
   "fullName": "BlockRunAI/ClawRouter",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/250889376?v=4",
   "url": "https://github.com/BlockRunAI/ClawRouter",
   "homepage": "",
-  "description": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.",
-  "summary": "ClawRouter：OpenClaw 的代理原生 LLM 路由。41+ 模型，<1ms 路由，在 Base 和 Solana 上通过 x402 支付 USDC。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "The agent-native LLM router for autonomous agents. 55+ models (8 free), <1ms local routing, USDC payments on Base & Solana via x402.",
+  "summary": "ClawRouter：ClawRouter：ClawRouter 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -23,12 +23,12 @@
   "language": "TypeScript",
   "license": "MIT",
   "stars": 6659,
-  "forks": 628,
-  "openIssues": 23,
+  "forks": 629,
+  "openIssues": 24,
   "score": 121.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T15:27:05Z",
-  "updatedAt": "2026-07-17T18:58:17Z",
+  "pushedAt": "2026-07-19T01:39:37Z",
+  "updatedAt": "2026-07-18T19:20:29Z",
   "createdAt": "2026-02-03T17:32:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenClaw 的代理原生 LLM 路由。41+ 模型，<1ms 路由，在 Base 和 Solana 上通过 x402 支付 USDC",
+    "summary": "ClawRouter：ClawRouter 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "5ad34f61914e5f71",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "e0a28089c6d94c21",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ClawRouter：OpenClaw 的代理原生 LLM 路由。41+ 模型，<1ms 路由，在 Base 和 Solana 上通过 x402 支付 USDC。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ClawRouter：ClawRouter：ClawRouter 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ClawRouter 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

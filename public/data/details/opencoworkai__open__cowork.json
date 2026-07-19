@@ -1,5 +1,5 @@
 {
-  "rank": 651,
+  "rank": 645,
   "id": 1133660268,
   "name": "open-cowork",
   "fullName": "OpenCoworkAI/open-cowork",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenCoworkAI/open-cowork",
   "homepage": "https://github.com/OpenCoworkAI/open-cowork",
   "description": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration.",
-  "summary": "open-cowork：Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "open-cowork：open-cowork：Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "brew tap OpenCoworkAI/tap\nbrew install --cask --no-quarantine open-cowork",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1862,
+  "stars": 1865,
   "forks": 252,
   "openIssues": 78,
-  "score": 116.5,
+  "score": 116.6,
   "activity": "本周活跃",
   "pushedAt": "2026-07-14T12:45:20Z",
-  "updatedAt": "2026-07-17T20:23:20Z",
+  "updatedAt": "2026-07-18T20:52:56Z",
   "createdAt": "2026-01-13T16:43:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成",
+    "summary": "open-cowork：Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "11fd391b256cdae0",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "d4c991c458beb8b7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-cowork：Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "open-cowork：open-cowork：Windows 及 macOS 桌面端开源 AI 代理应用。一键安装 Claude Code、MCP 工具与技能——具备沙盒隔离、多模型支持及飞书/Slack 集成。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "open-cowork 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

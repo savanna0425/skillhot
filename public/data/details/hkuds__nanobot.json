@@ -1,5 +1,5 @@
 {
-  "rank": 95,
+  "rank": 97,
   "id": 1147094660,
   "name": "nanobot",
   "fullName": "HKUDS/nanobot",
@@ -8,7 +8,7 @@
   "url": "https://github.com/HKUDS/nanobot",
   "homepage": "https://nanobot.wiki",
   "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-  "summary": "nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "nanobot：nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "The default command installs or upgrades `nanobot-ai` from PyPI, then starts `nanobot onboard --wizard`. It avoids system-wide pip installs by using an active virtual environment, `uv`, `pipx`, or a managed venv under `~/.nanobot/venv`. If Quick Start finishes, skip the manual initialize/configure steps below and go straight to **Open the WebUI**. The instal",
   "language": "Python",
   "license": "MIT",
-  "stars": 45824,
-  "forks": 8093,
-  "openIssues": 875,
+  "stars": 45867,
+  "forks": 8104,
+  "openIssues": 873,
   "score": 141.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T17:22:00Z",
-  "updatedAt": "2026-07-18T02:55:03Z",
+  "pushedAt": "2026-07-18T18:00:12Z",
+  "updatedAt": "2026-07-19T03:39:01Z",
   "createdAt": "2026-02-01T07:16:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "轻量级开源 AI 工具、聊天与工作流助手",
+    "summary": "nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "fd2ac619ef42a51e",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "c176cf88330cfd8a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "nanobot：nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "nanobot 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

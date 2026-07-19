@@ -1,5 +1,5 @@
 {
-  "rank": 234,
+  "rank": 235,
   "id": 1086419061,
   "name": "hindsight",
   "fullName": "vectorize-io/hindsight",
@@ -8,7 +8,7 @@
   "url": "https://github.com/vectorize-io/hindsight",
   "homepage": "https://hindsight.vectorize.io/",
   "description": "Hindsight: Agent Memory That  Learns",
-  "summary": "hindsight：后知：能自我学习的智能体记忆。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "hindsight：hindsight：后知：能自我学习的智能体记忆。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "> npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs\n>",
   "language": "Python",
   "license": "MIT",
-  "stars": 18523,
-  "forks": 1143,
-  "openIssues": 176,
+  "stars": 18549,
+  "forks": 1147,
+  "openIssues": 184,
   "score": 132.4,
   "activity": "本周活跃",
   "pushedAt": "2026-07-17T19:05:50Z",
-  "updatedAt": "2026-07-18T02:47:51Z",
+  "updatedAt": "2026-07-19T03:54:24Z",
   "createdAt": "2025-10-30T11:49:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "后知：能自我学习的智能体记忆",
+    "summary": "hindsight：后知：能自我学习的智能体记忆。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -75,13 +75,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-18T03:38:41.372Z",
-    "sourceHash": "f940b5a847a2a040",
+    "generatedAt": "2026-07-19T04:00:36.853Z",
+    "sourceHash": "dfc5c2133823fd1e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hindsight：后知：能自我学习的智能体记忆。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "hindsight：hindsight：后知：能自我学习的智能体记忆。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "hindsight 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
