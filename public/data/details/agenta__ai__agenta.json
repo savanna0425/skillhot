@@ -1,14 +1,14 @@
 {
-  "rank": 1533,
-  "id": 1191488795,
-  "name": "autocli-skill",
-  "fullName": "nashsu/autocli-skill",
-  "owner": "nashsu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2127280?v=4",
-  "url": "https://github.com/nashsu/autocli-skill",
-  "homepage": "",
-  "description": "The perfect companion for ClaudeCode/OpenClaw/Agent, Give your AI Agent the ability to reach information across the entire web, fetching real-time data from Bilibili, Zhihu, Twitter/X, YouTube, Weibo, Reddit, Facebook, Instagram, TikTok, Notion, Cursor and 55+ platforms with natural language — reusing your Chrome login session, no API keys needed. ",
-  "summary": "autocli-skill：autocli-skill：autocli-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 618,
+  "id": 632871628,
+  "name": "agenta",
+  "fullName": "Agenta-AI/agenta",
+  "owner": "Agenta-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/127993667?v=4",
+  "url": "https://github.com/Agenta-AI/agenta",
+  "homepage": "http://www.agenta.ai",
+  "description": "The open-source workspace for building and running AI agents. Build agents through chat, share them with your team, and run background agents on schedules or app events.",
+  "summary": "agenta：agenta：agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,39 +19,60 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nashsu/autocli-skill.git",
-  "language": "",
-  "license": "",
-  "stars": 897,
-  "forks": 89,
-  "openIssues": 7,
-  "score": 94,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-20T11:04:24Z",
-  "updatedAt": "2026-07-17T16:18:55Z",
-  "createdAt": "2026-03-25T09:46:15Z",
+  "installCommand": "git clone https://github.com/Agenta-AI/agenta.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 4312,
+  "forks": 574,
+  "openIssues": 220,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-20T01:56:22Z",
+  "updatedAt": "2026-07-20T00:28:00Z",
+  "createdAt": "2023-04-26T09:54:28Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-builder",
+    "agent-observability",
+    "agent-orchestration",
+    "agent-workspace",
+    "agentic-ai",
+    "agentic-workflow",
+    "agents",
+    "ai-agent",
+    "ai-agents",
+    "ai-automation",
+    "ai-workflow-builder",
+    "background-agents",
+    "harness",
+    "human-in-the-loop",
+    "llm-evaluation",
+    "llm-observability",
+    "mcp",
+    "open-source",
+    "self-hosted"
+  ],
   "platforms": [
     "Claude",
-    "Cursor",
-    "OpenClaw"
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/nashsu/autocli-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Agenta-AI/agenta",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/nashsu/autocli-skill#readme",
-  "detailPath": "data/details/nashsu__autocli__skill.json",
+  "readmeUrl": "https://github.com/Agenta-AI/agenta#readme",
+  "detailPath": "data/details/agenta__ai__agenta.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "autocli-skill：autocli-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "agenta：agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -67,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-19T04:00:36.853Z",
-    "sourceHash": "fd62e7b8b632c77f",
+    "generatedAt": "2026-07-20T04:09:34.977Z",
+    "sourceHash": "8ab99ad3aa0b0420",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "autocli-skill：autocli-skill：autocli-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "autocli-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agenta：agenta：agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "agenta 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -94,7 +115,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -117,7 +138,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

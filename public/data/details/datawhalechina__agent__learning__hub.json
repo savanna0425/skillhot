@@ -1,5 +1,5 @@
 {
-  "rank": 1124,
+  "rank": 526,
   "id": 1241257629,
   "name": "Agent-Learning-Hub",
   "fullName": "datawhalechina/Agent-Learning-Hub",
@@ -8,7 +8,7 @@
   "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
   "homepage": "https://datawhalechina.github.io/Agent-Learning-Hub/",
   "description": "AI Agent 学习路线与资料库收集",
-  "summary": "Agent-Learning-Hub：Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "Agent-Learning-Hub：Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/datawhalechina/Agent-Learning-Hub.git",
   "language": "HTML",
   "license": "MIT",
-  "stars": 5514,
-  "forks": 604,
-  "openIssues": 5,
-  "score": 104.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-05T08:28:50Z",
-  "updatedAt": "2026-07-19T03:30:03Z",
+  "stars": 5555,
+  "forks": 609,
+  "openIssues": 3,
+  "score": 119.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-19T12:59:49Z",
+  "updatedAt": "2026-07-20T03:55:31Z",
   "createdAt": "2026-05-17T06:41:12Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,10 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -50,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -69,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-19T04:00:36.853Z",
-    "sourceHash": "e5b237f929c44ab6",
+    "generatedAt": "2026-07-20T04:09:34.977Z",
+    "sourceHash": "44a193e55f083bdc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Agent-Learning-Hub：Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Agent-Learning-Hub：Agent-Learning-Hub：AI Agent 学习路线与资料库收集。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "Agent-Learning-Hub 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -93,7 +96,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

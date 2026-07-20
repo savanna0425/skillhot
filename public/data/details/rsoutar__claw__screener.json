@@ -1,56 +1,60 @@
 {
-  "rank": 851,
-  "id": 1173845549,
-  "name": "SwiftUI-Agent-Skill",
-  "fullName": "twostraws/SwiftUI-Agent-Skill",
-  "owner": "twostraws",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/190200?v=4",
-  "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+  "rank": 2160,
+  "id": 1158524594,
+  "name": "claw-screener",
+  "fullName": "rsoutar/claw-screener",
+  "owner": "rsoutar",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/13177655?v=4",
+  "url": "https://github.com/rsoutar/claw-screener",
   "homepage": "",
-  "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-  "summary": "SwiftUI-Agent-Skill：SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Stock screener using technical and fundamental analysis. Finding oversold stocks, screening for quality investments, Warren Buffett-style analysis, or analyzing individual stocks. Supports US (S&P 500) and Thai (SET) markets.",
+  "summary": "claw-screener：claw-screener：claw-screener 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/twostraws/SwiftUI-Agent-Skill.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/rsoutar/claw-screener.git",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 4330,
-  "forks": 155,
-  "openIssues": 11,
-  "score": 110.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-20T08:02:42Z",
-  "updatedAt": "2026-07-19T03:12:28Z",
-  "createdAt": "2026-03-05T20:13:14Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "stars": 10,
+  "forks": 8,
+  "openIssues": 6,
+  "score": 65.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-20T02:58:11Z",
+  "updatedAt": "2026-07-08T01:34:14Z",
+  "createdAt": "2026-02-15T14:18:37Z",
+  "sourceTopics": [
+    "hermes-skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "hermes-skill",
+    "openclaw-skills"
+  ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/twostraws/SwiftUI-Agent-Skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rsoutar/claw-screener",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/twostraws/SwiftUI-Agent-Skill#readme",
-  "detailPath": "data/details/twostraws__swiftui__agent__skill.json",
+  "readmeUrl": "https://github.com/rsoutar/claw-screener#readme",
+  "detailPath": "data/details/rsoutar__claw__screener.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "claw-screener：claw-screener 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,14 +73,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-19T04:00:36.853Z",
-    "sourceHash": "6d3a6079366ee4c9",
+    "generatedAt": "2026-07-20T04:09:34.977Z",
+    "sourceHash": "3ac949aeb652e9ab",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SwiftUI-Agent-Skill：SwiftUI-Agent-Skill：为 Claude Code、Codex 及其他 AI 工具打造的 SwiftUI 智能体技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "SwiftUI-Agent-Skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "claw-screener：claw-screener：claw-screener 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "claw-screener 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -93,7 +97,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

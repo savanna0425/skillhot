@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jarrodwatts/claude-hud\ncd claude-hud\nnpm ci && npm run build",
+  "installCommand": "claude plugin marketplace add jarrodwatts/claude-hud\nclaude plugin install claude-hud@claude-hud",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 26573,
-  "forks": 1227,
-  "openIssues": 5,
+  "stars": 26595,
+  "forks": 1233,
+  "openIssues": 8,
   "score": 136.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T21:32:38Z",
-  "updatedAt": "2026-07-19T03:39:02Z",
+  "pushedAt": "2026-07-20T01:51:24Z",
+  "updatedAt": "2026-07-20T03:40:27Z",
   "createdAt": "2026-01-02T01:35:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -76,8 +76,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-19T04:00:36.853Z",
-    "sourceHash": "f7f2bc55e72bf3e0",
+    "generatedAt": "2026-07-20T04:09:34.977Z",
+    "sourceHash": "500ca35587f04cd1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

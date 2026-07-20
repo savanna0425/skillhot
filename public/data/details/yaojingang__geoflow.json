@@ -8,7 +8,7 @@
   "url": "https://github.com/yaojingang/GEOFlow",
   "homepage": "",
   "description": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
-  "summary": "GEOFlow：GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "GEOFlow：GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,16 +22,17 @@
   "installCommand": "git clone https://github.com/yaojingang/GEOFlow.git\ncd GEOFlow\ncp .env.example .env",
   "language": "PHP",
   "license": "Apache-2.0",
-  "stars": 2968,
-  "forks": 682,
-  "openIssues": 0,
+  "stars": 2972,
+  "forks": 685,
+  "openIssues": 1,
   "score": 113.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T05:52:48Z",
-  "updatedAt": "2026-07-19T03:14:35Z",
+  "pushedAt": "2026-07-19T13:58:34Z",
+  "updatedAt": "2026-07-20T02:25:16Z",
   "createdAt": "2026-04-13T11:42:03Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -45,6 +46,7 @@
     "seo"
   ],
   "platforms": [
+    "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -58,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -77,13 +79,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-19T04:00:36.853Z",
-    "sourceHash": "a73a0578527bd800",
+    "generatedAt": "2026-07-20T04:09:34.977Z",
+    "sourceHash": "a8ac3a6d1c5aa668",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GEOFlow：GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "GEOFlow：GEOFlow：GEOFlow：SQL、数据处理、统计、可视化与商业分析。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "GEOFlow 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -101,7 +103,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
