@@ -1,46 +1,45 @@
 {
-  "rank": 1214,
-  "id": 1280990105,
-  "name": "sim-use",
-  "fullName": "lycorp-jp/sim-use",
-  "owner": "lycorp-jp",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/132046583?v=4",
-  "url": "https://github.com/lycorp-jp/sim-use",
-  "homepage": "",
-  "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
-  "summary": "sim-use：sim-use：sim-use 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1103,
+  "id": 1170649120,
+  "name": "nullhub",
+  "fullName": "nullclaw/nullhub",
+  "owner": "nullclaw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/262007611?v=4",
+  "url": "https://github.com/nullclaw/nullhub",
+  "homepage": "https://nullhub.io",
+  "description": "Management console for the Null ecosystem — install, configure, and monitor AI agents, orchestration workflows, task pipelines, and system health",
+  "summary": "nullhub：nullhub：nullhub 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
   "scenarios": [
     "重复任务",
     "浏览器操作",
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/lycorp-jp/sim-use.git",
-  "language": "Swift",
-  "license": "Apache-2.0",
-  "stars": 963,
-  "forks": 59,
-  "openIssues": 3,
-  "score": 101.7,
+  "installCommand": "git clone https://github.com/nullclaw/nullhub.git",
+  "language": "Zig",
+  "license": "MIT",
+  "stars": 1434,
+  "forks": 175,
+  "openIssues": 11,
+  "score": 105.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T09:06:33Z",
-  "updatedAt": "2026-07-20T04:07:06Z",
-  "createdAt": "2026-06-26T05:59:56Z",
+  "pushedAt": "2026-07-19T04:20:05Z",
+  "updatedAt": "2026-07-21T03:46:05Z",
+  "createdAt": "2026-03-02T11:06:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "accessibility",
-    "ai-agents",
-    "ai-development",
-    "android-emulator",
-    "ios-simulator",
-    "mobile-automation"
+    "ai",
+    "assistant",
+    "nullclaw",
+    "personal",
+    "zig"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/lycorp-jp/sim-use",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nullclaw/nullhub",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/lycorp-jp/sim-use#readme",
-  "detailPath": "data/details/lycorp__jp__sim__use.json",
+  "readmeUrl": "https://github.com/nullclaw/nullhub#readme",
+  "detailPath": "data/details/nullclaw__nullhub.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "sim-use：sim-use 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "nullhub：nullhub 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -72,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "5c82394f7143e600",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "e8fb7add9dbaf9a3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "sim-use：sim-use：sim-use 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "sim-use 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "nullhub：nullhub：nullhub 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "nullhub 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -122,7 +121,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

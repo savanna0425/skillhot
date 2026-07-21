@@ -1,49 +1,55 @@
 {
-  "rank": 2149,
-  "id": 1298361075,
-  "name": "lit-interactive-fiction",
-  "fullName": "LindseyyZhang/lit-interactive-fiction",
-  "owner": "LindseyyZhang",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/111752329?v=4",
-  "url": "https://github.com/LindseyyZhang/lit-interactive-fiction",
-  "homepage": "",
-  "description": "A Claude Skill that turns literary works into playable single-file interactive fiction games",
-  "summary": "lit-interactive-fiction：lit-interactive-fiction：lit-interactive-fiction 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2108,
+  "id": 1305554770,
+  "name": "Academic-paper-revision",
+  "fullName": "ZoeLinUTS/Academic-paper-revision",
+  "owner": "ZoeLinUTS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/100474464?v=4",
+  "url": "https://github.com/ZoeLinUTS/Academic-paper-revision",
+  "homepage": "https://zoelin.dev/tools/paper-revision",
+  "description": "Claude Skill that revises LaTeX academic papers to match a target venue's conventions (ACL, NeurIPS, LNCS, and more) before submission. Free hosted review-only version at zoelin.dev.",
+  "summary": "Academic-paper-revision：Academic-paper-revision：Academic-paper-revision 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/LindseyyZhang/lit-interactive-fiction.git",
-  "language": "HTML",
+  "installCommand": "git clone https://github.com/ZoeLinUTS/Academic-paper-revision.git",
+  "language": "",
   "license": "MIT",
-  "stars": 0,
-  "forks": 0,
+  "stars": 2,
+  "forks": 1,
   "openIssues": 0,
-  "score": 66,
+  "score": 67.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-12T17:39:25Z",
-  "updatedAt": "2026-07-12T17:39:33Z",
-  "createdAt": "2026-07-12T14:43:14Z",
+  "pushedAt": "2026-07-20T19:47:46Z",
+  "updatedAt": "2026-07-20T20:09:15Z",
+  "createdAt": "2026-07-19T08:46:17Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "ai-agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "anthropic-skills",
-    "claude-skills",
-    "literature",
-    "narrative-design",
-    "text-adventure",
-    "twine-alternative"
+    "academic-paper-review",
+    "academic-writing",
+    "acl",
+    "ai-agent-skills",
+    "claude",
+    "claude-code",
+    "latex",
+    "llm",
+    "nlp",
+    "paper-reviews",
+    "peer-review",
+    "research-paper",
+    "research-tools"
   ],
   "platforms": [
     "Claude"
@@ -51,15 +57,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/LindseyyZhang/lit-interactive-fiction",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZoeLinUTS/Academic-paper-revision",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/LindseyyZhang/lit-interactive-fiction#readme",
-  "detailPath": "data/details/lindseyyzhang__lit__interactive__fiction.json",
+  "readmeUrl": "https://github.com/ZoeLinUTS/Academic-paper-revision#readme",
+  "detailPath": "data/details/zoelinuts__academic__paper__revision.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "lit-interactive-fiction：lit-interactive-fiction 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "Academic-paper-revision：Academic-paper-revision 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -78,14 +84,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "cd0f0429cf450b74",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "b6032474f5809031",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lit-interactive-fiction：lit-interactive-fiction：lit-interactive-fiction 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "lit-interactive-fiction 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Academic-paper-revision：Academic-paper-revision：Academic-paper-revision 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "Academic-paper-revision 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",

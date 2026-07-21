@@ -1,76 +1,75 @@
 {
-  "rank": 1281,
-  "id": 978316230,
-  "name": "selfhost-ai",
-  "fullName": "kossakovsky/selfhost-ai",
-  "owner": "kossakovsky",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/11432603?v=4",
-  "url": "https://github.com/kossakovsky/selfhost-ai",
-  "homepage": "https://github.com/kossakovsky/selfhost-ai#readme",
-  "description": "🚀 Self-hosted AI automation platform. Deploy n8n, Ollama, Flowise, RAG, Supabase & 30+ tools with one command. Auto HTTPS. Free Zapier/Make alternative.",
-  "summary": "selfhost-ai：selfhost-ai：selfhost-ai 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 566,
+  "id": 741450201,
+  "name": "AutoRAG",
+  "fullName": "Marker-Inc-Korea/AutoRAG",
+  "owner": "Marker-Inc-Korea",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/74290595?v=4",
+  "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
+  "homepage": "https://marker-inc-korea.github.io/AutoRAG/",
+  "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
+  "summary": "AutoRAG：AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kossakovsky/selfhost-ai.git",
-  "language": "Shell",
-  "license": "Apache-2.0",
-  "stars": 901,
-  "forks": 229,
-  "openIssues": 8,
-  "score": 101,
+  "installCommand": "git clone https://github.com/Marker-Inc-Korea/AutoRAG.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 4934,
+  "forks": 414,
+  "openIssues": 165,
+  "score": 118.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-13T21:03:23Z",
-  "updatedAt": "2026-07-20T02:24:24Z",
-  "createdAt": "2025-05-05T19:51:24Z",
+  "pushedAt": "2026-07-20T19:10:19Z",
+  "updatedAt": "2026-07-20T22:52:21Z",
+  "createdAt": "2024-01-10T12:25:00Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agents",
-    "automation",
-    "chatgpt-alternative",
-    "dify",
-    "docker",
-    "flowise",
-    "homelab",
+    "analysis",
+    "automl",
+    "benchmarking",
+    "document-parser",
+    "embeddings",
+    "evaluation",
     "llm",
-    "local-llm",
-    "make-alternative",
-    "n8n",
-    "no-code",
-    "ollama",
-    "open-webui",
-    "qdrant",
+    "llm-evaluation",
+    "llm-ops",
+    "open-source",
+    "ops",
+    "optimization",
+    "pipeline",
+    "python",
+    "qa",
     "rag",
-    "self-hosted",
-    "vector-database",
-    "zapier-alternative"
+    "rag-evaluation",
+    "retrieval-augmented-generation"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kossakovsky/selfhost-ai",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Marker-Inc-Korea/AutoRAG",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kossakovsky/selfhost-ai#readme",
-  "detailPath": "data/details/kossakovsky__selfhost__ai.json",
+  "readmeUrl": "https://github.com/Marker-Inc-Korea/AutoRAG#readme",
+  "detailPath": "data/details/marker__inc__korea__autorag.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "selfhost-ai：selfhost-ai 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "c849995eaa28cb40",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "b4a4a41fc232f536",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "selfhost-ai：selfhost-ai：selfhost-ai 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "selfhost-ai 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "AutoRAG：AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "AutoRAG 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -113,7 +112,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -136,7 +135,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

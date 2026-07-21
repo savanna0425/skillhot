@@ -1,12 +1,12 @@
 {
-  "rank": 1224,
+  "rank": 647,
   "id": 1078850969,
   "name": "agent-skill-creator",
   "fullName": "FrancyJGLisboa/agent-skill-creator",
   "owner": "FrancyJGLisboa",
   "avatarUrl": "https://avatars.githubusercontent.com/u/19800931?v=4",
   "url": "https://github.com/FrancyJGLisboa/agent-skill-creator",
-  "homepage": "",
+  "homepage": "https://francyjglisboa.github.io/agent-skill-creator/",
   "description": "Turn any workflow into reusable AI agent skills that install on 17 platforms — Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and more. One SKILL.md, every platform.",
   "summary": "agent-skill-creator：agent-skill-creator：将任何工作流转化为可在 17 个平台上安装的通用 AI 技能——Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini、Kiro 等。一份 SKILL.md，适用于所有平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git",
+  "installCommand": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator\ncd agent-skill-creator/references/examples/weekly-crm-report\npython3 scripts/run_pipeline.py --input evals/golden/case-1/input.csv --output /tmp/summary.json",
   "language": "Python",
   "license": "MIT",
-  "stars": 1868,
-  "forks": 220,
+  "stars": 1881,
+  "forks": 222,
   "openIssues": 0,
-  "score": 101.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-13T20:00:23Z",
-  "updatedAt": "2026-07-20T03:08:15Z",
+  "score": 116.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-20T22:15:17Z",
+  "updatedAt": "2026-07-21T03:26:17Z",
   "createdAt": "2025-10-18T15:01:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,13 +40,14 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "GitHub Copilot"
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/FrancyJGLisboa/agent-skill-creator",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=izJkgLqlbN8"
   },
   "readmeUrl": "https://github.com/FrancyJGLisboa/agent-skill-creator#readme",
   "detailPath": "data/details/francyjglisboa__agent__skill__creator.json",
@@ -72,8 +73,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "6128983f14d35a2c",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "f58f0ba04d542dd4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

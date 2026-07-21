@@ -1,14 +1,14 @@
 {
-  "rank": 355,
-  "id": 1133883850,
-  "name": "copilot-sdk",
-  "fullName": "github/copilot-sdk",
-  "owner": "github",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
-  "url": "https://github.com/github/copilot-sdk",
-  "homepage": "",
-  "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-  "summary": "copilot-sdk：copilot-sdk：面向多平台的 SDK，用于将 GitHub Copilot Agent 集成到应用和服务中。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 1369,
+  "id": 1179511162,
+  "name": "PhyAgentOS",
+  "fullName": "PhyAgentOS/PhyAgentOS",
+  "owner": "PhyAgentOS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/266047992?v=4",
+  "url": "https://github.com/PhyAgentOS/PhyAgentOS",
+  "homepage": "https://phy-agent-os.net/",
+  "description": "PhyAgentOS is a self-evolving embodied AI operating system built on agentic workflows.",
+  "summary": "PhyAgentOS：PhyAgentOS：PhyAgentOS：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,43 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/github/copilot-sdk.git",
-  "language": "Java",
+  "installCommand": "git clone https://github.com/PhyAgentOS/PhyAgentOS.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 9984,
-  "forks": 1351,
-  "openIssues": 245,
-  "score": 126,
+  "stars": 804,
+  "forks": 76,
+  "openIssues": 11,
+  "score": 99.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-20T03:44:04Z",
-  "updatedAt": "2026-07-20T03:58:36Z",
-  "createdAt": "2026-01-14T00:23:22Z",
+  "pushedAt": "2026-07-16T13:58:46Z",
+  "updatedAt": "2026-07-21T02:05:42Z",
+  "createdAt": "2026-03-12T05:12:10Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "claw",
+    "embodied-agent",
+    "embodied-ai",
+    "harness"
+  ],
   "platforms": [
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/github/copilot-sdk",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/PhyAgentOS/PhyAgentOS",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/github/copilot-sdk#readme",
-  "detailPath": "data/details/github__copilot__sdk.json",
+  "readmeUrl": "https://github.com/PhyAgentOS/PhyAgentOS#readme",
+  "detailPath": "data/details/phyagentos__phyagentos.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "copilot-sdk：面向多平台的 SDK，用于将 GitHub Copilot Agent 集成到应用和服务中。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "PhyAgentOS：PhyAgentOS：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +74,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "a6dfb0da1d89b0f2",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "03e505ddceb49953",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "copilot-sdk：copilot-sdk：面向多平台的 SDK，用于将 GitHub Copilot Agent 集成到应用和服务中。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "copilot-sdk 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "PhyAgentOS：PhyAgentOS：PhyAgentOS：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "PhyAgentOS 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +98,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

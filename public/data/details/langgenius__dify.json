@@ -1,17 +1,17 @@
 {
-  "rank": 1105,
-  "id": 1008304614,
-  "name": "semantica",
-  "fullName": "semantica-agi/semantica",
-  "owner": "semantica-agi",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/213958577?v=4",
-  "url": "https://github.com/semantica-agi/semantica",
-  "homepage": "https://getsemantica.ai",
-  "description": "Semantica  • Build AI systems that can explain, trace, and justify every decision. Knowledge graphs, context graphs, reasoning engines, provenance, and governance for production AI.",
-  "summary": "semantica：semantica：semantica 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 14,
+  "id": 626805178,
+  "name": "dify",
+  "fullName": "langgenius/dify",
+  "owner": "langgenius",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/127165244?v=4",
+  "url": "https://github.com/langgenius/dify",
+  "homepage": "https://dify.ai",
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "summary": "dify：dify：dify 提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
@@ -19,58 +19,60 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/semantica-agi/semantica.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 1415,
-  "forks": 200,
-  "openIssues": 5,
-  "score": 105.7,
+  "installCommand": "git clone https://github.com/langgenius/dify.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 149546,
+  "forks": 23571,
+  "openIssues": 1093,
+  "score": 158.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-19T17:12:11Z",
-  "updatedAt": "2026-07-19T17:12:25Z",
-  "createdAt": "2025-06-25T10:41:00Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-21T03:48:10Z",
+  "updatedAt": "2026-07-21T03:47:47Z",
+  "createdAt": "2023-04-12T07:40:24Z",
+  "sourceTopics": [
+    "skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-memory",
+    "agent",
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-workflow",
     "ai",
-    "ai-governance",
-    "ai-infrastructure",
-    "artificial-intelligence",
-    "context-engineering",
-    "context-graphs",
-    "data-engineering",
-    "decision-intelligence",
-    "developer-tools",
-    "explainable-ai",
-    "generative-ai",
-    "graph-rag",
-    "knowledge-graph",
+    "automation",
+    "claude",
+    "genai",
+    "gpt",
     "llm",
-    "ontology",
-    "provenance",
+    "low-code",
+    "mcp",
+    "nextjs",
+    "no-code",
+    "openai",
+    "orchestration",
     "python",
-    "reasoning",
-    "semantic-search"
+    "rag",
+    "skills",
+    "workflow"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/semantica-agi/semantica",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/langgenius/dify",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/semantica-agi/semantica#readme",
-  "detailPath": "data/details/semantica__agi__semantica.json",
+  "readmeUrl": "https://github.com/langgenius/dify#readme",
+  "detailPath": "data/details/langgenius__dify.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "semantica：semantica 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "dify：dify 提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "c2a7440a767934af",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "189b1de47193feaa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "semantica：semantica：semantica 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "semantica 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dify：dify：dify 提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "dify 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -113,7 +115,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -136,7 +138,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 163,
-  "id": 1216785679,
-  "name": "DeepSeek-Reasonix",
-  "fullName": "esengine/DeepSeek-Reasonix",
-  "owner": "esengine",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4",
-  "url": "https://github.com/esengine/DeepSeek-Reasonix",
-  "homepage": "http://reasonix.io/",
-  "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "summary": "DeepSeek-Reasonix：DeepSeek-Reasonix：DeepSeek-Reasonix 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1608,
+  "id": 1075693960,
+  "name": "next-devtools-mcp",
+  "fullName": "vercel/next-devtools-mcp",
+  "owner": "vercel",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/14985020?v=4",
+  "url": "https://github.com/vercel/next-devtools-mcp",
+  "homepage": "https://www.npmjs.com/package/next-devtools-mcp",
+  "description": "Next.js Development for Coding Agent",
+  "summary": "next-devtools-mcp：next-devtools-mcp：next-devtools-mcp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,38 +19,27 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm i -g reasonix                  # any OS; pulls the prebuilt native binary\nbrew install esengine/reasonix/reasonix   # macOS",
-  "language": "Go",
-  "license": "MIT",
-  "stars": 27340,
-  "forks": 1743,
-  "openIssues": 1225,
-  "score": 136.5,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-20T02:23:14Z",
-  "updatedAt": "2026-07-20T03:55:38Z",
-  "createdAt": "2026-04-21T08:27:02Z",
+  "installCommand": "git clone https://github.com/vercel/next-devtools-mcp.git",
+  "language": "TypeScript",
+  "license": "",
+  "stars": 791,
+  "forks": 62,
+  "openIssues": 9,
+  "score": 92.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-25T22:30:14Z",
+  "updatedAt": "2026-07-20T01:48:49Z",
+  "createdAt": "2025-10-13T21:22:18Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "agent-framework",
-    "ai-agent",
-    "ai-coding",
-    "cli",
-    "coding-agent",
-    "deepseek",
-    "developer-tools",
-    "ink",
-    "llm",
-    "prompt-caching",
-    "r1",
-    "terminal",
-    "tool-use",
-    "tui",
-    "typescript"
+    "coding-agents",
+    "mcp",
+    "mcp-server",
+    "next-devtools",
+    "nextjs"
   ],
   "platforms": [
     "Agent Skills"
@@ -58,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/esengine/DeepSeek-Reasonix",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vercel/next-devtools-mcp",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/esengine/DeepSeek-Reasonix#readme",
-  "detailPath": "data/details/esengine__deepseek__reasonix.json",
+  "readmeUrl": "https://github.com/vercel/next-devtools-mcp#readme",
+  "detailPath": "data/details/vercel__next__devtools__mcp.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DeepSeek-Reasonix：DeepSeek-Reasonix 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "next-devtools-mcp：next-devtools-mcp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "534f0cbfb09582da",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "9e5a218f5a25e3d4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeepSeek-Reasonix：DeepSeek-Reasonix：DeepSeek-Reasonix 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "DeepSeek-Reasonix 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "next-devtools-mcp：next-devtools-mcp：next-devtools-mcp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "next-devtools-mcp 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -132,7 +121,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

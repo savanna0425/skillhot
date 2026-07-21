@@ -1,5 +1,5 @@
 {
-  "rank": 941,
+  "rank": 690,
   "id": 1196982492,
   "name": "last30days-skill-cn",
   "fullName": "Jesseovo/last30days-skill-cn",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Jesseovo/last30days-skill-cn",
   "homepage": "",
   "description": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。",
-  "summary": "last30days-skill-cn：last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "last30days-skill-cn：last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Jesseovo/last30days-skill-cn.git",
+  "installCommand": "npx skills add Jesseovo/last30days-skill-cn -g",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1149,
-  "forks": 141,
+  "stars": 1171,
+  "forks": 143,
   "openIssues": 6,
-  "score": 108.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-06T11:05:30Z",
-  "updatedAt": "2026-07-20T03:50:01Z",
+  "score": 115.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-20T08:55:57Z",
+  "updatedAt": "2026-07-21T03:05:20Z",
   "createdAt": "2026-03-31T08:13:20Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -47,6 +47,8 @@
   ],
   "platforms": [
     "Claude",
+    "Cursor",
+    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -60,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -79,13 +81,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "f8a40757a739cfff",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "d27eff7153eba141",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "last30days-skill-cn：last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "last30days-skill-cn：last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "last30days-skill-cn 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -103,7 +105,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

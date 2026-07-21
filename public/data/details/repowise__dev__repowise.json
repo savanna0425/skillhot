@@ -1,5 +1,5 @@
 {
-  "rank": 670,
+  "rank": 665,
   "id": 1189384516,
   "name": "repowise",
   "fullName": "repowise-dev/repowise",
@@ -8,7 +8,7 @@
   "url": "https://github.com/repowise-dev/repowise",
   "homepage": "https://repowise.dev",
   "description": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
-  "summary": "repowise：repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "repowise：repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install repowise          # Windows: python -m pip install repowise\nrepowise --version            # -> repowise, version 0.27.x",
+  "installCommand": "pip install repowise          # Windows: python -m pip install repowise\nrepowise --version",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 3794,
-  "forks": 459,
-  "openIssues": 75,
-  "score": 115.9,
+  "stars": 3829,
+  "forks": 463,
+  "openIssues": 73,
+  "score": 116,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-20T03:39:56Z",
-  "updatedAt": "2026-07-20T04:07:48Z",
+  "pushedAt": "2026-07-20T10:20:23Z",
+  "updatedAt": "2026-07-21T02:23:46Z",
   "createdAt": "2026-03-23T09:12:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -66,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -85,13 +86,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "c01ce9a35c3b4f51",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "b32332841d91bc33",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "repowise：repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "repowise：repowise：repowise：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "repowise 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -109,7 +110,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

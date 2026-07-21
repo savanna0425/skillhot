@@ -1,63 +1,71 @@
 {
-  "rank": 1195,
-  "id": 1052473204,
-  "name": "gpt-codex",
-  "fullName": "xianyu110/gpt-codex",
-  "owner": "xianyu110",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/53889513?v=4",
-  "url": "https://github.com/xianyu110/gpt-codex",
-  "homepage": "https://codex.maynorai.top/",
-  "description": "这是一个关于 OpenAI CodeX 的完整教程网站，专为国内开发者打造。",
-  "summary": "gpt-codex：gpt-codex：这是一个关于 OpenAI CodeX 的完整教程网站，专为国内开发者打造。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1771,
+  "id": 1307065438,
+  "name": "agents-council",
+  "fullName": "0xwilliamortiz/agents-council",
+  "owner": "0xwilliamortiz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/155918204?v=4",
+  "url": "https://github.com/0xwilliamortiz/agents-council",
+  "homepage": "",
+  "description": "Multi-agents collaboration plugin for Claude Code - orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for diverse perspectives",
+  "summary": "agents-council：agents-council：agents-council 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/xianyu110/gpt-codex.git",
-  "language": "HTML",
-  "license": "",
-  "stars": 989,
-  "forks": 78,
-  "openIssues": 0,
-  "score": 102,
+  "installCommand": "git clone https://github.com/0xwilliamortiz/agents-council.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 90,
+  "forks": 1,
+  "openIssues": 1,
+  "score": 86,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-15T02:10:14Z",
-  "updatedAt": "2026-07-20T03:08:59Z",
-  "createdAt": "2025-09-08T05:28:56Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-21T00:03:36Z",
+  "updatedAt": "2026-07-21T00:19:54Z",
+  "createdAt": "2026-07-20T22:34:45Z",
+  "sourceTopics": [
+    "claude-code-skills",
+    "codex-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "claude",
-    "claudecode",
+    "claude-ai",
+    "claude-code",
+    "claude-code-skills",
+    "claude-plugin",
+    "claude-skills",
     "codex",
-    "gemin",
-    "gpt",
-    "grok"
+    "codex-github",
+    "codex-skill",
+    "codex-skills"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xianyu110/gpt-codex",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/0xwilliamortiz/agents-council",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xianyu110/gpt-codex#readme",
-  "detailPath": "data/details/xianyu110__gpt__codex.json",
+  "readmeUrl": "https://github.com/0xwilliamortiz/agents-council#readme",
+  "detailPath": "data/details/0xwilliamortiz__agents__council.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gpt-codex：这是一个关于 OpenAI CodeX 的完整教程网站，专为国内开发者打造。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "agents-council：agents-council 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -73,17 +81,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-20T04:09:34.977Z",
-    "sourceHash": "d4b2bf89b3869d0d",
+    "generatedAt": "2026-07-21T03:51:54.523Z",
+    "sourceHash": "b583bfea14f44d63",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gpt-codex：gpt-codex：这是一个关于 OpenAI CodeX 的完整教程网站，专为国内开发者打造。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "gpt-codex 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agents-council：agents-council：agents-council 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "agents-council 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -100,7 +108,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -123,7 +131,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
