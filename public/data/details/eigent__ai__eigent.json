@@ -1,5 +1,5 @@
 {
-  "rank": 205,
+  "rank": 207,
   "id": 1028492186,
   "name": "eigent",
   "fullName": "eigent-ai/eigent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/eigent-ai/eigent",
   "homepage": "https://www.eigent.ai",
   "description": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
-  "summary": "eigent：eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "eigent：eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,19 +22,20 @@
   "installCommand": "git clone https://github.com/eigent-ai/eigent.git\ncd eigent\nnpm install",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 14615,
-  "forks": 1734,
-  "openIssues": 195,
+  "stars": 14625,
+  "forks": 1735,
+  "openIssues": 194,
   "score": 134,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-20T17:42:47Z",
-  "updatedAt": "2026-07-20T18:42:24Z",
+  "pushedAt": "2026-07-21T15:24:00Z",
+  "updatedAt": "2026-07-22T03:41:14Z",
   "createdAt": "2025-07-29T15:56:02Z",
   "sourceTopics": [
     "agent-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-framework",
@@ -49,7 +50,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -62,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "b8121ef7457e3412",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "1008df27b2548c16",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "eigent：eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "eigent：eigent：eigent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "eigent 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -105,7 +107,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

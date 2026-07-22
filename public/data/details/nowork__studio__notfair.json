@@ -1,5 +1,5 @@
 {
-  "rank": 358,
+  "rank": 583,
   "id": 1193374549,
   "name": "NotFair",
   "fullName": "nowork-studio/NotFair",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/151400691?v=4",
   "url": "https://github.com/nowork-studio/NotFair",
   "homepage": "https://notfair.co/",
-  "description": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
-  "summary": "NotFair：NotFair：开源用于 SEO、GEO、Google Ads 及 Meta Ads 的 Claude 代码技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Goal-driven, loop-powered marketing agents that crush your business goals 24/7",
+  "summary": "NotFair：NotFair：NotFair：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx notfair@latest doctor   # preflight: Node, harnesses, data dir, port\nnpx notfair@latest          # launch the UI at http://127.0.0.1:3327",
+  "installCommand": "npx notfair@latest",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3167,
-  "forks": 388,
-  "openIssues": 5,
-  "score": 126,
+  "stars": 3180,
+  "forks": 390,
+  "openIssues": 2,
+  "score": 118.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T00:53:02Z",
-  "updatedAt": "2026-07-21T03:11:44Z",
+  "pushedAt": "2026-07-22T03:32:05Z",
+  "updatedAt": "2026-07-22T03:32:15Z",
   "createdAt": "2026-03-27T06:39:58Z",
   "sourceTopics": [
     "claude-skills"
@@ -38,6 +38,7 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agents",
     "claude-code-plugin",
     "claude-skills",
     "geo",
@@ -49,8 +50,7 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "NotFair：开源用于 SEO、GEO、Google Ads 及 Meta Ads 的 Claude 代码技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "NotFair：NotFair：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -82,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "37bc0649423c3ec8",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "afd9b8a6d22e27ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "NotFair：NotFair：开源用于 SEO、GEO、Google Ads 及 Meta Ads 的 Claude 代码技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "NotFair：NotFair：NotFair：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "NotFair 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -106,7 +106,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 982,
+  "rank": 978,
   "id": 876545970,
   "name": "video-search-and-summarization",
   "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
@@ -7,40 +7,53 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/178940881?v=4",
   "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
   "homepage": "https://build.nvidia.com/nvidia/video-search-and-summarization",
-  "description": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
-  "summary": "video-search-and-summarization：video-search-and-summarization：NVIDIA VSS 蓝图是一套构建 GPU 加速视觉代理和 AI 驱动视频分析应用参考架构的套件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "内容创作",
-  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
+  "summary": "video-search-and-summarization：video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
-    "内容生产",
-    "视觉创作",
-    "多媒体工作流"
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization.git",
   "language": "C++",
   "license": "NOASSERTION",
-  "stars": 1749,
-  "forks": 359,
-  "openIssues": 134,
+  "stars": 1750,
+  "forks": 360,
+  "openIssues": 133,
   "score": 107.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T03:47:51Z",
-  "updatedAt": "2026-07-20T20:19:29Z",
+  "pushedAt": "2026-07-22T03:27:23Z",
+  "updatedAt": "2026-07-22T00:48:18Z",
   "createdAt": "2024-10-22T06:43:05Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agents",
-    "llm",
+    "computer-vision",
+    "generative-ai",
+    "long-video-understanding",
+    "model-context-protocol",
+    "multimodal-ai",
+    "natural-language-search",
+    "nvidia-nim",
     "rag",
+    "real-time-video-analytics",
+    "retrieval-augmented-generation",
     "skills",
+    "video-agent",
     "video-analytics",
+    "video-rag",
     "video-search",
+    "video-summarization",
+    "video-understanding",
+    "vision-agent",
+    "vision-language-model",
     "vlm"
   ],
   "platforms": [
@@ -57,18 +70,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "video-search-and-summarization：NVIDIA VSS 蓝图是一套构建 GPU 加速视觉代理和 AI 驱动视频分析应用参考架构的套件。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
-      "内容生产",
-      "视觉创作",
-      "多媒体工作流"
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -76,51 +89,51 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "6151c9e1f2f90a14",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "8829166f214b1b25",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "video-search-and-summarization：video-search-and-summarization：NVIDIA VSS 蓝图是一套构建 GPU 加速视觉代理和 AI 驱动视频分析应用参考架构的套件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "video-search-and-summarization 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "video-search-and-summarization：video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "video-search-and-summarization 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
-      "同一套内容风格难以稳定复用。",
-      "创作任务需要把素材、脚本、生成和发布流程串起来。",
-      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
+      "长任务容易丢上下文，Agent 记不住项目历史。",
+      "资料、代码和决策分散，下一次会话很难续接。",
+      "团队需要让 Agent 更可靠地检索旧信息。",
+      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
-      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
-      "帮助你先判断它是否适合当前内容生产任务。",
+      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
+      "帮助 Agent 在长任务中保留关键事实和决策。",
+      "帮助你判断它是否适合当前长期项目。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "内容创作者、运营、设计师和需要频繁产出素材的人。",
-      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
-      "想把固定内容流程模板化的小团队。",
+      "长期使用 Agent 做项目的人。",
+      "需要跨会话续接、知识库检索或团队记忆的人。",
+      "代码库、文档库或资料库较大的团队。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
-      "只想要一键生成所有内容且不参与编辑的人。"
+      "只做一次性短任务、不需要保存上下文的人。",
+      "涉及敏感数据但没有权限隔离和清理方案的场景。"
     ],
     "howItWorks": [
-      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
-      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
-      "最终发布前仍需要人工审稿、校对和版权检查。",
+      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
+      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
+      "效果取决于数据质量、分块方式和权限管理。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看 README 里的输入格式和示例输出。",
-      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
-      "确认可编辑性和导出格式后再纳入正式流程。"
+      "先用一个小项目或公开资料库测试。",
+      "确认数据存储位置、权限和删除方式。",
+      "再把长期项目资料逐步迁入。"
     ],
     "expectedOutcome": [
-      "从选题到初稿的速度更快。",
-      "内容风格更容易保持一致。",
-      "重复性创作流程可以被复用。"
+      "跨会话续接更顺。",
+      "Agent 更容易找回项目背景和历史决策。",
+      "长任务的上下文管理成本下降。"
     ],
     "caveats": [
       "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",

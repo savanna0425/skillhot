@@ -1,14 +1,14 @@
 {
-  "rank": 2137,
-  "id": 1217233667,
-  "name": "hermes-merchant",
-  "fullName": "arimanyus/hermes-merchant",
-  "owner": "arimanyus",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/35337366?v=4",
-  "url": "https://github.com/arimanyus/hermes-merchant",
-  "homepage": "",
-  "description": "A collection of portable agent skills that scrape ML/AI jobs, score them against your profile, and auto-fill Greenhouse applications.",
-  "summary": "hermes-merchant 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 876,
+  "id": 1237501138,
+  "name": "skilldock",
+  "fullName": "wanghuan9/skilldock",
+  "owner": "wanghuan9",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/106566505?v=4",
+  "url": "https://github.com/wanghuan9/skilldock",
+  "homepage": "https://github.com/wanghuan9/skilldock/releases/latest",
+  "description": "SkillDock is an AI skill manager and skill management desktop app for Claude Code, Cursor, Codex, Windsurf, Gemini CLI, and other AI coding tools. Install, organize, edit, sync, and update Skills, MCP servers, and plugins with real-directory scanning and Git-aware Diff previews. AI Skill Manager / Skill 管理软件 / MCP 管理工具.",
+  "summary": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,44 +19,66 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/arimanyus/hermes-merchant.git",
+  "installCommand": "git clone https://github.com/wanghuan9/skilldock.git",
   "language": "",
-  "license": "MIT",
-  "stars": 33,
-  "forks": 2,
-  "openIssues": 0,
-  "score": 66.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-21T17:48:05Z",
-  "updatedAt": "2026-07-20T22:01:02Z",
-  "createdAt": "2026-04-21T17:19:44Z",
+  "license": "",
+  "stars": 295,
+  "forks": 15,
+  "openIssues": 6,
+  "score": 109.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-22T01:49:25Z",
+  "updatedAt": "2026-07-22T03:37:07Z",
+  "createdAt": "2026-05-13T08:37:42Z",
   "sourceTopics": [
-    "hermes-skill"
+    "ai-skills",
+    "claude-code-skills",
+    "cursor-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "hermes-agent",
-    "hermes-skill",
-    "skills"
+    "ai-coding-agents",
+    "ai-coding-tools",
+    "ai-skill-manager",
+    "ai-skills",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "cursor",
+    "cursor-skills",
+    "desktop-app",
+    "gemini-cli",
+    "mcp",
+    "mcp-manager",
+    "mcp-tools",
+    "skill-management",
+    "skill-manager",
+    "skilldock",
+    "skills",
+    "skills-manager",
+    "windsurf"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/arimanyus/hermes-merchant",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wanghuan9/skilldock",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/arimanyus/hermes-merchant#readme",
-  "detailPath": "data/details/arimanyus__hermes__merchant.json",
+  "readmeUrl": "https://github.com/wanghuan9/skilldock#readme",
+  "detailPath": "data/details/wanghuan9__skilldock.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hermes-merchant 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -72,17 +94,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "8b5e684f050143d3",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "36866fae4f5c25a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hermes-merchant 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "hermes-merchant 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "skilldock 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：SkillDock is an AI skill manager and skill management desktop app for Claude Code, Cursor, Codex, Windsurf, Gemini CLI, and other AI coding tools. Install, organize, edit, sync, and update Skills, MCP servers, and plugins with real-directory scanning and Git-aware Diff previews. AI Skill Manager / Skill 管理软件 / MCP 管理工具。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -99,7 +121,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -122,7 +144,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

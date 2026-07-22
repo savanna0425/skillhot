@@ -1,5 +1,5 @@
 {
-  "rank": 40,
+  "rank": 17,
   "id": 1127110039,
   "name": "planning-with-files",
   "fullName": "OthmanAdi/planning-with-files",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/78882424?v=4",
   "url": "https://github.com/OthmanAdi/planning-with-files",
   "homepage": "",
-  "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
+  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Claude Code, Codex, Cursor, Kiro, OpenCode and 60+ agents via the Agent Skills standard.",
   "summary": "planning-with-files：planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
@@ -19,20 +19,21 @@
     "多人或多 Agent 协作"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
+  "installCommand": "Under a minute. Safe to re-run. Trigger it by typing `/plan` (plugin) or asking the agent to \"plan this task\"; the skill also self-triggers on multi-step tasks.\nWhat each route actually ships:\n| Route | Skill + scripts + templates | Slash commands | Hooks |",
   "language": "Python",
   "license": "MIT",
-  "stars": 25585,
-  "forks": 2156,
+  "stars": 25606,
+  "forks": 2157,
   "openIssues": 5,
-  "score": 151.8,
+  "score": 155.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-18T10:14:06Z",
-  "updatedAt": "2026-07-21T03:27:09Z",
+  "pushedAt": "2026-07-21T21:29:14Z",
+  "updatedAt": "2026-07-22T03:42:42Z",
   "createdAt": "2026-01-03T07:37:28Z",
   "sourceTopics": [
     "agent-skills",
-    "claude-skills"
+    "claude-skills",
+    "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
@@ -46,28 +47,27 @@
     "autonomous-agents",
     "claude",
     "claude-code",
+    "claude-code-skills",
     "claude-skills",
     "codex",
     "coding-agent",
     "context-engineering",
-    "copilot",
+    "context-rot",
     "cursor",
-    "developer-tools",
     "github-copilot",
     "llm-agents",
     "long-running-agents",
     "manus",
     "multi-agent-systems",
-    "pi",
-    "planning"
+    "planning",
+    "session-recovery"
   ],
   "platforms": [
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
     "GitHub Copilot",
-    "OpenClaw"
+    "OpenCode"
   ],
   "skillCount": 13,
   "isCollection": false,
@@ -99,8 +99,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "f3b3ad0dc147dcef",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "25a044e4c14a48da",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

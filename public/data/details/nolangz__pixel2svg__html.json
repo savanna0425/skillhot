@@ -1,75 +1,78 @@
 {
-  "rank": 888,
-  "id": 522654460,
-  "name": "FISSURE",
-  "fullName": "ainfosec/FISSURE",
-  "owner": "ainfosec",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1608460?v=4",
-  "url": "https://github.com/ainfosec/FISSURE",
-  "homepage": "https://twitter.com/FissureRF",
-  "description": "The RF and reverse engineering framework for everyone. Follow and ★ to show your support!",
-  "summary": "FISSURE：FISSURE：面向全用户的射频与逆向工程框架。支持并 ★ 以表达支持。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1971,
+  "id": 1266923348,
+  "name": "pixel2svg-html",
+  "fullName": "nolangz/pixel2svg-html",
+  "owner": "nolangz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/64394910?v=4",
+  "url": "https://github.com/nolangz/pixel2svg-html",
+  "homepage": "https://www.nolanlai.com",
+  "description": "Codex skill for converting raster logos into smooth minimal SVG plus standalone HTML previews.",
+  "summary": "pixel2svg-html：pixel2svg-html：pixel2svg-html 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ainfosec/FISSURE.git",
+  "installCommand": "git clone https://github.com/nolangz/pixel2svg-html.git",
   "language": "Python",
-  "license": "GPL-3.0",
-  "stars": 1999,
-  "forks": 132,
-  "openIssues": 20,
-  "score": 109.3,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-20T17:57:17Z",
-  "updatedAt": "2026-07-20T17:57:47Z",
-  "createdAt": "2022-08-08T17:58:12Z",
-  "sourceTopics": [],
+  "license": "MIT",
+  "stars": 42,
+  "forks": 4,
+  "openIssues": 0,
+  "score": 76.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-06-26T09:00:08Z",
+  "updatedAt": "2026-07-21T04:02:14Z",
+  "createdAt": "2026-06-12T04:25:19Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "bladerf",
-    "gnuradio",
-    "hackrf",
-    "limesdr",
-    "machine-learning",
-    "plutosdr",
-    "protocols",
-    "python",
-    "reverse-engineering",
-    "rf",
-    "rtl-sdr",
-    "scapy",
-    "sdr",
-    "sdrplay",
-    "signals",
-    "tools",
-    "usrp",
-    "wifi",
-    "wireless"
+    "ai-agent-skills",
+    "ai-design-tools",
+    "codex-skill",
+    "computer-vision",
+    "developer-tools",
+    "generative-ai",
+    "html",
+    "image-processing",
+    "image-vectorization",
+    "javascript",
+    "logo-design",
+    "logo-reconstruction",
+    "logo-vectorization",
+    "pixel-to-svg",
+    "raster-to-svg",
+    "standalone-html",
+    "svg",
+    "svg-generation",
+    "vector-graphics",
+    "vectorization"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ainfosec/FISSURE",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nolangz/pixel2svg-html",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ainfosec/FISSURE#readme",
-  "detailPath": "data/details/ainfosec__fissure.json",
+  "readmeUrl": "https://github.com/nolangz/pixel2svg-html#readme",
+  "detailPath": "data/details/nolangz__pixel2svg__html.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "FISSURE：面向全用户的射频与逆向工程框架。支持并 ★ 以表达支持。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "pixel2svg-html：pixel2svg-html 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "3ccee429b9e37687",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "1d22b6b2bb116f5d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "FISSURE：FISSURE：面向全用户的射频与逆向工程框架。支持并 ★ 以表达支持。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "FISSURE 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pixel2svg-html：pixel2svg-html：pixel2svg-html 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "pixel2svg-html 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -112,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -135,7 +138,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 2182,
-  "id": 1272239121,
-  "name": "handoffkit",
-  "fullName": "dyngai/handoffkit",
-  "owner": "dyngai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/177663692?v=4",
-  "url": "https://github.com/dyngai/handoffkit",
-  "homepage": "https://platformpilot.ai",
-  "description": "CSP for AI coding agents",
-  "summary": "handoffkit：handoffkit：handoffkit 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 526,
+  "id": 52671720,
+  "name": "awesome-gis",
+  "fullName": "sshuair/awesome-gis",
+  "owner": "sshuair",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/5787131?v=4",
+  "url": "https://github.com/sshuair/awesome-gis",
+  "homepage": "",
+  "description": "😎Awesome GIS is a collection of geospatial related sources, including cartographic tools, geoanalysis tools, developer tools, data, conference & communities, news, massive open online course, some amazing map sites, and more.",
+  "summary": "awesome-gis 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,59 +19,58 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dyngai/handoffkit.git",
-  "language": "Go",
+  "installCommand": "git clone https://github.com/sshuair/awesome-gis.git",
+  "language": "",
   "license": "MIT",
-  "stars": 24,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 63.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-20T15:12:31Z",
-  "updatedAt": "2026-07-08T22:42:49Z",
-  "createdAt": "2026-06-17T12:21:22Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "stars": 5444,
+  "forks": 831,
+  "openIssues": 47,
+  "score": 119.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-21T09:10:54Z",
+  "updatedAt": "2026-07-21T16:01:47Z",
+  "createdAt": "2016-02-27T14:56:35Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "codex",
-    "codex-cli",
-    "codex-skills",
-    "csp",
-    "golang",
-    "handoff",
-    "openai"
+    "awesome",
+    "geo",
+    "geospatial",
+    "geospatial-library",
+    "geotools",
+    "gis",
+    "map",
+    "spatial-analysis"
   ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/dyngai/handoffkit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sshuair/awesome-gis",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/dyngai/handoffkit#readme",
-  "detailPath": "data/details/dyngai__handoffkit.json",
+  "readmeUrl": "https://github.com/sshuair/awesome-gis#readme",
+  "detailPath": "data/details/sshuair__awesome__gis.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "handoffkit：handoffkit 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "awesome-gis 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -79,14 +78,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "8776c1f5cada4ac5",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "ac2fcf87beef0f73",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "handoffkit：handoffkit：handoffkit 聚焦软件开发、代码质量与工程交付。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "handoffkit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "awesome-gis 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-gis 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -103,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

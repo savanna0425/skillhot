@@ -1,5 +1,5 @@
 {
-  "rank": 792,
+  "rank": 502,
   "id": 1298696137,
   "name": "aos-ce",
   "fullName": "unicity-aos/aos-ce",
@@ -8,7 +8,7 @@
   "url": "https://github.com/unicity-aos/aos-ce",
   "homepage": "",
   "description": "AOS Community Edition: the open agent operating system.",
-  "summary": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/unicity-aos/aos-ce.git",
   "language": "Rust",
   "license": "",
-  "stars": 2999,
-  "forks": 3,
-  "openIssues": 4,
-  "score": 113.5,
+  "stars": 5879,
+  "forks": 4,
+  "openIssues": 8,
+  "score": 120.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T01:17:10Z",
-  "updatedAt": "2026-07-21T03:51:17Z",
+  "pushedAt": "2026-07-22T02:49:14Z",
+  "updatedAt": "2026-07-22T03:52:09Z",
   "createdAt": "2026-07-12T23:39:52Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -49,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -68,13 +69,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "0338b66b75a1fcbb",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "68567fb3da41468e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "aos-ce 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -92,7 +93,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

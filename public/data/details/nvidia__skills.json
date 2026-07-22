@@ -1,5 +1,5 @@
 {
-  "rank": 527,
+  "rank": 396,
   "id": 1167034425,
   "name": "skills",
   "fullName": "NVIDIA/skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
   "url": "https://github.com/NVIDIA/skills",
   "homepage": "https://docs.nvidia.com/skills",
-  "description": "AI agent skills published by NVIDIA",
+  "description": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
   "summary": "skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -21,20 +21,38 @@
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "npx skills add nvidia/skills",
   "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 2610,
-  "forks": 294,
-  "openIssues": 14,
-  "score": 120,
+  "license": "Apache-2.0",
+  "stars": 2628,
+  "forks": 297,
+  "openIssues": 13,
+  "score": 124.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-20T21:43:09Z",
-  "updatedAt": "2026-07-21T01:43:07Z",
+  "pushedAt": "2026-07-21T21:47:23Z",
+  "updatedAt": "2026-07-22T03:48:34Z",
   "createdAt": "2026-02-25T21:54:05Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "精选来源"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "agentic-ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "cuda",
+    "developer-tools",
+    "llm",
+    "omniverse",
+    "physical-ai",
+    "rag",
+    "robotics",
+    "simulation"
+  ],
   "platforms": [
     "Claude",
     "Codex",
@@ -67,11 +85,11 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "a18c6a1fa04f6d91",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "8370b7c43cb9db15",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -117,7 +135,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

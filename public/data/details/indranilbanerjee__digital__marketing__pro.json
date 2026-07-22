@@ -1,17 +1,17 @@
 {
-  "rank": 2036,
-  "id": 1228622177,
-  "name": "ServiceGraph",
-  "fullName": "nostrband/ServiceGraph",
-  "owner": "nostrband",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/124499563?v=4",
-  "url": "https://github.com/nostrband/ServiceGraph",
-  "homepage": "https://servicegraph.co",
-  "description": "AI Agent skills to access structured datasets for startup founders",
-  "summary": "ServiceGraph：ServiceGraph：ServiceGraph：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1060,
+  "id": 1155175981,
+  "name": "digital-marketing-pro",
+  "fullName": "indranilbanerjee/digital-marketing-pro",
+  "owner": "indranilbanerjee",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1857369?v=4",
+  "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+  "homepage": "https://indranil.in",
+  "description": "Open-source AI marketing plugin for agencies & in-house teams — 158 skills, 25 specialist agents, 12-Part Strategy Flow, Cowork team-persistent, EU AI Act Article 50 ready, 6-platform AEO/GEO incl. Google AI Mode. Installs on Claude Code, Cowork, Codex, Cursor, Copilot CLI, Antigravity. MIT-licensed.",
+  "summary": "digital-marketing-pro：digital-marketing-pro：digital-marketing-pro：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -19,51 +19,65 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nostrband/ServiceGraph.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/indranilbanerjee/digital-marketing-pro.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 69,
-  "forks": 7,
+  "stars": 483,
+  "forks": 85,
   "openIssues": 1,
-  "score": 72.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-02T10:58:15Z",
-  "updatedAt": "2026-07-16T23:11:46Z",
-  "createdAt": "2026-05-04T07:56:07Z",
+  "score": 106.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-18T13:29:29Z",
+  "updatedAt": "2026-07-22T03:48:36Z",
+  "createdAt": "2026-02-11T07:57:53Z",
   "sourceTopics": [
-    "claude-code-skills"
+    "claude-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
+    "aeo",
     "agent-skills",
-    "ai-agents",
-    "b2b-data",
-    "claude-code-marketplace",
-    "claude-code-plugins",
-    "claude-code-skills",
-    "claude-plugins",
+    "ai-marketing",
+    "c2pa",
+    "claude-code",
+    "claude-plugin",
     "claude-skills",
-    "mcp-server",
-    "openapi",
-    "seo-backlinks"
+    "content-marketing",
+    "copilot-cli-plugin",
+    "cursor-plugin",
+    "eu-ai-act",
+    "gemini-cli-extension",
+    "geo",
+    "google-antigravity",
+    "hermes-plugin",
+    "marketing-agency",
+    "marketing-automation",
+    "openai-codex",
+    "openclaw-plugin",
+    "seo"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/nostrband/ServiceGraph",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/indranilbanerjee/digital-marketing-pro",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/nostrband/ServiceGraph#readme",
-  "detailPath": "data/details/nostrband__servicegraph.json",
+  "readmeUrl": "https://github.com/indranilbanerjee/digital-marketing-pro#readme",
+  "detailPath": "data/details/indranilbanerjee__digital__marketing__pro.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ServiceGraph：ServiceGraph：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "digital-marketing-pro：digital-marketing-pro：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -82,14 +96,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-21T03:51:54.523Z",
-    "sourceHash": "891075aa7550a7f3",
+    "generatedAt": "2026-07-22T03:52:37.323Z",
+    "sourceHash": "ca3bae3ac426debf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ServiceGraph：ServiceGraph：ServiceGraph：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "ServiceGraph 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "digital-marketing-pro：digital-marketing-pro：digital-marketing-pro：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "digital-marketing-pro 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -106,7 +120,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
