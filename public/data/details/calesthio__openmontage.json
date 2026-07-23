@@ -1,5 +1,5 @@
 {
-  "rank": 57,
+  "rank": 56,
   "id": 1195360525,
   "name": "OpenMontage",
   "fullName": "calesthio/OpenMontage",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/213189893?v=4",
   "url": "https://github.com/calesthio/OpenMontage",
   "homepage": "https://www.openmontage.video/",
-  "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "summary": "OpenMontage：OpenMontage：世界首个开源的具身智能视频生产系统。包含 12 条流水线、52 种工具及 500 余项智能体技能。将您的 AI 编程助手转化为全功能视频制作工作室。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+  "summary": "OpenMontage：OpenMontage：OpenMontage：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/calesthio/OpenMontage.git\ncd OpenMontage\nmake setup",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 40925,
-  "forks": 4837,
-  "openIssues": 183,
-  "score": 148.7,
+  "stars": 41309,
+  "forks": 4894,
+  "openIssues": 189,
+  "score": 148.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T21:57:37Z",
-  "updatedAt": "2026-07-22T03:44:52Z",
+  "pushedAt": "2026-07-22T14:17:02Z",
+  "updatedAt": "2026-07-23T03:45:14Z",
   "createdAt": "2026-03-29T15:23:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
     "Cursor",
     "GitHub Copilot"
   ],
-  "skillCount": 400,
+  "skillCount": 700,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/calesthio/OpenMontage",
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenMontage：世界首个开源的具身智能视频生产系统。包含 12 条流水线、52 种工具及 500 余项智能体技能。将您的 AI 编程助手转化为全功能视频制作工作室。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "OpenMontage：OpenMontage：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -92,13 +92,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "2e27596ee58866ce",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "23e6cc4b175a2e24",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenMontage：OpenMontage：世界首个开源的具身智能视频生产系统。包含 12 条流水线、52 种工具及 500 余项智能体技能。将您的 AI 编程助手转化为全功能视频制作工作室。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "OpenMontage：OpenMontage：OpenMontage：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "OpenMontage 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -126,7 +126,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "仓库信息显示它包含 400+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 700+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

@@ -1,5 +1,5 @@
 {
-  "rank": 368,
+  "rank": 225,
   "id": 1203558071,
   "name": "TencentDB-Agent-Memory",
   "fullName": "TencentCloud/TencentDB-Agent-Memory",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/20101770?v=4",
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "homepage": "",
-  "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-  "summary": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+  "summary": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "The script checks `node`, `npm`, Python, and Hermes, requires Node.js\n`>=22.16.0`, runs `npm install --omit=dev` when Gateway dependencies are\nmissing, creates `%USERPROFILE%\\.memory-tencentdb\\memory-tdai`, copies the",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 9203,
-  "forks": 853,
-  "openIssues": 316,
-  "score": 125.1,
+  "stars": 9226,
+  "forks": 866,
+  "openIssues": 330,
+  "score": 133.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-19T15:15:17Z",
-  "updatedAt": "2026-07-22T02:38:05Z",
+  "pushedAt": "2026-07-22T10:11:43Z",
+  "updatedAt": "2026-07-23T02:36:57Z",
   "createdAt": "2026-04-07T06:34:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "TencentDB-Agent-Memory：腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -78,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "aa1cf9ee4bc37c28",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "9dc6d66b57a6766c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：腾讯 DB Agent 内存通过四层渐进式管道为 AI 代理提供完全本地长期记忆，无需依赖外部 API。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "TencentDB-Agent-Memory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

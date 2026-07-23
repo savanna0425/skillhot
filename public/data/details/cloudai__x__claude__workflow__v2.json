@@ -1,14 +1,14 @@
 {
-  "rank": 855,
-  "id": 1135937291,
-  "name": "codex-skills",
-  "fullName": "am-will/codex-skills",
-  "owner": "am-will",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/42459108?v=4",
-  "url": "https://github.com/am-will/codex-skills",
+  "rank": 798,
+  "id": 1126064944,
+  "name": "claude-workflow-v2",
+  "fullName": "CloudAI-X/claude-workflow-v2",
+  "owner": "CloudAI-X",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252792870?v=4",
+  "url": "https://github.com/CloudAI-X/claude-workflow-v2",
   "homepage": "",
-  "description": "",
-  "summary": "codex-skills：codex-skills：codex-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "description": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands",
+  "summary": "claude-workflow-v2：claude-workflow-v2：通用 Claude 代码工作流插件，支持智能体、技能、钩子与命令。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,48 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/am-will/codex-skills.git",
-  "language": "Shell",
-  "license": "",
-  "stars": 999,
-  "forks": 57,
-  "openIssues": 5,
-  "score": 110.1,
+  "installCommand": "npx skills add CloudAI-X/claude-workflow-v2",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1387,
+  "forks": 190,
+  "openIssues": 11,
+  "score": 113.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-14T17:12:35Z",
-  "updatedAt": "2026-07-21T11:27:44Z",
-  "createdAt": "2026-01-16T20:04:46Z",
+  "pushedAt": "2026-07-21T12:14:33Z",
+  "updatedAt": "2026-07-16T12:30:17Z",
+  "createdAt": "2026-01-01T02:20:41Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
-  "platforms": [
-    "Codex"
+  "repoTopics": [
+    "agent-skills",
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills",
+    "workflow"
   ],
-  "skillCount": 1,
+  "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor"
+  ],
+  "skillCount": 14,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/am-will/codex-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CloudAI-X/claude-workflow-v2",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/am-will/codex-skills#readme",
-  "detailPath": "data/details/am__will__codex__skills.json",
+  "readmeUrl": "https://github.com/CloudAI-X/claude-workflow-v2#readme",
+  "detailPath": "data/details/cloudai__x__claude__workflow__v2.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "codex-skills：codex-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "claude-workflow-v2：通用 Claude 代码工作流插件，支持智能体、技能、钩子与命令。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "81bcd2611e2570c7",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "1820d7f9e69f21e4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-skills：codex-skills：codex-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "codex-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "claude-workflow-v2：claude-workflow-v2：通用 Claude 代码工作流插件，支持智能体、技能、钩子与命令。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "claude-workflow-v2 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +103,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -102,7 +113,7 @@
       "通常依赖仓库提供的 README、代码、示例或安装命令。",
       "用户按文档把它接入目标环境。",
       "真实效果需要通过小任务试用来判断。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 14+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看作者原始描述和 README。",
@@ -115,7 +126,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

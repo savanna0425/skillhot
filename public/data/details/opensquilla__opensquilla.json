@@ -1,5 +1,5 @@
 {
-  "rank": 371,
+  "rank": 374,
   "id": 1231170332,
   "name": "opensquilla",
   "fullName": "opensquilla/opensquilla",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "The script installs `.[recommended]` (SquillaRouter + memory + local\nmodels) into a dedicated user environment via `uv tool install`,\nfalling back to `python -m pip install --user` when `uv` is",
+  "installCommand": "On Fedora use `sudo dnf install -y git git-lfs`; on Arch use\n`sudo pacman -S --needed git git-lfs`; install Node.js 22.12+ and npm from\nyour distribution or nodejs.org, then install `uv` with the `curl` command",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6228,
-  "forks": 464,
+  "stars": 6248,
+  "forks": 469,
   "openIssues": 91,
   "score": 125.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T18:44:57Z",
-  "updatedAt": "2026-07-22T01:51:01Z",
+  "pushedAt": "2026-07-23T00:37:31Z",
+  "updatedAt": "2026-07-23T03:17:13Z",
   "createdAt": "2026-05-06T17:43:05Z",
   "sourceTopics": [
     "skills"
@@ -84,8 +84,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "5e0a60189d6b9e88",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "d63339bb3e517e57",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

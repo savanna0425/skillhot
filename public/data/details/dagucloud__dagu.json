@@ -1,5 +1,5 @@
 {
-  "rank": 693,
+  "rank": 694,
   "id": 484434975,
   "name": "dagu",
   "fullName": "dagucloud/dagu",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/131097250?v=4",
   "url": "https://github.com/dagucloud/dagu",
   "homepage": "https://dagu.sh",
-  "description": "Local-first workflow engine with a Web UI for small teams. Define DAGs in a declarative YAML format. Self-contained and no DBMS required. Use any AI agent to manage your DAGs.",
-  "summary": "dagu：dagu：面向小团队的本地首效工作流引擎，支持 Web 界面。使用声明式 YAML 格式定义有向无环图（DAG）。无需数据库管理系统即可实现完全自包含。可借助任何 AI 代理来管理您的有向无环图。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-  "category": "UI设计",
-  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "description": "Local-first workflow engine for ops automation and AI-assisted operations. Open source and self-hostable: single binary, no DBMS. Define DAGs in declarative YAML. Built-in MCP server so AI agents can manage your DAGs.",
+  "summary": "dagu：dagu：dagu 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "界面设计",
-    "设计系统",
-    "体验质量检查"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "brew install dagu",
   "language": "Go",
   "license": "GPL-3.0",
-  "stars": 3658,
+  "stars": 3660,
   "forks": 294,
-  "openIssues": 62,
-  "score": 115.5,
+  "openIssues": 63,
+  "score": 115.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T18:21:38Z",
-  "updatedAt": "2026-07-22T01:52:15Z",
+  "pushedAt": "2026-07-23T02:43:11Z",
+  "updatedAt": "2026-07-22T18:54:48Z",
   "createdAt": "2022-04-22T13:00:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,70 +73,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dagu：面向小团队的本地首效工作流引擎，支持 Web 界面。使用声明式 YAML 格式定义有向无环图（DAG）。无需数据库管理系统即可实现完全自包含。可借助任何 AI 代理来管理您的有向无环图。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "dagu：dagu 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
-      "界面设计",
-      "设计系统",
-      "体验质量检查"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "d29c24b1b0c8dd9c",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "19d2b345460fef3f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dagu：dagu：面向小团队的本地首效工作流引擎，支持 Web 界面。使用声明式 YAML 格式定义有向无环图（DAG）。无需数据库管理系统即可实现完全自包含。可借助任何 AI 代理来管理您的有向无环图。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "dagu 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dagu：dagu：dagu 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "dagu 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
-      "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
-      "从想法到可展示界面之间缺少一个稳定的辅助流程。",
-      "如果你的任务和「界面设计」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助生成或改进界面、组件、演示页面与视觉方案。",
-      "把设计系统、布局、色彩或可访问性要求整理成 Agent 可执行的步骤。",
-      "帮助你在打开 README 前判断它是否适合当前 UI 任务。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "用 Agent 做网页、App 原型或视觉材料的人。",
-      "希望提高前端页面完成度的开发者。",
-      "需要把设计规范沉淀为可复用流程的小团队。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",
-      "需要完整商业设计服务或品牌策略的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
-      "用户把它接入目标工具后，在界面任务中调用对应流程。",
-      "具体生成效果取决于你的模型能力、素材质量和项目约束。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看 README 中的示例截图或输出案例。",
-      "确认它支持你的前端框架、设计工具或 Agent 客户端。",
-      "用一个小页面或组件试跑，再决定是否用于正式项目。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "更快得到可展示的界面雏形。",
-      "减少“能运行但不好看”的 Agent 输出。",
-      "把审美要求变成更稳定的工作流。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",

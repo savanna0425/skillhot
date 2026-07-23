@@ -1,14 +1,14 @@
 {
-  "rank": 1448,
-  "id": 1194639903,
-  "name": "Qclaw",
-  "fullName": "qiuzhi2046/Qclaw",
-  "owner": "qiuzhi2046",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/193497885?v=4",
-  "url": "https://github.com/qiuzhi2046/Qclaw",
-  "homepage": "",
-  "description": "不用命令行，小白也能轻松玩转 OpenClaw",
-  "summary": "Qclaw：Qclaw：不用命令行，小白也能轻松玩转 OpenClaw。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1118,
+  "id": 1117388084,
+  "name": "happier",
+  "fullName": "happier-dev/happier",
+  "owner": "happier-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/258441704?v=4",
+  "url": "https://github.com/happier-dev/happier",
+  "homepage": "https://happier.dev",
+  "description": "Web, Desktop & Mobile client for Codex, Claude Code, OpenCode, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
+  "summary": "happier：happier：适用于 Codex、Claude Code、OpenCode、Kimi、Augment Code 及 Qwen 的 Web、桌面及移动客户端，完全端到端加密。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,37 +19,51 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/qiuzhi2046/Qclaw.git",
+  "installCommand": "git clone https://github.com/happier-dev/happier.git",
   "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 2819,
-  "forks": 335,
-  "openIssues": 59,
-  "score": 97.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-30T09:32:47Z",
-  "updatedAt": "2026-07-22T01:10:21Z",
-  "createdAt": "2026-03-28T16:17:01Z",
+  "license": "MIT",
+  "stars": 1389,
+  "forks": 114,
+  "openIssues": 40,
+  "score": 105.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-22T05:57:13Z",
+  "updatedAt": "2026-07-22T19:42:27Z",
+  "createdAt": "2025-12-16T08:44:25Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "codex",
+    "gemini",
+    "kimi",
+    "opencode",
+    "qwen",
+    "vibe-coding",
+    "vibecoding"
+  ],
   "platforms": [
-    "OpenClaw"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/qiuzhi2046/Qclaw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/happier-dev/happier",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/qiuzhi2046/Qclaw#readme",
-  "detailPath": "data/details/qiuzhi2046__qclaw.json",
+  "readmeUrl": "https://github.com/happier-dev/happier#readme",
+  "detailPath": "data/details/happier__dev__happier.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Qclaw：不用命令行，小白也能轻松玩转 OpenClaw。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "happier：适用于 Codex、Claude Code、OpenCode、Kimi、Augment Code 及 Qwen 的 Web、桌面及移动客户端，完全端到端加密。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -65,17 +79,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "87584e6c3200c39c",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "baedef797c43bc89",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Qclaw：Qclaw：不用命令行，小白也能轻松玩转 OpenClaw。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "Qclaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "happier：happier：适用于 Codex、Claude Code、OpenCode、Kimi、Augment Code 及 Qwen 的 Web、桌面及移动客户端，完全端到端加密。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "happier 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -92,7 +106,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -115,7 +129,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

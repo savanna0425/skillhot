@@ -1,5 +1,5 @@
 {
-  "rank": 175,
+  "rank": 171,
   "id": 1198306812,
   "name": "Vibe-Trading",
   "fullName": "HKUDS/Vibe-Trading",
@@ -22,13 +22,13 @@
   "installCommand": "pip install vibe-trading-ai\nvibe-trading run -p \"Backtest a BTC-USDT 20/50 moving-average strategy for 2024, summarize return and drawdown, then export the report\"\nvibe-trading alpha bench --zoo gtja191 --universe csi300 --period 2018-2025 --top 20",
   "language": "Python",
   "license": "MIT",
-  "stars": 26187,
-  "forks": 4288,
-  "openIssues": 17,
-  "score": 136,
+  "stars": 26579,
+  "forks": 4340,
+  "openIssues": 13,
+  "score": 136.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T06:58:21Z",
-  "updatedAt": "2026-07-22T03:49:27Z",
+  "pushedAt": "2026-07-23T03:39:34Z",
+  "updatedAt": "2026-07-23T03:47:31Z",
   "createdAt": "2026-04-01T09:52:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "platforms": [
     "Agent Skills"
   ],
-  "skillCount": 87,
+  "skillCount": 88,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/Vibe-Trading",
@@ -80,8 +80,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "6e9bcbf67d33920d",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "1377d372882fe8bc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -114,7 +114,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 87+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 88+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

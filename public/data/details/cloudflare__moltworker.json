@@ -1,5 +1,5 @@
 {
-  "rank": 838,
+  "rank": 847,
   "id": 1143261428,
   "name": "moltworker",
   "fullName": "cloudflare/moltworker",
@@ -22,13 +22,13 @@
   "installCommand": "npm install\nnpx wrangler secret put ANTHROPIC_API_KEY\nexport MOLTBOT_GATEWAY_TOKEN=$(openssl rand -hex 32)",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 9925,
+  "stars": 9926,
   "forks": 1746,
   "openIssues": 97,
   "score": 110.9,
   "activity": "近期活跃",
   "pushedAt": "2026-05-09T02:37:13Z",
-  "updatedAt": "2026-07-21T20:11:53Z",
+  "updatedAt": "2026-07-22T23:00:20Z",
   "createdAt": "2026-01-27T11:09:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,8 +72,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "a22f750fbfcc1dc0",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "57606759e9ee3928",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

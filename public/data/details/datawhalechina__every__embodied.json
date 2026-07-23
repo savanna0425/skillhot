@@ -1,66 +1,62 @@
 {
-  "rank": 1978,
-  "id": 1246994155,
-  "name": "floom",
-  "fullName": "floomhq/floom",
-  "owner": "floomhq",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/270781215?v=4",
-  "url": "https://github.com/floomhq/floom",
-  "homepage": "https://floom.dev",
-  "description": "AI runtime for creating, running, and supervising background AI workers.",
-  "summary": "floom：floom：floom 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 820,
+  "id": 900320441,
+  "name": "every-embodied",
+  "fullName": "datawhalechina/every-embodied",
+  "owner": "datawhalechina",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/46047812?v=4",
+  "url": "https://github.com/datawhalechina/every-embodied",
+  "homepage": "",
+  "description": "仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能",
+  "summary": "every-embodied：every-embodied：仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/floomhq/floom.git",
+  "installCommand": "git clone --depth 1 https://github.com/datawhalechina/every-embodied.git\ncd every-embodied\nconda create -n embodied python=3.8",
   "language": "Python",
-  "license": "MIT",
-  "stars": 45,
-  "forks": 2,
-  "openIssues": 150,
-  "score": 75.8,
+  "license": "NOASSERTION",
+  "stars": 2823,
+  "forks": 283,
+  "openIssues": 9,
+  "score": 112.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-21T17:25:20Z",
-  "updatedAt": "2026-07-21T17:26:32Z",
-  "createdAt": "2026-05-22T19:32:57Z",
-  "sourceTopics": [
-    "ai-skills"
-  ],
+  "pushedAt": "2026-07-20T15:16:45Z",
+  "updatedAt": "2026-07-23T03:21:15Z",
+  "createdAt": "2024-12-08T13:33:40Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-runtime",
-    "ai-agents",
-    "ai-skills",
-    "ai-workers",
-    "automation",
-    "llm",
-    "mcp",
-    "python"
+    "embodied-agent",
+    "embodied-ai",
+    "embodied-intelligence",
+    "openvla",
+    "smolvla",
+    "vision-language-action-model"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/floomhq/floom",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/datawhalechina/every-embodied",
+    "videoUrl": "https://www.bilibili.com/video/BV1YFAbzoECf"
   },
-  "readmeUrl": "https://github.com/floomhq/floom#readme",
-  "detailPath": "data/details/floomhq__floom.json",
+  "readmeUrl": "https://github.com/datawhalechina/every-embodied#readme",
+  "detailPath": "data/details/datawhalechina__every__embodied.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "floom：floom 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "every-embodied：仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能。适合在 Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "97ebf1caee091c68",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "e4b6ce24cf6c574e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "floom：floom：floom 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "floom 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "every-embodied：every-embodied：仅需Python基础，从0构建自己的具身智能机器人；从0逐步构建VLA/OpenVLA/SmolVLA/Pi0， 深入理解具身智能。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "every-embodied 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -103,7 +99,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -126,7 +122,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

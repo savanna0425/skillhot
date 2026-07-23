@@ -1,5 +1,5 @@
 {
-  "rank": 289,
+  "rank": 203,
   "id": 1211139949,
   "name": "archify",
   "fullName": "tt-a1i/archify",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/53142663?v=4",
   "url": "https://github.com/tt-a1i/archify",
   "homepage": "https://tt-a1i.github.io/archify/",
-  "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
-  "summary": "archify：archify：任何 Agent 技能：生成带有深色/浅色主题切换的精美架构图，并支持 PNG/JPEG/WebP/SVG 导出。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+  "summary": "archify：archify：archify 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,30 +22,40 @@
   "installCommand": "npx skills add tt-a1i/archify -g",
   "language": "HTML",
   "license": "MIT",
-  "stars": 6784,
-  "forks": 457,
-  "openIssues": 3,
-  "score": 130,
+  "stars": 7000,
+  "forks": 474,
+  "openIssues": 6,
+  "score": 134.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T03:51:16Z",
-  "updatedAt": "2026-07-22T03:45:16Z",
+  "pushedAt": "2026-07-23T03:21:02Z",
+  "updatedAt": "2026-07-23T03:43:47Z",
   "createdAt": "2026-04-15T05:27:37Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "anthropic",
     "architecture-diagram",
     "claude-skill",
+    "codex",
     "dark-mode",
+    "data-flow-diagram",
     "developer-tools",
     "diagram-as-code",
     "html-diagram",
+    "lifecycle-diagram",
     "mermaid-alternative",
+    "opencode",
+    "sequence-diagram",
     "svg",
-    "system-design"
+    "system-design",
+    "workflow-diagram"
   ],
   "platforms": [
     "Claude",
@@ -63,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "archify：任何 Agent 技能：生成带有深色/浅色主题切换的精美架构图，并支持 PNG/JPEG/WebP/SVG 导出。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "summary": "archify：archify 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "5796d427e72a0874",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "1e355adbe1de8536",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "archify：archify：任何 Agent 技能：生成带有深色/浅色主题切换的精美架构图，并支持 PNG/JPEG/WebP/SVG 导出。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "archify：archify：archify 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "archify 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 511,
+  "rank": 513,
   "id": 1032419366,
   "name": "gepa",
   "fullName": "gepa-ai/gepa",
@@ -8,7 +8,7 @@
   "url": "https://github.com/gepa-ai/gepa",
   "homepage": "https://gepa-ai.github.io/gepa/",
   "description": "Optimize prompts, code, and more with AI-powered Reflective Optimization",
-  "summary": "gepa：gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "gepa：gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install gepa",
   "language": "Jupyter Notebook",
   "license": "MIT",
-  "stars": 5716,
-  "forks": 470,
+  "stars": 5724,
+  "forks": 472,
   "openIssues": 108,
   "score": 120.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T02:03:58Z",
-  "updatedAt": "2026-07-22T00:18:58Z",
+  "pushedAt": "2026-07-23T02:20:23Z",
+  "updatedAt": "2026-07-23T01:29:00Z",
   "createdAt": "2025-08-05T09:26:27Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,10 @@
   "repoTopics": [],
   "platforms": [
     "Claude",
-    "Gemini CLI"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -50,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -69,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "a8095e23aba8daa4",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "88062af262f674f5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gepa：gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "gepa：gepa：gepa：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "gepa 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -93,7 +96,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

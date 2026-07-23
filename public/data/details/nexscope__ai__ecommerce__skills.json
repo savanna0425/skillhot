@@ -1,5 +1,5 @@
 {
-  "rank": 1429,
+  "rank": 781,
   "id": 1185016972,
   "name": "eCommerce-Skills",
   "fullName": "nexscope-ai/eCommerce-Skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nexscope-ai/eCommerce-Skills",
   "homepage": "",
   "description": "E-commerce skills for AI agents — product research, marketing automation, supply chain optimization, and business analytics for online sellers across Amazon, Shopify, Etsy, TikTok Shop, and all platforms.",
-  "summary": "eCommerce-Skills：eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "eCommerce-Skills：eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nexscope-ai/eCommerce-Skills.git",
+  "installCommand": "npx skills add nexscope-ai/eCommerce-Skills -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 440,
-  "forks": 67,
+  "stars": 447,
+  "forks": 68,
   "openIssues": 4,
-  "score": 98.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-10T07:57:04Z",
-  "updatedAt": "2026-07-21T21:40:26Z",
+  "score": 113.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-23T03:34:09Z",
+  "updatedAt": "2026-07-23T03:34:15Z",
   "createdAt": "2026-03-18T06:42:32Z",
   "sourceTopics": [
     "ai-agent-skills",
@@ -53,9 +53,11 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
+    "Cursor",
     "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 142,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/nexscope-ai/eCommerce-Skills",
@@ -66,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -85,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "a338ce727b2ca85d",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "7e81186b0731f583",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "eCommerce-Skills：eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "eCommerce-Skills：eCommerce-Skills：面向 AI 代理的电商技能——涵盖产品研究、营销自动化、供应链优化以及面向亚马逊、Shopify、Etsy、TikTok Shop 及所有平台的商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "eCommerce-Skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -109,7 +111,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -119,7 +121,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 142+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",

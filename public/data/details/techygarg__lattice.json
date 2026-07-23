@@ -1,5 +1,5 @@
 {
-  "rank": 1699,
+  "rank": 1707,
   "id": 1170693138,
   "name": "lattice",
   "fullName": "techygarg/lattice",
@@ -8,7 +8,7 @@
   "url": "https://github.com/techygarg/lattice",
   "homepage": "",
   "description": "Install engineering discipline into any AI coding assistant. Composable skills for design, implementation, review, and team standards. Better process, not just better prompts.",
-  "summary": "lattice：lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "lattice：lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -28,7 +28,7 @@
   "score": 88.8,
   "activity": "本月活跃",
   "pushedAt": "2026-07-06T05:31:13Z",
-  "updatedAt": "2026-07-21T00:44:36Z",
+  "updatedAt": "2026-07-22T05:10:29Z",
   "createdAt": "2026-03-02T12:09:41Z",
   "sourceTopics": [
     "codex-skills"
@@ -51,6 +51,7 @@
     "codex-plugin",
     "codex-skills",
     "context-engineering",
+    "cursor-plugin",
     "ddd",
     "engineering-enablement",
     "lattice",
@@ -59,7 +60,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -72,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "51269e5eca8ef665",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "1f7aff0b055548f8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lattice：lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "lattice：lattice：为任何 AI 编程助手植入工程学科。可组合的设计、实现、审查及团队标准技能。超越提示本身，实现更优流程。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "lattice 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -115,7 +117,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

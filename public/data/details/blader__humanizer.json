@@ -1,17 +1,17 @@
 {
-  "rank": 137,
+  "rank": 49,
   "id": 1136666433,
   "name": "humanizer",
   "fullName": "blader/humanizer",
   "owner": "blader",
   "avatarUrl": "https://avatars.githubusercontent.com/u/1672?v=4",
   "url": "https://github.com/blader/humanizer",
-  "homepage": "",
-  "description": "Claude Code skill that removes signs of AI-generated writing from text",
-  "summary": "humanizer：humanizer：Claude Code 插件：去除文本中 AI 生成痕迹。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "homepage": "https://skills.sh/blader/humanizer",
+  "description": "Agent skill that removes signs of AI-generated writing from text",
+  "summary": "humanizer：humanizer：humanizer：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,25 +19,38 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add blader/humanizer",
-  "language": "",
+  "installCommand": "npx skills add blader/humanizer --global",
+  "language": "Python",
   "license": "MIT",
-  "stars": 30242,
-  "forks": 2787,
-  "openIssues": 73,
-  "score": 138.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-29T20:43:06Z",
-  "updatedAt": "2026-07-22T03:41:59Z",
+  "stars": 30445,
+  "forks": 2806,
+  "openIssues": 5,
+  "score": 149.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-22T06:26:25Z",
+  "updatedAt": "2026-07-23T03:43:16Z",
   "createdAt": "2026-01-18T05:30:15Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-writing",
+    "claude-code",
+    "codex",
+    "cursor",
+    "prompt-engineering",
+    "writing-tools"
+  ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -50,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "humanizer：Claude Code 插件：去除文本中 AI 生成痕迹。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "humanizer：humanizer：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -69,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-22T03:52:37.323Z",
-    "sourceHash": "954ad26fdf99a1f3",
+    "generatedAt": "2026-07-23T03:50:32.593Z",
+    "sourceHash": "24c378e0bf83b3f2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "humanizer：humanizer：Claude Code 插件：去除文本中 AI 生成痕迹。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "humanizer：humanizer：humanizer：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "humanizer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -93,7 +106,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
