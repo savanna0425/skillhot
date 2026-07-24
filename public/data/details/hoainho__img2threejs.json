@@ -1,75 +1,68 @@
 {
-  "rank": 891,
-  "id": 1193300953,
-  "name": "dramaclaw",
-  "fullName": "dramaclaw/dramaclaw",
-  "owner": "dramaclaw",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/271427583?v=4",
-  "url": "https://github.com/dramaclaw/dramaclaw",
-  "homepage": "https://dramaclaw.ai",
-  "description": "A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可",
-  "summary": "dramaclaw：dramaclaw：通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 766,
+  "id": 1301140808,
+  "name": "img2threejs",
+  "fullName": "hoainho/img2threejs",
+  "owner": "hoainho",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/47898976?v=4",
+  "url": "https://github.com/hoainho/img2threejs",
+  "homepage": "https://hoainho.github.io/img2threejs-showcase/",
+  "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+  "summary": "img2threejs：img2threejs：img2threejs：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dramaclaw/dramaclaw.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 1998,
-  "forks": 161,
-  "openIssues": 21,
-  "score": 109.3,
+  "installCommand": "git clone https://github.com/hoainho/img2threejs.git ~/.claude/skills/img2threejs",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 3198,
+  "forks": 244,
+  "openIssues": 14,
+  "score": 114.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-23T03:39:43Z",
-  "updatedAt": "2026-07-23T03:35:54Z",
-  "createdAt": "2026-03-27T04:34:30Z",
+  "pushedAt": "2026-07-24T02:04:57Z",
+  "updatedAt": "2026-07-24T03:48:30Z",
+  "createdAt": "2026-07-15T02:58:39Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
-    "ai-filmmaking",
-    "ai-video",
-    "aigc",
-    "aigc-pipeline",
-    "content-creation",
-    "dramaclaw",
-    "fastapi",
-    "generative-ai",
-    "image-to-video",
-    "python",
-    "react",
-    "self-hosted",
-    "storyboard",
-    "text-to-video",
-    "tts",
-    "video-engine",
-    "video-generation",
-    "voice-synthesis"
+    "3d",
+    "ai-agents",
+    "claude-code",
+    "computer-graphics",
+    "generative",
+    "image-to-3d",
+    "procedural-generation",
+    "threejs",
+    "typescript",
+    "webgl"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/dramaclaw/dramaclaw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/hoainho/img2threejs",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/dramaclaw/dramaclaw#readme",
-  "detailPath": "data/details/dramaclaw__dramaclaw.json",
+  "readmeUrl": "https://github.com/hoainho/img2threejs#readme",
+  "detailPath": "data/details/hoainho__img2threejs.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dramaclaw：通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "img2threejs：img2threejs：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -85,17 +78,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "fdf1a639495301d1",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "ebdc5219e4e67d18",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dramaclaw：dramaclaw：通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "dramaclaw 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "img2threejs：img2threejs：img2threejs：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "whatItIs": "img2threejs 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -112,7 +105,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -135,7 +128,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 875,
+  "rank": 641,
   "id": 628729877,
   "name": "langroid",
   "fullName": "langroid/langroid",
@@ -8,7 +8,7 @@
   "url": "https://github.com/langroid/langroid",
   "homepage": "https://langroid.github.io/langroid/",
   "description": "Harness LLMs with Multi-Agent Programming",
-  "summary": "langroid：langroid：利用多代理编程调用大语言模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "langroid：langroid：利用多代理编程调用大语言模型。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/langroid/langroid.git",
+  "installCommand": "pip install langroid",
   "language": "Python",
   "license": "MIT",
   "stars": 4081,
   "forks": 386,
-  "openIssues": 75,
-  "score": 109.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-12T20:27:58Z",
-  "updatedAt": "2026-07-22T11:59:39Z",
+  "openIssues": 74,
+  "score": 116.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-23T20:42:13Z",
+  "updatedAt": "2026-07-23T23:53:00Z",
   "createdAt": "2023-04-16T20:47:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,20 +55,21 @@
     "retrieval-augmented-generation"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/langroid/langroid",
-    "videoUrl": ""
+    "videoUrl": "https://vimeo.com/871429249"
   },
   "readmeUrl": "https://github.com/langroid/langroid#readme",
   "detailPath": "data/details/langroid__langroid.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "langroid：利用多代理编程调用大语言模型。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "langroid：利用多代理编程调用大语言模型。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "937b5e6d3be80e3e",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "2bb08dd9e85dd9ed",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "langroid：langroid：利用多代理编程调用大语言模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "langroid：langroid：利用多代理编程调用大语言模型。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "langroid 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -111,7 +112,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

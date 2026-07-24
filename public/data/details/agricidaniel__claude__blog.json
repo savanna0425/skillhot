@@ -1,5 +1,5 @@
 {
-  "rank": 595,
+  "rank": 589,
   "id": 1160406193,
   "name": "claude-blog",
   "fullName": "AgriciDaniel/claude-blog",
@@ -8,7 +8,7 @@
   "url": "https://github.com/AgriciDaniel/claude-blog",
   "homepage": "https://claude-blog.md",
   "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
-  "summary": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AI-Marketing-Hub/claude-blog.git\ncd claude-blog\ngit checkout v1.9.0          # pin to a release tag (latest as of 2026-05-18)",
+  "installCommand": "git clone https://github.com/AgriciDaniel/claude-blog.git\ncd claude-blog\ngit checkout v2.1.1",
   "language": "Python",
   "license": "MIT",
-  "stars": 1446,
-  "forks": 251,
-  "openIssues": 23,
-  "score": 117.9,
+  "stars": 1456,
+  "forks": 252,
+  "openIssues": 22,
+  "score": 118,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-17T04:24:00Z",
-  "updatedAt": "2026-07-23T02:37:18Z",
+  "pushedAt": "2026-07-23T17:30:50Z",
+  "updatedAt": "2026-07-24T03:37:15Z",
   "createdAt": "2026-02-17T22:40:44Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -61,10 +61,9 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
     "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 32,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-blog",
@@ -75,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -94,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "53e034ce30fb30d2",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "70e88db18faaa945",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "claude-blog 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -118,7 +117,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -128,7 +127,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 32+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",

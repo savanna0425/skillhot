@@ -1,66 +1,69 @@
 {
-  "rank": 1897,
-  "id": 1277451814,
-  "name": "job-description-skill",
-  "fullName": "yanliudesign/job-description-skill",
-  "owner": "yanliudesign",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/232981236?v=4",
-  "url": "https://github.com/yanliudesign/job-description-skill",
-  "homepage": "",
-  "description": "Claude skill that reads a job description and hands back an HTML report — match score, resume tailor, interview predictor, and a should-I-apply verdict.",
-  "summary": "job-description-skill：job-description-skill：job-description-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2150,
+  "id": 1305811676,
+  "name": "scalable-agent-skills",
+  "fullName": "WitzardOtz/scalable-agent-skills",
+  "owner": "WitzardOtz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/13440611?v=4",
+  "url": "https://github.com/WitzardOtz/scalable-agent-skills",
+  "homepage": "https://www.scalablepod.it",
+  "description": "Agent skills for Startup People — runs on Claude, Codex and Antigravity. Three Skills for the startup world: startup validation (IdeaLedger Method), startup evaluation (IdeaLedger Evaluator), and career positioning (Career Headhunter).",
+  "summary": "scalable-agent-skills：scalable-agent-skills：scalable-agent-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
     "营销增长",
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/yanliudesign/job-description-skill.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/WitzardOtz/scalable-agent-skills.git",
+  "language": "Python",
   "license": "",
-  "stars": 74,
-  "forks": 7,
+  "stars": 0,
+  "forks": 0,
   "openIssues": 0,
-  "score": 81.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-05T23:26:38Z",
-  "updatedAt": "2026-07-21T13:37:26Z",
-  "createdAt": "2026-06-22T23:00:03Z",
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-23T21:43:33Z",
+  "updatedAt": "2026-07-23T21:44:17Z",
+  "createdAt": "2026-07-19T15:21:14Z",
   "sourceTopics": [
-    "ai-skill"
+    "agentic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skill",
-    "career",
+    "agentic-skills",
+    "anthropic",
+    "antigravity",
+    "claude",
     "claude-skill",
-    "interview-prep",
-    "job-description",
-    "job-search",
-    "prompt-engineering",
-    "resume"
+    "codex",
+    "idealedger",
+    "startup",
+    "venture-capital"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/yanliudesign/job-description-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/WitzardOtz/scalable-agent-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/yanliudesign/job-description-skill#readme",
-  "detailPath": "data/details/yanliudesign__job__description__skill.json",
+  "readmeUrl": "https://github.com/WitzardOtz/scalable-agent-skills#readme",
+  "detailPath": "data/details/witzardotz__scalable__agent__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "job-description-skill：job-description-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "scalable-agent-skills：scalable-agent-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -79,14 +82,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "e2519de053f577cd",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "98350d1b7644977d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "job-description-skill：job-description-skill：job-description-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "job-description-skill 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "scalable-agent-skills：scalable-agent-skills：scalable-agent-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
+    "whatItIs": "scalable-agent-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -103,7 +106,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

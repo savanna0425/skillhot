@@ -1,5 +1,5 @@
 {
-  "rank": 549,
+  "rank": 542,
   "id": 793379298,
   "name": "Olares",
   "fullName": "beclab/Olares",
@@ -7,46 +7,44 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/166520503?v=4",
   "url": "https://github.com/beclab/Olares",
   "homepage": "https://www.olares.com/",
-  "description": "Olares is an open-source personal cloud OS you operate in plain language, built to run AI agents and LLMs on hardware you own.",
-  "summary": "Olares：Olares：Olares 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "description": "Open-Source Personal Cloud OS for Always-On Agents",
+  "summary": "Olares：Olares：Olares 聚焦安全审计、漏洞检查与风险治理。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "category": "安全",
+  "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "待复核",
   "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "代码审计",
+    "漏洞研究",
+    "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/beclab/Olares.git",
   "language": "Go",
   "license": "AGPL-3.0",
-  "stars": 5082,
+  "stars": 5084,
   "forks": 308,
-  "openIssues": 138,
+  "openIssues": 141,
   "score": 119,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T19:17:34Z",
-  "updatedAt": "2026-07-22T16:37:34Z",
+  "pushedAt": "2026-07-24T03:35:30Z",
+  "updatedAt": "2026-07-24T03:41:11Z",
   "createdAt": "2024-04-29T05:43:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agentic-ai",
     "ai-agents",
-    "ai-privacy",
+    "cloud-native",
+    "data-privacy",
     "edge-ai",
-    "home-automation",
-    "home-cloud",
-    "home-server",
     "homelab",
-    "homeserver",
     "kubernetes",
     "local-ai",
-    "mcp",
     "model-serving",
+    "operating-system",
     "personal-cloud",
     "self-hosted"
   ],
@@ -64,18 +62,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Olares：Olares 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "Olares：Olares 聚焦安全审计、漏洞检查与风险治理。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "代码审计",
+      "漏洞研究",
+      "安全合规"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "需要安全审计、漏洞研究、威胁分析与合规能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -83,51 +81,51 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "898d169327f23eff",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "f4d7e9eda1ef9f5d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Olares：Olares：Olares 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "Olares 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Olares：Olares：Olares 聚焦安全审计、漏洞检查与风险治理。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "Olares 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
-      "跨平台工作流缺少统一入口。",
-      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
-      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
+      "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
+      "安全排查需要固定流程，不能只靠临时经验。",
+      "团队希望把安全审计能力前置到开发或使用阶段。",
+      "如果你的任务和「代码审计」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
-      "把重复任务封装成 Agent 可以触发的流程。",
-      "帮助你判断它是否适合当前自动化任务。",
+      "辅助安全审计、漏洞研究、权限检查、合规排查或威胁分析。",
+      "把安全检查步骤整理成可复用的 Agent 工作流。",
+      "帮助你判断它是否适合当前风险场景。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理重复网页操作、数据搬运或工具联动的人。",
-      "想让 Agent 执行半自动流程的开发者和运营人员。",
-      "需要把日常任务脚本化的小团队。",
+      "开发者、安全研究员和需要做风险自查的团队。",
+      "想把安全检查嵌入 Agent 或开发流程的人。",
+      "需要快速筛查配置、依赖或代码风险的人。",
       "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
-      "没有能力检查自动化结果和异常的人。"
+      "未经授权的攻击、绕过或滥用场景。",
+      "把工具输出当作最终安全结论而不做人工复核的人。"
     ],
     "howItWorks": [
-      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
-      "用户配置目标工具后，让 Agent 按流程操作。",
-      "稳定性取决于目标网站、权限和异常处理。",
+      "通常通过规则、脚本、扫描器、Skill 或报告模板执行检查。",
+      "用户提供目标代码、配置或范围后，Agent 按流程分析并输出线索。",
+      "安全结论需要结合上下文和专业复核。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用测试账号或非关键任务验证。",
-      "确认它是否遵守目标平台规则。",
-      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
+      "先阅读许可和使用边界。",
+      "在你有授权的项目中试跑。",
+      "把发现的问题交给人工确认后再修复或披露。"
     ],
     "expectedOutcome": [
-      "重复操作耗时减少。",
-      "跨工具流程更顺。",
-      "Agent 可以承担更多可控的执行型任务。"
+      "更早发现潜在风险。",
+      "安全检查过程更有结构。",
+      "团队可以复用固定审计流程。"
     ],
     "caveats": [
       "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",

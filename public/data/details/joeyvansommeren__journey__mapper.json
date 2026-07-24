@@ -1,14 +1,14 @@
 {
-  "rank": 2239,
-  "id": 1231188263,
-  "name": "skill-graph",
-  "fullName": "jacob-balslev/skill-graph",
-  "owner": "jacob-balslev",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/96240965?v=4",
-  "url": "https://github.com/jacob-balslev/skill-graph",
-  "homepage": "https://www.npmjs.com/package/@skill-graph/cli",
-  "description": "Skills that know your codebase. Repo-grounded, contract-validated, agent-routable.",
-  "summary": "skill-graph：skill-graph：skill-graph 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2039,
+  "id": 1259311205,
+  "name": "journey-mapper",
+  "fullName": "joeyvansommeren/journey-mapper",
+  "owner": "joeyvansommeren",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/151509064?v=4",
+  "url": "https://github.com/joeyvansommeren/journey-mapper",
+  "homepage": "",
+  "description": "Claude Code skill that scans a codebase and generates a self-contained HTML service-design journey map (NN/g combined customer journey + service blueprint)",
+  "summary": "journey-mapper：journey-mapper：journey-mapper 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,35 +19,30 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jacob-balslev/skill-graph.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/joeyvansommeren/journey-mapper.git",
+  "language": "HTML",
   "license": "NOASSERTION",
-  "stars": 1,
-  "forks": 0,
+  "stars": 72,
+  "forks": 2,
   "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-22T13:44:58Z",
-  "updatedAt": "2026-06-19T07:45:44Z",
-  "createdAt": "2026-05-06T18:05:43Z",
+  "score": 72.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-04T12:02:44Z",
+  "updatedAt": "2026-07-23T22:53:25Z",
+  "createdAt": "2026-06-04T11:37:02Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-orchestration",
-    "agent-skills",
-    "anthropic-skills",
-    "audit-loop",
     "claude-code",
-    "json-schema",
-    "karpathy-loop",
-    "llm-agents",
-    "mcp",
-    "skill-graph",
-    "skill-md"
+    "claude-code-skills",
+    "journey-mapping",
+    "service-blueprint",
+    "service-design",
+    "ux-design"
   ],
   "platforms": [
     "Claude"
@@ -55,15 +50,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jacob-balslev/skill-graph",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/joeyvansommeren/journey-mapper",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jacob-balslev/skill-graph#readme",
-  "detailPath": "data/details/jacob__balslev__skill__graph.json",
+  "readmeUrl": "https://github.com/joeyvansommeren/journey-mapper#readme",
+  "detailPath": "data/details/joeyvansommeren__journey__mapper.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-graph：skill-graph 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "journey-mapper：journey-mapper 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,14 +77,14 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-23T03:50:32.593Z",
-    "sourceHash": "73badf7ea2af6282",
+    "generatedAt": "2026-07-24T03:49:19.181Z",
+    "sourceHash": "3f51a88fb3b981c5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-graph：skill-graph：skill-graph 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "skill-graph 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "journey-mapper：journey-mapper：journey-mapper 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "journey-mapper 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
