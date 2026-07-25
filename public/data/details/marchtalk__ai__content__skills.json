@@ -1,34 +1,34 @@
 {
-  "rank": 2235,
+  "rank": 2100,
   "id": 1297220054,
   "name": "ai-content-skills",
   "fullName": "MarchTalk/ai-content-skills",
   "owner": "MarchTalk",
   "avatarUrl": "https://avatars.githubusercontent.com/u/282011316?v=4",
   "url": "https://github.com/MarchTalk/ai-content-skills",
-  "homepage": "",
+  "homepage": "https://marchaihq.com",
   "description": "MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线",
-  "summary": "ai-content-skills：ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "技能开发",
-  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "summary": "ai-content-skills：ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
   "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "创建技能",
-    "组织工作流",
-    "扩展 Agent 能力"
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
   ],
-  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/MarchTalk/ai-content-skills.git",
   "language": "",
   "license": "MIT",
-  "stars": 2,
+  "stars": 3,
   "forks": 0,
   "openIssues": 0,
-  "score": 60.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-14T11:23:58Z",
-  "updatedAt": "2026-07-23T11:24:20Z",
+  "score": 68.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-24T19:12:26Z",
+  "updatedAt": "2026-07-24T19:13:41Z",
   "createdAt": "2026-07-11T07:17:52Z",
   "sourceTopics": [
     "ai-agent-skills"
@@ -38,13 +38,20 @@
   ],
   "repoTopics": [
     "ai-agent-skills",
+    "ai-writing",
+    "anthropic",
     "chinese",
     "claude-code",
+    "codex",
     "content-creation",
-    "marchskill"
+    "llm",
+    "marchskill",
+    "prompt-engineering",
+    "writing-assistant"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -57,70 +64,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
-      "创建技能",
-      "组织工作流",
-      "扩展 Agent 能力"
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "604c03ce58379f4c",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "eb908ec1ac30d53e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-content-skills：ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "ai-content-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-content-skills：ai-content-skills：MarchSkill · MarchTalk 隐拾三月 AI内容技能集：给 Claude Code 等 AI 助手装的中文内容创作 skill（实料调研/质检闸门/反馈沉淀/选题/定位/平台适配），带质检闸门的写稿流水线。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "ai-content-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "想创建 Skill，但不知道结构、规范、安装和验证流程。",
-      "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
-      "把现有知识转成 Agent 可调用能力时容易不成体系。",
-      "如果你的任务和「创建技能」有关，它能帮你先建立一个可试用的入口。"
+      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
+      "同一套内容风格难以稳定复用。",
+      "创作任务需要把素材、脚本、生成和发布流程串起来。",
+      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助创建、生成、验证、安装、管理或分发 Agent Skills。",
-      "把技能文件、说明文档和触发方式组织起来。",
-      "帮助你判断它是否适合搭建自己的技能库。",
+      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
+      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
+      "帮助你先判断它是否适合当前内容生产任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "准备写自定义 Agent Skills 的开发者。",
-      "需要维护团队技能库或插件库的人。",
-      "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "内容创作者、运营、设计师和需要频繁产出素材的人。",
+      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
+      "想把固定内容流程模板化的小团队。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
-      "没有明确技能场景，只想批量生成空壳的人。"
+      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
+      "只想要一键生成所有内容且不参与编辑的人。"
     ],
     "howItWorks": [
-      "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
-      "用户输入领域说明或现有材料后，工具生成可安装结构。",
-      "生成后仍需要在真实 Agent 环境里测试。",
+      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
+      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
+      "最终发布前仍需要人工审稿、校对和版权检查。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先阅读它支持的 Skill 格式。",
-      "用一个很小的技能需求生成或校验。",
-      "放进目标 Agent 客户端试跑，再迭代说明文档。"
+      "先看 README 里的输入格式和示例输出。",
+      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
+      "确认可编辑性和导出格式后再纳入正式流程。"
     ],
     "expectedOutcome": [
-      "创建 Skill 的门槛降低。",
-      "技能结构更统一，别人更容易安装和理解。",
-      "团队知识更容易变成可执行能力。"
+      "从选题到初稿的速度更快。",
+      "内容风格更容易保持一致。",
+      "重复性创作流程可以被复用。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

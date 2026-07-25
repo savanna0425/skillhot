@@ -1,5 +1,5 @@
 {
-  "rank": 373,
+  "rank": 372,
   "id": 1263648864,
   "name": "loop-engineering",
   "fullName": "cobusgreyling/loop-engineering",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx @cobusgreyling/loop-init .\nnpx @cobusgreyling/loop-init . --with-foundry",
+  "installCommand": "npx @cobusgreyling/loop init . --pattern daily-triage --tool grok\nnpx @cobusgreyling/loop doctor .\nnpx @cobusgreyling/loop-init .",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 9269,
-  "forks": 1268,
-  "openIssues": 11,
-  "score": 125.2,
+  "stars": 9350,
+  "forks": 1283,
+  "openIssues": 14,
+  "score": 125.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T03:25:04Z",
-  "updatedAt": "2026-07-24T03:25:10Z",
+  "pushedAt": "2026-07-25T03:24:43Z",
+  "updatedAt": "2026-07-25T03:29:23Z",
   "createdAt": "2026-06-09T06:28:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -89,8 +89,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "701feb8bba5467fb",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "065e04ed2a0e5b7d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

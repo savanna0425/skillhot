@@ -1,5 +1,5 @@
 {
-  "rank": 1027,
+  "rank": 464,
   "id": 1153564598,
   "name": "XiaohongshuSkills",
   "fullName": "white0dew/XiaohongshuSkills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/white0dew/XiaohongshuSkills",
   "homepage": "https://blog.aistar.cool",
   "description": "支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等",
-  "summary": "XiaohongshuSkills：XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "XiaohongshuSkills：XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
+  "installCommand": "pip install -r requirements.txt",
   "language": "Python",
   "license": "MIT",
-  "stars": 3218,
+  "stars": 3223,
   "forks": 332,
   "openIssues": 2,
-  "score": 107.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-21T16:26:05Z",
-  "updatedAt": "2026-07-24T03:20:52Z",
+  "score": 122.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-24T15:32:00Z",
+  "updatedAt": "2026-07-25T02:55:49Z",
   "createdAt": "2026-02-09T12:55:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,10 @@
   ],
   "repoTopics": [],
   "platforms": [
+    "Claude",
     "Codex",
-    "OpenClaw"
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -50,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,13 +71,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "960c9bbe06fc5987",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "2108cc131481f074",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "XiaohongshuSkills：XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "XiaohongshuSkills：XiaohongshuSkills：支持小红书自动发布、自动评论、自动检索的 Skill。支持 OpenClaw、Codex、CC 等。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "XiaohongshuSkills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -93,7 +95,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,68 +1,67 @@
 {
-  "rank": 2044,
-  "id": 1120678879,
-  "name": "dev-agent-skills",
-  "fullName": "fvadicamo/dev-agent-skills",
-  "owner": "fvadicamo",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1905363?v=4",
-  "url": "https://github.com/fvadicamo/dev-agent-skills",
+  "rank": 1397,
+  "id": 1291502015,
+  "name": "clawk",
+  "fullName": "clawkwork/clawk",
+  "owner": "clawkwork",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/261616134?v=4",
+  "url": "https://github.com/clawkwork/clawk",
   "homepage": "",
-  "description": "Claude Code skills plugin for Git, GitHub, and skill authoring workflows",
-  "summary": "dev-agent-skills：dev-agent-skills：dev-agent-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Give coding agents a disposable Linux VM, not your laptop",
+  "summary": "clawk：clawk：clawk 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/fvadicamo/dev-agent-skills.git",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 70,
-  "forks": 6,
-  "openIssues": 1,
-  "score": 72.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-20T23:49:38Z",
-  "updatedAt": "2026-07-19T08:45:32Z",
-  "createdAt": "2025-12-21T18:07:43Z",
-  "sourceTopics": [
-    "claude-code-skills"
-  ],
+  "installCommand": "git clone https://github.com/clawkwork/clawk.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 792,
+  "forks": 27,
+  "openIssues": 3,
+  "score": 99.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-18T18:21:33Z",
+  "updatedAt": "2026-07-25T01:31:31Z",
+  "createdAt": "2026-07-06T21:30:38Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-coding-agent",
-    "anthropic",
+    "agent-sandbox",
+    "ai-agent-sandbox",
+    "ai-agents",
+    "claude",
     "claude-code",
-    "claude-code-plugin",
-    "claude-code-skills",
-    "conventional-commits",
-    "developer-tools",
-    "git",
-    "github",
-    "pull-requests"
+    "codex",
+    "microvm",
+    "sandbox",
+    "virtualization",
+    "vm"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/fvadicamo/dev-agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/clawkwork/clawk",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/fvadicamo/dev-agent-skills#readme",
-  "detailPath": "data/details/fvadicamo__dev__agent__skills.json",
+  "readmeUrl": "https://github.com/clawkwork/clawk#readme",
+  "detailPath": "data/details/clawkwork__clawk.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dev-agent-skills：dev-agent-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "clawk：clawk 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -78,17 +77,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "38b6f7023aedccd4",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "488bc9edbab8a558",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dev-agent-skills：dev-agent-skills：dev-agent-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "dev-agent-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "clawk：clawk：clawk 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "clawk 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -105,7 +104,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -128,7 +127,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

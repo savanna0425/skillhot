@@ -1,81 +1,74 @@
 {
-  "rank": 2091,
-  "id": 1216267923,
-  "name": "claude-skills",
-  "fullName": "heymegabyte/claude-skills",
-  "owner": "heymegabyte",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/82490183?v=4",
-  "url": "https://github.com/heymegabyte/claude-skills",
-  "homepage": "https://claude.megabyte.space",
-  "description": "14-category autonomous product-building OS for 32+ AI coding tools. One-line prompts → deployed products.",
-  "summary": "claude-skills：claude-skills：claude-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1117,
+  "id": 1248011103,
+  "name": "LiveAgent",
+  "fullName": "Stack-Cairn/LiveAgent",
+  "owner": "Stack-Cairn",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/271238060?v=4",
+  "url": "https://github.com/Stack-Cairn/LiveAgent",
+  "homepage": "",
+  "description": "A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!",
+  "summary": "LiveAgent：LiveAgent：LiveAgent 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/heymegabyte/claude-skills.git",
+  "installCommand": "git clone https://github.com/Stack-Cairn/LiveAgent.git",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 18,
-  "forks": 4,
-  "openIssues": 5,
-  "score": 69.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-15T04:41:36Z",
-  "updatedAt": "2026-07-22T10:34:14Z",
-  "createdAt": "2026-04-20T18:30:10Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "license": "MIT",
+  "stars": 1401,
+  "forks": 133,
+  "openIssues": 31,
+  "score": 105.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-24T23:49:39Z",
+  "updatedAt": "2026-07-25T02:22:36Z",
+  "createdAt": "2026-05-24T04:22:22Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agents-md",
-    "agentskills",
     "ai-agents",
-    "ai-coding",
-    "ai-rules",
-    "ai-skills",
+    "ai-tools",
     "claude-code",
-    "claude-skills",
-    "cloudflare-workers",
-    "codex-skills",
-    "copilot-instructions",
-    "cursor-rules",
-    "developer-tools",
-    "gh-skill",
-    "hono",
+    "claude-desktop",
+    "codex",
+    "codex-app",
+    "desktop-app",
+    "fable",
+    "hermes",
+    "hermes-agent",
     "mcp",
-    "product-building",
-    "saas",
-    "vibe-coding"
+    "oepnclaw",
+    "open-source",
+    "skills",
+    "tauri",
+    "typescript",
+    "webui"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "GitHub Copilot"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/heymegabyte/claude-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Stack-Cairn/LiveAgent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/heymegabyte/claude-skills#readme",
-  "detailPath": "data/details/heymegabyte__claude__skills.json",
+  "readmeUrl": "https://github.com/Stack-Cairn/LiveAgent#readme",
+  "detailPath": "data/details/stack__cairn__liveagent.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-skills：claude-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "LiveAgent：LiveAgent 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,17 +84,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "9defbaf19dbac2ca",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "5306ea01e93cc8d5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills：claude-skills：claude-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "claude-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "LiveAgent：LiveAgent：LiveAgent 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "LiveAgent 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -118,7 +111,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -141,7 +134,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

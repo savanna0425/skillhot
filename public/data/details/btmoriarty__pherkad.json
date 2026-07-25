@@ -1,53 +1,46 @@
 {
-  "rank": 2210,
-  "id": 1181154909,
-  "name": "naming",
-  "fullName": "glacierphonk/naming",
-  "owner": "glacierphonk",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/260244336?v=4",
-  "url": "https://github.com/glacierphonk/naming",
+  "rank": 2154,
+  "id": 1301703026,
+  "name": "pherkad",
+  "fullName": "btmoriarty/pherkad",
+  "owner": "btmoriarty",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/4601659?v=4",
+  "url": "https://github.com/btmoriarty/pherkad",
   "homepage": "",
-  "description": "Claude Code skill for naming products, SaaS, and brands. Metaphor-driven naming that avoids AI slop.",
-  "summary": "naming：naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "A Claude skill that checks whether a draft still sounds like you. Builds a personal voice profile, flags documented AI tells with evidence, verdicts with targeted rewrites. Sibling of Kochab.",
+  "summary": "pherkad：pherkad：pherkad：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/glacierphonk/naming.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/btmoriarty/pherkad.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 54,
-  "forks": 9,
-  "openIssues": 141,
-  "score": 62.3,
-  "activity": "活跃",
-  "pushedAt": "2026-04-19T02:05:51Z",
-  "updatedAt": "2026-07-23T21:39:24Z",
-  "createdAt": "2026-03-13T20:07:58Z",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-24T22:36:15Z",
+  "updatedAt": "2026-07-24T22:46:22Z",
+  "createdAt": "2026-07-15T14:25:00Z",
   "sourceTopics": [
-    "ai-skill"
+    "anthropic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skill",
-    "brand-naming",
-    "branding",
-    "claude",
+    "anthropic-skills",
     "claude-code",
-    "markdown",
-    "metaphor",
-    "naming",
-    "naming-conventions",
-    "open-source",
-    "product-naming"
+    "claude-cowork-skills",
+    "claude-skills"
   ],
   "platforms": [
     "Claude"
@@ -55,15 +48,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/glacierphonk/naming",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/btmoriarty/pherkad",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/glacierphonk/naming#readme",
-  "detailPath": "data/details/glacierphonk__naming.json",
+  "readmeUrl": "https://github.com/btmoriarty/pherkad#readme",
+  "detailPath": "data/details/btmoriarty__pherkad.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "pherkad：pherkad：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -82,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "7b8ad5ac59afdfd5",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "616f364be312742a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "naming：naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "naming 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pherkad：pherkad：pherkad：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "pherkad 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",

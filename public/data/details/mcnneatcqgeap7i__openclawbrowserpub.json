@@ -1,75 +1,78 @@
 {
-  "rank": 1220,
-  "id": 1258962324,
-  "name": "Agentlas-OS",
-  "fullName": "agentlas-ai/Agentlas-OS",
-  "owner": "agentlas-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/291026769?v=4",
-  "url": "https://github.com/agentlas-ai/Agentlas-OS",
-  "homepage": "https://agentlas.cloud",
-  "description": "Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.",
-  "summary": "Agentlas-OS：Agentlas-OS：Agentlas-OS 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2124,
+  "id": 1221416424,
+  "name": "openclawBrowserPub",
+  "fullName": "mcnneatcqgeap7i/openclawBrowserPub",
+  "owner": "mcnneatcqgeap7i",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/279385891?v=4",
+  "url": "https://github.com/mcnneatcqgeap7i/openclawBrowserPub",
+  "homepage": "",
+  "description": "OpenClawBrowser: It is an AI tool that provides the running environment for AI agents (OpenClaw) and the agent environment for AI agents to call large models. Main functions: 1. Make OpenClaw simple and portable 2. Reuse the free entrance of each major model manufacturer through technical breakthrough, and realize zero token fee to call the LLM",
+  "summary": "openclawBrowserPub：openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/agentlas-ai/Agentlas-OS.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 957,
-  "forks": 118,
-  "openIssues": 0,
-  "score": 101.7,
+  "installCommand": "git clone https://github.com/mcnneatcqgeap7i/openclawBrowserPub.git",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 14,
+  "forks": 2,
+  "openIssues": 2,
+  "score": 67.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-23T08:13:14Z",
-  "updatedAt": "2026-07-24T03:15:54Z",
-  "createdAt": "2026-06-04T04:33:26Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-24T12:02:04Z",
+  "updatedAt": "2026-07-24T12:06:38Z",
+  "createdAt": "2026-04-26T07:10:05Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "a2a",
-    "agent",
-    "agent-framework",
-    "agent-os-desktop",
-    "agent-skills",
-    "agentic-ai",
-    "agentic-workflow",
-    "agentos",
-    "agents",
-    "agents-team",
-    "agentshub",
-    "ai-agents",
-    "autonomous-agents",
-    "llm",
-    "llm-agents",
-    "llm-tools",
-    "mcp",
-    "multi-agent-systems",
-    "ochestration"
+    "claw",
+    "hermes",
+    "hermes-agent",
+    "hermes-agent-plugin",
+    "hermes-city",
+    "hermes-core",
+    "hermes-managed",
+    "hermes-plugin",
+    "hermes-skill",
+    "hermetic",
+    "openclaw",
+    "openclaw-agent",
+    "openclaw-alternative",
+    "openclaw-extension",
+    "openclaw-installer",
+    "openclaw-plugin",
+    "openclaw-security",
+    "openclaw-setup",
+    "openclaw-skill",
+    "openclaw-skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/agentlas-ai/Agentlas-OS",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mcnneatcqgeap7i/openclawBrowserPub",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/agentlas-ai/Agentlas-OS#readme",
-  "detailPath": "data/details/agentlas__ai__agentlas__os.json",
+  "readmeUrl": "https://github.com/mcnneatcqgeap7i/openclawBrowserPub#readme",
+  "detailPath": "data/details/mcnneatcqgeap7i__openclawbrowserpub.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agentlas-OS：Agentlas-OS 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,17 +88,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "c6b266de08a09e74",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "080e0d1768566ee7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Agentlas-OS：Agentlas-OS：Agentlas-OS 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Agentlas-OS 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "openclawBrowserPub：openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "openclawBrowserPub 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -112,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -135,7 +138,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

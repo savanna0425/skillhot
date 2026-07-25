@@ -1,5 +1,5 @@
 {
-  "rank": 671,
+  "rank": 904,
   "id": 537300699,
   "name": "Awesome-OSINT-List",
   "fullName": "Astrosp/Awesome-OSINT-List",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Astrosp/Awesome-OSINT-List",
   "homepage": "https://astrosp.github.io/osint-web/",
   "description": "📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI.",
-  "summary": "Awesome-OSINT-List 是一个面向 Claude、Gemini CLI、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "Awesome-OSINT-List 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Astrosp/Awesome-OSINT-List.git",
   "language": "Shell",
   "license": "GPL-3.0",
-  "stars": 3814,
-  "forks": 497,
+  "stars": 3850,
+  "forks": 501,
   "openIssues": 22,
-  "score": 116,
-  "activity": "本周活跃",
+  "score": 109.1,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-16T04:52:02Z",
-  "updatedAt": "2026-07-24T03:17:50Z",
+  "updatedAt": "2026-07-25T03:27:12Z",
   "createdAt": "2022-09-16T04:10:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,9 +50,7 @@
     "threat-intelligence"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -65,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Awesome-OSINT-List 是一个面向 Claude、Gemini CLI、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "Awesome-OSINT-List 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -84,13 +82,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "1f4cd7578872695f",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "e730b4ab3ec360c0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Awesome-OSINT-List 是一个面向 Claude、Gemini CLI、GitHub Copilot 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "Awesome-OSINT-List 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "Awesome-OSINT-List 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
@@ -108,7 +106,7 @@
       "开发者、安全研究员和需要做风险自查的团队。",
       "想把安全检查嵌入 Agent 或开发流程的人。",
       "需要快速筛查配置、依赖或代码风险的人。",
-      "正在使用 Claude、Gemini CLI、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "未经授权的攻击、绕过或滥用场景。",

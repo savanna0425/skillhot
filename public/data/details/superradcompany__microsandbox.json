@@ -1,5 +1,5 @@
 {
-  "rank": 452,
+  "rank": 457,
   "id": 867192625,
   "name": "microsandbox",
   "fullName": "superradcompany/microsandbox",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/145875517?v=4",
   "url": "https://github.com/superradcompany/microsandbox",
   "homepage": "https://docs.microsandbox.dev",
-  "description": "🧱 easy, fast and local-first microVM runtime",
-  "summary": "microsandbox：microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "🧱 easy fast local-first microVM library and toolkit",
+  "summary": "microsandbox 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "> npm i microsandbox                                       # 🟦 TypeScript\n>",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 7006,
+  "stars": 7014,
   "forks": 356,
-  "openIssues": 49,
+  "openIssues": 50,
   "score": 122.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T03:25:37Z",
-  "updatedAt": "2026-07-24T01:01:49Z",
+  "pushedAt": "2026-07-24T22:44:35Z",
+  "updatedAt": "2026-07-25T03:36:29Z",
   "createdAt": "2024-10-03T15:57:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
     "GitHub Copilot"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/superradcompany/microsandbox",
     "videoUrl": ""
@@ -71,18 +71,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "microsandbox 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -90,14 +90,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "2d118bf010e31e84",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "bdfa020d3b0ff087",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "microsandbox：microsandbox：易用、快速、本地优先的微虚拟机运行时。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "microsandbox 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "microsandbox 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "microsandbox 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

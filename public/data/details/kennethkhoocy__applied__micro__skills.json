@@ -1,80 +1,65 @@
 {
-  "rank": 2140,
-  "id": 1254650992,
-  "name": "PolyGnosis",
-  "fullName": "mosesman831/PolyGnosis",
-  "owner": "mosesman831",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/56060463?v=4",
-  "url": "https://github.com/mosesman831/PolyGnosis",
+  "rank": 1791,
+  "id": 1308635689,
+  "name": "applied-micro-skills",
+  "fullName": "kennethkhoocy/applied-micro-skills",
+  "owner": "kennethkhoocy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/86765247?v=4",
+  "url": "https://github.com/kennethkhoocy/applied-micro-skills",
   "homepage": "",
-  "description": "Adversarial multi-model consensus protocol for Hermes Agent. Independent solve. Adversarial critique. Formal scoring. Verified synthesis.",
-  "summary": "PolyGnosis：PolyGnosis：PolyGnosis 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "Claude Code and Codex skills for empirical applied-micro research: reproducibility auditing, LLM-pipeline methods, event studies, WRDS, Stata, publication-grade tables",
+  "summary": "applied-micro-skills：applied-micro-skills：applied-micro-skills 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mosesman831/PolyGnosis.git",
+  "installCommand": "git clone https://github.com/kennethkhoocy/applied-micro-skills.git",
   "language": "Python",
-  "license": "GPL-3.0",
-  "stars": 13,
-  "forks": 2,
+  "license": "MIT",
+  "stars": 57,
+  "forks": 0,
   "openIssues": 0,
-  "score": 66.7,
+  "score": 85.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-16T11:49:32Z",
-  "updatedAt": "2026-07-16T05:36:52Z",
-  "createdAt": "2026-05-30T20:53:39Z",
+  "pushedAt": "2026-07-22T14:10:06Z",
+  "updatedAt": "2026-07-24T08:55:19Z",
+  "createdAt": "2026-07-22T09:33:39Z",
   "sourceTopics": [
-    "hermes-skill"
+    "codex-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "agentic-workflow",
-    "ai",
-    "ai-agent",
-    "ai-agents",
-    "ai-orchestration",
-    "anthropic",
-    "claude",
+    "applied-microeconomics",
     "claude-code",
+    "claude-skills",
     "codex",
-    "hermes",
-    "hermes-agent",
-    "hermes-agent-skill",
-    "hermes-skill",
-    "llm",
-    "nous-research",
-    "openai",
-    "openclaw",
-    "openclaw-skill",
-    "orchestration"
+    "codex-skills",
+    "empirical-research"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/mosesman831/PolyGnosis",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kennethkhoocy/applied-micro-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/mosesman831/PolyGnosis#readme",
-  "detailPath": "data/details/mosesman831__polygnosis.json",
+  "readmeUrl": "https://github.com/kennethkhoocy/applied-micro-skills#readme",
+  "detailPath": "data/details/kennethkhoocy__applied__micro__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "PolyGnosis：PolyGnosis 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "applied-micro-skills：applied-micro-skills 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -90,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "8bb7674afcaac9fc",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "9ea25b206d9d7d85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PolyGnosis：PolyGnosis：PolyGnosis 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "PolyGnosis 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "applied-micro-skills：applied-micro-skills：applied-micro-skills 支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "applied-micro-skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -117,7 +102,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -140,7 +125,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

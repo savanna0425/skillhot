@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/affaan-m/ECC.git\ncd ECC\nnpm install        # or: pnpm install | yarn install | bun install",
+  "installCommand": "bash ./install.sh --target kimi --profile minimal\nnpx ecc doctor --target kimi\nkimi",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 232612,
-  "forks": 35452,
-  "openIssues": 100,
+  "stars": 232942,
+  "forks": 35499,
+  "openIssues": 97,
   "score": 166.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T03:44:09Z",
-  "updatedAt": "2026-07-24T03:45:46Z",
+  "pushedAt": "2026-07-25T00:58:36Z",
+  "updatedAt": "2026-07-25T03:40:59Z",
   "createdAt": "2026-01-18T00:51:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -84,8 +84,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-24T03:49:19.181Z",
-    "sourceHash": "57a6a62032273c7b",
+    "generatedAt": "2026-07-25T03:44:04.440Z",
+    "sourceHash": "781ae5dfe4533bd1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
