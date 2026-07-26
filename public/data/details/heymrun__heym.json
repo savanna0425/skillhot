@@ -1,76 +1,76 @@
 {
-  "rank": 2178,
-  "id": 1175333084,
-  "name": "cursor-handbook",
-  "fullName": "girijashankarj/cursor-handbook",
-  "owner": "girijashankarj",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/38050722?v=4",
-  "url": "https://github.com/girijashankarj/cursor-handbook",
-  "homepage": "",
-  "description": "Open-source rules engine for Cursor IDE — 110 rules, agents, skills, commands that give AI permanent memory of your standards. Demo: 30%+ token savings, blocks hardcoded secrets, type-check instead of 100K-token test runs, consistent code across team.",
-  "summary": "cursor-handbook：cursor-handbook：cursor-handbook 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 1387,
+  "id": 1194340608,
+  "name": "heym",
+  "fullName": "heymrun/heym",
+  "owner": "heymrun",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/271715199?v=4",
+  "url": "https://github.com/heymrun/heym",
+  "homepage": "https://heym.run",
+  "description": "Build AI workflows by prompt or visual canvas. Heym is source-available and self-hosted, with agents, RAG, MCP, HITL, observability, evals, token cost tracking and more.",
+  "summary": "heym：heym：heym 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "待复核",
-  "categoryReason": "vector database|semantic search|context layer|remember",
+  "categoryConfidence": "高",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/girijashankarj/cursor-handbook.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 27,
-  "forks": 3,
+  "installCommand": "git clone https://github.com/heymrun/heym.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 803,
+  "forks": 73,
   "openIssues": 2,
-  "score": 64.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-25T14:49:59Z",
-  "updatedAt": "2026-07-21T23:04:24Z",
-  "createdAt": "2026-03-07T15:11:21Z",
-  "sourceTopics": [
-    "cursor-skills"
-  ],
+  "score": 99.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-25T13:03:56Z",
+  "updatedAt": "2026-07-26T02:58:49Z",
+  "createdAt": "2026-03-28T08:08:49Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "claude",
-    "claude-ai",
-    "claude-code",
-    "cursor",
-    "cursor-agents",
-    "cursor-ai",
-    "cursor-commands",
-    "cursor-doc",
-    "cursor-docs",
-    "cursor-hooks",
-    "cursor-ide",
-    "cursor-rules",
-    "cursor-skills",
-    "cursors",
-    "generative-ai",
-    "rules",
-    "vscode"
+    "ai-agents",
+    "ai-agents-framework",
+    "ai-assistant",
+    "automation",
+    "automation-tool",
+    "autonomous-agents",
+    "coding-agent",
+    "evals",
+    "human-in-the-loop",
+    "mcp",
+    "mcp-server",
+    "mcp-servers",
+    "mcp-tool",
+    "n8n-alternative",
+    "no-code",
+    "no-code-automation",
+    "rag",
+    "self-hosted",
+    "workflow-automation",
+    "workflows"
   ],
   "platforms": [
-    "Claude",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/girijashankarj/cursor-handbook",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/heymrun/heym",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/girijashankarj/cursor-handbook#readme",
-  "detailPath": "data/details/girijashankarj__cursor__handbook.json",
+  "readmeUrl": "https://github.com/heymrun/heym#readme",
+  "detailPath": "data/details/heymrun__heym.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cursor-handbook：cursor-handbook 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "heym：heym 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "45fc5b2b01800e48",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "b8d5dec84e3cecb3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cursor-handbook：cursor-handbook：cursor-handbook 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "cursor-handbook 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "heym：heym：heym 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "heym 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -113,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -136,7 +136,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 890,
+  "rank": 881,
   "id": 1279480946,
   "name": "recon-skills",
   "fullName": "uphiago/recon-skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/129319177?v=4",
   "url": "https://github.com/uphiago/recon-skills",
   "homepage": "https://hiago.sh",
-  "description": "162 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with origin IP discovery, subdomain takeover, GitHub secret hunting, browser fingerprint evasion, SCADA enumeration, and automated CMS detection. Full write-up at hiago.sh",
+  "description": "Recon & pentest skill pack. CORS, XSS, SQLi, SSRF, RCE, WordPress, MCP, cloud, subdomain takeover, and more. Field-tested. MIT. Full write-up at hiago.sh",
   "summary": "recon-skills：recon-skills：recon-skills 聚焦安全审计、漏洞检查与风险治理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/uphiago/recon-skills.git",
   "language": "Python",
-  "license": "",
-  "stars": 939,
-  "forks": 169,
-  "openIssues": 1,
-  "score": 109.5,
+  "license": "MIT",
+  "stars": 969,
+  "forks": 173,
+  "openIssues": 0,
+  "score": 109.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T03:12:03Z",
-  "updatedAt": "2026-07-25T03:42:05Z",
+  "pushedAt": "2026-07-25T16:54:51Z",
+  "updatedAt": "2026-07-26T02:46:43Z",
   "createdAt": "2026-06-24T18:19:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -81,11 +81,11 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "7116203b5cc4957e",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "b70520c6c2e3935d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -131,7 +131,7 @@
       "团队可以复用固定审计流程。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

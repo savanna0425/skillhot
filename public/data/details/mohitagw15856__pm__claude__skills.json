@@ -1,5 +1,5 @@
 {
-  "rank": 666,
+  "rank": 659,
   "id": 1144946140,
   "name": "pm-claude-skills",
   "fullName": "mohitagw15856/pm-claude-skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/119053560?v=4",
   "url": "https://github.com/mohitagw15856/pm-claude-skills",
   "homepage": "https://mohitagw15856.github.io/pm-claude-skills/",
-  "description": "In Anthropic's official Claude plugin directory · 515 professional Agent Skills (PRDs, launches, compliance, CVs & more) for Claude, ChatGPT, Gemini, Cursor & Codex. Try free in-browser, or 'npx pm-claude-skills add'.",
+  "description": "771 professional Agent Skills for Claude, ChatGPT, Gemini, Cursor & Codex — decode a lease, write a PRD, practice a salary negotiation. Plain-markdown skills, MIT, in Anthropic's official plugin directory. Try free in-browser or 'npx pm-claude-skills add'.",
   "summary": "pm-claude-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -22,13 +22,13 @@
   "installCommand": "npx pm-claude-skills prove --skill ./my-skill --tasks tasks.txt --runs 2 --judge\nnpx pm-claude-skills prove --skill ./my-skill --tasks tasks.txt --dry-run   # plan + call count, spends nothing\nnpx pm-claude-skills mcp-audit --connect",
   "language": "HTML",
   "license": "MIT",
-  "stars": 1214,
-  "forks": 218,
-  "openIssues": 11,
+  "stars": 1218,
+  "forks": 220,
+  "openIssues": 12,
   "score": 116.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T14:41:51Z",
-  "updatedAt": "2026-07-24T15:11:14Z",
+  "pushedAt": "2026-07-25T23:35:56Z",
+  "updatedAt": "2026-07-25T23:36:00Z",
   "createdAt": "2026-01-29T08:28:07Z",
   "sourceTopics": [
     "claude-skills"
@@ -47,6 +47,7 @@
     "claude-code",
     "claude-skills",
     "cursor",
+    "developer-tools",
     "gemini",
     "llm",
     "mcp",
@@ -54,6 +55,7 @@
     "product-management",
     "productivity",
     "prompt-engineering",
+    "prompts",
     "skills"
   ],
   "platforms": [
@@ -62,7 +64,7 @@
     "Cursor",
     "Gemini CLI"
   ],
-  "skillCount": 771,
+  "skillCount": 782,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/mohitagw15856/pm-claude-skills",
@@ -92,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "a0619e5fcece34b3",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "45b46afcf9c853b4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -126,7 +128,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 771+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 782+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

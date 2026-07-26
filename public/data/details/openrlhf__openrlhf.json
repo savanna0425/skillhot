@@ -1,5 +1,5 @@
 {
-  "rank": 554,
+  "rank": 547,
   "id": 672415139,
   "name": "OpenRLHF",
   "fullName": "OpenRLHF/OpenRLHF",
@@ -22,13 +22,13 @@
   "installCommand": "docker run --runtime=nvidia -it --rm --shm-size=\"10g\" --cap-add=SYS_ADMIN \\\n-v $PWD:/openrlhf nvcr.io/nvidia/pytorch:26.03-py3 bash\nsudo pip uninstall xgboost transformer_engine flash_attn pynvml -y",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 9844,
-  "forks": 988,
-  "openIssues": 348,
-  "score": 118.8,
+  "stars": 9849,
+  "forks": 989,
+  "openIssues": 349,
+  "score": 118.9,
   "activity": "本月活跃",
   "pushedAt": "2026-07-14T01:57:21Z",
-  "updatedAt": "2026-07-24T16:27:30Z",
+  "updatedAt": "2026-07-26T02:57:10Z",
   "createdAt": "2023-07-30T02:20:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -77,8 +77,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "7d54311bb42c13d9",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "cce36eacf3767f4a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

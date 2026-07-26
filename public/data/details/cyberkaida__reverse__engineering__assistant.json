@@ -1,64 +1,63 @@
 {
-  "rank": 2190,
-  "id": 1159295925,
-  "name": "quantum-loop",
-  "fullName": "andyzengmath/quantum-loop",
-  "owner": "andyzengmath",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/44346909?v=4",
-  "url": "https://github.com/andyzengmath/quantum-loop",
+  "rank": 1405,
+  "id": 680027364,
+  "name": "reverse-engineering-assistant",
+  "fullName": "cyberkaida/reverse-engineering-assistant",
+  "owner": "cyberkaida",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/118712366?v=4",
+  "url": "https://github.com/cyberkaida/reverse-engineering-assistant",
   "homepage": "",
-  "description": "Spec-driven autonomous development loop for Claude Code. Combines structured PRD generation, dependency DAG execution, two-stage review gates, and Iron Law verification.",
-  "summary": "quantum-loop：quantum-loop：quantum-loop 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "MCP server for reverse engineering tasks in Ghidra 👩‍💻",
+  "summary": "reverse-engineering-assistant：reverse-engineering-assistant：reverse-engineering-assistant 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
-  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/andyzengmath/quantum-loop.git",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 23,
-  "forks": 0,
-  "openIssues": 6,
-  "score": 63.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-25T00:15:12Z",
-  "updatedAt": "2026-06-25T00:15:14Z",
-  "createdAt": "2026-02-16T15:02:52Z",
-  "sourceTopics": [
-    "skillsmp"
-  ],
+  "installCommand": "git clone https://github.com/cyberkaida/reverse-engineering-assistant.git",
+  "language": "Java",
+  "license": "Apache-2.0",
+  "stars": 789,
+  "forks": 68,
+  "openIssues": 23,
+  "score": 99.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-21T04:03:32Z",
+  "updatedAt": "2026-07-25T23:03:47Z",
+  "createdAt": "2023-08-18T07:03:15Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentskills",
-    "claude-code",
-    "claude-code-plugin",
-    "claude-code-skill",
-    "skillsmp"
+    "assistant",
+    "binaryninja",
+    "ghidra",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "reverse-engineering"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/andyzengmath/quantum-loop",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/cyberkaida/reverse-engineering-assistant",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/andyzengmath/quantum-loop#readme",
-  "detailPath": "data/details/andyzengmath__quantum__loop.json",
+  "readmeUrl": "https://github.com/cyberkaida/reverse-engineering-assistant#readme",
+  "detailPath": "data/details/cyberkaida__reverse__engineering__assistant.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "quantum-loop：quantum-loop 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "reverse-engineering-assistant：reverse-engineering-assistant 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -74,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "214b41b6fef5c33b",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "718182e833d5f2aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "quantum-loop：quantum-loop：quantum-loop 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "quantum-loop 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "reverse-engineering-assistant：reverse-engineering-assistant：reverse-engineering-assistant 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "reverse-engineering-assistant 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -101,7 +100,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -124,7 +123,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

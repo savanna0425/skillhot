@@ -1,73 +1,74 @@
 {
-  "rank": 867,
-  "id": 1106580780,
-  "name": "pydantic-deepagents",
-  "fullName": "vstorm-co/pydantic-deepagents",
-  "owner": "vstorm-co",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/80465946?v=4",
-  "url": "https://github.com/vstorm-co/pydantic-deepagents",
-  "homepage": "https://vstorm-co.github.io/pydantic-deepagents/",
-  "description": "Open-source, self-hosted Claude Code - a terminal AI assistant and the Python framework behind it. Tool-calling, sandboxed execution, multi-agent teams, skills, checkpoints, unlimited context - on Pydantic AI, any model.",
-  "summary": "pydantic-deepagents：pydantic-deepagents：pydantic-deepagents 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2117,
+  "id": 1311888439,
+  "name": "OpenSkills",
+  "fullName": "CODE-SAURABH/OpenSkills",
+  "owner": "CODE-SAURABH",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/98652405?v=4",
+  "url": "https://github.com/CODE-SAURABH/OpenSkills",
+  "homepage": "",
+  "description": "45 production-grade AI agent skills (SKILL.md) for Claude Code, Codex & Antigravity — system design, DevOps, security, QA, and more. MIT licensed, open source.",
+  "summary": "OpenSkills：OpenSkills：OpenSkills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/vstorm-co/pydantic-deepagents.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/CODE-SAURABH/OpenSkills.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 999,
-  "forks": 116,
-  "openIssues": 3,
-  "score": 110.1,
+  "stars": 2,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 67.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T21:54:14Z",
-  "updatedAt": "2026-07-24T21:53:49Z",
-  "createdAt": "2025-11-29T14:36:36Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-25T10:46:52Z",
+  "updatedAt": "2026-07-25T15:23:32Z",
+  "createdAt": "2026-07-25T10:28:04Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-framework",
+    "agent-skills",
+    "ai-agent-skill",
+    "ai-agent-skills",
     "ai-agents",
-    "anthropic",
     "claude-code",
-    "cli",
-    "coding-agent",
-    "deep-research",
-    "docker-sandbox",
-    "llms",
+    "claude-code-skill",
+    "claude-code-skills",
+    "codex",
+    "codex-skill",
+    "codex-skills",
+    "markdown",
     "mcp",
-    "playwright",
-    "pydantic",
-    "pydantic-ai",
-    "python",
-    "subagents",
-    "tui",
-    "vstorm"
+    "mcp-skill",
+    "open-source"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/vstorm-co/pydantic-deepagents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CODE-SAURABH/OpenSkills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/vstorm-co/pydantic-deepagents#readme",
-  "detailPath": "data/details/vstorm__co__pydantic__deepagents.json",
+  "readmeUrl": "https://github.com/CODE-SAURABH/OpenSkills#readme",
+  "detailPath": "data/details/code__saurabh__openskills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pydantic-deepagents：pydantic-deepagents 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "OpenSkills：OpenSkills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -86,14 +87,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "2126be7a9fb790cd",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "ee7f2d4765f9aa75",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pydantic-deepagents：pydantic-deepagents：pydantic-deepagents 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "pydantic-deepagents 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "OpenSkills：OpenSkills：OpenSkills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
+    "whatItIs": "OpenSkills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -110,7 +111,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

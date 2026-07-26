@@ -8,7 +8,7 @@
   "url": "https://github.com/openclaw/openclaw",
   "homepage": "https://openclaw.ai",
   "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-  "summary": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npm install -g openclaw@latest\nopenclaw onboard --install-daemon",
+  "installCommand": "git clone https://github.com/openclaw/openclaw.git\ncd openclaw\npnpm install",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 384053,
-  "forks": 80693,
-  "openIssues": 7020,
+  "stars": 384132,
+  "forks": 80714,
+  "openIssues": 7063,
   "score": 164,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T03:42:39Z",
-  "updatedAt": "2026-07-25T03:31:35Z",
+  "pushedAt": "2026-07-26T03:59:23Z",
+  "updatedAt": "2026-07-26T03:59:38Z",
   "createdAt": "2025-11-24T10:16:47Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,7 +45,10 @@
     "personal"
   ],
   "platforms": [
+    "Claude",
     "Codex",
+    "Gemini CLI",
+    "GitHub Copilot",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -59,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,13 +81,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "2a75d20712ec8dab",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "812a50717576b318",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Codex、OpenClaw 相关工作流里先做选型判断。适合在 Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openclaw：openclaw：可运行在多种系统和平台上的开源个人 AI 助手。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "openclaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -102,7 +105,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

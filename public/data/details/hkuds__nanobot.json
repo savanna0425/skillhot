@@ -1,5 +1,5 @@
 {
-  "rank": 102,
+  "rank": 101,
   "id": 1147094660,
   "name": "nanobot",
   "fullName": "HKUDS/nanobot",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "The default command installs or upgrades `nanobot-ai` from PyPI, then starts `nanobot onboard --wizard`. It avoids system-wide pip installs by using an active virtual environment, `uv`, `pipx`, or a managed venv under `~/.nanobot/venv`. If Quick Start finishes, skip the manual initialize/configure steps below and go straight to **Open the WebUI**. The instal",
+  "installCommand": "The default command installs or upgrades `nanobot-ai` from PyPI. On a fresh local desktop, it then starts `nanobot webui` so you can configure the first provider and model in **Settings → Models**. SSH, headless, existing-config, and older-release paths keep the terminal setup wizard. The installer avoids system-wide pip installs by using an active virtual e",
   "language": "Python",
   "license": "MIT",
-  "stars": 46202,
-  "forks": 8175,
-  "openIssues": 841,
+  "stars": 46233,
+  "forks": 8181,
+  "openIssues": 837,
   "score": 142,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T03:17:25Z",
-  "updatedAt": "2026-07-25T03:13:28Z",
+  "pushedAt": "2026-07-25T19:28:16Z",
+  "updatedAt": "2026-07-26T03:57:52Z",
   "createdAt": "2026-02-01T07:16:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -84,8 +84,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-25T03:44:04.440Z",
-    "sourceHash": "de2258a35eec9ed7",
+    "generatedAt": "2026-07-26T04:01:06.572Z",
+    "sourceHash": "7b27c1f7ce09c012",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
