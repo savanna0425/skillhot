@@ -1,5 +1,5 @@
 {
-  "rank": 765,
+  "rank": 767,
   "id": 728528910,
   "name": "evalscope",
   "fullName": "modelscope/evalscope",
@@ -22,13 +22,13 @@
   "installCommand": "pip install evalscope\nevalscope eval --model your-model-name --api-url $OPENAI_API_BASE_URL --api-key $OPENAI_API_KEY --eval-type openai_api --datasets gsm8k --limit 5",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3141,
+  "stars": 3147,
   "forks": 433,
-  "openIssues": 32,
+  "openIssues": 30,
   "score": 114,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T09:49:13Z",
-  "updatedAt": "2026-07-26T03:08:00Z",
+  "pushedAt": "2026-07-27T02:48:00Z",
+  "updatedAt": "2026-07-27T02:48:05Z",
   "createdAt": "2023-12-07T06:10:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -76,8 +76,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "1ed0dacf8c53f452",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "1ceb3228a4c5b527",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

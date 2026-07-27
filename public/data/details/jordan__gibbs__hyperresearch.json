@@ -1,14 +1,14 @@
 {
-  "rank": 2226,
-  "id": 1278870865,
-  "name": "skills",
-  "fullName": "h-dubitans/skills",
-  "owner": "h-dubitans",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/296401888?v=4",
-  "url": "https://github.com/h-dubitans/skills",
+  "rank": 1124,
+  "id": 1206357666,
+  "name": "hyperresearch",
+  "fullName": "jordan-gibbs/hyperresearch",
+  "owner": "jordan-gibbs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/139834037?v=4",
+  "url": "https://github.com/jordan-gibbs/hyperresearch",
   "homepage": "",
-  "description": "Agentic skills teaching your LLM to doubt.",
-  "summary": "skills：skills：skills 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+  "summary": "hyperresearch：hyperresearch：hyperresearch 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,29 +19,27 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/h-dubitans/skills.git",
-  "language": "",
-  "license": "",
-  "stars": 2,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-25T06:56:47Z",
-  "updatedAt": "2026-07-18T07:38:28Z",
-  "createdAt": "2026-06-24T07:03:44Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "installCommand": "git clone https://github.com/jordan-gibbs/hyperresearch.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1405,
+  "forks": 145,
+  "openIssues": 7,
+  "score": 105.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-25T17:28:18Z",
+  "updatedAt": "2026-07-27T04:05:45Z",
+  "createdAt": "2026-04-09T20:46:46Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai-agent-skills",
-    "ai-skills",
-    "claude-skills",
-    "skills"
+    "agents",
+    "agentskills",
+    "claude-code",
+    "deep-research",
+    "deep-research-agent"
   ],
   "platforms": [
     "Claude"
@@ -49,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/h-dubitans/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jordan-gibbs/hyperresearch",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/h-dubitans/skills#readme",
-  "detailPath": "data/details/h__dubitans__skills.json",
+  "readmeUrl": "https://github.com/jordan-gibbs/hyperresearch#readme",
+  "detailPath": "data/details/jordan__gibbs__hyperresearch.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：skills 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "hyperresearch：hyperresearch 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -73,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "8d7c16c0d27471d2",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "6143459dc1519cfb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：skills 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hyperresearch：hyperresearch：hyperresearch 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "hyperresearch 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -123,7 +121,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,48 +1,53 @@
 {
-  "rank": 2122,
-  "id": 1206907790,
-  "name": "yolanda-skills",
-  "fullName": "that-yolanda/yolanda-skills",
-  "owner": "that-yolanda",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/170308565?v=4",
-  "url": "https://github.com/that-yolanda/yolanda-skills",
+  "rank": 2203,
+  "id": 1181154909,
+  "name": "naming",
+  "fullName": "glacierphonk/naming",
+  "owner": "glacierphonk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/260244336?v=4",
+  "url": "https://github.com/glacierphonk/naming",
   "homepage": "",
-  "description": "Yolanda Daily Skill, eg: obsidian llm wiki management, common coding skill.",
-  "summary": "yolanda-skills：yolanda-skills：yolanda-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Claude Code skill for naming products, SaaS, and brands. Metaphor-driven naming that avoids AI slop.",
+  "summary": "naming：naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/that-yolanda/yolanda-skills.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/glacierphonk/naming.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 13,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 67.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-25T12:54:49Z",
-  "updatedAt": "2026-07-02T15:01:49Z",
-  "createdAt": "2026-04-10T11:26:38Z",
+  "stars": 59,
+  "forks": 9,
+  "openIssues": 141,
+  "score": 63.1,
+  "activity": "活跃",
+  "pushedAt": "2026-04-19T02:05:51Z",
+  "updatedAt": "2026-07-26T21:07:18Z",
+  "createdAt": "2026-03-13T20:07:58Z",
   "sourceTopics": [
-    "hermes-skill"
+    "ai-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
+    "ai-skill",
+    "brand-naming",
+    "branding",
+    "claude",
     "claude-code",
-    "claude-code-skill",
-    "hermes",
-    "hermes-skill",
-    "obsidian",
-    "skill"
+    "markdown",
+    "metaphor",
+    "naming",
+    "naming-conventions",
+    "open-source",
+    "product-naming"
   ],
   "platforms": [
     "Claude"
@@ -50,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/that-yolanda/yolanda-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/glacierphonk/naming",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/that-yolanda/yolanda-skills#readme",
-  "detailPath": "data/details/that__yolanda__yolanda__skills.json",
+  "readmeUrl": "https://github.com/glacierphonk/naming#readme",
+  "detailPath": "data/details/glacierphonk__naming.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "yolanda-skills：yolanda-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -77,14 +82,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "388d22f06fcb3816",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "db0d335e3ce0647b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "yolanda-skills：yolanda-skills：yolanda-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "yolanda-skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "naming：naming：naming：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "naming 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",

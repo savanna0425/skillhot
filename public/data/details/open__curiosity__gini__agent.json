@@ -1,17 +1,17 @@
 {
-  "rank": 322,
-  "id": 286301447,
-  "name": "txtai",
-  "fullName": "neuml/txtai",
-  "owner": "neuml",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/59890304?v=4",
-  "url": "https://github.com/neuml/txtai",
-  "homepage": "https://neuml.github.io/txtai",
-  "description": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
-  "summary": "txtai：txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1456,
+  "id": 1230293192,
+  "name": "gini-agent",
+  "fullName": "Open-Curiosity/gini-agent",
+  "owner": "Open-Curiosity",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/297305621?v=4",
+  "url": "https://github.com/Open-Curiosity/gini-agent",
+  "homepage": "",
+  "description": "The agent that remembers and learns.",
+  "summary": "gini-agent：gini-agent：gini-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "中",
+  "categoryConfidence": "待复核",
   "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
     "长期任务",
@@ -19,58 +19,48 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install txtai",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 12751,
-  "forks": 851,
-  "openIssues": 8,
-  "score": 128.5,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-23T16:01:05Z",
-  "updatedAt": "2026-07-25T03:38:55Z",
-  "createdAt": "2020-08-09T19:14:59Z",
+  "installCommand": "git clone https://github.com/Open-Curiosity/gini-agent.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1406,
+  "forks": 409,
+  "openIssues": 27,
+  "score": 98.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-07-18T05:15:42Z",
+  "updatedAt": "2026-07-27T03:45:10Z",
+  "createdAt": "2026-05-05T21:28:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agents",
-    "ai",
-    "ai-agents",
-    "embeddings",
-    "information-retrieval",
-    "language-model",
-    "large-language-models",
+    "agent",
+    "agent-runtime",
+    "ai-agent",
+    "bun",
     "llm",
-    "nlp",
-    "python",
-    "rag",
-    "retrieval-augmented-generation",
-    "search",
-    "search-engine",
-    "semantic-search",
-    "sentence-embeddings",
-    "transformers",
-    "txtai",
-    "vector-database",
-    "vector-search"
+    "local-first",
+    "mcp",
+    "nextjs",
+    "personal-agent",
+    "typescript"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/neuml/txtai",
-    "videoUrl": "https://www.youtube.com/watch?v=SIezMnVdmMs"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Open-Curiosity/gini-agent",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/neuml/txtai#readme",
-  "detailPath": "data/details/neuml__txtai.json",
+  "readmeUrl": "https://github.com/Open-Curiosity/gini-agent#readme",
+  "detailPath": "data/details/open__curiosity__gini__agent.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "gini-agent：gini-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "3f8766e0d2894daa",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "0f84a2ab40df4f0a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "txtai：txtai：全栈式语义搜索、LLM 编排与语言模型工作流一体化 AI 框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "txtai 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gini-agent：gini-agent：gini-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "gini-agent 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -113,7 +103,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -136,7 +126,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

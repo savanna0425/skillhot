@@ -1,14 +1,14 @@
 {
-  "rank": 2092,
-  "id": 1218462294,
-  "name": "frappe-agent",
-  "fullName": "Dkm0315/frappe-agent",
-  "owner": "Dkm0315",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/127371606?v=4",
-  "url": "https://github.com/Dkm0315/frappe-agent",
-  "homepage": "https://hol.org/registry/plugins/dhairya-marwaha%2Ffrappe-agent",
-  "description": "Frappe, ERPNext, and Frappe ecosystem agent plugin for Codex, Claude Code, Cursor, Copilot, Helpdesk, CRM, LMS, Drive, HRMS, Insights, Builder, and Payments.",
-  "summary": "frappe-agent：frappe-agent：frappe-agent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1248,
+  "id": 1298977090,
+  "name": "baocut",
+  "fullName": "JimLiu/baocut",
+  "owner": "JimLiu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/648674?v=4",
+  "url": "https://github.com/JimLiu/baocut",
+  "homepage": "https://baocut.app",
+  "description": "Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents",
+  "summary": "baocut：baocut：baocut 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,59 +19,48 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/Dkm0315/frappe-agent.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/JimLiu/baocut.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 19,
-  "forks": 3,
-  "openIssues": 2,
-  "score": 69.1,
+  "stars": 293,
+  "forks": 19,
+  "openIssues": 1,
+  "score": 101.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-26T03:12:29Z",
-  "updatedAt": "2026-07-22T07:57:14Z",
-  "createdAt": "2026-04-22T22:47:25Z",
+  "pushedAt": "2026-07-26T23:19:21Z",
+  "updatedAt": "2026-07-26T23:19:15Z",
+  "createdAt": "2026-07-13T07:06:42Z",
   "sourceTopics": [
-    "codex-skills"
+    "agent-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-coding",
+    "agent-skill",
     "claude-code",
     "codex",
-    "codex-plugin",
-    "codex-skills",
-    "developer-tools",
-    "erpnext",
-    "erpnext-customization",
-    "frappe",
-    "frappe-builder",
-    "frappe-crm",
-    "frappe-drive",
-    "frappe-framework",
-    "frappe-helpdesk",
-    "frappe-hrms",
-    "frappe-lms"
+    "macos",
+    "skills",
+    "subtitles",
+    "transcription"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "GitHub Copilot"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Dkm0315/frappe-agent",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JimLiu/baocut",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Dkm0315/frappe-agent#readme",
-  "detailPath": "data/details/dkm0315__frappe__agent.json",
+  "readmeUrl": "https://github.com/JimLiu/baocut#readme",
+  "detailPath": "data/details/jimliu__baocut.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "frappe-agent：frappe-agent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "baocut：baocut 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -90,14 +79,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "9710d0f1b9255d7f",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "83097d14c163e0ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "frappe-agent：frappe-agent：frappe-agent 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "frappe-agent 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "baocut：baocut：baocut 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "baocut 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -114,7 +103,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

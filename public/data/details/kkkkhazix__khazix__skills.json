@@ -1,5 +1,5 @@
 {
-  "rank": 60,
+  "rank": 61,
   "id": 1202599845,
   "name": "khazix-skills",
   "fullName": "KKKKhazix/khazix-skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/239590580?v=4",
   "url": "https://github.com/KKKKhazix/khazix-skills",
   "homepage": "",
-  "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: neat-freak 洁癖 (docs/memory closeout), hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+  "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
   "summary": "khazix-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/KKKKhazix/khazix-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 17931,
-  "forks": 2017,
+  "stars": 18118,
+  "forks": 2031,
   "openIssues": 34,
-  "score": 148.1,
+  "score": 148.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T18:25:22Z",
-  "updatedAt": "2026-07-26T03:21:09Z",
+  "pushedAt": "2026-07-26T22:10:34Z",
+  "updatedAt": "2026-07-27T04:01:04Z",
   "createdAt": "2026-04-06T07:37:02Z",
   "sourceTopics": [
     "skills",
@@ -54,9 +54,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "OpenCode"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -88,14 +86,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "c3dae8525b6d1744",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "332a311996cfbb08",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
     "plainIntro": "khazix-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "khazix-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: neat-freak 洁癖 (docs/memory closeout), hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "whatItIs": "khazix-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",

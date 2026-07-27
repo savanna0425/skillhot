@@ -1,5 +1,5 @@
 {
-  "rank": 556,
+  "rank": 361,
   "id": 1210223495,
   "name": "nihaixia",
   "fullName": "jangviktor-web/nihaixia",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g clawhub && clawhub login\nclawhub install nihaixia",
+  "installCommand": "openclaw skills install @jangviktor-web/nihaixia\ngit clone https://github.com/jangviktor-web/nihaixia.git\ncp -r nihaixia/ ~/.claude/skills/nihaixia/",
   "language": "HTML",
   "license": "",
-  "stars": 1427,
-  "forks": 265,
+  "stars": 1469,
+  "forks": 272,
   "openIssues": 3,
-  "score": 118.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-14T11:20:21Z",
-  "updatedAt": "2026-07-26T03:09:14Z",
+  "score": 126.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-26T21:52:54Z",
+  "updatedAt": "2026-07-27T03:36:31Z",
   "createdAt": "2026-04-14T07:49:54Z",
   "sourceTopics": [
     "openclaw-skills",
@@ -83,8 +83,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "bfc9835bbc4f465f",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "1f11a4612740fccb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

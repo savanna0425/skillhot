@@ -1,5 +1,5 @@
 {
-  "rank": 846,
+  "rank": 849,
   "id": 1172963839,
   "name": "plugins",
   "fullName": "openai/plugins",
@@ -8,7 +8,7 @@
   "url": "https://github.com/openai/plugins",
   "homepage": "",
   "description": "OpenAI Plugins",
-  "summary": "plugins：plugins：OpenAI 插件。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "plugins：plugins：OpenAI 插件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/openai/plugins.git",
   "language": "JavaScript",
   "license": "",
-  "stars": 4739,
-  "forks": 635,
+  "stars": 4754,
+  "forks": 637,
   "openIssues": 42,
-  "score": 111.2,
+  "score": 111.3,
   "activity": "本月活跃",
   "pushedAt": "2026-07-14T17:41:06Z",
-  "updatedAt": "2026-07-26T03:09:10Z",
+  "updatedAt": "2026-07-27T02:41:36Z",
   "createdAt": "2026-03-04T21:52:32Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "plugins：OpenAI 插件。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "plugins：OpenAI 插件。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "5c28027ddf112d97",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "de8d2a90e3fade3b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "plugins：plugins：OpenAI 插件。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "plugins：plugins：OpenAI 插件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "plugins 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

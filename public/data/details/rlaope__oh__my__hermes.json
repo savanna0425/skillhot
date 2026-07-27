@@ -1,62 +1,68 @@
 {
-  "rank": 1804,
-  "id": 1177774359,
-  "name": "OpenClaw-Admin",
-  "fullName": "itq5/OpenClaw-Admin",
-  "owner": "itq5",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/42521985?v=4",
-  "url": "https://github.com/itq5/OpenClaw-Admin",
-  "homepage": "https://claw.227727.xyz",
-  "description": "Claw-Admin 是一个基于 Vue 3 构建的现代化 AI 智能体管理平台，同时支持 OpenClaw Gateway 和 Hermes Agent 两大 AI 智能体网关提供完整的 Web 管理界面。通过直观的可视化操作，用户可以轻松管理 AI 智能体、会话、模型、频道、技能等核心功能。",
-  "summary": "OpenClaw-Admin：OpenClaw-Admin：Claw-Admin 是一个基于 Vue 3 构建的现代化 AI 智能体管理平台，同时支持 OpenClaw Gateway 和 Hermes Agent 两大 AI 智能体网关提供完整的 Web 管理界面。通过直观的可视化操作，用户可以轻。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1907,
+  "id": 1258301311,
+  "name": "oh-my-hermes",
+  "fullName": "rlaope/oh-my-hermes",
+  "owner": "rlaope",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/105429536?v=4",
+  "url": "https://github.com/rlaope/oh-my-hermes",
+  "homepage": "https://rlaope.github.io/oh-my-hermes/",
+  "description": "Just install once. Anyone can use hermes-agent professionally. the powerful intelligence for your agent — OMH (Oh-My-Hermes) ⚚",
+  "summary": "oh-my-hermes：oh-my-hermes：oh-my-hermes 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/itq5/OpenClaw-Admin.git",
-  "language": "Vue",
+  "installCommand": "git clone https://github.com/rlaope/oh-my-hermes.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 845,
-  "forks": 207,
-  "openIssues": 43,
-  "score": 85.4,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-27T16:10:59Z",
-  "updatedAt": "2026-07-25T15:03:31Z",
-  "createdAt": "2026-03-10T11:05:32Z",
-  "sourceTopics": [],
+  "stars": 82,
+  "forks": 2,
+  "openIssues": 0,
+  "score": 81.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-27T02:56:06Z",
+  "updatedAt": "2026-07-27T02:56:10Z",
+  "createdAt": "2026-06-03T13:00:34Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "dashboard",
-    "hermes",
+    "agent",
+    "ai",
+    "ai-agent",
+    "ai-tools",
+    "claude-code",
+    "codex",
     "hermes-agent",
-    "openclaw",
-    "ui",
-    "web"
+    "hermes-skill",
+    "skills"
   ],
   "platforms": [
-    "OpenClaw"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/itq5/OpenClaw-Admin",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/rlaope/oh-my-hermes",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/itq5/OpenClaw-Admin#readme",
-  "detailPath": "data/details/itq5__openclaw__admin.json",
+  "readmeUrl": "https://github.com/rlaope/oh-my-hermes#readme",
+  "detailPath": "data/details/rlaope__oh__my__hermes.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenClaw-Admin：Claw-Admin 是一个基于 Vue 3 构建的现代化 AI 智能体管理平台，同时支持 OpenClaw Gateway 和 Hermes Agent 两大 AI 智能体网关提供完整的 Web 管理界面。通过直观的可视化操作，用户可以轻。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "oh-my-hermes：oh-my-hermes 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -75,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-26T04:01:06.572Z",
-    "sourceHash": "f00e7aa10ec413ca",
+    "generatedAt": "2026-07-27T04:07:44.381Z",
+    "sourceHash": "316e8f9651f4038f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenClaw-Admin：OpenClaw-Admin：Claw-Admin 是一个基于 Vue 3 构建的现代化 AI 智能体管理平台，同时支持 OpenClaw Gateway 和 Hermes Agent 两大 AI 智能体网关提供完整的 Web 管理界面。通过直观的可视化操作，用户可以轻。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "OpenClaw-Admin 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：Claw-Admin 是一个基于 Vue 3 构建的现代化 AI 智能体管理平台，同时支持 OpenClaw Gateway 和 Hermes Agent 两大 AI 智能体网关提供完整的 Web 管理界面。通过直观的可视化操作，用户可以轻松管理 AI 智能体、会话、模型、频道、技能等核心功能。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "oh-my-hermes：oh-my-hermes：oh-my-hermes 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "oh-my-hermes 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -99,7 +105,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
