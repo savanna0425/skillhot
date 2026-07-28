@@ -1,14 +1,14 @@
 {
-  "rank": 1750,
-  "id": 1210493610,
-  "name": "shortcuts-playground-plugin",
-  "fullName": "viticci/shortcuts-playground-plugin",
-  "owner": "viticci",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2583235?v=4",
-  "url": "https://github.com/viticci/shortcuts-playground-plugin",
-  "homepage": "https://www.macstories.net/shortcuts/",
-  "description": "Shortcuts Playground: A Claude Code and Codex plugin for building, validating, signing, and remixing macOS/iOS Shortcuts with natural language.",
-  "summary": "shortcuts-playground-plugin：shortcuts-playground-plugin：短途游乐场：一个支持自然语言构建、验证、签名和重制的 macOS/iOS 短途插件，专为 Claude Code 和 Codex 设计。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 2112,
+  "id": 1189146805,
+  "name": "ai-skills",
+  "fullName": "allinherog-star/ai-skills",
+  "owner": "allinherog-star",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/243965348?v=4",
+  "url": "https://github.com/allinherog-star/ai-skills",
+  "homepage": "https://ai-skills.ai",
+  "description": "AI Skills（ai-skills.ai）是一个面向各行各业的 AI 技能库。可直接用于openclaw，Hermes，qclaw，claude code，codex等智能体平台。为你的职业发展、行业竞争力，增加更多可能。",
+  "summary": "ai-skills：ai-skills：AI Skills（ai-skills.ai）是一个面向各行各业的 AI 技能库。可直接用于openclaw，Hermes，qclaw，claude code，codex等智能体平台。为你的职业发展、行业竞争力，增加更多可能。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,47 +19,58 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/viticci/shortcuts-playground-plugin.git",
+  "installCommand": "git clone https://github.com/allinherog-star/ai-skills.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 997,
-  "forks": 43,
-  "openIssues": 3,
-  "score": 87.1,
+  "license": "",
+  "stars": 44,
+  "forks": 4,
+  "openIssues": 0,
+  "score": 68.6,
   "activity": "近期活跃",
-  "pushedAt": "2026-06-15T14:26:38Z",
-  "updatedAt": "2026-07-26T16:58:15Z",
-  "createdAt": "2026-04-14T13:23:26Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-06-06T07:52:47Z",
+  "updatedAt": "2026-07-27T12:22:29Z",
+  "createdAt": "2026-03-23T02:50:23Z",
+  "sourceTopics": [
+    "skills-sh"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "apple",
+    "agent-skills",
+    "agentic-workflow",
+    "agents",
+    "ai-agent",
+    "ai-agents",
     "automation",
-    "claude",
-    "codex",
-    "ios",
-    "ipados",
-    "macos",
-    "shortcuts"
+    "claude-skills",
+    "claude-skills-hub",
+    "easyclaw",
+    "hermes",
+    "hermes-agent",
+    "openclaw",
+    "openclaw-skill",
+    "qclaw",
+    "skills",
+    "skills-sh"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/viticci/shortcuts-playground-plugin",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/allinherog-star/ai-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/viticci/shortcuts-playground-plugin#readme",
-  "detailPath": "data/details/viticci__shortcuts__playground__plugin.json",
+  "readmeUrl": "https://github.com/allinherog-star/ai-skills#readme",
+  "detailPath": "data/details/allinherog__star__ai__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "shortcuts-playground-plugin：短途游乐场：一个支持自然语言构建、验证、签名和重制的 macOS/iOS 短途插件，专为 Claude Code 和 Codex 设计。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "ai-skills：AI Skills（ai-skills.ai）是一个面向各行各业的 AI 技能库。可直接用于openclaw，Hermes，qclaw，claude code，codex等智能体平台。为你的职业发展、行业竞争力，增加更多可能。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -75,17 +86,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "9d7588696a84150c",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "1da0e718c5596425",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "shortcuts-playground-plugin：shortcuts-playground-plugin：短途游乐场：一个支持自然语言构建、验证、签名和重制的 macOS/iOS 短途插件，专为 Claude Code 和 Codex 设计。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "shortcuts-playground-plugin 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-skills：ai-skills：AI Skills（ai-skills.ai）是一个面向各行各业的 AI 技能库。可直接用于openclaw，Hermes，qclaw，claude code，codex等智能体平台。为你的职业发展、行业竞争力，增加更多可能。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "ai-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -102,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -125,7 +136,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

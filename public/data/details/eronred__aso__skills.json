@@ -1,5 +1,5 @@
 {
-  "rank": 1333,
+  "rank": 697,
   "id": 1168912251,
   "name": "aso-skills",
   "fullName": "Eronred/aso-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Eronred/aso-skills",
   "homepage": "https://appeeky.com/",
   "description": "AI agent skills for App Store Optimization (ASO) and app marketing. Built for indie developers, app marketers, and growth teams who want Cursor, Claude Code, or any Agent Skills-compatible AI assistant to help with keyword research, metadata optimization, competitor analysis, and app growth.",
-  "summary": "aso-skills：aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "aso-skills：aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/Eronred/aso-skills.git",
-  "language": "Shell",
+  "language": "MDX",
   "license": "MIT",
-  "stars": 1677,
+  "stars": 1681,
   "forks": 110,
   "openIssues": 0,
-  "score": 100.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-20T15:35:23Z",
-  "updatedAt": "2026-07-26T11:55:11Z",
+  "score": 115.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-27T19:18:40Z",
+  "updatedAt": "2026-07-28T02:22:09Z",
   "createdAt": "2026-02-27T23:56:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,9 +47,10 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor"
   ],
-  "skillCount": 1,
+  "skillCount": 30,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Eronred/aso-skills",
@@ -60,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -79,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "2886841b5cca0dc1",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "2346ec0b433ab82e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aso-skills：aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "aso-skills：aso-skills：面向独立开发者、应用营销人员及增长团队的 AI 工具包，旨在帮助进行关键词研究、元数据优化、竞品分析及提升应用性能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "aso-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -103,7 +104,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -113,7 +114,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 30+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",

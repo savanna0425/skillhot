@@ -1,5 +1,5 @@
 {
-  "rank": 102,
+  "rank": 103,
   "id": 1147094660,
   "name": "nanobot",
   "fullName": "HKUDS/nanobot",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
   "url": "https://github.com/HKUDS/nanobot",
   "homepage": "https://nanobot.wiki",
-  "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-  "summary": "nanobot：nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+  "summary": "nanobot：nanobot：nanobot 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,36 +22,41 @@
   "installCommand": "The default command installs or upgrades `nanobot-ai` from PyPI. On a fresh local desktop, it then starts `nanobot webui` so you can configure the first provider and model in **Settings → Models**. SSH, headless, existing-config, and older-release paths keep the terminal setup wizard. The installer avoids system-wide pip installs by using an active virtual e",
   "language": "Python",
   "license": "MIT",
-  "stars": 46278,
-  "forks": 8195,
-  "openIssues": 822,
+  "stars": 46314,
+  "forks": 8201,
+  "openIssues": 771,
   "score": 142,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T04:00:07Z",
-  "updatedAt": "2026-07-27T04:00:54Z",
+  "pushedAt": "2026-07-28T03:40:23Z",
+  "updatedAt": "2026-07-28T03:36:30Z",
   "createdAt": "2026-02-01T07:16:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
+    "agent-framework",
     "ai-agent",
     "ai-agents",
-    "anthropic",
-    "chatgpt",
-    "claude",
-    "claude-code",
-    "codex",
-    "codex-cli",
-    "llm",
-    "nanobot",
-    "openai",
-    "openclaw"
+    "chatbot",
+    "chatops",
+    "discord-bot",
+    "llm-agents",
+    "llms",
+    "local-llm",
+    "mcp",
+    "model-context-protocol",
+    "multi-agent",
+    "openai-compatible",
+    "openclaw",
+    "personal-ai-assistant",
+    "python",
+    "self-hosted",
+    "telegram-bot-ai-assistant",
+    "webui",
+    "workflow-automation"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -65,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "nanobot：nanobot 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "aeea94ba69305274",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "58c7bf75acd4251b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nanobot：nanobot：轻量级开源 AI 工具、聊天与工作流助手。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "nanobot：nanobot：nanobot 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "nanobot 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -108,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 937,
-  "id": 1266884317,
-  "name": "firstmate",
-  "fullName": "kunchenguid/firstmate",
-  "owner": "kunchenguid",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3233006?v=4",
-  "url": "https://github.com/kunchenguid/firstmate",
-  "homepage": "",
-  "description": "Talk to one agent. Ship with a crew.",
-  "summary": "firstmate：firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1842,
+  "id": 1273379460,
+  "name": "awesome-images",
+  "fullName": "flatkey-ai/awesome-images",
+  "owner": "flatkey-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/294825184?v=4",
+  "url": "https://github.com/flatkey-ai/awesome-images",
+  "homepage": "https://flatkey.ai/use-case/image-buddy?utm_source=github&utm_medium=awesome_images",
+  "description": "Try flatkey.ai for 40% saving! Generate practical images ready for all your work needs!!!",
+  "summary": "awesome-images 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,63 +19,73 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kunchenguid/firstmate.git",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 1901,
-  "forks": 626,
-  "openIssues": 344,
-  "score": 108.8,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-26T08:08:16Z",
-  "updatedAt": "2026-07-27T03:55:53Z",
-  "createdAt": "2026-06-12T03:21:10Z",
+  "installCommand": "git clone https://github.com/flatkey-ai/awesome-images.git",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 799,
+  "forks": 0,
+  "openIssues": 1,
+  "score": 84.8,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-19T08:52:08Z",
+  "updatedAt": "2026-07-28T03:36:16Z",
+  "createdAt": "2026-06-18T13:17:13Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "affordable-ai",
+    "affordable-ai-platform",
+    "ai-api",
+    "gpt-image-2",
+    "gpt-image-2-api",
+    "gpt-image-2-prompts",
+    "nano-banana",
+    "nano-banana-pro",
+    "nano-banana-prompts"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kunchenguid/firstmate",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/flatkey-ai/awesome-images",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kunchenguid/firstmate#readme",
-  "detailPath": "data/details/kunchenguid__firstmate.json",
+  "readmeUrl": "https://github.com/flatkey-ai/awesome-images#readme",
+  "detailPath": "data/details/flatkey__ai__awesome__images.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "awesome-images 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
       "开源工具试用"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "69daae6a9a269964",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "30de288716dfa23b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "firstmate：firstmate：firstmate：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "firstmate 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "awesome-images 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-images 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +125,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

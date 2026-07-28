@@ -1,66 +1,55 @@
 {
-  "rank": 1322,
-  "id": 1228687488,
-  "name": "Photo-agents",
-  "fullName": "jmerelnyc/Photo-agents",
-  "owner": "jmerelnyc",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/164396066?v=4",
-  "url": "https://github.com/jmerelnyc/Photo-agents",
-  "homepage": "",
-  "description": "Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer.",
-  "summary": "Photo-agents：Photo-agents：Photo-agents 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1128,
+  "id": 1013866891,
+  "name": "Datus-agent",
+  "fullName": "Datus-ai/Datus-agent",
+  "owner": "Datus-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/204355053?v=4",
+  "url": "https://github.com/Datus-ai/Datus-agent",
+  "homepage": "https://datus.ai/",
+  "description": "The Future of Data Engineering — A CLI SQL client for the modern data stack, enabling AI-native context engineering for data.",
+  "summary": "Datus-agent：Datus-agent：Datus-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
-  "categoryReason": "vector database|semantic search|context layer|remember",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jmerelnyc/Photo-agents.git",
+  "installCommand": "git clone https://github.com/Datus-ai/Datus-agent.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 789,
-  "forks": 23,
-  "openIssues": 0,
-  "score": 100.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-03T09:05:28Z",
-  "updatedAt": "2026-07-26T04:37:47Z",
-  "createdAt": "2026-05-04T09:14:09Z",
+  "license": "NOASSERTION",
+  "stars": 1396,
+  "forks": 214,
+  "openIssues": 30,
+  "score": 105.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-28T02:38:16Z",
+  "updatedAt": "2026-07-28T02:37:25Z",
+  "createdAt": "2025-07-04T15:43:40Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-memory",
-    "ai-agents",
-    "autonomous-agents",
-    "computer-use",
-    "llm",
-    "photo-agents",
-    "photographic-memory",
-    "python",
-    "self-evolving-agents",
-    "vision-agents"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jmerelnyc/Photo-agents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Datus-ai/Datus-agent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jmerelnyc/Photo-agents#readme",
-  "detailPath": "data/details/jmerelnyc__photo__agents.json",
+  "readmeUrl": "https://github.com/Datus-ai/Datus-agent#readme",
+  "detailPath": "data/details/datus__ai__datus__agent.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Photo-agents：Photo-agents 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "Datus-agent：Datus-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -76,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "6b53a7b19918128f",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "c27e6852e576db32",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Photo-agents：Photo-agents：Photo-agents 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Photo-agents 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Datus-agent：Datus-agent：Datus-agent 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Datus-agent 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -126,7 +115,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

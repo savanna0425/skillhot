@@ -1,14 +1,14 @@
 {
-  "rank": 479,
-  "id": 942837343,
-  "name": "claude-task-master",
-  "fullName": "eyaltoledano/claude-task-master",
-  "owner": "eyaltoledano",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3160046?v=4",
-  "url": "https://github.com/eyaltoledano/claude-task-master",
-  "homepage": "https://tryhamster.com",
-  "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
-  "summary": "claude-task-master：claude-task-master：一个可嵌入 Cursor、Lovable、Windsurf 及 Roo 等工具的 AI 任务管理系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 2194,
+  "id": 1176706001,
+  "name": "bugSkills",
+  "fullName": "BehiSecc/bugSkills",
+  "owner": "BehiSecc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/226653201?v=4",
+  "url": "https://github.com/BehiSecc/bugSkills",
+  "homepage": "",
+  "description": "Convert your HackerOne reports into reusable AI skills.",
+  "summary": "bugSkills：bugSkills：bugSkills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,53 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "claude mcp add taskmaster-ai -- npx -y task-master-ai",
-  "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stars": 27900,
-  "forks": 2621,
-  "openIssues": 208,
-  "score": 121.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-04-28T13:27:12Z",
-  "updatedAt": "2026-07-27T01:16:19Z",
-  "createdAt": "2025-03-04T18:54:54Z",
+  "installCommand": "git clone https://github.com/BehiSecc/bugSkills.git",
+  "language": "Python",
+  "license": "",
+  "stars": 104,
+  "forks": 11,
+  "openIssues": 0,
+  "score": 64.4,
+  "activity": "活跃",
+  "pushedAt": "2026-03-09T09:49:49Z",
+  "updatedAt": "2026-07-15T09:15:09Z",
+  "createdAt": "2026-03-09T09:42:37Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub 搜索"
   ],
-  "repoTopics": [
-    "ai",
-    "cursor",
-    "cursor-ai",
-    "cursorai",
-    "lovable",
-    "lovable-dev",
-    "roocode",
-    "task-manager",
-    "tasks",
-    "tasks-list",
-    "windsurf",
-    "windsurf-ai"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/eyaltoledano/claude-task-master",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BehiSecc/bugSkills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/eyaltoledano/claude-task-master#readme",
-  "detailPath": "data/details/eyaltoledano__claude__task__master.json",
+  "readmeUrl": "https://github.com/BehiSecc/bugSkills#readme",
+  "detailPath": "data/details/behisecc__bugskills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-task-master：一个可嵌入 Cursor、Lovable、Windsurf 及 Roo 等工具的 AI 任务管理系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "bugSkills：bugSkills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -81,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "0373e39564dd88fe",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "0a02ebecfd937754",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-task-master：claude-task-master：一个可嵌入 Cursor、Lovable、Windsurf 及 Roo 等工具的 AI 任务管理系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "claude-task-master 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "bugSkills：bugSkills：bugSkills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "bugSkills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -108,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -131,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

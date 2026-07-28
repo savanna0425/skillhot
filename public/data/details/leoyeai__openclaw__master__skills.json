@@ -1,5 +1,5 @@
 {
-  "rank": 595,
+  "rank": 856,
   "id": 1170326509,
   "name": "openclaw-master-skills",
   "fullName": "LeoYeAI/openclaw-master-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/LeoYeAI/openclaw-master-skills",
   "homepage": "https://myclaw.ai",
   "description": "🧠 Curated collection of 1209+ best OpenClaw skills — weekly updated by MyClaw.ai",
-  "summary": "openclaw-master-skills 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "openclaw-master-skills 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "clawhub install openclaw-master-skills\ngit clone https://github.com/LeoYeAI/openclaw-master-skills.git\ncp -r openclaw-master-skills/skills/<skill-name> ~/.openclaw/workspace/skills/",
+  "installCommand": "git clone https://github.com/LeoYeAI/openclaw-master-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 2110,
+  "stars": 2109,
   "forks": 314,
   "openIssues": 32,
-  "score": 117.8,
-  "activity": "本周活跃",
+  "score": 110.8,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-20T02:05:04Z",
-  "updatedAt": "2026-07-27T02:18:08Z",
+  "updatedAt": "2026-07-27T07:13:13Z",
   "createdAt": "2026-03-02T02:02:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,12 +45,9 @@
     "weekly"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
     "OpenClaw"
   ],
-  "skillCount": 1211,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/LeoYeAI/openclaw-master-skills",
@@ -61,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openclaw-master-skills 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "openclaw-master-skills 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -80,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "6de0eada3bb8d1a4",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "1e4b4cd137f46f5e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw-master-skills 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "openclaw-master-skills 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "openclaw-master-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -104,7 +101,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -114,7 +111,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 1211+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

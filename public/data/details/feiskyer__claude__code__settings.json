@@ -1,5 +1,5 @@
 {
-  "rank": 552,
+  "rank": 555,
   "id": 1021907170,
   "name": "claude-code-settings",
   "fullName": "feiskyer/claude-code-settings",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx -y skills add -l feiskyer/claude-code-settings\nnpx -y skills add --all feiskyer/claude-code-settings\nnpx -y skills add feiskyer/claude-code-settings",
+  "installCommand": "claude plugin marketplace add feiskyer/claude-code-settings\nclaude plugin install claude-code-settings@claude-code-settings",
   "language": "Python",
   "license": "MIT",
-  "stars": 1609,
+  "stars": 1610,
   "forks": 242,
   "openIssues": 0,
   "score": 119,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T03:38:43Z",
-  "updatedAt": "2026-07-27T03:38:51Z",
+  "pushedAt": "2026-07-27T06:49:12Z",
+  "updatedAt": "2026-07-27T17:00:54Z",
   "createdAt": "2025-07-18T06:22:12Z",
   "sourceTopics": [
     "claude-skills"
@@ -86,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "26c3dff120f54738",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "78b6988630eb6309",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

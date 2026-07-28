@@ -1,5 +1,5 @@
 {
-  "rank": 668,
+  "rank": 912,
   "id": 250036571,
   "name": "liteflow",
   "fullName": "dromara/liteflow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dromara/liteflow",
   "homepage": "",
   "description": "Lightweight, fast, stable, programmable component-based rule engine — where AI Agents orchestrate just like ordinary components. Uniquely designed DSL: component reuse, sync/async & dynamic orchestration, multi-language scripting, nested rules, hot deployment and smooth refresh. If you can orchestrate LiteFlow, you can orchestrate AI.",
-  "summary": "liteflow：liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "liteflow：liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dromara/liteflow.git",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 3810,
+  "stars": 3814,
   "forks": 522,
   "openIssues": 60,
-  "score": 116,
-  "activity": "本周活跃",
+  "score": 109,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-19T08:33:02Z",
-  "updatedAt": "2026-07-26T13:33:22Z",
+  "updatedAt": "2026-07-28T01:55:08Z",
   "createdAt": "2020-03-25T16:49:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,8 +46,7 @@
     "rule-engine"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -60,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,13 +78,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "5b17517e2afa8591",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "f964ebafbf13bc1e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "liteflow：liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "liteflow：liteflow：轻量级、快速、稳定、可编程的组件化规则引擎——AI 代理如同普通组件一样编排。独创的 DSL：支持组件复用、同步/异步编排、动态编排、多语言脚本编写、嵌套规则、热部署及平滑刷新。若你能编排 LiteFlow，便掌握了编排 AI 的核心能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "liteflow 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -103,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

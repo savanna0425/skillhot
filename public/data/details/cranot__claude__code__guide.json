@@ -1,14 +1,14 @@
 {
-  "rank": 1515,
-  "id": 1226088627,
-  "name": "AIS-OS",
-  "fullName": "nateherkai/AIS-OS",
-  "owner": "nateherkai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/253835467?v=4",
-  "url": "https://github.com/nateherkai/AIS-OS",
+  "rank": 823,
+  "id": 1028249247,
+  "name": "claude-code-guide",
+  "fullName": "Cranot/claude-code-guide",
+  "owner": "Cranot",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/44682693?v=4",
+  "url": "https://github.com/Cranot/claude-code-guide",
   "homepage": "",
-  "description": "AI Operating System starter kit for Claude Code — three-skill kit (/onboard, /audit, /level-up) + 3Ms framework. Companion to the AIOS masterclass.",
-  "summary": "AIS-OS：AIS-OS：AIS-OS：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "The Complete Claude Code CLI Guide - Live & Auto-Updated Every 2 Days",
+  "summary": "claude-code-guide：claude-code-guide：claude-code-guide：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,17 +19,17 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nateherkai/AIS-OS.git",
-  "language": "",
-  "license": "NOASSERTION",
-  "stars": 998,
-  "forks": 300,
-  "openIssues": 7,
-  "score": 95.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-01T00:56:58Z",
-  "updatedAt": "2026-07-27T03:21:04Z",
-  "createdAt": "2026-05-01T00:53:01Z",
+  "installCommand": "curl -fsSL https://claude.ai/install.sh | bash\nirm https://claude.ai/install.ps1 | iex\ncurl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd",
+  "language": "Shell",
+  "license": "",
+  "stars": 2853,
+  "forks": 320,
+  "openIssues": 0,
+  "score": 113,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-27T15:48:54Z",
+  "updatedAt": "2026-07-27T17:02:21Z",
+  "createdAt": "2025-07-29T08:47:27Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
@@ -41,15 +41,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/AIS-OS",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Cranot/claude-code-guide",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/nateherkai/AIS-OS#readme",
-  "detailPath": "data/details/nateherkai__ais__os.json",
+  "readmeUrl": "https://github.com/Cranot/claude-code-guide#readme",
+  "detailPath": "data/details/cranot__claude__code__guide.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AIS-OS：AIS-OS：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "claude-code-guide：claude-code-guide：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "2a6c39855a6cc3d8",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "e6d3762fa4393435",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AIS-OS：AIS-OS：AIS-OS：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "AIS-OS 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "claude-code-guide：claude-code-guide：claude-code-guide：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "claude-code-guide 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

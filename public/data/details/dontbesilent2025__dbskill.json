@@ -1,5 +1,5 @@
 {
-  "rank": 241,
+  "rank": 240,
   "id": 1187377394,
   "name": "dbskill",
   "fullName": "dontbesilent2025/dbskill",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "dbskill 的重点是推进眼前真实的任务。它会先处理当前最有价值的结点，再根据实际结果衔接后续工作。\n仓库公开了 4,176 条结构化知识原子、按 Skill 整理的方法论文档与高频概念词典。\n- 想查看数据范围和字段，阅读 [原子库说明](知识库/原子库/README.md)。",
+  "installCommand": "这个 `dbs` 插件包含 29 个正式业务 Skill 和 1 个 `dbs-update` 系统更新入口。Claude Code 会为插件 Skill 添加命名空间：主入口使用 `/dbs:dbs`，具体能力例如 `/dbs:dbs-diagnosis`。\n只想安装一个能力时，可以在插件市场中选择对应插件，例如 `claude plugin install dbs-diagnosis@dontbesilent-skills`。\n![Claude Code 插件安装演示](demo.gif)",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 8902,
-  "forks": 1041,
-  "openIssues": 15,
+  "stars": 8945,
+  "forks": 1043,
+  "openIssues": 0,
   "score": 132.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-26T04:28:08Z",
-  "updatedAt": "2026-07-27T04:07:01Z",
+  "pushedAt": "2026-07-27T11:46:33Z",
+  "updatedAt": "2026-07-28T03:31:03Z",
   "createdAt": "2026-03-20T16:52:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,8 +69,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "2ee5ee2fa3c485ab",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "7732de6a07409773",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

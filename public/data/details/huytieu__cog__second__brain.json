@@ -1,5 +1,5 @@
 {
-  "rank": 1397,
+  "rank": 1050,
   "id": 1076571787,
   "name": "COG-second-brain",
   "fullName": "huytieu/COG-second-brain",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/10217502?v=4",
   "url": "https://github.com/huytieu/COG-second-brain",
   "homepage": "",
-  "description": "Self-evolving second brain with 17 AI skills, 6 worker agents, and people CRM — inspired by Garry Tan's gstack and gbrain. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
-  "summary": "COG-second-brain：COG-second-brain：COG-second-brain 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "Agent工具与平台",
-  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "description": "Self-evolving second brain with 33 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
+  "summary": "COG-second-brain：COG-second-brain：COG-second-brain 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "category": "UI设计",
+  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
   "scenarios": [
-    "模型与客户端管理",
-    "Agent 编排",
-    "多平台协作"
+    "界面设计",
+    "设计系统",
+    "体验质量检查"
   ],
-  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/huytieu/COG-second-brain.git",
-  "language": "Shell",
+  "language": "HTML",
   "license": "MIT",
-  "stars": 734,
-  "forks": 86,
+  "stars": 741,
+  "forks": 87,
   "openIssues": 5,
-  "score": 99.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-10T15:09:14Z",
-  "updatedAt": "2026-07-27T02:55:49Z",
+  "score": 107,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-27T14:06:21Z",
+  "updatedAt": "2026-07-27T23:56:53Z",
   "createdAt": "2025-10-15T03:50:52Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -39,6 +39,7 @@
     "agentic",
     "ai-agents",
     "claude-code",
+    "closed-loop",
     "cursor",
     "garry-tan",
     "gbrain",
@@ -51,6 +52,8 @@
     "second-brain",
     "self-evolving",
     "specialist-sessions",
+    "v-model",
+    "verification-harness",
     "worker-agents"
   ],
   "platforms": [
@@ -70,70 +73,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "COG-second-brain：COG-second-brain 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "COG-second-brain：COG-second-brain 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "useCases": [
-      "模型与客户端管理",
-      "Agent 编排",
-      "多平台协作"
+      "界面设计",
+      "设计系统",
+      "体验质量检查"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-27T04:07:44.381Z",
-    "sourceHash": "0b50c33ffc7affc7",
+    "generatedAt": "2026-07-28T03:42:37.836Z",
+    "sourceHash": "0edf82c4c4e1bec4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "COG-second-brain：COG-second-brain：COG-second-brain 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "COG-second-brain 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "COG-second-brain：COG-second-brain：COG-second-brain 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "COG-second-brain 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "多个 Agent、模型、工具和配置之间切换成本高。",
-      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
-      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
-      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
+      "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
+      "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
+      "从想法到可展示界面之间缺少一个稳定的辅助流程。",
+      "如果你的任务和「界面设计」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
-      "把模型、插件、工作流和配置集中管理。",
-      "帮助你判断它是否适合自己的 Agent 工具链。",
+      "辅助生成或改进界面、组件、演示页面与视觉方案。",
+      "把设计系统、布局、色彩或可访问性要求整理成 Agent 可执行的步骤。",
+      "帮助你在打开 README 前判断它是否适合当前 UI 任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
-      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
-      "想搭建个人或团队 Agent 工作台的人。",
+      "用 Agent 做网页、App 原型或视觉材料的人。",
+      "希望提高前端页面完成度的开发者。",
+      "需要把设计规范沉淀为可复用流程的小团队。",
       "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只需要一个简单聊天窗口、不想配置工具链的人。",
-      "不愿处理 API Key、权限、部署或本地环境的人。"
+      "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",
+      "需要完整商业设计服务或品牌策略的人。"
     ],
     "howItWorks": [
-      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
-      "用户配置模型服务、权限和项目后，在平台里发起任务。",
-      "稳定性取决于模型服务、插件生态和本地/云端配置。",
+      "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
+      "用户把它接入目标工具后，在界面任务中调用对应流程。",
+      "具体生成效果取决于你的模型能力、素材质量和项目约束。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你常用的模型和 Agent 客户端。",
-      "用低权限 API Key 或测试配置跑一个小任务。",
-      "确认日志、权限和密钥存储方式后再接入正式项目。"
+      "先看 README 中的示例截图或输出案例。",
+      "确认它支持你的前端框架、设计工具或 Agent 客户端。",
+      "用一个小页面或组件试跑，再决定是否用于正式项目。"
     ],
     "expectedOutcome": [
-      "多个 Agent 或模型配置更清楚。",
-      "任务编排和工具调用更集中。",
-      "个人 Agent 工作流更容易长期维护。"
+      "更快得到可展示的界面雏形。",
+      "减少“能运行但不好看”的 Agent 输出。",
+      "把审美要求变成更稳定的工作流。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",
