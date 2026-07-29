@@ -1,14 +1,14 @@
 {
-  "rank": 2237,
-  "id": 1202314032,
-  "name": "ff-rdp",
-  "fullName": "ractive/ff-rdp",
-  "owner": "ractive",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/783861?v=4",
-  "url": "https://github.com/ractive/ff-rdp",
-  "homepage": "",
-  "description": "CLI for Firefox Remote Debugging Protocol",
-  "summary": "ff-rdp：ff-rdp：ff-rdp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1112,
+  "id": 1130139388,
+  "name": "tuicr",
+  "fullName": "agavra/tuicr",
+  "owner": "agavra",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3172405?v=4",
+  "url": "https://github.com/agavra/tuicr",
+  "homepage": "https://tuicr.dev/",
+  "description": "a code review TUI with vim keybindings",
+  "summary": "tuicr：tuicr：带有 Vim 键绑定代码审查的 TUI。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,29 +19,26 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ractive/ff-rdp.git",
+  "installCommand": "git clone https://github.com/agavra/tuicr.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 3,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60.7,
+  "stars": 1414,
+  "forks": 133,
+  "openIssues": 91,
+  "score": 105.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-20T21:32:41Z",
-  "updatedAt": "2026-07-20T21:33:01Z",
-  "createdAt": "2026-04-05T22:03:06Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "pushedAt": "2026-07-25T19:40:41Z",
+  "updatedAt": "2026-07-29T03:44:12Z",
+  "createdAt": "2026-01-08T04:55:34Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-skills",
-    "agentic-workflow",
-    "cli",
-    "firefox",
-    "firefox-rdp"
+    "ai-tools",
+    "code-review",
+    "rust",
+    "tui"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +46,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ractive/ff-rdp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/agavra/tuicr",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ractive/ff-rdp#readme",
-  "detailPath": "data/details/ractive__ff__rdp.json",
+  "readmeUrl": "https://github.com/agavra/tuicr#readme",
+  "detailPath": "data/details/agavra__tuicr.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ff-rdp：ff-rdp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "tuicr：带有 Vim 键绑定代码审查的 TUI。适合在 Agent Skills 相关工作流里先做选型判断。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,14 +73,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "3607d451cea0868e",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "ed8d67743538d155",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ff-rdp：ff-rdp：ff-rdp 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ff-rdp 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "tuicr：tuicr：带有 Vim 键绑定代码审查的 TUI。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "tuicr 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

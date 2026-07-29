@@ -1,5 +1,5 @@
 {
-  "rank": 1465,
+  "rank": 812,
   "id": 1115438773,
   "name": "GeminiWatermarkTool",
   "fullName": "allenk/GeminiWatermarkTool",
@@ -8,7 +8,7 @@
   "url": "https://github.com/allenk/GeminiWatermarkTool",
   "homepage": "https://allenkuo.medium.com/removing-gemini-ai-watermarks-a-deep-dive-into-reverse-alpha-blending-bbbd83af2a3f",
   "description": "VEO / Gemini 3.5 Nano Banana Pro watermark maintenance tool",
-  "summary": "GeminiWatermarkTool：GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "GeminiWatermarkTool：GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/allenk/GeminiWatermarkTool.git",
+  "installCommand": "git clone https://github.com/microsoft/vcpkg.git\ncd vcpkg\n./bootstrap-vcpkg.sh    # Linux/macOS",
   "language": "C++",
   "license": "MIT",
-  "stars": 2914,
-  "forks": 259,
-  "openIssues": 10,
-  "score": 98.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-28T09:16:36Z",
-  "updatedAt": "2026-07-28T03:13:48Z",
+  "stars": 2929,
+  "forks": 262,
+  "openIssues": 9,
+  "score": 113.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-28T14:00:19Z",
+  "updatedAt": "2026-07-29T03:25:14Z",
   "createdAt": "2025-12-12T21:42:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -42,20 +42,21 @@
     "watermark"
   ],
   "platforms": [
+    "Claude",
     "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/allenk/GeminiWatermarkTool",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=0jux3AJVb2Q"
   },
   "readmeUrl": "https://github.com/allenk/GeminiWatermarkTool#readme",
   "detailPath": "data/details/allenk__geminiwatermarktool.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -74,13 +75,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "fa9463188d37d8d3",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "798b67244055b4f6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GeminiWatermarkTool：GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "GeminiWatermarkTool：GeminiWatermarkTool：VEO / Gemini 3.5 Nano Banana Pro 水印维护工具。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "GeminiWatermarkTool 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -98,7 +99,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

@@ -1,61 +1,68 @@
 {
-  "rank": 2001,
-  "id": 1229423932,
-  "name": "goal-prompt-builder",
-  "fullName": "win4r/goal-prompt-builder",
-  "owner": "win4r",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/42172631?v=4",
-  "url": "https://github.com/win4r/goal-prompt-builder",
-  "homepage": "https://youtu.be/sAYM1xvDXw4",
-  "description": "Build audit-friendly /goal prompts for OpenAI Codex",
-  "summary": "goal-prompt-builder：goal-prompt-builder：goal-prompt-builder 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 2049,
+  "id": 1243601229,
+  "name": "EZ_math_model",
+  "fullName": "woodfishhhh/EZ_math_model",
+  "owner": "woodfishhhh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/176751902?v=4",
+  "url": "https://github.com/woodfishhhh/EZ_math_model",
+  "homepage": "",
+  "description": "专攻数学建模的下一代自动化SKIILS",
+  "summary": "EZ_math_model：EZ_math_model：专攻数学建模的下一代自动化SKIILS。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/win4r/goal-prompt-builder.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/woodfishhhh/EZ_math_model.git",
+  "language": "PowerShell",
   "license": "MIT",
-  "stars": 216,
-  "forks": 17,
-  "openIssues": 2,
-  "score": 75.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-05T03:29:01Z",
-  "updatedAt": "2026-07-23T05:44:47Z",
-  "createdAt": "2026-05-05T03:04:55Z",
+  "stars": 31,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 72.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-28T11:25:30Z",
+  "updatedAt": "2026-07-28T11:25:47Z",
+  "createdAt": "2026-05-19T13:44:37Z",
   "sourceTopics": [
-    "codex-skill"
+    "skillsmp"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skills",
+    "claude-code",
     "codex",
-    "codex-cli",
-    "codex-skill"
+    "cumcm",
+    "icm",
+    "mathematical-modeling",
+    "mcm",
+    "skill-md",
+    "skillsmp"
   ],
   "platforms": [
+    "Claude",
     "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/win4r/goal-prompt-builder",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/woodfishhhh/EZ_math_model",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/win4r/goal-prompt-builder#readme",
-  "detailPath": "data/details/win4r__goal__prompt__builder.json",
+  "readmeUrl": "https://github.com/woodfishhhh/EZ_math_model#readme",
+  "detailPath": "data/details/woodfishhhh__ez__math__model.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "goal-prompt-builder：goal-prompt-builder 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "EZ_math_model：专攻数学建模的下一代自动化SKIILS。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -74,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "9f9927cadb5eedda",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "f237ae649c43db35",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "goal-prompt-builder：goal-prompt-builder：goal-prompt-builder 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "goal-prompt-builder 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "EZ_math_model：EZ_math_model：专攻数学建模的下一代自动化SKIILS。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "EZ_math_model 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -98,7 +105,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

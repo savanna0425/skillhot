@@ -1,5 +1,5 @@
 {
-  "rank": 651,
+  "rank": 652,
   "id": 1208718257,
   "name": "animal-island-ui",
   "fullName": "guokaigdg/animal-island-ui",
@@ -8,7 +8,7 @@
   "url": "https://github.com/guokaigdg/animal-island-ui",
   "homepage": "https://guokaigdg.github.io/animal-island-ui/#/",
   "description": "Animal Crossing-style React UI component library, inspired by Nintendo's game visuals Vue version available.  Animal 风格的 React 组件库 灵感来源于任天堂《集合啦！动物森友会》 Vue 版同步发布 ",
-  "summary": "animal-island-ui 是一个面向 Claude、Cursor、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "animal-island-ui 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install animal-island-ui",
+  "installCommand": "skills add guokaigdg/animal-island-ui",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 4023,
-  "forks": 335,
+  "stars": 4052,
+  "forks": 338,
   "openIssues": 6,
-  "score": 116.5,
+  "score": 116.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T13:07:49Z",
-  "updatedAt": "2026-07-28T03:08:04Z",
+  "pushedAt": "2026-07-28T14:56:24Z",
+  "updatedAt": "2026-07-29T03:13:19Z",
   "createdAt": "2026-04-12T16:53:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,6 +44,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor",
     "Gemini CLI"
   ],
@@ -58,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "animal-island-ui 是一个面向 Claude、Cursor、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "animal-island-ui 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -77,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "6cf92710bda67b68",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "3b52331e25da6089",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "animal-island-ui 是一个面向 Claude、Cursor、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "animal-island-ui 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "animal-island-ui 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：Animal Crossing-style React UI component library, inspired by Nintendo's game visuals Vue version available. Animal 风格的 React 组件库 灵感来源于任天堂《集合啦！动物森友会》 Vue 版同步发布。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
@@ -101,7 +102,7 @@
       "用 Agent 做网页、App 原型或视觉材料的人。",
       "希望提高前端页面完成度的开发者。",
       "需要把设计规范沉淀为可复用流程的小团队。",
-      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",

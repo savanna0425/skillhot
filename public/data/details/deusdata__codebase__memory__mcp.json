@@ -1,5 +1,5 @@
 {
-  "rank": 132,
+  "rank": 133,
   "id": 1166102148,
   "name": "codebase-memory-mcp",
   "fullName": "DeusData/codebase-memory-mcp",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\nscripts/build.sh                    # standard binary",
+  "installCommand": "`install.ps1` is idempotent, so re-running it *is* the update: it stops the daemon, retires the running binary, installs the new one, and cleans up. `install.ps1` sits next to the binary in your install directory. If PowerShell refuses to run it because the file came from the internet, `Unblock-File` it first.\nInstalled through **npm or pip**? Update with yo",
   "language": "C",
   "license": "MIT",
-  "stars": 35971,
-  "forks": 2814,
-  "openIssues": 375,
-  "score": 139.3,
+  "stars": 36265,
+  "forks": 2833,
+  "openIssues": 379,
+  "score": 139.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T02:53:04Z",
-  "updatedAt": "2026-07-28T03:33:28Z",
+  "pushedAt": "2026-07-29T01:31:19Z",
+  "updatedAt": "2026-07-29T03:43:28Z",
   "createdAt": "2026-02-24T22:01:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "649c15e70c9273e1",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "1375a32e1a495f3a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

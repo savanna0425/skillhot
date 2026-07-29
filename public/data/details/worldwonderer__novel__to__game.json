@@ -1,63 +1,77 @@
 {
-  "rank": 176,
-  "id": 1027384981,
-  "name": "deepagents",
-  "fullName": "langchain-ai/deepagents",
-  "owner": "langchain-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/126733545?v=4",
-  "url": "https://github.com/langchain-ai/deepagents",
-  "homepage": "https://docs.langchain.com/deepagents",
-  "description": "The batteries-included agent harness.",
-  "summary": "deepagents：deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 1169,
+  "id": 1305058794,
+  "name": "novel-to-game",
+  "fullName": "worldwonderer/novel-to-game",
+  "owner": "worldwonderer",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/49583093?v=4",
+  "url": "https://github.com/worldwonderer/novel-to-game",
+  "homepage": "https://xiyouji.vibecoco.ai",
+  "description": "将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)",
+  "summary": "novel-to-game：novel-to-game：将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/langchain-ai/deepagents.git",
+  "installCommand": "git clone https://github.com/worldwonderer/novel-to-game.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 26880,
-  "forks": 3762,
-  "openIssues": 178,
-  "score": 136.3,
+  "stars": 349,
+  "forks": 53,
+  "openIssues": 0,
+  "score": 103.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T00:51:26Z",
-  "updatedAt": "2026-07-28T03:33:52Z",
-  "createdAt": "2025-07-27T23:07:53Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-07-26T11:36:02Z",
+  "updatedAt": "2026-07-29T03:44:27Z",
+  "createdAt": "2026-07-18T16:29:56Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "deepagents",
-    "langchain",
-    "langgraph",
-    "python",
-    "typescript"
+    "agent-skills",
+    "ai-agents",
+    "ai-game-development",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "game-design",
+    "gamedev",
+    "interactive-fiction",
+    "kimi-code",
+    "narrative-design",
+    "novel-to-game",
+    "skills",
+    "story-to-game",
+    "text-to-game",
+    "visual-novel",
+    "web-game"
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/langchain-ai/deepagents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/worldwonderer/novel-to-game",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/langchain-ai/deepagents#readme",
-  "detailPath": "data/details/langchain__ai__deepagents.json",
+  "readmeUrl": "https://github.com/worldwonderer/novel-to-game#readme",
+  "detailPath": "data/details/worldwonderer__novel__to__game.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "novel-to-game：将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,14 +90,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "5eae5ee14f363006",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "b38cacfb54cdf215",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deepagents：deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "deepagents 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "novel-to-game：novel-to-game：将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "novel-to-game 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -100,7 +114,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

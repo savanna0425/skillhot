@@ -1,47 +1,62 @@
 {
-  "rank": 309,
+  "rank": 161,
   "id": 1197569406,
   "name": "cc-haha",
   "fullName": "NanmiCoder/cc-haha",
   "owner": "NanmiCoder",
   "avatarUrl": "https://avatars.githubusercontent.com/u/47178017?v=4",
   "url": "https://github.com/NanmiCoder/cc-haha",
-  "homepage": "https://claudecode-haha.relakkesyang.org/",
-  "description": "本地优先的跨平台 Claude Code /  Agent 桌面工作台：多 Agent、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、任务感知桌面宠物，并支持微信、飞书、钉钉、Telegram、WhatsApp 与 H5 访问。",
-  "summary": "cc-haha：cc-haha：本地优先的跨平台 Claude Code / Agent 桌面工作台：多 Agent、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、任务感知桌面宠物，并支持微信、飞书、钉钉、Telegram、What。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "中",
-  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "homepage": "cchaha.ai",
+  "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+  "summary": "cc-haha 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "git clone https://github.com/NanmiCoder/cc-haha.git",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 13650,
-  "forks": 8487,
-  "openIssues": 138,
-  "score": 129.3,
+  "license": "MIT",
+  "stars": 13683,
+  "forks": 8491,
+  "openIssues": 135,
+  "score": 137.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T02:45:57Z",
-  "updatedAt": "2026-07-28T03:36:12Z",
+  "pushedAt": "2026-07-29T03:16:18Z",
+  "updatedAt": "2026-07-29T03:44:09Z",
   "createdAt": "2026-03-31T17:30:14Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "ai-agent",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "coding-agent",
+    "computer-use",
+    "desktop-app",
+    "electron",
+    "llm",
+    "mcp",
+    "react",
+    "typescript"
+  ],
   "platforms": [
     "Claude",
     "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/NanmiCoder/cc-haha",
     "videoUrl": ""
@@ -51,73 +66,73 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cc-haha：本地优先的跨平台 Claude Code / Agent 桌面工作台：多 Agent、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、任务感知桌面宠物，并支持微信、飞书、钉钉、Telegram、What。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "cc-haha 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-28T03:42:37.836Z",
-    "sourceHash": "8f6506476608bbd1",
+    "generatedAt": "2026-07-29T03:46:32.431Z",
+    "sourceHash": "cf4b929fc7f28f29",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cc-haha：cc-haha：本地优先的跨平台 Claude Code / Agent 桌面工作台：多 Agent、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、任务感知桌面宠物，并支持微信、飞书、钉钉、Telegram、What。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "cc-haha 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：本地优先的跨平台 Claude Code / Agent 桌面工作台：多 Agent、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、任务感知桌面宠物，并支持微信、飞书、钉钉、Telegram、WhatsApp 与 H5 访问。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "cc-haha 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "cc-haha 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
-      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
-      "跨平台工作流缺少统一入口。",
-      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
-      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
+      "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
+      "用户不知道哪些技能值得先看。",
+      "团队需要一个集中入口来对比不同资源。",
+      "如果你的任务和「发现新技能」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
-      "把重复任务封装成 Agent 可以触发的流程。",
-      "帮助你判断它是否适合当前自动化任务。",
+      "集中整理 Skills、插件、示例、教程或资源链接。",
+      "按领域、平台或用途帮助用户快速发现项目。",
+      "帮助你判断哪些条目值得继续打开 README。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理重复网页操作、数据搬运或工具联动的人。",
-      "想让 Agent 执行半自动流程的开发者和运营人员。",
-      "需要把日常任务脚本化的小团队。",
+      "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
+      "想快速了解某个生态有哪些资源的人。",
+      "需要给团队建立候选清单的人。",
       "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
-      "没有能力检查自动化结果和异常的人。"
+      "想要一个单一成品工具、马上解决具体业务问题的人。",
+      "不愿逐项筛选和阅读 README 的人。"
     ],
     "howItWorks": [
-      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
-      "用户配置目标工具后，让 Agent 按流程操作。",
-      "稳定性取决于目标网站、权限和异常处理。",
+      "通常以 README、目录结构或清单形式维护资源。",
+      "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
+      "质量取决于维护者更新频率和收录标准。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用测试账号或非关键任务验证。",
-      "确认它是否遵守目标平台规则。",
-      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
+      "先看目录是否按平台、领域或用途分类。",
+      "优先打开更新较新、说明完整、Stars 和社区反馈较好的条目。",
+      "选出 2 到 3 个候选后再实际安装测试。"
     ],
     "expectedOutcome": [
-      "重复操作耗时减少。",
-      "跨工具流程更顺。",
-      "Agent 可以承担更多可控的执行型任务。"
+      "减少搜索同类项目的时间。",
+      "更快建立一个技能生态的整体地图。",
+      "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
