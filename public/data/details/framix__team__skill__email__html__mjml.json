@@ -1,58 +1,64 @@
 {
-  "rank": 1372,
-  "id": 1160084222,
-  "name": "hubble.md",
-  "fullName": "bholmesdev/hubble.md",
-  "owner": "bholmesdev",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/51384119?v=4",
-  "url": "https://github.com/bholmesdev/hubble.md",
-  "homepage": "https://hubble.md",
-  "description": "The best notepad for you and your agents",
-  "summary": "hubble.md：hubble.md：hubble.md：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2202,
+  "id": 1162804031,
+  "name": "skill-email-html-mjml",
+  "fullName": "framix-team/skill-email-html-mjml",
+  "owner": "framix-team",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/103632774?v=4",
+  "url": "https://github.com/framix-team/skill-email-html-mjml",
+  "homepage": "",
+  "description": "Claude Code skill — generate cross-client HTML email with MJML. Outlook-safe, Gmail-optimized, WCAG 2.1 AA accessible.",
+  "summary": "skill-email-html-mjml：skill-email-html-mjml：skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/bholmesdev/hubble.md.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 829,
-  "forks": 52,
-  "openIssues": 21,
-  "score": 100.2,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-28T16:01:37Z",
-  "updatedAt": "2026-07-29T03:42:15Z",
-  "createdAt": "2026-02-17T14:24:06Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/framix-team/skill-email-html-mjml.git",
+  "language": "",
+  "license": "",
+  "stars": 59,
+  "forks": 8,
+  "openIssues": 3,
+  "score": 63.1,
+  "activity": "活跃",
+  "pushedAt": "2026-02-28T06:46:29Z",
+  "updatedAt": "2026-07-29T23:35:50Z",
+  "createdAt": "2026-02-20T18:03:16Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "markdown",
-    "note-taking"
+    "agent-skills",
+    "claude-code-skill",
+    "claude-skills",
+    "email-template",
+    "llm-skills",
+    "mjml"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/bholmesdev/hubble.md",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/framix-team/skill-email-html-mjml",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/bholmesdev/hubble.md#readme",
-  "detailPath": "data/details/bholmesdev__hubble__md.json",
+  "readmeUrl": "https://github.com/framix-team/skill-email-html-mjml#readme",
+  "detailPath": "data/details/framix__team__skill__email__html__mjml.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hubble.md：hubble.md：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "skill-email-html-mjml：skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -68,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "f021e4ce64a1a154",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "ddca0b7b717f6055",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hubble.md：hubble.md：hubble.md：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "hubble.md 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skill-email-html-mjml：skill-email-html-mjml：skill-email-html-mjml：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "skill-email-html-mjml 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -95,7 +101,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -118,7 +124,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

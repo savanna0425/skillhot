@@ -1,5 +1,5 @@
 {
-  "rank": 396,
+  "rank": 400,
   "id": 820145382,
   "name": "ogx",
   "fullName": "ogx-ai/ogx",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "curl -LsSf https://github.com/ogx-ai/ogx/raw/main/scripts/install.sh | bash\nuv pip install ogx[starter]\nuv run ogx run starter",
+  "installCommand": "curl -LsSf https://github.com/ogx-ai/ogx/raw/main/scripts/install.sh | bash\nuv pip install ogx\nuv run ogx go",
   "language": "Python",
   "license": "MIT",
-  "stars": 8421,
+  "stars": 8420,
   "forks": 1338,
-  "openIssues": 148,
+  "openIssues": 139,
   "score": 124.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T14:48:41Z",
-  "updatedAt": "2026-07-29T03:35:42Z",
+  "pushedAt": "2026-07-29T23:18:26Z",
+  "updatedAt": "2026-07-29T23:18:34Z",
   "createdAt": "2024-06-25T22:32:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "31f82321d27e19d2",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "bf35cd5a81525b99",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 677,
+  "rank": 985,
   "id": 1202407194,
   "name": "awesome-persona-skills",
   "fullName": "tmstack/awesome-persona-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tmstack/awesome-persona-skills",
   "homepage": "https://openskills.cc",
   "description": "同事.skill、老板.skill、前任.skill、自己.skill、永生.skill、女娲.skill……  ",
-  "summary": "awesome-persona-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-persona-skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/tmstack/awesome-persona-skills.git",
   "language": "",
   "license": "",
-  "stars": 3443,
+  "stars": 3452,
   "forks": 308,
   "openIssues": 0,
-  "score": 115.9,
-  "activity": "本月活跃",
+  "score": 107.9,
+  "activity": "近期活跃",
   "pushedAt": "2026-06-28T12:59:56Z",
-  "updatedAt": "2026-07-29T03:30:41Z",
+  "updatedAt": "2026-07-30T00:39:28Z",
   "createdAt": "2026-04-06T01:49:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,9 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -51,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "awesome-persona-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "awesome-persona-skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -70,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "7c0e617775a78c81",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "5bb5d7008d43957a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-persona-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-persona-skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-persona-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：同事.skill、老板.skill、前任.skill、自己.skill、永生.skill、女娲.skill……。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -94,7 +92,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

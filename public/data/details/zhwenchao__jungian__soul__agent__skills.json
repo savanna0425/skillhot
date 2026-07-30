@@ -1,14 +1,14 @@
 {
-  "rank": 899,
-  "id": 1089830441,
-  "name": "workmux",
-  "fullName": "raine/workmux",
-  "owner": "raine",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/11027?v=4",
-  "url": "https://github.com/raine/workmux",
-  "homepage": "http://workmux.raine.dev",
-  "description": "git worktrees + tmux windows for zero-friction parallel dev",
-  "summary": "workmux：workmux：Git 工作树 + tmux 窗口实现零摩擦并行开发。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2054,
+  "id": 1221674216,
+  "name": "jungian-soul-agent-skills",
+  "fullName": "zhwenchao/jungian-soul-agent-skills",
+  "owner": "zhwenchao",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/16597191?v=4",
+  "url": "https://github.com/zhwenchao/jungian-soul-agent-skills",
+  "homepage": "https://github.com/zhwenchao/jungian-soul-agent-skills",
+  "description": "Psychological Digital Twin Skill Pack — Build a truth-telling mirror with AI, based on Jungian analytical psychology. 精神数字分身技能包：用AI建造不含谎言的镜子。",
+  "summary": "jungian-soul-agent-skills：jungian-soul-agent-skills：Psychological Digital Twin Skill Pack — Build a truth-telling mirror with AI, based on Jungian analytical psychology. 精神。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,56 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/raine/workmux.git",
-  "language": "Rust",
+  "installCommand": "git clone https://github.com/zhwenchao/jungian-soul-agent-skills.git",
+  "language": "Mermaid",
   "license": "MIT",
-  "stars": 1992,
-  "forks": 208,
-  "openIssues": 24,
-  "score": 109.2,
+  "stars": 8,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 72.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T20:33:14Z",
-  "updatedAt": "2026-07-29T02:17:18Z",
-  "createdAt": "2025-11-04T21:48:24Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-07-29T07:20:52Z",
+  "updatedAt": "2026-07-29T07:21:08Z",
+  "createdAt": "2026-04-26T14:35:33Z",
+  "sourceTopics": [
+    "ai-agent-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agent-skills",
+    "archetypes",
+    "chatgpt-prompts",
+    "claude-prompts",
+    "digital-twin",
+    "individuation",
+    "jungian-psychology",
+    "llm-prompts",
+    "open-source",
+    "persona",
+    "personality",
+    "psychological-digital-twin",
+    "psychology",
+    "self-awareness",
+    "self-discovery",
+    "shadow-work"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/raine/workmux",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhwenchao/jungian-soul-agent-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/raine/workmux#readme",
-  "detailPath": "data/details/raine__workmux.json",
+  "readmeUrl": "https://github.com/zhwenchao/jungian-soul-agent-skills#readme",
+  "detailPath": "data/details/zhwenchao__jungian__soul__agent__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "workmux：Git 工作树 + tmux 窗口实现零摩擦并行开发。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "jungian-soul-agent-skills：Psychological Digital Twin Skill Pack — Build a truth-telling mirror with AI, based on Jungian analytical psychology. 精神。适合在 Claude 相关工作流里先做选型判断。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +87,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "00aca1a2e60cffde",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "4fc8f0a2ed843880",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "workmux：workmux：Git 工作树 + tmux 窗口实现零摩擦并行开发。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "workmux 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "jungian-soul-agent-skills：jungian-soul-agent-skills：Psychological Digital Twin Skill Pack — Build a truth-telling mirror with AI, based on Jungian analytical psychology. 精神。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "jungian-soul-agent-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：Psychological Digital Twin Skill Pack — Build a truth-telling mirror with AI, based on Jungian analytical psychology. 精神数字分身技能包：用AI建造不含谎言的镜子。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +111,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

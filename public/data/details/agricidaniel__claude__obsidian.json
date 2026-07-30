@@ -1,5 +1,5 @@
 {
-  "rank": 550,
+  "rank": 216,
   "id": 1203670949,
   "name": "claude-obsidian",
   "fullName": "AgriciDaniel/claude-obsidian",
@@ -19,16 +19,16 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AgriciDaniel/claude-obsidian\ncd claude-obsidian\nbash bin/setup-vault.sh",
+  "installCommand": "git clone https://github.com/AgriciDaniel/claude-obsidian.git\ncd claude-obsidian",
   "language": "Python",
   "license": "MIT",
-  "stars": 10061,
-  "forks": 1171,
-  "openIssues": 114,
-  "score": 119.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-28T00:42:43Z",
-  "updatedAt": "2026-07-29T03:24:55Z",
+  "stars": 10098,
+  "forks": 1177,
+  "openIssues": 117,
+  "score": 134.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-29T21:52:55Z",
+  "updatedAt": "2026-07-30T03:30:22Z",
   "createdAt": "2026-04-07T08:59:37Z",
   "sourceTopics": [
     "agent-skills",
@@ -64,13 +64,13 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "GitHub Copilot"
+    "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 15,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-obsidian",
-    "videoUrl": "https://www.youtube.com/watch?v=a2hgayvr-H4"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/AgriciDaniel/claude-obsidian#readme",
   "detailPath": "data/details/agricidaniel__claude__obsidian.json",
@@ -96,8 +96,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "798b9e7120529c37",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "7cfdd9b78fd43b64",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -130,7 +130,7 @@
       "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
       "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
       "涉及个人数据时，需要自己确认权限和隐私设置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 15+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你正在用的办公平台。",

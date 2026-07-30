@@ -1,76 +1,63 @@
 {
-  "rank": 211,
-  "id": 1193909050,
-  "name": "herdr",
-  "fullName": "ogulcancelik/herdr",
-  "owner": "ogulcancelik",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/7064011?v=4",
-  "url": "https://github.com/ogulcancelik/herdr",
-  "homepage": "https://herdr.dev",
-  "description": "agent multiplexer that lives in your terminal.",
-  "summary": "herdr：herdr：终端内运行的多代理器。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 178,
+  "id": 1027384981,
+  "name": "deepagents",
+  "fullName": "langchain-ai/deepagents",
+  "owner": "langchain-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/126733545?v=4",
+  "url": "https://github.com/langchain-ai/deepagents",
+  "homepage": "https://docs.langchain.com/deepagents",
+  "description": "The batteries-included agent harness.",
+  "summary": "deepagents：deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "人工复核",
-  "categoryReason": "重点项目人工校正",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/ogulcancelik/herdr\ncd herdr\ncargo build --release",
-  "language": "Rust",
-  "license": "Apache-2.0",
-  "stars": 22025,
-  "forks": 1480,
-  "openIssues": 127,
-  "score": 134.2,
+  "installCommand": "git clone https://github.com/langchain-ai/deepagents.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 26966,
+  "forks": 3778,
+  "openIssues": 189,
+  "score": 136.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T23:55:56Z",
-  "updatedAt": "2026-07-29T03:36:45Z",
-  "createdAt": "2026-03-27T17:54:33Z",
+  "pushedAt": "2026-07-30T02:43:22Z",
+  "updatedAt": "2026-07-30T03:32:41Z",
+  "createdAt": "2025-07-27T23:07:53Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "agent-orchestration",
     "ai",
-    "ai-agents",
-    "claude-code",
-    "cli",
-    "codex",
-    "coding-agents",
-    "developer-tools",
-    "devtools",
-    "multiplexer",
-    "rust",
-    "terminal",
-    "terminal-multiplexer",
-    "terminal-ui",
-    "tmux",
-    "tui",
-    "workspace-manager"
+    "deepagents",
+    "langchain",
+    "langgraph",
+    "python",
+    "typescript"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ogulcancelik/herdr",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/langchain-ai/deepagents",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ogulcancelik/herdr#readme",
-  "detailPath": "data/details/ogulcancelik__herdr.json",
+  "readmeUrl": "https://github.com/langchain-ai/deepagents#readme",
+  "detailPath": "data/details/langchain__ai__deepagents.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "herdr：终端内运行的多代理器。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -86,17 +73,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "8e046a2ffea79096",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "44ba76448b27b36b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "herdr：herdr：终端内运行的多代理器。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "herdr 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "deepagents：deepagents：包含电池包的本体。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "deepagents 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -113,7 +100,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -136,7 +123,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

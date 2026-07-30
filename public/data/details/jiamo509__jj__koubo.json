@@ -1,14 +1,14 @@
 {
-  "rank": 630,
-  "id": 1078850969,
-  "name": "agent-skill-creator",
-  "fullName": "FrancyJGLisboa/agent-skill-creator",
-  "owner": "FrancyJGLisboa",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/19800931?v=4",
-  "url": "https://github.com/FrancyJGLisboa/agent-skill-creator",
-  "homepage": "https://francyjglisboa.github.io/agent-skill-creator/",
-  "description": "Turn any workflow into reusable AI agent skills that install on 17 platforms — Claude Code, Copilot, Cursor, Windsurf, Codex, Gemini, Kiro, and more. One SKILL.md, every platform.",
-  "summary": "agent-skill-creator：agent-skill-creator：将任何工作流转化为可在 17 个平台上安装的通用 AI 技能——Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini、Kiro 等。一份 SKILL.md，适用于所有平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 2121,
+  "id": 1315946971,
+  "name": "jj-koubo",
+  "fullName": "jiamo509/jj-koubo",
+  "owner": "jiamo509",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/85223980?v=4",
+  "url": "https://github.com/jiamo509/jj-koubo",
+  "homepage": "",
+  "description": "面向 Codex、Claude Code 和 Agent Skills 工具的 Remotion 真人口播剪辑 Skill（非商业许可）",
+  "summary": "jj-koubo：jj-koubo：面向 Codex、Claude Code 和 Agent Skills 工具的 Remotion 真人口播剪辑 Skill（非商业许可）。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,42 +19,51 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/FrancyJGLisboa/agent-skill-creator\ncd agent-skill-creator/references/examples/weekly-crm-report\npython3 scripts/run_pipeline.py --input evals/golden/case-1/input.csv --output /tmp/summary.json",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 1993,
-  "forks": 232,
+  "installCommand": "git clone https://github.com/jiamo509/jj-koubo.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 2,
+  "forks": 1,
   "openIssues": 0,
-  "score": 117.2,
+  "score": 67.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T19:52:58Z",
-  "updatedAt": "2026-07-29T03:34:40Z",
-  "createdAt": "2025-10-18T15:01:46Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-07-29T11:08:28Z",
+  "updatedAt": "2026-07-30T01:35:41Z",
+  "createdAt": "2026-07-29T09:33:20Z",
+  "sourceTopics": [
+    "ai-agent-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent-skill",
+    "ai-agent-skills",
+    "claude-code",
+    "codex-skill",
+    "remotion",
+    "short-video",
+    "subtitles",
+    "talking-head",
+    "video-editing"
+  ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/FrancyJGLisboa/agent-skill-creator",
-    "videoUrl": "https://www.youtube.com/watch?v=izJkgLqlbN8"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jiamo509/jj-koubo",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/FrancyJGLisboa/agent-skill-creator#readme",
-  "detailPath": "data/details/francyjglisboa__agent__skill__creator.json",
+  "readmeUrl": "https://github.com/jiamo509/jj-koubo#readme",
+  "detailPath": "data/details/jiamo509__jj__koubo.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-skill-creator：将任何工作流转化为可在 17 个平台上安装的通用 AI 技能——Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini、Kiro 等。一份 SKILL.md，适用于所有平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "jj-koubo：面向 Codex、Claude Code 和 Agent Skills 工具的 Remotion 真人口播剪辑 Skill（非商业许可）。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -70,17 +79,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "c9d07343b15edfca",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "c005285a0375d481",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skill-creator：agent-skill-creator：将任何工作流转化为可在 17 个平台上安装的通用 AI 技能——Claude Code、Copilot、Cursor、Windsurf、Codex、Gemini、Kiro 等。一份 SKILL.md，适用于所有平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "agent-skill-creator 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "jj-koubo：jj-koubo：面向 Codex、Claude Code 和 Agent Skills 工具的 Remotion 真人口播剪辑 Skill（非商业许可）。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "jj-koubo 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -97,7 +106,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -120,7 +129,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

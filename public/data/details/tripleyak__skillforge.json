@@ -1,5 +1,5 @@
 {
-  "rank": 1486,
+  "rank": 839,
   "id": 1124990304,
   "name": "SkillForge",
   "fullName": "tripleyak/SkillForge",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/132320136?v=4",
   "url": "https://github.com/tripleyak/SkillForge",
   "homepage": "",
-  "description": "Intelligent skill router and creator for Claude Code and Codex. Analyzes any input to recommend existing skills, improve them, or create new ones from scratch.",
-  "summary": "SkillForge：SkillForge：为 Claude Code 和 Codex 设计的智能技能路由器与创建器。分析任何输入，推荐现有技能、优化技能，或从零创建新技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-  "category": "Agent工具与平台",
-  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "description": "A skill creator that proves its skills work. Evidence-driven skill creation for Claude Code and Codex: baseline-tested generation, per-skill regression evals, ecosystem doctor, cross-runtime compile, and an opt-in proactive advisor.",
+  "summary": "SkillForge：SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "高",
+  "categoryReason": "skill creator|skill generator|skill builder|skill vali",
   "scenarios": [
-    "模型与客户端管理",
-    "Agent 编排",
-    "多平台协作"
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
   ],
-  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/tripleyak/SkillForge.git",
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/tripleyak/SkillForge.git /tmp/skillforge\ncp -r /tmp/skillforge ~/.claude/skills/skillforge\ncd ~/.claude/skills/skillforge && rm -rf README.md LICENSE CONTEXT.md docs .git .gitignore .skillignore index.html assets/images scripts/tests SKILLFORGE_AUDIT.md",
   "language": "Python",
   "license": "MIT",
-  "stars": 801,
+  "stars": 802,
   "forks": 85,
-  "openIssues": 1,
-  "score": 96.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-24T15:41:21Z",
-  "updatedAt": "2026-07-27T06:39:07Z",
+  "openIssues": 0,
+  "score": 111.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-07-29T16:31:19Z",
+  "updatedAt": "2026-07-29T20:35:58Z",
   "createdAt": "2025-12-30T01:02:27Z",
   "sourceTopics": [
     "claude-skills"
@@ -38,9 +38,12 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "claude-ai",
     "claude-code",
-    "claude-skills"
+    "claude-skills",
+    "codex",
+    "evals"
   ],
   "platforms": [
     "Claude",
@@ -57,70 +60,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SkillForge：为 Claude Code 和 Codex 设计的智能技能路由器与创建器。分析任何输入，推荐现有技能、优化技能，或从零创建新技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "useCases": [
-      "模型与客户端管理",
-      "Agent 编排",
-      "多平台协作"
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-29T03:46:32.431Z",
-    "sourceHash": "5fd540c3fff1e526",
+    "generatedAt": "2026-07-30T03:35:12.892Z",
+    "sourceHash": "212c2a8c0ea2a79b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SkillForge：SkillForge：为 Claude Code 和 Codex 设计的智能技能路由器与创建器。分析任何输入，推荐现有技能、优化技能，或从零创建新技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "SkillForge 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "SkillForge：SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "SkillForge 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "多个 Agent、模型、工具和配置之间切换成本高。",
-      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
-      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
-      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
+      "想创建 Skill，但不知道结构、规范、安装和验证流程。",
+      "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
+      "把现有知识转成 Agent 可调用能力时容易不成体系。",
+      "如果你的任务和「创建技能」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
-      "把模型、插件、工作流和配置集中管理。",
-      "帮助你判断它是否适合自己的 Agent 工具链。",
+      "辅助创建、生成、验证、安装、管理或分发 Agent Skills。",
+      "把技能文件、说明文档和触发方式组织起来。",
+      "帮助你判断它是否适合搭建自己的技能库。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
-      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
-      "想搭建个人或团队 Agent 工作台的人。",
+      "准备写自定义 Agent Skills 的开发者。",
+      "需要维护团队技能库或插件库的人。",
+      "想把文档、流程或经验产品化为 Skill 的团队。",
       "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只需要一个简单聊天窗口、不想配置工具链的人。",
-      "不愿处理 API Key、权限、部署或本地环境的人。"
+      "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
+      "没有明确技能场景，只想批量生成空壳的人。"
     ],
     "howItWorks": [
-      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
-      "用户配置模型服务、权限和项目后，在平台里发起任务。",
-      "稳定性取决于模型服务、插件生态和本地/云端配置。",
+      "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
+      "用户输入领域说明或现有材料后，工具生成可安装结构。",
+      "生成后仍需要在真实 Agent 环境里测试。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你常用的模型和 Agent 客户端。",
-      "用低权限 API Key 或测试配置跑一个小任务。",
-      "确认日志、权限和密钥存储方式后再接入正式项目。"
+      "先阅读它支持的 Skill 格式。",
+      "用一个很小的技能需求生成或校验。",
+      "放进目标 Agent 客户端试跑，再迭代说明文档。"
     ],
     "expectedOutcome": [
-      "多个 Agent 或模型配置更清楚。",
-      "任务编排和工具调用更集中。",
-      "个人 Agent 工作流更容易长期维护。"
+      "创建 Skill 的门槛降低。",
+      "技能结构更统一，别人更容易安装和理解。",
+      "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",
