@@ -30,7 +30,7 @@ export const categoryAliases = {
 
 const categoryPatterns = {
   'UI设计': [
-    [/\bui\b|\bux\b|ui.?ux|user interface|user experience|design system|visual design|web design|figma|wireframe|prototyp/i, 9],
+    [/\bui\b|\bux\b|ui.?ux|user interface|user experience|design system|visual design|web design|figma|wireframe|ui[-\s]?prototype|design prototype|interactive prototype/i, 9],
     [/accessibility|a11y|responsive design|typography|design language/i, 5],
   ],
   '编程开发': [
@@ -67,7 +67,7 @@ const categoryPatterns = {
     [/vector database|semantic search|context layer|remember|memory/i, 5],
   ],
   'Agent工具与平台': [
-    [/agent platform|agent framework|agent harness|agent workstation|multi.?agent|agent runtime|agent orchestr|agent operating system|personal ai assistant/i, 9],
+    [/agent platform|agent framework|agent harness|agent workstation|multi.?agent|agent runtime|agent orchestr|agent operating system|personal ai assistant|agentic[-\s]?workflow|agentic[-\s]?framework|agent[-\s]?workflow|workflow platform/i, 12],
     [/model switch|provider management|model gateway|llm gateway|ai client|chat client|desktop assistant|ai workspace|model router/i, 10],
     [/claude[-\s]?code.*codex|codex.*claude[-\s]?code|codex[-\s]?(cli|desktop|gui|ide|ui)|openai[-\s]?codex|openclaw|opencode|mcp[-\s]?(client|server)/i, 7],
   ],
@@ -83,7 +83,11 @@ const categoryPatterns = {
 
 const collectionPattern = /awesome|collection|directory|marketplace|registry|catalog|curated list|skill library|skills library|plugin library|resource list/i
 const collectionSubject = /skills?|agents?|claude|codex|copilot|gemini|openclaw|mcp|plugins?|prompts?|resources?/i
-const uiPurposePattern = /\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|视觉|界面|设计|色彩/i
+const uiPurposePattern = /\bui\b|\bux\b|design|figma|interface|experience|color|palette|typography|accessibility|ui[-\s]?prototype|design prototype|interactive prototype|视觉|界面|设计|色彩/i
+
+export function hasUiPurposeSignal(value) {
+  return uiPurposePattern.test(String(value || ''))
+}
 
 const manualCategories = new Map(Object.entries({
   'obra/superpowers': '编程开发',
@@ -157,7 +161,7 @@ export function classifyCategory(input, override = {}) {
   // If the repository name/description itself does not describe UI work, treat that
   // topic-only signal as too weak to own the category; otherwise daily updates can
   // be blocked by one unrelated high-star repository.
-  if (scores.get('UI设计') > 0 && !reasons.get('UI设计').length && !uiPurposePattern.test(primary)) {
+  if (scores.get('UI设计') > 0 && !reasons.get('UI设计').length && !hasUiPurposeSignal(primary)) {
     scores.set('UI设计', 0)
   }
   const ranked = [...scores.entries()].sort((a, b) => b[1] - a[1] || Object.keys(categoryMeta).indexOf(a[0]) - Object.keys(categoryMeta).indexOf(b[0]))
@@ -230,6 +234,10 @@ function cleanChineseDescription(description) {
   return body.slice(0, 120)
 }
 
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 export function summaryFor(repo, category, override = {}) {
   if (override.summary) return override.summary
   const reviewed = reviewedSummaryFor(repo)
@@ -262,11 +270,16 @@ export function semanticQualityIssues(skill) {
   if ((skill.summary || '').length < 8) issues.push('summary-too-short')
   if (/可用于扩展 Agent 的实际工作能力|是一个面向.+的开源项目/.test(skill.summary || '')) issues.push('generic-summary')
   if (/(\S{2,8})\1{4,}/.test(skill.summary || '')) issues.push('repeated-summary')
+  const summary = String(skill.summary || '')
+  const projectName = String(skill.name || '').trim()
+  const repeatedNamePrefix = projectName && new RegExp(`^${escapeRegExp(projectName)}[：:]\\s*${escapeRegExp(projectName)}[：:]`, 'iu').test(summary)
+  const repeatedTemplate = (summary.match(/适合在/g) || []).length > 1
+  if (repeatedNamePrefix || repeatedTemplate) issues.push('repeated-summary-template')
   // 用途启发式仅用于纠正自动分类；人工复核（curated/manual）的类别以人工判断为准，
   // 不被针对上游一句话描述的正则否决（例如 anthropics/skills 被人工标为官方合集，
   // 但其 GitHub 描述 "Public repository for Agent Skills" 命中不了合集关键词）。
   const humanCurated = skill.categoryConfidence === '人工复核'
-  if (!humanCurated && skill.category === 'UI设计' && !uiPurposePattern.test(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
+  if (!humanCurated && skill.category === 'UI设计' && !hasUiPurposeSignal(`${skill.fullName} ${skill.description}`)) issues.push('ui-purpose-mismatch')
   if (!humanCurated && skill.category === '技能合集' && !(collectionPattern.test(`${skill.fullName} ${skill.description}`) && collectionSubject.test(`${skill.fullName} ${skill.description}`))) issues.push('collection-purpose-mismatch')
   return issues
 }
