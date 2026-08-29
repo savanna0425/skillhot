@@ -1,5 +1,5 @@
 {
-  "rank": 21,
+  "rank": 24,
   "id": 1182081931,
   "name": "Understand-Anything",
   "fullName": "Egonex-AI/Understand-Anything",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Egonex-AI/Understand-Anything",
   "homepage": "https://understand-anything.com/",
   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "summary": "Understand-Anything：Understand-Anything：把任意代码库转成可搜索、可问答的交互知识图谱。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Understand-Anything：把任意代码库转成可搜索、可问答的交互知识图谱。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Egonex-AI/Understand-Anything.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 76732,
-  "forks": 6426,
-  "openIssues": 258,
-  "score": 155.2,
+  "stars": 80950,
+  "forks": 6806,
+  "openIssues": 293,
+  "score": 155.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:54:18Z",
-  "updatedAt": "2026-07-30T03:32:28Z",
+  "pushedAt": "2026-08-26T06:38:15Z",
+  "updatedAt": "2026-08-29T12:34:00Z",
   "createdAt": "2026-03-15T02:30:51Z",
   "sourceTopics": [
     "claude-skills",
@@ -76,7 +76,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Understand-Anything：把任意代码库转成可搜索、可问答的交互知识图谱。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "把任意代码库转成可搜索、可问答的交互知识图谱",
     "useCases": [
       "代码库理解",
       "架构探索",
@@ -95,13 +95,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e991cbbe687082c7",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "292ea6181ff14f70",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Understand-Anything：Understand-Anything：把任意代码库转成可搜索、可问答的交互知识图谱。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Understand-Anything：把任意代码库转成可搜索、可问答的交互知识图谱。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Understand-Anything 可以先理解为一个「记忆与上下文管理项目」。它围绕「代码库理解」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

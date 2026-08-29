@@ -1,5 +1,5 @@
 {
-  "rank": 1134,
+  "rank": 846,
   "id": 1155091202,
   "name": "AI-Coding-Guide-Zh",
   "fullName": "KimYx0207/AI-Coding-Guide-Zh",
@@ -8,7 +8,7 @@
   "url": "https://github.com/KimYx0207/AI-Coding-Guide-Zh",
   "homepage": "",
   "description": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
-  "summary": "AI-Coding-Guide-Zh：AI-Coding-Guide-Zh：Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "AI-Coding-Guide-Zh：Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/KimYx0207/AI-Coding-Guide-Zh.git",
+  "installCommand": "git clone https://github.com/KimYx0207/AI-Coding-Guide-Zh.git\ncd AI-Coding-Guide-Zh",
   "language": "",
   "license": "MIT",
-  "stars": 5493,
-  "forks": 960,
-  "openIssues": 2,
-  "score": 104.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-10T05:22:12Z",
-  "updatedAt": "2026-07-30T03:26:04Z",
+  "stars": 5841,
+  "forks": 1008,
+  "openIssues": 4,
+  "score": 113.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-12T20:41:23Z",
+  "updatedAt": "2026-08-29T12:35:08Z",
   "createdAt": "2026-02-11T05:34:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,9 +47,10 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 6,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/KimYx0207/AI-Coding-Guide-Zh",
@@ -60,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI-Coding-Guide-Zh：Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -79,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "88223e5883ceab2c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "af9303f13b737d89",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-Coding-Guide-Zh：AI-Coding-Guide-Zh：Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "AI-Coding-Guide-Zh：Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "AI-Coding-Guide-Zh 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -103,7 +104,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -113,7 +114,7 @@
       "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
       "用户配置模型服务、权限和项目后，在平台里发起任务。",
       "稳定性取决于模型服务、插件生态和本地/云端配置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 6+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你常用的模型和 Agent 客户端。",

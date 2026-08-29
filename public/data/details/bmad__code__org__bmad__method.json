@@ -1,5 +1,5 @@
 {
-  "rank": 93,
+  "rank": 104,
   "id": 965615190,
   "name": "BMAD-METHOD",
   "fullName": "bmad-code-org/BMAD-METHOD",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bmad-code-org/BMAD-METHOD",
   "homepage": "",
   "description": "Breakthrough Method for Agile Ai Driven Development",
-  "summary": "BMAD-METHOD：BMAD-METHOD：敏捷 AI 驱动的突破方法。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "BMAD-METHOD：敏捷 AI 驱动的突破方法。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx bmad-method install",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 51263,
-  "forks": 5883,
-  "openIssues": 118,
-  "score": 143,
+  "stars": 52435,
+  "forks": 5966,
+  "openIssues": 43,
+  "score": 143.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:40:08Z",
-  "updatedAt": "2026-07-30T03:34:31Z",
+  "pushedAt": "2026-08-29T09:18:23Z",
+  "updatedAt": "2026-08-29T12:18:02Z",
   "createdAt": "2025-04-13T14:54:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,6 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Cursor",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -51,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "BMAD-METHOD：敏捷 AI 驱动的突破方法。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "敏捷 AI 驱动的突破方法",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -70,13 +68,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5dc9fb65af8d6f31",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7adaeb6bdbfb971a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "BMAD-METHOD：BMAD-METHOD：敏捷 AI 驱动的突破方法。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "BMAD-METHOD：敏捷 AI 驱动的突破方法。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "BMAD-METHOD 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -94,7 +92,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

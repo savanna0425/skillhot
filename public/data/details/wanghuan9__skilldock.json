@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 1056,
   "id": 1237501138,
   "name": "skilldock",
   "fullName": "wanghuan9/skilldock",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "git clone https://github.com/wanghuan9/skilldock.git",
-  "language": "",
-  "license": "",
-  "stars": 343,
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 495,
   "forks": 22,
-  "openIssues": 2,
-  "score": 111.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T10:03:10Z",
-  "updatedAt": "2026-07-30T03:06:31Z",
+  "openIssues": 7,
+  "score": 107.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-19T01:09:55Z",
+  "updatedAt": "2026-08-28T15:54:34Z",
   "createdAt": "2026-05-13T08:37:42Z",
   "sourceTopics": [
     "ai-skills",
@@ -78,7 +78,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "管理软件 / MCP 管理工具.",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -94,17 +94,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3ff8c8d8a747a079",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "18fb3239361f3847",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
     "plainIntro": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "skilldock 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：SkillDock is an AI skill manager and skill management desktop app for Claude Code, Cursor, Codex, Windsurf, Gemini CLI, and other AI coding tools. Install, organize, edit, sync, and update Skills, MCP servers, and plugins with real-directory scanning and Git-aware Diff previews. AI Skill Manager / Skill 管理软件 / MCP 管理工具。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "whatItIs": "skilldock 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -144,7 +144,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

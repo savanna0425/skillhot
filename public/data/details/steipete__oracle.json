@@ -1,5 +1,5 @@
 {
-  "rank": 717,
+  "rank": 735,
   "id": 1096608396,
   "name": "oracle",
   "fullName": "steipete/oracle",
@@ -8,7 +8,7 @@
   "url": "https://github.com/steipete/oracle",
   "homepage": "https://askoracle.sh",
   "description": "Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files.",
-  "summary": "oracle：oracle：当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "oracle：当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,20 +19,19 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "- Oracle bundles a prompt plus the right files so another AI (GPT 5 Pro + more) can answer. Use when stuck/bugs/reviewing.\n- Run `npx -y @steipete/oracle --help` once per session before first use.",
+  "installCommand": "brew install steipete/tap/oracle",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3512,
-  "forks": 348,
-  "openIssues": 18,
-  "score": 115.1,
+  "stars": 3674,
+  "forks": 380,
+  "openIssues": 23,
+  "score": 115.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T02:46:58Z",
-  "updatedAt": "2026-07-30T02:28:07Z",
+  "pushedAt": "2026-08-28T17:52:17Z",
+  "updatedAt": "2026-08-29T10:17:25Z",
   "createdAt": "2025-11-14T17:13:57Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -62,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "oracle：当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -81,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6d702794208bd741",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "984a3c3099a91e85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "oracle：oracle：当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "oracle：当你卡住时，向Oracle 求助。使用自定义上下文和文件，调用 GPT-5 Pro。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "oracle 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

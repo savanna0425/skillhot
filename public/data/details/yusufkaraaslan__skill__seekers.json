@@ -1,5 +1,5 @@
 {
-  "rank": 106,
+  "rank": 125,
   "id": 1078319457,
   "name": "Skill_Seekers",
   "fullName": "yusufkaraaslan/Skill_Seekers",
@@ -8,7 +8,7 @@
   "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
   "homepage": "https://skillseekersweb.com/",
   "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
-  "summary": "Skill_Seekers：Skill_Seekers：把文档网站、GitHub 仓库和 PDF 自动转换为 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Skill_Seekers：把文档网站、GitHub 仓库和 PDF 自动转换为 Skills。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "技能生成"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "pip install skill-seekers\nskill-seekers create https://docs.django.com/\nskill-seekers package output/django --target claude",
+  "installCommand": "pip install skill-seekers\nskill-seekers create https://docs.djangoproject.com/\nskill-seekers package output/django --target claude",
   "language": "Python",
   "license": "MIT",
-  "stars": 14621,
-  "forks": 1485,
-  "openIssues": 48,
-  "score": 142,
+  "stars": 14853,
+  "forks": 1515,
+  "openIssues": 52,
+  "score": 142.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T11:31:46Z",
-  "updatedAt": "2026-07-30T02:47:54Z",
+  "pushedAt": "2026-08-27T06:03:49Z",
+  "updatedAt": "2026-08-29T09:21:19Z",
   "createdAt": "2025-10-17T14:43:48Z",
   "sourceTopics": [
     "claude-skills"
@@ -60,9 +60,9 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
     "Cursor",
-    "Gemini CLI"
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -75,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Skill_Seekers：把文档网站、GitHub 仓库和 PDF 自动转换为 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "把文档网站、GitHub 仓库和 PDF 自动转换为 Skills",
     "useCases": [
       "知识产品化",
       "文档转技能",
@@ -94,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b5abde24448a184d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2158e5931aba5fac",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Skill_Seekers：Skill_Seekers：把文档网站、GitHub 仓库和 PDF 自动转换为 Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Skill_Seekers：把文档网站、GitHub 仓库和 PDF 自动转换为 Skills。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "Skill_Seekers 可以先理解为一个「Skills 创建与管理工具」。它围绕「知识产品化」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -118,7 +118,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

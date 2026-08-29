@@ -1,5 +1,5 @@
 {
-  "rank": 373,
+  "rank": 899,
   "id": 1267442907,
   "name": "loopy",
   "fullName": "Forward-Future/loopy",
@@ -8,27 +8,27 @@
   "url": "https://github.com/Forward-Future/loopy",
   "homepage": "https://signals.forwardfuture.ai/loop-library/",
   "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
-  "summary": "loopy 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-  "category": "技能开发",
-  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "中",
-  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "summary": "loopy 是一个面向 Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "创建技能",
-    "组织工作流",
-    "扩展 Agent 能力"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "npx skills add Forward-Future/loopy \\\n--skill loopy \\\n--agent codex \\",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Forward-Future/loopy.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2914,
-  "forks": 265,
+  "stars": 3074,
+  "forks": 277,
   "openIssues": 4,
-  "score": 125.2,
-  "activity": "本周活跃",
+  "score": 110.7,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-26T11:04:33Z",
-  "updatedAt": "2026-07-29T21:57:25Z",
+  "updatedAt": "2026-08-29T05:09:18Z",
   "createdAt": "2026-06-12T14:44:22Z",
   "sourceTopics": [
     "agent-skills"
@@ -46,9 +46,7 @@
     "prompt-engineering"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -61,11 +59,11 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "loopy 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "loopy 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "创建技能",
-      "组织工作流",
-      "扩展 Agent 能力"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "减少逐个搜索同类项目的时间",
@@ -75,56 +73,56 @@
       "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d2fc38a0dc113c80",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "65b1a31e1cf3243e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "loopy 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "loopy 是一个面向 Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "loopy 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
-      "想创建 Skill，但不知道结构、规范、安装和验证流程。",
-      "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
-      "把现有知识转成 Agent 可调用能力时容易不成体系。",
-      "如果你的任务和「创建技能」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助创建、生成、验证、安装、管理或分发 Agent Skills。",
-      "把技能文件、说明文档和触发方式组织起来。",
-      "帮助你判断它是否适合搭建自己的技能库。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "准备写自定义 Agent Skills 的开发者。",
-      "需要维护团队技能库或插件库的人。",
-      "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
-      "没有明确技能场景，只想批量生成空壳的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
-      "用户输入领域说明或现有材料后，工具生成可安装结构。",
-      "生成后仍需要在真实 Agent 环境里测试。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先阅读它支持的 Skill 格式。",
-      "用一个很小的技能需求生成或校验。",
-      "放进目标 Agent 客户端试跑，再迭代说明文档。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "创建 Skill 的门槛降低。",
-      "技能结构更统一，别人更容易安装和理解。",
-      "团队知识更容易变成可执行能力。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

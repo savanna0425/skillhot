@@ -1,5 +1,5 @@
 {
-  "rank": 301,
+  "rank": 286,
   "id": 1204004374,
   "name": "patent-disclosure-skill",
   "fullName": "handsomestWei/patent-disclosure-skill",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/36500279?v=4",
   "url": "https://github.com/handsomestWei/patent-disclosure-skill",
   "homepage": "https://skillhub.cn/skills/patent-disclosure-skill",
-  "description": "中国专利.skill：从项目文档到交底书编写（挖点·查新·脱敏成文）+ 专利通俗解读（叙事·图谱·Obsidian 私库）。",
-  "summary": "patent-disclosure-skill：patent-disclosure-skill：中国专利.skill：从项目文档到交底书编写（挖点·查新·脱敏成文）+ 专利通俗解读（叙事·图谱·Obsidian 私库）。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+  "summary": "patent-disclosure-skill：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone <本仓库 URL> <宿主-skills目录>/patent-disclosure-skill",
+  "installCommand": "git clone https://github.com/handsomestWei/patent-disclosure-skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 4518,
-  "forks": 593,
+  "stars": 5467,
+  "forks": 688,
   "openIssues": 6,
-  "score": 129.7,
+  "score": 131.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T07:46:02Z",
-  "updatedAt": "2026-07-30T03:20:16Z",
+  "pushedAt": "2026-08-29T10:32:01Z",
+  "updatedAt": "2026-08-29T12:49:10Z",
   "createdAt": "2026-04-07T15:44:15Z",
   "sourceTopics": [
     "skill"
@@ -45,8 +45,7 @@
     "skill"
   ],
   "platforms": [
-    "Claude",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -59,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "patent-disclosure-skill：中国专利.skill：从项目文档到交底书编写（挖点·查新·脱敏成文）+ 专利通俗解读（叙事·图谱·Obsidian 私库）。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -78,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7e53dc974bd20f23",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a9fbc0cf9c803529",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "patent-disclosure-skill：patent-disclosure-skill：中国专利.skill：从项目文档到交底书编写（挖点·查新·脱敏成文）+ 专利通俗解读（叙事·图谱·Obsidian 私库）。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "patent-disclosure-skill：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "patent-disclosure-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -102,7 +101,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

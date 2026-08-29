@@ -1,5 +1,5 @@
 {
-  "rank": 116,
+  "rank": 118,
   "id": 1177608268,
   "name": "Auto-claude-code-research-in-sleep",
   "fullName": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -8,7 +8,7 @@
   "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
   "homepage": "",
   "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
-  "summary": "Auto-claude-code-research-in-sleep：Auto-claude-code-research-in-sleep：Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Auto-claude-code-research-in-sleep：面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/tianyilt/claude-fleet\ncd claude-fleet && bash run.sh",
   "language": "Python",
   "license": "MIT",
-  "stars": 14012,
-  "forks": 1250,
+  "stars": 15412,
+  "forks": 1346,
   "openIssues": 62,
-  "score": 141.5,
+  "score": 142.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T04:41:32Z",
-  "updatedAt": "2026-07-30T03:25:38Z",
+  "pushedAt": "2026-08-26T09:30:40Z",
+  "updatedAt": "2026-08-29T12:35:15Z",
   "createdAt": "2026-03-10T07:31:45Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -68,7 +68,7 @@
     "OpenClaw",
     "Antigravity"
   ],
-  "skillCount": 81,
+  "skillCount": 82,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -79,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Auto-claude-code-research-in-sleep：Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -98,13 +98,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "188c98c1440741ca",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5badb42b2ebe633e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Auto-claude-code-research-in-sleep：Auto-claude-code-research-in-sleep：Auto-claude-code-research-in-sleep 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Auto-claude-code-research-in-sleep：面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Auto-claude-code-research-in-sleep 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -132,7 +132,7 @@
       "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
       "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
       "可信度取决于来源质量和你的人工复核。",
-      "仓库信息显示它包含 81+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 82+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个小主题测试它的资料组织方式。",

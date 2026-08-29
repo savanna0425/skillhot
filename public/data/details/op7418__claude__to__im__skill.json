@@ -1,5 +1,5 @@
 {
-  "rank": 1203,
+  "rank": 1270,
   "id": 1173427820,
   "name": "Claude-to-IM-skill",
   "fullName": "op7418/Claude-to-IM-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/op7418/Claude-to-IM-skill",
   "homepage": "",
   "description": "Bridge Claude Code / Codex to IM platforms — chat with AI coding agents from Telegram, Discord, or Feishu/Lark.",
-  "summary": "Claude-to-IM-skill：Claude-to-IM-skill：桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "Claude-to-IM-skill：桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/op7418/Claude-to-IM-skill.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 2836,
+  "stars": 2869,
   "forks": 318,
   "openIssues": 100,
-  "score": 101.9,
+  "score": 102,
   "activity": "活跃",
   "pushedAt": "2026-03-23T17:03:44Z",
-  "updatedAt": "2026-07-30T02:18:39Z",
+  "updatedAt": "2026-08-29T00:06:13Z",
   "createdAt": "2026-03-05T11:00:16Z",
   "sourceTopics": [
     "skill"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude-to-IM-skill：桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a0c1bf18a365c550",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "13c8757760627307",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Claude-to-IM-skill：Claude-to-IM-skill：桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "Claude-to-IM-skill：桥接 Claude Code 与 IM 平台——与来自 Telegram、Discord 或飞书/领达的 AI 编程代理进行对话。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "Claude-to-IM-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

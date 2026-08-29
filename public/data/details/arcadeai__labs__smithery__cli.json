@@ -1,5 +1,5 @@
 {
-  "rank": 1619,
+  "rank": 1681,
   "id": 906846835,
   "name": "smithery-cli",
   "fullName": "arcadeai-labs/smithery-cli",
@@ -8,7 +8,7 @@
   "url": "https://github.com/arcadeai-labs/smithery-cli",
   "homepage": "https://smithery.ai",
   "description": "Install, manage and develop MCP servers and skills for agents",
-  "summary": "smithery-cli：smithery-cli：smithery-cli 用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "smithery-cli：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/arcadeai-labs/smithery-cli.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 811,
-  "forks": 93,
-  "openIssues": 31,
-  "score": 92.9,
+  "stars": 827,
+  "forks": 96,
+  "openIssues": 39,
+  "score": 93.1,
   "activity": "近期活跃",
   "pushedAt": "2026-05-31T07:11:36Z",
-  "updatedAt": "2026-07-30T02:45:43Z",
+  "updatedAt": "2026-08-28T19:28:30Z",
   "createdAt": "2024-12-22T04:43:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "smithery-cli：smithery-cli 用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "smithery-cli 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -68,13 +68,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "628d5739013255ad",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1e5912c02074b295",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "smithery-cli：smithery-cli：smithery-cli 用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "smithery-cli：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "smithery-cli 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

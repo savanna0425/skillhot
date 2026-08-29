@@ -1,5 +1,5 @@
 {
-  "rank": 485,
+  "rank": 498,
   "id": 713376647,
   "name": "next-shadcn-dashboard-starter",
   "fullName": "Kiranism/next-shadcn-dashboard-starter",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/68379183?v=4",
   "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
   "homepage": "https://dub.sh/shadcn-dashboard",
-  "description": "Free, open source admin dashboard starter built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript.",
-  "summary": "next-shadcn-dashboard-starter：next-shadcn-dashboard-starter：next-shadcn-dashboard-starter 帮助改进界面设计、用户体验与视觉质量。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Free, open source, AI-friendly admin dashboard template built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript. Production-ready tables, forms, auth, and billing. MIT licensed.",
+  "summary": "next-shadcn-dashboard-starter：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Kiranism/next-shadcn-dashboard-starter.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6748,
-  "forks": 1562,
+  "stars": 6903,
+  "forks": 1574,
   "openIssues": 6,
-  "score": 121.9,
+  "score": 122.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T22:26:41Z",
-  "updatedAt": "2026-07-30T03:15:51Z",
+  "pushedAt": "2026-08-24T22:10:35Z",
+  "updatedAt": "2026-08-29T10:52:54Z",
   "createdAt": "2023-11-02T11:54:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,28 +36,19 @@
   ],
   "repoTopics": [
     "admin-dashboard",
-    "admin-panel",
     "admin-template",
     "clerk",
     "dashboard",
     "dashboard-template",
     "nextjs",
     "nextjs-admin",
-    "nextjs-admin-template",
     "nextjs-dashboard",
-    "nextjs-starter",
-    "react",
-    "shadcn",
-    "shadcn-admin",
     "shadcn-dashboard",
     "shadcn-ui",
-    "starter-template",
-    "tailwindcss",
-    "tanstack-query",
-    "typescript"
+    "tailwindcss"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "next-shadcn-dashboard-starter：next-shadcn-dashboard-starter 帮助改进界面设计、用户体验与视觉质量。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "next-shadcn-dashboard-starter 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -89,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e822e67db3fa8070",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0c7d5a706a6f98dd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "next-shadcn-dashboard-starter：next-shadcn-dashboard-starter：next-shadcn-dashboard-starter 帮助改进界面设计、用户体验与视觉质量。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "next-shadcn-dashboard-starter：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "next-shadcn-dashboard-starter 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
@@ -113,7 +104,7 @@
       "用 Agent 做网页、App 原型或视觉材料的人。",
       "希望提高前端页面完成度的开发者。",
       "需要把设计规范沉淀为可复用流程的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",

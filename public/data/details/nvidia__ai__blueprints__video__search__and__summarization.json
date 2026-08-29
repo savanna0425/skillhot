@@ -1,5 +1,5 @@
 {
-  "rank": 986,
+  "rank": 1012,
   "id": 876545970,
   "name": "video-search-and-summarization",
   "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
@@ -8,7 +8,7 @@
   "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
   "homepage": "https://build.nvidia.com/nvidia/video-search-and-summarization",
   "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
-  "summary": "video-search-and-summarization：video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "video-search-and-summarization：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization.git",
   "language": "C++",
   "license": "NOASSERTION",
-  "stars": 1757,
-  "forks": 365,
-  "openIssues": 126,
-  "score": 107.9,
+  "stars": 1830,
+  "forks": 381,
+  "openIssues": 168,
+  "score": 108.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:58:14Z",
-  "updatedAt": "2026-07-30T01:57:31Z",
+  "pushedAt": "2026-08-29T07:26:15Z",
+  "updatedAt": "2026-08-29T11:58:10Z",
   "createdAt": "2024-10-22T06:43:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "video-search-and-summarization 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -89,13 +89,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "668a439479916798",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "8d00b492db91b35d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "video-search-and-summarization：video-search-and-summarization：video-search-and-summarization 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "video-search-and-summarization：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "video-search-and-summarization 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

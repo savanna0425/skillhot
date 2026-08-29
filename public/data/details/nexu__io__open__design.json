@@ -1,5 +1,5 @@
 {
-  "rank": 37,
+  "rank": 35,
   "id": 1223170290,
   "name": "open-design",
   "fullName": "nexu-io/open-design",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
   "url": "https://github.com/nexu-io/open-design",
   "homepage": "https://open-design.ai",
-  "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-  "summary": "open-design：open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+  "summary": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "人工复核",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/nexu-io/open-design.git\ncd open-design/deploy\ncp .env.example .env",
-  "language": "TypeScript",
+  "language": "",
   "license": "Apache-2.0",
-  "stars": 82580,
-  "forks": 9557,
-  "openIssues": 712,
-  "score": 152,
+  "stars": 92528,
+  "forks": 10665,
+  "openIssues": 906,
+  "score": 153.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:13:39Z",
-  "updatedAt": "2026-07-30T03:31:55Z",
+  "pushedAt": "2026-08-29T12:52:32Z",
+  "updatedAt": "2026-08-29T12:39:21Z",
   "createdAt": "2026-04-28T04:25:20Z",
   "sourceTopics": [
     "agent-skills"
@@ -40,7 +40,6 @@
   ],
   "repoTopics": [
     "agent-skills",
-    "ai-agents",
     "ai-design",
     "byok",
     "claude-code-for-design",
@@ -48,14 +47,15 @@
     "codex-design",
     "coding-agents",
     "cursor-design",
+    "deepseek",
+    "deepseek-harness",
     "design-systems",
-    "design-tools",
     "desktop-app",
+    "dsh",
+    "dsh-plugin",
     "figma-alternative",
-    "generative-ai",
     "hermes-agent",
     "local-first",
-    "no-code",
     "prototyping",
     "ui-generator",
     "vibe-coding"
@@ -79,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统",
     "useCases": [
       "界面原型",
       "演示与视频",
@@ -98,13 +98,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c4b68bf08f51fa88",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "6f40b3c37d4f35c5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-design：open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "open-design：本地优先的 AI 设计工作台，内置 259+ Skills 与 142+ 设计系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "open-design 可以先理解为一个「内容生产辅助项目」。它围绕「界面原型」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

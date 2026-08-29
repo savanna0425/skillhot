@@ -1,5 +1,5 @@
 {
-  "rank": 633,
+  "rank": 654,
   "id": 297302063,
   "name": "memgraph",
   "fullName": "memgraph/memgraph",
@@ -8,7 +8,7 @@
   "url": "https://github.com/memgraph/memgraph",
   "homepage": "https://memgraph.com",
   "description": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
-  "summary": "memgraph：memgraph：高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "memgraph：高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/memgraph/memgraph.git",
   "language": "C++",
   "license": "NOASSERTION",
-  "stars": 4292,
-  "forks": 252,
-  "openIssues": 759,
-  "score": 117.2,
+  "stars": 4372,
+  "forks": 261,
+  "openIssues": 806,
+  "score": 117.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T17:04:21Z",
-  "updatedAt": "2026-07-30T03:32:20Z",
+  "pushedAt": "2026-08-29T11:27:10Z",
+  "updatedAt": "2026-08-29T11:28:02Z",
   "createdAt": "2020-09-21T10:14:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "memgraph：高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -84,13 +84,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "63846bc5a1945166",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "04fea9abbe0f1115",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "memgraph：memgraph：高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "memgraph：高性能开源内存图数据库，专为 GraphRAG、AI 记忆、代理 AI 及实时图分析而设计。Cypher 兼容，用 C++ 构建。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "memgraph 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

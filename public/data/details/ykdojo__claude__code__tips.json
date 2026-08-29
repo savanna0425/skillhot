@@ -1,5 +1,5 @@
 {
-  "rank": 228,
+  "rank": 243,
   "id": 1105657641,
   "name": "claude-code-tips",
   "fullName": "ykdojo/claude-code-tips",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1811651?v=4",
   "url": "https://github.com/ykdojo/claude-code-tips",
   "homepage": "",
-  "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
-  "summary": "claude-code-tips：claude-code-tips：claude-code-tips 聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
+  "summary": "claude-code-tips：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add ykdojo/claude-code-tips\nclaude plugin install dx@ykdojo",
   "language": "HTML",
   "license": "NOASSERTION",
-  "stars": 9481,
-  "forks": 748,
+  "stars": 9966,
+  "forks": 803,
   "openIssues": 4,
-  "score": 133.5,
+  "score": 134,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T05:13:03Z",
-  "updatedAt": "2026-07-30T03:24:24Z",
+  "pushedAt": "2026-08-25T17:10:32Z",
+  "updatedAt": "2026-08-29T11:13:28Z",
   "createdAt": "2025-11-28T00:52:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,8 +50,7 @@
     "tips-and-tricks"
   ],
   "platforms": [
-    "Claude",
-    "Cursor"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -64,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-code-tips：claude-code-tips 聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "claude-code-tips 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -83,13 +82,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "20fbbe716d0e48a0",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5b504e512c211f6a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-tips：claude-code-tips：claude-code-tips 聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-tips：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-tips 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -107,7 +106,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

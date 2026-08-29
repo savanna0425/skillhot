@@ -1,5 +1,5 @@
 {
-  "rank": 409,
+  "rank": 410,
   "id": 1238606716,
   "name": "comet",
   "fullName": "rpamis/comet",
@@ -8,7 +8,7 @@
   "url": "https://github.com/rpamis/comet",
   "homepage": "https://docs.comet.rpamis.com",
   "description": "Comet: agent skill harness for turning ideas into evaluated workflows",
-  "summary": "comet：comet：comet 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw、Antigravity 相关工作流里先做选型判断。适合在 OpenClaw、Antigravity 相关工作流里先做选型判断。",
+  "summary": "comet：用于自动化浏览器、工具集成或重复流程。适合在 Antigravity 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "npm install -g @rpamis/comet",
-  "language": "TypeScript",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 2583,
-  "forks": 249,
-  "openIssues": 39,
-  "score": 123.9,
+  "stars": 2863,
+  "forks": 280,
+  "openIssues": 26,
+  "score": 125,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:20:49Z",
-  "updatedAt": "2026-07-30T03:31:58Z",
+  "pushedAt": "2026-08-29T12:28:33Z",
+  "updatedAt": "2026-08-29T09:22:25Z",
   "createdAt": "2026-05-14T09:22:35Z",
   "sourceTopics": [
     "skills"
@@ -48,7 +48,6 @@
     "spec"
   ],
   "platforms": [
-    "OpenClaw",
     "Antigravity"
   ],
   "skillCount": 1,
@@ -62,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "comet：comet 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw、Antigravity 相关工作流里先做选型判断。",
+    "summary": "comet 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -81,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "08198aae48616bf5",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1f5c7454cf61f09b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "comet：comet：comet 用于自动化浏览器、工具集成或重复流程。适合在 OpenClaw、Antigravity 相关工作流里先做选型判断。适合在 OpenClaw、Antigravity 相关工作流里先做选型判断。",
+    "plainIntro": "comet：用于自动化浏览器、工具集成或重复流程。适合在 Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "comet 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -105,7 +104,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 OpenClaw、Antigravity 等 Agent 工具链的人。"
+      "正在使用 Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",

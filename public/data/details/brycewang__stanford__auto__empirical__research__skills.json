@@ -1,5 +1,5 @@
 {
-  "rank": 359,
+  "rank": 361,
   "id": 1200204014,
   "name": "Auto-Empirical-Research-Skills",
   "fullName": "brycewang-stanford/Auto-Empirical-Research-Skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
   "homepage": "https://copaper.ai",
   "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
-  "summary": "Auto-Empirical-Research-Skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "Auto-Empirical-Research-Skills 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,19 +22,20 @@
   "installCommand": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git",
   "language": "Stata",
   "license": "NOASSERTION",
-  "stars": 3143,
-  "forks": 416,
-  "openIssues": 3,
-  "score": 126,
+  "stars": 3593,
+  "forks": 462,
+  "openIssues": 2,
+  "score": 127.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T09:24:53Z",
-  "updatedAt": "2026-07-30T03:02:40Z",
+  "pushedAt": "2026-08-27T06:07:36Z",
+  "updatedAt": "2026-08-29T12:36:17Z",
   "createdAt": "2026-04-03T06:31:20Z",
   "sourceTopics": [
     "agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -57,9 +58,10 @@
     "sociology"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
-  "skillCount": 1095,
+  "skillCount": 1096,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/brycewang-stanford/Auto-Empirical-Research-Skills",
@@ -70,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Auto-Empirical-Research-Skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -89,14 +91,14 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f4fd499ba521d3a2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "aba1c9873d160b44",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Auto-Empirical-Research-Skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "Auto-Empirical-Research-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "Auto-Empirical-Research-Skills 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "Auto-Empirical-Research-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -113,7 +115,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -123,7 +125,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 1095+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 1096+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

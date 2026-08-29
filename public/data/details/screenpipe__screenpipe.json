@@ -1,5 +1,5 @@
 {
-  "rank": 226,
+  "rank": 245,
   "id": 817326197,
   "name": "screenpipe",
   "fullName": "screenpipe/screenpipe",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/259178917?v=4",
   "url": "https://github.com/screenpipe/screenpipe",
   "homepage": "https://screenpipe.com",
-  "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
-  "summary": "screenpipe：screenpipe：screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+  "description": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
+  "summary": "screenpipe：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx screenpipe record",
   "language": "Rust",
   "license": "NOASSERTION",
-  "stars": 20618,
-  "forks": 2039,
-  "openIssues": 128,
-  "score": 133.5,
+  "stars": 21290,
+  "forks": 2149,
+  "openIssues": 59,
+  "score": 133.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:11:17Z",
-  "updatedAt": "2026-07-30T02:51:13Z",
+  "pushedAt": "2026-08-29T01:44:03Z",
+  "updatedAt": "2026-08-29T12:52:11Z",
   "createdAt": "2024-06-19T13:23:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,9 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor",
+    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -72,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "screenpipe：screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +93,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5d96ba2730d86553",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "57ea25bb337007e2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "screenpipe：screenpipe：screenpipe 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "screenpipe：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "screenpipe 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -115,7 +117,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

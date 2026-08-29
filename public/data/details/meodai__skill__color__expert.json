@@ -1,5 +1,5 @@
 {
-  "rank": 1007,
+  "rank": 1030,
   "id": 1188851946,
   "name": "skill.color-expert",
   "fullName": "meodai/skill.color-expert",
@@ -8,7 +8,7 @@
   "url": "https://github.com/meodai/skill.color-expert",
   "homepage": "",
   "description": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette   generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
-  "summary": "skill.color-expert：skill.color-expert：基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skill.color-expert：基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/meodai/skill.color-expert.git",
   "language": "",
   "license": "CC-BY-4.0",
-  "stars": 531,
-  "forks": 34,
+  "stars": 565,
+  "forks": 37,
   "openIssues": 0,
-  "score": 107.6,
+  "score": 108.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T20:53:42Z",
-  "updatedAt": "2026-07-29T20:53:50Z",
+  "pushedAt": "2026-08-22T07:34:18Z",
+  "updatedAt": "2026-08-29T08:50:23Z",
   "createdAt": "2026-03-22T17:09:18Z",
   "sourceTopics": [
     "skill"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill.color-expert：基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -81,13 +81,13 @@
       "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "53f700d141662a88",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0f719cd8e966462d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill.color-expert：skill.color-expert：基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skill.color-expert：基于色彩科学的技能。涵盖色彩空间、无障碍标准 (APCA, WCAG)、色板生成、颜料混合及历史色彩理论。与 Claude Code、Codex、Cursor、Copilot 及其他工具协同工作。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skill.color-expert 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1333,
+  "rank": 1327,
   "id": 1183057754,
   "name": "CORAL",
   "fullName": "Human-Agent-Society/CORAL",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/268553699?v=4",
   "url": "https://github.com/Human-Agent-Society/CORAL",
   "homepage": "https://coral.compounding-intelligence.ai",
-  "description": "🔥🔥COLM 2026🔥🔥      CORAL is a robust, lightweight infrastructure for multi-agent autonomous self-evolution, built for autoresearch. Works with Claude Code, Codex, Cursor, OpenCode, Kiro, and more.",
-  "summary": "CORAL：CORAL：CORAL 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Open-source autoresearch powered by autonomous coding agents. Run Claude Code, OpenCode, and Codex with grading, shared knowledge, and multi-agent evolution. Accepted at COLM 2026.",
+  "summary": "CORAL：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Human-Agent-Society/CORAL.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 860,
-  "forks": 107,
-  "openIssues": 12,
-  "score": 100.5,
+  "stars": 936,
+  "forks": 119,
+  "openIssues": 18,
+  "score": 101.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T03:44:22Z",
-  "updatedAt": "2026-07-29T20:37:42Z",
+  "pushedAt": "2026-08-23T02:42:55Z",
+  "updatedAt": "2026-08-28T14:15:43Z",
   "createdAt": "2026-03-16T08:25:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,9 @@
   ],
   "repoTopics": [
     "agent-framework",
+    "agent-orchestration",
     "agentic-ai",
+    "ai-agents",
     "alpha-evolve",
     "autonomous-agents",
     "autoresearch",
@@ -48,15 +50,15 @@
     "large-language-models",
     "llm-agents",
     "multi-agent",
+    "open-source",
     "opencode",
+    "scientific-discovery",
     "self-evolving",
-    "self-evolving-agents",
-    "swe-bench"
+    "self-evolving-agents"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -70,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "CORAL：CORAL 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "CORAL 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,13 +91,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "395960948f03621a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5501aa93d5404415",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "CORAL：CORAL：CORAL 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "CORAL：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "CORAL 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -113,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

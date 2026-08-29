@@ -1,5 +1,5 @@
 {
-  "rank": 340,
+  "rank": 496,
   "id": 1235056479,
   "name": "a-stock-data",
   "fullName": "simonlin1212/a-stock-data",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/166034225?v=4",
   "url": "https://github.com/simonlin1212/a-stock-data",
   "homepage": "",
-  "description": "A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolkit (43 endpoints)",
-  "summary": "a-stock-data：a-stock-data：A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolki。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints, 19 sources, zero-auth",
+  "summary": "a-stock-data：A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "mkdir -p ~/.claude/skills/a-stock-data\ncurl -o ~/.claude/skills/a-stock-data/SKILL.md \\\nhttps://raw.githubusercontent.com/simonlin1212/a-stock-data/main/SKILL.md",
+  "installCommand": "git clone https://github.com/simonlin1212/a-stock-data.git",
   "language": "",
   "license": "Apache-2.0",
-  "stars": 8099,
-  "forks": 1497,
+  "stars": 9311,
+  "forks": 1682,
   "openIssues": 1,
-  "score": 127.8,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-26T08:36:34Z",
-  "updatedAt": "2026-07-30T03:16:52Z",
+  "score": 122.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-20T05:08:43Z",
+  "updatedAt": "2026-08-29T12:30:36Z",
   "createdAt": "2026-05-11T01:08:15Z",
   "sourceTopics": [
     "ai-skill"
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "a-stock-data：A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolki。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints, ",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,14 +89,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e33aa668143672ae",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1954e2f246d2653c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "a-stock-data：a-stock-data：A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolki。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "a-stock-data 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolkit (43 endpoints)。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "a-stock-data：A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 11 layers, 54 endpoints。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "a-stock-data 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

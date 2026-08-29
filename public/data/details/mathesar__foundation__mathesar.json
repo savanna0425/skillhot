@@ -1,5 +1,5 @@
 {
-  "rank": 346,
+  "rank": 365,
   "id": 348788771,
   "name": "mathesar",
   "fullName": "mathesar-foundation/mathesar",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mathesar-foundation/mathesar",
   "homepage": "https://mathesar.org/",
   "description": "An intuitive spreadsheet-like interface that lets users of all technical skill levels view, edit, query, and collaborate on Postgres data directly. 100% open source and self hosted, with native Postgres access control.",
-  "summary": "mathesar：mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mathesar-foundation/mathesar.git",
   "language": "Svelte",
   "license": "GPL-3.0",
-  "stars": 5080,
-  "forks": 484,
-  "openIssues": 313,
+  "stars": 5108,
+  "forks": 486,
+  "openIssues": 315,
   "score": 127,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:22:21Z",
-  "updatedAt": "2026-07-30T03:27:47Z",
+  "pushedAt": "2026-08-28T23:07:50Z",
+  "updatedAt": "2026-08-27T20:37:58Z",
   "createdAt": "2021-03-17T17:04:53Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -84,13 +84,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0fdd7790351c5969",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7cf85159bcd119af",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mathesar：mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "mathesar 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

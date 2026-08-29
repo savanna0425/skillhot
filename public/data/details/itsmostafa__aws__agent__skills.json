@@ -1,5 +1,5 @@
 {
-  "rank": 705,
+  "rank": 742,
   "id": 187398354,
   "name": "aws-agent-skills",
   "fullName": "itsmostafa/aws-agent-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/itsmostafa/aws-agent-skills",
   "homepage": "",
   "description": "AWS Skills for Agents",
-  "summary": "aws-agent-skills：aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/itsmostafa/aws-agent-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1139,
-  "forks": 443,
-  "openIssues": 12,
-  "score": 115.4,
+  "stars": 1150,
+  "forks": 444,
+  "openIssues": 16,
+  "score": 115.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T10:17:47Z",
-  "updatedAt": "2026-07-27T13:21:16Z",
+  "pushedAt": "2026-08-24T09:38:40Z",
+  "updatedAt": "2026-08-28T18:00:16Z",
   "createdAt": "2019-05-18T19:38:59Z",
   "sourceTopics": [
     "claude-skills"
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "AWS 为代理打造的技能",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "9a5942e716dce639",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7b7b3d1b383581ca",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aws-agent-skills：aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "aws-agent-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

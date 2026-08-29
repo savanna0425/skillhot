@@ -1,5 +1,5 @@
 {
-  "rank": 113,
+  "rank": 109,
   "id": 1165324947,
   "name": "QwenPaw",
   "fullName": "agentscope-ai/QwenPaw",
@@ -8,10 +8,10 @@
   "url": "https://github.com/agentscope-ai/QwenPaw",
   "homepage": "http://qwenpaw.agentscope.io/",
   "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-  "summary": "QwenPaw：QwenPaw：您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "QwenPaw：您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力。适合在 Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -22,13 +22,13 @@
   "installCommand": "pip install qwenpaw\nqwenpaw init --defaults\nqwenpaw app",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 30469,
-  "forks": 2898,
-  "openIssues": 934,
-  "score": 141.6,
+  "stars": 34635,
+  "forks": 3044,
+  "openIssues": 889,
+  "score": 143,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:59:17Z",
-  "updatedAt": "2026-07-30T03:31:16Z",
+  "pushedAt": "2026-08-28T17:50:20Z",
+  "updatedAt": "2026-08-29T10:16:23Z",
   "createdAt": "2026-02-24T03:42:56Z",
   "sourceTopics": [
     "skills"
@@ -41,15 +41,22 @@
     "agent",
     "agent-harness",
     "agentscope",
+    "ai-agent",
+    "ai-agents",
+    "chatbot",
     "harness-engineering",
     "llm-tools",
     "llms",
     "loop-engineering",
+    "mcp",
+    "personal-ai-assistant",
+    "self-hosted",
     "skills",
-    "super-agent"
+    "super-agent",
+    "webui"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -62,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "QwenPaw：您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3a88efab79727402",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "63ad1c3c5c0510b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "QwenPaw：QwenPaw：您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "QwenPaw：您的个人 AI 助手；易于安装，可部署于本地或云端；支持多种聊天应用，具备易于扩展的能力。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "QwenPaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -105,7 +112,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 128,
+  "rank": 147,
   "id": 1130809465,
   "name": "oh-my-claudecode",
   "fullName": "Yeachan-Heo/oh-my-claudecode",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
   "homepage": "https://oh-my-claudecode.dev",
   "description": "Teams-first Multi-agent orchestration for Claude Code",
-  "summary": "oh-my-claudecode：oh-my-claudecode：基于 Teams 的首次多代理编排，用于 Claude Code。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "oh-my-claudecode：基于 Teams 的首次多代理编排，用于 Claude Code。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npm i -g oh-my-claude-sisyphus@latest",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 38174,
-  "forks": 3439,
-  "openIssues": 4,
-  "score": 140,
+  "stars": 38862,
+  "forks": 3488,
+  "openIssues": 1,
+  "score": 140.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:49:14Z",
-  "updatedAt": "2026-07-30T02:52:39Z",
+  "pushedAt": "2026-08-28T21:45:37Z",
+  "updatedAt": "2026-08-29T12:35:30Z",
   "createdAt": "2026-01-09T03:36:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,8 +52,8 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "OpenCode",
-    "Antigravity"
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "oh-my-claudecode：基于 Teams 的首次多代理编排，用于 Claude Code。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "基于 Teams 的首次多代理编排，用于 Claude Code",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2532a78344775702",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "52d2c507c395c6a8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "oh-my-claudecode：oh-my-claudecode：基于 Teams 的首次多代理编排，用于 Claude Code。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "oh-my-claudecode：基于 Teams 的首次多代理编排，用于 Claude Code。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "oh-my-claudecode 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

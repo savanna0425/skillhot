@@ -1,14 +1,14 @@
 {
-  "rank": 686,
+  "rank": 409,
   "id": 1170291083,
   "name": "skills-manager",
   "fullName": "xingkongliang/skills-manager",
   "owner": "xingkongliang",
   "avatarUrl": "https://avatars.githubusercontent.com/u/8827798?v=4",
   "url": "https://github.com/xingkongliang/skills-manager",
-  "homepage": "",
-  "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
-  "summary": "skills-manager：skills-manager：skills-manager 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "homepage": "https://skillsmanager.dev",
+  "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+  "summary": "skills-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install\nnpm run tauri:dev",
   "language": "Rust",
   "license": "MIT",
-  "stars": 3409,
-  "forks": 296,
-  "openIssues": 155,
-  "score": 115.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-14T19:11:32Z",
-  "updatedAt": "2026-07-30T03:01:23Z",
+  "stars": 4193,
+  "forks": 361,
+  "openIssues": 186,
+  "score": 125,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T10:54:18Z",
+  "updatedAt": "2026-08-29T12:29:56Z",
   "createdAt": "2026-03-02T00:38:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,7 +41,7 @@
     "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "OpenCode"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills-manager：skills-manager 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "skills-manager 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c56f6b72cdb2ee64",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "fc014c02039c7fbe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills-manager：skills-manager：skills-manager 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills-manager 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

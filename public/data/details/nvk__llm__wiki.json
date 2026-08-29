@@ -1,5 +1,5 @@
 {
-  "rank": 1464,
+  "rank": 1077,
   "id": 1201628267,
   "name": "llm-wiki",
   "fullName": "nvk/llm-wiki",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nvk/llm-wiki",
   "homepage": "https://llm-wiki.net/",
   "description": "LLM-compiled knowledge bases for any AI agent. Parallel multi-agent research, thesis-driven investigation, source ingestion, wiki compilation, querying, and artifact generation. ",
-  "summary": "llm-wiki：llm-wiki：为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "llm-wiki：为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,20 +22,19 @@
   "installCommand": "git clone https://github.com/nvk/llm-wiki.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 912,
-  "forks": 91,
-  "openIssues": 4,
-  "score": 98.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-15T17:50:30Z",
-  "updatedAt": "2026-07-30T01:06:57Z",
+  "stars": 1153,
+  "forks": 109,
+  "openIssues": 21,
+  "score": 107.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-27T16:55:02Z",
+  "updatedAt": "2026-08-29T10:54:21Z",
   "createdAt": "2026-04-04T23:52:25Z",
   "sourceTopics": [
     "agentic-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agentic-ai",
@@ -62,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "llm-wiki：为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "8f08e2c8fa5b0a50",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "00f0c56995074020",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llm-wiki：llm-wiki：为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "llm-wiki：为任何 AI 代理生成基于大语言模型编译的知识库。并行多代理研究、以论文为导向的探究、源摄入、Wiki 编译、查询及生成制品。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "llm-wiki 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

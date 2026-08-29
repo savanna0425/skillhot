@@ -1,5 +1,5 @@
 {
-  "rank": 1542,
+  "rank": 1568,
   "id": 1168786009,
   "name": "repo-forensics",
   "fullName": "alexgreensh/repo-forensics",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alexgreensh/repo-forensics",
   "homepage": "",
   "description": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
-  "summary": "repo-forensics：repo-forensics：repo-forensics 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "repo-forensics：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alexgreensh/repo-forensics.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 144,
-  "forks": 19,
+  "stars": 165,
+  "forks": 27,
   "openIssues": 1,
-  "score": 94.5,
+  "score": 95.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T20:05:33Z",
-  "updatedAt": "2026-07-25T20:05:38Z",
+  "pushedAt": "2026-08-27T22:41:08Z",
+  "updatedAt": "2026-08-27T22:41:12Z",
   "createdAt": "2026-02-27T19:49:15Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "repo-forensics：repo-forensics 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "repo-forensics 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -91,13 +91,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6916d8d117f6c458",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ad396647d6d64b21",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "repo-forensics：repo-forensics：repo-forensics 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "repo-forensics：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "repo-forensics 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

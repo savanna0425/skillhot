@@ -1,5 +1,5 @@
 {
-  "rank": 533,
+  "rank": 748,
   "id": 1166205118,
   "name": "seedance-2.0",
   "fullName": "Emily2040/seedance-2.0",
@@ -19,16 +19,16 @@
     "长故事连续生成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "python -m pip install --require-hashes --requirement requirements-validation.lock",
+  "installCommand": "git clone https://github.com/Emily2040/seedance-2.0.git\ncd seedance-2.0",
   "language": "Python",
   "license": "MIT",
-  "stars": 5590,
-  "forks": 854,
-  "openIssues": 4,
-  "score": 120,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-25T10:57:20Z",
-  "updatedAt": "2026-07-30T03:30:46Z",
+  "stars": 7014,
+  "forks": 1024,
+  "openIssues": 7,
+  "score": 115.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-06T11:00:29Z",
+  "updatedAt": "2026-08-29T12:14:16Z",
   "createdAt": "2026-02-25T01:28:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "seedance-2.0 是一套面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS，帮助 Agent 把短片、分镜、参考素材、音频和后期交付整理成更像导演工作流的流程。",
+    "summary": "面向 Seedance 2.0 的多模态 AI 影视创作 Skill OS",
     "useCases": [
       "AI 视频创作",
       "分镜与镜头提示词",
@@ -70,8 +70,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "58f81ae437fb27c3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7070f723f32a480c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

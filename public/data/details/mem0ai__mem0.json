@@ -1,5 +1,5 @@
 {
-  "rank": 81,
+  "rank": 84,
   "id": 656099147,
   "name": "mem0",
   "fullName": "mem0ai/mem0",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mem0ai/mem0",
   "homepage": "https://mem0.ai",
   "description": "Universal memory layer for AI Agents",
-  "summary": "mem0：mem0：通用 AI 代理记忆层。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "mem0：通用 AI 代理记忆层。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @mem0/cli      # or: pip install mem0-cli\nmem0 init --agent --agent-caller claude-code\nmem0 add \"I am using mem0\"",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 62057,
-  "forks": 7236,
-  "openIssues": 788,
-  "score": 145,
+  "stars": 64302,
+  "forks": 7527,
+  "openIssues": 702,
+  "score": 145.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:22:46Z",
-  "updatedAt": "2026-07-30T03:33:47Z",
+  "pushedAt": "2026-08-28T18:02:50Z",
+  "updatedAt": "2026-08-29T12:30:34Z",
   "createdAt": "2023-06-20T08:58:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "mem0：通用 AI 代理记忆层。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "通用 AI 代理记忆层",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -88,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "de1c51ba1c89a3dd",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "bc063783547ebbc4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mem0：mem0：通用 AI 代理记忆层。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mem0：通用 AI 代理记忆层。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "mem0 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

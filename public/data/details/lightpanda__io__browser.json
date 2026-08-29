@@ -1,5 +1,5 @@
 {
-  "rank": 149,
+  "rank": 163,
   "id": 598667202,
   "name": "browser",
   "fullName": "lightpanda-io/browser",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lightpanda-io/browser",
   "homepage": "https://lightpanda.io",
   "description": "Lightpanda: the headless browser designed for AI and automation",
-  "summary": "browser：browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "brew install lightpanda-io/browser/lightpanda",
   "language": "Zig",
   "license": "AGPL-3.0",
-  "stars": 32979,
-  "forks": 1487,
-  "openIssues": 76,
-  "score": 138.4,
+  "stars": 34307,
+  "forks": 1622,
+  "openIssues": 99,
+  "score": 138.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:30:30Z",
-  "updatedAt": "2026-07-30T03:30:38Z",
+  "pushedAt": "2026-08-29T09:18:32Z",
+  "updatedAt": "2026-08-29T12:39:04Z",
   "createdAt": "2023-02-07T15:19:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "Lightpanda：专为 AI 与自动化设计的无头浏览器",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -78,13 +78,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "8e1176fd9f42fdb8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d253d77628313003",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "browser：browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "browser 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

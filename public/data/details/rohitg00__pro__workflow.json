@@ -1,5 +1,5 @@
 {
-  "rank": 325,
+  "rank": 505,
   "id": 1147470802,
   "name": "pro-workflow",
   "fullName": "rohitg00/pro-workflow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/rohitg00/pro-workflow",
   "homepage": "https://rohitg00.github.io/pro-workflow/infographic.html",
   "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
-  "summary": "pro-workflow：pro-workflow：Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "pro-workflow：Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add rohitg00/pro-workflow",
   "language": "JavaScript",
   "license": "",
-  "stars": 2703,
-  "forks": 264,
-  "openIssues": 16,
-  "score": 128.4,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-27T20:24:35Z",
-  "updatedAt": "2026-07-30T03:18:00Z",
+  "stars": 2791,
+  "forks": 276,
+  "openIssues": 27,
+  "score": 121.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-17T20:24:39Z",
+  "updatedAt": "2026-08-29T09:37:36Z",
   "createdAt": "2026-02-01T19:47:29Z",
   "sourceTopics": [
     "claude-skills",
@@ -77,7 +77,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pro-workflow：Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -96,13 +96,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "20d672d12b874980",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4365c9377119ec97",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pro-workflow：pro-workflow：Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "pro-workflow：Claude Code 从您的修正中学习：经过 50 多次会话的自修正记忆。上下文工程、并行工作树、团队代理以及 17 项经过实战检验的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "pro-workflow 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

@@ -1,5 +1,5 @@
 {
-  "rank": 395,
+  "rank": 411,
   "id": 774497032,
   "name": "PraisonAI",
   "fullName": "MervinPraison/PraisonAI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/MervinPraison/PraisonAI",
   "homepage": "https://praison.ai/docs",
   "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
-  "summary": "PraisonAI：PraisonAI：PraisonAI —— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "PraisonAI：—— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "██████╗ ██████╗  █████╗ ██╗███████╗ ██████╗ ███╗   ██╗     █████╗ ██╗\n██╔══██╗██╔══██╗██╔══██╗██║██╔════╝██╔═══██╗████╗  ██║    ██╔══██╗██║\n██████╔╝██████╔╝███████║██║███████╗██║   ██║██╔██╗ ██║    ███████║██║",
   "language": "Python",
   "license": "MIT",
-  "stars": 8522,
-  "forks": 1339,
-  "openIssues": 46,
-  "score": 124.3,
+  "stars": 8979,
+  "forks": 1426,
+  "openIssues": 59,
+  "score": 124.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T16:26:09Z",
-  "updatedAt": "2026-07-30T02:55:26Z",
+  "pushedAt": "2026-08-29T10:51:51Z",
+  "updatedAt": "2026-08-29T12:49:13Z",
   "createdAt": "2024-03-19T16:45:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,9 +57,6 @@
     "openclaw"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -73,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "PraisonAI：PraisonAI —— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "PraisonAI —— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -92,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "9050f28f389e51ae",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "224a7b57f7adba8a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PraisonAI：PraisonAI：PraisonAI —— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "PraisonAI：—— 雇佣全天候 AI workforce。停止编写模板代码，开始部署自主自我改进的代理，这些代理负责研究、规划、编码和执行任务。仅需 5 行代码即可部署，内置记忆、RAG 支持及 100 种以上 LLM 支持。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "PraisonAI 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -116,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 690,
+  "rank": 662,
   "id": 1034736943,
   "name": "tradingview-mcp",
   "fullName": "atilaahmettaner/tradingview-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/atilaahmettaner/tradingview-mcp",
   "homepage": "https://pro.cryptosieve.com",
   "description": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
-  "summary": "tradingview-mcp：tradingview-mcp：TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "tradingview-mcp：TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install tradingview-mcp-server",
   "language": "Python",
   "license": "MIT",
-  "stars": 3717,
-  "forks": 809,
-  "openIssues": 9,
-  "score": 115.7,
+  "stars": 4283,
+  "forks": 916,
+  "openIssues": 13,
+  "score": 117.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T20:59:22Z",
-  "updatedAt": "2026-07-30T01:53:45Z",
+  "pushedAt": "2026-08-24T21:40:11Z",
+  "updatedAt": "2026-08-29T12:38:51Z",
   "createdAt": "2025-08-08T22:34:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,7 +52,6 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
     "Cursor",
     "GitHub Copilot",
     "OpenClaw"
@@ -68,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "tradingview-mcp：TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "1c88b9d2913fa300",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "912247bf4fa437e7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tradingview-mcp：tradingview-mcp：TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "tradingview-mcp：TradingView MCP 服务器——为 Claude、ChatGPT、Cursor 及任何 MCP 客户端提供实时市场数据、技术分析、筛选器与回测。覆盖全球交易所的股票、加密货币、外汇及期货。支持托管或自部署。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "tradingview-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -111,7 +110,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

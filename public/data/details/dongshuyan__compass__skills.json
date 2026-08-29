@@ -1,5 +1,5 @@
 {
-  "rank": 735,
+  "rank": 489,
   "id": 1269836503,
   "name": "compass-skills",
   "fullName": "dongshuyan/compass-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dongshuyan/compass-skills",
   "homepage": "",
   "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
-  "summary": "compass-skills：compass-skills：司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "compass-skills：司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add dongshuyan/compass-skills --skill '*' -a claude-code",
   "language": "Python",
   "license": "MIT",
-  "stars": 668,
-  "forks": 55,
+  "stars": 712,
+  "forks": 59,
   "openIssues": 0,
-  "score": 114.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-11T02:28:02Z",
-  "updatedAt": "2026-07-29T08:02:21Z",
+  "score": 122.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-26T12:54:01Z",
+  "updatedAt": "2026-08-29T07:04:29Z",
   "createdAt": "2026-06-15T06:28:04Z",
   "sourceTopics": [
     "claude-skills",
@@ -66,9 +66,7 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "OpenClaw",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -81,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "compass-skills：司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -100,13 +98,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c9e0370613b61fce",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "59ee15493e3b3dfd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "compass-skills：compass-skills：司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "compass-skills：司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "compass-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -124,7 +122,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 562,
+  "rank": 867,
   "id": 1021907170,
   "name": "claude-code-settings",
   "fullName": "feiskyer/claude-code-settings",
@@ -8,7 +8,7 @@
   "url": "https://github.com/feiskyer/claude-code-settings",
   "homepage": "https://feisky.xyz/claude-code-settings/",
   "description": "Curated skills, sub-agents, and config templates that supercharge Claude Code — research, image gen, GitHub automation & more.",
-  "summary": "claude-code-settings：claude-code-settings：claude-code-settings 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-code-settings：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "claude plugin marketplace add feiskyer/claude-code-settings\nclaude plugin install claude-code-settings@claude-code-settings",
+  "installCommand": "git clone https://github.com/feiskyer/claude-code-settings.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1611,
-  "forks": 243,
-  "openIssues": 0,
-  "score": 119,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-27T06:49:12Z",
-  "updatedAt": "2026-07-28T18:44:40Z",
+  "stars": 1640,
+  "forks": 244,
+  "openIssues": 1,
+  "score": 112.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-13T13:10:25Z",
+  "updatedAt": "2026-08-28T19:21:00Z",
   "createdAt": "2025-07-18T06:22:12Z",
   "sourceTopics": [
     "claude-skills"
@@ -53,7 +53,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
     "GitHub Copilot"
   ],
   "skillCount": 1,
@@ -67,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-code-settings：claude-code-settings 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "claude-code-settings 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -86,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "42f601be2f28cf2b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2b565775b27b5c6b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-settings：claude-code-settings：claude-code-settings 支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-settings：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-settings 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -110,7 +109,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

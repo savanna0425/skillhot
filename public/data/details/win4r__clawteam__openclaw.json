@@ -1,5 +1,5 @@
 {
-  "rank": 1177,
+  "rank": 1581,
   "id": 1185162422,
   "name": "ClawTeam-OpenClaw",
   "fullName": "win4r/ClawTeam-OpenClaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/win4r/ClawTeam-OpenClaw",
   "homepage": "https://youtu.be/aZT9d8qrirY",
   "description": "ClawTeam fork fully adapted for OpenClaw — multi-agent swarm coordination with OpenClaw as the default agent",
-  "summary": "ClawTeam-OpenClaw：ClawTeam-OpenClaw：ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ClawTeam-OpenClaw：ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/win4r/ClawTeam-OpenClaw.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1436,
-  "forks": 315,
-  "openIssues": 3,
-  "score": 102.8,
-  "activity": "本月活跃",
+  "stars": 1444,
+  "forks": 316,
+  "openIssues": 4,
+  "score": 94.9,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-03T18:24:33Z",
-  "updatedAt": "2026-07-30T01:57:59Z",
+  "updatedAt": "2026-08-27T21:38:37Z",
   "createdAt": "2026-03-18T09:52:54Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ClawTeam-OpenClaw：ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -82,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e13bf8c36967f74a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "fbaba3082eba28c5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ClawTeam-OpenClaw：ClawTeam-OpenClaw：ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ClawTeam-OpenClaw：ClawTeam Fork 完全适配 OpenClaw —— 基于 OpenClaw 的默认代理的多智能体群集协调。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ClawTeam-OpenClaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

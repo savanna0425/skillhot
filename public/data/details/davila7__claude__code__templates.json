@@ -1,5 +1,5 @@
 {
-  "rank": 157,
+  "rank": 178,
   "id": 1013480284,
   "name": "claude-code-templates",
   "fullName": "davila7/claude-code-templates",
@@ -8,7 +8,7 @@
   "url": "https://github.com/davila7/claude-code-templates",
   "homepage": "https://aitmpl.com",
   "description": "CLI tool for configuring and monitoring Claude Code",
-  "summary": "claude-code-templates：claude-code-templates：命令行工具用于配置和监控 Claude Code。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "claude-code-templates：命令行工具用于配置和监控 Claude Code。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx claude-code-templates@latest --skill web-data/search,web-data/scrape,web-data/data-feeds,web-data/bright-data-mcp,web-data/bright-data-best-practices,development/brightdata-local-search --mcp web-data/brightdata --yes",
   "language": "Python",
   "license": "MIT",
-  "stars": 29994,
-  "forks": 3278,
-  "openIssues": 215,
-  "score": 137.5,
+  "stars": 30441,
+  "forks": 3445,
+  "openIssues": 238,
+  "score": 137.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T14:10:46Z",
-  "updatedAt": "2026-07-30T02:35:46Z",
+  "pushedAt": "2026-08-29T03:10:37Z",
+  "updatedAt": "2026-08-29T12:12:27Z",
   "createdAt": "2025-07-04T01:26:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-code-templates：命令行工具用于配置和监控 Claude Code。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "命令行工具用于配置和监控 Claude Code",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "dfb001b5939e08cc",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d918cbf275790c3a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-templates：claude-code-templates：命令行工具用于配置和监控 Claude Code。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-templates：命令行工具用于配置和监控 Claude Code。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-templates 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

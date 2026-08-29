@@ -1,5 +1,5 @@
 {
-  "rank": 1224,
+  "rank": 1583,
   "id": 781422111,
   "name": "AI-Gateway",
   "fullName": "Azure-Samples/AI-Gateway",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Azure-Samples/AI-Gateway",
   "homepage": "https://aka.ms/ai-gateway/labs",
   "description": "Labs to explore AI Models, MCP servers, and Agents with the AI Gateway powered by Azure API Management and Microsoft Foundry 🚀",
-  "summary": "AI-Gateway：AI-Gateway：探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "AI-Gateway：探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Azure-Samples/AI-Gateway.git",
   "language": "Jupyter Notebook",
   "license": "MIT",
-  "stars": 963,
-  "forks": 492,
-  "openIssues": 76,
-  "score": 101.7,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:05:58Z",
-  "updatedAt": "2026-07-29T14:16:34Z",
+  "stars": 980,
+  "forks": 501,
+  "openIssues": 77,
+  "score": 94.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-07T10:31:34Z",
+  "updatedAt": "2026-08-28T11:15:42Z",
   "createdAt": "2024-04-03T10:56:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI-Gateway：探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "60ae3979f2edf05a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "15877ceb70d88858",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-Gateway：AI-Gateway：探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "AI-Gateway：探索 AI 模型、MCP 服务器和代理的实验室，由 Azure API Management 和 Microsoft Foundry 驱动的 AI 网关提供。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "AI-Gateway 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

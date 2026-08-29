@@ -1,5 +1,5 @@
 {
-  "rank": 220,
+  "rank": 362,
   "id": 913030762,
   "name": "pentagi",
   "fullName": "vxcontrol/pentagi",
@@ -8,7 +8,7 @@
   "url": "https://github.com/vxcontrol/pentagi",
   "homepage": "https://pentagi.com",
   "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-  "summary": "pentagi：pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。适合在 Gemini CLI、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx swagger-typescript-api \\\n-p https://your-pentagi-instance:8443/api/v1/swagger/doc.json \\\n-o ./src/api \\",
   "language": "Go",
   "license": "MIT",
-  "stars": 21355,
-  "forks": 2795,
-  "openIssues": 46,
-  "score": 133.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T21:14:34Z",
-  "updatedAt": "2026-07-30T03:31:50Z",
+  "stars": 22157,
+  "forks": 2948,
+  "openIssues": 51,
+  "score": 127.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-06T11:10:55Z",
+  "updatedAt": "2026-08-29T12:37:31Z",
   "createdAt": "2025-01-06T22:22:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,8 @@
     "self-hosted"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "完全自主的 AI 代理系统，可执行复杂渗透测试任务",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5b5b324e5643fc8f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "06cc9b6d18c8b618",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pentagi：pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "pentagi：完全自主的 AI 代理系统，可执行复杂渗透测试任务。适合在 Gemini CLI、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "pentagi 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -111,7 +112,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

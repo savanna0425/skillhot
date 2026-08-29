@@ -1,5 +1,5 @@
 {
-  "rank": 1664,
+  "rank": 1731,
   "id": 1141720197,
   "name": "sandbox-agent",
   "fullName": "rivet-dev/sandbox-agent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/rivet-dev/sandbox-agent",
   "homepage": "https://sandboxagent.dev",
   "description": "Run Coding Agents in Sandboxes. Control Them Over HTTP. Supports Claude Code, Codex, OpenCode, and Amp.",
-  "summary": "sandbox-agent：sandbox-agent：在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "sandbox-agent：在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/rivet-dev/sandbox-agent.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 1509,
-  "forks": 117,
-  "openIssues": 79,
-  "score": 91.4,
+  "stars": 1551,
+  "forks": 125,
+  "openIssues": 82,
+  "score": 91.6,
   "activity": "近期活跃",
   "pushedAt": "2026-06-19T06:05:41Z",
-  "updatedAt": "2026-07-29T21:19:47Z",
+  "updatedAt": "2026-08-28T12:07:21Z",
   "createdAt": "2026-01-25T10:03:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "sandbox-agent：在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "summary": "在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "bbc12f6dd832900c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ee7fe1478f0abba8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "sandbox-agent：sandbox-agent：在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "sandbox-agent：在沙箱中运行代码代理。通过 HTTP 控制它们。支持 Claude Code、Codex、OpenCode 和 Amp。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "sandbox-agent 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

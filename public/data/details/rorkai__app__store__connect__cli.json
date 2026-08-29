@@ -1,5 +1,5 @@
 {
-  "rank": 544,
+  "rank": 521,
   "id": 1138200460,
   "name": "App-Store-Connect-CLI",
   "fullName": "rorkai/App-Store-Connect-CLI",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/181492441?v=4",
   "url": "https://github.com/rorkai/App-Store-Connect-CLI",
   "homepage": "https://asccli.sh",
-  "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-  "summary": "App-Store-Connect-CLI：App-Store-Connect-CLI：适用于 App Store Connect API 的快速、可脚本化的命令行工具。自动化测试飞行、构建、提交、签名、分析、截图、订阅等功能。JSON 优先，无需交互提示。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more",
+  "summary": "App-Store-Connect-CLI：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add rorkai/app-store-connect-cli-skills --global --agent codex",
+  "installCommand": "brew install asc\ncurl -fsSL https://asccli.sh/install | bash",
   "language": "Go",
   "license": "MIT",
-  "stars": 5341,
-  "forks": 468,
-  "openIssues": 10,
-  "score": 119.5,
+  "stars": 6314,
+  "forks": 547,
+  "openIssues": 0,
+  "score": 121.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T13:50:03Z",
-  "updatedAt": "2026-07-30T01:56:22Z",
+  "pushedAt": "2026-08-29T09:50:54Z",
+  "updatedAt": "2026-08-29T10:58:01Z",
   "createdAt": "2026-01-20T11:17:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,9 +52,9 @@
     "xcode"
   ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
-  "skillCount": 1,
+  "skillCount": 23,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/rorkai/App-Store-Connect-CLI",
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "App-Store-Connect-CLI：适用于 App Store Connect API 的快速、可脚本化的命令行工具。自动化测试飞行、构建、提交、签名、分析、截图、订阅等功能。JSON 优先，无需交互提示。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "App-Store-Connect-CLI：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "022d062ba4bc93c8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "021325bd6860d41c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "App-Store-Connect-CLI：App-Store-Connect-CLI：适用于 App Store Connect API 的快速、可脚本化的命令行工具。自动化测试飞行、构建、提交、签名、分析、截图、订阅等功能。JSON 优先，无需交互提示。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "App-Store-Connect-CLI：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "App-Store-Connect-CLI 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -108,7 +108,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -118,7 +118,7 @@
       "通常通过脚本、Notebook、CLI、数据库连接或 Skill 执行分析流程。",
       "用户提供数据源或问题，Agent 按步骤生成查询、处理和解读。",
       "关键结论仍要回到原始数据验证。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 23+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用公开或脱敏数据试跑。",

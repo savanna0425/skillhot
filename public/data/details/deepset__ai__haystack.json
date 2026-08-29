@@ -1,5 +1,5 @@
 {
-  "rank": 186,
+  "rank": 214,
   "id": 221654678,
   "name": "haystack",
   "fullName": "deepset-ai/haystack",
@@ -8,10 +8,10 @@
   "url": "https://github.com/deepset-ai/haystack",
   "homepage": "https://haystack.deepset.ai",
   "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
-  "summary": "haystack：haystack：haystack 提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "haystack：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
@@ -22,42 +22,42 @@
   "installCommand": "pip install haystack-ai",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 26059,
-  "forks": 2961,
-  "openIssues": 110,
-  "score": 136,
+  "stars": 26354,
+  "forks": 3049,
+  "openIssues": 113,
+  "score": 136.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:05:58Z",
-  "updatedAt": "2026-07-30T03:31:47Z",
+  "pushedAt": "2026-08-29T06:46:04Z",
+  "updatedAt": "2026-08-29T06:06:27Z",
   "createdAt": "2019-11-14T09:05:28Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
+    "agent-framework",
+    "agentic-ai",
+    "agentic-rag",
     "agents",
     "ai",
-    "gemini",
+    "ai-agents",
+    "context-engineering",
+    "framework",
+    "genai",
     "generative-ai",
-    "gpt-4",
     "information-retrieval",
     "large-language-models",
     "llm",
-    "machine-learning",
-    "nlp",
+    "mcp",
+    "multi-agent",
     "orchestration",
     "python",
-    "pytorch",
-    "question-answering",
     "rag",
     "retrieval-augmented-generation",
-    "semantic-search",
-    "summarization",
-    "transformers"
+    "semantic-search"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "haystack：haystack 提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "haystack 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -89,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d053f347c4b846b3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0ddf301e1125f779",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "haystack：haystack：haystack 提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "haystack：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "haystack 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -113,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

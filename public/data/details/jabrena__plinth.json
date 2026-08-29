@@ -1,5 +1,5 @@
 {
-  "rank": 627,
+  "rank": 652,
   "id": 929599382,
   "name": "plinth",
   "fullName": "jabrena/plinth",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jabrena/plinth",
   "homepage": "https://jabrena.github.io/plinth/",
   "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.",
-  "summary": "plinth：plinth：plinth 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "plinth：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add jabrena/plinth --skill '*' --agent cursor -y\nnpx skills add jabrena/plinth --skill '*' --agent claude-code -y\nnpx skills add jabrena/plinth --skill '*' --agent codex -y",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 423,
-  "forks": 89,
-  "openIssues": 17,
-  "score": 117.3,
+  "stars": 434,
+  "forks": 90,
+  "openIssues": 28,
+  "score": 117.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T20:43:42Z",
-  "updatedAt": "2026-07-29T20:43:50Z",
+  "pushedAt": "2026-08-28T19:58:38Z",
+  "updatedAt": "2026-08-28T19:39:54Z",
   "createdAt": "2025-02-08T23:14:36Z",
   "sourceTopics": [
     "ai-skills",
@@ -77,7 +77,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "plinth：plinth 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "plinth 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -96,13 +96,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "250fe337e902188d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1b0084c739281105",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "plinth：plinth：plinth 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "plinth：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "plinth 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

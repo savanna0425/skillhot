@@ -1,14 +1,14 @@
 {
-  "rank": 1838,
+  "rank": 2010,
   "id": 856321284,
   "name": "conventional-branch",
   "fullName": "conventional-branch/conventional-branch",
   "owner": "conventional-branch",
   "avatarUrl": "https://avatars.githubusercontent.com/u/179835931?v=4",
   "url": "https://github.com/conventional-branch/conventional-branch",
-  "homepage": "http://conventionalbranch.org",
-  "description": "The Conventional Branch Specification",
-  "summary": "conventional-branch：conventional-branch：conventional-branch：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "homepage": "https://conventionalbranch.org",
+  "description": "A specification for Git branch names — <type>/<description>, human-readable and machine-parseable. Ships a machine-readable spec, JSON Schema, and conformance fixtures.",
+  "summary": "conventional-branch：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -20,31 +20,36 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/conventional-branch/conventional-branch.git",
-  "language": "SCSS",
-  "license": "NOASSERTION",
-  "stars": 117,
-  "forks": 6,
+  "language": "Python",
+  "license": "CC-BY-4.0",
+  "stars": 124,
+  "forks": 7,
   "openIssues": 2,
-  "score": 84.5,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-27T06:12:10Z",
-  "updatedAt": "2026-07-27T06:12:33Z",
+  "score": 78.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-17T19:35:04Z",
+  "updatedAt": "2026-08-23T08:40:05Z",
   "createdAt": "2024-09-12T11:37:14Z",
   "sourceTopics": [
-    "ai-skill"
+    "ai-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skill",
+    "ai-skills",
     "branch-naming",
     "branch-naming-conventions",
+    "branch-protection",
     "commit-check",
     "conventional-branch",
     "conventional-commits",
     "conventionalbranch",
-    "skill"
+    "git",
+    "git-branch",
+    "json-schema",
+    "naming-convention",
+    "specification"
   ],
   "platforms": [
     "Agent Skills"
@@ -60,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "conventional-branch：conventional-branch：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "conventional-branch：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -76,16 +81,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2b66411efbeeae21",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0625e1aae3844046",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "conventional-branch：conventional-branch：conventional-branch：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "conventional-branch：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "conventional-branch 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -126,7 +131,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 CC-BY-4.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

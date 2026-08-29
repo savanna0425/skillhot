@@ -6,9 +6,9 @@
   "owner": "OthmanAdi",
   "avatarUrl": "https://avatars.githubusercontent.com/u/78882424?v=4",
   "url": "https://github.com/OthmanAdi/planning-with-files",
-  "homepage": "",
-  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Claude Code, Codex, Cursor, Kiro, OpenCode and 60+ agents via the Agent Skills standard.",
-  "summary": "planning-with-files：planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "homepage": "https://www.skills.sh/othmanadi/planning-with-files/planning-with-files",
+  "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+  "summary": "planning-with-files 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "多人或多 Agent 协作"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "Under a minute. Safe to re-run. Trigger it by typing `/plan` (plugin) or asking the agent to \"plan this task\"; the skill also self-triggers on multi-step tasks.\nWhat each route actually ships:\n| Route | Skill + scripts + templates | Slash commands | Hooks |",
-  "language": "Python",
+  "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 25840,
-  "forks": 2165,
-  "openIssues": 7,
-  "score": 159.9,
+  "stars": 26412,
+  "forks": 2208,
+  "openIssues": 8,
+  "score": 160.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T18:18:21Z",
-  "updatedAt": "2026-07-30T03:07:03Z",
+  "pushedAt": "2026-08-29T09:54:07Z",
+  "updatedAt": "2026-08-29T09:55:00Z",
   "createdAt": "2026-01-03T07:37:28Z",
   "sourceTopics": [
     "agent-skills",
@@ -71,7 +71,7 @@
     "OpenCode"
   ],
   "skillCount": 13,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/OthmanAdi/planning-with-files",
     "videoUrl": ""
@@ -81,18 +81,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "用持久化文件计划承接长任务，抵抗上下文丢失",
     "useCases": [
       "长周期任务",
       "上下文恢复",
       "多人或多 Agent 协作"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -100,14 +100,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ac6d835312e3efa3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "cf95c7d67447bb01",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "planning-with-files：planning-with-files：用持久化文件计划承接长任务，抵抗上下文丢失。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "planning-with-files 可以先理解为一个「办公与个人效率工具」。它围绕「长周期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "planning-with-files 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "planning-with-files 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",

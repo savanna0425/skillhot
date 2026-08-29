@@ -1,5 +1,5 @@
 {
-  "rank": 74,
+  "rank": 82,
   "id": 649170660,
   "name": "anything-llm",
   "fullName": "Mintplex-Labs/anything-llm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Mintplex-Labs/anything-llm",
   "homepage": "https://anythingllm.com",
   "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-  "summary": "anything-llm：anything-llm：停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "anything-llm：停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Mintplex-Labs/anything-llm.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 64086,
-  "forks": 7029,
-  "openIssues": 315,
-  "score": 145.4,
+  "stars": 65355,
+  "forks": 7211,
+  "openIssues": 328,
+  "score": 145.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T01:10:25Z",
-  "updatedAt": "2026-07-30T03:24:20Z",
+  "pushedAt": "2026-08-29T00:54:15Z",
+  "updatedAt": "2026-08-29T10:35:37Z",
   "createdAt": "2023-06-04T02:29:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "anything-llm：停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5c6f1785ed1a616d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a426f3d57cfe3d89",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anything-llm：anything-llm：停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "anything-llm：停止租赁您的智能。用 AnythingLLM 拥有它。您需要的所有功能，用于强大的本地首选项式代理体验。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "anything-llm 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

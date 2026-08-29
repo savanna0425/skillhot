@@ -1,5 +1,5 @@
 {
-  "rank": 819,
+  "rank": 1119,
   "id": 1127191351,
   "name": "interview-guide",
   "fullName": "Snailclimb/interview-guide",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/29880145?v=4",
   "url": "https://github.com/Snailclimb/interview-guide",
   "homepage": "https://javaguide.cn/zhuanlan/interview-guide.html",
-  "description": "基于 Spring Boot 4.1 + Java 21 + Spring AI 2.0 + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合作为学习和简历项目，学习门槛低。",
-  "summary": "interview-guide：interview-guide：基于 Spring Boot 4.1 + Java 21 + Spring AI 2.0 + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面试平台，支持简历智能分析、模拟面试、语音面试和知识库 RAG。",
+  "summary": "interview-guide：基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面试平台，支持简历智能分析、模拟面试、语音面试和知识库 R。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "环境要求：\n| 依赖          | 版本 | 必需 | 说明                                     |\n| ------------- | ---- | ---- | ---------------------------------------- |",
+  "installCommand": "git clone https://github.com/Snailclimb/interview-guide.git",
   "language": "Java",
   "license": "AGPL-3.0",
-  "stars": 2883,
-  "forks": 654,
-  "openIssues": 10,
-  "score": 113.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-27T04:01:33Z",
-  "updatedAt": "2026-07-30T03:27:16Z",
+  "stars": 3121,
+  "forks": 704,
+  "openIssues": 2,
+  "score": 106.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-14T10:38:10Z",
+  "updatedAt": "2026-08-29T12:34:57Z",
   "createdAt": "2026-01-03T11:25:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "interview-guide：基于 Spring Boot 4.1 + Java 21 + Spring AI 2.0 + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面试平台，支持简历智能分析、模拟面试、语音面试和知识库 R",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -83,14 +83,14 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a7dcc64abb6af476",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a4122794be88d02b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "interview-guide：interview-guide：基于 Spring Boot 4.1 + Java 21 + Spring AI 2.0 + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "interview-guide 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：基于 Spring Boot 4.1 + Java 21 + Spring AI 2.0 + PostgreSQL + pgvector + RustFS + Redis，实现简历智能分析、AI模拟面试、知识库RAG检索等核心功能。非常适合作为学习和简历项目，学习门槛低。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "interview-guide：基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面试平台，支持简历智能分析、模拟面试、语音面试和知识库 R。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "interview-guide 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",

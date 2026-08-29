@@ -1,5 +1,5 @@
 {
-  "rank": 236,
+  "rank": 103,
   "id": 1203558071,
   "name": "TencentDB-Agent-Memory",
   "fullName": "TencentCloud/TencentDB-Agent-Memory",
@@ -8,7 +8,7 @@
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "homepage": "",
   "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-  "summary": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "TencentDB-Agent-Memory：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "The script checks `node`, `npm`, Python, and Hermes, requires Node.js\n`>=22.16.0`, runs `npm install --omit=dev` when Gateway dependencies are\nmissing, creates `%USERPROFILE%\\.memory-tencentdb\\memory-tdai`, copies the",
+  "installCommand": "git clone https://github.com/Tencent/TencentDB-Agent-Memory.git\ncd TencentDB-Agent-Memory/deploy/global-images\ncp .env.example .env",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 9368,
-  "forks": 900,
-  "openIssues": 386,
-  "score": 133.3,
+  "stars": 25115,
+  "forks": 2336,
+  "openIssues": 741,
+  "score": 143.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T15:59:52Z",
-  "updatedAt": "2026-07-30T03:22:32Z",
+  "pushedAt": "2026-08-27T06:49:32Z",
+  "updatedAt": "2026-08-29T12:49:04Z",
   "createdAt": "2026-04-07T06:34:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,6 +46,8 @@
     "vector-search"
   ],
   "platforms": [
+    "Claude",
+    "Codex",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -59,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -78,13 +80,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f3215e82c52d3401",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "8b077df616f41b2e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "TencentDB-Agent-Memory：TencentDB-Agent-Memory：TencentDB-Agent-Memory 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "TencentDB-Agent-Memory：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "TencentDB-Agent-Memory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -102,7 +104,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

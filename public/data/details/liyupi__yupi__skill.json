@@ -1,5 +1,5 @@
 {
-  "rank": 1884,
+  "rank": 1946,
   "id": 1205759917,
   "name": "yupi-skill",
   "fullName": "liyupi/yupi-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/liyupi/yupi-skill",
   "homepage": "https://www.codefather.cn",
   "description": "🐟 程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
-  "summary": "yupi-skill：yupi-skill：程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "yupi-skill：程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/liyupi/yupi-skill.git",
   "language": "",
   "license": "MIT",
-  "stars": 399,
-  "forks": 55,
+  "stars": 418,
+  "forks": 57,
   "openIssues": 3,
-  "score": 81.7,
+  "score": 82.2,
   "activity": "活跃",
   "pushedAt": "2026-04-09T10:00:15Z",
-  "updatedAt": "2026-07-29T14:13:12Z",
+  "updatedAt": "2026-08-29T11:40:49Z",
   "createdAt": "2026-04-09T08:54:00Z",
   "sourceTopics": [
     "skill"
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "yupi-skill：程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,14 +89,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f5fcdc6e2f47e960",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ee9c77b9f62220d2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "yupi-skill：yupi-skill：程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "yupi-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：🐟 程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "yupi-skill：程序员鱼皮 Agent Skill｜把自己蒸馏成 AI 技能包，用我的思维方式和表达风格回答编程学习、求职面试、AI 编程、简历优化、技术选型、创业经验等问题。支持 Claude Code / Cursor / OpenClaw。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "yupi-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

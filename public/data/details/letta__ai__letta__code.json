@@ -1,5 +1,5 @@
 {
-  "rank": 813,
+  "rank": 819,
   "id": 1082960574,
   "name": "letta-code",
   "fullName": "letta-ai/letta-code",
@@ -8,7 +8,7 @@
   "url": "https://github.com/letta-ai/letta-code",
   "homepage": "https://www.letta.com/agent",
   "description": "Stateful agents that are like people, with memory, identity, and the ability to learn and adapt",
-  "summary": "letta-code：letta-code：具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "letta-code：具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @letta-ai/letta-code",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 2927,
-  "forks": 340,
-  "openIssues": 165,
-  "score": 113.2,
+  "stars": 3146,
+  "forks": 380,
+  "openIssues": 266,
+  "score": 114,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:59:21Z",
-  "updatedAt": "2026-07-30T01:46:17Z",
+  "pushedAt": "2026-08-29T09:27:13Z",
+  "updatedAt": "2026-08-29T12:11:09Z",
   "createdAt": "2025-10-25T04:17:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "letta-code：具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -80,13 +80,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "1596fdc1a9c8890d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4f2fe74e85bf5e5f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "letta-code：letta-code：具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "letta-code：具备人类特质、拥有记忆、身份，并能学习与适应的有状态智能体。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "letta-code 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

@@ -1,5 +1,5 @@
 {
-  "rank": 87,
+  "rank": 170,
   "id": 1134543109,
   "name": "skills",
   "fullName": "vercel-labs/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/vercel-labs/skills",
   "homepage": "https://skills.sh",
   "description": "The open agent skills tool - npx skills",
-  "summary": "skills：skills：开源的 Agent 技能工具 - npx skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills：开源的 Agent 技能工具 - npx skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add vercel-labs/agent-skills",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 27570,
-  "forks": 2322,
-  "openIssues": 951,
-  "score": 144.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:04:51Z",
-  "updatedAt": "2026-07-30T03:29:21Z",
+  "stars": 29932,
+  "forks": 2559,
+  "openIssues": 1150,
+  "score": 138.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-18T20:28:34Z",
+  "updatedAt": "2026-08-29T12:42:47Z",
   "createdAt": "2026-01-14T21:31:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,8 +41,8 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "GitHub Copilot",
-    "OpenClaw"
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：开源的 Agent 技能工具 - npx skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "开源的 Agent 技能工具 - npx skills",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7dd55c1ae0578ffd",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "52b99f02c4664661",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：开源的 Agent 技能工具 - npx skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills：开源的 Agent 技能工具 - npx skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

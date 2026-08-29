@@ -1,5 +1,5 @@
 {
-  "rank": 499,
+  "rank": 327,
   "id": 824541776,
   "name": "Yuxi",
   "fullName": "xerrors/Yuxi",
@@ -7,42 +7,53 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/35524243?v=4",
   "url": "https://github.com/xerrors/Yuxi",
   "homepage": "https://xerrors.github.io/Yuxi/",
-  "description": "结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
-  "summary": "Yuxi：Yuxi：结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "办公效率",
-  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "description": "可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.",
+  "summary": "Yuxi：可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "文档与表格",
-    "邮件与日历",
-    "个人生产力"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --branch v0.7.1 --depth 1 https://github.com/xerrors/Yuxi.git\ncd Yuxi\n./scripts/init.sh",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone --branch v0.7.2.beta2 --depth 1 https://github.com/xerrors/Yuxi.git\ncd Yuxi\n./scripts/init.sh",
   "language": "Python",
   "license": "MIT",
-  "stars": 6316,
-  "forks": 935,
-  "openIssues": 74,
-  "score": 121.2,
+  "stars": 6582,
+  "forks": 981,
+  "openIssues": 80,
+  "score": 129.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T14:25:16Z",
-  "updatedAt": "2026-07-30T03:13:25Z",
+  "pushedAt": "2026-08-28T04:00:23Z",
+  "updatedAt": "2026-08-29T07:27:59Z",
   "createdAt": "2024-07-05T10:57:35Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agentic-rag",
+    "ai-agents",
+    "deepagents",
     "docker",
+    "document-ai",
     "fastapi",
     "harness",
     "kbqa",
     "kgqa",
+    "knowledge-base",
+    "knowledge-graph",
+    "langgraph",
     "llms",
+    "mcp",
+    "milvus",
+    "multi-agent",
     "neo4j",
     "rag",
+    "self-hosted",
     "vue"
   ],
   "platforms": [
@@ -52,77 +63,77 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/xerrors/Yuxi",
-    "videoUrl": "https://www.bilibili.com/video/BV1erE26iEgv/?share_source=copy_web&vd_source=37b0bdbf95b72ea38b2dc959cfadc4d8"
+    "videoUrl": "https://www.bilibili.com/video/BV1erE26iEgv/"
   },
   "readmeUrl": "https://github.com/xerrors/Yuxi#readme",
   "detailPath": "data/details/xerrors__yuxi.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Yuxi：结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and ",
     "useCases": [
-      "文档与表格",
-      "邮件与日历",
-      "个人生产力"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "34d61ee6e24e61f4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a236daaeb3137313",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Yuxi：Yuxi：结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Yuxi 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Yuxi：可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Yuxi 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
-      "不同办公工具之间的信息流转需要手动复制、整理和检查。",
-      "用户想把个人工作流交给 Agent 承接，但缺少现成入口。",
-      "如果你的任务和「文档与表格」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助处理文档、表格、邮件、笔记、PDF 或日程相关任务。",
-      "把常见办公流程封装成更容易调用的 Agent 能力。",
-      "帮助你判断它是否能接入自己的日常工具链。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理文档、知识库、邮件或会议资料的人。",
-      "希望用 Agent 降低重复办公成本的个人或团队。",
-      "需要把资料整理流程标准化的人。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要严格企业级权限审计但尚未核对安全边界的场景。",
-      "只想找传统办公软件替代品、不打算使用 Agent 的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
-      "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
-      "涉及个人数据时，需要自己确认权限和隐私设置。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你正在用的办公平台。",
-      "用不敏感的测试文档或样例数据试跑。",
-      "再决定是否接入真实邮箱、日历、文档或知识库。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "重复整理工作减少。",
-      "资料查找、生成和同步更快。",
-      "个人工作流更容易被 Agent 接住。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

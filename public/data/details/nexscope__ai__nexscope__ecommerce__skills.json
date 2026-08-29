@@ -1,63 +1,72 @@
 {
-  "rank": 2032,
+  "rank": 1635,
   "id": 1279940806,
   "name": "nexscope-ecommerce-skills",
   "fullName": "nexscope-ai/nexscope-ecommerce-skills",
   "owner": "nexscope-ai",
   "avatarUrl": "https://avatars.githubusercontent.com/u/265748764?v=4",
   "url": "https://github.com/nexscope-ai/nexscope-ecommerce-skills",
-  "homepage": "",
-  "description": "Ready-to-use AI agent skills for e-commerce intelligence. Product research, keyword optimization, competitor analysis, pricing monitoring, patent risk assessment, market trends, and platform-specific tools for Amazon, TikTok Shop, Shopify, Temu and more.",
-  "summary": "nexscope-ecommerce-skills：nexscope-ecommerce-skills：nexscope-ecommerce-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "办公效率",
-  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "homepage": "https://www.nexscope.ai/help/skills-external-access?co-from=githubNS",
+  "description": "117 portable ecommerce skills for marketplace research, product discovery, keyword analysis, trends, sourcing, patent screening, multimodal tasks, and GEO workflows.",
+  "summary": "nexscope-ecommerce-skills 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "category": "技能合集",
+  "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
+  "categoryConfidence": "高",
+  "categoryReason": "名称或作者描述明确说明是目录/合集",
   "scenarios": [
-    "文档与表格",
-    "邮件与日历",
-    "个人生产力"
+    "发现新技能",
+    "按领域选型",
+    "构建个人技能库"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "git clone https://github.com/nexscope-ai/nexscope-ecommerce-skills.git",
   "language": "Python",
   "license": "",
-  "stars": 30,
-  "forks": 1,
+  "stars": 58,
+  "forks": 8,
   "openIssues": 0,
-  "score": 73.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-08T03:10:13Z",
-  "updatedAt": "2026-07-29T05:55:20Z",
+  "score": 94,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T08:47:46Z",
+  "updatedAt": "2026-08-28T16:34:52Z",
   "createdAt": "2026-06-25T06:17:16Z",
   "sourceTopics": [
-    "ai-agent-skills"
+    "ai-agent-skills",
+    "codex-skills",
+    "openclaw-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agent",
+    "1688",
+    "agent-skills",
     "ai-agent-skills",
     "amazon",
+    "amazon-seller",
+    "claude-skills",
+    "codex-skills",
     "competitor-analysis",
     "ecommerce",
+    "ecommerce-skills",
+    "geo",
     "keyword-research",
     "market-intelligence",
+    "openclaw-skills",
     "patent-analysis",
-    "pricing-monitoring",
     "product-research",
     "shopify",
-    "skills",
+    "skills-sh",
     "temu",
-    "tiktok-shop-automation"
+    "tiktok-shop"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/nexscope-ai/nexscope-ecommerce-skills",
     "videoUrl": ""
@@ -67,70 +76,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nexscope-ecommerce-skills：nexscope-ecommerce-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "nexscope-ecommerce-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
-      "文档与表格",
-      "邮件与日历",
-      "个人生产力"
+      "发现新技能",
+      "按领域选型",
+      "构建个人技能库"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "94730af9bccfa3e5",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "72dc5740254b4eef",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nexscope-ecommerce-skills：nexscope-ecommerce-skills：nexscope-ecommerce-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "nexscope-ecommerce-skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "nexscope-ecommerce-skills 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "nexscope-ecommerce-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
-      "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
-      "不同办公工具之间的信息流转需要手动复制、整理和检查。",
-      "用户想把个人工作流交给 Agent 承接，但缺少现成入口。",
-      "如果你的任务和「文档与表格」有关，它能帮你先建立一个可试用的入口。"
+      "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
+      "用户不知道哪些技能值得先看。",
+      "团队需要一个集中入口来对比不同资源。",
+      "如果你的任务和「发现新技能」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助处理文档、表格、邮件、笔记、PDF 或日程相关任务。",
-      "把常见办公流程封装成更容易调用的 Agent 能力。",
-      "帮助你判断它是否能接入自己的日常工具链。",
+      "集中整理 Skills、插件、示例、教程或资源链接。",
+      "按领域、平台或用途帮助用户快速发现项目。",
+      "帮助你判断哪些条目值得继续打开 README。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理文档、知识库、邮件或会议资料的人。",
-      "希望用 Agent 降低重复办公成本的个人或团队。",
-      "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
+      "想快速了解某个生态有哪些资源的人。",
+      "需要给团队建立候选清单的人。",
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要严格企业级权限审计但尚未核对安全边界的场景。",
-      "只想找传统办公软件替代品、不打算使用 Agent 的人。"
+      "想要一个单一成品工具、马上解决具体业务问题的人。",
+      "不愿逐项筛选和阅读 README 的人。"
     ],
     "howItWorks": [
-      "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
-      "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
-      "涉及个人数据时，需要自己确认权限和隐私设置。",
+      "通常以 README、目录结构或清单形式维护资源。",
+      "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
+      "质量取决于维护者更新频率和收录标准。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你正在用的办公平台。",
-      "用不敏感的测试文档或样例数据试跑。",
-      "再决定是否接入真实邮箱、日历、文档或知识库。"
+      "先看目录是否按平台、领域或用途分类。",
+      "优先打开更新较新、说明完整、Stars 和社区反馈较好的条目。",
+      "选出 2 到 3 个候选后再实际安装测试。"
     ],
     "expectedOutcome": [
-      "重复整理工作减少。",
-      "资料查找、生成和同步更快。",
-      "个人工作流更容易被 Agent 接住。"
+      "减少搜索同类项目的时间。",
+      "更快建立一个技能生态的整体地图。",
+      "选型时更容易横向比较。"
     ],
     "caveats": [
       "仓库未声明许可证，商用或二次分发前需要谨慎核对。",

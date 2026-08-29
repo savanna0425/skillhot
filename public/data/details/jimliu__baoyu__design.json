@@ -1,5 +1,5 @@
 {
-  "rank": 376,
+  "rank": 547,
   "id": 1261650101,
   "name": "baoyu-design",
   "fullName": "JimLiu/baoyu-design",
@@ -8,7 +8,7 @@
   "url": "https://github.com/JimLiu/baoyu-design",
   "homepage": "",
   "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
-  "summary": "baoyu-design：baoyu-design：运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "baoyu-design：运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add JimLiu/baoyu-design\nnpx skills add JimLiu/baoyu-design -g\nnpx skills add JimLiu/baoyu-design --agent claude-code",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2902,
-  "forks": 211,
-  "openIssues": 0,
-  "score": 125.1,
-  "activity": "本周活跃",
+  "stars": 3636,
+  "forks": 258,
+  "openIssues": 1,
+  "score": 120.5,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-30T01:41:39Z",
-  "updatedAt": "2026-07-30T03:24:59Z",
+  "updatedAt": "2026-08-29T12:22:00Z",
   "createdAt": "2026-06-07T01:16:18Z",
   "sourceTopics": [
     "agent-skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "baoyu-design：运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "edd4fbab58fdfbb8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e6fb378abc7469bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "baoyu-design：baoyu-design：运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "baoyu-design：运行 Claude 设计作为代理技能——Cursor、Claude Code 等。生成精心设计的 UI 原型、演示文稿和线框图，以独立 HTML 形式呈现，无需 claude.ai/design。最佳配合 Opus 4.8。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "baoyu-design 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

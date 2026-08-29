@@ -1,5 +1,5 @@
 {
-  "rank": 1235,
+  "rank": 1279,
   "id": 1149890022,
   "name": "SWE-AF",
   "fullName": "Agent-Field/SWE-AF",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Agent-Field/SWE-AF",
   "homepage": "https://agentfield.ai/",
   "description": "Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.",
-  "summary": "SWE-AF：SWE-AF：SWE-AF 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "SWE-AF：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Agent-Field/SWE-AF.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 956,
-  "forks": 159,
+  "stars": 987,
+  "forks": 169,
   "openIssues": 9,
-  "score": 101.6,
+  "score": 102,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T22:28:51Z",
-  "updatedAt": "2026-07-29T14:11:57Z",
+  "pushedAt": "2026-08-23T21:19:47Z",
+  "updatedAt": "2026-08-28T17:41:03Z",
   "createdAt": "2026-02-04T16:33:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,10 +49,9 @@
     "gemini-cli",
     "llm",
     "multi-agent",
-    "open-source",
     "openrouter",
-    "python",
-    "software-engineering"
+    "software-engineering",
+    "software-factory"
   ],
   "platforms": [
     "Claude",
@@ -70,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SWE-AF：SWE-AF 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "SWE-AF 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "19795b6de147d806",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2924d257ae0faa4f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SWE-AF：SWE-AF：SWE-AF 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "SWE-AF：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "SWE-AF 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

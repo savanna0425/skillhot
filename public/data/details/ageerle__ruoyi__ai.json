@@ -1,5 +1,5 @@
 {
-  "rank": 336,
+  "rank": 529,
   "id": 743825398,
   "name": "ruoyi-ai",
   "fullName": "ageerle/ruoyi-ai",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/32251822?v=4",
   "url": "https://github.com/ageerle/ruoyi-ai",
   "homepage": "https://doc.ruoyiai.chat",
-  "description": "面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。",
-  "summary": "ruoyi-ai：ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-  "category": "记忆与上下文",
-  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "description": "An enterprise AI development framework for building AI agents. It provides unified management of multi-provider LLMs, secure enterprise knowledge bases with high-precision retrieval, visual workflow orchestration and multi-agent coordination. Compatible with mainstream Agent Skill standards, it enables developers to efficiently build production-gra",
+  "summary": "ruoyi-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "长期任务",
-    "跨会话续接",
-    "上下文管理"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ageerle/ruoyi-ai.git\ncd ruoyi-ai\ndocker-compose -f docker-compose-all.yaml up -d",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone --depth 1 --branch v3.1.0 https://github.com/ageerle/ruoyi-ai.git\ncd ruoyi-ai\ncp docs/docker/ruoyi-ai/.env.example docs/docker/ruoyi-ai/.env",
   "language": "Java",
   "license": "MIT",
-  "stars": 5595,
-  "forks": 1375,
-  "openIssues": 1,
-  "score": 128,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T16:22:26Z",
-  "updatedAt": "2026-07-30T02:46:06Z",
+  "stars": 5672,
+  "forks": 1398,
+  "openIssues": 6,
+  "score": 121.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-16T12:58:53Z",
+  "updatedAt": "2026-08-29T03:46:12Z",
   "createdAt": "2024-01-16T04:16:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,70 +55,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "ruoyi-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
-      "长期任务",
-      "跨会话续接",
-      "上下文管理"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "edf1657a627ec79e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "41ae4cfcb8e5295d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ruoyi-ai：ruoyi-ai：面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。适合在 GitHub Copilot 相关工作流里先做选型判断。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "ruoyi-ai 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ruoyi-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "whatItIs": "ruoyi-ai 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "长任务容易丢上下文，Agent 记不住项目历史。",
-      "资料、代码和决策分散，下一次会话很难续接。",
-      "团队需要让 Agent 更可靠地检索旧信息。",
-      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
-      "帮助 Agent 在长任务中保留关键事实和决策。",
-      "帮助你判断它是否适合当前长期项目。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "长期使用 Agent 做项目的人。",
-      "需要跨会话续接、知识库检索或团队记忆的人。",
-      "代码库、文档库或资料库较大的团队。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只做一次性短任务、不需要保存上下文的人。",
-      "涉及敏感数据但没有权限隔离和清理方案的场景。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
-      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
-      "效果取决于数据质量、分块方式和权限管理。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用一个小项目或公开资料库测试。",
-      "确认数据存储位置、权限和删除方式。",
-      "再把长期项目资料逐步迁入。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "跨会话续接更顺。",
-      "Agent 更容易找回项目背景和历史决策。",
-      "长任务的上下文管理成本下降。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

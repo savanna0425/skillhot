@@ -1,5 +1,5 @@
 {
-  "rank": 60,
+  "rank": 62,
   "id": 1863329,
   "name": "laravel",
   "fullName": "laravel/laravel",
@@ -8,7 +8,7 @@
   "url": "https://github.com/laravel/laravel",
   "homepage": "https://laravel.com",
   "description": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
-  "summary": "laravel：laravel：Laravel 是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "laravel：是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/laravel/laravel.git",
   "language": "Blade",
   "license": "",
-  "stars": 84710,
-  "forks": 24823,
+  "stars": 84891,
+  "forks": 24889,
   "openIssues": 31,
   "score": 148.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T12:44:18Z",
-  "updatedAt": "2026-07-30T02:48:16Z",
+  "pushedAt": "2026-08-25T16:27:45Z",
+  "updatedAt": "2026-08-29T12:29:49Z",
   "createdAt": "2011-06-08T03:06:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "laravel：Laravel 是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "Laravel 是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -74,13 +74,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "9aab88b584e736c3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "b5c3089f2bab1ee9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "laravel：laravel：Laravel 是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "laravel：是一个语法直观、优雅的网站应用程序框架。我们已经为您奠定了坚实基础，让您无需为琐事烦恼，即可构建下一个伟大想法。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "laravel 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

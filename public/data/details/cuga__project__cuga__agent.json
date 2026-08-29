@@ -1,5 +1,5 @@
 {
-  "rank": 1326,
+  "rank": 1396,
   "id": 1054838518,
   "name": "cuga-agent",
   "fullName": "cuga-project/cuga-agent",
@@ -8,27 +8,27 @@
   "url": "https://github.com/cuga-project/cuga-agent",
   "homepage": "https://cuga.dev",
   "description": "CUGA is an open-source generalist agent harness for the enterprise, supporting complex task execution on web and APIs, OpenAPI/MCP integrations, composable architecture, reasoning modes, and policy-aware features.",
-  "summary": "cuga-agent：cuga-agent：cuga-agent 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "中",
-  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "summary": "cuga-agent：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/cuga-project/cuga-agent.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 864,
-  "forks": 144,
-  "openIssues": 157,
-  "score": 100.6,
+  "stars": 874,
+  "forks": 147,
+  "openIssues": 160,
+  "score": 100.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:40:48Z",
-  "updatedAt": "2026-07-28T13:55:10Z",
+  "pushedAt": "2026-08-28T21:24:20Z",
+  "updatedAt": "2026-08-28T06:51:57Z",
   "createdAt": "2025-09-11T11:58:55Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,70 +60,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cuga-agent：cuga-agent 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "cuga-agent 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c69a64054b27cbbc",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "fd005a5ca14aaec4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cuga-agent：cuga-agent：cuga-agent 用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "cuga-agent 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "cuga-agent：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "cuga-agent 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
-      "跨平台工作流缺少统一入口。",
-      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
-      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
-      "把重复任务封装成 Agent 可以触发的流程。",
-      "帮助你判断它是否适合当前自动化任务。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理重复网页操作、数据搬运或工具联动的人。",
-      "想让 Agent 执行半自动流程的开发者和运营人员。",
-      "需要把日常任务脚本化的小团队。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
-      "没有能力检查自动化结果和异常的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
-      "用户配置目标工具后，让 Agent 按流程操作。",
-      "稳定性取决于目标网站、权限和异常处理。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用测试账号或非关键任务验证。",
-      "确认它是否遵守目标平台规则。",
-      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "重复操作耗时减少。",
-      "跨工具流程更顺。",
-      "Agent 可以承担更多可控的执行型任务。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",

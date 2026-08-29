@@ -1,5 +1,5 @@
 {
-  "rank": 492,
+  "rank": 502,
   "id": 1118209243,
   "name": "summarize",
   "fullName": "steipete/summarize",
@@ -8,7 +8,7 @@
   "url": "https://github.com/steipete/summarize",
   "homepage": "https://summarize.sh",
   "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
-  "summary": "summarize：summarize：summarize：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "summarize：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx -y @steipete/summarize \"https://example.com\"",
+  "installCommand": "npx -y @steipete/summarize --version",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6496,
-  "forks": 438,
-  "openIssues": 1,
-  "score": 121.5,
+  "stars": 6585,
+  "forks": 442,
+  "openIssues": 6,
+  "score": 121.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T04:09:19Z",
-  "updatedAt": "2026-07-29T08:45:33Z",
+  "pushedAt": "2026-08-28T03:41:23Z",
+  "updatedAt": "2026-08-29T08:08:01Z",
   "createdAt": "2025-12-17T12:19:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -43,7 +43,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
     "OpenClaw"
@@ -52,14 +51,14 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/steipete/summarize",
-    "videoUrl": "https://youtu.be/dQw4w9WgXcQ"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/steipete/summarize#readme",
   "detailPath": "data/details/steipete__summarize.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "summarize：summarize：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "summarize：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -78,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d8f153d17210e798",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "03721e0f81230c98",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "summarize：summarize：summarize：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "summarize：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "summarize 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -102,7 +101,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

@@ -1,5 +1,5 @@
 {
-  "rank": 125,
+  "rank": 139,
   "id": 1132001614,
   "name": "agent-browser",
   "fullName": "vercel-labs/agent-browser",
@@ -8,7 +8,7 @@
   "url": "https://github.com/vercel-labs/agent-browser",
   "homepage": "https://agent-browser.dev",
   "description": "Browser automation CLI for AI agents",
-  "summary": "agent-browser：agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 39519,
-  "forks": 2579,
-  "openIssues": 620,
-  "score": 140.3,
+  "stars": 41529,
+  "forks": 2755,
+  "openIssues": 672,
+  "score": 140.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T06:17:07Z",
-  "updatedAt": "2026-07-30T03:22:14Z",
+  "pushedAt": "2026-08-26T23:52:15Z",
+  "updatedAt": "2026-08-29T12:44:31Z",
   "createdAt": "2026-01-11T05:38:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "浏览器自动化命令行工具，用于 AI 代理",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -69,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "99e4341e366644ae",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "fe63b2306304a2df",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-browser：agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "agent-browser：浏览器自动化命令行工具，用于 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "agent-browser 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

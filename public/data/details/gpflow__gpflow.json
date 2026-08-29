@@ -1,5 +1,5 @@
 {
-  "rank": 1575,
+  "rank": 1294,
   "id": 49643229,
   "name": "GPflow",
   "fullName": "GPflow/GPflow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/GPflow/GPflow",
   "homepage": "",
   "description": "Gaussian processes in TensorFlow",
-  "summary": "GPflow：GPflow：TensorFlow 中的高斯过程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "GPflow：TensorFlow 中的高斯过程。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/GPflow/GPflow.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1913,
-  "forks": 433,
-  "openIssues": 169,
-  "score": 93.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-16T15:04:27Z",
-  "updatedAt": "2026-07-29T07:00:48Z",
+  "stars": 1916,
+  "forks": 432,
+  "openIssues": 168,
+  "score": 101.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-10T09:43:42Z",
+  "updatedAt": "2026-08-11T08:43:26Z",
   "createdAt": "2016-01-14T11:29:24Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "GPflow：TensorFlow 中的高斯过程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "TensorFlow 中的高斯过程",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -80,13 +80,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f2a0cb25f7556544",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c50ecb0368ce92d0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GPflow：GPflow：TensorFlow 中的高斯过程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "GPflow：TensorFlow 中的高斯过程。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "GPflow 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

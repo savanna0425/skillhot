@@ -1,5 +1,5 @@
 {
-  "rank": 1920,
+  "rank": 2130,
   "id": 1173627851,
   "name": "aspm",
   "fullName": "arkylab/aspm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/arkylab/aspm",
   "homepage": "",
   "description": "A Git-based package manager designed for AI-assisted development, similar to npm but supporting skills, agents, commands, hooks, and any AI resource types.",
-  "summary": "aspm：aspm：aspm 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "aspm：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/arkylab/aspm.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 98,
-  "forks": 8,
-  "openIssues": 1,
-  "score": 79.8,
-  "activity": "近期活跃",
+  "stars": 82,
+  "forks": 5,
+  "openIssues": 0,
+  "score": 70.1,
+  "activity": "活跃",
   "pushedAt": "2026-05-02T05:10:37Z",
-  "updatedAt": "2026-07-29T09:22:19Z",
+  "updatedAt": "2026-08-15T23:47:09Z",
   "createdAt": "2026-03-05T15:21:23Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aspm：aspm 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "aspm 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2925b3d5c22e9e11",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2549b66c867294b4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aspm：aspm：aspm 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "aspm：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "aspm 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

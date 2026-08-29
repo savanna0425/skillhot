@@ -1,5 +1,5 @@
 {
-  "rank": 913,
+  "rank": 948,
   "id": 1219446293,
   "name": "clawsweeper",
   "fullName": "openclaw/clawsweeper",
@@ -8,7 +8,7 @@
   "url": "https://github.com/openclaw/clawsweeper",
   "homepage": "https://clawsweeper.bot",
   "description": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
-  "summary": "clawsweeper：clawsweeper：ClawSweeper 扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "clawsweeper：扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/openclaw/clawsweeper.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1949,
-  "forks": 285,
-  "openIssues": 9,
-  "score": 109,
+  "stars": 1969,
+  "forks": 297,
+  "openIssues": 30,
+  "score": 109.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:16:39Z",
-  "updatedAt": "2026-07-29T23:16:44Z",
+  "pushedAt": "2026-08-29T12:16:58Z",
+  "updatedAt": "2026-08-29T06:23:39Z",
   "createdAt": "2026-04-23T22:14:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "clawsweeper：ClawSweeper 扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "ClawSweeper 扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0a0dba0db7e72e61",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "640bea545813bea9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "clawsweeper：clawsweeper：ClawSweeper 扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "clawsweeper：扫描所有问题与 PR，并建议可关闭的问题及原因。该工具每周对每次 PR 或 Issue 执行一次扫描。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "clawsweeper 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

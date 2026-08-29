@@ -1,5 +1,5 @@
 {
-  "rank": 1363,
+  "rank": 1361,
   "id": 1232030145,
   "name": "wesight",
   "fullName": "freestylefly/wesight",
@@ -8,7 +8,7 @@
   "url": "https://github.com/freestylefly/wesight",
   "homepage": "https://wesight.ai",
   "description": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
-  "summary": "wesight：wesight：wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,24 +22,29 @@
   "installCommand": "git clone https://github.com/freestylefly/wesight.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 829,
-  "forks": 200,
-  "openIssues": 18,
-  "score": 100.2,
+  "stars": 904,
+  "forks": 206,
+  "openIssues": 11,
+  "score": 101.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T16:00:48Z",
-  "updatedAt": "2026-07-29T16:01:38Z",
+  "pushedAt": "2026-08-24T08:24:28Z",
+  "updatedAt": "2026-08-29T00:26:00Z",
   "createdAt": "2026-05-07T14:18:06Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "agent-workspace",
     "ai-agent",
+    "ai-agents",
     "claude-code",
     "codex",
+    "deepseek-harness",
     "desktop-app",
+    "dsh",
+    "dsh-plugin",
     "electron",
     "hermes-agent",
     "llm",
@@ -48,7 +53,8 @@
     "model-router",
     "openclaw",
     "react",
-    "typescript"
+    "typescript",
+    "vibe-coding"
   ],
   "platforms": [
     "Claude",
@@ -66,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "wesight：wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "wesight：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -85,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b3fcfac4ea85a611",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "502028f781e24491",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "wesight：wesight：wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "wesight：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "wesight 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

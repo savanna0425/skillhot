@@ -1,5 +1,5 @@
 {
-  "rank": 1093,
+  "rank": 1163,
   "id": 1122873619,
   "name": "cc-safety-net",
   "fullName": "kenryu42/cc-safety-net",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/61741059?v=4",
   "url": "https://github.com/kenryu42/cc-safety-net",
   "homepage": "https://ccsafetynet.com",
-  "description": "A coding agent CLI hook that acts as a safety net, catching destructive git and filesystem commands before they execute. Supports Codex, Claude Code, OpenCode, Gemini CLI, Copilot CLI, Kimi Code and Pi.",
-  "summary": "cc-safety-net：cc-safety-net：一个作为安全网的安全钩子，在 Git 和文件系统命令执行前拦截破坏性操作。支持 Codex、Claude Code、OpenCode、Gemini CLI、Copilot CLI、Kimi Code 和 Pi。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "An AI coding agent guardrail — a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
+  "summary": "cc-safety-net：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,34 +22,47 @@
   "installCommand": "git clone https://github.com/kenryu42/cc-safety-net.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1463,
-  "forks": 69,
-  "openIssues": 4,
-  "score": 106,
+  "stars": 1512,
+  "forks": 75,
+  "openIssues": 0,
+  "score": 106.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T07:15:31Z",
-  "updatedAt": "2026-07-28T17:41:05Z",
+  "pushedAt": "2026-08-29T10:36:14Z",
+  "updatedAt": "2026-08-29T10:37:40Z",
   "createdAt": "2025-12-25T17:52:57Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "ai-agents",
+    "ai-safety",
+    "antigravity",
     "claude",
     "claude-code",
     "claude-code-plugin",
+    "cli",
     "codex",
-    "destructive-commands",
-    "kimi-code",
+    "codex-cli",
+    "coding-agent",
+    "cursor",
+    "developer-tools",
+    "gemini-cli",
+    "guardrails",
+    "hermes-agent",
+    "hooks",
+    "openclaw",
+    "opencode",
     "pi-extension",
     "security"
   ],
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "OpenCode"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -62,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cc-safety-net：一个作为安全网的安全钩子，在 Git 和文件系统命令执行前拦截破坏性操作。支持 Codex、Claude Code、OpenCode、Gemini CLI、Copilot CLI、Kimi Code 和 Pi。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "cc-safety-net 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "20d18b8f90a7c851",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "424113a87df51dee",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cc-safety-net：cc-safety-net：一个作为安全网的安全钩子，在 Git 和文件系统命令执行前拦截破坏性操作。支持 Codex、Claude Code、OpenCode、Gemini CLI、Copilot CLI、Kimi Code 和 Pi。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "cc-safety-net：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "cc-safety-net 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -105,7 +118,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 173,
+  "rank": 190,
   "id": 1181982220,
   "name": "OpenCLI",
   "fullName": "jackwener/OpenCLI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jackwener/OpenCLI",
   "homepage": "https://opencli.info/",
   "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
-  "summary": "OpenCLI：OpenCLI：将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "OpenCLI：将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "node --version\nnpm install -g @jackwener/opencli",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 27409,
-  "forks": 2692,
-  "openIssues": 229,
-  "score": 136.5,
+  "stars": 28702,
+  "forks": 2817,
+  "openIssues": 240,
+  "score": 137,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T17:27:36Z",
-  "updatedAt": "2026-07-30T03:32:39Z",
+  "pushedAt": "2026-08-29T12:50:15Z",
+  "updatedAt": "2026-08-29T12:50:34Z",
   "createdAt": "2026-03-14T22:10:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenCLI：将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -80,13 +80,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "bcbd573f91ce864d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "43de947466a1d1b9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenCLI：OpenCLI：将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "OpenCLI：将任意网站转换为命令行界面，并使用 AI 代理调用已登录的浏览器。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "OpenCLI 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

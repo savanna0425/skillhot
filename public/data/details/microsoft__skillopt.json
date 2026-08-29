@@ -1,5 +1,5 @@
 {
-  "rank": 97,
+  "rank": 107,
   "id": 1232669890,
   "name": "SkillOpt",
   "fullName": "microsoft/SkillOpt",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/SkillOpt",
   "homepage": "https://aka.ms/skillopt",
   "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
-  "summary": "SkillOpt：SkillOpt：SkillOpt 是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "SkillOpt：是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install -e \".[webui]\"\npython -m skillopt_webui.app",
   "language": "Python",
   "license": "MIT",
-  "stars": 15317,
-  "forks": 1416,
-  "openIssues": 26,
-  "score": 142.5,
+  "stars": 16460,
+  "forks": 1547,
+  "openIssues": 35,
+  "score": 143.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T20:57:41Z",
-  "updatedAt": "2026-07-30T03:30:23Z",
+  "pushedAt": "2026-08-26T15:42:40Z",
+  "updatedAt": "2026-08-29T12:37:19Z",
   "createdAt": "2026-05-08T06:41:01Z",
   "sourceTopics": [
     "agent-skills"
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SkillOpt：SkillOpt 是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "SkillOpt 是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "769b4a4124f7aace",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5d444c1a77cbcb1a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SkillOpt：SkillOpt：SkillOpt 是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "SkillOpt：是一个文本空间优化器，通过轨迹驱动的编辑、验证门控更新以及可部署的最佳技能.md 工件，训练可复用的自然语言技能，以支持冻结的 LLM 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "SkillOpt 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

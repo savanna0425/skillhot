@@ -1,5 +1,5 @@
 {
-  "rank": 2027,
+  "rank": 2012,
   "id": 1184941838,
   "name": "forgecat-agent-profiles",
   "fullName": "nota-america/forgecat-agent-profiles",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/264240174?v=4",
   "url": "https://github.com/nota-america/forgecat-agent-profiles",
   "homepage": "https://forgecat.ai",
-  "description": "Production-ready AI agent profiles for Claude Code, Cursor, and Codex. Search, install, and contribute ForgeCat packages.",
-  "summary": "forgecat-agent-profiles：forgecat-agent-profiles：forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Production-ready AI agent profiles for Claude Code, Cursor, Codex, OpenClaw, and Hermes. Search, install, and contribute ForgeCat packages.",
+  "summary": "forgecat-agent-profiles：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nota-america/forgecat-agent-profiles.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 35,
+  "stars": 58,
   "forks": 3,
-  "openIssues": 9,
-  "score": 73.7,
+  "openIssues": 3,
+  "score": 78,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T23:23:03Z",
-  "updatedAt": "2026-07-29T17:52:43Z",
+  "pushedAt": "2026-08-29T05:32:34Z",
+  "updatedAt": "2026-08-29T05:33:11Z",
   "createdAt": "2026-03-18T04:39:13Z",
   "sourceTopics": [
     "codex-skills"
@@ -59,7 +59,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -72,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "forgecat-agent-profiles：forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +92,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "dfd57f10d507e4eb",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c2a58df33535adcb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "forgecat-agent-profiles：forgecat-agent-profiles：forgecat-agent-profiles 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "forgecat-agent-profiles：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "forgecat-agent-profiles 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

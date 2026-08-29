@@ -1,5 +1,5 @@
 {
-  "rank": 206,
+  "rank": 224,
   "id": 1140828898,
   "name": "knowledge-work-plugins",
   "fullName": "anthropics/knowledge-work-plugins",
@@ -8,7 +8,7 @@
   "url": "https://github.com/anthropics/knowledge-work-plugins",
   "homepage": "",
   "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-  "summary": "knowledge-work-plugins：knowledge-work-plugins：为 Claude Cowork 插件开源仓库，主要面向知识工作者使用。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "knowledge-work-plugins：为 Claude Cowork 插件开源仓库，主要面向知识工作者使用。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add anthropics/knowledge-work-plugins\nclaude plugin install sales@knowledge-work-plugins",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 23169,
-  "forks": 2782,
-  "openIssues": 63,
-  "score": 134.8,
+  "stars": 23731,
+  "forks": 2867,
+  "openIssues": 102,
+  "score": 135,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:10:54Z",
-  "updatedAt": "2026-07-30T03:30:44Z",
+  "pushedAt": "2026-08-29T07:28:04Z",
+  "updatedAt": "2026-08-29T12:36:49Z",
   "createdAt": "2026-01-23T20:11:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "knowledge-work-plugins：为 Claude Cowork 插件开源仓库，主要面向知识工作者使用。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "为 Claude Cowork 插件开源仓库，主要面向知识工作者使用",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4711abfad2de883b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5e27a79d05912546",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "knowledge-work-plugins：knowledge-work-plugins：为 Claude Cowork 插件开源仓库，主要面向知识工作者使用。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "knowledge-work-plugins：为 Claude Cowork 插件开源仓库，主要面向知识工作者使用。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "knowledge-work-plugins 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

@@ -1,5 +1,5 @@
 {
-  "rank": 909,
+  "rank": 1353,
   "id": 1167576951,
   "name": "OpenClaw-RL",
   "fullName": "Gen-Verse/OpenClaw-RL",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Gen-Verse/OpenClaw-RL",
   "homepage": "https://arxiv.org/abs/2603.10165",
   "description": "OpenClaw-RL: Train any agent simply by talking",
-  "summary": "OpenClaw-RL：OpenClaw-RL：OpenClaw-RL：只需开口，即可训练任何智能体。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "OpenClaw-RL：只需开口，即可训练任何智能体。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Gen-Verse/OpenClaw-RL.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 5615,
-  "forks": 608,
+  "stars": 5658,
+  "forks": 609,
   "openIssues": 75,
-  "score": 109,
-  "activity": "近期活跃",
+  "score": 101.1,
+  "activity": "活跃",
   "pushedAt": "2026-05-23T04:17:31Z",
-  "updatedAt": "2026-07-30T03:27:44Z",
+  "updatedAt": "2026-08-28T02:16:13Z",
   "createdAt": "2026-02-26T12:57:42Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenClaw-RL：OpenClaw-RL：只需开口，即可训练任何智能体。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "OpenClaw-RL：只需开口，即可训练任何智能体",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6a9806c140784038",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "843dcb786a349833",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenClaw-RL：OpenClaw-RL：OpenClaw-RL：只需开口，即可训练任何智能体。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "OpenClaw-RL：只需开口，即可训练任何智能体。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "OpenClaw-RL 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

@@ -1,5 +1,5 @@
 {
-  "rank": 447,
+  "rank": 675,
   "id": 1119523584,
   "name": "gemini-watermark-remover",
   "fullName": "GargantuaX/gemini-watermark-remover",
@@ -8,7 +8,7 @@
   "url": "https://github.com/GargantuaX/gemini-watermark-remover",
   "homepage": "https://pilio.ai/gemini-watermark-remover",
   "description": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
-  "summary": "gemini-watermark-remover：gemini-watermark-remover：A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "gemini-watermark-remover：A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "pnpm dlx skills add GargantuaX/gemini-watermark-remover --skill gemini-watermark-remover",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 5100,
-  "forks": 750,
-  "openIssues": 8,
-  "score": 123,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:35:27Z",
-  "updatedAt": "2026-07-30T02:57:44Z",
+  "stars": 5434,
+  "forks": 860,
+  "openIssues": 15,
+  "score": 116.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-15T13:08:59Z",
+  "updatedAt": "2026-08-29T09:07:03Z",
   "createdAt": "2025-12-19T12:06:10Z",
   "sourceTopics": [
     "skills"
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gemini-watermark-remover：A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "55ca23f5be6155b7",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d254e125c5ee2556",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gemini-watermark-remover：gemini-watermark-remover：A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "gemini-watermark-remover：A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "gemini-watermark-remover 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

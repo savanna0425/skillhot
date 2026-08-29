@@ -1,5 +1,5 @@
 {
-  "rank": 237,
+  "rank": 238,
   "id": 1134447175,
   "name": "skills",
   "fullName": "trailofbits/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/trailofbits/skills",
   "homepage": "",
   "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
-  "summary": "skills：skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/trailofbits/skills.git",
   "language": "Python",
   "license": "CC-BY-SA-4.0",
-  "stars": 6339,
-  "forks": 545,
-  "openIssues": 26,
-  "score": 133.3,
+  "stars": 6903,
+  "forks": 591,
+  "openIssues": 27,
+  "score": 134.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:09:38Z",
-  "updatedAt": "2026-07-30T03:18:35Z",
+  "pushedAt": "2026-08-28T20:37:02Z",
+  "updatedAt": "2026-08-29T07:05:25Z",
   "createdAt": "2026-01-14T18:23:21Z",
   "sourceTopics": [
     "agent-skills"
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -75,13 +75,13 @@
       "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "de3e150f3f0cefc7",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4d1582c7547e202e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

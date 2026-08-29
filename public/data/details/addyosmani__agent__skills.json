@@ -1,5 +1,5 @@
 {
-  "rank": 7,
+  "rank": 6,
   "id": 1158722119,
   "name": "agent-skills",
   "fullName": "addyosmani/agent-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/addyosmani/agent-skills",
   "homepage": "https://skills.addy.ie",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "summary": "agent-skills：agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "工程交付"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add addyosmani/agent-skills            # install all 24 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing",
+  "installCommand": "npx skills add addyosmani/agent-skills            # install all 25 skills\nnpx skills add addyosmani/agent-skills --list     # browse before installing",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 80926,
-  "forks": 8731,
-  "openIssues": 130,
-  "score": 163.8,
+  "stars": 90611,
+  "forks": 9697,
+  "openIssues": 121,
+  "score": 165,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-26T12:51:12Z",
-  "updatedAt": "2026-07-30T03:31:19Z",
+  "pushedAt": "2026-08-28T23:31:50Z",
+  "updatedAt": "2026-08-29T12:52:14Z",
   "createdAt": "2026-02-15T20:20:26Z",
   "sourceTopics": [
     "skills",
@@ -55,7 +55,7 @@
     "GitHub Copilot",
     "OpenCode"
   ],
-  "skillCount": 24,
+  "skillCount": 25,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/addyosmani/agent-skills",
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "面向生产环境的工程技能合集",
     "useCases": [
       "代码评审",
       "性能优化",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c6af0bd462c026b2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9d01cbbcae2cd672",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skills：agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "agent-skills：面向生产环境的工程技能合集。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-skills 可以先理解为一个「软件开发辅助项目」。它围绕「代码评审」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -119,7 +119,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 24+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 25+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

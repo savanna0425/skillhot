@@ -1,5 +1,5 @@
 {
-  "rank": 421,
+  "rank": 414,
   "id": 1184626912,
   "name": "hunk",
   "fullName": "modem-dev/hunk",
@@ -8,7 +8,7 @@
   "url": "https://github.com/modem-dev/hunk",
   "homepage": "https://hunk.dev",
   "description": "Review-first terminal diff viewer for agentic coders",
-  "summary": "hunk：hunk：面向代理开发者的首个终端差异查看器。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "hunk：面向代理开发者的首个终端差异查看器。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,23 +22,28 @@
   "installCommand": "npm i -g hunkdiff",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 7935,
-  "forks": 230,
-  "openIssues": 105,
-  "score": 123.6,
+  "stars": 8894,
+  "forks": 278,
+  "openIssues": 140,
+  "score": 124.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T01:40:58Z",
-  "updatedAt": "2026-07-30T02:46:26Z",
+  "pushedAt": "2026-08-29T02:40:21Z",
+  "updatedAt": "2026-08-29T12:30:22Z",
   "createdAt": "2026-03-17T19:16:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agents",
     "cli",
     "code-review",
     "diff",
     "git",
+    "jj",
+    "jujutsu",
+    "sapling",
+    "terminal",
     "tui"
   ],
   "platforms": [
@@ -55,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hunk：面向代理开发者的首个终端差异查看器。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "面向代理开发者的首个终端差异查看器",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -74,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d77fa106267881a9",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "36dddf75a37af573",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hunk：hunk：面向代理开发者的首个终端差异查看器。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "hunk：面向代理开发者的首个终端差异查看器。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "hunk 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

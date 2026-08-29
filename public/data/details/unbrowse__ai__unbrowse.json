@@ -1,5 +1,5 @@
 {
-  "rank": 855,
+  "rank": 1224,
   "id": 1143440578,
   "name": "unbrowse",
   "fullName": "unbrowse-ai/unbrowse",
@@ -8,7 +8,7 @@
   "url": "https://github.com/unbrowse-ai/unbrowse",
   "homepage": "https://unbrowse.ai",
   "description": "Unbrowse — api native browser Skill/CLI/MCP/SDK for any agent. Auto-discovers APIs from browser traffic, generates skills on the fly to call APIs directly 100x faster, 80% cheaper locally.",
-  "summary": "unbrowse：unbrowse：Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "unbrowse：— 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/unbrowse-ai/unbrowse.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 734,
-  "forks": 63,
-  "openIssues": 27,
-  "score": 110.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-24T11:21:58Z",
-  "updatedAt": "2026-07-29T23:11:54Z",
+  "stars": 752,
+  "forks": 68,
+  "openIssues": 1,
+  "score": 104.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-04T09:17:17Z",
+  "updatedAt": "2026-08-28T19:30:06Z",
   "createdAt": "2026-01-27T15:30:07Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "unbrowse：Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -82,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4225326550d076a4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "553cac9be81c2350",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "unbrowse：unbrowse：Unbrowse — 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "unbrowse：— 面向任何代理的 API 原生浏览器技能/CLI/MCP/SDK。自动从浏览器流量发现 API，即时生成技能以直接调用 API，实现 100 倍更快的速度和 80% 更低廉的本地运行成本。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "unbrowse 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

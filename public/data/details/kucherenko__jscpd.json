@@ -1,14 +1,14 @@
 {
-  "rank": 171,
+  "rank": 200,
   "id": 10353211,
   "name": "jscpd",
   "fullName": "kucherenko/jscpd",
   "owner": "kucherenko",
   "avatarUrl": "https://avatars.githubusercontent.com/u/159307?v=4",
   "url": "https://github.com/kucherenko/jscpd",
-  "homepage": "https://jscpd.dev/",
+  "homepage": "https://jscpd.dev",
   "description": "Copy/paste detector for programming source code, supports 223 formats. AI-ready with token-efficient reporter, skill and MCP server.",
-  "summary": "jscpd：jscpd：代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "jscpd：代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://jscpd.dev/install.sh | bash\nnpm install -g jscpd@4\njscpd /path/to/code",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 5950,
-  "forks": 252,
-  "openIssues": 50,
-  "score": 136.6,
+  "stars": 6067,
+  "forks": 257,
+  "openIssues": 49,
+  "score": 136.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T16:40:52Z",
-  "updatedAt": "2026-07-29T18:05:20Z",
+  "pushedAt": "2026-08-29T12:50:57Z",
+  "updatedAt": "2026-08-29T12:43:44Z",
   "createdAt": "2013-05-29T06:19:20Z",
   "sourceTopics": [
     "skill",
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "jscpd：代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "62558e82a26d90ac",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "68c562c63950417a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jscpd：jscpd：代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "jscpd：代码源程序复制/粘贴检测器，支持 223 种格式。AI 就绪，具备 token 高效报告、技能及 MCP 服务器功能。适合在 GitHub Copilot、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "jscpd 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

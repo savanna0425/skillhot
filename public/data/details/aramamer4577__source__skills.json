@@ -1,5 +1,5 @@
 {
-  "rank": 2132,
+  "rank": 2213,
   "id": 1210341400,
   "name": "skills",
   "fullName": "aramamer4577-source/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aramamer4577-source/skills",
   "homepage": "",
   "description": "Manage reusable AI coding skills in a multi-skill workspace for easy reuse, sync, and expansion",
-  "summary": "skills：skills：skills 用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aramamer4577-source/skills.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 1,
+  "stars": 0,
   "forks": 0,
   "openIssues": 0,
-  "score": 67,
+  "score": 66,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T10:50:55Z",
-  "updatedAt": "2026-07-27T10:51:05Z",
+  "pushedAt": "2026-08-28T04:56:20Z",
+  "updatedAt": "2026-08-28T04:56:31Z",
   "createdAt": "2026-04-14T10:15:38Z",
   "sourceTopics": [
     "agentic-skills"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：skills 用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "skills 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -86,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "067141f0a9ade99c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7afc649b809a8cf9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：skills 用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

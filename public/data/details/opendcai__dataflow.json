@@ -1,5 +1,5 @@
 {
-  "rank": 698,
+  "rank": 687,
   "id": 872005985,
   "name": "DataFlow",
   "fullName": "OpenDCAI/DataFlow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenDCAI/DataFlow",
   "homepage": "https://OpenDCAI.github.io/DataFlow-Doc/",
   "description": "Easy Data Preparation with latest LLMs-based Operators and Pipelines.",
-  "summary": "DataFlow：DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install uv\nuv pip install open-dataflow",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 7130,
-  "forks": 922,
-  "openIssues": 13,
-  "score": 115.5,
+  "stars": 7819,
+  "forks": 1057,
+  "openIssues": 9,
+  "score": 116.4,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-15T05:10:42Z",
-  "updatedAt": "2026-07-30T03:18:31Z",
+  "pushedAt": "2026-08-18T12:18:15Z",
+  "updatedAt": "2026-08-29T12:54:30Z",
   "createdAt": "2024-10-13T14:45:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "基于最新大语言模型的操作器与管道，轻松完成数据准备",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a0e38d4fa0839693",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "93714154c280a1a9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DataFlow：DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "DataFlow：基于最新大语言模型的操作器与管道，轻松完成数据准备。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "DataFlow 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

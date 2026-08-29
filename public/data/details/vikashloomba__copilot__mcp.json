@@ -1,5 +1,5 @@
 {
-  "rank": 1493,
+  "rank": 1561,
   "id": 934139122,
   "name": "copilot-mcp",
   "fullName": "VikashLoomba/copilot-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/VikashLoomba/copilot-mcp",
   "homepage": "https://discord.gg/cloudmcp",
   "description": "A VSCode extension that lets you find and install Agent Skills and MCP Apps to use with GitHub Copilot, Claude Code, and Codex CLI.",
-  "summary": "copilot-mcp：copilot-mcp：支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "copilot-mcp：支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/VikashLoomba/copilot-mcp.git",
   "language": "TypeScript",
   "license": "GPL-3.0",
-  "stars": 504,
-  "forks": 53,
+  "stars": 506,
+  "forks": 54,
   "openIssues": 6,
   "score": 96.1,
   "activity": "近期活跃",
   "pushedAt": "2026-06-15T20:18:27Z",
-  "updatedAt": "2026-07-29T14:54:31Z",
+  "updatedAt": "2026-08-28T19:37:51Z",
   "createdAt": "2025-02-17T10:40:33Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "copilot-mcp：支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -86,13 +86,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "133a98cd89f94425",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4401a8a172021a49",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "copilot-mcp：copilot-mcp：支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "copilot-mcp：支持在 GitHub Copilot、Claude Code 和 Codex CLI 中使用 Agent Skills 和 MCP 应用的 VSCode 扩展。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "copilot-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

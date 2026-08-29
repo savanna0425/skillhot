@@ -1,5 +1,5 @@
 {
-  "rank": 691,
+  "rank": 721,
   "id": 1018547681,
   "name": "opencode.nvim",
   "fullName": "nickjvandyke/opencode.nvim",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nickjvandyke/opencode.nvim",
   "homepage": "",
   "description": "Neovim 🤝 OpenCode in the flow that you already know.",
-  "summary": "opencode.nvim：opencode.nvim：opencode.nvim 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Cursor、OpenCode 相关工作流里先做选型判断。适合在 Cursor、OpenCode 相关工作流里先做选型判断。",
+  "summary": "opencode.nvim：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Cursor、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nickjvandyke/opencode.nvim.git",
   "language": "Lua",
   "license": "MIT",
-  "stars": 3717,
-  "forks": 146,
-  "openIssues": 5,
-  "score": 115.7,
+  "stars": 3797,
+  "forks": 150,
+  "openIssues": 6,
+  "score": 115.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T14:19:54Z",
-  "updatedAt": "2026-07-29T15:51:23Z",
+  "pushedAt": "2026-08-21T14:04:52Z",
+  "updatedAt": "2026-08-29T06:39:02Z",
   "createdAt": "2025-07-12T13:52:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "opencode.nvim：opencode.nvim 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Cursor、OpenCode 相关工作流里先做选型判断。",
+    "summary": "opencode.nvim 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "86a4488022d7f22a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "410f96e4eb0c6f6e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "opencode.nvim：opencode.nvim：opencode.nvim 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Cursor、OpenCode 相关工作流里先做选型判断。适合在 Cursor、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "opencode.nvim：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Cursor、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "opencode.nvim 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

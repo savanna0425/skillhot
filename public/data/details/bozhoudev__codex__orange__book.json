@@ -1,5 +1,5 @@
 {
-  "rank": 1042,
+  "rank": 1088,
   "id": 1277578741,
   "name": "codex-orange-book",
   "fullName": "bozhouDev/codex-orange-book",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bozhouDev/codex-orange-book",
   "homepage": "https://codex.bozhouai.com/",
   "description": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
-  "summary": "codex-orange-book：codex-orange-book：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "codex-orange-book：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）。适合在 Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/bozhouDev/codex-orange-book.git",
   "language": "HTML",
-  "license": "",
-  "stars": 3113,
-  "forks": 306,
+  "license": "MIT",
+  "stars": 3283,
+  "forks": 318,
   "openIssues": 5,
-  "score": 106.9,
+  "score": 107.4,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-14T04:56:39Z",
-  "updatedAt": "2026-07-29T18:31:24Z",
+  "pushedAt": "2026-08-14T15:37:20Z",
+  "updatedAt": "2026-08-29T08:06:33Z",
   "createdAt": "2026-06-23T02:36:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "codex-orange-book：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -65,16 +65,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d580c20ae52aed88",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9787c44d21063817",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-orange-book：codex-orange-book：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "codex-orange-book：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "codex-orange-book 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -115,7 +115,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

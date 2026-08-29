@@ -1,5 +1,5 @@
 {
-  "rank": 348,
+  "rank": 360,
   "id": 1132020002,
   "name": "md2wechat-skill",
   "fullName": "geekjourneyx/md2wechat-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/geekjourneyx/md2wechat-skill",
   "homepage": "https://md2wechat.cn",
   "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
-  "summary": "md2wechat-skill：md2wechat-skill：Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "md2wechat-skill：Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @geekjourneyx/md2wechat\nmd2wechat version --json\nmd2wechat config init --json",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 3377,
-  "forks": 384,
-  "openIssues": 5,
-  "score": 126.7,
+  "stars": 3602,
+  "forks": 402,
+  "openIssues": 6,
+  "score": 127.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T11:42:31Z",
-  "updatedAt": "2026-07-30T03:18:05Z",
+  "pushedAt": "2026-08-28T09:47:49Z",
+  "updatedAt": "2026-08-29T10:19:55Z",
   "createdAt": "2026-01-11T06:36:13Z",
   "sourceTopics": [
     "claude-skills"
@@ -76,7 +76,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "md2wechat-skill：Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -95,13 +95,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "9d7d00970b88aaad",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4fd49f7b3ca99262",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "md2wechat-skill：md2wechat-skill：Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "md2wechat-skill：Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "md2wechat-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

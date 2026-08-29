@@ -1,5 +1,5 @@
 {
-  "rank": 589,
+  "rank": 532,
   "id": 1160406193,
   "name": "claude-blog",
   "fullName": "AgriciDaniel/claude-blog",
@@ -8,7 +8,7 @@
   "url": "https://github.com/AgriciDaniel/claude-blog",
   "homepage": "https://claude-blog.md",
   "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
-  "summary": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AgriciDaniel/claude-blog.git\ncd claude-blog\ngit checkout v2.1.1",
+  "installCommand": "git clone https://github.com/AgriciDaniel/claude-blog.git\ncd claude-blog\ngit checkout v2.2.0",
   "language": "Python",
   "license": "MIT",
-  "stars": 1520,
-  "forks": 264,
-  "openIssues": 21,
-  "score": 118.4,
+  "stars": 1956,
+  "forks": 324,
+  "openIssues": 9,
+  "score": 121,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-23T17:30:50Z",
-  "updatedAt": "2026-07-30T02:56:16Z",
+  "pushedAt": "2026-08-28T04:26:07Z",
+  "updatedAt": "2026-08-29T12:04:28Z",
   "createdAt": "2026-02-17T22:40:44Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -93,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "174f8190328034ed",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "228d106790b953bc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-blog：claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-blog：Claude Code 博客技能套件：30 个子技能，5 个代理，v1.9.0 博客交付合同，专为谷歌排名和 AI 引用双重优化。AI-Marketing-Hub/claude 上处于积极开发中；公共发布在此进行。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "claude-blog 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",

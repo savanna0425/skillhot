@@ -1,5 +1,5 @@
 {
-  "rank": 127,
+  "rank": 144,
   "id": 575865240,
   "name": "AstrBot",
   "fullName": "AstrBotDevs/AstrBot",
@@ -8,7 +8,7 @@
   "url": "https://github.com/AstrBotDevs/AstrBot",
   "homepage": "https://astrbot.app",
   "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-  "summary": "AstrBot：AstrBot：集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "AstrBot：集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install astrbot --python 3.12\nastrbot init # Only execute this command for the first time to initialize the environment\nastrbot run",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 38320,
-  "forks": 2727,
-  "openIssues": 1337,
-  "score": 140,
+  "stars": 39758,
+  "forks": 2850,
+  "openIssues": 1458,
+  "score": 140.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T15:29:18Z",
-  "updatedAt": "2026-07-30T03:05:58Z",
+  "pushedAt": "2026-08-28T09:26:43Z",
+  "updatedAt": "2026-08-29T12:45:43Z",
   "createdAt": "2022-12-08T13:27:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AstrBot：集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +87,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e18d77fbc80b610a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "dcf4981d6fe2435a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AstrBot：AstrBot：集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "AstrBot：集成众多 IM 平台、LLM、插件及 AI 功能的 AI 代理助手开发框架，可替代 OpenCLaw。✨。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "AstrBot 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

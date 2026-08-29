@@ -1,5 +1,5 @@
 {
-  "rank": 69,
+  "rank": 148,
   "id": 1052050442,
   "name": "hello-agents",
   "fullName": "datawhalechina/hello-agents",
@@ -8,7 +8,7 @@
   "url": "https://github.com/datawhalechina/hello-agents",
   "homepage": "https://hello-agents.datawhale.cc",
   "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-  "summary": "hello-agents：hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/datawhalechina/hello-agents.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 69479,
-  "forks": 8658,
-  "openIssues": 160,
-  "score": 146.2,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-28T12:42:04Z",
-  "updatedAt": "2026-07-30T03:26:50Z",
+  "stars": 75459,
+  "forks": 9386,
+  "openIssues": 183,
+  "score": 140.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-18T06:51:35Z",
+  "updatedAt": "2026-08-29T12:49:41Z",
   "createdAt": "2025-09-07T09:50:24Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "《从零开始构建智能体》——从零开始的智能体原理与实践教程",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -74,14 +74,14 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c45b247a21a868fe",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "f5ec94d1b3d466c1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hello-agents：hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "hello-agents 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "hello-agents 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",

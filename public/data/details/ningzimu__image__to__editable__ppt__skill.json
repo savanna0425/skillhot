@@ -1,5 +1,5 @@
 {
-  "rank": 546,
+  "rank": 1089,
   "id": 1245952606,
   "name": "image-to-editable-ppt-skill",
   "fullName": "ningzimu/image-to-editable-ppt-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ningzimu/image-to-editable-ppt-skill",
   "homepage": "https://ppt-skill.ningzimu.vip",
   "description": "Codex skill for converting slide images, PDFs, and image-based PPTX files into editable PowerPoint decks.",
-  "summary": "image-to-editable-ppt-skill：image-to-editable-ppt-skill：将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "image-to-editable-ppt-skill：将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿。适合在 Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,20 +22,19 @@
   "installCommand": "git clone https://github.com/ningzimu/image-to-editable-ppt-skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1685,
-  "forks": 89,
-  "openIssues": 3,
-  "score": 119.5,
-  "activity": "本周活跃",
+  "stars": 2225,
+  "forks": 131,
+  "openIssues": 5,
+  "score": 107.4,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-28T07:00:30Z",
-  "updatedAt": "2026-07-30T03:19:15Z",
+  "updatedAt": "2026-08-29T11:31:43Z",
   "createdAt": "2026-05-21T18:14:26Z",
   "sourceTopics": [
     "codex-skill"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "codex",
@@ -50,9 +49,7 @@
     "presentation"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -65,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "image-to-editable-ppt-skill：将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -84,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b4a5f2ea446f1b9e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "da7eb2ee08bb2bfd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "image-to-editable-ppt-skill：image-to-editable-ppt-skill：将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "image-to-editable-ppt-skill：将幻灯片图像、PDF 及基于图像的 PPTX 文件转换为可编辑的 PowerPoint 演示文稿。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "image-to-editable-ppt-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -108,7 +105,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

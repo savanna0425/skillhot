@@ -1,5 +1,5 @@
 {
-  "rank": 211,
+  "rank": 229,
   "id": 997890921,
   "name": "n8n-mcp",
   "fullName": "czlonkowski/n8n-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/czlonkowski/n8n-mcp",
   "homepage": "https://www.n8n-mcp.com/",
   "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
-  "summary": "n8n-mcp：n8n-mcp：为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "n8n-mcp：为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/czlonkowski/n8n-mcp.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 22441,
-  "forks": 3584,
-  "openIssues": 57,
-  "score": 134.4,
+  "stars": 22800,
+  "forks": 3634,
+  "openIssues": 66,
+  "score": 134.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:13:15Z",
-  "updatedAt": "2026-07-30T02:41:22Z",
+  "pushedAt": "2026-08-29T12:34:26Z",
+  "updatedAt": "2026-08-29T12:28:53Z",
   "createdAt": "2025-06-07T12:15:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "n8n-mcp：为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,13 +78,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4d5dc7e1f7fe8a5c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "85a9a393032eef20",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "n8n-mcp：n8n-mcp：为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "n8n-mcp：为 Claude Desktop / Claude Code / Windsurf / Cursor 构建 n8n 工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "n8n-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

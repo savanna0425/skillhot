@@ -1,5 +1,5 @@
 {
-  "rank": 290,
+  "rank": 296,
   "id": 1210155353,
   "name": "SenseNova-Skills",
   "fullName": "OpenSenseNova/SenseNova-Skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenSenseNova/SenseNova-Skills",
   "homepage": "",
   "description": "Modular SenseNova skills for building AI-powered office assistants and productivity workflows",
-  "summary": "SenseNova-Skills：SenseNova-Skills：模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "SenseNova-Skills：模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/OpenSenseNova/SenseNova-Skills.git --depth=1\nmkdir -p ~/.openclaw/skills\ncp -r SenseNova-Skills/skills/* ~/.openclaw/skills/",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 4827,
-  "forks": 332,
-  "openIssues": 21,
-  "score": 130.4,
+  "stars": 5157,
+  "forks": 378,
+  "openIssues": 27,
+  "score": 131.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T10:19:27Z",
-  "updatedAt": "2026-07-30T00:55:51Z",
+  "pushedAt": "2026-08-25T06:27:58Z",
+  "updatedAt": "2026-08-29T12:44:30Z",
   "createdAt": "2026-04-14T06:21:51Z",
   "sourceTopics": [
     "agent-skills"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SenseNova-Skills：模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e79da0b00b99582b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1249500912adc7a3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SenseNova-Skills：SenseNova-Skills：模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "SenseNova-Skills：模块化 SenseNova 技能：构建基于 AI 的办公助手与生产力工作流。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "SenseNova-Skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

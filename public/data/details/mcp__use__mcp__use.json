@@ -1,5 +1,5 @@
 {
-  "rank": 289,
+  "rank": 306,
   "id": 956472076,
   "name": "mcp-use",
   "fullName": "mcp-use/mcp-use",
@@ -8,10 +8,10 @@
   "url": "https://github.com/mcp-use/mcp-use",
   "homepage": "https://manufact.com",
   "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
-  "summary": "mcp-use：mcp-use：全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "mcp-use：全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx create-mcp-use-app@latest",
+  "installCommand": "git clone https://github.com/mcp-use/mcp-use.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 10426,
-  "forks": 1390,
-  "openIssues": 123,
-  "score": 130.4,
+  "stars": 10540,
+  "forks": 1427,
+  "openIssues": 68,
+  "score": 130.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T01:19:49Z",
-  "updatedAt": "2026-07-30T02:19:13Z",
+  "pushedAt": "2026-08-29T00:47:26Z",
+  "updatedAt": "2026-08-29T11:13:12Z",
   "createdAt": "2025-03-28T10:06:31Z",
   "sourceTopics": [
     "skills"
@@ -37,6 +37,7 @@
     "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-plugins",
     "agentic-framework",
     "ai",
     "apps-sdk",
@@ -55,14 +56,10 @@
     "mcp-ui",
     "model-context-protocol",
     "modelcontextprotocol",
-    "openclaw",
     "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "OpenClaw"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -75,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "mcp-use：全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -94,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "fd7998c2c5148dce",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "b867bfced2c7f4ab",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mcp-use：mcp-use：全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mcp-use：全栈 MCP 框架，用于开发支持 ChatGPT、Claude 及 MCP 服务器的 AI 代理应用。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "mcp-use 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -118,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

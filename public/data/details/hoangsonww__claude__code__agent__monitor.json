@@ -1,5 +1,5 @@
 {
-  "rank": 1141,
+  "rank": 1201,
   "id": 1173790477,
   "name": "Claude-Code-Agent-Monitor",
   "fullName": "hoangsonww/Claude-Code-Agent-Monitor",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/124531104?v=4",
   "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
   "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
-  "description": "🚀 A real-time monitoring dashboard for Claude Code, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, and WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, and an interactive web UI/MacOS/Windows native app.",
-  "summary": "Claude-Code-Agent-Monitor：Claude-Code-Agent-Monitor：Claude-Code-Agent-Monitor：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "数据分析",
-  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
-  "categoryConfidence": "中",
-  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
+  "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
+  "summary": "Claude-Code-Agent-Monitor：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
-    "数据处理",
-    "SQL 与表格",
-    "分析与可视化"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/hoangsonww/Claude-Code-Agent-Monitor.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 855,
-  "forks": 193,
-  "openIssues": 24,
-  "score": 104.5,
+  "stars": 952,
+  "forks": 221,
+  "openIssues": 42,
+  "score": 105.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T05:39:30Z",
-  "updatedAt": "2026-07-29T18:20:54Z",
+  "pushedAt": "2026-08-29T10:30:57Z",
+  "updatedAt": "2026-08-29T11:12:57Z",
   "createdAt": "2026-03-05T18:52:21Z",
   "sourceTopics": [
     "claude-skills"
@@ -60,7 +60,8 @@
     "websocket"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -73,70 +74,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Claude-Code-Agent-Monitor：Claude-Code-Agent-Monitor：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "Claude-Code-Agent-Monitor 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "数据处理",
-      "SQL 与表格",
-      "分析与可视化"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e4f3e5dfdd0e1cb2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7218ffdda0833f0a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Claude-Code-Agent-Monitor：Claude-Code-Agent-Monitor：Claude-Code-Agent-Monitor：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "Claude-Code-Agent-Monitor 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Claude-Code-Agent-Monitor：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Claude-Code-Agent-Monitor 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
-      "非数据团队成员看不懂数据处理流程。",
-      "Agent 做数据任务时需要更明确的工具和边界。",
-      "如果你的任务和「数据处理」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助处理 SQL、表格、统计、图表、数据清洗或分析报告。",
-      "把数据任务拆成可执行步骤，方便 Agent 跟进。",
-      "帮助你判断它是否适合当前分析场景。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "需要快速探索数据的开发者、分析师和运营人员。",
-      "希望用 Agent 生成分析脚本、图表或报告的人。",
-      "想把常见数据流程标准化的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
-      "完全不愿检查结果准确性的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过脚本、Notebook、CLI、数据库连接或 Skill 执行分析流程。",
-      "用户提供数据源或问题，Agent 按步骤生成查询、处理和解读。",
-      "关键结论仍要回到原始数据验证。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用公开或脱敏数据试跑。",
-      "确认依赖环境、数据库权限和导出格式。",
-      "再用于真实业务数据，并保留人工复核。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "更快完成数据探索和初步报告。",
-      "重复分析步骤更容易复用。",
-      "数据任务的输入、处理和输出更清楚。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

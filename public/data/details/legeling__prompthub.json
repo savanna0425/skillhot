@@ -1,5 +1,5 @@
 {
-  "rank": 748,
+  "rank": 761,
   "id": 1106401972,
   "name": "PromptHub",
   "fullName": "legeling/PromptHub",
@@ -8,7 +8,7 @@
   "url": "https://github.com/legeling/PromptHub",
   "homepage": "https://prompthub.click",
   "description": "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control",
-  "summary": "PromptHub：PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "brew tap legeling/tap\nbrew install --cask prompthub",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 1540,
-  "forks": 185,
-  "openIssues": 26,
-  "score": 114.6,
+  "stars": 1619,
+  "forks": 190,
+  "openIssues": 35,
+  "score": 115.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T09:49:09Z",
-  "updatedAt": "2026-07-29T15:37:12Z",
+  "pushedAt": "2026-08-27T03:30:38Z",
+  "updatedAt": "2026-08-29T07:11:30Z",
   "createdAt": "2025-11-29T07:06:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,7 +48,6 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "OpenCode",
     "Antigravity"
   ],
   "skillCount": 1,
@@ -62,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -81,13 +80,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3419dac5e3af0b5d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7223ca4326a7e892",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PromptHub：PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "PromptHub 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

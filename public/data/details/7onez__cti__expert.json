@@ -1,5 +1,5 @@
 {
-  "rank": 1150,
+  "rank": 1008,
   "id": 1202783418,
   "name": "cti-expert",
   "fullName": "7onez/cti-expert",
@@ -8,7 +8,7 @@
   "url": "https://github.com/7onez/cti-expert",
   "homepage": "",
   "description": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys required.",
-  "summary": "cti-expert：cti-expert：cti-expert 聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "cti-expert：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/7onez/cti-expert.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 378,
-  "forks": 56,
-  "openIssues": 1,
-  "score": 104.1,
+  "stars": 582,
+  "forks": 83,
+  "openIssues": 0,
+  "score": 108.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-26T07:25:37Z",
-  "updatedAt": "2026-07-30T02:57:53Z",
+  "pushedAt": "2026-08-28T08:06:47Z",
+  "updatedAt": "2026-08-28T15:35:55Z",
   "createdAt": "2026-04-06T11:52:32Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cti-expert：cti-expert 聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "cti-expert 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -81,13 +81,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "dc1bcb10a21cf49d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7302c21c677a3597",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cti-expert：cti-expert：cti-expert 聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "cti-expert：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "cti-expert 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

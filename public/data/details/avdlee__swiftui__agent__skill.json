@@ -1,5 +1,5 @@
 {
-  "rank": 460,
+  "rank": 711,
   "id": 1139114532,
   "name": "SwiftUI-Agent-Skill",
   "fullName": "AvdLee/SwiftUI-Agent-Skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
   "homepage": "",
   "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-  "summary": "SwiftUI-Agent-Skill：SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add https://github.com/avdlee/swiftui-agent-skill --skill swiftui-expert-skill",
   "language": "Python",
   "license": "MIT",
-  "stars": 3342,
-  "forks": 153,
-  "openIssues": 2,
-  "score": 122.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-24T06:50:50Z",
-  "updatedAt": "2026-07-30T01:35:55Z",
+  "stars": 3465,
+  "forks": 154,
+  "openIssues": 3,
+  "score": 116,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-12T13:34:21Z",
+  "updatedAt": "2026-08-29T10:58:32Z",
   "createdAt": "2026-01-21T14:42:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -39,7 +39,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -52,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -71,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6104149fe622fdb8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d954d9a72529a3ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SwiftUI-Agent-Skill：SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "SwiftUI-Agent-Skill：将专家级 SwiftUI 最佳实践指导融入您的 AI 编程工具（Agent Skills 开放格式）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "SwiftUI-Agent-Skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

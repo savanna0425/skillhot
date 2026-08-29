@@ -1,5 +1,5 @@
 {
-  "rank": 2229,
+  "rank": 2247,
   "id": 1125026990,
   "name": "rust-agentic-skills",
   "fullName": "udapy/rust-agentic-skills",
@@ -8,10 +8,10 @@
   "url": "https://github.com/udapy/rust-agentic-skills",
   "homepage": "https://udapy.github.io/rust-agentic-skills/",
   "description": "Rust Agentic Skills : It transforms general-purpose LLMs into a multi-agentic Rust engineering team via a token-efficient Brain-Tool-Context setup that dynamically loads tools and documentation, adhering to the Agent Context Protocol (ACP).",
-  "summary": "rust-agentic-skills：rust-agentic-skills：rust-agentic-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
+  "summary": "rust-agentic-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/udapy/rust-agentic-skills.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 47,
+  "stars": 51,
   "forks": 8,
-  "openIssues": 0,
-  "score": 61.1,
+  "openIssues": 1,
+  "score": 61.8,
   "activity": "活跃",
   "pushedAt": "2026-02-12T20:33:04Z",
-  "updatedAt": "2026-07-29T09:21:17Z",
+  "updatedAt": "2026-08-24T17:45:59Z",
   "createdAt": "2025-12-30T03:02:57Z",
   "sourceTopics": [
     "agentic-skills"
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "rust-agentic-skills：rust-agentic-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
+    "summary": "rust-agentic-skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b4e75a8ae00fedc0",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "dfd1a58b54fa2b4f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "rust-agentic-skills：rust-agentic-skills：rust-agentic-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "rust-agentic-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "rust-agentic-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

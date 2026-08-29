@@ -1,5 +1,5 @@
 {
-  "rank": 197,
+  "rank": 168,
   "id": 652712035,
   "name": "airllm",
   "fullName": "lyogavin/airllm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lyogavin/airllm",
   "homepage": "",
   "description": "AirLLM 70B inference with single 4GB GPU",
-  "summary": "airllm：airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install airllm",
   "language": "Jupyter Notebook",
   "license": "Apache-2.0",
-  "stars": 24283,
-  "forks": 2733,
-  "openIssues": 115,
-  "score": 135.3,
+  "stars": 33018,
+  "forks": 3474,
+  "openIssues": 145,
+  "score": 138.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T01:08:32Z",
-  "updatedAt": "2026-07-30T03:17:29Z",
+  "pushedAt": "2026-08-29T06:20:52Z",
+  "updatedAt": "2026-08-29T12:53:02Z",
   "createdAt": "2023-06-12T16:28:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "使用单张 4GB 显卡即可实现 AirLLM 70B 推理",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "250fa0a63a1b676e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e1af957dd9abf2af",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "airllm：airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "airllm：使用单张 4GB 显卡即可实现 AirLLM 70B 推理。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "airllm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

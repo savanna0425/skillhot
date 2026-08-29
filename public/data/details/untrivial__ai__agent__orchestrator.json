@@ -1,5 +1,5 @@
 {
-  "rank": 323,
+  "rank": 309,
   "id": 1156994049,
   "name": "agent-orchestrator",
   "fullName": "Untrivial-ai/agent-orchestrator",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Untrivial-ai/agent-orchestrator",
   "homepage": "http://aoagents.dev/",
   "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
-  "summary": "agent-orchestrator：agent-orchestrator：agent-orchestrator 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "agent-orchestrator：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g @aoagents/ao\nao start",
+  "installCommand": "git clone https://github.com/Untrivial-ai/agent-orchestrator.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 8685,
-  "forks": 1266,
-  "openIssues": 489,
-  "score": 128.5,
+  "stars": 10449,
+  "forks": 1466,
+  "openIssues": 856,
+  "score": 130.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:44:05Z",
-  "updatedAt": "2026-07-30T02:29:00Z",
+  "pushedAt": "2026-08-29T12:09:56Z",
+  "updatedAt": "2026-08-29T12:51:39Z",
   "createdAt": "2026-02-13T09:52:36Z",
   "sourceTopics": [
     "skills"
@@ -38,6 +38,8 @@
   ],
   "repoTopics": [
     "agent-fleet",
+    "agent-ide",
+    "agent-orchestration",
     "agent-swarm",
     "claude-code",
     "codex-cli",
@@ -47,8 +49,7 @@
     "orchestrator",
     "parallel-agents",
     "parallel-coding",
-    "skills",
-    "tmux"
+    "skills"
   ],
   "platforms": [
     "Claude",
@@ -68,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-orchestrator：agent-orchestrator 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "agent-orchestrator 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ed3a113fc02e98f3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "679b702907e3ddb9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-orchestrator：agent-orchestrator：agent-orchestrator 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "agent-orchestrator：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-orchestrator 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

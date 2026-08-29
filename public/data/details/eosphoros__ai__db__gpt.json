@@ -1,5 +1,5 @@
 {
-  "rank": 239,
+  "rank": 258,
   "id": 627480054,
   "name": "DB-GPT",
   "fullName": "eosphoros-ai/DB-GPT",
@@ -8,7 +8,7 @@
   "url": "https://github.com/eosphoros-ai/DB-GPT",
   "homepage": "http://docs.dbgpt.cn",
   "description": "open-source agentic AI data assistant for the next generation of AI + Data products.",
-  "summary": "DB-GPT：DB-GPT：面向下一代 AI + 数据产品的开源代理型 AI 数据助手。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "DB-GPT：面向下一代 AI + 数据产品的开源代理型 AI 数据助手。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "uv pip install dbgpt-app\npip install dbgpt-app",
   "language": "Python",
   "license": "MIT",
-  "stars": 19591,
-  "forks": 2847,
-  "openIssues": 423,
-  "score": 133,
+  "stars": 19823,
+  "forks": 2897,
+  "openIssues": 422,
+  "score": 133.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T14:45:19Z",
-  "updatedAt": "2026-07-30T00:54:25Z",
+  "pushedAt": "2026-08-28T10:46:48Z",
+  "updatedAt": "2026-08-29T07:34:30Z",
   "createdAt": "2023-04-13T14:52:43Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DB-GPT：面向下一代 AI + 数据产品的开源代理型 AI 数据助手。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "面向下一代 AI + 数据产品的开源代理型 AI 数据助手",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "06a8c4f5f17fc4fa",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2a46d0354208f91c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DB-GPT：DB-GPT：面向下一代 AI + 数据产品的开源代理型 AI 数据助手。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "DB-GPT：面向下一代 AI + 数据产品的开源代理型 AI 数据助手。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "DB-GPT 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

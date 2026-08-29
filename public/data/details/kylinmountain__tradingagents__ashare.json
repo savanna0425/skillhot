@@ -1,5 +1,5 @@
 {
-  "rank": 1175,
+  "rank": 1229,
   "id": 1170370148,
   "name": "TradingAgents-AShare",
   "fullName": "KylinMountain/TradingAgents-AShare",
@@ -8,7 +8,7 @@
   "url": "https://github.com/KylinMountain/TradingAgents-AShare",
   "homepage": "https://app.510168.xyz",
   "description": "A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。",
-  "summary": "TradingAgents-AShare：TradingAgents-AShare：A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "TradingAgents-AShare：A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/KylinMountain/TradingAgents-AShare.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 736,
-  "forks": 220,
-  "openIssues": 16,
-  "score": 102.9,
+  "stars": 798,
+  "forks": 230,
+  "openIssues": 24,
+  "score": 103.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T05:09:05Z",
-  "updatedAt": "2026-07-29T12:21:24Z",
+  "pushedAt": "2026-08-28T05:09:06Z",
+  "updatedAt": "2026-08-28T16:16:14Z",
   "createdAt": "2026-03-02T03:33:41Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "TradingAgents-AShare：A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,13 +80,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3cb8f51e620fe322",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "733e83aaac061f75",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "TradingAgents-AShare：TradingAgents-AShare：A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "TradingAgents-AShare：A 股多智能体智能投研系统 — 基于 TradingAgents 架构，15 名 AI Agent 模拟机构协作与实时辩论对抗，全流程可视化，支持 OpenClaw / Claude Code 集成，Docker 一键部署。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "TradingAgents-AShare 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

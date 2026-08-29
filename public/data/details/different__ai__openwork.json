@@ -1,5 +1,5 @@
 {
-  "rank": 257,
+  "rank": 228,
   "id": 1133911335,
   "name": "openwork",
   "fullName": "different-ai/openwork",
@@ -8,7 +8,7 @@
   "url": "https://github.com/different-ai/openwork",
   "homepage": "https://openworklabs.com",
   "description": "The open-source alternative to Claude Cowork (powered by opencode)",
-  "summary": "openwork：openwork：openwork 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "openwork：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "OpenWork Den is the control plane for managing OpenWork across a team or organization.\n- Provision inference at scale and control which members and teams can use each model provider.\n- Invite teammates, create teams, and manage access from one place.",
+  "installCommand": "pnpm dev:worktree",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 18045,
-  "forks": 1861,
-  "openIssues": 400,
-  "score": 132.2,
+  "stars": 23178,
+  "forks": 2298,
+  "openIssues": 415,
+  "score": 134.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:08:03Z",
-  "updatedAt": "2026-07-30T03:31:50Z",
+  "pushedAt": "2026-08-29T11:53:57Z",
+  "updatedAt": "2026-08-29T12:27:11Z",
   "createdAt": "2026-01-14T01:39:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openwork：openwork 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "openwork 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -71,13 +71,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "69cd1da47471d4df",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "85d9e6a4bb84b507",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openwork：openwork：openwork 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "openwork：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "openwork 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

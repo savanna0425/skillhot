@@ -1,5 +1,5 @@
 {
-  "rank": 300,
+  "rank": 307,
   "id": 1175688481,
   "name": "ljg-skills",
   "fullName": "lijigang/ljg-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lijigang/ljg-skills",
   "homepage": "",
   "description": "",
-  "summary": "ljg-skills：ljg-skills：ljg-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "ljg-skills：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "bunx skills add lijigang/ljg-skills -g -a codex --skill '*' -y\nbunx skills add lijigang/ljg-skills#md -g -a codex --skill '*' -y\nbunx skills add lijigang/ljg-skills -g -a codex --skill ljg-card -y",
-  "language": "HTML",
-  "license": "",
-  "stars": 6679,
-  "forks": 773,
-  "openIssues": 8,
-  "score": 129.8,
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 7220,
+  "forks": 816,
+  "openIssues": 5,
+  "score": 130.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T11:11:04Z",
-  "updatedAt": "2026-07-29T19:11:51Z",
+  "pushedAt": "2026-08-26T02:55:57Z",
+  "updatedAt": "2026-08-29T12:35:44Z",
   "createdAt": "2026-03-08T03:08:33Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ljg-skills：ljg-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。",
+    "summary": "ljg-skills 的作者尚未提供足够简介，请查看 README 了解具体用途",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -66,16 +66,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ca924f95e6876b6e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9d32fcf26dd9e793",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ljg-skills：ljg-skills：ljg-skills 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "ljg-skills：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Codex 相关工作流里先做选型判断。",
     "whatItIs": "ljg-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -116,7 +116,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

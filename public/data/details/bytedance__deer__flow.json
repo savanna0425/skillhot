@@ -1,5 +1,5 @@
 {
-  "rank": 20,
+  "rank": 23,
   "id": 979115477,
   "name": "deer-flow",
   "fullName": "bytedance/deer-flow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bytedance/deer-flow",
   "homepage": "https://deerflow.tech",
   "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-  "summary": "deer-flow：deer-flow：一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "deer-flow：一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "- Codex CLI reads `~/.codex/auth.json`\n- Claude Code accepts `CLAUDE_CODE_OAUTH_TOKEN`, `ANTHROPIC_AUTH_TOKEN`, `CLAUDE_CODE_CREDENTIALS_PATH`, or `~/.claude/.credentials.json`\n- ACP agent entries are separate from model providers — if you configure `acp_agents.codex`, point it at a Codex ACP adapter such as `npx -y @zed-industries/codex-acp`",
   "language": "Python",
   "license": "MIT",
-  "stars": 78173,
-  "forks": 10657,
-  "openIssues": 948,
-  "score": 155.4,
+  "stars": 81081,
+  "forks": 11171,
+  "openIssues": 909,
+  "score": 155.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:12:46Z",
-  "updatedAt": "2026-07-30T03:27:41Z",
+  "pushedAt": "2026-08-29T09:21:29Z",
+  "updatedAt": "2026-08-29T12:43:30Z",
   "createdAt": "2025-05-07T02:50:19Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "deer-flow：一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7f5c5d72013fe46c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d26c1b17dae0039e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deer-flow：deer-flow：一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "deer-flow：一个开源的超长期时超级代理，负责研究、编码与创造。借助沙箱、记忆、工具、技能、子代理和消息网关，可处理从分钟到数小时的各类任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "deer-flow 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

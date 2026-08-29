@@ -1,5 +1,5 @@
 {
-  "rank": 354,
+  "rank": 368,
   "id": 1025906681,
   "name": "buildwithclaude",
   "fullName": "davepoon/buildwithclaude",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "git clone https://github.com/davepoon/buildwithclaude.git\ncd buildwithclaude\nfind plugins/agents-*/agents -name \"*.md\" -exec cp {} ~/.claude/agents/ \\;",
-  "language": "TypeScript",
+  "language": "Python",
   "license": "MIT",
-  "stars": 3233,
-  "forks": 442,
-  "openIssues": 13,
-  "score": 126.3,
+  "stars": 3384,
+  "forks": 482,
+  "openIssues": 12,
+  "score": 126.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T02:04:12Z",
-  "updatedAt": "2026-07-30T03:00:25Z",
+  "pushedAt": "2026-08-29T10:38:10Z",
+  "updatedAt": "2026-08-29T10:38:45Z",
   "createdAt": "2025-07-25T02:26:45Z",
   "sourceTopics": [
     "claude-skills"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "buildwithclaude 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "单一枢纽可查找 Claude 技能、代理、命令、钩子、插件及市场集合，以扩展 Claude Code、Claude Desktop、Agent SDK 和 OpenClaw",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -85,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ef7cb0d9021ebe64",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c508b0793fd13fb5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

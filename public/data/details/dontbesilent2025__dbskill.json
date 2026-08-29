@@ -1,5 +1,5 @@
 {
-  "rank": 241,
+  "rank": 247,
   "id": 1187377394,
   "name": "dbskill",
   "fullName": "dontbesilent2025/dbskill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dontbesilent2025/dbskill",
   "homepage": "",
   "description": "dontbesilent 的商业诊断 Skills",
-  "summary": "dbskill：dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "这个 `dbs` 插件包含 29 个正式业务 Skill 和 1 个 `dbs-update` 系统更新入口。Claude Code 会为插件 Skill 添加命名空间：主入口使用 `/dbs:dbs`，具体能力例如 `/dbs:dbs-diagnosis`。\n只想安装一个能力时，可以在插件市场中选择对应插件，例如 `claude plugin install dbs-diagnosis@dontbesilent-skills`。\n![Claude Code 插件安装演示](demo.gif)",
+  "installCommand": "这个 `dbs` 插件包含 32 个正式业务 Skill 和 1 个 `dbs-update` 系统更新入口。Claude Code 会为插件 Skill 添加命名空间：主入口使用 `/dbs:dbs`，具体能力例如 `/dbs:dbs-diagnosis`。\n只想安装一个能力时，可以在插件市场中选择对应插件，例如 `claude plugin install dbs-diagnosis@dontbesilent-skills`。\n![Claude Code 插件安装演示](demo.gif)",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 8999,
-  "forks": 1049,
+  "stars": 9784,
+  "forks": 1121,
   "openIssues": 0,
-  "score": 132.9,
+  "score": 133.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T10:44:31Z",
-  "updatedAt": "2026-07-30T03:04:11Z",
+  "pushedAt": "2026-08-29T09:38:17Z",
+  "updatedAt": "2026-08-29T12:33:02Z",
   "createdAt": "2026-03-20T16:52:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "dontbesilent 的商业诊断 Skills",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -69,13 +69,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "61068bcf73b5ef05",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4b16ec53ba9f1980",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dbskill：dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "dbskill：dontbesilent 的商业诊断 Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "dbskill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

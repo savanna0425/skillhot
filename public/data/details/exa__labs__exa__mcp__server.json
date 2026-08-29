@@ -1,5 +1,5 @@
 {
-  "rank": 586,
+  "rank": 878,
   "id": 895291604,
   "name": "exa-mcp-server",
   "fullName": "exa-labs/exa-mcp-server",
@@ -8,7 +8,7 @@
   "url": "https://github.com/exa-labs/exa-mcp-server",
   "homepage": "https://exa.ai/docs/reference/exa-mcp",
   "description": "Exa MCP for web search and web crawling!",
-  "summary": "exa-mcp-server：exa-mcp-server：Exa MCP 用于网页搜索与爬取。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "exa-mcp-server：Exa MCP 用于网页搜索与爬取。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "</details>\n<details>\n<summary><b>Via npm Package</b></summary>",
+  "installCommand": "git clone https://github.com/exa-labs/exa-mcp-server.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4797,
-  "forks": 363,
-  "openIssues": 40,
-  "score": 118.4,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-24T17:07:01Z",
-  "updatedAt": "2026-07-30T02:36:29Z",
+  "stars": 4941,
+  "forks": 378,
+  "openIssues": 32,
+  "score": 111.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-21T04:44:51Z",
+  "updatedAt": "2026-08-29T03:45:17Z",
   "createdAt": "2024-11-27T23:38:35Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,12 +45,7 @@
     "websearch"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "OpenCode",
-    "Antigravity"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -63,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "exa-mcp-server：Exa MCP 用于网页搜索与爬取。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "Exa MCP 用于网页搜索与爬取！",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -82,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3ec5ae9d923fdbe0",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "b68fc5f83cd17da6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "exa-mcp-server：exa-mcp-server：Exa MCP 用于网页搜索与爬取。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "exa-mcp-server：Exa MCP 用于网页搜索与爬取。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "exa-mcp-server 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -106,7 +101,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",

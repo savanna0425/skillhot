@@ -1,5 +1,5 @@
 {
-  "rank": 11,
+  "rank": 10,
   "id": 1200597263,
   "name": "graphify",
   "fullName": "Graphify-Labs/graphify",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Graphify-Labs/graphify",
   "homepage": "https://www.graphify.com",
   "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-  "summary": "graphify：graphify：graphify 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "graphify：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install graphifyy      # install the CLI (or: pipx install graphifyy)\ngraphify install               # register the skill with your AI assistant",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 98548,
-  "forks": 9561,
-  "openIssues": 710,
-  "score": 161.8,
+  "stars": 112159,
+  "forks": 10909,
+  "openIssues": 1164,
+  "score": 163.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T16:34:47Z",
-  "updatedAt": "2026-07-30T03:32:19Z",
+  "pushedAt": "2026-08-28T00:29:00Z",
+  "updatedAt": "2026-08-29T12:52:16Z",
   "createdAt": "2026-04-03T15:49:07Z",
   "sourceTopics": [
     "skills"
@@ -78,7 +78,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "graphify：graphify 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "graphify 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -97,13 +97,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e42df6c63b54cacc",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "72659387386b114d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "graphify：graphify：graphify 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "graphify：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "graphify 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

@@ -1,5 +1,5 @@
 {
-  "rank": 885,
+  "rank": 1244,
   "id": 1097137279,
   "name": "medusa",
   "fullName": "Pantheon-Security/medusa",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Pantheon-Security/medusa",
   "homepage": "https://pantheonsecurity.io",
   "description": "AI-first security scanner. NEW in v2026.7: Claude Code compromise detection — vet .claude/ hooks, permissions & skills before you clone — plus an always-on AI attack-signature scanner and native Rust & PHP rules. Also: medusa scan --git to vet any repo, medusa secrets scan for leaked API keys. 40,000+ patterns, zero setup.",
-  "summary": "medusa：medusa：medusa 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "medusa：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Pantheon-Security/medusa.git",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 952,
-  "forks": 154,
+  "stars": 971,
+  "forks": 153,
   "openIssues": 2,
-  "score": 109.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T16:10:54Z",
-  "updatedAt": "2026-07-29T21:29:26Z",
+  "score": 102.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-10T14:01:08Z",
+  "updatedAt": "2026-08-28T05:30:04Z",
   "createdAt": "2025-11-15T15:55:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "medusa：medusa 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "medusa 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,13 +86,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "fddea26b6b76fb9f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a525f9817ff48eb1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "medusa：medusa：medusa 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "medusa：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "medusa 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

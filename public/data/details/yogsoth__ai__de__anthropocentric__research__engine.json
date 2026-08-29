@@ -1,5 +1,5 @@
 {
-  "rank": 1146,
+  "rank": 1213,
   "id": 1154200345,
   "name": "de-anthropocentric-research-engine",
   "fullName": "yogsoth-ai/de-anthropocentric-research-engine",
@@ -8,7 +8,7 @@
   "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
   "homepage": "",
   "description": "900+ pure-markdown skills for autonomous AI research, organized as 9 freely-composable packages over a 4-layer hierarchy (Campaign → Strategy → Tactic → SOP). Non-linear orchestration with backtracking, 6 MCP integrations. The AI is the researcher — you set the direction.",
-  "summary": "de-anthropocentric-research-engine：de-anthropocentric-research-engine：900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "de-anthropocentric-research-engine：900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/yogsoth-ai/de-anthropocentric-research-engine.git",
   "language": "HTML",
   "license": "Apache-2.0",
-  "stars": 390,
-  "forks": 33,
+  "stars": 398,
+  "forks": 30,
   "openIssues": 3,
-  "score": 104.4,
+  "score": 104.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T09:41:59Z",
-  "updatedAt": "2026-07-29T11:38:32Z",
+  "pushedAt": "2026-08-25T16:10:30Z",
+  "updatedAt": "2026-08-29T06:28:07Z",
   "createdAt": "2026-02-10T05:47:00Z",
   "sourceTopics": [
     "skill"
@@ -46,7 +46,7 @@
     "claude-code",
     "codex",
     "deep-research",
-    "hypothesis-generation",
+    "dsh-plugin",
     "literature-review",
     "mcp",
     "research-agent",
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "de-anthropocentric-research-engine：900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -89,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0e4e8204670b7459",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "61bbd7f1258968d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "de-anthropocentric-research-engine：de-anthropocentric-research-engine：900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "de-anthropocentric-research-engine：900 项纯 Markdown 技能，支持自主 AI 研究，以 4 层层级（战役 → 策略 → 战术 → SOP）组织为 9 个自由组合包。支持非线性编排与回溯，集成 6 个 MCP 接口。AI 即研究者——您设定方向。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "de-anthropocentric-research-engine 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

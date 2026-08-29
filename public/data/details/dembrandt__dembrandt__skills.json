@@ -1,5 +1,5 @@
 {
-  "rank": 1903,
+  "rank": 1896,
   "id": 1215063486,
   "name": "dembrandt-skills",
   "fullName": "dembrandt/dembrandt-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dembrandt/dembrandt-skills",
   "homepage": "https://www.dembrandt.com/skills",
   "description": "Senior-level UX and design-system knowledge, packaged so your AI agent applies it automatically.",
-  "summary": "dembrandt-skills：dembrandt-skills：dembrandt-skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "dembrandt-skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dembrandt/dembrandt-skills.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 31,
-  "forks": 6,
-  "openIssues": 0,
-  "score": 80.7,
+  "stars": 52,
+  "forks": 9,
+  "openIssues": 2,
+  "score": 85,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T21:37:52Z",
-  "updatedAt": "2026-07-28T21:38:05Z",
+  "pushedAt": "2026-08-28T22:54:12Z",
+  "updatedAt": "2026-08-29T02:56:36Z",
   "createdAt": "2026-04-19T12:36:46Z",
   "sourceTopics": [
     "cursor-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "dembrandt-skills：dembrandt-skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "dembrandt-skills 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "219430b1e9a52eeb",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "06446a349a43854a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dembrandt-skills：dembrandt-skills：dembrandt-skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "dembrandt-skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "dembrandt-skills 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

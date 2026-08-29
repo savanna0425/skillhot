@@ -1,5 +1,5 @@
 {
-  "rank": 144,
+  "rank": 164,
   "id": 268163609,
   "name": "qdrant",
   "fullName": "qdrant/qdrant",
@@ -8,7 +8,7 @@
   "url": "https://github.com/qdrant/qdrant",
   "homepage": "https://qdrant.tech",
   "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
-  "summary": "qdrant：qdrant：Qdrant - 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "qdrant：- 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/qdrant/qdrant.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 33661,
-  "forks": 2534,
-  "openIssues": 660,
-  "score": 138.7,
+  "stars": 34252,
+  "forks": 2624,
+  "openIssues": 723,
+  "score": 138.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T22:21:53Z",
-  "updatedAt": "2026-07-30T03:24:45Z",
+  "pushedAt": "2026-08-29T06:48:24Z",
+  "updatedAt": "2026-08-29T09:05:17Z",
   "createdAt": "2020-05-30T21:37:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "qdrant：Qdrant - 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "Qdrant - 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -90,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "427f2de17661d19f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "70e546d52fc554a8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "qdrant：qdrant：Qdrant - 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "qdrant：- 下一代 AI 的高性能、大规模向量数据库和向量搜索引擎。云版也可访问 https://cloud.qdrant.io/。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "qdrant 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

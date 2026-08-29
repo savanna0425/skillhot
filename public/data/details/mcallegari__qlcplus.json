@@ -1,5 +1,5 @@
 {
-  "rank": 1086,
+  "rank": 1162,
   "id": 6981258,
   "name": "qlcplus",
   "fullName": "mcallegari/qlcplus",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mcallegari/qlcplus",
   "homepage": "",
   "description": "Q Light Controller Plus (QLC+) is a free and cross-platform software to control DMX or analog lighting systems like moving heads, dimmers, scanners etc. This project is a fork of the great QLC project written by Heikki Junnila that aims to continue the QLC development and to introduce new features.",
-  "summary": "qlcplus：qlcplus：Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "qlcplus：Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mcallegari/qlcplus.git",
   "language": "C++",
   "license": "Apache-2.0",
-  "stars": 1486,
-  "forks": 481,
-  "openIssues": 58,
-  "score": 106.2,
+  "stars": 1513,
+  "forks": 486,
+  "openIssues": 56,
+  "score": 106.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T20:37:23Z",
-  "updatedAt": "2026-07-30T01:49:35Z",
+  "pushedAt": "2026-08-27T17:41:37Z",
+  "updatedAt": "2026-08-29T05:43:36Z",
   "createdAt": "2012-12-03T11:36:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "qlcplus：Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -81,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "57e716b64abb9826",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "dcaac91bbd5b4ad2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "qlcplus：qlcplus：Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "qlcplus：Q 光控制器 Plus (QLC+) 是一款免费且跨平台的软件，用于控制 DMX 或模拟照明系统，如移动头、调光器、扫描器等。该项目是 Heikki Junnila 所著的 QLC 项目的分支，旨在继续 QLC 的开发并引入新功能。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "qlcplus 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

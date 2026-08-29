@@ -1,5 +1,5 @@
 {
-  "rank": 90,
+  "rank": 101,
   "id": 710601088,
   "name": "crewAI",
   "fullName": "crewAIInc/crewAI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/crewAIInc/crewAI",
   "homepage": "https://crewai.com",
   "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-  "summary": "crewAI：crewAI：用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "crewAI：用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add crewaiinc/skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 56346,
-  "forks": 8010,
-  "openIssues": 710,
-  "score": 144,
+  "stars": 57783,
+  "forks": 8280,
+  "openIssues": 766,
+  "score": 144.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:30:17Z",
-  "updatedAt": "2026-07-30T03:30:31Z",
+  "pushedAt": "2026-08-28T22:36:31Z",
+  "updatedAt": "2026-08-29T11:43:53Z",
   "createdAt": "2023-10-27T03:26:59Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "crewAI：用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -76,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "815869bdfd68873d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "dfef642771dbc112",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "crewAI：crewAI：用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "crewAI：用于编排角色扮演、自主 AI 代理的框架。通过促进协作智能，CrewAI 赋能代理无缝协作，共同攻克复杂任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "crewAI 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

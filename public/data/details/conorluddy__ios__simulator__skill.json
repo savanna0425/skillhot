@@ -1,5 +1,5 @@
 {
-  "rank": 1302,
+  "rank": 1336,
   "id": 1078249898,
   "name": "ios-simulator-skill",
   "fullName": "conorluddy/ios-simulator-skill",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/846373?v=4",
   "url": "https://github.com/conorluddy/ios-simulator-skill",
   "homepage": "https://www.conor.fyi",
-  "description": "An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps. I mainly use it as an xcodebuild wrapper to save context.",
-  "summary": "ios-simulator-skill：ios-simulator-skill：为 Claude 设计的 iOS 模拟器技能。利用它优化 Claude 构建、运行及与您的应用交互的能力。我主要将其用作 Xcode 构建包装器以保存上下文。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "An IOS Simulator Skill for ClaudeCode. Use it to optimise Claude's ability to build, run and interact with your apps, and to proxy xcodebuild to save token and context wastage.",
+  "summary": "ios-simulator-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/conorluddy/ios-simulator-skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1188,
-  "forks": 81,
-  "openIssues": 21,
-  "score": 100.9,
+  "stars": 1234,
+  "forks": 86,
+  "openIssues": 20,
+  "score": 101.3,
   "activity": "近期活跃",
   "pushedAt": "2026-06-18T15:29:20Z",
-  "updatedAt": "2026-07-30T01:38:55Z",
+  "updatedAt": "2026-08-29T11:46:39Z",
   "createdAt": "2025-10-17T12:43:15Z",
   "sourceTopics": [
     "claude-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ios-simulator-skill：为 Claude 设计的 iOS 模拟器技能。利用它优化 Claude 构建、运行及与您的应用交互的能力。我主要将其用作 Xcode 构建包装器以保存上下文。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "ios-simulator-skill 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0be62948a990d066",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "3788e4db0710c269",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ios-simulator-skill：ios-simulator-skill：为 Claude 设计的 iOS 模拟器技能。利用它优化 Claude 构建、运行及与您的应用交互的能力。我主要将其用作 Xcode 构建包装器以保存上下文。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "ios-simulator-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "ios-simulator-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

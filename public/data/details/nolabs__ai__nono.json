@@ -1,5 +1,5 @@
 {
-  "rank": 752,
+  "rank": 699,
   "id": 1146550474,
   "name": "nono",
   "fullName": "nolabs-ai/nono",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/289819636?v=4",
   "url": "https://github.com/nolabs-ai/nono",
   "homepage": "https://nono.sh",
-  "description": "Sandbox any AI agent in seconds - zero setup, zero latency.",
-  "summary": "nono：nono：nono 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+  "description": "secure multiplexed execution paths for agents - zero trust, zero setup, zero latency.",
+  "summary": "nono：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "brew install nono",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 3309,
-  "forks": 225,
-  "openIssues": 138,
-  "score": 114.5,
+  "stars": 3882,
+  "forks": 253,
+  "openIssues": 161,
+  "score": 116.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T22:52:22Z",
-  "updatedAt": "2026-07-30T03:31:29Z",
+  "pushedAt": "2026-08-28T15:19:34Z",
+  "updatedAt": "2026-08-29T11:15:29Z",
   "createdAt": "2026-01-31T09:25:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nono：nono 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "nono 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -88,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2124fe9bfcd9836a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "8cffdafa19e46b3e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nono：nono：nono 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "nono：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "nono 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
