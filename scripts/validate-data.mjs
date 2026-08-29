@@ -1,10 +1,19 @@
 import { readFile, stat } from 'node:fs/promises'
 import { classifyCategory, semanticQualityIssues } from './catalog-taxonomy.mjs'
+import { validateCatalogIntegrity } from './data-integrity.mjs'
 
 const data = JSON.parse(await readFile(new URL('../public/data/skills.json', import.meta.url), 'utf8'))
 const manifest = JSON.parse(await readFile(new URL('../public/data/manifest.json', import.meta.url), 'utf8'))
 const home = JSON.parse(await readFile(new URL('../public/data/home.json', import.meta.url), 'utf8'))
 const lite = JSON.parse(await readFile(new URL('../public/data/skills-lite.json', import.meta.url), 'utf8'))
+const categoryPayloads = Object.fromEntries(await Promise.all(
+  (data.categories || []).map(async (category) => [
+    category.name,
+    JSON.parse(await readFile(new URL(`../public/data/categories/${category.name}.json`, import.meta.url), 'utf8')),
+  ]),
+))
+
+await validateCatalogIntegrity({ data, lite, categoryPayloads })
 
 const requiredCategories = [
   'UI设计',
