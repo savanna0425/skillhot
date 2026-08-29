@@ -12,7 +12,7 @@ interface SkillActions {
   onFavorite: (skill: Skill) => void
 }
 
-const PAGE_SIZE = 24
+const PAGE_SIZE = 48
 
 interface PaginatedSkillGridProps extends SkillActions {
   skills: Skill[]
@@ -33,6 +33,9 @@ function PaginatedSkillGrid({ skills, resetKey, pageSize = PAGE_SIZE, emptyText,
 
   return (
     <>
+      <div className="pagination-status" role="status">
+        当前显示 {visible.length} / 共 {skills.length} 个项目
+      </div>
       <SkillGrid skills={visible} emptyText={emptyText} {...actions} />
       {remaining > 0 ? (
         <button

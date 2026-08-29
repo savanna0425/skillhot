@@ -65,16 +65,19 @@ test('category and topic pages can load more repositories', async ({ page }, tes
   await expect(page.getByRole('heading', { name: '技能分类' })).toBeVisible()
   await page.getByRole('button', { name: /^编程开发 \d+$/ }).click()
   const categoryCards = page.locator('.categories-page .skill-card-grid article')
-  await expect(categoryCards).toHaveCount(24)
-  await page.locator('.categories-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(page.locator('.categories-page .pagination-status')).toContainText(/当前显示 48 \/ 共 \d+ 个项目/)
   await expect(categoryCards).toHaveCount(48)
+  await page.locator('.categories-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(categoryCards).toHaveCount(96)
+  await expect(page.locator('.categories-page .pagination-status')).toContainText(/当前显示 96 \/ 共 \d+ 个项目/)
 
   await page.getByRole('button', { name: '话题', exact: true }).click()
   await expect(page.getByRole('heading', { name: 'Skills 生态话题' })).toBeVisible()
   const topicCards = page.locator('.topics-page .skill-card-grid article')
-  await expect(topicCards).toHaveCount(24)
-  await page.locator('.topics-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(page.locator('.topics-page .pagination-status')).toContainText(/当前显示 48 \/ 共 \d+ 个项目/)
   await expect(topicCards).toHaveCount(48)
+  await page.locator('.topics-page').getByRole('button', { name: /加载更多/ }).click()
+  await expect(topicCards).toHaveCount(96)
 })
 
 test('home uses lightweight catalog and then loads full index lazily', async ({ page }, testInfo) => {
