@@ -80,6 +80,26 @@ test('category and topic pages can load more repositories', async ({ page }, tes
   await expect(topicCards).toHaveCount(96)
 })
 
+test('direct category routes wait for the full catalog before filtering', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
+
+  await page.goto('/#categories')
+  await expect(page.getByRole('heading', { name: '技能分类' })).toBeVisible()
+
+  const status = page.locator('.categories-page .pagination-status')
+  const expectedRepositories = await page.evaluate(async () => {
+    const response = await fetch('/data/manifest.json')
+    const manifest = await response.json() as { stats: { repositories: number } }
+    return manifest.stats.repositories
+  })
+  await expect(status).toContainText(`当前显示 48 / 共 ${expectedRepositories} 个项目`)
+
+  await page.getByRole('button', { name: /^编程开发 \d+$/ }).click()
+  const categoryCards = page.locator('.categories-page .skill-card-grid article')
+  await expect(status).toContainText(/当前显示 48 \/ 共 5\d+ 个项目/)
+  await expect(categoryCards).toHaveCount(48)
+})
+
 test('home uses lightweight catalog and then loads full index lazily', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'chrome-desktop', 'desktop product flow')
   const requests: string[] = []
