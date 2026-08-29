@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "update:data": "node scripts/update-skills.mjs",
+    "update:data": "node scripts/update-skills.mjs && node scripts/catalog-derived.mjs",
     "enrich:profiles": "node scripts/enrich-project-profiles.mjs",
     "test:unit": "node --test tests/*.test.mjs",
     "check": "tsc -b --pretty false && node scripts/validate-data.mjs",

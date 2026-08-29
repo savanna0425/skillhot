@@ -34,9 +34,9 @@ jobs:
           SKILLHOT_LLM_API_KEY: ${{ secrets.SKILLHOT_LLM_API_KEY }}
           SKILLHOT_LLM_MODEL: ${{ secrets.SKILLHOT_LLM_MODEL }}
           SKILLHOT_LLM_MAX_REPOS: ${{ vars.SKILLHOT_LLM_MAX_REPOS }}
-        run: |
-          node scripts/enrich-project-profiles.mjs --only-new --limit="${SKILLHOT_LLM_MAX_REPOS:-5}"
-          node scripts/catalog-derived.mjs
+        run: node scripts/enrich-project-profiles.mjs --only-new --limit="${SKILLHOT_LLM_MAX_REPOS:-5}"
+      - name: Build derived catalog once
+        run: node scripts/catalog-derived.mjs
       - name: Validate generated data
         run: node scripts/validate-data.mjs
       - name: Commit changed data

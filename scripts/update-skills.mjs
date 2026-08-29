@@ -1,4 +1,4 @@
-import { copyFile, mkdir, rm, writeFile } from 'node:fs/promises'
+import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
@@ -8,7 +8,6 @@ import {
   summaryFor as taxonomySummaryFor,
   usageFor as taxonomyUsageFor,
 } from './catalog-taxonomy.mjs'
-import { writeDerivedCatalog } from './catalog-derived.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -759,15 +758,7 @@ async function main() {
   }
 
   await mkdir(outputDir, { recursive: true })
-  const previousPath = path.join(outputDir, 'skills.previous.json')
-  try {
-    await copyFile(path.join(outputDir, 'skills.json'), previousPath)
-  } catch {
-    // First run has no previous snapshot; derived data will mark everything as stable.
-  }
   await writeFile(path.join(outputDir, 'skills.json'), `${JSON.stringify(data, null, 2)}\n`)
-  await writeDerivedCatalog(data, { outputDir, previousPath })
-  await rm(previousPath, { force: true })
   console.log(`Wrote ${skills.length} repositories, ${categories.length} categories and ${topicPages.length} topic pages at ${generatedAt}.`)
 }
 

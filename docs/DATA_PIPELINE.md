@@ -33,6 +33,17 @@
 7. 为每个仓库生成用户视角详情页说明：这是什么、解决什么问题、能做什么、适合谁、不适合谁、怎么开始用、注意事项。默认由本地规则生成，不调用大模型。
 8. 输出网站运行所需的 `public/data/skills.json`、`home.json`、`skills-lite.json`、分类/话题分包和每仓库 detail JSON。公开导出入口已按产品策略移除。
 
+## 运行顺序
+
+每次更新严格按以下四个阶段执行：
+
+1. 发现 GitHub 仓库并将原始快照写入 `public/data/skills.json`。
+2. 按配置选择性更新 `scripts/project-profile-overrides.json`，没有大模型配置时保持零 Token 成本。
+3. 只运行一次 `scripts/catalog-derived.mjs`，从原始快照生成首页、轻量索引、分类/话题分包、详情页和 manifest。
+4. 运行 `scripts/validate-data.mjs`，通过后才提交数据并部署 Pages。
+
+本地 `pnpm update:data` 与 GitHub Actions 使用相同的“原始快照 → 可选增强 → 单次派生”顺序，避免在抓取脚本和工作流中重复生成派生数据。
+
 ## 分类体系
 
 - UI设计
