@@ -146,14 +146,14 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (loading) return
     if (viewNeedsFullCatalog(view, deferredQuery)) void loadFullCatalog()
-  }, [deferredQuery, loadFullCatalog, view])
+  }, [deferredQuery, loadFullCatalog, loading, view])
 
   const updateQuery = (value: string) => {
     setQuery(value)
     if (value.trim()) {
       setCategory('全部')
-      void loadFullCatalog()
     }
   }
 
