@@ -1,5 +1,5 @@
 {
-  "rank": 1817,
+  "rank": 1452,
   "id": 941429098,
   "name": "ClawProBench",
   "fullName": "suyoumo/ClawProBench",
@@ -8,7 +8,7 @@
   "url": "https://github.com/suyoumo/ClawProBench",
   "homepage": "https://suyoumo.github.io/bench/",
   "description": "ClawProBench is a live-first benchmark harness for evaluating LLM agents   in the OpenClaw runtime with deterministic grading and repeated-trial   reliability.",
-  "summary": "ClawProBench：ClawProBench：ClawProBench 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ClawProBench：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/suyoumo/ClawProBench.git",
-  "language": "Python",
+  "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 820,
+  "stars": 823,
   "forks": 54,
-  "openIssues": 1,
-  "score": 85.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-28T17:00:10Z",
-  "updatedAt": "2026-07-29T11:42:37Z",
+  "openIssues": 0,
+  "score": 100.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-25T11:47:44Z",
+  "updatedAt": "2026-08-27T05:44:11Z",
   "createdAt": "2025-03-02T09:15:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ClawProBench：ClawProBench 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "ClawProBench 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,13 +76,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "cffa81026210fa15",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5dccb47d68c6c089",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ClawProBench：ClawProBench：ClawProBench 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ClawProBench：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ClawProBench 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

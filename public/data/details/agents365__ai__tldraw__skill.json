@@ -1,5 +1,5 @@
 {
-  "rank": 1491,
+  "rank": 1841,
   "id": 1171878684,
   "name": "tldraw-skill",
   "fullName": "Agents365-ai/tldraw-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Agents365-ai/tldraw-skill",
   "homepage": "https://agents365-ai.github.io/tldraw-skill/",
   "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
-  "summary": "tldraw-skill：tldraw-skill：tldraw-skill 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "tldraw-skill：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,18 +22,17 @@
   "installCommand": "git clone https://github.com/Agents365-ai/tldraw-skill.git",
   "language": "",
   "license": "MIT",
-  "stars": 102,
-  "forks": 7,
-  "openIssues": 1,
-  "score": 96.2,
-  "activity": "本月活跃",
+  "stars": 124,
+  "forks": 8,
+  "openIssues": 0,
+  "score": 86.1,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-16T11:00:05Z",
-  "updatedAt": "2026-07-30T01:45:20Z",
+  "updatedAt": "2026-08-28T06:18:59Z",
   "createdAt": "2026-03-03T17:54:02Z",
   "sourceTopics": [
     "claude-code-skill",
     "openclaw-skills",
-    "skill-md",
     "skillsmp"
   ],
   "discoveredBy": [
@@ -70,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "tldraw-skill：tldraw-skill 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "tldraw-skill 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -89,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "08293b31754ec77e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0c8c9d76afbee024",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tldraw-skill：tldraw-skill：tldraw-skill 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "tldraw-skill：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "tldraw-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

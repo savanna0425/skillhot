@@ -8,7 +8,7 @@
   "url": "https://github.com/koala73/worldmonitor",
   "homepage": "https://worldmonitor.app",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "summary": "worldmonitor：worldmonitor：worldmonitor：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "worldmonitor：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "高",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/koala73/worldmonitor.git\ncd worldmonitor\nnpm install",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 76575,
-  "forks": 11436,
-  "openIssues": 273,
-  "score": 147.2,
+  "license": "AGPL-3.0",
+  "stars": 84758,
+  "forks": 12732,
+  "openIssues": 353,
+  "score": 148.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:40:27Z",
-  "updatedAt": "2026-07-30T03:29:44Z",
+  "pushedAt": "2026-08-29T12:49:12Z",
+  "updatedAt": "2026-08-29T12:53:39Z",
   "createdAt": "2026-01-08T17:26:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "worldmonitor：worldmonitor：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "worldmonitor：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -79,16 +79,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d8f221b139636114",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e1de0858336244e0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "worldmonitor：worldmonitor：worldmonitor：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "worldmonitor：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "worldmonitor 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -129,7 +129,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

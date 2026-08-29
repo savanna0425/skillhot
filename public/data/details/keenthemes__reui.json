@@ -1,5 +1,5 @@
 {
-  "rank": 771,
+  "rank": 1059,
   "id": 940022909,
   "name": "reui",
   "fullName": "keenthemes/reui",
@@ -8,7 +8,7 @@
   "url": "https://github.com/keenthemes/reui",
   "homepage": "https://reui.io",
   "description": "Design-forward shadcn kit for interfaces that stand out. 1000+ free patterns!",
-  "summary": "reui：reui：reui 帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "reui：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx shadcn@latest add @reui/c-button-10\nnpx shadcn@latest add @reui/c-data-grid-9\nnpx shadcn@latest add @reui/c-filters-5",
+  "installCommand": "git clone https://github.com/keenthemes/reui.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3184,
-  "forks": 137,
-  "openIssues": 29,
-  "score": 114.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-25T20:26:20Z",
-  "updatedAt": "2026-07-29T17:51:16Z",
+  "stars": 3401,
+  "forks": 148,
+  "openIssues": 40,
+  "score": 107.8,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-20T05:19:44Z",
+  "updatedAt": "2026-08-29T09:44:49Z",
   "createdAt": "2025-02-27T13:44:53Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,6 +49,7 @@
     "tailwind-css",
     "tailwindcss-v4",
     "tanstack",
+    "tanstack-table",
     "typescript",
     "ui-blocks",
     "ui-components"
@@ -67,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "reui：reui 帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "reui 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -86,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6b200bc3639ef826",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c68a2e449e822122",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reui：reui：reui 帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "reui：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "reui 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

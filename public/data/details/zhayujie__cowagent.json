@@ -1,5 +1,5 @@
 {
-  "rank": 27,
+  "rank": 33,
   "id": 522158088,
   "name": "CowAgent",
   "fullName": "zhayujie/CowAgent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zhayujie/CowAgent",
   "homepage": "https://cowagent.ai",
   "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
-  "summary": "CowAgent：CowAgent：支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "CowAgent：支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/zhayujie/CowAgent.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 46203,
-  "forks": 10286,
-  "openIssues": 25,
-  "score": 154,
+  "stars": 46718,
+  "forks": 10328,
+  "openIssues": 42,
+  "score": 154.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T07:13:35Z",
-  "updatedAt": "2026-07-30T03:04:29Z",
+  "pushedAt": "2026-08-27T11:39:32Z",
+  "updatedAt": "2026-08-29T12:19:40Z",
   "createdAt": "2022-08-07T08:33:41Z",
   "sourceTopics": [
     "skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "CowAgent：支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness",
     "useCases": [
       "个人 AI 助手",
       "多渠道机器人",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "83787d928afdd2d4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1648af183b51f881",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "CowAgent：CowAgent：支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "CowAgent：支持 Skills、记忆与多渠道接入的轻量开源 Agent Harness。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "CowAgent 可以先理解为一个「Agent 工具或运行平台」。它围绕「个人 AI 助手」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

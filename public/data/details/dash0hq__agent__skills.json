@@ -1,5 +1,5 @@
 {
-  "rank": 1716,
+  "rank": 1939,
   "id": 1165452450,
   "name": "agent-skills",
   "fullName": "dash0hq/agent-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dash0hq/agent-skills",
   "homepage": "",
   "description": "OpenTelemetry skills and reference documentation for AI coding assistants - instrumentation patterns, telemetry quality guides, and Dash0 integration ",
-  "summary": "agent-skills：agent-skills：agent-skills 用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "agent-skills：用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/dash0hq/agent-skills.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 79,
-  "forks": 11,
-  "openIssues": 28,
-  "score": 88.8,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-29T13:20:48Z",
-  "updatedAt": "2026-07-29T13:19:22Z",
+  "stars": 87,
+  "forks": 12,
+  "openIssues": 3,
+  "score": 82.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-07T15:51:33Z",
+  "updatedAt": "2026-08-26T11:35:45Z",
   "createdAt": "2026-02-24T07:17:47Z",
   "sourceTopics": [
     "ai-skills"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-skills：agent-skills 用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "agent-skills 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -85,13 +85,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f1c09049c96f0266",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d11e3c961f40a91b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skills：agent-skills：agent-skills 用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "agent-skills：用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "agent-skills 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

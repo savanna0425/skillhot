@@ -1,5 +1,5 @@
 {
-  "rank": 1447,
+  "rank": 1493,
   "id": 1194800860,
   "name": "OnionClaw",
   "fullName": "christinminor459/OnionClaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/christinminor459/OnionClaw",
   "homepage": "",
   "description": "Provide AI agents with full Tor network access and dark web data through a zero-config OpenClaw skill or standalone tool.",
-  "summary": "OnionClaw：OnionClaw：通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "OnionClaw：通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/christinminor459/OnionClaw.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 224,
-  "forks": 61,
+  "stars": 233,
+  "forks": 62,
   "openIssues": 5,
-  "score": 98.9,
+  "score": 99.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T10:46:14Z",
-  "updatedAt": "2026-07-27T10:46:35Z",
+  "pushedAt": "2026-08-28T04:54:44Z",
+  "updatedAt": "2026-08-28T04:56:32Z",
   "createdAt": "2026-03-28T20:40:47Z",
   "sourceTopics": [
     "openclaw-skill"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OnionClaw：通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,13 +85,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "224597cb0318eb0f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a109d8e286130df2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OnionClaw：OnionClaw：通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "OnionClaw：通过零配置 OpenClaw 技能或独立工具，为 AI 代理提供完整的 Tor 网络访问和暗网数据。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "OnionClaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

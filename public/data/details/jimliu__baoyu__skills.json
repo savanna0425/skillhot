@@ -1,5 +1,5 @@
 {
-  "rank": 33,
+  "rank": 92,
   "id": 1133207146,
   "name": "baoyu-skills",
   "fullName": "JimLiu/baoyu-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/JimLiu/baoyu-skills",
   "homepage": "",
   "description": "",
-  "summary": "baoyu-skills：baoyu-skills：覆盖图文、网页与内容生产的一组实用 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "baoyu-skills：覆盖图文、网页与内容生产的一组实用 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add jimliu/baoyu-skills",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 24329,
-  "forks": 2705,
-  "openIssues": 5,
-  "score": 152.3,
-  "activity": "本月活跃",
+  "stars": 25452,
+  "forks": 2825,
+  "openIssues": 16,
+  "score": 144.7,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-04T16:25:18Z",
-  "updatedAt": "2026-07-30T02:57:31Z",
+  "updatedAt": "2026-08-29T12:09:36Z",
   "createdAt": "2026-01-13T03:04:56Z",
   "sourceTopics": [
     "agent-skills",
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "baoyu-skills：覆盖图文、网页与内容生产的一组实用 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "覆盖图文、网页与内容生产的一组实用 Agent Skills",
     "useCases": [
       "图文创作",
       "网页内容",
@@ -83,13 +83,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "19b09339d2dcb66d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c082b3c3161789dc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "baoyu-skills：baoyu-skills：覆盖图文、网页与内容生产的一组实用 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "baoyu-skills：覆盖图文、网页与内容生产的一组实用 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "baoyu-skills 可以先理解为一个「内容生产辅助项目」。它围绕「图文创作」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

@@ -1,5 +1,5 @@
 {
-  "rank": 263,
+  "rank": 276,
   "id": 676829188,
   "name": "deepeval",
   "fullName": "confident-ai/deepeval",
@@ -8,7 +8,7 @@
   "url": "https://github.com/confident-ai/deepeval",
   "homepage": "https://deepeval.com",
   "description": "The LLM Evaluation Framework",
-  "summary": "deepeval：deepeval：LLM 评估框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "deepeval：LLM 评估框架。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install -U deepeval",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 17269,
-  "forks": 1738,
-  "openIssues": 413,
-  "score": 131.7,
+  "stars": 17950,
+  "forks": 1871,
+  "openIssues": 493,
+  "score": 132.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T13:38:17Z",
-  "updatedAt": "2026-07-30T03:21:22Z",
+  "pushedAt": "2026-08-29T10:06:44Z",
+  "updatedAt": "2026-08-29T12:17:48Z",
   "createdAt": "2023-08-10T05:35:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "deepeval：LLM 评估框架。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "LLM 评估框架",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -75,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "490c5474a08488cf",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d44d3c2290aff967",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deepeval：deepeval：LLM 评估框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "deepeval：LLM 评估框架。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "deepeval 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

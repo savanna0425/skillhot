@@ -1,5 +1,5 @@
 {
-  "rank": 548,
+  "rank": 1060,
   "id": 1135169266,
   "name": "terraform-skill",
   "fullName": "antonbabenko/terraform-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/antonbabenko/terraform-skill",
   "homepage": "",
   "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-  "summary": "terraform-skill：terraform-skill：Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "terraform-skill：Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,19 +19,18 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add https://github.com/antonbabenko/terraform-skill",
+  "installCommand": "git clone https://github.com/antonbabenko/terraform-skill.git",
   "language": "",
   "license": "NOASSERTION",
-  "stars": 2224,
-  "forks": 197,
-  "openIssues": 2,
-  "score": 119.4,
-  "activity": "本月活跃",
+  "stars": 2313,
+  "forks": 204,
+  "openIssues": 3,
+  "score": 107.8,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-03T05:56:41Z",
-  "updatedAt": "2026-07-29T23:38:59Z",
+  "updatedAt": "2026-08-29T11:46:04Z",
   "createdAt": "2026-01-15T18:26:37Z",
   "sourceTopics": [
-    "agent-skills",
     "claude-skills"
   ],
   "discoveredBy": [
@@ -50,12 +49,7 @@
     "testing"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "terraform-skill：Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,13 +81,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "1cfbf5c69e0084c4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "889c0b4b17b1aa8a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "terraform-skill：terraform-skill：Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "terraform-skill：Terraform & OpenTofu Skill for AI Agents - 测试、模块、CI/CD 及生产模式。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "terraform-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -111,7 +105,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1055,
+  "rank": 1131,
   "id": 324254942,
   "name": "nativelink",
   "fullName": "TraceMachina/nativelink",
@@ -8,7 +8,7 @@
   "url": "https://github.com/TraceMachina/nativelink",
   "homepage": "https://nativelink.com",
   "description": "NativeLink is a Nix-powered, open source, high-performance build cache and remote execution server, compatible with Bazel, Soong, Pants, Buck2, Reclient, and other RE-compatible build systems. It offers drastically faster builds, reduced test flakiness, and support for specialized hardware.",
-  "summary": "nativelink：nativelink：NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "nativelink：是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/TraceMachina/nativelink.git",
   "language": "Rust",
   "license": "NOASSERTION",
-  "stars": 1566,
-  "forks": 224,
-  "openIssues": 131,
-  "score": 106.7,
+  "stars": 1581,
+  "forks": 236,
+  "openIssues": 143,
+  "score": 106.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T18:38:55Z",
-  "updatedAt": "2026-07-29T21:51:32Z",
+  "pushedAt": "2026-08-29T06:30:21Z",
+  "updatedAt": "2026-08-29T02:10:21Z",
   "createdAt": "2020-12-24T23:55:21Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nativelink：NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,13 +85,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ee66a44b9973e39c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "53acd157cecb336f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nativelink：nativelink：NativeLink 是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "nativelink：是一款基于 Nix 的开源高性能构建缓存与远程执行服务器，兼容 Bazel、Soong、Pants、Buck2、Reclient 等支持远程执行（RE）的构建系统。它能显著加快构建速度、降低测试不稳定性，并支持特化硬件。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "nativelink 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1702,
+  "rank": 1757,
   "id": 1077018045,
   "name": "claude-plugins",
   "fullName": "2389-research/claude-plugins",
@@ -8,7 +8,7 @@
   "url": "https://github.com/2389-research/claude-plugins",
   "homepage": "https://2389-research.github.io/claude-plugins/",
   "description": "28 plugins and MCP servers for Claude Code — TDD, multi-agent orchestration, iterative refinement, binary RE, structured decisions. Install any skill in one command.",
-  "summary": "claude-plugins：claude-plugins：claude-plugins 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "claude-plugins：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/2389-research/claude-plugins.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 86,
+  "stars": 92,
   "forks": 6,
-  "openIssues": 2,
-  "score": 89.6,
+  "openIssues": 1,
+  "score": 90.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T07:22:23Z",
-  "updatedAt": "2026-07-29T07:22:52Z",
+  "pushedAt": "2026-08-26T06:40:11Z",
+  "updatedAt": "2026-08-27T15:50:04Z",
   "createdAt": "2025-10-15T16:54:23Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-plugins：claude-plugins 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "claude-plugins 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4dd16cf426a4b59f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c9f8d0169c36662a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-plugins：claude-plugins：claude-plugins 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "claude-plugins：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-plugins 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

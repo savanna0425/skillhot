@@ -1,5 +1,5 @@
 {
-  "rank": 456,
+  "rank": 477,
   "id": 1150883518,
   "name": "clawsec",
   "fullName": "prompt-security/clawsec",
@@ -8,7 +8,7 @@
   "url": "https://github.com/prompt-security/clawsec",
   "homepage": "https://prompt.security/clawsec",
   "description": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents (and variants). Protect your SOUL.md (etc') with drift detection, live security recommendations, automated audits, and skill integrity verification. All from one installable suite.",
-  "summary": "clawsec：clawsec：OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "clawsec：OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx clawhub@latest install clawsec-suite",
+  "installCommand": "npx skills add prompt-security/clawsec --skill clawsec-suite -a openclaw --global -y",
   "language": "JavaScript",
   "license": "AGPL-3.0",
-  "stars": 1074,
-  "forks": 114,
-  "openIssues": 33,
-  "score": 122.8,
+  "stars": 1094,
+  "forks": 113,
+  "openIssues": 38,
+  "score": 123,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T06:52:37Z",
-  "updatedAt": "2026-07-29T09:21:45Z",
+  "pushedAt": "2026-08-29T06:08:06Z",
+  "updatedAt": "2026-08-29T00:13:50Z",
   "createdAt": "2026-02-05T19:59:46Z",
   "sourceTopics": [
     "openclaw-skills",
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "clawsec：OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -92,13 +92,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6d2b3c98ce6704f7",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5f3aeba53bbfa8b5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "clawsec：clawsec：OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "clawsec：OpenClaw, Hermes, PicoClaw 和 NanoClaw 代理（及变体）的完整安全技能套件。通过漂移检测、实时安全建议、自动化审计和技能验证，全方位保护您的 SOUL.md（等）文件。所有功能皆出自一个可安装套件。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "clawsec 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

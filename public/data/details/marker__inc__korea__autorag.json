@@ -1,5 +1,5 @@
 {
-  "rank": 574,
+  "rank": 591,
   "id": 741450201,
   "name": "AutoRAG",
   "fullName": "Marker-Inc-Korea/AutoRAG",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
   "homepage": "https://marker-inc-korea.github.io/AutoRAG/",
   "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
-  "summary": "AutoRAG：AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "AutoRAG：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Marker-Inc-Korea/AutoRAG.git",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 4959,
-  "forks": 419,
-  "openIssues": 123,
-  "score": 118.7,
+  "stars": 5057,
+  "forks": 433,
+  "openIssues": 127,
+  "score": 118.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T14:46:47Z",
-  "updatedAt": "2026-07-29T18:40:34Z",
+  "pushedAt": "2026-08-29T00:01:13Z",
+  "updatedAt": "2026-08-29T04:13:18Z",
   "createdAt": "2024-01-10T12:25:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,8 @@
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Cursor",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "summary": "AutoRAG 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -88,13 +89,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "70ceb3c4ef380ed8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9c7be9868db9a90d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AutoRAG：AutoRAG：AutoRAG 提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "AutoRAG：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "AutoRAG 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -112,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

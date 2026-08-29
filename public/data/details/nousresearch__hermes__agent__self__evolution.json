@@ -1,5 +1,5 @@
 {
-  "rank": 845,
+  "rank": 866,
   "id": 1176753219,
   "name": "hermes-agent-self-evolution",
   "fullName": "NousResearch/hermes-agent-self-evolution",
@@ -8,7 +8,7 @@
   "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
   "homepage": "",
   "description": "⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA",
-  "summary": "hermes-agent-self-evolution：hermes-agent-self-evolution：⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "hermes-agent-self-evolution：⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/NousResearch/hermes-agent-self-evolution.git\ncd hermes-agent-self-evolution\npip install -e \".[dev]\"",
+  "installCommand": "git clone https://github.com/NousResearch/hermes-agent-self-evolution.git",
   "language": "Python",
   "license": "",
-  "stars": 4848,
-  "forks": 558,
-  "openIssues": 102,
-  "score": 111.5,
+  "stars": 5190,
+  "forks": 607,
+  "openIssues": 120,
+  "score": 112.2,
   "activity": "近期活跃",
   "pushedAt": "2026-06-17T11:53:04Z",
-  "updatedAt": "2026-07-30T02:17:10Z",
+  "updatedAt": "2026-08-29T04:36:55Z",
   "createdAt": "2026-03-09T10:42:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,8 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -50,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hermes-agent-self-evolution：⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -69,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "48d7c5434303a094",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9d822baca6070b6f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hermes-agent-self-evolution：hermes-agent-self-evolution：⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "hermes-agent-self-evolution：⚒ Hermes Agent：基于 DSPy 和 GEPA 的演化式自我改进，优化技能、提示词与代码。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "hermes-agent-self-evolution 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -93,7 +92,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

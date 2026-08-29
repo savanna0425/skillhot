@@ -1,5 +1,5 @@
 {
-  "rank": 644,
+  "rank": 631,
   "id": 1169560166,
   "name": "obsidian-mind",
   "fullName": "breferrari/obsidian-mind",
@@ -8,7 +8,7 @@
   "url": "https://github.com/breferrari/obsidian-mind",
   "homepage": "",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI.",
-  "summary": "obsidian-mind：obsidian-mind：obsidian-mind 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "obsidian-mind：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g shardmind\nmkdir my-vault && cd my-vault\nshardmind install github:breferrari/obsidian-mind",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4125,
-  "forks": 490,
-  "openIssues": 2,
-  "score": 116.8,
+  "stars": 4573,
+  "forks": 527,
+  "openIssues": 6,
+  "score": 117.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T10:48:45Z",
-  "updatedAt": "2026-07-30T03:32:34Z",
+  "pushedAt": "2026-08-24T10:57:37Z",
+  "updatedAt": "2026-08-29T10:25:57Z",
   "createdAt": "2026-02-28T21:41:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "obsidian-mind：obsidian-mind 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "obsidian-mind 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "8d64700bd63c7acd",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "99c3593cb060aa12",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-mind：obsidian-mind：obsidian-mind 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "obsidian-mind：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "obsidian-mind 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

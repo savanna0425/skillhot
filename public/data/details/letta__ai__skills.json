@@ -1,5 +1,5 @@
 {
-  "rank": 1867,
+  "rank": 2051,
   "id": 1095344405,
   "name": "skills",
   "fullName": "letta-ai/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/letta-ai/skills",
   "homepage": "https://docs.letta.com/letta-code/skills",
   "description": "A shared repository for skills. Intended to be used with Letta Code, Claude Code, Codex CLI, and other agents that support skills.",
-  "summary": "skills：skills：skills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/letta-ai/skills.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 132,
-  "forks": 21,
-  "openIssues": 12,
-  "score": 82.7,
-  "activity": "本月活跃",
+  "stars": 140,
+  "forks": 20,
+  "openIssues": 9,
+  "score": 75.2,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-03T23:41:49Z",
-  "updatedAt": "2026-07-26T04:59:55Z",
+  "updatedAt": "2026-08-22T22:56:03Z",
   "createdAt": "2025-11-12T23:31:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：skills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "skills 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,13 +69,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f6b3e2f3dd11612a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "10de6838c031fe70",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：skills 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

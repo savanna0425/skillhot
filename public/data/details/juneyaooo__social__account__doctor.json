@@ -1,5 +1,5 @@
 {
-  "rank": 1902,
+  "rank": 1925,
   "id": 1216839751,
   "name": "social-account-doctor",
   "fullName": "JuneYaooo/social-account-doctor",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/60815510?v=4",
   "url": "https://github.com/JuneYaooo/social-account-doctor",
   "homepage": "",
-  "description": "小红书 / 抖音 / 快手 / 视频号 / B 站 自媒体账号体检工具 —          扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看,顺手给可粘贴的仿写初稿。Claude Code     skill。",
-  "summary": "social-account-doctor：social-account-doctor：小红书 / 抖音 / 快手 / 视频号 / B 站 自媒体账号体检工具 — 扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看,顺手给可粘贴的仿写初稿。Claude Code skill。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
-  "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "description": "小红书/抖音/快手/视频号/B站 自媒体账号体检+爆款拆解工具。扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看，顺手出可粘贴仿写初稿。支持带货电商模式。支持codex, claude code, workbuddy",
+  "summary": "social-account-doctor：小红书/抖音/快手/视频号/B站 自媒体账号体检+爆款拆解工具。扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看，顺手出可粘贴仿写初稿。支持带货电商模式。支持codex, claude code, workbuddy。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/JuneYaooo/social-account-doctor.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 162,
-  "forks": 25,
+  "stars": 210,
+  "forks": 34,
   "openIssues": 0,
-  "score": 80.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-21T13:19:59Z",
-  "updatedAt": "2026-07-29T07:06:10Z",
+  "score": 83.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-15T03:19:57Z",
+  "updatedAt": "2026-08-29T04:27:20Z",
   "createdAt": "2026-04-21T09:30:44Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -37,11 +37,20 @@
     "GitHub Topics"
   ],
   "repoTopics": [
+    "ai-agent",
+    "ai-agents",
     "claude-code-skills",
-    "skills"
+    "content-analytics",
+    "copywriting",
+    "douyin",
+    "e-commerce",
+    "skills",
+    "social-media-tools",
+    "xiaohongshu"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -54,70 +63,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "social-account-doctor：小红书 / 抖音 / 快手 / 视频号 / B 站 自媒体账号体检工具 — 扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看,顺手给可粘贴的仿写初稿。Claude Code skill。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "小红书/抖音/快手/视频号/B站 自媒体账号体检+爆款拆解工具。扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看，顺手出可粘贴仿写初稿。支持带货电商模式。支持codex, claude code, workbuddy",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "296dc14f61f49c29",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c3f37e4fc7f05dd9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "social-account-doctor：social-account-doctor：小红书 / 抖音 / 快手 / 视频号 / B 站 自媒体账号体检工具 — 扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看,顺手给可粘贴的仿写初稿。Claude Code skill。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "social-account-doctor 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "social-account-doctor：小红书/抖音/快手/视频号/B站 自媒体账号体检+爆款拆解工具。扫同赛道找对标、拆爆款为什么爆、诊断为什么没人看，顺手出可粘贴仿写初稿。支持带货电商模式。支持codex, claude code, workbuddy。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "social-account-doctor 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

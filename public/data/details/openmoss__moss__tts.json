@@ -1,5 +1,5 @@
 {
-  "rank": 662,
+  "rank": 1309,
   "id": 1152193330,
   "name": "MOSS-TTS",
   "fullName": "OpenMOSS/MOSS-TTS",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenMOSS/MOSS-TTS",
   "homepage": "https://mosi.cn/models/moss-tts",
   "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
-  "summary": "MOSS-TTS：MOSS-TTS：MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "MOSS-TTS：家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "sudo apt-get install -y ffmpeg\nbrew install ffmpeg",
+  "installCommand": "git clone https://github.com/OpenMOSS/MOSS-TTS.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3927,
-  "forks": 349,
-  "openIssues": 13,
-  "score": 116.3,
-  "activity": "本周活跃",
+  "stars": 4039,
+  "forks": 366,
+  "openIssues": 17,
+  "score": 101.6,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-26T11:27:15Z",
-  "updatedAt": "2026-07-30T03:34:07Z",
+  "updatedAt": "2026-08-28T18:08:13Z",
   "createdAt": "2026-02-07T14:05:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -43,8 +43,7 @@
     "voice-cloning"
   ],
   "platforms": [
-    "Gemini CLI",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -57,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "MOSS-TTS：MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -76,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "966f6332f20efe2c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "f541144b9fb1ede1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "MOSS-TTS：MOSS-TTS：MOSS-TTS 家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "MOSS-TTS：家族是 MOSI.AI 和 OpenMOSS 团队开发的开源语音与声音生成模型家族，旨在实现高保真、高表现力及复杂现实场景下的语音合成，涵盖稳定长时语音、多说话人对话、角色设计、环境音效以及实时流式 TTS。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "MOSS-TTS 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -100,7 +99,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

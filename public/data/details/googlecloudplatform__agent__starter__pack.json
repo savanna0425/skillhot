@@ -1,5 +1,5 @@
 {
-  "rank": 745,
+  "rank": 1143,
   "id": 925298844,
   "name": "agent-starter-pack",
   "fullName": "GoogleCloudPlatform/agent-starter-pack",
@@ -8,7 +8,7 @@
   "url": "https://github.com/GoogleCloudPlatform/agent-starter-pack",
   "homepage": "http://goo.gle/agents-cli",
   "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
-  "summary": "agent-starter-pack：agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "python -m venv .venv && source .venv/bin/activate\npip install --upgrade agent-starter-pack\nagent-starter-pack create",
+  "installCommand": "git clone https://github.com/GoogleCloudPlatform/agent-starter-pack.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6532,
-  "forks": 1498,
+  "stars": 6548,
+  "forks": 1503,
   "openIssues": 49,
-  "score": 114.6,
-  "activity": "本月活跃",
+  "score": 106.6,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-21T23:42:40Z",
-  "updatedAt": "2026-07-29T13:01:16Z",
+  "updatedAt": "2026-08-28T20:12:31Z",
   "createdAt": "2025-01-31T16:03:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,22 +45,20 @@
     "observability"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/GoogleCloudPlatform/agent-starter-pack",
-    "videoUrl": "https://youtu.be/jHt-ZVD660g"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/GoogleCloudPlatform/agent-starter-pack#readme",
   "detailPath": "data/details/googlecloudplatform__agent__starter__pack.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "de55f02875791947",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1d008276a1a166d0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-starter-pack：agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "agent-starter-pack 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -103,7 +101,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

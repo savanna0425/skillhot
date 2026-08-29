@@ -1,14 +1,14 @@
 {
-  "rank": 398,
+  "rank": 357,
   "id": 1174224707,
   "name": "avoid-ai-writing",
   "fullName": "conorbronsdon/avoid-ai-writing",
   "owner": "conorbronsdon",
   "avatarUrl": "https://avatars.githubusercontent.com/u/120674402?v=4",
   "url": "https://github.com/conorbronsdon/avoid-ai-writing",
-  "homepage": "https://www.chainofthought.show/",
-  "description": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, and Hermes.",
-  "summary": "avoid-ai-writing：avoid-ai-writing：能审计并改写内容以去除 AI 写作模式。可与您的 favorite agents 一起使用，包括 Claude Code、OpenClaw 和 Hermes。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "homepage": "https://chainofthought.show/go/avoid-ai-writing",
+  "description": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, Codex, and Hermes.",
+  "summary": "avoid-ai-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,23 +19,24 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/conorbronsdon/avoid-ai-writing ~/.claude/skills/avoid-ai-writing",
+  "installCommand": "npx skills@1.5.23 add conorbronsdon/avoid-ai-writing",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2684,
-  "forks": 247,
-  "openIssues": 5,
-  "score": 124.3,
+  "stars": 3709,
+  "forks": 322,
+  "openIssues": 23,
+  "score": 127.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:28:58Z",
-  "updatedAt": "2026-07-30T02:28:53Z",
+  "pushedAt": "2026-08-29T04:15:37Z",
+  "updatedAt": "2026-08-29T12:42:00Z",
   "createdAt": "2026-03-06T07:47:40Z",
   "sourceTopics": [
     "skill"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索"
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "ai-writing",
@@ -64,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "avoid-ai-writing：能审计并改写内容以去除 AI 写作模式。可与您的 favorite agents 一起使用，包括 Claude Code、OpenClaw 和 Hermes。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "avoid-ai-writing：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -83,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "74762b7b873508b4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ad255836fc9b5f67",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "avoid-ai-writing：avoid-ai-writing：能审计并改写内容以去除 AI 写作模式。可与您的 favorite agents 一起使用，包括 Claude Code、OpenClaw 和 Hermes。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "avoid-ai-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "avoid-ai-writing 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

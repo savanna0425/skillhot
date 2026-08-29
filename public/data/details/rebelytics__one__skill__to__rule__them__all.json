@@ -1,5 +1,5 @@
 {
-  "rank": 606,
+  "rank": 319,
   "id": 1158692577,
   "name": "one-skill-to-rule-them-all",
   "fullName": "rebelytics/one-skill-to-rule-them-all",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/261660926?v=4",
   "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
   "homepage": "https://www.rebelytics.com/task-observer/",
-  "description": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions, captures corrections and judgement calls, and turns them into skill improvements automatically. Practical application of the Augmented Expertise methodology. Open-source, domain-agnostic, CC BY 4.0.",
-  "summary": "one-skill-to-rule-them-all：one-skill-to-rule-them-all：one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonomous or human-led), captures patterns, corrections and judgement calls, and turns them into skill improvements and new skill candidates for your review. Practical application of the Augmented Expertise methodology. Open source: CC BY 4.0.",
+  "summary": "one-skill-to-rule-them-all：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "高",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
   "installCommand": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git",
-  "language": "",
+  "language": "Python",
   "license": "CC-BY-4.0",
-  "stars": 1296,
-  "forks": 128,
-  "openIssues": 9,
-  "score": 117.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-17T09:48:22Z",
-  "updatedAt": "2026-07-29T22:12:26Z",
+  "stars": 2150,
+  "forks": 219,
+  "openIssues": 20,
+  "score": 130,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T12:19:19Z",
+  "updatedAt": "2026-08-29T12:42:40Z",
   "createdAt": "2026-02-15T19:18:12Z",
   "sourceTopics": [
     "skill",
@@ -67,7 +67,7 @@
     "Gemini CLI",
     "OpenClaw"
   ],
-  "skillCount": 50,
+  "skillCount": 70,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/rebelytics/one-skill-to-rule-them-all",
@@ -78,7 +78,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "one-skill-to-rule-them-all：one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -97,13 +97,13 @@
       "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0be06276369e1948",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "523cdb44e6214326",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "one-skill-to-rule-them-all：one-skill-to-rule-them-all：one-skill-to-rule-them-all 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "one-skill-to-rule-them-all：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "one-skill-to-rule-them-all 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -131,7 +131,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "仓库信息显示它包含 50+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 70+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

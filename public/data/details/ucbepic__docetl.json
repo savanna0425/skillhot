@@ -1,5 +1,5 @@
 {
-  "rank": 890,
+  "rank": 927,
   "id": 826111692,
   "name": "docetl",
   "fullName": "ucbepic/docetl",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ucbepic/docetl",
   "homepage": "https://docetl.org",
   "description": "A system for agentic LLM-powered data processing and ETL",
-  "summary": "docetl：docetl：一个支持代理式大语言模型驱动的数据处理和 ETL 系统。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "docetl：一个支持代理式大语言模型驱动的数据处理和 ETL 系统。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ucbepic/docetl.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3950,
-  "forks": 420,
-  "openIssues": 44,
-  "score": 109.3,
+  "stars": 4026,
+  "forks": 432,
+  "openIssues": 45,
+  "score": 109.5,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-21T12:10:22Z",
-  "updatedAt": "2026-07-29T11:42:21Z",
+  "pushedAt": "2026-08-10T15:00:22Z",
+  "updatedAt": "2026-08-29T12:42:40Z",
   "createdAt": "2024-07-09T05:57:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "docetl：一个支持代理式大语言模型驱动的数据处理和 ETL 系统。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "一个支持代理式大语言模型驱动的数据处理和 ETL 系统",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -82,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d7aad284eb5a57c0",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e2a526033501d507",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "docetl：docetl：一个支持代理式大语言模型驱动的数据处理和 ETL 系统。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "docetl：一个支持代理式大语言模型驱动的数据处理和 ETL 系统。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "docetl 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

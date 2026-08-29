@@ -1,5 +1,5 @@
 {
-  "rank": 306,
+  "rank": 196,
   "id": 793784055,
   "name": "timesfm",
   "fullName": "google-research/timesfm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/google-research/timesfm",
   "homepage": "https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/",
   "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-  "summary": "timesfm：timesfm：TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "timesfm：TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install timesfm[torch]\npip install timesfm[flax]\npip install timesfm[xreg]",
+  "installCommand": "pip install timesfm[torch]",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 27148,
-  "forks": 2631,
-  "openIssues": 220,
-  "score": 129.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-14T03:27:18Z",
-  "updatedAt": "2026-07-30T03:05:51Z",
+  "stars": 28303,
+  "forks": 2768,
+  "openIssues": 224,
+  "score": 136.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T23:42:49Z",
+  "updatedAt": "2026-08-29T11:45:10Z",
   "createdAt": "2024-04-29T21:26:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "timesfm：TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -69,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "9aaf674a426f0f03",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d1434dd0b5021bb7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "timesfm：timesfm：TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "timesfm：TimesFM（时间序列基础模型）是由 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "timesfm 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

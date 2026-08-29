@@ -1,5 +1,5 @@
 {
-  "rank": 514,
+  "rank": 520,
   "id": 966386486,
   "name": "LiteRT-LM",
   "fullName": "google-ai-edge/LiteRT-LM",
@@ -8,7 +8,7 @@
   "url": "https://github.com/google-ai-edge/LiteRT-LM",
   "homepage": "https://ai.google.dev/edge/litert-lm",
   "description": "LiteRT-LM is Google's production-ready, high-performance, open-source inference framework for deploying Large Language Models on edge devices.",
-  "summary": "LiteRT-LM：LiteRT-LM：LiteRT-LM 是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "LiteRT-LM：是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install litert-lm\nlitert-lm run \\\n--from-huggingface-repo=google/gemma-3n-E2B-it-litert-lm \\",
   "language": "C++",
   "license": "Apache-2.0",
-  "stars": 6052,
-  "forks": 656,
-  "openIssues": 490,
-  "score": 120.8,
+  "stars": 6316,
+  "forks": 701,
+  "openIssues": 619,
+  "score": 121.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:14:36Z",
-  "updatedAt": "2026-07-30T03:14:43Z",
+  "pushedAt": "2026-08-29T09:31:00Z",
+  "updatedAt": "2026-08-29T08:00:30Z",
   "createdAt": "2025-04-14T21:00:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "LiteRT-LM：LiteRT-LM 是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "LiteRT-LM 是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,13 +72,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "54adba017a5d7ca1",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "949c64785fcc5806",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "LiteRT-LM：LiteRT-LM：LiteRT-LM 是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "LiteRT-LM：是 Google 生产就绪、高性能、开源的用于在边缘设备上部署大型语言模型的推理框架。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "LiteRT-LM 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

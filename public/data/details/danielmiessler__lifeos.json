@@ -1,5 +1,5 @@
 {
-  "rank": 266,
+  "rank": 381,
   "id": 1052845083,
   "name": "LifeOS",
   "fullName": "danielmiessler/LifeOS",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/50654?v=4",
   "url": "https://github.com/danielmiessler/LifeOS",
   "homepage": "https://ourlifeos.ai",
-  "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
-  "summary": "LifeOS：LifeOS：LifeOS 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "⛰️ The Life Operating System — an intent engineering platform that moves you from your current state to your ideal state, in life and work.",
+  "summary": "LifeOS：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/danielmiessler/LifeOS.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 17079,
-  "forks": 2311,
-  "openIssues": 28,
-  "score": 131.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-23T21:54:29Z",
-  "updatedAt": "2026-07-30T03:31:02Z",
+  "stars": 18783,
+  "forks": 2440,
+  "openIssues": 104,
+  "score": 125.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-14T21:46:25Z",
+  "updatedAt": "2026-08-29T11:44:24Z",
   "createdAt": "2025-09-08T16:18:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "LifeOS：LifeOS 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "LifeOS 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d0a35937a300a920",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e66e1cd81cfca400",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "LifeOS：LifeOS：LifeOS 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "LifeOS：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "LifeOS 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

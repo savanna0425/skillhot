@@ -1,5 +1,5 @@
 {
-  "rank": 1440,
+  "rank": 824,
   "id": 77023811,
   "name": "browser-control",
   "fullName": "keon/browser-control",
@@ -8,7 +8,7 @@
   "url": "https://github.com/keon/browser-control",
   "homepage": "",
   "description": "A tiny, fast Rust CLI that drives a real browser over the Chrome DevTools Protocol — built for coding agents.",
-  "summary": "browser-control：browser-control：一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "browser-control：一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/keon/browser-control.git",
+  "installCommand": "git clone git@github.com:keon/browser-control.git\ncd browser-control\nrustup toolchain install      # installs the version pinned in rust-toolchain.toml",
   "language": "Rust",
   "license": "MIT",
-  "stars": 3123,
-  "forks": 208,
+  "stars": 3134,
+  "forks": 209,
   "openIssues": 0,
-  "score": 98.9,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-21T03:49:08Z",
-  "updatedAt": "2026-07-28T20:16:01Z",
+  "score": 113.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-27T06:44:30Z",
+  "updatedAt": "2026-08-28T07:43:30Z",
   "createdAt": "2016-12-21T06:16:32Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "browser-control：一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -73,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "3d80543ea751fd43",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9772f8dcc68a97c3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "browser-control：browser-control：一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "browser-control：一个小巧快速的 Rust CLI，通过 Chrome DevTools Protocol 驱动真实浏览器——专为编码代理构建。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "browser-control 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

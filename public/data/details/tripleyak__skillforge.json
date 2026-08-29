@@ -1,5 +1,5 @@
 {
-  "rank": 839,
+  "rank": 1198,
   "id": 1124990304,
   "name": "SkillForge",
   "fullName": "tripleyak/SkillForge",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tripleyak/SkillForge",
   "homepage": "",
   "description": "A skill creator that proves its skills work. Evidence-driven skill creation for Claude Code and Codex: baseline-tested generation, per-skill regression evals, ecosystem doctor, cross-runtime compile, and an opt-in proactive advisor.",
-  "summary": "SkillForge：SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "SkillForge：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/tripleyak/SkillForge.git /tmp/skillforge\ncp -r /tmp/skillforge ~/.claude/skills/skillforge\ncd ~/.claude/skills/skillforge && rm -rf README.md LICENSE CONTEXT.md docs .git .gitignore .skillignore index.html assets/images scripts/tests SKILLFORGE_AUDIT.md",
+  "installCommand": "git clone https://github.com/tripleyak/SkillForge.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 802,
-  "forks": 85,
+  "stars": 885,
+  "forks": 90,
   "openIssues": 0,
-  "score": 111.8,
-  "activity": "本周活跃",
+  "score": 105.8,
+  "activity": "本月活跃",
   "pushedAt": "2026-07-29T16:31:19Z",
-  "updatedAt": "2026-07-29T20:35:58Z",
+  "updatedAt": "2026-08-28T19:27:28Z",
   "createdAt": "2025-12-30T01:02:27Z",
   "sourceTopics": [
     "claude-skills"
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "SkillForge 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -79,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "212c2a8c0ea2a79b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7b59b08e3a593223",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SkillForge：SkillForge：SkillForge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "SkillForge：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "SkillForge 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

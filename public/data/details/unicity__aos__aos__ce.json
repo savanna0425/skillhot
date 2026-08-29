@@ -1,5 +1,5 @@
 {
-  "rank": 427,
+  "rank": 426,
   "id": 1298696137,
   "name": "aos-ce",
   "fullName": "unicity-aos/aos-ce",
@@ -8,10 +8,10 @@
   "url": "https://github.com/unicity-aos/aos-ce",
   "homepage": "",
   "description": "AOS Community Edition: the open agent operating system.",
-  "summary": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "aos-ce：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -21,14 +21,14 @@
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/unicity-aos/aos-ce.git",
   "language": "Rust",
-  "license": "",
-  "stars": 7848,
-  "forks": 14,
-  "openIssues": 24,
-  "score": 123.5,
+  "license": "Apache-2.0",
+  "stars": 8550,
+  "forks": 20,
+  "openIssues": 40,
+  "score": 124.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T02:26:59Z",
-  "updatedAt": "2026-07-30T03:13:47Z",
+  "pushedAt": "2026-08-28T17:44:31Z",
+  "updatedAt": "2026-08-29T12:03:29Z",
   "createdAt": "2026-07-12T23:39:52Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -66,16 +66,16 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "fe663ee8db963b29",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e583976cd603829a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aos-ce：aos-ce：aos-ce 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "aos-ce：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "aos-ce 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -116,7 +116,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

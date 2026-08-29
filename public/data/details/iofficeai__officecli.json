@@ -1,5 +1,5 @@
 {
-  "rank": 141,
+  "rank": 134,
   "id": 1182212878,
   "name": "OfficeCLI",
   "fullName": "iOfficeAI/OfficeCLI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/iOfficeAI/OfficeCLI",
   "homepage": "https://officecli.ai",
   "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-  "summary": "OfficeCLI：OfficeCLI：OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "OfficeCLI：是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash\nofficecli create deck.pptx\nofficecli watch deck.pptx",
   "language": "C#",
   "license": "Apache-2.0",
-  "stars": 23274,
-  "forks": 1559,
-  "openIssues": 38,
-  "score": 138.8,
+  "stars": 29483,
+  "forks": 2007,
+  "openIssues": 93,
+  "score": 141.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:47:42Z",
-  "updatedAt": "2026-07-30T03:32:32Z",
+  "pushedAt": "2026-08-25T15:32:09Z",
+  "updatedAt": "2026-08-29T12:49:32Z",
   "createdAt": "2026-03-15T07:39:12Z",
   "sourceTopics": [
     "skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OfficeCLI：OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -91,13 +91,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f19cc7bdf85e0baa",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5a106909b6965693",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OfficeCLI：OfficeCLI：OfficeCLI 是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "OfficeCLI：是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "OfficeCLI 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

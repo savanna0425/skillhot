@@ -1,5 +1,5 @@
 {
-  "rank": 309,
+  "rank": 78,
   "id": 1166506614,
   "name": "Anthropic-Cybersecurity-Skills",
   "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
   "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
   "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-  "summary": "Anthropic-Cybersecurity-Skills：Anthropic-Cybersecurity-Skills：Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Anthropic-Cybersecurity-Skills：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add mukul975/Anthropic-Cybersecurity-Skills\ngit clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git\ncd Anthropic-Cybersecurity-Skills",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 26905,
-  "forks": 3263,
-  "openIssues": 44,
-  "score": 129.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-26T14:37:50Z",
-  "updatedAt": "2026-07-30T03:11:07Z",
+  "stars": 31574,
+  "forks": 3791,
+  "openIssues": 50,
+  "score": 146,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-24T11:12:27Z",
+  "updatedAt": "2026-08-29T12:51:55Z",
   "createdAt": "2026-02-25T09:47:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Anthropic-Cybersecurity-Skills：Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -94,13 +94,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "83e9e740670dcab6",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "514bfb229d253cb7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Anthropic-Cybersecurity-Skills：Anthropic-Cybersecurity-Skills：Anthropic-Cybersecurity-Skills 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Anthropic-Cybersecurity-Skills：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Anthropic-Cybersecurity-Skills 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

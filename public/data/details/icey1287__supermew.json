@@ -1,5 +1,5 @@
 {
-  "rank": 1628,
+  "rank": 1436,
   "id": 1115116808,
   "name": "SuperMew",
   "fullName": "icey1287/SuperMew",
@@ -8,7 +8,7 @@
   "url": "https://github.com/icey1287/SuperMew",
   "homepage": "",
   "description": "SuperMew — Agentic RAG with LangChain & LangGraph",
-  "summary": "SuperMew：SuperMew：SuperMew 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "SuperMew：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/icey1287/SuperMew.git",
   "language": "Python",
-  "license": "",
-  "stars": 798,
-  "forks": 155,
+  "license": "MIT",
+  "stars": 838,
+  "forks": 165,
   "openIssues": 3,
-  "score": 92.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-11T14:50:18Z",
-  "updatedAt": "2026-07-29T10:05:56Z",
+  "score": 100.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T03:56:15Z",
+  "updatedAt": "2026-08-28T09:29:49Z",
   "createdAt": "2025-12-12T11:12:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "SuperMew：SuperMew 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "SuperMew 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -65,16 +65,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e67d9533419723a8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "57d3a03689daadd7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "SuperMew：SuperMew：SuperMew 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "SuperMew：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "SuperMew 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -115,7 +115,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

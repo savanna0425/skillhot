@@ -1,5 +1,5 @@
 {
-  "rank": 930,
+  "rank": 1264,
   "id": 1196447493,
   "name": "ax",
   "fullName": "google/ax",
@@ -8,10 +8,10 @@
   "url": "https://github.com/google/ax",
   "homepage": "https://agentexecutor.io",
   "description": "An open source distributed agent runtime",
-  "summary": "ax：ax：ax 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "ax：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/google/ax.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 1913,
-  "forks": 109,
-  "openIssues": 39,
-  "score": 108.8,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-28T20:04:19Z",
-  "updatedAt": "2026-07-29T21:11:47Z",
+  "stars": 1974,
+  "forks": 116,
+  "openIssues": 35,
+  "score": 102.1,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-20T05:56:51Z",
+  "updatedAt": "2026-08-29T09:11:13Z",
   "createdAt": "2026-03-30T17:55:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ax：ax 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "ax 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -68,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2061a37cfb6953f8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "b5d247adef851e99",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ax：ax：ax 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "ax：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "ax 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

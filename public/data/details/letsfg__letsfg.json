@@ -1,34 +1,34 @@
 {
-  "rank": 1033,
+  "rank": 958,
   "id": 1169880696,
   "name": "LetsFG",
   "fullName": "LetsFG/LetsFG",
   "owner": "LetsFG",
   "avatarUrl": "https://avatars.githubusercontent.com/u/219992303?v=4",
   "url": "https://github.com/LetsFG/LetsFG",
-  "homepage": "https://letsfg.co/en",
-  "description": "Agent-native flight search & booking. 400+ airlines, zero markup, $116 saved vs Google Flights (verified). Building toward the whole trip: best airport, ground transport, delay & cancellation handling.",
-  "summary": "LetsFG：LetsFG：LetsFG：产品管理、营销增长、销售、金融与商业工作流。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-  "category": "产品与商业",
-  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "homepage": "https://letsfg.co",
+  "description": "Agent-native flight & hotel search and booking — MCP server, CLI, and Python/JS SDKs. Hundreds of airlines plus the major booking sites, with per-flight reliability history. Free-cancellation hotel rates: hold the room with a small upfront charge, then pay the balance later by link, up to the hotel's own deadline.",
+  "summary": "LetsFG：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "产品管理",
-    "营销增长",
-    "商业决策"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/LetsFG/LetsFG.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1620,
-  "forks": 97,
-  "openIssues": 2,
-  "score": 107.1,
+  "stars": 1945,
+  "forks": 132,
+  "openIssues": 5,
+  "score": 109,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T16:25:34Z",
-  "updatedAt": "2026-07-29T11:48:47Z",
+  "pushedAt": "2026-08-27T15:27:48Z",
+  "updatedAt": "2026-08-29T05:16:01Z",
   "createdAt": "2026-03-01T11:17:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -40,17 +40,19 @@
     "ai-agents",
     "airline-api",
     "booking",
-    "business",
+    "cli",
     "flight-search",
     "flights",
-    "framework",
-    "hermes",
-    "hermes-agent",
+    "hotel-api",
+    "hotel-booking",
+    "hotels",
     "mcp",
+    "nodejs",
     "openclaw",
-    "personal",
     "python-sdk",
-    "travel"
+    "travel",
+    "travel-api",
+    "typescript-sdk"
   ],
   "platforms": [
     "OpenClaw"
@@ -66,70 +68,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "LetsFG：LetsFG：产品管理、营销增长、销售、金融与商业工作流。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "LetsFG 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
-      "产品管理",
-      "营销增长",
-      "商业决策"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "0a229cd438acd139",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c64fd327bdb78b97",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "LetsFG：LetsFG：LetsFG：产品管理、营销增长、销售、金融与商业工作流。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "LetsFG 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "LetsFG：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "LetsFG 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
-      "团队想让 Agent 辅助决策，但需要更清晰的流程。",
-      "从用户需求到策略输出之间缺少可复用方法。",
-      "如果你的任务和「产品管理」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助产品发现、市场调研、增长分析、营销内容、销售或商业决策。",
-      "把商业工作流整理成 Agent 可以执行的步骤。",
-      "帮助你判断它是否适合当前业务问题。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "产品经理、创业者、运营、市场和销售团队。",
-      "想用 Agent 做用户研究、竞品分析或增长方案的人。",
-      "需要把业务流程模板化的小团队。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "把输出直接当作法律、财务或投资建议的人。",
-      "没有真实业务数据和人工判断，只想自动替代决策的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
-      "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
-      "最终决策仍需要结合真实数据和业务经验。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用一个具体业务问题试跑。",
-      "补充目标用户、市场背景和约束条件。",
-      "把输出当作初稿，再用真实数据和团队经验修订。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "业务分析和材料初稿更快。",
-      "产品或增长流程更容易复用。",
-      "团队讨论有更清楚的起点。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",

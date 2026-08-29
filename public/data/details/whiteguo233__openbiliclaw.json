@@ -1,5 +1,5 @@
 {
-  "rank": 1074,
+  "rank": 827,
   "id": 1175278883,
   "name": "OpenBiliClaw",
   "fullName": "whiteguo233/OpenBiliClaw",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/3350171?v=4",
   "url": "https://github.com/whiteguo233/OpenBiliClaw",
   "homepage": "https://whiteguo233.github.io/OpenBiliClaw/",
-  "description": "本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are, then hunts content you'll love across platforms.",
-  "summary": "OpenBiliClaw：OpenBiliClaw：本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+  "summary": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/whiteguo233/OpenBiliClaw.git",
+  "installCommand": "unzip openbiliclaw-extension-v*-firefox.zip -d openbiliclaw-firefox\ngit clone https://github.com/whiteguo233/OpenBiliClaw.git\ncd OpenBiliClaw/extension",
   "language": "Python",
   "license": "MIT",
-  "stars": 1512,
-  "forks": 91,
-  "openIssues": 28,
-  "score": 106.4,
+  "stars": 3093,
+  "forks": 150,
+  "openIssues": 25,
+  "score": 113.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T18:38:48Z",
-  "updatedAt": "2026-07-30T01:58:37Z",
+  "pushedAt": "2026-08-29T03:51:03Z",
+  "updatedAt": "2026-08-29T12:51:28Z",
   "createdAt": "2026-03-07T13:46:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,16 +37,16 @@
   "repoTopics": [
     "ai-agent",
     "bilibili",
-    "browser-extension",
     "chrome-extension",
     "content-discovery",
     "cross-platform",
+    "deepseek-harness",
     "douyin",
+    "dsh",
+    "dsh-plugin",
     "llm",
     "local-first",
-    "multi-source",
     "personal-ai",
-    "personality-profiling",
     "privacy-first",
     "python",
     "recommendation-system",
@@ -57,7 +57,9 @@
     "zhihu"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenBiliClaw：本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,14 +91,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a947025ec044d7f3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7996ee8980d999e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenBiliClaw：OpenBiliClaw：本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "OpenBiliClaw 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are, then hunts content you'll love across platforms。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "OpenBiliClaw 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -113,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

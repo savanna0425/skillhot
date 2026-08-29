@@ -1,5 +1,5 @@
 {
-  "rank": 1614,
+  "rank": 595,
   "id": 1189432033,
   "name": "design-dna",
   "fullName": "zanwei/design-dna",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zanwei/design-dna",
   "homepage": "",
   "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
-  "summary": "design-dna：design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "design-dna：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zanwei/design-dna.git",
-  "language": "",
+  "installCommand": "npx skills add zanwei/design-dna",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 1196,
-  "forks": 60,
-  "openIssues": 0,
-  "score": 93,
-  "activity": "活跃",
-  "pushedAt": "2026-04-13T01:30:34Z",
-  "updatedAt": "2026-07-30T01:35:27Z",
+  "stars": 1570,
+  "forks": 86,
+  "openIssues": 1,
+  "score": 118.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T01:58:49Z",
+  "updatedAt": "2026-08-29T11:36:18Z",
   "createdAt": "2026-03-23T10:10:39Z",
   "sourceTopics": [
     "claude-skills",
@@ -36,7 +36,8 @@
     "cursor-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-skills",
@@ -53,7 +54,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -66,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "design-dna 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -85,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "279f87ce4538c04a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "f1dacc2081f39f92",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "design-dna：design-dna：design-dna 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "design-dna：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "design-dna 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

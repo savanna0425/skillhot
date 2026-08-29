@@ -1,5 +1,5 @@
 {
-  "rank": 973,
+  "rank": 939,
   "id": 1163183284,
   "name": "agent-teams-ai",
   "fullName": "777genius/agent-teams-ai",
@@ -8,7 +8,7 @@
   "url": "https://github.com/777genius/agent-teams-ai",
   "homepage": "https://agentteams.live",
   "description": "You're the boss, agents are your team. They handle tasks on their own, message each other, and review each other's work. You just watch the kanban board and give high-level commands. Codex/Claude/OpenCode/Cursor/Grok/GitHub Copilot/Kiro/Z.AI/MiniMax/Kimi(200+ models, 75+ LLM providers, free models no auth). Build your AI company with multiple teams",
-  "summary": "agent-teams-ai：agent-teams-ai：agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "agent-teams-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/777genius/agent-teams-ai.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 1786,
-  "forks": 312,
-  "openIssues": 19,
-  "score": 108.1,
+  "stars": 1994,
+  "forks": 334,
+  "openIssues": 27,
+  "score": 109.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:56:52Z",
-  "updatedAt": "2026-07-30T03:28:10Z",
+  "pushedAt": "2026-08-29T07:23:13Z",
+  "updatedAt": "2026-08-29T08:40:03Z",
   "createdAt": "2026-02-21T08:14:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agent-teams-ai：agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -93,13 +93,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6060b14f91327bc3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "51f7f026d0c69981",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-teams-ai：agent-teams-ai：agent-teams-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "agent-teams-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "agent-teams-ai 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

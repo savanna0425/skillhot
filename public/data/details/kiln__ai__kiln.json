@@ -1,5 +1,5 @@
 {
-  "rank": 572,
+  "rank": 592,
   "id": 832879402,
   "name": "Kiln",
   "fullName": "Kiln-AI/Kiln",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Kiln-AI/Kiln",
   "homepage": "https://kiln.tech",
   "description": "Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning, synthetic data generation, dataset management, MCP, and more.",
-  "summary": "Kiln：Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install kiln-ai",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 4980,
-  "forks": 374,
-  "openIssues": 70,
-  "score": 118.8,
+  "stars": 5037,
+  "forks": 375,
+  "openIssues": 69,
+  "score": 118.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T22:45:39Z",
-  "updatedAt": "2026-07-30T03:04:01Z",
+  "pushedAt": "2026-08-29T07:52:03Z",
+  "updatedAt": "2026-08-28T17:12:47Z",
   "createdAt": "2024-07-23T23:10:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -89,13 +89,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5931fd771d9f52fa",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "624d68de88c4192c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Kiln：Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "Kiln 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

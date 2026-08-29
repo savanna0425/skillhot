@@ -1,5 +1,5 @@
 {
-  "rank": 1656,
+  "rank": 1698,
   "id": 1294760624,
   "name": "coder_eval",
   "fullName": "UiPath/coder_eval",
@@ -8,7 +8,7 @@
   "url": "https://github.com/UiPath/coder_eval",
   "homepage": "https://coder-eval.com",
   "description": "Test that your Claude Code skills, MCP servers, and CLIs actually work when an agent uses them — sandboxed YAML suites, activation checks, A/B experiments, CI gates.",
-  "summary": "coder_eval：coder_eval：coder_eval 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "coder_eval：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/UiPath/coder_eval.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 107,
+  "stars": 119,
   "forks": 2,
-  "openIssues": 8,
-  "score": 91.6,
+  "openIssues": 16,
+  "score": 92.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:02:50Z",
-  "updatedAt": "2026-07-29T21:11:49Z",
+  "pushedAt": "2026-08-28T22:14:56Z",
+  "updatedAt": "2026-08-29T12:38:10Z",
   "createdAt": "2026-07-09T06:46:59Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -41,11 +41,10 @@
     "agent-skills",
     "agent-testing",
     "anthropic",
-    "anthropic-claude",
-    "antigravity",
     "claude",
     "claude-agent-sdk",
     "claude-code",
+    "claude-code-plugins-marketplace",
     "claude-code-skills",
     "claude-skills",
     "codex",
@@ -53,15 +52,16 @@
     "evaluation-framework",
     "gemini",
     "github-actions",
+    "long-horizon-agents",
     "regression-testing",
     "skill-testing",
-    "swe-bench"
+    "swe-bench",
+    "terminal-bench"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
-    "Antigravity"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "coder_eval：coder_eval 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "coder_eval 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -93,13 +93,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "8f6aa54485a3c938",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a12892c50013f2a5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "coder_eval：coder_eval：coder_eval 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "coder_eval：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "coder_eval 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

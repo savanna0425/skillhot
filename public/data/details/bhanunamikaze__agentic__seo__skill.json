@@ -1,5 +1,5 @@
 {
-  "rank": 415,
+  "rank": 920,
   "id": 1170939774,
   "name": "Agentic-SEO-Skill",
   "fullName": "Bhanunamikaze/Agentic-SEO-Skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
   "homepage": "",
   "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts used as evidence collectors.",
-  "summary": "Agentic-SEO-Skill：Agentic-SEO-Skill：面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Agentic-SEO-Skill：面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "| Flag | Default | Purpose |\n|---|---|---|\n| `--target <name>` | `claude` | Pick a target (see IDE Compatibility table). With `--online` and no flag, defaults to `all`. |",
+  "installCommand": "git clone https://github.com/Bhanunamikaze/Agentic-SEO-Skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 802,
-  "forks": 128,
+  "stars": 877,
+  "forks": 136,
   "openIssues": 10,
-  "score": 123.8,
-  "activity": "本周活跃",
+  "score": 109.8,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-23T17:33:41Z",
-  "updatedAt": "2026-07-29T20:00:45Z",
+  "updatedAt": "2026-08-28T19:27:32Z",
   "createdAt": "2026-03-02T17:37:53Z",
   "sourceTopics": [
     "claude-skills",
@@ -58,8 +58,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "GitHub Copilot",
     "Antigravity"
   ],
   "skillCount": 1,
@@ -73,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agentic-SEO-Skill：面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -92,13 +90,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f95a82c22e037a68",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "59740400dd3b644b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Agentic-SEO-Skill：Agentic-SEO-Skill：面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Agentic-SEO-Skill：面向 Antigravity、Codex 和 Claude 的 LLM 优先 SEO 分析技能，包含 16 项专业子技能、10 名专家代理和 88 个可选工具脚本（作为证据收集器）。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "Agentic-SEO-Skill 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -116,7 +114,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

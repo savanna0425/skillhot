@@ -1,5 +1,5 @@
 {
-  "rank": 169,
+  "rank": 65,
   "id": 1226123343,
   "name": "book-to-skill",
   "fullName": "virgiliojr94/book-to-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "homepage": "",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "summary": "book-to-skill：book-to-skill：将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "book-to-skill：将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,22 +19,40 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/virgiliojr94/book-to-skill.git ~/.copilot/skills/book-to-skill\n/skills reload\n/skills info book-to-skill",
+  "installCommand": "npx skills add virgiliojr94/book-to-skill\ngit clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill",
   "language": "Python",
   "license": "MIT",
-  "stars": 12941,
-  "forks": 1429,
-  "openIssues": 17,
-  "score": 136.7,
+  "stars": 26871,
+  "forks": 2779,
+  "openIssues": 11,
+  "score": 148.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T22:42:43Z",
-  "updatedAt": "2026-07-30T03:31:24Z",
+  "pushedAt": "2026-08-28T19:12:33Z",
+  "updatedAt": "2026-08-29T12:52:17Z",
   "createdAt": "2026-05-01T02:09:39Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 搜索"
+  "sourceTopics": [
+    "agent-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "book-to-skill",
+    "context-engineering",
+    "document-processing",
+    "edtech",
+    "knowledge-base",
+    "knowledge-management",
+    "llm",
+    "pdf-to-markdown",
+    "rag",
+    "self-study",
+    "study-tools"
+  ],
   "platforms": [
     "Claude",
     "GitHub Copilot"
@@ -50,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "book-to-skill：将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -69,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4493d3ce51a49542",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e1fdff03d34cdf10",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "book-to-skill：book-to-skill：将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "book-to-skill：将任何技术类书籍 PDF 转换为 Claude Code 技能——在工作和学习时随时查阅与使用。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "book-to-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

@@ -1,5 +1,5 @@
 {
-  "rank": 846,
+  "rank": 869,
   "id": 1141582887,
   "name": "skills-hub",
   "fullName": "qufei1993/skills-hub",
@@ -8,7 +8,7 @@
   "url": "https://github.com/qufei1993/skills-hub",
   "homepage": "",
   "description": "A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.",
-  "summary": "skills-hub：skills-hub：一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills-hub：一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -19,29 +19,38 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "npm install\nnpm run tauri:dev",
+  "installCommand": "git clone https://github.com/qufei1993/skills-hub.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 1147,
-  "forks": 140,
-  "openIssues": 10,
-  "score": 111.5,
+  "stars": 1208,
+  "forks": 145,
+  "openIssues": 4,
+  "score": 112.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T01:08:30Z",
-  "updatedAt": "2026-07-30T01:08:35Z",
+  "pushedAt": "2026-08-29T11:45:25Z",
+  "updatedAt": "2026-08-29T11:45:18Z",
   "createdAt": "2026-01-25T03:31:21Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cursor",
+    "desktop-app",
+    "react",
+    "rust",
+    "skill-management",
+    "skills-manager",
+    "tauri"
+  ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenClaw"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -54,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills-hub：一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -73,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2a0502eabd5c728c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "57f4040fcbc0adfb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills-hub：skills-hub：一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills-hub：一款跨平台桌面应用程序，可在单一位置管理 Agent 技能，并同步至多个 AI 编程工具的全球技能目录——“一次安装， everywhere 同步”。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills-hub 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

@@ -1,5 +1,5 @@
 {
-  "rank": 235,
+  "rank": 83,
   "id": 1237819660,
   "name": "reverse-skill",
   "fullName": "zhaoxuya520/reverse-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "homepage": "",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "summary": "reverse-skill：reverse-skill：逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "reverse-skill：逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,23 +22,25 @@
   "installCommand": "git clone https://github.com/zhaoxuya520/reverse-skill.git",
   "language": "PowerShell",
   "license": "MIT",
-  "stars": 9382,
-  "forks": 1444,
-  "openIssues": 6,
-  "score": 133.3,
+  "stars": 30298,
+  "forks": 4145,
+  "openIssues": 18,
+  "score": 145.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T16:21:42Z",
-  "updatedAt": "2026-07-30T03:32:09Z",
+  "pushedAt": "2026-08-26T16:10:43Z",
+  "updatedAt": "2026-08-29T12:52:56Z",
   "createdAt": "2026-05-13T14:37:57Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -51,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "reverse-skill：逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -70,14 +72,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "6af10a5696da10be",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4fd19d2263402d96",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reverse-skill：reverse-skill：逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "reverse-skill 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "reverse-skill：逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "reverse-skill 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
       "安全排查需要固定流程，不能只靠临时经验。",

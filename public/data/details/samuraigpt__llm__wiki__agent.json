@@ -1,5 +1,5 @@
 {
-  "rank": 753,
+  "rank": 764,
   "id": 630824392,
   "name": "llm-wiki-agent",
   "fullName": "SamurAIGPT/llm-wiki-agent",
@@ -8,7 +8,7 @@
   "url": "https://github.com/SamurAIGPT/llm-wiki-agent",
   "homepage": "",
   "description": "A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.",
-  "summary": "llm-wiki-agent：llm-wiki-agent：llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "llm-wiki-agent：面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/SamurAIGPT/llm-wiki-agent.git\ncd llm-wiki-agent",
   "language": "Python",
   "license": "MIT",
-  "stars": 3289,
-  "forks": 385,
-  "openIssues": 4,
-  "score": 114.4,
+  "stars": 3469,
+  "forks": 398,
+  "openIssues": 3,
+  "score": 115,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:49:49Z",
-  "updatedAt": "2026-07-30T00:49:55Z",
+  "pushedAt": "2026-08-24T04:07:01Z",
+  "updatedAt": "2026-08-29T11:39:35Z",
   "createdAt": "2023-04-21T08:31:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "llm-wiki-agent：llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ad99e3e897841c40",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9c053fef1ce91911",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llm-wiki-agent：llm-wiki-agent：llm-wiki-agent 面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "llm-wiki-agent：面向资料检索、科研分析与知识整理，帮助 Agent 完成研究型任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "llm-wiki-agent 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

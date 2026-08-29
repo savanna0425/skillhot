@@ -1,5 +1,5 @@
 {
-  "rank": 442,
+  "rank": 372,
   "id": 1240191065,
   "name": "agents-best-practices",
   "fullName": "DenisSergeevitch/agents-best-practices",
@@ -8,10 +8,10 @@
   "url": "https://github.com/DenisSergeevitch/agents-best-practices",
   "homepage": "",
   "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
-  "summary": "agents-best-practices：agents-best-practices：为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "agents-best-practices：为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
@@ -22,22 +22,20 @@
   "installCommand": "npx skills add DenisSergeevitch/agents-best-practices -g",
   "language": "",
   "license": "MIT",
-  "stars": 2171,
-  "forks": 192,
+  "stars": 2251,
+  "forks": 204,
   "openIssues": 6,
-  "score": 123.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-06-29T21:15:14Z",
-  "updatedAt": "2026-07-29T15:32:35Z",
+  "score": 126.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-26T16:46:59Z",
+  "updatedAt": "2026-08-29T04:00:59Z",
   "createdAt": "2026-05-15T21:32:21Z",
   "sourceTopics": [
-    "agent-skills",
     "agent-skill",
     "codex-skill"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skill",
@@ -68,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "agents-best-practices：为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +85,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "27bfd27dbf6c34e8",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c8342e1301df7427",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agents-best-practices：agents-best-practices：为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "agents-best-practices：为 Codex、Claude Code 及 agentic harness 设计的 Provider-neutral Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "agents-best-practices 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

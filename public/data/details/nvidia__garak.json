@@ -1,5 +1,5 @@
 {
-  "rank": 388,
+  "rank": 407,
   "id": 639097338,
   "name": "garak",
   "fullName": "NVIDIA/garak",
@@ -8,7 +8,7 @@
   "url": "https://github.com/NVIDIA/garak",
   "homepage": "https://discord.gg/uVch4puUCs",
   "description": "the LLM vulnerability scanner",
-  "summary": "garak：garak：LLM 漏洞扫描器。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "garak：LLM 漏洞扫描器。适合在 Claude 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "python -m pip install -U garak",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 8621,
-  "forks": 1129,
-  "openIssues": 373,
-  "score": 124.5,
+  "stars": 9070,
+  "forks": 1232,
+  "openIssues": 409,
+  "score": 125,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T15:43:04Z",
-  "updatedAt": "2026-07-30T02:16:37Z",
+  "pushedAt": "2026-08-25T22:37:37Z",
+  "updatedAt": "2026-08-29T12:53:20Z",
   "createdAt": "2023-05-10T18:52:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "garak：LLM 漏洞扫描器。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "LLM 漏洞扫描器",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -74,13 +74,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "32e4f0151e23f39d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1888a7d03101c7f1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "garak：garak：LLM 漏洞扫描器。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "garak：LLM 漏洞扫描器。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "garak 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

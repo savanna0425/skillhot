@@ -1,5 +1,5 @@
 {
-  "rank": 402,
+  "rank": 429,
   "id": 1138835447,
   "name": "nano-banana-pro-prompts-recommend-skill",
   "fullName": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
   "homepage": "https://youmind.com/nano-banana-pro-prompts",
   "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
-  "summary": "nano-banana-pro-prompts-recommend-skill：nano-banana-pro-prompts-recommend-skill：OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "nano-banana-pro-prompts-recommend-skill：OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills i YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
   "language": "TypeScript",
   "license": "",
-  "stars": 1789,
-  "forks": 186,
-  "openIssues": 8,
-  "score": 124.1,
+  "stars": 1837,
+  "forks": 196,
+  "openIssues": 6,
+  "score": 124.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:51:26Z",
-  "updatedAt": "2026-07-30T02:51:31Z",
+  "pushedAt": "2026-08-29T06:39:48Z",
+  "updatedAt": "2026-08-29T09:03:54Z",
   "createdAt": "2026-01-21T07:15:20Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nano-banana-pro-prompts-recommend-skill：OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -90,13 +90,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a7af142b00e4330d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "90dd13064469ae17",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nano-banana-pro-prompts-recommend-skill：nano-banana-pro-prompts-recommend-skill：OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "nano-banana-pro-prompts-recommend-skill：OpenClaw & Claude Code 的 AI 技能：推荐来自 10000 个 Nano Banana Pro (Gemini) 图像提示。基于使用场景、内容重混和样本图像进行智能搜索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "nano-banana-pro-prompts-recommend-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

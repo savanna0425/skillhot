@@ -1,5 +1,5 @@
 {
-  "rank": 1167,
+  "rank": 1230,
   "id": 1175490580,
   "name": "aiden",
   "fullName": "taracodlabs/aiden",
@@ -8,7 +8,7 @@
   "url": "https://github.com/taracodlabs/aiden",
   "homepage": "https://aiden.taracod.com",
   "description": "Aiden — Autonomous AI agent that operates your computer with prompts: browser control, terminal execution, workflows, tools, recovery systems, and persistent memory. Built solo. AGPL-3.0.",
-  "summary": "aiden：aiden：aiden 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "aiden：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/taracodlabs/aiden.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 765,
-  "forks": 136,
+  "stars": 796,
+  "forks": 140,
   "openIssues": 15,
-  "score": 103.3,
+  "score": 103.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:54:39Z",
-  "updatedAt": "2026-07-29T23:54:42Z",
+  "pushedAt": "2026-08-24T19:59:09Z",
+  "updatedAt": "2026-08-27T15:31:34Z",
   "createdAt": "2026-03-07T19:31:05Z",
   "sourceTopics": [
     "ai-skills"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "aiden：aiden 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "aiden 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,13 +86,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a11ec4a30aa7a43c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a08e7ff8366e437a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aiden：aiden：aiden 提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "aiden：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "aiden 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

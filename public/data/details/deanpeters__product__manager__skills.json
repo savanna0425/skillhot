@@ -1,5 +1,5 @@
 {
-  "rank": 362,
+  "rank": 366,
   "id": 1150205470,
   "name": "Product-Manager-Skills",
   "fullName": "deanpeters/Product-Manager-Skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/deanpeters/Product-Manager-Skills",
   "homepage": "",
   "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
-  "summary": "Product-Manager-Skills：Product-Manager-Skills：基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "Product-Manager-Skills：基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install -r app/requirements.txt\nstreamlit run app/main.py",
   "language": "Shell",
   "license": "NOASSERTION",
-  "stars": 6039,
-  "forks": 740,
-  "openIssues": 8,
-  "score": 125.8,
+  "stars": 6719,
+  "forks": 812,
+  "openIssues": 10,
+  "score": 126.9,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-17T13:14:55Z",
-  "updatedAt": "2026-07-30T03:24:09Z",
+  "pushedAt": "2026-08-13T17:15:43Z",
+  "updatedAt": "2026-08-29T07:25:58Z",
   "createdAt": "2026-02-05T02:16:46Z",
   "sourceTopics": [
     "claude-skills"
@@ -50,7 +50,7 @@
     "Cursor",
     "OpenClaw"
   ],
-  "skillCount": 70,
+  "skillCount": 77,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/deanpeters/Product-Manager-Skills",
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Product-Manager-Skills：基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -80,13 +80,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "e029764d3082aacb",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9f3f501648256175",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Product-Manager-Skills：Product-Manager-Skills：基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Product-Manager-Skills：基于经过实战验证的方法构建的 Claude Code、Cowork、Codex 及 AI 代理产品管理技能框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Product-Manager-Skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -114,7 +114,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "仓库信息显示它包含 70+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 77+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

@@ -1,5 +1,5 @@
 {
-  "rank": 530,
+  "rank": 551,
   "id": 1147679251,
   "name": "tirith",
   "fullName": "sheeki03/tirith",
@@ -8,7 +8,7 @@
   "url": "https://github.com/sheeki03/tirith",
   "homepage": "https://tirith.sh",
   "description": "Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.",
-  "summary": "tirith：tirith：终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "tirith：终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "brew install tirith",
   "language": "Rust",
   "license": "AGPL-3.0",
-  "stars": 2625,
-  "forks": 89,
-  "openIssues": 27,
-  "score": 120.1,
+  "stars": 2692,
+  "forks": 93,
+  "openIssues": 5,
+  "score": 120.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:15:00Z",
-  "updatedAt": "2026-07-29T11:43:53Z",
+  "pushedAt": "2026-08-28T16:48:17Z",
+  "updatedAt": "2026-08-29T06:33:48Z",
   "createdAt": "2026-02-02T04:33:47Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "tirith：终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,13 +79,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "c0f79fa799c15ca3",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "979fd8036b7b8b6d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tirith：tirith：终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "tirith：终端安全，为开发者与 AI 代理。拦截同构 URL、管道至 Shell、ANSI 注入、混淆载荷、数据外泄及恶意 AI 技能/配置，使其在执行前被拦截。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "tirith 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

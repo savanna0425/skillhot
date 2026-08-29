@@ -1,5 +1,5 @@
 {
-  "rank": 803,
+  "rank": 511,
   "id": 1269124956,
   "name": "delegate-skills",
   "fullName": "amElnagdy/delegate-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/amElnagdy/delegate-skills",
   "homepage": "https://www.skills.sh/amelnagdy/delegate-skills",
   "description": "Delegate a coding task to a separate coding agent CLI, review the diff, land the commit yourself — one per implementer.",
-  "summary": "delegate-skills：delegate-skills：delegate-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "delegate-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add amElnagdy/delegate-skills",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 634,
-  "forks": 68,
-  "openIssues": 3,
-  "score": 113.4,
+  "stars": 1392,
+  "forks": 128,
+  "openIssues": 12,
+  "score": 121.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T17:21:24Z",
-  "updatedAt": "2026-07-30T02:34:38Z",
+  "pushedAt": "2026-08-26T08:36:36Z",
+  "updatedAt": "2026-08-29T12:48:26Z",
   "createdAt": "2026-06-14T10:35:48Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -58,6 +58,7 @@
     "Claude",
     "Codex",
     "Cursor",
+    "GitHub Copilot",
     "OpenCode",
     "Antigravity"
   ],
@@ -72,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "delegate-skills：delegate-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "delegate-skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "089b1cc0b54b11a5",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "2ace7fe4cf058e28",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "delegate-skills：delegate-skills：delegate-skills 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "delegate-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "delegate-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

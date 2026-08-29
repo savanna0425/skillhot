@@ -1,5 +1,5 @@
 {
-  "rank": 718,
+  "rank": 749,
   "id": 1163814566,
   "name": "goclaw",
   "fullName": "nextlevelbuilder/goclaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nextlevelbuilder/goclaw",
   "homepage": "https://goclaw.sh",
   "description": "GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety.",
-  "summary": "goclaw：goclaw：GoClaw - GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "goclaw：- GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nextlevelbuilder/goclaw.git",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 3489,
-  "forks": 991,
-  "openIssues": 313,
-  "score": 115.1,
+  "stars": 3577,
+  "forks": 1044,
+  "openIssues": 280,
+  "score": 115.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T22:10:24Z",
-  "updatedAt": "2026-07-29T14:19:16Z",
+  "pushedAt": "2026-08-29T10:25:17Z",
+  "updatedAt": "2026-08-29T12:17:29Z",
   "createdAt": "2026-02-22T07:26:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "goclaw：GoClaw - GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "GoClaw - GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -88,13 +88,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "aa0426ea61aecf90",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ba92429f0f1038a7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "goclaw：goclaw：GoClaw - GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "goclaw：- GoClaw 是用 Go 重新构建的 OpenClaw，具备多租户隔离、五层安全及原生并发能力，可规模化部署 AI 团队而无需在安全性上妥协。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "goclaw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/140389712?v=4",
   "url": "https://github.com/NomaDamas/k-skill",
   "homepage": "https://k-skill.nomadamas.org",
-  "description": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...",
-  "summary": "k-skill：k-skill：k-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+  "summary": "k-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/NomaDamas/k-skill.git",
+  "installCommand": "npx --yes skills add NomaDamas/k-skill --all -g\nnpx --yes skills add NomaDamas/k-skill --skill srt-booking -g",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 6532,
-  "forks": 746,
-  "openIssues": 51,
-  "score": 129.6,
+  "stars": 7363,
+  "forks": 898,
+  "openIssues": 57,
+  "score": 130.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T05:25:33Z",
-  "updatedAt": "2026-07-29T16:18:04Z",
+  "pushedAt": "2026-08-29T03:25:51Z",
+  "updatedAt": "2026-08-29T07:37:17Z",
   "createdAt": "2026-03-24T16:39:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,7 +52,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "k-skill：k-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "k-skill：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -71,13 +71,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "072a587566e1232d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "bd652579194882a7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "k-skill：k-skill：k-skill 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "k-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "k-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

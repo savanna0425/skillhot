@@ -1,5 +1,5 @@
 {
-  "rank": 1002,
+  "rank": 904,
   "id": 1187896522,
   "name": "mex",
   "fullName": "mex-memory/mex",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mex-memory/mex",
   "homepage": "https://mexmemory.com",
   "description": "Persistent project memory for AI coding agents. Structured scaffold + drift detection CLI.",
-  "summary": "mex：mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mex-memory/mex.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1163,
-  "forks": 74,
-  "openIssues": 33,
-  "score": 107.7,
+  "stars": 1533,
+  "forks": 109,
+  "openIssues": 44,
+  "score": 110.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T07:56:44Z",
-  "updatedAt": "2026-07-29T13:58:37Z",
+  "pushedAt": "2026-08-29T12:25:44Z",
+  "updatedAt": "2026-08-29T09:46:06Z",
   "createdAt": "2026-03-21T10:34:18Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -88,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "56bb3b7bd151db18",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "294e3c182f110435",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mex：mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "mex 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

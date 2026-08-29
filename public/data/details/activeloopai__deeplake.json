@@ -1,5 +1,5 @@
 {
-  "rank": 763,
+  "rank": 1171,
   "id": 201403923,
   "name": "deeplake",
   "fullName": "activeloopai/deeplake",
@@ -8,7 +8,7 @@
   "url": "https://github.com/activeloopai/deeplake",
   "homepage": "https://deeplake.ai",
   "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
-  "summary": "deeplake：deeplake：DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "deeplake：是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install deeplake",
+  "installCommand": "git clone https://github.com/activeloopai/deeplake.git",
   "language": "C++",
   "license": "Apache-2.0",
-  "stars": 9216,
+  "stars": 9230,
   "forks": 723,
-  "openIssues": 69,
-  "score": 114.2,
-  "activity": "近期活跃",
+  "openIssues": 66,
+  "score": 106.2,
+  "activity": "活跃",
   "pushedAt": "2026-05-21T15:28:00Z",
-  "updatedAt": "2026-07-27T15:56:24Z",
+  "updatedAt": "2026-08-29T10:19:26Z",
   "createdAt": "2019-08-09T06:17:59Z",
   "sourceTopics": [
     "skill"
@@ -64,14 +64,14 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/activeloopai/deeplake",
-    "videoUrl": "https://www.youtube.com/watch?v=SxsofpSIw3k"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/activeloopai/deeplake#readme",
   "detailPath": "data/details/activeloopai__deeplake.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "deeplake：DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -90,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "1ae1dd09719a2fe2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "24e28286683321a0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deeplake：deeplake：DeepLake 是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "deeplake：是面向智能体的 AI 数据运行时，提供支持多模态数据湖的服务器端 PostgreSQL，实现可扩展的检索与训练。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "deeplake 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

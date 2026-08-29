@@ -1,5 +1,5 @@
 {
-  "rank": 1763,
+  "rank": 2064,
   "id": 1183004571,
   "name": "autocode",
   "fullName": "ilang-ai/autocode",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ilang-ai/autocode",
   "homepage": "https://ilang.ai",
   "description": "You say it. AutoCode ships it. 48 skills. Code to deployment in one session. I-Lang v5.0 judgment + secret-safe deploys. Free forever.",
-  "summary": "autocode：autocode：autocode 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "autocode：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,16 +22,15 @@
   "installCommand": "git clone https://github.com/ilang-ai/autocode.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 85,
-  "forks": 21,
+  "stars": 86,
+  "forks": 20,
   "openIssues": 0,
-  "score": 86.5,
-  "activity": "本月活跃",
+  "score": 74.6,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-03T23:46:30Z",
-  "updatedAt": "2026-07-23T01:13:39Z",
+  "updatedAt": "2026-08-21T08:40:58Z",
   "createdAt": "2026-03-16T07:11:03Z",
   "sourceTopics": [
-    "claude-code-skills",
     "anthropic-skills"
   ],
   "discoveredBy": [
@@ -66,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "autocode：autocode 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "autocode 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "17784ba42a4b0430",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7cc5a5c4888391d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "autocode：autocode：autocode 聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "autocode：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "autocode 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

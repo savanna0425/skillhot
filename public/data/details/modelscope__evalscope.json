@@ -1,5 +1,5 @@
 {
-  "rank": 776,
+  "rank": 784,
   "id": 728528910,
   "name": "evalscope",
   "fullName": "modelscope/evalscope",
@@ -8,7 +8,7 @@
   "url": "https://github.com/modelscope/evalscope",
   "homepage": "https://evalscope.readthedocs.io/en/latest/",
   "description": "A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.",
-  "summary": "evalscope：evalscope：一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "summary": "evalscope：一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install evalscope\nevalscope eval --model your-model-name --api-url $OPENAI_API_BASE_URL --api-key $OPENAI_API_KEY --eval-type openai_api --datasets gsm8k --limit 5",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3163,
-  "forks": 435,
-  "openIssues": 29,
-  "score": 114,
+  "stars": 3329,
+  "forks": 470,
+  "openIssues": 47,
+  "score": 114.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T09:01:08Z",
-  "updatedAt": "2026-07-29T13:57:12Z",
+  "pushedAt": "2026-08-28T08:14:27Z",
+  "updatedAt": "2026-08-29T11:04:41Z",
   "createdAt": "2023-12-07T06:10:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "evalscope：一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "summary": "一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -76,13 +76,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "5d1bcb96f398e272",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4b167c29f93310bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "evalscope：evalscope：一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "evalscope：一个高效、可定制的框架，用于大语言模型（LLM）、视觉语言模型（VLM）和生成内容（AIGC）的评估与性能基准测试。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "evalscope 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

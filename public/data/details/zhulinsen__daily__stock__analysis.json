@@ -8,7 +8,7 @@
   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
   "homepage": "https://dsa.zhulinsen.tech",
   "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-  "summary": "daily_stock_analysis：daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis\npip install -r requirements.txt\ncp .env.example .env && vim .env",
   "language": "Python",
   "license": "MIT",
-  "stars": 59539,
-  "forks": 50971,
-  "openIssues": 51,
-  "score": 144.6,
+  "stars": 64243,
+  "forks": 53880,
+  "openIssues": 65,
+  "score": 145.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T14:40:29Z",
-  "updatedAt": "2026-07-30T03:27:58Z",
+  "pushedAt": "2026-08-29T12:53:15Z",
+  "updatedAt": "2026-08-29T12:50:29Z",
   "createdAt": "2026-01-10T06:43:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -77,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7e4d7486242c0864",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "624a518fd6648025",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "daily_stock_analysis：daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "daily_stock_analysis 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",

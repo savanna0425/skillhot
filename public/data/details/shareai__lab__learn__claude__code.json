@@ -1,5 +1,5 @@
 {
-  "rank": 66,
+  "rank": 73,
   "id": 1010681419,
   "name": "learn-claude-code",
   "fullName": "shareAI-lab/learn-claude-code",
@@ -8,10 +8,10 @@
   "url": "https://github.com/shareAI-lab/learn-claude-code",
   "homepage": "https://learn.shareai.run",
   "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-  "summary": "learn-claude-code：learn-claude-code：Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "learn-claude-code：Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/shareAI-lab/learn-claude-code\ncd learn-claude-code\npip install -r requirements.txt",
   "language": "Python",
   "license": "MIT",
-  "stars": 72677,
-  "forks": 11790,
-  "openIssues": 63,
-  "score": 146.7,
+  "stars": 75587,
+  "forks": 12188,
+  "openIssues": 30,
+  "score": 147.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T17:27:46Z",
-  "updatedAt": "2026-07-30T03:30:05Z",
+  "pushedAt": "2026-08-26T16:38:22Z",
+  "updatedAt": "2026-08-29T12:44:03Z",
   "createdAt": "2025-06-29T15:34:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "learn-claude-code：Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "fda7d010186d0d51",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1589e0b2af5783d8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "learn-claude-code：learn-claude-code：Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "learn-claude-code：Bash 即你所需 - 一个从 0 到 1 构建的类似 nano claude 的「代理框架」。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "learn-claude-code 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

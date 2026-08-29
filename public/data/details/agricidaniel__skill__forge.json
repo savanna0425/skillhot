@@ -1,5 +1,5 @@
 {
-  "rank": 2165,
+  "rank": 2094,
   "id": 1159589853,
   "name": "skill-forge",
   "fullName": "AgriciDaniel/skill-forge",
@@ -8,7 +8,7 @@
   "url": "https://github.com/AgriciDaniel/skill-forge",
   "homepage": "https://agricidaniel.com",
   "description": "Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production-grade AI agent skills",
-  "summary": "skill-forge：skill-forge：skill-forge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "skill-forge：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/AgriciDaniel/skill-forge.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 80,
-  "forks": 33,
-  "openIssues": 2,
-  "score": 65.9,
+  "stars": 163,
+  "forks": 42,
+  "openIssues": 1,
+  "score": 72.7,
   "activity": "活跃",
   "pushedAt": "2026-04-10T17:12:56Z",
-  "updatedAt": "2026-07-27T06:21:47Z",
+  "updatedAt": "2026-08-29T07:09:26Z",
   "createdAt": "2026-02-16T22:58:32Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -57,7 +57,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-forge：skill-forge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "skill-forge 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -76,13 +76,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2be56147ee610f16",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "714e258a7c442c5b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-forge：skill-forge：skill-forge 用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "skill-forge：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "skill-forge 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

@@ -1,5 +1,5 @@
 {
-  "rank": 563,
+  "rank": 588,
   "id": 672415139,
   "name": "OpenRLHF",
   "fullName": "OpenRLHF/OpenRLHF",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenRLHF/OpenRLHF",
   "homepage": "https://openrlhf.readthedocs.io/",
   "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
-  "summary": "OpenRLHF：OpenRLHF：基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "OpenRLHF：基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "docker run --runtime=nvidia -it --rm --shm-size=\"10g\" --cap-add=SYS_ADMIN \\\n-v $PWD:/openrlhf nvcr.io/nvidia/pytorch:26.03-py3 bash\nsudo pip uninstall xgboost transformer_engine flash_attn pynvml -y",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 9859,
-  "forks": 989,
-  "openIssues": 350,
-  "score": 118.9,
+  "stars": 9959,
+  "forks": 1010,
+  "openIssues": 363,
+  "score": 119,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-14T01:57:21Z",
-  "updatedAt": "2026-07-30T01:48:33Z",
+  "pushedAt": "2026-08-13T11:26:24Z",
+  "updatedAt": "2026-08-29T07:30:41Z",
   "createdAt": "2023-07-30T02:20:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenRLHF：基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -77,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "4b5a57d036b7c64f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "9962afb195e1cc07",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenRLHF：OpenRLHF：基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "OpenRLHF：基于 Ray 的易用、可扩展且高性能的代理强化学习框架，支持 PPO、DAPO、REINFORCE++、VLM、TIS、vLLM 及异步 RL。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "OpenRLHF 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

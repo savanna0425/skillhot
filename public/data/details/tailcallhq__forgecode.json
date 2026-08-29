@@ -1,5 +1,5 @@
 {
-  "rank": 446,
+  "rank": 474,
   "id": 900461318,
   "name": "forgecode",
   "fullName": "tailcallhq/forgecode",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tailcallhq/forgecode",
   "homepage": "https://forgecode.dev",
   "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
-  "summary": "forgecode：forgecode：为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "forgecode：为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/tailcallhq/forgecode.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 7464,
-  "forks": 1441,
-  "openIssues": 41,
-  "score": 123,
+  "stars": 7587,
+  "forks": 1452,
+  "openIssues": 43,
+  "score": 123.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:21:51Z",
-  "updatedAt": "2026-07-29T22:38:52Z",
+  "pushedAt": "2026-08-26T16:46:50Z",
+  "updatedAt": "2026-08-29T11:27:49Z",
   "createdAt": "2024-12-08T20:33:37Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "forgecode：为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +87,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "392bf7da7d55878b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0410bba1fe0c6111",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "forgecode：forgecode：为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "forgecode：为 Claude、GPT、O 系列、Grok、Deepseek 及 Gemini 等 300 多个模型打造的 AI 辅助编程伙伴。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "forgecode 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

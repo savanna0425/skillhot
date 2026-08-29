@@ -1,5 +1,5 @@
 {
-  "rank": 2186,
+  "rank": 2228,
   "id": 1150569470,
   "name": "openclaw-skills-security",
   "fullName": "UseAI-pro/openclaw-skills-security",
@@ -8,7 +8,7 @@
   "url": "https://github.com/UseAI-pro/openclaw-skills-security",
   "homepage": "https://useclaw.pro",
   "description": "Curated, security-first OpenClaw skills (Markdown-based). Security audit skills - detect prompt injection, supply chain attacks, credential leaks. Works with Codex CLI, Claude Code, any LLM.",
-  "summary": "openclaw-skills-security：openclaw-skills-security：openclaw-skills-security 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "openclaw-skills-security：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/UseAI-pro/openclaw-skills-security.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 69,
+  "stars": 71,
   "forks": 9,
-  "openIssues": 1,
-  "score": 64.5,
+  "openIssues": 0,
+  "score": 64.8,
   "activity": "活跃",
   "pushedAt": "2026-03-10T03:43:48Z",
-  "updatedAt": "2026-07-24T04:03:08Z",
+  "updatedAt": "2026-08-19T08:28:08Z",
   "createdAt": "2026-02-05T12:41:13Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openclaw-skills-security：openclaw-skills-security 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "openclaw-skills-security 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -86,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "53c9a4ce56ba7f7c",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "910f913ad56f71a3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw-skills-security：openclaw-skills-security：openclaw-skills-security 聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openclaw-skills-security：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "openclaw-skills-security 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",

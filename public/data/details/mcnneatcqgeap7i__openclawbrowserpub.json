@@ -1,5 +1,5 @@
 {
-  "rank": 2130,
+  "rank": 2170,
   "id": 1221416424,
   "name": "openclawBrowserPub",
   "fullName": "mcnneatcqgeap7i/openclawBrowserPub",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/279385891?v=4",
   "url": "https://github.com/mcnneatcqgeap7i/openclawBrowserPub",
   "homepage": "",
-  "description": "OpenClawBrowser: It is an AI tool that provides the running environment for AI agents (OpenClaw) and the agent environment for AI agents to call large models. Main functions: 1. Make OpenClaw simple and portable 2. Reuse the free entrance of each major model manufacturer through technical breakthrough, and realize zero token fee to call the LLM",
-  "summary": "openclawBrowserPub：openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "Lobster Browser (OpenClawBrowser): A Token Fee-Free AI Agent. Key Features: 1. Enables AI agents to call large models with zero Token fees. 2. Makes OpenClaw embedded, simplified, and portable.",
+  "summary": "openclawBrowserPub：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mcnneatcqgeap7i/openclawBrowserPub.git",
   "language": "JavaScript",
   "license": "",
-  "stars": 14,
+  "stars": 15,
   "forks": 2,
   "openIssues": 2,
-  "score": 67.1,
+  "score": 67.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-25T13:17:00Z",
-  "updatedAt": "2026-07-24T12:06:38Z",
+  "pushedAt": "2026-08-24T13:45:21Z",
+  "updatedAt": "2026-08-14T05:37:29Z",
   "createdAt": "2026-04-26T07:10:05Z",
   "sourceTopics": [
     "hermes-skill"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +91,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "dc68cce75cda5b12",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1ade476fbf48ae7e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclawBrowserPub：openclawBrowserPub：openclawBrowserPub 是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openclawBrowserPub：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "openclawBrowserPub 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

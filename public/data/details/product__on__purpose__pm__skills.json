@@ -1,5 +1,5 @@
 {
-  "rank": 1035,
+  "rank": 1013,
   "id": 1130952330,
   "name": "pm-skills",
   "fullName": "product-on-purpose/pm-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/product-on-purpose/pm-skills",
   "homepage": "https://product-on-purpose.github.io/pm-skills/",
   "description": "68 plug-and-play, best-practice product management skills for AI agents: 30 Triple Diamond phase + 11 foundation + 12 utility + 15 tool (Foundation Sprint + Design Sprint). Plus 6 sub-agents, workflows, 200+ output samples, guides, and CI-enforced contracts. Apache 2.0.",
-  "summary": "pm-skills：pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "pm-skills：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/product-on-purpose/pm-skills.git",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 508,
-  "forks": 66,
-  "openIssues": 19,
-  "score": 107.1,
+  "stars": 574,
+  "forks": 76,
+  "openIssues": 9,
+  "score": 108.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T13:04:22Z",
-  "updatedAt": "2026-07-28T15:43:22Z",
+  "pushedAt": "2026-08-29T02:27:30Z",
+  "updatedAt": "2026-08-29T09:06:43Z",
   "createdAt": "2026-01-09T08:56:00Z",
   "sourceTopics": [
     "ai-skills"
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "pm-skills 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7e0b4ae4ead7cad1",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "db675b621ed0a51a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pm-skills：pm-skills：pm-skills 用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "pm-skills：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "pm-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

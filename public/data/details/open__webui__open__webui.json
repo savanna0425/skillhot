@@ -1,5 +1,5 @@
 {
-  "rank": 26,
+  "rank": 30,
   "id": 701547123,
   "name": "open-webui",
   "fullName": "open-webui/open-webui",
@@ -8,7 +8,7 @@
   "url": "https://github.com/open-webui/open-webui",
   "homepage": "https://openwebui.com",
   "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-  "summary": "open-webui：open-webui：open-webui 帮助改进界面设计、用户体验与视觉质量。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "open-webui：帮助改进界面设计、用户体验与视觉质量。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pip install open-webui",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 147269,
-  "forks": 21406,
-  "openIssues": 336,
-  "score": 154,
+  "stars": 150298,
+  "forks": 21941,
+  "openIssues": 225,
+  "score": 154.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T23:39:39Z",
-  "updatedAt": "2026-07-30T03:30:20Z",
+  "pushedAt": "2026-08-29T00:31:09Z",
+  "updatedAt": "2026-08-29T12:35:39Z",
   "createdAt": "2023-10-06T22:08:27Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "open-webui：open-webui 帮助改进界面设计、用户体验与视觉质量。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "open-webui 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -84,13 +84,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "21e36ed0ba86e410",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e0d07f9bc4cac12e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-webui：open-webui：open-webui 帮助改进界面设计、用户体验与视觉质量。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "open-webui：帮助改进界面设计、用户体验与视觉质量。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "open-webui 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

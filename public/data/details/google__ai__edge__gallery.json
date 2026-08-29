@@ -1,5 +1,5 @@
 {
-  "rank": 196,
+  "rank": 221,
   "id": 958136139,
   "name": "gallery",
   "fullName": "google-ai-edge/gallery",
@@ -8,7 +8,7 @@
   "url": "https://github.com/google-ai-edge/gallery",
   "homepage": "",
   "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
-  "summary": "gallery：gallery：展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "gallery：展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,17 +22,16 @@
   "installCommand": "git clone https://github.com/google-ai-edge/gallery.git",
   "language": "Kotlin",
   "license": "Apache-2.0",
-  "stars": 24309,
-  "forks": 2598,
-  "openIssues": 336,
-  "score": 135.3,
+  "stars": 24579,
+  "forks": 2655,
+  "openIssues": 372,
+  "score": 135.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T01:58:08Z",
-  "updatedAt": "2026-07-30T03:16:01Z",
+  "pushedAt": "2026-08-28T23:23:48Z",
+  "updatedAt": "2026-08-29T06:43:13Z",
   "createdAt": "2025-03-31T17:47:28Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
@@ -50,7 +49,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gallery：展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -69,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "be3e9426e9f81195",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "0f472a29fc03b0d3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gallery：gallery：展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "gallery：展示本地 ML/GenAI 用例，并允许用户本地尝试和运行模型。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "gallery 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

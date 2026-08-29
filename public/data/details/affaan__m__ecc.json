@@ -8,7 +8,7 @@
   "url": "https://github.com/affaan-m/ECC",
   "homepage": "https://ecc.tools",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "summary": "ECC：ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/affaan-m/ECC.git\ncd ECC\nnpm install",
+  "installCommand": "git clone https://github.com/affaan-m/ECC.git\ncd ECC\nmkdir -p ~/.claude/rules/ecc",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 235677,
-  "forks": 35882,
-  "openIssues": 98,
-  "score": 166.9,
+  "stars": 244067,
+  "forks": 36914,
+  "openIssues": 147,
+  "score": 167.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T18:11:01Z",
-  "updatedAt": "2026-07-30T03:30:29Z",
+  "pushedAt": "2026-08-29T04:22:27Z",
+  "updatedAt": "2026-08-29T12:53:27Z",
   "createdAt": "2026-01-18T00:51:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,7 +54,7 @@
     "GitHub Copilot",
     "OpenCode"
   ],
-  "skillCount": 281,
+  "skillCount": 286,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/affaan-m/ECC",
@@ -65,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "651ef152416d80eb",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "6b20982bf65c6f96",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ECC：ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ECC：面向 Claude Code、Codex 等编程 Agent 的性能优化与工程方法系统。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ECC 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -118,7 +118,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 281+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 286+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

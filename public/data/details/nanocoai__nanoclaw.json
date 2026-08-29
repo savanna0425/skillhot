@@ -1,5 +1,5 @@
 {
-  "rank": 114,
+  "rank": 129,
   "id": 1146738089,
   "name": "nanoclaw",
   "fullName": "nanocoai/nanoclaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nanocoai/nanoclaw",
   "homepage": "https://nanoclaw.dev",
   "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
-  "summary": "nanoclaw：nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2\ncd nanoclaw-v2\nbash nanoclaw.sh",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 30392,
-  "forks": 12871,
-  "openIssues": 856,
-  "score": 141.6,
+  "stars": 30642,
+  "forks": 12846,
+  "openIssues": 1071,
+  "score": 141.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T18:21:14Z",
-  "updatedAt": "2026-07-30T01:23:11Z",
+  "pushedAt": "2026-08-29T11:06:45Z",
+  "updatedAt": "2026-08-29T12:20:02Z",
   "createdAt": "2026-01-31T15:47:22Z",
   "sourceTopics": [
     "claude-skills"
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "edee6a689150f1f7",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1018fa0b0ba72904",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nanoclaw：nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "nanoclaw 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

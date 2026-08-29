@@ -1,5 +1,5 @@
 {
-  "rank": 296,
+  "rank": 187,
   "id": 639835356,
   "name": "gpt-researcher",
   "fullName": "assafelovic/gpt-researcher",
@@ -8,7 +8,7 @@
   "url": "https://github.com/assafelovic/gpt-researcher",
   "homepage": "https://gptr.dev",
   "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-  "summary": "gpt-researcher：gpt-researcher：任何数据均使用任何大语言模型提供商进行深度研究的自主代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "gpt-researcher：任何数据均使用任何大语言模型提供商进行深度研究的自主代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add assafelovic/gpt-researcher",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 28722,
-  "forks": 3875,
-  "openIssues": 153,
-  "score": 130,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-18T07:56:55Z",
-  "updatedAt": "2026-07-30T01:43:01Z",
+  "stars": 29196,
+  "forks": 3964,
+  "openIssues": 58,
+  "score": 137.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-27T19:34:56Z",
+  "updatedAt": "2026-08-29T11:37:45Z",
   "createdAt": "2023-05-12T10:33:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -63,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gpt-researcher：任何数据均使用任何大语言模型提供商进行深度研究的自主代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "任何数据均使用任何大语言模型提供商进行深度研究的自主代理",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -82,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "715b78a9e60c093e",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e071e19f8f5c8045",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gpt-researcher：gpt-researcher：任何数据均使用任何大语言模型提供商进行深度研究的自主代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "gpt-researcher：任何数据均使用任何大语言模型提供商进行深度研究的自主代理。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "gpt-researcher 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

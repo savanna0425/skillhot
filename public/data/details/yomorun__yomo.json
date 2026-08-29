@@ -1,5 +1,5 @@
 {
-  "rank": 924,
+  "rank": 971,
   "id": 276288252,
   "name": "yomo",
   "fullName": "yomorun/yomo",
@@ -8,10 +8,10 @@
   "url": "https://github.com/yomorun/yomo",
   "homepage": "https://yomo.run",
   "description": "🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
-  "summary": "yomo：yomo：基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "yomo：基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -23,12 +23,12 @@
   "language": "Rust",
   "license": "",
   "stars": 1920,
-  "forks": 144,
+  "forks": 148,
   "openIssues": 0,
   "score": 108.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T13:28:46Z",
-  "updatedAt": "2026-07-29T13:17:36Z",
+  "pushedAt": "2026-08-28T08:17:53Z",
+  "updatedAt": "2026-08-28T08:21:07Z",
   "createdAt": "2020-07-01T05:48:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "yomo：基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -83,13 +83,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "26e948dc1777aae1",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a52f6a64838f22f7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "yomo：yomo：基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "yomo：基于地理分布式边缘 AI 基础设施的无服务器 AI 代理框架。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "yomo 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

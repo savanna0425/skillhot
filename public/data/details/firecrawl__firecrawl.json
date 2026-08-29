@@ -1,5 +1,5 @@
 {
-  "rank": 23,
+  "rank": 22,
   "id": 787076358,
   "name": "firecrawl",
   "fullName": "firecrawl/firecrawl",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/135057108?v=4",
   "url": "https://github.com/firecrawl/firecrawl",
   "homepage": "https://firecrawl.dev",
-  "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-  "summary": "firecrawl：firecrawl：支持大规模搜索、爬取与交互的 API。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。",
+  "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+  "summary": "firecrawl：用于自动化浏览器、工具集成或重复流程。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npm install firecrawl",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 157958,
-  "forks": 8978,
-  "openIssues": 454,
-  "score": 154.8,
+  "stars": 173846,
+  "forks": 9571,
+  "openIssues": 560,
+  "score": 155.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T00:40:49Z",
-  "updatedAt": "2026-07-30T03:28:41Z",
+  "pushedAt": "2026-08-29T06:22:08Z",
+  "updatedAt": "2026-08-29T12:52:39Z",
   "createdAt": "2024-04-15T21:02:29Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "firecrawl：支持大规模搜索、爬取与交互的 API。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。",
+    "summary": "firecrawl 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -91,13 +91,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "cf868b73780c521a",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d0f08e6bc5461432",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "firecrawl：firecrawl：支持大规模搜索、爬取与交互的 API。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。",
+    "plainIntro": "firecrawl：用于自动化浏览器、工具集成或重复流程。适合在 Claude、OpenCode、Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "firecrawl 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

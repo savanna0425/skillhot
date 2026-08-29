@@ -1,5 +1,5 @@
 {
-  "rank": 180,
+  "rank": 105,
   "id": 83516498,
   "name": "pytudes",
   "fullName": "norvig/pytudes",
@@ -8,7 +8,7 @@
   "url": "https://github.com/norvig/pytudes",
   "homepage": "",
   "description": "Python programs, usually short, of considerable difficulty, to perfect particular skills.",
-  "summary": "pytudes：pytudes：通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "pytudes：通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/norvig/pytudes.git",
   "language": "Jupyter Notebook",
   "license": "MIT",
-  "stars": 24386,
-  "forks": 2481,
-  "openIssues": 28,
-  "score": 136.3,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-19T03:40:14Z",
-  "updatedAt": "2026-07-29T21:18:18Z",
+  "stars": 24404,
+  "forks": 2480,
+  "openIssues": 29,
+  "score": 143.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T01:30:25Z",
+  "updatedAt": "2026-08-29T04:24:50Z",
   "createdAt": "2017-03-01T05:43:35Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "pytudes：通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "adda198fb299f0f2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "e80eb9212b93fc80",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pytudes：pytudes：通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "pytudes：通常篇幅短小但难度卓著的 Python 程序，用于精进特定技能。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "pytudes 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

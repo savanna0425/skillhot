@@ -1,5 +1,5 @@
 {
-  "rank": 1638,
+  "rank": 2019,
   "id": 1190498170,
   "name": "skill-base",
   "fullName": "ginuim/skill-base",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ginuim/skill-base",
   "homepage": "https://skillbase.reaidea.com/",
   "description": "Private Skill distribution platform for AI coding agents: publish, install, update, and rollback team skills across Cursor, Claude Code, Codex, and OpenClaw with a minimal server + skb CLI.",
-  "summary": "skill-base：skill-base：skill-base 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skill-base：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ginuim/skill-base.git",
   "language": "Vue",
   "license": "",
-  "stars": 115,
+  "stars": 117,
   "forks": 24,
   "openIssues": 0,
-  "score": 92.3,
-  "activity": "本周活跃",
+  "score": 77.5,
+  "activity": "近期活跃",
   "pushedAt": "2026-07-24T13:52:17Z",
-  "updatedAt": "2026-07-24T13:54:48Z",
+  "updatedAt": "2026-08-26T10:46:18Z",
   "createdAt": "2026-03-24T10:43:29Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-base：skill-base 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "skill-base 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,13 +86,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "16000954ea3f5b75",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "bc4dd3a22df893c8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-base：skill-base：skill-base 聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skill-base：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skill-base 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

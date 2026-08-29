@@ -1,5 +1,5 @@
 {
-  "rank": 1225,
+  "rank": 1273,
   "id": 1264531337,
   "name": "fanbox",
   "fullName": "alchaincyf/fanbox",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alchaincyf/fanbox",
   "homepage": "https://github.com/alchaincyf/fanbox/releases/latest",
   "description": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
-  "summary": "fanbox：fanbox：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "fanbox：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alchaincyf/fanbox.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 962,
-  "forks": 138,
-  "openIssues": 19,
-  "score": 101.7,
+  "stars": 994,
+  "forks": 146,
+  "openIssues": 20,
+  "score": 102,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T03:21:53Z",
-  "updatedAt": "2026-07-29T20:26:47Z",
+  "pushedAt": "2026-08-27T13:09:21Z",
+  "updatedAt": "2026-08-28T18:19:39Z",
   "createdAt": "2026-06-10T01:01:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "fanbox：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "summary": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the ",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -80,14 +80,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "08dbf5d719fd5cd0",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7d441436d47bfc81",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "fanbox：fanbox：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the。适合在 Claude、Codex 相关工作流里先做选型判断。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "fanbox 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "fanbox：vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "fanbox 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

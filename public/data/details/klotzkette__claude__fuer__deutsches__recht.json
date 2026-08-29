@@ -1,5 +1,5 @@
 {
-  "rank": 612,
+  "rank": 614,
   "id": 1242679355,
   "name": "claude-fuer-deutsches-recht",
   "fullName": "Klotzkette/claude-fuer-deutsches-recht",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
   "homepage": "",
   "description": "⚠️ Experimentelle Skill-Sammlung für deutsches Recht (Arbeits-, Gesellschafts-, Insolvenz-, Datenschutz-, Prozessrecht u.a.) – inzwischen verbessert und im Alltag getestet, aber weiterhin Experiment. Bitte selber ausprobieren, Issues/PRs willkommen! Keine Rechtsberatung. Mandatsgeheimnis (§§ 203/204 StGB, § 43e BRAO), DSGVO, US-Transfer, KI-VO & Co",
-  "summary": "claude-fuer-deutsches-recht：claude-fuer-deutsches-recht：claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-fuer-deutsches-recht：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Klotzkette/claude-fuer-deutsches-recht.git\ncd claude-fuer-deutsches-recht\nclaude plugin marketplace add .",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1400,
-  "forks": 173,
-  "openIssues": 6,
-  "score": 117.6,
+  "stars": 1520,
+  "forks": 195,
+  "openIssues": 10,
+  "score": 118.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T04:27:46Z",
-  "updatedAt": "2026-07-29T19:29:01Z",
+  "pushedAt": "2026-08-26T18:39:56Z",
+  "updatedAt": "2026-08-29T06:21:59Z",
   "createdAt": "2026-05-18T16:43:56Z",
   "sourceTopics": [
     "claude-skills"
@@ -49,11 +49,9 @@
     "legaltech"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Claude"
   ],
-  "skillCount": 26461,
+  "skillCount": 22729,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Klotzkette/claude-fuer-deutsches-recht",
@@ -64,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "claude-fuer-deutsches-recht：claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -83,13 +81,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ddff6a1b6e07a66f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "d9240e1703a9b75a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-fuer-deutsches-recht：claude-fuer-deutsches-recht：claude-fuer-deutsches-recht 的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-fuer-deutsches-recht：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-fuer-deutsches-recht 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -107,7 +105,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -117,7 +115,7 @@
       "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
       "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
       "可信度取决于来源质量和你的人工复核。",
-      "仓库信息显示它包含 26461+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 22729+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个小主题测试它的资料组织方式。",

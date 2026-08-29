@@ -1,5 +1,5 @@
 {
-  "rank": 1192,
+  "rank": 1169,
   "id": 1158621117,
   "name": "comfyui-mcp",
   "fullName": "artokun/comfyui-mcp",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/7666455?v=4",
   "url": "https://github.com/artokun/comfyui-mcp",
   "homepage": "https://comfyui-mcp.artokun.io/docs",
-  "description": "The local-first, agent-native control plane for ComfyUI — MCP server + Claude Code plugin. 108 tools, 29 AI skills (Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2). Author & run workflows, edit your live graph in natural language, manage models & custom nodes. Local, LAN, VPS, or Comfy Cloud.",
-  "summary": "comfyui-mcp：comfyui-mcp：comfyui-mcp 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-  "category": "Agent工具与平台",
-  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
+  "description": "Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini, offline Ollama, or any hosted model). 178 tools, 36 AI skills, 55 installer packs. Local, LAN, VPS, or Comfy Cloud.",
+  "summary": "comfyui-mcp：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
-    "模型与客户端管理",
-    "Agent 编排",
-    "多平台协作"
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
   ],
-  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/artokun/comfyui-mcp.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 462,
-  "forks": 78,
-  "openIssues": 30,
-  "score": 102.2,
+  "stars": 694,
+  "forks": 106,
+  "openIssues": 61,
+  "score": 106.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:33:47Z",
-  "updatedAt": "2026-07-30T03:33:57Z",
+  "pushedAt": "2026-08-29T05:30:54Z",
+  "updatedAt": "2026-08-29T04:21:06Z",
   "createdAt": "2026-02-15T17:08:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,8 @@
     "wan"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,70 +71,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "comfyui-mcp：comfyui-mcp 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "comfyui-mcp：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
-      "模型与客户端管理",
-      "Agent 编排",
-      "多平台协作"
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "09eafebc9601b338",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7971f6489d230734",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "comfyui-mcp：comfyui-mcp：comfyui-mcp 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "comfyui-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "comfyui-mcp：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "comfyui-mcp 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "多个 Agent、模型、工具和配置之间切换成本高。",
-      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
-      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
-      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
+      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
+      "同一套内容风格难以稳定复用。",
+      "创作任务需要把素材、脚本、生成和发布流程串起来。",
+      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
-      "把模型、插件、工作流和配置集中管理。",
-      "帮助你判断它是否适合自己的 Agent 工具链。",
+      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
+      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
+      "帮助你先判断它是否适合当前内容生产任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
-      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
-      "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "内容创作者、运营、设计师和需要频繁产出素材的人。",
+      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
+      "想把固定内容流程模板化的小团队。",
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只需要一个简单聊天窗口、不想配置工具链的人。",
-      "不愿处理 API Key、权限、部署或本地环境的人。"
+      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
+      "只想要一键生成所有内容且不参与编辑的人。"
     ],
     "howItWorks": [
-      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
-      "用户配置模型服务、权限和项目后，在平台里发起任务。",
-      "稳定性取决于模型服务、插件生态和本地/云端配置。",
+      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
+      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
+      "最终发布前仍需要人工审稿、校对和版权检查。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先确认它支持你常用的模型和 Agent 客户端。",
-      "用低权限 API Key 或测试配置跑一个小任务。",
-      "确认日志、权限和密钥存储方式后再接入正式项目。"
+      "先看 README 里的输入格式和示例输出。",
+      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
+      "确认可编辑性和导出格式后再纳入正式流程。"
     ],
     "expectedOutcome": [
-      "多个 Agent 或模型配置更清楚。",
-      "任务编排和工具调用更集中。",
-      "个人 Agent 工作流更容易长期维护。"
+      "从选题到初稿的速度更快。",
+      "内容风格更容易保持一致。",
+      "重复性创作流程可以被复用。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

@@ -1,5 +1,5 @@
 {
-  "rank": 84,
+  "rank": 89,
   "id": 955620917,
   "name": "context7",
   "fullName": "upstash/context7",
@@ -8,7 +8,7 @@
   "url": "https://github.com/upstash/context7",
   "homepage": "https://context7.com",
   "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-  "summary": "context7：context7：Context7 平台——LLM 及 AI 代码编辑器的最新代码文档。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。",
+  "summary": "context7：平台——LLM 及 AI 代码编辑器的最新代码文档。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "Authenticates via OAuth, generates an API key, and installs the appropriate skill. You can choose between CLI + Skills or MCP mode. Use `--cursor`, `--claude`, or `--opencode` to target a specific agent.\nTo remove the generated setup later, run `npx ctx7 remove`. If you globally installed the CLI with `npm install -g ctx7`, remove that package separately wit",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 59985,
-  "forks": 2872,
-  "openIssues": 30,
-  "score": 144.7,
+  "stars": 61379,
+  "forks": 2957,
+  "openIssues": 64,
+  "score": 144.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T15:38:55Z",
-  "updatedAt": "2026-07-30T03:31:40Z",
+  "pushedAt": "2026-08-28T12:52:17Z",
+  "updatedAt": "2026-08-29T12:35:39Z",
   "createdAt": "2025-03-26T23:40:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "context7：Context7 平台——LLM 及 AI 代码编辑器的最新代码文档。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。",
+    "summary": "Context7 平台——LLM 及 AI 代码编辑器的最新代码文档",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -75,13 +75,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "7f59e33bd9fea3a9",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "de7e5077d8d1bfdb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "context7：context7：Context7 平台——LLM 及 AI 代码编辑器的最新代码文档。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "context7：平台——LLM 及 AI 代码编辑器的最新代码文档。适合在 Claude、Cursor、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "context7 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

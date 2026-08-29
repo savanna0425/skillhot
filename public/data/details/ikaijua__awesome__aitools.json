@@ -1,5 +1,5 @@
 {
-  "rank": 319,
+  "rank": 336,
   "id": 622424201,
   "name": "Awesome-AITools",
   "fullName": "ikaijua/Awesome-AITools",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ikaijua/Awesome-AITools",
   "homepage": "",
   "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
-  "summary": "Awesome-AITools 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "Awesome-AITools 是一个面向 Claude、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ikaijua/Awesome-AITools.git",
   "language": "Python",
   "license": "",
-  "stars": 6113,
-  "forks": 697,
-  "openIssues": 42,
-  "score": 128.9,
+  "stars": 6161,
+  "forks": 749,
+  "openIssues": 41,
+  "score": 129,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T01:49:53Z",
-  "updatedAt": "2026-07-29T14:21:54Z",
+  "pushedAt": "2026-08-27T10:06:59Z",
+  "updatedAt": "2026-08-28T19:51:53Z",
   "createdAt": "2023-04-02T04:06:56Z",
   "sourceTopics": [
     "agent-skills",
@@ -61,10 +61,7 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "OpenClaw"
+    "Gemini CLI"
   ],
   "skillCount": 232,
   "isCollection": true,
@@ -77,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Awesome-AITools 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -96,14 +93,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "665e3cb2d8aab370",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "516e99f659be6455",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Awesome-AITools 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "Awesome-AITools 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "Awesome-AITools 是一个面向 Claude、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "Awesome-AITools 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -120,7 +117,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

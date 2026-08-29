@@ -1,5 +1,5 @@
 {
-  "rank": 2114,
+  "rank": 2145,
   "id": 1206515214,
   "name": "clawtrace",
   "fullName": "epsilla-cloud/clawtrace",
@@ -8,7 +8,7 @@
   "url": "https://github.com/epsilla-cloud/clawtrace",
   "homepage": "https://www.clawtrace.ai/",
   "description": "Make your OpenClaw agents better, cheaper, and faster.",
-  "summary": "clawtrace：clawtrace：clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "clawtrace：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/epsilla-cloud/clawtrace.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 41,
+  "stars": 46,
   "forks": 9,
   "openIssues": 3,
-  "score": 68,
+  "score": 69,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-05T21:59:11Z",
-  "updatedAt": "2026-07-15T20:12:08Z",
+  "pushedAt": "2026-08-15T02:47:12Z",
+  "updatedAt": "2026-08-19T15:37:34Z",
   "createdAt": "2026-04-10T01:51:17Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "clawtrace：clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +87,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ecf0ff8b06f311c4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "3a28001395ca65c4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "clawtrace：clawtrace：clawtrace 是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "clawtrace：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "clawtrace 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

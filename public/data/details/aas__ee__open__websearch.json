@@ -1,5 +1,5 @@
 {
-  "rank": 1348,
+  "rank": 716,
   "id": 1005553140,
   "name": "open-webSearch",
   "fullName": "Aas-ee/open-webSearch",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Aas-ee/open-webSearch",
   "homepage": "https://open-web-search.vercel.app/mcp",
   "description": "Multi-engine MCP server, CLI, and local daemon for agent web search and content retrieval — skill-guided workflows, no API keys.",
-  "summary": "open-webSearch：open-webSearch：多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "open-webSearch：多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Aas-ee/open-webSearch.git",
+  "installCommand": "npx skills add https://github.com/Aas-ee/open-webSearch --skill open-websearch",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 1657,
-  "forks": 175,
-  "openIssues": 23,
-  "score": 100.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-16T07:26:04Z",
-  "updatedAt": "2026-07-30T02:30:34Z",
+  "stars": 1761,
+  "forks": 185,
+  "openIssues": 15,
+  "score": 116,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-28T04:49:22Z",
+  "updatedAt": "2026-08-28T19:20:32Z",
   "createdAt": "2025-06-20T12:09:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -49,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "open-webSearch：多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -68,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a6a588737269a29d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "477510448996822b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-webSearch：open-webSearch：多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "open-webSearch：多引擎 MCP 服务器、CLI 和本地守护进程，用于智能体网页搜索和内容检索，支持技能引导工作流，无需 API 密钥。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "open-webSearch 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -92,7 +93,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

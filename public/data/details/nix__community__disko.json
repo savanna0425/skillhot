@@ -1,5 +1,5 @@
 {
-  "rank": 765,
+  "rank": 792,
   "id": 168824926,
   "name": "disko",
   "fullName": "nix-community/disko",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nix-community/disko",
   "homepage": "",
   "description": "Declarative disk partitioning and formatting using nix [maintainers=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]",
-  "summary": "disko：disko：使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "disko：使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nix-community/disko.git",
   "language": "Nix",
   "license": "MIT",
-  "stars": 3217,
-  "forks": 317,
-  "openIssues": 238,
-  "score": 114.2,
+  "stars": 3290,
+  "forks": 326,
+  "openIssues": 244,
+  "score": 114.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T02:46:32Z",
-  "updatedAt": "2026-07-30T01:05:27Z",
+  "pushedAt": "2026-08-27T08:36:47Z",
+  "updatedAt": "2026-08-29T11:41:18Z",
   "createdAt": "2019-02-02T11:29:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "disko：使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "64b3374add74554f",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "afb75d744a7ebaa8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "disko：disko：使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "disko：使用 Nix 进行声明式分区与格式化 [维护者=@Lassulus @Enzime @iFreilicht @Mic92 @phaer]。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "disko 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

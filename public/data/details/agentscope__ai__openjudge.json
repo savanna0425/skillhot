@@ -1,5 +1,5 @@
 {
-  "rank": 1490,
+  "rank": 1551,
   "id": 1015852565,
   "name": "OpenJudge",
   "fullName": "agentscope-ai/OpenJudge",
@@ -8,7 +8,7 @@
   "url": "https://github.com/agentscope-ai/OpenJudge",
   "homepage": "https://openjudge.me/",
   "description": "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards",
-  "summary": "OpenJudge：OpenJudge：OpenJudge：一套综合评估与质量奖励的统一框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "OpenJudge：一套综合评估与质量奖励的统一框架。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/agentscope-ai/OpenJudge.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 754,
-  "forks": 61,
-  "openIssues": 12,
-  "score": 96.2,
+  "stars": 805,
+  "forks": 64,
+  "openIssues": 15,
+  "score": 96.9,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-09T04:28:29Z",
-  "updatedAt": "2026-07-29T14:55:31Z",
+  "pushedAt": "2026-08-03T13:42:53Z",
+  "updatedAt": "2026-08-28T19:28:46Z",
   "createdAt": "2025-07-08T06:17:01Z",
   "sourceTopics": [
     "skill-md"
@@ -64,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "OpenJudge：OpenJudge：一套综合评估与质量奖励的统一框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "OpenJudge：一套综合评估与质量奖励的统一框架",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -83,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ab57c6648f966477",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "955295232ec23ded",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenJudge：OpenJudge：OpenJudge：一套综合评估与质量奖励的统一框架。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "OpenJudge：一套综合评估与质量奖励的统一框架。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "OpenJudge 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

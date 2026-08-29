@@ -1,5 +1,5 @@
 {
-  "rank": 506,
+  "rank": 514,
   "id": 468168223,
   "name": "curl_cffi",
   "fullName": "lexiforest/curl_cffi",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lexiforest/curl_cffi",
   "homepage": "https://curl-cffi.readthedocs.io/",
   "description": "Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.",
-  "summary": "curl_cffi：curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/lexiforest/curl_cffi.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 6180,
-  "forks": 525,
-  "openIssues": 62,
-  "score": 121,
+  "stars": 6412,
+  "forks": 545,
+  "openIssues": 69,
+  "score": 121.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-26T06:36:37Z",
-  "updatedAt": "2026-07-29T21:35:33Z",
+  "pushedAt": "2026-08-28T04:41:56Z",
+  "updatedAt": "2026-08-29T12:24:13Z",
   "createdAt": "2022-03-10T02:39:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,8 @@
     "web-scraping"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -66,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -85,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "a2c0feaa13291579",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "1b88365b661ccde3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "curl_cffi：curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI 相关工作流里先做选型判断。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "curl_cffi：基于 cffi 的 curl-impersonate 分支的 Python 绑定。一个可伪造浏览器 TLS/ja3/http2 指纹的 HTTP 客户端。适合在 Gemini CLI、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "curl_cffi 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -109,7 +110,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

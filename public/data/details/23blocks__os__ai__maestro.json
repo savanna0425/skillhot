@@ -1,5 +1,5 @@
 {
-  "rank": 856,
+  "rank": 889,
   "id": 1073323930,
   "name": "ai-maestro",
   "fullName": "23blocks-OS/ai-maestro",
@@ -8,7 +8,7 @@
   "url": "https://github.com/23blocks-OS/ai-maestro",
   "homepage": "https://ai-maestro.23blocks.com",
   "description": "AI Agent Orchestrator with Skills System - Give AI Agents superpowers: memory search, code graph queries, agent-to-agent messaging. Manage Claude, Codex or any AI Agent from one dashboard. Move Agents between computers and locations",
-  "summary": "ai-maestro：ai-maestro：具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ai-maestro：具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/23blocks-OS/ai-maestro.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 732,
-  "forks": 94,
-  "openIssues": 12,
-  "score": 110.9,
+  "stars": 762,
+  "forks": 100,
+  "openIssues": 13,
+  "score": 111.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-24T21:21:18Z",
-  "updatedAt": "2026-07-29T19:37:11Z",
+  "pushedAt": "2026-08-29T00:16:18Z",
+  "updatedAt": "2026-08-29T00:16:24Z",
   "createdAt": "2025-10-10T00:17:03Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ai-maestro：具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -93,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "96db39854afe6aaa",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "939b061ad29e3d78",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-maestro：ai-maestro：具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ai-maestro：具备技能系统的 AI 代理编排器：赋予 AI 代理超能力——记忆搜索、代码图查询、代理间通信。从单一仪表板管理 Claude、Codex 或任何 AI 代理。在计算机间移动代理，在不同地点间移动代理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ai-maestro 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

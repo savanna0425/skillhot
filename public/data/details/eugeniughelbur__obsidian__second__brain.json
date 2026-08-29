@@ -1,5 +1,5 @@
 {
-  "rank": 418,
+  "rank": 405,
   "id": 1190557545,
   "name": "obsidian-second-brain",
   "fullName": "eugeniughelbur/obsidian-second-brain",
@@ -8,7 +8,7 @@
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "homepage": "https://eugeniughelbur.github.io/obsidian-second-brain/",
   "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
-  "summary": "obsidian-second-brain：obsidian-second-brain：obsidian-second-brain 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/eugeniughelbur/obsidian-second-brain\ncd obsidian-second-brain\nbash scripts/build.sh --platform agent-skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 3717,
-  "forks": 465,
-  "openIssues": 6,
-  "score": 123.7,
+  "stars": 4249,
+  "forks": 530,
+  "openIssues": 12,
+  "score": 125.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T23:05:35Z",
-  "updatedAt": "2026-07-30T02:41:46Z",
+  "pushedAt": "2026-08-27T21:06:39Z",
+  "updatedAt": "2026-08-29T12:45:36Z",
   "createdAt": "2026-03-24T11:58:12Z",
   "sourceTopics": [
     "agent-skills",
@@ -79,7 +79,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "obsidian-second-brain：obsidian-second-brain 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "obsidian-second-brain 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -98,13 +98,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d8a6e7d4f59d2257",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "82f039adfe64c967",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-second-brain：obsidian-second-brain：obsidian-second-brain 提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "obsidian-second-brain 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

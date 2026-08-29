@@ -1,5 +1,5 @@
 {
-  "rank": 833,
+  "rank": 1083,
   "id": 1176559390,
   "name": "kicad-happy",
   "fullName": "aklofas/kicad-happy",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aklofas/kicad-happy",
   "homepage": "https://github.com/aklofas/kicad-happy",
   "description": "AI coding agent skills for KiCad electronics design. Works with Claude Code and OpenAI Codex. Analyze schematics, review PCB layouts, EMC pre-compliance, SPICE simulation, download datasheets, source components, and prep boards for fabrication.",
-  "summary": "kicad-happy：kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,23 +19,22 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/aklofas/kicad-happy.git\ngemini skills link ./kicad-happy/skills",
+  "installCommand": "git clone https://github.com/aklofas/kicad-happy.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 849,
-  "forks": 63,
-  "openIssues": 3,
-  "score": 112.4,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-24T21:35:36Z",
-  "updatedAt": "2026-07-30T02:48:27Z",
+  "stars": 1041,
+  "forks": 86,
+  "openIssues": 4,
+  "score": 107.5,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-20T23:05:13Z",
+  "updatedAt": "2026-08-29T10:05:23Z",
   "createdAt": "2026-03-09T06:19:59Z",
   "sourceTopics": [
     "ai-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "ai-skills",
@@ -61,12 +60,9 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Codex"
   ],
-  "skillCount": 11,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/aklofas/kicad-happy",
@@ -77,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "summary": "KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -96,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "f29af43da500ea4d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "7378f9b24c9b4e60",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kicad-happy：kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "kicad-happy：KiCad 电子设计 AI 编程助手。支持与 Claude Code 及 OpenAI Codex 集成。可分析原理图、审查 PCB 布局、进行 EMC 预合规性分析、运行 SPICE 仿真、下载数据手册、获取元器件及准备板卡以进行制造。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "kicad-happy 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -120,7 +116,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -130,7 +126,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 11+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

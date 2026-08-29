@@ -1,5 +1,5 @@
 {
-  "rank": 441,
+  "rank": 685,
   "id": 1144727401,
   "name": "skill-scanner",
   "fullName": "cisco-ai-defense/skill-scanner",
@@ -8,7 +8,7 @@
   "url": "https://github.com/cisco-ai-defense/skill-scanner",
   "homepage": "https://cisco-ai-defense.github.io/docs/skill-scanner",
   "description": "Security Scanner for Agent Skills",
-  "summary": "skill-scanner：skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "uv pip install cisco-ai-skill-scanner\npip install cisco-ai-skill-scanner",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 2383,
-  "forks": 298,
-  "openIssues": 21,
-  "score": 123.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-22T08:21:46Z",
-  "updatedAt": "2026-07-29T23:19:38Z",
+  "stars": 2466,
+  "forks": 313,
+  "openIssues": 13,
+  "score": 116.5,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-04T04:50:35Z",
+  "updatedAt": "2026-08-29T09:38:28Z",
   "createdAt": "2026-01-29T01:31:32Z",
   "sourceTopics": [
     "agent-skills"
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "安全扫描器：智能技能",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -78,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ede33e03defa3b63",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "255b8c244fb5207a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-scanner：skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skill-scanner 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

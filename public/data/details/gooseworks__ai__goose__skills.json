@@ -1,5 +1,5 @@
 {
-  "rank": 740,
+  "rank": 972,
   "id": 1170279318,
   "name": "goose-skills",
   "fullName": "gooseworks-ai/goose-skills",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "Install the Gooseworks skills:\nIn the terminal, run `npx gooseworks install --all`.\nThen run `npx gooseworks login` and it'll open a browser to sign in and set up the tools, then confirm it worked.",
+  "installCommand": "git clone https://github.com/gooseworks-ai/goose-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1068,
-  "forks": 194,
+  "stars": 1188,
+  "forks": 205,
   "openIssues": 54,
-  "score": 114.8,
-  "activity": "本周活跃",
-  "pushedAt": "2026-07-23T14:55:45Z",
-  "updatedAt": "2026-07-30T00:39:21Z",
+  "score": 108.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-14T11:51:57Z",
+  "updatedAt": "2026-08-28T15:26:49Z",
   "createdAt": "2026-03-02T00:07:48Z",
   "sourceTopics": [
     "claude-skills"
@@ -51,7 +51,7 @@
     "Codex",
     "Cursor"
   ],
-  "skillCount": 200,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/gooseworks-ai/goose-skills",
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "goose-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "goose-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -81,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "88500e639a948ec4",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "df3c377cdeebae79",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -115,7 +115,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 200+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

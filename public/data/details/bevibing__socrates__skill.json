@@ -1,5 +1,5 @@
 {
-  "rank": 2040,
+  "rank": 1947,
   "id": 1198999895,
   "name": "socrates-skill",
   "fullName": "bevibing/socrates-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/bevibing/socrates-skill",
   "homepage": "",
   "description": "Socratic method teaching skill for Claude Code — guides users to discover answers through questioning",
-  "summary": "socrates-skill：socrates-skill：socrates-skill 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "socrates-skill：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,15 +22,16 @@
   "installCommand": "git clone https://github.com/bevibing/socrates-skill.git",
   "language": "",
   "license": "MIT",
-  "stars": 163,
-  "forks": 2,
+  "stars": 282,
+  "forks": 11,
   "openIssues": 0,
-  "score": 72.7,
+  "score": 82.2,
   "activity": "活跃",
   "pushedAt": "2026-04-02T01:15:14Z",
-  "updatedAt": "2026-07-30T02:55:40Z",
+  "updatedAt": "2026-08-29T10:07:02Z",
   "createdAt": "2026-04-02T00:59:18Z",
   "sourceTopics": [
+    "skill",
     "skillsmp"
   ],
   "discoveredBy": [
@@ -59,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "socrates-skill：socrates-skill 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "socrates-skill 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -78,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ce8dbd3fb46d6a2b",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "5f1aaf2e5083892d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "socrates-skill：socrates-skill：socrates-skill 支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "socrates-skill：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "socrates-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

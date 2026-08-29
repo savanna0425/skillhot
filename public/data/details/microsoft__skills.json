@@ -1,5 +1,5 @@
 {
-  "rank": 320,
+  "rank": 333,
   "id": 1135891523,
   "name": "skills",
   "fullName": "microsoft/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/skills",
   "homepage": "https://microsoft.github.io/skills/",
   "description": "Skills, MCP servers, Custom Agents, Agents.md for SDKs to ground Coding Agents",
-  "summary": "skills：skills：技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
+  "summary": "skills：技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,20 +22,21 @@
   "installCommand": "npx skills add microsoft/skills",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 2838,
-  "forks": 319,
-  "openIssues": 65,
-  "score": 128.9,
+  "stars": 2967,
+  "forks": 339,
+  "openIssues": 66,
+  "score": 129.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-28T23:00:54Z",
-  "updatedAt": "2026-07-29T21:53:35Z",
+  "pushedAt": "2026-08-28T23:59:00Z",
+  "updatedAt": "2026-08-28T19:49:21Z",
   "createdAt": "2026-01-16T18:34:20Z",
   "sourceTopics": [
     "skills",
     "agent-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-skills",
@@ -62,7 +63,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
+    "summary": "技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "756790ac99ab86a1",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "76e42356e48921f0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "skills：技能、MCP 服务器、自定义代理、Agents.md，为 SDK 提供编程代理的基石。适合在 Claude、GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

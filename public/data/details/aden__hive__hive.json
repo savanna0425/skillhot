@@ -1,5 +1,5 @@
 {
-  "rank": 682,
+  "rank": 441,
   "id": 1132431999,
   "name": "hive",
   "fullName": "aden-hive/hive",
@@ -8,10 +8,10 @@
   "url": "https://github.com/aden-hive/hive",
   "homepage": "",
   "description": "Multi-Agent Harness for Production AI",
-  "summary": "hive：hive：生产级多代理系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "hive：生产级多代理系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aden-hive/hive.git\ncd hive\n./quickstart.sh",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 10803,
-  "forks": 5666,
-  "openIssues": 1313,
-  "score": 115.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-29T21:55:22Z",
-  "updatedAt": "2026-07-30T03:16:53Z",
+  "stars": 10986,
+  "forks": 5672,
+  "openIssues": 1344,
+  "score": 124,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-21T05:30:06Z",
+  "updatedAt": "2026-08-29T08:52:28Z",
   "createdAt": "2026-01-12T00:04:22Z",
   "sourceTopics": [
     "agent-skills"
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "hive：生产级多代理系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "summary": "生产级多代理系统",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,13 +87,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2eaff7664ea2676d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "4289cc829b8858bd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hive：hive：生产级多代理系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "hive：生产级多代理系统。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "hive 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

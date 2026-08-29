@@ -1,5 +1,5 @@
 {
-  "rank": 260,
+  "rank": 255,
   "id": 1145158024,
   "name": "skills",
   "fullName": "wondelai/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/wondelai/skills",
   "homepage": "https://skills.wondel.ai",
   "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
-  "summary": "skills：skills：skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "中",
@@ -22,16 +22,15 @@
   "installCommand": "git clone https://github.com/wondelai/skills.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 1780,
-  "forks": 182,
-  "openIssues": 10,
-  "score": 132.1,
+  "stars": 2051,
+  "forks": 212,
+  "openIssues": 8,
+  "score": 133.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-22T15:34:52Z",
-  "updatedAt": "2026-07-29T22:19:53Z",
+  "pushedAt": "2026-08-28T18:45:15Z",
+  "updatedAt": "2026-08-29T08:51:01Z",
   "createdAt": "2026-01-29T13:54:15Z",
   "sourceTopics": [
-    "agent-skills",
     "claude-skills",
     "ai-skills",
     "claude-code-skills",
@@ -39,8 +38,7 @@
     "skillsmp"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
@@ -66,7 +64,7 @@
     "Cursor",
     "OpenClaw"
   ],
-  "skillCount": 62,
+  "skillCount": 64,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/wondelai/skills",
@@ -77,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "skills：skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "skills 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -96,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ce7f6204c48a0910",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "f1e1c0f2e6ea88ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：skills：skills 帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
@@ -130,7 +128,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "仓库信息显示它包含 62+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 64+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",

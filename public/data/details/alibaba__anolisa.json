@@ -1,5 +1,5 @@
 {
-  "rank": 1583,
+  "rank": 1380,
   "id": 1195873793,
   "name": "anolisa",
   "fullName": "alibaba/anolisa",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
   "url": "https://github.com/alibaba/anolisa",
   "homepage": "https://agentic-os.sh/",
-  "description": "ANOLISA(Agentic Nexus Operating Layer & Interface System Architecture)",
-  "summary": "anolisa：anolisa：anolisa 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) | Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost.",
+  "summary": "anolisa：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alibaba/anolisa.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 297,
-  "forks": 79,
-  "openIssues": 93,
-  "score": 93.7,
+  "stars": 604,
+  "forks": 105,
+  "openIssues": 160,
+  "score": 100.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-30T03:10:26Z",
-  "updatedAt": "2026-07-30T03:10:33Z",
+  "pushedAt": "2026-08-29T04:13:36Z",
+  "updatedAt": "2026-08-29T04:01:59Z",
   "createdAt": "2026-03-30T06:33:06Z",
   "sourceTopics": [
     "skill"
@@ -37,11 +37,23 @@
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic",
+    "agent-infrastructure",
+    "agent-memory",
+    "agent-runtime",
+    "agent-security",
+    "agentic-ai",
     "agentic-os",
+    "ai-agents",
+    "context-engineering",
+    "developer-tools",
+    "dsh-plugin",
     "linux",
-    "os",
-    "skill"
+    "observability",
+    "runtime-security",
+    "rust",
+    "sandbox",
+    "skill",
+    "token-optimization"
   ],
   "platforms": [
     "Agent Skills"
@@ -57,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "anolisa：anolisa 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "anolisa 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "ec27f91305f9c882",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "a47ada982a30a741",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anolisa：anolisa：anolisa 聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "anolisa：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "anolisa 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

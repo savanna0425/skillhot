@@ -1,5 +1,5 @@
 {
-  "rank": 1358,
+  "rank": 1420,
   "id": 1111263109,
   "name": "NornicDB",
   "fullName": "orneryd/NornicDB",
@@ -8,7 +8,7 @@
   "url": "https://github.com/orneryd/NornicDB",
   "homepage": "",
   "description": "Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms HNSW search, graph traversal, and writes. Using Neo4j Bolt/Cypher and qdrant's gRPC means you can switch with no changes while adding intelligent features like schemas, managed embeddings, reranking+llm, GPU accel, Auto-TLP, Policy-based Memory Decay, and MCP server.",
-  "summary": "NornicDB：NornicDB：NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "NornicDB：为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/orneryd/NornicDB.git",
   "language": "Go",
   "license": "MIT",
-  "stars": 835,
-  "forks": 47,
-  "openIssues": 7,
-  "score": 100.2,
+  "stars": 851,
+  "forks": 48,
+  "openIssues": 5,
+  "score": 100.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T17:02:59Z",
-  "updatedAt": "2026-07-29T17:03:26Z",
+  "pushedAt": "2026-08-28T22:20:18Z",
+  "updatedAt": "2026-08-28T20:34:32Z",
   "createdAt": "2025-12-06T15:46:33Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "NornicDB：NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -88,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "2dd8d546b6d1c0b2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "83c3451f145eb8f1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "NornicDB：NornicDB：NornicDB 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "NornicDB：为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "NornicDB 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

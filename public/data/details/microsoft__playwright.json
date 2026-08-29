@@ -1,5 +1,5 @@
 {
-  "rank": 51,
+  "rank": 54,
   "id": 221981891,
   "name": "playwright",
   "fullName": "microsoft/playwright",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/playwright",
   "homepage": "https://playwright.dev",
   "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-  "summary": "playwright：playwright：Playwright 是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "playwright：是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm init playwright@latest",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 93676,
-  "forks": 6178,
-  "openIssues": 156,
-  "score": 149.3,
+  "stars": 95327,
+  "forks": 6353,
+  "openIssues": 169,
+  "score": 149.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T23:14:35Z",
-  "updatedAt": "2026-07-30T02:50:15Z",
+  "pushedAt": "2026-08-29T01:43:34Z",
+  "updatedAt": "2026-08-29T12:52:08Z",
   "createdAt": "2019-11-15T18:32:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "playwright：Playwright 是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "summary": "Playwright 是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,13 +86,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "446799cb37261c12",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "8d1588225b65486e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "playwright：playwright：Playwright 是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "playwright：是一个用于 Web 测试和自动化的框架，它使用单一 API 即可测试 Chromium、Firefox 和 WebKit。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "playwright 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

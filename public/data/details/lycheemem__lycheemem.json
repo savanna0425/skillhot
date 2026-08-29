@@ -1,5 +1,5 @@
 {
-  "rank": 1325,
+  "rank": 1404,
   "id": 1189518533,
   "name": "LycheeMem",
   "fullName": "LycheeMem/LycheeMem",
@@ -8,7 +8,7 @@
   "url": "https://github.com/LycheeMem/LycheeMem",
   "homepage": "https://lycheemem.github.io",
   "description": "Lightweight Long-Term Memory for LLM Agents.",
-  "summary": "LycheeMem：LycheeMem：LycheeMem 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "LycheeMem：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/LycheeMem/LycheeMem.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1158,
-  "forks": 15,
-  "openIssues": 2,
+  "stars": 1156,
+  "forks": 16,
+  "openIssues": 1,
   "score": 100.6,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-17T09:58:02Z",
-  "updatedAt": "2026-07-29T12:55:14Z",
+  "pushedAt": "2026-08-06T14:54:11Z",
+  "updatedAt": "2026-08-28T11:15:34Z",
   "createdAt": "2026-03-23T12:01:43Z",
   "sourceTopics": [
     "skill"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "LycheeMem：LycheeMem 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "summary": "LycheeMem 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -85,13 +85,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b2f23b123954a6d2",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "c8e7e458c15cb45a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "LycheeMem：LycheeMem：LycheeMem 提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "LycheeMem：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "LycheeMem 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

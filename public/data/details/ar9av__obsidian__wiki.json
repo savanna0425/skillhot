@@ -1,5 +1,5 @@
 {
-  "rank": 609,
+  "rank": 610,
   "id": 1202549948,
   "name": "obsidian-wiki",
   "fullName": "Ar9av/obsidian-wiki",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Ar9av/obsidian-wiki",
   "homepage": "",
   "description": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki",
-  "summary": "obsidian-wiki：obsidian-wiki：obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,30 +19,31 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install obsidian-wiki\nobsidian-wiki setup --vault /path/to/your/digital/brain",
+  "installCommand": "pip install obsidian-wiki\nobsidian-wiki setup --vault ~/brain",
   "language": "Python",
   "license": "MIT",
-  "stars": 3052,
-  "forks": 309,
-  "openIssues": 6,
-  "score": 117.7,
+  "stars": 3297,
+  "forks": 327,
+  "openIssues": 10,
+  "score": 118.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-27T06:15:52Z",
-  "updatedAt": "2026-07-30T03:03:12Z",
+  "pushedAt": "2026-08-26T20:08:36Z",
+  "updatedAt": "2026-08-29T08:37:39Z",
   "createdAt": "2026-04-06T06:20:10Z",
   "sourceTopics": [
     "agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-skills",
     "brain",
     "knowledge-base",
+    "knowledge-graph",
     "llm-tools",
+    "memory",
     "obsidian",
     "obsidian-brain",
     "wiki"
@@ -51,11 +52,9 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenClaw"
+    "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 39,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Ar9av/obsidian-wiki",
@@ -66,7 +65,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "obsidian-wiki：obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "summary": "obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -85,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "750d0a120bcbd8ea",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "b9281a6f118507d0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-wiki：obsidian-wiki：obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "obsidian-wiki：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "obsidian-wiki 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -119,7 +118,7 @@
       "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
       "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
       "涉及个人数据时，需要自己确认权限和隐私设置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 39+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你正在用的办公平台。",

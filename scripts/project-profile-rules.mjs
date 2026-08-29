@@ -362,7 +362,7 @@ function deterministicProjectProfileFor(skill) {
   const category = categoryProfiles[skill.category] ? skill.category : '其他'
   const template = categoryProfiles[category]
   const name = displayName(skill)
-  const summary = cleanSentence(skill.summary || skill.description || `${name} 和 ${categoryMeta[category] || 'Agent 工作流'}相关`)
+  const summary = baseSummaryForProfile(skill.summary || skill.description || `${name} 和 ${categoryMeta[category] || 'Agent 工作流'}相关`, name)
   const scenario = firstText(skill.scenarios) || categoryMeta[category] || 'Agent 工作流'
   const platformText = platformsText(skill)
   const originalDescription = cleanSentence(skill.description || '')
@@ -456,6 +456,17 @@ function cleanSentence(value) {
     .replace(/\s+/g, ' ')
     .replace(/[。！？；,.，、\s]+$/u, '')
     .trim()
+}
+
+function baseSummaryForProfile(value, name) {
+  let summary = String(value || '').replace(/\s+/g, ' ').trim()
+  if (name) {
+    const escapedName = String(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const namePrefix = new RegExp(`^${escapedName}(?:[：:]|\\s+)`, 'iu')
+    while (namePrefix.test(summary)) summary = summary.replace(namePrefix, '')
+  }
+  summary = summary.replace(/(?:。适合在 .+? 相关工作流里先做选型判断。?)+$/u, '')
+  return cleanSentence(summary)
 }
 
 function firstText(items) {

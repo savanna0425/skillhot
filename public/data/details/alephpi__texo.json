@@ -1,5 +1,5 @@
 {
-  "rank": 1580,
+  "rank": 1640,
   "id": 1028293494,
   "name": "Texo",
   "fullName": "alephpi/Texo",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alephpi/Texo",
   "homepage": "https://texocr.netlify.app/",
   "description": "A minimalist SOTA LaTeX OCR model with only 20M parameters, running in browser. Full training pipeline available for self-reproduction. | 超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。",
-  "summary": "Texo：Texo：超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "Texo：超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alephpi/Texo.git",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 877,
-  "forks": 50,
+  "stars": 892,
+  "forks": 51,
   "openIssues": 0,
-  "score": 93.8,
+  "score": 93.9,
   "activity": "本月活跃",
-  "pushedAt": "2026-07-10T05:09:08Z",
-  "updatedAt": "2026-07-30T03:21:02Z",
+  "pushedAt": "2026-08-17T13:35:47Z",
+  "updatedAt": "2026-08-28T11:27:20Z",
   "createdAt": "2025-07-29T10:08:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Texo：超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "summary": "超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -88,14 +88,14 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "b43a92f7d85ba059",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "ef3104e4b626e9f4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Texo：Texo：超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。适合在 Agent Skills 相关工作流里先做选型判断。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Texo 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：A minimalist SOTA LaTeX OCR model with only 20M parameters, running in browser. Full training pipeline available for self-reproduction. | 超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Texo：超轻量SOTA LaTeX公式识别模型，仅20M参数量，可在浏览器中运行。训练全流程代码开源，以便自学复现。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Texo 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",

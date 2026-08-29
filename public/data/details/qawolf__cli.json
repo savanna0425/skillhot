@@ -1,5 +1,5 @@
 {
-  "rank": 729,
+  "rank": 769,
   "id": 209153343,
   "name": "cli",
   "fullName": "qawolf/cli",
@@ -8,7 +8,7 @@
   "url": "https://github.com/qawolf/cli",
   "homepage": "https://docs.qawolf.com",
   "description": "QA Wolf from anywhere — your terminal, your CI, your AI agent.",
-  "summary": "cli：cli：来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "cli：来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @qawolf/cli",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 3442,
-  "forks": 139,
-  "openIssues": 3,
+  "stars": 3443,
+  "forks": 140,
+  "openIssues": 7,
   "score": 114.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-07-29T13:07:02Z",
-  "updatedAt": "2026-07-29T13:07:51Z",
+  "pushedAt": "2026-08-29T03:38:32Z",
+  "updatedAt": "2026-08-29T06:10:16Z",
   "createdAt": "2019-09-17T20:45:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,7 +46,12 @@
     "testing"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -59,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "cli：来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理。适合在 Claude 相关工作流里先做选型判断。",
+    "summary": "来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -78,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "d0be1913edd7288d",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "eb8a2932607c2c9c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cli：cli：来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理。适合在 Claude 相关工作流里先做选型判断。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "cli：来自任何地方的 QA——你的终端，你的 CI，你的 AI 代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "cli 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -102,7 +107,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

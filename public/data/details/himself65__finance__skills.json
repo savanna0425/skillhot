@@ -1,5 +1,5 @@
 {
-  "rank": 455,
+  "rank": 313,
   "id": 1181272477,
   "name": "finance-skills",
   "fullName": "himself65/finance-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/himself65/finance-skills",
   "homepage": "https://skills.himself65.com",
   "description": "A collection of skills for AI financial analysis.",
-  "summary": "finance-skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "finance-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "npx plugins add himself65/finance-skills",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 3085,
-  "forks": 356,
-  "openIssues": 5,
-  "score": 122.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-07-21T20:33:47Z",
-  "updatedAt": "2026-07-29T19:20:54Z",
+  "stars": 3256,
+  "forks": 375,
+  "openIssues": 0,
+  "score": 130.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-27T17:45:32Z",
+  "updatedAt": "2026-08-29T07:19:29Z",
   "createdAt": "2026-03-13T23:56:06Z",
   "sourceTopics": [
     "skills",
@@ -45,7 +45,9 @@
     "trading"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -58,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "finance-skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "summary": "AI 金融分析技能集",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -77,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-07-30T03:35:12.892Z",
-    "sourceHash": "62d43abf7686bb17",
+    "generatedAt": "2026-08-29T12:56:01.873Z",
+    "sourceHash": "f191e65556ee8587",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "finance-skills 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "finance-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "finance-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -101,7 +103,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
