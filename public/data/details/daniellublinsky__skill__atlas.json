@@ -1,55 +1,67 @@
 {
-  "rank": 1681,
-  "id": 906846835,
-  "name": "smithery-cli",
-  "fullName": "arcadeai-labs/smithery-cli",
-  "owner": "arcadeai-labs",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/256061990?v=4",
-  "url": "https://github.com/arcadeai-labs/smithery-cli",
-  "homepage": "https://smithery.ai",
-  "description": "Install, manage and develop MCP servers and skills for agents",
-  "summary": "smithery-cli：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2123,
+  "id": 1326392947,
+  "name": "Skill-Atlas",
+  "fullName": "danielLublinsky/Skill-Atlas",
+  "owner": "danielLublinsky",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/33877626?v=4",
+  "url": "https://github.com/danielLublinsky/Skill-Atlas",
+  "homepage": "",
+  "description": "Skill-Atlas",
+  "summary": "Skill-Atlas：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "中",
-  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "创建技能",
     "组织工作流",
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/arcadeai-labs/smithery-cli.git",
-  "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 827,
-  "forks": 96,
-  "openIssues": 39,
-  "score": 93.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-05-31T07:11:36Z",
-  "updatedAt": "2026-08-28T19:28:30Z",
-  "createdAt": "2024-12-22T04:43:16Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "installCommand": "git clone https://github.com/danielLublinsky/Skill-Atlas.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 23,
+  "forks": 2,
+  "openIssues": 1,
+  "score": 71.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-16T18:16:46Z",
+  "updatedAt": "2026-08-27T13:40:46Z",
+  "createdAt": "2026-08-07T08:12:44Z",
+  "sourceTopics": [
+    "skill-management"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-agents",
+    "ai-tools",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills",
+    "python",
+    "skill-development",
+    "skill-management",
+    "skills"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/arcadeai-labs/smithery-cli",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/danielLublinsky/Skill-Atlas",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/arcadeai-labs/smithery-cli#readme",
-  "detailPath": "data/details/arcadeai__labs__smithery__cli.json",
+  "readmeUrl": "https://github.com/danielLublinsky/Skill-Atlas#readme",
+  "detailPath": "data/details/daniellublinsky__skill__atlas.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "smithery-cli 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "Skill-Atlas 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -65,17 +77,17 @@
     ],
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "1e5912c02074b295",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "fa60d8a886d3367f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "smithery-cli：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "smithery-cli 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Skill-Atlas：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "Skill-Atlas 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -92,7 +104,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
@@ -115,7 +127,7 @@
       "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 2171,
-  "id": 1243475954,
-  "name": "IMPLEMENTAUDIT.md",
-  "fullName": "theislampill/IMPLEMENTAUDIT.md",
-  "owner": "theislampill",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/266501826?v=4",
-  "url": "https://github.com/theislampill/IMPLEMENTAUDIT.md",
-  "homepage": "https://theislampill.github.io/IMPLEMENTAUDIT.md/",
-  "description": "A self-correcting system of nested engineering loops: plan & execute repo work; safely implement audit findings; design greenfield & improve brownfield; learn from failures; re-verify until closure.",
-  "summary": "IMPLEMENTAUDIT.md：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 2217,
+  "id": 1252870784,
+  "name": "skill_steward",
+  "fullName": "Arenukvern/skill_steward",
+  "owner": "Arenukvern",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/15068151?v=4",
+  "url": "https://github.com/Arenukvern/skill_steward",
+  "homepage": "https://docs.page/arenukvern/skill_steward",
+  "description": "“What’s the thing?” You’d answer: “Skills that teach you how to maintain skills & repos”. Engineering Stewardship for any repository (app, library, tool), a structural governance and quality layer for agent-operated engineering repos. ",
+  "summary": "skill_steward 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,87 +19,78 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/theislampill/IMPLEMENTAUDIT.md.git",
-  "language": "Python",
-  "license": "",
-  "stars": 15,
-  "forks": 0,
-  "openIssues": 15,
-  "score": 67.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-08-27T20:34:50Z",
-  "updatedAt": "2026-08-23T20:38:15Z",
-  "createdAt": "2026-05-19T11:28:40Z",
+  "installCommand": "git clone https://github.com/Arenukvern/skill_steward.git",
+  "language": "Dart",
+  "license": "MIT",
+  "stars": 11,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 66.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-15T16:03:42Z",
+  "updatedAt": "2026-08-27T09:15:40Z",
+  "createdAt": "2026-05-29T00:38:29Z",
   "sourceTopics": [
-    "hermes-skill"
+    "skill-management"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-workflow",
     "ai-agents",
-    "audit",
-    "audit-automation",
-    "claude-code",
-    "claude-code-skill",
-    "codex-skill",
-    "continuous-improvement",
-    "developer-tools",
-    "gemba",
-    "hermes-skill",
-    "kaizen",
-    "kaizen-agents",
-    "lean-six-sigma",
-    "llm-tools",
-    "release-engineering",
-    "repo-hygiene",
-    "skills-sh",
-    "software-quality",
-    "verification"
+    "ai-coding",
+    "ai-tools",
+    "maintainance",
+    "meta-skill",
+    "metaprogramming",
+    "skill",
+    "skill-creator",
+    "skill-development",
+    "skill-management",
+    "skill-md",
+    "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/theislampill/IMPLEMENTAUDIT.md",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Arenukvern/skill_steward",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/theislampill/IMPLEMENTAUDIT.md#readme",
-  "detailPath": "data/details/theislampill__implementaudit__md.json",
+  "readmeUrl": "https://github.com/Arenukvern/skill_steward#readme",
+  "detailPath": "data/details/arenukvern__skill__steward.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "IMPLEMENTAUDIT.md 聚焦软件开发、代码质量与工程交付。",
+    "summary": "skill_steward 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "0d2d5723e0110f37",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "a3a5753967ccbe33",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "IMPLEMENTAUDIT.md：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "IMPLEMENTAUDIT.md 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skill_steward 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "skill_steward 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -116,7 +107,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -139,7 +130,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 2216,
-  "id": 1142748639,
-  "name": "claude-skills",
-  "fullName": "24111999/claude-skills",
-  "owner": "24111999",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/38464127?v=4",
-  "url": "https://github.com/24111999/claude-skills",
-  "homepage": "https://24111999.github.io",
-  "description": "📊 Create and edit PowerPoint presentations effortlessly with Claude Skills using XML manipulation for streamlined content management.",
-  "summary": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1977,
+  "id": 1160193069,
+  "name": "yt2bb",
+  "fullName": "Agents365-ai/yt2bb",
+  "owner": "Agents365-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
+  "url": "https://github.com/Agents365-ai/yt2bb",
+  "homepage": "",
+  "description": "YouTube to Bilibili video repurposing with bilingual subtitles",
+  "summary": "yt2bb：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,55 +19,55 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/24111999/claude-skills.git",
-  "language": "JavaScript",
-  "license": "",
-  "stars": 0,
-  "forks": 0,
+  "installCommand": "git clone https://github.com/Agents365-ai/yt2bb.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 50,
+  "forks": 4,
   "openIssues": 0,
-  "score": 66,
+  "score": 80.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-27T00:16:39Z",
-  "updatedAt": "2026-08-27T00:16:45Z",
-  "createdAt": "2026-01-26T20:06:55Z",
+  "pushedAt": "2026-08-30T05:26:09Z",
+  "updatedAt": "2026-08-30T05:26:23Z",
+  "createdAt": "2026-02-17T16:45:17Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "openclaw-skills",
+    "skillsmp"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "anthropic-ai",
-    "anthropic-skills",
-    "bioinformatics",
-    "chemoinformatics",
+    "agent-skills",
+    "bilibili",
     "claude-code",
+    "claude-code-skill",
     "claude-skills",
-    "computational-biology",
-    "data-analysis",
-    "developer-tools",
-    "genomics",
-    "large-language-models",
-    "materials-science",
-    "productivity",
-    "scientific-visualization"
+    "hermes-agent",
+    "openclaw",
+    "openclaw-skills",
+    "skill-md",
+    "skillsmp",
+    "subtitles",
+    "video-localization",
+    "youtube"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/24111999/claude-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/yt2bb",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/24111999/claude-skills#readme",
-  "detailPath": "data/details/24111999__claude__skills.json",
+  "readmeUrl": "https://github.com/Agents365-ai/yt2bb#readme",
+  "detailPath": "data/details/agents365__ai__yt2bb.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "yt2bb：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -83,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "c6354d3ea6d4fafc",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "980eadc9b0363c68",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "yt2bb：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "yt2bb 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -110,7 +110,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -133,7 +133,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

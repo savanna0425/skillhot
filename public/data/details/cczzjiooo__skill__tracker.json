@@ -1,14 +1,14 @@
 {
-  "rank": 907,
-  "id": 1302690078,
-  "name": "lieflat-charts",
-  "fullName": "larashero3-dotcom/lieflat-charts",
-  "owner": "larashero3-dotcom",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/260030037?v=4",
-  "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+  "rank": 2240,
+  "id": 1290505301,
+  "name": "skill-tracker",
+  "fullName": "CcZzJiooo/skill-tracker",
+  "owner": "CcZzJiooo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/163880601?v=4",
+  "url": "https://github.com/CcZzJiooo/skill-tracker",
   "homepage": "",
-  "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
-  "summary": "lieflat-charts：Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Local-first dashboard for visualizing AI-agent skill calls, Chinese skill descriptions, and duplicate-skill governance.",
+  "summary": "skill-tracker：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "高",
@@ -19,47 +19,59 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/larashero3-dotcom/lieflat-charts.git",
+  "installCommand": "git clone https://github.com/CcZzJiooo/skill-tracker.git",
   "language": "HTML",
-  "license": "NOASSERTION",
-  "stars": 1988,
-  "forks": 102,
-  "openIssues": 1,
-  "score": 110.2,
+  "license": "MIT",
+  "stars": 8,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 65.1,
   "activity": "本月活跃",
-  "pushedAt": "2026-08-19T14:43:24Z",
-  "updatedAt": "2026-08-29T11:23:42Z",
-  "createdAt": "2026-07-16T11:17:49Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-08-16T10:07:55Z",
+  "updatedAt": "2026-08-17T01:14:56Z",
+  "createdAt": "2026-07-06T02:17:27Z",
+  "sourceTopics": [
+    "skill-management"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "charts",
+    "agent-tools",
+    "ai-agent",
+    "chinese",
     "claude-code",
     "codex",
-    "data-visualization",
-    "html",
-    "moxt",
-    "svg"
+    "cursor",
+    "dashboard",
+    "developer-tools",
+    "gemini-cli",
+    "github-search",
+    "local-first",
+    "observability",
+    "privacy",
+    "skill-management",
+    "skills",
+    "windsurf"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/larashero3-dotcom/lieflat-charts",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CcZzJiooo/skill-tracker",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/larashero3-dotcom/lieflat-charts#readme",
-  "detailPath": "data/details/larashero3__dotcom__lieflat__charts.json",
+  "readmeUrl": "https://github.com/CcZzJiooo/skill-tracker#readme",
+  "detailPath": "data/details/cczzjiooo__skill__tracker.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将",
+    "summary": "skill-tracker：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -75,17 +87,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "343c057954edb197",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "fed39240c1605a35",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lieflat-charts：Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "lieflat-charts 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skill-tracker：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "skill-tracker 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -102,7 +114,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -125,7 +137,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

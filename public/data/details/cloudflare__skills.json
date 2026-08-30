@@ -1,5 +1,5 @@
 {
-  "rank": 650,
+  "rank": 848,
   "id": 1113922795,
   "name": "skills",
   "fullName": "cloudflare/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/cloudflare/skills",
   "homepage": "",
   "description": "Skills for teaching agents how to build on Cloudflare.",
-  "summary": "skills：为 Cloudflare 上的代理构建提供教学技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "skills：为 Cloudflare 上的代理构建提供教学技能。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,22 +19,19 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add https://github.com/cloudflare/skills",
+  "installCommand": "git clone https://github.com/cloudflare/skills.git",
   "language": "Shell",
   "license": "Apache-2.0",
-  "stars": 2738,
+  "stars": 2741,
   "forks": 266,
   "openIssues": 30,
-  "score": 117.5,
+  "score": 113.5,
   "activity": "本月活跃",
   "pushedAt": "2026-08-07T17:44:39Z",
-  "updatedAt": "2026-08-29T09:12:56Z",
+  "updatedAt": "2026-08-29T22:05:45Z",
   "createdAt": "2025-12-10T16:45:17Z",
-  "sourceTopics": [
-    "skills"
-  ],
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
     "GitHub 搜索"
   ],
   "repoTopics": [
@@ -44,10 +41,7 @@
     "workers"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -79,13 +73,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "305c7497efb7c949",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "7644583eee9a392d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：为 Cloudflare 上的代理构建提供教学技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "skills：为 Cloudflare 上的代理构建提供教学技能。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -103,7 +97,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

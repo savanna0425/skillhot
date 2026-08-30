@@ -1,14 +1,14 @@
 {
-  "rank": 1266,
-  "id": 1030580992,
-  "name": "atlassian-mcp-server",
-  "fullName": "atlassian/atlassian-mcp-server",
-  "owner": "atlassian",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/168166?v=4",
-  "url": "https://github.com/atlassian/atlassian-mcp-server",
-  "homepage": "https://atlassian.com/platform/rovo-mcp",
-  "description": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
-  "summary": "atlassian-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 1012,
+  "id": 1205367502,
+  "name": "ctx",
+  "fullName": "stevesolun/ctx",
+  "owner": "stevesolun",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1304538?v=4",
+  "url": "https://github.com/stevesolun/ctx",
+  "homepage": "https://stevesolun.github.io/ctx/",
+  "description": "Repo-aware recommendations for skills, agents, MCP servers, and model harnesses. Use your own inventory or the shipped 79,958-node graph with 68,494 skills, 467 agents, 10,790 MCPs, and 207 harnesses.",
+  "summary": "ctx：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,60 +19,60 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/atlassian/atlassian-mcp-server.git",
-  "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 999,
-  "forks": 125,
-  "openIssues": 87,
-  "score": 102.1,
+  "installCommand": "git clone https://github.com/stevesolun/ctx.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 581,
+  "forks": 71,
+  "openIssues": 6,
+  "score": 108.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-29T00:01:00Z",
-  "updatedAt": "2026-08-28T15:43:56Z",
-  "createdAt": "2025-08-01T22:31:35Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-08-24T06:21:40Z",
+  "updatedAt": "2026-08-28T19:35:28Z",
+  "createdAt": "2026-04-08T22:39:54Z",
+  "sourceTopics": [
+    "skill-management"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
+    "agents",
     "ai-agents",
-    "atlassian",
-    "bitbucket",
-    "chatgpt",
+    "anthropic",
+    "automation",
     "claude",
-    "compass",
-    "confluence",
-    "copilot",
-    "cursor",
+    "claude-code",
+    "context-management",
     "developer-tools",
-    "jira",
-    "jira-service-management",
+    "harness",
+    "knowledge-graph",
     "llm",
+    "llm-wiki",
     "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "oauth",
-    "rovo",
-    "vscode"
+    "micro-skills",
+    "obsidian",
+    "real-time",
+    "recommendation-engine",
+    "skill-management",
+    "skills",
+    "wiki"
   ],
   "platforms": [
-    "Claude",
-    "Cursor",
-    "GitHub Copilot"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/atlassian/atlassian-mcp-server",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/stevesolun/ctx",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/atlassian/atlassian-mcp-server#readme",
-  "detailPath": "data/details/atlassian__atlassian__mcp__server.json",
+  "readmeUrl": "https://github.com/stevesolun/ctx#readme",
+  "detailPath": "data/details/stevesolun__ctx.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "atlassian-mcp-server 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "ctx 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -88,17 +88,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "90568f910be90a1e",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "232a940254c48d23",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "atlassian-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "atlassian-mcp-server 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ctx：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "ctx 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -115,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -138,7 +138,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

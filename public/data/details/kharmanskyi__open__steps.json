@@ -1,17 +1,17 @@
 {
-  "rank": 321,
-  "id": 1195243030,
-  "name": "learn-harness-engineering",
-  "fullName": "walkinglabs/learn-harness-engineering",
-  "owner": "walkinglabs",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/271878417?v=4",
-  "url": "https://github.com/walkinglabs/learn-harness-engineering",
-  "homepage": "https://walkinglabs.github.io/learn-harness-engineering/",
-  "description": "Harness engineering beginner tutorial, from 0 to 1",
-  "summary": "learn-harness-engineering：Harness 工程入门教程，从零到一。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1725,
+  "id": 1346230651,
+  "name": "open-steps",
+  "fullName": "kharmanskyi/open-steps",
+  "owner": "kharmanskyi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/145896518?v=4",
+  "url": "https://github.com/kharmanskyi/open-steps",
+  "homepage": "https://opensteps.ai",
+  "description": "Skills that translate your coding agent's output into plain language: honest reports, straight verdicts, steps you can follow. MIT.",
+  "summary": "open-steps：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,51 +19,49 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/walkinglabs/learn-harness-engineering.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/kharmanskyi/open-steps.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 14478,
-  "forks": 1434,
-  "openIssues": 9,
-  "score": 129.9,
+  "stars": 114,
+  "forks": 35,
+  "openIssues": 13,
+  "score": 92.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-26T01:08:59Z",
-  "updatedAt": "2026-08-29T12:34:24Z",
-  "createdAt": "2026-03-29T12:28:19Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-08-29T17:06:28Z",
+  "updatedAt": "2026-08-29T22:01:08Z",
+  "createdAt": "2026-08-25T14:24:24Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "agentic",
-    "agentic-ai",
-    "ai",
-    "ai-agent",
+    "agent-skill",
+    "agent-skills",
     "ai-agents",
-    "dsh",
-    "dsh-plugin",
-    "harness",
-    "harness-engineering",
-    "harness-framework",
-    "llm"
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skills",
+    "claude-skill",
+    "prompt-optimization",
+    "vibe-coding"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/walkinglabs/learn-harness-engineering",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kharmanskyi/open-steps",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/walkinglabs/learn-harness-engineering#readme",
-  "detailPath": "data/details/walkinglabs__learn__harness__engineering.json",
+  "readmeUrl": "https://github.com/kharmanskyi/open-steps#readme",
+  "detailPath": "data/details/kharmanskyi__open__steps.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Harness 工程入门教程，从零到一",
+    "summary": "open-steps 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,14 +80,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "720e693118f54482",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "2a0af9e46b1f6725",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "learn-harness-engineering：Harness 工程入门教程，从零到一。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "learn-harness-engineering 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-steps：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "open-steps 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -106,7 +104,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

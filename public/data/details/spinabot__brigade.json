@@ -1,5 +1,5 @@
 {
-  "rank": 818,
+  "rank": 819,
   "id": 1274498048,
   "name": "brigade",
   "fullName": "spinabot/brigade",
@@ -22,13 +22,13 @@
   "installCommand": "> **Hitting `EACCES` / permission denied?** Your Node's global folder needs admin rights. **Don't `sudo`** — either use the `curl … | sh` installer above (it sets up a private, user-owned runtime, no root needed), or point npm at a user-writable prefix: `npm config set prefix ~/.npm-global`, then add `~/.npm-global/bin` to your `PATH`.\nThen launch onboarding",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3151,
+  "stars": 3165,
   "forks": 42,
   "openIssues": 9,
   "score": 114,
   "activity": "本周活跃",
   "pushedAt": "2026-08-27T15:36:02Z",
-  "updatedAt": "2026-08-28T14:59:25Z",
+  "updatedAt": "2026-08-30T05:27:56Z",
   "createdAt": "2026-06-19T15:18:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "readmeUrl": "https://github.com/spinabot/brigade#readme",
   "detailPath": "data/details/spinabot__brigade.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "brigade 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "69ef8312a7eda739",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "6b0880dafb8ec019",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

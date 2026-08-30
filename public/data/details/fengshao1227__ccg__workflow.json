@@ -1,5 +1,5 @@
 {
-  "rank": 550,
+  "rank": 543,
   "id": 1127793756,
   "name": "ccg-workflow",
   "fullName": "fengshao1227/ccg-workflow",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "dsh plugin --profile web add dshmarketplace-plugin   # browse the store from inside DSH\nnpx dshmarketplace-cli add owner/repo                # install any plugin from your shell",
+  "installCommand": "npx ccg-workflow dsh install    # every profile found; --profile <name> for one\nnpx ccg-workflow dsh list       # which profiles have it",
   "language": "Go",
   "license": "MIT",
-  "stars": 5854,
+  "stars": 5862,
   "forks": 444,
   "openIssues": 3,
-  "score": 120.4,
+  "score": 120.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-28T04:59:03Z",
-  "updatedAt": "2026-08-29T10:39:28Z",
+  "pushedAt": "2026-08-29T15:54:58Z",
+  "updatedAt": "2026-08-30T01:35:11Z",
   "createdAt": "2026-01-04T15:56:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -85,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-29T12:56:01.873Z",
-    "sourceHash": "836b77fdfd446ce8",
+    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "sourceHash": "c73533692379c55e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
