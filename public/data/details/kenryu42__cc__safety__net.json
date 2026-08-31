@@ -1,5 +1,5 @@
 {
-  "rank": 1165,
+  "rank": 1175,
   "id": 1122873619,
   "name": "cc-safety-net",
   "fullName": "kenryu42/cc-safety-net",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/61741059?v=4",
   "url": "https://github.com/kenryu42/cc-safety-net",
   "homepage": "https://ccsafetynet.com",
-  "description": "An AI coding agent guardrail — a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
+  "description": "A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot CLI, Grok Build, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
   "summary": "cc-safety-net：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/kenryu42/cc-safety-net.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1515,
+  "stars": 1518,
   "forks": 75,
   "openIssues": 0,
   "score": 106.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-29T10:36:14Z",
-  "updatedAt": "2026-08-30T04:57:38Z",
+  "pushedAt": "2026-08-31T04:56:22Z",
+  "updatedAt": "2026-08-31T04:56:29Z",
   "createdAt": "2025-12-25T17:52:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-30T05:31:38.330Z",
-    "sourceHash": "ec4489a38c358ff7",
+    "generatedAt": "2026-08-31T05:44:57.514Z",
+    "sourceHash": "d0e416a3a1d050c8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

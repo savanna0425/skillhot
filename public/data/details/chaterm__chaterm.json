@@ -1,5 +1,5 @@
 {
-  "rank": 839,
+  "rank": 848,
   "id": 965885460,
   "name": "Chaterm",
   "fullName": "chaterm/Chaterm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/chaterm/Chaterm",
   "homepage": "https://chaterm.ai",
   "description": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
-  "summary": "Chaterm：基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务。适合在 Codex、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "Chaterm：基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务。适合在 Codex、Cursor 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -19,11 +19,11 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm i electron -D",
+  "installCommand": "git clone https://github.com/chaterm/Chaterm.git",
   "language": "TypeScript",
   "license": "NOASSERTION",
   "stars": 3031,
-  "forks": 293,
+  "forks": 292,
   "openIssues": 58,
   "score": 113.6,
   "activity": "本周活跃",
@@ -53,8 +53,7 @@
   ],
   "platforms": [
     "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -86,13 +85,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-30T05:31:38.330Z",
+    "generatedAt": "2026-08-31T05:44:57.514Z",
     "sourceHash": "e07dbf1a57ae47ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Chaterm：基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务。适合在 Codex、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "Chaterm：基于云和基础设施管理的开源AI终端，支持通过自然语言和智能代理进行部署、调试及自动化服务。适合在 Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Chaterm 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -110,7 +109,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Codex、Cursor、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",

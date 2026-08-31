@@ -1,5 +1,5 @@
 {
-  "rank": 555,
+  "rank": 868,
   "id": 1214805512,
   "name": "gpt-image2-ppt-skills",
   "fullName": "JuneYaooo/gpt-image2-ppt-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
   "homepage": "https://slidecraft-template-gallery.vercel.app/",
   "description": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill. ",
-  "summary": "gpt-image2-ppt-skills：Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "gpt-image2-ppt-skills：Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone git@github.com:JuneYaooo/gpt-image2-ppt-skills.git\ncd gpt-image2-ppt-skills\nbash install_as_skill.sh --target claude   # Claude Code",
+  "installCommand": "git clone https://github.com/JuneYaooo/gpt-image2-ppt-skills.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1212,
+  "stars": 1219,
   "forks": 71,
   "openIssues": 2,
-  "score": 120.1,
-  "activity": "本周活跃",
+  "score": 113.1,
+  "activity": "本月活跃",
   "pushedAt": "2026-08-22T23:07:51Z",
-  "updatedAt": "2026-08-29T19:54:53Z",
+  "updatedAt": "2026-08-31T05:16:50Z",
   "createdAt": "2026-04-19T04:25:35Z",
   "sourceTopics": [
     "claude-code-skills",
@@ -52,9 +52,6 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -87,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-30T05:31:38.330Z",
-    "sourceHash": "7f27e64cd8009530",
+    "generatedAt": "2026-08-31T05:44:57.514Z",
+    "sourceHash": "0ed793ba24256e95",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gpt-image2-ppt-skills：Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "gpt-image2-ppt-skills：Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "gpt-image2-ppt-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -111,7 +108,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
