@@ -1,14 +1,14 @@
 {
-  "rank": 1858,
-  "id": 1236249097,
-  "name": "kernel-design-agents",
-  "fullName": "mit-han-lab/kernel-design-agents",
-  "owner": "mit-han-lab",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/39571499?v=4",
-  "url": "https://github.com/mit-han-lab/kernel-design-agents",
+  "rank": 1490,
+  "id": 1260777109,
+  "name": "statem",
+  "fullName": "henryqin1997/statem",
+  "owner": "henryqin1997",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/37519855?v=4",
+  "url": "https://github.com/henryqin1997/statem",
   "homepage": "",
-  "description": "",
-  "summary": "kernel-design-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "CLI runbook for agent long run.",
+  "summary": "statem：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,17 +19,17 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mit-han-lab/kernel-design-agents.git",
-  "language": "",
-  "license": "",
-  "stars": 896,
-  "forks": 75,
+  "installCommand": "git clone https://github.com/henryqin1997/statem.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 811,
+  "forks": 57,
   "openIssues": 2,
-  "score": 86,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-02T05:28:39Z",
-  "updatedAt": "2026-08-31T05:12:38Z",
-  "createdAt": "2026-05-12T04:42:45Z",
+  "score": 99.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-26T04:55:24Z",
+  "updatedAt": "2026-09-01T05:12:38Z",
+  "createdAt": "2026-06-05T21:30:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
@@ -41,15 +41,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/mit-han-lab/kernel-design-agents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/henryqin1997/statem",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/mit-han-lab/kernel-design-agents#readme",
-  "detailPath": "data/details/mit__han__lab__kernel__design__agents.json",
+  "readmeUrl": "https://github.com/henryqin1997/statem#readme",
+  "detailPath": "data/details/henryqin1997__statem.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "kernel-design-agents：尚未归入主要类别的实用项目。",
+    "summary": "statem：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "aaecbbb18253e801",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "804756b02256f758",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kernel-design-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "kernel-design-agents 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "statem：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "statem 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 271,
+  "rank": 272,
   "id": 1085086903,
   "name": "EverOS",
   "fullName": "EverMind-AI/EverOS",
@@ -8,7 +8,7 @@
   "url": "https://github.com/EverMind-AI/EverOS",
   "homepage": "https://evermind.ai/everos",
   "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
-  "summary": "EverOS：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "EverOS：提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "uv pip install everos",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 12573,
-  "forks": 909,
+  "stars": 12604,
+  "forks": 911,
   "openIssues": 77,
   "score": 132.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-28T06:45:52Z",
-  "updatedAt": "2026-08-31T05:20:00Z",
+  "pushedAt": "2026-09-01T03:57:36Z",
+  "updatedAt": "2026-09-01T04:59:46Z",
   "createdAt": "2025-10-28T15:09:32Z",
   "sourceTopics": [
     "skills"
@@ -56,10 +56,8 @@
     "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
     "Gemini CLI",
-    "OpenCode"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -91,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "547e4cc34d091485",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "8b3cd7ccf13595e5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "EverOS：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "EverOS：提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "EverOS 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -115,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

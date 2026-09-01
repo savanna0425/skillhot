@@ -1,14 +1,14 @@
 {
-  "rank": 1283,
-  "id": 1149169439,
-  "name": "pup",
-  "fullName": "DataDog/pup",
-  "owner": "DataDog",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/365230?v=4",
-  "url": "https://github.com/DataDog/pup",
-  "homepage": "https://www.datadoghq.com",
-  "description": "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.",
-  "summary": "pup：为 AI 代理配备 Pup——一款拥有 33 多个 Datadog 产品、支持 200 多个命令的命令行伴侣。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 493,
+  "id": 867004514,
+  "name": "tilelang",
+  "fullName": "tile-ai/tilelang",
+  "owner": "tile-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/183584698?v=4",
+  "url": "https://github.com/tile-ai/tilelang",
+  "homepage": "https://tilelang.com/",
+  "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+  "summary": "tilelang：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,42 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DataDog/pup.git",
-  "language": "Rust",
-  "license": "Apache-2.0",
-  "stars": 999,
-  "forks": 112,
-  "openIssues": 14,
-  "score": 102.1,
+  "installCommand": "pip install tilelang",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 7310,
+  "forks": 724,
+  "openIssues": 276,
+  "score": 122.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-28T11:15:16Z",
-  "updatedAt": "2026-08-29T18:03:41Z",
-  "createdAt": "2026-02-03T19:56:25Z",
+  "pushedAt": "2026-08-31T18:16:57Z",
+  "updatedAt": "2026-08-31T22:16:01Z",
+  "createdAt": "2024-10-03T09:25:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "cli",
-    "client",
-    "datadog",
-    "observability"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/DataDog/pup",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/tile-ai/tilelang",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/DataDog/pup#readme",
-  "detailPath": "data/details/datadog__pup.json",
+  "readmeUrl": "https://github.com/tile-ai/tilelang#readme",
+  "detailPath": "data/details/tile__ai__tilelang.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "为 AI 代理配备 Pup——一款拥有 33 多个 Datadog 产品、支持 200 多个命令的命令行伴侣",
+    "summary": "tilelang：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -70,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "4f2d77c28839e5b0",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "71ef70e9a011ebf9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pup：为 AI 代理配备 Pup——一款拥有 33 多个 Datadog 产品、支持 200 多个命令的命令行伴侣。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "pup 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "tilelang：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "tilelang 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -120,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

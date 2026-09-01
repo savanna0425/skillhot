@@ -1,14 +1,14 @@
 {
-  "rank": 924,
-  "id": 1236375183,
-  "name": "skills",
-  "fullName": "chrisbanes/skills",
-  "owner": "chrisbanes",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/227486?v=4",
-  "url": "https://github.com/chrisbanes/skills",
-  "homepage": "",
-  "description": "Skills for Kotlin, Jetpack Compose, and Android development",
-  "summary": "skills：适用于 Kotlin、Jetpack Compose 及 Android 开发的技能。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1493,
+  "id": 1217128906,
+  "name": "sam",
+  "fullName": "google/sam",
+  "owner": "google",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+  "url": "https://github.com/google/sam",
+  "homepage": "http://sam-mesh.dev/",
+  "description": "SAM Sovereign Agent Mesh",
+  "summary": "sam：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,29 +19,27 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chrisbanes/skills.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/google/sam.git",
+  "language": "Go",
   "license": "Apache-2.0",
-  "stars": 999,
-  "forks": 46,
-  "openIssues": 1,
-  "score": 110.1,
+  "stars": 808,
+  "forks": 119,
+  "openIssues": 24,
+  "score": 99.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-27T15:15:46Z",
-  "updatedAt": "2026-08-30T17:36:34Z",
-  "createdAt": "2026-05-12T07:34:30Z",
+  "pushedAt": "2026-08-31T21:59:05Z",
+  "updatedAt": "2026-09-01T03:36:01Z",
+  "createdAt": "2026-04-21T15:15:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "android",
-    "compose-multiplatform",
-    "coroutines",
-    "jetpack-compose",
-    "kotlin",
-    "kotlin-multiplatform",
-    "skills"
+    "agentic-ai",
+    "mcp",
+    "network-security",
+    "networking-ai",
+    "p2p-network"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chrisbanes/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google/sam",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chrisbanes/skills#readme",
-  "detailPath": "data/details/chrisbanes__skills.json",
+  "readmeUrl": "https://github.com/google/sam#readme",
+  "detailPath": "data/details/google__sam.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "适用于 Kotlin、Jetpack Compose 及 Android 开发的技能",
+    "summary": "sam：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -76,14 +74,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "5c75044b7884514a",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "d4c54897a8755107",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：适用于 Kotlin、Jetpack Compose 及 Android 开发的技能。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "sam：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "sam 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",

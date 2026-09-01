@@ -1,5 +1,5 @@
 {
-  "rank": 987,
+  "rank": 738,
   "id": 1170279318,
   "name": "goose-skills",
   "fullName": "gooseworks-ai/goose-skills",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/gooseworks-ai/goose-skills.git",
+  "installCommand": "Install the Gooseworks skills:\nIn the terminal, run `npx gooseworks install --all`.\nThen run `npx gooseworks login` and it'll open a browser to sign in and set up the tools, then confirm it worked.",
   "language": "Python",
   "license": "MIT",
-  "stars": 1189,
+  "stars": 1192,
   "forks": 205,
-  "openIssues": 54,
-  "score": 108.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-14T11:51:57Z",
-  "updatedAt": "2026-08-30T13:12:20Z",
+  "openIssues": 55,
+  "score": 115.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-01T02:23:12Z",
+  "updatedAt": "2026-09-01T02:23:25Z",
   "createdAt": "2026-03-02T00:07:48Z",
   "sourceTopics": [
     "claude-skills"
@@ -51,7 +51,7 @@
     "Codex",
     "Cursor"
   ],
-  "skillCount": 1,
+  "skillCount": 200,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/gooseworks-ai/goose-skills",
@@ -81,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "b819f899e6e6c699",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "ed1064cb08e0af56",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -115,7 +115,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 200+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

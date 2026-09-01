@@ -1,5 +1,5 @@
 {
-  "rank": 839,
+  "rank": 849,
   "id": 1114903449,
   "name": "claude-code-harness",
   "fullName": "Chachamaru127/claude-code-harness",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Chachamaru127/claude-code-harness",
   "homepage": "",
   "description": "Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle",
-  "summary": "claude-code-harness：Claude Code 专属开发 Harness——通过自主计划→工作→审查循环实现高质量开发。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "claude-code-harness：Claude Code 专属开发 Harness——通过自主计划→工作→审查循环实现高质量开发。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Chachamaru127/claude-code-harness.git",
   "language": "Shell",
   "license": "MIT",
-  "stars": 3072,
+  "stars": 3076,
   "forks": 302,
   "openIssues": 9,
   "score": 113.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T01:45:34Z",
-  "updatedAt": "2026-08-31T01:45:09Z",
+  "pushedAt": "2026-08-31T08:38:34Z",
+  "updatedAt": "2026-08-31T22:16:46Z",
   "createdAt": "2025-12-12T03:57:21Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,12 +37,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "GitHub Copilot",
-    "OpenCode",
-    "Antigravity"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,13 +69,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "962251d472a837d8",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "1bcbdbaff0a84eba",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-harness：Claude Code 专属开发 Harness——通过自主计划→工作→审查循环实现高质量开发。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "claude-code-harness：Claude Code 专属开发 Harness——通过自主计划→工作→审查循环实现高质量开发。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "claude-code-harness 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -98,7 +93,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 930,
+  "rank": 413,
   "id": 1184268220,
   "name": "awesome-codex-subagents",
   "fullName": "VoltAgent/awesome-codex-subagents",
@@ -8,7 +8,7 @@
   "url": "https://github.com/VoltAgent/awesome-codex-subagents",
   "homepage": "https://github.com/VoltAgent/voltagent",
   "description": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
-  "summary": "awesome-codex-subagents 是一个面向 Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-codex-subagents 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/VoltAgent/awesome-codex-subagents.git",
   "language": "",
   "license": "MIT",
-  "stars": 6056,
+  "stars": 6061,
   "forks": 675,
-  "openIssues": 3,
-  "score": 109.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-10T09:22:04Z",
-  "updatedAt": "2026-08-31T04:08:18Z",
+  "openIssues": 2,
+  "score": 124.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-31T10:22:00Z",
+  "updatedAt": "2026-09-01T00:06:29Z",
   "createdAt": "2026-03-17T12:26:20Z",
   "sourceTopics": [
     "codex-skills"
@@ -46,7 +46,9 @@
     "subagents"
   ],
   "platforms": [
-    "Codex"
+    "Claude",
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -78,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "e7fd5530f343e622",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "487b18ea5d280408",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-codex-subagents 是一个面向 Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-codex-subagents 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-codex-subagents 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -102,7 +104,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

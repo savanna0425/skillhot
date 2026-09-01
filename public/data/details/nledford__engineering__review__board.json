@@ -1,14 +1,14 @@
 {
-  "rank": 905,
-  "id": 1061458721,
-  "name": "awesome-opencode",
-  "fullName": "awesome-opencode/awesome-opencode",
-  "owner": "awesome-opencode",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/233648571?v=4",
-  "url": "https://github.com/awesome-opencode/awesome-opencode",
-  "homepage": "",
-  "description": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
-  "summary": "awesome-opencode 是一个面向 OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 2223,
+  "id": 1276032812,
+  "name": "engineering-review-board",
+  "fullName": "nledford/engineering-review-board",
+  "owner": "nledford",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/14197750?v=4",
+  "url": "https://github.com/nledford/engineering-review-board",
+  "homepage": "https://github.com/nledford/engineering-review-board",
+  "description": "A collection of AI agent skills I have written",
+  "summary": "engineering-review-board 是一个面向 OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,37 +19,46 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/awesome-opencode/awesome-opencode.git",
+  "installCommand": "git clone https://github.com/nledford/engineering-review-board.git",
   "language": "JavaScript",
-  "license": "CC0-1.0",
-  "stars": 9995,
-  "forks": 801,
-  "openIssues": 293,
-  "score": 111,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-03T14:10:38Z",
-  "updatedAt": "2026-08-31T04:01:17Z",
-  "createdAt": "2025-09-22T00:01:14Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-29T20:19:45Z",
+  "updatedAt": "2026-08-29T20:22:39Z",
+  "createdAt": "2026-06-21T13:06:52Z",
+  "sourceTopics": [
+    "ai-agent-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent-skills",
+    "agents",
+    "ai-agent-skills",
+    "ai-agents",
+    "opencode",
+    "skills"
+  ],
   "platforms": [
     "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/awesome-opencode/awesome-opencode",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nledford/engineering-review-board",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/awesome-opencode/awesome-opencode#readme",
-  "detailPath": "data/details/awesome__opencode__awesome__opencode.json",
+  "readmeUrl": "https://github.com/nledford/engineering-review-board#readme",
+  "detailPath": "data/details/nledford__engineering__review__board.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "精选的 awesome 插件、主题、代理、项目和资源列表，适用于 https://opencode.ai",
+    "summary": "engineering-review-board 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -65,17 +74,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "3960e1e5f94d9f55",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "60088d5f3e9d2199",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-opencode 是一个面向 OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-opencode 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "engineering-review-board 是一个面向 OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "engineering-review-board 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -115,7 +124,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 CC0-1.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

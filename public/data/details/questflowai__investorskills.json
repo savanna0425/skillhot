@@ -1,5 +1,5 @@
 {
-  "rank": 739,
+  "rank": 978,
   "id": 1251057798,
   "name": "investorskills",
   "fullName": "questflowai/investorskills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/questflowai/investorskills",
   "homepage": "https://questflow.ai",
   "description": "Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI finance agents can apply them.",
-  "summary": "investorskills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "investorskills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/questflowai/investorskills.git",
   "language": "Swift",
   "license": "MIT",
-  "stars": 1697,
-  "forks": 92,
+  "stars": 1760,
+  "forks": 100,
   "openIssues": 0,
-  "score": 115.6,
-  "activity": "本周活跃",
+  "score": 109,
+  "activity": "本月活跃",
   "pushedAt": "2026-08-23T07:17:36Z",
-  "updatedAt": "2026-08-31T05:39:29Z",
+  "updatedAt": "2026-09-01T04:16:53Z",
   "createdAt": "2026-05-27T07:53:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,10 +41,7 @@
     "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -76,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "84aece1251b6d88b",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "d1d9b05ef9a11f1f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "investorskills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "investorskills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "investorskills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -100,7 +97,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 341,
+  "rank": 340,
   "id": 1131107802,
   "name": "claude-code-ultimate-guide",
   "fullName": "FlorianBruniaux/claude-code-ultimate-guide",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/FlorianBruniaux/cc-copilot-bridge.git && cd cc-copilot-bridge && ./install.sh\nccc   # Copilot mode (flat $10/month)\nccd   # Direct Anthropic mode (per-token)",
+  "installCommand": "npm install -g @anthropic-ai/claude-code\nbrew install claude-code\ncurl -fsSL https://claude.ai/install.sh | sh",
   "language": "Python",
   "license": "CC-BY-SA-4.0",
-  "stars": 5858,
+  "stars": 5863,
   "forks": 767,
-  "openIssues": 12,
-  "score": 128.4,
+  "openIssues": 14,
+  "score": 128.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-30T19:04:34Z",
-  "updatedAt": "2026-08-30T23:39:51Z",
+  "pushedAt": "2026-08-31T23:20:37Z",
+  "updatedAt": "2026-09-01T02:37:57Z",
   "createdAt": "2026-01-09T13:42:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,7 +60,7 @@
     "Claude",
     "Cursor"
   ],
-  "skillCount": 66,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/FlorianBruniaux/claude-code-ultimate-guide",
@@ -90,8 +90,8 @@
       "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "b4fd283983483731",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "cfaf974ab5aaf497",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -124,7 +124,7 @@
       "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
       "用户配置模型服务、权限和项目后，在平台里发起任务。",
       "稳定性取决于模型服务、插件生态和本地/云端配置。",
-      "仓库信息显示它包含 66+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先确认它支持你常用的模型和 Agent 客户端。",

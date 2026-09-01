@@ -1,14 +1,14 @@
 {
-  "rank": 692,
-  "id": 1144727401,
-  "name": "skill-scanner",
-  "fullName": "cisco-ai-defense/skill-scanner",
-  "owner": "cisco-ai-defense",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/220944709?v=4",
-  "url": "https://github.com/cisco-ai-defense/skill-scanner",
-  "homepage": "https://cisco-ai-defense.github.io/docs/skill-scanner",
-  "description": "Security Scanner for Agent Skills",
-  "summary": "skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 841,
+  "id": 1289435641,
+  "name": "rnskill",
+  "fullName": "Pluviobyte/rnskill",
+  "owner": "Pluviobyte",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/94058511?v=4",
+  "url": "https://github.com/Pluviobyte/rnskill",
+  "homepage": "",
+  "description": "雪踏乌云的 AI Agent Skills 集合",
+  "summary": "rnskill：雪踏乌云的 AI Agent Skills 集合。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,47 +19,38 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "uv pip install cisco-ai-skill-scanner\npip install cisco-ai-skill-scanner",
+  "installCommand": "git clone https://github.com/Pluviobyte/rnskill.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 2474,
-  "forks": 314,
-  "openIssues": 13,
-  "score": 116.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-04T04:50:35Z",
-  "updatedAt": "2026-08-31T04:36:29Z",
-  "createdAt": "2026-01-29T01:31:32Z",
-  "sourceTopics": [
-    "agent-skills"
-  ],
+  "stars": 1443,
+  "forks": 162,
+  "openIssues": 1,
+  "score": 113.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-30T05:34:18Z",
+  "updatedAt": "2026-09-01T03:21:34Z",
+  "createdAt": "2026-07-04T18:43:42Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent",
-    "agent-skills",
-    "security"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/cisco-ai-defense/skill-scanner",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Pluviobyte/rnskill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/cisco-ai-defense/skill-scanner#readme",
-  "detailPath": "data/details/cisco__ai__defense__skill__scanner.json",
+  "readmeUrl": "https://github.com/Pluviobyte/rnskill#readme",
+  "detailPath": "data/details/pluviobyte__rnskill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "安全扫描器：智能技能",
+    "summary": "雪踏乌云的 AI Agent Skills 集合",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -78,14 +69,14 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-08-31T05:44:57.514Z",
-    "sourceHash": "781b6d15e9b5fd79",
+    "generatedAt": "2026-09-01T05:18:12.416Z",
+    "sourceHash": "57f3cf3903043f0a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-scanner：安全扫描器：智能技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "skill-scanner 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "rnskill：雪踏乌云的 AI Agent Skills 集合。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "rnskill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -102,7 +93,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
