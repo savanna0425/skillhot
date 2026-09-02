@@ -1,14 +1,14 @@
 {
-  "rank": 986,
-  "id": 1349601607,
-  "name": "codex-with-chatgpt",
-  "fullName": "XiaoDuoYa/codex-with-chatgpt",
-  "owner": "XiaoDuoYa",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/113528266?v=4",
-  "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+  "rank": 1360,
+  "id": 1236249097,
+  "name": "kernel-design-agents",
+  "fullName": "mit-han-lab/kernel-design-agents",
+  "owner": "mit-han-lab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/39571499?v=4",
+  "url": "https://github.com/mit-han-lab/kernel-design-agents",
   "homepage": "",
-  "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-  "summary": "codex-with-chatgpt：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+  "description": "",
+  "summary": "kernel-design-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,44 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/XiaoDuoYa/codex-with-chatgpt.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/mit-han-lab/kernel-design-agents.git",
+  "language": "",
   "license": "MIT",
-  "stars": 1927,
-  "forks": 202,
-  "openIssues": 3,
-  "score": 108.9,
+  "stars": 925,
+  "forks": 78,
+  "openIssues": 2,
+  "score": 101.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T13:17:49Z",
-  "updatedAt": "2026-09-01T05:16:41Z",
-  "createdAt": "2026-08-28T12:57:24Z",
+  "pushedAt": "2026-09-02T02:18:51Z",
+  "updatedAt": "2026-09-02T04:14:41Z",
+  "createdAt": "2026-05-12T04:42:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-agents",
-    "chatgpt",
-    "codex",
-    "mcp",
-    "model-context-protocol",
-    "oauth"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/XiaoDuoYa/codex-with-chatgpt",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mit-han-lab/kernel-design-agents",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/XiaoDuoYa/codex-with-chatgpt#readme",
-  "detailPath": "data/details/xiaoduoya__codex__with__chatgpt.json",
+  "readmeUrl": "https://github.com/mit-han-lab/kernel-design-agents#readme",
+  "detailPath": "data/details/mit__han__lab__kernel__design__agents.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "codex-with-chatgpt：尚未归入主要类别的实用项目。",
+    "summary": "kernel-design-agents：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -75,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "ef4c7bd13dc8a6d1",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "462a5aa804966f13",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-with-chatgpt：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "codex-with-chatgpt 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "kernel-design-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "kernel-design-agents 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -99,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

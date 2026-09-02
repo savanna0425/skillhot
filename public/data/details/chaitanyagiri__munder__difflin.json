@@ -1,5 +1,5 @@
 {
-  "rank": 561,
+  "rank": 551,
   "id": 1255237198,
   "name": "munder-difflin",
   "fullName": "chaitanyagiri/munder-difflin",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/26071627?v=4",
   "url": "https://github.com/chaitanyagiri/munder-difflin",
   "homepage": "https://munderdiffl.in",
-  "description": "local multi-agent harness",
-  "summary": "munder-difflin：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Run a whole office of AI coding agents on your own machine. A local multi-agent harness that works with your existing Claude Code, Codex and 12 providers. Make AI agents do all of your work. Download for macOS, Windows and Linux.",
+  "summary": "munder-difflin：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -20,27 +20,39 @@
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
   "installCommand": "git clone https://github.com/chaitanyagiri/munder-difflin.git\ncd munder-difflin\nnpm install        # postinstall rebuilds node-pty against Electron's ABI",
-  "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stars": 5916,
-  "forks": 721,
-  "openIssues": 136,
-  "score": 120.5,
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 6055,
+  "forks": 749,
+  "openIssues": 146,
+  "score": 120.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-01T03:49:38Z",
-  "updatedAt": "2026-09-01T05:17:01Z",
+  "pushedAt": "2026-09-02T03:39:24Z",
+  "updatedAt": "2026-09-02T04:09:50Z",
   "createdAt": "2026-05-31T15:25:05Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-orchestration",
     "agents",
+    "ai-agents",
+    "autonomous-agents",
     "claude-code",
+    "codex",
+    "desktop-app",
+    "electron",
     "free",
+    "gemini-cli",
     "harness",
     "harness-engineering",
-    "memory"
+    "local-first",
+    "memory",
+    "multi-agent",
+    "opencode",
+    "orchestration",
+    "typescript"
   ],
   "platforms": [
     "Claude",
@@ -61,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "munder-difflin 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "munder-difflin 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -77,16 +89,16 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "4835b49da410230b",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "ab0b8410c04f5d51",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "munder-difflin：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "munder-difflin：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "munder-difflin 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -127,7 +139,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

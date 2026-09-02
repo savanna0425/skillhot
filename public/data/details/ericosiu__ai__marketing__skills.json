@@ -1,5 +1,5 @@
 {
-  "rank": 485,
+  "rank": 479,
   "id": 1194197494,
   "name": "ai-marketing-skills",
   "fullName": "ericosiu/ai-marketing-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ericosiu/ai-marketing-skills",
   "homepage": "https://www.singlegrain.com",
   "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
-  "summary": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ericosiu/ai-marketing-skills.git\ncd ai-marketing-skills\ncd growth-engine  # or sales-pipeline, content-ops, etc.",
   "language": "Python",
   "license": "MIT",
-  "stars": 3471,
+  "stars": 3474,
   "forks": 678,
   "openIssues": 12,
   "score": 123,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-30T16:07:05Z",
-  "updatedAt": "2026-09-01T00:52:24Z",
+  "pushedAt": "2026-09-02T03:55:08Z",
+  "updatedAt": "2026-09-02T03:55:22Z",
   "createdAt": "2026-03-28T03:15:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,13 +69,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "725b694d731abd2a",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "0df13df1e0d06ad5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "ai-marketing-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -92,7 +93,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

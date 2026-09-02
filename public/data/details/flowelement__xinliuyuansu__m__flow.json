@@ -1,5 +1,5 @@
 {
-  "rank": 915,
+  "rank": 662,
   "id": 1197002442,
   "name": "m_flow",
   "fullName": "FlowElement-xinliuyuansu/m_flow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/FlowElement-xinliuyuansu/m_flow",
   "homepage": "https://flowelement.ai",
   "description": "A bio-inspired cognitive memory engine — a new paradigm for Graph RAG.",
-  "summary": "m_flow：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "m_flow：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/FlowElement-xinliuyuansu/m_flow.git",
+  "installCommand": "git clone https://github.com/FlowElement-xinliuyuansu/m_flow.git && cd m_flow\n./quickstart.sh",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4498,
-  "forks": 257,
+  "stars": 4496,
+  "forks": 256,
   "openIssues": 16,
-  "score": 110.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-03T12:06:18Z",
-  "updatedAt": "2026-08-31T22:17:13Z",
+  "score": 117.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-01T22:13:08Z",
+  "updatedAt": "2026-09-01T11:43:32Z",
   "createdAt": "2026-03-31T08:36:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,7 +52,7 @@
     "vector-search"
   ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -84,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "2050faefd0324f8c",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "eda72d3322d5040c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "m_flow：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "m_flow：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "m_flow 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -108,7 +108,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

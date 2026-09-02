@@ -1,5 +1,5 @@
 {
-  "rank": 16,
+  "rank": 15,
   "id": 1141704318,
   "name": "awesome-openclaw-skills",
   "fullName": "VoltAgent/awesome-openclaw-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
   "homepage": "https://clawskills.sh/",
   "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-  "summary": "awesome-openclaw-skills 是一个面向 Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-openclaw-skills 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx clawhub install <skill-slug>",
   "language": "",
   "license": "MIT",
-  "stars": 52297,
-  "forks": 5014,
+  "stars": 52315,
+  "forks": 5015,
   "openIssues": 0,
   "score": 159.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T19:43:13Z",
-  "updatedAt": "2026-09-01T02:53:45Z",
+  "pushedAt": "2026-09-01T10:35:09Z",
+  "updatedAt": "2026-09-02T04:17:45Z",
   "createdAt": "2026-01-25T09:22:32Z",
   "sourceTopics": [
     "agent-skills",
@@ -54,7 +54,6 @@
     "openclaw-skills"
   ],
   "platforms": [
-    "Codex",
     "OpenClaw"
   ],
   "skillCount": 1200,
@@ -87,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "dec9a337fee49e4b",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "148e8f586889cfa9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-openclaw-skills 是一个面向 Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-openclaw-skills 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-openclaw-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -111,7 +110,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

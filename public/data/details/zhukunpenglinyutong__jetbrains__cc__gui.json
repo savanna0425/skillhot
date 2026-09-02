@@ -1,5 +1,5 @@
 {
-  "rank": 578,
+  "rank": 574,
   "id": 1100259232,
   "name": "jetbrains-cc-gui",
   "fullName": "zhukunpenglinyutong/jetbrains-cc-gui",
@@ -8,7 +8,7 @@
   "url": "https://github.com/zhukunpenglinyutong/jetbrains-cc-gui",
   "homepage": "https://plugins.jetbrains.com/plugin/29342-cc-gui-claude-or-codex-",
   "description": "Jetbrains Claude Code and Codex GUI Plugin",
-  "summary": "jetbrains-cc-gui：Jetbrains Claude Code 和 Codex 图形界面插件。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "jetbrains-cc-gui：Jetbrains Claude Code 和 Codex 图形界面插件。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "cd webview\nnpm install",
   "language": "Java",
   "license": "MIT",
-  "stars": 5665,
-  "forks": 635,
-  "openIssues": 460,
+  "stars": 5690,
+  "forks": 638,
+  "openIssues": 458,
   "score": 120.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-28T08:31:10Z",
-  "updatedAt": "2026-09-01T01:59:00Z",
+  "pushedAt": "2026-09-01T14:11:59Z",
+  "updatedAt": "2026-09-02T04:21:47Z",
   "createdAt": "2025-11-20T03:41:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,8 @@
   "repoTopics": [],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,13 +70,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "65169efc72410eb6",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "55f10d18455be3be",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jetbrains-cc-gui：Jetbrains Claude Code 和 Codex 图形界面插件。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "jetbrains-cc-gui：Jetbrains Claude Code 和 Codex 图形界面插件。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "jetbrains-cc-gui 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -93,7 +94,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

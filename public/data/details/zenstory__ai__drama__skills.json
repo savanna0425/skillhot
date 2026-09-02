@@ -1,17 +1,17 @@
 {
-  "rank": 2073,
-  "id": 1196756529,
-  "name": "cre-agent-skills",
-  "fullName": "ahacker-1/cre-agent-skills",
-  "owner": "ahacker-1",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/268626582?v=4",
-  "url": "https://github.com/ahacker-1/cre-agent-skills",
-  "homepage": "https://www.theaiconsultingnetwork.com/",
-  "description": "Commercial real estate AI agent skills for CRE underwriting, due diligence, financing, brokerage, legal and closing workflows - standalone prompts for Claude Code, ChatGPT, Cursor, and other LLMs.",
-  "summary": "cre-agent-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 837,
+  "id": 1302986554,
+  "name": "drama-skills",
+  "fullName": "zenstory-ai/drama-skills",
+  "owner": "zenstory-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
+  "url": "https://github.com/zenstory-ai/drama-skills",
+  "homepage": "",
+  "description": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code & Codex: scripts, assets, storyboards, image/video prompts, and independent review.",
+  "summary": "drama-skills：AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,61 +19,47 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ahacker-1/cre-agent-skills.git",
-  "language": "PowerShell",
-  "license": "Apache-2.0",
-  "stars": 91,
-  "forks": 24,
-  "openIssues": 0,
-  "score": 75.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-16T18:16:58Z",
-  "updatedAt": "2026-08-31T04:09:25Z",
-  "createdAt": "2026-03-31T02:28:04Z",
-  "sourceTopics": [
-    "ai-skills"
-  ],
+  "installCommand": "git clone https://github.com/zenstory-ai/drama-skills.git && cd drama-skills\nmkdir -p \"$HOME/.claude/skills\"\nfor skill in skills/*; do",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 1471,
+  "forks": 393,
+  "openIssues": 3,
+  "score": 114.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-02T02:11:49Z",
+  "updatedAt": "2026-09-02T03:43:30Z",
+  "createdAt": "2026-07-16T16:11:19Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "ai-skills",
-    "ai-tools",
-    "chatgpt-prompts",
+    "agent-skills",
+    "aigc",
     "claude-code",
-    "claude-code-skills",
-    "commercial-real-estate",
-    "cre",
-    "cursor-rules",
-    "due-diligence",
-    "financial-modeling",
-    "investment-analysis",
-    "llm-prompts",
-    "multifamily",
+    "codex",
     "prompt-engineering",
-    "proptech",
-    "real-estate",
-    "real-estate-analysis",
-    "real-estate-investing",
-    "underwriting"
+    "screenwriting",
+    "short-drama",
+    "storyboard"
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ahacker-1/cre-agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zenstory-ai/drama-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ahacker-1/cre-agent-skills#readme",
-  "detailPath": "data/details/ahacker__1__cre__agent__skills.json",
+  "readmeUrl": "https://github.com/zenstory-ai/drama-skills#readme",
+  "detailPath": "data/details/zenstory__ai__drama__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "cre-agent-skills：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -89,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "fab0ea11ca288689",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "c17b287525355b94",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cre-agent-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "cre-agent-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "drama-skills：AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "drama-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -116,7 +102,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -139,7 +125,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

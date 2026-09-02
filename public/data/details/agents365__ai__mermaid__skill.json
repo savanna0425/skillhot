@@ -1,5 +1,5 @@
 {
-  "rank": 1206,
+  "rank": 1185,
   "id": 1171850560,
   "name": "mermaid-skill",
   "fullName": "Agents365-ai/mermaid-skill",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
   "url": "https://github.com/Agents365-ai/mermaid-skill",
   "homepage": "https://agents365-ai.github.io/mermaid-skill/",
-  "description": "Agent skill: generate Mermaid diagrams (.mmd), validate syntax, export PNG/SVG/PDF via mmdc or Kroki API. 17+ diagram types, auto-layout, bilingual triggers.",
+  "description": "Agent skill: generate Mermaid diagrams (.mmd), validate via Kroki-first loop, export PNG/SVG/PDF via mmdc or Kroki. Mermaid.live handoff, repo-survey batch mode, vision self-check, 17+ diagram types.",
   "summary": "mermaid-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Agents365-ai/mermaid-skill.git",
   "language": "Mermaid",
   "license": "MIT",
-  "stars": 208,
-  "forks": 20,
+  "stars": 211,
+  "forks": 21,
   "openIssues": 0,
-  "score": 106.1,
+  "score": 106.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-29T02:43:53Z",
-  "updatedAt": "2026-09-01T01:44:09Z",
+  "pushedAt": "2026-09-01T06:07:21Z",
+  "updatedAt": "2026-09-01T15:53:33Z",
   "createdAt": "2026-03-03T17:16:23Z",
   "sourceTopics": [
     "claude-code-skill",
@@ -41,6 +41,7 @@
   "repoTopics": [
     "agent-skill",
     "agent-skills",
+    "batch-mode",
     "claude",
     "claude-code",
     "claude-code-skill",
@@ -51,6 +52,7 @@
     "flowchart",
     "kroki",
     "mermaid",
+    "mermaid-live",
     "sequence-diagram",
     "skill-md",
     "skillsmp"
@@ -88,8 +90,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "cbf79a807cdb6fbb",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "8585d7d0a9c9dda8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,14 +1,14 @@
 {
-  "rank": 2226,
-  "id": 1341789592,
-  "name": "burning-girl",
-  "fullName": "michiamoalena/burning-girl",
-  "owner": "michiamoalena",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/232772494?v=4",
-  "url": "https://github.com/michiamoalena/burning-girl",
-  "homepage": "https://x.com/burning_girl",
-  "description": "Plan what matters around how you'll actually feel. A Claude skill that puts your menstrual cycle into Google Calendar as six windows and keeps them true to you — luteal-anchored math (ovulation = next period − 14), so it works on cycles that aren't 28 days.",
-  "summary": "burning-girl：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2158,
+  "id": 1353074598,
+  "name": "haolvshi-legal-skill",
+  "fullName": "mtcto/haolvshi-legal-skill",
+  "owner": "mtcto",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8032280?v=4",
+  "url": "https://github.com/mtcto/haolvshi-legal-skill",
+  "homepage": "https://skills.ai.lvpin100.com",
+  "description": "面向 AI Agent 的中文法律技能，支持法律咨询、赔偿计算、智能合同审核、起诉状与答辩状生成，并提供多轮问答、案件材料识别、任务恢复和 Word 文书输出，基于 MIT License 开源。",
+  "summary": "haolvshi-legal-skill：面向 AI Agent 的中文法律技能，支持法律咨询、赔偿计算、智能合同审核、起诉状与答辩状生成，并提供多轮问答、案件材料识别、任务恢复和 Word 文书输出，基于 MIT License 开源。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,51 +19,56 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/michiamoalena/burning-girl.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/mtcto/haolvshi-legal-skill.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 0,
-  "forks": 0,
+  "stars": 3,
+  "forks": 1,
   "openIssues": 0,
-  "score": 66,
+  "score": 68.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-24T21:12:16Z",
-  "updatedAt": "2026-08-25T16:50:43Z",
-  "createdAt": "2026-08-21T12:30:22Z",
+  "pushedAt": "2026-09-01T03:27:36Z",
+  "updatedAt": "2026-09-02T01:49:40Z",
+  "createdAt": "2026-09-01T03:04:55Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "ai-agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
     "ai-agent",
-    "anthropic",
-    "anthropic-claude",
-    "anthropic-skills",
-    "claude-skills",
-    "cycle-syncing",
-    "femtech",
-    "google-calendar",
-    "menstrual-cycle",
-    "privacy",
-    "womens-health"
+    "ai-agent-skill",
+    "ai-agent-skills",
+    "ai-agents",
+    "contract-review",
+    "contract-review-agent",
+    "contract-review-skill",
+    "law",
+    "legal-ai",
+    "legal-assistant",
+    "legal-consultation",
+    "legal-document-ai",
+    "legal-document-analyzer",
+    "legal-documents",
+    "legal-skills",
+    "legal-tech"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/michiamoalena/burning-girl",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mtcto/haolvshi-legal-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/michiamoalena/burning-girl#readme",
-  "detailPath": "data/details/michiamoalena__burning__girl.json",
+  "readmeUrl": "https://github.com/mtcto/haolvshi-legal-skill#readme",
+  "detailPath": "data/details/mtcto__haolvshi__legal__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "burning-girl：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "面向 AI Agent 的中文法律技能，支持法律咨询、赔偿计算、智能合同审核、起诉状与答辩状生成，并提供多轮问答、案件材料识别、任务恢复和 Word 文书输出，基于 MIT License 开源。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -82,14 +87,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "e93e30fe2547582b",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "c5df0d9f0e3ace6d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "burning-girl：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "burning-girl 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "haolvshi-legal-skill：面向 AI Agent 的中文法律技能，支持法律咨询、赔偿计算、智能合同审核、起诉状与答辩状生成，并提供多轮问答、案件材料识别、任务恢复和 Word 文书输出，基于 MIT License 开源。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "haolvshi-legal-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -106,7 +111,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

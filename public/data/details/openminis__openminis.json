@@ -1,5 +1,5 @@
 {
-  "rank": 934,
+  "rank": 691,
   "id": 1220936047,
   "name": "OpenMinis",
   "fullName": "OpenMinis/OpenMinis",
@@ -8,7 +8,7 @@
   "url": "https://github.com/OpenMinis/OpenMinis",
   "homepage": "https://openminis.app",
   "description": "OpenMinis — The AI Agent app across platforms. Fully free and open source.",
-  "summary": "OpenMinis：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "OpenMinis：尚未归入主要类别的实用项目。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/OpenMinis/OpenMinis.git",
+  "installCommand": "git clone --recurse-submodules https://github.com/OpenMinis/OpenMinis.git\ncd OpenMinis\n./deps/build_lame.sh && ./deps/build_ffmpeg.sh",
   "language": "Swift",
   "license": "GPL-3.0",
-  "stars": 4087,
-  "forks": 478,
+  "stars": 4108,
+  "forks": 480,
   "openIssues": 144,
-  "score": 109.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-18T18:25:49Z",
-  "updatedAt": "2026-09-01T05:12:15Z",
+  "score": 116.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-01T18:24:55Z",
+  "updatedAt": "2026-09-02T04:22:23Z",
   "createdAt": "2026-04-25T14:35:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,10 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,13 +71,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "b8a61c46d4c75824",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "2196457b616137d2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenMinis：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "OpenMinis：尚未归入主要类别的实用项目。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "OpenMinis 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -92,7 +95,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

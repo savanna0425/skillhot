@@ -1,5 +1,5 @@
 {
-  "rank": 240,
+  "rank": 243,
   "id": 1134447175,
   "name": "skills",
   "fullName": "trailofbits/skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/trailofbits/skills",
   "homepage": "",
   "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
-  "summary": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/trailofbits/skills.git",
   "language": "Python",
   "license": "CC-BY-SA-4.0",
-  "stars": 6928,
+  "stars": 6939,
   "forks": 597,
-  "openIssues": 24,
+  "openIssues": 21,
   "score": 134.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T21:28:58Z",
-  "updatedAt": "2026-09-01T03:53:58Z",
+  "pushedAt": "2026-09-01T13:29:43Z",
+  "updatedAt": "2026-09-02T03:58:46Z",
   "createdAt": "2026-01-14T18:23:21Z",
   "sourceTopics": [
     "agent-skills"
@@ -43,7 +43,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI"
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -75,13 +75,13 @@
       "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "191d15e14bbd0e77",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "e78499781cb4b6ac",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "skills：Trail of Bits Claude 代码技能，用于安全研究、漏洞检测及审计工作流。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "skills 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
@@ -99,7 +99,7 @@
       "开发者、安全研究员和需要做风险自查的团队。",
       "想把安全检查嵌入 Agent 或开发流程的人。",
       "需要快速筛查配置、依赖或代码风险的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "未经授权的攻击、绕过或滥用场景。",

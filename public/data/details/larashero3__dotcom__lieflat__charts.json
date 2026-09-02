@@ -1,14 +1,14 @@
 {
-  "rank": 2228,
-  "id": 1264224208,
-  "name": "aws-data-skills",
-  "fullName": "jaingxyz/aws-data-skills",
-  "owner": "jaingxyz",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/256215159?v=4",
-  "url": "https://github.com/jaingxyz/aws-data-skills",
-  "homepage": "https://github.com/jaingxyz/dsql-redshift-cdc-pipeline",
-  "description": "Composable Anthropic skills for building real-time data pipelines on AWS (CDC, Iceberg, Redshift Serverless). Companion to dsql-redshift-cdc-pipeline.",
-  "summary": "aws-data-skills：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 626,
+  "id": 1302690078,
+  "name": "lieflat-charts",
+  "fullName": "larashero3-dotcom/lieflat-charts",
+  "owner": "larashero3-dotcom",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/260030037?v=4",
+  "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+  "homepage": "",
+  "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
+  "summary": "lieflat-charts：Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "高",
@@ -19,51 +19,51 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jaingxyz/aws-data-skills.git",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 66,
-  "activity": "本周活跃",
-  "pushedAt": "2026-08-28T07:27:27Z",
-  "updatedAt": "2026-08-28T07:30:32Z",
-  "createdAt": "2026-06-09T17:21:39Z",
+  "installCommand": "npx skills add https://github.com/larashero3-dotcom/lieflat-charts --skill lieflat-charts",
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "stars": 3047,
+  "forks": 163,
+  "openIssues": 1,
+  "score": 118.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-19T14:43:24Z",
+  "updatedAt": "2026-09-02T04:38:30Z",
+  "createdAt": "2026-07-16T11:17:49Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "agent-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "anthropic-skills",
-    "aurora-dsql",
-    "aws",
-    "cdc",
+    "agent-skills",
+    "charts",
     "claude-code",
-    "firehose",
-    "iceberg",
-    "kinesis",
-    "redshift",
-    "redshift-serverless",
-    "s3-tables"
+    "codex",
+    "data-visualization",
+    "html",
+    "moxt",
+    "svg"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jaingxyz/aws-data-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/larashero3-dotcom/lieflat-charts",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jaingxyz/aws-data-skills#readme",
-  "detailPath": "data/details/jaingxyz__aws__data__skills.json",
+  "readmeUrl": "https://github.com/larashero3-dotcom/lieflat-charts#readme",
+  "detailPath": "data/details/larashero3__dotcom__lieflat__charts.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "aws-data-skills：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -79,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "477b1dd0ab1044c0",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "c568e57032bc6a08",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aws-data-skills：SQL、数据处理、统计、可视化与商业分析。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "aws-data-skills 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "lieflat-charts：Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "lieflat-charts 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -106,7 +106,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -129,7 +129,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

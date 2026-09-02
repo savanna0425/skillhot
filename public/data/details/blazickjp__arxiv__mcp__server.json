@@ -1,5 +1,5 @@
 {
-  "rank": 844,
+  "rank": 850,
   "id": 896146306,
   "name": "arxiv-mcp-server",
   "fullName": "blazickjp/arxiv-mcp-server",
@@ -8,7 +8,7 @@
   "url": "https://github.com/blazickjp/arxiv-mcp-server",
   "homepage": "https://www.pulsemcp.com/servers/blazickjp-arxiv-mcp-server",
   "description": "A local MCP server for agent literature work. Original-LaTeX section reads, BibTeX from arXiv metadata, and topic watches. Papers stay on disk. Search is optional.",
-  "summary": "arxiv-mcp-server：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "arxiv-mcp-server：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "The default paper directory is `~/.arxiv-mcp-server/papers`. To choose another directory, append `\"--storage-path\", \"/absolute/path/to/papers\"` to `args`.\nThe supported package is published on PyPI as `arxiv-mcp-server==0.7.2`. An unrelated npm package uses the same name, so do not install this server with npm, pnpm, or `npx arxiv-mcp-server`.\nListed on the ",
+  "installCommand": "git clone https://github.com/blazickjp/arxiv-mcp-server.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3099,
-  "forks": 252,
+  "stars": 3100,
+  "forks": 251,
   "openIssues": 7,
   "score": 113.8,
   "activity": "本周活跃",
   "pushedAt": "2026-08-26T23:16:26Z",
-  "updatedAt": "2026-09-01T02:00:32Z",
+  "updatedAt": "2026-09-01T10:55:45Z",
   "createdAt": "2024-11-29T16:34:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,9 +47,7 @@
     "research"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -81,13 +79,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "92652f8fd08c7871",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "cb38dda52104e386",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "arxiv-mcp-server：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "arxiv-mcp-server：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "arxiv-mcp-server 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -105,7 +103,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

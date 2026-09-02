@@ -1,5 +1,5 @@
 {
-  "rank": 843,
+  "rank": 849,
   "id": 18411972,
   "name": "FStar",
   "fullName": "FStarLang/FStar",
@@ -8,7 +8,7 @@
   "url": "https://github.com/FStarLang/FStar",
   "homepage": "https://fstar-lang.org",
   "description": "A Proof-oriented Programming Language",
-  "summary": "FStar：面向证明的编程语言。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "FStar：面向证明的编程语言。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -23,12 +23,12 @@
   "language": "F*",
   "license": "Apache-2.0",
   "stars": 3101,
-  "forks": 262,
-  "openIssues": 589,
+  "forks": 263,
+  "openIssues": 591,
   "score": 113.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-01T01:21:35Z",
-  "updatedAt": "2026-08-31T22:22:06Z",
+  "pushedAt": "2026-09-02T04:13:38Z",
+  "updatedAt": "2026-09-02T02:49:39Z",
   "createdAt": "2014-04-03T17:32:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,8 +50,7 @@
     "verification"
   ],
   "platforms": [
-    "Claude",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -83,13 +82,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "5404eb0c72eaf972",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "4766f30d547fe254",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "FStar：面向证明的编程语言。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "FStar：面向证明的编程语言。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "FStar 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -107,7 +106,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 869,
+  "rank": 836,
   "id": 1141582887,
   "name": "skills-hub",
   "fullName": "qufei1993/skills-hub",
@@ -19,20 +19,21 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/qufei1993/skills-hub.git",
+  "installCommand": "npm install\nnpm run tauri:dev",
   "language": "Rust",
   "license": "MIT",
-  "stars": 1380,
-  "forks": 152,
+  "stars": 1477,
+  "forks": 162,
   "openIssues": 5,
-  "score": 113.4,
+  "score": 114.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-01T02:09:09Z",
-  "updatedAt": "2026-09-01T03:28:51Z",
+  "pushedAt": "2026-09-02T01:32:19Z",
+  "updatedAt": "2026-09-02T04:35:47Z",
   "createdAt": "2026-01-25T03:31:21Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 搜索",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-skills",
@@ -50,7 +51,10 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -82,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "30009b0d92db0bc9",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "341f44fdfee06122",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

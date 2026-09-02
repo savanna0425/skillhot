@@ -1,55 +1,65 @@
 {
-  "rank": 317,
-  "id": 1128267392,
-  "name": "huobao-drama",
-  "fullName": "chatfire-AI/huobao-drama",
-  "owner": "chatfire-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/248649058?v=4",
-  "url": "https://github.com/chatfire-AI/huobao-drama",
-  "homepage": "",
-  "description": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\"",
-  "summary": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1469,
+  "id": 1228852684,
+  "name": "markra",
+  "fullName": "markrahq/markra",
+  "owner": "markrahq",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/296026734?v=4",
+  "url": "https://github.com/markrahq/markra",
+  "homepage": "https://markra.app",
+  "description": "A WYSIWYG Markdown editor with native AI. Fully open source. Free to use. Your data stays local.",
+  "summary": "markra：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chatfire-AI/huobao-drama.git\ncd huobao-drama\ncd backend && npm install",
-  "language": "Vue",
-  "license": "",
-  "stars": 14674,
-  "forks": 2717,
-  "openIssues": 2,
-  "score": 130,
+  "installCommand": "git clone https://github.com/markrahq/markra.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 825,
+  "forks": 45,
+  "openIssues": 24,
+  "score": 100.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T01:50:38Z",
-  "updatedAt": "2026-09-01T04:54:35Z",
-  "createdAt": "2026-01-05T11:38:30Z",
+  "pushedAt": "2026-08-30T03:45:27Z",
+  "updatedAt": "2026-09-02T03:57:04Z",
+  "createdAt": "2026-05-04T12:54:11Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai-editor",
+    "ai-writing",
+    "desktop-app",
+    "local-first",
+    "markdown-editor",
+    "react",
+    "tauri",
+    "typescript",
+    "wysiwyg-markdown"
+  ],
   "platforms": [
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chatfire-AI/huobao-drama",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/markrahq/markra",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chatfire-AI/huobao-drama#readme",
-  "detailPath": "data/details/chatfire__ai__huobao__drama.json",
+  "readmeUrl": "https://github.com/markrahq/markra#readme",
+  "detailPath": "data/details/markrahq__markra.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video",
+    "summary": "markra：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -65,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "e18e43e84ae12d05",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "f080205553920e69",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "huobao-drama 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "markra：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "markra 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -92,7 +102,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -115,7 +125,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

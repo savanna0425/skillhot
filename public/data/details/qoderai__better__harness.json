@@ -1,5 +1,5 @@
 {
-  "rank": 848,
+  "rank": 845,
   "id": 1307679581,
   "name": "better-harness",
   "fullName": "QoderAI/better-harness",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/219277434?v=4",
   "url": "https://github.com/QoderAI/better-harness",
   "homepage": "https://qoderai.github.io/better-harness/",
-  "description": "An open-source Harness Engineering platform for coding agents—define harnesses as code, run controlled experiments, inspect evidence, and compare outcomes.",
+  "description": "An open-source Harness Engineering platform for coding agents—define harnesses as code, run controlled experiments, inspect evidence, and compare outcomes. Turn task evidence into actionable team and organization insights.",
   "summary": "better-harness：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/QoderAI/better-harness.git",
+  "installCommand": "npm ci\nnpm test\nnpm run pack:verify",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2100,
+  "stars": 2132,
   "forks": 169,
   "openIssues": 7,
-  "score": 113.8,
+  "score": 113.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-31T13:12:22Z",
-  "updatedAt": "2026-09-01T05:15:51Z",
+  "pushedAt": "2026-09-02T04:30:10Z",
+  "updatedAt": "2026-09-02T03:39:23Z",
   "createdAt": "2026-07-21T12:30:35Z",
   "sourceTopics": [
     "skill"
@@ -50,7 +50,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -82,8 +83,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-01T05:18:12.416Z",
-    "sourceHash": "5442cc027214d128",
+    "generatedAt": "2026-09-02T04:43:25.776Z",
+    "sourceHash": "c0b9edd06a9d84e7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
