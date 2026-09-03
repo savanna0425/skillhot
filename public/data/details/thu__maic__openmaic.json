@@ -1,5 +1,5 @@
 {
-  "rank": 181,
+  "rank": 175,
   "id": 1178737655,
   "name": "OpenMAIC",
   "fullName": "THU-MAIC/OpenMAIC",
@@ -8,7 +8,7 @@
   "url": "https://github.com/THU-MAIC/OpenMAIC",
   "homepage": "",
   "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-  "summary": "OpenMAIC：Open Multi-Agent Interactive Classroom — 只需一键，即可获得沉浸式多代理学习体验。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "OpenMAIC：Open Multi-Agent Interactive Classroom — 只需一键，即可获得沉浸式多代理学习体验。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/THU-MAIC/OpenMAIC.git\ncd OpenMAIC\npnpm install",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 29746,
-  "forks": 5000,
-  "openIssues": 237,
-  "score": 137.4,
+  "stars": 30652,
+  "forks": 5090,
+  "openIssues": 230,
+  "score": 137.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T03:15:14Z",
-  "updatedAt": "2026-09-02T04:38:54Z",
+  "pushedAt": "2026-09-03T03:35:31Z",
+  "updatedAt": "2026-09-03T04:38:33Z",
   "createdAt": "2026-03-11T10:13:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,6 +38,7 @@
   "repoTopics": [],
   "platforms": [
     "Claude",
+    "Codex",
     "Gemini CLI",
     "OpenClaw"
   ],
@@ -71,13 +72,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "a41248c178178674",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "001e3e3d13fbdb44",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenMAIC：Open Multi-Agent Interactive Classroom — 只需一键，即可获得沉浸式多代理学习体验。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "OpenMAIC：Open Multi-Agent Interactive Classroom — 只需一键，即可获得沉浸式多代理学习体验。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "OpenMAIC 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -95,7 +96,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

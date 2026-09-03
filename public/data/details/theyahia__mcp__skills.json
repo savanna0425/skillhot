@@ -1,17 +1,17 @@
 {
-  "rank": 2213,
-  "id": 1238402794,
-  "name": "use-case-writer",
-  "fullName": "phucnt-bazone-vietnam/use-case-writer",
-  "owner": "phucnt-bazone-vietnam",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/64410511?v=4",
-  "url": "https://github.com/phucnt-bazone-vietnam/use-case-writer",
+  "rank": 2180,
+  "id": 1198647913,
+  "name": "mcp-skills",
+  "fullName": "theYahia/mcp-skills",
+  "owner": "theYahia",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/246653301?v=4",
+  "url": "https://github.com/theYahia/mcp-skills",
   "homepage": "",
-  "description": "This Claude AI Skill for Business Analysts & Product Owners, Use Case Writer scope, analyze, and document Use Case Specifications in English Markdown following the 13-field Karl Wiegers / IIBA template",
-  "summary": "use-case-writer：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "40+ AI skills for MCP servers covering Brazil/MENA/Gulf/Africa/SE Asia/CIS — workflows for e-commerce, payments, HR, marketing. Part of WWmcp ecosystem.",
+  "summary": "mcp-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -19,28 +19,34 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/phucnt-bazone-vietnam/use-case-writer.git",
+  "installCommand": "git clone https://github.com/theYahia/mcp-skills.git",
   "language": "",
-  "license": "NOASSERTION",
-  "stars": 125,
-  "forks": 47,
-  "openIssues": 0,
-  "score": 66.1,
-  "activity": "活跃",
-  "pushedAt": "2026-05-16T07:09:08Z",
-  "updatedAt": "2026-08-28T00:55:43Z",
-  "createdAt": "2026-05-14T05:01:15Z",
-  "sourceTopics": [],
+  "license": "MIT",
+  "stars": 3,
+  "forks": 3,
+  "openIssues": 1,
+  "score": 68.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-02T19:17:55Z",
+  "updatedAt": "2026-09-02T18:35:31Z",
+  "createdAt": "2026-04-01T16:11:27Z",
+  "sourceTopics": [
+    "mcp-skills"
+  ],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ba-zone",
-    "business-analysis",
-    "claudeaiskillsforba",
-    "productmanager",
-    "productowner",
-    "usecasespec"
+    "ai-agents",
+    "ai-skills",
+    "anthropic",
+    "automation",
+    "claude",
+    "claude-skills",
+    "emerging-markets",
+    "mcp",
+    "mcp-skills",
+    "typescript"
   ],
   "platforms": [
     "Claude"
@@ -48,15 +54,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/phucnt-bazone-vietnam/use-case-writer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/theYahia/mcp-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/phucnt-bazone-vietnam/use-case-writer#readme",
-  "detailPath": "data/details/phucnt__bazone__vietnam__use__case__writer.json",
+  "readmeUrl": "https://github.com/theYahia/mcp-skills#readme",
+  "detailPath": "data/details/theyahia__mcp__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "use-case-writer：产品管理、营销增长、销售、金融与商业工作流。",
+    "summary": "mcp-skills：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -72,17 +78,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "0610daa4e1294570",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "c867fd08db22ce9c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "use-case-writer：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "use-case-writer 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mcp-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "mcp-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -122,7 +128,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

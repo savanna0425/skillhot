@@ -1,73 +1,72 @@
 {
-  "rank": 2217,
-  "id": 1210341400,
-  "name": "skills",
-  "fullName": "aramamer4577-source/skills",
-  "owner": "aramamer4577-source",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/225473403?v=4",
-  "url": "https://github.com/aramamer4577-source/skills",
+  "rank": 2172,
+  "id": 1335983168,
+  "name": "Jnpz",
+  "fullName": "pazz11/Jnpz",
+  "owner": "pazz11",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255695708?v=4",
+  "url": "https://github.com/pazz11/Jnpz",
   "homepage": "",
-  "description": "Manage reusable AI coding skills in a multi-skill workspace for easy reuse, sync, and expansion",
-  "summary": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+  "summary": "Jnpz：改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "中",
-  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "创建技能",
     "组织工作流",
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/aramamer4577-source/skills.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/pazz11/Jnpz.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 0,
-  "forks": 0,
+  "stars": 16,
+  "forks": 2,
   "openIssues": 0,
-  "score": 66,
-  "activity": "本周活跃",
-  "pushedAt": "2026-08-31T02:17:09Z",
-  "updatedAt": "2026-08-31T02:18:01Z",
-  "createdAt": "2026-04-14T10:15:38Z",
+  "score": 69,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-17T06:07:15Z",
+  "updatedAt": "2026-09-03T04:05:24Z",
+  "createdAt": "2026-08-16T13:50:19Z",
   "sourceTopics": [
-    "agentic-skills"
+    "skill-management"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-skills",
     "ai-agents",
-    "azure",
-    "backup",
-    "clawdbot-skill",
-    "clawhub",
-    "css",
-    "education",
-    "learning-resources",
-    "moltbot",
-    "moltbot-skills",
-    "openclaw-skills",
-    "pandas",
-    "pandas-tutorial",
-    "skill"
+    "ai-tools",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "dsh-plugin",
+    "hot-reload",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "plugin",
+    "skill-management",
+    "skills"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aramamer4577-source/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/pazz11/Jnpz",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aramamer4577-source/skills#readme",
-  "detailPath": "data/details/aramamer4577__source__skills.json",
+  "readmeUrl": "https://github.com/pazz11/Jnpz#readme",
+  "detailPath": "data/details/pazz11__jnpz.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skills 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -86,14 +85,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "1c51f9e1029fea77",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "50d03e66aa55000d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Jnpz：改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Jnpz 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -110,7 +109,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

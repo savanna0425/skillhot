@@ -1,55 +1,71 @@
 {
-  "rank": 1518,
-  "id": 1207854573,
-  "name": "obsidian-ai-orange-book",
-  "fullName": "alchaincyf/obsidian-ai-orange-book",
-  "owner": "alchaincyf",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/127714341?v=4",
-  "url": "https://github.com/alchaincyf/obsidian-ai-orange-book",
-  "homepage": "",
-  "description": "Obsidian + Claude Code: Rebuild Your Second Brain with AI · 橙皮书系列 · 用AI重建你的第二大脑",
-  "summary": "obsidian-ai-orange-book：Obsidian + Claude Code: Rebuild Your Second Brain with AI · 橙皮书系列 · 用AI重建你的第二大脑。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 783,
+  "id": 1342930695,
+  "name": "scroll-craft",
+  "fullName": "nateherkai/scroll-craft",
+  "owner": "nateherkai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/253835467?v=4",
+  "url": "https://github.com/nateherkai/scroll-craft",
+  "homepage": "https://github.com/nateherkai/scroll-craft",
+  "description": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+  "summary": "scroll-craft：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "categoryConfidence": "待复核",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alchaincyf/obsidian-ai-orange-book.git",
-  "language": "",
-  "license": "",
-  "stars": 1443,
-  "forks": 132,
-  "openIssues": 1,
-  "score": 98.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-23T14:18:47Z",
-  "updatedAt": "2026-09-01T08:38:55Z",
-  "createdAt": "2026-04-11T13:50:24Z",
+  "installCommand": "git clone https://github.com/nateherkai/scroll-craft.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1618,
+  "forks": 253,
+  "openIssues": 4,
+  "score": 115.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-02T04:22:53Z",
+  "updatedAt": "2026-09-03T04:39:02Z",
+  "createdAt": "2026-08-22T15:25:08Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "accessibility",
+    "agent-skills",
+    "ai-web-design",
+    "anthropic",
+    "claude-code",
+    "claude-code-plugin",
+    "creative-coding",
+    "design-system",
+    "frontend",
+    "interaction-design",
+    "landing-page",
+    "scroll-animation",
+    "scrollytelling",
+    "typography",
+    "web-design"
+  ],
   "platforms": [
     "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/alchaincyf/obsidian-ai-orange-book",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/scroll-craft",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/alchaincyf/obsidian-ai-orange-book#readme",
-  "detailPath": "data/details/alchaincyf__obsidian__ai__orange__book.json",
+  "readmeUrl": "https://github.com/nateherkai/scroll-craft#readme",
+  "detailPath": "data/details/nateherkai__scroll__craft.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Obsidian + Claude Code: Rebuild Your Second Brain with AI · 橙皮书系列 · 用AI重建你的第二大脑",
+    "summary": "scroll-craft：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -65,17 +81,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "b24cb4c6d7c845de",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "a0b7c0543809ed6a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-ai-orange-book：Obsidian + Claude Code: Rebuild Your Second Brain with AI · 橙皮书系列 · 用AI重建你的第二大脑。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "obsidian-ai-orange-book 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "scroll-craft：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "scroll-craft 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -115,7 +131,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

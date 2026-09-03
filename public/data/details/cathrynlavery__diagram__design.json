@@ -1,5 +1,5 @@
 {
-  "rank": 131,
+  "rank": 128,
   "id": 1212769188,
   "name": "diagram-design",
   "fullName": "cathrynlavery/diagram-design",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "Run `/reload` in an open Pi session. Pi makes the skill available for matching diagram requests; use `/skill:diagram-design` to invoke it explicitly. Pi also loads the `/export-diagram`, `/import-mermaid`, `/profile`, and `/doctor` prompt templates. The unpinned Git install is intentional: Pi has no automatic package refresh, so run `pi update --extensions` ",
+  "installCommand": "git clone git@github.com:cathrynlavery/diagram-design.git ~/code/diagram-design\npi install ~/code/diagram-design\nln -s ~/code/diagram-design/skills/diagram-design ~/.claude/skills/diagram-design",
   "language": "HTML",
   "license": "MIT",
-  "stars": 29310,
-  "forks": 1861,
-  "openIssues": 34,
-  "score": 141.2,
+  "stars": 29828,
+  "forks": 1911,
+  "openIssues": 35,
+  "score": 141.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T01:56:55Z",
-  "updatedAt": "2026-09-02T04:40:13Z",
+  "pushedAt": "2026-09-03T02:53:29Z",
+  "updatedAt": "2026-09-03T04:38:01Z",
   "createdAt": "2026-04-16T18:01:16Z",
   "sourceTopics": [
     "agent-skills"
@@ -82,8 +82,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "8b257103be45017e",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "c78650686b84e546",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

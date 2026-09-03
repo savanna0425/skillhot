@@ -1,5 +1,5 @@
 {
-  "rank": 35,
+  "rank": 36,
   "id": 1048065319,
   "name": "claude-mem",
   "fullName": "thedotmack/claude-mem",
@@ -8,7 +8,7 @@
   "url": "https://github.com/thedotmack/claude-mem",
   "homepage": "https://claude-mem.ai",
   "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "summary": "claude-mem：为多种 Agent 提供跨会话持久上下文与相关记忆检索。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "claude-mem：为多种 Agent 提供跨会话持久上下文与相关记忆检索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "上下文召回"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx claude-mem install",
+  "installCommand": "npx claude-mem install --ide grok-bot",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 92940,
-  "forks": 8174,
-  "openIssues": 297,
+  "stars": 93042,
+  "forks": 8181,
+  "openIssues": 302,
   "score": 153.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T03:06:35Z",
-  "updatedAt": "2026-09-02T04:39:50Z",
+  "pushedAt": "2026-09-03T03:00:33Z",
+  "updatedAt": "2026-09-03T04:06:37Z",
   "createdAt": "2025-08-31T20:50:03Z",
   "sourceTopics": [
     "claude-skills"
@@ -62,10 +62,10 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "OpenClaw",
-    "OpenCode"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -97,13 +97,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "0ea6451b21a7d57a",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "920ece72728c59a9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-mem：为多种 Agent 提供跨会话持久上下文与相关记忆检索。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "claude-mem：为多种 Agent 提供跨会话持久上下文与相关记忆检索。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "claude-mem 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期项目」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -121,7 +121,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

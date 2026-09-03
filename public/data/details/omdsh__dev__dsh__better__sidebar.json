@@ -1,5 +1,5 @@
 {
-  "rank": 824,
+  "rank": 827,
   "id": 1326893710,
   "name": "DSH-better-sidebar",
   "fullName": "omdsh-dev/DSH-better-sidebar",
@@ -22,13 +22,13 @@
   "installCommand": "dsh plugin --profile web add dsh-better-sidebar@latest   # 首次会因 pnpm 11 拦截 node-pty 构建脚本而失败（依赖已写入）\ncd ~/.dsh/profiles/web && pnpm approve-builds --all      # 放行构建脚本（自动重跑安装）\ndsh plugin --profile web add dsh-better-sidebar@latest   # 重跑即成功",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3221,
-  "forks": 280,
-  "openIssues": 159,
-  "score": 114.2,
+  "stars": 3258,
+  "forks": 288,
+  "openIssues": 127,
+  "score": 114.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T02:45:47Z",
-  "updatedAt": "2026-09-02T03:52:17Z",
+  "pushedAt": "2026-09-03T04:17:29Z",
+  "updatedAt": "2026-09-03T04:28:21Z",
   "createdAt": "2026-08-07T16:04:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,8 +75,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "008d60739b8c0bd0",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "d3423ef67f61c1b1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

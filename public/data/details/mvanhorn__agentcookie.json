@@ -1,14 +1,14 @@
 {
-  "rank": 959,
-  "id": 1179511162,
-  "name": "PhyAgentOS-core",
-  "fullName": "PhyAgentOS/PhyAgentOS-core",
-  "owner": "PhyAgentOS",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/316856116?v=4",
-  "url": "https://github.com/PhyAgentOS/PhyAgentOS-core",
-  "homepage": "https://phy-agent-os.x-era.com/",
-  "description": "PhyAgentOS is a Recursive Self-Improving (RSI)  physical agent operating system that enables agents to recursively self-improve through agentic workflows.",
-  "summary": "PhyAgentOS-core：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1711,
+  "id": 1240944626,
+  "name": "agentcookie",
+  "fullName": "mvanhorn/agentcookie",
+  "owner": "mvanhorn",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/455140?v=4",
+  "url": "https://github.com/mvanhorn/agentcookie",
+  "homepage": "",
+  "description": "Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually browse on, continuously, encrypted over Tailscale, so OpenClaw, Hermes, or any other agent runtime wakes up authenticated. macOS, peer-to-peer, no cloud middleman.",
+  "summary": "agentcookie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -19,45 +19,46 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/PhyAgentOS/PhyAgentOS-core.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/mvanhorn/agentcookie.git",
+  "language": "Go",
   "license": "MIT",
-  "stars": 1988,
-  "forks": 109,
-  "openIssues": 14,
-  "score": 109.2,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-02T02:25:17Z",
-  "updatedAt": "2026-09-02T04:01:35Z",
-  "createdAt": "2026-03-12T05:12:10Z",
+  "stars": 812,
+  "forks": 66,
+  "openIssues": 3,
+  "score": 93,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-24T08:37:58Z",
+  "updatedAt": "2026-09-02T17:12:45Z",
+  "createdAt": "2026-05-16T19:10:00Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "claw",
-    "embodied-agent",
-    "embodied-ai",
-    "harness",
-    "rsi",
-    "self-evolution"
+    "ai-agents",
+    "automation",
+    "chrome",
+    "cli",
+    "cookies",
+    "golang",
+    "macos",
+    "tailscale"
   ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/PhyAgentOS/PhyAgentOS-core",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mvanhorn/agentcookie",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/PhyAgentOS/PhyAgentOS-core#readme",
-  "detailPath": "data/details/phyagentos__phyagentos__core.json",
+  "readmeUrl": "https://github.com/mvanhorn/agentcookie#readme",
+  "detailPath": "data/details/mvanhorn__agentcookie.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "PhyAgentOS-core 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "agentcookie 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,14 +77,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "f0bb618348a2c63b",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "902320ecb1c607ed",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PhyAgentOS-core：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "PhyAgentOS-core 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agentcookie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "agentcookie 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -100,7 +101,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -8,7 +8,7 @@
   "url": "https://github.com/plastic-labs/honcho",
   "homepage": "https://docs.honcho.dev",
   "description": " Memory library for building stateful agents",
-  "summary": "honcho 是一个面向 Claude、Cursor、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "honcho 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "pip install honcho-ai",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 6980,
-  "forks": 865,
-  "openIssues": 154,
+  "stars": 6990,
+  "forks": 866,
+  "openIssues": 143,
   "score": 122.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T03:03:48Z",
-  "updatedAt": "2026-09-02T03:47:56Z",
+  "pushedAt": "2026-09-02T21:56:52Z",
+  "updatedAt": "2026-09-03T02:41:04Z",
   "createdAt": "2023-09-10T21:29:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,28 +36,19 @@
   ],
   "repoTopics": [
     "agent-memory",
+    "agentic-rag",
     "ai",
     "ai-agents",
     "ai-memory",
-    "anthropic",
     "context-engineering",
     "continual-learning",
-    "embeddings",
-    "fastapi",
-    "langchain",
+    "dsh-plugin",
     "llm",
-    "long-term-memory",
-    "memory",
-    "openai",
-    "personalization",
-    "python",
-    "rag",
-    "state-management",
-    "typescript",
-    "vector-database"
+    "memory"
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor",
     "OpenClaw",
     "OpenCode"
@@ -92,13 +83,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "eb22c1044d1d5199",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "077aaf537ec4c9aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "honcho 是一个面向 Claude、Cursor、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "honcho 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "honcho 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -116,7 +107,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Cursor、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

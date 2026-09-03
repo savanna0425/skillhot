@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/titanwings/distilly <DISTILLY_SKILL_DIR>",
-  "language": "Python",
+  "installCommand": "git clone --branch distilly-plugin https://github.com/titanwings/distilly.git\ncd distilly\ncorepack enable",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 24250,
-  "forks": 2127,
+  "stars": 24290,
+  "forks": 2128,
   "openIssues": 33,
-  "score": 155.2,
+  "score": 155.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-25T07:18:07Z",
-  "updatedAt": "2026-09-02T03:25:50Z",
+  "pushedAt": "2026-09-03T03:40:48Z",
+  "updatedAt": "2026-09-03T03:48:40Z",
   "createdAt": "2026-03-30T05:22:23Z",
   "sourceTopics": [
     "agent-skills",
@@ -37,7 +37,6 @@
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -67,7 +66,7 @@
     "OpenClaw",
     "OpenCode"
   ],
-  "skillCount": 215,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/titanwings/distilly",
@@ -97,8 +96,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "d240a0420d41c257",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "21307e003e0e34a7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -131,7 +130,7 @@
       "通常依赖仓库提供的 README、代码、示例或安装命令。",
       "用户按文档把它接入目标环境。",
       "真实效果需要通过小任务试用来判断。",
-      "仓库信息显示它包含 215+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看作者原始描述和 README。",

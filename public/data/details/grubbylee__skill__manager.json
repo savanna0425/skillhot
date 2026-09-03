@@ -1,0 +1,144 @@
+{
+  "rank": 2022,
+  "id": 1305415626,
+  "name": "skill-manager",
+  "fullName": "GrubbyLee/skill-manager",
+  "owner": "GrubbyLee",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11837809?v=4",
+  "url": "https://github.com/GrubbyLee/skill-manager",
+  "homepage": "https://grubbylee.github.io/skill-manager/",
+  "description": "Zero-dependency CLI to scan, recommend, deduplicate, audit, and visualize Claude Code / Codex skills and MCP servers.",
+  "summary": "skill-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "scenarios": [
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
+  ],
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+  "installCommand": "git clone https://github.com/GrubbyLee/skill-manager.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 25,
+  "forks": 3,
+  "openIssues": 7,
+  "score": 79.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-08-29T15:13:57Z",
+  "updatedAt": "2026-09-02T02:31:03Z",
+  "createdAt": "2026-07-19T04:25:29Z",
+  "sourceTopics": [
+    "skill-management"
+  ],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "ai-tools",
+    "aide",
+    "audit",
+    "claude-code",
+    "cli",
+    "codex",
+    "codex-cli",
+    "developer-tools",
+    "esm",
+    "knowledge-graph",
+    "mcp",
+    "nodejs",
+    "open-source",
+    "productivity",
+    "skill",
+    "skill-management",
+    "skills",
+    "zero-dependencies"
+  ],
+  "platforms": [
+    "Claude",
+    "Codex"
+  ],
+  "skillCount": 1,
+  "isCollection": false,
+  "media": {
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/GrubbyLee/skill-manager",
+    "videoUrl": ""
+  },
+  "readmeUrl": "https://github.com/GrubbyLee/skill-manager#readme",
+  "detailPath": "data/details/grubbylee__skill__manager.json",
+  "catalogStatus": "active",
+  "catalogDelta": "new",
+  "projectInsight": {
+    "summary": "skill-manager 用于创建、验证、安装或管理 Agent Skills。",
+    "useCases": [
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
+    ],
+    "expectedEffects": [
+      "把重复工作沉淀成可复用能力",
+      "帮助用户更快判断项目是否值得进一步阅读 README"
+    ],
+    "targetUsers": [
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
+      "开发者和 AI 工具使用者"
+    ],
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+    "limitations": [
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
+    ],
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "c99cad081f49afde",
+    "method": "metadata-derived-v1",
+    "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
+  },
+  "projectProfile": {
+    "plainIntro": "skill-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "skill-manager 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "problemSolved": [
+      "想创建 Skill，但不知道结构、规范、安装和验证流程。",
+      "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
+      "把现有知识转成 Agent 可调用能力时容易不成体系。",
+      "如果你的任务和「创建技能」有关，它能帮你先建立一个可试用的入口。"
+    ],
+    "coreCapabilities": [
+      "辅助创建、生成、验证、安装、管理或分发 Agent Skills。",
+      "把技能文件、说明文档和触发方式组织起来。",
+      "帮助你判断它是否适合搭建自己的技能库。",
+      "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
+    ],
+    "bestFor": [
+      "准备写自定义 Agent Skills 的开发者。",
+      "需要维护团队技能库或插件库的人。",
+      "想把文档、流程或经验产品化为 Skill 的团队。",
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+    ],
+    "notFor": [
+      "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
+      "没有明确技能场景，只想批量生成空壳的人。"
+    ],
+    "howItWorks": [
+      "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
+      "用户输入领域说明或现有材料后，工具生成可安装结构。",
+      "生成后仍需要在真实 Agent 环境里测试。",
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+    ],
+    "gettingStarted": [
+      "先阅读它支持的 Skill 格式。",
+      "用一个很小的技能需求生成或校验。",
+      "放进目标 Agent 客户端试跑，再迭代说明文档。"
+    ],
+    "expectedOutcome": [
+      "创建 Skill 的门槛降低。",
+      "技能结构更统一，别人更容易安装和理解。",
+      "团队知识更容易变成可执行能力。"
+    ],
+    "caveats": [
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
+    ]
+  }
+}

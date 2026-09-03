@@ -1,14 +1,14 @@
 {
-  "rank": 1797,
-  "id": 1078959689,
-  "name": "agent-rules-skill",
-  "fullName": "netresearch/agent-rules-skill",
-  "owner": "netresearch",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/151247?v=4",
-  "url": "https://github.com/netresearch/agent-rules-skill",
-  "homepage": "",
-  "description": "Agent Skill for generating AGENTS.md files following the agents.md convention | Claude Code compatible",
-  "summary": "agent-rules-skill：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2290,
+  "id": 1171285169,
+  "name": "harness-ml",
+  "fullName": "msilverblatt/harness-ml",
+  "owner": "msilverblatt",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1882470?v=4",
+  "url": "https://github.com/msilverblatt/harness-ml",
+  "homepage": "https://msilverblatt.github.io/harness-ml/",
+  "description": "An Agent-Computer Interface (ACI) for AI-driven machine learning.",
+  "summary": "harness-ml：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,33 +19,44 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/netresearch/agent-rules-skill.git",
-  "language": "Shell",
-  "license": "NOASSERTION",
-  "stars": 73,
-  "forks": 6,
-  "openIssues": 2,
-  "score": 88.1,
+  "installCommand": "git clone https://github.com/msilverblatt/harness-ml.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 60.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-08-29T09:34:54Z",
-  "updatedAt": "2026-08-29T09:34:57Z",
-  "createdAt": "2025-10-18T19:35:16Z",
+  "pushedAt": "2026-09-02T21:38:27Z",
+  "updatedAt": "2026-09-02T21:40:21Z",
+  "createdAt": "2026-03-03T04:02:39Z",
   "sourceTopics": [
-    "claude-code-skill"
+    "agentic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agents-md",
+    "agentic-mcp",
+    "agentic-skills",
+    "agentic-workflow",
+    "ai",
     "ai-agent",
-    "ai-agents",
-    "claude-code-skill",
-    "convention",
-    "documentation",
-    "open-standard",
-    "skill"
+    "anthropic",
+    "anthropic-ai",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claudecode",
+    "machine-learning",
+    "mcp",
+    "mcp-server",
+    "mcp-servers",
+    "mcp-tools",
+    "ml",
+    "ml-framework",
+    "ml-from-scratch",
+    "mlops"
   ],
   "platforms": [
     "Claude"
@@ -53,15 +64,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/netresearch/agent-rules-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/msilverblatt/harness-ml",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/netresearch/agent-rules-skill#readme",
-  "detailPath": "data/details/netresearch__agent__rules__skill.json",
+  "readmeUrl": "https://github.com/msilverblatt/harness-ml#readme",
+  "detailPath": "data/details/msilverblatt__harness__ml.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-rules-skill 支持资料研究、知识检索或学习任务。",
+    "summary": "harness-ml 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -77,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "6ad2f144eb54dcba",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "2afb0e84519270a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-rules-skill：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "agent-rules-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "harness-ml：支持资料研究、知识检索或学习任务。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "harness-ml 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -127,7 +138,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

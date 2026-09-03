@@ -1,67 +1,66 @@
 {
-  "rank": 1357,
-  "id": 1301657572,
-  "name": "treg",
-  "fullName": "superdesigndev/treg",
-  "owner": "superdesigndev",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/217153862?v=4",
-  "url": "https://github.com/superdesigndev/treg",
-  "homepage": "https://treg.to",
-  "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "summary": "treg：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2296,
+  "id": 1339609108,
+  "name": "clear-business-writing-skills",
+  "fullName": "introvenk/clear-business-writing-skills",
+  "owner": "introvenk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/47599874?v=4",
+  "url": "https://github.com/introvenk/clear-business-writing-skills",
+  "homepage": "",
+  "description": "Three Claude Code skills for engineering-management business writing, derived from Josh Bernoff's Writing Without Bullshit, built with TDD-for-docs discipline",
+  "summary": "clear-business-writing-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/superdesigndev/treg.git",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 929,
-  "forks": 88,
-  "openIssues": 25,
-  "score": 101.3,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-02T04:42:25Z",
-  "updatedAt": "2026-09-02T04:41:08Z",
-  "createdAt": "2026-07-15T13:38:07Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/introvenk/clear-business-writing-skills.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 60,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-20T11:43:46Z",
+  "updatedAt": "2026-09-02T08:53:06Z",
+  "createdAt": "2026-08-19T13:20:21Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agents",
-    "api-keys",
-    "cli",
-    "credentials",
-    "developer-tools",
-    "dsh-plugin",
-    "mcp",
-    "proxy",
-    "python",
-    "registry",
-    "secrets"
+    "ai-agent-skills",
+    "business-writing",
+    "claude-code",
+    "claude-skills",
+    "documentation",
+    "engineering-management",
+    "technical-writing",
+    "writing"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/superdesigndev/treg",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/introvenk/clear-business-writing-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/superdesigndev/treg#readme",
-  "detailPath": "data/details/superdesigndev__treg.json",
+  "readmeUrl": "https://github.com/introvenk/clear-business-writing-skills#readme",
+  "detailPath": "data/details/introvenk__clear__business__writing__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "treg 聚焦软件开发、代码质量与工程交付。",
+    "summary": "clear-business-writing-skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "8ef642ea0107fa85",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "84e698a05975478c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "treg：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "treg 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "clear-business-writing-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "clear-business-writing-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -104,7 +103,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -127,7 +126,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

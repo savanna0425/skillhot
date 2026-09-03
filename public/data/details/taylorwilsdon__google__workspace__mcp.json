@@ -1,5 +1,5 @@
 {
-  "rank": 847,
+  "rank": 850,
   "id": 973788136,
   "name": "google_workspace_mcp",
   "fullName": "taylorwilsdon/google_workspace_mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
   "homepage": "https://workspacemcp.com",
   "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool",
-  "summary": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/taylorwilsdon/google_workspace_mcp.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3102,
-  "forks": 972,
-  "openIssues": 193,
+  "stars": 3107,
+  "forks": 973,
+  "openIssues": 192,
   "score": 113.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-01T22:03:08Z",
-  "updatedAt": "2026-09-02T04:24:09Z",
+  "pushedAt": "2026-09-02T14:25:20Z",
+  "updatedAt": "2026-09-03T00:21:53Z",
   "createdAt": "2025-04-27T18:31:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,8 +57,7 @@
     "model-context-protocol-server"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -90,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-02T04:43:25.776Z",
-    "sourceHash": "ed891d743fcc82b8",
+    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "sourceHash": "9cc258e34c368e84",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "google_workspace_mcp 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -114,7 +113,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
