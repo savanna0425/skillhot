@@ -1,57 +1,48 @@
 {
-  "rank": 2240,
-  "id": 1142748639,
-  "name": "claude-skills",
-  "fullName": "24111999/claude-skills",
-  "owner": "24111999",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/38464127?v=4",
-  "url": "https://github.com/24111999/claude-skills",
-  "homepage": "https://24111999.github.io",
-  "description": "📊 Create and edit PowerPoint presentations effortlessly with Claude Skills using XML manipulation for streamlined content management.",
-  "summary": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 955,
+  "id": 1298021489,
+  "name": "natural-japanese",
+  "fullName": "coji/natural-japanese",
+  "owner": "coji",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/9904?v=4",
+  "url": "https://github.com/coji/natural-japanese",
+  "homepage": "",
+  "description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
+  "summary": "natural-japanese：仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/24111999/claude-skills.git",
-  "language": "JavaScript",
-  "license": "",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 66,
+  "installCommand": "git clone https://github.com/coji/natural-japanese.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 923,
+  "forks": 20,
+  "openIssues": 1,
+  "score": 109.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T05:20:37Z",
-  "updatedAt": "2026-09-02T05:21:25Z",
-  "createdAt": "2026-01-26T20:06:55Z",
-  "sourceTopics": [
-    "anthropic-skills"
-  ],
+  "pushedAt": "2026-09-04T04:35:47Z",
+  "updatedAt": "2026-09-04T04:35:55Z",
+  "createdAt": "2026-07-12T05:54:55Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "anthropic-ai",
-    "anthropic-skills",
-    "bioinformatics",
-    "chemoinformatics",
+    "agent-skills",
+    "claude",
     "claude-code",
-    "claude-skills",
-    "computational-biology",
-    "data-analysis",
-    "developer-tools",
-    "genomics",
-    "large-language-models",
-    "materials-science",
-    "productivity",
-    "scientific-visualization"
+    "japanese",
+    "lint",
+    "nlp",
+    "sudachipy",
+    "writing"
   ],
   "platforms": [
     "Claude"
@@ -59,15 +50,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/24111999/claude-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/coji/natural-japanese",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/24111999/claude-skills#readme",
-  "detailPath": "data/details/24111999__claude__skills.json",
+  "readmeUrl": "https://github.com/coji/natural-japanese#readme",
+  "detailPath": "data/details/coji__natural__japanese.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -83,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-03T04:40:13.109Z",
-    "sourceHash": "04194fe0e50ea98c",
+    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "sourceHash": "9509fffe9faab325",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "natural-japanese：仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "natural-japanese 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -133,7 +124,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

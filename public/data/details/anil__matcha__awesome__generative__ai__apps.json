@@ -1,5 +1,5 @@
 {
-  "rank": 1146,
+  "rank": 845,
   "id": 716944423,
   "name": "awesome-generative-ai-apps",
   "fullName": "Anil-matcha/awesome-generative-ai-apps",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Anil-matcha/awesome-generative-ai-apps",
   "homepage": "https://muapi.ai?utm_source=github&utm_medium=about&utm_campaign=awesome-generative-ai-apps",
   "description": "50+ open-source generative AI apps you can clone, deploy, and monetize — image generators, video tools, virtual try-ons, AI SaaS templates, and platform integrations. One-click Vercel deploy on every template.",
-  "summary": "awesome-generative-ai-apps 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-generative-ai-apps 是一个面向 Claude、Cursor、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Anil-matcha/awesome-generative-ai-apps.git",
+  "installCommand": "git clone https://github.com/SamurAIGPT/<template-name>\ncd <template-name>\ncp .env.example .env",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 3123,
-  "forks": 445,
+  "stars": 3132,
+  "forks": 444,
   "openIssues": 9,
-  "score": 106.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-21T10:40:04Z",
-  "updatedAt": "2026-09-03T02:49:03Z",
+  "score": 113.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-03T21:17:41Z",
+  "updatedAt": "2026-09-04T02:48:54Z",
   "createdAt": "2023-11-10T07:55:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,13 +57,15 @@
     "video-generation"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Anil-matcha/awesome-generative-ai-apps",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=X_kbyQyhgmI"
   },
   "readmeUrl": "https://github.com/Anil-matcha/awesome-generative-ai-apps#readme",
   "detailPath": "data/details/anil__matcha__awesome__generative__ai__apps.json",
@@ -89,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-03T04:40:13.109Z",
-    "sourceHash": "eeed8a66c246efca",
+    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "sourceHash": "7b939ed3f3079373",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-generative-ai-apps 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-generative-ai-apps 是一个面向 Claude、Cursor、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-generative-ai-apps 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -113,7 +115,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

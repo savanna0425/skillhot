@@ -1,14 +1,14 @@
 {
-  "rank": 1718,
-  "id": 201642068,
-  "name": "Image-Harmonization-Dataset-iHarmony4",
-  "fullName": "bcmi/Image-Harmonization-Dataset-iHarmony4",
-  "owner": "bcmi",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/16733978?v=4",
-  "url": "https://github.com/bcmi/Image-Harmonization-Dataset-iHarmony4",
+  "rank": 1398,
+  "id": 1251886250,
+  "name": "codex-visio-paper-figure-skill",
+  "fullName": "pengjunchi0/codex-visio-paper-figure-skill",
+  "owner": "pengjunchi0",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/288494126?v=4",
+  "url": "https://github.com/pengjunchi0/codex-visio-paper-figure-skill",
   "homepage": "",
-  "description": "[CVPR 2020] The first large-scale public benchmark dataset for image harmonization. The code used in our paper \"DoveNet: Deep Image Harmonization via Domain Verification\", CVPR2020. Useful for image harmonization, image composition, etc.",
-  "summary": "Image-Harmonization-Dataset-iHarmony4：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "科研绘图skill、论文绘图skill、图片转visio等可编辑格式，将生成图转化为论文可编辑图，便于作者调整绘图细节",
+  "summary": "codex-visio-paper-figure-skill：科研绘图skill、论文绘图skill、图片转visio等可编辑格式，将生成图转化为论文可编辑图，便于作者调整绘图细节。适合在 Codex 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,46 +19,45 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/bcmi/Image-Harmonization-Dataset-iHarmony4.git",
-  "language": "MATLAB",
+  "installCommand": "git clone https://github.com/pengjunchi0/codex-visio-paper-figure-skill.git",
+  "language": "PowerShell",
   "license": "MIT",
-  "stars": 810,
-  "forks": 96,
-  "openIssues": 0,
-  "score": 92.9,
+  "stars": 815,
+  "forks": 37,
+  "openIssues": 2,
+  "score": 101,
   "activity": "本月活跃",
-  "pushedAt": "2026-08-20T08:31:02Z",
-  "updatedAt": "2026-08-20T21:02:54Z",
-  "createdAt": "2019-08-10T14:37:24Z",
+  "pushedAt": "2026-08-16T02:19:56Z",
+  "updatedAt": "2026-09-04T01:02:31Z",
+  "createdAt": "2026-05-28T02:03:07Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "composite-images",
-    "deep-image-composition",
-    "deep-image-harmonization",
-    "domain-translation",
-    "domain-verification",
-    "image-composition",
-    "image-harmonization",
-    "image-harmonization-dataset"
+    "academic-figures",
+    "codex",
+    "editable-diagrams",
+    "image-to-visio",
+    "scientific-figures",
+    "skills",
+    "visio"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/bcmi/Image-Harmonization-Dataset-iHarmony4",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/pengjunchi0/codex-visio-paper-figure-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/bcmi/Image-Harmonization-Dataset-iHarmony4#readme",
-  "detailPath": "data/details/bcmi__image__harmonization__dataset__iharmony4.json",
+  "readmeUrl": "https://github.com/pengjunchi0/codex-visio-paper-figure-skill#readme",
+  "detailPath": "data/details/pengjunchi0__codex__visio__paper__figure__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Image-Harmonization-Dataset-iHarmony4 支持资料研究、知识检索或学习任务。",
+    "summary": "科研绘图skill、论文绘图skill、图片转visio等可编辑格式，将生成图转化为论文可编辑图，便于作者调整绘图细节",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -77,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-03T04:40:13.109Z",
-    "sourceHash": "1dbf46d6e18f7614",
+    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "sourceHash": "d11d061ff1dbf819",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Image-Harmonization-Dataset-iHarmony4：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Image-Harmonization-Dataset-iHarmony4 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "codex-visio-paper-figure-skill：科研绘图skill、论文绘图skill、图片转visio等可编辑格式，将生成图转化为论文可编辑图，便于作者调整绘图细节。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "codex-visio-paper-figure-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -101,7 +100,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

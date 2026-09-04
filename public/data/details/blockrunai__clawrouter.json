@@ -1,5 +1,5 @@
 {
-  "rank": 519,
+  "rank": 518,
   "id": 1149071982,
   "name": "ClawRouter",
   "fullName": "BlockRunAI/ClawRouter",
@@ -8,7 +8,7 @@
   "url": "https://github.com/BlockRunAI/ClawRouter",
   "homepage": "https://www.npmjs.com/package/@blockrun/clawrouter",
   "description": "The agent-native LLM router for autonomous agents. Every frontier model behind one wallet, <1ms local routing, USDC payments on Base & Solana via x402.",
-  "summary": "ClawRouter：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "ClawRouter：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @blockrun/clawrouter\nclawrouter setup            # finishes OpenClaw integration — REQUIRED\nopenclaw gateway restart",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6577,
+  "stars": 6579,
   "forks": 648,
-  "openIssues": 3,
-  "score": 121.6,
+  "openIssues": 8,
+  "score": 121.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-03T04:14:46Z",
-  "updatedAt": "2026-09-03T04:15:20Z",
+  "pushedAt": "2026-09-04T03:24:08Z",
+  "updatedAt": "2026-09-04T03:24:26Z",
   "createdAt": "2026-02-03T17:32:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,8 +54,6 @@
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
     "Gemini CLI",
     "OpenClaw"
   ],
@@ -89,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-03T04:40:13.109Z",
-    "sourceHash": "f1df696f02cff8eb",
+    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "sourceHash": "38cb255af32dbd8b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ClawRouter：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "ClawRouter：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "ClawRouter 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -113,7 +111,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
