@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2284,
+    "repositories": 2283,
     "sourceTopics": 24,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-06-06",
+    "activeHighStarCutoff": "2026-06-07",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -21,22 +21,28 @@
           "url": "https://github.com/topics/skill"
         },
         {
+          "name": "agent-skills",
+          "displayName": "Agent Skills",
+          "description": "Agent skills are reusable bundles of instructions and resources that an AI agent loads on demand.",
+          "url": "https://github.com/topics/agent-skills"
+        },
+        {
           "name": "portfolio",
           "displayName": "Portfolio",
           "description": "Portfolio is a website showcasing skills, project, experiences, education etc.",
           "url": "https://github.com/topics/portfolio"
         },
         {
-          "name": "agent-skills",
-          "displayName": "agent-skills",
-          "description": "",
-          "url": "https://github.com/topics/agent-skills"
-        },
-        {
           "name": "skills",
           "displayName": "skills",
           "description": "",
           "url": "https://github.com/topics/skills"
+        },
+        {
+          "name": "learning",
+          "displayName": "Learning",
+          "description": "Educational projects, roadmap guides, courses, and interactive tutorials to help developers build new skills.",
+          "url": "https://github.com/topics/learning"
         },
         {
           "name": "education",
@@ -55,12 +61,6 @@
           "displayName": "LeetCode",
           "description": "LeetCode offers a platform for improving coding skills and preparing for technical interviews.",
           "url": "https://github.com/topics/leetcode"
-        },
-        {
-          "name": "agent-skill",
-          "displayName": "agent-skill",
-          "description": "",
-          "url": "https://github.com/topics/agent-skill"
         },
         {
           "name": "codex-skill",
@@ -104,6 +104,12 @@
           "url": "https://github.com/topics/claude-code-skills"
         },
         {
+          "name": "openclaw",
+          "displayName": "OpenClaw",
+          "description": "An open source personal AI assistant for building agentic workflows, automations, and AI-powered tools.",
+          "url": "https://github.com/topics/openclaw"
+        },
+        {
           "name": "skill-md",
           "displayName": "skill-md",
           "description": "",
@@ -128,12 +134,6 @@
           "url": "https://github.com/topics/ai-skill"
         },
         {
-          "name": "sports",
-          "displayName": "Sports",
-          "description": "Any physical activity or a game featuring skills or fitness.",
-          "url": "https://github.com/topics/sports"
-        },
-        {
           "name": "openclaw-skill",
           "displayName": "openclaw-skill",
           "description": "",
@@ -149,6 +149,12 @@
           "displayName": "skills-sh",
           "description": "",
           "url": "https://github.com/topics/skills-sh"
+        },
+        {
+          "name": "sports",
+          "displayName": "Sports",
+          "description": "Any physical activity or a game featuring skills or fitness.",
+          "url": "https://github.com/topics/sports"
         },
         {
           "name": "openclaw-skills",
@@ -181,28 +187,22 @@
           "url": "https://github.com/topics/skillsmp"
         },
         {
-          "name": "bootcamp",
-          "displayName": "Bootcamp",
-          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
-          "url": "https://github.com/topics/bootcamp"
-        },
-        {
           "name": "cursor-skills",
           "displayName": "cursor-skills",
           "description": "",
           "url": "https://github.com/topics/cursor-skills"
         },
         {
+          "name": "bootcamp",
+          "displayName": "Bootcamp",
+          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
+          "url": "https://github.com/topics/bootcamp"
+        },
+        {
           "name": "alexa-custom-skill",
           "displayName": "alexa-custom-skill",
           "description": "",
           "url": "https://github.com/topics/alexa-custom-skill"
-        },
-        {
-          "name": "publishing",
-          "displayName": "Publishing",
-          "description": "Publishing is the dissemination of making information available to the general public through various mediums.",
-          "url": "https://github.com/topics/publishing"
         }
       ]
     }
@@ -269,12 +269,12 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill"
-    },
-    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw"
     },
     {
       "name": "skill-md",
@@ -310,148 +310,148 @@
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 2322242
+      "activeRepositories": 77,
+      "stars": 2326128
     },
     {
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
       "activeRepositories": 81,
-      "stars": 1773346
+      "stars": 1783361
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
       "activeRepositories": 76,
-      "stars": 798333
+      "stars": 799902
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 59,
-      "stars": 518325
+      "activeRepositories": 62,
+      "stars": 520808
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 77,
-      "stars": 295160
+      "activeRepositories": 78,
+      "stars": 295707
     },
     {
       "name": "codex-skills",
       "url": "https://github.com/topics/codex-skills",
       "repositories": 99,
-      "activeRepositories": 73,
-      "stars": 340131
+      "activeRepositories": 72,
+      "stars": 340042
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 98,
-      "activeRepositories": 46,
-      "stars": 115496
+      "activeRepositories": 47,
+      "stars": 115336
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 97,
-      "activeRepositories": 60,
-      "stars": 246103
+      "activeRepositories": 59,
+      "stars": 246777
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
-      "repositories": 93,
-      "activeRepositories": 44,
-      "stars": 230612
+      "repositories": 87,
+      "activeRepositories": 43,
+      "stars": 230084
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 56,
-      "activeRepositories": 47,
-      "stars": 48768
+      "repositories": 55,
+      "activeRepositories": 46,
+      "stars": 48841
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 42,
-      "activeRepositories": 34,
-      "stars": 77051
+      "repositories": 45,
+      "activeRepositories": 37,
+      "stars": 77178
     },
     {
       "name": "anthropic-skills",
       "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 33,
-      "activeRepositories": 26,
-      "stars": 2450
+      "repositories": 37,
+      "activeRepositories": 29,
+      "stars": 2509
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
       "activeRepositories": 11,
-      "stars": 83303
-    },
-    {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill",
-      "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 74946
+      "stars": 83534
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
       "activeRepositories": 21,
-      "stars": 66713
+      "stars": 66908
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 52301
+      "activeRepositories": 21,
+      "stars": 52538
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 26254
+      "activeRepositories": 21,
+      "stars": 26256
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
       "activeRepositories": 17,
-      "stars": 19346
+      "stars": 19431
     },
     {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills",
       "repositories": 29,
-      "activeRepositories": 20,
-      "stars": 115706
+      "activeRepositories": 19,
+      "stars": 115893
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw",
+      "repositories": 27,
+      "activeRepositories": 23,
+      "stars": 1334339
     },
     {
       "name": "skillsmp",
       "url": "https://github.com/topics/skillsmp",
-      "repositories": 25,
+      "repositories": 22,
       "activeRepositories": 14,
-      "stars": 26829
+      "stars": 25849
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
       "repositories": 21,
       "activeRepositories": 16,
-      "stars": 36568
+      "stars": 36730
     },
     {
       "name": "mcp-skills",
@@ -477,47 +477,47 @@
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 519
+      "count": 522
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 112
+      "count": 108
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 176
+      "count": 174
     },
     {
       "name": "数据分析",
       "description": "SQL、数据处理、统计、可视化与商业分析",
-      "count": 60
+      "count": 61
     },
     {
       "name": "研究学习",
       "description": "科研、知识检索、文献、教学、学习与推理工作流",
-      "count": 150
+      "count": 156
     },
     {
       "name": "自动化",
       "description": "浏览器、网页抓取、工具集成与重复流程自动化",
-      "count": 104
+      "count": 102
     },
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 47
+      "count": 49
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 306
+      "count": 299
     },
     {
       "name": "产品与商业",
@@ -527,7 +527,7 @@
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 41
+      "count": 42
     },
     {
       "name": "技能合集",
@@ -542,7 +542,7 @@
   ],
   "skills": [
     {
-      "rank": 11,
+      "rank": 12,
       "id": 1201173969,
       "name": "caveman",
       "fullName": "JuliusBrussee/caveman",
@@ -562,8 +562,8 @@
       "installCommand": "npx skills add JuliusBrussee/caveman",
       "language": "Go",
       "license": "NOASSERTION",
-      "stars": 103180,
-      "score": 162.3,
+      "stars": 103624,
+      "score": 162.4,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T00:31:14Z",
       "sourceTopics": [
@@ -588,7 +588,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 13,
+      "rank": 16,
       "id": 1127110039,
       "name": "planning-with-files",
       "fullName": "OthmanAdi/planning-with-files",
@@ -608,7 +608,7 @@
       "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
       "language": "Shell",
       "license": "MIT",
-      "stars": 26618,
+      "stars": 26632,
       "score": 160.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T23:29:49Z",
@@ -656,7 +656,7 @@
       "installCommand": "npx skills add virgiliojr94/book-to-skill\ngit clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill",
       "language": "Python",
       "license": "MIT",
-      "stars": 28325,
+      "stars": 28564,
       "score": 148.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T14:51:58Z",
@@ -678,7 +678,145 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 84,
+      "rank": 75,
+      "id": 1033778670,
+      "name": "AionUi",
+      "fullName": "iOfficeAI/AionUi",
+      "owner": "iOfficeAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
+      "summary": "AionUi：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "brew install aionui",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 32575,
+      "score": 146.3,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-02T09:01:43Z",
+      "sourceTopics": [
+        "skills",
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Gemini CLI",
+        "GitHub Copilot",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/iOfficeAI/AionUi",
+        "videoUrl": "https://www.youtube.com/watch?v=vWxE6VO9TKo"
+      },
+      "detailPath": "data/details/iofficeai__aionui.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 83,
+      "id": 1146738089,
+      "name": "nanoclaw",
+      "fullName": "nanocoai/nanoclaw",
+      "owner": "nanocoai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255066954?v=4",
+      "url": "https://github.com/nanocoai/nanoclaw",
+      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+      "summary": "nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2\ncd nanoclaw-v2\nbash nanoclaw.sh",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 30702,
+      "score": 145.7,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T23:48:01Z",
+      "sourceTopics": [
+        "claude-skills",
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "OpenClaw",
+        "OpenCode"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/nanocoai/nanoclaw",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/nanocoai__nanoclaw.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 89,
+      "id": 1182212878,
+      "name": "OfficeCLI",
+      "fullName": "iOfficeAI/OfficeCLI",
+      "owner": "iOfficeAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "summary": "OfficeCLI：是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "curl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash\nofficecli create deck.pptx\nofficecli watch deck.pptx",
+      "language": "C#",
+      "license": "Apache-2.0",
+      "stars": 29854,
+      "score": 145.4,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-03T07:16:42Z",
+      "sourceTopics": [
+        "skills",
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/iOfficeAI/OfficeCLI",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/iofficeai__officecli.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 91,
       "id": 955620917,
       "name": "context7",
       "fullName": "upstash/context7",
@@ -698,10 +836,10 @@
       "installCommand": "Authenticates via OAuth, generates an API key, and installs the appropriate skill. You can choose between CLI + Skills or MCP mode. Use `--cursor`, `--claude`, or `--opencode` to target a specific agent.\nTo remove the generated setup later, run `npx ctx7 remove`. If you globally installed the CLI with `npm install -g ctx7`, remove that package separately wit",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 61598,
+      "stars": 61636,
       "score": 145,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T19:00:22Z",
+      "pushedAt": "2026-09-04T19:06:10Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -719,7 +857,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 98,
+      "rank": 106,
       "id": 965615190,
       "name": "BMAD-METHOD",
       "fullName": "bmad-code-org/BMAD-METHOD",
@@ -739,7 +877,7 @@
       "installCommand": "npx bmad-method install",
       "language": "JavaScript",
       "license": "NOASSERTION",
-      "stars": 52659,
+      "stars": 52682,
       "score": 143.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T02:36:55Z",
@@ -758,7 +896,52 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 102,
+      "rank": 108,
+      "id": 1126947080,
+      "name": "obsidian-skills",
+      "fullName": "kepano/obsidian-skills",
+      "owner": "kepano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10565871?v=4",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "summary": "obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "人工复核",
+      "scenarios": [
+        "知识库维护",
+        "笔记自动化",
+        "结构化内容管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "npx skills add git@github.com:kepano/obsidian-skills.git",
+      "language": "",
+      "license": "MIT",
+      "stars": 47873,
+      "score": 143.3,
+      "activity": "近期活跃",
+      "pushedAt": "2026-06-08T16:12:01Z",
+      "sourceTopics": [
+        "skills",
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "OpenClaw",
+        "OpenCode"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/kepano/obsidian-skills",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/kepano__obsidian__skills.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 111,
       "id": 1232669890,
       "name": "SkillOpt",
       "fullName": "microsoft/SkillOpt",
@@ -778,7 +961,7 @@
       "installCommand": "pip install -e \".[webui]\"\npython -m skillopt_webui.app",
       "language": "Python",
       "license": "MIT",
-      "stars": 16674,
+      "stars": 16697,
       "score": 143.3,
       "activity": "本周活跃",
       "pushedAt": "2026-08-29T18:49:23Z",
@@ -803,7 +986,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 108,
+      "rank": 117,
       "id": 1171026502,
       "name": "cli",
       "fullName": "googleworkspace/cli",
@@ -823,7 +1006,7 @@
       "installCommand": "npm install -g @googleworkspace/cli",
       "language": "Rust",
       "license": "Apache-2.0",
-      "stars": 30726,
+      "stars": 30743,
       "score": 142.7,
       "activity": "本月活跃",
       "pushedAt": "2026-08-25T22:15:35Z",
@@ -845,97 +1028,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 115,
-      "id": 1033778670,
-      "name": "AionUi",
-      "fullName": "iOfficeAI/AionUi",
-      "owner": "iOfficeAI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
-      "url": "https://github.com/iOfficeAI/AionUi",
-      "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
-      "summary": "AionUi：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "brew install aionui",
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "stars": 32545,
-      "score": 142.3,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-02T09:01:43Z",
-      "sourceTopics": [
-        "skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "Gemini CLI",
-        "GitHub Copilot",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/iOfficeAI/AionUi",
-        "videoUrl": "https://www.youtube.com/watch?v=vWxE6VO9TKo"
-      },
-      "detailPath": "data/details/iofficeai__aionui.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 121,
-      "id": 1146738089,
-      "name": "nanoclaw",
-      "fullName": "nanocoai/nanoclaw",
-      "owner": "nanocoai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/255066954?v=4",
-      "url": "https://github.com/nanocoai/nanoclaw",
-      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
-      "summary": "nanoclaw：轻量级替代 OpenClaw，容器运行以保障安全。连接 WhatsApp、Telegram、Slack、Discord 及 Gmail 等消息应用，具备记忆功能，支持定时任务，并直接运行在 Anthropic 的 Agents SDK 上。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2\ncd nanoclaw-v2\nbash nanoclaw.sh",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 30694,
-      "score": 141.7,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T22:12:15Z",
-      "sourceTopics": [
-        "claude-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "OpenClaw",
-        "OpenCode"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/nanocoai/nanoclaw",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/nanocoai__nanoclaw.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 122,
+      "rank": 129,
       "id": 1053118194,
       "name": "ai-agent-book",
       "fullName": "bojieli/ai-agent-book",
@@ -955,10 +1048,10 @@
       "installCommand": "uv sync --locked --extra ch1\npython -m pip install -e \".[ch1]\"",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 44589,
+      "stars": 44743,
       "score": 141.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:02:34Z",
+      "pushedAt": "2026-09-05T03:04:37Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -976,52 +1069,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 126,
-      "id": 1182212878,
-      "name": "OfficeCLI",
-      "fullName": "iOfficeAI/OfficeCLI",
-      "owner": "iOfficeAI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/145246968?v=4",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "summary": "OfficeCLI：是专为 AI 代理阅读、编辑和自动化处理 Word、Excel 和 PowerPoint 文件而设计的首个最佳办公套件。免费、开源、单二进制，无需安装 Office。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "curl -fsSL https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.sh | bash\nofficecli create deck.pptx\nofficecli watch deck.pptx",
-      "language": "C#",
-      "license": "Apache-2.0",
-      "stars": 29809,
-      "score": 141.4,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T07:16:42Z",
-      "sourceTopics": [
-        "skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "GitHub Copilot",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/iOfficeAI/OfficeCLI",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/iofficeai__officecli.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 134,
+      "rank": 138,
       "id": 1092047360,
       "name": "claude-howto",
       "fullName": "luongnv89/claude-howto",
@@ -1041,7 +1089,7 @@
       "installCommand": "git clone https://github.com/luongnv89/claude-howto.git\ncd claude-howto\nmkdir -p /path/to/your-project/.claude/commands",
       "language": "Python",
       "license": "MIT",
-      "stars": 41348,
+      "stars": 41356,
       "score": 140.8,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T08:35:12Z",
@@ -1060,7 +1108,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 140,
+      "rank": 145,
       "id": 143328315,
       "name": "mindshub",
       "fullName": "mindsdb/mindshub",
@@ -1080,10 +1128,10 @@
       "installCommand": "git clone --recurse-submodules https://github.com/mindsdb/minds.git\ncd minds",
       "language": "Makefile",
       "license": "MIT",
-      "stars": 39691,
+      "stars": 39696,
       "score": 140.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T08:40:34Z",
+      "pushedAt": "2026-09-04T13:26:56Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1101,7 +1149,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 153,
+      "rank": 156,
       "id": 1191372811,
       "name": "cli",
       "fullName": "larksuite/cli",
@@ -1121,10 +1169,10 @@
       "installCommand": "npx @larksuite/cli@latest install",
       "language": "Go",
       "license": "MIT",
-      "stars": 16985,
+      "stars": 17009,
       "score": 139.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:22:28Z",
+      "pushedAt": "2026-09-04T10:34:52Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -1140,51 +1188,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 154,
-      "id": 1126947080,
-      "name": "obsidian-skills",
-      "fullName": "kepano/obsidian-skills",
-      "owner": "kepano",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10565871?v=4",
-      "url": "https://github.com/kepano/obsidian-skills",
-      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
-      "summary": "obsidian-skills：让 Agent 熟练操作 Obsidian CLI 与 Markdown、Bases、Canvas。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "人工复核",
-      "scenarios": [
-        "知识库维护",
-        "笔记自动化",
-        "结构化内容管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "npx skills add git@github.com:kepano/obsidian-skills.git",
-      "language": "",
-      "license": "MIT",
-      "stars": 47817,
-      "score": 139.3,
-      "activity": "近期活跃",
-      "pushedAt": "2026-06-08T16:12:01Z",
-      "sourceTopics": [
-        "skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "OpenClaw",
-        "OpenCode"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/kepano/obsidian-skills",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/kepano__obsidian__skills.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 163,
+      "rank": 166,
       "id": 285864199,
       "name": "go-zero",
       "fullName": "zeromicro/go-zero",
@@ -1204,10 +1208,10 @@
       "installCommand": "git clone https://github.com/zeromicro/mcp-zero.git && cd mcp-zero && go build",
       "language": "Go",
       "license": "MIT",
-      "stars": 33304,
+      "stars": 33307,
       "score": 138.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T19:53:08Z",
+      "pushedAt": "2026-09-05T03:35:52Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1225,7 +1229,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 232,
+      "rank": 231,
       "id": 1204004374,
       "name": "patent-disclosure-skill",
       "fullName": "handsomestWei/patent-disclosure-skill",
@@ -1245,10 +1249,10 @@
       "installCommand": "git clone https://github.com/handsomestWei/patent-disclosure-skill.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 7247,
-      "score": 134.7,
+      "stars": 7387,
+      "score": 134.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T08:21:00Z",
+      "pushedAt": "2026-09-04T08:17:04Z",
       "sourceTopics": [
         "skill"
       ],
@@ -1266,7 +1270,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 239,
+      "rank": 240,
       "id": 925270205,
       "name": "cua",
       "fullName": "trycua/cua",
@@ -1286,10 +1290,10 @@
       "installCommand": "git clone https://github.com/trycua/cua && cd cua/cua-bench\nuv tool install -e . && cb image create linux-docker\ncb run dataset datasets/cua-bench-basic --agent cua-agent --max-parallel 4",
       "language": "HTML",
       "license": "MIT",
-      "stars": 22168,
+      "stars": 22204,
       "score": 134.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:28:40Z",
+      "pushedAt": "2026-09-05T04:36:19Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1308,7 +1312,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 279,
+      "rank": 285,
       "id": 918778709,
       "name": "fast-agent",
       "fullName": "evalstate/fast-agent",
@@ -1331,7 +1335,7 @@
       "stars": 3910,
       "score": 132.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T08:29:06Z",
+      "pushedAt": "2026-09-04T22:40:22Z",
       "sourceTopics": [
         "skills",
         "agent-skills"
@@ -1351,7 +1355,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 287,
+      "rank": 293,
       "id": 726082384,
       "name": "open-saas",
       "fullName": "wasp-lang/open-saas",
@@ -1371,7 +1375,7 @@
       "installCommand": "npm i -g @wasp.sh/wasp-cli",
       "language": "MDX",
       "license": "MIT",
-      "stars": 15716,
+      "stars": 15723,
       "score": 131.7,
       "activity": "本月活跃",
       "pushedAt": "2026-08-06T11:28:44Z",
@@ -1393,7 +1397,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 292,
+      "rank": 297,
       "id": 1210155353,
       "name": "SenseNova-Skills",
       "fullName": "OpenSenseNova/SenseNova-Skills",
@@ -1413,7 +1417,7 @@
       "installCommand": "git clone https://github.com/OpenSenseNova/SenseNova-Skills.git --depth=1\nmkdir -p ~/.openclaw/skills\ncp -r SenseNova-Skills/skills/* ~/.openclaw/skills/",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 5335,
+      "stars": 5369,
       "score": 131.5,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T12:44:10Z",
@@ -1434,7 +1438,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 301,
+      "rank": 306,
       "id": 1203670949,
       "name": "claude-obsidian",
       "fullName": "AgriciDaniel/claude-obsidian",
@@ -1454,7 +1458,7 @@
       "installCommand": "git clone https://github.com/AgriciDaniel/claude-obsidian.git\ncd claude-obsidian",
       "language": "Python",
       "license": "MIT",
-      "stars": 14605,
+      "stars": 14632,
       "score": 131,
       "activity": "本月活跃",
       "pushedAt": "2026-08-26T11:43:21Z",
@@ -1480,7 +1484,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 316,
+      "rank": 320,
       "id": 1110782890,
       "name": "claudian",
       "fullName": "YishenTu/claudian",
@@ -1500,10 +1504,10 @@
       "installCommand": "cd /path/to/vault/.obsidian/plugins\ngit clone https://github.com/YishenTu/claudian.git\ncd claudian",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 15146,
+      "stars": 15163,
       "score": 130.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:30:47Z",
+      "pushedAt": "2026-09-05T04:27:49Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1522,7 +1526,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 357,
+      "rank": 359,
       "id": 403559729,
       "name": "yao",
       "fullName": "YaoApp/yao",
@@ -1542,10 +1546,10 @@
       "installCommand": "git clone https://github.com/YaoApp/yao.git",
       "language": "Go",
       "license": "NOASSERTION",
-      "stars": 7881,
+      "stars": 7885,
       "score": 127.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T07:19:19Z",
+      "pushedAt": "2026-09-05T04:31:38Z",
       "sourceTopics": [
         "agent-skills"
       ],
@@ -1563,7 +1567,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 369,
+      "rank": 371,
       "id": 673881338,
       "name": "wechatDownload",
       "fullName": "qiye45/wechatDownload",
@@ -1583,7 +1587,7 @@
       "installCommand": "git clone https://github.com/qiye45/wechatDownload.git",
       "language": "HTML",
       "license": "",
-      "stars": 9230,
+      "stars": 9240,
       "score": 126.2,
       "activity": "本月活跃",
       "pushedAt": "2026-08-16T14:06:30Z",
@@ -1602,7 +1606,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 387,
+      "rank": 388,
       "id": 1308234922,
       "name": "J-Space-Cognition-Suite-V3.7",
       "fullName": "Tiger3807861189/J-Space-Cognition-Suite-V3.7",
@@ -1622,8 +1626,8 @@
       "installCommand": "git clone https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 3011,
-      "score": 125.5,
+      "stars": 3021,
+      "score": 125.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T12:41:22Z",
       "sourceTopics": [
@@ -1665,8 +1669,8 @@
       "installCommand": "git clone https://github.com/nashsu/llm_wiki.git\ncd llm_wiki\nnpm install",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 17349,
-      "score": 124.7,
+      "stars": 17417,
+      "score": 124.8,
       "activity": "本月活跃",
       "pushedAt": "2026-08-25T06:42:02Z",
       "sourceTopics": [],
@@ -1685,7 +1689,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 437,
+      "rank": 439,
       "id": 1115161703,
       "name": "gogcli",
       "fullName": "openclaw/gogcli",
@@ -1705,10 +1709,10 @@
       "installCommand": "brew install openclaw/tap/gogcli\ngog --version",
       "language": "Go",
       "license": "MIT",
-      "stars": 8365,
+      "stars": 8368,
       "score": 124.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:53:52Z",
+      "pushedAt": "2026-09-04T08:15:16Z",
       "sourceTopics": [],
       "platforms": [
         "OpenClaw"
@@ -1724,7 +1728,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 463,
+      "rank": 465,
       "id": 621575252,
       "name": "obsidian-copilot",
       "fullName": "logancyang/obsidian-copilot",
@@ -1744,10 +1748,10 @@
       "installCommand": "git clone https://github.com/logancyang/obsidian-copilot.git",
       "language": "TypeScript",
       "license": "AGPL-3.0",
-      "stars": 7671,
+      "stars": 7673,
       "score": 123.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T21:57:26Z",
+      "pushedAt": "2026-09-05T04:25:25Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1766,7 +1770,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 473,
+      "rank": 475,
       "id": 948839453,
       "name": "Operit",
       "fullName": "AAswordman/Operit",
@@ -1786,10 +1790,10 @@
       "installCommand": "git clone https://github.com/AAswordman/Operit.git",
       "language": "Kotlin",
       "license": "LGPL-3.0",
-      "stars": 7528,
+      "stars": 7552,
       "score": 123.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T14:01:47Z",
+      "pushedAt": "2026-09-04T08:08:27Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1806,7 +1810,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 477,
+      "rank": 478,
       "id": 298824567,
       "name": "EGamePlay",
       "fullName": "m969/EGamePlay",
@@ -1847,7 +1851,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 495,
+      "rank": 497,
       "id": 324025361,
       "name": "himalaya",
       "fullName": "pimalaya/himalaya",
@@ -1867,7 +1871,7 @@
       "installCommand": "git clone https://aur.archlinux.org/himalaya-git.git\ncd himalaya-git\nmakepkg -isc",
       "language": "Rust",
       "license": "Apache-2.0",
-      "stars": 7180,
+      "stars": 7183,
       "score": 122.6,
       "activity": "本周活跃",
       "pushedAt": "2026-08-29T12:14:58Z",
@@ -1886,7 +1890,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 496,
+      "rank": 498,
       "id": 1182887460,
       "name": "hermes-workspace",
       "fullName": "outsourc-e/hermes-workspace",
@@ -1906,7 +1910,7 @@
       "installCommand": "hermes gateway run                  # terminal 1\ncd ~/hermes-workspace && pnpm dev   # terminal 2",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 6562,
+      "stars": 6563,
       "score": 122.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-22T05:24:08Z",
@@ -1927,7 +1931,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 499,
+      "rank": 503,
       "id": 615928156,
       "name": "big-AGI",
       "fullName": "enricoros/big-AGI",
@@ -1947,7 +1951,7 @@
       "installCommand": "git clone https://github.com/enricoros/big-AGI.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 7109,
+      "stars": 7110,
       "score": 122.5,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T02:04:29Z",
@@ -1966,7 +1970,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 538,
+      "rank": 540,
       "id": 627925034,
       "name": "AiNiee",
       "fullName": "NEKOparapa/AiNiee",
@@ -1986,7 +1990,7 @@
       "installCommand": "git clone https://github.com/NEKOparapa/AiNiee.git",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 6211,
+      "stars": 6212,
       "score": 121.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T03:17:27Z",
@@ -2005,7 +2009,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 614,
+      "rank": 613,
       "id": 1202549948,
       "name": "obsidian-wiki",
       "fullName": "Ar9av/obsidian-wiki",
@@ -2025,7 +2029,7 @@
       "installCommand": "pip install obsidian-wiki\nobsidian-wiki setup --vault ~/brain",
       "language": "Python",
       "license": "MIT",
-      "stars": 3339,
+      "stars": 3349,
       "score": 118.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T11:09:35Z",
@@ -2049,7 +2053,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 624,
+      "rank": 625,
       "id": 798235565,
       "name": "x",
       "fullName": "ant-design/x",
@@ -2069,7 +2073,7 @@
       "installCommand": "$ npm i -g utoo\n$ ut [install]\n$ ut start # Method 1: Start via main package script",
       "language": "TypeScript",
       "license": "",
-      "stars": 4758,
+      "stars": 4759,
       "score": 118.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T14:54:55Z",
@@ -2088,7 +2092,46 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 630,
+      "rank": 629,
+      "id": 1251460378,
+      "name": "maka",
+      "fullName": "apache/maka",
+      "owner": "apache",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "summary": "maka：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/apache/maka.git\ncd maka\nnpm ci",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 4716,
+      "score": 118.2,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-05T04:33:54Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/apache/maka",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/apache__maka.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 632,
       "id": 632871628,
       "name": "agenta",
       "fullName": "Agenta-AI/agenta",
@@ -2108,10 +2151,10 @@
       "installCommand": "git clone https://github.com/Agenta-AI/agenta.git",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 4682,
+      "stars": 4684,
       "score": 118.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:15:06Z",
+      "pushedAt": "2026-09-05T02:26:43Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2130,46 +2173,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 632,
-      "id": 1251460378,
-      "name": "maka",
-      "fullName": "apache/maka",
-      "owner": "apache",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
-      "url": "https://github.com/apache/maka",
-      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "summary": "maka：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/apache/maka.git\ncd maka\nnpm ci",
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "stars": 4661,
-      "score": 118.1,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:38:20Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/apache/maka",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/apache__maka.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 636,
+      "rank": 638,
       "id": 971992642,
       "name": "53AIHub",
       "fullName": "53AI/53AIHub",
@@ -2189,7 +2193,7 @@
       "installCommand": "git clone https://github.com/53ai/53aihub.git\ncd 53aihub",
       "language": "Go",
       "license": "NOASSERTION",
-      "stars": 4641,
+      "stars": 4644,
       "score": 118,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T06:54:29Z",
@@ -2208,7 +2212,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 671,
+      "rank": 673,
       "id": 226096934,
       "name": "jimureport",
       "fullName": "jeecgboot/jimureport",
@@ -2228,8 +2232,8 @@
       "installCommand": "git clone https://github.com/jeecgboot/skills.git ~/.claude/skills",
       "language": "Java",
       "license": "GPL-3.0",
-      "stars": 8358,
-      "score": 117.1,
+      "stars": 8372,
+      "score": 117.2,
       "activity": "本月活跃",
       "pushedAt": "2026-08-27T01:46:23Z",
       "sourceTopics": [],
@@ -2267,10 +2271,10 @@
       "installCommand": "**`npm.ps1` cannot be loaded because running scripts is disabled**\nThis can still happen when you run development commands such as `npm run dev` directly in Windows PowerShell for the first time. PowerShell may resolve `npm` to `npm.ps1`, and the default execution policy can block that shim.\nFix it once for the current user, then reopen PowerShell:",
       "language": "TypeScript",
       "license": "AGPL-3.0",
-      "stars": 3982,
+      "stars": 3981,
       "score": 116.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:36:34Z",
+      "pushedAt": "2026-09-05T03:52:07Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2287,46 +2291,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 756,
-      "id": 1342930695,
-      "name": "scroll-craft",
-      "fullName": "nateherkai/scroll-craft",
-      "owner": "nateherkai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/253835467?v=4",
-      "url": "https://github.com/nateherkai/scroll-craft",
-      "description": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
-      "summary": "scroll-craft：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/nateherkai/scroll-craft.git",
-      "language": "JavaScript",
-      "license": "MIT",
-      "stars": 1688,
-      "score": 115.5,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-02T04:22:53Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Claude"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/scroll-craft",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/nateherkai__scroll__craft.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 763,
+      "rank": 754,
       "id": 1303258850,
       "name": "KiroCrew",
       "fullName": "kirodotdev/KiroCrew",
@@ -2346,10 +2311,10 @@
       "installCommand": "git clone https://github.com/kirodotdev/KiroCrew.git\ncd KiroCrew\nmake build",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 3617,
-      "score": 115.4,
+      "stars": 3649,
+      "score": 115.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:39:39Z",
+      "pushedAt": "2026-09-05T04:37:06Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -2365,7 +2330,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 767,
+      "rank": 762,
       "id": 979799945,
       "name": "docmd",
       "fullName": "docmd-io/docmd",
@@ -2385,7 +2350,7 @@
       "installCommand": "npx @docmd/core dev",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 2436,
+      "stars": 2439,
       "score": 115.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T03:55:23Z",
@@ -2406,7 +2371,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 804,
+      "rank": 803,
       "id": 1054812421,
       "name": "Infographic",
       "fullName": "antvis/Infographic",
@@ -2426,7 +2391,7 @@
       "installCommand": "npm install @antv/infographic",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 6548,
+      "stars": 6556,
       "score": 114.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-21T14:04:18Z",
@@ -2446,7 +2411,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 848,
+      "rank": 847,
       "id": 973788136,
       "name": "google_workspace_mcp",
       "fullName": "taylorwilsdon/google_workspace_mcp",
@@ -2454,7 +2419,7 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/6508528?v=4",
       "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
       "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool",
-      "summary": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+      "summary": "google_workspace_mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
       "category": "办公效率",
       "categoryConfidence": "高",
       "scenarios": [
@@ -2466,13 +2431,14 @@
       "installCommand": "git clone https://github.com/taylorwilsdon/google_workspace_mcp.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 3115,
+      "stars": 3119,
       "score": 113.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T14:25:20Z",
       "sourceTopics": [],
       "platforms": [
-        "Claude"
+        "Claude",
+        "Codex"
       ],
       "skillCount": 1,
       "isCollection": false,
@@ -2485,7 +2451,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 856,
+      "rank": 855,
       "id": 1215974868,
       "name": "mercury-agent",
       "fullName": "cosmicstack-labs/mercury-agent",
@@ -2505,7 +2471,7 @@
       "installCommand": "git clone https://github.com/cosmicstack-labs/mercury-agent.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 3062,
+      "stars": 3065,
       "score": 113.7,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T09:20:53Z",
@@ -2524,90 +2490,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 888,
-      "id": 1344223757,
-      "name": "watermark-remover",
-      "fullName": "ShadowAqueduct/watermark-remover",
-      "owner": "ShadowAqueduct",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/311792326?v=4",
-      "url": "https://github.com/ShadowAqueduct/watermark-remover",
-      "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
-      "summary": "watermark-remover：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/ShadowAqueduct/watermark-remover.git",
-      "language": "Python",
-      "license": "MIT",
-      "stars": 841,
-      "score": 112.3,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-31T12:46:58Z",
-      "sourceTopics": [
-        "claude-skills",
-        "codex-skills",
-        "codex-skill"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/ShadowAqueduct/watermark-remover",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/shadowaqueduct__watermark__remover.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 894,
-      "id": 983763510,
-      "name": "magic",
-      "fullName": "dtyq/magic",
-      "owner": "dtyq",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/144179893?v=4",
-      "url": "https://github.com/dtyq/magic",
-      "description": "Magicrew. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)",
-      "summary": "magic：Magicrew。首个全栈式开源 AI 生产力平台（通用型 AI 代理 + 工作流引擎 + 即时通讯 + 在线协作办公系统）。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/dtyq/magic.git",
-      "language": "TypeScript",
-      "license": "NOASSERTION",
-      "stars": 5012,
-      "score": 111.8,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-12T12:46:11Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/dtyq/magic",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/dtyq__magic.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 911,
+      "rank": 906,
       "id": 138194612,
       "name": "Knowledge-Base",
       "fullName": "slowmist/Knowledge-Base",
@@ -2646,7 +2529,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 971,
+      "rank": 956,
       "id": 1222215394,
       "name": "deepseek-pp",
       "fullName": "zhu1090093659/deepseek-pp",
@@ -2666,8 +2549,8 @@
       "installCommand": "git clone https://github.com/zhu1090093659/deepseek-pp.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1789,
-      "score": 109.1,
+      "stars": 1797,
+      "score": 109.2,
       "activity": "本月活跃",
       "pushedAt": "2026-08-13T17:19:34Z",
       "sourceTopics": [],
@@ -2685,7 +2568,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 977,
+      "rank": 972,
       "id": 1154236212,
       "name": "JadeAI",
       "fullName": "LingyiChen-AI/JadeAI",
@@ -2705,7 +2588,7 @@
       "installCommand": "git clone https://github.com/LingyiChen-AI/JadeAI.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1951,
+      "stars": 1952,
       "score": 109,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T03:32:46Z",
@@ -2724,7 +2607,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 994,
+      "rank": 993,
       "id": 321631117,
       "name": "dedao-dl",
       "fullName": "yann0917/dedao-dl",
@@ -2744,7 +2627,7 @@
       "installCommand": "git clone https://github.com/yann0917/dedao-dl.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 882,
+      "stars": 881,
       "score": 108.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-28T12:40:28Z",
@@ -2763,7 +2646,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1026,
+      "rank": 1020,
       "id": 1131797886,
       "name": "axton-obsidian-visual-skills",
       "fullName": "axtonliu/axton-obsidian-visual-skills",
@@ -2783,7 +2666,7 @@
       "installCommand": "git clone https://github.com/axtonliu/axton-obsidian-visual-skills.git",
       "language": "",
       "license": "MIT",
-      "stars": 3566,
+      "stars": 3568,
       "score": 108.3,
       "activity": "近期活跃",
       "pushedAt": "2026-06-26T15:32:40Z",
@@ -2802,7 +2685,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1032,
+      "rank": 1025,
       "id": 1156013210,
       "name": "academic-ai-prompt",
       "fullName": "bohyy/academic-ai-prompt",
@@ -2822,7 +2705,7 @@
       "installCommand": "git clone https://github.com/bohyy/academic-ai-prompt.git",
       "language": "",
       "license": "MIT",
-      "stars": 1797,
+      "stars": 1808,
       "score": 108.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T08:28:40Z",
@@ -2841,7 +2724,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1044,
+      "rank": 1036,
       "id": 1194353632,
       "name": "kordoc",
       "fullName": "chrisryugj/kordoc",
@@ -2861,7 +2744,7 @@
       "installCommand": "git clone https://github.com/chrisryugj/kordoc.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 1789,
+      "stars": 1791,
       "score": 108.1,
       "activity": "本周活跃",
       "pushedAt": "2026-08-29T19:56:46Z",
@@ -2880,7 +2763,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1093,
+      "rank": 1088,
       "id": 1277578741,
       "name": "codex-orange-book",
       "fullName": "bozhouDev/codex-orange-book",
@@ -2900,7 +2783,7 @@
       "installCommand": "git clone https://github.com/bozhouDev/codex-orange-book.git",
       "language": "HTML",
       "license": "MIT",
-      "stars": 3316,
+      "stars": 3322,
       "score": 107.5,
       "activity": "本月活跃",
       "pushedAt": "2026-08-14T15:37:20Z",
@@ -2919,7 +2802,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1114,
+      "rank": 1101,
       "id": 980905149,
       "name": "voiden",
       "fullName": "VoidenHQ/voiden",
@@ -2939,10 +2822,10 @@
       "installCommand": "git clone https://github.com/VoidenHQ/voiden.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1653,
-      "score": 107.3,
+      "stars": 1662,
+      "score": 107.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T10:46:21Z",
+      "pushedAt": "2026-09-04T08:35:52Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -2958,7 +2841,48 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1118,
+      "rank": 1102,
+      "id": 1182353280,
+      "name": "translate-book",
+      "fullName": "deusyu/translate-book",
+      "owner": "deusyu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42929363?v=4",
+      "url": "https://github.com/deusyu/translate-book",
+      "description": "Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.",
+      "summary": "translate-book：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/deusyu/translate-book.git",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 1515,
+      "score": 107.4,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-06T09:14:00Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/deusyu/translate-book",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/deusyu__translate__book.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1112,
       "id": 660706360,
       "name": "Agently",
       "fullName": "AgentEra/Agently",
@@ -2998,50 +2922,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1181,
-      "id": 1171850560,
-      "name": "mermaid-skill",
-      "fullName": "Agents365-ai/mermaid-skill",
-      "owner": "Agents365-ai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
-      "url": "https://github.com/Agents365-ai/mermaid-skill",
-      "description": "Agent skill: generate Mermaid diagrams (.mmd), validate via Kroki-first loop, export PNG/SVG/PDF via mmdc or Kroki. Mermaid.live handoff, repo-survey batch mode, vision self-check, 17+ diagram types.",
-      "summary": "mermaid-skill：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/Agents365-ai/mermaid-skill.git",
-      "language": "Mermaid",
-      "license": "MIT",
-      "stars": 217,
-      "score": 106.5,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-01T06:07:21Z",
-      "sourceTopics": [
-        "claude-code-skill",
-        "skill-md",
-        "skillsmp"
-      ],
-      "platforms": [
-        "Claude"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/Agents365-ai/mermaid-skill",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/agents365__ai__mermaid__skill.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1203,
+      "rank": 1194,
       "id": 1137835873,
       "name": "ralphex",
       "fullName": "umputun/ralphex",
@@ -3061,10 +2942,10 @@
       "installCommand": "git clone https://github.com/umputun/ralphex.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 1475,
+      "stars": 1477,
       "score": 106.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T18:42:50Z",
+      "pushedAt": "2026-09-04T21:53:45Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -3081,48 +2962,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1217,
-      "id": 1182353280,
-      "name": "translate-book",
-      "fullName": "deusyu/translate-book",
-      "owner": "deusyu",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42929363?v=4",
-      "url": "https://github.com/deusyu/translate-book",
-      "description": "Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.",
-      "summary": "translate-book：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/deusyu/translate-book.git",
-      "language": "Python",
-      "license": "MIT",
-      "stars": 1291,
-      "score": 105.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-06T09:14:00Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/deusyu/translate-book",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/deusyu__translate__book.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1275,
+      "rank": 1262,
       "id": 1201253077,
       "name": "OpenKB",
       "fullName": "VectifyAI/OpenKB",
@@ -3142,7 +2982,7 @@
       "installCommand": "git clone https://github.com/VectifyAI/OpenKB.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 4424,
+      "stars": 4428,
       "score": 102.5,
       "activity": "近期活跃",
       "pushedAt": "2026-07-22T03:45:16Z",
@@ -3161,7 +3001,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1300,
+      "rank": 1291,
       "id": 599687030,
       "name": "bot-on-anything",
       "fullName": "zhayujie/bot-on-anything",
@@ -3181,7 +3021,7 @@
       "installCommand": "git clone https://github.com/zhayujie/bot-on-anything.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 4215,
+      "stars": 4217,
       "score": 102,
       "activity": "近期活跃",
       "pushedAt": "2026-07-05T13:17:22Z",
@@ -3201,7 +3041,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1326,
+      "rank": 1298,
       "id": 1247671075,
       "name": "ongrid",
       "fullName": "ongridio/ongrid",
@@ -3221,10 +3061,10 @@
       "installCommand": "git clone https://github.com/ongridio/ongrid.git",
       "language": "Go",
       "license": "AGPL-3.0",
-      "stars": 974,
-      "score": 101.8,
+      "stars": 988,
+      "score": 102,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:09:50Z",
+      "pushedAt": "2026-09-04T10:24:37Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3240,7 +3080,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1336,
+      "rank": 1325,
       "id": 948430889,
       "name": "BuildingAI",
       "fullName": "BidingCC/BuildingAI",
@@ -3260,7 +3100,7 @@
       "installCommand": "git clone https://github.com/BidingCC/BuildingAI.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1878,
+      "stars": 1879,
       "score": 101.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-21T04:01:21Z",
@@ -3279,7 +3119,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1380,
+      "rank": 1366,
       "id": 960549454,
       "name": "pdf-reader-mcp",
       "fullName": "SylphxAI/pdf-reader-mcp",
@@ -3299,10 +3139,10 @@
       "installCommand": "git clone https://github.com/SylphxAI/pdf-reader-mcp.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 915,
+      "stars": 916,
       "score": 101.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T19:44:54Z",
+      "pushedAt": "2026-09-04T10:31:03Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3318,7 +3158,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1396,
+      "rank": 1374,
       "id": 1296111192,
       "name": "navop",
       "fullName": "feigeCode/navop",
@@ -3338,10 +3178,10 @@
       "installCommand": "git clone https://github.com/feigeCode/navop.git",
       "language": "Rust",
       "license": "NOASSERTION",
-      "stars": 895,
-      "score": 101,
+      "stars": 909,
+      "score": 101.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:01:33Z",
+      "pushedAt": "2026-09-05T00:05:14Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3357,7 +3197,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1412,
+      "rank": 1392,
       "id": 1263543625,
       "name": "FridayOS-Lite",
       "fullName": "Neusoft-Intelligent-Laboratory/FridayOS-Lite",
@@ -3377,10 +3217,10 @@
       "installCommand": "git clone https://github.com/Neusoft-Intelligent-Laboratory/FridayOS-Lite.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 879,
-      "score": 100.8,
+      "stars": 887,
+      "score": 100.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T07:12:24Z",
+      "pushedAt": "2026-09-04T07:15:50Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3396,7 +3236,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1431,
+      "rank": 1416,
       "id": 926648217,
       "name": "html-to-markdown",
       "fullName": "xberg-io/html-to-markdown",
@@ -3435,7 +3275,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1440,
+      "rank": 1417,
       "id": 1324679594,
       "name": "gooey-pi",
       "fullName": "am-will/gooey-pi",
@@ -3455,8 +3295,8 @@
       "installCommand": "git clone https://github.com/am-will/gooey-pi.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 859,
-      "score": 100.5,
+      "stars": 861,
+      "score": 100.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T22:47:05Z",
       "sourceTopics": [],
@@ -3474,7 +3314,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1458,
+      "rank": 1434,
       "id": 1251086916,
       "name": "harness-anything",
       "fullName": "yb2460/harness-anything",
@@ -3494,8 +3334,8 @@
       "installCommand": "git clone https://github.com/yb2460/harness-anything.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1660,
-      "score": 100.3,
+      "stars": 1673,
+      "score": 100.4,
       "activity": "近期活跃",
       "pushedAt": "2026-07-28T01:23:43Z",
       "sourceTopics": [],
@@ -3513,7 +3353,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1466,
+      "rank": 1450,
       "id": 1198207465,
       "name": "revdiff",
       "fullName": "umputun/revdiff",
@@ -3533,10 +3373,10 @@
       "installCommand": "git clone https://github.com/umputun/revdiff.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 836,
+      "stars": 839,
       "score": 100.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T17:50:05Z",
+      "pushedAt": "2026-09-05T04:35:19Z",
       "sourceTopics": [],
       "platforms": [
         "Claude"
@@ -3552,7 +3392,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1493,
+      "rank": 1479,
       "id": 1118273977,
       "name": "relay",
       "fullName": "AgentWorkforce/relay",
@@ -3572,10 +3412,10 @@
       "installCommand": "git clone https://github.com/AgentWorkforce/relay.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 813,
+      "stars": 812,
       "score": 100,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:42:43Z",
+      "pushedAt": "2026-09-04T12:31:56Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3591,7 +3431,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1521,
+      "rank": 1505,
       "id": 1198651456,
       "name": "arcads-claude-code",
       "fullName": "krusemediallc/arcads-claude-code",
@@ -3611,8 +3451,8 @@
       "installCommand": "git clone https://github.com/krusemediallc/arcads-claude-code.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1464,
-      "score": 99,
+      "stars": 1467,
+      "score": 99.1,
       "activity": "近期活跃",
       "pushedAt": "2026-07-10T01:23:21Z",
       "sourceTopics": [],
@@ -3631,7 +3471,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1522,
+      "rank": 1509,
       "id": 1160084222,
       "name": "hubble.md",
       "fullName": "bholmesdev/hubble.md",
@@ -3651,7 +3491,7 @@
       "installCommand": "git clone https://github.com/bholmesdev/hubble.md.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 1458,
+      "stars": 1460,
       "score": 99,
       "activity": "本月活跃",
       "pushedAt": "2026-08-19T14:56:16Z",
@@ -3670,7 +3510,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1534,
+      "rank": 1517,
       "id": 164347647,
       "name": "0x4447_product_s3_email",
       "fullName": "0x4447/0x4447_product_s3_email",
@@ -3709,7 +3549,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1580,
+      "rank": 1564,
       "id": 1231980017,
       "name": "han",
       "fullName": "testdouble/han",
@@ -3729,7 +3569,7 @@
       "installCommand": "git clone https://github.com/testdouble/han.git",
       "language": "Shell",
       "license": "MIT",
-      "stars": 255,
+      "stars": 256,
       "score": 96.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T08:39:58Z",
@@ -3748,7 +3588,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1611,
+      "rank": 1591,
       "id": 1197949913,
       "name": "pdf-to-markdown",
       "fullName": "PSPDFKit/pdf-to-markdown",
@@ -3771,7 +3611,7 @@
       "stars": 335,
       "score": 94.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:47:10Z",
+      "pushedAt": "2026-09-04T15:34:02Z",
       "sourceTopics": [
         "skill-md"
       ],
@@ -3789,7 +3629,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1634,
+      "rank": 1616,
       "id": 1306503677,
       "name": "caspian-sdk",
       "fullName": "TryCaspian/caspian-sdk",
@@ -3809,8 +3649,8 @@
       "installCommand": "git clone https://github.com/TryCaspian/caspian-sdk.git",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 936,
-      "score": 94.4,
+      "stars": 939,
+      "score": 94.5,
       "activity": "本月活跃",
       "pushedAt": "2026-08-25T05:28:36Z",
       "sourceTopics": [],
@@ -3828,7 +3668,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1647,
+      "rank": 1632,
       "id": 1105973710,
       "name": "Lumina-Note",
       "fullName": "blueberrycongee/Lumina-Note",
@@ -3867,7 +3707,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1651,
+      "rank": 1634,
       "id": 1232030145,
       "name": "wesight",
       "fullName": "freestylefly/wesight",
@@ -3887,7 +3727,7 @@
       "installCommand": "git clone https://github.com/freestylefly/wesight.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 910,
+      "stars": 911,
       "score": 94.1,
       "activity": "本月活跃",
       "pushedAt": "2026-08-24T08:24:28Z",
@@ -3908,7 +3748,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1655,
+      "rank": 1636,
       "id": 936151330,
       "name": "llms-txt-hub",
       "fullName": "thedaviddias/llms-txt-hub",
@@ -3947,7 +3787,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1737,
+      "rank": 1728,
       "id": 1171481382,
       "name": "evil-read-arxiv",
       "fullName": "juliye2025/evil-read-arxiv",
@@ -3967,7 +3807,7 @@
       "installCommand": "git clone https://github.com/juliye2025/evil-read-arxiv.git",
       "language": "Python",
       "license": "",
-      "stars": 1615,
+      "stars": 1618,
       "score": 92.1,
       "activity": "近期活跃",
       "pushedAt": "2026-07-21T09:24:59Z",
@@ -3986,7 +3826,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1757,
+      "rank": 1747,
       "id": 1172463079,
       "name": "youtube-fetcher-to-markdown",
       "fullName": "JimmySadek/youtube-fetcher-to-markdown",
@@ -4027,7 +3867,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1764,
+      "rank": 1754,
       "id": 200275124,
       "name": "dicio-android",
       "fullName": "DicioTeam/dicio-android",
@@ -4066,7 +3906,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1769,
+      "rank": 1756,
       "id": 1141336664,
       "name": "DDC_Skills_for_AI_Agents_in_Construction",
       "fullName": "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction",
@@ -4086,8 +3926,8 @@
       "installCommand": "git clone https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 301,
-      "score": 90.8,
+      "stars": 303,
+      "score": 90.9,
       "activity": "本月活跃",
       "pushedAt": "2026-08-22T07:59:18Z",
       "sourceTopics": [],
@@ -4106,7 +3946,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1786,
+      "rank": 1777,
       "id": 1081523808,
       "name": "obsidian-plugin-skill",
       "fullName": "gapmiss/obsidian-plugin-skill",
@@ -4148,7 +3988,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1787,
+      "rank": 1779,
       "id": 1103968425,
       "name": "enterprise-ai-skills",
       "fullName": "sruthir28/enterprise-ai-skills",
@@ -4187,7 +4027,49 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1834,
+      "rank": 1785,
+      "id": 1228586120,
+      "name": "docx-cli",
+      "fullName": "kklimuk/docx-cli",
+      "owner": "kklimuk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1224124?v=4",
+      "url": "https://github.com/kklimuk/docx-cli",
+      "description": "CLI for AI agents (Claude, Codex) to read, edit, and comment on .docx files with full format fidelity.",
+      "summary": "docx-cli：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/kklimuk/docx-cli.git",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 196,
+      "score": 89.5,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T23:13:45Z",
+      "sourceTopics": [
+        "anthropic-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/kklimuk/docx-cli",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/kklimuk__docx__cli.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1829,
       "id": 1276527666,
       "name": "AgentSpace",
       "fullName": "HKUDS/AgentSpace",
@@ -4207,7 +4089,7 @@
       "installCommand": "git clone https://github.com/HKUDS/AgentSpace.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 970,
+      "stars": 971,
       "score": 86.8,
       "activity": "近期活跃",
       "pushedAt": "2026-07-24T03:40:37Z",
@@ -4226,7 +4108,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1863,
+      "rank": 1853,
       "id": 965872694,
       "name": "mda",
       "fullName": "sno-ai/mda",
@@ -4267,7 +4149,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1903,
+      "rank": 1887,
       "id": 746242605,
       "name": "alfa-leetcode-api",
       "fullName": "alfaarghya/alfa-leetcode-api",
@@ -4287,8 +4169,8 @@
       "installCommand": "git clone https://github.com/alfaarghya/alfa-leetcode-api.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 818,
-      "score": 85,
+      "stars": 821,
+      "score": 85.1,
       "activity": "近期活跃",
       "pushedAt": "2026-08-02T17:56:24Z",
       "sourceTopics": [],
@@ -4306,51 +4188,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1944,
-      "id": 1175189346,
-      "name": "agent-skills-wordpress",
-      "fullName": "respira-press/agent-skills-wordpress",
-      "owner": "respira-press",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/277439547?v=4",
-      "url": "https://github.com/respira-press/agent-skills-wordpress",
-      "description": "Agent skills for WordPress — works in Claude Code, Codex, Antigravity, Cursor, and any agent supporting Skills + MCP. Audit, optimize, fix, and migrate WordPress sites.",
-      "summary": "agent-skills-wordpress：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/respira-press/agent-skills-wordpress.git",
-      "language": "JavaScript",
-      "license": "MIT",
-      "stars": 42,
-      "score": 83.2,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T13:52:22Z",
-      "sourceTopics": [
-        "cursor-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "Antigravity"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/respira-press/agent-skills-wordpress",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/respira__press__agent__skills__wordpress.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1951,
+      "rank": 1943,
       "id": 1170614423,
       "name": "thesis-skills",
       "fullName": "quzhiii/thesis-skills",
@@ -4370,8 +4208,8 @@
       "installCommand": "git clone https://github.com/quzhiii/thesis-skills.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 89,
-      "score": 82.9,
+      "stars": 88,
+      "score": 82.8,
       "activity": "本月活跃",
       "pushedAt": "2026-08-26T10:18:13Z",
       "sourceTopics": [
@@ -4394,7 +4232,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1956,
+      "rank": 1947,
       "id": 1333285776,
       "name": "salsi",
       "fullName": "pooooooriya/salsi",
@@ -4437,90 +4275,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1960,
-      "id": 1228586120,
-      "name": "docx-cli",
-      "fullName": "kklimuk/docx-cli",
-      "owner": "kklimuk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1224124?v=4",
-      "url": "https://github.com/kklimuk/docx-cli",
-      "description": "CLI for AI agents (Claude, Codex) to read, edit, and comment on .docx files with full format fidelity.",
-      "summary": "docx-cli：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/kklimuk/docx-cli.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 196,
-      "score": 82.5,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-17T19:05:49Z",
-      "sourceTopics": [
-        "anthropic-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/kklimuk/docx-cli",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/kklimuk__docx__cli.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 2001,
-      "id": 1162073225,
-      "name": "wp-mcp-ultimate",
-      "fullName": "AgriciDaniel/wp-mcp-ultimate",
-      "owner": "AgriciDaniel",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
-      "url": "https://github.com/AgriciDaniel/wp-mcp-ultimate",
-      "description": "WordPress MCP Ultimate — Full MCP server with 58 WordPress abilities. Connect WordPress to any AI via Model Context Protocol.",
-      "summary": "wp-mcp-ultimate：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-      "category": "办公效率",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "文档与表格",
-        "邮件与日历",
-        "个人生产力"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/AgriciDaniel/wp-mcp-ultimate.git",
-      "language": "PHP",
-      "license": "GPL-2.0",
-      "stars": 155,
-      "score": 80.2,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-04T21:37:55Z",
-      "sourceTopics": [
-        "claude-code-skill"
-      ],
-      "platforms": [
-        "Claude"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/wp-mcp-ultimate",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/agricidaniel__wp__mcp__ultimate.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 2011,
+      "rank": 1998,
       "id": 1147121400,
       "name": "api-gateway-skill",
       "fullName": "maton-ai/api-gateway-skill",
@@ -4543,7 +4298,7 @@
       "stars": 28,
       "score": 79.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T08:25:33Z",
+      "pushedAt": "2026-09-04T23:46:21Z",
       "sourceTopics": [
         "anthropic-skills"
       ],
@@ -4562,7 +4317,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2047,
+      "rank": 2031,
       "id": 1156897289,
       "name": "MinerU-Skill",
       "fullName": "Nebutra/MinerU-Skill",
@@ -4582,8 +4337,8 @@
       "installCommand": "git clone https://github.com/Nebutra/MinerU-Skill.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 110,
-      "score": 76.9,
+      "stars": 111,
+      "score": 77,
       "activity": "近期活跃",
       "pushedAt": "2026-07-24T23:33:25Z",
       "sourceTopics": [
@@ -4604,7 +4359,51 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2082,
+      "rank": 2043,
+      "id": 1175189346,
+      "name": "agent-skills-wordpress",
+      "fullName": "respira-press/agent-skills-wordpress",
+      "owner": "respira-press",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/277439547?v=4",
+      "url": "https://github.com/respira-press/agent-skills-wordpress",
+      "description": "Agent skills for WordPress — works in Claude Code, Codex, Antigravity, Cursor, and any agent supporting Skills + MCP. Audit, optimize, fix, and migrate WordPress sites.",
+      "summary": "agent-skills-wordpress：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/respira-press/agent-skills-wordpress.git",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars": 42,
+      "score": 76.2,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T13:52:22Z",
+      "sourceTopics": [
+        "cursor-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Antigravity"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/respira-press/agent-skills-wordpress",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/respira__press__agent__skills__wordpress.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 2067,
       "id": 1213082786,
       "name": "word-format-skill",
       "fullName": "yeap531/word-format-skill",
@@ -4624,7 +4423,7 @@
       "installCommand": "git clone https://github.com/yeap531/word-format-skill.git",
       "language": "Shell",
       "license": "NOASSERTION",
-      "stars": 201,
+      "stars": 202,
       "score": 74.8,
       "activity": "活跃",
       "pushedAt": "2026-04-27T09:06:16Z",
@@ -4645,7 +4444,48 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2124,
+      "rank": 2104,
+      "id": 1162073225,
+      "name": "wp-mcp-ultimate",
+      "fullName": "AgriciDaniel/wp-mcp-ultimate",
+      "owner": "AgriciDaniel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
+      "url": "https://github.com/AgriciDaniel/wp-mcp-ultimate",
+      "description": "WordPress MCP Ultimate — Full MCP server with 58 WordPress abilities. Connect WordPress to any AI via Model Context Protocol.",
+      "summary": "wp-mcp-ultimate：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+      "category": "办公效率",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "文档与表格",
+        "邮件与日历",
+        "个人生产力"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/AgriciDaniel/wp-mcp-ultimate.git",
+      "language": "PHP",
+      "license": "GPL-2.0",
+      "stars": 155,
+      "score": 72.2,
+      "activity": "近期活跃",
+      "pushedAt": "2026-08-04T21:37:55Z",
+      "sourceTopics": [
+        "claude-code-skill"
+      ],
+      "platforms": [
+        "Claude"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/wp-mcp-ultimate",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/agricidaniel__wp__mcp__ultimate.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 2111,
       "id": 1218343680,
       "name": "symaira-vault",
       "fullName": "danieljustus/symaira-vault",
@@ -4668,7 +4508,7 @@
       "stars": 27,
       "score": 71.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T21:46:59Z",
+      "pushedAt": "2026-09-04T12:58:41Z",
       "sourceTopics": [
         "hermes-skill"
       ],
@@ -4689,7 +4529,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2133,
+      "rank": 2122,
       "id": 1255293084,
       "name": "report-helper",
       "fullName": "Jiaranbb/report-helper",
@@ -4731,7 +4571,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2151,
+      "rank": 2140,
       "id": 1156517560,
       "name": "ai-intelligence-hub",
       "fullName": "ytrofr/ai-intelligence-hub",
@@ -4754,7 +4594,7 @@
       "stars": 4,
       "score": 69.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-27T08:52:55Z",
+      "pushedAt": "2026-09-04T18:41:59Z",
       "sourceTopics": [
         "anthropic-skills"
       ],
@@ -4772,7 +4612,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2161,
+      "rank": 2149,
       "id": 1353074598,
       "name": "haolvshi-legal-skill",
       "fullName": "mtcto/haolvshi-legal-skill",
@@ -4813,7 +4653,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2182,
+      "rank": 2172,
       "id": 1209548003,
       "name": "claude-bedrock",
       "fullName": "iurykrieger/claude-bedrock",
@@ -4854,7 +4694,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2186,
+      "rank": 2177,
       "id": 1181154909,
       "name": "naming",
       "fullName": "glacierphonk/naming",
@@ -4895,7 +4735,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2201,
+      "rank": 2192,
       "id": 1336367765,
       "name": "fju-im-spec-writer",
       "fullName": "CHIANI04/fju-im-spec-writer",
@@ -4936,7 +4776,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2214,
+      "rank": 2205,
       "id": 1214444660,
       "name": "travel-guidebook",
       "fullName": "geekjourneyx/travel-guidebook",
@@ -4978,7 +4818,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2220,
+      "rank": 2212,
       "id": 1243377212,
       "name": "annie-skills",
       "fullName": "anyshift-io/annie-skills",
@@ -5016,10 +4856,10 @@
       },
       "detailPath": "data/details/anyshift__io__annie__skills.json",
       "catalogStatus": "active",
-      "catalogDelta": "new"
+      "catalogDelta": "stable"
     },
     {
-      "rank": 2234,
+      "rank": 2231,
       "id": 1131069720,
       "name": "Tailwind-Agent-Skills",
       "fullName": "Lombiq/Tailwind-Agent-Skills",
@@ -5060,7 +4900,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2242,
+      "rank": 2239,
       "id": 1235131147,
       "name": "ref-downloader",
       "fullName": "ltczding-gif/ref-downloader",

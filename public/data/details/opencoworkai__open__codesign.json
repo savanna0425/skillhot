@@ -1,5 +1,5 @@
 {
-  "rank": 698,
+  "rank": 1009,
   "id": 1214028719,
   "name": "open-codesign",
   "fullName": "OpenCoworkAI/open-codesign",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew install --cask opencoworkai/tap/open-codesign\nscoop bucket add opencoworkai https://github.com/OpenCoworkAI/scoop-bucket\nscoop install opencoworkai/open-codesign",
+  "installCommand": "git clone https://github.com/OpenCoworkAI/open-codesign.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 7873,
-  "forks": 823,
+  "stars": 7878,
+  "forks": 825,
   "openIssues": 81,
-  "score": 116.5,
-  "activity": "本月活跃",
+  "score": 108.5,
+  "activity": "近期活跃",
   "pushedAt": "2026-08-04T08:08:53Z",
-  "updatedAt": "2026-09-03T22:05:41Z",
+  "updatedAt": "2026-09-04T23:38:21Z",
   "createdAt": "2026-04-18T03:14:33Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,8 +59,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
-    "OpenCode"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -92,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "ffee204677039305",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "b6a87d8b10a39be2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

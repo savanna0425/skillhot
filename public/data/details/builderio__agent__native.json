@@ -1,13 +1,13 @@
 {
-  "rank": 633,
+  "rank": 634,
   "id": 1179959183,
   "name": "agent-native",
   "fullName": "BuilderIO/agent-native",
   "owner": "BuilderIO",
   "avatarUrl": "https://avatars.githubusercontent.com/u/35700027?v=4",
   "url": "https://github.com/BuilderIO/agent-native",
-  "homepage": "https://agent-native.com",
-  "description": "A framework for building agent-native applications.",
+  "homepage": "https://www.agent-native.com",
+  "description": "A framework for building agentic apps",
   "summary": "agent-native：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -19,25 +19,27 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx @agent-native/core@latest create my-app\ncd my-app\npnpm install",
+  "installCommand": "npx @agent-native/core@latest create my-agent --standalone --template chat",
   "language": "TypeScript",
   "license": "",
-  "stars": 4659,
+  "stars": 4668,
   "forks": 438,
-  "openIssues": 57,
+  "openIssues": 51,
   "score": 118.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T04:39:06Z",
-  "updatedAt": "2026-09-04T02:52:51Z",
+  "pushedAt": "2026-09-05T04:27:22Z",
+  "updatedAt": "2026-09-05T01:50:09Z",
   "createdAt": "2026-03-12T14:57:10Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-native",
     "agents",
     "ai",
-    "react"
+    "react",
+    "typescript"
   ],
   "platforms": [
     "Agent Skills"
@@ -72,8 +74,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "486eee54c39ac68a",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "125e6be1dd6f149d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

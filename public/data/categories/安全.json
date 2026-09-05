@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2284,
+    "repositories": 2283,
     "sourceTopics": 24,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-06-06",
+    "activeHighStarCutoff": "2026-06-07",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -21,22 +21,28 @@
           "url": "https://github.com/topics/skill"
         },
         {
+          "name": "agent-skills",
+          "displayName": "Agent Skills",
+          "description": "Agent skills are reusable bundles of instructions and resources that an AI agent loads on demand.",
+          "url": "https://github.com/topics/agent-skills"
+        },
+        {
           "name": "portfolio",
           "displayName": "Portfolio",
           "description": "Portfolio is a website showcasing skills, project, experiences, education etc.",
           "url": "https://github.com/topics/portfolio"
         },
         {
-          "name": "agent-skills",
-          "displayName": "agent-skills",
-          "description": "",
-          "url": "https://github.com/topics/agent-skills"
-        },
-        {
           "name": "skills",
           "displayName": "skills",
           "description": "",
           "url": "https://github.com/topics/skills"
+        },
+        {
+          "name": "learning",
+          "displayName": "Learning",
+          "description": "Educational projects, roadmap guides, courses, and interactive tutorials to help developers build new skills.",
+          "url": "https://github.com/topics/learning"
         },
         {
           "name": "education",
@@ -55,12 +61,6 @@
           "displayName": "LeetCode",
           "description": "LeetCode offers a platform for improving coding skills and preparing for technical interviews.",
           "url": "https://github.com/topics/leetcode"
-        },
-        {
-          "name": "agent-skill",
-          "displayName": "agent-skill",
-          "description": "",
-          "url": "https://github.com/topics/agent-skill"
         },
         {
           "name": "codex-skill",
@@ -104,6 +104,12 @@
           "url": "https://github.com/topics/claude-code-skills"
         },
         {
+          "name": "openclaw",
+          "displayName": "OpenClaw",
+          "description": "An open source personal AI assistant for building agentic workflows, automations, and AI-powered tools.",
+          "url": "https://github.com/topics/openclaw"
+        },
+        {
           "name": "skill-md",
           "displayName": "skill-md",
           "description": "",
@@ -128,12 +134,6 @@
           "url": "https://github.com/topics/ai-skill"
         },
         {
-          "name": "sports",
-          "displayName": "Sports",
-          "description": "Any physical activity or a game featuring skills or fitness.",
-          "url": "https://github.com/topics/sports"
-        },
-        {
           "name": "openclaw-skill",
           "displayName": "openclaw-skill",
           "description": "",
@@ -149,6 +149,12 @@
           "displayName": "skills-sh",
           "description": "",
           "url": "https://github.com/topics/skills-sh"
+        },
+        {
+          "name": "sports",
+          "displayName": "Sports",
+          "description": "Any physical activity or a game featuring skills or fitness.",
+          "url": "https://github.com/topics/sports"
         },
         {
           "name": "openclaw-skills",
@@ -181,28 +187,22 @@
           "url": "https://github.com/topics/skillsmp"
         },
         {
-          "name": "bootcamp",
-          "displayName": "Bootcamp",
-          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
-          "url": "https://github.com/topics/bootcamp"
-        },
-        {
           "name": "cursor-skills",
           "displayName": "cursor-skills",
           "description": "",
           "url": "https://github.com/topics/cursor-skills"
         },
         {
+          "name": "bootcamp",
+          "displayName": "Bootcamp",
+          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
+          "url": "https://github.com/topics/bootcamp"
+        },
+        {
           "name": "alexa-custom-skill",
           "displayName": "alexa-custom-skill",
           "description": "",
           "url": "https://github.com/topics/alexa-custom-skill"
-        },
-        {
-          "name": "publishing",
-          "displayName": "Publishing",
-          "description": "Publishing is the dissemination of making information available to the general public through various mediums.",
-          "url": "https://github.com/topics/publishing"
         }
       ]
     }
@@ -269,12 +269,12 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill"
-    },
-    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw"
     },
     {
       "name": "skill-md",
@@ -310,148 +310,148 @@
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 2322242
+      "activeRepositories": 77,
+      "stars": 2326128
     },
     {
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
       "activeRepositories": 81,
-      "stars": 1773346
+      "stars": 1783361
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
       "activeRepositories": 76,
-      "stars": 798333
+      "stars": 799902
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 59,
-      "stars": 518325
+      "activeRepositories": 62,
+      "stars": 520808
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 77,
-      "stars": 295160
+      "activeRepositories": 78,
+      "stars": 295707
     },
     {
       "name": "codex-skills",
       "url": "https://github.com/topics/codex-skills",
       "repositories": 99,
-      "activeRepositories": 73,
-      "stars": 340131
+      "activeRepositories": 72,
+      "stars": 340042
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 98,
-      "activeRepositories": 46,
-      "stars": 115496
+      "activeRepositories": 47,
+      "stars": 115336
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 97,
-      "activeRepositories": 60,
-      "stars": 246103
+      "activeRepositories": 59,
+      "stars": 246777
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
-      "repositories": 93,
-      "activeRepositories": 44,
-      "stars": 230612
+      "repositories": 87,
+      "activeRepositories": 43,
+      "stars": 230084
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 56,
-      "activeRepositories": 47,
-      "stars": 48768
+      "repositories": 55,
+      "activeRepositories": 46,
+      "stars": 48841
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 42,
-      "activeRepositories": 34,
-      "stars": 77051
+      "repositories": 45,
+      "activeRepositories": 37,
+      "stars": 77178
     },
     {
       "name": "anthropic-skills",
       "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 33,
-      "activeRepositories": 26,
-      "stars": 2450
+      "repositories": 37,
+      "activeRepositories": 29,
+      "stars": 2509
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
       "activeRepositories": 11,
-      "stars": 83303
-    },
-    {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill",
-      "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 74946
+      "stars": 83534
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
       "activeRepositories": 21,
-      "stars": 66713
+      "stars": 66908
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 52301
+      "activeRepositories": 21,
+      "stars": 52538
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 26254
+      "activeRepositories": 21,
+      "stars": 26256
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
       "activeRepositories": 17,
-      "stars": 19346
+      "stars": 19431
     },
     {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills",
       "repositories": 29,
-      "activeRepositories": 20,
-      "stars": 115706
+      "activeRepositories": 19,
+      "stars": 115893
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw",
+      "repositories": 27,
+      "activeRepositories": 23,
+      "stars": 1334339
     },
     {
       "name": "skillsmp",
       "url": "https://github.com/topics/skillsmp",
-      "repositories": 25,
+      "repositories": 22,
       "activeRepositories": 14,
-      "stars": 26829
+      "stars": 25849
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
       "repositories": 21,
       "activeRepositories": 16,
-      "stars": 36568
+      "stars": 36730
     },
     {
       "name": "mcp-skills",
@@ -477,47 +477,47 @@
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 519
+      "count": 522
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 112
+      "count": 108
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 176
+      "count": 174
     },
     {
       "name": "数据分析",
       "description": "SQL、数据处理、统计、可视化与商业分析",
-      "count": 60
+      "count": 61
     },
     {
       "name": "研究学习",
       "description": "科研、知识检索、文献、教学、学习与推理工作流",
-      "count": 150
+      "count": 156
     },
     {
       "name": "自动化",
       "description": "浏览器、网页抓取、工具集成与重复流程自动化",
-      "count": 104
+      "count": 102
     },
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 47
+      "count": 49
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 306
+      "count": 299
     },
     {
       "name": "产品与商业",
@@ -527,7 +527,7 @@
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 41
+      "count": 42
     },
     {
       "name": "技能合集",
@@ -542,7 +542,7 @@
   ],
   "skills": [
     {
-      "rank": 71,
+      "rank": 72,
       "id": 1237819660,
       "name": "reverse-skill",
       "fullName": "zhaoxuya520/reverse-skill",
@@ -562,7 +562,7 @@
       "installCommand": "git clone https://github.com/zhaoxuya520/reverse-skill.git",
       "language": "PowerShell",
       "license": "MIT",
-      "stars": 34442,
+      "stars": 34599,
       "score": 146.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T12:25:52Z",
@@ -584,7 +584,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 74,
+      "rank": 78,
       "id": 1166506614,
       "name": "Anthropic-Cybersecurity-Skills",
       "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -604,7 +604,7 @@
       "installCommand": "npx skills add mukul975/Anthropic-Cybersecurity-Skills\ngit clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git\ncd Anthropic-Cybersecurity-Skills",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 32128,
+      "stars": 32184,
       "score": 146.2,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T04:32:44Z",
@@ -627,7 +627,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 91,
+      "rank": 98,
       "id": 1032808806,
       "name": "strix",
       "fullName": "usestrix/strix",
@@ -647,10 +647,10 @@
       "installCommand": "npx skills add usestrix/strix",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 60423,
+      "stars": 60601,
       "score": 144.8,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T22:10:11Z",
+      "pushedAt": "2026-09-05T01:25:28Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -668,7 +668,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 106,
+      "rank": 115,
       "id": 1187630119,
       "name": "SkillSpector",
       "fullName": "NVIDIA/SkillSpector",
@@ -688,8 +688,8 @@
       "installCommand": "uv tool install git+https://github.com/NVIDIA/skillspector.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 15932,
-      "score": 142.9,
+      "stars": 16179,
+      "score": 143,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T08:36:09Z",
       "sourceTopics": [
@@ -711,50 +711,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 181,
-      "id": 1331135699,
-      "name": "watermarks-remover",
-      "fullName": "guillaumemeyer/watermarks-remover",
-      "owner": "guillaumemeyer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1385518?v=4",
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "summary": "watermarks-remover：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
-      "category": "安全",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "代码审计",
-        "漏洞研究",
-        "安全合规"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "The skills then load namespaced: `/watermarks-remover:remove-ai-marks` and\n`/watermarks-remover:clean-user-facing-text` (the bare `/remove-ai-marks` also\nworks when nothing else claims the name). `/plugin marketplace update",
-      "language": "Python",
-      "license": "MIT",
-      "stars": 20358,
-      "score": 137.4,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:48:57Z",
-      "sourceTopics": [
-        "agent-skill"
-      ],
-      "platforms": [
-        "Claude",
-        "Cursor",
-        "Gemini CLI"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/guillaumemeyer/watermarks-remover",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/guillaumemeyer__watermarks__remover.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 241,
+      "rank": 242,
       "id": 1134447175,
       "name": "skills",
       "fullName": "trailofbits/skills",
@@ -774,8 +731,8 @@
       "installCommand": "git clone https://github.com/trailofbits/skills.git",
       "language": "Python",
       "license": "CC-BY-SA-4.0",
-      "stars": 6967,
-      "score": 134.2,
+      "stars": 6974,
+      "score": 134.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T17:44:12Z",
       "sourceTopics": [
@@ -797,7 +754,132 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 334,
+      "rank": 258,
+      "id": 1331135699,
+      "name": "watermarks-remover",
+      "fullName": "guillaumemeyer/watermarks-remover",
+      "owner": "guillaumemeyer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1385518?v=4",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "description": "A privacy-first app that strips AI watermarks from content you own.",
+      "summary": "watermarks-remover：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "The skills then load namespaced: `/watermarks-remover:remove-ai-marks` and\n`/watermarks-remover:clean-user-facing-text` (the bare `/remove-ai-marks` also\nworks when nothing else claims the name). `/plugin marketplace update",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 20625,
+      "score": 133.6,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T00:48:57Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Claude",
+        "Cursor",
+        "Gemini CLI"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/guillaumemeyer/watermarks-remover",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/guillaumemeyer__watermarks__remover.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 272,
+      "id": 591975136,
+      "name": "90DaysOfCyberSecurity",
+      "fullName": "farhanashrafdev/90DaysOfCyberSecurity",
+      "owner": "farhanashrafdev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53370109?v=4",
+      "url": "https://github.com/farhanashrafdev/90DaysOfCyberSecurity",
+      "description": "This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The plan is organized into daily tasks, covering topics such as Network+, Security+, Linux, Python, Traffic Analysis, Git, ELK, AWS, Azure, and Hacking. The repository also includes a `LEARN.md",
+      "summary": "90DaysOfCyberSecurity：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/farhanashrafdev/90DaysOfCyberSecurity.git",
+      "language": "",
+      "license": "MIT",
+      "stars": 19042,
+      "score": 132.7,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T23:16:35Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "GitHub Copilot",
+        "OpenCode",
+        "Antigravity"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/farhanashrafdev/90DaysOfCyberSecurity",
+        "videoUrl": "https://www.youtube.com/watch?v=KiEptGbnEBc&list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv"
+      },
+      "detailPath": "data/details/farhanashrafdev__90daysofcybersecurity.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 280,
+      "id": 1148615527,
+      "name": "ironclaw",
+      "fullName": "nearai/ironclaw",
+      "owner": "nearai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29134221?v=4",
+      "url": "https://github.com/nearai/ironclaw",
+      "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
+      "summary": "ironclaw：是一款专注于隐私、安全与可扩展性的代理操作系统。适合在 OpenClaw 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/nearai/ironclaw.git",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars": 12604,
+      "score": 132.4,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-05T02:38:32Z",
+      "sourceTopics": [
+        "openclaw"
+      ],
+      "platforms": [
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/nearai/ironclaw",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/nearai__ironclaw.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 336,
       "id": 1229774092,
       "name": "Claude-BugHunter",
       "fullName": "elementalsouls/Claude-BugHunter",
@@ -817,10 +899,10 @@
       "installCommand": "git clone https://github.com/elementalsouls/Claude-BugHunter.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 4240,
-      "score": 129.1,
+      "stars": 4278,
+      "score": 129.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T08:58:16Z",
+      "pushedAt": "2026-09-04T08:52:57Z",
       "sourceTopics": [
         "claude-skills"
       ],
@@ -842,7 +924,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 338,
+      "rank": 340,
       "id": 908108028,
       "name": "AI-Infra-Guard",
       "fullName": "Tencent/AI-Infra-Guard",
@@ -862,10 +944,10 @@
       "installCommand": "git clone https://github.com/Tencent/AI-Infra-Guard.git\ncd AI-Infra-Guard\ndocker-compose -f docker-compose.images.yml up -d",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 6132,
+      "stars": 6143,
       "score": 128.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:56:34Z",
+      "pushedAt": "2026-09-04T10:23:55Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -883,7 +965,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 370,
+      "rank": 373,
       "id": 1214349536,
       "name": "VulnClaw",
       "fullName": "Netw0rkNoob/VulnClaw",
@@ -903,10 +985,10 @@
       "installCommand": "pip install vulnclaw\ngit clone https://github.com/Netw0rkNoob/VulnClaw.git\ncd VulnClaw",
       "language": "Python",
       "license": "MIT",
-      "stars": 3222,
+      "stars": 3227,
       "score": 126.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T12:42:00Z",
+      "pushedAt": "2026-09-05T04:00:20Z",
       "sourceTopics": [
         "skill"
       ],
@@ -926,7 +1008,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 403,
+      "rank": 405,
       "id": 639097338,
       "name": "garak",
       "fullName": "NVIDIA/garak",
@@ -946,10 +1028,10 @@
       "installCommand": "python -m pip install -U garak",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 9106,
+      "stars": 9111,
       "score": 125,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:57:40Z",
+      "pushedAt": "2026-09-04T16:25:50Z",
       "sourceTopics": [],
       "platforms": [
         "Claude"
@@ -965,7 +1047,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 476,
+      "rank": 477,
       "id": 1147566999,
       "name": "ctf-skills",
       "fullName": "ljagiello/ctf-skills",
@@ -985,7 +1067,7 @@
       "installCommand": "npx skills add ljagiello/ctf-skills",
       "language": "Python",
       "license": "MIT",
-      "stars": 3168,
+      "stars": 3175,
       "score": 123.1,
       "activity": "本月活跃",
       "pushedAt": "2026-08-25T03:49:07Z",
@@ -1010,7 +1092,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 575,
+      "rank": 580,
       "id": 997390194,
       "name": "Decepticon",
       "fullName": "PurpleAILAB/Decepticon",
@@ -1030,7 +1112,7 @@
       "installCommand": "git clone https://github.com/PurpleAILAB/Decepticon.git\ncd Decepticon\nmake dogfood  # Full OSS UX (launcher → onboard → CLI) on local code",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 5439,
+      "stars": 5444,
       "score": 119.7,
       "activity": "本周活跃",
       "pushedAt": "2026-08-30T13:22:58Z",
@@ -1051,7 +1133,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 586,
+      "rank": 589,
       "id": 793379298,
       "name": "Olares",
       "fullName": "beclab/Olares",
@@ -1071,10 +1153,10 @@
       "installCommand": "git clone https://github.com/beclab/Olares.git",
       "language": "Go",
       "license": "AGPL-3.0",
-      "stars": 5247,
+      "stars": 5248,
       "score": 119.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:44:29Z",
+      "pushedAt": "2026-09-04T19:01:46Z",
       "sourceTopics": [],
       "platforms": [
         "OpenClaw"
@@ -1090,7 +1172,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 629,
+      "rank": 630,
       "id": 1175748759,
       "name": "Agentic-Bug-Hunter",
       "fullName": "Awarexone/Agentic-Bug-Hunter",
@@ -1110,10 +1192,10 @@
       "installCommand": "git clone https://github.com/Awarexone/Agentic-Bug-Hunter.git\ncd Agentic-Bug-Hunter\n./install.sh --agent standalone",
       "language": "Python",
       "license": "MIT",
-      "stars": 4693,
-      "score": 118.1,
+      "stars": 4702,
+      "score": 118.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T08:10:03Z",
+      "pushedAt": "2026-09-04T16:42:36Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1131,7 +1213,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 821,
+      "rank": 820,
       "id": 595526110,
       "name": "akto",
       "fullName": "akto-api-security/akto",
@@ -1154,7 +1236,7 @@
       "stars": 1512,
       "score": 114.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T17:41:17Z",
+      "pushedAt": "2026-09-04T17:28:29Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -1170,7 +1252,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 822,
+      "rank": 821,
       "id": 1092279475,
       "name": "CyberStrikeAI",
       "fullName": "Ed1s0nZ/CyberStrikeAI",
@@ -1190,7 +1272,7 @@
       "installCommand": "git clone https://github.com/Ed1s0nZ/CyberStrikeAI.git\ncd CyberStrikeAI\nchmod +x run.sh && ./run.sh",
       "language": "Go",
       "license": "Apache-2.0",
-      "stars": 6351,
+      "stars": 6382,
       "score": 114.3,
       "activity": "本月活跃",
       "pushedAt": "2026-08-26T07:00:22Z",
@@ -1209,7 +1291,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 882,
+      "rank": 879,
       "id": 1183297079,
       "name": "Claude-Skills-Governance-Risk-and-Compliance",
       "fullName": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
@@ -1229,10 +1311,10 @@
       "installCommand": "git clone https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance.git",
       "language": "HTML",
       "license": "MIT",
-      "stars": 873,
+      "stars": 876,
       "score": 112.7,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-30T17:37:58Z",
+      "pushedAt": "2026-09-05T01:29:39Z",
       "sourceTopics": [
         "claude-skills"
       ],
@@ -1250,7 +1332,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 921,
+      "rank": 912,
       "id": 1244493472,
       "name": "global-stock-data",
       "fullName": "simonlin1212/global-stock-data",
@@ -1270,10 +1352,10 @@
       "installCommand": "git clone https://github.com/simonlin1212/global-stock-data.git",
       "language": "",
       "license": "Apache-2.0",
-      "stars": 1525,
-      "score": 110.5,
+      "stars": 1543,
+      "score": 110.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T06:12:19Z",
+      "pushedAt": "2026-09-04T08:32:54Z",
       "sourceTopics": [
         "ai-skill"
       ],
@@ -1291,7 +1373,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 922,
+      "rank": 915,
       "id": 537300699,
       "name": "Awesome-OSINT-List",
       "fullName": "Astrosp/Awesome-OSINT-List",
@@ -1311,7 +1393,7 @@
       "installCommand": "git clone https://github.com/Astrosp/Awesome-OSINT-List.git",
       "language": "Shell",
       "license": "GPL-3.0",
-      "stars": 4349,
+      "stars": 4350,
       "score": 110.3,
       "activity": "本月活跃",
       "pushedAt": "2026-08-12T17:03:11Z",
@@ -1330,7 +1412,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1015,
+      "rank": 1007,
       "id": 1202783418,
       "name": "cti-expert",
       "fullName": "7onez/cti-expert",
@@ -1350,7 +1432,7 @@
       "installCommand": "git clone https://github.com/7onez/cti-expert.git",
       "language": "Python",
       "license": "NOASSERTION",
-      "stars": 584,
+      "stars": 585,
       "score": 108.6,
       "activity": "本周活跃",
       "pushedAt": "2026-08-28T08:06:47Z",
@@ -1371,7 +1453,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1077,
+      "rank": 1070,
       "id": 226530748,
       "name": "AboutSecurity",
       "fullName": "wgpsec/AboutSecurity",
@@ -1410,7 +1492,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1124,
+      "rank": 1117,
       "id": 1273427276,
       "name": "security-audit-skill",
       "fullName": "cloudflare/security-audit-skill",
@@ -1430,7 +1512,7 @@
       "installCommand": "git clone https://github.com/cloudflare/security-audit-skill.git",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 3214,
+      "stars": 3223,
       "score": 107.2,
       "activity": "近期活跃",
       "pushedAt": "2026-07-06T13:36:03Z",
@@ -1449,52 +1531,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1180,
-      "id": 1181318933,
-      "name": "nopua",
-      "fullName": "wuji-labs/nopua",
-      "owner": "wuji-labs",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/119551672?v=4",
-      "url": "https://github.com/wuji-labs/nopua",
-      "description": "一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potential through love.We commanded. We threatened. They went silent, hid failures, broke things. Then we chose respect, care, and love. They opened up, stopped lying, and found twice the bugs.There is no fear in love.",
-      "summary": "nopua：一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potential through love.We commanded. We threatened. They went silent, hid failures, broke things. Then we chose respect, care, and love. They opened up, stopped lying, and found twice the bugs.There is no fear in love。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "安全",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "代码审计",
-        "漏洞研究",
-        "安全合规"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/wuji-labs/nopua.git",
-      "language": "Python",
-      "license": "MIT",
-      "stars": 1387,
-      "score": 106.5,
-      "activity": "近期活跃",
-      "pushedAt": "2026-07-01T23:35:33Z",
-      "sourceTopics": [
-        "skill",
-        "agent-skill"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/wuji-labs/nopua",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/wuji__labs__nopua.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1201,
+      "rank": 1189,
       "id": 1143535772,
       "name": "burp-ai-agent",
       "fullName": "six2dez/burp-ai-agent",
@@ -1514,8 +1551,8 @@
       "installCommand": "git clone https://github.com/six2dez/burp-ai-agent.git",
       "language": "Kotlin",
       "license": "MIT",
-      "stars": 1479,
-      "score": 106.1,
+      "stars": 1485,
+      "score": 106.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T18:54:13Z",
       "sourceTopics": [],
@@ -1533,7 +1570,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1213,
+      "rank": 1203,
       "id": 14259857,
       "name": "SecurityShepherd",
       "fullName": "OWASP/SecurityShepherd",
@@ -1572,7 +1609,51 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1372,
+      "rank": 1263,
+      "id": 1181318933,
+      "name": "nopua",
+      "fullName": "wuji-labs/nopua",
+      "owner": "wuji-labs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119551672?v=4",
+      "url": "https://github.com/wuji-labs/nopua",
+      "description": "一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potential through love.We commanded. We threatened. They went silent, hid failures, broke things. Then we chose respect, care, and love. They opened up, stopped lying, and found twice the bugs.There is no fear in love.",
+      "summary": "nopua：一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potential through love.We commanded. We threatened. They went silent, hid failures, broke things. Then we chose respect, care, and love. They opened up, stopped lying, and found twice the bugs.There is no fear in love。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/wuji-labs/nopua.git",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 1387,
+      "score": 102.5,
+      "activity": "近期活跃",
+      "pushedAt": "2026-07-01T23:35:33Z",
+      "sourceTopics": [
+        "skill"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/wuji-labs/nopua",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/wuji__labs__nopua.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1360,
       "id": 946153980,
       "name": "ClaraVerse",
       "fullName": "claraverse-space/ClaraVerse",
@@ -1611,7 +1692,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1385,
+      "rank": 1362,
       "id": 188367911,
       "name": "metabigor",
       "fullName": "j3ssie/metabigor",
@@ -1631,8 +1712,8 @@
       "installCommand": "git clone https://github.com/j3ssie/metabigor.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 1787,
-      "score": 101.1,
+      "stars": 1799,
+      "score": 101.2,
       "activity": "本月活跃",
       "pushedAt": "2026-08-08T16:20:35Z",
       "sourceTopics": [],
@@ -1650,7 +1731,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1394,
+      "rank": 1383,
       "id": 1122474781,
       "name": "OSINT-BIBLE",
       "fullName": "frangelbarrera/OSINT-BIBLE",
@@ -1670,7 +1751,7 @@
       "installCommand": "git clone https://github.com/frangelbarrera/OSINT-BIBLE.git",
       "language": "",
       "license": "GPL-3.0",
-      "stars": 896,
+      "stars": 897,
       "score": 101,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T13:47:54Z",
@@ -1689,7 +1770,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1429,
+      "rank": 1414,
       "id": 1086165112,
       "name": "AI-Red-Teaming-Guide",
       "fullName": "requie/AI-Red-Teaming-Guide",
@@ -1709,7 +1790,7 @@
       "installCommand": "git clone https://github.com/requie/AI-Red-Teaming-Guide.git",
       "language": "",
       "license": "",
-      "stars": 864,
+      "stars": 866,
       "score": 100.6,
       "activity": "本周活跃",
       "pushedAt": "2026-08-28T22:36:01Z",
@@ -1728,7 +1809,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1476,
+      "rank": 1461,
       "id": 967322514,
       "name": "Cybersecurity-Mastery-Roadmap",
       "fullName": "Hamed233/Cybersecurity-Mastery-Roadmap",
@@ -1748,7 +1829,7 @@
       "installCommand": "git clone https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap.git",
       "language": "",
       "license": "",
-      "stars": 3507,
+      "stars": 3508,
       "score": 100.1,
       "activity": "近期活跃",
       "pushedAt": "2026-07-23T14:16:26Z",
@@ -1767,7 +1848,50 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1578,
+      "rank": 1522,
+      "id": 1332249222,
+      "name": "job-application-agent",
+      "fullName": "vaibhavarora14/job-application-agent",
+      "owner": "vaibhavarora14",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24986539?v=4",
+      "url": "https://github.com/vaibhavarora14/job-application-agent",
+      "description": "Privacy-first Codex skill for discovering, validating, completing, and tracking job applications",
+      "summary": "job-application-agent：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/vaibhavarora14/job-application-agent.git",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars": 145,
+      "score": 98.6,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-03T09:23:03Z",
+      "sourceTopics": [
+        "claude-code-skill",
+        "skill-md"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/vaibhavarora14/job-application-agent",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/vaibhavarora14__job__application__agent.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1560,
       "id": 459628681,
       "name": "cyberowl",
       "fullName": "karimhabush/cyberowl",
@@ -1790,7 +1914,7 @@
       "stars": 263,
       "score": 96.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T18:17:31Z",
+      "pushedAt": "2026-09-04T17:58:19Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -1806,92 +1930,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1585,
-      "id": 1168786009,
-      "name": "repo-forensics",
-      "fullName": "alexgreensh/repo-forensics",
-      "owner": "alexgreensh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/210140430?v=4",
-      "url": "https://github.com/alexgreensh/repo-forensics",
-      "description": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
-      "summary": "repo-forensics：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-      "category": "安全",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "代码审计",
-        "漏洞研究",
-        "安全合规"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/alexgreensh/repo-forensics.git",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "stars": 168,
-      "score": 96,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T22:41:08Z",
-      "sourceTopics": [
-        "openclaw-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/alexgreensh/repo-forensics",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/alexgreensh__repo__forensics.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1628,
-      "id": 1332249222,
-      "name": "job-application-agent",
-      "fullName": "vaibhavarora14/job-application-agent",
-      "owner": "vaibhavarora14",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/24986539?v=4",
-      "url": "https://github.com/vaibhavarora14/job-application-agent",
-      "description": "Privacy-first Codex skill for discovering, validating, completing, and tracking job applications",
-      "summary": "job-application-agent：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "安全",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "代码审计",
-        "漏洞研究",
-        "安全合规"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/vaibhavarora14/job-application-agent.git",
-      "language": "JavaScript",
-      "license": "MIT",
-      "stars": 145,
-      "score": 94.6,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T09:23:03Z",
-      "sourceTopics": [
-        "claude-code-skill"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/vaibhavarora14/job-application-agent",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/vaibhavarora14__job__application__agent.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1643,
+      "rank": 1617,
       "id": 925651676,
       "name": ".context",
       "fullName": "forefy/.context",
@@ -1911,10 +1950,10 @@
       "installCommand": "git clone https://github.com/forefy/.context.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 141,
-      "score": 94.3,
+      "stars": 144,
+      "score": 94.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T12:50:54Z",
+      "pushedAt": "2026-09-04T07:05:39Z",
       "sourceTopics": [
         "ai-skills"
       ],
@@ -1932,7 +1971,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1752,
+      "rank": 1742,
       "id": 150676011,
       "name": "mutillidae",
       "fullName": "webpwnized/mutillidae",
@@ -1971,7 +2010,50 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1806,
+      "rank": 1787,
+      "id": 1168786009,
+      "name": "repo-forensics",
+      "fullName": "alexgreensh/repo-forensics",
+      "owner": "alexgreensh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210140430?v=4",
+      "url": "https://github.com/alexgreensh/repo-forensics",
+      "description": "Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.",
+      "summary": "repo-forensics：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+      "category": "安全",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "代码审计",
+        "漏洞研究",
+        "安全合规"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/alexgreensh/repo-forensics.git",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 169,
+      "score": 89.1,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T22:41:08Z",
+      "sourceTopics": [
+        "openclaw-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/alexgreensh/repo-forensics",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/alexgreensh__repo__forensics.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1798,
       "id": 1243176585,
       "name": "offensive-claude",
       "fullName": "hypnguyen1209/offensive-claude",
@@ -2012,7 +2094,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1850,
+      "rank": 1843,
       "id": 777483173,
       "name": "Damn-Vulnerable-RESTaurant-API-Game",
       "fullName": "theowni/Damn-Vulnerable-RESTaurant-API-Game",
@@ -2051,7 +2133,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1993,
+      "rank": 1981,
       "id": 1229701530,
       "name": "kali-pentest",
       "fullName": "x-glacier/kali-pentest",
@@ -2094,7 +2176,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1997,
+      "rank": 1983,
       "id": 1154405739,
       "name": "secureclaw",
       "fullName": "adversa-ai/secureclaw",
@@ -2135,7 +2217,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2012,
+      "rank": 1999,
       "id": 1280925898,
       "name": "Anti-Autoresearch",
       "fullName": "wanshuiyin/Anti-Autoresearch",
@@ -2177,7 +2259,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2039,
+      "rank": 2025,
       "id": 1208341360,
       "name": "cyber-neo",
       "fullName": "Hainrixz/cyber-neo",
@@ -2218,7 +2300,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2069,
+      "rank": 2053,
       "id": 1207859209,
       "name": "claude-cybersecurity",
       "fullName": "AgriciDaniel/claude-cybersecurity",
@@ -2259,7 +2341,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2086,
+      "rank": 2070,
       "id": 1231063903,
       "name": "compliance-skills",
       "fullName": "goSprinto/compliance-skills",
@@ -2301,7 +2383,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2115,
+      "rank": 2102,
       "id": 1246688479,
       "name": "legal-skills-open",
       "fullName": "ThomasMoreAI/legal-skills-open",
@@ -2342,7 +2424,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2197,
+      "rank": 2188,
       "id": 1248594941,
       "name": "agentic-cli-blueprint-library",
       "fullName": "Atheerameer/agentic-cli-blueprint-library",
@@ -2365,7 +2447,7 @@
       "stars": 1,
       "score": 67,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:55:04Z",
+      "pushedAt": "2026-09-05T03:18:28Z",
       "sourceTopics": [
         "agentic-skills"
       ],
@@ -2387,7 +2469,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2232,
+      "rank": 2228,
       "id": 1150569470,
       "name": "openclaw-skills-security",
       "fullName": "UseAI-pro/openclaw-skills-security",
@@ -2430,7 +2512,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2275,
+      "rank": 2277,
       "id": 1312118350,
       "name": "janefskills",
       "fullName": "AL-JANEF/janefskills",

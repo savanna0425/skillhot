@@ -1,5 +1,5 @@
 {
-  "rank": 5,
+  "rank": 7,
   "id": 1134426800,
   "name": "agentic-awesome-skills",
   "fullName": "sickn33/agentic-awesome-skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/184072420?v=4",
   "url": "https://github.com/sickn33/agentic-awesome-skills",
   "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
-  "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+  "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,100+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
   "summary": "agentic-awesome-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npx agentic-awesome-skills --antigravity --skills brainstorming,systematic-debugging --dry-run\nnpx agentic-awesome-skills --agy",
+  "installCommand": "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@16.7.0 -- \\\nagentic-awesome-skills --release 16.7.0 --path .agents/skills \\\n--skills brainstorming,systematic-debugging --dry-run",
   "language": "Python",
   "license": "MIT",
-  "stars": 45939,
-  "forks": 6714,
+  "stars": 45985,
+  "forks": 6717,
   "openIssues": 3,
   "score": 165.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T01:47:35Z",
-  "updatedAt": "2026-09-04T04:34:04Z",
+  "pushedAt": "2026-09-05T03:01:52Z",
+  "updatedAt": "2026-09-05T04:30:04Z",
   "createdAt": "2026-01-14T17:48:09Z",
   "sourceTopics": [
     "agent-skills",
@@ -73,7 +73,7 @@
     "GitHub Copilot",
     "OpenCode"
   ],
-  "skillCount": 2109,
+  "skillCount": 2111,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/sickn33/agentic-awesome-skills",
@@ -103,8 +103,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "1b3992954a8f1d9f",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "ee19c1ebc86a5e54",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -137,7 +137,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 2109+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 2111+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

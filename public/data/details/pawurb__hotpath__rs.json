@@ -1,5 +1,5 @@
 {
-  "rank": 1083,
+  "rank": 1079,
   "id": 1051353954,
   "name": "hotpath-rs",
   "fullName": "pawurb/hotpath-rs",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1131944?v=4",
   "url": "https://github.com/pawurb/hotpath-rs",
   "homepage": "https://hotpath.rs",
-  "description": "Quickly find bottlenecks in Rust - one profiler for CPU, memory, SQL, HTTP, I/O and async code.",
+  "description": "Rust profiler for CPU, memory, SQL, HTTP, and async performance, with Prometheus and Grafana support.",
   "summary": "hotpath-rs：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/pawurb/hotpath-rs.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 1708,
+  "stars": 1709,
   "forks": 50,
-  "openIssues": 4,
+  "openIssues": 3,
   "score": 107.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-03T22:15:18Z",
-  "updatedAt": "2026-09-03T22:15:25Z",
+  "pushedAt": "2026-09-04T22:18:39Z",
+  "updatedAt": "2026-09-04T22:18:32Z",
   "createdAt": "2025-09-05T20:59:12Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,10 +38,12 @@
     "allocations",
     "benchmark",
     "debugging",
+    "grafan",
     "mcp",
     "mpsc",
     "performance",
     "profiler",
+    "prometheus",
     "rust"
   ],
   "platforms": [
@@ -77,8 +79,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "59756cb823e9f806",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "5c9b13a7fcbf7a84",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

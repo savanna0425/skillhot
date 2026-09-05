@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2284,
+    "repositories": 2283,
     "sourceTopics": 24,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-06-06",
+    "activeHighStarCutoff": "2026-06-07",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -21,22 +21,28 @@
           "url": "https://github.com/topics/skill"
         },
         {
+          "name": "agent-skills",
+          "displayName": "Agent Skills",
+          "description": "Agent skills are reusable bundles of instructions and resources that an AI agent loads on demand.",
+          "url": "https://github.com/topics/agent-skills"
+        },
+        {
           "name": "portfolio",
           "displayName": "Portfolio",
           "description": "Portfolio is a website showcasing skills, project, experiences, education etc.",
           "url": "https://github.com/topics/portfolio"
         },
         {
-          "name": "agent-skills",
-          "displayName": "agent-skills",
-          "description": "",
-          "url": "https://github.com/topics/agent-skills"
-        },
-        {
           "name": "skills",
           "displayName": "skills",
           "description": "",
           "url": "https://github.com/topics/skills"
+        },
+        {
+          "name": "learning",
+          "displayName": "Learning",
+          "description": "Educational projects, roadmap guides, courses, and interactive tutorials to help developers build new skills.",
+          "url": "https://github.com/topics/learning"
         },
         {
           "name": "education",
@@ -55,12 +61,6 @@
           "displayName": "LeetCode",
           "description": "LeetCode offers a platform for improving coding skills and preparing for technical interviews.",
           "url": "https://github.com/topics/leetcode"
-        },
-        {
-          "name": "agent-skill",
-          "displayName": "agent-skill",
-          "description": "",
-          "url": "https://github.com/topics/agent-skill"
         },
         {
           "name": "codex-skill",
@@ -104,6 +104,12 @@
           "url": "https://github.com/topics/claude-code-skills"
         },
         {
+          "name": "openclaw",
+          "displayName": "OpenClaw",
+          "description": "An open source personal AI assistant for building agentic workflows, automations, and AI-powered tools.",
+          "url": "https://github.com/topics/openclaw"
+        },
+        {
           "name": "skill-md",
           "displayName": "skill-md",
           "description": "",
@@ -128,12 +134,6 @@
           "url": "https://github.com/topics/ai-skill"
         },
         {
-          "name": "sports",
-          "displayName": "Sports",
-          "description": "Any physical activity or a game featuring skills or fitness.",
-          "url": "https://github.com/topics/sports"
-        },
-        {
           "name": "openclaw-skill",
           "displayName": "openclaw-skill",
           "description": "",
@@ -149,6 +149,12 @@
           "displayName": "skills-sh",
           "description": "",
           "url": "https://github.com/topics/skills-sh"
+        },
+        {
+          "name": "sports",
+          "displayName": "Sports",
+          "description": "Any physical activity or a game featuring skills or fitness.",
+          "url": "https://github.com/topics/sports"
         },
         {
           "name": "openclaw-skills",
@@ -181,28 +187,22 @@
           "url": "https://github.com/topics/skillsmp"
         },
         {
-          "name": "bootcamp",
-          "displayName": "Bootcamp",
-          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
-          "url": "https://github.com/topics/bootcamp"
-        },
-        {
           "name": "cursor-skills",
           "displayName": "cursor-skills",
           "description": "",
           "url": "https://github.com/topics/cursor-skills"
         },
         {
+          "name": "bootcamp",
+          "displayName": "Bootcamp",
+          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
+          "url": "https://github.com/topics/bootcamp"
+        },
+        {
           "name": "alexa-custom-skill",
           "displayName": "alexa-custom-skill",
           "description": "",
           "url": "https://github.com/topics/alexa-custom-skill"
-        },
-        {
-          "name": "publishing",
-          "displayName": "Publishing",
-          "description": "Publishing is the dissemination of making information available to the general public through various mediums.",
-          "url": "https://github.com/topics/publishing"
         }
       ]
     }
@@ -269,12 +269,12 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill"
-    },
-    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw"
     },
     {
       "name": "skill-md",
@@ -310,148 +310,148 @@
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 2322242
+      "activeRepositories": 77,
+      "stars": 2326128
     },
     {
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
       "activeRepositories": 81,
-      "stars": 1773346
+      "stars": 1783361
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
       "activeRepositories": 76,
-      "stars": 798333
+      "stars": 799902
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 59,
-      "stars": 518325
+      "activeRepositories": 62,
+      "stars": 520808
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 77,
-      "stars": 295160
+      "activeRepositories": 78,
+      "stars": 295707
     },
     {
       "name": "codex-skills",
       "url": "https://github.com/topics/codex-skills",
       "repositories": 99,
-      "activeRepositories": 73,
-      "stars": 340131
+      "activeRepositories": 72,
+      "stars": 340042
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 98,
-      "activeRepositories": 46,
-      "stars": 115496
+      "activeRepositories": 47,
+      "stars": 115336
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 97,
-      "activeRepositories": 60,
-      "stars": 246103
+      "activeRepositories": 59,
+      "stars": 246777
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
-      "repositories": 93,
-      "activeRepositories": 44,
-      "stars": 230612
+      "repositories": 87,
+      "activeRepositories": 43,
+      "stars": 230084
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 56,
-      "activeRepositories": 47,
-      "stars": 48768
+      "repositories": 55,
+      "activeRepositories": 46,
+      "stars": 48841
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 42,
-      "activeRepositories": 34,
-      "stars": 77051
+      "repositories": 45,
+      "activeRepositories": 37,
+      "stars": 77178
     },
     {
       "name": "anthropic-skills",
       "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 33,
-      "activeRepositories": 26,
-      "stars": 2450
+      "repositories": 37,
+      "activeRepositories": 29,
+      "stars": 2509
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
       "activeRepositories": 11,
-      "stars": 83303
-    },
-    {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill",
-      "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 74946
+      "stars": 83534
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
       "activeRepositories": 21,
-      "stars": 66713
+      "stars": 66908
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 52301
+      "activeRepositories": 21,
+      "stars": 52538
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 26254
+      "activeRepositories": 21,
+      "stars": 26256
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
       "activeRepositories": 17,
-      "stars": 19346
+      "stars": 19431
     },
     {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills",
       "repositories": 29,
-      "activeRepositories": 20,
-      "stars": 115706
+      "activeRepositories": 19,
+      "stars": 115893
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw",
+      "repositories": 27,
+      "activeRepositories": 23,
+      "stars": 1334339
     },
     {
       "name": "skillsmp",
       "url": "https://github.com/topics/skillsmp",
-      "repositories": 25,
+      "repositories": 22,
       "activeRepositories": 14,
-      "stars": 26829
+      "stars": 25849
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
       "repositories": 21,
       "activeRepositories": 16,
-      "stars": 36568
+      "stars": 36730
     },
     {
       "name": "mcp-skills",
@@ -477,47 +477,47 @@
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 519
+      "count": 522
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 112
+      "count": 108
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 176
+      "count": 174
     },
     {
       "name": "数据分析",
       "description": "SQL、数据处理、统计、可视化与商业分析",
-      "count": 60
+      "count": 61
     },
     {
       "name": "研究学习",
       "description": "科研、知识检索、文献、教学、学习与推理工作流",
-      "count": 150
+      "count": 156
     },
     {
       "name": "自动化",
       "description": "浏览器、网页抓取、工具集成与重复流程自动化",
-      "count": 104
+      "count": 102
     },
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 47
+      "count": 49
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 306
+      "count": 299
     },
     {
       "name": "产品与商业",
@@ -527,7 +527,7 @@
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 41
+      "count": 42
     },
     {
       "name": "技能合集",
@@ -542,14 +542,14 @@
   ],
   "skills": [
     {
-      "rank": 5,
+      "rank": 7,
       "id": 1134426800,
       "name": "agentic-awesome-skills",
       "fullName": "sickn33/agentic-awesome-skills",
       "owner": "sickn33",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184072420?v=4",
       "url": "https://github.com/sickn33/agentic-awesome-skills",
-      "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+      "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,100+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
       "summary": "agentic-awesome-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
       "category": "技能合集",
       "categoryConfidence": "高",
@@ -559,13 +559,13 @@
         "构建个人技能库"
       ],
       "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-      "installCommand": "npx agentic-awesome-skills --antigravity --skills brainstorming,systematic-debugging --dry-run\nnpx agentic-awesome-skills --agy",
+      "installCommand": "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@16.7.0 -- \\\nagentic-awesome-skills --release 16.7.0 --path .agents/skills \\\n--skills brainstorming,systematic-debugging --dry-run",
       "language": "Python",
       "license": "MIT",
-      "stars": 45939,
+      "stars": 45985,
       "score": 165.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:47:35Z",
+      "pushedAt": "2026-09-05T03:01:52Z",
       "sourceTopics": [
         "agent-skills",
         "agentic-skills",
@@ -582,7 +582,7 @@
         "GitHub Copilot",
         "OpenCode"
       ],
-      "skillCount": 2109,
+      "skillCount": 2111,
       "isCollection": true,
       "media": {
         "socialPreview": "https://opengraph.githubassets.com/skillhot/sickn33/agentic-awesome-skills",
@@ -593,7 +593,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": 1084853233,
       "name": "awesome-agent-skills",
       "fullName": "VoltAgent/awesome-agent-skills",
@@ -613,10 +613,10 @@
       "installCommand": "git clone https://github.com/VoltAgent/awesome-agent-skills.git",
       "language": "",
       "license": "MIT",
-      "stars": 33716,
+      "stars": 33768,
       "score": 162.7,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T11:55:39Z",
+      "pushedAt": "2026-09-04T05:56:05Z",
       "sourceTopics": [
         "skills",
         "agent-skills",
@@ -644,7 +644,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 13,
+      "rank": 16,
       "id": 1127110039,
       "name": "planning-with-files",
       "fullName": "OthmanAdi/planning-with-files",
@@ -664,7 +664,7 @@
       "installCommand": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
       "language": "Shell",
       "license": "MIT",
-      "stars": 26618,
+      "stars": 26632,
       "score": 160.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T23:29:49Z",
@@ -692,7 +692,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 14,
+      "rank": 17,
       "id": 1079084637,
       "name": "claude-skills",
       "fullName": "alirezarezvani/claude-skills",
@@ -712,7 +712,7 @@
       "installCommand": "git clone https://github.com/alirezarezvani/claude-skills.git\ncd claude-skills\n./scripts/gemini-install.sh",
       "language": "Python",
       "license": "MIT",
-      "stars": 25489,
+      "stars": 25545,
       "score": 159.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-30T09:46:16Z",
@@ -722,6 +722,7 @@
         "claude-code-skills",
         "codex-skills",
         "openclaw-skills",
+        "openclaw",
         "cursor-skills"
       ],
       "platforms": [
@@ -743,7 +744,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "id": 1087192965,
       "name": "claude-code-best-practice",
       "fullName": "shanraisshan/claude-code-best-practice",
@@ -763,10 +764,10 @@
       "installCommand": "git clone https://github.com/shanraisshan/claude-code-best-practice.git",
       "language": "HTML",
       "license": "MIT",
-      "stars": 65594,
+      "stars": 65618,
       "score": 149.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:27:16Z",
+      "pushedAt": "2026-09-05T04:24:33Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -787,7 +788,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 107,
+      "rank": 116,
       "id": 1305663861,
       "name": "video-shotcraft",
       "fullName": "Vincentwei1021/video-shotcraft",
@@ -807,10 +808,10 @@
       "installCommand": "```bash\ngit clone https://github.com/Vincentwei1021/video-shotcraft.git\ncd video-shotcraft",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 7352,
-      "score": 142.8,
+      "stars": 7491,
+      "score": 143,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T18:08:49Z",
+      "pushedAt": "2026-09-04T20:31:26Z",
       "sourceTopics": [
         "agent-skills",
         "claude-skills",
@@ -831,7 +832,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 109,
+      "rank": 118,
       "id": 1177608268,
       "name": "Auto-claude-code-research-in-sleep",
       "fullName": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -851,7 +852,7 @@
       "installCommand": "git clone https://github.com/tianyilt/claude-fleet\ncd claude-fleet && bash run.sh",
       "language": "Python",
       "license": "MIT",
-      "stars": 15699,
+      "stars": 15735,
       "score": 142.7,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T08:56:26Z",
@@ -877,53 +878,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 193,
-      "id": 645381450,
-      "name": "Generative-Media-Skills",
-      "fullName": "SamurAIGPT/Generative-Media-Skills",
-      "owner": "SamurAIGPT",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/131431084?v=4",
-      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
-      "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
-      "summary": "Generative-Media-Skills：面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
-      "category": "内容创作",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "内容生产",
-        "视觉创作",
-        "多媒体工作流"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "npm install -g muapi-cli\npip install muapi-cli\nnpx muapi-cli --help",
-      "language": "Shell",
-      "license": "MIT",
-      "stars": 4216,
-      "score": 137,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T16:37:46Z",
-      "sourceTopics": [
-        "skills",
-        "agent-skills",
-        "claude-code-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Cursor",
-        "Gemini CLI",
-        "OpenCode"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/SamurAIGPT/Generative-Media-Skills",
-        "videoUrl": "https://www.youtube.com/watch?v=SOXsxqnQGlc"
-      },
-      "detailPath": "data/details/samuraigpt__generative__media__skills.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 194,
+      "rank": 195,
       "id": 1151333143,
       "name": "skills",
       "fullName": "browser-act/skills",
@@ -943,7 +898,7 @@
       "installCommand": "git clone https://github.com/browser-act/skills.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 5557,
+      "stars": 5566,
       "score": 136.9,
       "activity": "本月活跃",
       "pushedAt": "2026-08-24T14:56:52Z",
@@ -973,7 +928,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 253,
+      "rank": 255,
       "id": 1145158024,
       "name": "skills",
       "fullName": "wondelai/skills",
@@ -993,7 +948,7 @@
       "installCommand": "git clone https://github.com/wondelai/skills.git",
       "language": "Shell",
       "license": "MIT",
-      "stars": 2096,
+      "stars": 2100,
       "score": 133.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-29T23:39:56Z",
@@ -1021,7 +976,53 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 324,
+      "rank": 326,
+      "id": 645381450,
+      "name": "Generative-Media-Skills",
+      "fullName": "SamurAIGPT/Generative-Media-Skills",
+      "owner": "SamurAIGPT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131431084?v=4",
+      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+      "summary": "Generative-Media-Skills：面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+      "category": "内容创作",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "内容生产",
+        "视觉创作",
+        "多媒体工作流"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "npm install -g muapi-cli\npip install muapi-cli\nnpx muapi-cli --help",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 4221,
+      "score": 130,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T16:37:46Z",
+      "sourceTopics": [
+        "skills",
+        "agent-skills",
+        "claude-code-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Cursor",
+        "Gemini CLI",
+        "OpenCode"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/SamurAIGPT/Generative-Media-Skills",
+        "videoUrl": "https://www.youtube.com/watch?v=SOXsxqnQGlc"
+      },
+      "detailPath": "data/details/samuraigpt__generative__media__skills.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 328,
       "id": 1006251566,
       "name": "claude-code-guide",
       "fullName": "zebbern/claude-code-guide",
@@ -1044,7 +1045,7 @@
       "stars": 4600,
       "score": 129.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:56:12Z",
+      "pushedAt": "2026-09-05T00:55:35Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -1064,7 +1065,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 326,
+      "rank": 330,
       "id": 1210223495,
       "name": "nihaixia",
       "fullName": "jangviktor-web/nihaixia",
@@ -1084,15 +1085,14 @@
       "installCommand": "openclaw skills install @jangviktor-web/nihaixia\nnpx skills add https://clawhub.ai/jangviktor-web/skills/nihaixia",
       "language": "HTML",
       "license": "",
-      "stars": 2787,
-      "score": 129.7,
+      "stars": 2802,
+      "score": 129.8,
       "activity": "本月活跃",
       "pushedAt": "2026-08-19T13:57:51Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skills",
         "openclaw-skills",
-        "agent-skill",
         "codex-skill",
         "openclaw-skill"
       ],
@@ -1113,7 +1113,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 341,
+      "rank": 343,
       "id": 1147470802,
       "name": "pro-workflow",
       "fullName": "rohitg00/pro-workflow",
@@ -1133,7 +1133,7 @@
       "installCommand": "npx skills add rohitg00/pro-workflow",
       "language": "JavaScript",
       "license": "",
-      "stars": 2807,
+      "stars": 2808,
       "score": 128.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T20:24:17Z",
@@ -1160,7 +1160,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 354,
+      "rank": 357,
       "id": 1294612352,
       "name": "PPT-Design-Skill",
       "fullName": "sunchaokun/PPT-Design-Skill",
@@ -1180,10 +1180,10 @@
       "installCommand": "git clone https://github.com/sunchaokun/PPT-Design-Skill.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1189,
+      "stars": 1192,
       "score": 127.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:09:51Z",
+      "pushedAt": "2026-09-04T08:00:28Z",
       "sourceTopics": [
         "skill",
         "claude-code-skills",
@@ -1206,7 +1206,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 465,
+      "rank": 463,
       "id": 1269124956,
       "name": "delegate-skills",
       "fullName": "amElnagdy/delegate-skills",
@@ -1226,8 +1226,8 @@
       "installCommand": "npx skills add amElnagdy/delegate-skills",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 1645,
-      "score": 123.3,
+      "stars": 1672,
+      "score": 123.4,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T09:37:51Z",
       "sourceTopics": [
@@ -1253,7 +1253,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 476,
+      "rank": 477,
       "id": 1147566999,
       "name": "ctf-skills",
       "fullName": "ljagiello/ctf-skills",
@@ -1273,7 +1273,7 @@
       "installCommand": "npx skills add ljagiello/ctf-skills",
       "language": "Python",
       "license": "MIT",
-      "stars": 3168,
+      "stars": 3175,
       "score": 123.1,
       "activity": "本月活跃",
       "pushedAt": "2026-08-25T03:49:07Z",
@@ -1298,7 +1298,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 543,
+      "rank": 544,
       "id": 903002140,
       "name": "getspecstory",
       "fullName": "specstoryai/getspecstory",
@@ -1318,10 +1318,10 @@
       "installCommand": "npx skills add specstoryai/getspecstory --skill lore",
       "language": "Go",
       "license": "Apache-2.0",
-      "stars": 1318,
+      "stars": 1321,
       "score": 121,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:34:43Z",
+      "pushedAt": "2026-09-04T14:33:44Z",
       "sourceTopics": [
         "claude-code-skills",
         "codex-skills"
@@ -1345,7 +1345,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 566,
+      "rank": 573,
       "id": 1128400700,
       "name": "babysitter",
       "fullName": "a5c-ai/babysitter",
@@ -1365,10 +1365,10 @@
       "installCommand": "npm install -g @a5c-ai/babysitter",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 1765,
+      "stars": 1769,
       "score": 120,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T06:59:00Z",
+      "pushedAt": "2026-09-04T07:15:33Z",
       "sourceTopics": [
         "claude-skills",
         "claude-code-skills",
@@ -1416,7 +1416,7 @@
       "stars": 480,
       "score": 118.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T03:56:43Z",
+      "pushedAt": "2026-09-05T01:13:13Z",
       "sourceTopics": [
         "claude-code-skills",
         "codex-skills",
@@ -1440,7 +1440,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 617,
+      "rank": 618,
       "id": 1250818845,
       "name": "nihaisha-nishi-tcm",
       "fullName": "JuneYaooo/nihaisha-nishi-tcm",
@@ -1460,7 +1460,7 @@
       "installCommand": "git clone https://github.com/JuneYaooo/nihaisha-nishi-tcm.git",
       "language": "Python",
       "license": "",
-      "stars": 2048,
+      "stars": 2050,
       "score": 118.5,
       "activity": "本月活跃",
       "pushedAt": "2026-08-09T11:58:00Z",
@@ -1484,7 +1484,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 625,
+      "rank": 626,
       "id": 1039579222,
       "name": "Claude-Code-Everything-You-Need-to-Know",
       "fullName": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
@@ -1504,7 +1504,7 @@
       "installCommand": "npm install -g @anthropic-ai/claude-code",
       "language": "Python",
       "license": "MIT",
-      "stars": 2939,
+      "stars": 2955,
       "score": 118.3,
       "activity": "近期活跃",
       "pushedAt": "2026-07-28T11:00:38Z",
@@ -1529,54 +1529,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 660,
-      "id": 929599382,
-      "name": "plinth",
-      "fullName": "jabrena/plinth",
-      "owner": "jabrena",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/147263?v=4",
-      "url": "https://github.com/jabrena/plinth",
-      "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.",
-      "summary": "plinth：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "编程开发",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "软件开发",
-        "代码质量",
-        "工程自动化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "npx skills add jabrena/plinth --skill '*' --agent cursor -y\nnpx skills add jabrena/plinth --skill '*' --agent claude-code -y\nnpx skills add jabrena/plinth --skill '*' --agent codex -y",
-      "language": "Java",
-      "license": "Apache-2.0",
-      "stars": 435,
-      "score": 117.6,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T15:15:35Z",
-      "sourceTopics": [
-        "ai-skills",
-        "claude-code-skills",
-        "codex-skills",
-        "cursor-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "GitHub Copilot"
-      ],
-      "skillCount": 125,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/jabrena/plinth",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/jabrena__plinth.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 662,
+      "rank": 661,
       "id": 1185016972,
       "name": "eCommerce-Skills",
       "fullName": "nexscope-ai/eCommerce-Skills",
@@ -1596,8 +1549,8 @@
       "installCommand": "npx skills add nexscope-ai/eCommerce-Skills -g",
       "language": "Python",
       "license": "MIT",
-      "stars": 857,
-      "score": 117.5,
+      "stars": 861,
+      "score": 117.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-26T08:10:10Z",
       "sourceTopics": [
@@ -1623,7 +1576,97 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 776,
+      "rank": 662,
+      "id": 929599382,
+      "name": "plinth",
+      "fullName": "jabrena/plinth",
+      "owner": "jabrena",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147263?v=4",
+      "url": "https://github.com/jabrena/plinth",
+      "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.",
+      "summary": "plinth：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "编程开发",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "软件开发",
+        "代码质量",
+        "工程自动化"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "npx skills add jabrena/plinth --skill '*' --agent cursor -y\nnpx skills add jabrena/plinth --skill '*' --agent claude-code -y\nnpx skills add jabrena/plinth --skill '*' --agent codex -y",
+      "language": "Java",
+      "license": "Apache-2.0",
+      "stars": 435,
+      "score": 117.6,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T15:36:32Z",
+      "sourceTopics": [
+        "ai-skills",
+        "claude-code-skills",
+        "codex-skills",
+        "cursor-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot"
+      ],
+      "skillCount": 125,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/jabrena/plinth",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/jabrena__plinth.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 769,
+      "id": 1305058794,
+      "name": "novel-to-game",
+      "fullName": "zenstory-ai/novel-to-game",
+      "owner": "zenstory-ai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
+      "url": "https://github.com/zenstory-ai/novel-to-game",
+      "description": "Agent Skills that turn novels into source-grounded, fully playable games for Claude Code, Codex, and Kimi Code(K3).",
+      "summary": "novel-to-game：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+      "category": "Agent工具与平台",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "模型与客户端管理",
+        "Agent 编排",
+        "多平台协作"
+      ],
+      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+      "installCommand": "npx skills add zenstory-ai/novel-to-game -g -y -s '*' \\\n-a claude-code -a codex -a kimi-code-cli",
+      "language": "Markdown",
+      "license": "MIT",
+      "stars": 755,
+      "score": 115.2,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-05T02:01:31Z",
+      "sourceTopics": [
+        "claude-skills",
+        "claude-code-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/zenstory-ai/novel-to-game",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/zenstory__ai__novel__to__game.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 774,
       "id": 1237501138,
       "name": "skilldock",
       "fullName": "wanghuan9/skilldock",
@@ -1646,7 +1689,7 @@
       "stars": 508,
       "score": 115.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T10:26:10Z",
+      "pushedAt": "2026-09-04T07:44:24Z",
       "sourceTopics": [
         "ai-skills",
         "claude-code-skills",
@@ -1671,7 +1714,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 803,
+      "rank": 798,
       "id": 1124477911,
       "name": "Deep-Research-skills",
       "fullName": "Weizhena/Deep-Research-skills",
@@ -1691,8 +1734,8 @@
       "installCommand": "git clone https://github.com/Weizhena/deep-research-skills.git\ncd deep-research-skills",
       "language": "Python",
       "license": "MIT",
-      "stars": 2092,
-      "score": 114.7,
+      "stars": 2098,
+      "score": 114.8,
       "activity": "本月活跃",
       "pushedAt": "2026-08-23T03:25:28Z",
       "sourceTopics": [
@@ -1715,7 +1758,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 871,
+      "rank": 868,
       "id": 1214805512,
       "name": "gpt-image2-ppt-skills",
       "fullName": "JuneYaooo/gpt-image2-ppt-skills",
@@ -1735,7 +1778,7 @@
       "installCommand": "git clone https://github.com/JuneYaooo/gpt-image2-ppt-skills.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 1243,
+      "stars": 1247,
       "score": 113.4,
       "activity": "本月活跃",
       "pushedAt": "2026-08-22T23:07:51Z",
@@ -1758,7 +1801,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 872,
+      "rank": 869,
       "id": 1212718768,
       "name": "agent-rules-books",
       "fullName": "ciembor/agent-rules-books",
@@ -1778,7 +1821,7 @@
       "installCommand": "git clone https://github.com/ciembor/agent-rules-books.git",
       "language": "",
       "license": "MIT",
-      "stars": 2682,
+      "stars": 2688,
       "score": 113.3,
       "activity": "活跃",
       "pushedAt": "2026-05-22T11:00:37Z",
@@ -1805,7 +1848,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 891,
+      "rank": 890,
       "id": 1139262569,
       "name": "power-platform-skills",
       "fullName": "microsoft/power-platform-skills",
@@ -1825,10 +1868,10 @@
       "installCommand": "git clone https://github.com/microsoft/power-platform-skills.git",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 819,
-      "score": 112,
+      "stars": 825,
+      "score": 112.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T02:54:30Z",
+      "pushedAt": "2026-09-04T23:08:17Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -1847,7 +1890,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 909,
+      "rank": 904,
       "id": 1073323930,
       "name": "ai-maestro",
       "fullName": "23blocks-OS/ai-maestro",
@@ -1870,7 +1913,7 @@
       "stars": 761,
       "score": 111.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T02:22:07Z",
+      "pushedAt": "2026-09-04T23:51:01Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -1890,7 +1933,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 910,
+      "rank": 905,
       "id": 1199916658,
       "name": "awesome-human-distillation",
       "fullName": "mliu98/awesome-human-distillation",
@@ -1913,7 +1956,7 @@
       "stars": 740,
       "score": 111,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-01T06:55:46Z",
+      "pushedAt": "2026-09-04T06:40:24Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -1931,7 +1974,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 916,
+      "rank": 910,
       "id": 1151146214,
       "name": "Skills-Manager",
       "fullName": "jiweiyeah/Skills-Manager",
@@ -1976,7 +2019,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 918,
+      "rank": 913,
       "id": 1187896522,
       "name": "mex",
       "fullName": "mex-memory/mex",
@@ -1996,10 +2039,10 @@
       "installCommand": "git clone https://github.com/mex-memory/mex.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 1541,
+      "stars": 1542,
       "score": 110.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T12:28:58Z",
+      "pushedAt": "2026-09-04T17:18:50Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -2019,7 +2062,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1019,
+      "rank": 1008,
       "id": 1112879061,
       "name": "spellbook",
       "fullName": "majiayu000/spellbook",
@@ -2039,10 +2082,10 @@
       "installCommand": "git clone https://github.com/majiayu000/spellbook.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 265,
-      "score": 108.5,
+      "stars": 266,
+      "score": 108.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-31T15:38:47Z",
+      "pushedAt": "2026-09-05T02:17:25Z",
       "sourceTopics": [
         "ai-agent-skills",
         "claude-code-skills",
@@ -2063,92 +2106,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1038,
-      "id": 1305058794,
-      "name": "novel-to-game",
-      "fullName": "zenstory-ai/novel-to-game",
-      "owner": "zenstory-ai",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
-      "url": "https://github.com/zenstory-ai/novel-to-game",
-      "description": "Agent Skills that turn novels into source-grounded, fully playable games for Claude Code, Codex, and Kimi Code(K3).",
-      "summary": "novel-to-game：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "Agent工具与平台",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "模型与客户端管理",
-        "Agent 编排",
-        "多平台协作"
-      ],
-      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-      "installCommand": "git clone https://github.com/zenstory-ai/novel-to-game.git",
-      "language": "Markdown",
-      "license": "MIT",
-      "stars": 752,
-      "score": 108.2,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-26T07:35:55Z",
-      "sourceTopics": [
-        "claude-skills",
-        "claude-code-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/zenstory-ai/novel-to-game",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/zenstory__ai__novel__to__game.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1039,
-      "id": 1146293274,
-      "name": "claude-code_rails-upgrade-skill",
-      "fullName": "ombulabs/claude-code_rails-upgrade-skill",
-      "owner": "ombulabs",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8408804?v=4",
-      "url": "https://github.com/ombulabs/claude-code_rails-upgrade-skill",
-      "description": "🤖 The one and only Claude Code Skill to Upgrade Rails by FastRuby.io -- Based on 60,000 dev/hours of experience upgrading Rails from 2.3 all the way to 8.1. Dual boot your Rails application and gradually upgrade one minor version at a time.  🚀",
-      "summary": "claude-code_rails-upgrade-skill：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
-      "category": "其他",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "能力探索",
-        "流程扩展",
-        "开源工具试用"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/ombulabs/claude-code_rails-upgrade-skill.git",
-      "language": "Ruby",
-      "license": "MIT",
-      "stars": 381,
-      "score": 108.2,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T22:41:40Z",
-      "sourceTopics": [
-        "claude-code-skills",
-        "claude-code-skill"
-      ],
-      "platforms": [
-        "Claude"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/ombulabs/claude-code_rails-upgrade-skill",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/ombulabs__claude__code__rails__upgrade__skill.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1053,
+      "rank": 1046,
       "id": 1082673951,
       "name": "claude-code-skills",
       "fullName": "levnikolaevich/claude-code-skills",
@@ -2168,7 +2126,7 @@
       "installCommand": "git clone https://github.com/levnikolaevich/claude-code-skills.git",
       "language": "PowerShell",
       "license": "MIT",
-      "stars": 556,
+      "stars": 557,
       "score": 108.1,
       "activity": "本周活跃",
       "pushedAt": "2026-08-29T14:21:50Z",
@@ -2190,7 +2148,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1082,
+      "rank": 1077,
       "id": 1200600054,
       "name": "alook",
       "fullName": "alookai/alook",
@@ -2210,10 +2168,10 @@
       "installCommand": "git clone https://github.com/alookai/alook.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1171,
+      "stars": 1172,
       "score": 107.7,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:34:04Z",
+      "pushedAt": "2026-09-05T03:17:27Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -2233,7 +2191,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1120,
+      "rank": 1115,
       "id": 1297645533,
       "name": "auteur",
       "fullName": "agiwhitelist/auteur",
@@ -2253,7 +2211,7 @@
       "installCommand": "git clone https://github.com/agiwhitelist/auteur.git",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 1017,
+      "stars": 1019,
       "score": 107.3,
       "activity": "本月活跃",
       "pushedAt": "2026-08-06T20:06:09Z",
@@ -2274,7 +2232,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1135,
+      "rank": 1132,
       "id": 1080441761,
       "name": "awesome-claude-skills",
       "fullName": "karanb192/awesome-claude-skills",
@@ -2294,7 +2252,7 @@
       "installCommand": "git clone https://github.com/karanb192/awesome-claude-skills.git",
       "language": "",
       "license": "MIT",
-      "stars": 504,
+      "stars": 505,
       "score": 107.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T19:05:00Z",
@@ -2315,7 +2273,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1193,
+      "rank": 1177,
       "id": 1133894957,
       "name": "claude-ai-music-skills",
       "fullName": "bitwize-music-studio/claude-ai-music-skills",
@@ -2335,8 +2293,8 @@
       "installCommand": "git clone https://github.com/bitwize-music-studio/claude-ai-music-skills.git",
       "language": "Python",
       "license": "CC0-1.0",
-      "stars": 470,
-      "score": 106.3,
+      "stars": 471,
+      "score": 106.4,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T21:44:43Z",
       "sourceTopics": [
@@ -2356,7 +2314,52 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1248,
+      "rank": 1205,
+      "id": 1188886556,
+      "name": "extract-design-system",
+      "fullName": "arvindrk/extract-design-system",
+      "owner": "arvindrk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7334372?v=4",
+      "url": "https://github.com/arvindrk/extract-design-system",
+      "description": "Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website. Generates JSON and CSS custom properties for local projects. Available as an AI agent skill (Claude, Cursor, Codex) and standalone CLI.",
+      "summary": "extract-design-system：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "UI设计",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "界面设计",
+        "设计系统",
+        "体验质量检查"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/arvindrk/extract-design-system.git",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 204,
+      "score": 105.9,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-05T00:23:05Z",
+      "sourceTopics": [
+        "claude-code-skills",
+        "skills-sh",
+        "cursor-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/arvindrk/extract-design-system",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/arvindrk__extract__design__system.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1238,
       "id": 1151617003,
       "name": "claude-code-my-workflow",
       "fullName": "pedrohcgs/claude-code-my-workflow",
@@ -2376,7 +2379,7 @@
       "installCommand": "git clone https://github.com/pedrohcgs/claude-code-my-workflow.git",
       "language": "HTML",
       "license": "MIT",
-      "stars": 1559,
+      "stars": 1562,
       "score": 103.7,
       "activity": "本月活跃",
       "pushedAt": "2026-08-24T16:57:42Z",
@@ -2397,7 +2400,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1252,
+      "rank": 1239,
       "id": 1132392761,
       "name": "smart-ralph",
       "fullName": "tzachbon/smart-ralph",
@@ -2417,7 +2420,7 @@
       "installCommand": "git clone https://github.com/tzachbon/smart-ralph.git",
       "language": "Shell",
       "license": "MIT",
-      "stars": 532,
+      "stars": 533,
       "score": 103.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T19:02:55Z",
@@ -2440,7 +2443,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1258,
+      "rank": 1245,
       "id": 1170546899,
       "name": "skills-for-architects",
       "fullName": "AlpacaLabsLLC/skills-for-architects",
@@ -2481,7 +2484,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1267,
+      "rank": 1254,
       "id": 1179728372,
       "name": "bdpan-storage",
       "fullName": "baidu-netdisk/bdpan-storage",
@@ -2501,7 +2504,7 @@
       "installCommand": "git clone https://github.com/baidu-netdisk/bdpan-storage.git",
       "language": "Shell",
       "license": "Apache-2.0",
-      "stars": 225,
+      "stars": 226,
       "score": 102.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T05:41:15Z",
@@ -2527,7 +2530,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1268,
+      "rank": 1256,
       "id": 1145838604,
       "name": "claude-code-java",
       "fullName": "decebals/claude-code-java",
@@ -2547,7 +2550,7 @@
       "installCommand": "git clone https://github.com/decebals/claude-code-java.git",
       "language": "Shell",
       "license": "MIT",
-      "stars": 725,
+      "stars": 727,
       "score": 102.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-28T21:26:06Z",
@@ -2568,7 +2571,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1280,
+      "rank": 1270,
       "id": 1092415361,
       "name": "claude-skills",
       "fullName": "secondsky/claude-skills",
@@ -2610,7 +2613,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1365,
+      "rank": 1352,
       "id": 1121405464,
       "name": "Continuous-Claude-v3",
       "fullName": "parcadei/Continuous-Claude-v3",
@@ -2630,7 +2633,7 @@
       "installCommand": "git clone https://github.com/parcadei/Continuous-Claude-v3.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 3935,
+      "stars": 3936,
       "score": 101.3,
       "activity": "活跃",
       "pushedAt": "2026-01-26T15:27:49Z",
@@ -2652,7 +2655,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1382,
+      "rank": 1359,
       "id": 1155566591,
       "name": "awesome-ai-agent-skills",
       "fullName": "seb1n/awesome-ai-agent-skills",
@@ -2672,8 +2675,8 @@
       "installCommand": "git clone https://github.com/seb1n/awesome-ai-agent-skills.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 171,
-      "score": 101.2,
+      "stars": 173,
+      "score": 101.3,
       "activity": "本月活跃",
       "pushedAt": "2026-08-09T22:29:16Z",
       "sourceTopics": [
@@ -2701,7 +2704,49 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1407,
+      "rank": 1370,
+      "id": 1146293274,
+      "name": "claude-code_rails-upgrade-skill",
+      "fullName": "ombulabs/claude-code_rails-upgrade-skill",
+      "owner": "ombulabs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8408804?v=4",
+      "url": "https://github.com/ombulabs/claude-code_rails-upgrade-skill",
+      "description": "🤖 The one and only Claude Code Skill to Upgrade Rails by FastRuby.io -- Based on 60,000 dev/hours of experience upgrading Rails from 2.3 all the way to 8.1. Dual boot your Rails application and gradually upgrade one minor version at a time.  🚀",
+      "summary": "claude-code_rails-upgrade-skill：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+      "category": "其他",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "能力探索",
+        "流程扩展",
+        "开源工具试用"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/ombulabs/claude-code_rails-upgrade-skill.git",
+      "language": "Ruby",
+      "license": "MIT",
+      "stars": 381,
+      "score": 101.2,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T22:41:40Z",
+      "sourceTopics": [
+        "claude-code-skills",
+        "claude-code-skill"
+      ],
+      "platforms": [
+        "Claude"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/ombulabs/claude-code_rails-upgrade-skill",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/ombulabs__claude__code__rails__upgrade__skill.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1394,
       "id": 1156929150,
       "name": "nWave",
       "fullName": "nWave-ai/nWave",
@@ -2721,7 +2766,7 @@
       "installCommand": "git clone https://github.com/nWave-ai/nWave.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 604,
+      "stars": 605,
       "score": 100.9,
       "activity": "本周活跃",
       "pushedAt": "2026-08-30T07:28:05Z",
@@ -2743,7 +2788,50 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1495,
+      "rank": 1473,
+      "id": 1331283163,
+      "name": "iso-24495",
+      "fullName": "GaZmagik/iso-24495",
+      "owner": "GaZmagik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/379258?v=4",
+      "url": "https://github.com/GaZmagik/iso-24495",
+      "description": "ISO 24495 Plain Language skills and Claude Code plugin",
+      "summary": "iso-24495：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+      "category": "内容创作",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "内容生产",
+        "视觉创作",
+        "多媒体工作流"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/GaZmagik/iso-24495.git",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 169,
+      "score": 100.1,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T07:59:38Z",
+      "sourceTopics": [
+        "claude-code-skills",
+        "codex-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/GaZmagik/iso-24495",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/gazmagik__iso__24495.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1481,
       "id": 1080332870,
       "name": "developer-kit",
       "fullName": "giuseppe-trisciuoglio/developer-kit",
@@ -2785,50 +2873,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1496,
-      "id": 1331283163,
-      "name": "iso-24495",
-      "fullName": "GaZmagik/iso-24495",
-      "owner": "GaZmagik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/379258?v=4",
-      "url": "https://github.com/GaZmagik/iso-24495",
-      "description": "ISO 24495 Plain Language skills and Claude Code plugin",
-      "summary": "iso-24495：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "内容创作",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "内容生产",
-        "视觉创作",
-        "多媒体工作流"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/GaZmagik/iso-24495.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 168,
-      "score": 100,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T08:04:15Z",
-      "sourceTopics": [
-        "claude-code-skills",
-        "codex-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/GaZmagik/iso-24495",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/gazmagik__iso__24495.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1504,
+      "rank": 1488,
       "id": 1156146412,
       "name": "claude-elixir-phoenix",
       "fullName": "oliver-kriska/claude-elixir-phoenix",
@@ -2851,7 +2896,7 @@
       "stars": 538,
       "score": 99.7,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-31T08:17:40Z",
+      "pushedAt": "2026-09-04T12:05:01Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -2869,7 +2914,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1513,
+      "rank": 1500,
       "id": 1164610149,
       "name": "terrashark",
       "fullName": "LukasNiessen/terrashark",
@@ -2912,51 +2957,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1525,
-      "id": 1197310799,
-      "name": "cesiumjs-skills",
-      "fullName": "CesiumGS/cesiumjs-skills",
-      "owner": "CesiumGS",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54716382?v=4",
-      "url": "https://github.com/CesiumGS/cesiumjs-skills",
-      "description": "Curated agent skills for CesiumJS development.",
-      "summary": "cesiumjs-skills：为 CesiumJS 开发精选的代理技能。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
-      "category": "其他",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "能力探索",
-        "流程扩展",
-        "开源工具试用"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/CesiumGS/cesiumjs-skills.git",
-      "language": "JavaScript",
-      "license": "Apache-2.0",
-      "stars": 151,
-      "score": 99,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T20:38:27Z",
-      "sourceTopics": [
-        "claude-code-skills",
-        "codex-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "GitHub Copilot"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/CesiumGS/cesiumjs-skills",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/cesiumgs__cesiumjs__skills.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1559,
+      "rank": 1528,
       "id": 1346230651,
       "name": "open-steps",
       "fullName": "kharmanskyi/open-steps",
@@ -2976,8 +2977,8 @@
       "installCommand": "git clone https://github.com/kharmanskyi/open-steps.git",
       "language": "Shell",
       "license": "MIT",
-      "stars": 196,
-      "score": 97.5,
+      "stars": 211,
+      "score": 98.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T11:26:29Z",
       "sourceTopics": [
@@ -2997,7 +2998,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1575,
+      "rank": 1556,
       "id": 1017069970,
       "name": "PRD-driven-context-engineering",
       "fullName": "mattgierhart/PRD-driven-context-engineering",
@@ -3038,7 +3039,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1582,
+      "rank": 1565,
       "id": 934139122,
       "name": "copilot-mcp",
       "fullName": "VikashLoomba/copilot-mcp",
@@ -3082,7 +3083,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1618,
+      "rank": 1601,
       "id": 1335084025,
       "name": "claude-db",
       "fullName": "Avijit07x/claude-db",
@@ -3124,7 +3125,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1633,
+      "rank": 1609,
       "id": 1128651978,
       "name": "claude-code-karma",
       "fullName": "JayantDevkar/claude-code-karma",
@@ -3144,8 +3145,8 @@
       "installCommand": "git clone https://github.com/JayantDevkar/claude-code-karma.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 323,
-      "score": 94.5,
+      "stars": 324,
+      "score": 94.6,
       "activity": "本周活跃",
       "pushedAt": "2026-08-30T07:27:54Z",
       "sourceTopics": [
@@ -3165,7 +3166,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1674,
+      "rank": 1658,
       "id": 1150492941,
       "name": "play-console-cli",
       "fullName": "tamtom/play-console-cli",
@@ -3185,7 +3186,7 @@
       "installCommand": "git clone https://github.com/tamtom/play-console-cli.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 199,
+      "stars": 200,
       "score": 93.7,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T09:16:39Z",
@@ -3208,7 +3209,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1693,
+      "rank": 1677,
       "id": 1247987146,
       "name": "suede-creator-skills",
       "fullName": "JasonColapietro/suede-creator-skills",
@@ -3231,7 +3232,7 @@
       "stars": 129,
       "score": 93.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:28:07Z",
+      "pushedAt": "2026-09-05T03:13:12Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -3250,7 +3251,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1724,
+      "rank": 1712,
       "id": 1294760624,
       "name": "coder_eval",
       "fullName": "UiPath/coder_eval",
@@ -3270,10 +3271,10 @@
       "installCommand": "git clone https://github.com/UiPath/coder_eval.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 120,
-      "score": 92.7,
+      "stars": 122,
+      "score": 92.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:40:05Z",
+      "pushedAt": "2026-09-04T23:15:55Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -3293,7 +3294,51 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1743,
+      "rank": 1717,
+      "id": 1197310799,
+      "name": "cesiumjs-skills",
+      "fullName": "CesiumGS/cesiumjs-skills",
+      "owner": "CesiumGS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54716382?v=4",
+      "url": "https://github.com/CesiumGS/cesiumjs-skills",
+      "description": "Curated agent skills for CesiumJS development.",
+      "summary": "cesiumjs-skills：为 CesiumJS 开发精选的代理技能。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+      "category": "其他",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "能力探索",
+        "流程扩展",
+        "开源工具试用"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/CesiumGS/cesiumjs-skills.git",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "stars": 160,
+      "score": 92.5,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T20:38:27Z",
+      "sourceTopics": [
+        "claude-code-skills",
+        "codex-skills"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "GitHub Copilot"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/CesiumGS/cesiumjs-skills",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/cesiumgs__cesiumjs__skills.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1733,
       "id": 1185308721,
       "name": "seobuild-onpage",
       "fullName": "gbessoni/seobuild-onpage",
@@ -3336,52 +3381,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1773,
-      "id": 1188886556,
-      "name": "extract-design-system",
-      "fullName": "arvindrk/extract-design-system",
-      "owner": "arvindrk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7334372?v=4",
-      "url": "https://github.com/arvindrk/extract-design-system",
-      "description": "Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website. Generates JSON and CSS custom properties for local projects. Available as an AI agent skill (Claude, Cursor, Codex) and standalone CLI.",
-      "summary": "extract-design-system：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "UI设计",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "界面设计",
-        "设计系统",
-        "体验质量检查"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/arvindrk/extract-design-system.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 199,
-      "score": 90.7,
-      "activity": "近期活跃",
-      "pushedAt": "2026-08-01T00:25:45Z",
-      "sourceTopics": [
-        "claude-code-skills",
-        "skills-sh",
-        "cursor-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/arvindrk/extract-design-system",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/arvindrk__extract__design__system.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1777,
+      "rank": 1762,
       "id": 1233366728,
       "name": "codeArbiter",
       "fullName": "arbiterForge/codeArbiter",
@@ -3401,10 +3401,10 @@
       "installCommand": "git clone https://github.com/arbiterForge/codeArbiter.git",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 141,
-      "score": 90.3,
+      "stars": 142,
+      "score": 90.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:34:12Z",
+      "pushedAt": "2026-09-04T20:26:21Z",
       "sourceTopics": [
         "claude-code-skills",
         "codex-skills"
@@ -3424,7 +3424,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1778,
+      "rank": 1767,
       "id": 1077018045,
       "name": "claude-plugins",
       "fullName": "2389-research/claude-plugins",
@@ -3465,7 +3465,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1782,
+      "rank": 1773,
       "id": 1168059851,
       "name": "tlive",
       "fullName": "y49/tlive",
@@ -3507,7 +3507,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1805,
+      "rank": 1797,
       "id": 1283341571,
       "name": "Themata-Claude-Scribe",
       "fullName": "Vitorlindo201/Themata-Claude-Scribe",
@@ -3530,7 +3530,7 @@
       "stars": 118,
       "score": 88.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:39:37Z",
+      "pushedAt": "2026-09-05T00:34:10Z",
       "sourceTopics": [
         "claude-code-skills",
         "claude-code-skill"
@@ -3549,7 +3549,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1806,
+      "rank": 1798,
       "id": 1243176585,
       "name": "offensive-claude",
       "fullName": "hypnguyen1209/offensive-claude",
@@ -3590,7 +3590,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1807,
+      "rank": 1799,
       "id": 1207908536,
       "name": "awesome-nuwa",
       "fullName": "nuwa-skills/awesome-nuwa",
@@ -3631,7 +3631,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1809,
+      "rank": 1801,
       "id": 1171497023,
       "name": "skill-generator",
       "fullName": "marketingjuliancongdanh79-pixel/skill-generator",
@@ -3676,7 +3676,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1812,
+      "rank": 1805,
       "id": 1178915524,
       "name": "skills",
       "fullName": "jeecgboot/skills",
@@ -3720,7 +3720,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1838,
+      "rank": 1832,
       "id": 1137824855,
       "name": "yume",
       "fullName": "aofp/yume",
@@ -3743,7 +3743,7 @@
       "stars": 149,
       "score": 86.8,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T14:41:46Z",
+      "pushedAt": "2026-09-05T02:30:40Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -3761,7 +3761,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1852,
+      "rank": 1845,
       "id": 1127464508,
       "name": "llm-council-skill",
       "fullName": "gcpdev/llm-council-skill",
@@ -3781,7 +3781,7 @@
       "installCommand": "git clone https://github.com/gcpdev/llm-council-skill.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 429,
+      "stars": 430,
       "score": 86.4,
       "activity": "活跃",
       "pushedAt": "2026-01-08T09:44:29Z",
@@ -3804,7 +3804,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1878,
+      "rank": 1870,
       "id": 1265161922,
       "name": "oh-my-cassette",
       "fullName": "Cassette-Editor/oh-my-cassette",
@@ -3847,7 +3847,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1890,
+      "rank": 1881,
       "id": 1031075913,
       "name": "RivalSearchMCP",
       "fullName": "damionrashford/RivalSearchMCP",
@@ -3870,7 +3870,7 @@
       "stars": 127,
       "score": 85.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:34:49Z",
+      "pushedAt": "2026-09-05T00:31:04Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -3889,7 +3889,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1891,
+      "rank": 1882,
       "id": 1189461004,
       "name": "skills-janitor",
       "fullName": "khendzel/skills-janitor",
@@ -3931,7 +3931,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1898,
+      "rank": 1889,
       "id": 1128265334,
       "name": "claude-reflect-system",
       "fullName": "haddock-development/claude-reflect-system",
@@ -3974,7 +3974,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1909,
+      "rank": 1897,
       "id": 1283324496,
       "name": "local-ai-code-assistant",
       "fullName": "MIKOTOKAWAII25/local-ai-code-assistant",
@@ -3997,7 +3997,7 @@
       "stars": 123,
       "score": 85,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:32:43Z",
+      "pushedAt": "2026-09-05T00:29:12Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -4015,7 +4015,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1923,
+      "rank": 1912,
       "id": 1192597891,
       "name": "compdf-skills",
       "fullName": "ComPDFKit/compdf-skills",
@@ -4059,7 +4059,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1924,
+      "rank": 1913,
       "id": 1283326518,
       "name": "gryffin-calorai-ventus",
       "fullName": "slimeglitch/gryffin-calorai-ventus",
@@ -4082,7 +4082,7 @@
       "stars": 115,
       "score": 84.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:36:32Z",
+      "pushedAt": "2026-09-05T01:37:44Z",
       "sourceTopics": [
         "claude-code-skills"
       ],
@@ -4101,7 +4101,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1932,
+      "rank": 1922,
       "id": 1117075237,
       "name": "personal-corp-os",
       "fullName": "serejaris/personal-corp-os",
@@ -4143,7 +4143,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1936,
+      "rank": 1926,
       "id": 1216839751,
       "name": "social-account-doctor",
       "fullName": "JuneYaooo/social-account-doctor",
@@ -4163,7 +4163,7 @@
       "installCommand": "git clone https://github.com/JuneYaooo/social-account-doctor.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 218,
+      "stars": 219,
       "score": 83.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-15T03:19:57Z",
@@ -4185,7 +4185,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1942,
+      "rank": 1930,
       "id": 1332866061,
       "name": "sloptrim",
       "fullName": "seyedehsanhadi/sloptrim",
@@ -4226,7 +4226,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1967,
+      "rank": 1956,
       "id": 1147015603,
       "name": "ai-marketing-claude-code-skills",
       "fullName": "BrianRWagner/ai-marketing-claude-code-skills",
@@ -4268,7 +4268,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1974,
+      "rank": 1962,
       "id": 1001910659,
       "name": "Software-Engineer-AI-Agent-Atlas",
       "fullName": "syahiidkamil/Software-Engineer-AI-Agent-Atlas",
@@ -4309,7 +4309,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1981,
+      "rank": 1969,
       "id": 1127655009,
       "name": "claude-code-ios-dev-guide",
       "fullName": "keskinonur/claude-code-ios-dev-guide",
@@ -4329,7 +4329,7 @@
       "installCommand": "git clone https://github.com/keskinonur/claude-code-ios-dev-guide.git",
       "language": "",
       "license": "",
-      "stars": 829,
+      "stars": 828,
       "score": 81.2,
       "activity": "活跃",
       "pushedAt": "2026-01-04T10:40:13Z",
@@ -4350,7 +4350,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1988,
+      "rank": 1976,
       "id": 1196007932,
       "name": "skill-optimizer",
       "fullName": "hqhq1025/skill-optimizer",
@@ -4397,7 +4397,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1998,
+      "rank": 1985,
       "id": 1209051241,
       "name": "recall-loom",
       "fullName": "Frappucc1no/recall-loom",
@@ -4440,7 +4440,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2003,
+      "rank": 1989,
       "id": 1320242957,
       "name": "attention-control",
       "fullName": "aaddrick/attention-control",
@@ -4485,7 +4485,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2012,
+      "rank": 1999,
       "id": 1280925898,
       "name": "Anti-Autoresearch",
       "fullName": "wanshuiyin/Anti-Autoresearch",
@@ -4527,7 +4527,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2035,
+      "rank": 2021,
       "id": 1116480304,
       "name": "linear-claude-skill",
       "fullName": "wrsmith108/linear-claude-skill",
@@ -4568,7 +4568,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2037,
+      "rank": 2023,
       "id": 1190498170,
       "name": "skill-base",
       "fullName": "ginuim/skill-base",
@@ -4612,7 +4612,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2050,
+      "rank": 2036,
       "id": 1090095228,
       "name": "claude-code-hooks",
       "fullName": "shanraisshan/claude-code-hooks",
@@ -4653,7 +4653,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2051,
+      "rank": 2037,
       "id": 1119072163,
       "name": "openbrowser-ai",
       "fullName": "billy-enrizky/openbrowser-ai",
@@ -4694,7 +4694,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2080,
+      "rank": 2064,
       "id": 1186383517,
       "name": "canvas-apps-tools",
       "fullName": "ToluVictor/canvas-apps-tools",
@@ -4736,7 +4736,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2113,
+      "rank": 2100,
       "id": 1154974019,
       "name": "shinkoku",
       "fullName": "kazukinagata/shinkoku",
@@ -4777,7 +4777,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2125,
+      "rank": 2112,
       "id": 1219616277,
       "name": "xhs-writer-skill",
       "fullName": "JuneYaooo/xhs-writer-skill",
@@ -4818,7 +4818,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2147,
+      "rank": 2134,
       "id": 1171517400,
       "name": "claude-prime",
       "fullName": "avibebuilder/claude-prime",
@@ -4859,7 +4859,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2166,
+      "rank": 2154,
       "id": 1220717364,
       "name": "Prompt-sensei",
       "fullName": "chengzhongwei/Prompt-sensei",

@@ -1,5 +1,5 @@
 {
-  "rank": 925,
+  "rank": 677,
   "id": 984011683,
   "name": "AI-Agents-Projects-Tutorials",
   "fullName": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
@@ -8,7 +8,7 @@
   "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
   "homepage": "https://marktechpost.com/",
   "description": "Multi-agent systems, memory, planning, reasoning loops",
-  "summary": "AI-Agents-Projects-Tutorials：多智能体系统、记忆、规划与推理循环。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "AI-Agents-Projects-Tutorials：多智能体系统、记忆、规划与推理循环。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials.git",
   "language": "Jupyter Notebook",
   "license": "",
-  "stars": 2889,
+  "stars": 2890,
   "forks": 619,
   "openIssues": 9,
-  "score": 110.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-24T20:18:54Z",
-  "updatedAt": "2026-09-02T17:37:08Z",
+  "score": 117.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-04T15:52:16Z",
+  "updatedAt": "2026-09-04T15:52:26Z",
   "createdAt": "2025-05-15T09:00:54Z",
   "sourceTopics": [
     "agent-skills"
@@ -50,7 +50,8 @@
     "aiagents"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -82,13 +83,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "7e54b554f841bc3f",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "95cbc2b410c7c2c1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-Agents-Projects-Tutorials：多智能体系统、记忆、规划与推理循环。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "AI-Agents-Projects-Tutorials：多智能体系统、记忆、规划与推理循环。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "AI-Agents-Projects-Tutorials 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -106,7 +107,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

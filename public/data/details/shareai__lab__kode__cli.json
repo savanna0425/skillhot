@@ -1,5 +1,5 @@
 {
-  "rank": 588,
+  "rank": 887,
   "id": 1018559767,
   "name": "Kode-CLI",
   "fullName": "shareAI-lab/Kode-CLI",
@@ -8,7 +8,7 @@
   "url": "https://github.com/shareAI-lab/Kode-CLI",
   "homepage": "",
   "description": "Kode CLI — Design for post-human workflows. One unit agent for every human & computer task.",
-  "summary": "Kode-CLI：Kode CLI——为人类与计算机任务设计的工作流解决方案。每个任务配备一个单位级智能体。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "Kode-CLI：Kode CLI——为人类与计算机任务设计的工作流解决方案。每个任务配备一个单位级智能体。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g @shareai-lab/kode",
+  "installCommand": "git clone https://github.com/shareAI-lab/Kode-CLI.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 5212,
+  "stars": 5213,
   "forks": 770,
   "openIssues": 1,
-  "score": 119.2,
-  "activity": "本周活跃",
+  "score": 112.2,
+  "activity": "本月活跃",
   "pushedAt": "2026-08-27T19:10:11Z",
-  "updatedAt": "2026-09-04T04:31:36Z",
+  "updatedAt": "2026-09-04T14:22:52Z",
   "createdAt": "2025-07-12T14:21:51Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,9 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "b51e80f69b8f8b67",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "d7fa4d3950cfed2c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Kode-CLI：Kode CLI——为人类与计算机任务设计的工作流解决方案。每个任务配备一个单位级智能体。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "Kode-CLI：Kode CLI——为人类与计算机任务设计的工作流解决方案。每个任务配备一个单位级智能体。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Kode-CLI 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -94,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

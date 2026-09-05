@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-04T04:42:01.041Z",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2284,
+    "repositories": 2283,
     "sourceTopics": 24,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-06-06",
+    "activeHighStarCutoff": "2026-06-07",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -21,22 +21,28 @@
           "url": "https://github.com/topics/skill"
         },
         {
+          "name": "agent-skills",
+          "displayName": "Agent Skills",
+          "description": "Agent skills are reusable bundles of instructions and resources that an AI agent loads on demand.",
+          "url": "https://github.com/topics/agent-skills"
+        },
+        {
           "name": "portfolio",
           "displayName": "Portfolio",
           "description": "Portfolio is a website showcasing skills, project, experiences, education etc.",
           "url": "https://github.com/topics/portfolio"
         },
         {
-          "name": "agent-skills",
-          "displayName": "agent-skills",
-          "description": "",
-          "url": "https://github.com/topics/agent-skills"
-        },
-        {
           "name": "skills",
           "displayName": "skills",
           "description": "",
           "url": "https://github.com/topics/skills"
+        },
+        {
+          "name": "learning",
+          "displayName": "Learning",
+          "description": "Educational projects, roadmap guides, courses, and interactive tutorials to help developers build new skills.",
+          "url": "https://github.com/topics/learning"
         },
         {
           "name": "education",
@@ -55,12 +61,6 @@
           "displayName": "LeetCode",
           "description": "LeetCode offers a platform for improving coding skills and preparing for technical interviews.",
           "url": "https://github.com/topics/leetcode"
-        },
-        {
-          "name": "agent-skill",
-          "displayName": "agent-skill",
-          "description": "",
-          "url": "https://github.com/topics/agent-skill"
         },
         {
           "name": "codex-skill",
@@ -104,6 +104,12 @@
           "url": "https://github.com/topics/claude-code-skills"
         },
         {
+          "name": "openclaw",
+          "displayName": "OpenClaw",
+          "description": "An open source personal AI assistant for building agentic workflows, automations, and AI-powered tools.",
+          "url": "https://github.com/topics/openclaw"
+        },
+        {
           "name": "skill-md",
           "displayName": "skill-md",
           "description": "",
@@ -128,12 +134,6 @@
           "url": "https://github.com/topics/ai-skill"
         },
         {
-          "name": "sports",
-          "displayName": "Sports",
-          "description": "Any physical activity or a game featuring skills or fitness.",
-          "url": "https://github.com/topics/sports"
-        },
-        {
           "name": "openclaw-skill",
           "displayName": "openclaw-skill",
           "description": "",
@@ -149,6 +149,12 @@
           "displayName": "skills-sh",
           "description": "",
           "url": "https://github.com/topics/skills-sh"
+        },
+        {
+          "name": "sports",
+          "displayName": "Sports",
+          "description": "Any physical activity or a game featuring skills or fitness.",
+          "url": "https://github.com/topics/sports"
         },
         {
           "name": "openclaw-skills",
@@ -181,28 +187,22 @@
           "url": "https://github.com/topics/skillsmp"
         },
         {
-          "name": "bootcamp",
-          "displayName": "Bootcamp",
-          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
-          "url": "https://github.com/topics/bootcamp"
-        },
-        {
           "name": "cursor-skills",
           "displayName": "cursor-skills",
           "description": "",
           "url": "https://github.com/topics/cursor-skills"
         },
         {
+          "name": "bootcamp",
+          "displayName": "Bootcamp",
+          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
+          "url": "https://github.com/topics/bootcamp"
+        },
+        {
           "name": "alexa-custom-skill",
           "displayName": "alexa-custom-skill",
           "description": "",
           "url": "https://github.com/topics/alexa-custom-skill"
-        },
-        {
-          "name": "publishing",
-          "displayName": "Publishing",
-          "description": "Publishing is the dissemination of making information available to the general public through various mediums.",
-          "url": "https://github.com/topics/publishing"
         }
       ]
     }
@@ -269,12 +269,12 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill"
-    },
-    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw"
     },
     {
       "name": "skill-md",
@@ -310,148 +310,148 @@
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 2322242
+      "activeRepositories": 77,
+      "stars": 2326128
     },
     {
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
       "activeRepositories": 81,
-      "stars": 1773346
+      "stars": 1783361
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
       "activeRepositories": 76,
-      "stars": 798333
+      "stars": 799902
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 59,
-      "stars": 518325
+      "activeRepositories": 62,
+      "stars": 520808
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 77,
-      "stars": 295160
+      "activeRepositories": 78,
+      "stars": 295707
     },
     {
       "name": "codex-skills",
       "url": "https://github.com/topics/codex-skills",
       "repositories": 99,
-      "activeRepositories": 73,
-      "stars": 340131
+      "activeRepositories": 72,
+      "stars": 340042
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 98,
-      "activeRepositories": 46,
-      "stars": 115496
+      "activeRepositories": 47,
+      "stars": 115336
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 97,
-      "activeRepositories": 60,
-      "stars": 246103
+      "activeRepositories": 59,
+      "stars": 246777
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
-      "repositories": 93,
-      "activeRepositories": 44,
-      "stars": 230612
+      "repositories": 87,
+      "activeRepositories": 43,
+      "stars": 230084
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 56,
-      "activeRepositories": 47,
-      "stars": 48768
+      "repositories": 55,
+      "activeRepositories": 46,
+      "stars": 48841
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 42,
-      "activeRepositories": 34,
-      "stars": 77051
+      "repositories": 45,
+      "activeRepositories": 37,
+      "stars": 77178
     },
     {
       "name": "anthropic-skills",
       "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 33,
-      "activeRepositories": 26,
-      "stars": 2450
+      "repositories": 37,
+      "activeRepositories": 29,
+      "stars": 2509
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
       "activeRepositories": 11,
-      "stars": 83303
-    },
-    {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill",
-      "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 74946
+      "stars": 83534
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
       "activeRepositories": 21,
-      "stars": 66713
+      "stars": 66908
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 52301
+      "activeRepositories": 21,
+      "stars": 52538
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 26254
+      "activeRepositories": 21,
+      "stars": 26256
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
       "activeRepositories": 17,
-      "stars": 19346
+      "stars": 19431
     },
     {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills",
       "repositories": 29,
-      "activeRepositories": 20,
-      "stars": 115706
+      "activeRepositories": 19,
+      "stars": 115893
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw",
+      "repositories": 27,
+      "activeRepositories": 23,
+      "stars": 1334339
     },
     {
       "name": "skillsmp",
       "url": "https://github.com/topics/skillsmp",
-      "repositories": 25,
+      "repositories": 22,
       "activeRepositories": 14,
-      "stars": 26829
+      "stars": 25849
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
       "repositories": 21,
       "activeRepositories": 16,
-      "stars": 36568
+      "stars": 36730
     },
     {
       "name": "mcp-skills",
@@ -477,47 +477,47 @@
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 519
+      "count": 522
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 112
+      "count": 108
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 176
+      "count": 174
     },
     {
       "name": "数据分析",
       "description": "SQL、数据处理、统计、可视化与商业分析",
-      "count": 60
+      "count": 61
     },
     {
       "name": "研究学习",
       "description": "科研、知识检索、文献、教学、学习与推理工作流",
-      "count": 150
+      "count": 156
     },
     {
       "name": "自动化",
       "description": "浏览器、网页抓取、工具集成与重复流程自动化",
-      "count": 104
+      "count": 102
     },
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 47
+      "count": 49
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 306
+      "count": 299
     },
     {
       "name": "产品与商业",
@@ -527,7 +527,7 @@
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 41
+      "count": 42
     },
     {
       "name": "技能合集",
@@ -542,7 +542,7 @@
   ],
   "skills": [
     {
-      "rank": 9,
+      "rank": 6,
       "id": 1200597263,
       "name": "graphify",
       "fullName": "Graphify-Labs/graphify",
@@ -562,12 +562,13 @@
       "installCommand": "uv tool install graphifyy      # install the CLI (or: pipx install graphifyy)\ngraphify install               # register the skill with your AI assistant",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 114485,
-      "score": 163.4,
+      "stars": 114808,
+      "score": 167.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-30T15:03:47Z",
+      "pushedAt": "2026-09-05T00:29:44Z",
       "sourceTopics": [
-        "skills"
+        "skills",
+        "openclaw"
       ],
       "platforms": [
         "Claude",
@@ -588,7 +589,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 24,
+      "rank": 27,
       "id": 1182081931,
       "name": "Understand-Anything",
       "fullName": "Egonex-AI/Understand-Anything",
@@ -608,10 +609,10 @@
       "installCommand": "git clone https://github.com/Egonex-AI/Understand-Anything.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 81421,
+      "stars": 81512,
       "score": 155.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T09:04:08Z",
+      "pushedAt": "2026-09-04T14:11:17Z",
       "sourceTopics": [
         "claude-skills",
         "codex-skills"
@@ -635,7 +636,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "id": 1048065319,
       "name": "claude-mem",
       "fullName": "thedotmack/claude-mem",
@@ -655,10 +656,10 @@
       "installCommand": "npx claude-mem install --ide grok-bot",
       "language": "JavaScript",
       "license": "Apache-2.0",
-      "stars": 93121,
+      "stars": 93215,
       "score": 153.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T15:33:32Z",
+      "pushedAt": "2026-09-05T04:26:08Z",
       "sourceTopics": [
         "claude-skills"
       ],
@@ -681,7 +682,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 41,
+      "rank": 43,
       "id": 635240594,
       "name": "private-gpt",
       "fullName": "zylon-ai/private-gpt",
@@ -701,7 +702,7 @@
       "installCommand": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nuv tool install --python 3.11 \\",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 57490,
+      "stars": 57492,
       "score": 152.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T15:50:32Z",
@@ -742,10 +743,10 @@
       "installCommand": "git clone https://github.com/infiniflow/ragflow.git",
       "language": "Go",
       "license": "Apache-2.0",
-      "stars": 90015,
+      "stars": 90063,
       "score": 148.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:23:34Z",
+      "pushedAt": "2026-09-05T03:03:27Z",
       "sourceTopics": [],
       "platforms": [
         "Gemini CLI",
@@ -763,6 +764,45 @@
     },
     {
       "rank": 70,
+      "id": 1052050442,
+      "name": "hello-agents",
+      "fullName": "datawhalechina/hello-agents",
+      "owner": "datawhalechina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "summary": "hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/datawhalechina/hello-agents.git",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 77025,
+      "score": 147.3,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T09:03:14Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/datawhalechina/hello-agents",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/datawhalechina__hello__agents.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 71,
       "id": 1128123594,
       "name": "OpenViking",
       "fullName": "volcengine/OpenViking",
@@ -782,10 +822,10 @@
       "installCommand": "pip install openviking --upgrade\nopenviking-server init      # interactive wizard: providers, models, ov.conf\nopenviking-server doctor    # validate setup",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 35388,
+      "stars": 35546,
       "score": 147.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:34:36Z",
+      "pushedAt": "2026-09-05T02:29:50Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -805,7 +845,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 73,
+      "rank": 76,
       "id": 1137078255,
       "name": "codegraph",
       "fullName": "colbymchenry/codegraph",
@@ -825,7 +865,7 @@
       "installCommand": "npm i -g @colbymchenry/codegraph",
       "language": "C",
       "license": "MIT",
-      "stars": 69498,
+      "stars": 69658,
       "score": 146.2,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T23:15:02Z",
@@ -849,7 +889,54 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 79,
+      "rank": 81,
+      "id": 1028070615,
+      "name": "memU",
+      "fullName": "NevaMind-AI/memU",
+      "owner": "NevaMind-AI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/217726889?v=4",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "description": "Personal memory across agents",
+      "summary": "memU：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "pip install memu-cli         # library + memu + memu-codex CLIs\nnpx memu-cli --help          # CLI via npm launcher (engine: PyPI package memu-cli)\nuvx --from memu-cli memu     # CLI via uv, no install",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 14380,
+      "score": 145.8,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-04T07:35:15Z",
+      "sourceTopics": [
+        "skills",
+        "claude-skills",
+        "openclaw-skills",
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/NevaMind-AI/memU",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/nevamind__ai__memu.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 85,
       "id": 649170660,
       "name": "anything-llm",
       "fullName": "Mintplex-Labs/anything-llm",
@@ -869,7 +956,7 @@
       "installCommand": "git clone https://github.com/Mintplex-Labs/anything-llm.git",
       "language": "JavaScript",
       "license": "MIT",
-      "stars": 65585,
+      "stars": 65628,
       "score": 145.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T01:10:46Z",
@@ -888,7 +975,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 81,
+      "rank": 86,
       "id": 656099147,
       "name": "mem0",
       "fullName": "mem0ai/mem0",
@@ -908,10 +995,10 @@
       "installCommand": "npm install -g @mem0/cli      # or: pip install mem0-cli\nmem0 init --agent --agent-caller claude-code\nmem0 add \"I am using mem0\"",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 64676,
+      "stars": 64716,
       "score": 145.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:43:03Z",
+      "pushedAt": "2026-09-04T16:32:10Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -931,7 +1018,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 95,
+      "rank": 102,
       "id": 1201656210,
       "name": "mempalace",
       "fullName": "MemPalace/mempalace",
@@ -951,10 +1038,10 @@
       "installCommand": "npx skills add MemPalace/mempalace",
       "language": "Python",
       "license": "MIT",
-      "stars": 58835,
+      "stars": 58845,
       "score": 144.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-02T00:28:43Z",
+      "pushedAt": "2026-09-05T01:34:55Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -972,7 +1059,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 97,
+      "rank": 104,
       "id": 1203558071,
       "name": "TencentDB-Agent-Memory",
       "fullName": "TencentCloud/TencentDB-Agent-Memory",
@@ -992,7 +1079,7 @@
       "installCommand": "git clone https://github.com/Tencent/TencentDB-Agent-Memory.git\ncd TencentDB-Agent-Memory/deploy/global-images\ncp .env.example .env",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 25868,
+      "stars": 25933,
       "score": 143.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T02:31:45Z",
@@ -1013,7 +1100,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 118,
+      "rank": 126,
       "id": 1031059905,
       "name": "GitNexus",
       "fullName": "abhigyanpatwari/GitNexus",
@@ -1033,10 +1120,10 @@
       "installCommand": "npx gitnexus analyze\nnpx gitnexus setup",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 46976,
+      "stars": 47022,
       "score": 142.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:14:59Z",
+      "pushedAt": "2026-09-04T21:11:16Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1056,53 +1143,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 120,
-      "id": 1028070615,
-      "name": "memU",
-      "fullName": "NevaMind-AI/memU",
-      "owner": "NevaMind-AI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/217726889?v=4",
-      "url": "https://github.com/NevaMind-AI/memU",
-      "description": "Personal memory across agents",
-      "summary": "memU：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "pip install memu-cli         # library + memu + memu-codex CLIs\nnpx memu-cli --help          # CLI via npm launcher (engine: PyPI package memu-cli)\nuvx --from memu-cli memu     # CLI via uv, no install",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "stars": 14378,
-      "score": 141.8,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-04T02:46:44Z",
-      "sourceTopics": [
-        "skills",
-        "claude-skills",
-        "openclaw-skills"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/NevaMind-AI/memU",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/nevamind__ai__memu.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 123,
+      "rank": 130,
       "id": 679343504,
       "name": "cognee",
       "fullName": "topoteretes/cognee",
@@ -1122,10 +1163,10 @@
       "installCommand": "uv pip install cognee",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 30448,
+      "stars": 30475,
       "score": 141.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:55:21Z",
+      "pushedAt": "2026-09-04T17:19:19Z",
       "sourceTopics": [
         "agent-skills"
       ],
@@ -1144,7 +1185,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 129,
+      "rank": 133,
       "id": 1166102148,
       "name": "codebase-memory-mcp",
       "fullName": "DeusData/codebase-memory-mcp",
@@ -1164,10 +1205,10 @@
       "installCommand": "git clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\nscripts/build.sh --with-ui          # the shipped composition (graph UI embedded)",
       "language": "C",
       "license": "MIT",
-      "stars": 42110,
+      "stars": 42244,
       "score": 141,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:32:48Z",
+      "pushedAt": "2026-09-05T04:17:33Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1187,7 +1228,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 131,
+      "rank": 136,
       "id": 931950959,
       "name": "ai-guide",
       "fullName": "liyupi/ai-guide",
@@ -1207,7 +1248,7 @@
       "installCommand": "git clone https://github.com/liyupi/ai-guide.git",
       "language": "JavaScript",
       "license": "NOASSERTION",
-      "stars": 19512,
+      "stars": 19556,
       "score": 141,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T08:32:57Z",
@@ -1231,46 +1272,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 141,
-      "id": 1052050442,
-      "name": "hello-agents",
-      "fullName": "datawhalechina/hello-agents",
-      "owner": "datawhalechina",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46047812?v=4",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "summary": "hello-agents：《从零开始构建智能体》——从零开始的智能体原理与实践教程。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/datawhalechina/hello-agents.git",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "stars": 76854,
-      "score": 140.3,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-18T06:51:35Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/datawhalechina/hello-agents",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/datawhalechina__hello__agents.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 145,
+      "rank": 150,
       "id": 1124219907,
       "name": "DeepTutor",
       "fullName": "HKUDS/DeepTutor",
@@ -1290,7 +1292,7 @@
       "installCommand": "mkdir -p my-deeptutor && cd my-deeptutor\npip install -U deeptutor\ndeeptutor init     # prompts for ports + LLM provider + optional embedding/search",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 38642,
+      "stars": 38744,
       "score": 140.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T10:02:33Z",
@@ -1312,7 +1314,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 155,
+      "rank": 158,
       "id": 1014729376,
       "name": "MemOS",
       "fullName": "MemTensor/MemOS",
@@ -1332,7 +1334,7 @@
       "installCommand": "npx @deepseek-ai/dsh plugin --profile web add @memtensor/memos-cloud-dsh-plugin@latest",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 11178,
+      "stars": 11192,
       "score": 139.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T12:30:14Z",
@@ -1354,7 +1356,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 184,
+      "rank": 188,
       "id": 605673387,
       "name": "FastGPT",
       "fullName": "labring/FastGPT",
@@ -1374,10 +1376,10 @@
       "installCommand": "git clone https://github.com/labring/FastGPT.git",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 29563,
+      "stars": 29575,
       "score": 137.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:27:35Z",
+      "pushedAt": "2026-09-04T10:06:15Z",
       "sourceTopics": [],
       "platforms": [
         "Claude"
@@ -1393,7 +1395,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 188,
+      "rank": 190,
       "id": 764287615,
       "name": "supermemory",
       "fullName": "supermemoryai/supermemory",
@@ -1413,7 +1415,7 @@
       "installCommand": "npx skills add supermemoryai/memorybench",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 29215,
+      "stars": 29231,
       "score": 137.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T21:51:31Z",
@@ -1436,7 +1438,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 211,
+      "rank": 212,
       "id": 221654678,
       "name": "haystack",
       "fullName": "deepset-ai/haystack",
@@ -1456,10 +1458,10 @@
       "installCommand": "pip install haystack-ai",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 26409,
+      "stars": 26419,
       "score": 136.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T02:16:36Z",
+      "pushedAt": "2026-09-04T17:04:23Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -1475,7 +1477,53 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 231,
+      "rank": 223,
+      "id": 1025381911,
+      "name": "Memori",
+      "fullName": "MemoriLabs/Memori",
+      "owner": "MemoriLabs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239418677?v=4",
+      "url": "https://github.com/MemoriLabs/Memori",
+      "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
+      "summary": "Memori：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "npm install @memorilabs/memori",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 16409,
+      "score": 135.2,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-03T20:05:01Z",
+      "sourceTopics": [
+        "openclaw"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Gemini CLI",
+        "OpenClaw",
+        "Antigravity"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/MemoriLabs/Memori",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/memorilabs__memori.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 233,
       "id": 1110443421,
       "name": "zvec",
       "fullName": "alibaba/zvec",
@@ -1495,10 +1543,10 @@
       "installCommand": "git clone https://github.com/alibaba/zvec.git",
       "language": "C++",
       "license": "Apache-2.0",
-      "stars": 15742,
-      "score": 134.7,
+      "stars": 15785,
+      "score": 134.8,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:38:00Z",
+      "pushedAt": "2026-09-04T07:57:25Z",
       "sourceTopics": [
         "agent-skills"
       ],
@@ -1516,7 +1564,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 236,
+      "rank": 237,
       "id": 1086419061,
       "name": "hindsight",
       "fullName": "vectorize-io/hindsight",
@@ -1536,10 +1584,10 @@
       "installCommand": "> npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs\n>",
       "language": "Python",
       "license": "MIT",
-      "stars": 22279,
-      "score": 134.4,
+      "stars": 22559,
+      "score": 134.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:31:38Z",
+      "pushedAt": "2026-09-05T03:30:43Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -1560,7 +1608,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 250,
+      "rank": 251,
       "id": 1024118326,
       "name": "WeKnora",
       "fullName": "Tencent/WeKnora",
@@ -1580,10 +1628,10 @@
       "installCommand": "git clone https://github.com/Tencent/WeKnora.git\ncd WeKnora\ncp .env.example .env   # Edit .env as needed, see comments in the file",
       "language": "Go",
       "license": "NOASSERTION",
-      "stars": 21292,
+      "stars": 21359,
       "score": 133.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T07:03:35Z",
+      "pushedAt": "2026-09-04T09:35:26Z",
       "sourceTopics": [],
       "platforms": [
         "Gemini CLI"
@@ -1599,7 +1647,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 261,
+      "rank": 265,
       "id": 627480054,
       "name": "DB-GPT",
       "fullName": "eosphoros-ai/DB-GPT",
@@ -1619,10 +1667,10 @@
       "installCommand": "uv pip install dbgpt-app\npip install dbgpt-app",
       "language": "Python",
       "license": "MIT",
-      "stars": 19862,
+      "stars": 19867,
       "score": 133.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-31T03:49:48Z",
+      "pushedAt": "2026-09-04T10:53:45Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -1638,7 +1686,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 262,
+      "rank": 266,
       "id": 1179046874,
       "name": "prompt-master",
       "fullName": "nidhinjs/prompt-master",
@@ -1658,7 +1706,7 @@
       "installCommand": "mkdir -p ~/.claude/skills\ngit clone https://github.com/nidhinjs/prompt-master.git ~/.claude/skills/prompt-master",
       "language": "",
       "license": "MIT",
-      "stars": 12318,
+      "stars": 12360,
       "score": 133.2,
       "activity": "本月活跃",
       "pushedAt": "2026-08-24T07:30:40Z",
@@ -1684,7 +1732,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 274,
+      "rank": 278,
       "id": 1085086903,
       "name": "EverOS",
       "fullName": "EverMind-AI/EverOS",
@@ -1704,7 +1752,7 @@
       "installCommand": "uv pip install everos",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 12687,
+      "stars": 12709,
       "score": 132.5,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T02:27:51Z",
@@ -1726,51 +1774,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 297,
-      "id": 1025381911,
-      "name": "Memori",
-      "fullName": "MemoriLabs/Memori",
-      "owner": "MemoriLabs",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/239418677?v=4",
-      "url": "https://github.com/MemoriLabs/Memori",
-      "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
-      "summary": "Memori：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "npm install @memorilabs/memori",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "stars": 16397,
-      "score": 131.2,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-03T20:05:01Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "Gemini CLI",
-        "OpenClaw",
-        "Antigravity"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/MemoriLabs/Memori",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/memorilabs__memori.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 341,
+      "rank": 343,
       "id": 1147470802,
       "name": "pro-workflow",
       "fullName": "rohitg00/pro-workflow",
@@ -1790,7 +1794,7 @@
       "installCommand": "npx skills add rohitg00/pro-workflow",
       "language": "JavaScript",
       "license": "",
-      "stars": 2807,
+      "stars": 2808,
       "score": 128.8,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T20:24:17Z",
@@ -1817,7 +1821,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 373,
+      "rank": 375,
       "id": 1253138201,
       "name": "PixelRAG",
       "fullName": "StarTrail-org/PixelRAG",
@@ -1837,7 +1841,7 @@
       "installCommand": "pip install pixelrag",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 9865,
+      "stars": 9876,
       "score": 125.9,
       "activity": "本周活跃",
       "pushedAt": "2026-08-30T02:22:24Z",
@@ -1856,7 +1860,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 392,
+      "rank": 394,
       "id": 1190557545,
       "name": "obsidian-second-brain",
       "fullName": "eugeniughelbur/obsidian-second-brain",
@@ -1876,10 +1880,10 @@
       "installCommand": "git clone https://github.com/eugeniughelbur/obsidian-second-brain\ncd obsidian-second-brain\nbash scripts/build.sh --platform agent-skills",
       "language": "Python",
       "license": "MIT",
-      "stars": 4315,
+      "stars": 4321,
       "score": 125.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:14:42Z",
+      "pushedAt": "2026-09-04T15:56:02Z",
       "sourceTopics": [
         "agent-skills",
         "claude-code-skill"
@@ -1888,7 +1892,6 @@
         "Claude",
         "Codex",
         "Gemini CLI",
-        "GitHub Copilot",
         "OpenCode",
         "Antigravity"
       ],
@@ -1903,7 +1906,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 400,
+      "rank": 396,
       "id": 1088705108,
       "name": "AgentGuide",
       "fullName": "adongwanai/AgentGuide",
@@ -1911,7 +1914,7 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/54011546?v=4",
       "url": "https://github.com/adongwanai/AgentGuide",
       "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
-      "summary": "AgentGuide：https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成。适合在 Claude、Cursor、OpenClaw 相关工作流里先做选型判断。",
+      "summary": "AgentGuide：https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
       "category": "记忆与上下文",
       "categoryConfidence": "高",
       "scenarios": [
@@ -1920,16 +1923,17 @@
         "上下文管理"
       ],
       "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "阅读：docs/01-theory/01-what-is-agent.md\n阅读：docs/01-theory/04-react-framework.md\n阅读：docs/02-tech-stack/04-langchain-guide.md",
-      "language": "HTML",
+      "installCommand": "git clone https://github.com/adongwanai/AgentGuide.git",
+      "language": "MDX",
       "license": "",
-      "stars": 9172,
-      "score": 125.1,
+      "stars": 9213,
+      "score": 125.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:14:01Z",
+      "pushedAt": "2026-09-04T08:51:33Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
+        "Codex",
         "Cursor",
         "OpenClaw"
       ],
@@ -1944,7 +1948,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 406,
+      "rank": 409,
       "id": 774497032,
       "name": "PraisonAI",
       "fullName": "MervinPraison/PraisonAI",
@@ -1964,10 +1968,10 @@
       "installCommand": "██████╗ ██████╗  █████╗ ██╗███████╗ ██████╗ ███╗   ██╗     █████╗ ██╗\n██╔══██╗██╔══██╗██╔══██╗██║██╔════╝██╔═══██╗████╗  ██║    ██╔══██╗██║\n██████╔╝██████╔╝███████║██║███████╗██║   ██║██╔██╗ ██║    ███████║██║",
       "language": "Python",
       "license": "MIT",
-      "stars": 9011,
+      "stars": 9019,
       "score": 124.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:08:12Z",
+      "pushedAt": "2026-09-04T21:51:12Z",
       "sourceTopics": [],
       "platforms": [
         "OpenClaw"
@@ -2003,10 +2007,10 @@
       "installCommand": "brew install --cask osaurus",
       "language": "Swift",
       "license": "MIT",
-      "stars": 7774,
+      "stars": 7788,
       "score": 123.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:22:09Z",
+      "pushedAt": "2026-09-05T03:40:34Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -2022,7 +2026,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 488,
+      "rank": 490,
       "id": 1200802466,
       "name": "hivemind",
       "fullName": "activeloopai/hivemind",
@@ -2042,7 +2046,7 @@
       "installCommand": "**Any platform, via npm** — for CI and Dockerfiles, or where policy blocks\npiping a downloaded script to a shell. Skips the checks the installers do, so\nNode 22+ and a writable npm prefix are on you:",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1594,
+      "stars": 1593,
       "score": 122.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T19:45:48Z",
@@ -2067,7 +2071,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 503,
+      "rank": 508,
       "id": 689777286,
       "name": "honcho",
       "fullName": "plastic-labs/honcho",
@@ -2087,10 +2091,10 @@
       "installCommand": "pip install honcho-ai",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 7010,
+      "stars": 7022,
       "score": 122.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T23:39:57Z",
+      "pushedAt": "2026-09-04T21:28:24Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2110,47 +2114,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 523,
-      "id": 1182194959,
-      "name": "openhanako",
-      "fullName": "liliMozi/openhanako",
-      "owner": "liliMozi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/266472116?v=4",
-      "url": "https://github.com/liliMozi/openhanako",
-      "description": "A personal AI agent with memory, personality, and autonomy.",
-      "summary": "openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "npm install\nnpm start\nnpm run start:vite",
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "stars": 6475,
-      "score": 121.5,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T23:18:20Z",
-      "sourceTopics": [],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/liliMozi/openhanako",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/lilimozi__openhanako.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 565,
+      "rank": 566,
       "id": 1246148135,
       "name": "ai-memory",
       "fullName": "akitaonrails/ai-memory",
@@ -2170,10 +2134,10 @@
       "installCommand": "git clone https://github.com/akitaonrails/ai-memory.git",
       "language": "Rust",
       "license": "MIT",
-      "stars": 5659,
-      "score": 120.1,
+      "stars": 5753,
+      "score": 120.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T01:59:01Z",
+      "pushedAt": "2026-09-04T20:44:50Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2194,7 +2158,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 597,
+      "rank": 600,
       "id": 741450201,
       "name": "AutoRAG",
       "fullName": "Marker-Inc-Korea/AutoRAG",
@@ -2214,10 +2178,10 @@
       "installCommand": "git clone https://github.com/Marker-Inc-Korea/AutoRAG.git",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 5058,
+      "stars": 5059,
       "score": 118.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T18:16:24Z",
+      "pushedAt": "2026-09-05T02:55:17Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2235,7 +2199,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 600,
+      "rank": 601,
       "id": 832879402,
       "name": "Kiln",
       "fullName": "Kiln-AI/Kiln",
@@ -2258,7 +2222,7 @@
       "stars": 5044,
       "score": 118.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T00:35:38Z",
+      "pushedAt": "2026-09-04T23:04:19Z",
       "sourceTopics": [],
       "platforms": [
         "Gemini CLI"
@@ -2294,7 +2258,7 @@
       "installCommand": "npx --package @martian-engineering/lossless-claw@latest lossless-claw-migrate-sessions --state-dir ~/.openclaw",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 4896,
+      "stars": 4897,
       "score": 118.6,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T20:42:03Z",
@@ -2313,7 +2277,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 627,
+      "rank": 628,
       "id": 956908445,
       "name": "chonkie",
       "fullName": "feyninc/chonkie",
@@ -2333,7 +2297,7 @@
       "installCommand": "pip install chonkie",
       "language": "Python",
       "license": "MIT",
-      "stars": 4719,
+      "stars": 4720,
       "score": 118.2,
       "activity": "本周活跃",
       "pushedAt": "2026-09-02T16:48:08Z",
@@ -2352,7 +2316,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 631,
+      "rank": 633,
       "id": 1190778303,
       "name": "awesome-opensource-ai",
       "fullName": "alvinreal/awesome-opensource-ai",
@@ -2372,7 +2336,7 @@
       "installCommand": "git clone https://github.com/alvinreal/awesome-opensource-ai.git",
       "language": "Python",
       "license": "CC0-1.0",
-      "stars": 4672,
+      "stars": 4676,
       "score": 118.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T09:20:25Z",
@@ -2391,7 +2355,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 652,
+      "rank": 654,
       "id": 1197002442,
       "name": "m_flow",
       "fullName": "FlowElement-xinliuyuansu/m_flow",
@@ -2430,7 +2394,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 653,
+      "rank": 655,
       "id": 1079345325,
       "name": "LongMemory",
       "fullName": "CaviraOSS/LongMemory",
@@ -2450,7 +2414,7 @@
       "installCommand": "npm install longmemory",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 4482,
+      "stars": 4484,
       "score": 117.7,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T16:18:42Z",
@@ -2474,7 +2438,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 657,
+      "rank": 659,
       "id": 1165507389,
       "name": "memory-lancedb-pro",
       "fullName": "CortexReach/memory-lancedb-pro",
@@ -2514,7 +2478,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 661,
+      "rank": 663,
       "id": 618514446,
       "name": "gptme",
       "fullName": "gptme/gptme",
@@ -2534,10 +2498,10 @@
       "installCommand": "pipx install gptme  # MCP support included by default\ngptme-mcp-server --tools shell,ipython,save,read",
       "language": "Python",
       "license": "MIT",
-      "stars": 4409,
+      "stars": 4410,
       "score": 117.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:08:52Z",
+      "pushedAt": "2026-09-05T03:40:40Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2556,7 +2520,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 717,
+      "rank": 719,
       "id": 897595329,
       "name": "basic-memory",
       "fullName": "basicmachines-co/basic-memory",
@@ -2576,10 +2540,10 @@
       "installCommand": "uv tool install basic-memory --prerelease=allow",
       "language": "Python",
       "license": "AGPL-3.0",
-      "stars": 3849,
+      "stars": 3858,
       "score": 116.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:55:02Z",
+      "pushedAt": "2026-09-04T21:42:14Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2599,7 +2563,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 719,
+      "rank": 721,
       "id": 736198723,
       "name": "neo-chat",
       "fullName": "u14app/neo-chat",
@@ -2619,7 +2583,7 @@
       "installCommand": "pnpm install\npnpm dev",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 1790,
+      "stars": 1791,
       "score": 116.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T04:11:15Z",
@@ -2638,7 +2602,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 721,
+      "rank": 722,
       "id": 1005553140,
       "name": "open-webSearch",
       "fullName": "Aas-ee/open-webSearch",
@@ -2658,7 +2622,7 @@
       "installCommand": "npx skills add https://github.com/Aas-ee/open-webSearch --skill open-websearch",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 1783,
+      "stars": 1787,
       "score": 116.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T01:25:34Z",
@@ -2678,7 +2642,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 768,
+      "rank": 763,
       "id": 1143312686,
       "name": "natively-cluely-ai-assistant",
       "fullName": "Natively-AI-assistant/natively-cluely-ai-assistant",
@@ -2698,10 +2662,10 @@
       "installCommand": "git clone https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant.git\ncd natively-cluely-ai-assistant",
       "language": "TypeScript",
       "license": "NOASSERTION",
-      "stars": 2424,
+      "stars": 2434,
       "score": 115.3,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T03:21:42Z",
+      "pushedAt": "2026-09-04T12:53:33Z",
       "sourceTopics": [
         "claude-skills"
       ],
@@ -2724,7 +2688,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 793,
+      "rank": 795,
       "id": 849121458,
       "name": "ReMe",
       "fullName": "agentscope-ai/ReMe",
@@ -2744,10 +2708,10 @@
       "installCommand": "pip install \"reme-ai[core]\"",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 3405,
+      "stars": 3411,
       "score": 114.8,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T06:06:39Z",
+      "pushedAt": "2026-09-04T16:53:33Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2785,7 +2749,7 @@
       "installCommand": "pip install evalscope\nevalscope eval --model your-model-name --api-url $OPENAI_API_BASE_URL --api-key $OPENAI_API_KEY --eval-type openai_api --datasets gsm8k --limit 5",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 3368,
+      "stars": 3372,
       "score": 114.7,
       "activity": "本周活跃",
       "pushedAt": "2026-09-01T09:57:53Z",
@@ -2806,15 +2770,15 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 813,
-      "id": 967062640,
-      "name": "EvoAgentX",
-      "fullName": "ANative-Lab/EvoAgentX",
-      "owner": "ANative-Lab",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/208961094?v=4",
-      "url": "https://github.com/ANative-Lab/EvoAgentX",
-      "description": "🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
-      "summary": "EvoAgentX：提供记忆、上下文管理或知识检索能力。适合在 Claude 相关工作流里先做选型判断。",
+      "rank": 810,
+      "id": 1182194959,
+      "name": "openhanako",
+      "fullName": "liliMozi/openhanako",
+      "owner": "liliMozi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/266472116?v=4",
+      "url": "https://github.com/liliMozi/openhanako",
+      "description": "A personal AI agent with memory, personality, and autonomy.",
+      "summary": "openhanako：一个拥有记忆、个性与自主性的个人 AI 代理。适合在 Claude、Codex 相关工作流里先做选型判断。",
       "category": "记忆与上下文",
       "categoryConfidence": "待复核",
       "scenarios": [
@@ -2823,29 +2787,30 @@
         "上下文管理"
       ],
       "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "pip install evoagentx",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "stars": 3303,
+      "installCommand": "npm install\nnpm start\nnpm run start:vite",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 6487,
       "score": 114.5,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-27T09:50:49Z",
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T23:18:20Z",
       "sourceTopics": [],
       "platforms": [
-        "Claude"
+        "Claude",
+        "Codex"
       ],
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/ANative-Lab/EvoAgentX",
-        "videoUrl": "https://www.youtube.com/watch?v=8ALcspHOe0o"
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/liliMozi/openhanako",
+        "videoUrl": ""
       },
-      "detailPath": "data/details/anative__lab__evoagentx.json",
+      "detailPath": "data/details/lilimozi__openhanako.json",
       "catalogStatus": "active",
       "catalogDelta": "stable"
     },
     {
-      "rank": 823,
+      "rank": 817,
       "id": 1144764199,
       "name": "ai-agents-from-zero",
       "fullName": "didilili/ai-agents-from-zero",
@@ -2865,8 +2830,8 @@
       "installCommand": "git clone https://github.com/didilili/ai-agents-from-zero.git\ncd ai-agents-from-zero",
       "language": "Python",
       "license": "MIT",
-      "stars": 4340,
-      "score": 114.3,
+      "stars": 4369,
+      "score": 114.4,
       "activity": "近期活跃",
       "pushedAt": "2026-06-23T16:29:23Z",
       "sourceTopics": [
@@ -2888,7 +2853,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 830,
+      "rank": 829,
       "id": 1082960574,
       "name": "letta-code",
       "fullName": "letta-ai/letta-code",
@@ -2908,10 +2873,10 @@
       "installCommand": "npm install -g @letta-ai/letta-code",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 3199,
+      "stars": 3207,
       "score": 114.2,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:32:52Z",
+      "pushedAt": "2026-09-05T04:28:01Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -2929,14 +2894,14 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 954,
+      "rank": 922,
       "id": 1258301311,
       "name": "oh-my-hermes",
       "fullName": "rlaope/oh-my-hermes",
       "owner": "rlaope",
       "avatarUrl": "https://avatars.githubusercontent.com/u/105429536?v=4",
       "url": "https://github.com/rlaope/oh-my-hermes",
-      "description": "Just install once. The engineering intelligence, a long-term memory system, optimized coding packages, only plugin for Hermes Agent ⚚ ",
+      "description": "Just install once. The coding intelligence, a long-term memory system, optimized workflow packages, only plugin for Hermes Agent ⚚ ",
       "summary": "oh-my-hermes：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex 相关工作流里先做选型判断。",
       "category": "记忆与上下文",
       "categoryConfidence": "高",
@@ -2949,10 +2914,10 @@
       "installCommand": "git clone https://github.com/rlaope/oh-my-hermes.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1365,
-      "score": 109.3,
+      "stars": 1448,
+      "score": 109.9,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:24:06Z",
+      "pushedAt": "2026-09-05T04:35:05Z",
       "sourceTopics": [
         "hermes-skill"
       ],
@@ -2971,7 +2936,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1006,
+      "rank": 1000,
       "id": 1020834440,
       "name": "Acontext",
       "fullName": "memodb-io/Acontext",
@@ -2991,7 +2956,7 @@
       "installCommand": "git clone https://github.com/memodb-io/Acontext.git",
       "language": "JavaScript",
       "license": "Apache-2.0",
-      "stars": 3679,
+      "stars": 3683,
       "score": 108.6,
       "activity": "近期活跃",
       "pushedAt": "2026-07-14T18:35:09Z",
@@ -3010,7 +2975,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1010,
+      "rank": 1002,
       "id": 1119531734,
       "name": "full-stack-ai-agent-template",
       "fullName": "vstorm-co/full-stack-ai-agent-template",
@@ -3030,7 +2995,7 @@
       "installCommand": "git clone https://github.com/vstorm-co/full-stack-ai-agent-template.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1872,
+      "stars": 1878,
       "score": 108.6,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T22:49:34Z",
@@ -3049,7 +3014,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1020,
+      "rank": 1013,
       "id": 876545970,
       "name": "video-search-and-summarization",
       "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
@@ -3072,7 +3037,7 @@
       "stars": 1845,
       "score": 108.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:30:49Z",
+      "pushedAt": "2026-09-05T04:06:25Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3088,7 +3053,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1022,
+      "rank": 1015,
       "id": 1205418973,
       "name": "hermes-hudui",
       "fullName": "joeynyc/hermes-hudui",
@@ -3108,10 +3073,10 @@
       "installCommand": "git clone https://github.com/joeynyc/hermes-hudui.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1837,
+      "stars": 1838,
       "score": 108.4,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T16:42:44Z",
+      "pushedAt": "2026-09-04T18:29:15Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3127,7 +3092,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1045,
+      "rank": 1038,
       "id": 996124831,
       "name": "WFGY",
       "fullName": "onestardao/WFGY",
@@ -3150,7 +3115,7 @@
       "stars": 1788,
       "score": 108.1,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T10:53:05Z",
+      "pushedAt": "2026-09-04T10:52:22Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3166,7 +3131,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1097,
+      "rank": 1082,
       "id": 1013866891,
       "name": "Datus-agent",
       "fullName": "Datus-ai/Datus-agent",
@@ -3186,10 +3151,10 @@
       "installCommand": "git clone https://github.com/Datus-ai/Datus-agent.git",
       "language": "Python",
       "license": "NOASSERTION",
-      "stars": 1690,
-      "score": 107.5,
+      "stars": 1697,
+      "score": 107.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T07:29:10Z",
+      "pushedAt": "2026-09-04T10:00:20Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3205,7 +3170,87 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1125,
+      "rank": 1086,
+      "id": 1330431542,
+      "name": "SkillCorpus",
+      "fullName": "EverMind-AI/SkillCorpus",
+      "owner": "EverMind-AI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/229275294?v=4",
+      "url": "https://github.com/EverMind-AI/SkillCorpus",
+      "description": "Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.",
+      "summary": "SkillCorpus：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "高",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/EverMind-AI/SkillCorpus.git",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 529,
+      "score": 107.6,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-02T12:40:37Z",
+      "sourceTopics": [
+        "skill-md"
+      ],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/EverMind-AI/SkillCorpus",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/evermind__ai__skillcorpus.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1089,
+      "id": 967062640,
+      "name": "EvoAgentX",
+      "fullName": "ANative-Lab/EvoAgentX",
+      "owner": "ANative-Lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/208961094?v=4",
+      "url": "https://github.com/ANative-Lab/EvoAgentX",
+      "description": "🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
+      "summary": "EvoAgentX：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/ANative-Lab/EvoAgentX.git",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 3308,
+      "score": 107.5,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-27T09:50:49Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/ANative-Lab/EvoAgentX",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/anative__lab__evoagentx.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1118,
       "id": 628172054,
       "name": "langchain-course",
       "fullName": "emarco177/langchain-course",
@@ -3244,7 +3289,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1128,
+      "rank": 1121,
       "id": 1127191351,
       "name": "interview-guide",
       "fullName": "Snailclimb/interview-guide",
@@ -3264,7 +3309,7 @@
       "installCommand": "git clone https://github.com/Snailclimb/interview-guide.git",
       "language": "Java",
       "license": "AGPL-3.0",
-      "stars": 3172,
+      "stars": 3180,
       "score": 107.1,
       "activity": "本月活跃",
       "pushedAt": "2026-08-14T10:38:10Z",
@@ -3283,7 +3328,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1133,
+      "rank": 1129,
       "id": 860188605,
       "name": "iwe",
       "fullName": "iwe-org/iwe",
@@ -3303,7 +3348,7 @@
       "installCommand": "git clone https://github.com/iwe-org/iwe.git",
       "language": "Rust",
       "license": "Apache-2.0",
-      "stars": 1614,
+      "stars": 1616,
       "score": 107.1,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T01:44:06Z",
@@ -3322,48 +3367,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1153,
-      "id": 1330431542,
-      "name": "SkillCorpus",
-      "fullName": "EverMind-AI/SkillCorpus",
-      "owner": "EverMind-AI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/229275294?v=4",
-      "url": "https://github.com/EverMind-AI/SkillCorpus",
-      "description": "Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.",
-      "summary": "SkillCorpus：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/EverMind-AI/SkillCorpus.git",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "stars": 494,
-      "score": 106.9,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-02T12:40:37Z",
-      "sourceTopics": [
-        "skill-md"
-      ],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/EverMind-AI/SkillCorpus",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/evermind__ai__skillcorpus.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1166,
+      "rank": 1158,
       "id": 1180971499,
       "name": "hope-agent",
       "fullName": "shiwenwen/hope-agent",
@@ -3383,10 +3387,10 @@
       "installCommand": "git clone https://github.com/shiwenwen/hope-agent.git",
       "language": "Rust",
       "license": "MIT",
-      "stars": 1555,
+      "stars": 1554,
       "score": 106.7,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:00:49Z",
+      "pushedAt": "2026-09-05T02:44:14Z",
       "sourceTopics": [],
       "platforms": [
         "Claude",
@@ -3405,7 +3409,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1177,
+      "rank": 1170,
       "id": 1117470788,
       "name": "ai-system-design-guide",
       "fullName": "ombharatiya/ai-system-design-guide",
@@ -3425,7 +3429,7 @@
       "installCommand": "git clone https://github.com/ombharatiya/ai-system-design-guide.git",
       "language": "",
       "license": "MIT",
-      "stars": 3003,
+      "stars": 3008,
       "score": 106.5,
       "activity": "本月活跃",
       "pushedAt": "2026-08-15T17:36:14Z",
@@ -3442,10 +3446,10 @@
       },
       "detailPath": "data/details/ombharatiya__ai__system__design__guide.json",
       "catalogStatus": "active",
-      "catalogDelta": "new"
+      "catalogDelta": "stable"
     },
     {
-      "rank": 1189,
+      "rank": 1180,
       "id": 863930645,
       "name": "npcpy",
       "fullName": "NPC-Worldwide/npcpy",
@@ -3465,7 +3469,7 @@
       "installCommand": "git clone https://github.com/NPC-Worldwide/npcpy.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 1496,
+      "stars": 1497,
       "score": 106.3,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T04:24:33Z",
@@ -3484,7 +3488,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1194,
+      "rank": 1183,
       "id": 201403923,
       "name": "deeplake",
       "fullName": "activeloopai/deeplake",
@@ -3525,7 +3529,46 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1318,
+      "rank": 1307,
+      "id": 1278033467,
+      "name": "MindMemOS",
+      "fullName": "mindscale-noah/MindMemOS",
+      "owner": "mindscale-noah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/296153438?v=4",
+      "url": "https://github.com/mindscale-noah/MindMemOS",
+      "description": "",
+      "summary": "MindMemOS：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/mindscale-noah/MindMemOS.git",
+      "language": "Python",
+      "license": "",
+      "stars": 977,
+      "score": 101.9,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-02T11:32:00Z",
+      "sourceTopics": [],
+      "platforms": [
+        "OpenClaw"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/mindscale-noah/MindMemOS",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/mindscale__noah__mindmemos.json",
+      "catalogStatus": "active",
+      "catalogDelta": "stable"
+    },
+    {
+      "rank": 1311,
       "id": 1176766671,
       "name": "MindOS",
       "fullName": "GeminiLight/MindOS",
@@ -3545,7 +3588,7 @@
       "installCommand": "git clone https://github.com/GeminiLight/MindOS.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 664,
+      "stars": 666,
       "score": 101.9,
       "activity": "本周活跃",
       "pushedAt": "2026-09-03T11:38:44Z",
@@ -3566,46 +3609,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1324,
-      "id": 1278033467,
-      "name": "MindMemOS",
-      "fullName": "mindscale-noah/MindMemOS",
-      "owner": "mindscale-noah",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/296153438?v=4",
-      "url": "https://github.com/mindscale-noah/MindMemOS",
-      "description": "",
-      "summary": "MindMemOS：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
-      "category": "记忆与上下文",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "长期任务",
-        "跨会话续接",
-        "上下文管理"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/mindscale-noah/MindMemOS.git",
-      "language": "Python",
-      "license": "",
-      "stars": 975,
-      "score": 101.8,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-02T11:32:00Z",
-      "sourceTopics": [],
-      "platforms": [
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/mindscale-noah/MindMemOS",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/mindscale__noah__mindmemos.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 1327,
+      "rank": 1316,
       "id": 971399370,
       "name": "OpenDerisk",
       "fullName": "derisk-ai/OpenDerisk",
@@ -3644,7 +3648,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1330,
+      "rank": 1319,
       "id": 845116230,
       "name": "AgentChat",
       "fullName": "Shy2593666979/AgentChat",
@@ -3664,7 +3668,7 @@
       "installCommand": "git clone https://github.com/Shy2593666979/AgentChat.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 880,
+      "stars": 881,
       "score": 101.8,
       "activity": "本月活跃",
       "pushedAt": "2026-08-27T02:14:06Z",
@@ -3683,7 +3687,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1355,
+      "rank": 1340,
       "id": 1093180734,
       "name": "powercontext",
       "fullName": "oceanbase/powercontext",
@@ -3703,10 +3707,10 @@
       "installCommand": "git clone https://github.com/oceanbase/powercontext.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 939,
+      "stars": 943,
       "score": 101.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-04T04:04:20Z",
+      "pushedAt": "2026-09-05T01:22:14Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3722,7 +3726,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1414,
+      "rank": 1399,
       "id": 1016903129,
       "name": "nuwax",
       "fullName": "nuwax-ai/nuwax",
@@ -3742,10 +3746,10 @@
       "installCommand": "git clone https://github.com/nuwax-ai/nuwax.git",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "stars": 878,
+      "stars": 879,
       "score": 100.8,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T11:05:21Z",
+      "pushedAt": "2026-09-04T12:18:55Z",
       "sourceTopics": [],
       "platforms": [
         "Agent Skills"
@@ -3761,7 +3765,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1425,
+      "rank": 1410,
       "id": 1189518533,
       "name": "LycheeMem",
       "fullName": "LycheeMem/LycheeMem",
@@ -3781,7 +3785,7 @@
       "installCommand": "git clone https://github.com/LycheeMem/LycheeMem.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 1151,
+      "stars": 1152,
       "score": 100.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-06T14:54:11Z",
@@ -3802,7 +3806,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1442,
+      "rank": 1425,
       "id": 1111263109,
       "name": "NornicDB",
       "fullName": "orneryd/NornicDB",
@@ -3822,7 +3826,7 @@
       "installCommand": "git clone https://github.com/orneryd/NornicDB.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 856,
+      "stars": 858,
       "score": 100.5,
       "activity": "本周活跃",
       "pushedAt": "2026-09-04T03:29:38Z",
@@ -3841,7 +3845,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1446,
+      "rank": 1432,
       "id": 157351558,
       "name": "neo4j-python-pandas-py2neo-v3",
       "fullName": "MazzaWill/neo4j-python-pandas-py2neo-v3",
@@ -3882,7 +3886,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1454,
+      "rank": 1442,
       "id": 1115116808,
       "name": "SuperMew",
       "fullName": "icey1287/SuperMew",
@@ -3921,7 +3925,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1479,
+      "rank": 1464,
       "id": 1187817252,
       "name": "My-Brain-Is-Full-Crew",
       "fullName": "gnekt/My-Brain-Is-Full-Crew",
@@ -3941,7 +3945,7 @@
       "installCommand": "git clone https://github.com/gnekt/My-Brain-Is-Full-Crew.git",
       "language": "Shell",
       "license": "NOASSERTION",
-      "stars": 3488,
+      "stars": 3490,
       "score": 100.1,
       "activity": "近期活跃",
       "pushedAt": "2026-06-27T09:38:17Z",
@@ -3960,7 +3964,46 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1574,
+      "rank": 1480,
+      "id": 1029077391,
+      "name": "AlphaAvatar",
+      "fullName": "AlphaAvatar/AlphaAvatar",
+      "owner": "AlphaAvatar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40850672?v=4",
+      "url": "https://github.com/AlphaAvatar/AlphaAvatar",
+      "description": "A real-time interactive Omni Avatar built on LiveKit, which allows you to seamlessly integrate with any open source Avatar components (real-time model, visual, voice, memory, search, etc.).",
+      "summary": "AlphaAvatar：基于 LiveKit 构建的实时交互式全人偶，可无缝集成任意开源人偶组件（实时模型、视觉、语音、记忆、搜索等）。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "记忆与上下文",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "长期任务",
+        "跨会话续接",
+        "上下文管理"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/AlphaAvatar/AlphaAvatar.git",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 812,
+      "score": 100,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-02T19:02:31Z",
+      "sourceTopics": [],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/AlphaAvatar/AlphaAvatar",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/alphaavatar__alphaavatar.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 1555,
       "id": 1175490580,
       "name": "aiden",
       "fullName": "taracodlabs/aiden",
@@ -4001,7 +4044,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1575,
+      "rank": 1556,
       "id": 1017069970,
       "name": "PRD-driven-context-engineering",
       "fullName": "mattgierhart/PRD-driven-context-engineering",
@@ -4042,7 +4085,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1618,
+      "rank": 1601,
       "id": 1335084025,
       "name": "claude-db",
       "fullName": "Avijit07x/claude-db",
@@ -4084,7 +4127,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1662,
+      "rank": 1644,
       "id": 1178834224,
       "name": "ScienceClaw",
       "fullName": "beita6969/ScienceClaw",
@@ -4104,7 +4147,7 @@
       "installCommand": "git clone https://github.com/beita6969/ScienceClaw.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 891,
+      "stars": 892,
       "score": 93.9,
       "activity": "近期活跃",
       "pushedAt": "2026-06-08T13:27:28Z",
@@ -4123,7 +4166,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1675,
+      "rank": 1650,
       "id": 1230293192,
       "name": "gini-agent",
       "fullName": "Open-Curiosity/gini-agent",
@@ -4143,8 +4186,8 @@
       "installCommand": "git clone https://github.com/Open-Curiosity/gini-agent.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 1881,
-      "score": 93.6,
+      "stars": 1917,
+      "score": 93.8,
       "activity": "近期活跃",
       "pushedAt": "2026-07-18T05:15:42Z",
       "sourceTopics": [],
@@ -4162,7 +4205,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1678,
+      "rank": 1661,
       "id": 893062061,
       "name": "awesome-ai-memory",
       "fullName": "topoteretes/awesome-ai-memory",
@@ -4182,7 +4225,7 @@
       "installCommand": "git clone https://github.com/topoteretes/awesome-ai-memory.git",
       "language": "Python",
       "license": "Apache-2.0",
-      "stars": 866,
+      "stars": 868,
       "score": 93.6,
       "activity": "本月活跃",
       "pushedAt": "2026-08-24T11:50:23Z",
@@ -4201,7 +4244,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1713,
+      "rank": 1693,
       "id": 798484719,
       "name": "llms-dev-study",
       "fullName": "limouren2000/llms-dev-study",
@@ -4221,8 +4264,8 @@
       "installCommand": "git clone https://github.com/limouren2000/llms-dev-study.git",
       "language": "Jupyter Notebook",
       "license": "",
-      "stars": 817,
-      "score": 93,
+      "stars": 820,
+      "score": 93.1,
       "activity": "本月活跃",
       "pushedAt": "2026-08-10T06:27:25Z",
       "sourceTopics": [],
@@ -4240,7 +4283,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1966,
+      "rank": 1952,
       "id": 1350932288,
       "name": "lizheng-open-context",
       "fullName": "sunyuzheng/lizheng-open-context",
@@ -4260,8 +4303,8 @@
       "installCommand": "git clone https://github.com/sunyuzheng/lizheng-open-context.git",
       "language": "Python",
       "license": "MIT",
-      "stars": 91,
-      "score": 82.1,
+      "stars": 93,
+      "score": 82.3,
       "activity": "本周活跃",
       "pushedAt": "2026-08-31T14:15:57Z",
       "sourceTopics": [
@@ -4281,7 +4324,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1994,
+      "rank": 1982,
       "id": 1175333084,
       "name": "cursor-handbook",
       "fullName": "girijashankarj/cursor-handbook",
@@ -4323,7 +4366,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1998,
+      "rank": 1985,
       "id": 1209051241,
       "name": "recall-loom",
       "fullName": "Frappucc1no/recall-loom",
@@ -4366,7 +4409,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2061,
+      "rank": 2045,
       "id": 1312077672,
       "name": "zhigui-openclaw-ui-second-brain-skill",
       "fullName": "CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
@@ -4407,7 +4450,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2103,
+      "rank": 2088,
       "id": 1205116781,
       "name": "relic.skill",
       "fullName": "Ylsssq926/relic.skill",
@@ -4451,7 +4494,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2135,
+      "rank": 2124,
       "id": 1207011016,
       "name": "claude-canvas",
       "fullName": "AgriciDaniel/claude-canvas",
@@ -4492,7 +4535,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2137,
+      "rank": 2126,
       "id": 1145738297,
       "name": "Nemp-memory",
       "fullName": "SukinShetty/Nemp-memory",
@@ -4534,7 +4577,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2147,
+      "rank": 2134,
       "id": 1171517400,
       "name": "claude-prime",
       "fullName": "avibebuilder/claude-prime",
@@ -4575,7 +4618,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 2206,
+      "rank": 2197,
       "id": 1081551511,
       "name": "project-memory",
       "fullName": "SpillwaveSolutions/project-memory",

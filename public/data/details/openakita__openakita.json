@@ -1,5 +1,5 @@
 {
-  "rank": 923,
+  "rank": 674,
   "id": 1146153471,
   "name": "openakita",
   "fullName": "openakita/openakita",
@@ -8,7 +8,7 @@
   "url": "https://github.com/openakita/openakita",
   "homepage": "http://openakita.ai",
   "description": "An open-source AI assistant framework with skills and agent architecture",
-  "summary": "openakita：支持技能与智能体架构的开源 AI 助手框架。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "openakita：支持技能与智能体架构的开源 AI 助手框架。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/openakita/openakita.git",
+  "installCommand": "pip install openakita[all]\nopenakita init\nopenakita run \"Build a weather scraper\"",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 1978,
+  "stars": 1979,
   "forks": 275,
-  "openIssues": 48,
-  "score": 110.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-14T02:58:23Z",
-  "updatedAt": "2026-09-02T17:57:05Z",
+  "openIssues": 46,
+  "score": 117.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-05T04:23:08Z",
+  "updatedAt": "2026-09-05T04:17:03Z",
   "createdAt": "2026-01-30T17:36:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,13 +46,14 @@
     "python"
   ],
   "platforms": [
+    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/openakita/openakita",
-    "videoUrl": ""
+    "videoUrl": "https://www.bilibili.com/video/BV1psP5zTEE7"
   },
   "readmeUrl": "https://github.com/openakita/openakita#readme",
   "detailPath": "data/details/openakita__openakita.json",
@@ -78,13 +79,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "f43780c8148a7d8c",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "18d0e143c6a08593",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openakita：支持技能与智能体架构的开源 AI 助手框架。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "openakita：支持技能与智能体架构的开源 AI 助手框架。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "openakita 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -102,7 +103,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

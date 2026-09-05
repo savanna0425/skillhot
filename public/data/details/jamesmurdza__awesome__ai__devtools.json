@@ -1,5 +1,5 @@
 {
-  "rank": 710,
+  "rank": 945,
   "id": 674164679,
   "name": "awesome-ai-devtools",
   "fullName": "jamesmurdza/awesome-ai-devtools",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jamesmurdza/awesome-ai-devtools",
   "homepage": "",
   "description": "Curated list of AI-powered developer tools.",
-  "summary": "awesome-ai-devtools 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-ai-devtools 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jamesmurdza/awesome-ai-devtools.git",
   "language": "",
   "license": "",
-  "stars": 3927,
+  "stars": 3931,
   "forks": 969,
-  "openIssues": 281,
-  "score": 116.3,
-  "activity": "本周活跃",
+  "openIssues": 282,
+  "score": 109.3,
+  "activity": "本月活跃",
   "pushedAt": "2026-08-27T15:25:27Z",
-  "updatedAt": "2026-09-03T15:51:55Z",
+  "updatedAt": "2026-09-05T01:39:03Z",
   "createdAt": "2023-08-03T09:36:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,12 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "Antigravity"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -73,13 +68,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-04T04:42:01.041Z",
-    "sourceHash": "dde1c4446ebeb015",
+    "generatedAt": "2026-09-05T04:37:58.670Z",
+    "sourceHash": "4de0aaff5036e194",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-ai-devtools 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-ai-devtools 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-ai-devtools 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -97,7 +92,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
