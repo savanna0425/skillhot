@@ -1,5 +1,5 @@
 {
-  "rank": 1551,
+  "rank": 1546,
   "id": 1163756223,
   "name": "late-cli",
   "fullName": "mlhher/late-cli",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/263016422?v=4",
   "url": "https://github.com/mlhher/late-cli",
   "homepage": "",
-  "description": "Autonomous AI dev agent in pure Go. Enforced ephemeral subagents keep context small. Getting real work done on consumer hardware.",
-  "summary": "late-cli：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "description": "Autonomous AI dev agent in pure Go built on empirical research. Enforced ephemeral subagents prevent context degradation. Get real work done on consumer hardware.",
+  "summary": "late-cli：支持资料研究、知识检索或学习任务。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "category": "研究学习",
+  "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "资料调研",
+    "知识检索",
+    "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/mlhher/late-cli.git",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 415,
+  "stars": 418,
   "forks": 43,
   "openIssues": 7,
-  "score": 97.1,
+  "score": 97.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T23:12:21Z",
-  "updatedAt": "2026-09-04T19:48:59Z",
+  "pushedAt": "2026-09-05T19:52:31Z",
+  "updatedAt": "2026-09-06T03:15:19Z",
   "createdAt": "2026-02-22T05:00:28Z",
   "sourceTopics": [
     "ai-skills"
@@ -73,18 +73,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "late-cli 聚焦软件开发、代码质量与工程交付。",
+    "summary": "late-cli 支持资料研究、知识检索或学习任务。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "资料调研",
+      "知识检索",
+      "学习与推理"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -92,51 +92,51 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "33974c3d89a8a30d",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "29a7caa1cdbddb73",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "late-cli：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "late-cli 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "late-cli：支持资料研究、知识检索或学习任务。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "late-cli 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
-      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
-      "团队希望把开发经验沉淀成可重复执行的能力。",
-      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
+      "资料、论文、课程或知识点太分散，整理成本高。",
+      "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
+      "学习或调研需要从大量材料中快速建立脉络。",
+      "如果你的任务和「资料调研」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
-      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
-      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
+      "辅助完成资料检索、文献阅读、知识整理、推理或学习计划。",
+      "把研究问题拆成可追踪、可复核的步骤。",
+      "帮助你判断它是否适合当前研究主题。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
-      "需要让 Agent 参与真实工程任务的团队。",
-      "想把开发流程标准化、可复盘的人。",
+      "学生、研究者、知识工作者和需要快速调研的人。",
+      "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
+      "需要把研究过程沉淀成固定流程的团队。",
       "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想找一个无需配置的成品 SaaS 工具的人。",
-      "不打算让 Agent 参与代码或工程流程的人。"
+      "把输出直接当作学术结论、医疗建议或投资建议的人。",
+      "不愿核对来源和原文的人。"
     ],
     "howItWorks": [
-      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
-      "Agent 会根据仓库提供的方法处理具体开发任务。",
-      "最终质量仍需要你用测试、构建和代码评审来确认。",
+      "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
+      "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
+      "可信度取决于来源质量和你的人工复核。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先读 README 的安装步骤和示例任务。",
-      "在一个小仓库或低风险分支中试用。",
-      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
+      "先用一个小主题测试它的资料组织方式。",
+      "确认输出是否保留来源、链接或可追溯线索。",
+      "再用于正式论文、报告或学习项目。"
     ],
     "expectedOutcome": [
-      "开发流程更有章法，长任务更不容易散。",
-      "重复性的工程经验可以被复用。",
-      "你能更快判断一个仓库是否值得投入时间试用。"
+      "更快看清一个主题的主要脉络。",
+      "阅读和整理资料的重复劳动减少。",
+      "学习或研究过程更容易复盘。"
     ],
     "caveats": [
       "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",

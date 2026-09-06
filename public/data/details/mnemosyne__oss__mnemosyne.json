@@ -1,14 +1,14 @@
 {
-  "rank": 1283,
-  "id": 1293608593,
-  "name": "Dormice",
-  "fullName": "BitMiracle-AI/Dormice",
-  "owner": "BitMiracle-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/287932844?v=4",
-  "url": "https://github.com/BitMiracle-AI/Dormice",
-  "homepage": "",
-  "description": "The SQLite of agent sandboxes — self-hosted, E2B-compatible. One machine, sandboxes that live forever, idle costs nothing.",
-  "summary": "Dormice：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 867,
+  "id": 1202070696,
+  "name": "mnemosyne",
+  "fullName": "mnemosyne-oss/mnemosyne",
+  "owner": "mnemosyne-oss",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/297304183?v=4",
+  "url": "https://github.com/mnemosyne-oss/mnemosyne",
+  "homepage": "https://mnemosyne.site",
+  "description": "Zero-cloud AI memory that works everywhere. SQLite-backed. One pure-Python dependency.",
+  "summary": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,30 +19,28 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/BitMiracle-AI/Dormice.git",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 996,
-  "forks": 72,
-  "openIssues": 66,
-  "score": 102.1,
+  "installCommand": "git clone https://github.com/mnemosyne-oss/mnemosyne.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 3002,
+  "forks": 240,
+  "openIssues": 126,
+  "score": 113.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-01T08:17:43Z",
-  "updatedAt": "2026-09-05T02:20:35Z",
-  "createdAt": "2026-07-08T13:02:44Z",
+  "pushedAt": "2026-09-05T12:03:50Z",
+  "updatedAt": "2026-09-06T04:41:06Z",
+  "createdAt": "2026-04-05T14:59:04Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agents",
-    "ai-agents",
-    "code-execution",
-    "docker",
-    "e2b",
-    "gvisor",
-    "sandbox",
-    "self-hosted"
+    "ai",
+    "hermes",
+    "hermes-agent",
+    "ml",
+    "nousresearch"
   ],
   "platforms": [
     "Agent Skills"
@@ -50,15 +48,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/BitMiracle-AI/Dormice",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mnemosyne-oss/mnemosyne",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/BitMiracle-AI/Dormice#readme",
-  "detailPath": "data/details/bitmiracle__ai__dormice.json",
+  "readmeUrl": "https://github.com/mnemosyne-oss/mnemosyne#readme",
+  "detailPath": "data/details/mnemosyne__oss__mnemosyne.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Dormice：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -74,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "a8e305676373ffa9",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "5f0392e65fcb72f5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Dormice：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Dormice 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "mnemosyne 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -124,7 +122,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

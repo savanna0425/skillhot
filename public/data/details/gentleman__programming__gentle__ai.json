@@ -1,5 +1,5 @@
 {
-  "rank": 539,
+  "rank": 266,
   "id": 1168900408,
   "name": "gentle-ai",
   "fullName": "Gentleman-Programming/gentle-ai",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97131605?v=4",
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "description": "",
-  "summary": "gentle-ai：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+  "summary": "gentle-ai：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -22,19 +22,39 @@
   "installCommand": "brew tap gentleman-programming/tap\nbrew trust --formula gentleman-programming/tap/gentle-ai  # one-time, if Homebrew requires trust\nbrew install gentle-ai",
   "language": "Go",
   "license": "MIT",
-  "stars": 6258,
-  "forks": 721,
-  "openIssues": 936,
-  "score": 121.1,
+  "stars": 6299,
+  "forks": 723,
+  "openIssues": 882,
+  "score": 133.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T21:54:52Z",
-  "updatedAt": "2026-09-05T04:07:01Z",
+  "pushedAt": "2026-09-06T03:18:56Z",
+  "updatedAt": "2026-09-06T04:40:29Z",
   "createdAt": "2026-02-27T23:28:01Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-coding",
+    "claude-code",
+    "code-review",
+    "codex",
+    "coding-agents",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "golang",
+    "llm",
+    "mcp",
+    "opencode",
+    "persistent-memory",
+    "spec-driven-development"
+  ],
   "platforms": [
     "Claude",
     "Codex",
@@ -54,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "gentle-ai 的作者尚未提供足够简介，请查看 README 了解具体用途",
+    "summary": "gentle-ai 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -73,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "0912e5b3eab15fa3",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "6acabc68b6be9509",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gentle-ai：的作者尚未提供足够简介，请查看 README 了解具体用途。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "gentle-ai：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "gentle-ai 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1918,
+  "rank": 1831,
   "id": 1200344086,
   "name": "trace-mcp",
   "fullName": "nikolai-vysotskyi/trace-mcp",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/36617970?v=4",
   "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
   "homepage": "https://trace-mcp.com",
-  "description": "MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration",
+  "description": "Framework-aware code intelligence MCP server for Claude Code and Codex — 90.6% fewer input tokens to review a pull request, median over 60 merged PRs in repos we don't own. 81 languages, 87 frameworks, 100% local.",
   "summary": "trace-mcp：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/nikolai-vysotskyi/trace-mcp.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 112,
-  "forks": 16,
-  "openIssues": 1,
-  "score": 84.1,
+  "stars": 148,
+  "forks": 19,
+  "openIssues": 6,
+  "score": 86.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T04:21:53Z",
-  "updatedAt": "2026-09-05T04:21:42Z",
+  "pushedAt": "2026-09-06T04:41:27Z",
+  "updatedAt": "2026-09-06T04:45:20Z",
   "createdAt": "2026-04-03T09:54:03Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -92,8 +92,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "7edeaf5d57a49916",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "7ca292f62ef6205b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

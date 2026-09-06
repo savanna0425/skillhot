@@ -1,5 +1,5 @@
 {
-  "rank": 506,
+  "rank": 512,
   "id": 1167732163,
   "name": "SocratiCode",
   "fullName": "giancarloerra/SocratiCode",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "> **Updating:** `npx` caches the package after the first run. To get the latest version, clear the cache and restart your MCP host: `rm -rf ~/.npm/_npx && claude mcp restart socraticode`. Alternatively, use `npx -y socraticode@latest` in your config to always check for updates on startup (slightly slower).\n**OpenCode** — add to your `opencode.json` (or `open",
+  "installCommand": "claude plugin marketplace add giancarloerra/socraticode\nclaude plugin install --scope user socraticode@socraticode\nclaude plugin list",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 3286,
-  "forks": 418,
-  "openIssues": 5,
+  "stars": 3287,
+  "forks": 419,
+  "openIssues": 4,
   "score": 122.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T00:08:55Z",
-  "updatedAt": "2026-09-05T00:09:01Z",
+  "pushedAt": "2026-09-05T23:59:10Z",
+  "updatedAt": "2026-09-05T23:59:15Z",
   "createdAt": "2026-02-26T16:12:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -61,7 +61,6 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "GitHub Copilot",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -94,8 +93,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "eb28e06b4cb5ac27",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "962645031b249d0a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

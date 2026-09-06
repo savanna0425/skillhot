@@ -1,5 +1,5 @@
 {
-  "rank": 346,
+  "rank": 347,
   "id": 1174224707,
   "name": "avoid-ai-writing",
   "fullName": "conorbronsdon/avoid-ai-writing",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills@1.5.23 add conorbronsdon/avoid-ai-writing",
+  "installCommand": "git clone https://github.com/conorbronsdon/avoid-ai-writing ~/.claude/skills/avoid-ai-writing",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 4104,
+  "stars": 4135,
   "forks": 349,
-  "openIssues": 22,
-  "score": 128.7,
+  "openIssues": 16,
+  "score": 128.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T02:33:37Z",
-  "updatedAt": "2026-09-05T03:25:23Z",
+  "pushedAt": "2026-09-06T03:03:43Z",
+  "updatedAt": "2026-09-06T03:13:03Z",
   "createdAt": "2026-03-06T07:47:40Z",
   "sourceTopics": [
     "skill"
@@ -51,6 +51,7 @@
     "Claude",
     "Codex",
     "Cursor",
+    "GitHub Copilot",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -83,8 +84,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "a93ef9e66fa9740a",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "44bd18ed7806af31",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

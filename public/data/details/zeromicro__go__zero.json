@@ -19,16 +19,16 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zeromicro/mcp-zero.git && cd mcp-zero && go build",
+  "installCommand": "go install github.com/zeromicro/go-zero/tools/goctl@latest\nbrew install goctl\ndocker pull kevinwan/goctl",
   "language": "Go",
   "license": "MIT",
-  "stars": 33307,
+  "stars": 33308,
   "forks": 4316,
-  "openIssues": 252,
+  "openIssues": 247,
   "score": 138.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T03:35:52Z",
-  "updatedAt": "2026-09-05T03:33:07Z",
+  "pushedAt": "2026-09-05T13:50:34Z",
+  "updatedAt": "2026-09-05T13:50:40Z",
   "createdAt": "2020-08-07T15:37:57Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "caba8e42f7a30cab",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "e55f2cead5e52fa2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

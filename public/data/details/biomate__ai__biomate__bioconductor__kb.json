@@ -1,14 +1,14 @@
 {
-  "rank": 2230,
-  "id": 1179142036,
-  "name": "AI-bounty-skill",
-  "fullName": "aelf-hzz780/AI-bounty-skill",
-  "owner": "aelf-hzz780",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/169963497?v=4",
-  "url": "https://github.com/aelf-hzz780/AI-bounty-skill",
+  "rank": 1709,
+  "id": 1250860168,
+  "name": "biomate-bioconductor-kb",
+  "fullName": "bioMate-AI/biomate-bioconductor-kb",
+  "owner": "bioMate-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/225787057?v=4",
+  "url": "https://github.com/bioMate-AI/biomate-bioconductor-kb",
   "homepage": "",
-  "description": "Public Codex skill for claiming AI bounty on aelf tDVV via RewardClaimContract, supporting EOA Claim() and Portkey CA ClaimByPortkeyToCa().",
-  "summary": "AI-bounty-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "BioMate-KB Bioconductor Skills — 200 packages (top 100 by downloads + 100 rising stars) as vignette-grounded Claude/agent skills, with per-package workflow recipes",
+  "summary": "biomate-bioconductor-kb：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,50 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/aelf-hzz780/AI-bounty-skill.git",
-  "language": "",
-  "license": "",
-  "stars": 69,
-  "forks": 4,
+  "installCommand": "git clone https://github.com/bioMate-AI/biomate-bioconductor-kb.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 810,
+  "forks": 67,
   "openIssues": 0,
-  "score": 64.5,
-  "activity": "活跃",
-  "pushedAt": "2026-03-31T09:16:48Z",
-  "updatedAt": "2026-04-08T07:00:42Z",
-  "createdAt": "2026-03-11T18:21:47Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "score": 92.9,
+  "activity": "近期活跃",
+  "pushedAt": "2026-06-20T19:51:00Z",
+  "updatedAt": "2026-09-03T07:31:00Z",
+  "createdAt": "2026-05-27T03:10:25Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "aelf",
-    "agent-skill",
-    "blockchain",
-    "claude-code-skill",
-    "claude-skills",
-    "codex-skill",
-    "portkey",
-    "reward-claim",
-    "wallet"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aelf-hzz780/AI-bounty-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bioMate-AI/biomate-bioconductor-kb",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aelf-hzz780/AI-bounty-skill#readme",
-  "detailPath": "data/details/aelf__hzz780__ai__bounty__skill.json",
+  "readmeUrl": "https://github.com/bioMate-AI/biomate-bioconductor-kb#readme",
+  "detailPath": "data/details/biomate__ai__biomate__bioconductor__kb.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AI-bounty-skill：尚未归入主要类别的实用项目。",
+    "summary": "biomate-bioconductor-kb：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -78,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "cac9fa4f7de06298",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "15a0dd9b4ece2763",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-bounty-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "AI-bounty-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "biomate-bioconductor-kb：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "biomate-bioconductor-kb 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -105,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -128,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

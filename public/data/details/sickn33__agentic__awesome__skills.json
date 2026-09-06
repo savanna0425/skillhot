@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@16.7.0 -- \\\nagentic-awesome-skills --release 16.7.0 --path .agents/skills \\\n--skills brainstorming,systematic-debugging --dry-run",
+  "installCommand": "npm exec --yes --ignore-scripts --package=agentic-awesome-skills@16.8.0 -- \\\nagentic-awesome-skills --release 16.8.0 --path .agents/skills \\\n--skills brainstorming,systematic-debugging --dry-run",
   "language": "Python",
   "license": "MIT",
-  "stars": 45985,
-  "forks": 6717,
-  "openIssues": 3,
+  "stars": 46027,
+  "forks": 6727,
+  "openIssues": 2,
   "score": 165.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T03:01:52Z",
-  "updatedAt": "2026-09-05T04:30:04Z",
+  "pushedAt": "2026-09-05T17:53:02Z",
+  "updatedAt": "2026-09-06T04:16:45Z",
   "createdAt": "2026-01-14T17:48:09Z",
   "sourceTopics": [
     "agent-skills",
@@ -73,7 +73,7 @@
     "GitHub Copilot",
     "OpenCode"
   ],
-  "skillCount": 2111,
+  "skillCount": 2113,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/sickn33/agentic-awesome-skills",
@@ -103,8 +103,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "ee19c1ebc86a5e54",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "748f3558f066f65e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -137,7 +137,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 2111+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 2113+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

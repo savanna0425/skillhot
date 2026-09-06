@@ -1,17 +1,17 @@
 {
-  "rank": 1326,
-  "id": 1262142501,
-  "name": "GordenSuperPPTSkills",
-  "fullName": "GordenSun/GordenSuperPPTSkills",
-  "owner": "GordenSun",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3281492?v=4",
-  "url": "https://github.com/GordenSun/GordenSuperPPTSkills",
-  "homepage": "",
-  "description": "AI PPT赛道终结者，史上最最最强 PPT Skill！！！  使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。",
-  "summary": "GordenSuperPPTSkills：AI PPT赛道终结者，史上最最最强 PPT Skill！！！ 使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 589,
+  "id": 1191930807,
+  "name": "remove-ai-watermarks",
+  "fullName": "wiltodelta/remove-ai-watermarks",
+  "owner": "wiltodelta",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1192743?v=4",
+  "url": "https://github.com/wiltodelta/remove-ai-watermarks",
+  "homepage": "https://raiw.cc",
+  "description": "Remove visible and invisible AI watermarks and provenance metadata from images and video. Python library and CLI for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.",
+  "summary": "remove-ai-watermarks 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,63 +19,84 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/GordenSun/GordenSuperPPTSkills.git",
+  "installCommand": "uv tool install remove-ai-watermarks",
   "language": "Python",
-  "license": "",
-  "stars": 1869,
-  "forks": 161,
+  "license": "Apache-2.0",
+  "stars": 5422,
+  "forks": 508,
   "openIssues": 2,
-  "score": 101.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-07T16:26:51Z",
-  "updatedAt": "2026-09-05T02:08:32Z",
-  "createdAt": "2026-06-07T16:20:13Z",
+  "score": 119.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-05T20:43:15Z",
+  "updatedAt": "2026-09-06T04:24:12Z",
+  "createdAt": "2026-03-25T18:15:24Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai-watermark",
+    "c2pa",
+    "cli",
+    "comfyui",
+    "computer-vision",
+    "content-credentials",
+    "diffusion-models",
+    "exif",
+    "flux",
+    "gemini",
+    "generative-ai",
+    "image-processing",
+    "metadata",
+    "nano-banana",
+    "python",
+    "stable-diffusion",
+    "synthid",
+    "video-processing",
+    "watermark-removal",
+    "watermark-remover"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/GordenSun/GordenSuperPPTSkills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wiltodelta/remove-ai-watermarks",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/GordenSun/GordenSuperPPTSkills#readme",
-  "detailPath": "data/details/gordensun__gordensuperpptskills.json",
+  "readmeUrl": "https://github.com/wiltodelta/remove-ai-watermarks#readme",
+  "detailPath": "data/details/wiltodelta__remove__ai__watermarks.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AI PPT赛道终结者，史上最最最强 PPT Skill！！！ 使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。",
+    "summary": "remove-ai-watermarks：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
       "多媒体工作流"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "50add7628cbe9e2e",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "b011a2475058b0d2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GordenSuperPPTSkills：AI PPT赛道终结者，史上最最最强 PPT Skill！！！ 使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "GordenSuperPPTSkills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "remove-ai-watermarks 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "remove-ai-watermarks 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -92,7 +113,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -115,7 +136,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 2213,
-  "id": 1353615187,
-  "name": "skill-boilerplate",
-  "fullName": "colomet/skill-boilerplate",
-  "owner": "colomet",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3929177?v=4",
-  "url": "https://github.com/colomet/skill-boilerplate",
-  "homepage": "",
-  "description": "A starting point for building Claude Skills that doesn't bake in someone else's conventions. A setup wizard asks how you name, version and lay out skills, then generates a skill-creator with your answers.",
-  "summary": "skill-boilerplate：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2193,
+  "id": 1354628436,
+  "name": "project-management-skill",
+  "fullName": "naxandros-pixel/project-management-skill",
+  "owner": "naxandros-pixel",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/314994446?v=4",
+  "url": "https://github.com/naxandros-pixel/project-management-skill",
+  "homepage": "https://sergeit.it",
+  "description": "Skills for AI based development",
+  "summary": "project-management-skill：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
   "scenarios": [
     "创建技能",
@@ -19,38 +19,34 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/colomet/skill-boilerplate.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 0,
+  "installCommand": "git clone https://github.com/naxandros-pixel/project-management-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 1,
   "forks": 0,
   "openIssues": 0,
-  "score": 66,
+  "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T19:44:18Z",
-  "updatedAt": "2026-09-04T20:26:40Z",
-  "createdAt": "2026-09-01T13:38:11Z",
+  "pushedAt": "2026-09-02T14:18:15Z",
+  "updatedAt": "2026-09-05T20:53:19Z",
+  "createdAt": "2026-09-02T10:28:03Z",
   "sourceTopics": [
-    "anthropic-skills"
+    "ai-agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skill",
     "agent-skills",
-    "ai",
-    "ai-skill",
-    "ai-skill-enhancement",
-    "ai-skills",
-    "anthropic",
-    "anthropic-ai",
-    "anthropic-claude",
-    "anthropic-compatible",
-    "anthropic-skills",
-    "claude",
-    "claude-ai",
+    "ai-agent",
+    "ai-agent-skill",
+    "ai-agent-skills",
+    "ai-agent-tools",
+    "ai-agents",
     "claude-skills",
+    "project-management",
+    "skill",
+    "skill-md",
     "skills"
   ],
   "platforms": [
@@ -59,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/colomet/skill-boilerplate",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/naxandros-pixel/project-management-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/colomet/skill-boilerplate#readme",
-  "detailPath": "data/details/colomet__skill__boilerplate.json",
+  "readmeUrl": "https://github.com/naxandros-pixel/project-management-skill#readme",
+  "detailPath": "data/details/naxandros__pixel__project__management__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skill-boilerplate 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "project-management-skill 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -83,17 +79,17 @@
     ],
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "03f19e9dfa36c079",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "e5aebdcf725c2349",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-boilerplate：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "skill-boilerplate 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "project-management-skill：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "project-management-skill 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -133,7 +129,7 @@
       "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

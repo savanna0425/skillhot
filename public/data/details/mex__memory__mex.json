@@ -1,5 +1,5 @@
 {
-  "rank": 913,
+  "rank": 917,
   "id": 1187896522,
   "name": "mex",
   "fullName": "mex-memory/mex",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/295542747?v=4",
   "url": "https://github.com/mex-memory/mex",
   "homepage": "https://mexmemory.com",
-  "description": "Persistent project memory for AI coding agents. Structured scaffold + drift detection CLI.",
-  "summary": "mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "description": "Team memory for engineers and their AI agents. Lives in your repo. Shared through Git.",
+  "summary": "mex：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "category": "记忆与上下文",
+  "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
+  "categoryConfidence": "中",
+  "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "长期任务",
+    "跨会话续接",
+    "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/mex-memory/mex.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1542,
+  "stars": 1544,
   "forks": 111,
   "openIssues": 41,
   "score": 110.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T17:18:50Z",
-  "updatedAt": "2026-09-04T22:27:20Z",
+  "pushedAt": "2026-09-05T18:25:38Z",
+  "updatedAt": "2026-09-05T18:43:02Z",
   "createdAt": "2026-03-21T10:34:18Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -70,18 +70,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI",
+    "summary": "mex 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "长期任务",
+      "跨会话续接",
+      "上下文管理"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -89,51 +89,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-05T04:37:58.670Z",
-    "sourceHash": "567325285a03ae5f",
+    "generatedAt": "2026-09-06T04:47:40.373Z",
+    "sourceHash": "2895ca1a0c41c3ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mex：持久化的 AI 编程代理项目记忆。结构化脚手架 + 漂移检测 CLI。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "mex 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mex：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "mex 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
-      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
-      "团队希望把开发经验沉淀成可重复执行的能力。",
-      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
+      "长任务容易丢上下文，Agent 记不住项目历史。",
+      "资料、代码和决策分散，下一次会话很难续接。",
+      "团队需要让 Agent 更可靠地检索旧信息。",
+      "如果你的任务和「长期任务」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
-      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
-      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
+      "提供记忆、上下文压缩、知识检索、RAG 或知识图谱能力。",
+      "帮助 Agent 在长任务中保留关键事实和决策。",
+      "帮助你判断它是否适合当前长期项目。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
-      "需要让 Agent 参与真实工程任务的团队。",
-      "想把开发流程标准化、可复盘的人。",
+      "长期使用 Agent 做项目的人。",
+      "需要跨会话续接、知识库检索或团队记忆的人。",
+      "代码库、文档库或资料库较大的团队。",
       "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想找一个无需配置的成品 SaaS 工具的人。",
-      "不打算让 Agent 参与代码或工程流程的人。"
+      "只做一次性短任务、不需要保存上下文的人。",
+      "涉及敏感数据但没有权限隔离和清理方案的场景。"
     ],
     "howItWorks": [
-      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
-      "Agent 会根据仓库提供的方法处理具体开发任务。",
-      "最终质量仍需要你用测试、构建和代码评审来确认。",
+      "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
+      "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
+      "效果取决于数据质量、分块方式和权限管理。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先读 README 的安装步骤和示例任务。",
-      "在一个小仓库或低风险分支中试用。",
-      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
+      "先用一个小项目或公开资料库测试。",
+      "确认数据存储位置、权限和删除方式。",
+      "再把长期项目资料逐步迁入。"
     ],
     "expectedOutcome": [
-      "开发流程更有章法，长任务更不容易散。",
-      "重复性的工程经验可以被复用。",
-      "你能更快判断一个仓库是否值得投入时间试用。"
+      "跨会话续接更顺。",
+      "Agent 更容易找回项目背景和历史决策。",
+      "长任务的上下文管理成本下降。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",
