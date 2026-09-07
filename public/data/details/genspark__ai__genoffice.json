@@ -1,5 +1,5 @@
 {
-  "rank": 584,
+  "rank": 571,
   "id": 1318187016,
   "name": "genoffice",
   "fullName": "genspark-ai/genoffice",
@@ -8,7 +8,7 @@
   "url": "https://github.com/genspark-ai/genoffice",
   "homepage": "https://genoffice.ai/",
   "description": "Free, open-source alternative to Microsoft Office with built-in AI agents — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing for macOS, Windows & Linux.",
-  "summary": "genoffice：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "genoffice：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm install\nnpm run fixtures     # generate test .docx fixtures\nnpm test             # engine + app unit tests (docs/sheets/slides need no display)",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 5480,
-  "forks": 767,
-  "openIssues": 18,
-  "score": 119.7,
+  "stars": 5733,
+  "forks": 794,
+  "openIssues": 20,
+  "score": 120.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-06T03:17:29Z",
-  "updatedAt": "2026-09-06T04:43:59Z",
+  "pushedAt": "2026-09-07T03:10:19Z",
+  "updatedAt": "2026-09-07T04:48:28Z",
   "createdAt": "2026-07-31T09:40:58Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,8 @@
   ],
   "platforms": [
     "Claude",
-    "Gemini CLI"
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -90,13 +91,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-06T04:47:40.373Z",
-    "sourceHash": "127ff0fae1f41135",
+    "generatedAt": "2026-09-07T04:51:06.480Z",
+    "sourceHash": "c3ab39485bafb080",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "genoffice：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "genoffice：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "genoffice 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -114,7 +115,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

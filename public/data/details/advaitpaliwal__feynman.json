@@ -1,5 +1,5 @@
 {
-  "rank": 421,
+  "rank": 424,
   "id": 1186559664,
   "name": "feynman",
   "fullName": "advaitpaliwal/feynman",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/companion-inc/feynman.git\ncd feynman\nnvm use || nvm install",
+  "installCommand": "The one-line installer fetches the latest tagged release. To pin a version, pass it explicitly, for example `curl -fsSL https://feynman.is/install | bash -s -- 0.2.35`.\nThe installer downloads a standalone native bundle with its own pinned Node.js runtime and verifies the release SHA-256 before replacing an existing installation.\nTo upgrade the standalone ap",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 8871,
-  "forks": 1028,
-  "openIssues": 4,
+  "stars": 8886,
+  "forks": 1032,
+  "openIssues": 3,
   "score": 124.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-06T04:20:49Z",
-  "updatedAt": "2026-09-06T04:46:22Z",
+  "pushedAt": "2026-09-06T18:51:09Z",
+  "updatedAt": "2026-09-07T04:21:08Z",
   "createdAt": "2026-03-19T18:53:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "readmeUrl": "https://github.com/advaitpaliwal/feynman#readme",
   "detailPath": "data/details/advaitpaliwal__feynman.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "feynman 支持资料研究、知识检索或学习任务。",
     "useCases": [
@@ -72,8 +72,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-06T04:47:40.373Z",
-    "sourceHash": "67f0ed21bacdb5f4",
+    "generatedAt": "2026-09-07T04:51:06.480Z",
+    "sourceHash": "c42793b8b0819a7a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

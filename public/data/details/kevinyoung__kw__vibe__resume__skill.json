@@ -1,76 +1,80 @@
 {
-  "rank": 1295,
-  "id": 1247671075,
-  "name": "ongrid",
-  "fullName": "ongridio/ongrid",
-  "owner": "ongridio",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/132994540?v=4",
-  "url": "https://github.com/ongridio/ongrid",
-  "homepage": "https://ongrid.cloud",
-  "description": "An ops AI Agent that understands your infrastructure, finds the root cause, and fixes it — right from Slack, Telegram, Lark or DingTalk.",
-  "summary": "ongrid：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1813,
+  "id": 1293007433,
+  "name": "vibe-resume-skill",
+  "fullName": "KevinYoung-Kw/vibe-resume-skill",
+  "owner": "KevinYoung-Kw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/149243485?v=4",
+  "url": "https://github.com/KevinYoung-Kw/vibe-resume-skill",
+  "homepage": "https://www.kw-aigc.cn",
+  "description": "AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex, Claude Code, Cursor & Trae.",
+  "summary": "vibe-resume-skill：AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ongridio/ongrid.git",
-  "language": "Go",
-  "license": "AGPL-3.0",
-  "stars": 989,
-  "forks": 211,
-  "openIssues": 60,
-  "score": 102,
+  "installCommand": "git clone https://github.com/KevinYoung-Kw/vibe-resume-skill.git",
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "stars": 67,
+  "forks": 2,
+  "openIssues": 0,
+  "score": 87.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-04T10:24:37Z",
-  "updatedAt": "2026-09-05T07:45:40Z",
-  "createdAt": "2026-05-23T16:16:44Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-09-01T09:16:29Z",
+  "updatedAt": "2026-09-06T07:48:49Z",
+  "createdAt": "2026-07-08T03:18:22Z",
+  "sourceTopics": [
+    "ai-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agents",
-    "aiops",
-    "alerting",
-    "chatops",
-    "devops",
-    "golang",
-    "grafana",
-    "incident-response",
-    "kubernetes",
-    "llm",
-    "llm-agent",
-    "mcp",
-    "monitoring",
-    "observability",
-    "opentelemetry",
-    "prometheus",
-    "rag",
-    "root-cause-analysis",
-    "self-hosted",
-    "sre"
+    "agent-skill",
+    "ai-resume",
+    "ai-skills",
+    "ats-resume",
+    "claude-code",
+    "codex",
+    "cursor",
+    "cv",
+    "cv-template",
+    "html-resume",
+    "job-application",
+    "job-search",
+    "pdf-resume",
+    "resume",
+    "resume-builder",
+    "resume-generator",
+    "resume-optimization",
+    "resume-template",
+    "trae",
+    "vibe-coding"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ongridio/ongrid",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/KevinYoung-Kw/vibe-resume-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ongridio/ongrid#readme",
-  "detailPath": "data/details/ongridio__ongrid.json",
+  "readmeUrl": "https://github.com/KevinYoung-Kw/vibe-resume-skill#readme",
+  "detailPath": "data/details/kevinyoung__kw__vibe__resume__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ongrid：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex,",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -86,17 +90,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-06T04:47:40.373Z",
-    "sourceHash": "8a624b9c59619186",
+    "generatedAt": "2026-09-07T04:51:06.480Z",
+    "sourceHash": "a3109c16ef409948",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ongrid：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ongrid 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "vibe-resume-skill：AI 简历生成与排版 Skill｜12 套可投递 HTML/PDF 模板。AI resume builder for creating, updating and tailoring resumes to any JD via Codex。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "vibe-resume-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -113,7 +117,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -136,7 +140,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

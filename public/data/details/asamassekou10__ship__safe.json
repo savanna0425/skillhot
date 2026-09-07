@@ -1,5 +1,5 @@
 {
-  "rank": 1454,
+  "rank": 1448,
   "id": 1147803825,
   "name": "ship-safe",
   "fullName": "asamassekou10/ship-safe",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/208567150?v=4",
   "url": "https://github.com/asamassekou10/ship-safe",
   "homepage": "https://shipsafe.sh",
-  "description": " The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output.",
+  "description": "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output.",
   "summary": "ship-safe：聚焦安全审计、漏洞检查与风险治理。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
@@ -22,31 +22,36 @@
   "installCommand": "git clone https://github.com/asamassekou10/ship-safe.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 830,
-  "forks": 111,
-  "openIssues": 13,
-  "score": 100.2,
+  "stars": 838,
+  "forks": 113,
+  "openIssues": 18,
+  "score": 100.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-05T11:30:50Z",
-  "updatedAt": "2026-09-06T03:04:52Z",
+  "pushedAt": "2026-09-06T08:23:51Z",
+  "updatedAt": "2026-09-07T00:48:01Z",
   "createdAt": "2026-02-02T08:19:37Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-security",
     "agentic-ai",
     "ai-security",
     "cli",
-    "devscops",
+    "devsecops",
+    "hermes",
     "llm-security",
     "mcp",
     "npm",
     "owasp",
+    "prompt-injection",
+    "sarif",
     "secrets",
     "security",
     "security-tools",
-    "static-analysis"
+    "static-analysis",
+    "supply-chain-security"
   ],
   "platforms": [
     "Agent Skills"
@@ -81,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-06T04:47:40.373Z",
-    "sourceHash": "d9d92b7ac4216b53",
+    "generatedAt": "2026-09-07T04:51:06.480Z",
+    "sourceHash": "474801d8d9432809",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

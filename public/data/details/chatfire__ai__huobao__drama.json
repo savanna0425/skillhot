@@ -1,17 +1,17 @@
 {
-  "rank": 1646,
-  "id": 1187464970,
-  "name": "ppt-agent-skills",
-  "fullName": "sunbigfly/ppt-agent-skills",
-  "owner": "sunbigfly",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/58769230?v=4",
-  "url": "https://github.com/sunbigfly/ppt-agent-skills",
+  "rank": 325,
+  "id": 1128267392,
+  "name": "huobao-drama",
+  "fullName": "chatfire-AI/huobao-drama",
+  "owner": "chatfire-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/248649058?v=4",
+  "url": "https://github.com/chatfire-AI/huobao-drama",
   "homepage": "",
-  "description": "A code-driven presentation generation framework. 像构建软件工程一样生成演示文稿。",
-  "summary": "ppt-agent-skills：A code-driven presentation generation framework. 像构建软件工程一样生成演示文稿。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\"",
+  "summary": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,48 +19,37 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/sunbigfly/ppt-agent-skills.git",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 889,
-  "forks": 91,
-  "openIssues": 3,
-  "score": 93.9,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-08T07:41:34Z",
-  "updatedAt": "2026-09-06T00:47:18Z",
-  "createdAt": "2026-03-20T18:56:08Z",
+  "installCommand": "git clone https://github.com/chatfire-AI/huobao-drama.git\ncd huobao-drama\ncd backend && npm install",
+  "language": "Vue",
+  "license": "",
+  "stars": 14836,
+  "forks": 2752,
+  "openIssues": 0,
+  "score": 130.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-06T15:45:39Z",
+  "updatedAt": "2026-09-07T04:08:09Z",
+  "createdAt": "2026-01-05T11:38:30Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-agents",
-    "html-to-pptx",
-    "multi-agent",
-    "pitch-deck",
-    "powerpoint",
-    "ppt",
-    "pptx",
-    "presentation-generator",
-    "slide-generator",
-    "visual-qa"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/sunbigfly/ppt-agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chatfire-AI/huobao-drama",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/sunbigfly/ppt-agent-skills#readme",
-  "detailPath": "data/details/sunbigfly__ppt__agent__skills.json",
+  "readmeUrl": "https://github.com/chatfire-AI/huobao-drama#readme",
+  "detailPath": "data/details/chatfire__ai__huobao__drama.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "A code-driven presentation generation framework. 像构建软件工程一样生成演示文稿",
+    "summary": "火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -76,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-06T04:47:40.373Z",
-    "sourceHash": "e6e7d33c6d239496",
+    "generatedAt": "2026-09-07T04:51:06.480Z",
+    "sourceHash": "3d69a5f527753131",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ppt-agent-skills：A code-driven presentation generation framework. 像构建软件工程一样生成演示文稿。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ppt-agent-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "huobao-drama 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -103,7 +92,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -126,7 +115,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
