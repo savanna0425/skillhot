@@ -1,46 +1,51 @@
 {
-  "rank": 969,
-  "id": 1310791404,
-  "name": "codex-host",
-  "fullName": "BytePioneer-AI/codex-host",
-  "owner": "BytePioneer-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/61337845?v=4",
-  "url": "https://github.com/BytePioneer-AI/codex-host",
+  "rank": 2272,
+  "id": 1243601229,
+  "name": "EZ_math_model",
+  "fullName": "woodfishhhh/EZ_math_model",
+  "owner": "woodfishhhh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/176751902?v=4",
+  "url": "https://github.com/woodfishhhh/EZ_math_model",
   "homepage": "",
-  "description": "Run Pi and Claude Code directly in Codex Desktop. 在 Codex Desktop 中直接运行 Pi 和 Claude Code。",
-  "summary": "codex-host：Run Pi and Claude Code directly in Codex Desktop. 在 Codex Desktop 中直接运行 Pi 和 Claude Code。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "专攻数学建模的下一代自动化SKIILS",
+  "summary": "EZ_math_model：专攻数学建模的下一代自动化SKIILS。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/BytePioneer-AI/codex-host.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/woodfishhhh/EZ_math_model.git",
+  "language": "PowerShell",
   "license": "MIT",
-  "stars": 1973,
-  "forks": 151,
-  "openIssues": 61,
-  "score": 109.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-06T15:36:47Z",
-  "updatedAt": "2026-09-07T04:47:30Z",
-  "createdAt": "2026-07-24T08:06:43Z",
-  "sourceTopics": [],
+  "stars": 41,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 60,
+  "activity": "近期活跃",
+  "pushedAt": "2026-07-28T11:25:30Z",
+  "updatedAt": "2026-09-07T12:10:29Z",
+  "createdAt": "2026-05-19T13:44:37Z",
+  "sourceTopics": [
+    "skillsmp"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skills",
     "claude-code",
     "codex",
-    "codex-desktop",
-    "codex-host",
-    "codexhost",
-    "pi-agent"
+    "cumcm",
+    "icm",
+    "mathematical-modeling",
+    "mcm",
+    "skill-md",
+    "skillsmp"
   ],
   "platforms": [
     "Claude",
@@ -49,15 +54,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/BytePioneer-AI/codex-host",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/woodfishhhh/EZ_math_model",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/BytePioneer-AI/codex-host#readme",
-  "detailPath": "data/details/bytepioneer__ai__codex__host.json",
+  "readmeUrl": "https://github.com/woodfishhhh/EZ_math_model#readme",
+  "detailPath": "data/details/woodfishhhh__ez__math__model.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Run Pi and Claude Code directly in Codex Desktop. 在 Codex Desktop 中直接运行 Pi 和 Claude Code。",
+    "summary": "专攻数学建模的下一代自动化SKIILS",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "6d5a545f09f275ff",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "c9deb4dc7a886c4c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-host：Run Pi and Claude Code directly in Codex Desktop. 在 Codex Desktop 中直接运行 Pi 和 Claude Code。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "codex-host 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "EZ_math_model：专攻数学建模的下一代自动化SKIILS。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "EZ_math_model 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

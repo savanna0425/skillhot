@@ -1,5 +1,5 @@
 {
-  "rank": 561,
+  "rank": 866,
   "id": 433619938,
   "name": "OnlySwitch",
   "fullName": "jacklandrin/OnlySwitch",
@@ -8,7 +8,7 @@
   "url": "https://github.com/jacklandrin/OnlySwitch",
   "homepage": "https://onlyswitch.click/",
   "description": "⚙️ All-in-One menu bar app, hide 💻MacBook Pro's notch, dark mode, AirPods, Shortcuts",
-  "summary": "OnlySwitch：⚙️ 全能菜单栏应用，隐藏 MacBook Pro 的灵动岛，支持深色模式、AirPods 和快捷指令。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "OnlySwitch：⚙️ 全能菜单栏应用，隐藏 MacBook Pro 的灵动岛，支持深色模式、AirPods 和快捷指令。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew install only-switch",
+  "installCommand": "git clone https://github.com/jacklandrin/OnlySwitch.git",
   "language": "Swift",
   "license": "MIT",
-  "stars": 5907,
+  "stars": 5910,
   "forks": 237,
   "openIssues": 57,
-  "score": 120.5,
-  "activity": "本周活跃",
+  "score": 113.5,
+  "activity": "本月活跃",
   "pushedAt": "2026-08-30T13:24:46Z",
-  "updatedAt": "2026-09-06T05:50:25Z",
+  "updatedAt": "2026-09-07T19:47:05Z",
   "createdAt": "2021-11-30T23:33:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,14 +55,13 @@
     "widgets"
   ],
   "platforms": [
-    "Gemini CLI",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/jacklandrin/OnlySwitch",
-    "videoUrl": "https://www.youtube.com/watch?v=ARfBLKzRQY4&t=41s"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/jacklandrin/OnlySwitch#readme",
   "detailPath": "data/details/jacklandrin__onlyswitch.json",
@@ -88,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "9d0be37b384a7f50",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "3e35bd201bd7769b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OnlySwitch：⚙️ 全能菜单栏应用，隐藏 MacBook Pro 的灵动岛，支持深色模式、AirPods 和快捷指令。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "OnlySwitch：⚙️ 全能菜单栏应用，隐藏 MacBook Pro 的灵动岛，支持深色模式、AirPods 和快捷指令。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "OnlySwitch 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -112,7 +111,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

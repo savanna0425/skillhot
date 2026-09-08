@@ -1,67 +1,64 @@
 {
-  "rank": 1841,
-  "id": 1197631840,
-  "name": "three-man-team",
-  "fullName": "russelleNVy/three-man-team",
-  "owner": "russelleNVy",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/272609506?v=4",
-  "url": "https://github.com/russelleNVy/three-man-team",
-  "homepage": "",
-  "description": "A structured 3-agent AI dev team — Architect, Builder, Reviewer. Built from production use. Token-optimized. Works with Claude Code, VS Code, Cursor, and any AI that supports context files.",
-  "summary": "three-man-team：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 1473,
+  "id": 1131734767,
+  "name": "Wegent",
+  "fullName": "wecode-ai/Wegent",
+  "owner": "wecode-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/214628658?v=4",
+  "url": "https://github.com/wecode-ai/Wegent",
+  "homepage": "https://wecode-ai.github.io/wegent-docs",
+  "description": "Plan, build, and deliver with an open-source, self-hostable AI workspace for coding, collaboration, and automation.",
+  "summary": "Wegent：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "model switch|provider management|model gateway|llm gat",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/russelleNVy/three-man-team.git",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 948,
-  "forks": 124,
-  "openIssues": 0,
-  "score": 86.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-09T02:23:19Z",
-  "updatedAt": "2026-09-05T01:49:32Z",
-  "createdAt": "2026-03-31T18:38:09Z",
+  "installCommand": "git clone https://github.com/wecode-ai/Wegent.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 814,
+  "forks": 136,
+  "openIssues": 75,
+  "score": 100,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-08T04:06:01Z",
+  "updatedAt": "2026-09-08T04:42:51Z",
+  "createdAt": "2026-01-10T15:42:57Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agent-workflow",
-    "ai-agents",
-    "claude",
-    "context-files",
-    "developer-tools",
-    "llm",
-    "markdown",
-    "productivity",
-    "prompt-engineering"
+    "agent",
+    "ai",
+    "chatbot",
+    "claude-code",
+    "codex",
+    "dsh-plugin",
+    "wework"
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/russelleNVy/three-man-team",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wecode-ai/Wegent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/russelleNVy/three-man-team#readme",
-  "detailPath": "data/details/russellenvy__three__man__team.json",
+  "readmeUrl": "https://github.com/wecode-ai/Wegent#readme",
+  "detailPath": "data/details/wecode__ai__wegent.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "three-man-team 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "Wegent 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -77,17 +74,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "0bf2bb54d5fb53f5",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "54c0118c19352516",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "three-man-team：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "three-man-team 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Wegent：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Wegent 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -104,7 +101,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -127,7 +124,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

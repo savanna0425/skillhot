@@ -1,5 +1,5 @@
 {
-  "rank": 504,
+  "rank": 500,
   "id": 1166205118,
   "name": "seedance-2.0",
   "fullName": "Emily2040/seedance-2.0",
@@ -19,16 +19,16 @@
     "长故事连续生成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Emily2040/seedance-2.0.git\ncd seedance-2.0",
+  "installCommand": "git clone https://github.com/Emily2040/seedance-2.0.git\ncd seedance-2.0\npython scripts/install_codex_skill.py --client codex --scope user",
   "language": "Python",
   "license": "MIT",
-  "stars": 7208,
-  "forks": 1056,
-  "openIssues": 11,
+  "stars": 7222,
+  "forks": 1057,
+  "openIssues": 7,
   "score": 122.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-07T04:18:52Z",
-  "updatedAt": "2026-09-07T03:58:44Z",
+  "pushedAt": "2026-09-08T02:41:14Z",
+  "updatedAt": "2026-09-08T03:04:20Z",
   "createdAt": "2026-02-25T01:28:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,7 +38,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,8 +71,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "9d2c8c028372ed2a",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "ad8b0624f26ae9e1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

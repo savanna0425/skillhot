@@ -8,7 +8,7 @@
   "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
   "homepage": "",
   "description": "Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access to profiles, companies, jobs, and messages.",
-  "summary": "linkedin-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "linkedin-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/stickerdaniel/linkedin-mcp-server\ncd linkedin-mcp-server\ncurl -LsSf https://astral.sh/uv/install.sh | sh",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3365,
-  "forks": 589,
-  "openIssues": 196,
+  "stars": 3382,
+  "forks": 590,
+  "openIssues": 185,
   "score": 114.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-07T02:51:52Z",
-  "updatedAt": "2026-09-07T03:19:15Z",
+  "pushedAt": "2026-09-07T18:15:21Z",
+  "updatedAt": "2026-09-07T22:24:30Z",
   "createdAt": "2025-04-13T04:12:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,8 @@
     "python"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -88,13 +89,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "14daf764de9ec748",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "ae3687c00d8f9629",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "linkedin-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "linkedin-mcp-server：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "linkedin-mcp-server 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -112,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 384,
-  "id": 1318768894,
-  "name": "crm",
-  "fullName": "trycompai/crm",
-  "owner": "trycompai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/195194844?v=4",
-  "url": "https://github.com/trycompai/crm",
-  "homepage": "https://trycrm.ai",
-  "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-  "summary": "crm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 707,
+  "id": 1357272370,
+  "name": "wechat-intelligence-hub",
+  "fullName": "Rion-Wu-tech/wechat-intelligence-hub",
+  "owner": "Rion-Wu-tech",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/184370191?v=4",
+  "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+  "homepage": "",
+  "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+  "summary": "wechat-intelligence-hub：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/trycompai/crm.git && cd crm\ncp .env.example .env          # then fill in the values below\nbun install",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 9933,
-  "forks": 1304,
-  "openIssues": 33,
-  "score": 125.9,
+  "installCommand": "git clone https://github.com/Rion-Wu-tech/wechat-intelligence-hub.git",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stars": 1860,
+  "forks": 2429,
+  "openIssues": 3,
+  "score": 116.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T11:22:46Z",
-  "updatedAt": "2026-09-07T04:37:51Z",
-  "createdAt": "2026-07-31T21:38:51Z",
+  "pushedAt": "2026-09-07T18:10:18Z",
+  "updatedAt": "2026-09-08T04:38:29Z",
+  "createdAt": "2026-09-04T15:00:53Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
-  "skillCount": 4,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/trycompai/crm",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Rion-Wu-tech/wechat-intelligence-hub",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/trycompai/crm#readme",
-  "detailPath": "data/details/trycompai__crm.json",
+  "readmeUrl": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub#readme",
+  "detailPath": "data/details/rion__wu__tech__wechat__intelligence__hub.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "crm：尚未归入主要类别的实用项目。",
+    "summary": "wechat-intelligence-hub：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-07T04:51:06.480Z",
-    "sourceHash": "46e0aa525c96012e",
+    "generatedAt": "2026-09-08T04:46:54.002Z",
+    "sourceHash": "55ddbbe7790f82fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "crm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "crm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "wechat-intelligence-hub：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "wechat-intelligence-hub 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -102,7 +102,7 @@
       "通常依赖仓库提供的 README、代码、示例或安装命令。",
       "用户按文档把它接入目标环境。",
       "真实效果需要通过小任务试用来判断。",
-      "仓库信息显示它包含 4+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看作者原始描述和 README。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
