@@ -1,5 +1,5 @@
 {
-  "rank": 52,
+  "rank": 53,
   "id": 1108837393,
   "name": "oh-my-openagent",
   "fullName": "code-yeongyu/oh-my-openagent",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/11153873?v=4",
   "url": "https://github.com/code-yeongyu/oh-my-openagent",
   "homepage": "https://omo.dev",
-  "description": "OmO: Drop your tokens. Ultrawork. Done.",
+  "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
   "summary": "oh-my-openagent：面向复杂代码库与长任务的高强度编程 Agent Harness。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -19,16 +19,16 @@
     "Codex 与 OpenCode 编排"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "> npx lazycodex-ai install\n>",
+  "installCommand": "npx lazycodex-ai install\nnpx lazycodex-ai install --no-tui --codex-autonomous",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 68800,
-  "forks": 5651,
-  "openIssues": 966,
+  "stars": 68833,
+  "forks": 5654,
+  "openIssues": 969,
   "score": 150.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-08T04:43:31Z",
-  "updatedAt": "2026-09-08T04:44:04Z",
+  "pushedAt": "2026-09-09T04:47:38Z",
+  "updatedAt": "2026-09-09T04:42:58Z",
   "createdAt": "2025-12-03T01:40:05Z",
   "sourceTopics": [
     "claude-skills"
@@ -61,7 +61,7 @@
     "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "OpenClaw"
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -93,8 +93,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "92187ba59ec2de3e",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "a3d4aeb3108e4b14",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

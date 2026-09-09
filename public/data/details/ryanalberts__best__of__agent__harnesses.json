@@ -1,62 +1,76 @@
 {
-  "rank": 843,
-  "id": 1167823778,
-  "name": "azure-skills",
-  "fullName": "microsoft/azure-skills",
-  "owner": "microsoft",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "url": "https://github.com/microsoft/azure-skills",
-  "homepage": "",
-  "description": "Official agent plugin providing skills and MCP server configurations for Azure scenarios.",
-  "summary": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1479,
+  "id": 1175588150,
+  "name": "best-of-Agent-Harnesses",
+  "fullName": "RyanAlberts/best-of-Agent-Harnesses",
+  "owner": "RyanAlberts",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/25306145?v=4",
+  "url": "https://github.com/RyanAlberts/best-of-Agent-Harnesses",
+  "homepage": "https://ryanalberts.github.io/best-of-Agent-Harnesses/",
+  "description": "🏆 Curated, ranked list of AI agent harnesses (100+) — plus an MCP server, llms.txt & JSON so agents can recommend them too. Rescored weekly.",
+  "summary": "best-of-Agent-Harnesses：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx --version\ngit --version",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 1459,
-  "forks": 243,
-  "openIssues": 11,
-  "score": 114,
+  "installCommand": "git clone https://github.com/RyanAlberts/best-of-Agent-Harnesses.git",
+  "language": "Python",
+  "license": "CC-BY-SA-4.0",
+  "stars": 815,
+  "forks": 46,
+  "openIssues": 50,
+  "score": 100,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-07T11:05:08Z",
-  "updatedAt": "2026-09-07T07:37:19Z",
-  "createdAt": "2026-02-26T18:13:14Z",
+  "pushedAt": "2026-09-07T14:25:53Z",
+  "updatedAt": "2026-09-09T03:26:35Z",
+  "createdAt": "2026-03-07T22:55:23Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills"
+    "agent-framework",
+    "agent-harness",
+    "agentic-ai",
+    "agents",
+    "ai-agent",
+    "ai-agent-framework",
+    "ai-agents",
+    "ai-tools",
+    "awesome-list",
+    "best-of-list",
+    "claude-code",
+    "coding-agents",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "llm-agents",
+    "llm-framework",
+    "llm-tools",
+    "mcp",
+    "model-context-protocol"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/microsoft/azure-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/RyanAlberts/best-of-Agent-Harnesses",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/microsoft/azure-skills#readme",
-  "detailPath": "data/details/microsoft__azure__skills.json",
+  "readmeUrl": "https://github.com/RyanAlberts/best-of-Agent-Harnesses#readme",
+  "detailPath": "data/details/ryanalberts__best__of__agent__harnesses.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "官方插件，提供 Azure 场景的技能与 MCP 服务器配置",
+    "summary": "best-of-Agent-Harnesses 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -72,17 +86,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 CC-BY-SA-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "74a0876049ccb725",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "40885af4c49024f0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "azure-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "best-of-Agent-Harnesses：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "best-of-Agent-Harnesses 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -99,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -122,7 +136,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 CC-BY-SA-4.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 419,
+  "rank": 423,
   "id": 788768107,
   "name": "awesome-LLM-resources",
   "fullName": "WangRongsheng/awesome-LLM-resources",
@@ -8,7 +8,7 @@
   "url": "https://github.com/WangRongsheng/awesome-LLM-resources",
   "homepage": "",
   "description": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. ",
-  "summary": "awesome-LLM-resources 是一个面向 Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-LLM-resources 是一个面向 Claude、Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/WangRongsheng/awesome-LLM-resources.git",
   "language": "",
   "license": "Apache-2.0",
-  "stars": 8928,
-  "forks": 981,
-  "openIssues": 34,
+  "stars": 8934,
+  "forks": 986,
+  "openIssues": 36,
   "score": 124.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-02T12:45:11Z",
-  "updatedAt": "2026-09-08T02:05:29Z",
+  "pushedAt": "2026-09-08T10:28:57Z",
+  "updatedAt": "2026-09-09T04:49:32Z",
   "createdAt": "2024-04-19T03:31:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,6 +50,7 @@
     "webui"
   ],
   "platforms": [
+    "Claude",
     "Gemini CLI",
     "OpenClaw"
   ],
@@ -83,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "04b96d33bd90fc72",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "b70be212dfc0bd04",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-LLM-resources 是一个面向 Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-LLM-resources 是一个面向 Claude、Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-LLM-resources 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。作者原始描述提到：🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -107,7 +108,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",

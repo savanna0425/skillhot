@@ -1,14 +1,14 @@
 {
-  "rank": 236,
-  "id": 925270205,
-  "name": "cua",
-  "fullName": "trycua/cua",
-  "owner": "trycua",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4",
-  "url": "https://github.com/trycua/cua",
-  "homepage": "https://cua.ai",
-  "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-  "summary": "cua：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 196,
+  "id": 204164353,
+  "name": "kestra",
+  "fullName": "kestra-io/kestra",
+  "owner": "kestra-io",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/59033362?v=4",
+  "url": "https://github.com/kestra-io/kestra",
+  "homepage": "https://go.kestra.io/home",
+  "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+  "summary": "kestra：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -19,59 +19,61 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/trycua/cua && cd cua/cua-bench\nuv tool install -e . && cb image create linux-docker\ncb run dataset datasets/cua-bench-basic --agent cua-agent --max-parallel 4",
-  "language": "HTML",
-  "license": "MIT",
-  "stars": 22321,
-  "forks": 1543,
-  "openIssues": 816,
-  "score": 134.4,
+  "installCommand": "git clone https://github.com/kestra-io/kestra.git",
+  "language": "Java",
+  "license": "Apache-2.0",
+  "stars": 28038,
+  "forks": 2979,
+  "openIssues": 638,
+  "score": 136.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-08T04:45:17Z",
-  "updatedAt": "2026-09-08T04:31:12Z",
-  "createdAt": "2025-01-31T15:02:49Z",
+  "pushedAt": "2026-09-09T04:31:07Z",
+  "updatedAt": "2026-09-09T04:31:59Z",
+  "createdAt": "2019-08-24T13:56:15Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai-agent",
-    "apple",
-    "computer-use",
-    "computer-use-agent",
-    "containerization",
-    "cua",
-    "desktop-automation",
+    "ai-agents",
+    "automation",
+    "control-plane",
+    "data-engineering",
+    "data-orchestration",
+    "data-orchestrator",
+    "devops",
+    "etl",
     "hacktoberfest",
-    "lume",
-    "macos",
-    "manus",
-    "operator",
-    "swift",
-    "virtualization",
-    "virtualization-framework",
-    "windows",
-    "windows-sandbox"
+    "high-availability",
+    "infra-automation",
+    "infra-ops",
+    "infrastructure-as-code",
+    "java",
+    "low-code",
+    "orchestration",
+    "pipeline",
+    "pipeline-as-code",
+    "scheduler",
+    "workflow"
   ],
   "platforms": [
     "Claude",
-    "Codex",
     "Cursor",
-    "OpenClaw"
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/trycua/cua",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kestra-io/kestra",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/trycua/cua#readme",
-  "detailPath": "data/details/trycua__cua.json",
+  "readmeUrl": "https://github.com/kestra-io/kestra#readme",
+  "detailPath": "data/details/kestra__io__kestra.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "cua：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "kestra：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -87,17 +89,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "a6bf4bdaa9a5b3c3",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "ed8b7eea407d3dd2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cua：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "cua 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "kestra：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "whatItIs": "kestra 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -114,7 +116,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -137,7 +139,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

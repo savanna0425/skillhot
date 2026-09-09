@@ -1,76 +1,72 @@
 {
-  "rank": 602,
-  "id": 832879402,
-  "name": "Kiln",
-  "fullName": "Kiln-AI/Kiln",
-  "owner": "Kiln-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/178670964?v=4",
-  "url": "https://github.com/Kiln-AI/Kiln",
-  "homepage": "https://kiln.tech",
-  "description": "Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning, synthetic data generation, dataset management, MCP, and more.",
-  "summary": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1758,
+  "id": 1188133194,
+  "name": "PrismerCloud",
+  "fullName": "Prismer-AI/PrismerCloud",
+  "owner": "Prismer-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/202446192?v=4",
+  "url": "https://github.com/Prismer-AI/PrismerCloud",
+  "homepage": "https://prismer.cloud",
+  "description": "Prismer Cloud",
+  "summary": "PrismerCloud：为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "中",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install kiln-ai",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 5048,
-  "forks": 377,
-  "openIssues": 74,
-  "score": 118.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-08T03:31:46Z",
-  "updatedAt": "2026-09-07T20:24:10Z",
-  "createdAt": "2024-07-23T23:10:13Z",
+  "installCommand": "git clone https://github.com/Prismer-AI/PrismerCloud.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1472,
+  "forks": 12,
+  "openIssues": 0,
+  "score": 91.1,
+  "activity": "近期活跃",
+  "pushedAt": "2026-08-06T18:33:46Z",
+  "updatedAt": "2026-09-09T04:45:07Z",
+  "createdAt": "2026-03-21T16:58:43Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "chain-of-thought",
-    "collaboration",
-    "dataset-generation",
-    "evals",
-    "evaluation",
-    "evaluation-framework",
-    "fine-tuning",
-    "machine-learning",
-    "macos",
+    "agent-communication",
+    "agent-memory",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "docker",
+    "knowledge-base",
+    "llm-tools",
     "mcp",
-    "ml",
-    "ollama",
-    "openai",
-    "prompt",
-    "prompt-engineering",
-    "python",
-    "rlhf",
-    "synthetic-data",
-    "windows"
+    "mcp-server",
+    "nextjs",
+    "rag",
+    "self-hosted",
+    "typescript",
+    "windsurf"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Kiln-AI/Kiln",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Prismer-AI/PrismerCloud",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Kiln-AI/Kiln#readme",
-  "detailPath": "data/details/kiln__ai__kiln.json",
+  "readmeUrl": "https://github.com/Prismer-AI/PrismerCloud#readme",
+  "detailPath": "data/details/prismer__ai__prismercloud.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能",
+    "summary": "PrismerCloud 为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -86,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "c77bdd3d6a7b9670",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "5841b43aee6f3722",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "Kiln 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "PrismerCloud：为 Agent 提供记忆、上下文管理与知识检索能力，适合长期复杂任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "PrismerCloud 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -113,7 +109,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -136,7 +132,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

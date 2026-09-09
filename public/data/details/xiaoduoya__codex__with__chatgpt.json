@@ -1,14 +1,14 @@
 {
-  "rank": 1842,
-  "id": 1197126855,
-  "name": "cc-mini",
-  "fullName": "e10nMa2k/cc-mini",
-  "owner": "e10nMa2k",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/120147382?v=4",
-  "url": "https://github.com/e10nMa2k/cc-mini",
+  "rank": 778,
+  "id": 1349601607,
+  "name": "codex-with-chatgpt",
+  "fullName": "XiaoDuoYa/codex-with-chatgpt",
+  "owner": "XiaoDuoYa",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/113528266?v=4",
+  "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
   "homepage": "",
-  "description": "Ultra-light Harness scaffolding for AI agents, a mini version of claude code ",
-  "summary": "cc-mini：超轻量级 Harness 脚手架，Claude Code 迷你版。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+  "summary": "codex-with-chatgpt：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,45 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/e10nMa2k/cc-mini.git",
-  "language": "Python",
-  "license": "",
-  "stars": 960,
-  "forks": 357,
-  "openIssues": 3,
-  "score": 86.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-10T04:02:06Z",
-  "updatedAt": "2026-09-07T02:58:56Z",
-  "createdAt": "2026-03-31T10:52:39Z",
+  "installCommand": "pnpm install\npnpm build          # -> dist/, exposes the `c2c` bin\npnpm test           # vitest: 146 tests (path security, OAuth, pairing, MCP e2e)",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 3527,
+  "forks": 359,
+  "openIssues": 16,
+  "score": 115.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-04T10:46:18Z",
+  "updatedAt": "2026-09-09T04:48:37Z",
+  "createdAt": "2026-08-28T12:57:24Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai-agents",
+    "chatgpt",
+    "codex",
+    "mcp",
+    "model-context-protocol",
+    "oauth"
+  ],
   "platforms": [
-    "Claude"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/e10nMa2k/cc-mini",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/XiaoDuoYa/codex-with-chatgpt",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/e10nMa2k/cc-mini#readme",
-  "detailPath": "data/details/e10nma2k__cc__mini.json",
+  "readmeUrl": "https://github.com/XiaoDuoYa/codex-with-chatgpt#readme",
+  "detailPath": "data/details/xiaoduoya__codex__with__chatgpt.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "超轻量级 Harness 脚手架，Claude Code 迷你版",
+    "summary": "codex-with-chatgpt：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-08T04:46:54.002Z",
-    "sourceHash": "bcd759d6c6671afa",
+    "generatedAt": "2026-09-09T04:50:46.836Z",
+    "sourceHash": "791b53ed17ec2ca5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cc-mini：超轻量级 Harness 脚手架，Claude Code 迷你版。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "cc-mini 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "codex-with-chatgpt：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "codex-with-chatgpt 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +100,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +123,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
