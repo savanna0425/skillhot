@@ -1,5 +1,5 @@
 {
-  "rank": 298,
+  "rank": 296,
   "id": 983246568,
   "name": "DeepCode",
   "fullName": "HKUDS/DeepCode",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "The explicit Python selection is intentional: DeepCode requires Python 3.12+\nand must not fall back to an unsupported legacy package on an older interpreter.\nIf an existing uv tool environment still contains DeepCode 1.x, migrate it with",
+  "installCommand": "uv tool install --python 3.12 deepcode-hku\ndeepcode init",
   "language": "Python",
   "license": "MIT",
-  "stars": 16505,
-  "forks": 2152,
-  "openIssues": 24,
+  "stars": 16510,
+  "forks": 2154,
+  "openIssues": 35,
   "score": 131.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-09T04:28:21Z",
-  "updatedAt": "2026-09-09T04:17:50Z",
+  "pushedAt": "2026-09-09T11:58:41Z",
+  "updatedAt": "2026-09-09T19:36:34Z",
   "createdAt": "2025-05-14T05:23:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,8 +72,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-09T04:50:46.836Z",
-    "sourceHash": "1f728080e6162fe6",
+    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "sourceHash": "2355e0724a39adda",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

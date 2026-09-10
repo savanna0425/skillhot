@@ -1,5 +1,5 @@
 {
-  "rank": 236,
+  "rank": 165,
   "id": 1077819522,
   "name": "editor",
   "fullName": "pascalorg/editor",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/214160140?v=4",
   "url": "https://github.com/pascalorg/editor",
   "homepage": "https://editor.pascal.app",
-  "description": "Create and share 3D architectural projects.",
-  "summary": "editor：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+  "summary": "editor：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,26 +22,34 @@
   "installCommand": "npx @pascal-app/cli editor",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 22632,
-  "forks": 2882,
-  "openIssues": 46,
-  "score": 134.5,
+  "stars": 23042,
+  "forks": 2903,
+  "openIssues": 49,
+  "score": 138.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-08T23:22:33Z",
-  "updatedAt": "2026-09-09T04:40:32Z",
+  "pushedAt": "2026-09-10T04:48:25Z",
+  "updatedAt": "2026-09-10T04:48:28Z",
   "createdAt": "2025-10-16T19:35:06Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "3d",
+    "agent-skills",
+    "ai-agents",
     "architecture",
     "bim",
     "cad",
     "editor",
     "floorplan",
+    "local-first",
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "nextjs",
     "parametric-design",
     "react-three-fiber",
@@ -50,7 +58,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -61,7 +70,7 @@
   "readmeUrl": "https://github.com/pascalorg/editor#readme",
   "detailPath": "data/details/pascalorg__editor.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "editor 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -82,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-09T04:50:46.836Z",
-    "sourceHash": "1df2f1c4b0c2d223",
+    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "sourceHash": "23b6f6a139762a90",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "editor：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "editor：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "editor 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -106,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

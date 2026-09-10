@@ -1,5 +1,5 @@
 {
-  "rank": 176,
+  "rank": 178,
   "id": 1218208502,
   "name": "oh-story-claudecode",
   "fullName": "zenstory-ai/oh-story-claudecode",
@@ -22,13 +22,13 @@
   "installCommand": "`-g` 全局安装，所有目录可用；去掉 `-g` 则只装到当前目录。更新时重新执行同一条命令即可。\n这条 `npx skills` 独立安装路径不经过 Claude Code 或 ZCode marketplace，不受下方插件打包身份调整影响。\nWindows 上偶尔会看到 `ENOENT ... mkdir` 报错但末尾仍显示 `Done!`，这是有技能没装全。story-setup 的参考资料目录整个缺了一块时，跑 `/story-setup` 会提示参考资料包不完整；其它形式的残缺不一定有提示。无论有没有报错，重跑同一条安装命令即可修复。",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 6686,
-  "forks": 968,
+  "stars": 6714,
+  "forks": 970,
   "openIssues": 9,
-  "score": 137.8,
+  "score": 137.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-08T13:27:04Z",
-  "updatedAt": "2026-09-09T03:50:46Z",
+  "pushedAt": "2026-09-09T10:54:00Z",
+  "updatedAt": "2026-09-10T04:26:17Z",
   "createdAt": "2026-04-22T16:35:39Z",
   "sourceTopics": [
     "skill",
@@ -90,8 +90,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-09T04:50:46.836Z",
-    "sourceHash": "13a604af2ffb5213",
+    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "sourceHash": "5c9e5f3ad2f225c0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

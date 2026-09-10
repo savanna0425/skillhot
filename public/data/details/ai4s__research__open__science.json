@@ -1,5 +1,5 @@
 {
-  "rank": 790,
+  "rank": 786,
   "id": 1288102626,
   "name": "open-science",
   "fullName": "ai4s-research/open-science",
@@ -22,13 +22,13 @@
   "installCommand": "`sudo systemctl enable --now osd` and the printed URL and token land in\n`journalctl -u osd`. A unit is also the tidiest way to run it: systemd stops the\nwhole cgroup, so the agent runtime never survives the server, however it dies.",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 1615,
+  "stars": 1620,
   "forks": 192,
-  "openIssues": 27,
+  "openIssues": 28,
   "score": 115.1,
   "activity": "本周活跃",
   "pushedAt": "2026-09-08T08:08:53Z",
-  "updatedAt": "2026-09-09T00:04:31Z",
+  "updatedAt": "2026-09-10T03:48:23Z",
   "createdAt": "2026-07-03T09:22:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -92,8 +92,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-09T04:50:46.836Z",
-    "sourceHash": "11ad0c225b1a29f0",
+    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "sourceHash": "c01e2e326c4a3c80",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
