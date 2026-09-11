@@ -1,5 +1,5 @@
 {
-  "rank": 577,
+  "rank": 868,
   "id": 1127793756,
   "name": "ccg-workflow",
   "fullName": "fengshao1227/ccg-workflow",
@@ -19,14 +19,14 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx ccg-workflow dsh install    # every profile found; --profile <name> for one\nnpx ccg-workflow dsh list       # which profiles have it",
+  "installCommand": "git clone https://github.com/fengshao1227/ccg-workflow.git",
   "language": "Go",
   "license": "MIT",
   "stars": 5881,
   "forks": 446,
-  "openIssues": 0,
-  "score": 120.5,
-  "activity": "本周活跃",
+  "openIssues": 1,
+  "score": 113.5,
+  "activity": "本月活跃",
   "pushedAt": "2026-09-03T03:31:56Z",
   "updatedAt": "2026-09-09T14:33:29Z",
   "createdAt": "2026-01-04T15:56:26Z",
@@ -52,8 +52,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
-    "Antigravity"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -85,7 +84,7 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "generatedAt": "2026-09-11T04:49:05.896Z",
     "sourceHash": "db8ab5a316de4654",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"

@@ -1,5 +1,5 @@
 {
-  "rank": 812,
+  "rank": 931,
   "id": 1175870738,
   "name": "OpenClaw-Medical-Skills",
   "fullName": "FreedomIntelligence/OpenClaw-Medical-Skills",
@@ -19,19 +19,18 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone --depth=1 --no-checkout https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills.git\ncd OpenClaw-Medical-Skills\ngit sparse-checkout init --cone",
+  "installCommand": "git clone https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills.git",
   "language": "Python",
   "license": "",
-  "stars": 2997,
+  "stars": 3001,
   "forks": 407,
   "openIssues": 14,
-  "score": 114.5,
+  "score": 110.5,
   "activity": "近期活跃",
   "pushedAt": "2026-07-21T01:01:51Z",
-  "updatedAt": "2026-09-09T18:35:22Z",
+  "updatedAt": "2026-09-11T02:12:09Z",
   "createdAt": "2026-03-08T09:43:52Z",
   "sourceTopics": [
-    "skills",
     "openclaw-skills"
   ],
   "discoveredBy": [
@@ -82,8 +81,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-10T04:51:52.715Z",
-    "sourceHash": "26b7b81eb7913236",
+    "generatedAt": "2026-09-11T04:49:05.896Z",
+    "sourceHash": "a18035c0ef52ba69",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

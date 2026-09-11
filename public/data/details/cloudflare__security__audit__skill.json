@@ -1,5 +1,5 @@
 {
-  "rank": 1119,
+  "rank": 519,
   "id": 1273427276,
   "name": "security-audit-skill",
   "fullName": "cloudflare/security-audit-skill",
@@ -19,16 +19,16 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/cloudflare/security-audit-skill.git",
+  "installCommand": "npx skills add https://github.com/cloudflare/security-audit-skill \\\n--skill security-audit",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 3260,
+  "stars": 3270,
   "forks": 240,
   "openIssues": 6,
-  "score": 107.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-06T13:36:03Z",
-  "updatedAt": "2026-09-10T02:51:27Z",
+  "score": 122.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-10T11:45:49Z",
+  "updatedAt": "2026-09-11T03:53:23Z",
   "createdAt": "2026-06-18T14:08:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-10T04:51:52.715Z",
-    "sourceHash": "6d8a880f94646978",
+    "generatedAt": "2026-09-11T04:49:05.896Z",
+    "sourceHash": "f554c67addbc1e12",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 413,
+  "rank": 416,
   "id": 584639396,
   "name": "ai-collection",
   "fullName": "ai-collection/ai-collection",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ai-collection/ai-collection",
   "homepage": "https://www.thataicollection.com/",
   "description": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
-  "summary": "ai-collection 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "ai-collection 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ai-collection/ai-collection.git",
   "language": "",
   "license": "MIT",
-  "stars": 9147,
-  "forks": 1015,
+  "stars": 9148,
+  "forks": 1014,
   "openIssues": 24,
   "score": 125.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-09T14:25:30Z",
-  "updatedAt": "2026-09-10T02:43:15Z",
+  "pushedAt": "2026-09-10T15:15:19Z",
+  "updatedAt": "2026-09-10T15:21:39Z",
   "createdAt": "2023-01-03T06:02:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,9 +50,7 @@
     "software-development"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -84,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-10T04:51:52.715Z",
-    "sourceHash": "3cc5a5f00aa787e4",
+    "generatedAt": "2026-09-11T04:49:05.896Z",
+    "sourceHash": "6d647c76fce638c6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-collection 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "ai-collection 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "ai-collection 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -108,7 +106,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

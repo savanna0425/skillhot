@@ -1,5 +1,5 @@
 {
-  "rank": 723,
+  "rank": 1055,
   "id": 1150800542,
   "name": "paperasse",
   "fullName": "romainsimon/paperasse",
@@ -8,7 +8,7 @@
   "url": "https://github.com/romainsimon/paperasse",
   "homepage": "https://agentskill.sh/skillsets/paperasse",
   "description": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
-  "summary": "paperasse：法国官僚领域 AI 代理技能：会计师、公证人等。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "paperasse：法国官僚领域 AI 代理技能：会计师、公证人等。适合在 Claude 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,14 +19,14 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm run fetch          # Récupère Qonto + Stripe\nnpm run fetch:qonto    # Qonto seulement\nnpm run fetch:stripe   # Stripe seulement",
+  "installCommand": "git clone https://github.com/romainsimon/paperasse.git",
   "language": "Python",
   "license": "MIT",
   "stars": 2379,
   "forks": 183,
   "openIssues": 14,
-  "score": 116.1,
-  "activity": "本月活跃",
+  "score": 108.1,
+  "activity": "近期活跃",
   "pushedAt": "2026-08-10T20:58:28Z",
   "updatedAt": "2026-09-09T14:50:57Z",
   "createdAt": "2026-02-05T17:51:26Z",
@@ -51,12 +51,9 @@
     "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "GitHub Copilot"
+    "Claude"
   ],
-  "skillCount": 16,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/romainsimon/paperasse",
@@ -86,13 +83,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-10T04:51:52.715Z",
+    "generatedAt": "2026-09-11T04:49:05.896Z",
     "sourceHash": "8952f61809011d5b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "paperasse：法国官僚领域 AI 代理技能：会计师、公证人等。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "paperasse：法国官僚领域 AI 代理技能：会计师、公证人等。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "paperasse 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -110,7 +107,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -120,7 +117,7 @@
       "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
       "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
       "可信度取决于来源质量和你的人工复核。",
-      "仓库信息显示它包含 16+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先用一个小主题测试它的资料组织方式。",
