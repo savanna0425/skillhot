@@ -1,12 +1,12 @@
 {
-  "rank": 183,
+  "rank": 128,
   "id": 1218208502,
   "name": "oh-story-claudecode",
   "fullName": "zenstory-ai/oh-story-claudecode",
   "owner": "zenstory-ai",
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/oh-story-claudecode",
-  "homepage": "",
+  "homepage": "https://zenstory.ai",
   "description": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction.",
   "summary": "oh-story-claudecode：网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
@@ -22,16 +22,17 @@
   "installCommand": "`-g` 全局安装，所有目录可用；去掉 `-g` 则只装到当前目录。更新时重新执行同一条命令即可。\n这条 `npx skills` 独立安装路径不经过 Claude Code 或 ZCode marketplace，不受下方插件打包身份调整影响。\nWindows 上偶尔会看到 `ENOENT ... mkdir` 报错但末尾仍显示 `Done!`，这是有技能没装全。story-setup 的参考资料目录整个缺了一块时，跑 `/story-setup` 会提示参考资料包不完整；其它形式的残缺不一定有提示。无论有没有报错，重跑同一条安装命令即可修复。",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 6753,
+  "stars": 6787,
   "forks": 971,
   "openIssues": 11,
-  "score": 137.9,
+  "score": 142,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-10T17:02:39Z",
-  "updatedAt": "2026-09-11T03:41:18Z",
+  "pushedAt": "2026-09-11T17:07:07Z",
+  "updatedAt": "2026-09-12T04:13:57Z",
   "createdAt": "2026-04-22T16:35:39Z",
   "sourceTopics": [
     "skill",
+    "agent-skills",
     "claude-skills"
   ],
   "discoveredBy": [
@@ -40,17 +41,22 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "ai-agent",
     "ai-writing",
+    "antigravity",
     "chinese-novel",
     "claude-code",
     "claude-skills",
+    "codex",
     "creative-writing",
     "novel-writing",
     "openclaw",
+    "opencode",
     "skill",
     "web-novel",
-    "writing-assistant"
+    "writing-assistant",
+    "zenstory"
   ],
   "platforms": [
     "Claude",
@@ -60,7 +66,7 @@
     "OpenCode",
     "Antigravity"
   ],
-  "skillCount": 1,
+  "skillCount": 13,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/zenstory-ai/oh-story-claudecode",
@@ -90,8 +96,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "19b80e8cb014896d",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "c77cc3b7a63f3e85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -124,7 +130,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 13+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

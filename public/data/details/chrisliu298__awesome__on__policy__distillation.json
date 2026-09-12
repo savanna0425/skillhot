@@ -1,14 +1,14 @@
 {
-  "rank": 1278,
-  "id": 1261663145,
-  "name": "OpenResearch",
-  "fullName": "alphaXiv/OpenResearch",
-  "owner": "alphaXiv",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/153782766?v=4",
-  "url": "https://github.com/alphaXiv/OpenResearch",
-  "homepage": "https://openresearch.sh/",
-  "description": "Run parallel research agents with any model",
-  "summary": "OpenResearch：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1699,
+  "id": 1189057629,
+  "name": "awesome-on-policy-distillation",
+  "fullName": "chrisliu298/awesome-on-policy-distillation",
+  "owner": "chrisliu298",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/59010212?v=4",
+  "url": "https://github.com/chrisliu298/awesome-on-policy-distillation",
+  "homepage": "",
+  "description": "A curated collection of papers, technical reports, frameworks, and tools for on-policy distillation (OPD) of large language models",
+  "summary": "awesome-on-policy-distillation 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,63 +19,81 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alphaXiv/OpenResearch.git",
-  "language": "Rust",
-  "license": "MIT",
-  "stars": 999,
-  "forks": 77,
-  "openIssues": 10,
-  "score": 102.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-11T04:25:13Z",
-  "updatedAt": "2026-09-11T04:48:02Z",
-  "createdAt": "2026-06-07T01:51:39Z",
+  "installCommand": "git clone https://github.com/chrisliu298/awesome-on-policy-distillation.git",
+  "language": "",
+  "license": "CC0-1.0",
+  "stars": 813,
+  "forks": 32,
+  "openIssues": 2,
+  "score": 93,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-30T03:47:45Z",
+  "updatedAt": "2026-09-11T11:59:11Z",
+  "createdAt": "2026-03-22T23:39:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "awesome",
+    "awesome-list",
+    "distillation",
+    "gkd",
+    "knowledge-distillation",
+    "llm",
+    "llm-distillation",
+    "llm-training",
+    "minillm",
+    "on-policy-distillation",
+    "opd",
+    "post-training",
+    "reinforcement-learning",
+    "rl",
+    "rlhf",
+    "self-distillation",
+    "speculative-decoding"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/alphaXiv/OpenResearch",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chrisliu298/awesome-on-policy-distillation",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/alphaXiv/OpenResearch#readme",
-  "detailPath": "data/details/alphaxiv__openresearch.json",
+  "readmeUrl": "https://github.com/chrisliu298/awesome-on-policy-distillation#readme",
+  "detailPath": "data/details/chrisliu298__awesome__on__policy__distillation.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenResearch 支持资料研究、知识检索或学习任务。",
+    "summary": "awesome-on-policy-distillation 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
       "学习与推理"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "336ae14941082d94",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "6d034d90906d83ea",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenResearch：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "OpenResearch 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "awesome-on-policy-distillation 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-on-policy-distillation 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -115,7 +133,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 CC0-1.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

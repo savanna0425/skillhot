@@ -1,5 +1,5 @@
 {
-  "rank": 850,
+  "rank": 847,
   "id": 1263497845,
   "name": "Financial-API",
   "fullName": "HiThink-Tech/Financial-API",
@@ -8,7 +8,7 @@
   "url": "https://github.com/HiThink-Tech/Financial-API",
   "homepage": "https://fuyao.aicubes.cn/",
   "description": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
-  "summary": "Financial-API：同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThi。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "Financial-API：同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThi。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/HiThink-Tech/Financial-API.git",
+  "installCommand": "npx skills add HiThink-Tech/Financial-API --skill hithink-finance -g --yes",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3092,
-  "forks": 266,
-  "openIssues": 44,
-  "score": 113.8,
+  "stars": 3162,
+  "forks": 270,
+  "openIssues": 47,
+  "score": 114,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-08T12:12:34Z",
-  "updatedAt": "2026-09-11T04:37:48Z",
+  "pushedAt": "2026-09-11T09:10:30Z",
+  "updatedAt": "2026-09-12T04:35:55Z",
   "createdAt": "2026-06-09T02:28:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,7 +47,8 @@
     "rest-api"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -79,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "b78f39c3620e0df5",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "2ae72b449948103d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Financial-API：同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThi。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Financial-API：同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThi。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Financial-API 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -103,7 +104,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",

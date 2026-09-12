@@ -1,5 +1,5 @@
 {
-  "rank": 133,
+  "rank": 196,
   "id": 1171833693,
   "name": "drawio-skill",
   "fullName": "Agents365-ai/drawio-skill",
@@ -7,32 +7,31 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/221161299?v=4",
   "url": "https://github.com/Agents365-ai/drawio-skill",
   "homepage": "https://agents365-ai.github.io/drawio-skill/",
-  "description": "From text & real sources to maintainable .drawio architecture models: Diagram IR with source-kind profiles, incremental sync preserving manual layout, multi-view projection, architecture-as-test with a CI action, query/review, what-if, accessible Story Mode, and a built-in MCP server",
-  "summary": "drawio-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "编程开发",
-  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
+  "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI and Protobuf sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+  "summary": "drawio-skill：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "category": "数据分析",
+  "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
   "scenarios": [
-    "软件开发",
-    "代码质量",
-    "工程自动化"
+    "数据处理",
+    "SQL 与表格",
+    "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "npx skills add Agents365-ai/365-skills -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 9214,
-  "forks": 646,
-  "openIssues": 0,
-  "score": 141.2,
+  "stars": 9249,
+  "forks": 654,
+  "openIssues": 1,
+  "score": 137.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-09T04:46:49Z",
-  "updatedAt": "2026-09-11T04:06:17Z",
+  "pushedAt": "2026-09-11T16:08:26Z",
+  "updatedAt": "2026-09-12T04:29:02Z",
   "createdAt": "2026-03-03T16:54:59Z",
   "sourceTopics": [
-    "agent-skills",
-    "claude-skills"
+    "agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
@@ -43,19 +42,20 @@
     "agent-skills",
     "architecture",
     "architecture-diagram",
+    "asyncapi",
     "bpmn",
     "c4-model",
     "claude-code",
-    "claude-skills",
     "diagram",
     "diagram-ir",
+    "diagrams-as-code",
     "drawio",
-    "erd",
     "flowchart",
     "github-actions",
     "image-to-diagram",
     "kubernetes",
     "mcp-server",
+    "protobuf",
     "sysml",
     "terraform",
     "uml"
@@ -64,7 +64,6 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
     "GitHub Copilot",
     "OpenClaw"
   ],
@@ -79,18 +78,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "drawio-skill 聚焦软件开发、代码质量与工程交付。",
+    "summary": "drawio-skill：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
-      "软件开发",
-      "代码质量",
-      "工程自动化"
+      "数据处理",
+      "SQL 与表格",
+      "分析与可视化"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "需要SQL、数据处理、统计、可视化与商业分析能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -98,51 +97,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "dae9761c503c86e5",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "4918807efc87d5d6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "drawio-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "drawio-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "drawio-skill：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "drawio-skill 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
-      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
-      "团队希望把开发经验沉淀成可重复执行的能力。",
-      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
+      "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
+      "非数据团队成员看不懂数据处理流程。",
+      "Agent 做数据任务时需要更明确的工具和边界。",
+      "如果你的任务和「数据处理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
-      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
-      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
+      "辅助处理 SQL、表格、统计、图表、数据清洗或分析报告。",
+      "把数据任务拆成可执行步骤，方便 Agent 跟进。",
+      "帮助你判断它是否适合当前分析场景。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
-      "需要让 Agent 参与真实工程任务的团队。",
-      "想把开发流程标准化、可复盘的人。",
+      "需要快速探索数据的开发者、分析师和运营人员。",
+      "希望用 Agent 生成分析脚本、图表或报告的人。",
+      "想把常见数据流程标准化的团队。",
       "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想找一个无需配置的成品 SaaS 工具的人。",
-      "不打算让 Agent 参与代码或工程流程的人。"
+      "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
+      "完全不愿检查结果准确性的人。"
     ],
     "howItWorks": [
-      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
-      "Agent 会根据仓库提供的方法处理具体开发任务。",
-      "最终质量仍需要你用测试、构建和代码评审来确认。",
+      "通常通过脚本、Notebook、CLI、数据库连接或 Skill 执行分析流程。",
+      "用户提供数据源或问题，Agent 按步骤生成查询、处理和解读。",
+      "关键结论仍要回到原始数据验证。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先读 README 的安装步骤和示例任务。",
-      "在一个小仓库或低风险分支中试用。",
-      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
+      "先用公开或脱敏数据试跑。",
+      "确认依赖环境、数据库权限和导出格式。",
+      "再用于真实业务数据，并保留人工复核。"
     ],
     "expectedOutcome": [
-      "开发流程更有章法，长任务更不容易散。",
-      "重复性的工程经验可以被复用。",
-      "你能更快判断一个仓库是否值得投入时间试用。"
+      "更快完成数据探索和初步报告。",
+      "重复分析步骤更容易复用。",
+      "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

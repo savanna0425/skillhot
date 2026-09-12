@@ -1,17 +1,17 @@
 {
-  "rank": 1369,
-  "id": 1354059245,
-  "name": "agent-memory",
-  "fullName": "tigerless-labs/agent-memory",
-  "owner": "tigerless-labs",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/285825190?v=4",
-  "url": "https://github.com/tigerless-labs/agent-memory",
-  "homepage": "",
-  "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
-  "summary": "agent-memory：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 611,
+  "id": 832879402,
+  "name": "Kiln",
+  "fullName": "Kiln-AI/Kiln",
+  "owner": "Kiln-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/178670964?v=4",
+  "url": "https://github.com/Kiln-AI/Kiln",
+  "homepage": "https://kiln.tech",
+  "description": "Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning, synthetic data generation, dataset management, MCP, and more.",
+  "summary": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
@@ -19,51 +19,58 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/tigerless-labs/agent-memory.git",
+  "installCommand": "pip install kiln-ai",
   "language": "Python",
-  "license": "MIT",
-  "stars": 903,
-  "forks": 54,
-  "openIssues": 16,
-  "score": 101.1,
+  "license": "NOASSERTION",
+  "stars": 5058,
+  "forks": 378,
+  "openIssues": 65,
+  "score": 118.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-10T08:18:56Z",
-  "updatedAt": "2026-09-11T04:42:17Z",
-  "createdAt": "2026-09-01T21:52:29Z",
+  "pushedAt": "2026-09-12T02:28:51Z",
+  "updatedAt": "2026-09-11T04:11:21Z",
+  "createdAt": "2024-07-23T23:10:13Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-memory",
-    "ai-agents",
-    "claude-code",
-    "codex",
-    "llm",
-    "local-first",
-    "long-term-memory",
-    "markdown",
+    "ai",
+    "chain-of-thought",
+    "collaboration",
+    "dataset-generation",
+    "evals",
+    "evaluation",
+    "evaluation-framework",
+    "fine-tuning",
+    "machine-learning",
+    "macos",
     "mcp",
+    "ml",
+    "ollama",
+    "openai",
+    "prompt",
+    "prompt-engineering",
     "python",
-    "retrieval",
-    "sqlite"
+    "rlhf",
+    "synthetic-data",
+    "windows"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/tigerless-labs/agent-memory",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Kiln-AI/Kiln",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/tigerless-labs/agent-memory#readme",
-  "detailPath": "data/details/tigerless__labs__agent__memory.json",
+  "readmeUrl": "https://github.com/Kiln-AI/Kiln#readme",
+  "detailPath": "data/details/kiln__ai__kiln.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-memory 提供记忆、上下文管理或知识检索能力。",
+    "summary": "构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -79,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "19fb258af8239117",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "cbf592330f92b6e5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-memory：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "agent-memory 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Kiln：构建、评估与优化人工智能系统。涵盖评估、RAG、代理、微调、合成数据生成、数据集管理及更多功能。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "Kiln 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -106,7 +113,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -129,7 +136,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

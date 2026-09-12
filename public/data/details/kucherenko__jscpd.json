@@ -1,5 +1,5 @@
 {
-  "rank": 423,
+  "rank": 419,
   "id": 10353211,
   "name": "jscpd",
   "fullName": "kucherenko/jscpd",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kucherenko/jscpd",
   "homepage": "https://jscpd.dev",
   "description": "Copy/paste detector for source code. 220+ languages, Rust engine, SARIF/HTML/badge reporters, GitHub Action, MCP server for AI agents.",
-  "summary": "jscpd：聚焦软件开发、代码质量与工程交付。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "jscpd：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "curl -fsSL https://jscpd.dev/install.sh | bash\nirm https://jscpd.dev/install.ps1 | iex\nnpx jscpd .",
   "language": "Rust",
   "license": "MIT",
-  "stars": 6187,
+  "stars": 6192,
   "forks": 262,
-  "openIssues": 53,
+  "openIssues": 51,
   "score": 125,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T03:07:23Z",
-  "updatedAt": "2026-09-11T04:34:39Z",
+  "pushedAt": "2026-09-11T06:48:27Z",
+  "updatedAt": "2026-09-12T01:57:45Z",
   "createdAt": "2013-05-29T06:19:20Z",
   "sourceTopics": [
     "skills"
@@ -60,7 +60,7 @@
     "typescript"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "5e96d1ba9c36f28e",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "5648c6c20d4ca362",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jscpd：聚焦软件开发、代码质量与工程交付。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "jscpd：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "jscpd 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -116,7 +116,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

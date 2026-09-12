@@ -1,5 +1,5 @@
 {
-  "rank": 96,
+  "rank": 95,
   "id": 249995750,
   "name": "app",
   "fullName": "reactive-resume/app",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --depth=1  https://github.com/amruthpillai/reactive-resume.git\ncd reactive-resume\ndocker compose up -d",
+  "installCommand": "git clone --depth=1  https://github.com/reactive-resume/app.git reactive-resume\ncd reactive-resume\ndocker compose up -d",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 42448,
-  "forks": 4705,
-  "openIssues": 57,
+  "stars": 42495,
+  "forks": 4706,
+  "openIssues": 51,
   "score": 145.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T01:43:31Z",
-  "updatedAt": "2026-09-11T04:33:52Z",
+  "pushedAt": "2026-09-11T10:54:59Z",
+  "updatedAt": "2026-09-12T04:27:48Z",
   "createdAt": "2020-03-25T14:08:22Z",
   "sourceTopics": [
     "agent-skills"
@@ -61,7 +61,7 @@
   "readmeUrl": "https://github.com/reactive-resume/app#readme",
   "detailPath": "data/details/reactive__resume__app.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "app 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -82,8 +82,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-11T04:49:05.896Z",
-    "sourceHash": "5d492bad3d1a50d1",
+    "generatedAt": "2026-09-12T04:43:22.291Z",
+    "sourceHash": "f7ac86407df412c9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
