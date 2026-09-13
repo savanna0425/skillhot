@@ -1,5 +1,5 @@
 {
-  "rank": 768,
+  "rank": 770,
   "id": 1305058794,
   "name": "novel-to-game",
   "fullName": "zenstory-ai/novel-to-game",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/novel-to-game",
   "homepage": "https://plateau.vibecoco.ai",
-  "description": "Agent Skills that turn novels into source-grounded, fully playable games for Claude Code, Codex, and Kimi Code(K3).",
+  "description": "Agent skills for source-grounded novel-to-game adaptation: design, target-runtime builds, and evidence-based QA. For Claude Code, Codex, and Kimi Code.",
   "summary": "novel-to-game：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add zenstory-ai/novel-to-game -g -y -s '*' \\\n-a claude-code -a codex -a kimi-code-cli",
   "language": "Markdown",
   "license": "MIT",
-  "stars": 776,
+  "stars": 777,
   "forks": 109,
   "openIssues": 1,
   "score": 115.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T17:04:02Z",
-  "updatedAt": "2026-09-12T02:27:31Z",
+  "pushedAt": "2026-09-12T13:15:40Z",
+  "updatedAt": "2026-09-12T13:21:04Z",
   "createdAt": "2026-07-18T16:29:56Z",
   "sourceTopics": [
     "claude-skills",
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "e658898d818c2afc",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "932878548a4f2f83",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

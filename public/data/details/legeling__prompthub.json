@@ -1,5 +1,5 @@
 {
-  "rank": 781,
+  "rank": 1044,
   "id": 1106401972,
   "name": "PromptHub",
   "fullName": "legeling/PromptHub",
@@ -8,7 +8,7 @@
   "url": "https://github.com/legeling/PromptHub",
   "homepage": "https://prompthub.click",
   "description": "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control",
-  "summary": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew tap legeling/tap\nbrew install --cask prompthub",
+  "installCommand": "git clone https://github.com/legeling/PromptHub.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 1649,
-  "forks": 191,
-  "openIssues": 38,
-  "score": 115.3,
-  "activity": "本周活跃",
+  "stars": 1651,
+  "forks": 192,
+  "openIssues": 39,
+  "score": 108.3,
+  "activity": "本月活跃",
   "pushedAt": "2026-09-05T03:51:50Z",
-  "updatedAt": "2026-09-12T02:15:02Z",
+  "updatedAt": "2026-09-12T12:38:37Z",
   "createdAt": "2025-11-29T07:06:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,11 +44,7 @@
     "skills"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "Antigravity"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -80,13 +76,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "5316a281433cd92d",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "67d3503ac2a50568",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "PromptHub：一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "PromptHub 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -104,7 +100,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

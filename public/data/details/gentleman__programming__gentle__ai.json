@@ -1,5 +1,5 @@
 {
-  "rank": 255,
+  "rank": 256,
   "id": 1168900408,
   "name": "gentle-ai",
   "fullName": "Gentleman-Programming/gentle-ai",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew tap gentleman-programming/tap\nbrew trust --formula gentleman-programming/tap/gentle-ai  # one-time, if Homebrew requires trust\nbrew install gentle-ai",
+  "installCommand": "brew install gentleman-programming/tap/gentle-ai\ncurl -fsSL https://raw.githubusercontent.com/Gentleman-Programming/gentle-ai/main/scripts/install.sh | bash\ngo install github.com/gentleman-programming/gentle-ai/v2/cmd/gentle-ai@latest",
   "language": "Go",
   "license": "MIT",
-  "stars": 6673,
-  "forks": 739,
-  "openIssues": 951,
-  "score": 133.8,
+  "stars": 6708,
+  "forks": 742,
+  "openIssues": 944,
+  "score": 133.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-12T01:56:23Z",
-  "updatedAt": "2026-09-12T04:20:11Z",
+  "pushedAt": "2026-09-12T21:52:32Z",
+  "updatedAt": "2026-09-13T03:43:44Z",
   "createdAt": "2026-02-27T23:28:01Z",
   "sourceTopics": [
     "agent-skills"
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "7b91f16c2d33c261",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "84d133c76f2adba1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

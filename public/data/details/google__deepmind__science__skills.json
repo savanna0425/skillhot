@@ -1,14 +1,14 @@
 {
-  "rank": 903,
-  "id": 953089294,
-  "name": "zotero-mcp",
-  "fullName": "54yyyu/zotero-mcp",
-  "owner": "54yyyu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/27888654?v=4",
-  "url": "https://github.com/54yyyu/zotero-mcp",
-  "homepage": "https://stevenyuyy.com/zotero-mcp/",
-  "description": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
-  "summary": "zotero-mcp 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 555,
+  "id": 1237911785,
+  "name": "science-skills",
+  "fullName": "google-deepmind/science-skills",
+  "owner": "google-deepmind",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8596759?v=4",
+  "url": "https://github.com/google-deepmind/science-skills",
+  "homepage": "https://antigravity.google/use-cases/science",
+  "description": "GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrate insights from AlphaGenome, AFDB, UniProt and 30+ other databases and tools.",
+  "summary": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,68 +19,64 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/54yyyu/zotero-mcp.git",
+  "installCommand": "npx skills add google-deepmind/science-skills/",
   "language": "Python",
-  "license": "MIT",
-  "stars": 4996,
-  "forks": 394,
-  "openIssues": 92,
-  "score": 111.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-25T02:00:54Z",
-  "updatedAt": "2026-09-11T21:35:19Z",
-  "createdAt": "2025-03-22T14:47:42Z",
+  "license": "Apache-2.0",
+  "stars": 3017,
+  "forks": 343,
+  "openIssues": 0,
+  "score": 121.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-08T13:07:33Z",
+  "updatedAt": "2026-09-13T03:38:24Z",
+  "createdAt": "2026-05-13T16:17:41Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "claude",
-    "mcp",
-    "semantic-search",
-    "zotero"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/54yyyu/zotero-mcp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google-deepmind/science-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/54yyyu/zotero-mcp#readme",
-  "detailPath": "data/details/54yyyu__zotero__mcp.json",
+  "readmeUrl": "https://github.com/google-deepmind/science-skills#readme",
+  "detailPath": "data/details/google__deepmind__science__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "zotero-mcp 支持资料研究、知识检索或学习任务。",
+    "summary": "GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察",
     "useCases": [
       "资料调研",
       "知识检索",
       "学习与推理"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "4c09912721603960",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "411efc96888f031f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "zotero-mcp 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "zotero-mcp 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
+    "whatItIs": "science-skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -97,7 +93,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -120,7 +116,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

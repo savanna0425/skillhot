@@ -1,5 +1,5 @@
 {
-  "rank": 1324,
+  "rank": 717,
   "id": 1149517037,
   "name": "medical-research-skills",
   "fullName": "aipoch/medical-research-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/aipoch/medical-research-skills",
   "homepage": "https://aipoch.com/agent-skills",
   "description": "Hundreds of agent skills for medical research, including protocol design, data analysis, evidence insights, and academic writing.",
-  "summary": "medical-research-skills：数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "medical-research-skills：数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/aipoch/medical-research-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1862,
+  "stars": 1870,
   "forks": 170,
-  "openIssues": 6,
-  "score": 101.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-15T12:42:34Z",
-  "updatedAt": "2026-09-12T02:57:02Z",
+  "openIssues": 7,
+  "score": 116.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-12T15:44:33Z",
+  "updatedAt": "2026-09-13T04:16:36Z",
   "createdAt": "2026-02-04T07:50:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,13 +52,16 @@
     "single-cell"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 79,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/aipoch/medical-research-skills",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=Pq4E9mCO1t8"
   },
   "readmeUrl": "https://github.com/aipoch/medical-research-skills#readme",
   "detailPath": "data/details/aipoch__medical__research__skills.json",
@@ -84,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "d6e61ca40a1b5cca",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "74af9836e69440d3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "medical-research-skills：数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "medical-research-skills：数百种医疗研究代理技能，涵盖方案制定、数据分析、证据洞察及学术写作。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "medical-research-skills 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -108,7 +111,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -118,7 +121,7 @@
       "通常通过脚本、Notebook、CLI、数据库连接或 Skill 执行分析流程。",
       "用户提供数据源或问题，Agent 按步骤生成查询、处理和解读。",
       "关键结论仍要回到原始数据验证。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 79+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用公开或脱敏数据试跑。",

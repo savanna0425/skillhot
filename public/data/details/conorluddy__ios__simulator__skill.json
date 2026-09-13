@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill\ngit clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill",
+  "installCommand": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/src/ios-simulator-skill\ncp -R ~/src/ios-simulator-skill/ios-simulator-skill/skills/ios-simulator-skill \\\n~/.claude/skills/ios-simulator-skill",
   "language": "Python",
   "license": "MIT",
-  "stars": 1246,
+  "stars": 1249,
   "forks": 91,
-  "openIssues": 21,
+  "openIssues": 20,
   "score": 116.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T09:55:51Z",
-  "updatedAt": "2026-09-11T09:55:57Z",
+  "pushedAt": "2026-09-12T07:42:37Z",
+  "updatedAt": "2026-09-13T00:38:01Z",
   "createdAt": "2025-10-17T12:43:15Z",
   "sourceTopics": [
     "claude-skills"
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "5c2e757c3e02c2f5",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "2aa96ccd2b892348",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

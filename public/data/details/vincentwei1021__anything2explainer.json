@@ -1,5 +1,5 @@
 {
-  "rank": 869,
+  "rank": 794,
   "id": 1361693766,
   "name": "anything2explainer",
   "fullName": "Vincentwei1021/anything2explainer",
@@ -19,23 +19,22 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vincentwei1021/anything2explainer.git",
+  "installCommand": "git clone https://github.com/Vincentwei1021/anything2explainer.git\nln -s \"$PWD/anything2explainer\" ~/.claude/skills/anything2explainer   # Claude Code\nln -s \"$PWD/anything2explainer\" ~/.codex/skills/anything2explainer    # Codex",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 964,
-  "forks": 173,
-  "openIssues": 2,
-  "score": 113.7,
+  "stars": 1100,
+  "forks": 192,
+  "openIssues": 1,
+  "score": 115.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-10T19:27:26Z",
-  "updatedAt": "2026-09-12T04:31:28Z",
+  "pushedAt": "2026-09-13T03:23:06Z",
+  "updatedAt": "2026-09-13T04:36:34Z",
   "createdAt": "2026-09-08T17:19:54Z",
   "sourceTopics": [
     "claude-code-skill"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
@@ -91,8 +90,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "4529953725c3972c",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "6f589eb47daad43a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

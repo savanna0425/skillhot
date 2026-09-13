@@ -1,14 +1,14 @@
 {
-  "rank": 1140,
+  "rank": 1074,
   "id": 1362509712,
   "name": "gongwen-gbt9704-skill",
   "fullName": "mizzlelover/gongwen-gbt9704-skill",
   "owner": "mizzlelover",
   "avatarUrl": "https://avatars.githubusercontent.com/u/220598337?v=4",
   "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
-  "homepage": "https://x.com/dboy_yi2025",
-  "description": "跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX",
-  "summary": "gongwen-gbt9704-skill：跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+  "homepage": "https://github.com/mizzlelover/CEB",
+  "description": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/CEB",
+  "summary": "gongwen-gbt9704-skill：信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mizzlelover/gongwen-gbt9704-skill.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 504,
-  "forks": 104,
+  "stars": 548,
+  "forks": 117,
   "openIssues": 0,
-  "score": 107.1,
+  "score": 107.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T09:50:34Z",
-  "updatedAt": "2026-09-12T04:34:09Z",
+  "pushedAt": "2026-09-13T00:12:46Z",
+  "updatedAt": "2026-09-13T04:29:00Z",
   "createdAt": "2026-09-09T10:04:14Z",
   "sourceTopics": [
     "ai-skill"
@@ -38,6 +38,7 @@
   ],
   "repoTopics": [
     "ai-skill",
+    "ceb",
     "chinese-official-document",
     "claude-code",
     "cross-platform",
@@ -68,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX",
+    "summary": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -87,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "258e30f8ec95ed5a",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "64d352becd711cae",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gongwen-gbt9704-skill：跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "gongwen-gbt9704-skill：信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "gongwen-gbt9704-skill 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",

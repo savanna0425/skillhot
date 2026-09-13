@@ -1,75 +1,67 @@
 {
-  "rank": 610,
-  "id": 741450201,
-  "name": "AutoRAG",
-  "fullName": "Marker-Inc-Korea/AutoRAG",
-  "owner": "Marker-Inc-Korea",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/74290595?v=4",
-  "url": "https://github.com/Marker-Inc-Korea/AutoRAG",
-  "homepage": "https://marker-inc-korea.github.io/AutoRAG/",
-  "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
-  "summary": "AutoRAG：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 2289,
+  "id": 1141975412,
+  "name": "slipbot",
+  "fullName": "jrswab/slipbot",
+  "owner": "jrswab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1689426?v=4",
+  "url": "https://github.com/jrswab/slipbot",
+  "homepage": "",
+  "description": "Agentic Zettelkasten skill definitions for AI Agents. Captures notes, quotes, ideas, and journals via prefix syntax. AI handles YAML frontmatter generation, object-based tagging, bidirectional linking with typed connections, and JSON knowledge graph maintenance. Includes importers for Kindle, Instapaper, and Logseq.",
+  "summary": "slipbot：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Marker-Inc-Korea/AutoRAG.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 5067,
-  "forks": 433,
-  "openIssues": 132,
-  "score": 118.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-11T13:22:33Z",
-  "updatedAt": "2026-09-11T13:22:25Z",
-  "createdAt": "2024-01-10T12:25:00Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/jrswab/slipbot.git",
+  "language": "",
+  "license": "GPL-3.0",
+  "stars": 14,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 60.1,
+  "activity": "近期活跃",
+  "pushedAt": "2026-07-13T15:50:40Z",
+  "updatedAt": "2026-09-12T16:03:52Z",
+  "createdAt": "2026-01-25T18:48:27Z",
+  "sourceTopics": [
+    "agentic-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "analysis",
-    "automl",
-    "benchmarking",
-    "document-parser",
-    "embeddings",
-    "evaluation",
-    "llm",
-    "llm-evaluation",
-    "llm-ops",
-    "open-source",
-    "ops",
-    "optimization",
-    "pipeline",
-    "python",
-    "qa",
-    "rag",
-    "rag-evaluation",
-    "retrieval-augmented-generation"
+    "agentic-framework",
+    "agentic-skills",
+    "agentic-workflow",
+    "clawdbot",
+    "clawdbot-skill",
+    "moltbot",
+    "moltbot-skill",
+    "openclaw",
+    "openclaw-skills"
   ],
   "platforms": [
-    "Claude",
-    "Cursor"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Marker-Inc-Korea/AutoRAG",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jrswab/slipbot",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Marker-Inc-Korea/AutoRAG#readme",
-  "detailPath": "data/details/marker__inc__korea__autorag.json",
+  "readmeUrl": "https://github.com/jrswab/slipbot#readme",
+  "detailPath": "data/details/jrswab__slipbot.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AutoRAG 提供记忆、上下文管理或知识检索能力。",
+    "summary": "slipbot 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -85,17 +77,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "d00590d37c454cf2",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "d5b01d9e02778467",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AutoRAG：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "AutoRAG 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "slipbot：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "slipbot 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -112,7 +104,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -135,7 +127,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

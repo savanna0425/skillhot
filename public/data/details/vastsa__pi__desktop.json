@@ -1,14 +1,14 @@
 {
-  "rank": 1374,
-  "id": 1322125443,
-  "name": "developer-portfolio",
-  "fullName": "randifajar/developer-portfolio",
-  "owner": "randifajar",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/46032161?v=4",
-  "url": "https://github.com/randifajar/developer-portfolio",
-  "homepage": "https://developer-portfolio-delta-three.vercel.app",
-  "description": "Personal developer portfolio showcasing my backend engineering experience, projects, and AI-assisted development workflow.",
-  "summary": "developer-portfolio：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 849,
+  "id": 617502359,
+  "name": "PI-Desktop",
+  "fullName": "vastsa/PI-Desktop",
+  "owner": "vastsa",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/48862574?v=4",
+  "url": "https://github.com/vastsa/PI-Desktop",
+  "homepage": "https://pi-docs.aiuo.net",
+  "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+  "summary": "PI-Desktop：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,33 +19,37 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/randifajar/developer-portfolio.git",
+  "installCommand": "git clone https://github.com/vastsa/PI-Desktop.git",
   "language": "TypeScript",
-  "license": "MIT",
-  "stars": 898,
-  "forks": 0,
-  "openIssues": 7,
-  "score": 101,
+  "license": "LGPL-3.0",
+  "stars": 3136,
+  "forks": 243,
+  "openIssues": 58,
+  "score": 113.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T06:18:16Z",
-  "updatedAt": "2026-09-11T02:38:23Z",
-  "createdAt": "2026-08-03T18:36:30Z",
+  "pushedAt": "2026-09-13T00:43:42Z",
+  "updatedAt": "2026-09-13T04:53:11Z",
+  "createdAt": "2023-03-22T14:23:39Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-assisted-development",
-    "developer-portfolio",
-    "github-actions",
-    "nextjs",
-    "playwright",
-    "portfolio",
+    "ai-agent",
+    "coding-agent",
+    "desktop-app",
+    "electron",
+    "global",
+    "i18n",
+    "local-first",
+    "mcp",
+    "pi",
+    "pi-agent",
+    "pi-desktop",
+    "plugins",
     "react",
-    "tailwindcss",
-    "typescript",
-    "vercel",
-    "vitest"
+    "rust",
+    "typescript"
   ],
   "platforms": [
     "Agent Skills"
@@ -53,15 +57,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/randifajar/developer-portfolio",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/vastsa/PI-Desktop",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/randifajar/developer-portfolio#readme",
-  "detailPath": "data/details/randifajar__developer__portfolio.json",
+  "readmeUrl": "https://github.com/vastsa/PI-Desktop#readme",
+  "detailPath": "data/details/vastsa__pi__desktop.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "developer-portfolio 聚焦软件开发、代码质量与工程交付。",
+    "summary": "PI-Desktop 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,17 +81,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 LGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "04bd54ca82355037",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "d45fa1084d1fa5fd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "developer-portfolio：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "developer-portfolio 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "PI-Desktop：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "PI-Desktop 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -127,7 +131,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 LGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

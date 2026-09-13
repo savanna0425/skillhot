@@ -1,14 +1,14 @@
 {
-  "rank": 95,
+  "rank": 93,
   "id": 249995750,
-  "name": "app",
-  "fullName": "reactive-resume/app",
+  "name": "reactive-resume",
+  "fullName": "reactive-resume/reactive-resume",
   "owner": "reactive-resume",
   "avatarUrl": "https://avatars.githubusercontent.com/u/245328954?v=4",
-  "url": "https://github.com/reactive-resume/app",
+  "url": "https://github.com/reactive-resume/reactive-resume",
   "homepage": "https://rxresu.me",
   "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-  "summary": "app：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "reactive-resume：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --depth=1  https://github.com/reactive-resume/app.git reactive-resume\ncd reactive-resume\ndocker compose up -d",
+  "installCommand": "git clone --depth=1  https://github.com/reactive-resume/reactive-resume.git reactive-resume\ncd reactive-resume\ndocker compose up -d",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 42495,
-  "forks": 4706,
-  "openIssues": 51,
+  "stars": 42576,
+  "forks": 4716,
+  "openIssues": 47,
   "score": 145.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T10:54:59Z",
-  "updatedAt": "2026-09-12T04:27:48Z",
+  "pushedAt": "2026-09-12T09:29:07Z",
+  "updatedAt": "2026-09-13T04:54:28Z",
   "createdAt": "2020-03-25T14:08:22Z",
   "sourceTopics": [
     "agent-skills"
@@ -55,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/reactive-resume/app",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/reactive-resume/reactive-resume",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/reactive-resume/app#readme",
-  "detailPath": "data/details/reactive__resume__app.json",
+  "readmeUrl": "https://github.com/reactive-resume/reactive-resume#readme",
+  "detailPath": "data/details/reactive__resume__reactive__resume.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "app 聚焦软件开发、代码质量与工程交付。",
+    "summary": "reactive-resume 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -82,14 +82,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "f7ac86407df412c9",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "e6a8f5ff93b8a145",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "app：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "app 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "reactive-resume：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "reactive-resume 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

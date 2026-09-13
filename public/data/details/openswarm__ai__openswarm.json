@@ -1,14 +1,14 @@
 {
-  "rank": 1289,
-  "id": 1358346534,
-  "name": "codex-astra-luna-orchestrator",
-  "fullName": "donvito/codex-astra-luna-orchestrator",
-  "owner": "donvito",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/890270?v=4",
-  "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
-  "homepage": "",
-  "description": "Use Astra as orchestrator and Luna for subagents in Codex",
-  "summary": "codex-astra-luna-orchestrator：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 1475,
+  "id": 1181094269,
+  "name": "openswarm",
+  "fullName": "openswarm-ai/openswarm",
+  "owner": "openswarm-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268016834?v=4",
+  "url": "https://github.com/openswarm-ai/openswarm",
+  "homepage": "https://openswarm.com",
+  "description": "Your mission control center for a swarm of Ai agents.",
+  "summary": "openswarm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/donvito/codex-astra-luna-orchestrator.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 990,
-  "forks": 80,
-  "openIssues": 2,
-  "score": 102,
+  "installCommand": "git clone https://github.com/openswarm-ai/openswarm.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 812,
+  "forks": 169,
+  "openIssues": 32,
+  "score": 100,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-11T11:27:26Z",
-  "updatedAt": "2026-09-12T03:42:54Z",
-  "createdAt": "2026-09-05T16:03:06Z",
+  "pushedAt": "2026-09-10T23:18:39Z",
+  "updatedAt": "2026-09-13T01:56:50Z",
+  "createdAt": "2026-03-13T18:38:07Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/donvito/codex-astra-luna-orchestrator",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/openswarm-ai/openswarm",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/donvito/codex-astra-luna-orchestrator#readme",
-  "detailPath": "data/details/donvito__codex__astra__luna__orchestrator.json",
+  "readmeUrl": "https://github.com/openswarm-ai/openswarm#readme",
+  "detailPath": "data/details/openswarm__ai__openswarm.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "codex-astra-luna-orchestrator：尚未归入主要类别的实用项目。",
+    "summary": "openswarm：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-12T04:43:22.291Z",
-    "sourceHash": "4f264ca1e9d63245",
+    "generatedAt": "2026-09-13T04:56:31.085Z",
+    "sourceHash": "2ef336c14d52873b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-astra-luna-orchestrator：尚未归入主要类别的实用项目。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "codex-astra-luna-orchestrator 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "openswarm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "openswarm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
