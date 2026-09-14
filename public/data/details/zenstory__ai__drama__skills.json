@@ -1,5 +1,5 @@
 {
-  "rank": 585,
+  "rank": 433,
   "id": 1302986554,
   "name": "drama-skills",
   "fullName": "zenstory-ai/drama-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/drama-skills",
   "homepage": "https://zenstory.ai/drama-skills",
-  "description": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code & Codex: scripts, assets, storyboards, image/video prompts, and independent review.",
-  "summary": "drama-skills：AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-drama skills for Claude Code & Codex: script, assets, storyboard, image & video prompts, review. MIT.",
+  "summary": "drama-skills：开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-dra。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,16 +22,17 @@
   "installCommand": "git clone https://github.com/zenstory-ai/drama-skills.git && cd drama-skills\nmkdir -p \"$HOME/.claude/skills\"\nfor skill in skills/*; do",
   "language": "Python",
   "license": "MIT",
-  "stars": 1827,
-  "forks": 438,
-  "openIssues": 7,
-  "score": 120.3,
+  "stars": 1870,
+  "forks": 443,
+  "openIssues": 8,
+  "score": 124.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-12T13:19:02Z",
-  "updatedAt": "2026-09-13T03:58:15Z",
+  "pushedAt": "2026-09-13T13:55:10Z",
+  "updatedAt": "2026-09-14T04:55:36Z",
   "createdAt": "2026-07-16T16:11:19Z",
   "sourceTopics": [
-    "claude-skills"
+    "claude-skills",
+    "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
@@ -39,15 +40,22 @@
   ],
   "repoTopics": [
     "agent-skills",
+    "ai-short-drama",
     "ai-video",
     "aigc",
     "claude-code",
+    "claude-code-skills",
     "claude-skills",
     "codex",
+    "comic-drama",
+    "micro-drama",
     "prompt-engineering",
     "screenwriting",
+    "script-generation",
     "short-drama",
     "storyboard",
+    "storyboarding",
+    "video-prompts",
     "zenstory"
   ],
   "platforms": [
@@ -65,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &",
+    "summary": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-dra",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -84,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "1e5f508b21196959",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "2f8ccb8407187f53",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "drama-skills：AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code &。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "drama-skills：开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-dra。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "drama-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

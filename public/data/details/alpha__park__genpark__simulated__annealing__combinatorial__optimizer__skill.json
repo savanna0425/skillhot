@@ -1,48 +1,48 @@
 {
-  "rank": 1615,
-  "id": 1152948526,
-  "name": "forgecad-public-kit",
-  "fullName": "ForgeCAD/forgecad-public-kit",
-  "owner": "ForgeCAD",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/305886706?v=4",
-  "url": "https://github.com/ForgeCAD/forgecad-public-kit",
-  "homepage": "https://forgecad.io",
-  "description": "Public companion kit for ForgeCAD: examples, agent skills, docs links, and issue tracking. The hosted CAD app and core source live elsewhere.",
-  "summary": "forgecad-public-kit：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2132,
+  "id": 1362892085,
+  "name": "genpark-simulated-annealing-combinatorial-optimizer-skill",
+  "fullName": "Alpha-Park/genpark-simulated-annealing-combinatorial-optimizer-skill",
+  "owner": "Alpha-Park",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/135208971?v=4",
+  "url": "https://github.com/Alpha-Park/genpark-simulated-annealing-combinatorial-optimizer-skill",
+  "homepage": "",
+  "description": "Autonomous Agent Simulated Annealing Combinatorial Metaheuristic Optimizer with 2-Opt Neighborhood Perturbation",
+  "summary": "genpark-simulated-annealing-combinatorial-optimizer-skill：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "notebooklm|deep research|fact.?check|knowledge discove",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ForgeCAD/forgecad-public-kit.git",
+  "installCommand": "git clone https://github.com/Alpha-Park/genpark-simulated-annealing-combinatorial-optimizer-skill.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 932,
-  "forks": 105,
-  "openIssues": 5,
-  "score": 94.4,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-15T15:26:36Z",
-  "updatedAt": "2026-09-10T09:08:58Z",
-  "createdAt": "2026-02-08T17:16:25Z",
-  "sourceTopics": [],
+  "license": "",
+  "stars": 8,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 72.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-09T15:47:29Z",
+  "updatedAt": "2026-09-09T15:56:38Z",
+  "createdAt": "2026-09-09T15:47:17Z",
+  "sourceTopics": [
+    "genpark-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "cad-as-code",
-    "cad-examples",
-    "forgecad",
-    "issue-tracker",
-    "javascript-cad",
-    "parametric-cad",
-    "typescript-cad"
+    "agentic-ai",
+    "combinatorial-optimization",
+    "genpark-skill",
+    "metaheuristics",
+    "operations-research",
+    "simulated-annealing"
   ],
   "platforms": [
     "Agent Skills"
@@ -50,15 +50,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ForgeCAD/forgecad-public-kit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Alpha-Park/genpark-simulated-annealing-combinatorial-optimizer-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ForgeCAD/forgecad-public-kit#readme",
-  "detailPath": "data/details/forgecad__forgecad__public__kit.json",
+  "readmeUrl": "https://github.com/Alpha-Park/genpark-simulated-annealing-combinatorial-optimizer-skill#readme",
+  "detailPath": "data/details/alpha__park__genpark__simulated__annealing__combinatorial__optimizer__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "forgecad-public-kit 支持资料研究、知识检索或学习任务。",
+    "summary": "genpark-simulated-annealing-combinatorial-optimizer-skill 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -74,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "177525033a53af4b",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "c43cc4b8ff437f58",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "forgecad-public-kit：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "forgecad-public-kit 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "genpark-simulated-annealing-combinatorial-optimizer-skill：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "genpark-simulated-annealing-combinatorial-optimizer-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -124,7 +124,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

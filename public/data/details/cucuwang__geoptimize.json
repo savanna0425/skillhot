@@ -1,83 +1,72 @@
 {
-  "rank": 432,
-  "id": 1118625972,
-  "name": "aaron-marketing-skills",
-  "fullName": "aaron-he-zhu/aaron-marketing-skills",
-  "owner": "aaron-he-zhu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/139607425?v=4",
-  "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
-  "homepage": "https://aaronmarketing.ai/",
-  "description": "120 marketing skills as an AI marketing staff — plugin, portable skills, or an 8-bot team across 7 disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch) on one contract, with 8 auditor gates: TALE · CORE-EEAT · CITE · ECHO · SEND · ROAS · STAR · RAMP.",
-  "summary": "aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1958,
+  "id": 1203553557,
+  "name": "geoptimize",
+  "fullName": "cucuwang/geoptimize",
+  "owner": "cucuwang",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/232492212?v=4",
+  "url": "https://github.com/cucuwang/geoptimize",
+  "homepage": "https://github.com/cucuwang/geoptimize",
+  "description": "Deterministic content-readiness lint.",
+  "summary": "geoptimize：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "product management|product manager|marketing|growth|se",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "产品管理",
     "营销增长",
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/aaron-he-zhu/aaron-marketing-skills.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 2771,
-  "forks": 359,
-  "openIssues": 0,
-  "score": 124.7,
+  "installCommand": "git clone https://github.com/cucuwang/geoptimize.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 84,
+  "forks": 0,
+  "openIssues": 9,
+  "score": 81.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-13T02:44:58Z",
-  "updatedAt": "2026-09-13T02:45:04Z",
-  "createdAt": "2025-12-18T03:35:29Z",
+  "pushedAt": "2026-09-13T14:56:04Z",
+  "updatedAt": "2026-09-14T03:46:12Z",
+  "createdAt": "2026-04-07T06:28:03Z",
   "sourceTopics": [
-    "agent-skills"
+    "claude-code-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "aaron-marketing",
-    "agent-skills",
-    "ai-staff",
-    "brand-messaging",
-    "brand-narrative",
-    "content-optimization",
-    "email-marketing",
+    "ai-search",
+    "ai-seo",
+    "claude-code-skill",
+    "content-linter",
     "generative-engine-optimization",
     "geo",
-    "grok",
-    "hermes",
-    "influencer-marketing",
-    "marketing",
-    "marketing-automation",
-    "organic-social",
-    "paid-advertising",
-    "product-launch",
-    "roas",
+    "github-actions",
+    "json-ld",
+    "llms-txt",
+    "nextjs",
     "seo",
-    "social-media-marketing"
+    "static-site",
+    "structured-data",
+    "vite"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenClaw"
+    "Claude"
   ],
-  "skillCount": 120,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aaron-he-zhu/aaron-marketing-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/cucuwang/geoptimize",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aaron-he-zhu/aaron-marketing-skills#readme",
-  "detailPath": "data/details/aaron__he__zhu__aaron__marketing__skills.json",
+  "readmeUrl": "https://github.com/cucuwang/geoptimize#readme",
+  "detailPath": "data/details/cucuwang__geoptimize.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。",
+    "summary": "geoptimize：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -93,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "42177be92712e331",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "ad7f0c0656e5bcf6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aaron-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "aaron-marketing-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "geoptimize：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "geoptimize 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -120,7 +109,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -130,7 +119,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "仓库信息显示它包含 120+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",
@@ -143,7 +132,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

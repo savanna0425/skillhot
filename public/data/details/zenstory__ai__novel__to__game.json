@@ -1,5 +1,5 @@
 {
-  "rank": 770,
+  "rank": 775,
   "id": 1305058794,
   "name": "novel-to-game",
   "fullName": "zenstory-ai/novel-to-game",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/novel-to-game",
   "homepage": "https://plateau.vibecoco.ai",
-  "description": "Agent skills for source-grounded novel-to-game adaptation: design, target-runtime builds, and evidence-based QA. For Claude Code, Codex, and Kimi Code.",
-  "summary": "novel-to-game：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game): cited design docs, target-runtime builds, evidence-based QA. Three playable browser examples. For Claude Code, Codex, and Kimi Code.",
+  "summary": "novel-to-game：Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game): cited design docs, target-runtime bu。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx skills add zenstory-ai/novel-to-game -g -y -s '*' \\\n-a claude-code -a codex -a kimi-code-cli",
+  "installCommand": "| Agent CLI | Install | Invoke |\n|---|---|---|\n| Claude Code | `npx skills add zenstory-ai/novel-to-game -g -y -a claude-code -s '*'` | `/novel-to-game` |",
   "language": "Markdown",
   "license": "MIT",
-  "stars": 777,
+  "stars": 779,
   "forks": 109,
   "openIssues": 1,
   "score": 115.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-12T13:15:40Z",
-  "updatedAt": "2026-09-12T13:21:04Z",
+  "pushedAt": "2026-09-13T13:55:19Z",
+  "updatedAt": "2026-09-14T03:11:50Z",
   "createdAt": "2026-07-18T16:29:56Z",
   "sourceTopics": [
     "claude-skills",
@@ -49,12 +49,14 @@
     "game-development",
     "game-prototyping",
     "gamedev",
+    "interactive-fiction",
     "kimi-code",
     "narrative-design",
     "novel-to-game",
     "skills",
     "story-adaptation",
     "story-to-game",
+    "visual-novel",
     "zenstory"
   ],
   "platforms": [
@@ -72,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "novel-to-game 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game): cited design docs, target-runtime bu",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -91,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "932878548a4f2f83",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "c57b118eacf45bcb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "novel-to-game：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "novel-to-game：Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game): cited design docs, target-runtime bu。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "novel-to-game 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

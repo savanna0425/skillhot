@@ -1,13 +1,13 @@
 {
-  "rank": 1008,
+  "rank": 722,
   "id": 1183286798,
   "name": "ux-ui-agent-skills",
   "fullName": "plugin87/ux-ui-agent-skills",
   "owner": "plugin87",
   "avatarUrl": "https://avatars.githubusercontent.com/u/5790381?v=4",
   "url": "https://github.com/plugin87/ux-ui-agent-skills",
-  "homepage": "",
-  "description": "Turn Claude into a Senior Design Architect — DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework code, 138 design systems, and runnable skills.",
+  "homepage": "https://plugin87.github.io/ux-ui-agent-skills/",
+  "description": "Turn Claude into a senior design architect - DTCG design tokens, 50 components, WCAG 2.2 AA to AAA, 138 design systems, any-framework code, and 38 objective gates that fail the build instead of claiming success. Install as a Claude Code plugin or with npx.",
   "summary": "ux-ui-agent-skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/plugin87/ux-ui-agent-skills.git",
+  "installCommand": "npx ux-ui-agent-skills init          # full kit into the current folder\nnpx ux-ui-agent-skills add tokens taste design-systems   # just some areas\nnpx ux-ui-agent-skills list          # see all areas",
   "language": "JavaScript",
-  "license": "",
-  "stars": 1182,
-  "forks": 123,
-  "openIssues": 4,
-  "score": 108.8,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-26T15:24:54Z",
-  "updatedAt": "2026-09-13T04:49:31Z",
+  "license": "MIT",
+  "stars": 1258,
+  "forks": 128,
+  "openIssues": 5,
+  "score": 116.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-14T04:37:14Z",
+  "updatedAt": "2026-09-14T04:54:23Z",
   "createdAt": "2026-03-16T13:08:49Z",
   "sourceTopics": [
     "claude-skills"
@@ -57,7 +57,7 @@
   "platforms": [
     "Claude"
   ],
-  "skillCount": 1,
+  "skillCount": 18,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/plugin87/ux-ui-agent-skills",
@@ -84,11 +84,11 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "a72b24d9ed0f020c",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "1e54ce58cf908349",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -121,7 +121,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 18+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",
@@ -134,7 +134,7 @@
       "把审美要求变成更稳定的工作流。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

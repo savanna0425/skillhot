@@ -1,14 +1,14 @@
 {
-  "rank": 2234,
-  "id": 1174343965,
-  "name": "skill-optimizer",
-  "fullName": "fastxyz/skill-optimizer",
-  "owner": "fastxyz",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/153221483?v=4",
-  "url": "https://github.com/fastxyz/skill-optimizer",
-  "homepage": "",
-  "description": "Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs",
-  "summary": "skill-optimizer：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1192,
+  "id": 1196974400,
+  "name": "Atomic-Chat",
+  "fullName": "AtomicBot-ai/Atomic-Chat",
+  "owner": "AtomicBot-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/259533419?v=4",
+  "url": "https://github.com/AtomicBot-ai/Atomic-Chat",
+  "homepage": "https://atomic.chat",
+  "description": "Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V",
+  "summary": "Atomic-Chat：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,42 +19,42 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/fastxyz/skill-optimizer.git",
+  "installCommand": "git clone https://github.com/AtomicBot-ai/Atomic-Chat.git",
   "language": "TypeScript",
-  "license": "MIT",
-  "stars": 79,
-  "forks": 12,
-  "openIssues": 14,
-  "score": 65.8,
-  "activity": "活跃",
-  "pushedAt": "2026-05-28T17:39:51Z",
-  "updatedAt": "2026-09-12T02:17:19Z",
-  "createdAt": "2026-03-06T10:34:42Z",
-  "sourceTopics": [
-    "ai-skill"
-  ],
+  "license": "NOASSERTION",
+  "stars": 1471,
+  "forks": 174,
+  "openIssues": 53,
+  "score": 106.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-11T17:56:24Z",
+  "updatedAt": "2026-09-14T02:50:19Z",
+  "createdAt": "2026-03-31T08:03:09Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agent",
-    "ai-skill",
-    "benchmark",
-    "cli",
-    "eval",
-    "evals",
-    "evaluation",
-    "evaluation-framework",
+    "ai-chat",
+    "ai-tools",
+    "apple-silicon",
+    "chatgpt",
+    "deepseek",
+    "desktop-app",
+    "gemma",
+    "gguf",
+    "gpt-oss",
+    "llamacpp",
     "llm",
-    "llm-eval",
-    "llm-evals",
-    "llm-evaluation-framework",
+    "llm-inference",
+    "local-ai",
+    "local-first",
+    "local-llm",
     "mcp",
-    "openrouter",
-    "optimizer",
-    "sdk",
-    "tool-calling"
+    "mlx",
+    "open-source",
+    "qwen",
+    "self-hosted"
   ],
   "platforms": [
     "Agent Skills"
@@ -62,15 +62,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/fastxyz/skill-optimizer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AtomicBot-ai/Atomic-Chat",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/fastxyz/skill-optimizer#readme",
-  "detailPath": "data/details/fastxyz__skill__optimizer.json",
+  "readmeUrl": "https://github.com/AtomicBot-ai/Atomic-Chat#readme",
+  "detailPath": "data/details/atomicbot__ai__atomic__chat.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skill-optimizer：尚未归入主要类别的实用项目。",
+    "summary": "Atomic-Chat：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -86,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-13T04:56:31.085Z",
-    "sourceHash": "fb1b7e4cfb5dbb53",
+    "generatedAt": "2026-09-14T05:04:40.138Z",
+    "sourceHash": "5ae6d6ef974ea072",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-optimizer：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skill-optimizer 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Atomic-Chat：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Atomic-Chat 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -136,7 +136,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
