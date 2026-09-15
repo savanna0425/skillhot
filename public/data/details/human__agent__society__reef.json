@@ -1,14 +1,14 @@
 {
-  "rank": 1271,
-  "id": 9103211,
-  "name": "chamilo-lms",
-  "fullName": "chamilo/chamilo-lms",
-  "owner": "chamilo",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3460664?v=4",
-  "url": "https://github.com/chamilo/chamilo-lms",
-  "homepage": "https://chamilo.org",
-  "description": "Chamilo is a learning management system focused on ease of use and accessibility",
-  "summary": "chamilo-lms：Chamilo 是一款注重易用性和可访问性的学习管理系统。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1169,
+  "id": 1351879111,
+  "name": "reef",
+  "fullName": "Human-Agent-Society/reef",
+  "owner": "Human-Agent-Society",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268553699?v=4",
+  "url": "https://github.com/Human-Agent-Society/reef",
+  "homepage": "reefinfra.ai",
+  "description": "Continual learning infra for self-improving agents",
+  "summary": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,28 +19,30 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chamilo/chamilo-lms.git",
-  "language": "PHP",
-  "license": "GPL-3.0",
-  "stars": 998,
-  "forks": 559,
-  "openIssues": 393,
-  "score": 102.1,
+  "installCommand": "git clone https://github.com/Human-Agent-Society/reef.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1552,
+  "forks": 102,
+  "openIssues": 64,
+  "score": 106.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-12T05:14:48Z",
-  "updatedAt": "2026-09-12T21:12:15Z",
-  "createdAt": "2013-03-29T17:31:19Z",
+  "pushedAt": "2026-09-15T04:09:15Z",
+  "updatedAt": "2026-09-15T04:59:30Z",
+  "createdAt": "2026-08-31T01:39:18Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "chamilo",
-    "elearning",
-    "lms",
-    "php",
-    "skills",
-    "twig"
+    "agent-infrastructure",
+    "ai-agents",
+    "continual-learning",
+    "inference",
+    "llm",
+    "llm-training",
+    "reinforcement-learning",
+    "self-improving-agents"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +50,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chamilo/chamilo-lms",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Human-Agent-Society/reef",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chamilo/chamilo-lms#readme",
-  "detailPath": "data/details/chamilo__chamilo__lms.json",
+  "readmeUrl": "https://github.com/Human-Agent-Society/reef#readme",
+  "detailPath": "data/details/human__agent__society__reef.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Chamilo 是一款注重易用性和可访问性的学习管理系统",
+    "summary": "reef 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -72,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "2f89dca249ce510d",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "fb314c245cb53330",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chamilo-lms：Chamilo 是一款注重易用性和可访问性的学习管理系统。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "chamilo-lms 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "reef 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -122,7 +124,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,47 +1,48 @@
 {
-  "rank": 1578,
-  "id": 1354611198,
-  "name": "unigit-ecosystem",
-  "fullName": "adtexterry-lgtm/unigit-ecosystem",
-  "owner": "adtexterry-lgtm",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/317701536?v=4",
-  "url": "https://github.com/adtexterry-lgtm/unigit-ecosystem",
-  "homepage": "https://unigit.ai/",
-  "description": "UNIGIT public brand and ecosystem hub — AI should work for everyone.",
-  "summary": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1453,
+  "id": 1235324410,
+  "name": "octo-cli",
+  "fullName": "Mininglamp-OSS/octo-cli",
+  "owner": "Mininglamp-OSS",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/283583517?v=4",
+  "url": "https://github.com/Mininglamp-OSS/octo-cli",
+  "homepage": "https://pkg.go.dev/github.com/Mininglamp-OSS/octo-cli",
+  "description": "Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts.",
+  "summary": "octo-cli：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/adtexterry-lgtm/unigit-ecosystem.git",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 994,
-  "forks": 45,
-  "openIssues": 0,
-  "score": 95,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-02T12:51:17Z",
-  "updatedAt": "2026-09-14T05:03:44Z",
-  "createdAt": "2026-09-02T10:08:01Z",
+  "installCommand": "git clone https://github.com/Mininglamp-OSS/octo-cli.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 834,
+  "forks": 129,
+  "openIssues": 2,
+  "score": 100.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-15T03:07:36Z",
+  "updatedAt": "2026-09-15T04:41:58Z",
+  "createdAt": "2026-05-11T08:06:46Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "ai-tools",
-    "ai-workbench",
-    "ecosystem",
-    "mcp",
-    "productivity",
-    "unigit"
+    "ai-agent",
+    "bot",
+    "cli",
+    "golang",
+    "metadata-driven",
+    "octo",
+    "openapi",
+    "rest-client"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +50,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/adtexterry-lgtm/unigit-ecosystem",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Mininglamp-OSS/octo-cli",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/adtexterry-lgtm/unigit-ecosystem#readme",
-  "detailPath": "data/details/adtexterry__lgtm__unigit__ecosystem.json",
+  "readmeUrl": "https://github.com/Mininglamp-OSS/octo-cli#readme",
+  "detailPath": "data/details/mininglamp__oss__octo__cli.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "octo-cli：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -73,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "519eb92461832913",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "40bbd088f15c90cc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "unigit-ecosystem 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "octo-cli：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "octo-cli 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -123,7 +124,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

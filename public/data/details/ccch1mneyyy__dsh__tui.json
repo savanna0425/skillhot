@@ -1,73 +1,76 @@
 {
-  "rank": 972,
-  "id": 774011471,
-  "name": "langgraph4j",
-  "fullName": "langgraph4j/langgraph4j",
-  "owner": "langgraph4j",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/212100817?v=4",
-  "url": "https://github.com/langgraph4j/langgraph4j",
-  "homepage": "https://langgraph4j.github.io/langgraph4j/",
-  "description": "🚀 LangGraph for Java is a library for Graph Engineering, designed to build sophisticated AI agentic architectures within the Java ecosystem. It works seamlessly with both Langchain4j and Spring AI.",
-  "summary": "langgraph4j 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 882,
+  "id": 1333111893,
+  "name": "dsh-TUI",
+  "fullName": "ccch1mneyyy/dsh-TUI",
+  "owner": "ccch1mneyyy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268149062?v=4",
+  "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+  "homepage": "https://dshtui.com/",
+  "description": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+  "summary": "dsh-TUI：DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/langgraph4j/langgraph4j.git",
-  "language": "Java",
+  "installCommand": "git clone https://github.com/ccch1mneyyy/dsh-TUI.git",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 1998,
-  "forks": 280,
-  "openIssues": 25,
-  "score": 109.3,
+  "stars": 3039,
+  "forks": 182,
+  "openIssues": 120,
+  "score": 113.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-13T00:55:47Z",
-  "updatedAt": "2026-09-13T02:26:42Z",
-  "createdAt": "2024-03-18T19:38:47Z",
+  "pushedAt": "2026-09-15T04:16:16Z",
+  "updatedAt": "2026-09-15T04:15:58Z",
+  "createdAt": "2026-08-13T12:49:31Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agents",
-    "ai",
-    "langchain4j",
-    "langgraph",
-    "spring-ai",
-    "workflow"
+    "claude-code",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "ink",
+    "react",
+    "terminal",
+    "tui"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/langgraph4j/langgraph4j",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ccch1mneyyy/dsh-TUI",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/langgraph4j/langgraph4j#readme",
-  "detailPath": "data/details/langgraph4j__langgraph4j.json",
+  "readmeUrl": "https://github.com/ccch1mneyyy/dsh-TUI#readme",
+  "detailPath": "data/details/ccch1mneyyy__dsh__tui.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "langgraph4j 聚焦软件开发、代码质量与工程交付。",
+    "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin ",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -75,14 +78,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "45bce609eb4a590a",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "f65a721d16030e55",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "langgraph4j 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "langgraph4j 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "dsh-TUI：DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "dsh-TUI 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -99,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

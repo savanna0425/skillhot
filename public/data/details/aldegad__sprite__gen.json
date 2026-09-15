@@ -1,52 +1,49 @@
 {
-  "rank": 945,
-  "id": 1343011496,
-  "name": "video-talkcraft",
-  "fullName": "Vincentwei1021/video-talkcraft",
-  "owner": "Vincentwei1021",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18239147?v=4",
-  "url": "https://github.com/Vincentwei1021/video-talkcraft",
-  "homepage": "https://vincentwei1021.github.io/video-talkcraft/",
-  "description": "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 109 motion recipe cards, an anti-slideshow camera system, Remotion rendering.",
-  "summary": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 850,
+  "id": 1236336437,
+  "name": "sprite-gen",
+  "fullName": "aldegad/sprite-gen",
+  "owner": "aldegad",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/11458183?v=4",
+  "url": "https://github.com/aldegad/sprite-gen",
+  "homepage": "",
+  "description": "Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill.",
+  "summary": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vincentwei1021/video-talkcraft.git",
-  "language": "HTML",
-  "license": "NOASSERTION",
-  "stars": 990,
-  "forks": 97,
-  "openIssues": 1,
-  "score": 110,
+  "installCommand": "git clone https://github.com/aldegad/sprite-gen.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1499,
+  "forks": 134,
+  "openIssues": 2,
+  "score": 114.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-13T19:09:32Z",
-  "updatedAt": "2026-09-14T04:40:33Z",
-  "createdAt": "2026-08-22T17:11:05Z",
+  "pushedAt": "2026-09-12T08:07:04Z",
+  "updatedAt": "2026-09-15T04:54:33Z",
+  "createdAt": "2026-05-12T06:49:09Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai-agent",
-    "claude",
+    "2d-game",
+    "ai-tools",
     "claude-code",
-    "explainer-video",
-    "kinetic-typography",
-    "motion-design",
-    "motion-graphics",
-    "narration",
-    "remotion",
-    "talking-head",
-    "video-production"
+    "codex",
+    "game-dev",
+    "gamedev",
+    "pixel-art",
+    "sprite-generation",
+    "sprite-sheet"
   ],
   "platforms": [
     "Claude",
@@ -55,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Vincentwei1021/video-talkcraft",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/aldegad/sprite-gen",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Vincentwei1021/video-talkcraft#readme",
-  "detailPath": "data/details/vincentwei1021__video__talkcraft.json",
+  "readmeUrl": "https://github.com/aldegad/sprite-gen#readme",
+  "detailPath": "data/details/aldegad__sprite__gen.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "7a5bb6bb46045b44",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "1aa0b69800f98cd4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "video-talkcraft 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "sprite-gen 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -129,7 +126,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

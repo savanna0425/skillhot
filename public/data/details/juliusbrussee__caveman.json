@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/104168679?v=4",
   "url": "https://github.com/JuliusBrussee/caveman",
   "homepage": "https://docs.caveman.so/docs/quickstart",
-  "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+  "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
   "summary": "caveman：用极简表达压缩 Agent 对话，减少上下文 Token 消耗。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
@@ -19,16 +19,16 @@
     "低带宽协作"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add JuliusBrussee/caveman",
+  "installCommand": "npx skills add JuliusBrussee/caveman -g",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 105417,
-  "forks": 6107,
-  "openIssues": 137,
+  "stars": 105622,
+  "forks": 6113,
+  "openIssues": 108,
   "score": 162.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-13T07:27:49Z",
-  "updatedAt": "2026-09-14T05:00:32Z",
+  "pushedAt": "2026-09-15T04:00:36Z",
+  "updatedAt": "2026-09-15T04:55:10Z",
   "createdAt": "2026-04-04T10:03:00Z",
   "sourceTopics": [
     "skill"
@@ -61,7 +61,7 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/JuliusBrussee/caveman",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=L29q2LRiMRc"
   },
   "readmeUrl": "https://github.com/JuliusBrussee/caveman#readme",
   "detailPath": "data/details/juliusbrussee__caveman.json",
@@ -87,8 +87,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "3c24451d8a76860f",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "433496ac8d81e0d9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

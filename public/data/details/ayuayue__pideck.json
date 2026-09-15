@@ -1,14 +1,14 @@
 {
-  "rank": 874,
-  "id": 141427485,
-  "name": "metamask-mobile",
-  "fullName": "MetaMask/metamask-mobile",
-  "owner": "MetaMask",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/11744586?v=4",
-  "url": "https://github.com/MetaMask/metamask-mobile",
-  "homepage": "https://metamask.io",
-  "description": "Mobile web browser providing access to websites that use the Ethereum blockchain",
-  "summary": "metamask-mobile：支持使用以太坊区块链访问网站的移动网页浏览器。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1456,
+  "id": 1255122629,
+  "name": "PiDeck",
+  "fullName": "ayuayue/PiDeck",
+  "owner": "ayuayue",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/44837611?v=4",
+  "url": "https://github.com/ayuayue/PiDeck",
+  "homepage": "https://ayuayue.github.io/PiDeck/",
+  "description": "PiDeck 是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。支持多项目工作区、会话历史、Git 集成、内置终端、模型配置和插件管理，基于 Electron 构建。",
+  "summary": "PiDeck：是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。支持多项目工作区、会话历史、Git 集成、内置终端、模型配置和插件管理，基于 El。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,45 +19,55 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/MetaMask/metamask-mobile.git",
+  "installCommand": "git clone https://github.com/ayuayue/PiDeck.git",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 3026,
-  "forks": 1672,
-  "openIssues": 1912,
-  "score": 113.6,
+  "license": "MIT",
+  "stars": 828,
+  "forks": 91,
+  "openIssues": 10,
+  "score": 100.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-14T05:01:52Z",
-  "updatedAt": "2026-09-14T02:05:38Z",
-  "createdAt": "2018-07-18T11:47:08Z",
+  "pushedAt": "2026-09-15T03:46:32Z",
+  "updatedAt": "2026-09-15T03:53:33Z",
+  "createdAt": "2026-05-31T12:40:24Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "android",
-    "dapps-browser",
-    "ios",
-    "javascript",
-    "metamask",
-    "react-native",
-    "web3"
+    "agent",
+    "ai-assistant",
+    "ai-coding-agent",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "desktop",
+    "desktop-app",
+    "multi-project",
+    "pi",
+    "pi-agent",
+    "pi-deck",
+    "pi-desktop",
+    "pideck",
+    "pidesktop",
+    "session-management"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MetaMask/metamask-mobile",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ayuayue/PiDeck",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MetaMask/metamask-mobile#readme",
-  "detailPath": "data/details/metamask__metamask__mobile.json",
+  "readmeUrl": "https://github.com/ayuayue/PiDeck#readme",
+  "detailPath": "data/details/ayuayue__pideck.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "支持使用以太坊区块链访问网站的移动网页浏览器",
+    "summary": "PiDeck 是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。支持多项目工作区、会话历史、Git 集成、内置终端、模型配置和插件管理，基于 El",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -73,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-14T05:04:40.138Z",
-    "sourceHash": "3788fd392058b631",
+    "generatedAt": "2026-09-15T05:01:28.241Z",
+    "sourceHash": "1a63543366dfbb93",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "metamask-mobile：支持使用以太坊区块链访问网站的移动网页浏览器。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "metamask-mobile 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "PiDeck：是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。支持多项目工作区、会话历史、Git 集成、内置终端、模型配置和插件管理，基于 El。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "PiDeck 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -100,7 +110,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -123,7 +133,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
