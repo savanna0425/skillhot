@@ -1,14 +1,14 @@
 {
-  "rank": 965,
-  "id": 1259888079,
-  "name": "claudex-loop",
-  "fullName": "chaseai-yt/claudex-loop",
-  "owner": "chaseai-yt",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/290887357?v=4",
-  "url": "https://github.com/chaseai-yt/claudex-loop",
+  "rank": 1327,
+  "id": 1173738644,
+  "name": "skills",
+  "fullName": "michaelshimeles/skills",
+  "owner": "michaelshimeles",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/69605071?v=4",
+  "url": "https://github.com/michaelshimeles/skills",
   "homepage": "",
-  "description": "Claude Code skill: four-phase plan hardening (recon, interrogate, Codex adversarial review, cross-model build & inspection) — two AI models harden your plan before a line of code exists, then swap jobs to build it. Whoever built it never grades it.",
-  "summary": "claudex-loop：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.",
+  "summary": "skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,38 +19,48 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/chaseai-yt/claudex-loop.git",
+  "installCommand": "git clone https://github.com/michaelshimeles/skills.git",
   "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 1891,
-  "forks": 184,
-  "openIssues": 13,
-  "score": 109.7,
+  "license": "",
+  "stars": 859,
+  "forks": 142,
+  "openIssues": 3,
+  "score": 101.5,
   "activity": "本月活跃",
-  "pushedAt": "2026-09-06T23:05:32Z",
-  "updatedAt": "2026-09-15T04:29:39Z",
-  "createdAt": "2026-06-05T00:51:06Z",
+  "pushedAt": "2026-09-06T05:59:16Z",
+  "updatedAt": "2026-09-16T04:26:52Z",
+  "createdAt": "2026-03-05T17:40:23Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "code-review",
+    "codex",
+    "cursor",
+    "developer-workflow",
+    "greptile"
+  ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chaseai-yt/claudex-loop",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/michaelshimeles/skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chaseai-yt/claudex-loop#readme",
-  "detailPath": "data/details/chaseai__yt__claudex__loop.json",
+  "readmeUrl": "https://github.com/michaelshimeles/skills#readme",
+  "detailPath": "data/details/michaelshimeles__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "claudex-loop 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "skills 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -66,17 +76,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-15T05:01:28.241Z",
-    "sourceHash": "17631f90737c36dc",
+    "generatedAt": "2026-09-16T04:57:00.086Z",
+    "sourceHash": "97d4bd4df1528b3f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claudex-loop：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "claudex-loop 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -93,7 +103,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -116,7 +126,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

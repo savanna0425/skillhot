@@ -1,14 +1,14 @@
 {
-  "rank": 1169,
-  "id": 1351879111,
-  "name": "reef",
-  "fullName": "Human-Agent-Society/reef",
-  "owner": "Human-Agent-Society",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/268553699?v=4",
-  "url": "https://github.com/Human-Agent-Society/reef",
-  "homepage": "reefinfra.ai",
-  "description": "Continual learning infra for self-improving agents",
-  "summary": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1700,
+  "id": 885877865,
+  "name": "open-webui-tools",
+  "fullName": "Haervwe/open-webui-tools",
+  "owner": "Haervwe",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/31465508?v=4",
+  "url": "https://github.com/Haervwe/open-webui-tools",
+  "homepage": "",
+  "description": "Open‑WebUI Tools is a modular toolkit designed to extend and enrich your Open WebUI instance, turning it into a powerful AI workstation. With a suite of over 15 specialized tools, function pipelines, and filters, this project supports academic research, agentic autonomy, multimodal creativity, workflows, and more",
+  "summary": "open-webui-tools：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,30 +19,39 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Human-Agent-Society/reef.git",
+  "installCommand": "git clone https://github.com/Haervwe/open-webui-tools.git",
   "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 1552,
-  "forks": 102,
-  "openIssues": 64,
-  "score": 106.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-15T04:09:15Z",
-  "updatedAt": "2026-09-15T04:59:30Z",
-  "createdAt": "2026-08-31T01:39:18Z",
+  "license": "MIT",
+  "stars": 811,
+  "forks": 80,
+  "openIssues": 8,
+  "score": 92.9,
+  "activity": "本月活跃",
+  "pushedAt": "2026-08-29T23:39:24Z",
+  "updatedAt": "2026-09-15T14:07:44Z",
+  "createdAt": "2024-11-09T16:21:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-infrastructure",
+    "academic-research",
     "ai-agents",
-    "continual-learning",
-    "inference",
+    "ai-workstation",
+    "arxiv",
+    "comfyui",
+    "image-generation",
+    "letta",
     "llm",
-    "llm-training",
-    "reinforcement-learning",
-    "self-improving-agents"
+    "llm-tools",
+    "llms",
+    "local-ai",
+    "multi-agent",
+    "music-generation",
+    "ollama",
+    "open-webui",
+    "semantic-routing",
+    "video-generation"
   ],
   "platforms": [
     "Agent Skills"
@@ -50,15 +59,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Human-Agent-Society/reef",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Haervwe/open-webui-tools",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Human-Agent-Society/reef#readme",
-  "detailPath": "data/details/human__agent__society__reef.json",
+  "readmeUrl": "https://github.com/Haervwe/open-webui-tools#readme",
+  "detailPath": "data/details/haervwe__open__webui__tools.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "reef 支持资料研究、知识检索或学习任务。",
+    "summary": "open-webui-tools 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -74,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-15T05:01:28.241Z",
-    "sourceHash": "fb314c245cb53330",
+    "generatedAt": "2026-09-16T04:57:00.086Z",
+    "sourceHash": "95a38fe07797c3fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "reef 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-webui-tools：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "open-webui-tools 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -124,7 +133,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 850,
+  "rank": 830,
   "id": 1236336437,
   "name": "sprite-gen",
   "fullName": "aldegad/sprite-gen",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/aldegad/sprite-gen.git",
+  "installCommand": "python3 -m venv .venv && source .venv/bin/activate\npip install -e .\nsprite-gen --help",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1499,
-  "forks": 134,
-  "openIssues": 2,
-  "score": 114.3,
+  "stars": 1564,
+  "forks": 144,
+  "openIssues": 4,
+  "score": 114.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-12T08:07:04Z",
-  "updatedAt": "2026-09-15T04:54:33Z",
+  "pushedAt": "2026-09-15T15:10:17Z",
+  "updatedAt": "2026-09-16T04:07:57Z",
   "createdAt": "2026-05-12T06:49:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,12 +53,12 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/aldegad/sprite-gen",
-    "videoUrl": ""
+    "videoUrl": "https://youtu.be/zVu9YlbPtog"
   },
   "readmeUrl": "https://github.com/aldegad/sprite-gen#readme",
   "detailPath": "data/details/aldegad__sprite__gen.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
@@ -79,8 +79,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-15T05:01:28.241Z",
-    "sourceHash": "1aa0b69800f98cd4",
+    "generatedAt": "2026-09-16T04:57:00.086Z",
+    "sourceHash": "83932237e32ea3e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

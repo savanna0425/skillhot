@@ -1,17 +1,17 @@
 {
-  "rank": 1719,
-  "id": 1181181421,
-  "name": "reopencode",
-  "fullName": "MurrayHill1127/reopencode",
-  "owner": "MurrayHill1127",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/110096092?v=4",
-  "url": "https://github.com/MurrayHill1127/reopencode",
-  "homepage": "",
-  "description": "OpenCode Cover.",
-  "summary": "reopencode：OpenCode 覆盖。适合在 OpenCode 相关工作流里先做选型判断。",
+  "rank": 688,
+  "id": 1224575142,
+  "name": "Orkas",
+  "fullName": "Orkas-AI/Orkas",
+  "owner": "Orkas-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/217779447?v=4",
+  "url": "https://github.com/Orkas-AI/Orkas",
+  "homepage": "https://orkas.ai?source=gh-orkas",
+  "description": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
+  "summary": "Orkas：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
@@ -19,37 +19,62 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/MurrayHill1127/reopencode.git",
-  "language": "Rust",
-  "license": "",
-  "stars": 1626,
-  "forks": 114,
-  "openIssues": 1,
-  "score": 92.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-17T06:33:23Z",
-  "updatedAt": "2026-09-12T13:55:24Z",
-  "createdAt": "2026-03-13T20:51:29Z",
+  "installCommand": "git clone https://github.com/Orkas-AI/Orkas.git\ncd Orkas\n./run.sh           # macOS / Linux",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1997,
+  "forks": 83,
+  "openIssues": 12,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-16T01:29:30Z",
+  "updatedAt": "2026-09-16T04:46:58Z",
+  "createdAt": "2026-04-29T12:19:08Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-collaboration",
+    "agent-orchestration",
+    "agent-team",
+    "agentic-ai",
+    "ai-agents",
+    "ai-assistant",
+    "ai-team",
+    "ai-workflow",
+    "autonomous-agents",
+    "byo-llm",
+    "cross-platform",
+    "desktop-app",
+    "electron",
+    "llm",
+    "local-first",
+    "mcp",
+    "mcp-client",
+    "multi-agent",
+    "multi-agent-system",
+    "self-evolving-agents"
+  ],
   "platforms": [
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenClaw",
     "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MurrayHill1127/reopencode",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Orkas-AI/Orkas",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MurrayHill1127/reopencode#readme",
-  "detailPath": "data/details/murrayhill1127__reopencode.json",
+  "readmeUrl": "https://github.com/Orkas-AI/Orkas#readme",
+  "detailPath": "data/details/orkas__ai__orkas.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenCode 覆盖",
+    "summary": "Orkas 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -65,17 +90,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-15T05:01:28.241Z",
-    "sourceHash": "c392192bcdf41cf9",
+    "generatedAt": "2026-09-16T04:57:00.086Z",
+    "sourceHash": "575d0bd1e0f50ddc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reopencode：OpenCode 覆盖。适合在 OpenCode 相关工作流里先做选型判断。",
-    "whatItIs": "reopencode 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Orkas：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "Orkas 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -92,7 +117,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -115,7 +140,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 38,
+  "rank": 39,
   "id": 1042367133,
   "name": "spec-kit",
   "fullName": "github/spec-kit",
@@ -8,7 +8,7 @@
   "url": "https://github.com/github/spec-kit",
   "homepage": "https://github.github.com/spec-kit/",
   "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-  "summary": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@vX.Y.Z\nspecify init my-project --integration copilot\ncd my-project",
+  "installCommand": "uv tool install specify-cli\nspecify init my-project --integration copilot\ncd my-project",
   "language": "Python",
   "license": "MIT",
-  "stars": 136838,
-  "forks": 12272,
-  "openIssues": 329,
+  "stars": 137101,
+  "forks": 12278,
+  "openIssues": 321,
   "score": 153.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-14T20:10:58Z",
-  "updatedAt": "2026-09-15T04:59:06Z",
+  "pushedAt": "2026-09-15T22:48:36Z",
+  "updatedAt": "2026-09-16T04:40:33Z",
   "createdAt": "2025-08-21T22:54:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,15 +45,13 @@
     "spec-driven"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
     "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/github/spec-kit",
-    "videoUrl": "https://www.youtube.com/watch?v=a9eR1xsfvHg&pp=0gcJCckJAYcqIYzv"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/github/spec-kit#readme",
   "detailPath": "data/details/github__spec__kit.json",
@@ -79,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-15T05:01:28.241Z",
-    "sourceHash": "613bd5e28358f696",
+    "generatedAt": "2026-09-16T04:57:00.086Z",
+    "sourceHash": "e0b2266459a84f9f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "spec-kit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -103,7 +101,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
