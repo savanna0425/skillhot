@@ -1,5 +1,5 @@
 {
-  "rank": 323,
+  "rank": 321,
   "id": 1222527844,
   "name": "iFixAi",
   "fullName": "ifixai-ai/iFixAi",
@@ -22,13 +22,13 @@
   "installCommand": "pip install \"ifixai[openai]\"   # or anthropic, gemini, etc.: install the provider extra you'll test\nifixai setup                    # arrow-key wizard: pick provider, model, judge, suite → writes ifixai.yaml\nifixai run                      # no flags needed; reports land in ./ifixai-results/",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 15067,
-  "forks": 1325,
-  "openIssues": 3,
-  "score": 130.3,
+  "stars": 15206,
+  "forks": 1330,
+  "openIssues": 1,
+  "score": 130.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-15T22:01:06Z",
-  "updatedAt": "2026-09-16T04:56:28Z",
+  "pushedAt": "2026-09-16T11:31:40Z",
+  "updatedAt": "2026-09-17T04:53:49Z",
   "createdAt": "2026-04-27T13:02:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,7 +72,7 @@
   "readmeUrl": "https://github.com/ifixai-ai/iFixAi#readme",
   "detailPath": "data/details/ifixai__ai__ifixai.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "iFixAi 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
@@ -93,8 +93,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "2614ca4e55fa3ee3",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "040dc86178f51de1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

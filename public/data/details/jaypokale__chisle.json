@@ -1,77 +1,82 @@
 {
-  "rank": 2229,
-  "id": 1221267720,
-  "name": "anti-distill",
-  "fullName": "Anjoo1861/anti-distill",
-  "owner": "Anjoo1861",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/274803359?v=4",
-  "url": "https://github.com/Anjoo1861/anti-distill",
-  "homepage": "",
-  "description": "Strip AI skills to a clean, usable shell and save the core knowledge in a private backup file",
-  "summary": "anti-distill：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1327,
+  "id": 1284692613,
+  "name": "Chisle",
+  "fullName": "JayPokale/Chisle",
+  "owner": "JayPokale",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/99467494?v=4",
+  "url": "https://github.com/JayPokale/Chisle",
+  "homepage": "https://chisle.jaypokale.me",
+  "description": "Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 4 more. Zero deps, published benchmarks including the runs it loses.",
+  "summary": "Chisle：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Anjoo1861/anti-distill.git",
-  "language": "",
-  "license": "",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 66,
+  "installCommand": "git clone https://github.com/JayPokale/Chisle.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 435,
+  "forks": 28,
+  "openIssues": 1,
+  "score": 101.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-14T07:30:12Z",
-  "updatedAt": "2026-09-14T07:30:17Z",
-  "createdAt": "2026-04-26T01:10:46Z",
+  "pushedAt": "2026-09-17T00:15:29Z",
+  "updatedAt": "2026-09-17T04:36:14Z",
+  "createdAt": "2026-06-30T05:36:44Z",
   "sourceTopics": [
-    "agentic-skills"
+    "claude-code-skills",
+    "claude-code-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentic-skills",
-    "ai-agent-skills",
-    "ai-coding",
-    "ai-workflows",
+    "anthropic",
+    "caveman",
+    "caveman-alternative",
+    "caveman2",
+    "claude",
+    "claude-ai",
+    "claude-api",
     "claude-code",
+    "claude-code-skill",
     "claude-code-skills",
-    "codex-skills",
-    "cursor-skills",
+    "claude-plugin",
+    "claude-skills",
+    "codex",
+    "cursor",
     "developer-tools",
     "gemini-cli",
-    "gemini-skills",
-    "kiro",
-    "mcp",
-    "python",
-    "spider"
+    "github-copilot",
+    "ponytail",
+    "token-optimization"
   ],
   "platforms": [
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI"
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Anjoo1861/anti-distill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JayPokale/Chisle",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Anjoo1861/anti-distill#readme",
-  "detailPath": "data/details/anjoo1861__anti__distill.json",
+  "readmeUrl": "https://github.com/JayPokale/Chisle#readme",
+  "detailPath": "data/details/jaypokale__chisle.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "anti-distill 聚焦软件开发、代码质量与工程交付。",
+    "summary": "Chisle 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,17 +92,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "39ad41bef3dc5059",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "29b25059b19e98e5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anti-distill：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "anti-distill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Chisle：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "Chisle 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -137,7 +142,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 620,
-  "id": 1336502227,
-  "name": "OpenBot",
-  "fullName": "CopilotKit/OpenBot",
-  "owner": "CopilotKit",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/131273140?v=4",
-  "url": "https://github.com/CopilotKit/OpenBot",
-  "homepage": "https://www.copilotkit.ai/openbot",
-  "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-  "summary": "OpenBot：帮助改进界面设计、用户体验与视觉质量。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 2145,
+  "id": 1372283288,
+  "name": "minimalist-themes-for-hermes",
+  "fullName": "mykeura/minimalist-themes-for-hermes",
+  "owner": "mykeura",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/125702282?v=4",
+  "url": "https://github.com/mykeura/minimalist-themes-for-hermes",
+  "homepage": "",
+  "description": "Eighteen warm, light color themes for Hermes Desktop, with readable UI refinements and a simple installable plugin.",
+  "summary": "minimalist-themes-for-hermes：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -19,45 +19,50 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx --yes copilotkit@latest login\nnpx --yes copilotkit@latest project select",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/mykeura/minimalist-themes-for-hermes.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 4966,
-  "forks": 629,
-  "openIssues": 18,
-  "score": 118.7,
+  "stars": 24,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 70.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-15T23:15:12Z",
-  "updatedAt": "2026-09-16T04:53:46Z",
-  "createdAt": "2026-08-17T00:44:59Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-09-16T17:06:30Z",
+  "updatedAt": "2026-09-17T04:49:31Z",
+  "createdAt": "2026-09-15T23:46:41Z",
+  "sourceTopics": [
+    "hermes-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ag-ui",
-    "agent-governance",
-    "ai-agents",
-    "browser-automation",
-    "copilotkit",
-    "generative-ui",
-    "mcp"
+    "electron",
+    "element-ui",
+    "hermes",
+    "hermes-agent",
+    "hermes-agent-plugin",
+    "hermes-desktop",
+    "hermes-plugin",
+    "hermes-skill",
+    "minimalism",
+    "minimalist"
   ],
   "platforms": [
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/CopilotKit/OpenBot",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mykeura/minimalist-themes-for-hermes",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/CopilotKit/OpenBot#readme",
-  "detailPath": "data/details/copilotkit__openbot.json",
+  "readmeUrl": "https://github.com/mykeura/minimalist-themes-for-hermes#readme",
+  "detailPath": "data/details/mykeura__minimalist__themes__for__hermes.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenBot 帮助改进界面设计、用户体验与视觉质量。",
+    "summary": "minimalist-themes-for-hermes 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -76,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "1dc0507baaa8975d",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "59dbd1c5a095d3e7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenBot：帮助改进界面设计、用户体验与视觉质量。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "OpenBot 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "minimalist-themes-for-hermes：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "minimalist-themes-for-hermes 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
       "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
@@ -100,7 +105,7 @@
       "用 Agent 做网页、App 原型或视觉材料的人。",
       "希望提高前端页面完成度的开发者。",
       "需要把设计规范沉淀为可复用流程的小团队。",
-      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",

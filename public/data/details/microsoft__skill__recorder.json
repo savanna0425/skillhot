@@ -1,5 +1,5 @@
 {
-  "rank": 355,
+  "rank": 360,
   "id": 1316443307,
   "name": "skill-recorder",
   "fullName": "microsoft/skill-recorder",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/skill-recorder",
   "homepage": "",
   "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
-  "summary": "skill-recorder：用于创建、验证、安装或管理 Agent Skills。适合在 GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
+  "summary": "skill-recorder：用于创建、验证、安装或管理 Agent Skills。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm ci\nnpm run compliance:licenses\nnpm run dev",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3957,
-  "forks": 404,
-  "openIssues": 36,
+  "stars": 3966,
+  "forks": 409,
+  "openIssues": 35,
   "score": 128.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-15T22:48:05Z",
-  "updatedAt": "2026-09-16T04:42:33Z",
+  "pushedAt": "2026-09-16T19:25:24Z",
+  "updatedAt": "2026-09-17T04:40:52Z",
   "createdAt": "2026-07-29T18:16:14Z",
   "sourceTopics": [
     "agent-skills"
@@ -50,8 +50,7 @@
     "screen-recording"
   ],
   "platforms": [
-    "GitHub Copilot",
-    "OpenCode"
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -83,13 +82,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "f416ca9122bf8624",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "bee237340c34f1bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skill-recorder：用于创建、验证、安装或管理 Agent Skills。适合在 GitHub Copilot、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "skill-recorder：用于创建、验证、安装或管理 Agent Skills。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "skill-recorder 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -107,7 +106,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 GitHub Copilot、OpenCode 等 Agent 工具链的人。"
+      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

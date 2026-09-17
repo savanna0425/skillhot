@@ -1,14 +1,14 @@
 {
-  "rank": 2278,
-  "id": 1184665536,
-  "name": "okapi-skills",
-  "fullName": "jkaninda/okapi-skills",
-  "owner": "jkaninda",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/26176572?v=4",
-  "url": "https://github.com/jkaninda/okapi-skills",
+  "rank": 538,
+  "id": 1155113456,
+  "name": "yichen-skills",
+  "fullName": "mcncarl/yichen-skills",
+  "owner": "mcncarl",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/204130968?v=4",
+  "url": "https://github.com/mcncarl/yichen-skills",
   "homepage": "",
-  "description": "AI Agent skills for Okapi — a modern, minimalist HTTP web framework for Go inspired by FastAPI.",
-  "summary": "okapi-skills：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "",
+  "summary": "yichen-skills：尚未归入主要类别的实用项目。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,51 +19,38 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jkaninda/okapi-skills.git",
-  "language": "",
-  "license": "MIT",
-  "stars": 3,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 61.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-16T10:29:31Z",
-  "updatedAt": "2026-08-18T15:59:53Z",
-  "createdAt": "2026-03-17T20:10:42Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "installCommand": "npx skills add mcncarl/yichen-skills --skill yichen-web-research\nnpx skills add mcncarl/yichen-skills --skill yichen-unified-search\nnpx skills add mcncarl/yichen-skills --skill yichen-content-archive",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 3118,
+  "forks": 1299,
+  "openIssues": 4,
+  "score": 121.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-17T03:33:48Z",
+  "updatedAt": "2026-09-17T04:50:45Z",
+  "createdAt": "2026-02-11T06:14:09Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-agent-skills",
-    "ai-agents",
-    "claude-code-skill",
-    "claude-code-skills",
-    "claude-skills",
-    "go-okapi",
-    "go-okapi-skills",
-    "okapi",
-    "okapi-claude-skills",
-    "okapi-go",
-    "okapi-skiils"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jkaninda/okapi-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mcncarl/yichen-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jkaninda/okapi-skills#readme",
-  "detailPath": "data/details/jkaninda__okapi__skills.json",
+  "readmeUrl": "https://github.com/mcncarl/yichen-skills#readme",
+  "detailPath": "data/details/mcncarl__yichen__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "okapi-skills：尚未归入主要类别的实用项目。",
+    "summary": "yichen-skills：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -79,17 +66,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "69dd71f0bd614884",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "6f28fff09f900162",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "okapi-skills：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "okapi-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "yichen-skills：尚未归入主要类别的实用项目。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "yichen-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -106,7 +93,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -129,7 +116,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,55 +1,50 @@
 {
-  "rank": 375,
-  "id": 348788771,
-  "name": "mathesar",
-  "fullName": "mathesar-foundation/mathesar",
-  "owner": "mathesar-foundation",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/64070190?v=4",
-  "url": "https://github.com/mathesar-foundation/mathesar",
-  "homepage": "https://mathesar.org/",
-  "description": "An intuitive spreadsheet-like interface that lets users of all technical skill levels view, edit, query, and collaborate on Postgres data directly. 100% open source and self hosted, with native Postgres access control.",
-  "summary": "mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1195,
+  "id": 231330802,
+  "name": "AVA",
+  "fullName": "antvis/AVA",
+  "owner": "antvis",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/19199542?v=4",
+  "url": "https://github.com/antvis/AVA",
+  "homepage": "https://ava.antv.vision",
+  "description": "🤖 AI-native Visual Analytics framework build for agents.",
+  "summary": "AVA：为智能体构建的 AI 原生可视化分析框架。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
   "scenarios": [
     "数据处理",
     "SQL 与表格",
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mathesar-foundation/mathesar.git",
-  "language": "Svelte",
-  "license": "GPL-3.0",
-  "stars": 5121,
-  "forks": 485,
-  "openIssues": 317,
-  "score": 127,
+  "installCommand": "git clone https://github.com/antvis/AVA.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1499,
+  "forks": 154,
+  "openIssues": 1,
+  "score": 106.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-15T23:08:51Z",
-  "updatedAt": "2026-09-16T01:42:57Z",
-  "createdAt": "2021-03-17T17:04:53Z",
+  "pushedAt": "2026-09-17T02:46:14Z",
+  "updatedAt": "2026-09-17T02:20:48Z",
+  "createdAt": "2020-01-02T07:32:48Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "airtable-alternative",
-    "automatic-api",
-    "database-access",
-    "database-gui",
-    "database-management",
-    "db-admin",
-    "django",
-    "javascript",
-    "postgres",
-    "postgresql",
-    "postgresql-database",
-    "python",
-    "svelte",
-    "sveltejs",
-    "typescript"
+    "augmented-analytics",
+    "auto-insight",
+    "chart-aigc",
+    "chart-recommendation",
+    "charts",
+    "data-visualization",
+    "insight",
+    "insight-gpt",
+    "narrative-charts",
+    "visualization"
   ],
   "platforms": [
     "Agent Skills"
@@ -57,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/mathesar-foundation/mathesar",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/antvis/AVA",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/mathesar-foundation/mathesar#readme",
-  "detailPath": "data/details/mathesar__foundation__mathesar.json",
+  "readmeUrl": "https://github.com/antvis/AVA#readme",
+  "detailPath": "data/details/antvis__ava.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制",
+    "summary": "为智能体构建的 AI 原生可视化分析框架",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -81,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-16T04:57:00.086Z",
-    "sourceHash": "888183e253190a9e",
+    "generatedAt": "2026-09-17T04:59:57.901Z",
+    "sourceHash": "6b8611d7a1410d17",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mathesar：直观类似电子表格的界面，让所有技术水平的用户直接查看、编辑、查询和协作处理 Postgres 数据。完全开源且可自托管，原生支持 Postgres 访问控制。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "mathesar 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "AVA：为智能体构建的 AI 原生可视化分析框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "AVA 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -131,7 +126,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
