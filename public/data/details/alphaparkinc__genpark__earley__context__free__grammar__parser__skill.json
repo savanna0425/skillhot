@@ -1,50 +1,49 @@
 {
-  "rank": 2275,
-  "id": 668539146,
-  "name": "pb",
-  "fullName": "parseablehq/pb",
-  "owner": "parseablehq",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/94332517?v=4",
-  "url": "https://github.com/parseablehq/pb",
-  "homepage": "https://parseable.com",
-  "description": "CLI client for Parseable server. Inspect, query and analyse Telemetry data from your terminal. Works with humans and agents",
-  "summary": "pb：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2214,
+  "id": 1362927322,
+  "name": "genpark-earley-context-free-grammar-parser-skill",
+  "fullName": "alphaparkinc/genpark-earley-context-free-grammar-parser-skill",
+  "owner": "alphaparkinc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/135203240?v=4",
+  "url": "https://github.com/alphaparkinc/genpark-earley-context-free-grammar-parser-skill",
+  "homepage": "",
+  "description": "Autonomous Agent Earley Context-Free Grammar Chart Parser with Arbitrary Ambiguity & Recursion",
+  "summary": "genpark-earley-context-free-grammar-parser-skill：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryReason": "pandas|jupyter|chart|dataset|etl|data pipeline",
   "scenarios": [
     "数据处理",
     "SQL 与表格",
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/parseablehq/pb.git",
-  "language": "Go",
-  "license": "AGPL-3.0",
-  "stars": 18,
-  "forks": 13,
-  "openIssues": 1,
-  "score": 61.7,
+  "installCommand": "git clone https://github.com/alphaparkinc/genpark-earley-context-free-grammar-parser-skill.git",
+  "language": "Python",
+  "license": "",
+  "stars": 9,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 65.7,
   "activity": "本月活跃",
-  "pushedAt": "2026-08-17T13:27:23Z",
-  "updatedAt": "2026-08-17T13:31:58Z",
-  "createdAt": "2023-07-20T03:50:46Z",
+  "pushedAt": "2026-09-10T03:15:52Z",
+  "updatedAt": "2026-09-17T20:17:28Z",
+  "createdAt": "2026-09-09T16:16:59Z",
   "sourceTopics": [
-    "ai-agent-skills"
+    "genpark-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agent-skills",
-    "ai-agent-tools",
-    "ai-agents",
-    "analytics",
-    "cli",
-    "go",
-    "logging",
-    "observability-cli"
+    "agentic-ai",
+    "cfg",
+    "chart-parsing",
+    "computational-linguistics",
+    "context-free-grammar",
+    "earley-parser",
+    "genpark-skill"
   ],
   "platforms": [
     "Agent Skills"
@@ -52,15 +51,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/parseablehq/pb",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/alphaparkinc/genpark-earley-context-free-grammar-parser-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/parseablehq/pb#readme",
-  "detailPath": "data/details/parseablehq__pb.json",
+  "readmeUrl": "https://github.com/alphaparkinc/genpark-earley-context-free-grammar-parser-skill#readme",
+  "detailPath": "data/details/alphaparkinc__genpark__earley__context__free__grammar__parser__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "pb：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "genpark-earley-context-free-grammar-parser-skill：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -76,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-17T04:59:57.901Z",
-    "sourceHash": "b3c60dcf8c887c4a",
+    "generatedAt": "2026-09-18T04:52:02.195Z",
+    "sourceHash": "f3061931a1bded5d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pb：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "pb 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "genpark-earley-context-free-grammar-parser-skill：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "genpark-earley-context-free-grammar-parser-skill 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -126,7 +125,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

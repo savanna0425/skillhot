@@ -1,5 +1,5 @@
 {
-  "rank": 72,
+  "rank": 73,
   "id": 765083837,
   "name": "MinerU",
   "fullName": "opendatalab/MinerU",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "pip install uv\nuv venv .mineru --python 3.12\nsource .mineru/bin/activate",
+  "installCommand": "```bash\nuv pip install -U \"mineru>=4.0,<5\"\nmineru-kit parse document.pdf -o document.md --tier standard",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 80062,
-  "forks": 6683,
-  "openIssues": 113,
+  "stars": 80151,
+  "forks": 6690,
+  "openIssues": 114,
   "score": 147.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-17T03:15:09Z",
-  "updatedAt": "2026-09-17T04:56:03Z",
+  "pushedAt": "2026-09-17T20:39:58Z",
+  "updatedAt": "2026-09-18T04:44:02Z",
   "createdAt": "2024-02-29T08:52:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -65,7 +65,7 @@
   "readmeUrl": "https://github.com/opendatalab/MinerU#readme",
   "detailPath": "data/details/opendatalab__mineru.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "MinerU 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
@@ -86,8 +86,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-17T04:59:57.901Z",
-    "sourceHash": "920022f474f95144",
+    "generatedAt": "2026-09-18T04:52:02.195Z",
+    "sourceHash": "519d010c3b51496f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
