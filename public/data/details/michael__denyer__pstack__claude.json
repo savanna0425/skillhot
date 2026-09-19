@@ -1,5 +1,5 @@
 {
-  "rank": 1539,
+  "rank": 1268,
   "id": 1250276806,
   "name": "pstack-claude",
   "fullName": "michael-denyer/pstack-claude",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97485362?v=4",
   "url": "https://github.com/michael-denyer/pstack-claude",
   "homepage": "",
-  "description": "Claude Code, Codex, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated to other agents.",
+  "description": "Claude Code, Codex, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
   "summary": "pstack-claude：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
@@ -22,16 +22,17 @@
   "installCommand": "git clone https://github.com/michael-denyer/pstack-claude.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 462,
-  "forks": 55,
+  "stars": 489,
+  "forks": 57,
   "openIssues": 0,
-  "score": 98.2,
+  "score": 102.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T00:34:43Z",
-  "updatedAt": "2026-09-18T03:34:27Z",
+  "pushedAt": "2026-09-18T15:41:15Z",
+  "updatedAt": "2026-09-19T04:09:00Z",
   "createdAt": "2026-05-26T13:26:00Z",
   "sourceTopics": [
-    "claude-code-skills"
+    "claude-code-skills",
+    "codex-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
@@ -39,8 +40,8 @@
   "repoTopics": [
     "agent-skills",
     "agentic-ai",
-    "ai-agents",
     "anthropic",
+    "chatgpt",
     "claude",
     "claude-code",
     "claude-code-plugin",
@@ -48,15 +49,14 @@
     "claude-skills",
     "code-review",
     "codex",
+    "codex-cli",
+    "codex-plugin",
+    "codex-skills",
     "coding-agent",
-    "cursor",
     "developer-tools",
     "gemini-cli",
     "opencode",
-    "prompt-engineering",
-    "pstack",
-    "subagents",
-    "tdd"
+    "pstack"
   ],
   "platforms": [
     "Claude",
@@ -95,8 +95,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-18T04:52:02.195Z",
-    "sourceHash": "dad55cc989074e06",
+    "generatedAt": "2026-09-19T04:44:41.735Z",
+    "sourceHash": "99df09cc518ad0e5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

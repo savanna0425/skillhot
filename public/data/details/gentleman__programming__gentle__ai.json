@@ -1,5 +1,5 @@
 {
-  "rank": 254,
+  "rank": 249,
   "id": 1168900408,
   "name": "gentle-ai",
   "fullName": "Gentleman-Programming/gentle-ai",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97131605?v=4",
   "url": "https://github.com/Gentleman-Programming/gentle-ai",
   "homepage": "https://gentle-ai.gentlemanprogramming.com/",
-  "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+  "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
   "summary": "gentle-ai：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "brew install gentleman-programming/tap/gentle-ai\ncurl -fsSL https://raw.githubusercontent.com/Gentleman-Programming/gentle-ai/main/scripts/install.sh | bash\ngo install github.com/gentleman-programming/gentle-ai/v3/cmd/gentle-ai@latest",
   "language": "Go",
   "license": "MIT",
-  "stars": 6972,
-  "forks": 762,
-  "openIssues": 1065,
+  "stars": 7003,
+  "forks": 768,
+  "openIssues": 1084,
   "score": 134.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T01:56:19Z",
-  "updatedAt": "2026-09-18T01:55:13Z",
+  "pushedAt": "2026-09-18T23:54:19Z",
+  "updatedAt": "2026-09-19T03:39:24Z",
   "createdAt": "2026-02-27T23:28:01Z",
   "sourceTopics": [
     "agent-skills"
@@ -53,6 +53,7 @@
     "mcp",
     "opencode",
     "persistent-memory",
+    "pi",
     "spec-driven-development"
   ],
   "platforms": [
@@ -93,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-18T04:52:02.195Z",
-    "sourceHash": "c85757fe8bf8c9b0",
+    "generatedAt": "2026-09-19T04:44:41.735Z",
+    "sourceHash": "77ebd2cfc90e1496",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-03T04:40:13.109Z",
+    "generatedAt": "2026-09-19T04:44:41.735Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2303,
-    "sourceTopics": 25,
+    "repositories": 2329,
+    "sourceTopics": 26,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-06-05",
+    "activeHighStarCutoff": "2026-06-21",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -21,22 +21,28 @@
           "url": "https://github.com/topics/skill"
         },
         {
+          "name": "agent-skills",
+          "displayName": "Agent Skills",
+          "description": "Agent skills are reusable bundles of instructions and resources that an AI agent loads on demand.",
+          "url": "https://github.com/topics/agent-skills"
+        },
+        {
           "name": "portfolio",
           "displayName": "Portfolio",
           "description": "Portfolio is a website showcasing skills, project, experiences, education etc.",
           "url": "https://github.com/topics/portfolio"
         },
         {
-          "name": "agent-skills",
-          "displayName": "agent-skills",
-          "description": "",
-          "url": "https://github.com/topics/agent-skills"
-        },
-        {
           "name": "skills",
           "displayName": "skills",
           "description": "",
           "url": "https://github.com/topics/skills"
+        },
+        {
+          "name": "learning",
+          "displayName": "Learning",
+          "description": "Educational projects, roadmap guides, courses, and interactive tutorials to help developers build new skills.",
+          "url": "https://github.com/topics/learning"
         },
         {
           "name": "education",
@@ -57,22 +63,16 @@
           "url": "https://github.com/topics/leetcode"
         },
         {
-          "name": "agent-skill",
-          "displayName": "agent-skill",
-          "description": "",
-          "url": "https://github.com/topics/agent-skill"
-        },
-        {
           "name": "codex-skill",
           "displayName": "codex-skill",
           "description": "",
           "url": "https://github.com/topics/codex-skill"
         },
         {
-          "name": "learning-by-doing",
-          "displayName": "Learning by Doing",
-          "description": "Learn skills through hands-on practice, real-world experience, and active problem solving.",
-          "url": "https://github.com/topics/learning-by-doing"
+          "name": "claude-code-skill",
+          "displayName": "claude-code-skill",
+          "description": "",
+          "url": "https://github.com/topics/claude-code-skill"
         }
       ]
     },
@@ -80,10 +80,10 @@
       "page": 2,
       "topics": [
         {
-          "name": "claude-code-skill",
-          "displayName": "claude-code-skill",
-          "description": "",
-          "url": "https://github.com/topics/claude-code-skill"
+          "name": "learning-by-doing",
+          "displayName": "Learning by Doing",
+          "description": "Learn skills through hands-on practice, real-world experience, and active problem solving.",
+          "url": "https://github.com/topics/learning-by-doing"
         },
         {
           "name": "advent-of-code",
@@ -92,16 +92,22 @@
           "url": "https://github.com/topics/advent-of-code"
         },
         {
+          "name": "claude-code-skills",
+          "displayName": "claude-code-skills",
+          "description": "",
+          "url": "https://github.com/topics/claude-code-skills"
+        },
+        {
           "name": "ai-skills",
           "displayName": "ai-skills",
           "description": "",
           "url": "https://github.com/topics/ai-skills"
         },
         {
-          "name": "claude-code-skills",
-          "displayName": "claude-code-skills",
+          "name": "codex-skills",
+          "displayName": "codex-skills",
           "description": "",
-          "url": "https://github.com/topics/claude-code-skills"
+          "url": "https://github.com/topics/codex-skills"
         },
         {
           "name": "skill-md",
@@ -110,10 +116,10 @@
           "url": "https://github.com/topics/skill-md"
         },
         {
-          "name": "codex-skills",
-          "displayName": "codex-skills",
-          "description": "",
-          "url": "https://github.com/topics/codex-skills"
+          "name": "openclaw",
+          "displayName": "OpenClaw",
+          "description": "An open source personal AI assistant for building agentic workflows, automations, and AI-powered tools.",
+          "url": "https://github.com/topics/openclaw"
         },
         {
           "name": "alexa-skill",
@@ -128,16 +134,10 @@
           "url": "https://github.com/topics/ai-skill"
         },
         {
-          "name": "sports",
-          "displayName": "Sports",
-          "description": "Any physical activity or a game featuring skills or fitness.",
-          "url": "https://github.com/topics/sports"
-        },
-        {
-          "name": "openclaw-skill",
-          "displayName": "openclaw-skill",
+          "name": "skills-sh",
+          "displayName": "skills-sh",
           "description": "",
-          "url": "https://github.com/topics/openclaw-skill"
+          "url": "https://github.com/topics/skills-sh"
         }
       ]
     },
@@ -145,16 +145,34 @@
       "page": 3,
       "topics": [
         {
-          "name": "skills-sh",
-          "displayName": "skills-sh",
+          "name": "openclaw-skill",
+          "displayName": "openclaw-skill",
           "description": "",
-          "url": "https://github.com/topics/skills-sh"
+          "url": "https://github.com/topics/openclaw-skill"
+        },
+        {
+          "name": "sports",
+          "displayName": "Sports",
+          "description": "Any physical activity or a game featuring skills or fitness.",
+          "url": "https://github.com/topics/sports"
         },
         {
           "name": "openclaw-skills",
           "displayName": "openclaw-skills",
           "description": "",
           "url": "https://github.com/topics/openclaw-skills"
+        },
+        {
+          "name": "genpark-skill",
+          "displayName": "genpark-skill",
+          "description": "",
+          "url": "https://github.com/topics/genpark-skill"
+        },
+        {
+          "name": "hermes-skill",
+          "displayName": "hermes-skill",
+          "description": "",
+          "url": "https://github.com/topics/hermes-skill"
         },
         {
           "name": "interview",
@@ -169,34 +187,16 @@
           "url": "https://github.com/topics/alexa-skills-kit"
         },
         {
-          "name": "hermes-skill",
-          "displayName": "hermes-skill",
+          "name": "cursor-skills",
+          "displayName": "cursor-skills",
           "description": "",
-          "url": "https://github.com/topics/hermes-skill"
+          "url": "https://github.com/topics/cursor-skills"
         },
         {
           "name": "skillsmp",
           "displayName": "skillsmp",
           "description": "",
           "url": "https://github.com/topics/skillsmp"
-        },
-        {
-          "name": "bootcamp",
-          "displayName": "Bootcamp",
-          "description": "Bootcamps are intensive training programs that provide hands-on experience in a specific field.",
-          "url": "https://github.com/topics/bootcamp"
-        },
-        {
-          "name": "alexa-custom-skill",
-          "displayName": "alexa-custom-skill",
-          "description": "",
-          "url": "https://github.com/topics/alexa-custom-skill"
-        },
-        {
-          "name": "cursor-skills",
-          "displayName": "cursor-skills",
-          "description": "",
-          "url": "https://github.com/topics/cursor-skills"
         },
         {
           "name": "skill-management",
@@ -269,10 +269,6 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill"
-    },
-    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
     },
@@ -281,28 +277,36 @@
       "url": "https://github.com/topics/skill-md"
     },
     {
-      "name": "ai-skill",
-      "url": "https://github.com/topics/ai-skill"
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw"
     },
     {
-      "name": "openclaw-skill",
-      "url": "https://github.com/topics/openclaw-skill"
+      "name": "ai-skill",
+      "url": "https://github.com/topics/ai-skill"
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh"
     },
     {
+      "name": "openclaw-skill",
+      "url": "https://github.com/topics/openclaw-skill"
+    },
+    {
+      "name": "genpark-skill",
+      "url": "https://github.com/topics/genpark-skill"
+    },
+    {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill"
     },
     {
-      "name": "skillsmp",
-      "url": "https://github.com/topics/skillsmp"
-    },
-    {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills"
+    },
+    {
+      "name": "skillsmp",
+      "url": "https://github.com/topics/skillsmp"
     },
     {
       "name": "skill-management",
@@ -314,162 +318,169 @@
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 75,
-      "stars": 2317826
+      "activeRepositories": 83,
+      "stars": 2422263
     },
     {
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
-      "activeRepositories": 82,
-      "stars": 1763329
+      "activeRepositories": 86,
+      "stars": 1923050
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 796162
+      "activeRepositories": 74,
+      "stars": 843488
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 59,
-      "stars": 515949
+      "activeRepositories": 56,
+      "stars": 545624
+    },
+    {
+      "name": "codex-skills",
+      "url": "https://github.com/topics/codex-skills",
+      "repositories": 100,
+      "activeRepositories": 68,
+      "stars": 351105
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 76,
-      "stars": 294496
-    },
-    {
-      "name": "codex-skills",
-      "url": "https://github.com/topics/codex-skills",
-      "repositories": 99,
-      "activeRepositories": 71,
-      "stars": 339333
+      "activeRepositories": 78,
+      "stars": 313086
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 98,
       "activeRepositories": 58,
-      "stars": 245456
+      "stars": 256062
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 98,
-      "activeRepositories": 46,
-      "stars": 115096
+      "activeRepositories": 50,
+      "stars": 125771
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
-      "repositories": 93,
-      "activeRepositories": 44,
-      "stars": 230333
+      "repositories": 86,
+      "activeRepositories": 39,
+      "stars": 233756
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 55,
-      "activeRepositories": 46,
-      "stars": 48677
+      "repositories": 52,
+      "activeRepositories": 43,
+      "stars": 49700
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 42,
-      "activeRepositories": 34,
-      "stars": 76910
+      "repositories": 44,
+      "activeRepositories": 35,
+      "stars": 78788
     },
     {
       "name": "anthropic-skills",
       "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 32,
+      "repositories": 34,
       "activeRepositories": 25,
-      "stars": 2445
+      "stars": 2695
+    },
+    {
+      "name": "cursor-skills",
+      "url": "https://github.com/topics/cursor-skills",
+      "repositories": 30,
+      "activeRepositories": 20,
+      "stars": 118499
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
       "activeRepositories": 11,
-      "stars": 82999
-    },
-    {
-      "name": "agent-skill",
-      "url": "https://github.com/topics/agent-skill",
-      "repositories": 30,
-      "activeRepositories": 19,
-      "stars": 74138
+      "stars": 86787
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
-      "activeRepositories": 21,
-      "stars": 66264
+      "activeRepositories": 24,
+      "stars": 72186
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 19,
-      "stars": 51969
+      "activeRepositories": 20,
+      "stars": 55019
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 25868
+      "activeRepositories": 21,
+      "stars": 29834
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
-      "activeRepositories": 17,
-      "stars": 19133
+      "activeRepositories": 16,
+      "stars": 22163
     },
     {
-      "name": "cursor-skills",
-      "url": "https://github.com/topics/cursor-skills",
-      "repositories": 29,
-      "activeRepositories": 20,
-      "stars": 115499
+      "name": "genpark-skill",
+      "url": "https://github.com/topics/genpark-skill",
+      "repositories": 30,
+      "activeRepositories": 30,
+      "stars": 243
+    },
+    {
+      "name": "openclaw",
+      "url": "https://github.com/topics/openclaw",
+      "repositories": 27,
+      "activeRepositories": 24,
+      "stars": 1353135
     },
     {
       "name": "skillsmp",
       "url": "https://github.com/topics/skillsmp",
       "repositories": 25,
       "activeRepositories": 14,
-      "stars": 26790
-    },
-    {
-      "name": "skill-management",
-      "url": "https://github.com/topics/skill-management",
-      "repositories": 23,
-      "activeRepositories": 18,
-      "stars": 11977
+      "stars": 26961
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
+      "repositories": 24,
+      "activeRepositories": 17,
+      "stars": 39723
+    },
+    {
+      "name": "skill-management",
+      "url": "https://github.com/topics/skill-management",
       "repositories": 21,
       "activeRepositories": 16,
-      "stars": 36444
+      "stars": 12872
     },
     {
       "name": "mcp-skills",
       "url": "https://github.com/topics/mcp-skills",
       "repositories": 3,
-      "activeRepositories": 2,
-      "stars": 617
+      "activeRepositories": 3,
+      "stars": 632
     },
     {
       "name": "karpathy-skills",
@@ -483,22 +494,22 @@
     {
       "name": "UI设计",
       "description": "界面、体验、设计系统与视觉质量工作流",
-      "count": 58
+      "count": 55
     },
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 521
+      "count": 532
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 112
+      "count": 111
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 176
+      "count": 187
     },
     {
       "name": "数据分析",
@@ -508,52 +519,52 @@
     {
       "name": "研究学习",
       "description": "科研、知识检索、文献、教学、学习与推理工作流",
-      "count": 150
+      "count": 152
     },
     {
       "name": "自动化",
       "description": "浏览器、网页抓取、工具集成与重复流程自动化",
-      "count": 103
+      "count": 96
     },
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 47
+      "count": 51
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 100
+      "count": 104
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 309
+      "count": 304
     },
     {
       "name": "产品与商业",
       "description": "产品管理、营销增长、销售、金融与商业工作流",
-      "count": 72
+      "count": 77
     },
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 51
+      "count": 50
     },
     {
       "name": "技能合集",
       "description": "官方或社区维护的 Skills、插件与资源目录",
-      "count": 205
+      "count": 192
     },
     {
       "name": "其他",
       "description": "尚未归入主要类别的实用项目",
-      "count": 337
+      "count": 356
     }
   ],
   "skills": [
     {
-      "rank": 111,
+      "rank": 124,
       "id": 1178833585,
       "name": "skillhub",
       "fullName": "iflytek/skillhub",
@@ -573,10 +584,10 @@
       "installCommand": "npm install -g @astron-team/skillhub\nnpx @astron-team/skillhub@latest version\nskillhub login --token sk_xxx --registry https://skill.xfyun.cn",
       "language": "Java",
       "license": "Apache-2.0",
-      "stars": 4962,
-      "score": 142.7,
+      "stars": 5123,
+      "score": 143,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T03:38:07Z",
+      "pushedAt": "2026-09-18T10:38:18Z",
       "sourceTopics": [
         "skill",
         "skills",
@@ -598,7 +609,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 233,
+      "rank": 213,
       "id": 1158692577,
       "name": "one-skill-to-rule-them-all",
       "fullName": "rebelytics/one-skill-to-rule-them-all",
@@ -618,10 +629,10 @@
       "installCommand": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git",
       "language": "Python",
       "license": "CC-BY-4.0",
-      "stars": 2303,
-      "score": 134.7,
+      "stars": 2749,
+      "score": 136.6,
       "activity": "本周活跃",
-      "pushedAt": "2026-08-28T12:19:19Z",
+      "pushedAt": "2026-09-11T10:46:42Z",
       "sourceTopics": [
         "skill",
         "ai-skills",
@@ -635,67 +646,18 @@
         "Gemini CLI",
         "OpenClaw"
       ],
-      "skillCount": 70,
+      "skillCount": 78,
       "isCollection": false,
       "media": {
         "socialPreview": "https://opengraph.githubassets.com/skillhot/rebelytics/one-skill-to-rule-them-all",
-        "videoUrl": ""
+        "videoUrl": "https://www.youtube.com/watch?v=jyLKRN36-Dc](https://www.youtube.com/watch?v=jyLKRN36-Dc"
       },
       "detailPath": "data/details/rebelytics__one__skill__to__rule__them__all.json",
       "catalogStatus": "active",
       "catalogDelta": "stable"
     },
     {
-      "rank": 598,
-      "id": 1237501138,
-      "name": "skilldock",
-      "fullName": "wanghuan9/skilldock",
-      "owner": "wanghuan9",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106566505?v=4",
-      "url": "https://github.com/wanghuan9/skilldock",
-      "description": "SkillDock is an AI skill manager and skill management desktop app for Claude Code, Cursor, Codex, Windsurf, Gemini CLI, and other AI coding tools. Install, organize, edit, sync, and update Skills, MCP servers, and plugins with real-directory scanning and Git-aware Diff previews. AI Skill Manager / Skill 管理软件 / MCP 管理工具.",
-      "summary": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-      "category": "技能合集",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "发现新技能",
-        "按领域选型",
-        "构建个人技能库"
-      ],
-      "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-      "installCommand": "npm ci\nnpm test\nnpm run build",
-      "language": "Rust",
-      "license": "MIT",
-      "stars": 505,
-      "score": 119.1,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-01T10:26:10Z",
-      "sourceTopics": [
-        "ai-skills",
-        "claude-code-skills",
-        "cursor-skills",
-        "skill-management"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "Gemini CLI",
-        "GitHub Copilot",
-        "OpenClaw"
-      ],
-      "skillCount": 1,
-      "isCollection": true,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/wanghuan9/skilldock",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/wanghuan9__skilldock.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 621,
+      "rank": 602,
       "id": 1141582887,
       "name": "skills-hub",
       "fullName": "qufei1993/skills-hub",
@@ -715,10 +677,10 @@
       "installCommand": "npm install\nnpm run tauri:dev",
       "language": "Rust",
       "license": "MIT",
-      "stars": 1539,
-      "score": 118.6,
+      "stars": 1686,
+      "score": 119.5,
       "activity": "本周活跃",
-      "pushedAt": "2026-09-03T01:35:44Z",
+      "pushedAt": "2026-09-19T01:45:43Z",
       "sourceTopics": [
         "skill-management"
       ],
@@ -741,48 +703,54 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1020,
-      "id": 1205367502,
-      "name": "ctx",
-      "fullName": "stevesolun/ctx",
-      "owner": "stevesolun",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1304538?v=4",
-      "url": "https://github.com/stevesolun/ctx",
-      "description": "Repo-aware recommendations for skills, agents, MCP servers, and model harnesses. Use your own inventory or the shipped 79,958-node graph with 68,494 skills, 467 agents, 10,790 MCPs, and 207 harnesses.",
-      "summary": "ctx：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
-      "category": "Agent工具与平台",
-      "categoryConfidence": "中",
+      "rank": 895,
+      "id": 1237501138,
+      "name": "skilldock",
+      "fullName": "wanghuan9/skilldock",
+      "owner": "wanghuan9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106566505?v=4",
+      "url": "https://github.com/wanghuan9/skilldock",
+      "description": "SkillDock is an AI skill manager and skill management desktop app for Claude Code, Cursor, Codex, Windsurf, Gemini CLI, and other AI coding tools. Install, organize, edit, sync, and update Skills, MCP servers, and plugins with real-directory scanning and Git-aware Diff previews. AI Skill Manager / Skill 管理软件 / MCP 管理工具.",
+      "summary": "skilldock 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+      "category": "技能合集",
+      "categoryConfidence": "高",
       "scenarios": [
-        "模型与客户端管理",
-        "Agent 编排",
-        "多平台协作"
+        "发现新技能",
+        "按领域选型",
+        "构建个人技能库"
       ],
-      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-      "installCommand": "git clone https://github.com/stevesolun/ctx.git",
-      "language": "Python",
+      "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
+      "installCommand": "git clone https://github.com/wanghuan9/skilldock.git",
+      "language": "Rust",
       "license": "MIT",
-      "stars": 583,
-      "score": 108.6,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-31T06:21:35Z",
+      "stars": 581,
+      "score": 113.5,
+      "activity": "本月活跃",
+      "pushedAt": "2026-09-08T05:46:06Z",
       "sourceTopics": [
+        "ai-skills",
+        "claude-code-skills",
+        "cursor-skills",
         "skill-management"
       ],
       "platforms": [
-        "Claude"
+        "Claude",
+        "Codex",
+        "Cursor",
+        "Gemini CLI"
       ],
       "skillCount": 1,
-      "isCollection": false,
+      "isCollection": true,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/stevesolun/ctx",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/wanghuan9/skilldock",
         "videoUrl": ""
       },
-      "detailPath": "data/details/stevesolun__ctx.json",
+      "detailPath": "data/details/wanghuan9__skilldock.json",
       "catalogStatus": "active",
-      "catalogDelta": "new"
+      "catalogDelta": "stable"
     },
     {
-      "rank": 1120,
+      "rank": 1132,
       "id": 1233558941,
       "name": "AIHelms",
       "fullName": "beizhu-1209/AIHelms",
@@ -802,10 +770,10 @@
       "installCommand": "git clone https://github.com/beizhu-1209/AIHelms.git",
       "language": "Python",
       "license": "GPL-3.0",
-      "stars": 1024,
-      "score": 107.3,
+      "stars": 1030,
+      "score": 107.4,
       "activity": "本月活跃",
-      "pushedAt": "2026-08-26T03:18:39Z",
+      "pushedAt": "2026-09-10T10:50:20Z",
       "sourceTopics": [
         "skill-management"
       ],
@@ -823,7 +791,48 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 1279,
+      "rank": 1341,
+      "id": 1205367502,
+      "name": "ctx",
+      "fullName": "stevesolun/ctx",
+      "owner": "stevesolun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1304538?v=4",
+      "url": "https://github.com/stevesolun/ctx",
+      "description": "Repo-aware recommendations for skills, agents, MCP servers, and model harnesses. Use your own inventory or the shipped 79,958-node graph with 68,494 skills, 467 agents, 10,790 MCPs, and 207 harnesses.",
+      "summary": "ctx：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+      "category": "Agent工具与平台",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "模型与客户端管理",
+        "Agent 编排",
+        "多平台协作"
+      ],
+      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+      "installCommand": "git clone https://github.com/stevesolun/ctx.git",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 587,
+      "score": 101.6,
+      "activity": "本月活跃",
+      "pushedAt": "2026-08-31T06:21:35Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Claude"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/stevesolun/ctx",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/stevesolun__ctx.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 1560,
       "id": 1174381781,
       "name": "skillfile",
       "fullName": "eljulians/skillfile",
@@ -843,10 +852,10 @@
       "installCommand": "git clone https://github.com/eljulians/skillfile.git",
       "language": "Rust",
       "license": "Apache-2.0",
-      "stars": 143,
-      "score": 102.4,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-31T16:28:15Z",
+      "stars": 170,
+      "score": 97.1,
+      "activity": "本月活跃",
+      "pushedAt": "2026-09-07T18:14:23Z",
       "sourceTopics": [
         "ai-skills",
         "skills-sh",
@@ -870,49 +879,7 @@
       "catalogDelta": "stable"
     },
     {
-      "rank": 1917,
-      "id": 1227386646,
-      "name": "skill-zoo",
-      "fullName": "luochang212/skill-zoo",
-      "owner": "luochang212",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/33987852?v=4",
-      "url": "https://github.com/luochang212/skill-zoo",
-      "description": "All-in-One Desktop Agent Skills Utility. Welcome to the Skill Zoo, where all your skills live!",
-      "summary": "skill-zoo：用于创建、验证、安装或管理 Agent Skills。适合在 Codex、OpenCode 相关工作流里先做选型判断。",
-      "category": "技能开发",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "创建技能",
-        "组织工作流",
-        "扩展 Agent 能力"
-      ],
-      "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-      "installCommand": "git clone https://github.com/luochang212/skill-zoo.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 108,
-      "score": 84.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-18T15:06:05Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Codex",
-        "OpenCode"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/luochang212/skill-zoo",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/luochang212__skill__zoo.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 1920,
+      "rank": 1703,
       "id": 1274056720,
       "name": "lazyskills",
       "fullName": "alvinunreal/lazyskills",
@@ -932,10 +899,10 @@
       "installCommand": "git clone https://github.com/alvinunreal/lazyskills.git",
       "language": "Go",
       "license": "MIT",
-      "stars": 242,
-      "score": 84.6,
-      "activity": "近期活跃",
-      "pushedAt": "2026-07-22T12:22:43Z",
+      "stars": 246,
+      "score": 92.8,
+      "activity": "本月活跃",
+      "pushedAt": "2026-09-07T21:51:59Z",
       "sourceTopics": [
         "skill-management"
       ],
@@ -954,7 +921,90 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 1967,
+      "rank": 1724,
+      "id": 1227386646,
+      "name": "skill-zoo",
+      "fullName": "luochang212/skill-zoo",
+      "owner": "luochang212",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33987852?v=4",
+      "url": "https://github.com/luochang212/skill-zoo",
+      "description": "All-in-One Desktop Agent Skills Utility. Welcome to the Skill Zoo, where all your skills live!",
+      "summary": "skill-zoo：用于创建、验证、安装或管理 Agent Skills。适合在 Codex、OpenCode 相关工作流里先做选型判断。",
+      "category": "技能开发",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "创建技能",
+        "组织工作流",
+        "扩展 Agent 能力"
+      ],
+      "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+      "installCommand": "git clone https://github.com/luochang212/skill-zoo.git",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 111,
+      "score": 92,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-17T18:41:11Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Codex",
+        "OpenCode"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/luochang212/skill-zoo",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/luochang212__skill__zoo.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 1912,
+      "id": 1342004464,
+      "name": "skillroster",
+      "fullName": "tt-a1i/skillroster",
+      "owner": "tt-a1i",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53142663?v=4",
+      "url": "https://github.com/tt-a1i/skillroster",
+      "description": "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo.",
+      "summary": "skillroster：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "编程开发",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "软件开发",
+        "代码质量",
+        "工程自动化"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/tt-a1i/skillroster.git",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars": 52,
+      "score": 85,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-16T02:41:52Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/tt-a1i/skillroster",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/tt__a1i__skillroster.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 1962,
       "id": 123154803,
       "name": "skills",
       "fullName": "puzzle/skills",
@@ -977,7 +1027,7 @@
       "stars": 83,
       "score": 82.2,
       "activity": "本月活跃",
-      "pushedAt": "2026-08-25T10:48:46Z",
+      "pushedAt": "2026-09-08T06:15:23Z",
       "sourceTopics": [
         "skill-management"
       ],
@@ -995,49 +1045,7 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 2022,
-      "id": 1305415626,
-      "name": "skill-manager",
-      "fullName": "GrubbyLee/skill-manager",
-      "owner": "GrubbyLee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11837809?v=4",
-      "url": "https://github.com/GrubbyLee/skill-manager",
-      "description": "Zero-dependency CLI to scan, recommend, deduplicate, audit, and visualize Claude Code / Codex skills and MCP servers.",
-      "summary": "skill-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
-      "category": "技能开发",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "创建技能",
-        "组织工作流",
-        "扩展 Agent 能力"
-      ],
-      "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-      "installCommand": "git clone https://github.com/GrubbyLee/skill-manager.git",
-      "language": "JavaScript",
-      "license": "MIT",
-      "stars": 25,
-      "score": 79.1,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-29T15:13:57Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/GrubbyLee/skill-manager",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/grubbylee__skill__manager.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2088,
+      "rank": 2068,
       "id": 1162118713,
       "name": "skill-mix",
       "fullName": "razbakov/skill-mix",
@@ -1080,218 +1088,49 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 2102,
-      "id": 1199513021,
-      "name": "toolkit-ai",
-      "fullName": "barleviatias/toolkit-ai",
-      "owner": "barleviatias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/80356742?v=4",
-      "url": "https://github.com/barleviatias/toolkit-ai",
-      "description": "Package manager for AI coding assistants — manage skills, agents & MCPs across Claude Code, Codex, Copilot, and Cursor",
-      "summary": "toolkit-ai：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "Agent工具与平台",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "模型与客户端管理",
-        "Agent 编排",
-        "多平台协作"
-      ],
-      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-      "installCommand": "git clone https://github.com/barleviatias/toolkit-ai.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 12,
-      "score": 74.2,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-31T12:23:08Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "GitHub Copilot"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/barleviatias/toolkit-ai",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/barleviatias__toolkit__ai.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2103,
-      "id": 1342004464,
-      "name": "skillroster",
-      "fullName": "tt-a1i/skillroster",
-      "owner": "tt-a1i",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53142663?v=4",
-      "url": "https://github.com/tt-a1i/skillroster",
-      "description": "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo.",
-      "summary": "skillroster：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "编程开发",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "软件开发",
-        "代码质量",
-        "工程自动化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/tt-a1i/skillroster.git",
-      "language": "Rust",
-      "license": "Apache-2.0",
-      "stars": 12,
-      "score": 74.2,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-01T01:22:01Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/tt-a1i/skillroster",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/tt__a1i__skillroster.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2122,
-      "id": 1343493800,
-      "name": "laconian",
-      "fullName": "agent-axiom/laconian",
-      "owner": "agent-axiom",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/271846029?v=4",
-      "url": "https://github.com/agent-axiom/laconian",
-      "description": "The shortest complete answer: an agent skill",
-      "summary": "laconian：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
-      "category": "内容创作",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "内容生产",
-        "视觉创作",
-        "多媒体工作流"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/agent-axiom/laconian.git",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "stars": 9,
-      "score": 72.7,
-      "activity": "本周活跃",
-      "pushedAt": "2026-08-31T19:53:12Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Codex"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/agent-axiom/laconian",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/agent__axiom__laconian.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2128,
-      "id": 1290505301,
-      "name": "skill-tracker",
-      "fullName": "CcZzJiooo/skill-tracker",
-      "owner": "CcZzJiooo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/163880601?v=4",
-      "url": "https://github.com/CcZzJiooo/skill-tracker",
-      "description": "Local-first dashboard for visualizing AI-agent skill calls, Chinese skill descriptions, and duplicate-skill governance.",
-      "summary": "skill-tracker：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-      "category": "数据分析",
-      "categoryConfidence": "高",
-      "scenarios": [
-        "数据处理",
-        "SQL 与表格",
-        "分析与可视化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/CcZzJiooo/skill-tracker.git",
-      "language": "PowerShell",
-      "license": "MIT",
-      "stars": 8,
-      "score": 72.1,
-      "activity": "本周活跃",
-      "pushedAt": "2026-09-01T09:14:24Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "Gemini CLI"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/CcZzJiooo/skill-tracker",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/cczzjiooo__skill__tracker.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2138,
-      "id": 1326392947,
-      "name": "Skill-Atlas",
-      "fullName": "danielLublinsky/Skill-Atlas",
-      "owner": "danielLublinsky",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/33877626?v=4",
-      "url": "https://github.com/danielLublinsky/Skill-Atlas",
-      "description": "Skill-Atlas",
-      "summary": "Skill-Atlas：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+      "rank": 2099,
+      "id": 1305415626,
+      "name": "skill-manager",
+      "fullName": "GrubbyLee/skill-manager",
+      "owner": "GrubbyLee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11837809?v=4",
+      "url": "https://github.com/GrubbyLee/skill-manager",
+      "description": "Zero-dependency CLI to scan, recommend, deduplicate, audit, and visualize Claude Code / Codex skills and MCP servers.",
+      "summary": "skill-manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
       "category": "技能开发",
-      "categoryConfidence": "待复核",
+      "categoryConfidence": "中",
       "scenarios": [
         "创建技能",
         "组织工作流",
         "扩展 Agent 能力"
       ],
       "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-      "installCommand": "git clone https://github.com/danielLublinsky/Skill-Atlas.git",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "stars": 23,
-      "score": 71.4,
+      "installCommand": "git clone https://github.com/GrubbyLee/skill-manager.git",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars": 28,
+      "score": 72.9,
       "activity": "本月活跃",
-      "pushedAt": "2026-08-16T18:16:46Z",
+      "pushedAt": "2026-09-05T16:32:39Z",
       "sourceTopics": [
         "skill-management"
       ],
       "platforms": [
-        "Claude"
+        "Claude",
+        "Codex"
       ],
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/danielLublinsky/Skill-Atlas",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/GrubbyLee/skill-manager",
         "videoUrl": ""
       },
-      "detailPath": "data/details/daniellublinsky__skill__atlas.json",
+      "detailPath": "data/details/grubbylee__skill__manager.json",
       "catalogStatus": "active",
       "catalogDelta": "new"
     },
     {
-      "rank": 2141,
+      "rank": 2122,
       "id": 1165300905,
       "name": "Claude-Agent-Team-Manager",
       "fullName": "DatafyingTech/Claude-Agent-Team-Manager",
@@ -1311,8 +1150,8 @@
       "installCommand": "git clone https://github.com/DatafyingTech/Claude-Agent-Team-Manager.git",
       "language": "TypeScript",
       "license": "MIT",
-      "stars": 141,
-      "score": 71.3,
+      "stars": 140,
+      "score": 71.2,
       "activity": "活跃",
       "pushedAt": "2026-03-11T04:04:52Z",
       "sourceTopics": [
@@ -1332,7 +1171,7 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 2171,
+      "rank": 2155,
       "id": 1238455882,
       "name": "weft",
       "fullName": "WyattLee-nanami/weft",
@@ -1373,30 +1212,116 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 2172,
-      "id": 1335983168,
-      "name": "Jnpz",
-      "fullName": "pazz11/Jnpz",
-      "owner": "pazz11",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/255695708?v=4",
-      "url": "https://github.com/pazz11/Jnpz",
-      "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
-      "summary": "Jnpz：改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "技能开发",
-      "categoryConfidence": "待复核",
+      "rank": 2194,
+      "id": 1199513021,
+      "name": "toolkit-ai",
+      "fullName": "barleviatias/toolkit-ai",
+      "owner": "barleviatias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80356742?v=4",
+      "url": "https://github.com/barleviatias/toolkit-ai",
+      "description": "Package manager for AI coding assistants — manage skills, agents & MCPs across Claude Code, Codex, Copilot, and Cursor",
+      "summary": "toolkit-ai：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "category": "Agent工具与平台",
+      "categoryConfidence": "中",
       "scenarios": [
-        "创建技能",
-        "组织工作流",
-        "扩展 Agent 能力"
+        "模型与客户端管理",
+        "Agent 编排",
+        "多平台协作"
       ],
-      "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-      "installCommand": "git clone https://github.com/pazz11/Jnpz.git",
-      "language": "JavaScript",
+      "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+      "installCommand": "git clone https://github.com/barleviatias/toolkit-ai.git",
+      "language": "TypeScript",
       "license": "MIT",
-      "stars": 16,
-      "score": 69,
+      "stars": 12,
+      "score": 67.2,
       "activity": "本月活跃",
-      "pushedAt": "2026-08-17T06:07:15Z",
+      "pushedAt": "2026-09-10T09:45:30Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/barleviatias/toolkit-ai",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/barleviatias__toolkit__ai.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 2214,
+      "id": 1187891230,
+      "name": "neeko",
+      "fullName": "tincopper/neeko",
+      "owner": "tincopper",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16191759?v=4",
+      "url": "https://github.com/tincopper/neeko",
+      "description": "A cross-platform desktop multi-project agent manager for the AI coding era, with integrated Agent sessions, Git management, and IDE launch.   为 AI 编程时代打造的跨平台桌面多项目Agent管理器，集成 Agent 会话、Git 管理与 IDE 启动。",
+      "summary": "neeko：为 AI 编程时代打造的跨平台桌面多项目Agent管理器，集成 Agent 会话、Git 管理与 IDE 启动。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+      "category": "编程开发",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "软件开发",
+        "代码质量",
+        "工程自动化"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/tincopper/neeko.git",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 12,
+      "score": 66.2,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-17T16:01:56Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Claude",
+        "OpenCode"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/tincopper/neeko",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/tincopper__neeko.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 2230,
+      "id": 1329552323,
+      "name": "Token-Terminator",
+      "fullName": "AronAxe/Token-Terminator",
+      "owner": "AronAxe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33731256?v=4",
+      "url": "https://github.com/AronAxe/Token-Terminator",
+      "description": "Agent-agnostic token reduction with exact recovery and fail-open guarantees. First-party Hermes Agent adapter; RTK terminal rewriting optional.",
+      "summary": "Token-Terminator：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "内容创作",
+      "categoryConfidence": "中",
+      "scenarios": [
+        "内容生产",
+        "视觉创作",
+        "多媒体工作流"
+      ],
+      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+      "installCommand": "git clone https://github.com/AronAxe/Token-Terminator.git",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 10,
+      "score": 65.2,
+      "activity": "本周活跃",
+      "pushedAt": "2026-09-16T11:28:56Z",
       "sourceTopics": [
         "skill-management"
       ],
@@ -1406,56 +1331,15 @@
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/pazz11/Jnpz",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/AronAxe/Token-Terminator",
         "videoUrl": ""
       },
-      "detailPath": "data/details/pazz11__jnpz.json",
+      "detailPath": "data/details/aronaxe__token__terminator.json",
       "catalogStatus": "active",
       "catalogDelta": "new"
     },
     {
-      "rank": 2230,
-      "id": 1252870784,
-      "name": "skill_steward",
-      "fullName": "Arenukvern/skill_steward",
-      "owner": "Arenukvern",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15068151?v=4",
-      "url": "https://github.com/Arenukvern/skill_steward",
-      "description": "“What’s the thing?” You’d answer: “Skills that teach you how to maintain skills & repos”. Engineering Stewardship for any repository (app, library, tool), a structural governance and quality layer for agent-operated engineering repos. ",
-      "summary": "skill_steward 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-      "category": "编程开发",
-      "categoryConfidence": "中",
-      "scenarios": [
-        "软件开发",
-        "代码质量",
-        "工程自动化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/Arenukvern/skill_steward.git",
-      "language": "Dart",
-      "license": "MIT",
-      "stars": 11,
-      "score": 66.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-08-15T16:03:42Z",
-      "sourceTopics": [
-        "skill-management"
-      ],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": true,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/Arenukvern/skill_steward",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/arenukvern__skill__steward.json",
-      "catalogStatus": "active",
-      "catalogDelta": "new"
-    },
-    {
-      "rank": 2255,
+      "rank": 2264,
       "id": 1195426671,
       "name": "skill-vault",
       "fullName": "Hainrixz/skill-vault",
@@ -1475,8 +1359,8 @@
       "installCommand": "git clone https://github.com/Hainrixz/skill-vault.git",
       "language": "",
       "license": "MIT",
-      "stars": 66,
-      "score": 64.1,
+      "stars": 68,
+      "score": 64.4,
       "activity": "活跃",
       "pushedAt": "2026-03-29T17:36:45Z",
       "sourceTopics": [
@@ -1496,46 +1380,84 @@
       "catalogDelta": "new"
     },
     {
-      "rank": 2291,
-      "id": 1154136501,
-      "name": "Skill-Dock",
-      "fullName": "yen0304/Skill-Dock",
-      "owner": "yen0304",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16440660?v=4",
-      "url": "https://github.com/yen0304/Skill-Dock",
-      "description": "Local-first agent skill manager for VS Code / Cursor. Manage, browse, and import skills across Claude, Cursor, Codex and more.",
-      "summary": "Skill-Dock：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+      "rank": 2271,
+      "id": 1326392947,
+      "name": "Skill-Atlas",
+      "fullName": "danielLublinsky/Skill-Atlas",
+      "owner": "danielLublinsky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33877626?v=4",
+      "url": "https://github.com/danielLublinsky/Skill-Atlas",
+      "description": "Skill-Atlas",
+      "summary": "Skill-Atlas：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
       "category": "技能开发",
-      "categoryConfidence": "高",
+      "categoryConfidence": "待复核",
       "scenarios": [
         "创建技能",
         "组织工作流",
         "扩展 Agent 能力"
       ],
       "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-      "installCommand": "git clone https://github.com/yen0304/Skill-Dock.git",
-      "language": "TypeScript",
-      "license": "MIT",
-      "stars": 15,
-      "score": 60.6,
+      "installCommand": "git clone https://github.com/danielLublinsky/Skill-Atlas.git",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 23,
+      "score": 63.4,
       "activity": "近期活跃",
-      "pushedAt": "2026-06-09T15:42:11Z",
+      "pushedAt": "2026-08-16T18:16:46Z",
       "sourceTopics": [
         "skill-management"
       ],
       "platforms": [
-        "Claude",
-        "Codex",
-        "Cursor",
-        "GitHub Copilot"
+        "Claude"
       ],
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/yen0304/Skill-Dock",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/danielLublinsky/Skill-Atlas",
         "videoUrl": ""
       },
-      "detailPath": "data/details/yen0304__skill__dock.json",
+      "detailPath": "data/details/daniellublinsky__skill__atlas.json",
+      "catalogStatus": "active",
+      "catalogDelta": "new"
+    },
+    {
+      "rank": 2311,
+      "id": 1335983168,
+      "name": "Jnpz",
+      "fullName": "pazz11/Jnpz",
+      "owner": "pazz11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255695708?v=4",
+      "url": "https://github.com/pazz11/Jnpz",
+      "description": "改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用",
+      "summary": "Jnpz：改配置+重启才能加 MCP？DeepSeek Harness (DSH) 插件「技能配置」解决：设置页粘贴 JSON 即连 MCP 服务器、热加载免重启；上传 zip/.skill 自动识别 SKILL.md，创建/编辑/启停技能，即点即用。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "category": "技能开发",
+      "categoryConfidence": "待复核",
+      "scenarios": [
+        "创建技能",
+        "组织工作流",
+        "扩展 Agent 能力"
+      ],
+      "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
+      "installCommand": "git clone https://github.com/pazz11/Jnpz.git",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars": 14,
+      "score": 60.1,
+      "activity": "近期活跃",
+      "pushedAt": "2026-08-17T06:07:15Z",
+      "sourceTopics": [
+        "skill-management"
+      ],
+      "platforms": [
+        "Agent Skills"
+      ],
+      "skillCount": 1,
+      "isCollection": false,
+      "media": {
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/pazz11/Jnpz",
+        "videoUrl": ""
+      },
+      "detailPath": "data/details/pazz11__jnpz.json",
       "catalogStatus": "active",
       "catalogDelta": "new"
     }

@@ -1,5 +1,5 @@
 {
-  "rank": 912,
+  "rank": 363,
   "id": 1224469725,
   "name": "SoftwareCopyright-Skill",
   "fullName": "Fokkyp/SoftwareCopyright-Skill",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Fokkyp/SoftwareCopyright-Skill.git",
+  "installCommand": "当前 skill 固定验证 [OfficeCLI v1.0.151](https://github.com/iOfficeAI/OfficeCLI/releases/tag/v1.0.151)。运行时只使用 PATH 中的全局 `officecli`，不使用 `OFFICECLI_PATH`、`--officecli` 或项目内 `工具/officecli.exe`。生成脚本会禁用 OfficeCLI 自动更新，以避免同一份材料因工具版本漂移产生不同结果。\n- **Microsoft Word（Windows）**：代码段落连续写入 DOCX，由 Word 像普通文档一样根据页面空间自动换页；OfficeCLI 可调用 Word 取得最终真实页数。没有 Word 时仍可生成、做 OpenXML 校验和 Offi",
   "language": "Python",
   "license": "MIT",
-  "stars": 5453,
-  "forks": 763,
-  "openIssues": 7,
-  "score": 112.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-18T14:26:36Z",
-  "updatedAt": "2026-09-18T03:59:47Z",
+  "stars": 5465,
+  "forks": 767,
+  "openIssues": 1,
+  "score": 127.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-18T09:25:24Z",
+  "updatedAt": "2026-09-19T02:14:36Z",
   "createdAt": "2026-04-29T10:07:08Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-18T04:52:02.195Z",
-    "sourceHash": "cf43584629072235",
+    "generatedAt": "2026-09-19T04:44:41.735Z",
+    "sourceHash": "b4fbf7c96c3d5bef",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

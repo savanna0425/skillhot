@@ -1,5 +1,5 @@
 {
-  "rank": 754,
+  "rank": 751,
   "id": 1341067556,
   "name": "pr-lens",
   "fullName": "coldteadotai/pr-lens",
@@ -22,13 +22,13 @@
   "installCommand": "Then say, literally:\n> Diagram the change you just made with PR Lens and attach it to the pull request.\nThe agent reads the diff, writes the document, runs `npx @coldtea/pr-lens-cli validate` until the contract is satisfied, renders, and puts the diagram in the pull request description with `gh pr create --attach`, so it lands with the change instead of behi",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1219,
+  "stars": 1229,
   "forks": 44,
-  "openIssues": 3,
-  "score": 116.1,
+  "openIssues": 4,
+  "score": 116.2,
   "activity": "本周活跃",
   "pushedAt": "2026-09-16T12:40:10Z",
-  "updatedAt": "2026-09-18T01:58:59Z",
+  "updatedAt": "2026-09-19T03:44:41Z",
   "createdAt": "2026-08-20T19:16:16Z",
   "sourceTopics": [
     "claude-skills"
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-18T04:52:02.195Z",
-    "sourceHash": "9dd1a98d9677c8f9",
+    "generatedAt": "2026-09-19T04:44:41.735Z",
+    "sourceHash": "941190e76250611f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
