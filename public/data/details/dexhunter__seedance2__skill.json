@@ -1,17 +1,17 @@
 {
-  "rank": 1302,
-  "id": 1275436512,
-  "name": "AI-Novel-Writer",
-  "fullName": "EthanYoQ/AI-Novel-Writer",
-  "owner": "EthanYoQ",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/257484394?v=4",
-  "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
-  "homepage": "",
-  "description": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.",
-  "summary": "AI-Novel-Writer：AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspiratio。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 455,
+  "id": 1155501359,
+  "name": "seedance2-skill",
+  "fullName": "dexhunter/seedance2-skill",
+  "owner": "dexhunter",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6930518?v=4",
+  "url": "https://github.com/dexhunter/seedance2-skill",
+  "homepage": "https://seedance2.help",
+  "description": "skill to create best prompts for generating videos with seedance2.0",
+  "summary": "seedance2-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,52 +19,43 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/EthanYoQ/AI-Novel-Writer.git",
-  "language": "TypeScript",
-  "license": "GPL-3.0",
-  "stars": 988,
-  "forks": 128,
-  "openIssues": 42,
-  "score": 102,
+  "installCommand": "npx skills add dexhunter/seedance2-skill",
+  "language": "",
+  "license": "MIT",
+  "stars": 3811,
+  "forks": 337,
+  "openIssues": 1,
+  "score": 124,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T14:15:30Z",
-  "updatedAt": "2026-09-19T02:04:47Z",
-  "createdAt": "2026-06-20T17:27:16Z",
+  "pushedAt": "2026-09-19T18:18:50Z",
+  "updatedAt": "2026-09-20T04:54:07Z",
+  "createdAt": "2026-02-11T15:31:03Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-writing",
-    "creative-writing",
-    "deepseek-harness",
-    "dsh-plugin",
-    "electron",
-    "fiction-writing",
-    "local-first",
-    "long-form-fiction",
-    "novel-writing",
-    "ollama",
-    "rag",
-    "web-novel",
-    "worldbuilding",
-    "writing-assistant"
+    "prompt",
+    "seedance",
+    "seedance-2",
+    "video-prompt"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/EthanYoQ/AI-Novel-Writer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dexhunter/seedance2-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/EthanYoQ/AI-Novel-Writer#readme",
-  "detailPath": "data/details/ethanyoq__ai__novel__writer.json",
+  "readmeUrl": "https://github.com/dexhunter/seedance2-skill#readme",
+  "detailPath": "data/details/dexhunter__seedance2__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspiratio",
+    "summary": "seedance2-skill：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -80,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "1f730ad013eaa72c",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "5958797a3f15b167",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AI-Novel-Writer：AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspiratio。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "AI-Novel-Writer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "seedance2-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "seedance2-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -107,7 +98,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -130,7 +121,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

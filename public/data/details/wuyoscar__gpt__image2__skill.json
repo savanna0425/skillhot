@@ -22,13 +22,13 @@
   "installCommand": "command -v gpt-image || true\ncommand -v uv >/dev/null && uv tool list | grep -E '^gpt-image-cli([[:space:]]|$)' || true\ntest -n \"${OPENAI_API_KEY:-}\" && echo \"OPENAI_API_KEY is already set (value hidden)\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 5456,
-  "forks": 464,
+  "stars": 5467,
+  "forks": 465,
   "openIssues": 3,
   "score": 132.7,
   "activity": "本月活跃",
   "pushedAt": "2026-09-09T14:36:03Z",
-  "updatedAt": "2026-09-19T02:15:25Z",
+  "updatedAt": "2026-09-20T00:06:17Z",
   "createdAt": "2026-04-22T11:27:21Z",
   "sourceTopics": [
     "agent-skills",
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "046ef3088bb7e401",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "2cc9a1987536c4e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

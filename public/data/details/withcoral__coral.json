@@ -1,5 +1,5 @@
 {
-  "rank": 629,
+  "rank": 922,
   "id": 1200798950,
   "name": "coral",
   "fullName": "withcoral/coral",
@@ -8,7 +8,7 @@
   "url": "https://github.com/withcoral/coral",
   "homepage": "https://withcoral.com",
   "description": "One SQL interface over APIs, files, and live sources — built for agents.",
-  "summary": "coral：基于 API、文件和实时数据源的一站式 SQL 界面——专为智能体构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "coral：基于 API、文件和实时数据源的一站式 SQL 界面——专为智能体构建。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "brew install withcoral/tap/coral",
+  "installCommand": "git clone https://github.com/withcoral/coral.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 4945,
-  "forks": 219,
-  "openIssues": 316,
-  "score": 118.7,
-  "activity": "本周活跃",
+  "stars": 4943,
+  "forks": 220,
+  "openIssues": 317,
+  "score": 111.7,
+  "activity": "本月活跃",
   "pushedAt": "2026-09-11T07:06:33Z",
-  "updatedAt": "2026-09-18T15:37:16Z",
+  "updatedAt": "2026-09-19T14:11:24Z",
   "createdAt": "2026-04-03T20:56:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,10 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -71,13 +68,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "d5b42a367f34a191",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "14a0cfcfc92116a6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "coral：基于 API、文件和实时数据源的一站式 SQL 界面——专为智能体构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "coral：基于 API、文件和实时数据源的一站式 SQL 界面——专为智能体构建。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "coral 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -95,7 +92,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

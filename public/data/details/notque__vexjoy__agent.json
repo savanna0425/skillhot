@@ -1,5 +1,5 @@
 {
-  "rank": 1225,
+  "rank": 1229,
   "id": 1184844109,
   "name": "vexjoy-agent",
   "fullName": "notque/vexjoy-agent",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/220916?v=4",
   "url": "https://github.com/notque/vexjoy-agent",
   "homepage": "https://vexjoy.com",
-  "description": "VexJoy AI Agent with Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.",
-  "summary": "vexjoy-agent：VexJoy AI Agent with Intelligent Routing - 将平实英语请求路由至专业代理，并通过审查、测试和反馈循环来管理工作。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "VexJoy AI Agent with Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.",
+  "summary": "vexjoy-agent：支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/notque/vexjoy-agent.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 420,
+  "stars": 421,
   "forks": 44,
   "openIssues": 0,
   "score": 105.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T04:30:49Z",
-  "updatedAt": "2026-09-19T04:30:51Z",
+  "pushedAt": "2026-09-20T03:34:38Z",
+  "updatedAt": "2026-09-20T03:34:41Z",
   "createdAt": "2026-03-18T01:39:09Z",
   "sourceTopics": [
     "ai-skills",
@@ -68,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "VexJoy AI Agent with Intelligent Routing - 将平实英语请求路由至专业代理，并通过审查、测试和反馈循环来管理工作",
+    "summary": "vexjoy-agent 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -87,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "7d70e3b47d147f51",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "b51ab25480bab695",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "vexjoy-agent：VexJoy AI Agent with Intelligent Routing - 将平实英语请求路由至专业代理，并通过审查、测试和反馈循环来管理工作。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "vexjoy-agent：支持资料研究、知识检索或学习任务。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "vexjoy-agent 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",

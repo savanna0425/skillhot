@@ -1,14 +1,14 @@
 {
-  "rank": 1775,
-  "id": 1142323725,
-  "name": "TRAE-Skills",
-  "fullName": "HighMark-31/TRAE-Skills",
-  "owner": "HighMark-31",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/150486881?v=4",
-  "url": "https://github.com/HighMark-31/TRAE-Skills",
+  "rank": 2312,
+  "id": 1201728898,
+  "name": "awesome-claude-md",
+  "fullName": "Overseastelegramaliterateperson865/awesome-claude-md",
+  "owner": "Overseastelegramaliterateperson865",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/261815752?v=4",
+  "url": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md",
   "homepage": "",
-  "description": "A curated collection of  150+ specialized AI Skills for software development, frontend, backend, automation, UI/UX, SEO, and DevOps. Each skill encapsulates a focused capability: generating code, templates, scripts, and production-ready workflows.",
-  "summary": "TRAE-Skills 是一个面向 Claude、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "Discover CLAUDE.md best practices for project-specific AI coding guidance, with ready-to-use templates for languages, frameworks, and real-world cases",
+  "summary": "awesome-claude-md 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,56 +19,64 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/HighMark-31/TRAE-Skills.git",
+  "installCommand": "git clone https://github.com/Overseastelegramaliterateperson865/awesome-claude-md.git",
   "language": "",
-  "license": "NOASSERTION",
-  "stars": 284,
-  "forks": 44,
+  "license": "MIT",
+  "stars": 3,
+  "forks": 0,
   "openIssues": 0,
-  "score": 90.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-04T13:28:08Z",
-  "updatedAt": "2026-09-11T06:54:21Z",
-  "createdAt": "2026-01-26T08:59:39Z",
+  "score": 60.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-20T03:29:51Z",
+  "updatedAt": "2026-09-20T03:32:05Z",
+  "createdAt": "2026-04-05T04:29:14Z",
   "sourceTopics": [
-    "ai-skills",
-    "cursor-skills"
+    "agentic-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skills",
-    "claude-code",
+    "agent",
+    "agentic-skills",
+    "ai",
+    "awesome",
+    "best-practices",
+    "claude-rules",
     "claude-skills",
-    "collection",
-    "cursor-skill",
-    "cursor-skills",
-    "ide-skills",
-    "skills",
-    "skills-collection",
-    "trae",
-    "trae-ai",
-    "trae-ide",
-    "trae-skills"
+    "claude-templates",
+    "codex-cli",
+    "configuration",
+    "cursor",
+    "cursor-ai",
+    "cursor-rules",
+    "developer-tools",
+    "gemini-cli",
+    "github-copilot",
+    "llm",
+    "mcp",
+    "prompt-engineering",
+    "vibe-coding"
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HighMark-31/TRAE-Skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Overseastelegramaliterateperson865/awesome-claude-md",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HighMark-31/TRAE-Skills#readme",
-  "detailPath": "data/details/highmark__31__trae__skills.json",
+  "readmeUrl": "https://github.com/Overseastelegramaliterateperson865/awesome-claude-md#readme",
+  "detailPath": "data/details/overseastelegramaliterateperson865__awesome__claude__md.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "包含 150+ 专业 AI 技能的开源仓库，涵盖软件开发、前端、后端、自动化、UI/UX、SEO 及 DevOps。每个技能均包含专注能力：生成代码、模板、脚本及生产就绪的工作流",
+    "summary": "awesome-claude-md 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -84,17 +92,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "ac6a1f970959816d",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "0dbb3ce8474752e5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "TRAE-Skills 是一个面向 Claude、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "TRAE-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-claude-md 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-claude-md 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -111,7 +119,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -134,7 +142,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

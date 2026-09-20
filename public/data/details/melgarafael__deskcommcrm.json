@@ -1,5 +1,5 @@
 {
-  "rank": 862,
+  "rank": 842,
   "id": 1223939135,
   "name": "DeskcommCRM",
   "fullName": "melgarafael/DeskcommCRM",
@@ -8,7 +8,7 @@
   "url": "https://github.com/melgarafael/DeskcommCRM",
   "homepage": "https://deskcomm.com.br",
   "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-  "summary": "DeskcommCRM：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "DeskcommCRM：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/melgarafael/DeskcommCRM.git",
+  "installCommand": "git clone https://github.com/melgarafael/DeskcommCRM.git\ncd DeskcommCRM\nbash hostgator-setup-kit/install.sh",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3229,
-  "forks": 788,
-  "openIssues": 126,
-  "score": 114.2,
+  "stars": 3330,
+  "forks": 812,
+  "openIssues": 132,
+  "score": 114.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T04:38:40Z",
-  "updatedAt": "2026-09-19T04:38:44Z",
+  "pushedAt": "2026-09-20T04:32:36Z",
+  "updatedAt": "2026-09-20T04:33:40Z",
   "createdAt": "2026-04-28T20:00:33Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,11 @@
     "whatsapp-api"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -89,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "a23929957878d160",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "e6545c747d2c0fcb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeskcommCRM：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "DeskcommCRM：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "DeskcommCRM 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -113,7 +117,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

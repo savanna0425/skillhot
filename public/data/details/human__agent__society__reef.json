@@ -1,5 +1,5 @@
 {
-  "rank": 797,
+  "rank": 784,
   "id": 1351879111,
   "name": "reef",
   "fullName": "Human-Agent-Society/reef",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Human-Agent-Society/reef",
   "homepage": "reefinfra.ai",
   "description": "Continual learning infra for self-improving agents",
-  "summary": "reef：支持资料研究、知识检索或学习任务。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "uv venv && source .venv/bin/activate\nuv pip install reef-infra\npython3 -c \"import reef; print(reef.__version__)\"",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3565,
-  "forks": 298,
-  "openIssues": 58,
-  "score": 115.3,
+  "stars": 3674,
+  "forks": 305,
+  "openIssues": 56,
+  "score": 115.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T18:47:41Z",
-  "updatedAt": "2026-09-19T04:37:08Z",
+  "pushedAt": "2026-09-19T16:58:07Z",
+  "updatedAt": "2026-09-20T04:35:05Z",
   "createdAt": "2026-08-31T01:39:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -45,7 +45,7 @@
     "self-improving-agents"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -77,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-19T04:44:41.735Z",
-    "sourceHash": "225b967c6abc2cec",
+    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "sourceHash": "8c78bfe701009756",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reef：支持资料研究、知识检索或学习任务。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "reef：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "reef 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -101,7 +101,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
