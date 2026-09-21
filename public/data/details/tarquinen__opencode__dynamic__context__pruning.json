@@ -1,14 +1,14 @@
 {
-  "rank": 704,
+  "rank": 701,
   "id": 1100215974,
   "name": "opencode-dynamic-context-pruning",
-  "fullName": "Opencode-DCP/opencode-dynamic-context-pruning",
-  "owner": "Opencode-DCP",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/249352346?v=4",
-  "url": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
+  "fullName": "Tarquinen/opencode-dynamic-context-pruning",
+  "owner": "Tarquinen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/78942835?v=4",
+  "url": "https://github.com/Tarquinen/opencode-dynamic-context-pruning",
   "homepage": "",
   "description": "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage",
-  "summary": "opencode-dynamic-context-pruning：OpenCode 动态上下文剪枝插件——智能管理对话上下文以优化令牌使用。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+  "summary": "opencode-dynamic-context-pruning：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npm i -g sleev\nsleev",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 4238,
+  "stars": 4240,
   "forks": 238,
-  "openIssues": 63,
+  "openIssues": 54,
   "score": 117.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-16T17:31:18Z",
-  "updatedAt": "2026-09-20T04:26:18Z",
+  "pushedAt": "2026-09-20T17:34:05Z",
+  "updatedAt": "2026-09-21T02:39:46Z",
   "createdAt": "2025-11-20T01:51:43Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,21 +38,20 @@
   "platforms": [
     "Claude",
     "Codex",
-    "GitHub Copilot",
     "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Opencode-DCP/opencode-dynamic-context-pruning",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Tarquinen/opencode-dynamic-context-pruning",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning#readme",
-  "detailPath": "data/details/opencode__dcp__opencode__dynamic__context__pruning.json",
+  "readmeUrl": "https://github.com/Tarquinen/opencode-dynamic-context-pruning#readme",
+  "detailPath": "data/details/tarquinen__opencode__dynamic__context__pruning.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenCode 动态上下文剪枝插件——智能管理对话上下文以优化令牌使用",
+    "summary": "opencode-dynamic-context-pruning 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -71,13 +70,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "6a108c76949d1af5",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "f362f3ef82b25e43",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "opencode-dynamic-context-pruning：OpenCode 动态上下文剪枝插件——智能管理对话上下文以优化令牌使用。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "opencode-dynamic-context-pruning：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "opencode-dynamic-context-pruning 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -95,7 +94,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 1256,
-  "id": 1139051534,
-  "name": "Codeman",
-  "fullName": "Ark0N/Codeman",
-  "owner": "Ark0N",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/13742766?v=4",
-  "url": "https://github.com/Ark0N/Codeman",
-  "homepage": "https://getcodeman.com",
-  "description": "Self-hosted mission control for AI coding agents: run Claude Code, OpenCode, Pi, Codex, and Antigravity & Gemini CLI 24/7, from any device, watch every subagent live",
-  "summary": "Codeman：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1698,
+  "id": 1190498170,
+  "name": "skill-base",
+  "fullName": "ginuim/skill-base",
+  "owner": "ginuim",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/497432?v=4",
+  "url": "https://github.com/ginuim/skill-base",
+  "homepage": "https://skillbase.reaidea.com/",
+  "description": "Private Skill distribution platform for AI coding agents: publish, install, update, and rollback team skills across Cursor, Claude Code, Codex, and OpenClaw with a minimal server + skb CLI.",
+  "summary": "skill-base：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,64 +19,55 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Ark0N/Codeman.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 764,
-  "forks": 108,
-  "openIssues": 18,
-  "score": 103.3,
+  "installCommand": "git clone https://github.com/ginuim/skill-base.git",
+  "language": "Vue",
+  "license": "",
+  "stars": 119,
+  "forks": 24,
+  "openIssues": 0,
+  "score": 92.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T11:18:27Z",
-  "updatedAt": "2026-09-20T00:47:13Z",
-  "createdAt": "2026-01-21T13:09:45Z",
+  "pushedAt": "2026-09-20T03:35:52Z",
+  "updatedAt": "2026-09-19T14:22:26Z",
+  "createdAt": "2026-03-24T10:43:29Z",
   "sourceTopics": [
-    "claude-skills"
+    "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "ai-agents",
-    "claude",
-    "claude-ai",
+    "agent-skills",
+    "ai-agent",
     "claude-code",
-    "claude-code-marketplace",
-    "claude-code-plugin",
-    "claude-skills",
+    "claude-code-skills",
+    "cli",
     "codex",
+    "cursor",
     "developer-tools",
-    "docker",
-    "gemini-cli",
-    "opencode",
-    "pi",
-    "self-hosted",
-    "session-manager",
-    "terminal",
-    "tmux",
-    "web-dashboard",
-    "xterm"
+    "knowledge-management",
+    "prompt-engineering",
+    "skill-base",
+    "team-workflows"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
-    "OpenCode",
-    "Antigravity"
+    "Cursor",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Ark0N/Codeman",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ginuim/skill-base",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Ark0N/Codeman#readme",
-  "detailPath": "data/details/ark0n__codeman.json",
+  "readmeUrl": "https://github.com/ginuim/skill-base#readme",
+  "detailPath": "data/details/ginuim__skill__base.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Codeman 聚焦软件开发、代码质量与工程交付。",
+    "summary": "skill-base 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -92,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "ca6d1452a2ea1dc7",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "154c51280a730974",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Codeman：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "Codeman 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skill-base：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "skill-base 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -119,7 +110,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -142,7 +133,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

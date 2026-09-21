@@ -1,14 +1,14 @@
 {
-  "rank": 389,
-  "id": 1158198234,
-  "name": "OpenJarvis",
-  "fullName": "open-jarvis/OpenJarvis",
-  "owner": "open-jarvis",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/266162746?v=4",
-  "url": "https://github.com/open-jarvis/OpenJarvis",
-  "homepage": "https://openjarvis.stanford.edu/",
-  "description": "Personal AI, On Personal Devices",
-  "summary": "OpenJarvis：个人 AI，在个人设备上。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 784,
+  "id": 1196447493,
+  "name": "ax",
+  "fullName": "google/ax",
+  "owner": "google",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+  "url": "https://github.com/google/ax",
+  "homepage": "https://agentexecutor.io",
+  "description": "Google's open agentic orchestrator",
+  "summary": "ax：尚未归入主要类别的实用项目。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/open-jarvis/OpenJarvis.git\ncd OpenJarvis\nuv sync --extra dev",
-  "language": "Python",
+  "installCommand": "This puts the `ax` binary in `$(go env GOPATH)/bin`. Make sure that directory is on your `PATH`.\nYou need a Kubernetes cluster, [`ko`](https://ko.build/) (`brew install ko`), a container registry your cluster can pull from, and a reachable Agent Substrate Control API (in-cluster default: `api.ate-system.svc.cluster.local:443`).",
+  "language": "Go",
   "license": "Apache-2.0",
-  "stars": 9989,
-  "forks": 2301,
-  "openIssues": 52,
-  "score": 126,
+  "stars": 3661,
+  "forks": 172,
+  "openIssues": 7,
+  "score": 115.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T06:15:39Z",
-  "updatedAt": "2026-09-20T04:53:03Z",
-  "createdAt": "2026-02-15T00:24:16Z",
+  "pushedAt": "2026-09-20T03:33:20Z",
+  "updatedAt": "2026-09-21T05:04:58Z",
+  "createdAt": "2026-03-30T17:55:01Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "OpenClaw"
+    "Gemini CLI"
   ],
-  "skillCount": 150,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/open-jarvis/OpenJarvis",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/google/ax",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/open-jarvis/OpenJarvis#readme",
-  "detailPath": "data/details/open__jarvis__openjarvis.json",
+  "readmeUrl": "https://github.com/google/ax#readme",
+  "detailPath": "data/details/google__ax.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "个人 AI，在个人设备上",
+    "summary": "ax：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +68,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "c161529b7a714ed0",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "fae4a1517609e930",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenJarvis：个人 AI，在个人设备上。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "OpenJarvis 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ax：尚未归入主要类别的实用项目。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "ax 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -102,7 +102,7 @@
       "通常依赖仓库提供的 README、代码、示例或安装命令。",
       "用户按文档把它接入目标环境。",
       "真实效果需要通过小任务试用来判断。",
-      "仓库信息显示它包含 150+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看作者原始描述和 README。",

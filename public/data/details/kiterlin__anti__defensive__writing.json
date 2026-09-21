@@ -1,67 +1,64 @@
 {
-  "rank": 1906,
-  "id": 1167865754,
-  "name": "CCTV-Smartphone-AI-Monitoring",
-  "fullName": "suzuran0y/CCTV-Smartphone-AI-Monitoring",
-  "owner": "suzuran0y",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/145470530?v=4",
-  "url": "https://github.com/suzuran0y/CCTV-Smartphone-AI-Monitoring",
+  "rank": 1032,
+  "id": 1277597194,
+  "name": "anti-defensive-writing",
+  "fullName": "Kiterlin/anti-defensive-writing",
+  "owner": "Kiterlin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/90394100?v=4",
+  "url": "https://github.com/Kiterlin/anti-defensive-writing",
   "homepage": "",
-  "description": "本地监控 + AI 视觉 — LAN-based smartphone-powered AI monitoring framework with structured event output for data acquisition and analysis.",
-  "summary": "CCTV-Smartphone-AI-Monitoring：本地监控 + AI 视觉 — LAN-based smartphone-powered AI monitoring framework with structured event output for data acquisition an。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Codex skill for removing defensive writing and strengthening prose.",
+  "summary": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/suzuran0y/CCTV-Smartphone-AI-Monitoring.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/Kiterlin/anti-defensive-writing.git",
+  "language": "PowerShell",
   "license": "MIT",
-  "stars": 812,
-  "forks": 61,
+  "stars": 589,
+  "forks": 20,
   "openIssues": 3,
-  "score": 85,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-19T19:35:37Z",
-  "updatedAt": "2026-09-16T14:03:49Z",
-  "createdAt": "2026-02-26T19:11:33Z",
-  "sourceTopics": [],
+  "score": 108.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-20T09:20:12Z",
+  "updatedAt": "2026-09-21T03:40:39Z",
+  "createdAt": "2026-06-23T03:07:25Z",
+  "sourceTopics": [
+    "codex-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-monitoring",
-    "computer-vision",
-    "device-repurposing",
-    "event-driven",
-    "image-recognition-tool",
-    "ip-camera",
-    "ml-ops",
-    "monitoring-system",
-    "multimodal",
-    "structured-output",
-    "video-streaming"
+    "academic-writing",
+    "agent-skill",
+    "codex",
+    "codex-skill",
+    "editing",
+    "writing"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/suzuran0y/CCTV-Smartphone-AI-Monitoring",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Kiterlin/anti-defensive-writing",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/suzuran0y/CCTV-Smartphone-AI-Monitoring#readme",
-  "detailPath": "data/details/suzuran0y__cctv__smartphone__ai__monitoring.json",
+  "readmeUrl": "https://github.com/Kiterlin/anti-defensive-writing#readme",
+  "detailPath": "data/details/kiterlin__anti__defensive__writing.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "本地监控 + AI 视觉 — LAN-based smartphone-powered AI monitoring framework with structured event output for data acquisition an",
+    "summary": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -80,14 +77,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "1e07b6c74fb6dfb5",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "76f023379017a8d7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "CCTV-Smartphone-AI-Monitoring：本地监控 + AI 视觉 — LAN-based smartphone-powered AI monitoring framework with structured event output for data acquisition an。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "CCTV-Smartphone-AI-Monitoring 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "anti-defensive-writing 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -104,7 +101,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

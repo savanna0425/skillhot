@@ -1,5 +1,5 @@
 {
-  "rank": 655,
+  "rank": 932,
   "id": 95203155,
   "name": "WePush",
   "fullName": "rememberber/WePush",
@@ -8,7 +8,7 @@
   "url": "https://github.com/rememberber/WePush",
   "homepage": "https://rememberber.github.io/WePush/",
   "description": "专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信",
-  "summary": "WePush：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "WePush：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -25,8 +25,8 @@
   "stars": 4683,
   "forks": 1018,
   "openIssues": 11,
-  "score": 118.1,
-  "activity": "本周活跃",
+  "score": 111.1,
+  "activity": "本月活跃",
   "pushedAt": "2026-09-13T03:25:11Z",
   "updatedAt": "2026-09-19T02:35:03Z",
   "createdAt": "2017-06-23T09:03:36Z",
@@ -48,7 +48,7 @@
     "weixin"
   ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
     "sourceHash": "381ba1cc3dbef010",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "WePush：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "WePush：专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "WePush 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -104,7 +104,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

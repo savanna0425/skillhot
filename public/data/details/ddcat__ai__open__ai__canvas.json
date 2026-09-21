@@ -1,14 +1,14 @@
 {
-  "rank": 1260,
-  "id": 1128612043,
-  "name": "skills",
-  "fullName": "getsentry/skills",
-  "owner": "getsentry",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1396951?v=4",
-  "url": "https://github.com/getsentry/skills",
-  "homepage": "",
-  "description": "Agent Skills used by the Sentry team for development.",
-  "summary": "skills：Sentry 团队用于开发所使用的能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1322,
+  "id": 1308460307,
+  "name": "open-ai-canvas",
+  "fullName": "ddcat-ai/open-ai-canvas",
+  "owner": "ddcat-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/307877059?v=4",
+  "url": "https://github.com/ddcat-ai/open-ai-canvas",
+  "homepage": "https://ddcat.pronhubcn.com/welcome",
+  "description": "【影策】面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。",
+  "summary": "open-ai-canvas：【影策】面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,39 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/getsentry/skills.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 999,
-  "forks": 52,
-  "openIssues": 29,
-  "score": 103.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-07T13:52:43Z",
-  "updatedAt": "2026-09-18T22:54:51Z",
-  "createdAt": "2026-01-05T22:41:55Z",
+  "installCommand": "git clone https://github.com/ddcat-ai/open-ai-canvas.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 963,
+  "forks": 303,
+  "openIssues": 23,
+  "score": 101.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-21T03:11:15Z",
+  "updatedAt": "2026-09-21T03:52:33Z",
+  "createdAt": "2026-07-22T06:22:34Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "tag-production"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/getsentry/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ddcat-ai/open-ai-canvas",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/getsentry/skills#readme",
-  "detailPath": "data/details/getsentry__skills.json",
+  "readmeUrl": "https://github.com/ddcat-ai/open-ai-canvas#readme",
+  "detailPath": "data/details/ddcat__ai__open__ai__canvas.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Sentry 团队用于开发所使用的能力",
+    "summary": "【影策】面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -67,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "586e91c1d14b3442",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "82ce94e6c2e6770d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：Sentry 团队用于开发所使用的能力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-ai-canvas：【影策】面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "open-ai-canvas 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -117,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

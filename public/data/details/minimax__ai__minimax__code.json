@@ -1,14 +1,14 @@
 {
-  "rank": 2328,
-  "id": 1339609108,
-  "name": "clear-business-writing-skills",
-  "fullName": "introvenk/clear-business-writing-skills",
-  "owner": "introvenk",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/47599874?v=4",
-  "url": "https://github.com/introvenk/clear-business-writing-skills",
-  "homepage": "",
-  "description": "Three Claude Code skills for engineering-management business writing, derived from Josh Bernoff's Writing Without Bullshit, built with TDD-for-docs discipline",
-  "summary": "clear-business-writing-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1178,
+  "id": 1256070689,
+  "name": "minimax-code",
+  "fullName": "MiniMax-AI/minimax-code",
+  "owner": "MiniMax-AI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/194880281?v=4",
+  "url": "https://github.com/MiniMax-AI/minimax-code",
+  "homepage": "https://agent.minimax.io/download",
+  "description": "An open-source coding agent for your terminal, powered by MiniMax.",
+  "summary": "minimax-code：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,48 +19,41 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/introvenk/clear-business-writing-skills.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/MiniMax-AI/minimax-code.git",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-20T11:43:46Z",
-  "updatedAt": "2026-09-02T08:53:06Z",
-  "createdAt": "2026-08-19T13:20:21Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "stars": 1571,
+  "forks": 177,
+  "openIssues": 106,
+  "score": 106.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-21T03:30:57Z",
+  "updatedAt": "2026-09-21T04:58:41Z",
+  "createdAt": "2026-06-01T12:39:40Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent-skills",
-    "business-writing",
-    "claude-code",
-    "claude-skills",
-    "documentation",
-    "engineering-management",
-    "technical-writing",
-    "writing"
+    "coding-agents",
+    "harness",
+    "minimax"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/introvenk/clear-business-writing-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MiniMax-AI/minimax-code",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/introvenk/clear-business-writing-skills#readme",
-  "detailPath": "data/details/introvenk__clear__business__writing__skills.json",
+  "readmeUrl": "https://github.com/MiniMax-AI/minimax-code#readme",
+  "detailPath": "data/details/minimax__ai__minimax__code.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "clear-business-writing-skills 聚焦软件开发、代码质量与工程交付。",
+    "summary": "minimax-code 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,14 +72,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "84e698a05975478c",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "22303eb74c27a4a7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "clear-business-writing-skills：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "clear-business-writing-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "minimax-code：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "minimax-code 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -103,7 +96,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

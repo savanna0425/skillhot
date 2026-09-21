@@ -1,14 +1,14 @@
 {
-  "rank": 1290,
-  "id": 888912326,
-  "name": "tensorlake",
-  "fullName": "tensorlakeai/tensorlake",
-  "owner": "tensorlakeai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/151702035?v=4",
-  "url": "https://github.com/tensorlakeai/tensorlake",
-  "homepage": "https://tensorlake.ai",
-  "description": "Tensorlake is a serverless runtime for sandboxes and deploying background agentic applications",
-  "summary": "tensorlake：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1124,
+  "id": 1339256252,
+  "name": "dsh-purge",
+  "fullName": "YuJunZhiXue/dsh-purge",
+  "owner": "YuJunZhiXue",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/188421097?v=4",
+  "url": "https://github.com/YuJunZhiXue/dsh-purge",
+  "homepage": "",
+  "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐",
+  "summary": "dsh-purge：DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,32 +19,26 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/tensorlakeai/tensorlake.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 999,
-  "forks": 143,
-  "openIssues": 63,
-  "score": 102.1,
+  "installCommand": "git clone https://github.com/YuJunZhiXue/dsh-purge.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1680,
+  "forks": 177,
+  "openIssues": 2,
+  "score": 107.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T18:04:16Z",
-  "updatedAt": "2026-09-19T11:17:58Z",
-  "createdAt": "2024-11-15T08:45:14Z",
+  "pushedAt": "2026-09-21T04:40:30Z",
+  "updatedAt": "2026-09-21T04:56:51Z",
+  "createdAt": "2026-08-19T07:41:12Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "ai-infra",
-    "ai-infrastructure",
-    "code-execution",
-    "code-interpreter",
-    "llm",
-    "rl",
-    "sandbox",
-    "sandboxes",
-    "tensorlake"
+    "dsh-plugin",
+    "dsh-plugins",
+    "harness-jailbreak",
+    "llm-jailbreak"
   ],
   "platforms": [
     "Agent Skills"
@@ -52,15 +46,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/tensorlakeai/tensorlake",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/YuJunZhiXue/dsh-purge",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/tensorlakeai/tensorlake#readme",
-  "detailPath": "data/details/tensorlakeai__tensorlake.json",
+  "readmeUrl": "https://github.com/YuJunZhiXue/dsh-purge#readme",
+  "detailPath": "data/details/yujunzhixue__dsh__purge.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "tensorlake：尚未归入主要类别的实用项目。",
+    "summary": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -76,17 +70,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "dc672c51f7b3c3b1",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "33b8ab59bbcd5db5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tensorlake：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "tensorlake 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dsh-purge：DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "dsh-purge 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -126,7 +120,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

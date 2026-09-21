@@ -1,5 +1,5 @@
 {
-  "rank": 687,
+  "rank": 686,
   "id": 674153903,
   "name": "ms-agent",
   "fullName": "modelscope/ms-agent",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install ms-agent\npip install 'ms-agent[research]'",
+  "installCommand": "npm install --global pnpm@10.17.1\ngit clone https://github.com/modelscope/ms-agent.git\ncd ms-agent",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4390,
+  "stars": 4393,
   "forks": 521,
-  "openIssues": 30,
+  "openIssues": 33,
   "score": 117.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-18T06:43:16Z",
-  "updatedAt": "2026-09-18T12:31:29Z",
+  "pushedAt": "2026-09-20T09:42:49Z",
+  "updatedAt": "2026-09-21T03:47:12Z",
   "createdAt": "2023-08-03T09:06:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -77,8 +77,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-20T05:00:46.787Z",
-    "sourceHash": "718e69521b93c3db",
+    "generatedAt": "2026-09-21T05:05:37.428Z",
+    "sourceHash": "16254186d6e0355f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
