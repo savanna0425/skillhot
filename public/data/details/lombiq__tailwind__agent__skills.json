@@ -1,14 +1,14 @@
 {
-  "rank": 1353,
-  "id": 960549454,
-  "name": "pdf-reader-mcp",
-  "fullName": "SylphxAI/pdf-reader-mcp",
-  "owner": "SylphxAI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/206448049?v=4",
-  "url": "https://github.com/SylphxAI/pdf-reader-mcp",
-  "homepage": "https://sylphxai.github.io/pdf-reader-mcp/",
-  "description": "Give your AI agent eyes for PDFs — structured text, tables, OCR, visual evidence, and page-level citations via MCP. Native Rust, local-first.",
-  "summary": "pdf-reader-mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2255,
+  "id": 1131069720,
+  "name": "Tailwind-Agent-Skills",
+  "fullName": "Lombiq/Tailwind-Agent-Skills",
+  "owner": "Lombiq",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8158177?v=4",
+  "url": "https://github.com/Lombiq/Tailwind-Agent-Skills",
+  "homepage": "",
+  "description": "Agent-optimized Tailwind CSS v4 documentation skill with local snapshots and indexing.",
+  "summary": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,41 +19,27 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/SylphxAI/pdf-reader-mcp.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 935,
-  "forks": 82,
-  "openIssues": 1,
-  "score": 101.4,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-20T20:48:29Z",
-  "updatedAt": "2026-09-20T20:48:30Z",
-  "createdAt": "2025-04-04T16:17:42Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/Lombiq/Tailwind-Agent-Skills.git",
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "stars": 71,
+  "forks": 10,
+  "openIssues": 0,
+  "score": 64.8,
+  "activity": "活跃",
+  "pushedAt": "2026-04-09T11:27:01Z",
+  "updatedAt": "2026-09-17T05:04:38Z",
+  "createdAt": "2026-01-09T12:32:36Z",
+  "sourceTopics": [
+    "ai-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-document-twin",
-    "ai-agent",
-    "ai-tools",
-    "citations",
-    "document-intelligence",
-    "document-processing",
-    "evidence-first",
-    "llm-tool",
-    "mcp",
-    "model-context-protocol",
-    "ocr",
-    "pdf",
-    "pdf-intelligence",
-    "pdf-reader",
-    "pdf-to-markdown",
-    "rag",
-    "rust",
-    "trust-report",
-    "visual-evidence"
+    "ai",
+    "ai-skills",
+    "tailwind"
   ],
   "platforms": [
     "Agent Skills"
@@ -61,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/SylphxAI/pdf-reader-mcp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Lombiq/Tailwind-Agent-Skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/SylphxAI/pdf-reader-mcp#readme",
-  "detailPath": "data/details/sylphxai__pdf__reader__mcp.json",
+  "readmeUrl": "https://github.com/Lombiq/Tailwind-Agent-Skills#readme",
+  "detailPath": "data/details/lombiq__tailwind__agent__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "pdf-reader-mcp：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -85,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 BSD-3-Clause，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "48d93cb19e7cf83b",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "18a266835887e63c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pdf-reader-mcp：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "pdf-reader-mcp 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Tailwind-Agent-Skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -135,7 +121,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 BSD-3-Clause，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

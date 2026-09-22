@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 846,
   "id": 593782352,
   "name": "physicsnemo",
   "fullName": "NVIDIA/physicsnemo",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/NVIDIA/physicsnemo.git",
+  "installCommand": "pip install \"nvidia-physicsnemo[cu13]\"",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3275,
+  "stars": 3278,
   "forks": 789,
-  "openIssues": 92,
+  "openIssues": 90,
   "score": 114.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T23:12:04Z",
-  "updatedAt": "2026-09-20T22:06:26Z",
+  "pushedAt": "2026-09-21T23:50:23Z",
+  "updatedAt": "2026-09-22T02:50:33Z",
   "createdAt": "2023-01-26T20:34:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,8 +75,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "640655f11f8c4ade",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "14937be7138dff49",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

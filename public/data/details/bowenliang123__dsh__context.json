@@ -1,14 +1,14 @@
 {
-  "rank": 1490,
-  "id": 1168055015,
-  "name": "altimate-code",
-  "fullName": "AltimateAI/altimate-code",
-  "owner": "AltimateAI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/94671887?v=4",
-  "url": "https://github.com/AltimateAI/altimate-code",
-  "homepage": "https://altimate.sh",
-  "description": "Open-source agentic data engineering harness for dbt, SQL, and cloud warehouses. 100+ tools, 10 warehouses, AI-powered.",
-  "summary": "altimate-code：SQL、数据处理、统计、可视化与商业分析。适合在 OpenCode 相关工作流里先做选型判断。",
+  "rank": 1225,
+  "id": 1333961389,
+  "name": "dsh-context",
+  "fullName": "bowenliang123/dsh-context",
+  "owner": "bowenliang123",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1935105?v=4",
+  "url": "https://github.com/bowenliang123/dsh-context",
+  "homepage": "https://www.npmjs.com/package/dsh-context",
+  "description": "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。",
+  "summary": "dsh-context：一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,56 +19,44 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AltimateAI/altimate-code.git",
+  "installCommand": "git clone https://github.com/bowenliang123/dsh-context.git",
   "language": "TypeScript",
-  "license": "MIT",
-  "stars": 813,
-  "forks": 134,
-  "openIssues": 288,
-  "score": 100,
+  "license": "Apache-2.0",
+  "stars": 1476,
+  "forks": 46,
+  "openIssues": 0,
+  "score": 106.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-21T04:27:57Z",
-  "updatedAt": "2026-09-19T13:44:09Z",
-  "createdAt": "2026-02-27T00:57:01Z",
+  "pushedAt": "2026-09-22T05:04:01Z",
+  "updatedAt": "2026-09-22T05:04:00Z",
+  "createdAt": "2026-08-14T08:23:28Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "agentic-data-engineering",
-    "ai",
-    "analytics-engineering",
-    "bigquery",
-    "cli",
-    "data-engineering",
-    "databricks",
-    "dbt",
-    "finops",
-    "harness-engineering",
-    "lineage",
-    "llm",
-    "opencode",
-    "postgresql",
-    "snowflake",
-    "sql",
-    "workflow-automation-ai"
+    "cordis-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "dsh-external",
+    "dsh-plugin",
+    "dsh-plugins"
   ],
   "platforms": [
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/AltimateAI/altimate-code",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bowenliang123/dsh-context",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/AltimateAI/altimate-code#readme",
-  "detailPath": "data/details/altimateai__altimate__code.json",
+  "readmeUrl": "https://github.com/bowenliang123/dsh-context#readme",
+  "detailPath": "data/details/bowenliang123__dsh__context.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "altimate-code：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -84,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "2eaeeb664864b6f5",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "016330631bc0a46a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "altimate-code：SQL、数据处理、统计、可视化与商业分析。适合在 OpenCode 相关工作流里先做选型判断。",
-    "whatItIs": "altimate-code 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dsh-context：一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器和侧边栏与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "dsh-context 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -111,7 +99,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -134,7 +122,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

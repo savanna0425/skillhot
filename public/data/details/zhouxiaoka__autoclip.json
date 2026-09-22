@@ -1,67 +1,69 @@
 {
-  "rank": 388,
-  "id": 920995232,
-  "name": "YuE",
-  "fullName": "multimodal-art-projection/YuE",
-  "owner": "multimodal-art-projection",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/136257670?v=4",
-  "url": "https://github.com/multimodal-art-projection/YuE",
-  "homepage": "https://map-yue2.github.io/",
-  "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-  "summary": "YuE：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 448,
+  "id": 1015815983,
+  "name": "autoclip",
+  "fullName": "zhouxiaoka/autoclip",
+  "owner": "zhouxiaoka",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/78066887?v=4",
+  "url": "https://github.com/zhouxiaoka/autoclip",
+  "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
+  "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+  "summary": "autoclip：: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/multimodal-art-projection/YuE.git\ncd YuE\npython3.12 -m venv .venv",
+  "installCommand": "git clone https://github.com/zhouxiaoka/autoclip.git\ncd autoclip",
   "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 9937,
-  "forks": 1113,
-  "openIssues": 33,
-  "score": 125.9,
+  "license": "MIT",
+  "stars": 8400,
+  "forks": 1581,
+  "openIssues": 24,
+  "score": 124.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-20T14:04:43Z",
-  "updatedAt": "2026-09-21T04:21:24Z",
-  "createdAt": "2025-01-23T06:21:58Z",
+  "pushedAt": "2026-09-22T04:58:13Z",
+  "updatedAt": "2026-09-22T05:00:51Z",
+  "createdAt": "2025-07-08T04:51:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "ai",
-    "audio-generation",
-    "deep-learning",
-    "foundation-models",
-    "gpt",
-    "huggingface",
-    "llama",
-    "llms",
-    "music-generation",
-    "style-transfers",
-    "voice-cloning"
+    "ai-agents",
+    "ai-tools",
+    "ai-video",
+    "ai-video-editor",
+    "auto",
+    "auto-highlight",
+    "highlight",
+    "llm",
+    "video",
+    "video-editing",
+    "video-processing",
+    "videos"
   ],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI"
   ],
-  "skillCount": 6,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/multimodal-art-projection/YuE",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhouxiaoka/autoclip",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/multimodal-art-projection/YuE#readme",
-  "detailPath": "data/details/multimodal__art__projection__yue.json",
+  "readmeUrl": "https://github.com/zhouxiaoka/autoclip#readme",
+  "detailPath": "data/details/zhouxiaoka__autoclip.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "YuE：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -77,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "a883665d55fc5ba1",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "13ec0e605d7e3054",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "YuE：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "YuE 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "autoclip：: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "autoclip 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -104,7 +106,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -114,7 +116,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "仓库信息显示它包含 6+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",
@@ -127,7 +129,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

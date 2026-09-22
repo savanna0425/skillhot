@@ -1,5 +1,5 @@
 {
-  "rank": 514,
+  "rank": 517,
   "id": 1126784379,
   "name": "webnovel-writer",
   "fullName": "lingfengQAQ/webnovel-writer",
@@ -9,32 +9,39 @@
   "homepage": "",
   "description": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。",
   "summary": "webnovel-writer：基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-  "category": "其他",
-  "categoryDescription": "尚未归入主要类别的实用项目",
+  "category": "内容创作",
+  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
-  "categoryReason": "元数据没有足够的用途信号",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
-    "能力探索",
-    "流程扩展",
-    "开源工具试用"
+    "内容生产",
+    "视觉创作",
+    "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "python -m pip install -r requirements.txt\npython -m pip install -r webnovel-writer/scripts/requirements.txt",
   "language": "Python",
   "license": "GPL-3.0",
-  "stars": 7158,
-  "forks": 1200,
-  "openIssues": 40,
+  "stars": 7166,
+  "forks": 1201,
+  "openIssues": 39,
   "score": 122.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-21T04:51:18Z",
-  "updatedAt": "2026-09-21T04:51:52Z",
+  "pushedAt": "2026-09-22T04:12:54Z",
+  "updatedAt": "2026-09-22T01:59:24Z",
   "createdAt": "2026-01-02T15:15:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai-writing",
+    "chinese-novel",
+    "deepseek-harness",
+    "dsh-plugin",
+    "webnovel",
+    "writing-assistant"
+  ],
   "platforms": [
     "Claude",
     "Codex",
@@ -53,16 +60,16 @@
   "projectInsight": {
     "summary": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作",
     "useCases": [
-      "能力探索",
-      "流程扩展",
-      "开源工具试用"
+      "内容生产",
+      "视觉创作",
+      "多媒体工作流"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要尚未归入主要类别的实用项目能力的用户",
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -70,51 +77,51 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "d46b63dc507e4ac4",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "e06290ad6486d81d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
     "plainIntro": "webnovel-writer：基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "webnovel-writer 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "whatItIs": "webnovel-writer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
-      "用户需要先快速判断它和自己的任务有没有关系。",
-      "没有统一分类时，仍需要一个可读的选型入口。",
-      "如果你的任务和「能力探索」有关，它能帮你先建立一个可试用的入口。"
+      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
+      "同一套内容风格难以稳定复用。",
+      "创作任务需要把素材、脚本、生成和发布流程串起来。",
+      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "整理仓库公开信息，帮助你理解它可能服务的任务。",
-      "把平台、用法、限制和下一步试用方式摆在同一页。",
-      "帮助你决定是否继续打开 README。",
+      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
+      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
+      "帮助你先判断它是否适合当前内容生产任务。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "愿意探索垂直开源项目的人。",
-      "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
-      "想发现非典型但可能有用工具的人。",
+      "内容创作者、运营、设计师和需要频繁产出素材的人。",
+      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
+      "想把固定内容流程模板化的小团队。",
       "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要成熟商业产品和完整售后的人。",
-      "不愿阅读 README 或自己验证项目质量的人。"
+      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
+      "只想要一键生成所有内容且不参与编辑的人。"
     ],
     "howItWorks": [
-      "通常依赖仓库提供的 README、代码、示例或安装命令。",
-      "用户按文档把它接入目标环境。",
-      "真实效果需要通过小任务试用来判断。",
+      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
+      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
+      "最终发布前仍需要人工审稿、校对和版权检查。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看作者原始描述和 README。",
-      "确认许可证、最近更新和安装方式。",
-      "用低风险样例任务测试，再决定是否收藏或深入使用。"
+      "先看 README 里的输入格式和示例输出。",
+      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
+      "确认可编辑性和导出格式后再纳入正式流程。"
     ],
     "expectedOutcome": [
-      "更快判断项目是否值得继续看。",
-      "减少在 GitHub 上反复跳转的成本。",
-      "为后续选型留下一个清晰起点。"
+      "从选题到初稿的速度更快。",
+      "内容风格更容易保持一致。",
+      "重复性创作流程可以被复用。"
     ],
     "caveats": [
       "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",

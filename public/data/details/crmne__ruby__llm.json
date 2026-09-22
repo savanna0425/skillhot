@@ -1,5 +1,5 @@
 {
-  "rank": 687,
+  "rank": 684,
   "id": 924568745,
   "name": "ruby_llm",
   "fullName": "crmne/ruby_llm",
@@ -11,7 +11,7 @@
   "summary": "ruby_llm：图片、视频、演示、写作、音频与社交内容生产。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -22,39 +22,39 @@
   "installCommand": "npx skills add \"$(bundle show ruby_llm)\" --skill rubyllm",
   "language": "Ruby",
   "license": "MIT",
-  "stars": 4393,
+  "stars": 4396,
   "forks": 504,
   "openIssues": 9,
-  "score": 117.4,
+  "score": 117.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-20T14:15:48Z",
-  "updatedAt": "2026-09-21T03:22:23Z",
+  "pushedAt": "2026-09-21T16:51:57Z",
+  "updatedAt": "2026-09-21T19:20:12Z",
   "createdAt": "2025-01-30T08:58:19Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-framework",
+    "agentic-ai",
     "agents",
     "ai",
+    "ai-agents",
     "ai-framework",
     "anthropic",
     "embeddings",
     "gemini",
-    "image-generation",
+    "generative-ai",
+    "large-language-models",
     "llm",
     "multimodal",
-    "ocr",
     "ollama",
     "openai",
     "rag",
     "rails",
-    "reranking",
     "ruby",
     "structured-output",
-    "text-to-speech",
-    "tool-calling",
-    "video-generation"
+    "tool-calling"
   ],
   "platforms": [
     "Gemini CLI"
@@ -89,8 +89,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "9949dbadbd9df464",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "15df85b9de7d1107",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

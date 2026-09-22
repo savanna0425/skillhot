@@ -1,14 +1,14 @@
 {
-  "rank": 1689,
-  "id": 1222998674,
-  "name": "agent-to-merchant-payments",
-  "fullName": "Snaplii-Inc/agent-to-merchant-payments",
-  "owner": "Snaplii-Inc",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/279859560?v=4",
-  "url": "https://github.com/Snaplii-Inc/agent-to-merchant-payments",
-  "homepage": "https://www.snaplii.com/",
-  "description": "Payments are broken for AI agents. Snaplii unlocks real-world commerce with a safe, tokenized payment layer — giving AI agents access to merchant-native payment credits across 500+ brands — while saving users up to 10% per transaction on top of existing deals and promotions.",
-  "summary": "agent-to-merchant-payments：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 884,
+  "id": 1051229663,
+  "name": "deepwiki-rs",
+  "fullName": "sopaco/deepwiki-rs",
+  "owner": "sopaco",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/15891288?v=4",
+  "url": "https://github.com/sopaco/deepwiki-rs",
+  "homepage": "https://deepwiki.netlify.app/",
+  "description": "Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.",
+  "summary": "deepwiki-rs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,44 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Snaplii-Inc/agent-to-merchant-payments.git",
-  "language": "Python",
-  "license": "",
-  "stars": 813,
-  "forks": 94,
-  "openIssues": 0,
-  "score": 93,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-02T22:50:41Z",
-  "updatedAt": "2026-09-02T22:34:49Z",
-  "createdAt": "2026-04-27T23:12:18Z",
+  "installCommand": "git clone https://github.com/sopaco/deepwiki-rs.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 3074,
+  "forks": 298,
+  "openIssues": 2,
+  "score": 113.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-14T12:25:42Z",
+  "updatedAt": "2026-09-22T02:44:06Z",
+  "createdAt": "2025-09-05T16:38:32Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "deepseek",
+    "deepwiki",
+    "dsh-plugin",
+    "grok",
+    "okf-format",
+    "openwiki"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Snaplii-Inc/agent-to-merchant-payments",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sopaco/deepwiki-rs",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Snaplii-Inc/agent-to-merchant-payments#readme",
-  "detailPath": "data/details/snaplii__inc__agent__to__merchant__payments.json",
+  "readmeUrl": "https://github.com/sopaco/deepwiki-rs#readme",
+  "detailPath": "data/details/sopaco__deepwiki__rs.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-to-merchant-payments：尚未归入主要类别的实用项目。",
+    "summary": "deepwiki-rs：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-21T05:05:37.428Z",
-    "sourceHash": "0b1979a3a982761a",
+    "generatedAt": "2026-09-22T05:07:00.767Z",
+    "sourceHash": "9a87d74eecae5ea2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-to-merchant-payments：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agent-to-merchant-payments 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "deepwiki-rs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "deepwiki-rs 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +122,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
