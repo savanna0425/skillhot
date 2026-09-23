@@ -1,51 +1,52 @@
 {
-  "rank": 1900,
-  "id": 1057381764,
-  "name": "blades",
-  "fullName": "go-kratos/blades",
-  "owner": "go-kratos",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/62791634?v=4",
-  "url": "https://github.com/go-kratos/blades",
-  "homepage": "https://go-kratos.dev/blades/",
-  "description": "Blades is a Go-based multimodal AI Agent framework.",
-  "summary": "blades：是一款基于 Go 的多模态 AI 框架。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1697,
+  "id": 1184366339,
+  "name": "welink",
+  "fullName": "runzhliu/welink",
+  "owner": "runzhliu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/20874664?v=4",
+  "url": "https://github.com/runzhliu/welink",
+  "homepage": "https://welink.click",
+  "description": "🔍微信聊天数据分析的本地化AI-agent(Docker/Windows/MacOS) · AI分身 / 大模型分析 / 好友排行 / 词云 / 情感趋势 / 群聊画像",
+  "summary": "welink：微信聊天数据分析的本地化AI-agent(Docker/Windows/MacOS) · AI分身 / 大模型分析 / 好友排行 / 词云 / 情感趋势 / 群聊画像。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/go-kratos/blades.git",
-  "language": "Go",
-  "license": "MIT",
-  "stars": 815,
-  "forks": 103,
-  "openIssues": 30,
-  "score": 85,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-14T07:16:38Z",
-  "updatedAt": "2026-09-17T12:59:45Z",
-  "createdAt": "2025-09-15T16:43:22Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/runzhliu/welink.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 278,
+  "forks": 57,
+  "openIssues": 11,
+  "score": 93,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-21T09:16:18Z",
+  "updatedAt": "2026-09-22T17:38:27Z",
+  "createdAt": "2026-03-17T14:16:24Z",
+  "sourceTopics": [
+    "skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "agent-framework",
-    "agent-kit",
-    "agent-sdk",
-    "agent-workflow",
-    "ai",
-    "golang",
+    "chat-analysis",
+    "chat-history",
+    "chat-mcp",
     "llm",
-    "multi-agent",
-    "studio",
-    "workflow"
+    "macos",
+    "mcp-server",
+    "skill",
+    "skills",
+    "wechat",
+    "weixin"
   ],
   "platforms": [
     "Agent Skills"
@@ -53,15 +54,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/go-kratos/blades",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/runzhliu/welink",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/go-kratos/blades#readme",
-  "detailPath": "data/details/go__kratos__blades.json",
+  "readmeUrl": "https://github.com/runzhliu/welink#readme",
+  "detailPath": "data/details/runzhliu__welink.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Blades 是一款基于 Go 的多模态 AI 框架",
+    "summary": "微信聊天数据分析的本地化AI-agent(Docker/Windows/MacOS) · AI分身 / 大模型分析 / 好友排行 / 词云 / 情感趋势 / 群聊画像",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -77,17 +78,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "c88b9b13ebacaf0d",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "28128896e5e9e8c2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "blades：是一款基于 Go 的多模态 AI 框架。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "blades 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "welink：微信聊天数据分析的本地化AI-agent(Docker/Windows/MacOS) · AI分身 / 大模型分析 / 好友排行 / 词云 / 情感趋势 / 群聊画像。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "welink 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -127,7 +128,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

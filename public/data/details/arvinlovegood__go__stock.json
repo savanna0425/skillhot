@@ -1,5 +1,5 @@
 {
-  "rank": 500,
+  "rank": 503,
   "id": 904534974,
   "name": "go-stock",
   "fullName": "ArvinLovegood/go-stock",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ArvinLovegood/go-stock",
   "homepage": "https://go-stock.sparkmemory.top",
   "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
-  "summary": "go-stock：AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， O。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "go-stock：AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， O。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/ArvinLovegood/go-stock.git",
   "language": "Go",
   "license": "GPL-3.0",
-  "stars": 7575,
-  "forks": 1323,
+  "stars": 7581,
+  "forks": 1328,
   "openIssues": 22,
   "score": 123.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-20T14:05:05Z",
-  "updatedAt": "2026-09-21T20:32:33Z",
+  "pushedAt": "2026-09-23T04:46:17Z",
+  "updatedAt": "2026-09-23T04:46:21Z",
   "createdAt": "2024-12-17T04:46:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,7 +48,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -81,13 +80,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "208eaaaf7212b9cc",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "ca18da72f4c8b446",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "go-stock：AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， O。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "go-stock：AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， O。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "go-stock 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -105,7 +104,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

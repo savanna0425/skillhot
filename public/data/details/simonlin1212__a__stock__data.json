@@ -1,5 +1,5 @@
 {
-  "rank": 326,
+  "rank": 324,
   "id": 1235056479,
   "name": "a-stock-data",
   "fullName": "simonlin1212/a-stock-data",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/166034225?v=4",
   "url": "https://github.com/simonlin1212/a-stock-data",
   "homepage": "",
-  "description": "A股全栈数据工具包：行情K线·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·指数日历·期货大宗·事件驱动·可转债 | 15层·85端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, reports, signals, fund flow, news, financials, filings, limit-up, ETF options, sentiment, macro/rates, index, futures/commodities, events, convertibles | 15 layers·85 endpoints·34 sources·no key except iwencai",
-  "summary": "a-stock-data：A股全栈数据工具包：行情K线·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·指数日历·期货大宗·事件驱动·可转债 | 15层·85端点·34数据源·除iwencai外免Key | A-share data for。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
+  "summary": "a-stock-data：A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share d。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/simonlin1212/a-stock-data.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 10024,
-  "forks": 1826,
+  "stars": 10170,
+  "forks": 1853,
   "openIssues": 0,
-  "score": 130,
+  "score": 130.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-20T00:36:31Z",
-  "updatedAt": "2026-09-22T04:05:39Z",
+  "pushedAt": "2026-09-22T16:11:05Z",
+  "updatedAt": "2026-09-23T04:47:05Z",
   "createdAt": "2026-05-11T01:08:15Z",
   "sourceTopics": [
     "ai-skill"
@@ -69,7 +69,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "A股全栈数据工具包：行情K线·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·指数日历·期货大宗·事件驱动·可转债 | 15层·85端点·34数据源·除iwencai外免Key | A-share data for ",
+    "summary": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share d",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -88,13 +88,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "c139d21163f79723",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "25d457a51720e0aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "a-stock-data：A股全栈数据工具包：行情K线·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·指数日历·期货大宗·事件驱动·可转债 | 15层·85端点·34数据源·除iwencai外免Key | A-share data for。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "a-stock-data：A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share d。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "a-stock-data 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",

@@ -1,45 +1,52 @@
 {
-  "rank": 315,
-  "id": 419662458,
-  "name": "mlops-zoomcamp",
-  "fullName": "DataTalksClub/mlops-zoomcamp",
-  "owner": "DataTalksClub",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/72699292?v=4",
-  "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
-  "homepage": "https://courses.datatalks.club/register/mlops-zoomcamp/",
-  "description": "Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort",
-  "summary": "mlops-zoomcamp：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1378,
+  "id": 560859378,
+  "name": "diffusion-literature-for-robotics",
+  "fullName": "mbreuss/diffusion-literature-for-robotics",
+  "owner": "mbreuss",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/33622678?v=4",
+  "url": "https://github.com/mbreuss/diffusion-literature-for-robotics",
+  "homepage": "",
+  "description": "Summary of key papers and blogs about diffusion models to learn about the topic. Detailed list of all published diffusion robotics papers.",
+  "summary": "diffusion-literature-for-robotics：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
-  "categoryReason": "notebooklm|deep research|fact.?check|knowledge discove",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DataTalksClub/mlops-zoomcamp.git",
-  "language": "Jupyter Notebook",
-  "license": "",
-  "stars": 15317,
-  "forks": 3051,
-  "openIssues": 3,
-  "score": 130.5,
+  "installCommand": "git clone https://github.com/mbreuss/diffusion-literature-for-robotics.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 920,
+  "forks": 45,
+  "openIssues": 0,
+  "score": 101.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-15T08:16:14Z",
-  "updatedAt": "2026-09-22T04:44:15Z",
-  "createdAt": "2021-10-21T09:35:28Z",
+  "pushedAt": "2026-09-22T08:44:04Z",
+  "updatedAt": "2026-09-22T08:44:10Z",
+  "createdAt": "2022-11-02T12:34:06Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "machine-learning",
-    "mlops",
-    "model-deployment",
-    "model-monitoring",
-    "workflow-orchestration"
+    "diffusion-models",
+    "grasping",
+    "grasping-robot",
+    "imitation-learning",
+    "literature",
+    "motion-planning",
+    "offline-rl",
+    "reinforcement-learning",
+    "robotics",
+    "score-based-generative-modeling",
+    "summary",
+    "video-diffusion-model"
   ],
   "platforms": [
     "Agent Skills"
@@ -47,15 +54,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/DataTalksClub/mlops-zoomcamp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mbreuss/diffusion-literature-for-robotics",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/DataTalksClub/mlops-zoomcamp#readme",
-  "detailPath": "data/details/datatalksclub__mlops__zoomcamp.json",
+  "readmeUrl": "https://github.com/mbreuss/diffusion-literature-for-robotics#readme",
+  "detailPath": "data/details/mbreuss__diffusion__literature__for__robotics.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "mlops-zoomcamp 支持资料研究、知识检索或学习任务。",
+    "summary": "diffusion-literature-for-robotics 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -71,17 +78,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "4a8796ee1b41cc2d",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "1f22600424d04c85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mlops-zoomcamp：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "mlops-zoomcamp 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "diffusion-literature-for-robotics：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "diffusion-literature-for-robotics 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -121,7 +128,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

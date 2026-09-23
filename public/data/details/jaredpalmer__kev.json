@@ -1,14 +1,14 @@
 {
-  "rank": 884,
-  "id": 1051229663,
-  "name": "deepwiki-rs",
-  "fullName": "sopaco/deepwiki-rs",
-  "owner": "sopaco",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/15891288?v=4",
-  "url": "https://github.com/sopaco/deepwiki-rs",
-  "homepage": "https://deepwiki.netlify.app/",
-  "description": "Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.",
-  "summary": "deepwiki-rs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 671,
+  "id": 1375069862,
+  "name": "kev",
+  "fullName": "jaredpalmer/kev",
+  "owner": "jaredpalmer",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/4060187?v=4",
+  "url": "https://github.com/jaredpalmer/kev",
+  "homepage": "",
+  "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+  "summary": "kev：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,28 +19,25 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/sopaco/deepwiki-rs.git",
-  "language": "Rust",
-  "license": "MIT",
-  "stars": 3074,
-  "forks": 298,
-  "openIssues": 2,
-  "score": 113.7,
+  "installCommand": "git clone https://github.com/jaredpalmer/kev.git && cd kev\nuv sync --extra serve\nuv run --extra serve python -m kev.serve --run jaredpalmer/kev-4b --port 8009",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 4619,
+  "forks": 251,
+  "openIssues": 16,
+  "score": 118,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-14T12:25:42Z",
-  "updatedAt": "2026-09-22T02:44:06Z",
-  "createdAt": "2025-09-05T16:38:32Z",
+  "pushedAt": "2026-09-23T04:21:19Z",
+  "updatedAt": "2026-09-23T04:51:07Z",
+  "createdAt": "2026-09-17T20:49:39Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "deepseek",
-    "deepwiki",
-    "dsh-plugin",
-    "grok",
-    "okf-format",
-    "openwiki"
+    "decision-model",
+    "jev",
+    "qwen3"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +45,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/sopaco/deepwiki-rs",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jaredpalmer/kev",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/sopaco/deepwiki-rs#readme",
-  "detailPath": "data/details/sopaco__deepwiki__rs.json",
+  "readmeUrl": "https://github.com/jaredpalmer/kev#readme",
+  "detailPath": "data/details/jaredpalmer__kev.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "deepwiki-rs：尚未归入主要类别的实用项目。",
+    "summary": "kev：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,17 +69,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "9a87d74eecae5ea2",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "28d6525714025579",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deepwiki-rs：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "deepwiki-rs 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "kev：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "kev 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -122,7 +119,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

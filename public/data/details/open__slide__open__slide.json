@@ -1,17 +1,17 @@
 {
-  "rank": 314,
-  "id": 1128267392,
-  "name": "huobao-drama",
-  "fullName": "chatfire-AI/huobao-drama",
-  "owner": "chatfire-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/248649058?v=4",
-  "url": "https://github.com/chatfire-AI/huobao-drama",
-  "homepage": "",
-  "description": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\"",
-  "summary": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 497,
+  "id": 1221509404,
+  "name": "open-slide",
+  "fullName": "open-slide/open-slide",
+  "owner": "open-slide",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/285937463?v=4",
+  "url": "https://github.com/open-slide/open-slide",
+  "homepage": "https://open-slide.dev",
+  "description": "A slide framework built for agents.",
+  "summary": "open-slide：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,37 +19,43 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chatfire-AI/huobao-drama.git\ncd huobao-drama\ncd backend && npm install",
-  "language": "Vue",
-  "license": "NOASSERTION",
-  "stars": 15418,
-  "forks": 2859,
-  "openIssues": 17,
-  "score": 130.5,
+  "installCommand": "npx @open-slide/cli init my-slide",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 7640,
+  "forks": 549,
+  "openIssues": 111,
+  "score": 123.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-19T18:37:09Z",
-  "updatedAt": "2026-09-22T03:37:59Z",
-  "createdAt": "2026-01-05T11:38:30Z",
+  "pushedAt": "2026-09-22T17:30:10Z",
+  "updatedAt": "2026-09-23T03:09:23Z",
+  "createdAt": "2026-04-26T10:04:20Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "react",
+    "slides"
+  ],
   "platforms": [
-    "Gemini CLI"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chatfire-AI/huobao-drama",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/open-slide/open-slide",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chatfire-AI/huobao-drama#readme",
-  "detailPath": "data/details/chatfire__ai__huobao__drama.json",
+  "readmeUrl": "https://github.com/open-slide/open-slide#readme",
+  "detailPath": "data/details/open__slide__open__slide.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video",
+    "summary": "open-slide：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -65,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-22T05:07:00.767Z",
-    "sourceHash": "05f4d7b7f7e3e5ef",
+    "generatedAt": "2026-09-23T04:52:32.843Z",
+    "sourceHash": "08ee5309484990be",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "huobao-drama：火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》 Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video。适合在 Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "huobao-drama 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-slide：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "open-slide 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -92,7 +98,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -115,7 +121,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
