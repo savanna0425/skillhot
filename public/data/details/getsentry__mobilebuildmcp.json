@@ -1,14 +1,14 @@
 {
-  "rank": 849,
+  "rank": 570,
   "id": 945551361,
-  "name": "XcodeBuildMCP",
-  "fullName": "getsentry/XcodeBuildMCP",
+  "name": "MobileBuildMCP",
+  "fullName": "getsentry/MobileBuildMCP",
   "owner": "getsentry",
   "avatarUrl": "https://avatars.githubusercontent.com/u/1396951?v=4",
-  "url": "https://github.com/getsentry/XcodeBuildMCP",
+  "url": "https://github.com/getsentry/MobileBuildMCP",
   "homepage": "",
   "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
-  "summary": "XcodeBuildMCP：一个支持在 iOS 和 macOS 项目中使用 Agent 的工具，以及提供 MCP 服务器的 CLI。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "MobileBuildMCP：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/getsentry/XcodeBuildMCP.git",
+  "installCommand": "brew tap getsentry/xcodebuildmcp\nbrew install mobilebuildmcp",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 6413,
-  "forks": 320,
+  "stars": 6416,
+  "forks": 321,
   "openIssues": 23,
-  "score": 114.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-11T03:39:14Z",
-  "updatedAt": "2026-09-23T01:37:42Z",
+  "score": 121.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-23T20:18:03Z",
+  "updatedAt": "2026-09-23T20:15:26Z",
   "createdAt": "2025-03-09T17:31:18Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,20 +44,22 @@
     "xcodebuild"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/getsentry/XcodeBuildMCP",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/getsentry/MobileBuildMCP",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/getsentry/XcodeBuildMCP#readme",
-  "detailPath": "data/details/getsentry__xcodebuildmcp.json",
+  "readmeUrl": "https://github.com/getsentry/MobileBuildMCP#readme",
+  "detailPath": "data/details/getsentry__mobilebuildmcp.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "一个支持在 iOS 和 macOS 项目中使用 Agent 的工具，以及提供 MCP 服务器的 CLI",
+    "summary": "MobileBuildMCP 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,14 +78,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "4097d6cf8039a7c9",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "62b657e5440eb9ee",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "XcodeBuildMCP：一个支持在 iOS 和 macOS 项目中使用 Agent 的工具，以及提供 MCP 服务器的 CLI。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "XcodeBuildMCP 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "MobileBuildMCP：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "MobileBuildMCP 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -100,7 +102,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

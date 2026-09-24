@@ -1,5 +1,5 @@
 {
-  "rank": 421,
+  "rank": 428,
   "id": 77290612,
   "name": "Scanners-Box",
   "fullName": "We5ter/Scanners-Box",
@@ -8,7 +8,7 @@
   "url": "https://github.com/We5ter/Scanners-Box",
   "homepage": "https://we5ter.github.io/ai-tools/",
   "description": "The Ultimate Open-Source Security Arsenal for Hackers, Enterprises, and AI Agents——面向极客、企业与 AI 智能体的全域开源网络安全工具矩阵",
-  "summary": "Scanners-Box：The Ultimate Open-Source Security Arsenal for Hackers, Enterprises, and AI Agents——面向极客、企业与 AI 智能体的全域开源网络安全工具矩阵。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "Scanners-Box：The Ultimate Open-Source Security Arsenal for Hackers, Enterprises, and AI Agents——面向极客、企业与 AI 智能体的全域开源网络安全工具矩阵。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "待复核",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/We5ter/Scanners-Box.git",
   "language": "",
-  "license": "",
-  "stars": 9056,
+  "license": "NOASSERTION",
+  "stars": 9060,
   "forks": 2420,
   "openIssues": 0,
   "score": 125,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-22T13:50:16Z",
-  "updatedAt": "2026-09-22T23:50:05Z",
+  "pushedAt": "2026-09-23T13:53:23Z",
+  "updatedAt": "2026-09-24T04:07:26Z",
   "createdAt": "2016-12-24T16:07:50Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,10 @@
     "wifi-hacking"
   ],
   "platforms": [
-    "Codex"
+    "Claude",
+    "Codex",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -87,16 +90,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "47be781d8081f742",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "1e81ec6b38801366",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Scanners-Box：The Ultimate Open-Source Security Arsenal for Hackers, Enterprises, and AI Agents——面向极客、企业与 AI 智能体的全域开源网络安全工具矩阵。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "Scanners-Box：The Ultimate Open-Source Security Arsenal for Hackers, Enterprises, and AI Agents——面向极客、企业与 AI 智能体的全域开源网络安全工具矩阵。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "Scanners-Box 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
@@ -114,7 +117,7 @@
       "开发者、安全研究员和需要做风险自查的团队。",
       "想把安全检查嵌入 Agent 或开发流程的人。",
       "需要快速筛查配置、依赖或代码风险的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "未经授权的攻击、绕过或滥用场景。",
@@ -137,7 +140,7 @@
       "团队可以复用固定审计流程。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

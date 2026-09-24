@@ -1,5 +1,5 @@
 {
-  "rank": 900,
+  "rank": 611,
   "id": 1143237475,
   "name": "claude-scholar",
   "fullName": "Galaxy-Dawn/claude-scholar",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Galaxy-Dawn/claude-scholar.git",
+  "installCommand": "git clone https://github.com/Galaxy-Dawn/claude-scholar.git /tmp/claude-scholar\nbash /tmp/claude-scholar/scripts/setup.sh",
   "language": "Python",
   "license": "MIT",
-  "stars": 5609,
-  "forks": 442,
-  "openIssues": 5,
-  "score": 113,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-27T10:20:31Z",
-  "updatedAt": "2026-09-23T01:43:56Z",
+  "stars": 5616,
+  "forks": 443,
+  "openIssues": 3,
+  "score": 120,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-23T07:23:56Z",
+  "updatedAt": "2026-09-24T04:58:26Z",
   "createdAt": "2026-01-27T10:32:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,7 +53,7 @@
     "Codex",
     "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 40,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Galaxy-Dawn/claude-scholar",
@@ -83,8 +83,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "1cc7157364885dc8",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "70544f130f25bd1c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -117,7 +117,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 40+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

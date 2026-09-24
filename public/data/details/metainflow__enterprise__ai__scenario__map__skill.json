@@ -1,14 +1,14 @@
 {
-  "rank": 1290,
-  "id": 1207055628,
-  "name": "easy-agent",
-  "fullName": "ConardLi/easy-agent",
-  "owner": "ConardLi",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/30708545?v=4",
-  "url": "https://github.com/ConardLi/easy-agent",
+  "rank": 1851,
+  "id": 1198377948,
+  "name": "Enterprise-ai-scenario-map-skill",
+  "fullName": "MetaInFLow/Enterprise-ai-scenario-map-skill",
+  "owner": "MetaInFLow",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/225823178?v=4",
+  "url": "https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill",
   "homepage": "",
-  "description": "Fully recreating Claude Code from scratch, so anyone can learn how it works.",
-  "summary": "easy-agent：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "咨询AI Agent Skill - 为任何企业自动生成 AI 应用场景地图报告 | Auto-generate AI scenario map reports for any enterprise",
+  "summary": "Enterprise-ai-scenario-map-skill：咨询AI Agent Skill - 为任何企业自动生成 AI 应用场景地图报告 | Auto-generate AI scenario map reports for any enterprise。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,43 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ConardLi/easy-agent.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 998,
-  "forks": 136,
-  "openIssues": 13,
-  "score": 102.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-18T23:27:53Z",
-  "updatedAt": "2026-09-18T22:58:45Z",
-  "createdAt": "2026-04-10T14:25:59Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "stars": 632,
+  "forks": 25,
+  "openIssues": 0,
+  "score": 86.4,
+  "activity": "活跃",
+  "pushedAt": "2026-04-01T12:01:32Z",
+  "updatedAt": "2026-09-24T02:53:50Z",
+  "createdAt": "2026-04-01T11:18:36Z",
+  "sourceTopics": [
+    "skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "enterprise-ai",
+    "open-source",
+    "skill"
+  ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ConardLi/easy-agent",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MetaInFLow/Enterprise-ai-scenario-map-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ConardLi/easy-agent#readme",
-  "detailPath": "data/details/conardli__easy__agent.json",
+  "readmeUrl": "https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill#readme",
+  "detailPath": "data/details/metainflow__enterprise__ai__scenario__map__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "easy-agent：尚未归入主要类别的实用项目。",
+    "summary": "咨询AI Agent Skill - 为任何企业自动生成 AI 应用场景地图报告 | Auto-generate AI scenario map reports for any enterprise",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +74,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "021432f17571679b",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "4b7c09a23552315d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "easy-agent：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "easy-agent 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Enterprise-ai-scenario-map-skill：咨询AI Agent Skill - 为任何企业自动生成 AI 应用场景地图报告 | Auto-generate AI scenario map reports for any enterprise。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Enterprise-ai-scenario-map-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +98,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

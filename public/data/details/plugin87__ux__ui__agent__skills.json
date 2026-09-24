@@ -1,5 +1,5 @@
 {
-  "rank": 676,
+  "rank": 940,
   "id": 1183286798,
   "name": "ux-ui-agent-skills",
   "fullName": "plugin87/ux-ui-agent-skills",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "**31 of them open a real browser, so they need one installed.** Playwright is not\npulled in by `/plugin install` or `npx ux-ui-agent-skills init`, so run this once\nin the kit directory before expecting a full score:",
+  "installCommand": "git clone https://github.com/plugin87/ux-ui-agent-skills.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 1448,
-  "forks": 149,
+  "stars": 1453,
+  "forks": 151,
   "openIssues": 6,
-  "score": 117.9,
-  "activity": "本周活跃",
+  "score": 111,
+  "activity": "本月活跃",
   "pushedAt": "2026-09-16T02:33:41Z",
-  "updatedAt": "2026-09-23T04:45:59Z",
+  "updatedAt": "2026-09-24T03:20:24Z",
   "createdAt": "2026-03-16T13:08:49Z",
   "sourceTopics": [
     "claude-skills"
@@ -57,7 +57,7 @@
   "platforms": [
     "Claude"
   ],
-  "skillCount": 19,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/plugin87/ux-ui-agent-skills",
@@ -87,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "eebb734eb84b1a6f",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "6ad378456e9780e3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -121,7 +121,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "仓库信息显示它包含 19+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",

@@ -1,14 +1,14 @@
 {
-  "rank": 951,
-  "id": 1278536566,
-  "name": "evals-skills",
-  "fullName": "ai-evals-course/evals-skills",
-  "owner": "ai-evals-course",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/212179421?v=4",
-  "url": "https://github.com/ai-evals-course/evals-skills",
-  "homepage": "",
-  "description": "Skills that guide AI coding agents to help you build product-specific AI evals.",
-  "summary": "evals-skills：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 217,
+  "id": 656227652,
+  "name": "Chat2DB",
+  "fullName": "OtterMind/Chat2DB",
+  "owner": "OtterMind",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131834193?v=4",
+  "url": "https://github.com/OtterMind/Chat2DB",
+  "homepage": "https://chat2db.ai",
+  "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
+  "summary": "Chat2DB：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,37 +19,58 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ai-evals-course/evals-skills.git",
-  "language": "",
-  "license": "",
-  "stars": 996,
-  "forks": 72,
-  "openIssues": 1,
-  "score": 110.1,
+  "installCommand": "git clone https://github.com/OtterMind/Chat2DB.git && cd Chat2DB\n./script/security/init-community-encryption-key.sh\ndocker run --detach \\",
+  "language": "Java",
+  "license": "NOASSERTION",
+  "stars": 28185,
+  "forks": 3038,
+  "openIssues": 234,
+  "score": 136.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-16T03:50:59Z",
-  "updatedAt": "2026-09-23T04:47:28Z",
-  "createdAt": "2026-06-23T22:23:15Z",
+  "pushedAt": "2026-09-24T04:35:35Z",
+  "updatedAt": "2026-09-23T17:42:02Z",
+  "createdAt": "2023-06-20T14:05:26Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "clickhouse",
+    "database",
+    "database-client",
+    "database-gui",
+    "database-management",
+    "jdbc",
+    "llm",
+    "mcp",
+    "mongodb",
+    "mysql",
+    "oracle",
+    "postgresql",
+    "redis",
+    "sql",
+    "sql-client",
+    "sql-editor",
+    "sql-server",
+    "sqlite",
+    "text-to-sql"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ai-evals-course/evals-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OtterMind/Chat2DB",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ai-evals-course/evals-skills#readme",
-  "detailPath": "data/details/ai__evals__course__evals__skills.json",
+  "readmeUrl": "https://github.com/OtterMind/Chat2DB#readme",
+  "detailPath": "data/details/ottermind__chat2db.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "evals-skills 聚焦软件开发、代码质量与工程交付。",
+    "summary": "Chat2DB 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -65,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "2a022998081975f0",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "46389f8f181044b0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "evals-skills：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "evals-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Chat2DB：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Chat2DB 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -115,7 +136,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

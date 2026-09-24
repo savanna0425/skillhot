@@ -1,14 +1,14 @@
 {
-  "rank": 989,
-  "id": 1022026685,
-  "name": "llm-agents.nix",
-  "fullName": "numtide/llm-agents.nix",
-  "owner": "numtide",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/20373834?v=4",
-  "url": "https://github.com/numtide/llm-agents.nix",
-  "homepage": "https://numtide.github.io/llm-agents.nix/",
-  "description": "Nix packages for AI coding agents and development tools. Automatically updated daily.",
-  "summary": "llm-agents.nix：Nix 包：AI 编程代理与开发工具。每日自动更新。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1494,
+  "id": 1081638046,
+  "name": "atomic",
+  "fullName": "bastani-inc/atomic",
+  "owner": "bastani-inc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252341057?v=4",
+  "url": "https://github.com/bastani-inc/atomic",
+  "homepage": "https://bastani.ai/",
+  "description": "The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions.",
+  "summary": "atomic：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,17 +19,17 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/numtide/llm-agents.nix.git",
-  "language": "Nix",
-  "license": "MIT",
-  "stars": 1992,
-  "forks": 257,
-  "openIssues": 14,
-  "score": 109.2,
+  "installCommand": "git clone https://github.com/bastani-inc/atomic.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 820,
+  "forks": 113,
+  "openIssues": 33,
+  "score": 100.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-23T04:16:53Z",
-  "updatedAt": "2026-09-23T04:26:19Z",
-  "createdAt": "2025-07-18T10:29:06Z",
+  "pushedAt": "2026-09-24T04:47:40Z",
+  "updatedAt": "2026-09-24T03:45:09Z",
+  "createdAt": "2025-10-23T04:24:21Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
@@ -41,15 +41,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/numtide/llm-agents.nix",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/bastani-inc/atomic",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/numtide/llm-agents.nix#readme",
-  "detailPath": "data/details/numtide__llm__agents__nix.json",
+  "readmeUrl": "https://github.com/bastani-inc/atomic#readme",
+  "detailPath": "data/details/bastani__inc__atomic.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Nix 包：AI 编程代理与开发工具。每日自动更新",
+    "summary": "atomic 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "cdc6d157c8e16b4d",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "90ee7ae8c47d3d88",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llm-agents.nix：Nix 包：AI 编程代理与开发工具。每日自动更新。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "llm-agents.nix 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "atomic：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "atomic 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -115,7 +115,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

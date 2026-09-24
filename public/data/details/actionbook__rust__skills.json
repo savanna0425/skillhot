@@ -1,14 +1,14 @@
 {
-  "rank": 1255,
-  "id": 1005233473,
-  "name": "byterover-cli",
-  "fullName": "campfirein/byterover-cli",
-  "owner": "campfirein",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/179183278?v=4",
-  "url": "https://github.com/campfirein/byterover-cli",
-  "homepage": "https://docs.byterover.dev/",
-  "description": "ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher)",
-  "summary": "byterover-cli：ByteRover CLI (brv) - 自主编程代理专用的可移植内存层（前身为 Cipher）。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1530,
+  "id": 1136104803,
+  "name": "rust-skills",
+  "fullName": "actionbook/rust-skills",
+  "owner": "actionbook",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/250428866?v=4",
+  "url": "https://github.com/actionbook/rust-skills",
+  "homepage": "",
+  "description": "Rust Developer AI Assistance System — Meta-Problem-Driven Knowledge Indexing",
+  "summary": "rust-skills：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,51 +19,37 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/campfirein/byterover-cli.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 4965,
-  "forks": 454,
-  "openIssues": 23,
-  "score": 103.7,
+  "installCommand": "git clone https://github.com/actionbook/rust-skills.git",
+  "language": "Shell",
+  "license": "",
+  "stars": 1479,
+  "forks": 114,
+  "openIssues": 21,
+  "score": 99.1,
   "activity": "近期活跃",
-  "pushedAt": "2026-06-25T17:00:57Z",
-  "updatedAt": "2026-09-22T17:35:43Z",
-  "createdAt": "2025-06-19T22:40:22Z",
+  "pushedAt": "2026-08-23T11:09:39Z",
+  "updatedAt": "2026-09-23T18:44:55Z",
+  "createdAt": "2026-01-17T04:27:16Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent",
-    "ai",
-    "autonomous-agents",
-    "cli",
-    "coding-assistant",
-    "context-memory",
-    "developer-tools",
-    "knowledge-management",
-    "llm",
-    "mcp",
-    "memory",
-    "typescript",
-    "vibe-coding"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/campfirein/byterover-cli",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/actionbook/rust-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/campfirein/byterover-cli#readme",
-  "detailPath": "data/details/campfirein__byterover__cli.json",
+  "readmeUrl": "https://github.com/actionbook/rust-skills#readme",
+  "detailPath": "data/details/actionbook__rust__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ByteRover CLI (brv) - 自主编程代理专用的可移植内存层（前身为 Cipher）",
+    "summary": "rust-skills 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-23T04:52:32.843Z",
-    "sourceHash": "02fe2e39a5ac77c1",
+    "generatedAt": "2026-09-24T05:00:33.935Z",
+    "sourceHash": "6034e3dc9e4241a8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "byterover-cli：ByteRover CLI (brv) - 自主编程代理专用的可移植内存层（前身为 Cipher）。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "byterover-cli 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "rust-skills：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "rust-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -129,7 +115,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
