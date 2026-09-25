@@ -1,5 +1,5 @@
 {
-  "rank": 750,
+  "rank": 743,
   "id": 1095948794,
   "name": "playwriter",
   "fullName": "remorses/playwriter",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm i -g playwriter\nplaywriter -s 1 -e 'await page.goto(\"https://example.com\")'",
+  "installCommand": "npm i -g playwriter\nplaywriter -s 1 -e 'state.page = await context.newPage(); await state.page.goto(\"https://example.com\")'",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3918,
+  "stars": 3922,
   "forks": 185,
   "openIssues": 28,
   "score": 116.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-16T17:29:19Z",
-  "updatedAt": "2026-09-24T01:55:55Z",
+  "pushedAt": "2026-09-24T17:19:07Z",
+  "updatedAt": "2026-09-25T04:27:19Z",
   "createdAt": "2025-11-13T18:23:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -72,8 +72,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-24T05:00:33.935Z",
-    "sourceHash": "b7e0d7c718934113",
+    "generatedAt": "2026-09-25T05:05:14.696Z",
+    "sourceHash": "60f4952ab50bd4ea",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

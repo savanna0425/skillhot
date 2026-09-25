@@ -1,5 +1,5 @@
 {
-  "rank": 317,
+  "rank": 318,
   "id": 1145022970,
   "name": "Toonflow-app",
   "fullName": "HBAI-Ltd/Toonflow-app",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/257465404?v=4",
   "url": "https://github.com/HBAI-Ltd/Toonflow-app",
   "homepage": "https://toonflow.net",
-  "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
-  "summary": "Toonflow-app：Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source A。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Toonflow 是开源 AI 创作平台，融合无限画布、AI Agent 与可视化工作流，支持图像生成、视频生成、智能分镜及短剧创作。支持本地部署、自由接入模型，提供跨平台桌面端，并可通过 MCP 与插件扩展创作能力。Open-source AI creative platform with an infinite canvas, AI agents and visual workflows for image generation, video generation and filmmaking, with a canvas-based approach similar to LibTV and TapNow.",
+  "summary": "Toonflow-app：Toonflow 是开源 AI 创作平台，融合无限画布、AI Agent 与可视化工作流，支持图像生成、视频生成、智能分镜及短剧创作。支持本地部署、自由接入模型，提供跨平台桌面端，并可通过 MCP 与插件扩展创作能力。Open-source。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/HBAI-Ltd/Toonflow-app.git\ncd Toonflow-app\nyarn docker:local",
+  "installCommand": "git clone https://github.com/HBAI-Ltd/Toonflow-app.git\ncd Toonflow-app\ndocker compose up -d --build",
   "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 15964,
-  "forks": 2852,
-  "openIssues": 0,
+  "license": "MIT",
+  "stars": 16012,
+  "forks": 2865,
+  "openIssues": 1,
   "score": 130.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T03:36:49Z",
-  "updatedAt": "2026-09-24T04:54:01Z",
+  "pushedAt": "2026-09-24T12:17:09Z",
+  "updatedAt": "2026-09-25T04:22:28Z",
   "createdAt": "2026-01-29T10:25:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,39 +36,39 @@
   ],
   "repoTopics": [
     "ai",
+    "ai-agents",
     "ai-content-creation",
-    "ai-tool",
-    "ai-video-generation",
-    "automation",
-    "content-generation",
-    "desktop-app",
-    "electron",
+    "ai-filmmaking",
     "generative-ai",
     "image-generation",
+    "image-to-video",
+    "infinite-canvas",
+    "libtv",
     "llm",
-    "nodejs",
-    "shorts",
+    "node-based-editor",
+    "open-source",
+    "storyboarding",
+    "tapnow",
+    "text-to-image",
     "text-to-video",
-    "typescript",
     "video-generation",
-    "vite",
-    "vue3"
+    "workflow-automation"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/HBAI-Ltd/Toonflow-app",
-    "videoUrl": "https://www.bilibili.com/video/BV1oXD7BqEqJ"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/HBAI-Ltd/Toonflow-app#readme",
   "detailPath": "data/details/hbai__ltd__toonflow__app.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source A",
+    "summary": "Toonflow 是开源 AI 创作平台，融合无限画布、AI Agent 与可视化工作流，支持图像生成、视频生成、智能分镜及短剧创作。支持本地部署、自由接入模型，提供跨平台桌面端，并可通过 MCP 与插件扩展创作能力。Open-source",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -84,16 +84,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-24T05:00:33.935Z",
-    "sourceHash": "6b552f389a0fba26",
+    "generatedAt": "2026-09-25T05:05:14.696Z",
+    "sourceHash": "3344c808464bbf33",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Toonflow-app：Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source A。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "Toonflow-app：Toonflow 是开源 AI 创作平台，融合无限画布、AI Agent 与可视化工作流，支持图像生成、视频生成、智能分镜及短剧创作。支持本地部署、自由接入模型，提供跨平台桌面端，并可通过 MCP 与插件扩展创作能力。Open-source。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Toonflow-app 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -111,7 +111,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -134,7 +134,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

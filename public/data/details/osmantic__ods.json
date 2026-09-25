@@ -1,5 +1,5 @@
 {
-  "rank": 548,
+  "rank": 544,
   "id": 1153579168,
   "name": "ODS",
   "fullName": "Osmantic/ODS",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/262014141?v=4",
   "url": "https://github.com/Osmantic/ODS",
   "homepage": "https://discord.gg/qGVygYada3",
-  "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
-  "summary": "ODS：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "内容创作",
-  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "description": "ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.",
+  "summary": "ODS：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "编程开发",
+  "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
-    "内容生产",
-    "视觉创作",
-    "多媒体工作流"
+    "软件开发",
+    "代码质量",
+    "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/Osmantic/ODS.git\ncd ODS/ods\n./install.sh",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6773,
-  "forks": 956,
-  "openIssues": 3715,
+  "stars": 6818,
+  "forks": 963,
+  "openIssues": 3671,
   "score": 122,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T04:35:30Z",
-  "updatedAt": "2026-09-24T04:53:49Z",
+  "pushedAt": "2026-09-25T04:47:23Z",
+  "updatedAt": "2026-09-25T04:08:39Z",
   "createdAt": "2026-02-09T13:14:58Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,18 +66,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "ODS：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "ODS 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
-      "内容生产",
-      "视觉创作",
-      "多媒体工作流"
+      "软件开发",
+      "代码质量",
+      "工程自动化"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -85,51 +85,51 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-24T05:00:33.935Z",
-    "sourceHash": "89853f06ca07a61d",
+    "generatedAt": "2026-09-25T05:05:14.696Z",
+    "sourceHash": "9b5923251bc492bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ODS：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ODS 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ODS：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "ODS 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
-      "同一套内容风格难以稳定复用。",
-      "创作任务需要把素材、脚本、生成和发布流程串起来。",
-      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
+      "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
+      "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
+      "团队希望把开发经验沉淀成可重复执行的能力。",
+      "如果你的任务和「软件开发」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
-      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
-      "帮助你先判断它是否适合当前内容生产任务。",
+      "辅助完成代码生成、调试、测试、评审、架构或工程交付。",
+      "把软件开发方法整理成 Agent 可以跟随的流程或工具。",
+      "帮助你先判断它是否适合你的当前任务，再决定是否深入 README。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "内容创作者、运营、设计师和需要频繁产出素材的人。",
-      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
-      "想把固定内容流程模板化的小团队。",
+      "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
+      "需要让 Agent 参与真实工程任务的团队。",
+      "想把开发流程标准化、可复盘的人。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
-      "只想要一键生成所有内容且不参与编辑的人。"
+      "只想找一个无需配置的成品 SaaS 工具的人。",
+      "不打算让 Agent 参与代码或工程流程的人。"
     ],
     "howItWorks": [
-      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
-      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
-      "最终发布前仍需要人工审稿、校对和版权检查。",
+      "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
+      "Agent 会根据仓库提供的方法处理具体开发任务。",
+      "最终质量仍需要你用测试、构建和代码评审来确认。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看 README 里的输入格式和示例输出。",
-      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
-      "确认可编辑性和导出格式后再纳入正式流程。"
+      "先读 README 的安装步骤和示例任务。",
+      "在一个小仓库或低风险分支中试用。",
+      "确认它和你的语言、框架、Agent 客户端兼容后再扩大使用范围。"
     ],
     "expectedOutcome": [
-      "从选题到初稿的速度更快。",
-      "内容风格更容易保持一致。",
-      "重复性创作流程可以被复用。"
+      "开发流程更有章法，长任务更不容易散。",
+      "重复性的工程经验可以被复用。",
+      "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
       "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",

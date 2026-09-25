@@ -1,5 +1,5 @@
 {
-  "rank": 744,
+  "rank": 732,
   "id": 1131637627,
   "name": "SkillNet",
   "fullName": "zjunlp/SkillNet",
@@ -19,16 +19,16 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "pip install skillnet-ai",
+  "installCommand": "pip install \"skillnet-ai[ui]>=0.1.2\"\nskillnet ui --skills-dir \"/absolute/path/to/skills\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 1267,
-  "forks": 144,
+  "stars": 1269,
+  "forks": 145,
   "openIssues": 0,
-  "score": 116.5,
+  "score": 116.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-23T03:08:12Z",
-  "updatedAt": "2026-09-23T09:21:29Z",
+  "pushedAt": "2026-09-25T01:54:29Z",
+  "updatedAt": "2026-09-25T04:50:16Z",
   "createdAt": "2026-01-10T12:08:37Z",
   "sourceTopics": [
     "ai-skills"
@@ -83,8 +83,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-24T05:00:33.935Z",
-    "sourceHash": "015944f21746d857",
+    "generatedAt": "2026-09-25T05:05:14.696Z",
+    "sourceHash": "0939ebbb2cfd626e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

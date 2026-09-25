@@ -1,5 +1,5 @@
 {
-  "rank": 858,
+  "rank": 848,
   "id": 1167823778,
   "name": "azure-skills",
   "fullName": "microsoft/azure-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/azure-skills",
   "homepage": "",
   "description": "Official agent plugin providing skills and MCP server configurations for Azure scenarios.",
-  "summary": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/microsoft/azure-skills.git",
+  "installCommand": "npx --version\ngit --version",
   "language": "Shell",
   "license": "MIT",
-  "stars": 1496,
-  "forks": 249,
-  "openIssues": 7,
+  "stars": 1498,
+  "forks": 250,
+  "openIssues": 8,
   "score": 114.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-23T16:47:16Z",
-  "updatedAt": "2026-09-23T16:45:44Z",
+  "pushedAt": "2026-09-24T16:38:44Z",
+  "updatedAt": "2026-09-24T16:38:37Z",
   "createdAt": "2026-02-26T18:13:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,7 +38,12 @@
     "agent-skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,13 +75,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-24T05:00:33.935Z",
-    "sourceHash": "d8bdbc704e7c77ab",
+    "generatedAt": "2026-09-25T05:05:14.696Z",
+    "sourceHash": "cf66e38e1a0c4abe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "azure-skills：官方插件，提供 Azure 场景的技能与 MCP 服务器配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "azure-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -94,7 +99,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
