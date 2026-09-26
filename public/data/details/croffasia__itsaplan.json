@@ -1,14 +1,14 @@
 {
-  "rank": 1365,
-  "id": 1366969284,
-  "name": "workbuddy2api-panel",
-  "fullName": "linguo2625469/workbuddy2api-panel",
-  "owner": "linguo2625469",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/49717738?v=4",
-  "url": "https://github.com/linguo2625469/workbuddy2api-panel",
-  "homepage": "",
-  "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
-  "summary": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1486,
+  "id": 1300991151,
+  "name": "itsaplan",
+  "fullName": "croffasia/itsaplan",
+  "owner": "croffasia",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/696180?v=4",
+  "url": "https://github.com/croffasia/itsaplan",
+  "homepage": "https://itsaplan.dev/",
+  "description": "Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
+  "summary": "itsaplan：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,29 +19,42 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/linguo2625469/workbuddy2api-panel.git",
-  "language": "Go",
-  "license": "MIT",
-  "stars": 928,
-  "forks": 245,
-  "openIssues": 19,
-  "score": 101.3,
+  "installCommand": "git clone https://github.com/croffasia/itsaplan.git",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stars": 824,
+  "forks": 130,
+  "openIssues": 24,
+  "score": 100.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-23T10:50:36Z",
-  "updatedAt": "2026-09-25T04:55:05Z",
-  "createdAt": "2026-09-12T05:13:46Z",
+  "pushedAt": "2026-09-25T23:46:59Z",
+  "updatedAt": "2026-09-26T04:29:29Z",
+  "createdAt": "2026-07-14T22:24:55Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "admin-panel",
-    "codebuddy",
-    "gateway",
-    "golang",
-    "openai-api",
-    "reverse-proxy",
-    "workbuddy"
+    "agentic",
+    "agile",
+    "ai-agents",
+    "bug-reporting",
+    "bug-tracker",
+    "gantt",
+    "issue-tracker",
+    "jira",
+    "jira-alternative",
+    "kanban",
+    "linear",
+    "linear-alternative",
+    "open-source",
+    "product-management",
+    "project-management",
+    "roadmap",
+    "self-hosted",
+    "sprint-planning",
+    "team-collaboration",
+    "trello-alternative"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +62,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/linguo2625469/workbuddy2api-panel",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/croffasia/itsaplan",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/linguo2625469/workbuddy2api-panel#readme",
-  "detailPath": "data/details/linguo2625469__workbuddy2api__panel.json",
+  "readmeUrl": "https://github.com/croffasia/itsaplan#readme",
+  "detailPath": "data/details/croffasia__itsaplan.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
+    "summary": "itsaplan：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -73,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "a74f2800ea3d583f",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "e5df1f3909efca15",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "workbuddy2api-panel 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "itsaplan：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "itsaplan 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -123,7 +136,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

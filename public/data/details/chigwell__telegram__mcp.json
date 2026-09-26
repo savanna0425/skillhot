@@ -1,42 +1,53 @@
 {
-  "rank": 1894,
-  "id": 1055446651,
-  "name": "Practical-Guide-to-Context-Engineering",
-  "fullName": "WakeUp-Jin/Practical-Guide-to-Context-Engineering",
-  "owner": "WakeUp-Jin",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/112074542?v=4",
-  "url": "https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering",
-  "homepage": "https://wakeup-jin.github.io/Practical-Guide-to-Context-Engineering/",
-  "description": "大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路",
-  "summary": "Practical-Guide-to-Context-Engineering：大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1111,
+  "id": 951958279,
+  "name": "telegram-mcp",
+  "fullName": "chigwell/telegram-mcp",
+  "owner": "chigwell",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/36392751?v=4",
+  "url": "https://github.com/chigwell/telegram-mcp",
+  "homepage": "",
+  "description": "Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.",
+  "summary": "telegram-mcp：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering.git",
-  "language": "",
-  "license": "",
-  "stars": 821,
-  "forks": 65,
-  "openIssues": 1,
-  "score": 85.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-15T10:05:36Z",
-  "updatedAt": "2026-09-24T08:17:26Z",
-  "createdAt": "2025-09-12T09:24:44Z",
+  "installCommand": "git clone https://github.com/chigwell/telegram-mcp.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1700,
+  "forks": 437,
+  "openIssues": 25,
+  "score": 107.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-25T13:25:35Z",
+  "updatedAt": "2026-09-25T18:17:17Z",
+  "createdAt": "2025-03-20T14:06:35Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "javascript",
-    "typescript"
+    "admin",
+    "api",
+    "chat-management",
+    "contacts",
+    "groups",
+    "mcp",
+    "media",
+    "messaging",
+    "search",
+    "telegram",
+    "telegram-api",
+    "telegram-client",
+    "telethon"
   ],
   "platforms": [
     "Agent Skills"
@@ -44,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/WakeUp-Jin/Practical-Guide-to-Context-Engineering",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chigwell/telegram-mcp",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering#readme",
-  "detailPath": "data/details/wakeup__jin__practical__guide__to__context__engineering.json",
+  "readmeUrl": "https://github.com/chigwell/telegram-mcp#readme",
+  "detailPath": "data/details/chigwell__telegram__mcp.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路",
+    "summary": "telegram-mcp 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -68,17 +79,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "aae3b23a1ba92bd8",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "9ba5df2f80798ea3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Practical-Guide-to-Context-Engineering：大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Practical-Guide-to-Context-Engineering 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "telegram-mcp：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "telegram-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -118,7 +129,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

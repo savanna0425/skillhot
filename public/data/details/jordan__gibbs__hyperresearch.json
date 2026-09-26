@@ -1,5 +1,5 @@
 {
-  "rank": 807,
+  "rank": 619,
   "id": 1206357666,
   "name": "hyperresearch",
   "fullName": "jordan-gibbs/hyperresearch",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/139834037?v=4",
   "url": "https://github.com/jordan-gibbs/hyperresearch",
   "homepage": "https://hyperresearch.ai",
-  "description": "Convert Claude Code into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself.",
+  "description": "Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself.",
   "summary": "hyperresearch：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
@@ -19,19 +19,22 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "cd your-project\npip install hyperresearch && hyperresearch install",
+  "installCommand": "> pip install hyperresearch && hyperresearch install . --target codex\n> codex --sandbox workspace-write -c sandbox_workspace_write.network_access=true   # then: $hyperresearch <question>\n>",
   "language": "Python",
   "license": "MIT",
-  "stars": 3530,
+  "stars": 3556,
   "forks": 350,
   "openIssues": 13,
-  "score": 115.2,
+  "score": 119.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T14:37:26Z",
-  "updatedAt": "2026-09-25T03:37:23Z",
+  "pushedAt": "2026-09-25T18:24:03Z",
+  "updatedAt": "2026-09-26T04:55:17Z",
   "createdAt": "2026-04-09T20:46:46Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "codex-skill"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -39,6 +42,8 @@
     "agentskills",
     "claude-code",
     "codex",
+    "codex-plugin",
+    "codex-skill",
     "deep-research",
     "deep-research-agent",
     "deepresearch",
@@ -81,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "51c00fbc57cf9119",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "5962b96a9d97f455",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

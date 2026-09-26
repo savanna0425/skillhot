@@ -1,60 +1,59 @@
 {
-  "rank": 701,
-  "id": 1301135370,
-  "name": "OpenChatCut",
-  "fullName": "0xsline/OpenChatCut",
-  "owner": "0xsline",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/151105947?v=4",
-  "url": "https://github.com/0xsline/OpenChatCut",
-  "homepage": "https://openchatcut.com",
-  "description": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.",
-  "summary": "OpenChatCut：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1626,
+  "id": 1381356320,
+  "name": "anidoodle",
+  "fullName": "alexgreensh/anidoodle",
+  "owner": "alexgreensh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/210140430?v=4",
+  "url": "https://github.com/alexgreensh/anidoodle",
+  "homepage": "https://alexgreenshpun.com",
+  "description": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+  "summary": "anidoodle：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/0xsline/OpenChatCut.git\ncd OpenChatCut\nnpm install",
+  "installCommand": "git clone https://github.com/alexgreensh/anidoodle.git",
   "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 1994,
-  "forks": 296,
-  "openIssues": 42,
-  "score": 117.2,
+  "license": "Apache-2.0",
+  "stars": 313,
+  "forks": 28,
+  "openIssues": 1,
+  "score": 94.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-21T11:37:58Z",
-  "updatedAt": "2026-09-25T01:24:42Z",
-  "createdAt": "2026-07-15T02:49:42Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-09-25T23:46:34Z",
+  "updatedAt": "2026-09-26T04:58:31Z",
+  "createdAt": "2026-09-22T11:20:47Z",
+  "sourceTopics": [
+    "skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "agentic-ai",
-    "ai-agent",
-    "ai-video-editor",
-    "capcut",
-    "chatcut",
+    "animation",
+    "canvas",
     "claude-code",
-    "codex",
-    "desktop-app",
-    "electron",
-    "ffmpeg",
-    "local-first",
-    "mcp",
-    "open-source",
-    "openchatcut",
-    "remotion",
-    "text-based-video-editing",
-    "timeline-editor",
-    "video-editing",
-    "video-editor"
+    "claude-plugin",
+    "claude-skills",
+    "codex-plugin",
+    "creative-code",
+    "creative-coding",
+    "creative-tools",
+    "deterministic",
+    "generative-art",
+    "hand-drawn",
+    "illustration",
+    "plugin",
+    "procedural-generation",
+    "skill"
   ],
   "platforms": [
     "Claude",
@@ -63,15 +62,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/0xsline/OpenChatCut",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/alexgreensh/anidoodle",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/0xsline/OpenChatCut#readme",
-  "detailPath": "data/details/0xsline__openchatcut.json",
+  "readmeUrl": "https://github.com/alexgreensh/anidoodle#readme",
+  "detailPath": "data/details/alexgreensh__anidoodle.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenChatCut：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "anidoodle：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -87,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "7c1e4159dc4ed55a",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "325f8c63e0f65c6f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenChatCut：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "OpenChatCut 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "anidoodle：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "anidoodle 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -137,7 +136,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

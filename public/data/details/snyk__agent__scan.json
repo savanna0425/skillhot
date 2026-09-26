@@ -1,60 +1,66 @@
 {
-  "rank": 319,
-  "id": 1031215137,
-  "name": "xiaohongshu-mcp",
-  "fullName": "xpzouying/xiaohongshu-mcp",
-  "owner": "xpzouying",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3946563?v=4",
-  "url": "https://github.com/xpzouying/xiaohongshu-mcp",
-  "homepage": "https://www.haha.ai/xiaohongshu-mcp",
-  "description": "MCP for xiaohongshu.com",
-  "summary": "xiaohongshu-mcp：通过 MCP 接入小红书能力的开源服务。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 550,
+  "id": 962024783,
+  "name": "agent-scan",
+  "fullName": "snyk/agent-scan",
+  "owner": "snyk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/12959162?v=4",
+  "url": "https://github.com/snyk/agent-scan",
+  "homepage": "",
+  "description": "Security scanner for AI agents, MCP servers and agent skills.",
+  "summary": "agent-scan：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npm i -g mcporter\nnpx mcporter config add xiaohongshu-mcp http://localhost:18060/mcp\nnpx mcporter list xiaohongshu-mcp",
-  "language": "Go",
+  "installCommand": "git clone https://github.com/snyk/agent-scan.git",
+  "language": "Python",
   "license": "Apache-2.0",
-  "stars": 15979,
-  "forks": 2352,
-  "openIssues": 98,
-  "score": 130.9,
+  "stars": 3091,
+  "forks": 278,
+  "openIssues": 14,
+  "score": 121.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-22T18:56:15Z",
-  "updatedAt": "2026-09-25T04:52:32Z",
-  "createdAt": "2025-08-03T09:08:45Z",
+  "pushedAt": "2026-09-25T12:20:50Z",
+  "updatedAt": "2026-09-25T20:45:41Z",
+  "createdAt": "2025-04-07T14:31:26Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent",
+    "ai",
     "mcp",
-    "mcp-server",
-    "xiaohongshu-mcp"
+    "modelcontextprotocol",
+    "security"
   ],
   "platforms": [
     "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
     "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xpzouying/xiaohongshu-mcp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/snyk/agent-scan",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xpzouying/xiaohongshu-mcp#readme",
-  "detailPath": "data/details/xpzouying__xiaohongshu__mcp.json",
+  "readmeUrl": "https://github.com/snyk/agent-scan#readme",
+  "detailPath": "data/details/snyk__agent__scan.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "通过 MCP 接入小红书能力的开源服务",
+    "summary": "agent-scan 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -73,14 +79,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "9daa6814f52def19",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "17bfe2180cb2813e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "xiaohongshu-mcp：通过 MCP 接入小红书能力的开源服务。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "xiaohongshu-mcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-scan：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agent-scan 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -97,7 +103,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

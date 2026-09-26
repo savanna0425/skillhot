@@ -1,5 +1,5 @@
 {
-  "rank": 1262,
+  "rank": 680,
   "id": 627920448,
   "name": "auto-dev",
   "fullName": "phodal/auto-dev",
@@ -8,7 +8,7 @@
   "url": "https://github.com/phodal/auto-dev",
   "homepage": "https://ide.unitmesh.cc/",
   "description": "🧙‍AutoDev: the Multi-Agent coding development platform built on Kotlin Multiplatform.",
-  "summary": "auto-dev：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "auto-dev：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/phodal/auto-dev.git",
   "language": "Kotlin",
   "license": "MPL-2.0",
-  "stars": 4548,
+  "stars": 4546,
   "forks": 501,
   "openIssues": 4,
-  "score": 102.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-04T14:09:54Z",
-  "updatedAt": "2026-09-24T20:06:11Z",
+  "score": 117.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-25T13:55:26Z",
+  "updatedAt": "2026-09-25T15:19:45Z",
   "createdAt": "2023-04-14T13:46:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -42,7 +42,7 @@
     "intellij"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,13 +74,13 @@
       "许可证为 MPL-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "3950da0e74750dcc",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "2c95e22f232b5276",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "auto-dev：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "auto-dev：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "auto-dev 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -98,7 +98,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

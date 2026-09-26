@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
   "url": "https://github.com/github/spec-kit",
   "homepage": "https://github.github.com/spec-kit/",
-  "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-  "summary": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "description": "💫 Toolkit to help you get started with SDD or any other process!",
+  "summary": "spec-kit：聚焦软件开发、代码质量与工程交付。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install specify-cli\nspecify init my-project --integration copilot\ncd my-project",
   "language": "Python",
   "license": "MIT",
-  "stars": 138805,
-  "forks": 12428,
-  "openIssues": 287,
+  "stars": 138931,
+  "forks": 12443,
+  "openIssues": 281,
   "score": 153.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T21:55:38Z",
-  "updatedAt": "2026-09-25T04:41:17Z",
+  "pushedAt": "2026-09-25T20:31:03Z",
+  "updatedAt": "2026-09-26T04:47:50Z",
   "createdAt": "2025-08-21T22:54:31Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -58,7 +58,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "帮助您在 Spec-Driven Development 中快速起步的工具包",
+    "summary": "spec-kit 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "02d2b7b8aa71b5ac",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "7dc63e8a313ac4bd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "spec-kit：帮助您在 Spec-Driven Development 中快速起步的工具包。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+    "plainIntro": "spec-kit：聚焦软件开发、代码质量与工程交付。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "spec-kit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

@@ -1,5 +1,5 @@
 {
-  "rank": 846,
+  "rank": 849,
   "id": 1202070696,
   "name": "mnemosyne",
   "fullName": "mnemosyne-oss/mnemosyne",
@@ -8,7 +8,7 @@
   "url": "https://github.com/mnemosyne-oss/mnemosyne",
   "homepage": "https://mnemosyne.site",
   "description": "Zero-cloud AI memory that works everywhere. SQLite-backed. One pure-Python dependency.",
-  "summary": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install mnemosyne-memory\npip install \"mnemosyne-memory[all]\"\npip install --upgrade mnemosyne-memory",
+  "installCommand": "git clone https://github.com/mnemosyne-oss/mnemosyne.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3257,
+  "stars": 3261,
   "forks": 274,
   "openIssues": 135,
-  "score": 114.3,
+  "score": 114.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T13:39:04Z",
-  "updatedAt": "2026-09-25T04:58:30Z",
+  "pushedAt": "2026-09-26T04:57:40Z",
+  "updatedAt": "2026-09-26T03:41:22Z",
   "createdAt": "2026-04-05T14:59:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -43,10 +43,7 @@
     "nousresearch"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -78,13 +75,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "53bb2596ca3cb166",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "9d94af9c876a8342",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "mnemosyne：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "mnemosyne 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -102,7 +99,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

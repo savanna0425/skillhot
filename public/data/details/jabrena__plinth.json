@@ -1,5 +1,5 @@
 {
-  "rank": 937,
+  "rank": 687,
   "id": 929599382,
   "name": "plinth",
   "fullName": "jabrena/plinth",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jabrena/plinth.git",
+  "installCommand": "npx skills add jabrena/plinth --skill '*' --agent cursor -y\nnpx skills add jabrena/plinth --skill '*' --agent claude-code -y\nnpx skills add jabrena/plinth --skill '*' --agent codex -y",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 440,
-  "forks": 93,
+  "stars": 441,
+  "forks": 94,
   "openIssues": 23,
-  "score": 110.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-16T07:56:17Z",
-  "updatedAt": "2026-09-24T15:04:08Z",
+  "score": 117.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-25T10:00:02Z",
+  "updatedAt": "2026-09-26T05:03:56Z",
   "createdAt": "2025-02-08T23:14:36Z",
   "sourceTopics": [
     "ai-skills",
@@ -66,7 +66,7 @@
     "Cursor",
     "GitHub Copilot"
   ],
-  "skillCount": 1,
+  "skillCount": 125,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/jabrena/plinth",
@@ -96,8 +96,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "d96816c4e27e63bc",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "01f35e8f3b433271",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -130,7 +130,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 125+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

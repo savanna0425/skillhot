@@ -1,70 +1,65 @@
 {
-  "rank": 2115,
-  "id": 1266741972,
-  "name": "My-MathModeling-skills",
-  "fullName": "capwitf/My-MathModeling-skills",
-  "owner": "capwitf",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/246588430?v=4",
-  "url": "https://github.com/capwitf/My-MathModeling-skills",
-  "homepage": "https://github.com/capwitf/MY-MathModeling-skills#readme",
-  "description": "随叫随用、证据链驱动的 CUMCM / 数理解、建模学建模 Skills：覆盖题面、复现、图表、审查与提交门禁。",
-  "summary": "My-MathModeling-skills：随叫随用、证据链驱动的 CUMCM / 数理解、建模学建模 Skills：覆盖题面、复现、图表、审查与提交门禁。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 884,
+  "id": 394089041,
+  "name": "spiceai",
+  "fullName": "spiceai/spiceai",
+  "owner": "spiceai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/73862742?v=4",
+  "url": "https://github.com/spiceai/spiceai",
+  "homepage": "https://docs.spiceai.org",
+  "description": "Add a real-time analytics node to your operational database. Spice is a portable, accelerated SQL query, search, and LLM-inference engine in Rust for data-grounded AI apps and agents.",
+  "summary": "spiceai：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
   "scenarios": [
     "数据处理",
     "SQL 与表格",
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/capwitf/My-MathModeling-skills.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 57,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 70.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-19T18:49:39Z",
-  "updatedAt": "2026-09-23T15:36:28Z",
-  "createdAt": "2026-06-11T23:04:36Z",
-  "sourceTopics": [
-    "codex-skills"
-  ],
+  "installCommand": "git clone https://github.com/spiceai/spiceai.git",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 3094,
+  "forks": 230,
+  "openIssues": 894,
+  "score": 113.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-26T04:56:35Z",
+  "updatedAt": "2026-09-26T03:56:17Z",
+  "createdAt": "2021-08-08T23:26:13Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-assisted",
-    "codex-skills",
-    "cumcm",
-    "data-visualization",
-    "decision-analysis",
-    "evidence-driven",
-    "forecasting",
-    "latex",
-    "math-modeling",
-    "mathematical-modeling",
-    "optimization",
-    "reproducibility"
+    "artificial-intelligence",
+    "data",
+    "data-federation",
+    "developers",
+    "full-text-search",
+    "infrastructure",
+    "llm-inference",
+    "machine-learning",
+    "sql"
   ],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/capwitf/My-MathModeling-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/spiceai/spiceai",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/capwitf/My-MathModeling-skills#readme",
-  "detailPath": "data/details/capwitf__my__mathmodeling__skills.json",
+  "readmeUrl": "https://github.com/spiceai/spiceai#readme",
+  "detailPath": "data/details/spiceai__spiceai.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "随叫随用、证据链驱动的 CUMCM / 数理解、建模学建模 Skills：覆盖题面、复现、图表、审查与提交门禁。",
+    "summary": "spiceai：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -80,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "cec1781c4d9da50c",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "9b767a728db863ca",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "My-MathModeling-skills：随叫随用、证据链驱动的 CUMCM / 数理解、建模学建模 Skills：覆盖题面、复现、图表、审查与提交门禁。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "My-MathModeling-skills 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "spiceai：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "spiceai 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -107,7 +102,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",
@@ -130,7 +125,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

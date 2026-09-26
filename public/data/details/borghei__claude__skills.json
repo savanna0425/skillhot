@@ -1,5 +1,5 @@
 {
-  "rank": 906,
+  "rank": 758,
   "id": 1133641842,
   "name": "Claude-Skills",
   "fullName": "borghei/Claude-Skills",
@@ -19,18 +19,19 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/borghei/Claude-Skills.git",
+  "installCommand": "npx @borghei/claude-skills add senior-fullstack",
   "language": "HTML",
   "license": "NOASSERTION",
-  "stars": 822,
-  "forks": 143,
+  "stars": 831,
+  "forks": 144,
   "openIssues": 0,
-  "score": 112.1,
+  "score": 116.2,
   "activity": "本周活跃",
   "pushedAt": "2026-09-21T22:28:35Z",
-  "updatedAt": "2026-09-25T00:41:59Z",
+  "updatedAt": "2026-09-26T04:45:38Z",
   "createdAt": "2026-01-13T16:15:31Z",
   "sourceTopics": [
+    "claude-skills",
     "ai-skills"
   ],
   "discoveredBy": [
@@ -65,9 +66,10 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "GitHub Copilot"
+    "GitHub Copilot",
+    "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 372,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/borghei/Claude-Skills",
@@ -97,8 +99,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-25T05:05:14.696Z",
-    "sourceHash": "0fcff7b07a24069b",
+    "generatedAt": "2026-09-26T05:08:13.749Z",
+    "sourceHash": "d582deef3a54a8a0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -131,7 +133,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 372+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",
