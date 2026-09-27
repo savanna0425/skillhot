@@ -1,14 +1,14 @@
 {
-  "rank": 970,
-  "id": 1214519814,
-  "name": "hyperframes-student-kit",
-  "fullName": "nateherkai/hyperframes-student-kit",
-  "owner": "nateherkai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/253835467?v=4",
-  "url": "https://github.com/nateherkai/hyperframes-student-kit",
-  "homepage": "",
-  "description": "Edit videos, reels, and YouTube Shorts with Codex or Claude Code. 14 skills, transcript-driven cuts, storytelling, 406 motion-graphics cards, and HyperFrames templates.",
-  "summary": "hyperframes-student-kit：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1027,
+  "id": 1331882604,
+  "name": "skills",
+  "fullName": "scenario-labs/skills",
+  "owner": "scenario-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/71755875?v=4",
+  "url": "https://github.com/scenario-labs/skills",
+  "homepage": "https://www.skills.sh/scenario-labs/skills",
+  "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+  "summary": "skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,28 +19,44 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nateherkai/hyperframes-student-kit.git",
-  "language": "HTML",
-  "license": "NOASSERTION",
-  "stars": 951,
-  "forks": 310,
-  "openIssues": 8,
-  "score": 109.6,
+  "installCommand": "git clone https://github.com/scenario-labs/skills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 589,
+  "forks": 72,
+  "openIssues": 7,
+  "score": 108.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-25T23:48:51Z",
-  "updatedAt": "2026-09-26T05:07:04Z",
-  "createdAt": "2026-04-18T17:30:25Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-09-26T12:11:50Z",
+  "updatedAt": "2026-09-27T04:23:48Z",
+  "createdAt": "2026-08-12T10:08:49Z",
+  "sourceTopics": [
+    "skills-sh"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
+    "3d-generation",
+    "agent-skills",
+    "blender",
     "claude-code",
+    "claude-skills",
     "codex",
-    "hyperframes",
-    "motion-graphics",
-    "reels",
-    "video-editing"
+    "game-assets",
+    "game-development",
+    "gamedev",
+    "generative-ai",
+    "image-generation",
+    "maya",
+    "mcp",
+    "model-context-protocol",
+    "scenario",
+    "skills-sh",
+    "unity",
+    "unreal-engine",
+    "video-generation",
+    "zbrush"
   ],
   "platforms": [
     "Claude",
@@ -49,15 +65,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/hyperframes-student-kit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/scenario-labs/skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/nateherkai/hyperframes-student-kit#readme",
-  "detailPath": "data/details/nateherkai__hyperframes__student__kit.json",
+  "readmeUrl": "https://github.com/scenario-labs/skills#readme",
+  "detailPath": "data/details/scenario__labs__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "hyperframes-student-kit：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "skills：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -73,17 +89,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "eadc14ee6dfdb6c7",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "c30dd1e3c48699db",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hyperframes-student-kit：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "hyperframes-student-kit 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -123,7 +139,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

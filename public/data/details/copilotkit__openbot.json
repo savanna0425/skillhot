@@ -1,5 +1,5 @@
 {
-  "rank": 604,
+  "rank": 606,
   "id": 1336502227,
   "name": "OpenBot",
   "fullName": "CopilotKit/OpenBot",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx --yes copilotkit@latest login\nnpx --yes copilotkit@latest project select",
+  "installCommand": "npx --yes copilotkit@latest login\nnpx --yes copilotkit@latest project select\nbun scripts/setup-learning.ts",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 5567,
-  "forks": 727,
-  "openIssues": 20,
-  "score": 119.9,
+  "stars": 5612,
+  "forks": 736,
+  "openIssues": 17,
+  "score": 120,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-23T18:18:04Z",
-  "updatedAt": "2026-09-26T04:49:51Z",
+  "pushedAt": "2026-09-27T03:12:43Z",
+  "updatedAt": "2026-09-27T04:30:13Z",
   "createdAt": "2026-08-17T00:44:59Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -77,8 +77,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "9f1df103ff6d06db",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "3512d215e28534ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

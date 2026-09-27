@@ -1,34 +1,34 @@
 {
-  "rank": 1762,
+  "rank": 1740,
   "id": 1363739656,
   "name": "workdsh",
   "fullName": "techflag/workdsh",
   "owner": "techflag",
   "avatarUrl": "https://avatars.githubusercontent.com/u/939362?v=4",
   "url": "https://github.com/techflag/workdsh",
-  "homepage": "",
-  "description": "A plugin-based Web work platform built on DeepSeek Harness, with global Skill management and native workspace integration. 基于 DeepSeek Harness 的插件化 Web 工作平台。",
-  "summary": "workdsh：基于 DeepSeek Harness 的插件化 Web 工作平台。适合在 Agent Skills 相关工作流里先做选型判断。",
-  "category": "自动化",
-  "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
+  "homepage": "https://techflag.github.io/workdsh/",
+  "description": "A WorkBuddy-style desktop workspace powered by the DSH plugin ecosystem. WorkDSH manages projects, assets, experts, skills and connectors locally on desktop. All features are extensible via DeepSeek Harness plugins. Local-first, open ecosystem.",
+  "summary": "workdsh：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "技能开发",
+  "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
-  "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
   "scenarios": [
-    "重复任务",
-    "浏览器操作",
-    "跨工具集成"
+    "创建技能",
+    "组织工作流",
+    "扩展 Agent 能力"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+  "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
   "installCommand": "git clone https://github.com/techflag/workdsh.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 96,
+  "stars": 107,
   "forks": 23,
   "openIssues": 1,
-  "score": 90.6,
+  "score": 91.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-26T04:40:24Z",
-  "updatedAt": "2026-09-26T04:40:28Z",
+  "pushedAt": "2026-09-26T13:33:36Z",
+  "updatedAt": "2026-09-27T04:28:57Z",
   "createdAt": "2026-09-10T08:25:05Z",
   "sourceTopics": [
     "workbuddy-skill"
@@ -66,70 +66,70 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 DeepSeek Harness 的插件化 Web 工作平台。",
+    "summary": "workdsh 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
-      "重复任务",
-      "浏览器操作",
-      "跨工具集成"
+      "创建技能",
+      "组织工作流",
+      "扩展 Agent 能力"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
+      "需要创建、验证、安装、管理与分发 Skills 的基础设施能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "6c4925c4623de806",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "1c90da8e66a1f8d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "workdsh：基于 DeepSeek Harness 的插件化 Web 工作平台。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "workdsh 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "workdsh：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "workdsh 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "网页操作、工具集成和重复流程经常需要人工一步步处理。",
-      "跨平台工作流缺少统一入口。",
-      "Agent 想执行真实操作时，需要可靠的工具连接方式。",
-      "如果你的任务和「重复任务」有关，它能帮你先建立一个可试用的入口。"
+      "想创建 Skill，但不知道结构、规范、安装和验证流程。",
+      "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
+      "把现有知识转成 Agent 可调用能力时容易不成体系。",
+      "如果你的任务和「创建技能」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助自动化浏览器、网页抓取、工具调用、批处理或跨系统集成。",
-      "把重复任务封装成 Agent 可以触发的流程。",
-      "帮助你判断它是否适合当前自动化任务。",
+      "辅助创建、生成、验证、安装、管理或分发 Agent Skills。",
+      "把技能文件、说明文档和触发方式组织起来。",
+      "帮助你判断它是否适合搭建自己的技能库。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "经常处理重复网页操作、数据搬运或工具联动的人。",
-      "想让 Agent 执行半自动流程的开发者和运营人员。",
-      "需要把日常任务脚本化的小团队。",
+      "准备写自定义 Agent Skills 的开发者。",
+      "需要维护团队技能库或插件库的人。",
+      "想把文档、流程或经验产品化为 Skill 的团队。",
       "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "涉及账号风控、违规抓取或平台禁止自动化的场景。",
-      "没有能力检查自动化结果和异常的人。"
+      "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
+      "没有明确技能场景，只想批量生成空壳的人。"
     ],
     "howItWorks": [
-      "通常通过浏览器控制、API、CLI、Webhook 或 Skill 执行任务。",
-      "用户配置目标工具后，让 Agent 按流程操作。",
-      "稳定性取决于目标网站、权限和异常处理。",
+      "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
+      "用户输入领域说明或现有材料后，工具生成可安装结构。",
+      "生成后仍需要在真实 Agent 环境里测试。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用测试账号或非关键任务验证。",
-      "确认它是否遵守目标平台规则。",
-      "把失败重试、日志和人工确认步骤补上后再扩大使用。"
+      "先阅读它支持的 Skill 格式。",
+      "用一个很小的技能需求生成或校验。",
+      "放进目标 Agent 客户端试跑，再迭代说明文档。"
     ],
     "expectedOutcome": [
-      "重复操作耗时减少。",
-      "跨工具流程更顺。",
-      "Agent 可以承担更多可控的执行型任务。"
+      "创建 Skill 的门槛降低。",
+      "技能结构更统一，别人更容易安装和理解。",
+      "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

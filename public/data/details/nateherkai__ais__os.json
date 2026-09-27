@@ -1,14 +1,14 @@
 {
-  "rank": 947,
-  "id": 1293371220,
-  "name": "speak-human-tw",
-  "fullName": "Raymondhou0917/speak-human-tw",
-  "owner": "Raymondhou0917",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/14795468?v=4",
-  "url": "https://github.com/Raymondhou0917/speak-human-tw",
+  "rank": 1153,
+  "id": 1226088627,
+  "name": "AIS-OS",
+  "fullName": "nateherkai/AIS-OS",
+  "owner": "nateherkai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/253835467?v=4",
+  "url": "https://github.com/nateherkai/AIS-OS",
   "homepage": "",
-  "description": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。",
-  "summary": "speak-human-tw：「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "AI Operating System starter kit for Claude Code and Codex. Five skills: /onboard, /audit, /link, /level-up, and /3d-brain. Includes the Three Ms framework.",
+  "summary": "AIS-OS：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,50 +19,38 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/Raymondhou0917/speak-human-tw.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 999,
-  "forks": 112,
-  "openIssues": 2,
-  "score": 110.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-26T04:34:53Z",
-  "updatedAt": "2026-09-26T04:34:57Z",
-  "createdAt": "2026-07-08T09:23:53Z",
+  "installCommand": "git clone https://github.com/nateherkai/AIS-OS.git",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 1488,
+  "forks": 429,
+  "openIssues": 9,
+  "score": 107.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-09-07T01:16:41Z",
+  "updatedAt": "2026-09-27T02:22:04Z",
+  "createdAt": "2026-05-01T00:53:01Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-skills",
-    "ai-writing",
-    "claude-code",
-    "codex",
-    "cursor",
-    "humanizer",
-    "prompt-engineering",
-    "traditional-chinese",
-    "writing-tools",
-    "zh-tw"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Raymondhou0917/speak-human-tw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/AIS-OS",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Raymondhou0917/speak-human-tw#readme",
-  "detailPath": "data/details/raymondhou0917__speak__human__tw.json",
+  "readmeUrl": "https://github.com/nateherkai/AIS-OS#readme",
+  "detailPath": "data/details/nateherkai__ais__os.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。",
+    "summary": "AIS-OS 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +66,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "843e78b1f6dc9fa2",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "d2d3e7fa158c025d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "speak-human-tw：「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "speak-human-tw 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "AIS-OS：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "AIS-OS 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +93,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -128,7 +116,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

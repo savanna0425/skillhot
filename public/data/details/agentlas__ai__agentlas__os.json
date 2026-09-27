@@ -1,77 +1,75 @@
 {
-  "rank": 1490,
-  "id": 1169252093,
-  "name": "anythingmcp",
-  "fullName": "HelpCode-ai/anythingmcp",
-  "owner": "HelpCode-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/209786798?v=4",
-  "url": "https://github.com/HelpCode-ai/anythingmcp",
-  "homepage": "https://anythingmcp.com",
-  "description": "🔌 #1 MCP Gateway on GitHub — Connect Claude, ChatGPT, Copilot and any AI client to 200+ ready-to-use connectors, existing MCP servers, and any REST, SOAP, GraphQL or SQL system. Self-hosted, no-code and open source. Automatically builds Knowledge Graphs and AI Skills from how your systems connect, with SSO, governance and enterprise access control",
-  "summary": "anythingmcp：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 1188,
+  "id": 1258962324,
+  "name": "Agentlas-OS",
+  "fullName": "agentlas-ai/Agentlas-OS",
+  "owner": "agentlas-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/291026769?v=4",
+  "url": "https://github.com/agentlas-ai/Agentlas-OS",
+  "homepage": "https://agentlas.cloud",
+  "description": "Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.",
+  "summary": "Agentlas-OS：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "model switch|provider management|model gateway|llm gat",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/HelpCode-ai/anythingmcp.git",
-  "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 373,
-  "forks": 49,
-  "openIssues": 19,
-  "score": 100,
+  "installCommand": "git clone https://github.com/agentlas-ai/Agentlas-OS.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1545,
+  "forks": 100,
+  "openIssues": 1,
+  "score": 106.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-25T19:54:59Z",
-  "updatedAt": "2026-09-26T00:00:51Z",
-  "createdAt": "2026-02-28T12:01:26Z",
+  "pushedAt": "2026-09-25T09:55:42Z",
+  "updatedAt": "2026-09-27T04:59:51Z",
+  "createdAt": "2026-06-04T04:33:26Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "a2a",
+    "agent",
+    "agent-framework",
+    "agent-os-desktop",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "agentos",
+    "agents",
+    "agents-team",
+    "agentshub",
     "ai-agents",
-    "ai-gateway",
-    "api-gateway",
-    "chatgpt",
-    "chatgpt-apps",
-    "claude",
-    "claude-connectors",
-    "docker",
-    "hacktoberfest",
-    "knowledge-graph",
+    "autonomous-agents",
+    "llm",
+    "llm-agents",
+    "llm-tools",
     "mcp",
-    "mcp-gateway",
-    "mcp-server",
-    "mcp-servers",
-    "model-context-protocol",
-    "no-code",
-    "openapi-to-mcp",
-    "rest-to-mcp",
-    "self-hosted",
-    "soap-to-mcp"
+    "multi-agent-systems",
+    "ochestration"
   ],
   "platforms": [
-    "Claude",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HelpCode-ai/anythingmcp",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/agentlas-ai/Agentlas-OS",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HelpCode-ai/anythingmcp#readme",
-  "detailPath": "data/details/helpcode__ai__anythingmcp.json",
+  "readmeUrl": "https://github.com/agentlas-ai/Agentlas-OS#readme",
+  "detailPath": "data/details/agentlas__ai__agentlas__os.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "anythingmcp 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "Agentlas-OS 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -87,17 +85,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "0d5cdd93fc298bea",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "89d91dce1c5aa3ec",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anythingmcp：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "anythingmcp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Agentlas-OS：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Agentlas-OS 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -114,7 +112,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -137,7 +135,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 988,
-  "id": 1194353632,
-  "name": "kordoc",
-  "fullName": "chrisryugj/kordoc",
-  "owner": "chrisryugj",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/212630997?v=4",
-  "url": "https://github.com/chrisryugj/kordoc",
-  "homepage": "https://www.npmjs.com/package/kordoc",
-  "description": "모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 | Convert Korean documents (HWP, HWPX, PDF, Office) to Markdown — CLI and MCP server with form filling and diff",
-  "summary": "kordoc：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 884,
+  "id": 70271182,
+  "name": "OpenOutreach",
+  "fullName": "eracle/OpenOutreach",
+  "owner": "eracle",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3613943?v=4",
+  "url": "https://github.com/eracle/OpenOutreach",
+  "homepage": "https://openoutreach.app",
+  "description": "Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit, explains why each one does, and emails them from your mailbox. Self-hosted CLI, one install.",
+  "summary": "OpenOutreach：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,35 +19,39 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chrisryugj/kordoc.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 1977,
-  "forks": 364,
+  "installCommand": "git clone https://github.com/eracle/OpenOutreach.git",
+  "language": "Python",
+  "license": "GPL-3.0",
+  "stars": 3098,
+  "forks": 567,
   "openIssues": 0,
-  "score": 109.2,
+  "score": 113.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-25T06:53:48Z",
-  "updatedAt": "2026-09-26T02:19:43Z",
-  "createdAt": "2026-03-28T08:33:25Z",
+  "pushedAt": "2026-09-24T20:48:51Z",
+  "updatedAt": "2026-09-27T05:13:51Z",
+  "createdAt": "2016-10-07T18:10:30Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "cli",
-    "document-parser",
-    "docx",
-    "hancom",
-    "hwp",
-    "hwpx",
-    "korean",
-    "markdown",
-    "mcp",
-    "office",
-    "parser",
-    "pdf",
-    "xlsx"
+    "agent",
+    "agentic",
+    "agentic-marketing",
+    "agentic-workflow",
+    "automation",
+    "b2b",
+    "email-automation",
+    "icp",
+    "lead-generation",
+    "lead-qualification",
+    "llm",
+    "marketing",
+    "marketing-automation",
+    "outreach",
+    "prospecting",
+    "sales-intelligence",
+    "self-hosted"
   ],
   "platforms": [
     "Agent Skills"
@@ -55,15 +59,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chrisryugj/kordoc",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/eracle/OpenOutreach",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chrisryugj/kordoc#readme",
-  "detailPath": "data/details/chrisryugj__kordoc.json",
+  "readmeUrl": "https://github.com/eracle/OpenOutreach#readme",
+  "detailPath": "data/details/eracle__openoutreach.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "kordoc：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "OpenOutreach：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -79,17 +83,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "5be8f77ce8d411ce",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "52e16faac2805085",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kordoc：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "kordoc 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "OpenOutreach：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "OpenOutreach 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -129,7 +133,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

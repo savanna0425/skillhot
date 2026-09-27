@@ -1,5 +1,5 @@
 {
-  "rank": 670,
+  "rank": 276,
   "id": 1193082155,
   "name": "harness",
   "fullName": "revfactory/harness",
@@ -8,7 +8,7 @@
   "url": "https://github.com/revfactory/harness",
   "homepage": "https://revfactory.github.io/harness/",
   "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-  "summary": "harness：元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "harness：元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
   "installCommand": "git clone https://github.com/revfactory/harness.git",
-  "language": "HTML",
+  "language": "",
   "license": "Apache-2.0",
-  "stars": 9065,
-  "forks": 1283,
-  "openIssues": 21,
-  "score": 118,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-24T23:35:08Z",
-  "updatedAt": "2026-09-26T01:31:46Z",
+  "stars": 9071,
+  "forks": 1286,
+  "openIssues": 1,
+  "score": 133,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-26T09:01:25Z",
+  "updatedAt": "2026-09-27T01:10:14Z",
   "createdAt": "2026-03-26T21:22:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -42,10 +42,9 @@
     "harness-engineering"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
-  "skillCount": 149,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/revfactory/harness",
@@ -75,13 +74,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "a4e00ae00c7fd308",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "6698b8b41e670d2e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "harness：元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "harness：元技能：设计领域专用代理团队，定义专用代理，并生成其使用的技能。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "harness 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -99,7 +98,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
@@ -109,7 +108,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "仓库信息显示它包含 149+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

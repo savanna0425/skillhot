@@ -1,5 +1,5 @@
 {
-  "rank": 1694,
+  "rank": 1685,
   "id": 1255328803,
   "name": "dryforge",
   "fullName": "prekuter/dryforge",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/98894019?v=4",
   "url": "https://github.com/prekuter/dryforge",
   "homepage": "https://dryforge.dev",
-  "description": "Fundamentally different approach to coding agents: bounded autonomy, from intent to implementation. ready, then go.",
+  "description": "Bounded-autonomy plugin harness for agents. Intent to implementation: ready, then go.",
   "summary": "dryforge：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/prekuter/dryforge.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 276,
+  "stars": 282,
   "forks": 26,
-  "openIssues": 0,
-  "score": 93,
+  "openIssues": 1,
+  "score": 93.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-25T15:22:09Z",
-  "updatedAt": "2026-09-26T04:45:55Z",
+  "pushedAt": "2026-09-26T18:39:12Z",
+  "updatedAt": "2026-09-26T18:39:40Z",
   "createdAt": "2026-05-31T17:38:22Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -37,6 +37,7 @@
     "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-harness",
     "agent-plugins",
     "agent-skills",
     "agentic-coding",
@@ -55,8 +56,7 @@
     "openai-codex",
     "skills",
     "spec-driven",
-    "spec-driven-development",
-    "vibe-coding"
+    "spec-driven-development"
   ],
   "platforms": [
     "Claude",
@@ -73,7 +73,7 @@
   "readmeUrl": "https://github.com/prekuter/dryforge#readme",
   "detailPath": "data/details/prekuter__dryforge.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "dryforge 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -94,8 +94,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "bf422d900a9482d6",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "d9e74cb428869a51",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

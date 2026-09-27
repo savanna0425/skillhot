@@ -1,14 +1,14 @@
 {
-  "rank": 2255,
-  "id": 1131069720,
-  "name": "Tailwind-Agent-Skills",
-  "fullName": "Lombiq/Tailwind-Agent-Skills",
-  "owner": "Lombiq",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/8158177?v=4",
-  "url": "https://github.com/Lombiq/Tailwind-Agent-Skills",
-  "homepage": "",
-  "description": "Agent-optimized Tailwind CSS v4 documentation skill with local snapshots and indexing.",
-  "summary": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1150,
+  "id": 1334011664,
+  "name": "univer-workspace",
+  "fullName": "dream-num/univer-workspace",
+  "owner": "dream-num",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/61444807?v=4",
+  "url": "https://github.com/dream-num/univer-workspace",
+  "homepage": "https://univer.ai",
+  "description": "An open-source Office workspace where people and AI agents create, collaborate, and review together.",
+  "summary": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,27 +19,32 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Lombiq/Tailwind-Agent-Skills.git",
-  "language": "Python",
-  "license": "BSD-3-Clause",
-  "stars": 72,
-  "forks": 10,
-  "openIssues": 0,
-  "score": 64.9,
-  "activity": "活跃",
-  "pushedAt": "2026-04-09T11:27:01Z",
-  "updatedAt": "2026-09-24T22:28:38Z",
-  "createdAt": "2026-01-09T12:32:36Z",
-  "sourceTopics": [
-    "ai-skills"
-  ],
+  "installCommand": "git clone https://github.com/dream-num/univer-workspace.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 1633,
+  "forks": 144,
+  "openIssues": 6,
+  "score": 107.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-27T03:06:17Z",
+  "updatedAt": "2026-09-27T05:24:35Z",
+  "createdAt": "2026-08-14T09:24:34Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-skills",
-    "tailwind"
+    "board",
+    "docx",
+    "dsh-plugin",
+    "excel",
+    "local-first",
+    "notion-database",
+    "office",
+    "pptx",
+    "self-hosted",
+    "xlsx"
   ],
   "platforms": [
     "Agent Skills"
@@ -47,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Lombiq/Tailwind-Agent-Skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dream-num/univer-workspace",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Lombiq/Tailwind-Agent-Skills#readme",
-  "detailPath": "data/details/lombiq__tailwind__agent__skills.json",
+  "readmeUrl": "https://github.com/dream-num/univer-workspace#readme",
+  "detailPath": "data/details/dream__num__univer__workspace.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -71,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 BSD-3-Clause，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "9c3dbfeac6e2f8fe",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "5a16016fa33266bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Tailwind-Agent-Skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Tailwind-Agent-Skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "univer-workspace 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -121,7 +126,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 BSD-3-Clause，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,66 +1,65 @@
 {
-  "rank": 741,
-  "id": 1236336437,
-  "name": "sprite-gen",
-  "fullName": "aldegad/sprite-gen",
-  "owner": "aldegad",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/11458183?v=4",
-  "url": "https://github.com/aldegad/sprite-gen",
-  "homepage": "",
-  "description": "Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill.",
-  "summary": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1151,
+  "id": 1349122168,
+  "name": "Easel",
+  "fullName": "ZJU-REAL/Easel",
+  "owner": "ZJU-REAL",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/203928864?v=4",
+  "url": "https://github.com/ZJU-REAL/Easel",
+  "homepage": "https://zju-real.github.io/Easel/",
+  "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+  "summary": "Easel：一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "python3 -m venv .venv && source .venv/bin/activate\npip install -e .\nsprite-gen --help",
+  "installCommand": "git clone https://github.com/ZJU-REAL/Easel.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1861,
-  "forks": 181,
-  "openIssues": 2,
-  "score": 116.5,
+  "stars": 1632,
+  "forks": 238,
+  "openIssues": 13,
+  "score": 107.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-26T02:59:54Z",
-  "updatedAt": "2026-09-26T04:17:18Z",
-  "createdAt": "2026-05-12T06:49:09Z",
+  "pushedAt": "2026-09-24T03:12:47Z",
+  "updatedAt": "2026-09-27T05:22:16Z",
+  "createdAt": "2026-08-28T02:22:27Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "2d-game",
-    "ai-tools",
-    "claude-code",
-    "codex",
-    "game-dev",
-    "gamedev",
-    "pixel-art",
-    "sprite-generation",
-    "sprite-sheet"
+    "agent",
+    "agent-skill",
+    "content-automation",
+    "content-creation",
+    "content-generation",
+    "mcp",
+    "openclaw",
+    "social-media",
+    "social-media-management"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aldegad/sprite-gen",
-    "videoUrl": "https://youtu.be/zVu9YlbPtog"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZJU-REAL/Easel",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aldegad/sprite-gen#readme",
-  "detailPath": "data/details/aldegad__sprite__gen.json",
+  "readmeUrl": "https://github.com/ZJU-REAL/Easel#readme",
+  "detailPath": "data/details/zju__real__easel.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,14 +78,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-26T05:08:13.749Z",
-    "sourceHash": "29aa7a39246fcbfd",
+    "generatedAt": "2026-09-27T05:26:00.682Z",
+    "sourceHash": "f1cda1d2fcf4a238",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "sprite-gen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "sprite-gen 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Easel：一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "Easel 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -103,7 +102,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
