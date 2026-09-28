@@ -1,14 +1,14 @@
 {
-  "rank": 1150,
-  "id": 1334011664,
-  "name": "univer-workspace",
-  "fullName": "dream-num/univer-workspace",
-  "owner": "dream-num",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/61444807?v=4",
-  "url": "https://github.com/dream-num/univer-workspace",
-  "homepage": "https://univer.ai",
-  "description": "An open-source Office workspace where people and AI agents create, collaborate, and review together.",
-  "summary": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1461,
+  "id": 1379003933,
+  "name": "WeChatBridge",
+  "fullName": "freestylefly/WeChatBridge",
+  "owner": "freestylefly",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/43960064?v=4",
+  "url": "https://github.com/freestylefly/WeChatBridge",
+  "homepage": "https://render.qmuse.pub/p/muse/2413870555736078/index.html",
+  "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+  "summary": "WeChatBridge：微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,32 +19,29 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dream-num/univer-workspace.git",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 1633,
-  "forks": 144,
-  "openIssues": 6,
-  "score": 107.2,
+  "installCommand": "git clone https://github.com/freestylefly/WeChatBridge.git",
+  "language": "Swift",
+  "license": "MIT",
+  "stars": 851,
+  "forks": 308,
+  "openIssues": 2,
+  "score": 100.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-27T03:06:17Z",
-  "updatedAt": "2026-09-27T05:24:35Z",
-  "createdAt": "2026-08-14T09:24:34Z",
+  "pushedAt": "2026-09-23T15:43:39Z",
+  "updatedAt": "2026-09-28T04:28:21Z",
+  "createdAt": "2026-09-21T02:54:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "board",
-    "docx",
-    "dsh-plugin",
-    "excel",
-    "local-first",
-    "notion-database",
-    "office",
-    "pptx",
-    "self-hosted",
-    "xlsx"
+    "ai-agent",
+    "chat-history",
+    "macos",
+    "obsidian",
+    "share-extension",
+    "swift",
+    "wechat"
   ],
   "platforms": [
     "Agent Skills"
@@ -52,15 +49,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/dream-num/univer-workspace",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/freestylefly/WeChatBridge",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/dream-num/univer-workspace#readme",
-  "detailPath": "data/details/dream__num__univer__workspace.json",
+  "readmeUrl": "https://github.com/freestylefly/WeChatBridge#readme",
+  "detailPath": "data/details/freestylefly__wechatbridge.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -76,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "5a16016fa33266bf",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "1d6ec0d3ad54d46d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "univer-workspace：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "univer-workspace 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "WeChatBridge：微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "WeChatBridge 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -126,7 +123,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

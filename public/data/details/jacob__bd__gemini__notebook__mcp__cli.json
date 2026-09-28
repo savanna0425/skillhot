@@ -1,5 +1,5 @@
 {
-  "rank": 352,
+  "rank": 354,
   "id": 1121438740,
   "name": "gemini-notebook-mcp-cli",
   "fullName": "jacob-bd/gemini-notebook-mcp-cli",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "uv tool install notebooklm-mcp-cli",
+  "installCommand": "uv tool install notebooklm-mcp-cli   # 1. Install (gives you `nlm` and the MCP server)\nnlm login                            # 2. Sign in to your Google account\nnlm setup                            # 3. Connect your AI tools",
   "language": "Python",
   "license": "MIT",
-  "stars": 6166,
+  "stars": 6174,
   "forks": 936,
-  "openIssues": 3,
+  "openIssues": 1,
   "score": 129,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-24T22:01:37Z",
-  "updatedAt": "2026-09-27T01:47:56Z",
+  "pushedAt": "2026-09-28T02:39:59Z",
+  "updatedAt": "2026-09-28T04:41:15Z",
   "createdAt": "2025-12-23T02:07:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,7 +41,7 @@
     "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "Antigravity"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -73,8 +73,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "069f09b14391f999",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "7d73d631e185b599",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

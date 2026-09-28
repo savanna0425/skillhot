@@ -1,5 +1,5 @@
 {
-  "rank": 611,
+  "rank": 614,
   "id": 1341067556,
   "name": "pr-lens",
   "fullName": "coldteadotai/pr-lens",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/271766966?v=4",
   "url": "https://github.com/coldteadotai/pr-lens",
   "homepage": "https://prlens.dev",
-  "description": "Review code 100X faster. Lens draws every PR as animated architecture and data-flow walkthroughs, inside the pull request itself. Use it as a GitHub App, GitHub Action, CLI, or a skill for your coding agent",
+  "description": "Review code 100X faster. Lens draws every PR as animated architecture and data-flow walkthroughs, inside the pull request itself. Use it as a GitHub App, GitHub Action, CLI, or a Skill for your coding agent ",
   "summary": "pr-lens：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "Then instruct your coding agent e.g.:\n> Diagram the change you just made with PR Lens and attach it to the pull request.\nThe agent reads the diff, writes the document, runs `npx @coldtea/pr-lens-cli validate` until the contract is satisfied, renders, and puts the diagram in the pull request description with `gh pr create --attach`, so it lands with the chang",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1720,
-  "forks": 65,
-  "openIssues": 3,
-  "score": 119.7,
+  "stars": 1732,
+  "forks": 67,
+  "openIssues": 4,
+  "score": 119.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-27T02:39:50Z",
-  "updatedAt": "2026-09-27T02:51:23Z",
+  "pushedAt": "2026-09-28T01:55:30Z",
+  "updatedAt": "2026-09-28T04:17:29Z",
   "createdAt": "2026-08-20T19:16:16Z",
   "sourceTopics": [
     "claude-skills"
@@ -89,8 +89,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "367f930d6323132d",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "827b282e6b0dbe41",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

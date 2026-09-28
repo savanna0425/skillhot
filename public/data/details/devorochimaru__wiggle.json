@@ -1,50 +1,57 @@
 {
-  "rank": 2216,
-  "id": 1173627851,
-  "name": "aspm",
-  "fullName": "arkylab/aspm",
-  "owner": "arkylab",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/264723361?v=4",
-  "url": "https://github.com/arkylab/aspm",
-  "homepage": "",
-  "description": "A Git-based package manager designed for AI-assisted development, similar to npm but supporting skills, agents, commands, hooks, and any AI resource types.",
-  "summary": "aspm：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 2219,
+  "id": 1088137275,
+  "name": "Wiggle",
+  "fullName": "devorochimaru/Wiggle",
+  "owner": "devorochimaru",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/235113976?v=4",
+  "url": "https://github.com/devorochimaru/Wiggle",
+  "homepage": "https://devorochimaru.vercel.app",
+  "description": "Run the exact sandbox VM Anthropic uses for Claude code sessions, with tools, packages, and skills included, on your own hardware.",
+  "summary": "Wiggle：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
   "scenarios": [
     "创建技能",
     "组织工作流",
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/arkylab/aspm.git",
-  "language": "Rust",
-  "license": "MIT",
-  "stars": 82,
-  "forks": 6,
+  "installCommand": "git clone https://github.com/devorochimaru/Wiggle.git",
+  "language": "JavaScript",
+  "license": "",
+  "stars": 0,
+  "forks": 0,
   "openIssues": 0,
-  "score": 66.1,
-  "activity": "活跃",
-  "pushedAt": "2026-05-02T05:10:37Z",
-  "updatedAt": "2026-09-14T13:29:18Z",
-  "createdAt": "2026-03-05T15:21:23Z",
+  "score": 66,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-27T06:18:55Z",
+  "updatedAt": "2026-09-27T06:18:58Z",
+  "createdAt": "2025-11-02T11:45:39Z",
   "sourceTopics": [
-    "ai-skill"
+    "anthropic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skill",
-    "claude",
-    "claude-code",
-    "claude-code-skill",
-    "claude-skill",
-    "package-manager",
-    "skill",
-    "skill-manager"
+    "anthropic-ai",
+    "anthropic-skills",
+    "claude-ai",
+    "claude-skills",
+    "figma",
+    "jetpack",
+    "jetpack-navigation",
+    "material-design",
+    "puppy",
+    "sameersyd",
+    "skill-md",
+    "spikeysanju",
+    "swift",
+    "tool-calling",
+    "wiggles"
   ],
   "platforms": [
     "Claude"
@@ -52,15 +59,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/arkylab/aspm",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/devorochimaru/Wiggle",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/arkylab/aspm#readme",
-  "detailPath": "data/details/arkylab__aspm.json",
+  "readmeUrl": "https://github.com/devorochimaru/Wiggle#readme",
+  "detailPath": "data/details/devorochimaru__wiggle.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "aspm 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "Wiggle 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -76,17 +83,17 @@
     ],
     "gettingStarted": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "eee82b07d88ae0ca",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "7e6b0a96b0921865",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aspm：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "aspm 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Wiggle：用于创建、验证、安装或管理 Agent Skills。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "Wiggle 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -126,7 +133,7 @@
       "团队知识更容易变成可执行能力。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

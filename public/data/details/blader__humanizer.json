@@ -1,5 +1,5 @@
 {
-  "rank": 70,
+  "rank": 29,
   "id": 1136666433,
   "name": "humanizer",
   "fullName": "blader/humanizer",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add blader/humanizer --global",
+  "installCommand": "The plugin answers to `/humanizer:humanizer`. It needs Claude Code 2.1.142 or newer; on older versions, use `npx skills add blader/humanizer --global --agent claude-code`.",
   "language": "Python",
   "license": "MIT",
-  "stars": 52201,
-  "forks": 4175,
-  "openIssues": 25,
-  "score": 148.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-06T20:26:10Z",
-  "updatedAt": "2026-09-27T05:18:45Z",
+  "stars": 52422,
+  "forks": 4187,
+  "openIssues": 3,
+  "score": 155.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-28T04:48:10Z",
+  "updatedAt": "2026-09-28T05:29:57Z",
   "createdAt": "2026-01-18T05:30:15Z",
   "sourceTopics": [
     "agent-skills"
@@ -50,7 +50,10 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -82,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "b7e980dab4a56e96",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "5d660628c496551d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

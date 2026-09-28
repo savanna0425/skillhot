@@ -1,5 +1,5 @@
 {
-  "rank": 1215,
+  "rank": 573,
   "id": 809673506,
   "name": "atomic-agents",
   "fullName": "Eigenwise/atomic-agents",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Eigenwise/atomic-agents",
   "homepage": "https://eigenwise.github.io/atomic-agents/",
   "description": "Building AI agents, atomically",
-  "summary": "atomic-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "atomic-agents：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Eigenwise/atomic-agents.git",
+  "installCommand": "pip install atomic-agents",
   "language": "Python",
   "license": "MIT",
-  "stars": 6259,
+  "stars": 6261,
   "forks": 543,
-  "openIssues": 12,
-  "score": 106.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-24T12:20:08Z",
-  "updatedAt": "2026-09-26T20:37:06Z",
+  "openIssues": 6,
+  "score": 121.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-27T20:24:57Z",
+  "updatedAt": "2026-09-28T02:30:19Z",
   "createdAt": "2024-06-03T08:24:07Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,13 +44,17 @@
     "openai-api"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Eigenwise/atomic-agents",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=Sp30YsjGUW0"
   },
   "readmeUrl": "https://github.com/Eigenwise/atomic-agents#readme",
   "detailPath": "data/details/eigenwise__atomic__agents.json",
@@ -76,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "6f32e23b7fddf1e9",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "a23534dbdbaa3750",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "atomic-agents：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "atomic-agents：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "atomic-agents 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -100,7 +104,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

@@ -1,17 +1,17 @@
 {
-  "rank": 2309,
-  "id": 1349080902,
-  "name": "slide-drawer-skill",
-  "fullName": "HiMyNameIsDavidKim/slide-drawer-skill",
-  "owner": "HiMyNameIsDavidKim",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/112922638?v=4",
-  "url": "https://github.com/HiMyNameIsDavidKim/slide-drawer-skill",
+  "rank": 885,
+  "id": 1278235302,
+  "name": "audio.cpp",
+  "fullName": "0xShug0/audio.cpp",
+  "owner": "0xShug0",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/231717474?v=4",
+  "url": "https://github.com/0xShug0/audio.cpp",
   "homepage": "",
-  "description": "Turn your writing into a 16:9 HTML slide deck, exported to PDF or PPTX. Turn an existing PDF or PPTX deck back into editable HTML. Works with Claude Code, Cursor, Codex CLI, Gemini CLI & more. MIT.",
-  "summary": "slide-drawer-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "An all-in-one, pure C++ inference engine for audio models, powered by ggml. Supports TTS, STT, VAD, voice conversion, music generation, and more, with highly optimized performance. No Python dependency.",
+  "summary": "audio.cpp：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,62 +19,58 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/HiMyNameIsDavidKim/slide-drawer-skill.git",
-  "language": "HTML",
-  "license": "MIT",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-08-28T02:12:25Z",
-  "updatedAt": "2026-08-28T02:21:19Z",
-  "createdAt": "2026-08-28T01:07:51Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "installCommand": "git clone https://github.com/0xShug0/audio.cpp.git",
+  "language": "C++",
+  "license": "NOASSERTION",
+  "stars": 3107,
+  "forks": 355,
+  "openIssues": 16,
+  "score": 113.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-28T01:21:36Z",
+  "updatedAt": "2026-09-28T05:22:14Z",
+  "createdAt": "2026-06-23T15:40:46Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentic-skills",
-    "ai-agents",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "claude-code-marketplace",
-    "claude-code-skills",
-    "codex",
-    "cursor",
-    "deck",
-    "html-slides",
-    "markdown-to-slides",
-    "pdf",
-    "pdf-to-html",
-    "pptx",
-    "presentation",
-    "semantic-html",
-    "slides"
+    "ai",
+    "amd-gpu",
+    "apple-silicon",
+    "asr",
+    "audio",
+    "cpp",
+    "edge-ai",
+    "ggml",
+    "minimax-music3",
+    "music-generation",
+    "speech-analysis",
+    "speech-to-speech",
+    "speech-to-text",
+    "text-to-speech",
+    "tts",
+    "voice-ai",
+    "voice-cloning",
+    "voice-conversion",
+    "vulkan",
+    "yue2"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HiMyNameIsDavidKim/slide-drawer-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/0xShug0/audio.cpp",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HiMyNameIsDavidKim/slide-drawer-skill#readme",
-  "detailPath": "data/details/himynameisdavidkim__slide__drawer__skill.json",
+  "readmeUrl": "https://github.com/0xShug0/audio.cpp#readme",
+  "detailPath": "data/details/0xshug0__audio__cpp.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "slide-drawer-skill：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "audio.cpp：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -90,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "b8bcf2e6b8e3d2bf",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "789397a21aa7d898",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "slide-drawer-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "slide-drawer-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "audio.cpp：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "audio.cpp 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -117,7 +113,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -140,7 +136,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

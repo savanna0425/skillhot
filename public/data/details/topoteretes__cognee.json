@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/125468716?v=4",
   "url": "https://github.com/topoteretes/cognee",
   "homepage": "https://www.cognee.ai",
-  "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-  "summary": "cognee：是面向智能体的开源 AI 记忆平台，支持跨会话持久化记忆，并采用自托管的知识图谱引擎。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
+  "summary": "cognee：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "uv pip install \"cognee[gliner]\"",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 30999,
-  "forks": 3101,
-  "openIssues": 443,
+  "stars": 31090,
+  "forks": 3108,
+  "openIssues": 448,
   "score": 141.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-27T04:50:56Z",
-  "updatedAt": "2026-09-27T05:15:02Z",
+  "pushedAt": "2026-09-27T20:22:42Z",
+  "updatedAt": "2026-09-28T05:27:52Z",
   "createdAt": "2023-08-16T16:16:33Z",
   "sourceTopics": [
     "agent-skills"
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Cognee 是面向智能体的开源 AI 记忆平台，支持跨会话持久化记忆，并采用自托管的知识图谱引擎",
+    "summary": "cognee 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -93,13 +93,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "f6355bf556815108",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "90b02d1d04f14de7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cognee：是面向智能体的开源 AI 记忆平台，支持跨会话持久化记忆，并采用自托管的知识图谱引擎。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "cognee：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "cognee 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

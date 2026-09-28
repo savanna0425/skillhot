@@ -1,66 +1,68 @@
 {
-  "rank": 1699,
-  "id": 1155099363,
-  "name": "openclaw-android",
-  "fullName": "aidanpark/openclaw-android",
-  "owner": "aidanpark",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18673827?v=4",
-  "url": "https://github.com/aidanpark/openclaw-android",
+  "rank": 1685,
+  "id": 1348316078,
+  "name": "ALTA",
+  "fullName": "kyky2347/ALTA",
+  "owner": "kyky2347",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/152370606?v=4",
+  "url": "https://github.com/kyky2347/ALTA",
   "homepage": "",
-  "description": "Run OpenClaw on Android with a single command — no proot, no Linux",
-  "summary": "openclaw-android：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution.",
+  "summary": "ALTA：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/aidanpark/openclaw-android.git",
-  "language": "Java",
-  "license": "MIT",
-  "stars": 1762,
-  "forks": 221,
-  "openIssues": 35,
-  "score": 93,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-29T10:34:28Z",
-  "updatedAt": "2026-09-24T01:51:02Z",
-  "createdAt": "2026-02-11T05:48:53Z",
+  "installCommand": "git clone https://github.com/kyky2347/ALTA.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 842,
+  "forks": 98,
+  "openIssues": 4,
+  "score": 93.3,
+  "activity": "本月活跃",
+  "pushedAt": "2026-09-13T09:11:07Z",
+  "updatedAt": "2026-09-28T05:29:26Z",
+  "createdAt": "2026-08-27T09:42:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agent",
-    "android",
-    "homelab",
-    "low-power",
-    "nodejs",
-    "openclaw",
-    "repurpose-phone",
-    "self-hosted",
-    "termux"
+    "autonomous-agents",
+    "codex-app-server",
+    "event-driven-architecture",
+    "llm-agents",
+    "local-first",
+    "market-research",
+    "multi-agent-systems",
+    "operator-console",
+    "quantitative-finance",
+    "react",
+    "research-software",
+    "shadow-trading"
   ],
   "platforms": [
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aidanpark/openclaw-android",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kyky2347/ALTA",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aidanpark/openclaw-android#readme",
-  "detailPath": "data/details/aidanpark__openclaw__android.json",
+  "readmeUrl": "https://github.com/kyky2347/ALTA#readme",
+  "detailPath": "data/details/kyky2347__alta.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "openclaw-android 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "ALTA 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,17 +78,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-27T05:26:00.682Z",
-    "sourceHash": "b781026b763a487e",
+    "generatedAt": "2026-09-28T05:32:57.081Z",
+    "sourceHash": "a6eab87bdac9c53b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openclaw-android：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "openclaw-android 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ALTA：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "ALTA 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -103,7 +105,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -126,7 +128,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
