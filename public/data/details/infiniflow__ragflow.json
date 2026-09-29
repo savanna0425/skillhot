@@ -1,5 +1,5 @@
 {
-  "rank": 63,
+  "rank": 64,
   "id": 730534580,
   "name": "ragflow",
   "fullName": "infiniflow/ragflow",
@@ -8,7 +8,7 @@
   "url": "https://github.com/infiniflow/ragflow",
   "homepage": "https://ragflow.io",
   "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-  "summary": "ragflow：是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ragflow：是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/infiniflow/ragflow.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 91396,
-  "forks": 10838,
-  "openIssues": 1530,
+  "stars": 91456,
+  "forks": 10853,
+  "openIssues": 1546,
   "score": 149.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-28T05:27:40Z",
-  "updatedAt": "2026-09-28T05:28:36Z",
+  "pushedAt": "2026-09-29T05:49:46Z",
+  "updatedAt": "2026-09-29T05:49:11Z",
   "createdAt": "2023-12-12T06:13:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -52,8 +52,7 @@
     "search-harness"
   ],
   "platforms": [
-    "Gemini CLI",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -85,13 +84,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-28T05:32:57.081Z",
-    "sourceHash": "7d16b728a6f5891a",
+    "generatedAt": "2026-09-29T05:51:13.360Z",
+    "sourceHash": "e7ae78168cac1d9b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ragflow：是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层。适合在 Gemini CLI、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ragflow：是一款领先的开源检索增强生成（RAG）引擎，融合前沿的 RAG 技术与 Agent 能力，为 LLM 构建更优越的上下文层。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "ragflow 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -109,7 +108,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

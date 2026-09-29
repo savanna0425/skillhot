@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pipx install terravision   # or: uv tool install terravision",
+  "installCommand": "brew install graphviz git\nbrew install uv                        # not needed for Claude Desktop\nbrew install hashicorp/tap/terraform   # optional: to draw from Terraform code",
   "language": "Python",
   "license": "AGPL-3.0",
   "stars": 1639,
   "forks": 176,
-  "openIssues": 7,
+  "openIssues": 4,
   "score": 115.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-25T20:44:56Z",
-  "updatedAt": "2026-09-25T20:45:01Z",
+  "pushedAt": "2026-09-28T21:27:01Z",
+  "updatedAt": "2026-09-28T22:58:21Z",
   "createdAt": "2022-03-13T04:47:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -81,8 +81,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-28T05:32:57.081Z",
-    "sourceHash": "66592f6e1fe07da5",
+    "generatedAt": "2026-09-29T05:51:13.360Z",
+    "sourceHash": "d8ecdde60f5075fe",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

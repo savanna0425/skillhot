@@ -1,5 +1,5 @@
 {
-  "rank": 1439,
+  "rank": 1296,
   "id": 1381356320,
   "name": "anidoodle",
   "fullName": "alexgreensh/anidoodle",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/210140430?v=4",
   "url": "https://github.com/alexgreensh/anidoodle",
   "homepage": "https://alexgreenshpun.com",
-  "description": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+  "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
   "summary": "anidoodle：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
+  "categoryConfidence": "高",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/alexgreensh/anidoodle.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 587,
-  "forks": 49,
-  "openIssues": 5,
-  "score": 100.6,
+  "stars": 669,
+  "forks": 54,
+  "openIssues": 1,
+  "score": 102,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-27T21:41:56Z",
-  "updatedAt": "2026-09-28T05:28:15Z",
+  "pushedAt": "2026-09-28T12:21:12Z",
+  "updatedAt": "2026-09-29T05:47:41Z",
   "createdAt": "2026-09-22T11:20:47Z",
   "sourceTopics": [
     "skill"
@@ -51,6 +51,8 @@
     "generative-art",
     "hand-drawn",
     "illustration",
+    "launch-video",
+    "motion-design",
     "plugin",
     "procedural-generation",
     "skill"
@@ -89,8 +91,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-28T05:32:57.081Z",
-    "sourceHash": "75a9c7a3d2f317d9",
+    "generatedAt": "2026-09-29T05:51:13.360Z",
+    "sourceHash": "7ce3ccb99e3c86c0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
