@@ -1,5 +1,5 @@
 {
-  "rank": 850,
+  "rank": 841,
   "id": 1347550908,
   "name": "awesome-seedance",
   "fullName": "LearnPrompt/awesome-seedance",
@@ -8,7 +8,7 @@
   "url": "https://github.com/LearnPrompt/awesome-seedance",
   "homepage": "https://goodcase.ai/cases?filter=video",
   "description": "🎬 Evidence-led Seedance 2.5 / 2.0 prompt library: 463 cases traced to original posts, 264 cross-model retest runs with public verdicts, 25 copy-ready templates, 60 installable AI-video Skills. EN / 中文 / 日本語.",
-  "summary": "awesome-seedance 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-seedance 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/LearnPrompt/awesome-seedance.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 1520,
-  "forks": 274,
+  "stars": 1549,
+  "forks": 281,
   "openIssues": 1,
-  "score": 114.4,
+  "score": 114.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-28T22:01:18Z",
-  "updatedAt": "2026-09-29T05:48:44Z",
+  "pushedAt": "2026-09-29T22:02:53Z",
+  "updatedAt": "2026-09-30T02:30:51Z",
   "createdAt": "2026-08-26T16:23:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,9 +57,10 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 59,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/LearnPrompt/awesome-seedance",
@@ -68,7 +69,7 @@
   "readmeUrl": "https://github.com/LearnPrompt/awesome-seedance#readme",
   "detailPath": "data/details/learnprompt__awesome__seedance.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "中文 / 日本語.",
     "useCases": [
@@ -89,13 +90,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-29T05:51:13.360Z",
-    "sourceHash": "b23b94eb889917f6",
+    "generatedAt": "2026-09-30T05:41:01.028Z",
+    "sourceHash": "ad6559557d216980",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-seedance 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-seedance 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-seedance 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
@@ -113,7 +114,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -123,7 +124,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 59+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

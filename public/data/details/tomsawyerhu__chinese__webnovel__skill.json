@@ -1,84 +1,64 @@
 {
-  "rank": 206,
-  "id": 645381450,
-  "name": "Generative-Media-Skills",
-  "fullName": "SamurAIGPT/Generative-Media-Skills",
-  "owner": "SamurAIGPT",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/131431084?v=4",
-  "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
-  "homepage": "https://muapi.ai?utm_source=github&utm_medium=about&utm_campaign=generative-media-skills",
-  "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
-  "summary": "Generative-Media-Skills：面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1710,
+  "id": 1211153639,
+  "name": "Chinese-WebNovel-Skill",
+  "fullName": "Tomsawyerhu/Chinese-WebNovel-Skill",
+  "owner": "Tomsawyerhu",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/46986832?v=4",
+  "url": "https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill",
+  "homepage": "",
+  "description": "中文网文小说写作skill",
+  "summary": "Chinese-WebNovel-Skill：中文网文小说写作skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g muapi-cli\npip install muapi-cli\nnpx muapi-cli --help",
-  "language": "Shell",
-  "license": "MIT",
-  "stars": 4337,
-  "forks": 496,
-  "openIssues": 4,
-  "score": 137.3,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-28T12:58:36Z",
-  "updatedAt": "2026-09-29T01:26:04Z",
-  "createdAt": "2023-05-25T14:21:12Z",
-  "sourceTopics": [
-    "skills",
-    "agent-skills",
-    "claude-code-skills"
-  ],
+  "installCommand": "git clone https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill.git",
+  "language": "Python",
+  "license": "",
+  "stars": 828,
+  "forks": 96,
+  "openIssues": 0,
+  "score": 93.2,
+  "activity": "近期活跃",
+  "pushedAt": "2026-08-28T11:29:21Z",
+  "updatedAt": "2026-09-30T05:36:17Z",
+  "createdAt": "2026-04-15T05:49:04Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agent-tools",
-    "ai-agents",
-    "ai-video",
+    "agent",
     "claude-code",
-    "claude-code-skills",
-    "fal-ai-alternative",
-    "flux",
-    "generative-ai",
-    "image-generation",
-    "kling",
-    "mcp",
-    "midjourney",
-    "muapi",
-    "multimodal-ai",
-    "skills",
-    "suno",
-    "text-to-image",
-    "text-to-video",
-    "video-generation"
+    "codex",
+    "design",
+    "modules",
+    "novel-writing",
+    "skills"
   ],
   "platforms": [
     "Claude",
-    "Cursor",
-    "Gemini CLI",
-    "OpenCode"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/SamurAIGPT/Generative-Media-Skills",
-    "videoUrl": "https://www.youtube.com/watch?v=kT1CO4BYV3A"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Tomsawyerhu/Chinese-WebNovel-Skill",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/SamurAIGPT/Generative-Media-Skills#readme",
-  "detailPath": "data/details/samuraigpt__generative__media__skills.json",
+  "readmeUrl": "https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill#readme",
+  "detailPath": "data/details/tomsawyerhu__chinese__webnovel__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力",
+    "summary": "中文网文小说写作skill",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -94,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-29T05:51:13.360Z",
-    "sourceHash": "5534ae2e05cd426d",
+    "generatedAt": "2026-09-30T05:41:01.028Z",
+    "sourceHash": "a475a82f2f5e269e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Generative-Media-Skills：面向 AI 代理的多模态生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供高质量图像、视频和音频生成能力。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "Generative-Media-Skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Chinese-WebNovel-Skill：中文网文小说写作skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Chinese-WebNovel-Skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -121,7 +101,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -144,7 +124,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

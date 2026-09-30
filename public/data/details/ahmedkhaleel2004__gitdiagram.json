@@ -1,14 +1,14 @@
 {
-  "rank": 2304,
-  "id": 1234376978,
-  "name": "note-organizer",
-  "fullName": "Renakoni/note-organizer",
-  "owner": "Renakoni",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/129755144?v=4",
-  "url": "https://github.com/Renakoni/note-organizer",
-  "homepage": "",
-  "description": "笔记整理 Skill：一个用于 Claude Code 的课程资料、PDF、PPT、题库整理成 Markdown/Obsidian 复习笔记的 Claude Skill。",
-  "summary": "note-organizer：笔记整理 Skill：一个用于 Claude Code 的课程资料、PDF、PPT、题库整理成 Markdown/Obsidian 复习笔记的 Claude Skill。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 306,
+  "id": 903700733,
+  "name": "gitdiagram",
+  "fullName": "ahmedkhaleel2004/gitdiagram",
+  "owner": "ahmedkhaleel2004",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/111161052?v=4",
+  "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+  "homepage": "https://gitdiagram.com",
+  "description": "Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' with 'diagram' in any GitHub URL.",
+  "summary": "gitdiagram：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,51 +19,58 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Renakoni/note-organizer.git",
-  "language": "Python",
+  "installCommand": "claude plugin marketplace add ahmedkhaleel2004/gitdiagram\nclaude plugin install gitdiagram@gitdiagram\nclaude mcp add --transport http gitdiagram https://gitdiagram.com/mcp",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 15,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 60.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-06-30T14:23:00Z",
-  "updatedAt": "2026-09-12T09:34:09Z",
-  "createdAt": "2026-05-10T05:20:46Z",
-  "sourceTopics": [
-    "anthropic-skills"
-  ],
+  "stars": 17545,
+  "forks": 1338,
+  "openIssues": 43,
+  "score": 131.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-09-30T02:13:16Z",
+  "updatedAt": "2026-09-30T05:29:09Z",
+  "createdAt": "2024-12-15T10:32:03Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "anthropic-skills",
-    "chinese",
-    "claude-skills",
-    "course-notes",
-    "knowledge-management",
-    "markdown",
-    "note-organizer",
-    "pdf",
-    "pptx",
-    "study-notes",
-    "study-tools"
+    "ai",
+    "architecture-diagram",
+    "code",
+    "code-visualization",
+    "codebase-visualization",
+    "developer-tools",
+    "diagram-generator",
+    "gemini-cli-extension",
+    "github",
+    "llm",
+    "mermaid",
+    "nextjs",
+    "repository-visualization",
+    "software-architecture",
+    "system-design",
+    "video"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Renakoni/note-organizer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ahmedkhaleel2004/gitdiagram",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Renakoni/note-organizer#readme",
-  "detailPath": "data/details/renakoni__note__organizer.json",
+  "readmeUrl": "https://github.com/ahmedkhaleel2004/gitdiagram#readme",
+  "detailPath": "data/details/ahmedkhaleel2004__gitdiagram.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "笔记整理 Skill：一个用于 Claude Code 的课程资料、PDF、PPT、题库整理成 Markdown/Obsidian 复习笔记的 Claude Skill。",
+    "summary": "gitdiagram：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -82,14 +89,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-29T05:51:13.360Z",
-    "sourceHash": "fb5c8077a4516644",
+    "generatedAt": "2026-09-30T05:41:01.028Z",
+    "sourceHash": "12cd5b8d8afbd084",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "note-organizer：笔记整理 Skill：一个用于 Claude Code 的课程资料、PDF、PPT、题库整理成 Markdown/Obsidian 复习笔记的 Claude Skill。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "note-organizer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gitdiagram：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "gitdiagram 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -106,7 +113,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

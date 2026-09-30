@@ -1,68 +1,79 @@
 {
-  "rank": 1029,
-  "id": 1198124295,
-  "name": "openrig",
-  "fullName": "mvschwarz/openrig",
-  "owner": "mvschwarz",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/171890339?v=4",
-  "url": "https://github.com/mvschwarz/openrig",
-  "homepage": "https://openrig.dev",
-  "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-  "summary": "openrig：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1605,
+  "id": 1166243835,
+  "name": "nexu",
+  "fullName": "nexu-io/nexu",
+  "owner": "nexu-io",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
+  "url": "https://github.com/nexu-io/nexu",
+  "homepage": "https://nexu.io",
+  "description": "The simplest desktop client for OpenClaw 🦞 — bridge your Agent to WeChat, Feishu, Slack & Discord in one click. Works with Claude Code, Codex & any LLM. BYOK, Oauth, local-first, chat from your phone 24/7.",
+  "summary": "nexu：OpenClaw 最简单桌面客户端——一键桥接 Agent 至微信、飞书、Slack 及 Discord，支持 Claude Code、Codex 及任何 LLM，支持 BYOK、OAuth 及本地优先，支持手机 24/7 聊天。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/mvschwarz/openrig.git",
+  "installCommand": "git clone https://github.com/nexu-io/nexu.git",
   "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 1883,
-  "forks": 144,
-  "openIssues": 62,
-  "score": 108.7,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-29T05:10:48Z",
-  "updatedAt": "2026-09-29T05:50:04Z",
-  "createdAt": "2026-04-01T06:22:40Z",
-  "sourceTopics": [],
+  "license": "MIT",
+  "stars": 3281,
+  "forks": 263,
+  "openIssues": 251,
+  "score": 95.4,
+  "activity": "活跃",
+  "pushedAt": "2026-04-26T13:40:30Z",
+  "updatedAt": "2026-09-30T00:27:33Z",
+  "createdAt": "2026-02-25T02:47:19Z",
+  "sourceTopics": [
+    "skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-harness",
-    "agent-orchestration",
-    "agent-skills",
-    "ai-coding",
+    "ai-agent",
+    "byok",
+    "claude",
     "claude-code",
-    "cli",
-    "codex-cli",
-    "multi-agent",
-    "multi-agent-systems",
-    "tmux",
-    "typescript"
+    "clawbot",
+    "codex",
+    "discord",
+    "feishu",
+    "llm",
+    "open-source",
+    "openclaw",
+    "openclaw-desktop",
+    "openclaw-feishu",
+    "openclaw-slack",
+    "openclaw-wechat",
+    "openclaw-weixin",
+    "seedance2",
+    "skills",
+    "slack"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/mvschwarz/openrig",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nexu-io/nexu",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/mvschwarz/openrig#readme",
-  "detailPath": "data/details/mvschwarz__openrig.json",
+  "readmeUrl": "https://github.com/nexu-io/nexu#readme",
+  "detailPath": "data/details/nexu__io__nexu.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "openrig 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "OpenClaw 最简单桌面客户端——一键桥接 Agent 至微信、飞书、Slack 及 Discord，支持 Claude Code、Codex 及任何 LLM，支持 BYOK、OAuth 及本地优先，支持手机 24/7 聊天",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +89,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-29T05:51:13.360Z",
-    "sourceHash": "2938ac14d66c52e1",
+    "generatedAt": "2026-09-30T05:41:01.028Z",
+    "sourceHash": "12cbaef5adc8ca99",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openrig：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "openrig 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "nexu：OpenClaw 最简单桌面客户端——一键桥接 Agent 至微信、飞书、Slack 及 Discord，支持 Claude Code、Codex 及任何 LLM，支持 BYOK、OAuth 及本地优先，支持手机 24/7 聊天。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "nexu 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +116,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -128,7 +139,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
