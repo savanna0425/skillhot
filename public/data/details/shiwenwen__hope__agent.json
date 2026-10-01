@@ -1,5 +1,5 @@
 {
-  "rank": 1139,
+  "rank": 1138,
   "id": 1180971499,
   "name": "hope-agent",
   "fullName": "shiwenwen/hope-agent",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/14817628?v=4",
   "url": "https://github.com/shiwenwen/hope-agent",
   "homepage": "",
-  "description": "🦭 会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端 | A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment",
-  "summary": "hope-agent：会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端 | A cross-device desktop AI agent with memory, autonomous goals, d。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment | 会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端",
+  "summary": "hope-agent：A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment | 会记忆、能持续推进目标。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/shiwenwen/hope-agent.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 1681,
-  "forks": 158,
-  "openIssues": 51,
-  "score": 107.5,
+  "stars": 1694,
+  "forks": 159,
+  "openIssues": 56,
+  "score": 107.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-30T01:58:29Z",
-  "updatedAt": "2026-09-30T01:58:36Z",
+  "pushedAt": "2026-10-01T01:54:36Z",
+  "updatedAt": "2026-10-01T03:51:47Z",
   "createdAt": "2026-03-13T15:57:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端 | A cross-device desktop AI agent with memory, autonomous goals, d",
+    "summary": "A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment | 会记忆、能持续推进目标、",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-30T05:41:01.028Z",
-    "sourceHash": "bcc35c7169c23960",
+    "generatedAt": "2026-10-01T06:05:46.359Z",
+    "sourceHash": "59b5fb37160613f5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hope-agent：会记忆、能持续推进目标、会动态编排多 Agent 的跨端桌面 AI 助手，也可服务化常驻 NAS / 云端 | A cross-device desktop AI agent with memory, autonomous goals, d。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "hope-agent：A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment | 会记忆、能持续推进目标。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "hope-agent 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

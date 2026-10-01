@@ -1,5 +1,5 @@
 {
-  "rank": 904,
+  "rank": 797,
   "id": 1388867993,
   "name": "logo-design-skill",
   "fullName": "kaankiziltug/logo-design-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kaankiziltug/logo-design-skill",
   "homepage": "",
   "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
-  "summary": "logo-design-skill 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "logo-design-skill 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,20 +22,19 @@
   "installCommand": "git clone https://github.com/kaankiziltug/logo-design-skill.git",
   "language": "HTML",
   "license": "MIT",
-  "stars": 889,
-  "forks": 41,
-  "openIssues": 0,
-  "score": 112.9,
+  "stars": 1173,
+  "forks": 64,
+  "openIssues": 1,
+  "score": 115.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-29T08:27:51Z",
-  "updatedAt": "2026-09-30T05:34:50Z",
+  "pushedAt": "2026-09-30T18:16:50Z",
+  "updatedAt": "2026-10-01T05:58:54Z",
   "createdAt": "2026-09-26T08:23:34Z",
   "sourceTopics": [
     "claude-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
@@ -50,7 +49,10 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -61,7 +63,7 @@
   "readmeUrl": "https://github.com/kaankiziltug/logo-design-skill#readme",
   "detailPath": "data/details/kaankiziltug__logo__design__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "logo-design-skill 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -82,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-30T05:41:01.028Z",
-    "sourceHash": "9ba9760b2e9ac43f",
+    "generatedAt": "2026-10-01T06:05:46.359Z",
+    "sourceHash": "8a76226de776b397",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "logo-design-skill 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "logo-design-skill 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "logo-design-skill 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -106,7 +108,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

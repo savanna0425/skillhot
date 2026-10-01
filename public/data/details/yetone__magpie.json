@@ -1,14 +1,14 @@
 {
-  "rank": 549,
-  "id": 962024783,
-  "name": "agent-scan",
-  "fullName": "snyk/agent-scan",
-  "owner": "snyk",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/12959162?v=4",
-  "url": "https://github.com/snyk/agent-scan",
-  "homepage": "",
-  "description": "Security scanner for AI agents, MCP servers and agent skills.",
-  "summary": "agent-scan：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 777,
+  "id": 1383809012,
+  "name": "magpie",
+  "fullName": "yetone/magpie",
+  "owner": "yetone",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/1206493?v=4",
+  "url": "https://github.com/yetone/magpie",
+  "homepage": "https://usemagpie.ai",
+  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+  "summary": "magpie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,27 +19,28 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/snyk/agent-scan.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 3100,
-  "forks": 284,
-  "openIssues": 16,
-  "score": 121.8,
+  "installCommand": "magpie plugin add opencode-gemini-auth   # an npm package, or a path to a plugin of your own\nmagpie plugin                           # the plugins, what each signs in to, and whether you are\nmagpie plugin login google-plugin       # its sign-in: the method, its questions, the browser or a key",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 3875,
+  "forks": 241,
+  "openIssues": 46,
+  "score": 116.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-29T15:16:38Z",
-  "updatedAt": "2026-09-30T03:08:50Z",
-  "createdAt": "2025-04-07T14:31:26Z",
+  "pushedAt": "2026-10-01T06:02:05Z",
+  "updatedAt": "2026-10-01T06:02:15Z",
+  "createdAt": "2026-09-23T16:22:35Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai",
-    "mcp",
-    "modelcontextprotocol",
-    "security"
+    "claude-code",
+    "codex",
+    "deepseek",
+    "gemini-cli",
+    "llm",
+    "macos"
   ],
   "platforms": [
     "Claude",
@@ -47,20 +48,20 @@
     "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
-    "OpenClaw"
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/snyk/agent-scan",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/yetone/magpie",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/snyk/agent-scan#readme",
-  "detailPath": "data/details/snyk__agent__scan.json",
+  "readmeUrl": "https://github.com/yetone/magpie#readme",
+  "detailPath": "data/details/yetone__magpie.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-scan 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "magpie 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -76,17 +77,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-30T05:41:01.028Z",
-    "sourceHash": "c95c27ea968570a9",
+    "generatedAt": "2026-10-01T06:05:46.359Z",
+    "sourceHash": "805499648c3600bd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-scan：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "agent-scan 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "magpie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "magpie 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -126,7 +127,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,64 +1,64 @@
 {
-  "rank": 1304,
-  "id": 1264023481,
-  "name": "Tianshu-harness",
-  "fullName": "huiliyi37/Tianshu-harness",
-  "owner": "huiliyi37",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/175001329?v=4",
-  "url": "https://github.com/huiliyi37/Tianshu-harness",
-  "homepage": "",
-  "description": "天枢 (Tianshu harness) 是一个基于harness框架构建的终端编程智能体，它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。针对DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%），并且全模型都可复用。",
-  "summary": "Tianshu-harness：天枢 (Tianshu harness) 是一个基于harness框架构建的终端编程智能体，它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 559,
+  "id": 793795224,
+  "name": "genkit",
+  "fullName": "genkit-ai/genkit",
+  "owner": "genkit-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/166032008?v=4",
+  "url": "https://github.com/genkit-ai/genkit",
+  "homepage": "https://genkit.dev",
+  "description": "Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in production by Google",
+  "summary": "genkit：聚焦软件开发、代码质量与工程交付。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/huiliyi37/Tianshu-harness.git",
+  "installCommand": "> npx skills add genkit-ai/skills --skill developing-genkit-js      # JavaScript/TypeScript\n> npx skills add genkit-ai/skills --skill developing-genkit-go      # Go\n> npx skills add genkit-ai/skills --skill developing-genkit-python  # Python",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 991,
-  "forks": 69,
-  "openIssues": 51,
-  "score": 102,
+  "stars": 6462,
+  "forks": 854,
+  "openIssues": 819,
+  "score": 121.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-30T04:53:10Z",
-  "updatedAt": "2026-09-30T04:53:13Z",
-  "createdAt": "2026-06-09T13:40:47Z",
+  "pushedAt": "2026-10-01T05:44:20Z",
+  "updatedAt": "2026-10-01T03:29:27Z",
+  "createdAt": "2024-04-29T22:04:42Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
-    "coding-agent",
-    "context-management",
-    "deepseek",
-    "harness",
-    "harness-engineering",
-    "prefix-cache",
-    "tui"
+    "agents",
+    "ai",
+    "embedders",
+    "genkit",
+    "llm",
+    "multimodal",
+    "rag",
+    "vector-database"
   ],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/huiliyi37/Tianshu-harness",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/genkit-ai/genkit",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/huiliyi37/Tianshu-harness#readme",
-  "detailPath": "data/details/huiliyi37__tianshu__harness.json",
+  "readmeUrl": "https://github.com/genkit-ai/genkit#readme",
+  "detailPath": "data/details/genkit__ai__genkit.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "天枢 (Tianshu harness) 是一个基于harness框架构建的终端编程智能体，它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI",
+    "summary": "genkit 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -77,14 +77,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-09-30T05:41:01.028Z",
-    "sourceHash": "872b3fcaba13c63a",
+    "generatedAt": "2026-10-01T06:05:46.359Z",
+    "sourceHash": "171c7620d53b7dc7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Tianshu-harness：天枢 (Tianshu harness) 是一个基于harness框架构建的终端编程智能体，它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Tianshu-harness 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "genkit：聚焦软件开发、代码质量与工程交付。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "genkit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -101,7 +101,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
