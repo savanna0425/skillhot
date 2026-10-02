@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx @ruvnet/ruview@0.4.0 doctor\nnpx @ruvnet/ruview@0.4.0 guidance --topic sensing --query \"model loading\"\nnpx @ruvnet/ruview@0.4.0 agent run --host codex --repo . \\",
+  "installCommand": "pip install huggingface_hub\nhuggingface-cli download ruvnet/wifi-densepose-pretrained --local-dir models/wifi-densepose-pretrained",
   "language": "Rust",
   "license": "MIT",
-  "stars": 95764,
-  "forks": 12646,
-  "openIssues": 347,
-  "score": 153.5,
+  "stars": 95902,
+  "forks": 12657,
+  "openIssues": 351,
+  "score": 153.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-01T00:50:18Z",
-  "updatedAt": "2026-10-01T05:59:58Z",
+  "pushedAt": "2026-10-02T01:17:17Z",
+  "updatedAt": "2026-10-02T05:41:16Z",
   "createdAt": "2025-06-07T04:32:30Z",
   "sourceTopics": [
     "skills"
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-01T06:05:46.359Z",
-    "sourceHash": "a15a5eb039f809c9",
+    "generatedAt": "2026-10-02T05:48:47.499Z",
+    "sourceHash": "2166bc7add70c002",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

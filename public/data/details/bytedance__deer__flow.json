@@ -1,5 +1,5 @@
 {
-  "rank": 26,
+  "rank": 27,
   "id": 979115477,
   "name": "deer-flow",
   "fullName": "bytedance/deer-flow",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "- Codex CLI reads `~/.codex/auth.json`\n- Claude Code accepts `CLAUDE_CODE_OAUTH_TOKEN`, `ANTHROPIC_AUTH_TOKEN`, `CLAUDE_CODE_CREDENTIALS_PATH`, or `~/.claude/.credentials.json`\n- ACP agent entries are separate from model providers — if you configure `acp_agents.codex`, point it at a Codex ACP adapter such as `npx -y @zed-industries/codex-acp`",
+  "installCommand": "- Codex CLI reads `~/.codex/auth.json`\n- The Codex model provider returns completed responses without waiting for the SSE connection to close. Failed or incomplete responses report the provider's error or reason; partial output is not returned as a successful answer. Non-object error details are reported as text.\n- Claude Code accepts `CLAUDE_CODE_OAUTH_TOKE",
   "language": "Python",
   "license": "MIT",
-  "stars": 83290,
-  "forks": 11557,
-  "openIssues": 905,
+  "stars": 83327,
+  "forks": 11569,
+  "openIssues": 902,
   "score": 156.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-01T02:52:49Z",
-  "updatedAt": "2026-10-01T06:03:00Z",
+  "pushedAt": "2026-10-01T23:30:10Z",
+  "updatedAt": "2026-10-02T05:26:50Z",
   "createdAt": "2025-05-07T02:50:19Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -90,8 +90,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-01T06:05:46.359Z",
-    "sourceHash": "db44e44d763957c8",
+    "generatedAt": "2026-10-02T05:48:47.499Z",
+    "sourceHash": "bb8ffbc63ec9873e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

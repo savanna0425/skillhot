@@ -1,5 +1,5 @@
 {
-  "rank": 435,
+  "rank": 430,
   "id": 1015815983,
   "name": "autoclip",
   "fullName": "zhouxiaoka/autoclip",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/78066887?v=4",
   "url": "https://github.com/zhouxiaoka/autoclip",
   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
-  "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
-  "summary": "autoclip：: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
+  "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+  "summary": "autoclip：AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,53 +19,53 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zhouxiaoka/autoclip.git\ncd autoclip",
+  "installCommand": "git clone https://github.com/zhouxiaoka/autoclip.git\ncd autoclip\ncp env.example .env",
   "language": "Python",
   "license": "MIT",
-  "stars": 9062,
-  "forks": 1671,
-  "openIssues": 10,
+  "stars": 9099,
+  "forks": 1670,
+  "openIssues": 13,
   "score": 125,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-30T18:14:21Z",
-  "updatedAt": "2026-10-01T04:32:03Z",
+  "pushedAt": "2026-10-02T05:16:05Z",
+  "updatedAt": "2026-10-02T05:34:56Z",
   "createdAt": "2025-07-08T04:51:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agents",
-    "ai-tools",
-    "ai-video",
+    "ai-agent",
     "ai-video-editor",
-    "auto",
-    "auto-highlight",
-    "highlight",
-    "llm",
-    "video",
-    "video-editing",
-    "video-processing",
-    "videos"
+    "content-repurposing",
+    "desktop-app",
+    "douyin",
+    "instagram-reels",
+    "mcp",
+    "open-source",
+    "podcast",
+    "subtitles",
+    "tiktok",
+    "video-clipping",
+    "video-editing-software",
+    "xiaohongshu",
+    "youtube-shorts"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/zhouxiaoka/autoclip",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=A_156w0aYtU"
   },
   "readmeUrl": "https://github.com/zhouxiaoka/autoclip#readme",
   "detailPath": "data/details/zhouxiaoka__autoclip.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+    "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -84,13 +84,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-01T06:05:46.359Z",
-    "sourceHash": "aefe59ed6dbb1e64",
+    "generatedAt": "2026-10-02T05:48:47.499Z",
+    "sourceHash": "2738367af12992a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "autoclip：: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具。适合在 Claude、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "autoclip：AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "autoclip 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -108,7 +108,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Gemini CLI、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

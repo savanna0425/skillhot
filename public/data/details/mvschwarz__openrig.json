@@ -1,5 +1,5 @@
 {
-  "rank": 684,
+  "rank": 606,
   "id": 1198124295,
   "name": "openrig",
   "fullName": "mvschwarz/openrig",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/171890339?v=4",
   "url": "https://github.com/mvschwarz/openrig",
   "homepage": "https://openrig.dev",
-  "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+  "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
   "summary": "openrig：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
@@ -22,13 +22,13 @@
   "installCommand": "npm install -g @openrig/cli\nrig setup --dry-run",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 3164,
-  "forks": 219,
-  "openIssues": 92,
-  "score": 118,
+  "stars": 3840,
+  "forks": 254,
+  "openIssues": 98,
+  "score": 120.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-01T06:02:06Z",
-  "updatedAt": "2026-10-01T06:02:08Z",
+  "pushedAt": "2026-10-02T05:37:34Z",
+  "updatedAt": "2026-10-02T05:44:01Z",
   "createdAt": "2026-04-01T06:22:40Z",
   "sourceTopics": [
     "agent-skills"
@@ -63,7 +63,7 @@
   "readmeUrl": "https://github.com/mvschwarz/openrig#readme",
   "detailPath": "data/details/mvschwarz__openrig.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "openrig 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
@@ -84,8 +84,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-01T06:05:46.359Z",
-    "sourceHash": "b7c39b9ff46d330e",
+    "generatedAt": "2026-10-02T05:48:47.499Z",
+    "sourceHash": "3d3915e8767e73f1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

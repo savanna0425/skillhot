@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/139834037?v=4",
   "url": "https://github.com/jordan-gibbs/hyperresearch",
   "homepage": "https://hyperresearch.ai",
-  "description": "Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself.",
+  "description": "Convert Claude Code or Codex into the most intelligent Deep Research Agent. Collect, search, and synthesize web research into a persistent, searchable wiki that builds on itself. Hosted API + MCP: hyperresearch.ai",
   "summary": "hyperresearch：支持资料研究、知识检索或学习任务。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
@@ -22,13 +22,13 @@
   "installCommand": "> pip install hyperresearch && hyperresearch install . --target codex\n> codex --sandbox workspace-write -c sandbox_workspace_write.network_access=true   # then: $hyperresearch <question>\n>",
   "language": "Python",
   "license": "MIT",
-  "stars": 3740,
-  "forks": 370,
-  "openIssues": 14,
+  "stars": 3747,
+  "forks": 372,
+  "openIssues": 23,
   "score": 119.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-30T22:31:55Z",
-  "updatedAt": "2026-10-01T04:47:14Z",
+  "pushedAt": "2026-10-01T19:00:21Z",
+  "updatedAt": "2026-10-01T14:58:21Z",
   "createdAt": "2026-04-09T20:46:46Z",
   "sourceTopics": [
     "codex-skill"
@@ -40,6 +40,7 @@
   "repoTopics": [
     "agents",
     "agentskills",
+    "citations",
     "claude-code",
     "codex",
     "codex-plugin",
@@ -47,6 +48,7 @@
     "deep-research",
     "deep-research-agent",
     "deepresearch",
+    "mcp-server",
     "research",
     "research-agent",
     "research-tools"
@@ -86,8 +88,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-01T06:05:46.359Z",
-    "sourceHash": "808016fbdf76781a",
+    "generatedAt": "2026-10-02T05:48:47.499Z",
+    "sourceHash": "dc4ab495db089396",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
