@@ -1,5 +1,5 @@
 {
-  "rank": 934,
+  "rank": 663,
   "id": 1169560166,
   "name": "obsidian-mind",
   "fullName": "breferrari/obsidian-mind",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/breferrari/obsidian-mind.git",
+  "installCommand": "npm install -g shardmind\nmkdir my-vault && cd my-vault\nshardmind install github:breferrari/obsidian-mind",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4803,
-  "forks": 543,
-  "openIssues": 7,
-  "score": 111.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-02T13:32:14Z",
-  "updatedAt": "2026-10-02T05:37:20Z",
+  "stars": 4864,
+  "forks": 547,
+  "openIssues": 17,
+  "score": 118.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-02T23:50:17Z",
+  "updatedAt": "2026-10-03T03:15:00Z",
   "createdAt": "2026-02-28T21:41:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -81,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-02T05:48:47.499Z",
-    "sourceHash": "1d743a3b78c7bb4b",
+    "generatedAt": "2026-10-03T05:26:09.110Z",
+    "sourceHash": "671e151d987a8ab9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 78,
+  "rank": 52,
   "id": 1201476594,
   "name": "career-ops",
   "fullName": "career-ops-hq/career-ops",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/323287742?v=4",
   "url": "https://github.com/career-ops-hq/career-ops",
   "homepage": "https://career-ops.org",
-  "description": "Open-source AI job search agent: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+  "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
   "summary": "career-ops：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
@@ -22,24 +22,29 @@
   "installCommand": "npx @santifer/career-ops init",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 73264,
-  "forks": 13776,
-  "openIssues": 472,
-  "score": 146.8,
+  "stars": 73330,
+  "forks": 13778,
+  "openIssues": 467,
+  "score": 150.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-02T05:00:29Z",
-  "updatedAt": "2026-10-02T04:53:15Z",
+  "pushedAt": "2026-10-03T04:59:24Z",
+  "updatedAt": "2026-10-03T05:08:58Z",
   "createdAt": "2026-04-04T18:21:18Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "ai-agent",
     "ai-job-search",
     "ats",
     "career",
+    "career-ops",
     "careerops",
     "claude-code",
     "cli",
@@ -49,19 +54,16 @@
     "job-application",
     "job-hunting",
     "job-search",
-    "job-tracker",
-    "jobsearch",
-    "jobseekers",
+    "latex",
     "local-first",
     "open-source",
     "resume",
-    "resume-builder"
+    "terminal"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "OpenCode",
-    "Antigravity"
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -93,8 +95,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-02T05:48:47.499Z",
-    "sourceHash": "174ad6275700b03a",
+    "generatedAt": "2026-10-03T05:26:09.110Z",
+    "sourceHash": "21197a90325c2b51",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

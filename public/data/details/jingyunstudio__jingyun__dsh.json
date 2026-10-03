@@ -1,14 +1,14 @@
 {
-  "rank": 1311,
-  "id": 1286800347,
-  "name": "FuckClaude",
-  "fullName": "LinXiaoTao/FuckClaude",
-  "owner": "LinXiaoTao",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/19836925?v=4",
-  "url": "https://github.com/LinXiaoTao/FuckClaude",
-  "homepage": "https://fuck-claude.vercel.app",
-  "description": "",
-  "summary": "FuckClaude：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1483,
+  "id": 1348410363,
+  "name": "jingyun-dsh",
+  "fullName": "jingyunstudio/jingyun-dsh",
+  "owner": "jingyunstudio",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/263533190?v=4",
+  "url": "https://github.com/jingyunstudio/jingyun-dsh",
+  "homepage": "https://jingyun.studio/zh/jingyun-dsh",
+  "description": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。  井云为 DSH 注入了完整的商业闭环：登录注册 → 会员体系 → 订阅支付 → 云端资产 → 多端同步，让 AI 开发者 30 分钟内将自己的智能体封装为独立的商业产品。",
+  "summary": "jingyun-dsh：基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。 井云为 DSH 注入了完整的商业。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,47 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/LinXiaoTao/FuckClaude.git",
+  "installCommand": "git clone https://github.com/jingyunstudio/jingyun-dsh.git",
   "language": "TypeScript",
-  "license": "MIT",
-  "stars": 997,
-  "forks": 92,
-  "openIssues": 0,
-  "score": 102.1,
+  "license": "",
+  "stars": 848,
+  "forks": 37,
+  "openIssues": 1,
+  "score": 100.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-30T13:06:39Z",
-  "updatedAt": "2026-10-02T01:45:33Z",
-  "createdAt": "2026-07-02T05:36:45Z",
+  "pushedAt": "2026-09-30T10:00:59Z",
+  "updatedAt": "2026-10-03T04:33:06Z",
+  "createdAt": "2026-08-27T11:28:30Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "deepseekharness",
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin",
+    "dsh-plugin-desktop",
+    "dsh-plugin-market",
+    "dsh-plugin-verify",
+    "dsh-plugins",
+    "dsh-skill"
+  ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/LinXiaoTao/FuckClaude",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jingyunstudio/jingyun-dsh",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/LinXiaoTao/FuckClaude#readme",
-  "detailPath": "data/details/linxiaotao__fuckclaude.json",
+  "readmeUrl": "https://github.com/jingyunstudio/jingyun-dsh#readme",
+  "detailPath": "data/details/jingyunstudio__jingyun__dsh.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "FuckClaude：尚未归入主要类别的实用项目。",
+    "summary": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。 井云为 DSH 注入了完整的商业",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-02T05:48:47.499Z",
-    "sourceHash": "7fee6e2571fa316c",
+    "generatedAt": "2026-10-03T05:26:09.110Z",
+    "sourceHash": "2e080d3cc59f8040",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "FuckClaude：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "FuckClaude 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "jingyun-dsh：基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。 井云为 DSH 注入了完整的商业。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "jingyun-dsh 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +102,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +125,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 819,
-  "id": 1361693766,
-  "name": "anything2explainer",
-  "fullName": "Vincentwei1021/anything2explainer",
-  "owner": "Vincentwei1021",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18239147?v=4",
-  "url": "https://github.com/Vincentwei1021/anything2explainer",
+  "rank": 1327,
+  "id": 1393689296,
+  "name": "reelmimic",
+  "fullName": "edenfunf/reelmimic",
+  "owner": "edenfunf",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/146086744?v=4",
+  "url": "https://github.com/edenfunf/reelmimic",
   "homepage": "",
-  "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
-  "summary": "anything2explainer：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+  "summary": "reelmimic：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,41 +19,30 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vincentwei1021/anything2explainer.git\nln -s \"$PWD/anything2explainer\" ~/.claude/skills/anything2explainer   # Claude Code\nln -s \"$PWD/anything2explainer\" ~/.codex/skills/anything2explainer    # Codex",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 2224,
-  "forks": 309,
-  "openIssues": 4,
-  "score": 115.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-18T11:52:13Z",
-  "updatedAt": "2026-10-02T04:14:55Z",
-  "createdAt": "2026-09-08T17:19:54Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "installCommand": "git clone https://github.com/edenfunf/reelmimic.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 973,
+  "forks": 129,
+  "openIssues": 24,
+  "score": 101.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-02T18:25:24Z",
+  "updatedAt": "2026-10-03T05:22:25Z",
+  "createdAt": "2026-09-28T19:14:59Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
+    "2d-animation",
     "ai-agents",
     "ai-video",
+    "animation",
     "claude-code",
-    "claude-code-skill",
     "codex",
-    "edge-tts",
-    "educational-video",
-    "explainer-video",
-    "kokoro",
-    "motion-graphics",
     "multi-agent",
-    "react",
-    "remotion",
-    "text-to-video",
-    "tts",
-    "typescript",
+    "style-transfer",
     "video-generation"
   ],
   "platforms": [
@@ -63,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Vincentwei1021/anything2explainer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/edenfunf/reelmimic",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Vincentwei1021/anything2explainer#readme",
-  "detailPath": "data/details/vincentwei1021__anything2explainer.json",
+  "readmeUrl": "https://github.com/edenfunf/reelmimic#readme",
+  "detailPath": "data/details/edenfunf__reelmimic.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "anything2explainer：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "reelmimic：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -87,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-02T05:48:47.499Z",
-    "sourceHash": "c0b43c05b262d85e",
+    "generatedAt": "2026-10-03T05:26:09.110Z",
+    "sourceHash": "4be2208f14a7f89c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anything2explainer：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "anything2explainer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "reelmimic：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "reelmimic 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -137,7 +126,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

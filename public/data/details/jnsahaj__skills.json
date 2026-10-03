@@ -1,14 +1,14 @@
 {
-  "rank": 1506,
-  "id": 1181094269,
-  "name": "openswarm",
-  "fullName": "openswarm-ai/openswarm",
-  "owner": "openswarm-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/268016834?v=4",
-  "url": "https://github.com/openswarm-ai/openswarm",
-  "homepage": "https://openswarm.com",
-  "description": "Your mission control center for a swarm of Ai agents.",
-  "summary": "openswarm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2184,
+  "id": 1286055132,
+  "name": "skills",
+  "fullName": "jnsahaj/skills",
+  "owner": "jnsahaj",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/82111591?v=4",
+  "url": "https://github.com/jnsahaj/skills",
+  "homepage": "",
+  "description": "Agent skills I use daily",
+  "summary": "skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,42 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/openswarm-ai/openswarm.git",
-  "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 824,
-  "forks": 171,
-  "openIssues": 31,
-  "score": 100.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-10-02T00:50:21Z",
-  "updatedAt": "2026-10-01T22:22:20Z",
-  "createdAt": "2026-03-13T18:38:07Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "installCommand": "git clone https://github.com/jnsahaj/skills.git",
+  "language": "",
+  "license": "",
+  "stars": 99,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 67.9,
+  "activity": "活跃",
+  "pushedAt": "2026-07-01T12:06:56Z",
+  "updatedAt": "2026-10-03T04:51:57Z",
+  "createdAt": "2026-07-01T11:56:41Z",
+  "sourceTopics": [
+    "skills-sh"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "skills",
+    "skills-sh"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/openswarm-ai/openswarm",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jnsahaj/skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/openswarm-ai/openswarm#readme",
-  "detailPath": "data/details/openswarm__ai__openswarm.json",
+  "readmeUrl": "https://github.com/jnsahaj/skills#readme",
+  "detailPath": "data/details/jnsahaj__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "openswarm：尚未归入主要类别的实用项目。",
+    "summary": "skills：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +70,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-02T05:48:47.499Z",
-    "sourceHash": "156f3c42863588f5",
+    "generatedAt": "2026-10-03T05:26:09.110Z",
+    "sourceHash": "d1c69b7e4368fde5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "openswarm：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "openswarm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +120,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
