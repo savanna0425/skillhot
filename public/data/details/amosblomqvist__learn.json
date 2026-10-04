@@ -1,14 +1,14 @@
 {
-  "rank": 627,
-  "id": 1202559832,
-  "name": "skills",
-  "fullName": "AlphaGBM/skills",
-  "owner": "AlphaGBM",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/273911275?v=4",
-  "url": "https://github.com/AlphaGBM/skills",
-  "homepage": "https://www.alphagbm.com/skills",
-  "description": "Bring realtime market data and research workflows into Claude Code, Cursor & beyond — 29 open-source Skills for stocks, options and commodities.",
-  "summary": "skills：支持资料研究、知识检索或学习任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "rank": 1529,
+  "id": 1345185947,
+  "name": "learn",
+  "fullName": "amosblomqvist/learn",
+  "owner": "amosblomqvist",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255718537?v=4",
+  "url": "https://github.com/amosblomqvist/learn",
+  "homepage": "",
+  "description": "My AI learning system.",
+  "summary": "learn：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,38 +19,37 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add AlphaGBM/skills --skill alphagbm-stock-research",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 4845,
-  "forks": 328,
-  "openIssues": 5,
-  "score": 119.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-24T22:41:06Z",
-  "updatedAt": "2026-10-03T05:13:50Z",
-  "createdAt": "2026-04-06T06:35:37Z",
+  "installCommand": "git clone https://github.com/amosblomqvist/learn.git",
+  "language": "TypeScript",
+  "license": "",
+  "stars": 3180,
+  "forks": 326,
+  "openIssues": 8,
+  "score": 99.1,
+  "activity": "近期活跃",
+  "pushedAt": "2026-08-25T21:49:59Z",
+  "updatedAt": "2026-10-04T05:22:35Z",
+  "createdAt": "2026-08-24T16:45:07Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Cursor"
+    "Agent Skills"
   ],
-  "skillCount": 27,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/AlphaGBM/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/amosblomqvist/learn",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/AlphaGBM/skills#readme",
-  "detailPath": "data/details/alphagbm__skills.json",
+  "readmeUrl": "https://github.com/amosblomqvist/learn#readme",
+  "detailPath": "data/details/amosblomqvist__learn.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skills 支持资料研究、知识检索或学习任务。",
+    "summary": "learn 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -66,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "bde03028504dbf4e",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "fbb6bf48ba67c2d5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：支持资料研究、知识检索或学习任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "learn：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "learn 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -93,7 +92,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -103,7 +102,7 @@
       "通常通过资料检索、阅读模板、引用整理或 Skill 流程辅助研究。",
       "用户给出主题后，Agent 会按仓库说明收集、归纳或生成结构化内容。",
       "可信度取决于来源质量和你的人工复核。",
-      "仓库信息显示它包含 27+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先用一个小主题测试它的资料组织方式。",
@@ -116,7 +115,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

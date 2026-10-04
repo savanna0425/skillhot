@@ -1,66 +1,64 @@
 {
-  "rank": 1768,
-  "id": 200275124,
-  "name": "dicio-android",
-  "fullName": "DicioTeam/dicio-android",
-  "owner": "DicioTeam",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/278598733?v=4",
-  "url": "https://github.com/DicioTeam/dicio-android",
+  "rank": 1285,
+  "id": 1373993338,
+  "name": "codex-on-crack",
+  "fullName": "ethanplusai/codex-on-crack",
+  "owner": "ethanplusai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/249879463?v=4",
+  "url": "https://github.com/ethanplusai/codex-on-crack",
   "homepage": "",
-  "description": "Dicio assistant app for Android",
-  "summary": "dicio-android：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Coordinate your models from Codex. Plan, delegate, use host tools, and review work across workspaces. Formerly Astra Flash Orchestrator.",
+  "summary": "codex-on-crack：文档、表格、邮件、日历、笔记与个人生产力。适合在 Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DicioTeam/dicio-android.git",
-  "language": "Kotlin",
-  "license": "GPL-3.0",
-  "stars": 1496,
-  "forks": 175,
-  "openIssues": 139,
-  "score": 91.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-25T13:18:25Z",
-  "updatedAt": "2026-10-02T21:33:45Z",
-  "createdAt": "2019-08-02T17:43:01Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/ethanplusai/codex-on-crack.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 730,
+  "forks": 67,
+  "openIssues": 5,
+  "score": 102.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-03T16:11:18Z",
+  "updatedAt": "2026-10-03T17:58:59Z",
+  "createdAt": "2026-09-17T05:42:31Z",
+  "sourceTopics": [
+    "codex-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "android",
-    "assistant",
-    "dicio",
-    "personal-assistant",
-    "skills",
-    "stt",
-    "tts",
-    "voice-assistant",
-    "vosk",
-    "wakeword"
+    "agent-orchestration",
+    "ai-agents",
+    "codex",
+    "codex-skills",
+    "deepseek",
+    "developer-tools"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/DicioTeam/dicio-android",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ethanplusai/codex-on-crack",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/DicioTeam/dicio-android#readme",
-  "detailPath": "data/details/dicioteam__dicio__android.json",
+  "readmeUrl": "https://github.com/ethanplusai/codex-on-crack#readme",
+  "detailPath": "data/details/ethanplusai__codex__on__crack.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "dicio-android：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "codex-on-crack：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -76,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "fca351f23a07ed14",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "1193911dbc6e9585",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dicio-android：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "dicio-android 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "codex-on-crack：文档、表格、邮件、日历、笔记与个人生产力。适合在 Codex 相关工作流里先做选型判断。",
+    "whatItIs": "codex-on-crack 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -103,7 +101,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -126,7 +124,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

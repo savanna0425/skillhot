@@ -1,14 +1,14 @@
 {
-  "rank": 1192,
-  "id": 1396117711,
-  "name": "OpenDots",
-  "fullName": "CopilotKit/OpenDots",
-  "owner": "CopilotKit",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/131273140?v=4",
-  "url": "https://github.com/CopilotKit/OpenDots",
-  "homepage": "https://www.copilotkit.ai/opendots",
-  "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-  "summary": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1445,
+  "id": 1280296384,
+  "name": "OpenLore",
+  "fullName": "aakarim/OpenLore",
+  "owner": "aakarim",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3791557?v=4",
+  "url": "https://github.com/aakarim/OpenLore",
+  "homepage": "https://openlore.sh",
+  "description": "A minimal, extensible, agent-native knowledge base that keeps shared context current and inspectable",
+  "summary": "OpenLore：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -19,37 +19,46 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/CopilotKit/OpenDots.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 1608,
-  "forks": 198,
-  "openIssues": 17,
-  "score": 107,
+  "installCommand": "git clone https://github.com/aakarim/OpenLore.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 874,
+  "forks": 9,
+  "openIssues": 4,
+  "score": 100.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-02T21:16:45Z",
-  "updatedAt": "2026-10-03T05:24:40Z",
-  "createdAt": "2026-09-29T17:13:58Z",
+  "pushedAt": "2026-10-03T23:12:33Z",
+  "updatedAt": "2026-10-04T05:19:40Z",
+  "createdAt": "2026-06-25T12:57:08Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "agent-memory",
+    "agents",
+    "knowledge",
+    "knowledge-base",
+    "knowledge-management",
+    "knowledgebase",
+    "memory"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/CopilotKit/OpenDots",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/aakarim/OpenLore",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/CopilotKit/OpenDots#readme",
-  "detailPath": "data/details/copilotkit__opendots.json",
+  "readmeUrl": "https://github.com/aakarim/OpenLore#readme",
+  "detailPath": "data/details/aakarim__openlore.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "OpenLore：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -65,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "09aba88b3584a111",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "6d6b38acd34ce49d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "OpenDots 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "OpenLore：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "OpenLore 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -115,7 +124,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 1872,
-  "id": 1197727671,
-  "name": "hermes-hud",
-  "fullName": "joeynyc/hermes-hud",
-  "owner": "joeynyc",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/17919866?v=4",
-  "url": "https://github.com/joeynyc/hermes-hud",
-  "homepage": "",
-  "description": "TUI consciousness monitor for Hermes",
-  "summary": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2164,
+  "id": 668539146,
+  "name": "pb",
+  "fullName": "parseablehq/pb",
+  "owner": "parseablehq",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/94332517?v=4",
+  "url": "https://github.com/parseablehq/pb",
+  "homepage": "https://parseable.com",
+  "description": "CLI client for Parseable server. Inspect, query and analyse Telemetry data from your terminal. Works with humans and agents",
+  "summary": "pb：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
@@ -19,29 +19,32 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/joeynyc/hermes-hud.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 928,
-  "forks": 64,
-  "openIssues": 13,
-  "score": 86.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-05T12:48:22Z",
-  "updatedAt": "2026-10-02T15:14:20Z",
-  "createdAt": "2026-03-31T20:40:56Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/parseablehq/pb.git",
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "stars": 18,
+  "forks": 13,
+  "openIssues": 3,
+  "score": 68.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-03T17:33:51Z",
+  "updatedAt": "2026-10-03T17:33:55Z",
+  "createdAt": "2023-07-20T03:50:46Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agent",
-    "dashboard",
-    "neofetch",
-    "python",
-    "terminal",
-    "textual",
-    "tui"
+    "ai-agent-skills",
+    "ai-agent-tools",
+    "ai-agents",
+    "analytics",
+    "cli",
+    "go",
+    "logging",
+    "observability-cli"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/joeynyc/hermes-hud",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/parseablehq/pb",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/joeynyc/hermes-hud#readme",
-  "detailPath": "data/details/joeynyc__hermes__hud.json",
+  "readmeUrl": "https://github.com/parseablehq/pb#readme",
+  "detailPath": "data/details/parseablehq__pb.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "pb：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -73,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "d5d8419742612f2c",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "7db748b8590618b2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "hermes-hud 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pb：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "pb 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -123,7 +126,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

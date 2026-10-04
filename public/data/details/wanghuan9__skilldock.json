@@ -1,5 +1,5 @@
 {
-  "rank": 970,
+  "rank": 730,
   "id": 1237501138,
   "name": "skilldock",
   "fullName": "wanghuan9/skilldock",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/wanghuan9/skilldock.git",
+  "installCommand": "npm ci\nnpm test\nnpm run build",
   "language": "Rust",
   "license": "MIT",
-  "stars": 606,
-  "forks": 28,
-  "openIssues": 14,
-  "score": 109.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-08T05:46:06Z",
-  "updatedAt": "2026-10-02T07:16:31Z",
+  "stars": 607,
+  "forks": 29,
+  "openIssues": 10,
+  "score": 117,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-03T07:17:12Z",
+  "updatedAt": "2026-10-04T01:42:39Z",
   "createdAt": "2026-05-13T08:37:42Z",
   "sourceTopics": [
     "ai-skills",
@@ -65,7 +65,9 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI"
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -97,8 +99,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "a603104aa68871a9",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "7fdad7c67cb7381a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

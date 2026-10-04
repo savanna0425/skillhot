@@ -1,68 +1,77 @@
 {
-  "rank": 1314,
-  "id": 1348316078,
-  "name": "ALTA",
-  "fullName": "kyky2347/ALTA",
-  "owner": "kyky2347",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/152370606?v=4",
-  "url": "https://github.com/kyky2347/ALTA",
-  "homepage": "",
-  "description": "Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution.",
-  "summary": "ALTA：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。",
+  "rank": 1318,
+  "id": 1367338986,
+  "name": "ThinkWatch-Lite",
+  "fullName": "ThinkWatchProject/ThinkWatch-Lite",
+  "owner": "ThinkWatchProject",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/273144823?v=4",
+  "url": "https://github.com/ThinkWatchProject/ThinkWatch-Lite",
+  "homepage": "https://thinkwat.ch/lite/",
+  "description": "Local gateway for Claude Code, Codex and other AI clients on macOS, Windows and Linux: switch upstreams without touching clients, keep API keys from relays, cut off malicious tool calls, trace every request.",
+  "summary": "ThinkWatch-Lite：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryReason": "model switch|provider management|model gateway|llm gat",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/kyky2347/ALTA.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 988,
-  "forks": 116,
-  "openIssues": 5,
-  "score": 102,
+  "installCommand": "git clone https://github.com/ThinkWatchProject/ThinkWatch-Lite.git",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 984,
+  "forks": 12,
+  "openIssues": 0,
+  "score": 101.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-01T23:03:58Z",
-  "updatedAt": "2026-10-03T03:12:20Z",
-  "createdAt": "2026-08-27T09:42:45Z",
+  "pushedAt": "2026-10-03T17:30:00Z",
+  "updatedAt": "2026-10-04T05:57:43Z",
+  "createdAt": "2026-09-12T13:48:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "autonomous-agents",
-    "codex-app-server",
-    "event-driven-architecture",
-    "llm-agents",
-    "local-first",
-    "market-research",
-    "multi-agent-systems",
-    "operator-console",
-    "quantitative-finance",
-    "react",
-    "research-software",
-    "shadow-trading"
+    "ai-gateway",
+    "anthropic",
+    "claude-code",
+    "codex",
+    "cost-monitoring",
+    "cost-tracking",
+    "cross-platform",
+    "linux",
+    "llm-cost",
+    "llm-gateway",
+    "llm-observability",
+    "llm-proxy",
+    "llm-usage",
+    "macos",
+    "openai",
+    "secret-redaction",
+    "system-tray",
+    "token-usage",
+    "usage-tracking",
+    "windows"
   ],
   "platforms": [
+    "Claude",
     "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kyky2347/ALTA",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ThinkWatchProject/ThinkWatch-Lite",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kyky2347/ALTA#readme",
-  "detailPath": "data/details/kyky2347__alta.json",
+  "readmeUrl": "https://github.com/ThinkWatchProject/ThinkWatch-Lite#readme",
+  "detailPath": "data/details/thinkwatchproject__thinkwatch__lite.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ALTA 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "ThinkWatch-Lite 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +87,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "ba77acbe22ead73e",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "433313d615839dda",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ALTA：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "ALTA 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ThinkWatch-Lite：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "ThinkWatch-Lite 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +114,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -128,7 +137,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

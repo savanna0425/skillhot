@@ -1,47 +1,42 @@
 {
-  "rank": 1237,
-  "id": 1004340390,
-  "name": "rulesync",
-  "fullName": "dyoshikawa/rulesync",
-  "owner": "dyoshikawa",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/34151621?v=4",
-  "url": "https://github.com/dyoshikawa/rulesync",
-  "homepage": "http://rulesync.dyoshikawa.com/",
-  "description": "A Utility CLI for AI Coding Agents",
-  "summary": "rulesync：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1200,
+  "id": 1346870728,
+  "name": "monid",
+  "fullName": "monid-ai/monid",
+  "owner": "monid-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/273455304?v=4",
+  "url": "https://github.com/monid-ai/monid",
+  "homepage": "https://monid.ai",
+  "description": "Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8",
+  "summary": "monid：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dyoshikawa/rulesync.git",
+  "installCommand": "git clone https://github.com/monid-ai/monid.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1491,
-  "forks": 157,
+  "stars": 1597,
+  "forks": 210,
   "openIssues": 39,
-  "score": 106.2,
+  "score": 106.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-03T05:22:30Z",
-  "updatedAt": "2026-10-03T04:45:24Z",
-  "createdAt": "2025-06-18T13:27:05Z",
+  "pushedAt": "2026-09-30T01:50:57Z",
+  "updatedAt": "2026-10-04T05:42:11Z",
+  "createdAt": "2026-08-26T03:45:18Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
     "ai-agents",
-    "ai-coding",
-    "llm",
-    "mcp",
-    "rules",
-    "skills"
+    "developer-tools"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +44,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/dyoshikawa/rulesync",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/monid-ai/monid",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/dyoshikawa/rulesync#readme",
-  "detailPath": "data/details/dyoshikawa__rulesync.json",
+  "readmeUrl": "https://github.com/monid-ai/monid#readme",
+  "detailPath": "data/details/monid__ai__monid.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "rulesync 聚焦软件开发、代码质量与工程交付。",
+    "summary": "monid 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,14 +71,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "1837298e29a5368e",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "b7d011685c61be7d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "rulesync：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "rulesync 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "monid：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "monid 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

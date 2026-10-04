@@ -19,16 +19,16 @@
     "端到端发布"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack\ncd ~/gstack && ./setup",
+  "installCommand": "git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/gstack\ncd ~/gstack && ./setup --host auto      # or: ./setup --host codex\n./setup --status                         # one row per install: host, tier, scope, version, path",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 134819,
-  "forks": 20064,
-  "openIssues": 830,
+  "stars": 134958,
+  "forks": 20080,
+  "openIssues": 536,
   "score": 153.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-03T05:18:40Z",
-  "updatedAt": "2026-10-03T05:10:34Z",
+  "pushedAt": "2026-10-04T05:11:30Z",
+  "updatedAt": "2026-10-04T05:41:47Z",
   "createdAt": "2026-03-11T21:22:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,6 +41,7 @@
     "Claude",
     "Codex",
     "Cursor",
+    "GitHub Copilot",
     "OpenClaw",
     "OpenCode"
   ],
@@ -74,8 +75,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-03T05:26:09.110Z",
-    "sourceHash": "287ffe9f1bc446e7",
+    "generatedAt": "2026-10-04T06:02:09.049Z",
+    "sourceHash": "d78d462f4c6727b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
