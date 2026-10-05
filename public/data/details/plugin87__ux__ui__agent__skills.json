@@ -1,5 +1,5 @@
 {
-  "rank": 930,
+  "rank": 666,
   "id": 1183286798,
   "name": "ux-ui-agent-skills",
   "fullName": "plugin87/ux-ui-agent-skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/5790381?v=4",
   "url": "https://github.com/plugin87/ux-ui-agent-skills",
   "homepage": "https://plugin87.github.io/ux-ui-agent-skills/",
-  "description": "Turn Claude into a senior design architect: DTCG tokens, 50 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 43 objective gates that fail the build instead of faking success.",
+  "description": "Turn Claude into a senior design architect: DTCG tokens, 50 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 48 objective gates that fail the build instead of faking success.",
   "summary": "ux-ui-agent-skills：帮助改进界面设计、用户体验与视觉质量。适合在 Claude 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/plugin87/ux-ui-agent-skills.git",
+  "installCommand": "**31 of them open a real browser, so they need one installed.** Playwright is not\npulled in by `/plugin install` or `npx ux-ui-agent-skills init`, so run this once\nin the kit directory before expecting a full score:",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 1523,
+  "stars": 1528,
   "forks": 163,
-  "openIssues": 6,
-  "score": 111.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-16T02:33:41Z",
-  "updatedAt": "2026-10-04T03:13:53Z",
+  "openIssues": 8,
+  "score": 118.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-05T05:12:03Z",
+  "updatedAt": "2026-10-05T04:50:56Z",
   "createdAt": "2026-03-16T13:08:49Z",
   "sourceTopics": [
     "claude-skills"
@@ -58,7 +58,7 @@
   "platforms": [
     "Claude"
   ],
-  "skillCount": 1,
+  "skillCount": 19,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/plugin87/ux-ui-agent-skills",
@@ -88,8 +88,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "730c90f4aa317f2e",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "4d44954c74dcee32",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -122,7 +122,7 @@
       "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
       "用户把它接入目标工具后，在界面任务中调用对应流程。",
       "具体生成效果取决于你的模型能力、素材质量和项目约束。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 19+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 中的示例截图或输出案例。",

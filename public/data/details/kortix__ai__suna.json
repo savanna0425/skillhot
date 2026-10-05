@@ -1,5 +1,5 @@
 {
-  "rank": 278,
+  "rank": 281,
   "id": 868173144,
   "name": "suna",
   "fullName": "kortix-ai/suna",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kortix-ai/suna",
   "homepage": "https://www.kortix.com",
   "description": "The open-source AI Operating System",
-  "summary": "suna：尚未归入主要类别的实用项目。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+  "summary": "suna：尚未归入主要类别的实用项目。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "pnpm install\npnpm dev            # web + API (scripts/dev-local.sh)\npnpm dev:web        # web app only",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 20245,
-  "forks": 3435,
-  "openIssues": 126,
+  "stars": 20249,
+  "forks": 3436,
+  "openIssues": 76,
   "score": 133.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-04T05:55:03Z",
-  "updatedAt": "2026-10-04T05:48:28Z",
+  "pushedAt": "2026-10-05T01:33:32Z",
+  "updatedAt": "2026-10-05T01:11:12Z",
   "createdAt": "2024-10-05T17:01:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -39,10 +39,13 @@
     "ai-agents",
     "ai-operating-system",
     "ai-os",
-    "llm"
+    "llm",
+    "open-source",
+    "self-hosted"
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -75,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "f1a96ed3c724ab0b",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "7b7b014949f36856",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "suna：尚未归入主要类别的实用项目。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "suna：尚未归入主要类别的实用项目。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "suna 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -99,7 +102,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

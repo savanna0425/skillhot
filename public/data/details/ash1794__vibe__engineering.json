@@ -1,14 +1,14 @@
 {
-  "rank": 1493,
-  "id": 1228004380,
-  "name": "goalbuddy",
-  "fullName": "tolimarchuk/goalbuddy",
-  "owner": "tolimarchuk",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3253693?v=4",
-  "url": "https://github.com/tolimarchuk/goalbuddy",
-  "homepage": "http://goalbuddy.dev/",
-  "description": "A better /goal for Codex and Claude Code",
-  "summary": "goalbuddy：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1809,
+  "id": 1169175075,
+  "name": "vibe-engineering",
+  "fullName": "ash1794/vibe-engineering",
+  "owner": "ash1794",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/5153495?v=4",
+  "url": "https://github.com/ash1794/vibe-engineering",
+  "homepage": "",
+  "description": "38 engineering discipline skills for Claude Code & OpenAI Codex — research, quality gates, testing, deployment, gap analysis, and more. Born from real pain, not theory.",
+  "summary": "vibe-engineering：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,22 +19,44 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/tolimarchuk/goalbuddy.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/ash1794/vibe-engineering.git",
+  "language": "Shell",
   "license": "MIT",
-  "stars": 824,
-  "forks": 65,
-  "openIssues": 10,
-  "score": 100.1,
+  "stars": 84,
+  "forks": 18,
+  "openIssues": 2,
+  "score": 89.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-02T14:31:03Z",
-  "updatedAt": "2026-10-02T14:31:09Z",
-  "createdAt": "2026-05-03T13:16:02Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-10-05T05:32:25Z",
+  "updatedAt": "2026-10-05T05:31:59Z",
+  "createdAt": "2026-02-28T09:36:00Z",
+  "sourceTopics": [
+    "codex-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agents-md",
+    "ai-agents",
+    "ai-coding",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "code-quality",
+    "codex-skills",
+    "developer-experience",
+    "developer-tools",
+    "multi-agent",
+    "openai",
+    "openai-codex",
+    "skills",
+    "software-engineering",
+    "testing",
+    "vibe-coding",
+    "vibe-engineering"
+  ],
   "platforms": [
     "Claude",
     "Codex"
@@ -42,15 +64,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/tolimarchuk/goalbuddy",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ash1794/vibe-engineering",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/tolimarchuk/goalbuddy#readme",
-  "detailPath": "data/details/tolimarchuk__goalbuddy.json",
+  "readmeUrl": "https://github.com/ash1794/vibe-engineering#readme",
+  "detailPath": "data/details/ash1794__vibe__engineering.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "goalbuddy 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "vibe-engineering 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,14 +91,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "214adbe51211b47a",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "0ffc7c1297d45f31",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "goalbuddy：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "goalbuddy 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "vibe-engineering：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "vibe-engineering 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

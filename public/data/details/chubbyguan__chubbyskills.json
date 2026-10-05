@@ -1,5 +1,5 @@
 {
-  "rank": 923,
+  "rank": 929,
   "id": 1262740944,
   "name": "chubbyskills",
   "fullName": "chubbyguan/chubbyskills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/291697539?v=4",
   "url": "https://github.com/chubbyguan/chubbyskills",
   "homepage": "",
-  "description": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, and a KB MCP server.",
-  "summary": "chubbyskills：把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese c。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU、RSS/YouTube 订阅调度与每日情报简报，附带知识库 MCP server。｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, feed subscriptions with daily digests, and a KB MCP server.",
+  "summary": "chubbyskills：把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU、RSS/YouTube 订阅调度与每日情报简报，附带知识库 MCP se。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/chubbyguan/chubbyskills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1165,
-  "forks": 145,
-  "openIssues": 5,
-  "score": 111.7,
+  "stars": 1175,
+  "forks": 147,
+  "openIssues": 3,
+  "score": 111.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-04T05:58:07Z",
-  "updatedAt": "2026-10-04T05:58:12Z",
+  "pushedAt": "2026-10-05T03:23:44Z",
+  "updatedAt": "2026-10-05T04:15:10Z",
   "createdAt": "2026-06-08T09:22:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,14 +37,22 @@
   "repoTopics": [
     "agent-skills",
     "ai-agents",
+    "bilibili",
     "chinese",
     "claude-code",
+    "douyin",
     "knowledge-base",
     "mcp",
     "obsidian",
+    "personal-knowledge-management",
+    "podcast",
+    "rss",
     "second-brain",
+    "skills",
     "transcription",
-    "xiaohongshu"
+    "wechat",
+    "xiaohongshu",
+    "youtube"
   ],
   "platforms": [
     "Claude"
@@ -60,7 +68,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese c",
+    "summary": "把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU、RSS/YouTube 订阅调度与每日情报简报，附带知识库 MCP se",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,13 +87,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "12ca4bb3d3bbc40e",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "0f9bab1e1a7ca075",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chubbyskills：把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese c。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "chubbyskills：把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 14 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU、RSS/YouTube 订阅调度与每日情报简报，附带知识库 MCP se。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "chubbyskills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

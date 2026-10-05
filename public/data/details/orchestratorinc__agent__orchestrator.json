@@ -1,17 +1,17 @@
 {
-  "rank": 2314,
-  "id": 1381561943,
-  "name": "ai-agent-skills-pack-2026",
-  "fullName": "maxlopez-xb0/ai-agent-skills-pack-2026",
-  "owner": "maxlopez-xb0",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/279293289?v=4",
-  "url": "https://github.com/maxlopez-xb0/ai-agent-skills-pack-2026",
-  "homepage": "",
-  "description": "Extensible capability suite for AI coding agents — adds file operations, workflow automation, and API integration modules to Claude Code, Cursor, Codex, and Continue.",
-  "summary": "ai-agent-skills-pack-2026：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 304,
+  "id": 1156994049,
+  "name": "agent-orchestrator",
+  "fullName": "OrchestratorInc/agent-orchestrator",
+  "owner": "OrchestratorInc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/310302959?v=4",
+  "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+  "homepage": "orchestrator.inc",
+  "description": "Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.",
+  "summary": "agent-orchestrator：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,61 +19,56 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/maxlopez-xb0/ai-agent-skills-pack-2026.git",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-22T14:31:19Z",
-  "updatedAt": "2026-09-24T19:13:49Z",
-  "createdAt": "2026-09-22T13:10:24Z",
+  "installCommand": "git clone https://github.com/Untrivial-ai/agent-orchestrator.git\ncd agent-orchestrator",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 12746,
+  "forks": 1760,
+  "openIssues": 764,
+  "score": 132.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-05T05:31:02Z",
+  "updatedAt": "2026-10-05T05:31:13Z",
+  "createdAt": "2026-02-13T09:52:36Z",
   "sourceTopics": [
-    "ai-agent-skills"
+    "skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-framework",
-    "agent-skill",
-    "agent-skills",
-    "agentic-ai",
-    "ai-agent-framework",
-    "ai-agent-skill",
-    "ai-agent-skills",
-    "ai-agent-tools",
-    "antigravity",
-    "claude",
-    "claude-ai",
+    "agent-fleet",
+    "agent-ide",
+    "agent-orchestration",
+    "agent-swarm",
     "claude-code",
-    "claude-code-plugin",
-    "claude-skills",
-    "codex",
-    "cursor",
-    "skill",
+    "codex-cli",
+    "git-worktrees",
+    "multi-agent",
+    "orchestration",
+    "orchestrator",
+    "parallel-agents",
+    "parallel-coding",
     "skills"
   ],
   "platforms": [
     "Claude",
     "Codex",
     "Cursor",
-    "Antigravity"
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/maxlopez-xb0/ai-agent-skills-pack-2026",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OrchestratorInc/agent-orchestrator",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/maxlopez-xb0/ai-agent-skills-pack-2026#readme",
-  "detailPath": "data/details/maxlopez__xb0__ai__agent__skills__pack__2026.json",
+  "readmeUrl": "https://github.com/OrchestratorInc/agent-orchestrator#readme",
+  "detailPath": "data/details/orchestratorinc__agent__orchestrator.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ai-agent-skills-pack-2026 聚焦软件开发、代码质量与工程交付。",
+    "summary": "agent-orchestrator 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,17 +84,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "466538fea474df09",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "8dd4b46892b148ea",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-agent-skills-pack-2026：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "ai-agent-skills-pack-2026 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-orchestrator：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agent-orchestrator 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -139,7 +134,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

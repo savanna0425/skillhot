@@ -1,5 +1,5 @@
 {
-  "rank": 845,
+  "rank": 857,
   "id": 900577388,
   "name": "intentkit",
   "fullName": "crestalnetwork/intentkit",
@@ -8,7 +8,7 @@
   "url": "https://github.com/crestalnetwork/intentkit",
   "homepage": "https://intentcat.com/docs",
   "description": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.",
-  "summary": "intentkit：是一款开源、可自托管的云端智能体集群，专为管理协作型 AI 团队而设计。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "summary": "intentkit：是一款开源、可自托管的云端智能体集群，专为管理协作型 AI 团队而设计。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/crestalnetwork/intentkit.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 6515,
-  "forks": 711,
+  "stars": 6514,
+  "forks": 712,
   "openIssues": 96,
   "score": 114.5,
   "activity": "本月活跃",
   "pushedAt": "2026-09-16T12:17:32Z",
-  "updatedAt": "2026-10-03T12:40:51Z",
+  "updatedAt": "2026-10-05T04:05:27Z",
   "createdAt": "2024-12-09T04:32:22Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,7 +46,7 @@
     "web3"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -78,13 +78,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "3859a3394cb50063",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "6fe8eaec987bf14a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "intentkit：是一款开源、可自托管的云端智能体集群，专为管理协作型 AI 团队而设计。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "intentkit：是一款开源、可自托管的云端智能体集群，专为管理协作型 AI 团队而设计。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "intentkit 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -102,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

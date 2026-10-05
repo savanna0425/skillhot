@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx codex-marketplace add wshobson/agents        # Codex; then install individual plugins",
+  "installCommand": "The native Codex manifests expose source skills. The generated TOML agents and command-derived skills use a separate adapter path. Native installation also reads the original skill bodies, while generated copies split oversized bodies into reference files for the 8 KB budget. See the [Codex setup details](docs/harnesses.md#native-install) before choosing an ",
   "language": "Python",
   "license": "MIT",
-  "stars": 40183,
+  "stars": 40205,
   "forks": 4286,
   "openIssues": 4,
   "score": 148.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-01T19:08:25Z",
-  "updatedAt": "2026-10-04T05:41:29Z",
+  "pushedAt": "2026-10-05T01:07:11Z",
+  "updatedAt": "2026-10-05T04:56:17Z",
   "createdAt": "2025-07-24T23:28:14Z",
   "sourceTopics": [
     "agent-skills",
@@ -99,8 +99,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "ce51d9a1ac633e0a",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "335e0f2062644026",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

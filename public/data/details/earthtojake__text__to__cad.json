@@ -1,5 +1,5 @@
 {
-  "rank": 325,
+  "rank": 324,
   "id": 1217522067,
   "name": "text-to-cad",
   "fullName": "earthtojake/text-to-cad",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add earthtojake/text-to-cad",
+  "installCommand": "Requires Codex 0.142.0 or newer: older versions skip this repository-root plugin\nsilently, and it never appears in `codex plugin list`. Upgrade with\n`npm install -g @openai/codex@latest`.",
   "language": "Python",
   "license": "MIT",
-  "stars": 16633,
-  "forks": 1727,
-  "openIssues": 27,
-  "score": 131.3,
+  "stars": 16973,
+  "forks": 1750,
+  "openIssues": 34,
+  "score": 131.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-04T06:01:32Z",
-  "updatedAt": "2026-10-04T06:01:35Z",
+  "pushedAt": "2026-10-05T04:58:00Z",
+  "updatedAt": "2026-10-05T05:49:43Z",
   "createdAt": "2026-04-22T01:09:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,7 +48,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -80,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "c6f8c8e7b1ec6d35",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "2eedcc80d0f3e923",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

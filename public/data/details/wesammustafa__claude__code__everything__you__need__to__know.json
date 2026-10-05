@@ -1,5 +1,5 @@
 {
-  "rank": 833,
+  "rank": 355,
   "id": 1039579222,
   "name": "Claude-Code-Everything-You-Need-to-Know",
   "fullName": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npm install -g @anthropic-ai/claude-code",
+  "installCommand": "git clone --depth 1 https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know /tmp/cc-guide\ncp -r /tmp/cc-guide/.claude/commands/pr.md  your-project/.claude/commands/   # take what you want",
   "language": "Python",
   "license": "MIT",
-  "stars": 3091,
-  "forks": 357,
-  "openIssues": 16,
-  "score": 114.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-28T11:00:38Z",
-  "updatedAt": "2026-10-04T00:19:04Z",
+  "stars": 3095,
+  "forks": 358,
+  "openIssues": 17,
+  "score": 129.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-04T21:06:24Z",
+  "updatedAt": "2026-10-05T04:14:14Z",
   "createdAt": "2025-08-17T14:45:39Z",
   "sourceTopics": [
     "claude-skills",
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "150da405ce83b612",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "2abaeeb69079739b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

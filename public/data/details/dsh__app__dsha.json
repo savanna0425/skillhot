@@ -1,74 +1,66 @@
 {
-  "rank": 2312,
-  "id": 1273353522,
-  "name": "loam",
-  "fullName": "scchearn/loam",
-  "owner": "scchearn",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/4113674?v=4",
-  "url": "https://github.com/scchearn/loam",
-  "homepage": "https://scchearn.github.io/loam/",
-  "description": "Workflow skills for AI coding agents: plan, execute, and maintain a persistent knowledge base across sessions.",
-  "summary": "loam：聚焦软件开发、代码质量与工程交付。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+  "rank": 1492,
+  "id": 1334392318,
+  "name": "DSHA",
+  "fullName": "DSH-APP/DSHA",
+  "owner": "DSH-APP",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/325551104?v=4",
+  "url": "https://github.com/DSH-APP/DSHA",
+  "homepage": "",
+  "description": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
+  "summary": "DSHA：免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/scchearn/loam.git",
-  "language": "Rust",
+  "installCommand": "git clone https://github.com/DSH-APP/DSHA.git",
+  "language": "Java",
   "license": "MIT",
-  "stars": 1,
-  "forks": 1,
-  "openIssues": 25,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-03T15:27:56Z",
-  "updatedAt": "2026-09-03T15:31:18Z",
-  "createdAt": "2026-06-18T12:47:23Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "stars": 832,
+  "forks": 58,
+  "openIssues": 24,
+  "score": 100.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-05T05:39:09Z",
+  "updatedAt": "2026-10-05T05:39:14Z",
+  "createdAt": "2026-08-14T16:52:02Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-memory",
-    "agent-skills",
-    "agentic-skills",
-    "ai-agent",
-    "ai-agents",
-    "ai-coding-agent",
-    "claude-code",
-    "developer-tools",
-    "knowledge-base",
-    "llm-tools",
-    "multi-agent",
-    "opencode",
-    "skill-md",
-    "skills",
-    "workflows"
+    "android",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "launcher",
+    "llm",
+    "proot",
+    "proroot",
+    "shizuku",
+    "webui"
   ],
   "platforms": [
-    "Claude",
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/scchearn/loam",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/DSH-APP/DSHA",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/scchearn/loam#readme",
-  "detailPath": "data/details/scchearn__loam.json",
+  "readmeUrl": "https://github.com/DSH-APP/DSHA#readme",
+  "detailPath": "data/details/dsh__app__dsha.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "loam 聚焦软件开发、代码质量与工程交付。",
+    "summary": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -87,14 +79,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "7a61d820e1f5c1ed",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "5703c82768a99a0b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "loam：聚焦软件开发、代码质量与工程交付。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
-    "whatItIs": "loam 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "DSHA：免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "DSHA 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -111,7 +103,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

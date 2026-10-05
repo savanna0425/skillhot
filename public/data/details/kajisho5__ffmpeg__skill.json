@@ -1,5 +1,5 @@
 {
-  "rank": 859,
+  "rank": 788,
   "id": 1356077516,
   "name": "ffmpeg-skill",
   "fullName": "kajisho5/ffmpeg-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kajisho5/ffmpeg-skill",
   "homepage": "",
   "description": "",
-  "summary": "ffmpeg-skill：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "ffmpeg-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kajisho5/ffmpeg-skill.git",
+  "installCommand": "npx ffmpeg-skill",
   "language": "Python",
   "license": "MIT",
-  "stars": 1517,
-  "forks": 127,
-  "openIssues": 6,
-  "score": 114.4,
+  "stars": 1762,
+  "forks": 142,
+  "openIssues": 4,
+  "score": 116,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-03T13:37:57Z",
-  "updatedAt": "2026-10-04T05:56:20Z",
+  "pushedAt": "2026-10-05T03:21:15Z",
+  "updatedAt": "2026-10-05T05:48:53Z",
   "createdAt": "2026-09-03T14:33:38Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,9 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -47,7 +49,7 @@
   "readmeUrl": "https://github.com/kajisho5/ffmpeg-skill#readme",
   "detailPath": "data/details/kajisho5__ffmpeg__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "ffmpeg-skill：尚未归入主要类别的实用项目。",
     "useCases": [
@@ -68,13 +70,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "12c3fe8e2fe34871",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "bb917a2bd0cfc81a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ffmpeg-skill：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "ffmpeg-skill：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ffmpeg-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -92,7 +94,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

@@ -1,17 +1,17 @@
 {
-  "rank": 989,
-  "id": 1354702877,
-  "name": "consulting-pptx-skill",
-  "fullName": "carnot-tech/consulting-pptx-skill",
-  "owner": "carnot-tech",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/110534823?v=4",
-  "url": "https://github.com/carnot-tech/consulting-pptx-skill",
+  "rank": 862,
+  "id": 1388594776,
+  "name": "onetake",
+  "fullName": "feitangyuan/onetake",
+  "owner": "feitangyuan",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/251547459?v=4",
+  "url": "https://github.com/feitangyuan/onetake",
   "homepage": "",
-  "description": "AIにまじなPPTXを作らせるClaude Codeスキル — スライド規約＋62型スライド型カタログ（SlideSpec 36型＋自由記述27パーツ）＋生成パイプライン＋機械チェック",
-  "summary": "consulting-pptx-skill：AIにまじなPPTXを作らせるClaude Codeスキル — スライド規約＋62型スライド型カタログ（SlideSpec 36型＋自由記述27パーツ）＋生成パイプライン＋機械チェック。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
+  "summary": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,37 +19,45 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/carnot-tech/consulting-pptx-skill.git",
-  "language": "HTML",
-  "license": "MIT",
-  "stars": 937,
-  "forks": 82,
-  "openIssues": 2,
-  "score": 109.4,
+  "installCommand": "git clone https://github.com/feitangyuan/onetake.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 1537,
+  "forks": 98,
+  "openIssues": 3,
+  "score": 114.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-27T22:29:35Z",
-  "updatedAt": "2026-10-04T03:25:50Z",
-  "createdAt": "2026-09-02T11:53:05Z",
+  "pushedAt": "2026-09-29T01:53:46Z",
+  "updatedAt": "2026-10-05T05:50:12Z",
+  "createdAt": "2026-09-26T05:35:17Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skill",
+    "animation",
+    "canvas",
+    "claude-skill",
+    "launch-video",
+    "motion-graphics",
+    "video"
+  ],
   "platforms": [
     "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/carnot-tech/consulting-pptx-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/feitangyuan/onetake",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/carnot-tech/consulting-pptx-skill#readme",
-  "detailPath": "data/details/carnot__tech__consulting__pptx__skill.json",
+  "readmeUrl": "https://github.com/feitangyuan/onetake#readme",
+  "detailPath": "data/details/feitangyuan__onetake.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AIにまじなPPTXを作らせるClaude Codeスキル — スライド規約＋62型スライド型カタログ（SlideSpec 36型＋自由記述27パーツ）＋生成パイプライン＋機械チェック",
+    "summary": "onetake：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -65,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "55a838fce50b5ed2",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "53fca86ce7d89e2a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "consulting-pptx-skill：AIにまじなPPTXを作らせるClaude Codeスキル — スライド規約＋62型スライド型カタログ（SlideSpec 36型＋自由記述27パーツ）＋生成パイプライン＋機械チェック。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "consulting-pptx-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "onetake 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -115,7 +123,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

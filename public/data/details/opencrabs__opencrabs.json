@@ -1,17 +1,17 @@
 {
-  "rank": 1231,
-  "id": 415020649,
-  "name": "cv-arxiv-daily",
-  "fullName": "Vincentqyw/cv-arxiv-daily",
-  "owner": "Vincentqyw",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18531182?v=4",
-  "url": "https://github.com/Vincentqyw/cv-arxiv-daily",
-  "homepage": "",
-  "description": "🎓Automatically Update CV Papers Daily using Github Actions",
-  "summary": "cv-arxiv-daily：每日使用 Github Actions 自动更新 CV 论文。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1325,
+  "id": 1157543432,
+  "name": "opencrabs",
+  "fullName": "opencrabs/opencrabs",
+  "owner": "opencrabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/264491811?v=4",
+  "url": "https://github.com/opencrabs/opencrabs",
+  "homepage": "https://opencrabs.com",
+  "description": "The all-in-one AI agent. Build mobile apps, frontend, backend, manages files, deep research, schedule tasks and events. Self-improving, self-healing, fully autonomous. TUI, CLI and Daemon. Connect to your favorite channels. Zero Telemetry.",
+  "summary": "opencrabs：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
@@ -19,37 +19,35 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vincentqyw/cv-arxiv-daily.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 1500,
-  "forks": 565,
-  "openIssues": 1,
-  "score": 106.3,
+  "installCommand": "git clone https://github.com/opencrabs/opencrabs.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 971,
+  "forks": 104,
+  "openIssues": 36,
+  "score": 101.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-09-28T16:36:31Z",
-  "updatedAt": "2026-09-30T21:04:37Z",
-  "createdAt": "2021-10-08T14:35:41Z",
+  "pushedAt": "2026-10-05T01:23:39Z",
+  "updatedAt": "2026-10-05T01:23:43Z",
+  "createdAt": "2026-02-14T00:05:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "3d-reconstruction",
-    "arxiv",
-    "cv",
-    "deep-learning",
-    "image-matching",
-    "lidar",
-    "localization",
-    "mapping",
-    "nerf",
-    "paper",
-    "paperwithcode",
-    "robotics",
-    "sfm",
-    "slam",
-    "structure-from-motion"
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-framework",
+    "autonomous-agents",
+    "harness",
+    "harness-framework",
+    "open-source",
+    "opencrabs",
+    "orchestration-framework",
+    "recursive-self-improvement",
+    "rsi",
+    "self-healing",
+    "self-learning"
   ],
   "platforms": [
     "Agent Skills"
@@ -57,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Vincentqyw/cv-arxiv-daily",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/opencrabs/opencrabs",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Vincentqyw/cv-arxiv-daily#readme",
-  "detailPath": "data/details/vincentqyw__cv__arxiv__daily.json",
+  "readmeUrl": "https://github.com/opencrabs/opencrabs#readme",
+  "detailPath": "data/details/opencrabs__opencrabs.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "每日使用 Github Actions 自动更新 CV 论文",
+    "summary": "opencrabs 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -81,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-04T06:02:09.049Z",
-    "sourceHash": "a23b694d4c59be2b",
+    "generatedAt": "2026-10-05T05:51:01.392Z",
+    "sourceHash": "68aa9cfb3bb430ae",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cv-arxiv-daily：每日使用 Github Actions 自动更新 CV 论文。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "cv-arxiv-daily 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "opencrabs：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "opencrabs 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -131,7 +129,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
