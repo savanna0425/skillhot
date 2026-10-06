@@ -1,14 +1,14 @@
 {
-  "rank": 1839,
-  "id": 1296627757,
-  "name": "jzsub",
-  "fullName": "pengchujin/jzsub",
-  "owner": "pengchujin",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/16513318?v=4",
-  "url": "https://github.com/pengchujin/jzsub",
+  "rank": 857,
+  "id": 1397771878,
+  "name": "yomiyasu",
+  "fullName": "nanaism/yomiyasu",
+  "owner": "nanaism",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/72681409?v=4",
+  "url": "https://github.com/nanaism/yomiyasu",
   "homepage": "",
-  "description": "JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。",
-  "summary": "jzsub：— 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。适合在 Codex 相关工作流里先做选型判断。",
+  "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+  "summary": "yomiyasu：AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -19,43 +19,56 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/pengchujin/jzsub.git",
+  "installCommand": "git clone https://github.com/nanaism/yomiyasu.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 999,
-  "forks": 106,
-  "openIssues": 1,
-  "score": 87.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-29T01:07:27Z",
-  "updatedAt": "2026-10-04T15:57:31Z",
-  "createdAt": "2026-07-10T15:10:00Z",
+  "stars": 1545,
+  "forks": 34,
+  "openIssues": 3,
+  "score": 114.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-05T09:32:15Z",
+  "updatedAt": "2026-10-06T06:24:37Z",
+  "createdAt": "2026-09-30T11:49:32Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "bilingual",
+    "agent-skills",
+    "ai-writing",
+    "antigravity",
+    "claude-code",
     "codex",
-    "subtitles",
-    "video",
-    "yt-dlp"
+    "cursor",
+    "gemini",
+    "japanese",
+    "linter",
+    "llm",
+    "nlp",
+    "writing",
+    "writing-assistant",
+    "writing-tool"
   ],
   "platforms": [
-    "Codex"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/pengchujin/jzsub",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nanaism/yomiyasu",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/pengchujin/jzsub#readme",
-  "detailPath": "data/details/pengchujin__jzsub.json",
+  "readmeUrl": "https://github.com/nanaism/yomiyasu#readme",
+  "detailPath": "data/details/nanaism__yomiyasu.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。",
+    "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,14 +87,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "432baa99d7ddc031",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "0b27f67d2f76713c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jzsub：— 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "jzsub 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "yomiyasu：AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "yomiyasu 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -98,7 +111,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

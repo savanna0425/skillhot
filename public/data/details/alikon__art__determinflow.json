@@ -1,43 +1,50 @@
 {
-  "rank": 329,
-  "id": 983246568,
-  "name": "DeepCode",
-  "fullName": "HKUDS/DeepCode",
-  "owner": "HKUDS",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
-  "url": "https://github.com/HKUDS/DeepCode",
-  "homepage": "http://arxiv.org/abs/2512.07921",
-  "description": "\"DeepCode: Open Agentic Coding (Agent Harness & Loop Engineering & Multi-Agent Orchestration)\"",
-  "summary": "DeepCode：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1710,
+  "id": 1319927892,
+  "name": "DeterminFlow",
+  "fullName": "alikon-art/DeterminFlow",
+  "owner": "alikon-art",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/41196703?v=4",
+  "url": "https://github.com/alikon-art/DeterminFlow",
+  "homepage": "",
+  "description": "A production-oriented AI workflow runtime for building, validating, recovering, and shipping complex AI workflows as dependable services. 面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。",
+  "summary": "DeterminFlow：面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "uv tool install --python 3.12 deepcode-hku\ndeepcode init",
+  "installCommand": "git clone https://github.com/alikon-art/DeterminFlow.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 16671,
-  "forks": 2164,
-  "openIssues": 20,
-  "score": 131.3,
-  "activity": "本周活跃",
-  "pushedAt": "2026-09-28T08:06:05Z",
-  "updatedAt": "2026-10-05T05:00:01Z",
-  "createdAt": "2025-05-14T05:23:02Z",
+  "license": "AGPL-3.0",
+  "stars": 832,
+  "forks": 117,
+  "openIssues": 16,
+  "score": 93.2,
+  "activity": "本月活跃",
+  "pushedAt": "2026-09-11T07:56:40Z",
+  "updatedAt": "2026-10-06T05:09:33Z",
+  "createdAt": "2026-08-02T07:40:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-coding",
-    "harness-engineering",
-    "llm-agent"
+    "agent-orchestration",
+    "ai-agents",
+    "ai-workflow",
+    "fastapi",
+    "llm",
+    "multi-agent",
+    "python",
+    "workflow-automation",
+    "workflow-engine",
+    "workflow-runtime"
   ],
   "platforms": [
     "Agent Skills"
@@ -45,15 +52,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HKUDS/DeepCode",
-    "videoUrl": "https://youtu.be/PRgmP8pOI08"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/alikon-art/DeterminFlow",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HKUDS/DeepCode#readme",
-  "detailPath": "data/details/hkuds__deepcode.json",
+  "readmeUrl": "https://github.com/alikon-art/DeterminFlow#readme",
+  "detailPath": "data/details/alikon__art__determinflow.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "DeepCode 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -69,17 +76,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "73b1d98b9df7005a",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "078795b1d13648f6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeepCode：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "DeepCode 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "DeterminFlow：面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "DeterminFlow 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -119,7 +126,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

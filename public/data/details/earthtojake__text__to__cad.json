@@ -1,5 +1,5 @@
 {
-  "rank": 324,
+  "rank": 312,
   "id": 1217522067,
   "name": "text-to-cad",
   "fullName": "earthtojake/text-to-cad",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "Requires Codex 0.142.0 or newer: older versions skip this repository-root plugin\nsilently, and it never appears in `codex plugin list`. Upgrade with\n`npm install -g @openai/codex@latest`.",
+  "installCommand": "claude plugin marketplace add earthtojake/text-to-cad#latest\nclaude plugin install text-to-cad@earthtojake",
   "language": "Python",
   "license": "MIT",
-  "stars": 16973,
-  "forks": 1750,
-  "openIssues": 34,
-  "score": 131.5,
+  "stars": 17554,
+  "forks": 1777,
+  "openIssues": 35,
+  "score": 131.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-05T04:58:00Z",
-  "updatedAt": "2026-10-05T05:49:43Z",
+  "pushedAt": "2026-10-06T05:56:02Z",
+  "updatedAt": "2026-10-06T06:29:48Z",
   "createdAt": "2026-04-22T01:09:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -81,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "2eedcc80d0f3e923",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "c96ff10798935139",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 870,
+  "rank": 801,
   "id": 1396117711,
   "name": "OpenDots",
   "fullName": "CopilotKit/OpenDots",
@@ -8,7 +8,7 @@
   "url": "https://github.com/CopilotKit/OpenDots",
   "homepage": "https://www.copilotkit.ai/opendots",
   "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-  "summary": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 GitHub Copilot 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/CopilotKit/OpenDots.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 3278,
-  "forks": 432,
-  "openIssues": 60,
-  "score": 114.4,
+  "stars": 3730,
+  "forks": 496,
+  "openIssues": 41,
+  "score": 115.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-02T21:16:45Z",
-  "updatedAt": "2026-10-05T05:50:14Z",
+  "pushedAt": "2026-10-05T22:37:47Z",
+  "updatedAt": "2026-10-06T06:29:03Z",
   "createdAt": "2026-09-29T17:13:58Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -47,7 +47,7 @@
   "readmeUrl": "https://github.com/CopilotKit/OpenDots#readme",
   "detailPath": "data/details/copilotkit__opendots.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
@@ -68,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "2819d206bf77a94a",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "8e09284ff5f45095",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "OpenDots：文档、表格、邮件、日历、笔记与个人生产力。适合在 GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "OpenDots 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -92,7 +92,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

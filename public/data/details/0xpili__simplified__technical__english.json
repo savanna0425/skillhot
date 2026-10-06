@@ -1,48 +1,46 @@
 {
-  "rank": 2058,
-  "id": 1103968425,
-  "name": "enterprise-ai-skills",
-  "fullName": "sruthir28/enterprise-ai-skills",
-  "owner": "sruthir28",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/8847555?v=4",
-  "url": "https://github.com/sruthir28/enterprise-ai-skills",
+  "rank": 1655,
+  "id": 1335560273,
+  "name": "simplified-technical-english",
+  "fullName": "0xpili/simplified-technical-english",
+  "owner": "0xpili",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/121824734?v=4",
+  "url": "https://github.com/0xpili/simplified-technical-english",
   "homepage": "",
-  "description": "Open-source AI skills for enterprise professionals. McKinsey consulting frameworks, PM workflows, and practical tools. Currently for Claude, expanding to other LLMs.",
-  "summary": "enterprise-ai-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "An Agent Skill that makes an LLM write in ASD-STE100 Simplified Technical English. Rules, approved word list, and a check tool.",
+  "summary": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/sruthir28/enterprise-ai-skills.git",
+  "installCommand": "git clone https://github.com/0xpili/simplified-technical-english.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 147,
-  "forks": 30,
-  "openIssues": 1,
-  "score": 75.7,
+  "license": "NOASSERTION",
+  "stars": 911,
+  "forks": 41,
+  "openIssues": 3,
+  "score": 94.1,
   "activity": "近期活跃",
-  "pushedAt": "2026-09-01T13:56:14Z",
-  "updatedAt": "2026-09-23T13:58:10Z",
-  "createdAt": "2025-11-25T15:17:52Z",
+  "pushedAt": "2026-08-16T02:16:57Z",
+  "updatedAt": "2026-10-06T05:29:32Z",
+  "createdAt": "2026-08-16T02:13:23Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "claude",
-    "consulting",
-    "enterprise",
-    "frameworks",
-    "llm",
-    "product-management",
-    "productivity"
+    "agent-skills",
+    "asd-ste100",
+    "claude-skill",
+    "controlled-language",
+    "simplified-technical-english",
+    "technical-writing"
   ],
   "platforms": [
     "Claude"
@@ -50,15 +48,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/sruthir28/enterprise-ai-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/0xpili/simplified-technical-english",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/sruthir28/enterprise-ai-skills#readme",
-  "detailPath": "data/details/sruthir28__enterprise__ai__skills.json",
+  "readmeUrl": "https://github.com/0xpili/simplified-technical-english#readme",
+  "detailPath": "data/details/0xpili__simplified__technical__english.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "enterprise-ai-skills：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -74,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "4f3a821d315d3ca4",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "1f493a14c206ca2f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "enterprise-ai-skills：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "enterprise-ai-skills 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "simplified-technical-english 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -124,7 +122,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

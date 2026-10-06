@@ -1,14 +1,14 @@
 {
-  "rank": 1918,
-  "id": 1291157543,
-  "name": "motion-anything",
-  "fullName": "nexu-io/motion-anything",
-  "owner": "nexu-io",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
-  "url": "https://github.com/nexu-io/motion-anything",
-  "homepage": "",
-  "description": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
-  "summary": "motion-anything：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1499,
+  "id": 1209237271,
+  "name": "capcut-cli",
+  "fullName": "renezander030/capcut-cli",
+  "owner": "renezander030",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/96420681?v=4",
+  "url": "https://github.com/renezander030/capcut-cli",
+  "homepage": "https://renezander.com/projects/capcut-cli",
+  "description": "Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut long-form to shorts. No API needed, reads draft_content.json and draft_info.json (剪映草稿) directly. Not affiliated with ByteDance.",
+  "summary": "capcut-cli：Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,30 +19,41 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nexu-io/motion-anything.git",
+  "installCommand": "git clone https://github.com/renezander030/capcut-cli.git",
   "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 839,
-  "forks": 102,
-  "openIssues": 6,
-  "score": 85.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-07T06:47:46Z",
-  "updatedAt": "2026-10-04T11:10:04Z",
-  "createdAt": "2026-07-06T14:56:20Z",
+  "license": "MIT",
+  "stars": 830,
+  "forks": 87,
+  "openIssues": 1,
+  "score": 100.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-04T06:19:48Z",
+  "updatedAt": "2026-10-06T03:38:22Z",
+  "createdAt": "2026-04-13T08:19:44Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "ai-agent",
-    "animation",
-    "claude",
-    "design-tools",
-    "figma-motion-alternative",
-    "motion-design",
-    "motion-graphics",
-    "webgl"
+    "automation",
+    "capcut",
+    "capcut-api",
+    "capcut-automation",
+    "capcut-editor",
+    "capcut-subtitles",
+    "capcut-template",
+    "claude-code-plugin",
+    "cli",
+    "draft-content-json",
+    "jianying",
+    "python",
+    "srt-export",
+    "subtitle-editor",
+    "video-editing",
+    "video-production",
+    "video-to-shorts"
   ],
   "platforms": [
     "Claude"
@@ -50,15 +61,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/nexu-io/motion-anything",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/renezander030/capcut-cli",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/nexu-io/motion-anything#readme",
-  "detailPath": "data/details/nexu__io__motion__anything.json",
+  "readmeUrl": "https://github.com/renezander030/capcut-cli#readme",
+  "detailPath": "data/details/renezander030__capcut__cli.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "motion-anything：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "9d8da24312082ebb",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "db85e4df10e09820",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "motion-anything：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "motion-anything 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "capcut-cli：Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "capcut-cli 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -124,7 +135,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 2188,
-  "id": 1236677779,
-  "name": "deep-teach",
-  "fullName": "1786329860/deep-teach",
-  "owner": "1786329860",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/146054556?v=4",
-  "url": "https://github.com/1786329860/deep-teach",
-  "homepage": "",
-  "description": "🎓 深度教学模式 AI Skill — 让 AI 在每一步编程操作后自动输出专家级技术解析卡片，从「代做」变为「教做」",
-  "summary": "deep-teach：深度教学模式 AI Skill — 让 AI 在每一步编程操作后自动输出专家级技术解析卡片，从「代做」变为「教做」。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1374,
+  "id": 1374419657,
+  "name": "TypeLLM",
+  "fullName": "TypeLLM/TypeLLM",
+  "owner": "TypeLLM",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/331597258?v=4",
+  "url": "https://github.com/TypeLLM/TypeLLM",
+  "homepage": "https://typellm.ai",
+  "description": "TypeLLM: LLMs with type-safe generation",
+  "summary": "TypeLLM：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,42 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/1786329860/deep-teach.git",
-  "language": "",
-  "license": "",
-  "stars": 148,
-  "forks": 9,
-  "openIssues": 0,
-  "score": 67.8,
-  "activity": "活跃",
-  "pushedAt": "2026-05-19T13:57:28Z",
-  "updatedAt": "2026-10-02T13:36:52Z",
-  "createdAt": "2026-05-12T13:21:35Z",
+  "installCommand": "git clone https://github.com/TypeLLM/TypeLLM.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 930,
+  "forks": 58,
+  "openIssues": 1,
+  "score": 101.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-05T08:28:57Z",
+  "updatedAt": "2026-10-06T06:07:18Z",
+  "createdAt": "2026-09-17T12:41:27Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "jev",
+    "llms",
+    "types"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/1786329860/deep-teach",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/TypeLLM/TypeLLM",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/1786329860/deep-teach#readme",
-  "detailPath": "data/details/1786329860__deep__teach.json",
+  "readmeUrl": "https://github.com/TypeLLM/TypeLLM#readme",
+  "detailPath": "data/details/typellm__typellm.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "深度教学模式 AI Skill — 让 AI 在每一步编程操作后自动输出专家级技术解析卡片，从「代做」变为「教做」",
+    "summary": "TypeLLM：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +70,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "c344fbd3ee1fde75",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "bd7834da54a4fa81",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deep-teach：深度教学模式 AI Skill — 让 AI 在每一步编程操作后自动输出专家级技术解析卡片，从「代做」变为「教做」。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "deep-teach 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "TypeLLM：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "TypeLLM 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +120,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

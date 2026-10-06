@@ -19,7 +19,7 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "Install the Gooseworks skills:\nIn the terminal, run `npx gooseworks install --all`.\nThen run `npx gooseworks login` and it'll open a browser to sign in and set up the tools, then confirm it worked.",
+  "installCommand": "npx gooseworks@latest install --claude --mcp   # or --cursor --mcp, --codex --mcp\nnpx gooseworks@latest install --all            # every detected agent",
   "language": "Python",
   "license": "MIT",
   "stars": 1232,
@@ -27,8 +27,8 @@
   "openIssues": 63,
   "score": 116.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-05T02:58:25Z",
-  "updatedAt": "2026-10-05T02:58:29Z",
+  "pushedAt": "2026-10-06T04:51:37Z",
+  "updatedAt": "2026-10-06T04:32:05Z",
   "createdAt": "2026-03-02T00:07:48Z",
   "sourceTopics": [
     "claude-skills"
@@ -81,8 +81,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "dca30f943499b0f5",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "7cb8c6642231e4db",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

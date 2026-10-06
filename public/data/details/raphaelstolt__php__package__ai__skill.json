@@ -1,14 +1,14 @@
 {
-  "rank": 2225,
-  "id": 1210341400,
-  "name": "skills",
-  "fullName": "aramamer4577-source/skills",
-  "owner": "aramamer4577-source",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/225473403?v=4",
-  "url": "https://github.com/aramamer4577-source/skills",
+  "rank": 2312,
+  "id": 1148915918,
+  "name": "php-package-ai-skill",
+  "fullName": "raphaelstolt/php-package-ai-skill",
+  "owner": "raphaelstolt",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/48225?v=4",
+  "url": "https://github.com/raphaelstolt/php-package-ai-skill",
   "homepage": "",
-  "description": "Manage reusable AI coding skills in a multi-skill workspace for easy reuse, sync, and expansion",
-  "summary": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "AI skills to generate a high quality PHP package.",
+  "summary": "php-package-ai-skill：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -19,55 +19,45 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/aramamer4577-source/skills.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/raphaelstolt/php-package-ai-skill.git",
+  "language": "",
   "license": "MIT",
-  "stars": 0,
+  "stars": 1,
   "forks": 0,
   "openIssues": 0,
-  "score": 66,
-  "activity": "本周活跃",
-  "pushedAt": "2026-10-03T07:28:54Z",
-  "updatedAt": "2026-10-03T07:28:58Z",
-  "createdAt": "2026-04-14T10:15:38Z",
+  "score": 60,
+  "activity": "本月活跃",
+  "pushedAt": "2026-09-24T12:16:04Z",
+  "updatedAt": "2026-09-24T12:16:04Z",
+  "createdAt": "2026-02-03T14:14:18Z",
   "sourceTopics": [
-    "agentic-skills"
+    "ai-agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agentic-skills",
-    "ai-agents",
-    "azure",
-    "backup",
-    "clawdbot-skill",
-    "clawhub",
-    "css",
-    "education",
-    "learning-resources",
-    "moltbot",
-    "moltbot-skills",
-    "openclaw-skills",
-    "pandas",
-    "pandas-tutorial",
-    "skill"
+    "ai",
+    "ai-agent-skills",
+    "ai-skill",
+    "php",
+    "php-package-template"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/aramamer4577-source/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/raphaelstolt/php-package-ai-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/aramamer4577-source/skills#readme",
-  "detailPath": "data/details/aramamer4577__source__skills.json",
+  "readmeUrl": "https://github.com/raphaelstolt/php-package-ai-skill#readme",
+  "detailPath": "data/details/raphaelstolt__php__package__ai__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skills 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "php-package-ai-skill 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -86,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-05T05:51:01.392Z",
-    "sourceHash": "69c3741c21ede651",
+    "generatedAt": "2026-10-06T06:30:19.685Z",
+    "sourceHash": "76001d54aa0d212b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：用于创建、验证、安装或管理 Agent Skills。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "php-package-ai-skill：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "php-package-ai-skill 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -110,7 +100,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
