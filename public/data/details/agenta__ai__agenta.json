@@ -1,5 +1,5 @@
 {
-  "rank": 667,
+  "rank": 663,
   "id": 632871628,
   "name": "agenta",
   "fullName": "Agenta-AI/agenta",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Agenta-AI/agenta",
   "homepage": "http://www.agenta.ai",
   "description": "Agenta is a workspace where you and your team build agents and automations.",
-  "summary": "agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Agenta-AI/agenta.git",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 4807,
+  "stars": 4814,
   "forks": 690,
-  "openIssues": 362,
+  "openIssues": 370,
   "score": 118.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-05T23:02:27Z",
-  "updatedAt": "2026-10-05T13:38:58Z",
+  "pushedAt": "2026-10-06T22:15:42Z",
+  "updatedAt": "2026-10-07T03:55:05Z",
   "createdAt": "2023-04-26T09:54:28Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
+    "OpenClaw",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -88,13 +88,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "6cf99d4c6a87aab0",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "58d49ff5c9f00967",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "agenta：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "agenta 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -112,7 +112,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

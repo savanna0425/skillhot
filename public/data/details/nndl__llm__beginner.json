@@ -1,5 +1,5 @@
 {
-  "rank": 833,
+  "rank": 1196,
   "id": 86599573,
   "name": "llm-beginner",
   "fullName": "nndl/llm-beginner",
@@ -8,7 +8,7 @@
   "url": "https://github.com/nndl/llm-beginner",
   "homepage": "https://nndl.ai/llm-agent/",
   "description": "《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。",
-  "summary": "llm-beginner：《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "llm-beginner：《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install -r task-1-transformer/requirements.txt",
+  "installCommand": "git clone https://github.com/nndl/llm-beginner.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 6795,
+  "stars": 6796,
   "forks": 1371,
-  "openIssues": 1,
-  "score": 115,
-  "activity": "本月活跃",
+  "openIssues": 2,
+  "score": 107,
+  "activity": "近期活跃",
   "pushedAt": "2026-09-06T05:53:42Z",
-  "updatedAt": "2026-10-05T12:13:01Z",
+  "updatedAt": "2026-10-06T15:41:33Z",
   "createdAt": "2017-03-29T15:34:03Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -42,7 +42,7 @@
     "step-by-step"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,13 +74,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "59bf2698b25818e8",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "f509641a9801b0c4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "llm-beginner：《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "llm-beginner：《大模型与智能体》电子书与 6 个编程任务：Transformer、mini-GPT、SFT/DPO、RAG、工具调用与编程智能体。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "llm-beginner 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -98,7 +98,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

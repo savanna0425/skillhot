@@ -1,5 +1,5 @@
 {
-  "rank": 357,
+  "rank": 359,
   "id": 1219400421,
   "name": "agent-sprite-forge",
   "fullName": "0x0funky/agent-sprite-forge",
@@ -8,7 +8,7 @@
   "url": "https://github.com/0x0funky/agent-sprite-forge",
   "homepage": "",
   "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
-  "summary": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "待复核",
@@ -19,23 +19,22 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/0x0funky/agent-sprite-forge.git",
+  "installCommand": "claude plugin marketplace add 0x0funky/agent-sprite-forge --sparse .claude-plugin skills\nclaude plugin install agent-sprite-forge@agent-sprite-forge\npython -m pip install \"numpy>=1.26\" \"Pillow>=10.1\" \"scipy>=1.11\"",
   "language": "Python",
   "license": "MIT",
-  "stars": 4276,
-  "forks": 411,
-  "openIssues": 15,
-  "score": 129.2,
+  "stars": 4315,
+  "forks": 420,
+  "openIssues": 14,
+  "score": 129.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-06T03:13:04Z",
-  "updatedAt": "2026-10-06T04:36:03Z",
+  "pushedAt": "2026-10-06T14:09:38Z",
+  "updatedAt": "2026-10-07T04:44:35Z",
   "createdAt": "2026-04-23T20:52:52Z",
   "sourceTopics": [
     "agent-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -45,7 +44,9 @@
     "sprite-generator"
   ],
   "platforms": [
-    "Codex"
+    "Claude",
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -77,13 +78,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "e088ba6d2b36412d",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "19c47114b5d2d670",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "agent-sprite-forge 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -101,7 +102,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

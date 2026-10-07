@@ -1,14 +1,14 @@
 {
-  "rank": 1634,
-  "id": 1170833156,
-  "name": "amazon-sorftime-research-MCP-skill",
-  "fullName": "liangdabiao/amazon-sorftime-research-MCP-skill",
-  "owner": "liangdabiao",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1232260?v=4",
-  "url": "https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill",
-  "homepage": "https://skillhub.cn/skills/user_8bb4b4f5/amazon-sorftime-research-mcp-skill",
-  "description": "亚马逊选品 之 Listing全维度穿透分析报告  加上 全品类分析 ，关键词分析，差评分析 ，市场调研 等等。codex/claude code agent skill, amazon sorftime  MCP/西柚mcp/sif mcp/卖家精灵sellersprite 智能体skill.   亚马逊跨境电商skill工具集。",
-  "summary": "amazon-sorftime-research-MCP-skill：亚马逊选品 之 Listing全维度穿透分析报告 加上 全品类分析 ，关键词分析，差评分析 ，市场调研 等等。codex/claude code agent skill, amazon sorftime MCP/西柚mcp/sif mcp/。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1901,
+  "id": 1031075913,
+  "name": "RivalSearchMCP",
+  "fullName": "damionrashford/RivalSearchMCP",
+  "owner": "damionrashford",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/102385541?v=4",
+  "url": "https://github.com/damionrashford/RivalSearchMCP",
+  "homepage": "",
+  "description": "Deterministic research MCP server on FastMCP 3 — 5-engine web search, 9-platform social search, 6 academic DBs, news aggregation, entity profiles, conflict detection, document analysis. No API keys. No in-server LLM. Structured outputs for agent chaining.",
+  "summary": "RivalSearchMCP：支持资料研究、知识检索或学习任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,40 +19,61 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill.git",
+  "installCommand": "git clone https://github.com/damionrashford/RivalSearchMCP.git",
   "language": "Python",
-  "license": "",
-  "stars": 937,
-  "forks": 137,
-  "openIssues": 6,
-  "score": 94.4,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-08T12:17:42Z",
-  "updatedAt": "2026-10-05T15:57:50Z",
-  "createdAt": "2026-03-02T15:17:23Z",
-  "sourceTopics": [],
+  "license": "MIT",
+  "stars": 132,
+  "forks": 21,
+  "openIssues": 10,
+  "score": 85.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-07T01:55:27Z",
+  "updatedAt": "2026-10-04T18:24:51Z",
+  "createdAt": "2025-08-03T00:35:25Z",
+  "sourceTopics": [
+    "claude-code-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent"
+    "agent-skills",
+    "ai-agent",
+    "ai-assistant",
+    "claude-code",
+    "claude-code-skills",
+    "claude-mcp",
+    "competitor-analysis",
+    "cursor-mcp",
+    "deterministic-tools",
+    "entity-research",
+    "fastmcp",
+    "market-intelligence",
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "osint",
+    "research-tools",
+    "search-engine",
+    "structured-output",
+    "web-research"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/liangdabiao/amazon-sorftime-research-MCP-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/damionrashford/RivalSearchMCP",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill#readme",
-  "detailPath": "data/details/liangdabiao__amazon__sorftime__research__mcp__skill.json",
+  "readmeUrl": "https://github.com/damionrashford/RivalSearchMCP#readme",
+  "detailPath": "data/details/damionrashford__rivalsearchmcp.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "亚马逊选品 之 Listing全维度穿透分析报告 加上 全品类分析 ，关键词分析，差评分析 ，市场调研 等等。codex/claude code agent skill, amazon sorftime MCP/西柚mcp/sif mcp/",
+    "summary": "RivalSearchMCP 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -68,17 +89,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "2a8dbc84dd2561e4",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "2e471ed5dab9bf84",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "amazon-sorftime-research-MCP-skill：亚马逊选品 之 Listing全维度穿透分析报告 加上 全品类分析 ，关键词分析，差评分析 ，市场调研 等等。codex/claude code agent skill, amazon sorftime MCP/西柚mcp/sif mcp/。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "amazon-sorftime-research-MCP-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "RivalSearchMCP：支持资料研究、知识检索或学习任务。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "RivalSearchMCP 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -95,7 +116,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -118,7 +139,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

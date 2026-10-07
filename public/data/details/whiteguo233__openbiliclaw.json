@@ -1,5 +1,5 @@
 {
-  "rank": 848,
+  "rank": 840,
   "id": 1175278883,
   "name": "OpenBiliClaw",
   "fullName": "whiteguo233/OpenBiliClaw",
@@ -8,7 +8,7 @@
   "url": "https://github.com/whiteguo233/OpenBiliClaw",
   "homepage": "https://whiteguo233.github.io/OpenBiliClaw/",
   "description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
-  "summary": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/whiteguo233/OpenBiliClaw.git",
+  "installCommand": "unzip openbiliclaw-extension-v*-firefox.zip -d openbiliclaw-firefox\ngit clone https://github.com/whiteguo233/OpenBiliClaw.git\ncd OpenBiliClaw/extension",
   "language": "Python",
   "license": "MIT",
-  "stars": 3388,
+  "stars": 3392,
   "forks": 182,
   "openIssues": 26,
-  "score": 114.7,
+  "score": 114.8,
   "activity": "本周活跃",
   "pushedAt": "2026-10-05T17:49:27Z",
-  "updatedAt": "2026-10-05T23:01:21Z",
+  "updatedAt": "2026-10-06T14:58:44Z",
   "createdAt": "2026-03-07T13:46:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,9 @@
     "zhihu"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -89,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "e8b7284d4e5ee624",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "1b48f8c4783b9a8b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "OpenBiliClaw：本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "OpenBiliClaw 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -113,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

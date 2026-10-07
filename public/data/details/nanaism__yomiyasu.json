@@ -1,5 +1,5 @@
 {
-  "rank": 857,
+  "rank": 819,
   "id": 1397771878,
   "name": "yomiyasu",
   "fullName": "nanaism/yomiyasu",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nanaism/yomiyasu.git",
+  "installCommand": "npx skills add nanaism/yomiyasu\nnpx skills update yomiyasu",
   "language": "Python",
   "license": "MIT",
-  "stars": 1545,
-  "forks": 34,
-  "openIssues": 3,
-  "score": 114.6,
+  "stars": 1653,
+  "forks": 37,
+  "openIssues": 0,
+  "score": 115.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-05T09:32:15Z",
-  "updatedAt": "2026-10-06T06:24:37Z",
+  "pushedAt": "2026-10-06T16:35:05Z",
+  "updatedAt": "2026-10-07T05:48:11Z",
   "createdAt": "2026-09-30T11:49:32Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -66,7 +66,7 @@
   "readmeUrl": "https://github.com/nanaism/yomiyasu#readme",
   "detailPath": "data/details/nanaism__yomiyasu.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
     "useCases": [
@@ -87,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "0b27f67d2f76713c",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "c505522d11931aba",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

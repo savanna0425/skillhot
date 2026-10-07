@@ -1,14 +1,14 @@
 {
-  "rank": 942,
-  "id": 1151146214,
-  "name": "Skills-Manager",
-  "fullName": "jiweiyeah/Skills-Manager",
-  "owner": "jiweiyeah",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/156828820?v=4",
-  "url": "https://github.com/jiweiyeah/Skills-Manager",
-  "homepage": "https://skillsmanager.freeourdays.com/?ref=gh",
-  "description": "Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. macOS, Windows, Linux.",
-  "summary": "Skills-Manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 2202,
+  "id": 1408299173,
+  "name": "agentic-skills",
+  "fullName": "harrybuild/agentic-skills",
+  "owner": "harrybuild",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/59076081?v=4",
+  "url": "https://github.com/harrybuild/agentic-skills",
+  "homepage": "https://tutorhero.me",
+  "description": "The Journey of Learning New Skills Never Stops. The Everything Index for Agentic Learning: 300+ verified open-source AI skills, ELO benchmarks, native MCP Hub, and agent manifests.",
+  "summary": "agentic-skills：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -19,57 +19,48 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/jiweiyeah/Skills-Manager.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/harrybuild/agentic-skills.git",
+  "language": "",
   "license": "MIT",
-  "stars": 1011,
-  "forks": 63,
-  "openIssues": 35,
-  "score": 111.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-10T16:28:40Z",
-  "updatedAt": "2026-10-06T05:31:39Z",
-  "createdAt": "2026-02-06T05:25:20Z",
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 67,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-07T05:53:09Z",
+  "updatedAt": "2026-10-07T05:53:13Z",
+  "createdAt": "2026-10-07T05:32:26Z",
   "sourceTopics": [
-    "claude-code-skills",
-    "codex-skills"
+    "agentic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-skills-manager",
-    "claude-code",
-    "claude-code-skills",
-    "codex",
-    "codex-skills",
-    "deepseek-harness",
-    "developer-tools",
-    "pi",
-    "react-19",
-    "skills",
-    "skills-management",
-    "skills-manager",
-    "tauri-v2"
+    "agentic-ai",
+    "agentic-skills",
+    "ai-agents",
+    "benchmarks",
+    "leaderboard",
+    "llms",
+    "model-context-protocol",
+    "open-source"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jiweiyeah/Skills-Manager",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/harrybuild/agentic-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jiweiyeah/Skills-Manager#readme",
-  "detailPath": "data/details/jiweiyeah__skills__manager.json",
+  "readmeUrl": "https://github.com/harrybuild/agentic-skills#readme",
+  "detailPath": "data/details/harrybuild__agentic__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Skills-Manager 用于创建、验证、安装或管理 Agent Skills。",
+    "summary": "agentic-skills 用于创建、验证、安装或管理 Agent Skills。",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -88,14 +79,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "89822115d8bcd055",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "6aafb36b780f8188",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Skills-Manager：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "Skills-Manager 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agentic-skills：用于创建、验证、安装或管理 Agent Skills。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "agentic-skills 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
       "团队内部 skills 越来越多，缺少管理、复用和分发方式。",
@@ -112,7 +103,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",

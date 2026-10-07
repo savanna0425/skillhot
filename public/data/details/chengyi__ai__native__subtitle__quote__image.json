@@ -1,73 +1,62 @@
 {
-  "rank": 1954,
-  "id": 1171495143,
-  "name": "Ultimate-AI-Media-Generator-Skill",
-  "fullName": "ZeroLu/Ultimate-AI-Media-Generator-Skill",
-  "owner": "ZeroLu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/7347148?v=4",
-  "url": "https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill",
-  "homepage": "https://cyberbara.com?utm_source=skill",
-  "description": "Open-source ai image generator skill and ai video generator skill for Codex, Claude Code, OpenClaw, Cursor, and more. Powered by   CyberBara API with Nano Banana, Sora 2, Seedance, and Kling support. No need to master prompt, this skill optimize your prompt for all kinds of creations like slides, anime and much more.",
-  "summary": "Ultimate-AI-Media-Generator-Skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 830,
+  "id": 1335823455,
+  "name": "native-subtitle-quote-image",
+  "fullName": "chengyi-ai/native-subtitle-quote-image",
+  "owner": "chengyi-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/252342592?v=4",
+  "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
+  "homepage": "",
+  "description": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
+  "summary": "native-subtitle-quote-image：保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "illustration|storytelling|subtitle|voice|music|photogr",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill.git",
-  "language": "MDX",
+  "installCommand": "git clone https://github.com/chengyi-ai/native-subtitle-quote-image.git\ncd native-subtitle-quote-image\nmkdir -p ~/.codex/skills && cp -R skills/native-subtitle-quote-image ~/.codex/skills/",
+  "language": "Python",
   "license": "MIT",
-  "stars": 94,
-  "forks": 9,
-  "openIssues": 0,
-  "score": 83.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-08T03:12:38Z",
-  "updatedAt": "2026-10-06T00:29:10Z",
-  "createdAt": "2026-03-03T09:44:05Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "stars": 1620,
+  "forks": 175,
+  "openIssues": 2,
+  "score": 115.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-01T11:51:39Z",
+  "updatedAt": "2026-10-07T06:06:05Z",
+  "createdAt": "2026-08-16T10:35:30Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "claude-code-skill",
-    "codex-skill",
-    "cursor-skill",
-    "image-generation",
-    "image-generation-skill",
-    "nano-banana-2",
-    "nano-banana-pro-skill",
-    "openclaw-skill",
-    "seedance-2",
-    "sora-2",
-    "video-generation",
-    "video-generation-skill"
+    "agent-skills",
+    "codex",
+    "social-media",
+    "subtitles",
+    "video-processing"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "Cursor",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ZeroLu/Ultimate-AI-Media-Generator-Skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/chengyi-ai/native-subtitle-quote-image",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ZeroLu/Ultimate-AI-Media-Generator-Skill#readme",
-  "detailPath": "data/details/zerolu__ultimate__ai__media__generator__skill.json",
+  "readmeUrl": "https://github.com/chengyi-ai/native-subtitle-quote-image#readme",
+  "detailPath": "data/details/chengyi__ai__native__subtitle__quote__image.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Ultimate-AI-Media-Generator-Skill：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -86,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-06T06:30:19.685Z",
-    "sourceHash": "be2cb9a3c4402464",
+    "generatedAt": "2026-10-07T06:09:20.126Z",
+    "sourceHash": "4ac05c188cf7cac3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Ultimate-AI-Media-Generator-Skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "Ultimate-AI-Media-Generator-Skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "native-subtitle-quote-image：保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "native-subtitle-quote-image 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -110,7 +99,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
