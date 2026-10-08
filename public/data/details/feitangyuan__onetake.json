@@ -1,14 +1,14 @@
 {
-  "rank": 1017,
+  "rank": 746,
   "id": 1388594776,
   "name": "onetake",
   "fullName": "feitangyuan/onetake",
   "owner": "feitangyuan",
   "avatarUrl": "https://avatars.githubusercontent.com/u/251547459?v=4",
   "url": "https://github.com/feitangyuan/onetake",
-  "homepage": "",
+  "homepage": "https://onetakemotion.com",
   "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
-  "summary": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/feitangyuan/onetake.git",
+  "installCommand": "git clone https://github.com/feitangyuan/onetake.git ~/.claude/skills/onetake\ngit clone https://github.com/feitangyuan/onetake.git ~/.agents/skills/onetake",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1782,
-  "forks": 112,
+  "stars": 1901,
+  "forks": 119,
   "openIssues": 3,
-  "score": 109.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-29T01:53:46Z",
-  "updatedAt": "2026-10-07T05:48:49Z",
+  "score": 116.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-08T02:03:21Z",
+  "updatedAt": "2026-10-08T06:14:10Z",
   "createdAt": "2026-09-26T05:35:17Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,7 +44,9 @@
     "video"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -76,13 +78,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-07T06:09:20.126Z",
-    "sourceHash": "946ddb034c09ccf0",
+    "generatedAt": "2026-10-08T06:15:19.741Z",
+    "sourceHash": "f63ff2919b7a23e3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "onetake：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "onetake 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -100,7 +102,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
