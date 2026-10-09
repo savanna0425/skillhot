@@ -1,5 +1,5 @@
 {
-  "rank": 937,
+  "rank": 654,
   "id": 1161277811,
   "name": "lossless-claw",
   "fullName": "Martian-Engineering/lossless-claw",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Martian-Engineering/lossless-claw.git",
+  "installCommand": "npx --package @martian-engineering/lossless-claw@latest lossless-claw-migrate-sessions --state-dir ~/.openclaw",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 4902,
-  "forks": 454,
-  "openIssues": 257,
-  "score": 111.6,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-28T21:52:54Z",
-  "updatedAt": "2026-10-07T22:43:26Z",
+  "stars": 4904,
+  "forks": 455,
+  "openIssues": 268,
+  "score": 118.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-09T04:22:25Z",
+  "updatedAt": "2026-10-08T12:34:21Z",
   "createdAt": "2026-02-18T23:36:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-08T06:15:19.741Z",
-    "sourceHash": "a416afe71532c49e",
+    "generatedAt": "2026-10-09T06:18:30.961Z",
+    "sourceHash": "bca27220a842e1a6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 1016,
+  "rank": 815,
   "id": 1403115747,
   "name": "replica-skill",
   "fullName": "Jakeschincariol/replica-skill",
@@ -19,20 +19,22 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Jakeschincariol/replica-skill.git",
+  "installCommand": "git clone https://github.com/Jakeschincariol/replica-skill.git\ncp -r replica-skill/replica-* ~/.claude/skills/",
   "language": "Python",
   "license": "MIT",
-  "stars": 916,
-  "forks": 111,
-  "openIssues": 4,
-  "score": 109.2,
+  "stars": 1143,
+  "forks": 145,
+  "openIssues": 5,
+  "score": 115.5,
   "activity": "本周活跃",
   "pushedAt": "2026-10-03T12:07:53Z",
-  "updatedAt": "2026-10-08T06:13:24Z",
+  "updatedAt": "2026-10-09T06:11:05Z",
   "createdAt": "2026-10-03T12:07:49Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "claude-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent",
@@ -57,7 +59,7 @@
   "readmeUrl": "https://github.com/Jakeschincariol/replica-skill#readme",
   "detailPath": "data/details/jakeschincariol__replica__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "replica-skill 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -78,8 +80,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-08T06:15:19.741Z",
-    "sourceHash": "68f4799aaab20291",
+    "generatedAt": "2026-10-09T06:18:30.961Z",
+    "sourceHash": "7c5a0ab1d17bde40",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 893,
+  "rank": 844,
   "id": 1284653133,
   "name": "xerj",
   "fullName": "xerj-org/xerj",
@@ -8,7 +8,7 @@
   "url": "https://github.com/xerj-org/xerj",
   "homepage": "https://xerj.org",
   "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
-  "summary": "xerj：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "xerj：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/xerj-org/xerj.git",
+  "installCommand": "git clone https://github.com/xerj-org/xerj\ncd xerj/engine\ncargo build --release -p xerj-server",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 3135,
-  "forks": 235,
-  "openIssues": 18,
-  "score": 113.9,
+  "stars": 3409,
+  "forks": 237,
+  "openIssues": 31,
+  "score": 114.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-08T05:54:36Z",
-  "updatedAt": "2026-10-08T05:58:43Z",
+  "pushedAt": "2026-10-08T22:55:12Z",
+  "updatedAt": "2026-10-09T05:55:30Z",
   "createdAt": "2026-06-30T04:32:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,8 @@
     "vector-search"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,7 +69,7 @@
   "readmeUrl": "https://github.com/xerj-org/xerj#readme",
   "detailPath": "data/details/xerj__org__xerj.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "xerj 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
@@ -89,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-08T06:15:19.741Z",
-    "sourceHash": "c14848dc3891431f",
+    "generatedAt": "2026-10-09T06:18:30.961Z",
+    "sourceHash": "2e4e230788b041db",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "xerj：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "xerj：提供记忆、上下文管理或知识检索能力。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "xerj 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -113,7 +114,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
