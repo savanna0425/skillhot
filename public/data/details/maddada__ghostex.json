@@ -1,5 +1,5 @@
 {
-  "rank": 1423,
+  "rank": 1407,
   "id": 1222042205,
   "name": "Ghostex",
   "fullName": "maddada/Ghostex",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1892053?v=4",
   "url": "https://github.com/maddada/Ghostex",
   "homepage": "https://ghostex.dev",
-  "description": "Rust & GPUI Native Agent CLIs manager for macOS. Ghostty Terminals + Codex App Features/UX = Ghostex! Embedded browser & IDE. Tons of useful features.",
-  "summary": "Ghostex：帮助改进界面设计、用户体验与视觉质量。适合在 Codex 相关工作流里先做选型判断。",
-  "category": "UI设计",
-  "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
+  "description": "The Best & Most Powerful Native Agents Workspace. Fully Rust & GPUI based. Mobile apps. 20+ agents. Ghostty. ",
+  "summary": "Ghostex：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
-  "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
-    "界面设计",
-    "设计系统",
-    "体验质量检查"
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/maddada/Ghostex.git",
   "language": "Rust",
   "license": "MIT",
-  "stars": 902,
+  "stars": 909,
   "forks": 52,
-  "openIssues": 4,
-  "score": 101,
+  "openIssues": 3,
+  "score": 101.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-09T05:22:30Z",
-  "updatedAt": "2026-10-09T05:22:34Z",
+  "pushedAt": "2026-10-10T05:52:01Z",
+  "updatedAt": "2026-10-10T05:52:05Z",
   "createdAt": "2026-04-27T01:44:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -49,18 +49,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Ghostex 帮助改进界面设计、用户体验与视觉质量。",
+    "summary": "Ghostex：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
-      "界面设计",
-      "设计系统",
-      "体验质量检查"
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -68,51 +68,51 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-09T06:18:30.961Z",
-    "sourceHash": "d6197026ac0ce983",
+    "generatedAt": "2026-10-10T06:01:22.030Z",
+    "sourceHash": "c09287ea1a1611cf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Ghostex：帮助改进界面设计、用户体验与视觉质量。适合在 Codex 相关工作流里先做选型判断。",
-    "whatItIs": "Ghostex 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Ghostex：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Ghostex 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
-      "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
-      "从想法到可展示界面之间缺少一个稳定的辅助流程。",
-      "如果你的任务和「界面设计」有关，它能帮你先建立一个可试用的入口。"
+      "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
+      "不同办公工具之间的信息流转需要手动复制、整理和检查。",
+      "用户想把个人工作流交给 Agent 承接，但缺少现成入口。",
+      "如果你的任务和「文档与表格」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助生成或改进界面、组件、演示页面与视觉方案。",
-      "把设计系统、布局、色彩或可访问性要求整理成 Agent 可执行的步骤。",
-      "帮助你在打开 README 前判断它是否适合当前 UI 任务。",
+      "辅助处理文档、表格、邮件、笔记、PDF 或日程相关任务。",
+      "把常见办公流程封装成更容易调用的 Agent 能力。",
+      "帮助你判断它是否能接入自己的日常工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "用 Agent 做网页、App 原型或视觉材料的人。",
-      "希望提高前端页面完成度的开发者。",
-      "需要把设计规范沉淀为可复用流程的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "经常处理文档、知识库、邮件或会议资料的人。",
+      "希望用 Agent 降低重复办公成本的个人或团队。",
+      "需要把资料整理流程标准化的人。",
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",
-      "需要完整商业设计服务或品牌策略的人。"
+      "需要严格企业级权限审计但尚未核对安全边界的场景。",
+      "只想找传统办公软件替代品、不打算使用 Agent 的人。"
     ],
     "howItWorks": [
-      "通常通过文档、Skill、CLI 或示例约束 Agent 的设计输出。",
-      "用户把它接入目标工具后，在界面任务中调用对应流程。",
-      "具体生成效果取决于你的模型能力、素材质量和项目约束。",
+      "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
+      "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
+      "涉及个人数据时，需要自己确认权限和隐私设置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看 README 中的示例截图或输出案例。",
-      "确认它支持你的前端框架、设计工具或 Agent 客户端。",
-      "用一个小页面或组件试跑，再决定是否用于正式项目。"
+      "先确认它支持你正在用的办公平台。",
+      "用不敏感的测试文档或样例数据试跑。",
+      "再决定是否接入真实邮箱、日历、文档或知识库。"
     ],
     "expectedOutcome": [
-      "更快得到可展示的界面雏形。",
-      "减少“能运行但不好看”的 Agent 输出。",
-      "把审美要求变成更稳定的工作流。"
+      "重复整理工作减少。",
+      "资料查找、生成和同步更快。",
+      "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
       "许可证为 MIT，商用或二次分发前仍建议核对条款。",

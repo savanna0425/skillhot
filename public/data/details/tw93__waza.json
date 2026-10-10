@@ -1,5 +1,5 @@
 {
-  "rank": 258,
+  "rank": 259,
   "id": 1179363570,
   "name": "Waza",
   "fullName": "tw93/Waza",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/8736212?v=4",
   "url": "https://github.com/tw93/Waza",
   "homepage": "",
-  "description": "🥷 Engineering habits you already know, turned into skills Claude can run.",
-  "summary": "Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "🥷 Engineering habits you already know, turned into skills AI assistants can run.",
+  "summary": "Waza：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add tw93/Waza -a claude-code codex cursor -g -y",
   "language": "Python",
   "license": "MIT",
-  "stars": 7185,
-  "forks": 415,
+  "stars": 7213,
+  "forks": 418,
   "openIssues": 0,
   "score": 134.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-09T06:05:23Z",
-  "updatedAt": "2026-10-09T06:05:30Z",
+  "pushedAt": "2026-10-10T02:12:15Z",
+  "updatedAt": "2026-10-10T05:52:54Z",
   "createdAt": "2026-03-12T00:35:56Z",
   "sourceTopics": [
     "skills"
@@ -67,7 +67,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "您已知的工程习惯，已转化为 Claude 可运行的技能",
+    "summary": "Waza 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-09T06:18:30.961Z",
-    "sourceHash": "f1c8100590606f19",
+    "generatedAt": "2026-10-10T06:01:22.030Z",
+    "sourceHash": "4ef572ce58f72863",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Waza：您已知的工程习惯，已转化为 Claude 可运行的技能。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "Waza：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Waza 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
