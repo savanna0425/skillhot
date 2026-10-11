@@ -1,5 +1,5 @@
 {
-  "rank": 643,
+  "rank": 620,
   "id": 1389011744,
   "name": "lemo-opuscar",
   "fullName": "lemomo-ai/lemo-opuscar",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97503247?v=4",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+  "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
   "summary": "lemo-opuscar：种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
@@ -21,14 +21,14 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "claude plugin marketplace add lemomo-ai/lemo-opuscar\nclaude plugin install lemo-opuscar@lemolab",
   "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stars": 1643,
-  "forks": 184,
+  "license": "MIT",
+  "stars": 1829,
+  "forks": 201,
   "openIssues": 0,
-  "score": 119.2,
+  "score": 120.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-09T12:25:31Z",
-  "updatedAt": "2026-10-10T05:59:16Z",
+  "pushedAt": "2026-10-10T11:25:21Z",
+  "updatedAt": "2026-10-11T05:27:25Z",
   "createdAt": "2026-09-26T10:10:41Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -89,11 +89,11 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-10T06:01:22.030Z",
-    "sourceHash": "b6979b1a84d558f4",
+    "generatedAt": "2026-10-11T05:57:01.685Z",
+    "sourceHash": "c5eff09f9bf6762a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -139,7 +139,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
