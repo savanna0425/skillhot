@@ -1,81 +1,100 @@
 {
-  "rank": 1715,
-  "id": 1152331977,
-  "name": "GD-Agentic-Skills",
-  "fullName": "thedivergentai/GD-Agentic-Skills",
-  "owner": "thedivergentai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/128599808?v=4",
-  "url": "https://github.com/thedivergentai/GD-Agentic-Skills",
-  "homepage": "",
-  "description": "The official \"Long-Term Memory\" for Godot 4.7+ AI Agents. A high-density library of 99 expert skills and 27 genre blueprints, providing audited, strictly typed GDScript patterns, automated persona orchestration (Analyst, Auditor, Builder), and production-grade game engineering.",
-  "summary": "GD-Agentic-Skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1423,
+  "id": 1382865521,
+  "name": "nanoMuse",
+  "fullName": "nano-muse/nanoMuse",
+  "owner": "nano-muse",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/332792686?v=4",
+  "url": "https://github.com/nano-muse/nanoMuse",
+  "homepage": "https://nanomuse.cn/",
+  "description": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+  "summary": "nanoMuse：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/thedivergentai/GD-Agentic-Skills.git",
-  "language": "GDScript",
-  "license": "LGPL-3.0",
-  "stars": 829,
-  "forks": 53,
-  "openIssues": 0,
-  "score": 93.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-09-09T08:46:49Z",
-  "updatedAt": "2026-10-11T02:46:35Z",
-  "createdAt": "2026-02-07T18:06:05Z",
+  "installCommand": "git clone https://github.com/nano-muse/nanoMuse.git",
+  "language": "Swift",
+  "license": "GPL-3.0",
+  "stars": 899,
+  "forks": 95,
+  "openIssues": 37,
+  "score": 101,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-12T00:54:28Z",
+  "updatedAt": "2026-10-12T05:44:21Z",
+  "createdAt": "2026-09-23T06:13:06Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "android",
+    "computer-use",
+    "cross-device",
+    "desktop-app",
+    "gui-agent",
+    "ios",
+    "linux",
+    "llm",
+    "mcp",
+    "meta-muse",
+    "mobile-agent",
+    "muse",
+    "nanomuse",
+    "openminis",
+    "openmuse",
+    "personal-agent"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/thedivergentai/GD-Agentic-Skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nano-muse/nanoMuse",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/thedivergentai/GD-Agentic-Skills#readme",
-  "detailPath": "data/details/thedivergentai__gd__agentic__skills.json",
+  "readmeUrl": "https://github.com/nano-muse/nanoMuse#readme",
+  "detailPath": "data/details/nano__muse__nanomuse.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "GD-Agentic-Skills 提供记忆、上下文管理或知识检索能力。",
+    "summary": "nanoMuse 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
       "上下文管理"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 LGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-11T05:57:01.685Z",
-    "sourceHash": "d055fa15283bfe44",
+    "generatedAt": "2026-10-12T06:07:58.594Z",
+    "sourceHash": "e29d715872dccc66",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GD-Agentic-Skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "GD-Agentic-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "nanoMuse：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "nanoMuse 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -115,7 +134,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 LGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

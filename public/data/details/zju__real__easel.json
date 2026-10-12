@@ -1,5 +1,5 @@
 {
-  "rank": 857,
+  "rank": 844,
   "id": 1349122168,
   "name": "Easel",
   "fullName": "ZJU-REAL/Easel",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ZJU-REAL/Easel.git",
+  "installCommand": "git clone https://github.com/ZJU-REAL/Easel.git\ncd Easel\nbash setup.sh",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3433,
-  "forks": 524,
-  "openIssues": 7,
-  "score": 114.9,
+  "stars": 3506,
+  "forks": 539,
+  "openIssues": 2,
+  "score": 115.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-11T05:51:11Z",
-  "updatedAt": "2026-10-11T05:51:15Z",
+  "pushedAt": "2026-10-11T14:24:20Z",
+  "updatedAt": "2026-10-12T05:27:29Z",
   "createdAt": "2026-08-28T02:22:27Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,7 +48,7 @@
   "platforms": [
     "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 113,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/ZJU-REAL/Easel",
@@ -78,8 +78,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-11T05:57:01.685Z",
-    "sourceHash": "9542912c033eb5ec",
+    "generatedAt": "2026-10-12T06:07:58.594Z",
+    "sourceHash": "46c0024f548152cb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -112,7 +112,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 113+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

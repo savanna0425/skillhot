@@ -1,64 +1,77 @@
 {
-  "rank": 2196,
-  "id": 1218003907,
-  "name": "paper-sharpener",
-  "fullName": "borgr/paper-sharpener",
-  "owner": "borgr",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/6416600?v=4",
-  "url": "https://github.com/borgr/paper-sharpener",
-  "homepage": "",
-  "description": "Agentic Claude Code skills for academic writing: review simulation, revision, and prose improvement.",
-  "summary": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 763,
+  "id": 1181567753,
+  "name": "openscreen",
+  "fullName": "getopenscreen/openscreen",
+  "owner": "getopenscreen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/296471653?v=4",
+  "url": "https://github.com/getopenscreen/openscreen",
+  "homepage": "https://getopenscreen.com/",
+  "description": "Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained.",
+  "summary": "openscreen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/borgr/paper-sharpener.git",
-  "language": "Python",
-  "license": "",
-  "stars": 13,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 67.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-10T21:37:29Z",
-  "updatedAt": "2026-10-01T18:21:14Z",
-  "createdAt": "2026-04-22T12:44:11Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "installCommand": "claude mcp add openscreen -- \"/Applications/Openscreen.app/Contents/MacOS/Openscreen\" mcp\nnpx skills add getopenscreen/openscreen --skill openscreen-demo",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4071,
+  "forks": 259,
+  "openIssues": 32,
+  "score": 116.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-11T23:48:48Z",
+  "updatedAt": "2026-10-12T05:59:46Z",
+  "createdAt": "2026-03-14T10:16:22Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "academic-writing",
-    "agentic-skills",
-    "claude-code",
-    "large-language-models",
-    "peer-review",
-    "research-tools"
+    "cross-platform",
+    "electron",
+    "ffmpeg",
+    "open-source",
+    "product-demo",
+    "rust",
+    "screen-capture",
+    "screen-recorder",
+    "screen-recording",
+    "screen-studio",
+    "screencast",
+    "speech-to-text",
+    "typescript",
+    "video-editing",
+    "video-editor",
+    "wayland",
+    "wgpu",
+    "whisper"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/borgr/paper-sharpener",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/getopenscreen/openscreen",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/borgr/paper-sharpener#readme",
-  "detailPath": "data/details/borgr__paper__sharpener.json",
+  "readmeUrl": "https://github.com/getopenscreen/openscreen#readme",
+  "detailPath": "data/details/getopenscreen__openscreen.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "openscreen：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,17 +87,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-11T05:57:01.685Z",
-    "sourceHash": "945a93f749cdf621",
+    "generatedAt": "2026-10-12T06:07:58.594Z",
+    "sourceHash": "ac9ef2a6fd273be1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "paper-sharpener 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "openscreen：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "openscreen 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -101,7 +114,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -124,7 +137,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
