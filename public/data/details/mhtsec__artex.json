@@ -1,5 +1,5 @@
 {
-  "rank": 884,
+  "rank": 819,
   "id": 1409787646,
   "name": "ARTEX",
   "fullName": "mhtsec/ARTEX",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mhtsec/ARTEX.git",
+  "installCommand": "git clone https://github.com/mhtsec/ARTEX.git\ncd ARTEX\n./install.sh",
   "language": "Go",
   "license": "AGPL-3.0",
-  "stars": 3320,
-  "forks": 5746,
-  "openIssues": 0,
-  "score": 114.5,
+  "stars": 3701,
+  "forks": 6079,
+  "openIssues": 1,
+  "score": 115.7,
   "activity": "本周活跃",
   "pushedAt": "2026-10-10T09:16:20Z",
-  "updatedAt": "2026-10-12T06:03:56Z",
+  "updatedAt": "2026-10-13T06:50:39Z",
   "createdAt": "2026-10-08T05:33:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,7 +47,7 @@
   "readmeUrl": "https://github.com/mhtsec/ARTEX#readme",
   "detailPath": "data/details/mhtsec__artex.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
     "useCases": [
@@ -68,8 +68,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-12T06:07:58.594Z",
-    "sourceHash": "9f6899397454e93e",
+    "generatedAt": "2026-10-13T06:53:17.789Z",
+    "sourceHash": "9b6ef0481a0a99ef",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

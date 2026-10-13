@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/8107219?v=4",
   "url": "https://github.com/xenodium/agent-shell",
   "homepage": "https://xenodium.com",
-  "description": "A native Emacs buffer to interact with LLM agents powered by ACP",
-  "summary": "agent-shell：基于 ACP 的由原生 Emacs 缓冲区驱动的 LLM 代理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.",
+  "summary": "agent-shell：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/xenodium/agent-shell.git",
   "language": "Emacs Lisp",
   "license": "GPL-3.0",
-  "stars": 1940,
+  "stars": 1943,
   "forks": 246,
-  "openIssues": 10,
+  "openIssues": 11,
   "score": 109,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-10T21:41:27Z",
-  "updatedAt": "2026-10-11T21:34:35Z",
+  "pushedAt": "2026-10-13T02:51:04Z",
+  "updatedAt": "2026-10-13T06:34:55Z",
   "createdAt": "2025-09-09T14:26:23Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "基于 ACP 的由原生 Emacs 缓冲区驱动的 LLM 代理",
+    "summary": "agent-shell 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -81,13 +81,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-12T06:07:58.594Z",
-    "sourceHash": "0a9b3df2b0a2d935",
+    "generatedAt": "2026-10-13T06:53:17.789Z",
+    "sourceHash": "245c2dcba53fd36d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-shell：基于 ACP 的由原生 Emacs 缓冲区驱动的 LLM 代理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "agent-shell：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "agent-shell 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

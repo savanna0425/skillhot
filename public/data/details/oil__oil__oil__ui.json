@@ -1,5 +1,5 @@
 {
-  "rank": 1068,
+  "rank": 718,
   "id": 1396939768,
   "name": "oil-ui",
   "fullName": "oil-oil/oil-ui",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/57465570?v=4",
   "url": "https://github.com/oil-oil/oil-ui",
   "homepage": "https://ui.oiloil.org",
-  "description": "Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。",
-  "summary": "oil-ui：把 AI 的 UI 设计能力推到极限。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+  "summary": "oil-ui：给 AI Agent 用的 UI 设计 Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/oil-oil/oil-ui.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1289,
-  "forks": 69,
-  "openIssues": 1,
-  "score": 108.7,
+  "stars": 1400,
+  "forks": 75,
+  "openIssues": 0,
+  "score": 117.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-12T02:34:19Z",
-  "updatedAt": "2026-10-12T05:58:49Z",
+  "pushedAt": "2026-10-13T05:03:51Z",
+  "updatedAt": "2026-10-13T06:45:17Z",
   "createdAt": "2026-09-30T03:55:35Z",
   "sourceTopics": [
     "claude-skills"
@@ -61,7 +61,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "把 AI 的 UI 设计能力推到极限。",
+    "summary": "给 AI Agent 用的 UI 设计 Skill。",
     "useCases": [
       "界面设计",
       "设计系统",
@@ -80,13 +80,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-12T06:07:58.594Z",
-    "sourceHash": "3f4bc81e685e6c21",
+    "generatedAt": "2026-10-13T06:53:17.789Z",
+    "sourceHash": "6ac9bc8d5d1f93ca",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "oil-ui：把 AI 的 UI 设计能力推到极限。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "oil-ui：给 AI Agent 用的 UI 设计 Skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "oil-ui 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",

@@ -1,5 +1,5 @@
 {
-  "rank": 801,
+  "rank": 795,
   "id": 965394516,
   "name": "linkedin-mcp-server",
   "fullName": "stickerdaniel/linkedin-mcp-server",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/stickerdaniel/linkedin-mcp-server\ncd linkedin-mcp-server\ncurl -LsSf https://astral.sh/uv/install.sh | sh",
+  "installCommand": "claude plugin marketplace add stickerdaniel/linkedin-mcp-server\nclaude plugin install linkedin-mcp-server@linkedin-mcp-server",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3825,
-  "forks": 666,
-  "openIssues": 156,
-  "score": 116,
+  "stars": 3843,
+  "forks": 670,
+  "openIssues": 158,
+  "score": 116.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-12T06:06:55Z",
-  "updatedAt": "2026-10-12T06:06:50Z",
+  "pushedAt": "2026-10-12T17:45:42Z",
+  "updatedAt": "2026-10-13T06:23:15Z",
   "createdAt": "2025-04-13T04:12:09Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -89,8 +89,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-12T06:07:58.594Z",
-    "sourceHash": "9e3f316ad5194cf1",
+    "generatedAt": "2026-10-13T06:53:17.789Z",
+    "sourceHash": "526edc86ed92e87d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
