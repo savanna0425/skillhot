@@ -1,5 +1,5 @@
 {
-  "rank": 1252,
+  "rank": 590,
   "id": 175650201,
   "name": "SoloPi",
   "fullName": "alipay/SoloPi",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alipay/SoloPi.git",
+  "installCommand": "python3 -m venv .venv\n. .venv/bin/activate\npython -m pip install -e ./solopi-skill/scripts/harness",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 6327,
+  "stars": 6330,
   "forks": 1265,
   "openIssues": 137,
-  "score": 106.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-19T15:50:34Z",
-  "updatedAt": "2026-10-13T17:33:39Z",
+  "score": 121.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-14T07:44:22Z",
+  "updatedAt": "2026-10-14T10:29:32Z",
   "createdAt": "2019-03-14T15:32:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -78,8 +78,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-14T05:01:58.912Z",
-    "sourceHash": "6960e958205d9816",
+    "generatedAt": "2026-10-15T04:50:32.546Z",
+    "sourceHash": "cfe6a246119f9e00",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

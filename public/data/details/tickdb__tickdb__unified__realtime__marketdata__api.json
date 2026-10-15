@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/252287337?v=4",
   "url": "https://github.com/TickDB/tickdb-unified-realtime-marketdata-api",
   "homepage": "https://tickdb.ai",
-  "description": "TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品。",
-  "summary": "tickdb-unified-realtime-marketdata-api：TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "TickDB: AI-native real time stock API and market data API for US/HK/CN stocks, forex, futures, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，覆盖美股、港股、A股、外汇、期货、指数、大宗商品、加密货币。",
+  "summary": "tickdb-unified-realtime-marketdata-api：原生实时股票 API 与金融行情数据 API，覆盖美股、港股、A股、外汇、期货、指数、大宗商品、加密货币。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -27,8 +27,8 @@
   "openIssues": 2,
   "score": 112.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-10T16:43:06Z",
-  "updatedAt": "2026-10-14T04:40:28Z",
+  "pushedAt": "2026-10-14T19:52:32Z",
+  "updatedAt": "2026-10-14T20:09:01Z",
   "createdAt": "2026-01-11T03:48:10Z",
   "sourceTopics": [
     "skill"
@@ -38,12 +38,13 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-tools",
+    "ai-agents",
     "cli-tool",
     "commodities",
-    "cryptocurrency",
+    "financial-analysis",
     "financial-data",
     "forex",
+    "futures",
     "indices",
     "market-data",
     "mcp",
@@ -51,7 +52,6 @@
     "real-time",
     "rest-api",
     "skill",
-    "stock",
     "stock-api",
     "stock-data",
     "stock-market",
@@ -73,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品",
+    "summary": "原生实时股票 API 与金融行情数据 API，覆盖美股、港股、A股、外汇、期货、指数、大宗商品、加密货币。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -92,13 +92,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-14T05:01:58.912Z",
-    "sourceHash": "47f94b7e51f57afd",
+    "generatedAt": "2026-10-15T04:50:32.546Z",
+    "sourceHash": "049c788e1fdd0f61",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tickdb-unified-realtime-marketdata-api：TickDB: AI-native real time stock API and market data API for US stocks, HK stocks, A-shares, forex, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，支持美股、港股、A 股、外汇、加密货币、指数和大宗商品。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "tickdb-unified-realtime-marketdata-api：原生实时股票 API 与金融行情数据 API，覆盖美股、港股、A股、外汇、期货、指数、大宗商品、加密货币。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "tickdb-unified-realtime-marketdata-api 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

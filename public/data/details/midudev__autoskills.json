@@ -1,5 +1,5 @@
 {
-  "rank": 847,
+  "rank": 355,
   "id": 1191521334,
   "name": "autoskills",
   "fullName": "midudev/autoskills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/midudev/autoskills",
   "homepage": "https://autoskills.sh",
   "description": "One command. Your entire AI skill stack. Installed.",
-  "summary": "autoskills：一键。您的全部 AI 技能栈。已安装。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "autoskills：一键。您的全部 AI 技能栈。已安装。适合在 Claude、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "npx autoskills",
   "language": "Ruby",
   "license": "NOASSERTION",
-  "stars": 6948,
-  "forks": 625,
-  "openIssues": 33,
-  "score": 115.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-19T19:53:46Z",
-  "updatedAt": "2026-10-13T23:34:04Z",
+  "stars": 6950,
+  "forks": 626,
+  "openIssues": 0,
+  "score": 130.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-14T13:20:20Z",
+  "updatedAt": "2026-10-14T16:13:01Z",
   "createdAt": "2026-03-25T10:25:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,7 +37,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,13 +70,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-14T05:01:58.912Z",
-    "sourceHash": "b4a5c54b3864ed1d",
+    "generatedAt": "2026-10-15T04:50:32.546Z",
+    "sourceHash": "f265b4b6a51022e1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "autoskills：一键。您的全部 AI 技能栈。已安装。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "autoskills：一键。您的全部 AI 技能栈。已安装。适合在 Claude、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "autoskills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -93,7 +94,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

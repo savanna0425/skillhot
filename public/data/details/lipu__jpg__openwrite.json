@@ -1,14 +1,14 @@
 {
-  "rank": 2066,
-  "id": 1361023994,
-  "name": "content-forecast",
-  "fullName": "Colinjqq/content-forecast",
-  "owner": "Colinjqq",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/296876151?v=4",
-  "url": "https://github.com/Colinjqq/content-forecast",
-  "homepage": "",
-  "description": "A creator-first AI skill for topic generation, script review, filming guidance, and view forecasting.",
-  "summary": "content-forecast：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1527,
+  "id": 1171186947,
+  "name": "Openwrite",
+  "fullName": "LiPu-jpg/Openwrite",
+  "owner": "LiPu-jpg",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/189805528?v=4",
+  "url": "https://github.com/LiPu-jpg/Openwrite",
+  "homepage": "https://github.com/LiPu-jpg/Openwrite#readme",
+  "description": "dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG",
+  "summary": "Openwrite：dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -19,28 +19,27 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Colinjqq/content-forecast.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 158,
-  "forks": 5,
-  "openIssues": 1,
-  "score": 76.4,
-  "activity": "近期活跃",
-  "pushedAt": "2026-09-10T07:24:37Z",
-  "updatedAt": "2026-10-14T04:53:36Z",
-  "createdAt": "2026-09-08T06:45:57Z",
+  "installCommand": "git clone https://github.com/LiPu-jpg/Openwrite.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 826,
+  "forks": 127,
+  "openIssues": 0,
+  "score": 100.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-15T04:12:33Z",
+  "updatedAt": "2026-10-14T18:22:57Z",
+  "createdAt": "2026-03-03T00:48:25Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "content-creation",
-    "content-strategy",
-    "forecasting",
-    "social-media",
-    "video-content"
+    "ai-novel",
+    "deepseek-harness",
+    "dsh-plugin",
+    "story-writing",
+    "writing-assistant"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +47,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Colinjqq/content-forecast",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/LiPu-jpg/Openwrite",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Colinjqq/content-forecast#readme",
-  "detailPath": "data/details/colinjqq__content__forecast.json",
+  "readmeUrl": "https://github.com/LiPu-jpg/Openwrite#readme",
+  "detailPath": "data/details/lipu__jpg__openwrite.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "content-forecast：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -72,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-14T05:01:58.912Z",
-    "sourceHash": "1abf44090dcaa6a5",
+    "generatedAt": "2026-10-15T04:50:32.546Z",
+    "sourceHash": "73a9fb68b8c94a39",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "content-forecast：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "content-forecast 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Openwrite：dsh-Openwrite：OpenWrite 的 DeepSeek Harness 小说创作插件，含统一创作 Agent、90 个小说工具、原生工作台与标准审稿 DAG。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Openwrite 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -122,7 +121,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
