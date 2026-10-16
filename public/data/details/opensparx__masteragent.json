@@ -1,14 +1,14 @@
 {
-  "rank": 1655,
-  "id": 1187503349,
-  "name": "pydantic-ai-harness",
-  "fullName": "pydantic/pydantic-ai-harness",
-  "owner": "pydantic",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/110818415?v=4",
-  "url": "https://github.com/pydantic/pydantic-ai-harness",
-  "homepage": "",
-  "description": "Your agent's favorite harness, built on Pydantic AI",
-  "summary": "pydantic-ai-harness：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1683,
+  "id": 1330144990,
+  "name": "MasterAgent",
+  "fullName": "OpenSparX/MasterAgent",
+  "owner": "OpenSparX",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/315507424?v=4",
+  "url": "https://github.com/OpenSparX/MasterAgent",
+  "homepage": "https://www.opensparx.ai",
+  "description": "Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+  "summary": "MasterAgent：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,48 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/pydantic/pydantic-ai-harness.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 961,
-  "forks": 150,
-  "openIssues": 102,
-  "score": 94.7,
+  "installCommand": "git clone https://github.com/OpenSparX/MasterAgent.git",
+  "language": "C++",
+  "license": "Apache-2.0",
+  "stars": 898,
+  "forks": 17,
+  "openIssues": 1,
+  "score": 94,
   "activity": "本月活跃",
-  "pushedAt": "2026-10-02T23:31:33Z",
-  "updatedAt": "2026-10-14T23:59:01Z",
-  "createdAt": "2026-03-20T19:58:53Z",
+  "pushedAt": "2026-09-28T07:08:53Z",
+  "updatedAt": "2026-10-16T04:33:56Z",
+  "createdAt": "2026-08-10T18:43:36Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-framework",
+    "ai-agent",
+    "automotive",
+    "edge-ai",
+    "embedded",
+    "iot",
+    "llm",
+    "npu",
+    "on-device",
+    "qualcomm"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/pydantic/pydantic-ai-harness",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenSparX/MasterAgent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/pydantic/pydantic-ai-harness#readme",
-  "detailPath": "data/details/pydantic__pydantic__ai__harness.json",
+  "readmeUrl": "https://github.com/OpenSparX/MasterAgent#readme",
+  "detailPath": "data/details/opensparx__masteragent.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "pydantic-ai-harness：尚未归入主要类别的实用项目。",
+    "summary": "MasterAgent：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "2b678d752955e844",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "14859e2c8bbd9fdf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pydantic-ai-harness：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "pydantic-ai-harness 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "MasterAgent：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "MasterAgent 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +126,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

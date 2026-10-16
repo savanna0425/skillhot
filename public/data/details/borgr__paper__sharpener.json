@@ -1,17 +1,17 @@
 {
-  "rank": 1341,
-  "id": 1298977090,
-  "name": "baocut",
-  "fullName": "JimLiu/baocut",
-  "owner": "JimLiu",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/648674?v=4",
-  "url": "https://github.com/JimLiu/baocut",
-  "homepage": "https://baocut.com/",
-  "description": "BaoCut: an AI video agent with an editable timeline. Transcribe, subtitle, translate, dub, cut and animate.",
-  "summary": "baocut：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 2277,
+  "id": 1218003907,
+  "name": "paper-sharpener",
+  "fullName": "borgr/paper-sharpener",
+  "owner": "borgr",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6416600?v=4",
+  "url": "https://github.com/borgr/paper-sharpener",
+  "homepage": "",
+  "description": "Agentic Claude Code skills for academic writing: review simulation, revision, and prose improvement.",
+  "summary": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,46 +19,46 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/JimLiu/baocut.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 983,
-  "forks": 90,
-  "openIssues": 1,
-  "score": 101.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-10-15T03:34:28Z",
-  "updatedAt": "2026-10-15T04:16:53Z",
-  "createdAt": "2026-07-13T07:06:42Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/borgr/paper-sharpener.git",
+  "language": "Python",
+  "license": "",
+  "stars": 16,
+  "forks": 1,
+  "openIssues": 0,
+  "score": 61,
+  "activity": "近期活跃",
+  "pushedAt": "2026-09-10T21:37:29Z",
+  "updatedAt": "2026-10-15T15:26:27Z",
+  "createdAt": "2026-04-22T12:44:11Z",
+  "sourceTopics": [
+    "agentic-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skill",
+    "academic-writing",
+    "agentic-skills",
     "claude-code",
-    "codex",
-    "macos",
-    "skills",
-    "subtitles",
-    "transcription"
+    "large-language-models",
+    "peer-review",
+    "research-tools"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/JimLiu/baocut",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/borgr/paper-sharpener",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/JimLiu/baocut#readme",
-  "detailPath": "data/details/jimliu__baocut.json",
+  "readmeUrl": "https://github.com/borgr/paper-sharpener#readme",
+  "detailPath": "data/details/borgr__paper__sharpener.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "baocut：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "ee6c3ea829daec3b",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "1797d8abfd5b7cd7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "baocut：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "baocut 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "paper-sharpener：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "paper-sharpener 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -101,7 +101,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -124,7 +124,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

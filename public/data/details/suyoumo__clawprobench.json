@@ -1,14 +1,14 @@
 {
-  "rank": 1813,
-  "id": 1168805247,
-  "name": "tiramisu",
-  "fullName": "MrRobotoGit/tiramisu",
-  "owner": "MrRobotoGit",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/24884232?v=4",
-  "url": "https://github.com/MrRobotoGit/tiramisu",
-  "homepage": "",
-  "description": "The most advanced BitTorrent engine and FUSE virtual filesystem for live streaming to your private Plex or Jellyfin library. Hermes and Openclaw ready. Forget Real-Debrid.",
-  "summary": "tiramisu 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1933,
+  "id": 941429098,
+  "name": "ClawProBench",
+  "fullName": "suyoumo/ClawProBench",
+  "owner": "suyoumo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/39437291?v=4",
+  "url": "https://github.com/suyoumo/ClawProBench",
+  "homepage": "https://suyoumo.github.io/bench/",
+  "description": "ClawProBench is a live-first benchmark harness for evaluating LLM agents   in the OpenClaw runtime with deterministic grading and repeated-trial   reliability.",
+  "summary": "ClawProBench：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,82 +19,71 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/MrRobotoGit/tiramisu.git",
-  "language": "Go",
-  "license": "NOASSERTION",
-  "stars": 143,
-  "forks": 14,
-  "openIssues": 3,
-  "score": 90.4,
-  "activity": "本周活跃",
-  "pushedAt": "2026-10-09T15:12:26Z",
-  "updatedAt": "2026-10-11T06:11:57Z",
-  "createdAt": "2026-02-27T20:21:30Z",
-  "sourceTopics": [
-    "openclaw-skill",
-    "hermes-skill"
-  ],
+  "installCommand": "git clone https://github.com/suyoumo/ClawProBench.git",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 827,
+  "forks": 54,
+  "openIssues": 0,
+  "score": 85.1,
+  "activity": "近期活跃",
+  "pushedAt": "2026-08-25T11:47:44Z",
+  "updatedAt": "2026-10-15T07:52:09Z",
+  "createdAt": "2025-03-02T09:15:10Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "bittorent",
-    "fuse",
-    "go-fuse",
-    "golang",
-    "hermes-agent",
-    "hermes-skill",
-    "jellyfin",
-    "openclaw",
-    "openclaw-skill",
-    "p2p",
-    "plex-media-server",
-    "python",
-    "raspberry-pi",
-    "torrent"
+    "agent",
+    "benchmark",
+    "evaluation",
+    "harness",
+    "leaderboard",
+    "llm",
+    "openclaw"
   ],
   "platforms": [
     "OpenClaw"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MrRobotoGit/tiramisu",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/suyoumo/ClawProBench",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MrRobotoGit/tiramisu#readme",
-  "detailPath": "data/details/mrrobotogit__tiramisu.json",
+  "readmeUrl": "https://github.com/suyoumo/ClawProBench#readme",
+  "detailPath": "data/details/suyoumo__clawprobench.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "tiramisu 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "ClawProBench 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
       "多平台协作"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "8bd5689575f1faca",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "df38ca3415dcadac",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "tiramisu 是一个面向 OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "tiramisu 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "ClawProBench：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "ClawProBench 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -134,7 +123,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

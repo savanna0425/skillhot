@@ -1,5 +1,5 @@
 {
-  "rank": 1804,
+  "rank": 1799,
   "id": 1228586120,
   "name": "docx-cli",
   "fullName": "kklimuk/docx-cli",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1224124?v=4",
   "url": "https://github.com/kklimuk/docx-cli",
   "homepage": "",
-  "description": "CLI for AI agents (Claude, Codex) to read, edit, and comment on .docx files with full format fidelity.",
+  "description": "Let AI agents edit Word documents without breaking them: fill in forms, update tables, restyle, write reports, and redline with tracked changes and comments.",
   "summary": "docx-cli：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/kklimuk/docx-cli.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 222,
+  "stars": 224,
   "forks": 10,
   "openIssues": 0,
-  "score": 90.8,
+  "score": 90.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-11T19:58:24Z",
-  "updatedAt": "2026-10-14T07:12:49Z",
+  "pushedAt": "2026-10-15T18:11:13Z",
+  "updatedAt": "2026-10-15T18:11:22Z",
   "createdAt": "2026-05-04T07:06:15Z",
   "sourceTopics": [
     "anthropic-skills"
@@ -37,6 +37,7 @@
     "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skill",
     "agent-skills",
     "ai-agents",
     "anthropic-skills",
@@ -44,8 +45,12 @@
     "claude-skill",
     "cli",
     "codex",
+    "document-automation",
     "docx",
+    "microsoft-word",
     "ooxml",
+    "redline",
+    "tracked-changes",
     "word"
   ],
   "platforms": [
@@ -82,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "d543992553310645",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "3faed7e94551b0a0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

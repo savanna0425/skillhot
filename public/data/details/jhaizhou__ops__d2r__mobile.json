@@ -1,14 +1,14 @@
 {
-  "rank": 967,
-  "id": 1317041031,
-  "name": "MiniMax-H3",
-  "fullName": "MiniMax-AI/MiniMax-H3",
-  "owner": "MiniMax-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/194880281?v=4",
-  "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+  "rank": 908,
+  "id": 1415313946,
+  "name": "d2r-mobile",
+  "fullName": "jhaizhou-ops/d2r-mobile",
+  "owner": "jhaizhou-ops",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/258432107?v=4",
+  "url": "https://github.com/jhaizhou-ops/d2r-mobile",
   "homepage": "",
-  "description": "",
-  "summary": "MiniMax-H3：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+  "summary": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,38 +19,49 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/MiniMax-AI/MiniMax-H3.git",
-  "language": "Python",
-  "license": "",
-  "stars": 9967,
-  "forks": 749,
-  "openIssues": 45,
-  "score": 111,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-15T08:31:17Z",
-  "updatedAt": "2026-10-15T04:36:07Z",
-  "createdAt": "2026-07-30T08:41:09Z",
+  "installCommand": "git clone https://github.com/jhaizhou-ops/d2r-mobile.git",
+  "language": "C",
+  "license": "MIT",
+  "stars": 3265,
+  "forks": 968,
+  "openIssues": 21,
+  "score": 114.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-15T17:43:59Z",
+  "updatedAt": "2026-10-16T04:38:37Z",
+  "createdAt": "2026-10-12T08:41:19Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "compatibility-layer",
+    "diablo-2-resurrected",
+    "diablo2",
+    "game-port",
+    "ios",
+    "ipad",
+    "iphone",
+    "mac",
+    "macos",
+    "metal",
+    "reign-of-the-warlock"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/MiniMax-AI/MiniMax-H3",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/jhaizhou-ops/d2r-mobile",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/MiniMax-AI/MiniMax-H3#readme",
-  "detailPath": "data/details/minimax__ai__minimax__h3.json",
+  "readmeUrl": "https://github.com/jhaizhou-ops/d2r-mobile#readme",
+  "detailPath": "data/details/jhaizhou__ops__d2r__mobile.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "MiniMax-H3：尚未归入主要类别的实用项目。",
+    "summary": "开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -66,17 +77,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "d0b1535010d82539",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "a27a0b2eb9340744",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "MiniMax-H3：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "MiniMax-H3 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "d2r-mobile 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -116,7 +127,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

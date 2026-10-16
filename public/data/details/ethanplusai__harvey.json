@@ -1,17 +1,17 @@
 {
-  "rank": 1351,
-  "id": 1415214046,
-  "name": "new-term-radar",
-  "fullName": "zhuyansen/new-term-radar",
-  "owner": "zhuyansen",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/24306647?v=4",
-  "url": "https://github.com/zhuyansen/new-term-radar",
+  "rank": 1450,
+  "id": 1179388779,
+  "name": "harvey",
+  "fullName": "ethanplusai/harvey",
+  "owner": "ethanplusai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/249879463?v=4",
+  "url": "https://github.com/ethanplusai/harvey",
   "homepage": "",
-  "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
-  "summary": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.",
+  "summary": "harvey：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
@@ -19,49 +19,46 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/zhuyansen/new-term-radar.git",
+  "installCommand": "git clone https://github.com/ethanplusai/harvey.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 974,
-  "forks": 388,
-  "openIssues": 3,
-  "score": 101.8,
+  "stars": 882,
+  "forks": 166,
+  "openIssues": 7,
+  "score": 100.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-14T14:31:39Z",
-  "updatedAt": "2026-10-15T04:28:02Z",
-  "createdAt": "2026-10-12T07:11:01Z",
+  "pushedAt": "2026-10-15T19:48:48Z",
+  "updatedAt": "2026-10-16T04:36:29Z",
+  "createdAt": "2026-03-12T01:24:50Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai",
-    "aisa",
-    "claude-code",
-    "claude-skills",
-    "google-trends",
-    "keyword-research",
-    "mcp",
-    "mcp-server",
-    "seo",
-    "trends"
+    "ai-agent",
+    "autonomous-agent",
+    "claude",
+    "cold-email",
+    "prospecting",
+    "python",
+    "sales-automation"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhuyansen/new-term-radar",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ethanplusai/harvey",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/zhuyansen/new-term-radar#readme",
-  "detailPath": "data/details/zhuyansen__new__term__radar.json",
+  "readmeUrl": "https://github.com/ethanplusai/harvey#readme",
+  "detailPath": "data/details/ethanplusai__harvey.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "harvey：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -80,14 +77,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "67e73950e8798b8c",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "08e8ce29c95abb18",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "new-term-radar 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "harvey：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "harvey 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -104,7 +101,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

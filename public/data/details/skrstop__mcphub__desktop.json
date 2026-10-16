@@ -1,66 +1,55 @@
 {
-  "rank": 1666,
-  "id": 1230293192,
-  "name": "gini-agent",
-  "fullName": "Open-Curiosity/gini-agent",
-  "owner": "Open-Curiosity",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/297305621?v=4",
-  "url": "https://github.com/Open-Curiosity/gini-agent",
+  "rank": 1103,
+  "id": 1216626435,
+  "name": "MCPHub-Desktop",
+  "fullName": "skrstop/MCPHub-Desktop",
+  "owner": "skrstop",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/24802379?v=4",
+  "url": "https://github.com/skrstop/MCPHub-Desktop",
   "homepage": "",
-  "description": "The agent that remembers and learns.",
-  "summary": "gini-agent：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "MCPHub Desktop 是一款基于 Tauri 2 构建的桌面客户端，用于在个人电脑上统一管理 MCP服务器、Skills、RAG 知识库。所有进程、配置、密钥与向量数据都运行/保存在用户自己的机器上，不依赖任何远端服务。",
+  "summary": "MCPHub-Desktop：MCPHub Desktop 是一款基于 Tauri 2 构建的桌面客户端，用于在个人电脑上统一管理 MCP服务器、Skills、RAG 知识库。所有进程、配置、密钥与向量数据都运行/保存在用户自己的机器上，不依赖任何远端服务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "待复核",
-  "categoryReason": "vector database|semantic search|context layer|remember",
+  "categoryConfidence": "中",
+  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Open-Curiosity/gini-agent.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 1998,
-  "forks": 816,
-  "openIssues": 27,
-  "score": 94.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-18T05:15:42Z",
-  "updatedAt": "2026-10-15T00:33:15Z",
-  "createdAt": "2026-05-05T21:28:15Z",
+  "installCommand": "git clone https://github.com/skrstop/MCPHub-Desktop.git",
+  "language": "Rust",
+  "license": "",
+  "stars": 846,
+  "forks": 24,
+  "openIssues": 0,
+  "score": 108.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-15T17:17:25Z",
+  "updatedAt": "2026-10-16T02:11:27Z",
+  "createdAt": "2026-04-21T04:53:14Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent",
-    "agent-runtime",
-    "ai-agent",
-    "bun",
-    "llm",
-    "local-first",
-    "mcp",
-    "nextjs",
-    "personal-agent",
-    "typescript"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Open-Curiosity/gini-agent",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/skrstop/MCPHub-Desktop",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Open-Curiosity/gini-agent#readme",
-  "detailPath": "data/details/open__curiosity__gini__agent.json",
+  "readmeUrl": "https://github.com/skrstop/MCPHub-Desktop#readme",
+  "detailPath": "data/details/skrstop__mcphub__desktop.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "gini-agent 提供记忆、上下文管理或知识检索能力。",
+    "summary": "MCPHub Desktop 是一款基于 Tauri 2 构建的桌面客户端，用于在个人电脑上统一管理 MCP服务器、Skills、RAG 知识库。所有进程、配置、密钥与向量数据都运行/保存在用户自己的机器上，不依赖任何远端服务。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -76,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-15T04:50:32.546Z",
-    "sourceHash": "858154883f68fef3",
+    "generatedAt": "2026-10-16T04:40:39.773Z",
+    "sourceHash": "9f48e00533557b30",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gini-agent：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "gini-agent 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "MCPHub-Desktop：MCPHub Desktop 是一款基于 Tauri 2 构建的桌面客户端，用于在个人电脑上统一管理 MCP服务器、Skills、RAG 知识库。所有进程、配置、密钥与向量数据都运行/保存在用户自己的机器上，不依赖任何远端服务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "MCPHub-Desktop 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -126,7 +115,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
