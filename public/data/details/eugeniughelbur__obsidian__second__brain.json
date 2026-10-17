@@ -1,5 +1,5 @@
 {
-  "rank": 415,
+  "rank": 419,
   "id": 1190557545,
   "name": "obsidian-second-brain",
   "fullName": "eugeniughelbur/obsidian-second-brain",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/229805713?v=4",
   "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
   "homepage": "https://theaioperator.io",
-  "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
-  "summary": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Persistent memory for Claude Code, Codex and 6 other AI agents, stored as plain markdown in your Obsidian vault. New: Crew, one shared logbook so Claude Code, Codex, Cursor and Grok Bot know what each other did. 48 commands: semantic search, self-rewriting notes, key-less research, scheduled agents.",
+  "summary": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/eugeniughelbur/obsidian-second-brain\ncd obsidian-second-brain\nbash scripts/build.sh --platform agent-skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 4776,
-  "forks": 593,
+  "stars": 4791,
+  "forks": 595,
   "openIssues": 11,
-  "score": 126.3,
+  "score": 126.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-15T12:38:02Z",
-  "updatedAt": "2026-10-16T00:13:51Z",
+  "pushedAt": "2026-10-17T00:16:43Z",
+  "updatedAt": "2026-10-17T04:01:43Z",
   "createdAt": "2026-03-24T11:58:12Z",
   "sourceTopics": [
     "agent-skills",
@@ -39,21 +39,21 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-memory",
     "agent-skills",
     "ai-agents",
     "ai-note-taking",
     "ai-second-brain",
-    "anthropic",
     "claude",
     "claude-code",
     "claude-code-skill",
     "claude-memory",
     "claude-plugin",
     "claude-skill",
+    "codex",
     "karpathy-llm-wiki",
     "knowledge-graph",
     "knowledge-management",
-    "note-taking",
     "obsidian",
     "obsidian-md",
     "personal-knowledge-management",
@@ -63,6 +63,7 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "Gemini CLI",
     "OpenCode",
     "Antigravity"
@@ -97,13 +98,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-16T04:40:39.773Z",
-    "sourceHash": "9977441fe271a39b",
+    "generatedAt": "2026-10-17T04:37:50.328Z",
+    "sourceHash": "5f970c8b3e0b60e2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "obsidian-second-brain：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "obsidian-second-brain 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -121,7 +122,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

@@ -1,5 +1,5 @@
 {
-  "rank": 498,
+  "rank": 475,
   "id": 1389011744,
   "name": "lemo-opuscar",
   "fullName": "lemomo-ai/lemo-opuscar",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97503247?v=4",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. · Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
-  "summary": "lemo-opuscar：种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+  "summary": "lemo-opuscar：种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add lemomo-ai/lemo-opuscar\nclaude plugin install lemo-opuscar@lemolab",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2493,
-  "forks": 261,
+  "stars": 2735,
+  "forks": 296,
   "openIssues": 0,
-  "score": 123.6,
+  "score": 124.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-13T07:03:58Z",
-  "updatedAt": "2026-10-16T04:25:49Z",
+  "pushedAt": "2026-10-16T05:03:35Z",
+  "updatedAt": "2026-10-17T04:31:42Z",
   "createdAt": "2026-09-26T10:10:41Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+    "summary": "种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-16T04:40:39.773Z",
-    "sourceHash": "eb0d3c70d32c9a56",
+    "generatedAt": "2026-10-17T04:37:50.328Z",
+    "sourceHash": "6ca90518782f3c9a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lemo-opuscar：种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "lemo-opuscar：种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "lemo-opuscar 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

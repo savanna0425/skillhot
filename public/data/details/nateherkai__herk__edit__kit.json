@@ -1,5 +1,5 @@
 {
-  "rank": 874,
+  "rank": 845,
   "id": 1214519814,
   "name": "herk-edit-kit",
   "fullName": "nateherkai/herk-edit-kit",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/nateherkai/herk-edit-kit.git",
+  "installCommand": "git clone https://github.com/nateherkai/herk-edit-kit.git\ncd herk-edit-kit\nnpm ci",
   "language": "HTML",
   "license": "NOASSERTION",
-  "stars": 1587,
-  "forks": 432,
+  "stars": 1676,
+  "forks": 442,
   "openIssues": 11,
-  "score": 114.9,
+  "score": 115.4,
   "activity": "本周活跃",
   "pushedAt": "2026-10-14T12:51:12Z",
-  "updatedAt": "2026-10-16T04:33:54Z",
+  "updatedAt": "2026-10-17T04:27:34Z",
   "createdAt": "2026-04-18T17:30:25Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,7 +48,7 @@
     "Claude",
     "Codex"
   ],
-  "skillCount": 1,
+  "skillCount": 15,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/nateherkai/herk-edit-kit",
@@ -57,7 +57,7 @@
   "readmeUrl": "https://github.com/nateherkai/herk-edit-kit#readme",
   "detailPath": "data/details/nateherkai__herk__edit__kit.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "herk-edit-kit：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
@@ -78,8 +78,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-16T04:40:39.773Z",
-    "sourceHash": "18f7f6986c13873f",
+    "generatedAt": "2026-10-17T04:37:50.328Z",
+    "sourceHash": "428e003ef42c40b0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -112,7 +112,7 @@
       "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
       "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
       "最终发布前仍需要人工审稿、校对和版权检查。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 15+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看 README 里的输入格式和示例输出。",

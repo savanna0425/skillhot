@@ -1,5 +1,5 @@
 {
-  "rank": 825,
+  "rank": 357,
   "id": 1212241202,
   "name": "UZI-Skill",
   "fullName": "wbh604/UZI-Skill",
@@ -22,13 +22,13 @@
   "installCommand": "若某些字段脚本拿不到（网络限制 / 新股 / 停牌），pipeline **不会塞默认值糊弄**：\n1. 生成 `_data_gaps.json` 列出每个缺口的建议恢复动作（浏览器 / MX / WebSearch / 推导）\n2. Agent 按 [HARD-GATE-DATAGAPS](skills/deep-analysis/SKILL.md) 逐条尝试补齐",
   "language": "Python",
   "license": "MIT",
-  "stars": 7245,
-  "forks": 1010,
-  "openIssues": 15,
-  "score": 115.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-09-05T07:29:04Z",
-  "updatedAt": "2026-10-16T02:22:55Z",
+  "stars": 7258,
+  "forks": 1012,
+  "openIssues": 0,
+  "score": 130.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-16T08:18:33Z",
+  "updatedAt": "2026-10-17T02:24:15Z",
   "createdAt": "2026-04-16T07:36:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,8 +73,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-16T04:40:39.773Z",
-    "sourceHash": "445fae3c4b0a615c",
+    "generatedAt": "2026-10-17T04:37:50.328Z",
+    "sourceHash": "10a6142ccf32c46d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 231,
+  "rank": 235,
   "id": 253975496,
   "name": "Resume-Matcher",
   "fullName": "srbhr/Resume-Matcher",
@@ -8,7 +8,7 @@
   "url": "https://github.com/srbhr/Resume-Matcher",
   "homepage": "https://resumematcher.fyi/",
   "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
-  "summary": "Resume-Matcher：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "Resume-Matcher：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/srbhr/Resume-Matcher.git\ncd Resume-Matcher\ncd apps/backend",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 28682,
-  "forks": 5074,
-  "openIssues": 40,
+  "stars": 28697,
+  "forks": 5075,
+  "openIssues": 41,
   "score": 137,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-15T20:08:23Z",
-  "updatedAt": "2026-10-16T00:42:00Z",
+  "pushedAt": "2026-10-17T04:34:50Z",
+  "updatedAt": "2026-10-17T03:52:41Z",
   "createdAt": "2020-04-08T03:26:49Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,10 @@
     "word-embeddings"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -83,13 +86,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-16T04:40:39.773Z",
-    "sourceHash": "450d25fda48b84e3",
+    "generatedAt": "2026-10-17T04:37:50.328Z",
+    "sourceHash": "63bf93bc8a20d9f7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Resume-Matcher：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "Resume-Matcher：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "Resume-Matcher 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -107,7 +110,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
