@@ -1,17 +1,17 @@
 {
-  "rank": 880,
-  "id": 1079547517,
-  "name": "claude-skills",
-  "fullName": "jezweb/claude-skills",
-  "owner": "jezweb",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/13249054?v=4",
-  "url": "https://github.com/jezweb/claude-skills",
-  "homepage": "https://jezweb.com.au",
-  "description": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.",
-  "summary": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1859,
+  "id": 1420261569,
+  "name": "REA-Reconstruction-Companion",
+  "fullName": "ShadowSwaps/REA-Reconstruction-Companion",
+  "owner": "ShadowSwaps",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/142631796?v=4",
+  "url": "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
+  "homepage": "",
+  "description": "Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integration, portable installer, and validation workflows.",
+  "summary": "REA-Reconstruction-Companion：用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "browser automation|web automation|scrap|crawl|workflow",
   "scenarios": [
     "重复任务",
@@ -19,52 +19,61 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jezweb/claude-skills.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/ShadowSwaps/REA-Reconstruction-Companion.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 1068,
-  "forks": 109,
-  "openIssues": 21,
-  "score": 114.8,
+  "stars": 74,
+  "forks": 9,
+  "openIssues": 0,
+  "score": 88.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-09T11:36:46Z",
-  "updatedAt": "2026-10-16T22:01:20Z",
-  "createdAt": "2025-10-20T02:12:38Z",
+  "pushedAt": "2026-10-17T17:35:50Z",
+  "updatedAt": "2026-10-18T01:54:31Z",
+  "createdAt": "2026-10-15T06:11:46Z",
   "sourceTopics": [
-    "claude-skills"
+    "codex-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "anthropic",
-    "automation",
+    "agent-skill",
+    "agent-skills",
+    "ai-agent",
+    "ai-agent-framework",
+    "ai-agents",
+    "ai-agents-framework",
+    "claude",
+    "claude-ai",
     "claude-code",
+    "claude-code-skills",
     "claude-skills",
-    "cloudflare",
-    "devtools",
-    "productivity",
-    "react",
-    "skills",
-    "tailwind",
-    "vite"
+    "codex",
+    "codex-skill",
+    "codex-skills",
+    "developer-tool",
+    "developer-tools",
+    "development",
+    "development-environment",
+    "rea",
+    "reverse-engineering"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jezweb/claude-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ShadowSwaps/REA-Reconstruction-Companion",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jezweb/claude-skills#readme",
-  "detailPath": "data/details/jezweb__claude__skills.json",
+  "readmeUrl": "https://github.com/ShadowSwaps/REA-Reconstruction-Companion#readme",
+  "detailPath": "data/details/shadowswaps__rea__reconstruction__companion.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能",
+    "summary": "REA-Reconstruction-Companion 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -83,14 +92,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-17T04:37:50.328Z",
-    "sourceHash": "f104c87246089916",
+    "generatedAt": "2026-10-18T04:43:10.168Z",
+    "sourceHash": "07187d03f5557db0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills：Claude Code CLI 具备全栈开发、Cloudflare、React、Tailwind v4 及 AI 集成等技能。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-skills 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "REA-Reconstruction-Companion：用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "REA-Reconstruction-Companion 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -107,7 +116,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",

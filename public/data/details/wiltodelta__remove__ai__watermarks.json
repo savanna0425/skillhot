@@ -1,5 +1,5 @@
 {
-  "rank": 617,
+  "rank": 386,
   "id": 1191930807,
   "name": "remove-ai-watermarks",
   "fullName": "wiltodelta/remove-ai-watermarks",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1192743?v=4",
   "url": "https://github.com/wiltodelta/remove-ai-watermarks",
   "homepage": "https://raiw.cc",
-  "description": "Remove visible and invisible AI watermarks and provenance metadata from images and video. Python library and CLI for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.",
-  "summary": "remove-ai-watermarks 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.",
+  "summary": "remove-ai-watermarks 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,44 +19,47 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "uv tool install remove-ai-watermarks",
+  "installCommand": "uv tool install \"remove-ai-watermarks[visible]\"   # CLI for visible marks and metadata\nnpx skills add wiltodelta/remove-ai-watermarks    # agent skill for Claude Code, Codex, Cursor, and other agents",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6032,
+  "stars": 6042,
   "forks": 560,
   "openIssues": 3,
-  "score": 120.7,
+  "score": 128.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-17T01:06:56Z",
-  "updatedAt": "2026-10-17T02:31:07Z",
+  "pushedAt": "2026-10-18T03:49:18Z",
+  "updatedAt": "2026-10-18T03:49:24Z",
   "createdAt": "2026-03-25T18:15:24Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skill",
     "ai-watermark",
     "c2pa",
     "cli",
     "comfyui",
-    "computer-vision",
     "content-credentials",
-    "diffusion-models",
     "exif",
-    "flux",
     "gemini",
+    "gemini-watermark-remover",
     "generative-ai",
     "image-processing",
     "metadata",
     "nano-banana",
-    "python",
+    "provenance",
     "stable-diffusion",
     "synthid",
+    "veo",
     "video-processing",
     "watermark-removal",
     "watermark-remover"
   ],
   "platforms": [
+    "Claude",
+    "Codex",
+    "Cursor",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -89,13 +92,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-17T04:37:50.328Z",
-    "sourceHash": "fec34e70bcd748a4",
+    "generatedAt": "2026-10-18T04:43:10.168Z",
+    "sourceHash": "866815a445ccbb85",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "remove-ai-watermarks 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "remove-ai-watermarks 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "remove-ai-watermarks 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -113,7 +116,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

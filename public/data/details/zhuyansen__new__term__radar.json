@@ -1,14 +1,14 @@
 {
-  "rank": 1634,
-  "id": 1335560273,
-  "name": "simplified-technical-english",
-  "fullName": "0xpili/simplified-technical-english",
-  "owner": "0xpili",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/121824734?v=4",
-  "url": "https://github.com/0xpili/simplified-technical-english",
+  "rank": 1211,
+  "id": 1415214046,
+  "name": "new-term-radar",
+  "fullName": "zhuyansen/new-term-radar",
+  "owner": "zhuyansen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/24306647?v=4",
+  "url": "https://github.com/zhuyansen/new-term-radar",
   "homepage": "",
-  "description": "An Agent Skill that makes an LLM write in ASD-STE100 Simplified Technical English. Rules, approved word list, and a check tool.",
-  "summary": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+  "summary": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,28 +19,35 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/0xpili/simplified-technical-english.git",
+  "installCommand": "git clone https://github.com/zhuyansen/new-term-radar.git",
   "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 995,
-  "forks": 49,
-  "openIssues": 3,
-  "score": 95.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-16T02:16:57Z",
-  "updatedAt": "2026-10-16T22:25:15Z",
-  "createdAt": "2026-08-16T02:13:23Z",
-  "sourceTopics": [],
+  "license": "MIT",
+  "stars": 1086,
+  "forks": 422,
+  "openIssues": 2,
+  "score": 107,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-14T14:31:39Z",
+  "updatedAt": "2026-10-18T04:16:41Z",
+  "createdAt": "2026-10-12T07:11:01Z",
+  "sourceTopics": [
+    "claude-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "asd-ste100",
-    "claude-skill",
-    "controlled-language",
-    "simplified-technical-english",
-    "technical-writing"
+    "ai",
+    "aisa",
+    "claude-code",
+    "claude-skills",
+    "google-trends",
+    "keyword-research",
+    "mcp",
+    "mcp-server",
+    "seo",
+    "trends"
   ],
   "platforms": [
     "Claude"
@@ -48,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/0xpili/simplified-technical-english",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhuyansen/new-term-radar",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/0xpili/simplified-technical-english#readme",
-  "detailPath": "data/details/0xpili__simplified__technical__english.json",
+  "readmeUrl": "https://github.com/zhuyansen/new-term-radar#readme",
+  "detailPath": "data/details/zhuyansen__new__term__radar.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -72,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-17T04:37:50.328Z",
-    "sourceHash": "865672a53bbaecfc",
+    "generatedAt": "2026-10-18T04:43:10.168Z",
+    "sourceHash": "56e775550455970f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "simplified-technical-english：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "simplified-technical-english 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "new-term-radar：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "new-term-radar 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -122,7 +129,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
