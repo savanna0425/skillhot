@@ -1,5 +1,5 @@
 {
-  "rank": 198,
+  "rank": 197,
   "id": 1013480284,
   "name": "claude-code-templates",
   "fullName": "davila7/claude-code-templates",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx claude-code-templates@latest --skill web-data/search,web-data/scrape,web-data/data-feeds,web-data/bright-data-mcp,web-data/bright-data-best-practices,development/brightdata-local-search --mcp web-data/brightdata --yes",
+  "installCommand": "npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration --yes\nnpx claude-code-templates@latest\nnpx claude-code-templates@latest --agent development-tools/code-reviewer --yes",
   "language": "Python",
   "license": "MIT",
-  "stars": 32716,
-  "forks": 3786,
+  "stars": 32738,
+  "forks": 3794,
   "openIssues": 410,
   "score": 138.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T03:18:53Z",
-  "updatedAt": "2026-10-18T03:18:57Z",
+  "pushedAt": "2026-10-19T04:27:18Z",
+  "updatedAt": "2026-10-19T04:27:32Z",
   "createdAt": "2025-07-04T01:26:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -74,8 +74,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "5ca24287ed14fa88",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "20f533271baf54d6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

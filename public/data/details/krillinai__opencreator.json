@@ -1,5 +1,5 @@
 {
-  "rank": 232,
+  "rank": 229,
   "id": 904490600,
   "name": "OpenCreator",
   "fullName": "krillinai/OpenCreator",
@@ -8,7 +8,7 @@
   "url": "https://github.com/krillinai/OpenCreator",
   "homepage": "https://www.open-creator.ai",
   "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
-  "summary": "OpenCreator：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "OpenCreator：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "node --version\npnpm --version\ncodex --version",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 13642,
-  "forks": 1492,
-  "openIssues": 33,
-  "score": 137.2,
+  "stars": 13696,
+  "forks": 1500,
+  "openIssues": 37,
+  "score": 137.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T01:00:12Z",
-  "updatedAt": "2026-10-18T04:34:58Z",
+  "pushedAt": "2026-10-19T01:37:37Z",
+  "updatedAt": "2026-10-19T04:25:05Z",
   "createdAt": "2024-12-17T01:59:22Z",
   "sourceTopics": [
     "skills",
@@ -53,7 +53,8 @@
     "video-translation"
   ],
   "platforms": [
-    "Codex"
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -85,13 +86,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "27b8fcf657ff97db",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "a99deddee3e9ce19",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "OpenCreator：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "OpenCreator：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "OpenCreator 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -109,7 +110,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

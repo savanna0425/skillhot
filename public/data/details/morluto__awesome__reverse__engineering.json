@@ -1,14 +1,14 @@
 {
-  "rank": 2260,
-  "id": 1305788388,
-  "name": "awesome-workbuddy",
-  "fullName": "semlinker/awesome-workbuddy",
-  "owner": "semlinker",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/4220799?v=4",
-  "url": "https://github.com/semlinker/awesome-workbuddy",
+  "rank": 1516,
+  "id": 1412022658,
+  "name": "awesome-reverse-engineering",
+  "fullName": "morluto/awesome-reverse-engineering",
+  "owner": "morluto",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76467478?v=4",
+  "url": "https://github.com/morluto/awesome-reverse-engineering",
   "homepage": "",
-  "description": "精选的 Tencent WorkBuddy 学习资料、实战案例、提示词、Skills 与 MCP 资源导航。",
-  "summary": "awesome-workbuddy 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+  "summary": "awesome-reverse-engineering 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,31 +19,42 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/semlinker/awesome-workbuddy.git",
+  "installCommand": "git clone https://github.com/morluto/awesome-reverse-engineering.git",
   "language": "",
   "license": "CC0-1.0",
-  "stars": 27,
-  "forks": 4,
-  "openIssues": 2,
-  "score": 64.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-19T15:00:05Z",
-  "updatedAt": "2026-10-05T15:20:41Z",
-  "createdAt": "2026-07-19T14:48:47Z",
-  "sourceTopics": [
-    "workbuddy-skill"
-  ],
+  "stars": 850,
+  "forks": 186,
+  "openIssues": 1,
+  "score": 100.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-18T11:01:19Z",
+  "updatedAt": "2026-10-19T04:31:26Z",
+  "createdAt": "2026-10-09T14:58:20Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
+    "agent-skills",
     "ai-agents",
     "awesome",
     "awesome-list",
-    "tencent-workbuddy",
-    "workbuddy",
-    "workbuddy-skill"
+    "binary-analysis",
+    "ctf",
+    "cybersecurity",
+    "debugging",
+    "decompiler",
+    "disassembler",
+    "dynamic-analysis",
+    "firmware",
+    "frida",
+    "ghidra",
+    "malware-analysis",
+    "mcp",
+    "reverse-engineering",
+    "security",
+    "security-tools",
+    "static-analysis"
   ],
   "platforms": [
     "Agent Skills"
@@ -51,15 +62,15 @@
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/semlinker/awesome-workbuddy",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/morluto/awesome-reverse-engineering",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/semlinker/awesome-workbuddy#readme",
-  "detailPath": "data/details/semlinker__awesome__workbuddy.json",
+  "readmeUrl": "https://github.com/morluto/awesome-reverse-engineering#readme",
+  "detailPath": "data/details/morluto__awesome__reverse__engineering.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "精选的 Tencent WorkBuddy 学习资料、实战案例、提示词、Skills 与 MCP 资源导航。",
+    "summary": "awesome-reverse-engineering 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -78,14 +89,14 @@
       "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "c940d40a7c0df4d7",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "acb230cd10ec24e2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-workbuddy 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-workbuddy 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-reverse-engineering 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-reverse-engineering 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",

@@ -1,5 +1,5 @@
 {
-  "rank": 1111,
+  "rank": 525,
   "id": 1269836503,
   "name": "compass-skills",
   "fullName": "dongshuyan/compass-skills",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dongshuyan/compass-skills.git",
+  "installCommand": "npx skills add dongshuyan/compass-skills --skill '*' -a claude-code",
   "language": "Python",
   "license": "MIT",
   "stars": 758,
   "forks": 61,
   "openIssues": 0,
-  "score": 108.2,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-26T12:54:01Z",
-  "updatedAt": "2026-10-17T15:55:33Z",
+  "score": 123.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-19T03:20:47Z",
+  "updatedAt": "2026-10-19T03:20:53Z",
   "createdAt": "2026-06-15T06:28:04Z",
   "sourceTopics": [
     "ai-skills",
@@ -95,8 +95,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "7ccec8f9a22d2db7",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "53908f6680c71052",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

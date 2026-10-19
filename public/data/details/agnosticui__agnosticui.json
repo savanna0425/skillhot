@@ -1,17 +1,17 @@
 {
-  "rank": 1636,
-  "id": 1408011967,
-  "name": "Genjustsu-Open-Source-Workflow",
-  "fullName": "sirioberati/Genjustsu-Open-Source-Workflow",
-  "owner": "sirioberati",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/128729078?v=4",
-  "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow",
-  "homepage": "https://tein.ai",
-  "description": "Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI to prepare inputs, review masks, preview generations, and export with original audio.",
-  "summary": "Genjustsu-Open-Source-Workflow：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1535,
+  "id": 293631918,
+  "name": "agnosticui",
+  "fullName": "AgnosticUI/agnosticui",
+  "owner": "AgnosticUI",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/70919102?v=4",
+  "url": "https://github.com/AgnosticUI/agnosticui",
+  "homepage": "https://agnosticui.com",
+  "description": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows.",
+  "summary": "agnosticui 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "\\bui\\b|\\bux\\b|ui.?ux|user interface|user experience|de",
   "scenarios": [
     "界面设计",
@@ -19,63 +19,78 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/sirioberati/Genjustsu-Open-Source-Workflow.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 998,
-  "forks": 249,
-  "openIssues": 0,
-  "score": 95.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-08T20:54:22Z",
-  "updatedAt": "2026-10-18T04:20:18Z",
-  "createdAt": "2026-10-06T23:18:18Z",
+  "installCommand": "git clone https://github.com/AgnosticUI/agnosticui.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 828,
+  "forks": 46,
+  "openIssues": 1,
+  "score": 100.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-11T20:33:38Z",
+  "updatedAt": "2026-10-10T20:12:12Z",
+  "createdAt": "2020-09-07T21:03:08Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "accessibility",
+    "agent-skills",
+    "ai-agents",
+    "context-engineering",
+    "css",
+    "generative-ui",
+    "javascipt",
+    "lit",
+    "prompt-engineering",
+    "reactjs",
+    "svelte",
+    "ui-components",
+    "vue",
+    "web-components"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/sirioberati/Genjustsu-Open-Source-Workflow",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AgnosticUI/agnosticui",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow#readme",
-  "detailPath": "data/details/sirioberati__genjustsu__open__source__workflow.json",
+  "readmeUrl": "https://github.com/AgnosticUI/agnosticui#readme",
+  "detailPath": "data/details/agnosticui__agnosticui.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Genjustsu-Open-Source-Workflow 帮助改进界面设计、用户体验与视觉质量。",
+    "summary": "agnosticui 帮助改进界面设计、用户体验与视觉质量。",
     "useCases": [
       "界面设计",
       "设计系统",
       "体验质量检查"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要界面、体验、设计系统与视觉质量工作流能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "6c75b0049d9acf4b",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "4be3c2eca4a079bb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Genjustsu-Open-Source-Workflow：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Genjustsu-Open-Source-Workflow 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agnosticui 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "agnosticui 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
       "团队需要把设计原则、组件规范或审美约束交给 Agent 复用。",
@@ -115,7 +130,7 @@
       "把审美要求变成更稳定的工作流。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 855,
+  "rank": 838,
   "id": 1277597194,
   "name": "anti-defensive-writing",
   "fullName": "Kiterlin/anti-defensive-writing",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Kiterlin/anti-defensive-writing",
   "homepage": "",
   "description": "Codex skill for removing defensive writing and strengthening prose.",
-  "summary": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+  "summary": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Kiterlin/anti-defensive-writing.git",
   "language": "PowerShell",
   "license": "MIT",
-  "stars": 1116,
-  "forks": 41,
+  "stars": 1157,
+  "forks": 43,
   "openIssues": 4,
-  "score": 115.2,
+  "score": 115.6,
   "activity": "本周活跃",
   "pushedAt": "2026-10-17T14:11:48Z",
-  "updatedAt": "2026-10-17T19:01:32Z",
+  "updatedAt": "2026-10-19T04:29:17Z",
   "createdAt": "2026-06-23T03:07:25Z",
   "sourceTopics": [
     "codex-skill"
@@ -45,6 +45,7 @@
     "writing"
   ],
   "platforms": [
+    "Claude",
     "Codex"
   ],
   "skillCount": 1,
@@ -77,13 +78,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-18T04:43:10.168Z",
-    "sourceHash": "4f81566f47bf2d15",
+    "generatedAt": "2026-10-19T04:51:24.748Z",
+    "sourceHash": "87a48f7dbe1fe53c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Codex 相关工作流里先做选型判断。",
+    "plainIntro": "anti-defensive-writing：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "anti-defensive-writing 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -101,7 +102,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
