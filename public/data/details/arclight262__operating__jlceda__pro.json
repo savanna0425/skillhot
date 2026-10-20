@@ -1,14 +1,14 @@
 {
-  "rank": 1485,
-  "id": 1196304209,
-  "name": "suyuan-skill",
-  "fullName": "suyuan2022/suyuan-skill",
-  "owner": "suyuan2022",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/107789154?v=4",
-  "url": "https://github.com/suyuan2022/suyuan-skill",
+  "rank": 2217,
+  "id": 1403312908,
+  "name": "operating-jlceda-pro",
+  "fullName": "Arclight262/operating-jlceda-pro",
+  "owner": "Arclight262",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/302457002?v=4",
+  "url": "https://github.com/Arclight262/operating-jlceda-pro",
   "homepage": "",
-  "description": "夙愿自己在用的 AI Skill：whatis 把看不懂的东西画成图，break-ai-slop 让 AI 先想清楚行家怎么干，task-triage 判断一件事该不该接。",
-  "summary": "suyuan-skill：夙愿自己在用的 AI Skill：whatis 把看不懂的东西画成图，break-ai-slop 让 AI 先想清楚行家怎么干，task-triage 判断一件事该不该接。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "嘉立创EDA专业版桌面操作 Skill：按图复刻原理图，辅助 PCB 绘制与核对。",
+  "summary": "operating-jlceda-pro：嘉立创EDA专业版桌面操作 Skill：按图复刻原理图，辅助 PCB 绘制与核对。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,41 +19,44 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/suyuan2022/suyuan-skill.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/Arclight262/operating-jlceda-pro.git",
+  "language": "PowerShell",
   "license": "MIT",
-  "stars": 399,
-  "forks": 37,
+  "stars": 1,
+  "forks": 0,
   "openIssues": 0,
-  "score": 100.7,
+  "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T11:14:21Z",
-  "updatedAt": "2026-10-19T03:03:27Z",
-  "createdAt": "2026-03-30T15:10:49Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-19T10:43:45Z",
+  "updatedAt": "2026-10-19T10:15:30Z",
+  "createdAt": "2026-10-03T14:55:43Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "claude-code",
-    "claude-skills"
+    "ai-agent-skills",
+    "jlceda",
+    "pcb",
+    "schematic"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/suyuan2022/suyuan-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Arclight262/operating-jlceda-pro",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/suyuan2022/suyuan-skill#readme",
-  "detailPath": "data/details/suyuan2022__suyuan__skill.json",
+  "readmeUrl": "https://github.com/Arclight262/operating-jlceda-pro#readme",
+  "detailPath": "data/details/arclight262__operating__jlceda__pro.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "夙愿自己在用的 AI Skill：whatis 把看不懂的东西画成图，break-ai-slop 让 AI 先想清楚行家怎么干，task-triage 判断一件事该不该接。",
+    "summary": "嘉立创EDA专业版桌面操作 Skill：按图复刻原理图，辅助 PCB 绘制与核对。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -72,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "f8f7ec1ce8e4c8f8",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "f182992de692a0a4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "suyuan-skill：夙愿自己在用的 AI Skill：whatis 把看不懂的东西画成图，break-ai-slop 让 AI 先想清楚行家怎么干，task-triage 判断一件事该不该接。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "suyuan-skill 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "operating-jlceda-pro：嘉立创EDA专业版桌面操作 Skill：按图复刻原理图，辅助 PCB 绘制与核对。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "operating-jlceda-pro 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -96,7 +99,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

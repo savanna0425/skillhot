@@ -1,5 +1,5 @@
 {
-  "rank": 407,
+  "rank": 409,
   "id": 1198124295,
   "name": "openrig",
   "fullName": "mvschwarz/openrig",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npm install -g @openrig/cli\nrig setup --dry-run",
+  "installCommand": "npx skills add https://github.com/mvschwarz/openrig/tree/v0.6.12/skills/rigs --skill rigs --agent claude-code\nnpx skills add https://github.com/mvschwarz/openrig/tree/v0.6.12/skills/rigs --skill rigs --agent codex",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 7825,
-  "forks": 621,
-  "openIssues": 167,
-  "score": 127.5,
+  "stars": 7919,
+  "forks": 635,
+  "openIssues": 161,
+  "score": 127.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-19T04:40:11Z",
-  "updatedAt": "2026-10-19T04:41:00Z",
+  "pushedAt": "2026-10-20T04:52:42Z",
+  "updatedAt": "2026-10-20T04:44:31Z",
   "createdAt": "2026-04-01T06:22:40Z",
   "sourceTopics": [
     "agent-skills"
@@ -84,8 +84,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "093b663584882001",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "c20a955a66fed6ba",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

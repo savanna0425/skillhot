@@ -1,5 +1,5 @@
 {
-  "rank": 158,
+  "rank": 160,
   "id": 1137711311,
   "name": "Codewhale",
   "fullName": "codewhale-hq/Codewhale",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "winget install HunterBown.CodeWhale  # Windows x64 (or Scoop, or the installer from GitHub Releases)\nnpm install -g codewhale            # wraps the same release binaries\ncargo install codewhale-cli --locked  # build from crates.io",
+  "installCommand": "winget install HunterBown.CodeWhale  # Windows x64 (or Scoop, or the installer from GitHub Releases)\nnpm install -g codewhale            # wraps the same release binaries\ncargo install codewhale-cli --locked  # crates.io; can trail GitHub Releases",
   "language": "Rust",
   "license": "MIT",
-  "stars": 41100,
-  "forks": 3569,
-  "openIssues": 207,
+  "stars": 41106,
+  "forks": 3570,
+  "openIssues": 205,
   "score": 140.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-19T04:14:32Z",
-  "updatedAt": "2026-10-19T04:14:46Z",
+  "pushedAt": "2026-10-19T19:54:00Z",
+  "updatedAt": "2026-10-20T04:35:01Z",
   "createdAt": "2026-01-19T18:21:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -85,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "c0b2c77261b7cae0",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "7aac1b7e3b166af1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

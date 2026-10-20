@@ -1,5 +1,5 @@
 {
-  "rank": 849,
+  "rank": 847,
   "id": 1379137016,
   "name": "omnirush-gui",
   "fullName": "omnirush-ai/omnirush-gui",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/omnirush-ai/omnirush-gui.git",
+  "installCommand": "pnpm install --frozen-lockfile\npnpm --filter @omnirush/desktop dev      # run the desktop app\npnpm typecheck                           # type-check the app",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 3602,
-  "forks": 90,
-  "openIssues": 27,
+  "stars": 3622,
+  "forks": 92,
+  "openIssues": 30,
   "score": 115.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T15:18:53Z",
-  "updatedAt": "2026-10-19T04:48:04Z",
+  "pushedAt": "2026-10-20T04:59:01Z",
+  "updatedAt": "2026-10-20T04:39:02Z",
   "createdAt": "2026-09-21T05:26:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "abb720310c4991ec",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "93a298d4cd446eeb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

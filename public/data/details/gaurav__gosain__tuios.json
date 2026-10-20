@@ -1,17 +1,17 @@
 {
-  "rank": 1234,
-  "id": 925298844,
-  "name": "agent-starter-pack",
-  "fullName": "GoogleCloudPlatform/agent-starter-pack",
-  "owner": "GoogleCloudPlatform",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2810941?v=4",
-  "url": "https://github.com/GoogleCloudPlatform/agent-starter-pack",
-  "homepage": "http://goo.gle/agents-cli",
-  "description": "Ship AI Agents to Google Cloud in minutes, not months. Production-ready templates with built-in CI/CD, evaluation, and observability.",
-  "summary": "agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 662,
+  "id": 1051789550,
+  "name": "tuios",
+  "fullName": "Gaurav-Gosain/tuios",
+  "owner": "Gaurav-Gosain",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/55647468?v=4",
+  "url": "https://github.com/Gaurav-Gosain/tuios",
+  "homepage": "https://tuios.dev",
+  "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+  "summary": "tuios：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,46 +19,61 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/GoogleCloudPlatform/agent-starter-pack.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 6567,
-  "forks": 1500,
-  "openIssues": 50,
-  "score": 106.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-21T23:42:40Z",
-  "updatedAt": "2026-10-19T01:07:59Z",
-  "createdAt": "2025-01-31T16:03:06Z",
+  "installCommand": "brew install tuios",
+  "language": "Go",
+  "license": "MIT",
+  "stars": 5513,
+  "forks": 256,
+  "openIssues": 30,
+  "score": 119.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-20T04:39:39Z",
+  "updatedAt": "2026-10-20T04:16:25Z",
+  "createdAt": "2025-09-06T18:13:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agents",
-    "gcp",
-    "gemini",
-    "genai-agents",
-    "generative-ai",
-    "llmops",
-    "mlops",
-    "observability"
+    "ai-agents",
+    "bubbletea",
+    "charm",
+    "claude-code",
+    "codex",
+    "coding-agents",
+    "developer-tools",
+    "go",
+    "golang",
+    "multiplexer",
+    "omarchy",
+    "ssh",
+    "terminal",
+    "terminal-emulator",
+    "terminal-multiplexer",
+    "tiling-window-manager",
+    "tmux-alternative",
+    "tui",
+    "window-manager",
+    "zellij-alternative"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Claude",
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/GoogleCloudPlatform/agent-starter-pack",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Gaurav-Gosain/tuios",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/GoogleCloudPlatform/agent-starter-pack#readme",
-  "detailPath": "data/details/googlecloudplatform__agent__starter__pack.json",
+  "readmeUrl": "https://github.com/Gaurav-Gosain/tuios#readme",
+  "detailPath": "data/details/gaurav__gosain__tuios.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板",
+    "summary": "tuios 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -74,17 +89,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "a796cbe6458e29a7",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "df46602425125b10",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-starter-pack：在几分钟内将 AI 代理部署至 Google Cloud，而非数月。包含内置 CI/CD、评估与可观测性的生产就绪模板。适合在 Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "agent-starter-pack 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "tuios：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "tuios 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -101,7 +116,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -124,7 +139,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

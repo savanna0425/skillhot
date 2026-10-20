@@ -1,5 +1,5 @@
 {
-  "rank": 2218,
+  "rank": 2219,
   "id": 1418466421,
   "name": "Rice-skills",
   "fullName": "shuke-bio/Rice-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/283092468?v=4",
   "url": "https://github.com/shuke-bio/Rice-skills",
   "homepage": "",
-  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、79 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS、群体遗传、SV 检测与泛基因组、表型组、单细胞与空间组学、qPCR 引物设计与分析、CRISPR靶点与引物设计、CNS 级自动绘图与查文献到论文写作全流程等。",
-  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、79 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS、群体遗传、SV 检测与泛基因组、表型组、单细胞与空间组学、qPCR 引物设计与分。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、86 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS（多位点/QEI/上位性/二分类/多亲本）、群体遗传、SV 检测与泛基因组（含 Oryza 属流程与 SINE 注释）、表型组（含 GS/耐盐 RGB/叶绿体计数）、单细胞与空间组学、qPCR 引物设计与分析、CRISPR 靶点与引物设计、CNS 级自动绘图与查文献到论文写作全流程等。",
+  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、86 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS（多位点/QEI/上位性/二分类/多亲本）、群体遗传、SV 检测与泛基因组（含 O。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -27,8 +27,8 @@
   "openIssues": 0,
   "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T03:22:57Z",
-  "updatedAt": "2026-10-18T03:23:00Z",
+  "pushedAt": "2026-10-19T15:43:03Z",
+  "updatedAt": "2026-10-19T15:42:56Z",
   "createdAt": "2026-10-14T06:21:10Z",
   "sourceTopics": [
     "ai-agent-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、79 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS、群体遗传、SV 检测与泛基因组、表型组、单细胞与空间组学、qPCR 引物设计与分",
+    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、86 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS（多位点/QEI/上位性/二分类/多亲本）、群体遗传、SV 检测与泛基因组（含 O",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "d4c00283afcea85e",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "254846a4445c7ac0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、79 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS、群体遗传、SV 检测与泛基因组、表型组、单细胞与空间组学、qPCR 引物设计与分。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、86 个 R/Python 脚本、541 个精选 agent 技能，覆盖转录组、代谢组、GWAS（多位点/QEI/上位性/二分类/多亲本）、群体遗传、SV 检测与泛基因组（含 O。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Rice-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

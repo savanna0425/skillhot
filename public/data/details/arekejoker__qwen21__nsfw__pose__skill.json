@@ -1,65 +1,65 @@
 {
-  "rank": 429,
-  "id": 1293600453,
-  "name": "Octop",
-  "fullName": "TencentCloud/Octop",
-  "owner": "TencentCloud",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/20101770?v=4",
-  "url": "https://github.com/TencentCloud/Octop",
-  "homepage": "https://octop.cloud",
-  "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-  "summary": "Octop：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+  "rank": 547,
+  "id": 1416386910,
+  "name": "qwen21-nsfw-pose-skill",
+  "fullName": "Arekejoker/qwen21-nsfw-pose-skill",
+  "owner": "Arekejoker",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/131444687?v=4",
+  "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+  "homepage": "",
+  "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+  "summary": "qwen21-nsfw-pose-skill：Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "make install          # pip install -e \".[dev]\"\nmake all              # format-all + lint + typecheck + test (ship bar)\nmake dev-frontend     # Vite dev server on :5173 (override with VITE_DEV_PORT)",
+  "installCommand": "git clone https://github.com/Arekejoker/qwen21-nsfw-pose-skill.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 9944,
-  "forks": 1275,
-  "openIssues": 825,
-  "score": 126,
+  "license": "Apache-2.0",
+  "stars": 3413,
+  "forks": 615,
+  "openIssues": 4,
+  "score": 122.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-18T15:10:49Z",
-  "updatedAt": "2026-10-19T04:45:32Z",
-  "createdAt": "2026-07-08T12:54:20Z",
+  "pushedAt": "2026-10-19T04:48:15Z",
+  "updatedAt": "2026-10-20T04:48:21Z",
+  "createdAt": "2026-10-13T03:09:42Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "agentic-ai",
-    "ai",
-    "ai-agent",
-    "ai-agents",
-    "local-first",
-    "long-term-memory"
+    "agent-skill",
+    "comfyui",
+    "image-generation",
+    "openclaw",
+    "pose-control",
+    "qwen-image"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "OpenCode"
+    "Cursor",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/TencentCloud/Octop",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Arekejoker/qwen21-nsfw-pose-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/TencentCloud/Octop#readme",
-  "detailPath": "data/details/tencentcloud__octop.json",
+  "readmeUrl": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill#readme",
+  "detailPath": "data/details/arekejoker__qwen21__nsfw__pose__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Octop 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -75,17 +75,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-19T04:51:24.748Z",
-    "sourceHash": "35e0f6dc47a73cb3",
+    "generatedAt": "2026-10-20T04:59:45.792Z",
+    "sourceHash": "f0c708a603f62020",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Octop：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
-    "whatItIs": "Octop 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "qwen21-nsfw-pose-skill：Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "qwen21-nsfw-pose-skill 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -102,7 +102,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -125,7 +125,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
