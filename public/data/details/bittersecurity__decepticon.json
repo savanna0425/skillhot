@@ -19,16 +19,16 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/BitterSecurity/Decepticon.git\ncd Decepticon\nmake dogfood  # Full OSS UX (launcher → onboard → CLI) on local code",
+  "installCommand": "pip install decepticon              # core SDK\npip install \"decepticon[neo4j]\"     # + the knowledge-graph attack-chain tools",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6348,
-  "forks": 1221,
+  "stars": 6370,
+  "forks": 1224,
   "openIssues": 2,
   "score": 121.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-19T01:59:57Z",
-  "updatedAt": "2026-10-20T01:53:49Z",
+  "pushedAt": "2026-10-20T15:48:19Z",
+  "updatedAt": "2026-10-21T04:19:34Z",
   "createdAt": "2025-06-06T12:55:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -82,8 +82,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-20T04:59:45.792Z",
-    "sourceHash": "665297339dd78a8a",
+    "generatedAt": "2026-10-21T04:58:50.414Z",
+    "sourceHash": "79c92b83310c6489",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

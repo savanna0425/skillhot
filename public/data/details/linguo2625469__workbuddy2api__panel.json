@@ -1,5 +1,5 @@
 {
-  "rank": 1008,
+  "rank": 746,
   "id": 1366969284,
   "name": "workbuddy2api-panel",
   "fullName": "linguo2625469/workbuddy2api-panel",
@@ -8,7 +8,7 @@
   "url": "https://github.com/linguo2625469/workbuddy2api-panel",
   "homepage": "",
   "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
-  "summary": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/linguo2625469/workbuddy2api-panel.git",
+  "installCommand": "上游请求在出站前经历统一的改写管线（`internal/upstream/payload.go`）：强制 `stream:true`、`developer` 角色归一、tool_choice 归一、`image_url` 字符串兼容为 OpenAI 对象形态、DeepSeek 思维链注入、`reasoning_effort` 档位降级、`reasoning_content` 回填、指纹脱敏。\n- **Docker + Docker Compose**（服务端部署方式，镜像内已含低权限用户与全部工具脚本）——或\n- **Windows / macOS / Linux 直接跑单文件二进制**（无需 Docker，见下方「Windows 单文件运行」）",
   "language": "Go",
   "license": "MIT",
-  "stars": 4104,
-  "forks": 1181,
-  "openIssues": 120,
-  "score": 109.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-12T04:02:31Z",
-  "updatedAt": "2026-10-20T04:57:38Z",
+  "stars": 4310,
+  "forks": 1235,
+  "openIssues": 0,
+  "score": 117.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-21T03:05:08Z",
+  "updatedAt": "2026-10-21T04:54:20Z",
   "createdAt": "2026-09-12T05:13:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -44,7 +44,8 @@
     "workbuddy"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -76,13 +77,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-20T04:59:45.792Z",
-    "sourceHash": "c08bce97a064bac3",
+    "generatedAt": "2026-10-21T04:58:50.414Z",
+    "sourceHash": "aae2c872a318f574",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "workbuddy2api-panel：把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支。适合在 Codex、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "workbuddy2api-panel 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -100,7 +101,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

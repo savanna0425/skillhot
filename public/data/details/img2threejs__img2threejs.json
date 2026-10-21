@@ -1,5 +1,5 @@
 {
-  "rank": 323,
+  "rank": 324,
   "id": 1301140808,
   "name": "img2threejs",
   "fullName": "img2threejs/img2threejs",
@@ -19,20 +19,19 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx --yes img2threejs@latest install --dry-run\nnpx --yes img2threejs@latest install\nnpx --yes img2threejs@latest doctor",
+  "installCommand": "npx --yes img2threejs@latest install   # links the skill into every agent it finds\nnpx --yes img2threejs@latest doctor    # one line per agent: \"managed\" means installed",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 18473,
-  "forks": 1762,
+  "stars": 18530,
+  "forks": 1609,
   "openIssues": 111,
   "score": 132.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-17T21:41:15Z",
-  "updatedAt": "2026-10-20T04:34:28Z",
+  "pushedAt": "2026-10-21T04:37:33Z",
+  "updatedAt": "2026-10-21T04:56:36Z",
   "createdAt": "2026-07-15T02:58:39Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -82,8 +81,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-20T04:59:45.792Z",
-    "sourceHash": "6aa5075b0c48a318",
+    "generatedAt": "2026-10-21T04:58:50.414Z",
+    "sourceHash": "26c2cce6adb653d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

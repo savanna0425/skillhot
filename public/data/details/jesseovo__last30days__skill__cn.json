@@ -1,34 +1,34 @@
 {
-  "rank": 623,
+  "rank": 624,
   "id": 1196982492,
   "name": "last30days-skill-cn",
   "fullName": "Jesseovo/last30days-skill-cn",
   "owner": "Jesseovo",
   "avatarUrl": "https://avatars.githubusercontent.com/u/153301783?v=4",
   "url": "https://github.com/Jesseovo/last30days-skill-cn",
-  "homepage": "",
-  "description": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。",
-  "summary": "last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-  "category": "产品与商业",
-  "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
+  "homepage": "https://jesseovo.github.io/last30days-skill-cn/",
+  "description": "给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。",
+  "summary": "last30days-skill-cn：给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "category": "Agent工具与平台",
+  "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
-  "categoryReason": "product management|product manager|marketing|growth|se",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
-    "产品管理",
-    "营销增长",
-    "商业决策"
+    "模型与客户端管理",
+    "Agent 编排",
+    "多平台协作"
   ],
-  "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add Jesseovo/last30days-skill-cn -g",
+  "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
+  "installCommand": "git clone https://github.com/Jesseovo/last30days-skill-cn.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 1922,
+  "stars": 1928,
   "forks": 199,
-  "openIssues": 4,
+  "openIssues": 0,
   "score": 120.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-20T02:57:44Z",
-  "updatedAt": "2026-10-20T02:56:58Z",
+  "pushedAt": "2026-10-21T03:32:59Z",
+  "updatedAt": "2026-10-21T03:55:25Z",
   "createdAt": "2026-03-31T08:13:20Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -38,14 +38,23 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
+    "ai-agent",
+    "bilibili",
+    "chinese",
     "claude-code",
+    "codex",
+    "deep-research",
     "dsh-plugin",
     "openclaw",
     "openclaw-skills",
-    "rednotebook",
-    "research",
-    "tiktok",
-    "web-search"
+    "rss",
+    "social-media",
+    "trending-topics",
+    "web-search",
+    "weibo",
+    "xiaohongshu",
+    "zhihu"
   ],
   "platforms": [
     "Claude",
@@ -58,77 +67,77 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Jesseovo/last30days-skill-cn",
-    "videoUrl": "https://www.bilibili.com/video/BV..."
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/Jesseovo/last30days-skill-cn#readme",
   "detailPath": "data/details/jesseovo__last30days__skill__cn.json",
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告",
+    "summary": "给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。",
     "useCases": [
-      "产品管理",
-      "营销增长",
-      "商业决策"
+      "模型与客户端管理",
+      "Agent 编排",
+      "多平台协作"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要产品管理、营销增长、销售、金融与商业工作流能力的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
-    "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
+    "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-20T04:59:45.792Z",
-    "sourceHash": "cee4635c8d0f78f7",
+    "generatedAt": "2026-10-21T04:58:50.414Z",
+    "sourceHash": "f76178bcd74946a2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "last30days-skill-cn：last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "last30days-skill-cn 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "last30days-skill-cn：给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "last30days-skill-cn 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
-      "团队想让 Agent 辅助决策，但需要更清晰的流程。",
-      "从用户需求到策略输出之间缺少可复用方法。",
-      "如果你的任务和「产品管理」有关，它能帮你先建立一个可试用的入口。"
+      "多个 Agent、模型、工具和配置之间切换成本高。",
+      "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
+      "模型、工具、记忆和权限散落在不同地方，不方便管理。",
+      "如果你的任务和「模型与客户端管理」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助产品发现、市场调研、增长分析、营销内容、销售或商业决策。",
-      "把商业工作流整理成 Agent 可以执行的步骤。",
-      "帮助你判断它是否适合当前业务问题。",
+      "提供 Agent 客户端、模型路由、工具接入、任务编排或运行环境。",
+      "把模型、插件、工作流和配置集中管理。",
+      "帮助你判断它是否适合自己的 Agent 工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "产品经理、创业者、运营、市场和销售团队。",
-      "想用 Agent 做用户研究、竞品分析或增长方案的人。",
-      "需要把业务流程模板化的小团队。",
+      "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
+      "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
+      "想搭建个人或团队 Agent 工作台的人。",
       "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "把输出直接当作法律、财务或投资建议的人。",
-      "没有真实业务数据和人工判断，只想自动替代决策的人。"
+      "只需要一个简单聊天窗口、不想配置工具链的人。",
+      "不愿处理 API Key、权限、部署或本地环境的人。"
     ],
     "howItWorks": [
-      "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
-      "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
-      "最终决策仍需要结合真实数据和业务经验。",
+      "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
+      "用户配置模型服务、权限和项目后，在平台里发起任务。",
+      "稳定性取决于模型服务、插件生态和本地/云端配置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先用一个具体业务问题试跑。",
-      "补充目标用户、市场背景和约束条件。",
-      "把输出当作初稿，再用真实数据和团队经验修订。"
+      "先确认它支持你常用的模型和 Agent 客户端。",
+      "用低权限 API Key 或测试配置跑一个小任务。",
+      "确认日志、权限和密钥存储方式后再接入正式项目。"
     ],
     "expectedOutcome": [
-      "业务分析和材料初稿更快。",
-      "产品或增长流程更容易复用。",
-      "团队讨论有更清楚的起点。"
+      "多个 Agent 或模型配置更清楚。",
+      "任务编排和工具调用更集中。",
+      "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
       "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
