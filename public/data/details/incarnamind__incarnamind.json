@@ -1,5 +1,5 @@
 {
-  "rank": 1525,
+  "rank": 1518,
   "id": 683066449,
   "name": "IncarnaMind",
   "fullName": "IncarnaMind/IncarnaMind",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/341153780?v=4",
   "url": "https://github.com/IncarnaMind/IncarnaMind",
   "homepage": "",
-  "description": "Free, open-source desktop app for macOS, Windows & Linux to write, ask, check and compare across your own documents. Fact-check a draft or report against PDFs, Word, Excel & PowerPoint, with every answer citing the exact page. Compare hundreds of contracts in one table. Meeting transcription. Works with ChatGPT, Claude or your API key.",
-  "summary": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Open-source, Notion-like AI editor for your local documents and meetings: chat with PDFs, Word, Excel and PowerPoint, write and fact-check with page citations, and take AI meeting notes transcribed on your computer. Compare documents in a table. Mac, Windows, Linux. Works with ChatGPT, Claude, Gemini or Ollama. A NotebookLM and Granola alternative.",
+  "summary": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/IncarnaMind/IncarnaMind.git",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 841,
+  "stars": 843,
   "forks": 59,
-  "openIssues": 395,
+  "openIssues": 394,
   "score": 100.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-20T17:57:21Z",
-  "updatedAt": "2026-10-20T14:27:47Z",
+  "pushedAt": "2026-10-22T02:36:23Z",
+  "updatedAt": "2026-10-22T02:36:26Z",
   "createdAt": "2023-08-25T14:13:15Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,17 +36,17 @@
   ],
   "repoTopics": [
     "ai-assistant",
+    "chat-with-pdf",
     "citations",
-    "deepseek",
     "desktop-app",
     "document-qa",
-    "electron",
+    "fact-checking",
+    "granola-alternative",
     "knowledge-management",
     "literature-review",
     "llm",
     "local-first",
     "local-llm",
-    "mcp",
     "meeting-assistant",
     "note-taking",
     "notebooklm",
@@ -57,7 +57,8 @@
     "writing-tool"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -89,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-21T04:58:50.414Z",
-    "sourceHash": "8c9afc9ffb13905b",
+    "generatedAt": "2026-10-22T04:59:31.062Z",
+    "sourceHash": "c88fb9b264a04751",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "IncarnaMind 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -113,7 +114,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
