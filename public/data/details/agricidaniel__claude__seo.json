@@ -1,5 +1,5 @@
 {
-  "rank": 116,
+  "rank": 115,
   "id": 1152014594,
   "name": "claude-seo",
   "fullName": "AgriciDaniel/claude-seo",
@@ -19,23 +19,22 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git\nbash claude-seo/install.sh",
+  "installCommand": "> **Why `git clone` instead of `irm | iex`?** Claude Code's own security guardrails flag `irm ... | iex` as a supply chain risk: downloading and executing remote code without verification. The `git clone` approach lets you inspect `claude-seo\\install.ps1` before running it.\n</details>\n> **Two versions.** This public version is MIT licensed and free for every",
   "language": "Python",
   "license": "MIT",
-  "stars": 19615,
-  "forks": 2849,
-  "openIssues": 41,
-  "score": 145,
+  "stars": 19744,
+  "forks": 2862,
+  "openIssues": 39,
+  "score": 145.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-21T20:34:20Z",
-  "updatedAt": "2026-10-22T04:56:20Z",
+  "pushedAt": "2026-10-22T16:47:40Z",
+  "updatedAt": "2026-10-23T04:46:35Z",
   "createdAt": "2026-02-07T08:17:38Z",
   "sourceTopics": [
     "claude-code-skill"
   ],
   "discoveredBy": [
     "GitHub Topics",
-    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -51,7 +50,7 @@
     "Claude",
     "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 26,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-seo",
@@ -81,8 +80,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "eb7b881937a178ed",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "7213c0947bedd043",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -115,7 +114,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 26+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",

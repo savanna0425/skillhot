@@ -1,5 +1,5 @@
 {
-  "rank": 210,
+  "rank": 201,
   "id": 1222527844,
   "name": "iFixAi",
   "fullName": "ifixai-ai/iFixAi",
@@ -19,16 +19,16 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install \"ifixai[openai]\"   # or anthropic, gemini, etc.: install the provider extra you'll test\nifixai setup                    # arrow-key wizard: pick provider, model, judge, suite → writes ifixai.yaml\nifixai run                      # no flags needed; reports land in ./ifixai-results/",
+  "installCommand": "pip install ifixai\nifixai author reference -o reference.yaml\nifixai validate reference.yaml",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 31919,
-  "forks": 1618,
-  "openIssues": 10,
-  "score": 138.1,
+  "stars": 33275,
+  "forks": 1707,
+  "openIssues": 3,
+  "score": 138.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T04:54:28Z",
-  "updatedAt": "2026-10-22T04:58:07Z",
+  "pushedAt": "2026-10-22T21:16:26Z",
+  "updatedAt": "2026-10-23T04:58:36Z",
   "createdAt": "2026-04-27T13:02:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -60,8 +60,7 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -93,8 +92,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "b8b16c02395a9cd0",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "cb01c090ab01d2de",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

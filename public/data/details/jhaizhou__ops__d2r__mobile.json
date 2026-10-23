@@ -1,5 +1,5 @@
 {
-  "rank": 746,
+  "rank": 730,
   "id": 1415313946,
   "name": "d2r-mobile",
   "fullName": "jhaizhou-ops/d2r-mobile",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/258432107?v=4",
   "url": "https://github.com/jhaizhou-ops/d2r-mobile",
   "homepage": "",
-  "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
-  "summary": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+  "summary": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -22,30 +22,33 @@
   "installCommand": "git clone https://github.com/jhaizhou-ops/d2r-mobile.git",
   "language": "C",
   "license": "MIT",
-  "stars": 4338,
-  "forks": 1183,
-  "openIssues": 44,
-  "score": 117.3,
+  "stars": 4427,
+  "forks": 1203,
+  "openIssues": 39,
+  "score": 117.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T01:36:39Z",
-  "updatedAt": "2026-10-22T04:34:58Z",
+  "pushedAt": "2026-10-23T01:21:54Z",
+  "updatedAt": "2026-10-23T04:52:47Z",
   "createdAt": "2026-10-12T08:41:19Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "android",
     "compatibility-layer",
     "diablo-2-resurrected",
     "diablo2",
     "game-port",
+    "harmonyos",
     "ios",
     "ipad",
     "iphone",
     "mac",
     "macos",
     "metal",
-    "reign-of-the-warlock"
+    "reign-of-the-warlock",
+    "vulkan"
   ],
   "platforms": [
     "Agent Skills"
@@ -61,7 +64,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+    "summary": "开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -80,13 +83,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "968ea508c795f3e9",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "393bd2f91180b24c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "d2r-mobile：开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "d2r-mobile 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",

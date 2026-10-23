@@ -1,14 +1,14 @@
 {
-  "rank": 340,
-  "id": 24878875,
-  "name": "awesome-zsh-plugins",
-  "fullName": "unixorn/awesome-zsh-plugins",
-  "owner": "unixorn",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/23920?v=4",
-  "url": "https://github.com/unixorn/awesome-zsh-plugins",
-  "homepage": "",
-  "description": "A collection of ZSH frameworks, plugins, themes and tutorials.",
-  "summary": "awesome-zsh-plugins 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1745,
+  "id": 1168982444,
+  "name": "awesome-openclaw-skills-CN",
+  "fullName": "AIPMAndy/awesome-openclaw-skills-CN",
+  "owner": "AIPMAndy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/31501333?v=4",
+  "url": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN",
+  "homepage": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN/blob/main/CHINESE-MODELS.md",
+  "description": "OpenClaw Skills 中文精选：2868 个社区 Skills 分类整理，含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）｜Awesome OpenClaw skills in Chinese",
+  "summary": "awesome-openclaw-skills-CN 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,51 +19,58 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/unixorn/awesome-zsh-plugins.git",
-  "language": "Shell",
-  "license": "BSD-3-Clause",
-  "stars": 18078,
-  "forks": 616,
-  "openIssues": 7,
-  "score": 132.2,
+  "installCommand": "git clone https://github.com/AIPMAndy/awesome-openclaw-skills-CN.git",
+  "language": "",
+  "license": "Apache-2.0",
+  "stars": 127,
+  "forks": 19,
+  "openIssues": 6,
+  "score": 93.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T03:18:19Z",
-  "updatedAt": "2026-10-22T02:02:59Z",
-  "createdAt": "2014-10-07T06:11:17Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-22T16:25:29Z",
+  "updatedAt": "2026-10-22T16:26:40Z",
+  "createdAt": "2026-02-28T02:49:15Z",
+  "sourceTopics": [
+    "openclaw-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skills",
+    "ai",
+    "ai-agents",
     "awesome",
     "awesome-list",
-    "collection",
-    "hacktoberfest",
-    "list",
-    "oh-my-zsh",
-    "zgenom",
-    "zsh-completions",
-    "zsh-configuration",
-    "zsh-framework",
-    "zsh-plugin",
-    "zsh-prompt",
-    "zsh-theme"
+    "awesome-openclaw",
+    "chinese",
+    "chinese-developers",
+    "claude",
+    "clawhub",
+    "coding-agent",
+    "deepseek",
+    "llm",
+    "openai",
+    "openclaw",
+    "openclaw-skills",
+    "skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/unixorn/awesome-zsh-plugins",
-    "videoUrl": "https://www.youtube.com/watch?v=MSPu-lYF-A8"
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AIPMAndy/awesome-openclaw-skills-CN",
+    "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/unixorn/awesome-zsh-plugins#readme",
-  "detailPath": "data/details/unixorn__awesome__zsh__plugins.json",
+  "readmeUrl": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN#readme",
+  "detailPath": "data/details/aipmandy__awesome__openclaw__skills__cn.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ZSH 框架、插件、主题及教程集合",
+    "summary": "OpenClaw Skills 中文精选：2868 个社区 Skills 分类整理，含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）｜Awesome OpenClaw skills in Chinese",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -79,17 +86,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 BSD-3-Clause，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "3b4bc015d13e8eaf",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "117d3d07c0a496eb",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-zsh-plugins 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-zsh-plugins 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "awesome-openclaw-skills-CN 是一个面向 Claude、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "awesome-openclaw-skills-CN 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -106,7 +113,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -129,7 +136,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 BSD-3-Clause，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

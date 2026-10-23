@@ -1,46 +1,47 @@
 {
-  "rank": 1636,
-  "id": 1341514550,
-  "name": "trading-terminal",
-  "fullName": "Superior-Trade/trading-terminal",
-  "owner": "Superior-Trade",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/263848863?v=4",
-  "url": "https://github.com/Superior-Trade/trading-terminal",
-  "homepage": "https://terminal.superior.trade",
-  "description": "Self-hosted AI trading terminal for Hyperliquid: chart read in, validated Freqtrade/Nautilus-Trader strategy out, deployed live.",
-  "summary": "trading-terminal：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1402,
+  "id": 1197727671,
+  "name": "hermes-hud",
+  "fullName": "joeynyc/hermes-hud",
+  "owner": "joeynyc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/17919866?v=4",
+  "url": "https://github.com/joeynyc/hermes-hud",
+  "homepage": "",
+  "description": "TUI consciousness monitor for Hermes",
+  "summary": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
-  "categoryReason": "pandas|jupyter|chart|dataset|etl|data pipeline",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "数据处理",
     "SQL 与表格",
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Superior-Trade/trading-terminal.git",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 992,
-  "forks": 22,
-  "openIssues": 13,
-  "score": 95,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-09T06:28:15Z",
-  "updatedAt": "2026-10-22T04:25:10Z",
-  "createdAt": "2026-08-21T07:13:38Z",
+  "installCommand": "git clone https://github.com/joeynyc/hermes-hud.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 935,
+  "forks": 64,
+  "openIssues": 14,
+  "score": 101.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-22T07:49:13Z",
+  "updatedAt": "2026-10-22T16:19:55Z",
+  "createdAt": "2026-03-31T20:40:56Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "ai-agent",
-    "freqtrade",
-    "hyperliquid",
-    "nautilus-trader",
-    "self-hosted",
-    "tradingview"
+    "dashboard",
+    "neofetch",
+    "python",
+    "terminal",
+    "textual",
+    "tui"
   ],
   "platforms": [
     "Agent Skills"
@@ -48,15 +49,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Superior-Trade/trading-terminal",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/joeynyc/hermes-hud",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Superior-Trade/trading-terminal#readme",
-  "detailPath": "data/details/superior__trade__trading__terminal.json",
+  "readmeUrl": "https://github.com/joeynyc/hermes-hud#readme",
+  "detailPath": "data/details/joeynyc__hermes__hud.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "trading-terminal：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -72,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "9cd5740a89a7cf2c",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "041b5f571a0fa4dd",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "trading-terminal：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "trading-terminal 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hermes-hud：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "hermes-hud 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -122,7 +123,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

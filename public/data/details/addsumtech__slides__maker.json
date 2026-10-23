@@ -1,5 +1,5 @@
 {
-  "rank": 1452,
+  "rank": 1456,
   "id": 1269050856,
   "name": "slides_maker",
   "fullName": "addsumtech/slides_maker",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/299338686?v=4",
   "url": "https://github.com/addsumtech/slides_maker",
   "homepage": "https://slides.addsum.top",
-  "description": "Turn papers, code, and docs into presentation-ready, natively editable PPTX in Codex / Claude Code. Native charts and equations, speaker notes, click-build animations, and an independent critic review before delivery.",
-  "summary": "slides_maker：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Turn papers, code, and docs into presentation-ready, natively editable PPTX in Codex / Claude Code. Native charts and equations, speaker notes, click-build animations, and an independent critic review before delivery. Comes with a visual-language template library, updated continuously.",
+  "summary": "slides_maker 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/addsumtech/slides_maker.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 607,
-  "forks": 54,
-  "openIssues": 1,
+  "stars": 610,
+  "forks": 55,
+  "openIssues": 0,
   "score": 101,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-17T13:50:59Z",
-  "updatedAt": "2026-10-22T04:11:03Z",
+  "pushedAt": "2026-10-22T20:35:04Z",
+  "updatedAt": "2026-10-23T02:33:56Z",
   "createdAt": "2026-06-14T08:48:32Z",
   "sourceTopics": [
     "skill"
@@ -57,7 +57,7 @@
     "Codex"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/addsumtech/slides_maker",
     "videoUrl": ""
@@ -74,11 +74,11 @@
       "多媒体工作流"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -86,14 +86,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "70dd2020b42d78b1",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "3c8edf54fc58e6af",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "slides_maker：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "slides_maker 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "slides_maker 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "slides_maker 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",

@@ -1,106 +1,102 @@
 {
-  "rank": 2260,
-  "id": 1147053949,
-  "name": "antigravity-stock-analysis-workflow",
-  "fullName": "HASEEBGAMING/antigravity-stock-analysis-workflow",
-  "owner": "HASEEBGAMING",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/102260491?v=4",
-  "url": "https://github.com/HASEEBGAMING/antigravity-stock-analysis-workflow",
-  "homepage": "https://haseebgaming.github.io",
-  "description": "📊 Automate stock analysis from data collection to risk assessment and transaction reporting with this comprehensive workflow.",
-  "summary": "antigravity-stock-analysis-workflow 是一个面向 Claude、Gemini CLI、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1266,
+  "id": 1202954853,
+  "name": "webbrain",
+  "fullName": "webbrain-one/webbrain",
+  "owner": "webbrain-one",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/295484252?v=4",
+  "url": "https://github.com/webbrain-one/webbrain",
+  "homepage": "https://webbrain.one",
+  "description": "Open-source AI browser agent for Chrome and Firefox (monorepo) 🧠 ",
+  "summary": "webbrain：用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
-  "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "重复任务",
     "浏览器操作",
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/HASEEBGAMING/antigravity-stock-analysis-workflow.git",
-  "language": "",
-  "license": "",
-  "stars": 7,
-  "forks": 2,
-  "openIssues": 0,
-  "score": 63.5,
+  "installCommand": "git clone https://github.com/webbrain-one/webbrain.git",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 1525,
+  "forks": 184,
+  "openIssues": 7,
+  "score": 106.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-14T07:06:12Z",
-  "updatedAt": "2026-10-14T07:06:16Z",
-  "createdAt": "2026-02-01T05:33:09Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "pushedAt": "2026-10-22T17:48:22Z",
+  "updatedAt": "2026-10-23T04:40:16Z",
+  "createdAt": "2026-04-06T15:17:01Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-skills",
-    "algorithmic-trading-engine",
-    "antigravity-ide",
-    "autonomous-coding",
-    "broker-trading-platform",
-    "claude",
-    "forex",
-    "gemini",
-    "gemini-pro",
-    "opencode",
-    "position-cost-distribution",
-    "python",
-    "quant",
-    "react-patterns",
-    "security-auditing",
-    "stocks",
-    "trading",
-    "trading-platform",
-    "trading-robots"
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "browser-ai",
+    "browser-automation",
+    "browser-extension",
+    "chrome-ai",
+    "chrome-devtools",
+    "chrome-extension",
+    "chrome-extensions",
+    "firefox-addon",
+    "firefox-addons",
+    "firefox-extension",
+    "firefox-extensions",
+    "gemma",
+    "gemma4",
+    "minimax",
+    "offline-ai",
+    "offline-llm",
+    "qwen"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI",
-    "OpenCode",
-    "Antigravity"
+    "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/HASEEBGAMING/antigravity-stock-analysis-workflow",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/webbrain-one/webbrain",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/HASEEBGAMING/antigravity-stock-analysis-workflow#readme",
-  "detailPath": "data/details/haseebgaming__antigravity__stock__analysis__workflow.json",
+  "readmeUrl": "https://github.com/webbrain-one/webbrain#readme",
+  "detailPath": "data/details/webbrain__one__webbrain.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "antigravity-stock-analysis-workflow 用于自动化浏览器、工具集成或重复流程。",
+    "summary": "webbrain 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
       "跨工具集成"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要浏览器、网页抓取、工具集成与重复流程自动化能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-22T04:59:31.062Z",
-    "sourceHash": "f58b8077c44b5e73",
+    "generatedAt": "2026-10-23T05:01:17.240Z",
+    "sourceHash": "b802416414a46e6f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "antigravity-stock-analysis-workflow 是一个面向 Claude、Gemini CLI、OpenCode 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "antigravity-stock-analysis-workflow 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "webbrain：用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "webbrain 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -117,7 +113,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude、Gemini CLI、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
@@ -140,7 +136,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
