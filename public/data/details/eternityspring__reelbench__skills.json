@@ -1,5 +1,5 @@
 {
-  "rank": 1098,
+  "rank": 841,
   "id": 1365350772,
   "name": "reelbench-skills",
   "fullName": "eternityspring/reelbench-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/eternityspring/reelbench-skills",
   "homepage": "",
   "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
-  "summary": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/eternityspring/reelbench-skills.git",
+  "installCommand": "git clone https://github.com/eternityspring/reelbench-skills.git\ncd reelbench-skills\n./scripts/install.sh",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 1163,
+  "stars": 1166,
   "forks": 146,
   "openIssues": 0,
-  "score": 108.7,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-09T09:35:54Z",
-  "updatedAt": "2026-10-23T02:22:52Z",
+  "score": 115.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-24T03:29:20Z",
+  "updatedAt": "2026-10-24T03:29:25Z",
   "createdAt": "2026-09-11T04:55:49Z",
   "sourceTopics": [
     "claude-skills"
@@ -44,7 +44,8 @@
     "video-analysis"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -76,13 +77,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-23T05:01:17.240Z",
-    "sourceHash": "c66bcd20196a9897",
+    "generatedAt": "2026-10-24T04:46:15.989Z",
+    "sourceHash": "e26430011d1a188d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "reelbench-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -100,7 +101,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

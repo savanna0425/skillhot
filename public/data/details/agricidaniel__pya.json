@@ -1,14 +1,14 @@
 {
-  "rank": 2076,
+  "rank": 1798,
   "id": 1207859209,
-  "name": "claude-cybersecurity",
-  "fullName": "AgriciDaniel/claude-cybersecurity",
+  "name": "pya",
+  "fullName": "AgriciDaniel/pya",
   "owner": "AgriciDaniel",
   "avatarUrl": "https://avatars.githubusercontent.com/u/223140489?v=4",
-  "url": "https://github.com/AgriciDaniel/claude-cybersecurity",
-  "homepage": "https://agricidaniel.com/blog/claude-cybersecurity-ai-security-audit",
-  "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
-  "summary": "claude-cybersecurity：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
+  "url": "https://github.com/AgriciDaniel/pya",
+  "homepage": "https://github.com/AgriciDaniel/pya",
+  "description": "PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist agents, a dated threat feed, verified findings, offline by default.",
+  "summary": "pya：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AgriciDaniel/claude-cybersecurity.git",
-  "language": "Shell",
+  "installCommand": "git clone https://github.com/AgriciDaniel/pya.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 237,
+  "stars": 240,
   "forks": 46,
   "openIssues": 1,
-  "score": 76.4,
-  "activity": "活跃",
-  "pushedAt": "2026-04-15T09:43:43Z",
-  "updatedAt": "2026-10-22T08:18:04Z",
+  "score": 91.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-23T13:17:32Z",
+  "updatedAt": "2026-10-23T15:02:49Z",
   "createdAt": "2026-04-11T13:57:19Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -39,6 +39,7 @@
   "repoTopics": [
     "appsec",
     "claude-code",
+    "claude-code-plugin",
     "claude-code-skill",
     "code-review",
     "cybersecurity",
@@ -46,6 +47,7 @@
     "owasp",
     "sast",
     "security-audit",
+    "supply-chain-security",
     "vulnerability-scanner"
   ],
   "platforms": [
@@ -54,15 +56,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/claude-cybersecurity",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/AgriciDaniel/pya",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/AgriciDaniel/claude-cybersecurity#readme",
-  "detailPath": "data/details/agricidaniel__claude__cybersecurity.json",
+  "readmeUrl": "https://github.com/AgriciDaniel/pya#readme",
+  "detailPath": "data/details/agricidaniel__pya.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "claude-cybersecurity 聚焦安全审计、漏洞检查与风险治理。",
+    "summary": "pya 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -81,14 +83,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-23T05:01:17.240Z",
-    "sourceHash": "0281817328c403f2",
+    "generatedAt": "2026-10-24T04:46:15.989Z",
+    "sourceHash": "8a1ff94c83a85ec0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-cybersecurity：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-cybersecurity 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pya：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "pya 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
       "安全排查需要固定流程，不能只靠临时经验。",

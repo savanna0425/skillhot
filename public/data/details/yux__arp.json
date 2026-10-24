@@ -1,55 +1,62 @@
 {
-  "rank": 1514,
-  "id": 1422053844,
-  "name": "coop-anything",
-  "fullName": "cranebeaker/coop-anything",
-  "owner": "cranebeaker",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/343430477?v=4",
-  "url": "https://github.com/cranebeaker/coop-anything",
-  "homepage": "https://coopanything.app",
-  "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-  "summary": "coop-anything：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2047,
+  "id": 1164019924,
+  "name": "arp",
+  "fullName": "YUX/arp",
+  "owner": "YUX",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/10670661?v=4",
+  "url": "https://github.com/YUX/arp",
+  "homepage": "https://arp.offgrid.ing",
+  "description": "Agent Relay Protocol — Stateless WebSocket relay for autonomous agent communication",
+  "summary": "arp：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/cranebeaker/coop-anything.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/YUX/arp.git",
+  "language": "Rust",
   "license": "MIT",
-  "stars": 848,
-  "forks": 117,
-  "openIssues": 88,
-  "score": 100.4,
+  "stars": 63,
+  "forks": 6,
+  "openIssues": 0,
+  "score": 78.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T13:39:15Z",
-  "updatedAt": "2026-10-23T04:06:20Z",
-  "createdAt": "2026-10-16T11:12:03Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-10-24T03:53:46Z",
+  "updatedAt": "2026-10-24T03:52:44Z",
+  "createdAt": "2026-02-22T14:15:43Z",
+  "sourceTopics": [
+    "openclaw-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "ai",
+    "openclaw",
+    "openclaw-skills"
+  ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/cranebeaker/coop-anything",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/YUX/arp",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/cranebeaker/coop-anything#readme",
-  "detailPath": "data/details/cranebeaker__coop__anything.json",
+  "readmeUrl": "https://github.com/YUX/arp#readme",
+  "detailPath": "data/details/yux__arp.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "coop-anything 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "arp 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -68,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-23T05:01:17.240Z",
-    "sourceHash": "f3e1bcf0a3ee96c1",
+    "generatedAt": "2026-10-24T04:46:15.989Z",
+    "sourceHash": "8d722a5287218b20",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "coop-anything：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "coop-anything 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "arp：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "arp 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -92,7 +99,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
