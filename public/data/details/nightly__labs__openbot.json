@@ -1,66 +1,65 @@
 {
-  "rank": 2310,
-  "id": 1384443829,
-  "name": "Daily-skill-hub",
-  "fullName": "Susie-ss/Daily-skill-hub",
-  "owner": "Susie-ss",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/25052855?v=4",
-  "url": "https://github.com/Susie-ss/Daily-skill-hub",
-  "homepage": "",
-  "description": "8 个日报类 AI Agent Skill 合集：AI 资讯、产品经理、热点榜单、知识故事、知识收纳、热门工具、创意灵感、热门 Skill。每个技能独立目录、互不依赖、可单独安装，每天自动收集全球最新资讯并产出结构化 Markdown 日报。",
-  "summary": "Daily-skill-hub：8 个日报类 AI Agent Skill 合集：AI 资讯、产品经理、热点榜单、知识故事、知识收纳、热门工具、创意灵感、热门 Skill。每个技能独立目录、互不依赖、可单独安装，每天自动收集全球最新资讯并产出结构化 Markdown 日报。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1473,
+  "id": 1332461149,
+  "name": "openbot",
+  "fullName": "nightly-labs/openbot",
+  "owner": "nightly-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/100160810?v=4",
+  "url": "https://github.com/nightly-labs/openbot",
+  "homepage": "https://openbot.run/",
+  "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+  "summary": "openbot：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Susie-ss/Daily-skill-hub.git",
-  "language": "Python",
-  "license": "",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-24T02:28:59Z",
-  "updatedAt": "2026-10-19T06:44:59Z",
-  "createdAt": "2026-09-24T01:58:29Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "installCommand": "git clone https://github.com/nightly-labs/openbot.git",
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "stars": 887,
+  "forks": 140,
+  "openIssues": 119,
+  "score": 100.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-25T03:31:40Z",
+  "updatedAt": "2026-10-25T04:31:51Z",
+  "createdAt": "2026-08-12T21:32:03Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai-agent-skills",
-    "ai-news",
-    "automation",
-    "daily-digest",
-    "daily-report",
-    "markdown",
-    "productivity"
+    "ai-agents",
+    "bun",
+    "codex",
+    "electron",
+    "local-first",
+    "macos",
+    "solidjs",
+    "typescript"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Susie-ss/Daily-skill-hub",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nightly-labs/openbot",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Susie-ss/Daily-skill-hub#readme",
-  "detailPath": "data/details/susie__ss__daily__skill__hub.json",
+  "readmeUrl": "https://github.com/nightly-labs/openbot#readme",
+  "detailPath": "data/details/nightly__labs__openbot.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "8 个日报类 AI Agent Skill 合集：AI 资讯、产品经理、热点榜单、知识故事、知识收纳、热门工具、创意灵感、热门 Skill。每个技能独立目录、互不依赖、可单独安装，每天自动收集全球最新资讯并产出结构化 Markdown 日报",
+    "summary": "openbot：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -76,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "6a66f190a181fb70",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "4c07b3c83c2c55bf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Daily-skill-hub：8 个日报类 AI Agent Skill 合集：AI 资讯、产品经理、热点榜单、知识故事、知识收纳、热门工具、创意灵感、热门 Skill。每个技能独立目录、互不依赖、可单独安装，每天自动收集全球最新资讯并产出结构化 Markdown 日报。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Daily-skill-hub 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "openbot：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "openbot 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -103,7 +102,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -126,7 +125,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

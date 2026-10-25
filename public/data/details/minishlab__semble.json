@@ -1,80 +1,77 @@
 {
-  "rank": 1275,
-  "id": 863930645,
-  "name": "npcpy",
-  "fullName": "NPC-Worldwide/npcpy",
-  "owner": "NPC-Worldwide",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/209010789?v=4",
-  "url": "https://github.com/NPC-Worldwide/npcpy",
-  "homepage": "",
-  "description": "The python library for research and development in NLP, multimodal LLMs, Agents, ML, Knowledge Graphs, and more.",
-  "summary": "npcpy 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 618,
+  "id": 1202937420,
+  "name": "semble",
+  "fullName": "MinishLab/semble",
+  "owner": "MinishLab",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/177965497?v=4",
+  "url": "https://github.com/MinishLab/semble",
+  "homepage": "https://minish.ai/packages/semble/introduction/",
+  "description": "Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read",
+  "summary": "semble：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "中",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/NPC-Worldwide/npcpy.git",
+  "installCommand": "uv tool install semble\nsemble install",
   "language": "Python",
   "license": "MIT",
-  "stars": 1519,
-  "forks": 130,
+  "stars": 6285,
+  "forks": 282,
   "openIssues": 6,
-  "score": 106.4,
+  "score": 121.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-20T22:37:31Z",
-  "updatedAt": "2026-10-23T04:48:41Z",
-  "createdAt": "2024-09-27T07:18:20Z",
+  "pushedAt": "2026-10-24T09:31:27Z",
+  "updatedAt": "2026-10-24T20:07:30Z",
+  "createdAt": "2026-04-06T14:56:45Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agents",
-    "ai",
-    "llm",
+    "code-search",
+    "embeddings",
     "mcp",
-    "mcp-client",
     "mcp-server",
-    "ollama",
-    "perplexity",
-    "python",
-    "sql",
-    "superintelligence",
-    "superintelligence-research",
-    "yaml"
+    "model-context-protocol",
+    "retrieval"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "OpenCode"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/NPC-Worldwide/npcpy",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MinishLab/semble",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/NPC-Worldwide/npcpy#readme",
-  "detailPath": "data/details/npc__worldwide__npcpy.json",
+  "readmeUrl": "https://github.com/MinishLab/semble#readme",
+  "detailPath": "data/details/minishlab__semble.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "用于 NLP、多模态大语言模型（LLMs）、代理、机器学习及知识图谱等研究与开发的 Python 库",
+    "summary": "semble 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
       "上下文管理"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要长期记忆、RAG、上下文压缩、知识图谱与检索能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -82,14 +79,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "5d75558838b7f68f",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "3682c9d6f7d70f2b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "npcpy 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "npcpy 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "semble：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "semble 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -106,7 +103,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

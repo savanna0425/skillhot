@@ -1,14 +1,14 @@
 {
-  "rank": 1696,
-  "id": 1178543902,
-  "name": "digital-oracle",
-  "fullName": "komako-workshop/digital-oracle",
-  "owner": "komako-workshop",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/4157988?v=4",
-  "url": "https://github.com/komako-workshop/digital-oracle",
+  "rank": 584,
+  "id": 1219009070,
+  "name": "agent-toolkit-for-aws",
+  "fullName": "aws/agent-toolkit-for-aws",
+  "owner": "aws",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2232217?v=4",
+  "url": "https://github.com/aws/agent-toolkit-for-aws",
   "homepage": "",
-  "description": "AI agent skill that answers macro questions — housing, gold, BTC, geopolitics — with probability estimates mined from 13 financial data sources (Polymarket, Kalshi, CFTC, SEC & more). For Claude Code / Cursor / Codex / OpenClaw. | 让 AI Agent 从金融数据中挖掘宏观趋势的数字先知",
-  "summary": "digital-oracle：让 AI Agent 从金融数据中挖掘宏观趋势的数字先知。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+  "summary": "agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,55 +19,40 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/komako-workshop/digital-oracle.git",
+  "installCommand": "npx skills add aws/agent-toolkit-for-aws/skills",
   "language": "Python",
-  "license": "MIT",
-  "stars": 902,
-  "forks": 179,
-  "openIssues": 2,
-  "score": 94,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-26T22:44:52Z",
-  "updatedAt": "2026-10-19T16:48:59Z",
-  "createdAt": "2026-03-11T05:53:21Z",
+  "license": "Apache-2.0",
+  "stars": 3180,
+  "forks": 401,
+  "openIssues": 62,
+  "score": 122.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-23T15:00:22Z",
+  "updatedAt": "2026-10-25T04:51:39Z",
+  "createdAt": "2026-04-23T12:44:08Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub 搜索"
   ],
-  "repoTopics": [
-    "agent-skills",
-    "ai-agent",
-    "claude-code",
-    "codex",
-    "cursor",
-    "finance",
-    "kalshi",
-    "llm",
-    "macroeconomics",
-    "market-data",
-    "openclaw",
-    "polymarket",
-    "prediction-markets",
-    "quantitative-finance"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Claude",
     "Codex",
     "Cursor",
-    "OpenClaw"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/komako-workshop/digital-oracle",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/aws/agent-toolkit-for-aws",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/komako-workshop/digital-oracle#readme",
-  "detailPath": "data/details/komako__workshop__digital__oracle.json",
+  "readmeUrl": "https://github.com/aws/agent-toolkit-for-aws#readme",
+  "detailPath": "data/details/aws__agent__toolkit__for__aws.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "让 AI Agent 从金融数据中挖掘宏观趋势的数字先知",
+    "summary": "官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -83,17 +68,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "aaf8146c2aeb9f67",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "07196af9cbbe80df",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "digital-oracle：让 AI Agent 从金融数据中挖掘宏观趋势的数字先知。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "digital-oracle 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-toolkit-for-aws：官方、支持 AWS 的 MCP 服务器、技能与插件，助力 AI 代理在 AWS 上构建。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agent-toolkit-for-aws 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -133,7 +118,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

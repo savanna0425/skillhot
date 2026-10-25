@@ -1,5 +1,5 @@
 {
-  "rank": 866,
+  "rank": 832,
   "id": 1409013846,
   "name": "DeepSeek-Bot",
   "fullName": "Fei2411/DeepSeek-Bot",
@@ -8,7 +8,7 @@
   "url": "https://github.com/Fei2411/DeepSeek-Bot",
   "homepage": "",
   "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
-  "summary": "DeepSeek-Bot：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "DeepSeek-Bot：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/Fei2411/DeepSeek-Bot.git",
+  "installCommand": "npx @deepseek-ai/dsh@0.2.1-rc.2 plugin --profile web add ds-bot\nnpx @deepseek-ai/dsh@0.2.1-rc.2 web",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 3538,
-  "forks": 330,
-  "openIssues": 95,
-  "score": 115.2,
+  "stars": 3771,
+  "forks": 349,
+  "openIssues": 105,
+  "score": 115.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-24T04:16:16Z",
-  "updatedAt": "2026-10-24T04:36:58Z",
+  "pushedAt": "2026-10-24T14:18:22Z",
+  "updatedAt": "2026-10-25T04:42:09Z",
   "createdAt": "2026-10-07T15:37:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,7 +41,9 @@
     "multi-agent"
   ],
   "platforms": [
-    "Agent Skills"
+    "Codex",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -52,7 +54,7 @@
   "readmeUrl": "https://github.com/Fei2411/DeepSeek-Bot#readme",
   "detailPath": "data/details/fei2411__deepseek__bot.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "DeepSeek-Bot 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
@@ -73,13 +75,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "9684082599f0b689",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "8089559d9bd44c9b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "DeepSeek-Bot：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "DeepSeek-Bot：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Codex、Gemini CLI、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "DeepSeek-Bot 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -97,7 +99,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Codex、Gemini CLI、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

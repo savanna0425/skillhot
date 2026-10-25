@@ -1,17 +1,17 @@
 {
-  "rank": 1953,
-  "id": 1141701871,
-  "name": "claude-code-engineering",
-  "fullName": "huangjia2019/claude-code-engineering",
-  "owner": "huangjia2019",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/48795276?v=4",
-  "url": "https://github.com/huangjia2019/claude-code-engineering",
-  "homepage": "https://time.geekbang.org/column/intro/101113501",
-  "description": "This repository demonstrates how to use Claude Code to do real engineering work, not just writing code.  本项目是极客时间专栏 《Claude Code 工程化实战》 的官方配套示例仓库，目标就是： 👉 把 Claude Code 从“对话式编码工具”，变成 可设计、可复用、可治理的工程系统。",
-  "summary": "claude-code-engineering：This repository demonstrates how to use Claude Code to do real engineering work, not just writing code. 本项目是极客时间专栏 《Clau。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1617,
+  "id": 1313378548,
+  "name": "hand-drawn-video-prompts",
+  "fullName": "kaomei/hand-drawn-video-prompts",
+  "owner": "kaomei",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/307886151?v=4",
+  "url": "https://github.com/kaomei/hand-drawn-video-prompts",
+  "homepage": "",
+  "description": "Open-source AI skill for hand-drawn video prompts. Turn Chinese scripts into consistent 9:16 chibi storyboards, image prompts, and animation prompts for Flow and Nano Banana—ideal for YouTube Shorts, TikTok, and Reels.",
+  "summary": "hand-drawn-video-prompts：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,46 +19,44 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/huangjia2019/claude-code-engineering.git",
-  "language": "JavaScript",
-  "license": "",
-  "stars": 1144,
-  "forks": 401,
-  "openIssues": 1,
-  "score": 84.5,
-  "activity": "活跃",
-  "pushedAt": "2026-07-23T10:19:17Z",
-  "updatedAt": "2026-10-22T02:14:39Z",
-  "createdAt": "2026-01-25T09:16:28Z",
-  "sourceTopics": [
-    "claude-skills"
-  ],
+  "installCommand": "git clone https://github.com/kaomei/hand-drawn-video-prompts.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 281,
+  "forks": 42,
+  "openIssues": 0,
+  "score": 97.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-25T02:20:34Z",
+  "updatedAt": "2026-10-25T02:37:30Z",
+  "createdAt": "2026-07-27T03:31:32Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 搜索"
   ],
   "repoTopics": [
-    "agent",
-    "agentic-ai",
-    "ai",
-    "claude",
-    "claude-code",
-    "claude-skills"
+    "ai-video",
+    "b-roll",
+    "flow",
+    "nano-banana",
+    "prompt-engineering",
+    "storyboard"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/huangjia2019/claude-code-engineering",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kaomei/hand-drawn-video-prompts",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/huangjia2019/claude-code-engineering#readme",
-  "detailPath": "data/details/huangjia2019__claude__code__engineering.json",
+  "readmeUrl": "https://github.com/kaomei/hand-drawn-video-prompts#readme",
+  "detailPath": "data/details/kaomei__hand__drawn__video__prompts.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "This repository demonstrates how to use Claude Code to do real engineering work, not just writing code. 本项目是极客时间专栏 《Clau",
+    "summary": "hand-drawn-video-prompts：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,17 +72,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "fe5899278fe27fc5",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "b75da654c5639b5f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-engineering：This repository demonstrates how to use Claude Code to do real engineering work, not just writing code. 本项目是极客时间专栏 《Clau。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-code-engineering 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hand-drawn-video-prompts：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "hand-drawn-video-prompts 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -101,7 +99,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -124,7 +122,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

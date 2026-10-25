@@ -1,5 +1,5 @@
 {
-  "rank": 918,
+  "rank": 665,
   "id": 1399080579,
   "name": "sno-station-skills",
   "fullName": "sno-ai/sno-station-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/sno-ai/sno-station-skills",
   "homepage": "https://sno.ai",
   "description": "Sno Station Skills: 31 tested skills that turn Claude Code and Codex into one working team. Cross-vendor peer review, automatic handoff when an agent hits its quota, a one-page morning brief, work orders with proof, and a nightly loop that learns from your own sessions. Open source, installed with one sno setup.",
-  "summary": "sno-station-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "sno-station-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,48 +22,50 @@
   "installCommand": "git clone https://github.com/sno-ai/sno-station-skills.git",
   "language": "Shell",
   "license": "Apache-2.0",
-  "stars": 703,
-  "forks": 500,
+  "stars": 795,
+  "forks": 576,
   "openIssues": 0,
-  "score": 114.5,
+  "score": 119.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-20T02:24:55Z",
-  "updatedAt": "2026-10-24T04:25:09Z",
+  "pushedAt": "2026-10-24T21:56:53Z",
+  "updatedAt": "2026-10-25T04:33:43Z",
   "createdAt": "2026-10-01T04:18:51Z",
   "sourceTopics": [
     "claude-code-skills",
-    "codex-skills"
+    "codex-skills",
+    "skill-md"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-handoff",
     "agent-skills",
-    "agentic-ai",
-    "ai-agents",
+    "agentic-coding",
+    "ai-code-review",
+    "ai-coding-agent",
+    "ai-coding-assistant",
     "claude-code",
+    "claude-code-plugin",
     "claude-code-skills",
     "code-review",
     "codex",
+    "codex-cli",
+    "codex-plugin",
     "codex-skills",
-    "coding-agents",
-    "developer-tools",
-    "llm",
-    "multi-agent",
-    "open-source",
-    "peer-review",
+    "coding-assistant",
+    "llm-agents",
+    "multi-agent-system",
+    "openai-codex",
     "rate-limit",
-    "self-improving",
-    "skills",
-    "sno",
-    "sno-ai"
+    "self-learning",
+    "skill-md"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "OpenClaw"
   ],
-  "skillCount": 1,
+  "skillCount": 37,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/sno-ai/sno-station-skills",
@@ -93,13 +95,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "ec4b93e641bd5647",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "0bfe227f5d6754c4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "sno-station-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "sno-station-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "sno-station-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -117,7 +119,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -127,7 +129,7 @@
       "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
       "用户配置模型服务、权限和项目后，在平台里发起任务。",
       "稳定性取决于模型服务、插件生态和本地/云端配置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 37+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你常用的模型和 Agent 客户端。",

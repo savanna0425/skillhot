@@ -1,5 +1,5 @@
 {
-  "rank": 634,
+  "rank": 945,
   "id": 481805419,
   "name": "Awesome-LLMOps",
   "fullName": "tensorchord/Awesome-LLMOps",
@@ -8,7 +8,7 @@
   "url": "https://github.com/tensorchord/Awesome-LLMOps",
   "homepage": "",
   "description": "An awesome & curated list of best LLMOps tools for developers",
-  "summary": "Awesome-LLMOps 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "Awesome-LLMOps 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -23,12 +23,12 @@
   "language": "Shell",
   "license": "CC0-1.0",
   "stars": 5965,
-  "forks": 1210,
-  "openIssues": 352,
-  "score": 120.6,
-  "activity": "本周活跃",
+  "forks": 1215,
+  "openIssues": 357,
+  "score": 113.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-10-16T06:34:42Z",
-  "updatedAt": "2026-10-23T22:17:02Z",
+  "updatedAt": "2026-10-24T18:10:48Z",
   "createdAt": "2022-04-15T01:56:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,7 +41,7 @@
     "mlops"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -73,13 +73,13 @@
       "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "32450a4db0e108ee",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "392e2bb379c0ad77",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Awesome-LLMOps 是一个面向 Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "Awesome-LLMOps 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "Awesome-LLMOps 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -97,7 +97,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

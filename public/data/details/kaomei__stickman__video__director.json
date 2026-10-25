@@ -1,5 +1,5 @@
 {
-  "rank": 768,
+  "rank": 758,
   "id": 1321408165,
   "name": "stickman-video-director",
   "fullName": "kaomei/stickman-video-director",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/307886151?v=4",
   "url": "https://github.com/kaomei/stickman-video-director",
   "homepage": "https://x.com/CrazyKaomei/status/2102311241046008268",
-  "description": "AI stickman animation style library & video prompts.｜火柴人动画画风大全：输入话题，生成脚本、动态分镜及配音音效提示词。",
-  "summary": "stickman-video-director 是一个面向 Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "Open-source AI stickman video generator for faceless YouTube channels. Automate visuals, voiceover, captions, and sound effects—or direct each scene with video prompts.",
+  "summary": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/kaomei/stickman-video-director.git",
-  "language": "JavaScript",
+  "language": "Python",
   "license": "MIT",
-  "stars": 2838,
-  "forks": 426,
-  "openIssues": 1,
-  "score": 116.9,
+  "stars": 2917,
+  "forks": 433,
+  "openIssues": 0,
+  "score": 117.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-23T14:35:07Z",
-  "updatedAt": "2026-10-24T04:26:15Z",
+  "pushedAt": "2026-10-24T14:50:02Z",
+  "updatedAt": "2026-10-25T04:39:57Z",
   "createdAt": "2026-08-03T07:44:33Z",
   "sourceTopics": [
     "codex-skill"
@@ -51,11 +51,12 @@
     "video-prompts"
   ],
   "platforms": [
+    "Claude",
     "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/kaomei/stickman-video-director",
     "videoUrl": ""
@@ -65,18 +66,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI stickman animation style library & video prompts.｜火柴人动画画风大全：输入话题，生成脚本、动态分镜及配音音效提示词。",
+    "summary": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
       "多媒体工作流"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -84,14 +85,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-24T04:46:15.989Z",
-    "sourceHash": "8e340a4702eca5fe",
+    "generatedAt": "2026-10-25T04:52:52.794Z",
+    "sourceHash": "e11780874aa95fc5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "stickman-video-director 是一个面向 Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "stickman-video-director 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "stickman-video-director 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -108,7 +109,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
