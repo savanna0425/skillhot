@@ -1,5 +1,5 @@
 {
-  "rank": 316,
+  "rank": 317,
   "id": 1156994049,
   "name": "agent-orchestrator",
   "fullName": "OrchestratorInc/agent-orchestrator",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/OrchestratorInc/agent-orchestrator.git\ncd agent-orchestrator",
+  "installCommand": "git clone https://github.com/OrchestratorInc/agent-orchestrator.git",
   "language": "Go",
   "license": "Apache-2.0",
-  "stars": 13592,
-  "forks": 1863,
-  "openIssues": 1007,
+  "stars": 13648,
+  "forks": 1866,
+  "openIssues": 974,
   "score": 133.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-25T00:18:06Z",
-  "updatedAt": "2026-10-25T04:30:42Z",
+  "pushedAt": "2026-10-26T04:53:55Z",
+  "updatedAt": "2026-10-26T04:52:53Z",
   "createdAt": "2026-02-13T09:52:36Z",
   "sourceTopics": [
     "skills"
@@ -61,7 +61,10 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -93,8 +96,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "2fc4ebe81f503984",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "14ad101f637e88b8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

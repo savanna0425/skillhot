@@ -1,50 +1,52 @@
 {
-  "rank": 2314,
-  "id": 1381184494,
-  "name": "agent-skills-study-hub",
-  "fullName": "Ruowei-Zhang/agent-skills-study-hub",
-  "owner": "Ruowei-Zhang",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/305728165?v=4",
-  "url": "https://github.com/Ruowei-Zhang/agent-skills-study-hub",
-  "homepage": "https://agent-skills-study-hub-osy426wi.edgeone.cool/",
-  "description": "Agent Skills 学习中心 | 基于 Anthropic 发布的 Agent Skills 开放规范的中文精读 + 题库练习平台 · Chinese study hub for Anthropic's Agent Skills spec",
-  "summary": "agent-skills-study-hub：Agent Skills 学习中心 | 基于 Anthropic 发布的 Agent Skills 开放规范的中文精读 + 题库练习平台 · Chinese study hub for Anthropic's Agent Skills sp。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1254,
+  "id": 1395116154,
+  "name": "StartLux-Decision",
+  "fullName": "StartLuxLabs/StartLux-Decision",
+  "owner": "StartLuxLabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/285410870?v=4",
+  "url": "https://github.com/StartLuxLabs/StartLux-Decision",
+  "homepage": "https://decision.startlux.com/",
+  "description": "Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine for vLLM, llama.cpp and MLX.",
+  "summary": "StartLux-Decision：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Ruowei-Zhang/agent-skills-study-hub.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-09-24T16:18:40Z",
-  "updatedAt": "2026-09-24T16:18:44Z",
-  "createdAt": "2026-09-22T09:17:33Z",
-  "sourceTopics": [
-    "anthropic-skills"
-  ],
+  "installCommand": "git clone https://github.com/StartLuxLabs/StartLux-Decision.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 1566,
+  "forks": 153,
+  "openIssues": 9,
+  "score": 106.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-23T06:42:24Z",
+  "updatedAt": "2026-10-26T03:17:12Z",
+  "createdAt": "2026-09-29T11:53:37Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentskills",
-    "ai-agents",
-    "anthropic",
-    "anthropic-skills",
-    "chinese",
-    "learning-platform",
-    "llm"
+    "agents",
+    "calibration",
+    "classification",
+    "decision-making",
+    "gguf",
+    "inference",
+    "llama-cpp",
+    "llm",
+    "mlx",
+    "open-weights",
+    "reasoning",
+    "vllm"
   ],
   "platforms": [
     "Agent Skills"
@@ -52,15 +54,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Ruowei-Zhang/agent-skills-study-hub",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/StartLuxLabs/StartLux-Decision",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Ruowei-Zhang/agent-skills-study-hub#readme",
-  "detailPath": "data/details/ruowei__zhang__agent__skills__study__hub.json",
+  "readmeUrl": "https://github.com/StartLuxLabs/StartLux-Decision#readme",
+  "detailPath": "data/details/startluxlabs__startlux__decision.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Agent Skills 学习中心 | 基于 Anthropic 发布的 Agent Skills 开放规范的中文精读 + 题库练习平台 · Chinese study hub for Anthropic's Agent Skills sp",
+    "summary": "StartLux-Decision 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -76,17 +78,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "0d387f3faf134102",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "7d90fe21763b6857",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-skills-study-hub：Agent Skills 学习中心 | 基于 Anthropic 发布的 Agent Skills 开放规范的中文精读 + 题库练习平台 · Chinese study hub for Anthropic's Agent Skills sp。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agent-skills-study-hub 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "StartLux-Decision：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "StartLux-Decision 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -126,7 +128,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

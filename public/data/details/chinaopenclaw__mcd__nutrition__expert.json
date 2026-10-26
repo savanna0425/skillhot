@@ -1,62 +1,77 @@
 {
-  "rank": 1051,
-  "id": 1334657231,
-  "name": "vibe-coding-toolkit",
-  "fullName": "soumatheusgomes/vibe-coding-toolkit",
-  "owner": "soumatheusgomes",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/11700039?v=4",
-  "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
-  "homepage": "",
-  "description": "A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.",
-  "summary": "vibe-coding-toolkit：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1988,
+  "id": 1432458100,
+  "name": "mcd-nutrition-expert",
+  "fullName": "ChinaOpenClaw/mcd-nutrition-expert",
+  "owner": "ChinaOpenClaw",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/59449516?v=4",
+  "url": "https://github.com/ChinaOpenClaw/mcd-nutrition-expert",
+  "homepage": "https://github.com/ChinaOpenClaw/mcd-nutrition-expert#readme",
+  "description": "身材管控期也想吃麦当劳？这个专家会帮你根据每日消耗搭配麦麦套餐。基于 SP 矩阵理论，打通麦当劳官方 MCP Server 的营养选型与点餐闭环（35 个官方工具 · 14 个 REST 接口 · 零第三方前端依赖）。",
+  "summary": "mcd-nutrition-expert：身材管控期也想吃麦当劳？这个专家会帮你根据每日消耗搭配麦麦套餐。基于 SP 矩阵理论，打通麦当劳官方 MCP Server 的营养选型与点餐闭环（35 个官方工具 · 14 个 REST 接口 · 零第三方前端依赖）。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/soumatheusgomes/vibe-coding-toolkit.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/ChinaOpenClaw/mcd-nutrition-expert.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 1996,
-  "forks": 331,
+  "stars": 103,
+  "forks": 1,
   "openIssues": 0,
-  "score": 109.3,
+  "score": 83.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-19T02:42:59Z",
-  "updatedAt": "2026-10-25T02:18:32Z",
-  "createdAt": "2026-08-14T23:41:31Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-25T02:01:42Z",
+  "updatedAt": "2026-10-26T04:26:11Z",
+  "createdAt": "2026-10-24T18:06:01Z",
+  "sourceTopics": [
+    "workbuddy-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agents",
-    "ai-coding",
-    "claude-code",
-    "developer-tools",
-    "llm-agents",
-    "prompts"
+    "canvas",
+    "diet",
+    "fastapi",
+    "fitness",
+    "hackathon",
+    "health",
+    "mcd-mcp",
+    "mcdonalds",
+    "mcp",
+    "mcp-server",
+    "meal-planner",
+    "model-context-protocol",
+    "nutrition",
+    "programmers-day",
+    "python",
+    "sp-matrix",
+    "visualization",
+    "workbuddy",
+    "workbuddy-skill"
   ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/soumatheusgomes/vibe-coding-toolkit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ChinaOpenClaw/mcd-nutrition-expert",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/soumatheusgomes/vibe-coding-toolkit#readme",
-  "detailPath": "data/details/soumatheusgomes__vibe__coding__toolkit.json",
+  "readmeUrl": "https://github.com/ChinaOpenClaw/mcd-nutrition-expert#readme",
+  "detailPath": "data/details/chinaopenclaw__mcd__nutrition__expert.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "vibe-coding-toolkit 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "身材管控期也想吃麦当劳？这个专家会帮你根据每日消耗搭配麦麦套餐。基于 SP 矩阵理论，打通麦当劳官方 MCP Server 的营养选型与点餐闭环（35 个官方工具 · 14 个 REST 接口 · 零第三方前端依赖）。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -75,14 +90,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "bc7bd0fa6c168112",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "ee0ed32a7001f6b6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "vibe-coding-toolkit：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "vibe-coding-toolkit 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mcd-nutrition-expert：身材管控期也想吃麦当劳？这个专家会帮你根据每日消耗搭配麦麦套餐。基于 SP 矩阵理论，打通麦当劳官方 MCP Server 的营养选型与点餐闭环（35 个官方工具 · 14 个 REST 接口 · 零第三方前端依赖）。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "mcd-nutrition-expert 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -99,7 +114,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

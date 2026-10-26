@@ -1,14 +1,14 @@
 {
-  "rank": 769,
-  "id": 1309102418,
-  "name": "cindy",
-  "fullName": "makecindy/cindy",
-  "owner": "makecindy",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/306974279?v=4",
-  "url": "https://github.com/makecindy/cindy",
-  "homepage": "https://cindy.app",
-  "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-  "summary": "cindy：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 807,
+  "id": 1219378569,
+  "name": "gpt_image_playground",
+  "fullName": "CookSleep/gpt_image_playground",
+  "owner": "CookSleep",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/151028412?v=4",
+  "url": "https://github.com/CookSleep/gpt_image_playground",
+  "homepage": "https://gpt-image-playground.cooksleep.dev",
+  "description": "基于 OpenAI gpt-image-2.5 API 的图片生成与编辑工具",
+  "summary": "gpt_image_playground：基于 OpenAI gpt-image-2.5 API 的图片生成与编辑工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,52 +19,48 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/makecindy/cindy.git\ncd cindy\ngit lfs pull",
+  "installCommand": "npm install\nnpm run tauri:dev\nnpm run tauri:build",
   "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 4199,
-  "forks": 603,
-  "openIssues": 1892,
-  "score": 117,
+  "license": "MIT",
+  "stars": 3966,
+  "forks": 979,
+  "openIssues": 3,
+  "score": 116.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-25T04:48:40Z",
-  "updatedAt": "2026-10-25T04:52:04Z",
-  "createdAt": "2026-07-22T17:49:34Z",
+  "pushedAt": "2026-10-25T18:30:20Z",
+  "updatedAt": "2026-10-26T03:02:44Z",
+  "createdAt": "2026-04-23T20:18:57Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai-agent",
-    "ai-assistant",
-    "android",
-    "claude-code",
-    "codex",
-    "electron",
-    "ios",
-    "llm",
-    "macos",
-    "react-native",
+    "gpt-image",
+    "image-editing",
+    "image-generation",
+    "openai",
+    "react",
+    "tailwindcss",
     "typescript",
-    "windows"
+    "vite"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/makecindy/cindy",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CookSleep/gpt_image_playground",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/makecindy/cindy#readme",
-  "detailPath": "data/details/makecindy__cindy.json",
+  "readmeUrl": "https://github.com/CookSleep/gpt_image_playground#readme",
+  "detailPath": "data/details/cooksleep__gpt__image__playground.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+    "summary": "基于 OpenAI gpt-image-2.5 API 的图片生成与编辑工具",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -80,17 +76,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "dc895fb68e1fb42b",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "603a6c8acbb06905",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cindy：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "cindy 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gpt_image_playground：基于 OpenAI gpt-image-2.5 API 的图片生成与编辑工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "gpt_image_playground 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -107,7 +103,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -130,7 +126,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 845,
-  "id": 1365350772,
-  "name": "reelbench-skills",
-  "fullName": "eternityspring/reelbench-skills",
-  "owner": "eternityspring",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/5795147?v=4",
-  "url": "https://github.com/eternityspring/reelbench-skills",
-  "homepage": "",
-  "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
-  "summary": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1536,
+  "id": 1351289337,
+  "name": "blender-plugin",
+  "fullName": "scenario-labs/blender-plugin",
+  "owner": "scenario-labs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/71755875?v=4",
+  "url": "https://github.com/scenario-labs/blender-plugin",
+  "homepage": "https://blender.scenario.com/",
+  "description": "Scenario for Blender: AI images, video, 3D and PBR materials in the viewport, plus a local MCP server for agents. Blender 5.0+ extension, GPL-3.0-or-later.",
+  "summary": "blender-plugin：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,46 +19,56 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/eternityspring/reelbench-skills.git\ncd reelbench-skills\n./scripts/install.sh",
-  "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 1166,
-  "forks": 147,
-  "openIssues": 0,
-  "score": 115.7,
+  "installCommand": "git clone https://github.com/scenario-labs/blender-plugin.git",
+  "language": "Python",
+  "license": "GPL-3.0",
+  "stars": 841,
+  "forks": 88,
+  "openIssues": 61,
+  "score": 100.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-24T03:29:20Z",
-  "updatedAt": "2026-10-24T17:03:09Z",
-  "createdAt": "2026-09-11T04:55:49Z",
-  "sourceTopics": [
-    "claude-skills"
-  ],
+  "pushedAt": "2026-10-26T04:52:02Z",
+  "updatedAt": "2026-10-26T04:40:21Z",
+  "createdAt": "2026-08-30T10:06:41Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-video",
-    "claude-skills",
-    "ffmpeg",
-    "shot-analysis",
-    "video-analysis"
+    "3d-models",
+    "agentic-ai",
+    "ai-agents",
+    "ai-art",
+    "blender",
+    "blender-addon",
+    "blender-extension",
+    "game-assets",
+    "generative-ai",
+    "image-generation",
+    "mcp",
+    "mcp-server",
+    "pbr",
+    "python",
+    "text-to-3d",
+    "text-to-image",
+    "text-to-video",
+    "textures"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/eternityspring/reelbench-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/scenario-labs/blender-plugin",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/eternityspring/reelbench-skills#readme",
-  "detailPath": "data/details/eternityspring__reelbench__skills.json",
+  "readmeUrl": "https://github.com/scenario-labs/blender-plugin#readme",
+  "detailPath": "data/details/scenario__labs__blender__plugin.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+    "summary": "blender-plugin：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -74,17 +84,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "16e869701cf86c0f",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "35de9e46f967a498",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "reelbench-skills：Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "reelbench-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "blender-plugin：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "blender-plugin 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -101,7 +111,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -124,7 +134,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

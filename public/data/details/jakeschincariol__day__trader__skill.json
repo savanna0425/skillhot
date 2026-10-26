@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 665,
   "id": 1427126014,
   "name": "day-trader-skill",
   "fullName": "Jakeschincariol/day-trader-skill",
@@ -19,22 +19,23 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Jakeschincariol/day-trader-skill.git",
+  "installCommand": "git clone https://github.com/Jakeschincariol/day-trader-skill.git\ncp -r day-trader-skill/trader-* ~/.claude/skills/",
   "language": "Python",
   "license": "MIT",
-  "stars": 1160,
-  "forks": 262,
+  "stars": 1706,
+  "forks": 367,
   "openIssues": 8,
-  "score": 115.6,
+  "score": 119.6,
   "activity": "本周活跃",
   "pushedAt": "2026-10-20T14:18:00Z",
-  "updatedAt": "2026-10-25T04:47:12Z",
+  "updatedAt": "2026-10-26T04:53:15Z",
   "createdAt": "2026-10-20T14:17:54Z",
   "sourceTopics": [
     "claude-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "backtesting",
@@ -76,8 +77,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "2b80bbf81312b530",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "87b897044d22c102",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,14 +1,14 @@
 {
-  "rank": 1048,
-  "id": 1154236212,
-  "name": "JadeAI",
-  "fullName": "LingyiChen-AI/JadeAI",
-  "owner": "LingyiChen-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/44161003?v=4",
-  "url": "https://github.com/LingyiChen-AI/JadeAI",
-  "homepage": "https://jadeai.cturing.cn/en",
-  "description": "AI-Powered Smart Resume Builder — 50+ professional templates, PDF/image parsing, AI optimization, JD match analysis, multi-format export. Open source & free, one-click Docker deployment.",
-  "summary": "JadeAI：智能简历构建器——50+ 专业模板、PDF 与图像解析、AI 优化、职位描述匹配分析、多格式导出。开源免费，一键 Docker 部署。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1362,
+  "id": 1244234333,
+  "name": "ling-stack",
+  "fullName": "ling-stack-org/ling-stack",
+  "owner": "ling-stack-org",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/338960871?v=4",
+  "url": "https://github.com/ling-stack-org/ling-stack",
+  "homepage": "",
+  "description": "Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.",
+  "summary": "ling-stack：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,29 +19,41 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/LingyiChen-AI/JadeAI.git",
+  "installCommand": "git clone https://github.com/ling-stack-org/ling-stack.git",
   "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 1999,
-  "forks": 225,
-  "openIssues": 0,
-  "score": 109.3,
+  "license": "MIT",
+  "stars": 985,
+  "forks": 115,
+  "openIssues": 7,
+  "score": 101.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-23T06:17:34Z",
-  "updatedAt": "2026-10-25T04:29:40Z",
-  "createdAt": "2026-02-10T06:46:14Z",
+  "pushedAt": "2026-10-26T01:36:04Z",
+  "updatedAt": "2026-10-26T04:49:38Z",
+  "createdAt": "2026-05-20T04:49:54Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent",
+    "agent-orchestration",
+    "agent-skills",
+    "agentic-ai",
     "ai",
-    "ai-writing",
-    "awesome-ai-tools",
-    "awesome-cv",
-    "awesome-resumes",
-    "resume",
-    "resume-builder"
+    "ai-agents",
+    "ai-teammates",
+    "ai-workspace",
+    "anthropic",
+    "developer-tools",
+    "electron",
+    "llm",
+    "local-first",
+    "mcp",
+    "multi-agent",
+    "multi-model",
+    "openai",
+    "self-hosted",
+    "typescript"
   ],
   "platforms": [
     "Agent Skills"
@@ -49,15 +61,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/LingyiChen-AI/JadeAI",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ling-stack-org/ling-stack",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/LingyiChen-AI/JadeAI#readme",
-  "detailPath": "data/details/lingyichen__ai__jadeai.json",
+  "readmeUrl": "https://github.com/ling-stack-org/ling-stack#readme",
+  "detailPath": "data/details/ling__stack__org__ling__stack.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "智能简历构建器——50+ 专业模板、PDF 与图像解析、AI 优化、职位描述匹配分析、多格式导出。开源免费，一键 Docker 部署",
+    "summary": "ling-stack：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -73,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "b75228a3f91351a8",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "9e052732d4315ad3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "JadeAI：智能简历构建器——50+ 专业模板、PDF 与图像解析、AI 优化、职位描述匹配分析、多格式导出。开源免费，一键 Docker 部署。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "JadeAI 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ling-stack：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "ling-stack 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -123,7 +135,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

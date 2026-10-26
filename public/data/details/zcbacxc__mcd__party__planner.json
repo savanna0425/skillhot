@@ -1,14 +1,14 @@
 {
-  "rank": 661,
-  "id": 787462297,
-  "name": "mlx-vlm",
-  "fullName": "Blaizzy/mlx-vlm",
-  "owner": "Blaizzy",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/23445657?v=4",
-  "url": "https://github.com/Blaizzy/mlx-vlm",
+  "rank": 892,
+  "id": 1421172752,
+  "name": "mcd-party-planner",
+  "fullName": "zcbacxc/mcd-party-planner",
+  "owner": "zcbacxc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/67365069?v=4",
+  "url": "https://github.com/zcbacxc/mcd-party-planner",
   "homepage": "",
-  "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
-  "summary": "mlx-vlm：尚未归入主要类别的实用项目。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
+  "summary": "mcd-party-planner：麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,53 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install -U mlx-vlm",
+  "installCommand": "git clone https://github.com/zcbacxc/mcd-party-planner.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 5656,
-  "forks": 858,
-  "openIssues": 266,
-  "score": 120.1,
+  "stars": 1601,
+  "forks": 64,
+  "openIssues": 2,
+  "score": 115,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-24T19:50:33Z",
-  "updatedAt": "2026-10-24T19:50:44Z",
-  "createdAt": "2024-04-16T15:10:12Z",
+  "pushedAt": "2026-10-24T11:39:03Z",
+  "updatedAt": "2026-10-26T04:45:43Z",
+  "createdAt": "2026-10-15T18:29:02Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "apple-silicon",
-    "florence2",
-    "idefics",
-    "llava",
-    "llm",
-    "local-ai",
-    "mlx",
-    "molmo",
-    "paligemma",
-    "pixtral",
-    "vision-framework",
-    "vision-language-model",
-    "vision-transformer"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Blaizzy/mlx-vlm",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zcbacxc/mcd-party-planner",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Blaizzy/mlx-vlm#readme",
-  "detailPath": "data/details/blaizzy__mlx__vlm.json",
+  "readmeUrl": "https://github.com/zcbacxc/mcd-party-planner#readme",
+  "detailPath": "data/details/zcbacxc__mcd__party__planner.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "mlx-vlm：尚未归入主要类别的实用项目。",
+    "summary": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -84,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-25T04:52:52.794Z",
-    "sourceHash": "d4dcb05d77cbfb71",
+    "generatedAt": "2026-10-26T04:57:14.986Z",
+    "sourceHash": "9aef14a69e32a6b4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mlx-vlm：尚未归入主要类别的实用项目。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "mlx-vlm 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mcd-party-planner：麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "mcd-party-planner 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -108,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
