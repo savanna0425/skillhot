@@ -1,14 +1,14 @@
 {
-  "rank": 2312,
-  "id": 1029790604,
-  "name": "awesome-agent-skills",
-  "fullName": "officalkiran12/awesome-agent-skills",
-  "owner": "officalkiran12",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/223897850?v=4",
-  "url": "https://github.com/officalkiran12/awesome-agent-skills",
-  "homepage": "https://officalkiran12.github.io/awesome-agent-skills/",
-  "description": "Discover hand-picked Agent Skills from top dev teams—curated, organized, and community-driven for AI builders.",
-  "summary": "awesome-agent-skills 是一个面向 Claude、Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 1831,
+  "id": 1142323725,
+  "name": "AI-Skills",
+  "fullName": "MarcoNasi/AI-Skills",
+  "owner": "MarcoNasi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/150486881?v=4",
+  "url": "https://github.com/MarcoNasi/AI-Skills",
+  "homepage": "",
+  "description": "A curated collection of  150+ specialized AI Skills for software development, frontend, backend, automation, UI/UX, SEO, and DevOps. Each skill encapsulates a focused capability: generating code, templates, scripts, and production-ready workflows.",
+  "summary": "AI-Skills 是一个面向 Claude、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,59 +19,56 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/officalkiran12/awesome-agent-skills.git",
+  "installCommand": "git clone https://github.com/MarcoNasi/AI-Skills.git",
   "language": "",
-  "license": "MIT",
-  "stars": 1,
-  "forks": 0,
+  "license": "NOASSERTION",
+  "stars": 289,
+  "forks": 45,
   "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-14T07:33:11Z",
-  "updatedAt": "2026-10-14T07:33:15Z",
-  "createdAt": "2025-07-31T15:20:10Z",
+  "score": 90.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-09-25T06:19:08Z",
+  "updatedAt": "2026-10-26T09:04:28Z",
+  "createdAt": "2026-01-26T08:59:39Z",
   "sourceTopics": [
-    "ai-agent-skills"
+    "ai-skills",
+    "cursor-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 搜索"
   ],
   "repoTopics": [
-    "ai-agent-skills",
-    "ai-coding",
-    "ai-development",
-    "ai-tools",
-    "ai-workflows",
-    "anthropic",
-    "automation",
-    "awesome",
-    "awsome-list",
-    "claude",
-    "context-engineering",
-    "gemini-cli",
-    "gemini-skills",
-    "openai",
-    "openclaw",
-    "productivity",
-    "skill-md"
+    "ai-skills",
+    "claude-code",
+    "claude-skills",
+    "collection",
+    "cursor-skill",
+    "cursor-skills",
+    "ide-skills",
+    "skills",
+    "skills-collection",
+    "trae",
+    "trae-ai",
+    "trae-ide",
+    "trae-skills"
   ],
   "platforms": [
     "Claude",
-    "Gemini CLI",
-    "OpenClaw"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/officalkiran12/awesome-agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/MarcoNasi/AI-Skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/officalkiran12/awesome-agent-skills#readme",
-  "detailPath": "data/details/officalkiran12__awesome__agent__skills.json",
+  "readmeUrl": "https://github.com/MarcoNasi/AI-Skills#readme",
+  "detailPath": "data/details/marconasi__ai__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "awesome-agent-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
+    "summary": "AI-Skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -87,17 +84,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "ed2535537de7c915",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "fa9f66cd338763d1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-agent-skills 是一个面向 Claude、Gemini CLI、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-agent-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "AI-Skills 是一个面向 Claude、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "AI-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -114,7 +111,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Claude、Gemini CLI、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -137,7 +134,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

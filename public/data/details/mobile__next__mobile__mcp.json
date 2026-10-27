@@ -1,14 +1,14 @@
 {
-  "rank": 2273,
-  "id": 1183516162,
-  "name": "claude-skills-kit",
-  "fullName": "KirKruglov/claude-skills-kit",
-  "owner": "KirKruglov",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/122900311?v=4",
-  "url": "https://github.com/KirKruglov/claude-skills-kit",
-  "homepage": "",
-  "description": "70+ curated agent skills for Claude Cowork and Claude.ai — ready-to-use tools for non-technical users: project management, productivity, and AI workflow automation",
-  "summary": "claude-skills-kit：用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 380,
+  "id": 956657893,
+  "name": "mobile-mcp",
+  "fullName": "mobile-next/mobile-mcp",
+  "owner": "mobile-next",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/205340688?v=4",
+  "url": "https://github.com/mobile-next/mobile-mcp",
+  "homepage": "https://mobilenext.ai",
+  "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+  "summary": "mobile-mcp：用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "高",
@@ -19,57 +19,59 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/KirKruglov/claude-skills-kit.git",
-  "language": "",
-  "license": "MIT",
-  "stars": 22,
-  "forks": 3,
-  "openIssues": 0,
-  "score": 63.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-27T05:38:23Z",
-  "updatedAt": "2026-10-24T18:33:22Z",
-  "createdAt": "2026-03-16T17:26:13Z",
+  "installCommand": "npx @mobilenext/mobile-mcp@latest install",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 10025,
+  "forks": 894,
+  "openIssues": 63,
+  "score": 130,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-26T18:09:31Z",
+  "updatedAt": "2026-10-27T04:51:27Z",
+  "createdAt": "2025-03-28T16:21:06Z",
   "sourceTopics": [
-    "agentic-skills"
+    "skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentic-skills",
-    "ai",
-    "ai-agents",
-    "ai-skills",
-    "awesome-list",
-    "claude",
-    "claude-ai",
-    "claude-ai-skills",
+    "agent",
+    "android",
+    "appium-alternative",
     "claude-code",
-    "claude-cowork",
-    "claude-memory",
-    "claude-skills",
-    "memory-management",
-    "productivity",
-    "productivity-tools",
-    "project-management"
+    "codex",
+    "cursor",
+    "emulator",
+    "ios",
+    "mcp",
+    "mobile",
+    "physical",
+    "real",
+    "simulator",
+    "skills"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/KirKruglov/claude-skills-kit",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mobile-next/mobile-mcp",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/KirKruglov/claude-skills-kit#readme",
-  "detailPath": "data/details/kirkruglov__claude__skills__kit.json",
+  "readmeUrl": "https://github.com/mobile-next/mobile-mcp#readme",
+  "detailPath": "data/details/mobile__next__mobile__mcp.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "claude-skills-kit 用于自动化浏览器、工具集成或重复流程。",
+    "summary": "mobile-mcp 用于自动化浏览器、工具集成或重复流程。",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -85,17 +87,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "27b6fd8ea6cef0d1",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "3c7b70c41e51e4ca",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-skills-kit：用于自动化浏览器、工具集成或重复流程。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-skills-kit 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "mobile-mcp：用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "mobile-mcp 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
       "跨平台工作流缺少统一入口。",
@@ -112,7 +114,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
@@ -135,7 +137,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

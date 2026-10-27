@@ -1,14 +1,14 @@
 {
-  "rank": 1594,
-  "id": 1196137354,
-  "name": "iFly-Skills",
-  "fullName": "iflytek/iFly-Skills",
-  "owner": "iflytek",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/26786495?v=4",
-  "url": "https://github.com/iflytek/iFly-Skills",
-  "homepage": "",
-  "description": "Official collection of iFLYTEK skills for speech, OCR, translation, proofreading, and multimodal AI capabilities.",
-  "summary": "iFly-Skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "rank": 719,
+  "id": 1144946140,
+  "name": "pm-claude-skills",
+  "fullName": "mohitagw15856/pm-claude-skills",
+  "owner": "mohitagw15856",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/119053560?v=4",
+  "url": "https://github.com/mohitagw15856/pm-claude-skills",
+  "homepage": "https://mohitagw15856.github.io/pm-claude-skills/",
+  "description": "1,310 professional Agent Skills for Claude, Claude Duet, ChatGPT, Gemini, Cursor & Codex: PRDs, postmortems, leases, medical bills, payroll checks, morning briefs. 21 skills built for always-on agents like Claude Duet. Plain markdown, MIT, in Anthropic's plugin directory. Free in-browser or npx pm-claude-skills add.",
+  "summary": "pm-claude-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
   "categoryConfidence": "高",
@@ -19,45 +19,63 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/iflytek/iFly-Skills.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 212,
-  "forks": 23,
-  "openIssues": 36,
-  "score": 98.3,
+  "installCommand": "npx pm-claude-skills add                                            # any tool: Cursor, Codex, Windsurf, Cline, Zed…\nnpx --registry=https://registry.npmmirror.com pm-claude-skills add  # 中国大陆镜像",
+  "language": "HTML",
+  "license": "MIT",
+  "stars": 1484,
+  "forks": 261,
+  "openIssues": 6,
+  "score": 118.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T09:14:09Z",
-  "updatedAt": "2026-10-22T09:14:14Z",
-  "createdAt": "2026-03-30T12:08:21Z",
+  "pushedAt": "2026-10-23T14:08:47Z",
+  "updatedAt": "2026-10-27T03:42:34Z",
+  "createdAt": "2026-01-29T08:28:07Z",
   "sourceTopics": [
-    "skill-md"
+    "claude-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "iflytek-astron",
-    "skill",
-    "skill-md",
+    "agent-skills",
+    "ai-agents",
+    "ai-tools",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "claude-duet",
+    "claude-skills",
+    "cursor",
+    "developer-tools",
+    "gemini",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "proactive-agents",
+    "product-management",
+    "productivity",
+    "prompt-engineering",
     "skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
-  "skillCount": 1,
+  "skillCount": 1314,
   "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/iflytek/iFly-Skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mohitagw15856/pm-claude-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/iflytek/iFly-Skills#readme",
-  "detailPath": "data/details/iflytek__ifly__skills.json",
+  "readmeUrl": "https://github.com/mohitagw15856/pm-claude-skills#readme",
+  "detailPath": "data/details/mohitagw15856__pm__claude__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "iFLYTEK 官方技能集，涵盖语音、OCR、翻译、校对及多模态 AI 能力",
+    "summary": "pm-claude-skills 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -73,17 +91,17 @@
     ],
     "gettingStarted": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "2a5cbca0ad696b1a",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "0662535e22192b1c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "iFly-Skills 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "iFly-Skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "pm-claude-skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "pm-claude-skills 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "相关 Skills 分散在 GitHub、文档和社区里，逐个搜索很费时间。",
       "用户不知道哪些技能值得先看。",
@@ -100,7 +118,7 @@
       "正在为 Claude、Codex、Cursor、OpenCode 等工具找技能的人。",
       "想快速了解某个生态有哪些资源的人。",
       "需要给团队建立候选清单的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "想要一个单一成品工具、马上解决具体业务问题的人。",
@@ -110,7 +128,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 1314+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",
@@ -123,7 +141,7 @@
       "选型时更容易横向比较。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

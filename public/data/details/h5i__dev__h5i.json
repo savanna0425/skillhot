@@ -1,53 +1,60 @@
 {
-  "rank": 942,
-  "id": 1413190537,
-  "name": "mcd-coupon-strategist",
-  "fullName": "Ayzzz123/mcd-coupon-strategist",
-  "owner": "Ayzzz123",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/249872811?v=4",
-  "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
-  "homepage": "https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION.md",
-  "description": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
-  "summary": "mcd-coupon-strategist：麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1537,
+  "id": 1178494429,
+  "name": "h5i",
+  "fullName": "h5i-dev/h5i",
+  "owner": "h5i-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/272305047?v=4",
+  "url": "https://github.com/h5i-dev/h5i",
+  "homepage": "https://h5i.dev",
+  "description": "An Axum-based Rust web framework for building and verifying web apps with Lean 4, featuring optional GPU acceleration and integrated development infrastructure for red-teaming and CI/CD.",
+  "summary": "h5i：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Ayzzz123/mcd-coupon-strategist.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 980,
-  "forks": 21,
-  "openIssues": 0,
-  "score": 113.9,
+  "installCommand": "git clone https://github.com/h5i-dev/h5i.git",
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 850,
+  "forks": 74,
+  "openIssues": 15,
+  "score": 100.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-21T14:03:59Z",
-  "updatedAt": "2026-10-26T04:47:30Z",
-  "createdAt": "2026-10-10T12:59:19Z",
-  "sourceTopics": [
-    "skill"
-  ],
+  "pushedAt": "2026-10-27T02:42:54Z",
+  "updatedAt": "2026-10-27T05:04:08Z",
+  "createdAt": "2026-03-11T04:30:52Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "cost-optimization",
-    "coupon",
-    "llm",
-    "mcd-mcp",
-    "mcdonalds",
-    "mcp",
-    "python",
-    "skill",
-    "workbuddy"
+    "ai-hacking",
+    "ai-safety",
+    "ai-security",
+    "bug-bounty",
+    "ctf",
+    "cuda-kernels",
+    "cybersecurity",
+    "ethical-hacking",
+    "formal-verification",
+    "gpu-acceleration",
+    "gpu-programming",
+    "hacking",
+    "lean4",
+    "offensive-security",
+    "penetration-testing",
+    "red-team",
+    "security-automaion",
+    "theorem-proving",
+    "web-framework",
+    "web-security"
   ],
   "platforms": [
     "Agent Skills"
@@ -55,15 +62,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Ayzzz123/mcd-coupon-strategist",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/h5i-dev/h5i",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Ayzzz123/mcd-coupon-strategist#readme",
-  "detailPath": "data/details/ayzzz123__mcd__coupon__strategist.json",
+  "readmeUrl": "https://github.com/h5i-dev/h5i#readme",
+  "detailPath": "data/details/h5i__dev__h5i.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+    "summary": "h5i 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -79,17 +86,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "56f758ead3097918",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "f23a1d02cb08a9f6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "mcd-coupon-strategist：麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "mcd-coupon-strategist 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "h5i：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "h5i 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -129,7 +136,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

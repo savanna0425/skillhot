@@ -1,5 +1,5 @@
 {
-  "rank": 1033,
+  "rank": 474,
   "id": 1340501779,
   "name": "lieflat-less-ai-tone",
   "fullName": "larashero3-dotcom/lieflat-less-ai-tone",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/260030037?v=4",
   "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
   "homepage": "",
-  "description": "一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study",
-  "summary": "lieflat-less-ai-tone：一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study",
+  "summary": "lieflat-less-ai-tone：一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/larashero3-dotcom/lieflat-less-ai-tone.git",
+  "installCommand": "npx skills add larashero3-dotcom/lieflat-less-ai-tone",
   "language": "Python",
-  "license": "MIT",
-  "stars": 4101,
-  "forks": 243,
-  "openIssues": 4,
-  "score": 109.7,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-24T06:57:13Z",
-  "updatedAt": "2026-10-26T04:23:40Z",
+  "license": "NOASSERTION",
+  "stars": 4178,
+  "forks": 244,
+  "openIssues": 3,
+  "score": 124.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-27T03:29:37Z",
+  "updatedAt": "2026-10-27T04:48:32Z",
   "createdAt": "2026-08-20T09:07:59Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -49,7 +50,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study",
+    "summary": "一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -65,16 +66,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "8d9ca1397408696e",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "ca0c810cf0f6f9f6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lieflat-less-ai-tone：一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "lieflat-less-ai-tone：一个基于 520 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 5.2-million-character corpus study。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "lieflat-less-ai-tone 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -92,7 +93,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -115,7 +116,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

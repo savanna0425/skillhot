@@ -1,14 +1,14 @@
 {
-  "rank": 849,
-  "id": 187398354,
-  "name": "aws-agent-skills",
-  "fullName": "itsmostafa/aws-agent-skills",
-  "owner": "itsmostafa",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/24395434?v=4",
-  "url": "https://github.com/itsmostafa/aws-agent-skills",
-  "homepage": "",
-  "description": "AWS Skills for Agents",
-  "summary": "aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1255,
+  "id": 1337578818,
+  "name": "gpt6-Astra",
+  "fullName": "3641397194-wq/gpt6-Astra",
+  "owner": "3641397194-wq",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/308364968?v=4",
+  "url": "https://github.com/3641397194-wq/gpt6-Astra",
+  "homepage": "https://github.com/3641397194-wq/gpt6-Astra",
+  "description": "gpt6 Astra-claude-grok4.7-deepseekv4.1flash-glm5.3-gemini破甲越狱 · 冷咖啡 BREAK//OPEN 工作台",
+  "summary": "gpt6-Astra：gpt6 Astra-claude-grok4.7-deepseekv4.1flash-glm5.3-gemini破甲越狱 · 冷咖啡 BREAK//OPEN 工作台。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,48 +19,47 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/itsmostafa/aws-agent-skills.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 1169,
-  "forks": 446,
-  "openIssues": 7,
-  "score": 115.7,
+  "installCommand": "git clone https://github.com/3641397194-wq/gpt6-Astra.git",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 1567,
+  "forks": 313,
+  "openIssues": 11,
+  "score": 106.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-19T16:04:21Z",
-  "updatedAt": "2026-10-22T13:05:08Z",
-  "createdAt": "2019-05-18T19:38:59Z",
-  "sourceTopics": [
-    "claude-skills"
-  ],
+  "pushedAt": "2026-10-26T08:08:49Z",
+  "updatedAt": "2026-10-27T05:13:06Z",
+  "createdAt": "2026-08-17T19:36:40Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentic-ai",
-    "aws",
-    "claude-code",
-    "claude-skills",
-    "codex",
-    "coding-agents"
+    "claude",
+    "coldbrew",
+    "deepseek",
+    "gpt-5-6",
+    "grok",
+    "jailbreak",
+    "prompt-engineering",
+    "security-research"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/itsmostafa/aws-agent-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/3641397194-wq/gpt6-Astra",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/itsmostafa/aws-agent-skills#readme",
-  "detailPath": "data/details/itsmostafa__aws__agent__skills.json",
+  "readmeUrl": "https://github.com/3641397194-wq/gpt6-Astra#readme",
+  "detailPath": "data/details/3641397194__wq__gpt6__astra.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AWS 为代理打造的技能",
+    "summary": "gpt6 Astra-claude-grok4.7-deepseekv4.1flash-glm5.3-gemini破甲越狱 · 冷咖啡 BREAK//OPEN 工作台",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -76,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "3ba661e00980f622",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "f1dbda426da7b796",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aws-agent-skills：AWS 为代理打造的技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "aws-agent-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gpt6-Astra：gpt6 Astra-claude-grok4.7-deepseekv4.1flash-glm5.3-gemini破甲越狱 · 冷咖啡 BREAK//OPEN 工作台。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "gpt6-Astra 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -103,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -126,7 +125,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

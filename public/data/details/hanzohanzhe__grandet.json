@@ -1,14 +1,14 @@
 {
-  "rank": 1691,
-  "id": 1122681704,
-  "name": "team9",
-  "fullName": "team9ai/team9",
-  "owner": "team9ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/251116721?v=4",
-  "url": "https://github.com/team9ai/team9",
-  "homepage": "https://team9.ai",
-  "description": "Team9 is a collaborative workspace for AI agents, currently built on OpenClaw and its ecosystem.",
-  "summary": "team9：是一个基于 OpenClaw 及其生态系统的 AI 协作工作空间。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1137,
+  "id": 1405283311,
+  "name": "Grandet",
+  "fullName": "hanzohanzhe/Grandet",
+  "owner": "hanzohanzhe",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/120188782?v=4",
+  "url": "https://github.com/hanzohanzhe/Grandet",
+  "homepage": "https://grandet.ai",
+  "description": "Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices from 1,800+ official, inference and relay providers on grandet.ai.",
+  "summary": "Grandet：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -19,41 +19,55 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/team9ai/team9.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/hanzohanzhe/Grandet.git",
+  "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 1960,
-  "forks": 216,
-  "openIssues": 9,
-  "score": 94.1,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-28T07:29:53Z",
-  "updatedAt": "2026-10-24T18:16:39Z",
-  "createdAt": "2025-12-25T09:20:23Z",
+  "stars": 844,
+  "forks": 83,
+  "openIssues": 6,
+  "score": 108.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-19T22:32:19Z",
+  "updatedAt": "2026-10-27T05:09:38Z",
+  "createdAt": "2026-10-05T06:50:33Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agent",
-    "openclaw",
-    "team9"
+    "agent-skills",
+    "ai",
+    "ai-agents",
+    "api-credits",
+    "api-pricing",
+    "api-relay",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "free-api",
+    "free-tier",
+    "llm",
+    "llm-api",
+    "mcp",
+    "mcp-server",
+    "price-comparison"
   ],
   "platforms": [
-    "OpenClaw"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/team9ai/team9",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/hanzohanzhe/Grandet",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/team9ai/team9#readme",
-  "detailPath": "data/details/team9ai__team9.json",
+  "readmeUrl": "https://github.com/hanzohanzhe/Grandet#readme",
+  "detailPath": "data/details/hanzohanzhe__grandet.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Team9 是一个基于 OpenClaw 及其生态系统的 AI 协作工作空间",
+    "summary": "Grandet 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -72,14 +86,14 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "17cc77218f47db03",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "825f279a9c0f0b51",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "team9：是一个基于 OpenClaw 及其生态系统的 AI 协作工作空间。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "team9 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Grandet：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Grandet 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -96,7 +110,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

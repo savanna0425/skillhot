@@ -1,14 +1,14 @@
 {
-  "rank": 2228,
+  "rank": 2226,
   "id": 1418466421,
   "name": "Rice-skills",
   "fullName": "shuke-bio/Rice-skills",
   "owner": "shuke-bio",
   "avatarUrl": "https://avatars.githubusercontent.com/u/283092468?v=4",
   "url": "https://github.com/shuke-bio/Rice-skills",
-  "homepage": "",
-  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、91 个 R/Python 脚本、541 个精选 agent 技能，含分析方案与图形方案确认、数据体检、依赖安装，覆盖转录组、代谢组、GWAS、群体遗传、泛基因组、表型组、单细胞与空间、qPCR 与 CRISPR 设计、CNS 级绘图与论文写作等等全流程。",
-  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、91 个 R/Python 脚本、541 个精选 agent 技能，含分析方案与图形方案确认、数据体检、依赖安装，覆盖转录组、代谢组、GWAS、群体遗传、泛基因组、表型组、单细胞。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "homepage": "https://github.com/shuke-bio/Rice-skills/wiki",
+  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、130 个 R/Python 脚本 + 23 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/fine-mapping、mGWAS、泛基因组/T2T、单细胞/空间、编辑设计、CNS 级绘图与论文写作；含方案确认、依赖体检、CI 与工作流导出。",
+  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、130 个 R/Python 脚本 + 23 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -27,8 +27,8 @@
   "openIssues": 0,
   "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-25T20:52:07Z",
-  "updatedAt": "2026-10-25T20:52:03Z",
+  "pushedAt": "2026-10-26T05:31:47Z",
+  "updatedAt": "2026-10-26T05:31:42Z",
   "createdAt": "2026-10-14T06:21:10Z",
   "sourceTopics": [
     "ai-agent-skills"
@@ -39,24 +39,24 @@
   "repoTopics": [
     "ai-agent-skills",
     "bioinformatics",
-    "bioinformatics-pipeline",
     "crispr",
+    "genome-editing",
     "genomics",
     "gwas",
+    "mendelian-randomization",
     "metabolomics",
     "multi-omics",
-    "next-generation-sequencing",
     "oryza-sativa",
     "pangenome",
     "plant-breeding",
     "population-genetics",
     "python",
-    "qpcr",
     "r",
     "rice",
     "single-cell",
     "spatial-transcriptomics",
-    "transcriptomics"
+    "transcriptomics",
+    "twas"
   ],
   "platforms": [
     "Agent Skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、91 个 R/Python 脚本、541 个精选 agent 技能，含分析方案与图形方案确认、数据体检、依赖安装，覆盖转录组、代谢组、GWAS、群体遗传、泛基因组、表型组、单细胞",
+    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、130 个 R/Python 脚本 + 23 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-26T04:57:14.986Z",
-    "sourceHash": "40da350f16aa66a7",
+    "generatedAt": "2026-10-27T05:14:54.073Z",
+    "sourceHash": "d4c2ba6a1b2600f2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、91 个 R/Python 脚本、541 个精选 agent 技能，含分析方案与图形方案确认、数据体检、依赖安装，覆盖转录组、代谢组、GWAS、群体遗传、泛基因组、表型组、单细胞。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、130 个 R/Python 脚本 + 23 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Rice-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
