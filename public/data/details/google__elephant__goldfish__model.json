@@ -1,5 +1,5 @@
 {
-  "rank": 657,
+  "rank": 417,
   "id": 1368596582,
   "name": "elephant-goldfish-model",
   "fullName": "google/elephant-goldfish-model",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
   "url": "https://github.com/google/elephant-goldfish-model",
   "homepage": "https://egm.dev",
-  "description": "An open-source method and skill set created at Google for spec-driven development with LLMs",
+  "description": "Open-source skills for designing and reviewing software with AI agents",
   "summary": "elephant-goldfish-model：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "sdlc|spec.?driven|test.?driven|tdd|implementation|buil",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "软件开发",
     "代码质量",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add google/elephant-goldfish-model\nclaude plugin install egm@egm",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 1872,
-  "forks": 150,
-  "openIssues": 42,
-  "score": 120.6,
+  "stars": 3582,
+  "forks": 233,
+  "openIssues": 60,
+  "score": 127.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-27T03:35:10Z",
-  "updatedAt": "2026-10-27T05:11:43Z",
+  "pushedAt": "2026-10-28T02:02:51Z",
+  "updatedAt": "2026-10-28T05:50:04Z",
   "createdAt": "2026-09-13T16:31:06Z",
   "sourceTopics": [
     "claude-skills"
@@ -70,7 +70,7 @@
   "readmeUrl": "https://github.com/google/elephant-goldfish-model#readme",
   "detailPath": "data/details/google__elephant__goldfish__model.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "elephant-goldfish-model 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -91,8 +91,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-27T05:14:54.073Z",
-    "sourceHash": "837ac7aa6864440f",
+    "generatedAt": "2026-10-28T05:52:41.508Z",
+    "sourceHash": "e3f0e32a303a8056",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

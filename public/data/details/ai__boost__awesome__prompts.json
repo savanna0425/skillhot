@@ -1,13 +1,13 @@
 {
-  "rank": 469,
+  "rank": 472,
   "id": 745546184,
   "name": "awesome-prompts",
   "fullName": "ai-boost/awesome-prompts",
   "owner": "ai-boost",
   "avatarUrl": "https://avatars.githubusercontent.com/u/70333750?v=4",
   "url": "https://github.com/ai-boost/awesome-prompts",
-  "homepage": "https://awesomegpt.vip",
-  "description": "Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.",
+  "homepage": "https://agentcraft.dev/en/prompts/agents/",
+  "description": "Curated prompts, frameworks and papers for LLMs and agents, with an engineering bias. Prompt engineering, context engineering, agent harnesses, red teaming.",
   "summary": "awesome-prompts 是一个面向 Claude、Codex、Gemini CLI 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
   "installCommand": "git clone https://github.com/ai-boost/awesome-prompts.git",
-  "language": "",
+  "language": "Python",
   "license": "GPL-3.0",
-  "stars": 9139,
+  "stars": 9141,
   "forks": 894,
-  "openIssues": 42,
+  "openIssues": 0,
   "score": 125.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-26T08:32:36Z",
-  "updatedAt": "2026-10-27T05:08:19Z",
+  "pushedAt": "2026-10-28T05:12:03Z",
+  "updatedAt": "2026-10-28T05:12:15Z",
   "createdAt": "2024-01-19T15:15:10Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,12 +36,12 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agents",
     "awesome",
     "awesome-list",
     "chatgpt",
-    "gpt4",
-    "gpts",
-    "gptstore",
+    "context-engineering",
+    "llm",
     "papers",
     "prompt",
     "prompt-engineering"
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "精选的 GPTs 商店中评分最高的 GPT 提示词列表。提示词工程、提示词攻击与提示词保护。高级提示词工程论文",
+    "summary": "awesome-prompts 汇总相关 Skills、插件与社区资源，方便集中发现和选型。",
     "useCases": [
       "发现新技能",
       "按领域选型",
@@ -81,8 +81,8 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-27T05:14:54.073Z",
-    "sourceHash": "f871336338ccbedb",
+    "generatedAt": "2026-10-28T05:52:41.508Z",
+    "sourceHash": "52cd3d421c48417b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

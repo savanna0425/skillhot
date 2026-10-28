@@ -1,5 +1,5 @@
 {
-  "rank": 740,
+  "rank": 735,
   "id": 1366969284,
   "name": "workbuddy2api-panel",
   "fullName": "linguo2625469/workbuddy2api-panel",
@@ -22,13 +22,13 @@
   "installCommand": "上游请求在出站前经历统一的改写管线（`internal/upstream/payload.go`）：强制 `stream:true`、`developer` 角色归一、tool_choice 归一、`image_url` 字符串兼容为 OpenAI 对象形态、DeepSeek 思维链注入、`reasoning_effort` 档位降级、`reasoning_content` 回填、指纹脱敏。\n- **Docker + Docker Compose**（服务端部署方式，镜像内已含低权限用户与全部工具脚本）——或\n- **Windows / macOS / Linux 直接跑单文件二进制**（无需 Docker，见下方「Windows 单文件运行」）",
   "language": "Go",
   "license": "MIT",
-  "stars": 4558,
-  "forks": 1571,
+  "stars": 4584,
+  "forks": 1590,
   "openIssues": 14,
-  "score": 117.8,
+  "score": 117.9,
   "activity": "本周活跃",
   "pushedAt": "2026-10-21T03:05:08Z",
-  "updatedAt": "2026-10-27T04:42:16Z",
+  "updatedAt": "2026-10-28T05:40:45Z",
   "createdAt": "2026-09-12T05:13:46Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -77,8 +77,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-27T05:14:54.073Z",
-    "sourceHash": "35b8f99a5942ba08",
+    "generatedAt": "2026-10-28T05:52:41.508Z",
+    "sourceHash": "8120874c915e725c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
