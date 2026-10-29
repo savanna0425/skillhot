@@ -1,53 +1,56 @@
 {
-  "rank": 1210,
-  "id": 1403649056,
-  "name": "dossier",
-  "fullName": "AienTech/dossier",
-  "owner": "AienTech",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2676700?v=4",
-  "url": "https://github.com/AienTech/dossier",
-  "homepage": "https://dossier.aien.me",
-  "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
-  "summary": "dossier：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2139,
+  "id": 1408841705,
+  "name": "dsh-plugin-control-your-development",
+  "fullName": "HaoyanZhang123/dsh-plugin-control-your-development",
+  "owner": "HaoyanZhang123",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/195906259?v=4",
+  "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-development",
+  "homepage": "",
+  "description": "把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）｜A product dashboard for AI-assisted development — readable and controllable (DSH skill + sidebar panel)",
+  "summary": "dsh-plugin-control-your-development：把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）｜A product dashboard for AI-assisted development — readable and controllab。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "data analy|analytics|business intelligence|\\bbi\\b|sql|",
   "scenarios": [
     "数据处理",
     "SQL 与表格",
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AienTech/dossier.git",
-  "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 1675,
-  "forks": 321,
-  "openIssues": 6,
-  "score": 107.4,
+  "installCommand": "git clone https://github.com/HaoyanZhang123/dsh-plugin-control-your-development.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 12,
+  "forks": 3,
+  "openIssues": 0,
+  "score": 74.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-27T08:48:14Z",
-  "updatedAt": "2026-10-28T05:51:40Z",
-  "createdAt": "2026-10-03T21:26:15Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-26T02:57:49Z",
+  "updatedAt": "2026-10-26T02:57:53Z",
+  "createdAt": "2026-10-07T13:35:06Z",
+  "sourceTopics": [
+    "dsh-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "caprover",
-    "cover-letter",
-    "docker",
-    "job-application-tracker",
-    "job-search",
-    "llm",
-    "local-llm",
-    "nextjs",
-    "ollama",
-    "postgresql",
-    "resume",
-    "self-hosted",
-    "typescript"
+    "ai-agents",
+    "chinese",
+    "control-panel",
+    "dashboard",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "dsh-plugin",
+    "dsh-plugin-desktop",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "dsh-skill",
+    "markdown",
+    "product-dashboard"
   ],
   "platforms": [
     "Agent Skills"
@@ -55,15 +58,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/AienTech/dossier",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/HaoyanZhang123/dsh-plugin-control-your-development",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/AienTech/dossier#readme",
-  "detailPath": "data/details/aientech__dossier.json",
+  "readmeUrl": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-development#readme",
+  "detailPath": "data/details/haoyanzhang123__dsh__plugin__control__your__development.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "dossier：SQL、数据处理、统计、可视化与商业分析。",
+    "summary": "把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）｜A product dashboard for AI-assisted development — readable and controllab",
     "useCases": [
       "数据处理",
       "SQL 与表格",
@@ -79,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "54f5ea0536676455",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "fdfe6a280ea70af5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dossier：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "dossier 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dsh-plugin-control-your-development：把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）｜A product dashboard for AI-assisted development — readable and controllab。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "dsh-plugin-control-your-development 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
       "非数据团队成员看不懂数据处理流程。",
@@ -129,7 +132,7 @@
       "数据任务的输入、处理和输出更清楚。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

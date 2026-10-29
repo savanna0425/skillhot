@@ -1,5 +1,5 @@
 {
-  "rank": 153,
+  "rank": 146,
   "id": 1124219907,
   "name": "DeepTutor",
   "fullName": "HKUDS/DeepTutor",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "mkdir -p my-deeptutor && cd my-deeptutor\npip install -U deeptutor\ndeeptutor init     # prompts for ports + LLM provider + optional embedding/search",
+  "installCommand": "mkdir -p my-deeptutor && cd my-deeptutor\npip install -U \"deeptutor[full]\"\ndeeptutor init     # prompts for ports + LLM provider + optional embedding/search",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 46467,
-  "forks": 5813,
+  "stars": 48472,
+  "forks": 6008,
   "openIssues": 218,
-  "score": 142,
+  "score": 142.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-28T04:28:33Z",
-  "updatedAt": "2026-10-28T05:51:17Z",
+  "pushedAt": "2026-10-28T18:01:08Z",
+  "updatedAt": "2026-10-29T05:55:34Z",
   "createdAt": "2025-12-28T15:35:54Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -81,8 +81,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "f81fc5b7cf0095d2",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "e1fe3a11952c04e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

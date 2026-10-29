@@ -1,68 +1,81 @@
 {
-  "rank": 1055,
-  "id": 1053496366,
-  "name": "agent-shell",
-  "fullName": "xenodium/agent-shell",
-  "owner": "xenodium",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/8107219?v=4",
-  "url": "https://github.com/xenodium/agent-shell",
-  "homepage": "https://xenodium.com",
-  "description": "Brings your favorite AI agents to Emacs, keeping you at home: familiar buffers and bindings, no terminal emulation. Powered by ACP.",
-  "summary": "agent-shell：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 2126,
+  "id": 1416924507,
+  "name": "agent-stash",
+  "fullName": "Alice39s/agent-stash",
+  "owner": "Alice39s",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/180387319?v=4",
+  "url": "https://github.com/Alice39s/agent-stash",
+  "homepage": "https://alice39s.github.io/agent-stash/",
+  "description": "Personal Agent Skills & Plugin Packs with Pi / DSH (DeepSeek Harness) / Grok Build / goose / Aider / Kimi Code CLI / Codex / Claude Code / OpenCode / Crush / Qwen Code / Kilo Code / GitHub Copilot CLI",
+  "summary": "agent-stash：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/xenodium/agent-shell.git",
-  "language": "Emacs Lisp",
-  "license": "GPL-3.0",
-  "stars": 1999,
-  "forks": 255,
-  "openIssues": 16,
-  "score": 109.3,
+  "installCommand": "git clone https://github.com/Alice39s/agent-stash.git",
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "stars": 14,
+  "forks": 0,
+  "openIssues": 2,
+  "score": 75.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-27T00:42:45Z",
-  "updatedAt": "2026-10-27T12:06:15Z",
-  "createdAt": "2025-09-09T14:26:23Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-29T03:46:51Z",
+  "updatedAt": "2026-10-28T14:47:49Z",
+  "createdAt": "2026-10-13T11:38:25Z",
+  "sourceTopics": [
+    "dsh-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai",
-    "claude",
+    "agent-skills",
+    "agents-md",
+    "ai-agents",
     "claude-code",
     "codex",
-    "emacs",
-    "emacs-lisp",
-    "gemini",
-    "goose",
-    "llm",
-    "openai"
+    "coding-agent",
+    "deepseek-harness",
+    "dsh",
+    "dsh-desktop",
+    "dsh-plugin",
+    "dsh-plugin-market",
+    "dsh-plugin-pack",
+    "dsh-plugins",
+    "dsh-skill",
+    "opencode",
+    "pi-agent",
+    "pi-coding-agent",
+    "pi-extension",
+    "pi-extensions",
+    "pi-package"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI"
+    "GitHub Copilot",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/xenodium/agent-shell",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Alice39s/agent-stash",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/xenodium/agent-shell#readme",
-  "detailPath": "data/details/xenodium__agent__shell.json",
+  "readmeUrl": "https://github.com/Alice39s/agent-stash#readme",
+  "detailPath": "data/details/alice39s__agent__stash.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-shell 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "agent-stash 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -78,17 +91,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "b3b97b5d2c788561",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "206bbb681132ec19",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-shell：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "agent-shell 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-stash：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、GitHub Copilot 相关工作流里先做选型判断。",
+    "whatItIs": "agent-stash 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -105,7 +118,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -128,7 +141,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 GPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

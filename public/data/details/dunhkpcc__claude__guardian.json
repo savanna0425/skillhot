@@ -1,12 +1,12 @@
 {
-  "rank": 872,
+  "rank": 816,
   "id": 1420259750,
   "name": "Claude-Guardian",
   "fullName": "DUNHKpcc/Claude-Guardian",
   "owner": "DUNHKpcc",
   "avatarUrl": "https://avatars.githubusercontent.com/u/181722286?v=4",
   "url": "https://github.com/DUNHKpcc/Claude-Guardian",
-  "homepage": "",
+  "homepage": "https://api.dpccgaming.xyz/guardian",
   "description": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups. ",
   "summary": "Claude-Guardian：Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses yo。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DUNHKpcc/Claude-Guardian.git",
+  "installCommand": "- **Agent 主导：**理解你的需求，挑资料，解释结果，决定下一步。同一个 Skill 对不同的人给出不同的做法。\n- **状态机兜底：**上百个访谈问题按条件调度，选定路线后才问路线相关的问题；每次评估都列出要附上的资料。\n- **脚本照文档跑：**VM 搭建、防火墙等脚本由你运行，或经你批准后由 Agent 运行。",
   "language": "Python",
   "license": "GPL-3.0",
-  "stars": 1141,
-  "forks": 165,
+  "stars": 1244,
+  "forks": 184,
   "openIssues": 1,
-  "score": 115.5,
+  "score": 116.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-27T15:06:51Z",
-  "updatedAt": "2026-10-28T05:42:01Z",
+  "pushedAt": "2026-10-29T03:50:17Z",
+  "updatedAt": "2026-10-29T05:50:26Z",
   "createdAt": "2026-10-15T06:09:53Z",
   "sourceTopics": [
     "codex-skill"
@@ -76,8 +76,8 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "82c89610ddb938ac",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "ff45e434e307a4ab",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

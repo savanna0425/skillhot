@@ -1,67 +1,77 @@
 {
-  "rank": 816,
-  "id": 1306065843,
-  "name": "codex-router",
-  "fullName": "duolahypercho/codex-router",
-  "owner": "duolahypercho",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/108492647?v=4",
-  "url": "https://github.com/duolahypercho/codex-router",
+  "rank": 1780,
+  "id": 1421238802,
+  "name": "gongwen-skills",
+  "fullName": "duyunzhoudyz/gongwen-skills",
+  "owner": "duyunzhoudyz",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/268640091?v=4",
+  "url": "https://github.com/duyunzhoudyz/gongwen-skills",
   "homepage": "",
-  "description": "External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.",
-  "summary": "codex-router：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "公文写作 AI Agent Skills：懂规矩、懂单位、懂角色；不编造、守保密、帮你做减法。覆盖 22 种文书类型，支持 Claude Code、Codex、Cursor 等主流工具，防编造、懂国标格式、适配机关事业单位和医院高校国企。",
+  "summary": "gongwen-skills：公文写作 AI Agent Skills：懂规矩、懂单位、懂角色；不编造、守保密、帮你做减法。覆盖 22 种文书类型，支持 Claude Code、Codex、Cursor 等主流工具，防编造、懂国标格式、适配机关事业单位和医院高校国企。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "model switch|provider management|model gateway|llm gat",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "If compatible authentication already exists, an agent can finish everything\nexcept the final app restart. Provider credentials are entered only through a\nhidden local terminal prompt.",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 3970,
-  "forks": 373,
-  "openIssues": 18,
-  "score": 116.4,
+  "installCommand": "git clone https://github.com/duyunzhoudyz/gongwen-skills.git",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stars": 123,
+  "forks": 8,
+  "openIssues": 0,
+  "score": 93,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-27T19:09:25Z",
-  "updatedAt": "2026-10-28T03:37:18Z",
-  "createdAt": "2026-07-19T23:16:41Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-22T17:24:16Z",
+  "updatedAt": "2026-10-29T00:18:02Z",
+  "createdAt": "2026-10-15T19:34:19Z",
+  "sourceTopics": [
+    "claude-code-skill"
+  ],
   "discoveredBy": [
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skills",
+    "ai-writing",
+    "ai-writing-tool",
+    "chinese",
+    "chinese-writing",
+    "claude-code-skill",
+    "claude-skills",
     "codex",
+    "cursor",
     "deepseek",
-    "kimi",
-    "litellm",
-    "model-router"
+    "docx",
+    "gongwen",
+    "government",
+    "llm-prompts",
+    "office-automation",
+    "official-document",
+    "skills"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenClaw"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/duolahypercho/codex-router",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/duyunzhoudyz/gongwen-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/duolahypercho/codex-router#readme",
-  "detailPath": "data/details/duolahypercho__codex__router.json",
+  "readmeUrl": "https://github.com/duyunzhoudyz/gongwen-skills#readme",
+  "detailPath": "data/details/duyunzhoudyz__gongwen__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "codex-router 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "公文写作 AI Agent Skills：懂规矩、懂单位、懂角色；不编造、守保密、帮你做减法。覆盖 22 种文书类型，支持 Claude Code、Codex、Cursor 等主流工具，防编造、懂国标格式、适配机关事业单位和医院高校国企。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -77,17 +87,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "9e46d7b944bdf411",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "0aa26cc91b688fff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "codex-router：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "codex-router 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gongwen-skills：公文写作 AI Agent Skills：懂规矩、懂单位、懂角色；不编造、守保密、帮你做减法。覆盖 22 种文书类型，支持 Claude Code、Codex、Cursor 等主流工具，防编造、懂国标格式、适配机关事业单位和医院高校国企。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "gongwen-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -127,7 +137,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

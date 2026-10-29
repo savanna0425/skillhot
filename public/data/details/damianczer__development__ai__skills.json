@@ -1,14 +1,14 @@
 {
-  "rank": 1590,
-  "id": 1220257764,
-  "name": "deepseek-v4-for-copilot",
-  "fullName": "Vizards/deepseek-v4-for-copilot",
-  "owner": "Vizards",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/13443193?v=4",
-  "url": "https://github.com/Vizards/deepseek-v4-for-copilot",
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=Vizards.deepseek-v4-for-copilot",
-  "description": "Pick DeepSeek V4 from the Copilot Chat model picker — and keep everything else Copilot already gives you.",
-  "summary": "deepseek-v4-for-copilot：尚未归入主要类别的实用项目。适合在 GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 2248,
+  "id": 1435408509,
+  "name": "Development-AI-Skills",
+  "fullName": "damianczer/Development-AI-Skills",
+  "owner": "damianczer",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/73696290?v=4",
+  "url": "https://github.com/damianczer/Development-AI-Skills",
+  "homepage": "https://damianczerwinski.pl",
+  "description": "",
+  "summary": "Development-AI-Skills：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,44 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vizards/deepseek-v4-for-copilot.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/damianczer/Development-AI-Skills.git",
+  "language": "",
   "license": "MIT",
-  "stars": 1512,
-  "forks": 151,
-  "openIssues": 80,
-  "score": 99.4,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-16T05:47:53Z",
-  "updatedAt": "2026-10-28T02:29:34Z",
-  "createdAt": "2026-04-24T18:01:27Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 67,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-27T07:42:22Z",
+  "updatedAt": "2026-10-28T20:55:51Z",
+  "createdAt": "2026-10-27T07:42:20Z",
+  "sourceTopics": [
+    "anthropic-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "anthropic",
+    "anthropic-skills",
+    "claude",
+    "claude-code"
+  ],
   "platforms": [
-    "GitHub Copilot"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Vizards/deepseek-v4-for-copilot",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/damianczer/Development-AI-Skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Vizards/deepseek-v4-for-copilot#readme",
-  "detailPath": "data/details/vizards__deepseek__v4__for__copilot.json",
+  "readmeUrl": "https://github.com/damianczer/Development-AI-Skills#readme",
+  "detailPath": "data/details/damianczer__development__ai__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "deepseek-v4-for-copilot：尚未归入主要类别的实用项目。",
+    "summary": "Development-AI-Skills：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-28T05:52:41.508Z",
-    "sourceHash": "6b7c4f0e1f82f036",
+    "generatedAt": "2026-10-29T05:57:17.152Z",
+    "sourceHash": "1e09d886a9840f39",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "deepseek-v4-for-copilot：尚未归入主要类别的实用项目。适合在 GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "deepseek-v4-for-copilot 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Development-AI-Skills：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "Development-AI-Skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +99,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
