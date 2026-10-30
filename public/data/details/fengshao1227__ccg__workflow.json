@@ -1,5 +1,5 @@
 {
-  "rank": 651,
+  "rank": 955,
   "id": 1127793756,
   "name": "ccg-workflow",
   "fullName": "fengshao1227/ccg-workflow",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx ccg-workflow skills catalog\nnpx ccg-workflow skills install verify-quality seo-page-builder\nnpx ccg-workflow skills list --installed --json",
+  "installCommand": "git clone https://github.com/fengshao1227/ccg-workflow.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 5955,
-  "forks": 456,
+  "stars": 5959,
+  "forks": 457,
   "openIssues": 5,
-  "score": 120.6,
-  "activity": "本周活跃",
+  "score": 113.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-10-21T08:38:48Z",
-  "updatedAt": "2026-10-29T02:41:39Z",
+  "updatedAt": "2026-10-30T04:27:39Z",
   "createdAt": "2026-01-04T15:56:26Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,9 +53,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI",
-    "OpenCode",
-    "Antigravity"
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -87,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-29T05:57:17.152Z",
-    "sourceHash": "db460c0c19f18eb7",
+    "generatedAt": "2026-10-30T05:58:18.949Z",
+    "sourceHash": "ec1ee599b3ee7bb6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

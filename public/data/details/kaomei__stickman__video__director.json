@@ -1,5 +1,5 @@
 {
-  "rank": 706,
+  "rank": 691,
   "id": 1321408165,
   "name": "stickman-video-director",
   "fullName": "kaomei/stickman-video-director",
@@ -8,7 +8,7 @@
   "url": "https://github.com/kaomei/stickman-video-director",
   "homepage": "",
   "description": "Turn any script into viral, multi-style animated stickman videos for Faceless YouTube Channels. Automate visuals, voiceover, captions & SFX. 100% Free & Open-Source.",
-  "summary": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/kaomei/stickman-video-director.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3259,
-  "forks": 488,
-  "openIssues": 1,
-  "score": 118.3,
+  "stars": 3362,
+  "forks": 504,
+  "openIssues": 0,
+  "score": 118.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-29T03:26:57Z",
-  "updatedAt": "2026-10-29T05:53:12Z",
+  "pushedAt": "2026-10-30T03:05:08Z",
+  "updatedAt": "2026-10-30T05:49:26Z",
   "createdAt": "2026-08-03T07:44:33Z",
   "sourceTopics": [
     "codex-skills"
@@ -61,7 +61,9 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI"
+    "Cursor",
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -93,13 +95,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-29T05:57:17.152Z",
-    "sourceHash": "86ef17ef65f2c97e",
+    "generatedAt": "2026-10-30T05:58:18.949Z",
+    "sourceHash": "769e35a877cbc0c2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "stickman-video-director：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "stickman-video-director 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -117,7 +119,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

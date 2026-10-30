@@ -1,5 +1,5 @@
 {
-  "rank": 61,
+  "rank": 141,
   "id": 805155266,
   "name": "cherry-studio",
   "fullName": "CherryHQ/cherry-studio",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/187777663?v=4",
   "url": "https://github.com/CherryHQ/cherry-studio",
   "homepage": "https://cherryai.com",
-  "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-  "summary": "cherry-studio：集成智能对话、自治 Agent 与 300+ 助手的生产力工作台。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Your AI workspace for models, agents, and productivity.",
+  "summary": "cherry-studio：集成智能对话、自治 Agent 与 300+ 助手的生产力工作台。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "人工复核",
@@ -22,36 +22,28 @@
   "installCommand": "git clone https://github.com/CherryHQ/cherry-studio.git",
   "language": "TypeScript",
   "license": "AGPL-3.0",
-  "stars": 53060,
-  "forks": 5136,
-  "openIssues": 2260,
-  "score": 151.4,
+  "stars": 53093,
+  "forks": 5144,
+  "openIssues": 2274,
+  "score": 143.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-29T05:47:18Z",
-  "updatedAt": "2026-10-29T05:52:17Z",
+  "pushedAt": "2026-10-30T05:56:53Z",
+  "updatedAt": "2026-10-30T05:51:32Z",
   "createdAt": "2024-05-24T01:56:26Z",
-  "sourceTopics": [
-    "skills",
-    "agent-skills"
-  ],
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai-agent",
-    "claude-code",
-    "codex",
-    "deepseek",
-    "hermes-agent",
-    "open-code-review",
-    "skills",
-    "vibe-coding"
+    "agent-workspace",
+    "agentic-workspace",
+    "ai-agents",
+    "ai-models",
+    "ai-productivity",
+    "ai-workspace"
   ],
   "platforms": [
     "Claude",
-    "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -84,13 +76,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-29T05:57:17.152Z",
-    "sourceHash": "0742ce6ec9b01e6f",
+    "generatedAt": "2026-10-30T05:58:18.949Z",
+    "sourceHash": "02f9e45d2ca60e54",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cherry-studio：集成智能对话、自治 Agent 与 300+ 助手的生产力工作台。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "cherry-studio：集成智能对话、自治 Agent 与 300+ 助手的生产力工作台。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "cherry-studio 可以先理解为一个「Agent 工具或运行平台」。它围绕「多模型使用」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -108,7 +100,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
