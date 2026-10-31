@@ -1,5 +1,5 @@
 {
-  "rank": 591,
+  "rank": 945,
   "id": 1147470802,
   "name": "pro-workflow",
   "fullName": "rohitg00/pro-workflow",
@@ -19,16 +19,16 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add rohitg00/pro-workflow",
+  "installCommand": "git clone https://github.com/rohitg00/pro-workflow.git",
   "language": "JavaScript",
   "license": "",
-  "stars": 2935,
+  "stars": 2939,
   "forks": 300,
   "openIssues": 33,
-  "score": 122.3,
-  "activity": "本月活跃",
+  "score": 114.3,
+  "activity": "近期活跃",
   "pushedAt": "2026-09-29T10:12:13Z",
-  "updatedAt": "2026-10-30T03:49:39Z",
+  "updatedAt": "2026-10-30T22:48:57Z",
   "createdAt": "2026-02-01T19:47:29Z",
   "sourceTopics": [
     "claude-skills",
@@ -62,11 +62,9 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Gemini CLI"
   ],
-  "skillCount": 140,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/rohitg00/pro-workflow",
@@ -96,8 +94,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "c59adaf3124c2927",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "75699e32aebeab1e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -130,7 +128,7 @@
       "通常通过本地文件、数据库、向量检索、知识图谱或 Skill 接入 Agent。",
       "用户把项目资料写入或同步到记忆层后，Agent 可按需检索。",
       "效果取决于数据质量、分块方式和权限管理。",
-      "仓库信息显示它包含 140+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先用一个小项目或公开资料库测试。",

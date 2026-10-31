@@ -1,66 +1,76 @@
 {
-  "rank": 771,
-  "id": 1298021489,
-  "name": "natural-japanese",
-  "fullName": "coji/natural-japanese",
-  "owner": "coji",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/9904?v=4",
-  "url": "https://github.com/coji/natural-japanese",
-  "homepage": "",
-  "description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
-  "summary": "natural-japanese：仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1834,
+  "id": 1286762605,
+  "name": "tiktok-skills",
+  "fullName": "sergebulaev/tiktok-skills",
+  "owner": "sergebulaev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/241980?v=4",
+  "url": "https://github.com/sergebulaev/tiktok-skills",
+  "homepage": "https://cccrafts.ai",
+  "description": "TikTok marketing skills for Claude Code and Codex: 3-second video hooks, captions, trend mapping, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts.",
+  "summary": "tiktok-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add coji/natural-japanese",
+  "installCommand": "git clone https://github.com/sergebulaev/tiktok-skills.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1996,
-  "forks": 57,
-  "openIssues": 0,
-  "score": 117.3,
+  "stars": 102,
+  "forks": 22,
+  "openIssues": 2,
+  "score": 91.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-28T13:06:20Z",
-  "updatedAt": "2026-10-30T03:32:25Z",
-  "createdAt": "2026-07-12T05:54:55Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-28T13:14:25Z",
+  "updatedAt": "2026-10-31T04:07:46Z",
+  "createdAt": "2026-07-02T04:37:23Z",
+  "sourceTopics": [
+    "openclaw-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "claude",
+    "agent-skill",
+    "ai-agents",
+    "ai-marketing",
     "claude-code",
-    "japanese",
-    "lint",
-    "nlp",
-    "sudachipy",
-    "writing"
+    "claude-skills",
+    "codex",
+    "content-creation",
+    "content-engineering",
+    "marketing-automation",
+    "openclaw-skill",
+    "publora",
+    "short-form-video",
+    "social-media-marketing",
+    "tiktok",
+    "tiktok-marketing",
+    "video-hooks"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/coji/natural-japanese",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/sergebulaev/tiktok-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/coji/natural-japanese#readme",
-  "detailPath": "data/details/coji__natural__japanese.json",
+  "readmeUrl": "https://github.com/sergebulaev/tiktok-skills#readme",
+  "detailPath": "data/details/sergebulaev__tiktok__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
+    "summary": "tiktok-skills：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,14 +89,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "485583c4a7cf3537",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "52d84fea3e74b9d0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "natural-japanese：仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "natural-japanese 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "tiktok-skills：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "tiktok-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -103,7 +113,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

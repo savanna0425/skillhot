@@ -1,14 +1,14 @@
 {
-  "rank": 2280,
-  "id": 1426260587,
-  "name": "Claude-auto-pause",
-  "fullName": "k45sle/Claude-auto-pause",
-  "owner": "k45sle",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/204438717?v=4",
-  "url": "https://github.com/k45sle/Claude-auto-pause",
-  "homepage": "",
-  "description": "Claude Code plugin: stops Claude before your usage limit and saves a checked handoff note, so a new chat picks up where it left off.",
-  "summary": "Claude-auto-pause：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1449,
+  "id": 1418805110,
+  "name": "motion-prompt",
+  "fullName": "showheyohtaki/motion-prompt",
+  "owner": "showheyohtaki",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/41701394?v=4",
+  "url": "https://github.com/showheyohtaki/motion-prompt",
+  "homepage": "https://showheyohtaki.github.io/motion-prompt/",
+  "description": "",
+  "summary": "motion-prompt：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,60 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/k45sle/Claude-auto-pause.git",
-  "language": "TypeScript",
+  "installCommand": "git clone https://github.com/showheyohtaki/motion-prompt.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 10,
-  "forks": 1,
+  "stars": 923,
+  "forks": 110,
   "openIssues": 0,
-  "score": 65.2,
+  "score": 101.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-22T12:06:50Z",
-  "updatedAt": "2026-10-30T01:51:36Z",
-  "createdAt": "2026-10-19T22:50:27Z",
-  "sourceTopics": [
-    "anthropic-skills"
-  ],
+  "pushedAt": "2026-10-29T12:52:08Z",
+  "updatedAt": "2026-10-31T05:50:55Z",
+  "createdAt": "2026-10-14T11:34:19Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "anthropic",
-    "anthropic-ai",
-    "anthropic-claude",
-    "anthropic-compatible",
-    "anthropic-skills",
-    "anthropics",
-    "claude",
-    "claude-ai",
-    "claude-code",
-    "claude-code-plugin",
-    "claude-code-skill",
-    "claude-code-skills",
-    "claude-desktop",
-    "claude-plugin",
-    "claude-skills",
-    "handoff",
-    "handoffs",
-    "usage-limits",
-    "usage-monitor",
-    "usage-tracking"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/k45sle/Claude-auto-pause",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/showheyohtaki/motion-prompt",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/k45sle/Claude-auto-pause#readme",
-  "detailPath": "data/details/k45sle__claude__auto__pause.json",
+  "readmeUrl": "https://github.com/showheyohtaki/motion-prompt#readme",
+  "detailPath": "data/details/showheyohtaki__motion__prompt.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Claude-auto-pause：尚未归入主要类别的实用项目。",
+    "summary": "motion-prompt：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -91,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "309a9502be39714e",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "2623759b8c6abd9d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Claude-auto-pause：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "Claude-auto-pause 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "motion-prompt：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "motion-prompt 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

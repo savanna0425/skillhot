@@ -1,5 +1,5 @@
 {
-  "rank": 150,
+  "rank": 152,
   "id": 1166102148,
   "name": "codebase-memory-mcp",
   "fullName": "DeusData/codebase-memory-mcp",
@@ -19,16 +19,16 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/DeusData/codebase-memory-mcp.git\ncd codebase-memory-mcp\nscripts/build.sh --with-ui          # the shipped composition (CBM Lens embedded, needs Node.js)",
+  "installCommand": "claude plugin marketplace add DeusData/codebase-memory-mcp\nclaude plugin install codebase-memory@codebase-memory",
   "language": "C",
   "license": "MIT",
-  "stars": 47810,
-  "forks": 3932,
-  "openIssues": 591,
+  "stars": 47877,
+  "forks": 3937,
+  "openIssues": 577,
   "score": 142.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-29T06:53:11Z",
-  "updatedAt": "2026-10-30T05:09:30Z",
+  "pushedAt": "2026-10-31T05:11:44Z",
+  "updatedAt": "2026-10-31T05:09:36Z",
   "createdAt": "2026-02-24T22:01:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "0dad407287d0a34a",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "969efba6c71c3788",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

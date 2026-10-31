@@ -1,80 +1,76 @@
 {
-  "rank": 758,
-  "id": 1224575142,
-  "name": "Orkas",
-  "fullName": "Orkas-AI/Orkas",
-  "owner": "Orkas-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/217779447?v=4",
-  "url": "https://github.com/Orkas-AI/Orkas",
-  "homepage": "https://orkas.ai?source=gh-orkas",
-  "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
-  "summary": "Orkas：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 268,
+  "id": 854807707,
+  "name": "GenAI_Agents",
+  "fullName": "NirDiamant/GenAI_Agents",
+  "owner": "NirDiamant",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/28316913?v=4",
+  "url": "https://github.com/NirDiamant/GenAI_Agents",
+  "homepage": "https://diamant-ai.com",
+  "description": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
+  "summary": "GenAI_Agents：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/Orkas-AI/Orkas.git\ncd Orkas\n./run.sh           # macOS / Linux",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 4414,
-  "forks": 253,
-  "openIssues": 3,
-  "score": 117.5,
+  "installCommand": "git clone https://github.com/NirDiamant/GenAI_Agents.git",
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "stars": 24741,
+  "forks": 4164,
+  "openIssues": 16,
+  "score": 135.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-30T01:27:32Z",
-  "updatedAt": "2026-10-30T05:55:14Z",
-  "createdAt": "2026-04-29T12:19:08Z",
+  "pushedAt": "2026-10-31T01:23:29Z",
+  "updatedAt": "2026-10-31T02:59:05Z",
+  "createdAt": "2024-09-09T20:10:19Z",
   "sourceTopics": [],
   "discoveredBy": [
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-collaboration",
-    "agent-harness",
-    "agent-orchestration",
-    "agent-team",
-    "agent-workflow",
-    "ai-assistant",
-    "ai-automation",
-    "ai-employee",
-    "ai-productivity",
-    "ai-team",
-    "ai-workflow",
+    "agentic-ai",
+    "agents",
+    "ai",
+    "ai-agents",
     "autonomous-agents",
-    "claude-code-gui",
-    "claude-cowork",
-    "desktop-agent",
-    "local-first",
+    "genai",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "llm",
+    "llms",
+    "machine-learning",
+    "mcp",
     "multi-agent",
-    "multi-agent-system",
-    "self-evolving-agents",
-    "task-automation"
+    "multi-agent-systems",
+    "openai",
+    "python",
+    "rag",
+    "tutorials"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
-    "OpenClaw",
-    "OpenCode"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Orkas-AI/Orkas",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/NirDiamant/GenAI_Agents",
+    "videoUrl": "https://www.youtube.com/watch?v=yxowMLL2dDI"
   },
-  "readmeUrl": "https://github.com/Orkas-AI/Orkas#readme",
-  "detailPath": "data/details/orkas__ai__orkas.json",
+  "readmeUrl": "https://github.com/NirDiamant/GenAI_Agents#readme",
+  "detailPath": "data/details/nirdiamant__genai__agents.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Orkas 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "GenAI_Agents 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -90,17 +86,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "7fce722b1be05cee",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "af34d72901d47d4a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Orkas：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "Orkas 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "GenAI_Agents：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "GenAI_Agents 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -117,7 +113,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -140,7 +136,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

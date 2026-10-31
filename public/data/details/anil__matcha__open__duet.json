@@ -1,77 +1,80 @@
 {
-  "rank": 2294,
-  "id": 1312077672,
-  "name": "zhigui-openclaw-ui-second-brain-skill",
-  "fullName": "CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
-  "owner": "CarlWangChina",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/41322045?v=4",
-  "url": "https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
-  "homepage": "",
-  "description": "An advanced, UI-powered AI second brain Agent Skill for OpenClaw, Hermes Agent, WorkBuddy, TRAE, and QClaw. ZhiGui uses long-term memory to help you make better decisions, automatically plan tomorrow, resolve conflicting notes, and deliver each day's plan through your existing agent channels.",
-  "summary": "zhigui-openclaw-ui-second-brain-skill：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "rank": 625,
+  "id": 645381450,
+  "name": "open-duet",
+  "fullName": "Anil-matcha/open-duet",
+  "owner": "Anil-matcha",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/4326215?v=4",
+  "url": "https://github.com/Anil-matcha/open-duet",
+  "homepage": "suparagent.ai",
+  "description": "Open-source, self-hosted alternative to Claude Duet: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. Also an alternative to OpenAI Dots, Meta Muse, Grok Bot, Manus Cue and ChatGPT agent.",
+  "summary": "open-duet：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "vector database|semantic search|context layer|remember",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill.git",
-  "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stars": 23,
-  "forks": 2,
-  "openIssues": 0,
-  "score": 63.4,
-  "activity": "近期活跃",
-  "pushedAt": "2026-07-31T15:17:06Z",
-  "updatedAt": "2026-10-17T16:51:29Z",
-  "createdAt": "2026-07-25T15:08:17Z",
-  "sourceTopics": [
-    "workbuddy-skill"
-  ],
+  "installCommand": "git clone https://github.com/Anil-matcha/open-duet.git\ncd open-duet/desktop\nnpm run app",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 6395,
+  "forks": 803,
+  "openIssues": 17,
+  "score": 121.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-10-30T13:54:21Z",
+  "updatedAt": "2026-10-31T05:46:54Z",
+  "createdAt": "2023-05-25T14:21:12Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai-memory",
-    "daily-planner",
-    "hermes-agent",
-    "hermes-agent-skill",
-    "interactive-ai-planning",
-    "long-term-memory",
-    "openclaw",
-    "openclaw-skills",
+    "agentic-ai",
+    "ai-agent",
+    "ai-assistant",
+    "ai-coworker",
+    "ai-employees",
+    "ai-workspace",
+    "chatgpt-agent",
+    "claude-cowork",
+    "claude-duet",
+    "computer-use",
+    "computer-use-agent",
+    "grok-bot",
+    "grok-bot-alternative",
+    "manus-cue",
+    "meta-muse",
+    "open-source",
+    "open-source-alternative",
     "personal-ai-agent",
-    "personal-ai-assistant",
-    "qclaw",
-    "qclaw-skill",
-    "second-brain",
-    "second-brain-planner",
-    "task-planning",
-    "trae",
-    "workbuddy",
-    "workbuddy-skill"
+    "self-hosted",
+    "self-hosted-ai"
   ],
   "platforms": [
-    "OpenClaw"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
-    "videoUrl": ""
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Anil-matcha/open-duet",
+    "videoUrl": "https://youtu.be/MzgrNQXgVX4"
   },
-  "readmeUrl": "https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill#readme",
-  "detailPath": "data/details/carlwangchina__zhigui__openclaw__ui__second__brain__skill.json",
+  "readmeUrl": "https://github.com/Anil-matcha/open-duet#readme",
+  "detailPath": "data/details/anil__matcha__open__duet.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "zhigui-openclaw-ui-second-brain-skill 提供记忆、上下文管理或知识检索能力。",
+    "summary": "open-duet 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -87,17 +90,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-30T05:58:18.949Z",
-    "sourceHash": "1a87044f497ec5ea",
+    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "sourceHash": "b9aebe5cf98644ad",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "zhigui-openclaw-ui-second-brain-skill：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "zhigui-openclaw-ui-second-brain-skill 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "open-duet：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "open-duet 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -114,7 +117,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -137,7 +140,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
