@@ -1,17 +1,17 @@
 {
-  "rank": 1075,
+  "rank": 1068,
   "id": 1280115203,
   "name": "easyeda-agent",
   "fullName": "zhoushoujianwork/easyeda-agent",
   "owner": "zhoushoujianwork",
   "avatarUrl": "https://avatars.githubusercontent.com/u/40590631?v=4",
   "url": "https://github.com/zhoushoujianwork/easyeda-agent",
-  "homepage": "https://jlc-ext.com/item/zhoushoujian/easyeda-agent-connector",
-  "description": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱，以培养中国工程师为己任」 | EasyEDA Pro automation: the hands of your AI harness — typed schematic/PCB actions via CLI, Agent Skill and stdio MCP.",
-  "summary": "easyeda-agent：嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱。适合在 Claude 相关工作流里先做选型判断。",
+  "homepage": "https://eda.daboluo.cc",
+  "description": "嘉立创 EDA 专业版（EasyEDA Pro）开源 AI 自动化：原理图、PCB 布局布线与工程检查，支持 CLI / Agent Skill / MCP。配套 EdaDesk Desktop 内测版可下载体验。Open-source AI schematic and PCB automation for EasyEDA Pro.",
+  "summary": "easyeda-agent：嘉立创 EDA 专业版（EasyEDA Pro）开源 AI 自动化：原理图、PCB 布局布线与工程检查，支持 CLI / Agent Skill / MCP。配套 EdaDesk Desktop 内测版可下载体验。Open-source A。适合在 Claude 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
-  "categoryConfidence": "待复核",
+  "categoryConfidence": "中",
   "categoryReason": "automate|automation|scheduled|pipeline|batch processin",
   "scenarios": [
     "重复任务",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/zhoushoujianwork/easyeda-agent.git",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 896,
-  "forks": 111,
-  "openIssues": 3,
+  "stars": 902,
+  "forks": 112,
+  "openIssues": 1,
   "score": 109,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-30T19:44:04Z",
-  "updatedAt": "2026-10-31T03:36:25Z",
+  "pushedAt": "2026-10-31T15:43:52Z",
+  "updatedAt": "2026-11-01T06:14:34Z",
   "createdAt": "2026-06-25T09:29:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,9 +37,12 @@
   "repoTopics": [
     "agent-skill",
     "ai-agent",
+    "ai-assisted-design",
+    "circuit-design",
     "claude-code",
     "dsh-plugin",
     "easyeda",
+    "easyeda-pro",
     "eda",
     "electronics",
     "golang",
@@ -49,6 +52,7 @@
     "mcp",
     "mcp-server",
     "pcb",
+    "pcb-automation",
     "pcb-design",
     "schematic"
   ],
@@ -66,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱",
+    "summary": "嘉立创 EDA 专业版（EasyEDA Pro）开源 AI 自动化：原理图、PCB 布局布线与工程检查，支持 CLI / Agent Skill / MCP。配套 EdaDesk Desktop 内测版可下载体验。Open-source A",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -85,13 +89,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-31T05:54:35.247Z",
-    "sourceHash": "17204c4b17eda452",
+    "generatedAt": "2026-11-01T06:18:33.125Z",
+    "sourceHash": "cb08d33166e9f427",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "easyeda-agent：嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "easyeda-agent：嘉立创 EDA 专业版（EasyEDA Pro）开源 AI 自动化：原理图、PCB 布局布线与工程检查，支持 CLI / Agent Skill / MCP。配套 EdaDesk Desktop 内测版可下载体验。Open-source A。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "easyeda-agent 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",

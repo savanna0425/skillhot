@@ -1,5 +1,5 @@
 {
-  "rank": 791,
+  "rank": 698,
   "id": 1435695423,
   "name": "ai-pose-gallery-zh",
   "fullName": "anhao/ai-pose-gallery-zh",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "---\n本项目构建后为纯静态 SPA（所有 AI 接口请求均由浏览器端直连或通过您配置的 CORS 代理发出，无需后端服务器）。\n1. 登录 Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**",
+  "installCommand": "cd /path/to/ComfyUI/custom_nodes\ngit clone --depth 1 https://github.com/anhao/ai-pose-gallery-zh.git",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 4140,
-  "forks": 1057,
-  "openIssues": 5,
-  "score": 116.8,
+  "stars": 4844,
+  "forks": 1231,
+  "openIssues": 9,
+  "score": 118.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-31T01:41:09Z",
-  "updatedAt": "2026-10-31T05:48:39Z",
+  "pushedAt": "2026-10-31T17:53:51Z",
+  "updatedAt": "2026-11-01T06:15:58Z",
   "createdAt": "2026-10-27T12:24:37Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,7 @@
   "readmeUrl": "https://github.com/anhao/ai-pose-gallery-zh#readme",
   "detailPath": "data/details/anhao__ai__pose__gallery__zh.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
     "useCases": [
@@ -78,8 +78,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-31T05:54:35.247Z",
-    "sourceHash": "68e713a356725b14",
+    "generatedAt": "2026-11-01T06:18:33.125Z",
+    "sourceHash": "b1be4888d31bab99",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

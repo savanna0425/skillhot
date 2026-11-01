@@ -1,5 +1,5 @@
 {
-  "rank": 1619,
+  "rank": 1604,
   "id": 1163756223,
   "name": "late-cli",
   "fullName": "mlhher/late-cli",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/263016422?v=4",
   "url": "https://github.com/mlhher/late-cli",
   "homepage": "",
-  "description": "The AI agent that always stays sharp. 200k+ tokens of work in a 64k context window. Run a full dev team locally on 5GB VRAM, fully in the cloud, or both.",
+  "description": "The long-horizon AI agent that always stays sharp. 200k+ tokens of work in a 64k context. Sandboxed for unattended overnight runs. Sub-10ms Go CLI, any model.",
   "summary": "late-cli：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mlhher/late-cli.git",
   "language": "Go",
   "license": "NOASSERTION",
-  "stars": 453,
+  "stars": 454,
   "forks": 50,
-  "openIssues": 16,
+  "openIssues": 17,
   "score": 98,
   "activity": "本周活跃",
   "pushedAt": "2026-10-30T18:30:18Z",
-  "updatedAt": "2026-10-30T18:55:45Z",
+  "updatedAt": "2026-10-31T18:39:46Z",
   "createdAt": "2026-02-22T05:00:28Z",
   "sourceTopics": [
     "ai-skills"
@@ -45,17 +45,17 @@
     "claude-code",
     "coding-agent",
     "deepseek",
-    "glm",
+    "golang",
     "harness",
-    "kimi",
+    "llama",
     "llm",
     "llm-orchestration",
     "local-ai",
-    "local-llm",
     "long-horizon",
     "long-horizon-agents",
     "mcp",
-    "qwen"
+    "qwen",
+    "unattended"
   ],
   "platforms": [
     "Claude"
@@ -90,8 +90,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-31T05:54:35.247Z",
-    "sourceHash": "00806171d382ee5f",
+    "generatedAt": "2026-11-01T06:18:33.125Z",
+    "sourceHash": "775c570f0939e0d6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

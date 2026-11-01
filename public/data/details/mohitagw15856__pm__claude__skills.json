@@ -1,5 +1,5 @@
 {
-  "rank": 716,
+  "rank": 980,
   "id": 1144946140,
   "name": "pm-claude-skills",
   "fullName": "mohitagw15856/pm-claude-skills",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npx pm-claude-skills add                                            # any tool: Cursor, Codex, Windsurf, Cline, Zed…\nnpx --registry=https://registry.npmmirror.com pm-claude-skills add  # 中国大陆镜像",
+  "installCommand": "git clone https://github.com/mohitagw15856/pm-claude-skills.git",
   "language": "HTML",
   "license": "MIT",
-  "stars": 1502,
+  "stars": 1503,
   "forks": 264,
   "openIssues": 8,
-  "score": 118.3,
-  "activity": "本周活跃",
+  "score": 111.3,
+  "activity": "本月活跃",
   "pushedAt": "2026-10-23T14:08:47Z",
-  "updatedAt": "2026-10-31T01:16:53Z",
+  "updatedAt": "2026-10-31T17:45:25Z",
   "createdAt": "2026-01-29T08:28:07Z",
   "sourceTopics": [
     "claude-skills"
@@ -64,7 +64,7 @@
     "Cursor",
     "Gemini CLI"
   ],
-  "skillCount": 1314,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/mohitagw15856/pm-claude-skills",
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-31T05:54:35.247Z",
-    "sourceHash": "bb35d0d7bf8d143b",
+    "generatedAt": "2026-11-01T06:18:33.125Z",
+    "sourceHash": "1993d70ccb011d8e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -128,7 +128,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 1314+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

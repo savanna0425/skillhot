@@ -1,85 +1,81 @@
 {
-  "rank": 1969,
-  "id": 1089324287,
-  "name": "agentic-data-scientist",
-  "fullName": "K-Dense-AI/agentic-data-scientist",
-  "owner": "K-Dense-AI",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/238572432?v=4",
-  "url": "https://github.com/K-Dense-AI/agentic-data-scientist",
-  "homepage": "https://k-dense.ai",
-  "description": "An end-to-end Data Scientist",
-  "summary": "agentic-data-scientist：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1973,
+  "id": 957275282,
+  "name": "Books-Collection",
+  "fullName": "meerilahi/Books-Collection",
+  "owner": "meerilahi",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/103382929?v=4",
+  "url": "https://github.com/meerilahi/Books-Collection",
+  "homepage": "",
+  "description": "This repository contains a collection of books I have downloaded related to **Mathematics**, **Artificial Intelligence (AI) & Machine Learning (ML)**, and **Algorithms**. Some of these books I have read, while others are on my reading list.",
+  "summary": "Books-Collection 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "research|scientific|academic|paper|literature|citation",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/K-Dense-AI/agentic-data-scientist.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 839,
-  "forks": 123,
-  "openIssues": 2,
+  "installCommand": "git clone https://github.com/meerilahi/Books-Collection.git",
+  "language": "",
+  "license": "",
+  "stars": 842,
+  "forks": 310,
+  "openIssues": 1,
   "score": 85.3,
   "activity": "近期活跃",
-  "pushedAt": "2026-08-18T23:07:15Z",
-  "updatedAt": "2026-10-29T18:04:28Z",
-  "createdAt": "2025-11-04T07:29:49Z",
+  "pushedAt": "2026-08-15T21:47:07Z",
+  "updatedAt": "2026-10-31T16:02:12Z",
+  "createdAt": "2025-03-30T00:39:43Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agentic-ai",
-    "data-science",
-    "machine-learning"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/K-Dense-AI/agentic-data-scientist",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/meerilahi/Books-Collection",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/K-Dense-AI/agentic-data-scientist#readme",
-  "detailPath": "data/details/k__dense__ai__agentic__data__scientist.json",
+  "readmeUrl": "https://github.com/meerilahi/Books-Collection#readme",
+  "detailPath": "data/details/meerilahi__books__collection.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agentic-data-scientist 支持资料研究、知识检索或学习任务。",
+    "summary": "Books-Collection 支持资料研究、知识检索或学习任务。",
     "useCases": [
       "资料调研",
       "知识检索",
       "学习与推理"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要科研、知识检索、文献、教学、学习与推理工作流能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-10-31T05:54:35.247Z",
-    "sourceHash": "4a4dae3a1c14d2f8",
+    "generatedAt": "2026-11-01T06:18:33.125Z",
+    "sourceHash": "e4b0a58c2ad04d2c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentic-data-scientist：支持资料研究、知识检索或学习任务。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agentic-data-scientist 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Books-Collection 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "Books-Collection 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -119,7 +115,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
