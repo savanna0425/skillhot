@@ -1,5 +1,5 @@
 {
-  "rank": 265,
+  "rank": 190,
   "id": 306829688,
   "name": "nocobase",
   "fullName": "nocobase/nocobase",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/66196787?v=4",
   "url": "https://github.com/nocobase/nocobase",
   "homepage": "https://www.nocobase.com",
-  "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
-  "summary": "nocobase：是一款开源的 AI + 无代码平台，用于快速构建业务系统。它基于生产验证的底层基础设施和所见即所得的无代码界面工作，因此兼具速度与可靠性。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents write the code and do the work, NocoBase provides the foundation and governance, and people make the decisions.",
+  "summary": "nocobase：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -19,47 +19,49 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g @nocobase/cli\nnb --version\nnb init --ui",
+  "installCommand": "npx skills@latest add nocobase/skills-v3 --skill nocobase-create-app -g",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 24803,
-  "forks": 2943,
-  "openIssues": 349,
-  "score": 135.5,
+  "license": "",
+  "stars": 24812,
+  "forks": 2946,
+  "openIssues": 348,
+  "score": 139.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-31T14:30:32Z",
-  "updatedAt": "2026-11-01T03:33:54Z",
+  "pushedAt": "2026-11-02T05:45:35Z",
+  "updatedAt": "2026-11-02T05:49:30Z",
   "createdAt": "2020-10-24T07:27:48Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "admin-dashboard",
+    "agent-skills",
+    "agentic-ai",
     "ai-agent",
     "ai-agents",
-    "ai-assistant",
-    "ai-tools",
+    "ai-governance",
+    "claude-code",
+    "codex",
     "crm",
     "crud",
-    "dsh-plugin",
     "erp",
-    "internal-tool",
     "internal-tools",
     "low-code",
-    "lowcode",
     "no-code",
-    "nocode",
-    "project-management",
-    "salesforce",
+    "opencode",
+    "rbac",
     "self-hosted",
+    "vibe-coding",
+    "workflow-engine",
     "workflows"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "OpenClaw",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -73,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "NocoBase 是一款开源的 AI + 无代码平台，用于快速构建业务系统。它基于生产验证的底层基础设施和所见即所得的无代码界面工作，因此兼具速度与可靠性",
+    "summary": "nocobase：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -89,16 +91,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "deb899367b185542",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "3b60c70c425dfc63",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "nocobase：是一款开源的 AI + 无代码平台，用于快速构建业务系统。它基于生产验证的底层基础设施和所见即所得的无代码界面工作，因此兼具速度与可靠性。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "nocobase：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "nocobase 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -116,7 +118,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -139,7 +141,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,70 +1,77 @@
 {
-  "rank": 1873,
-  "id": 1185749729,
-  "name": "kc_ai_skills",
-  "fullName": "KerberosClaw/kc_ai_skills",
-  "owner": "KerberosClaw",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1748235?v=4",
-  "url": "https://github.com/KerberosClaw/kc_ai_skills",
+  "rank": 2265,
+  "id": 1309396181,
+  "name": "multi-agent-system-architect-v2",
+  "fullName": "ingcontartese-netizen/multi-agent-system-architect-v2",
+  "owner": "ingcontartese-netizen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/255592326?v=4",
+  "url": "https://github.com/ingcontartese-netizen/multi-agent-system-architect-v2",
   "homepage": "",
-  "description": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM workflow",
-  "summary": "kc_ai_skills：AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM wo。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Agent Skill that asks: should there be an agentic system at all? Then designs, builds, audits, verifies, and ports systems—from workflows to governed teams.",
+  "summary": "multi-agent-system-architect-v2：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
-  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/KerberosClaw/kc_ai_skills.git",
+  "installCommand": "git clone https://github.com/ingcontartese-netizen/multi-agent-system-architect-v2.git",
   "language": "Python",
-  "license": "MIT",
-  "stars": 79,
-  "forks": 14,
-  "openIssues": 0,
-  "score": 88.8,
+  "license": "Apache-2.0",
+  "stars": 1,
+  "forks": 0,
+  "openIssues": 2,
+  "score": 67,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-29T11:11:47Z",
-  "updatedAt": "2026-10-29T11:11:06Z",
-  "createdAt": "2026-03-18T22:54:18Z",
+  "pushedAt": "2026-11-01T20:28:09Z",
+  "updatedAt": "2026-07-27T17:58:48Z",
+  "createdAt": "2026-07-23T01:12:49Z",
   "sourceTopics": [
-    "ai-skills"
+    "anthropic-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "ai-skills",
-    "anthropic",
-    "claude",
+    "agentic-ai",
+    "ai-agents",
+    "anthropic-skills",
+    "antigravity",
     "claude-code",
+    "claude-code-skills",
     "claude-skills",
     "codex",
-    "llm",
+    "cursor",
+    "evaluation",
+    "governance",
     "mcp",
-    "prompt-engineering",
-    "python"
+    "multi-agent-systems",
+    "security",
+    "skill-md"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/KerberosClaw/kc_ai_skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/ingcontartese-netizen/multi-agent-system-architect-v2",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/KerberosClaw/kc_ai_skills#readme",
-  "detailPath": "data/details/kerberosclaw__kc__ai__skills.json",
+  "readmeUrl": "https://github.com/ingcontartese-netizen/multi-agent-system-architect-v2#readme",
+  "detailPath": "data/details/ingcontartese__netizen__multi__agent__system__architect__v2.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM wo",
+    "summary": "multi-agent-system-architect-v2 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,17 +87,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "86954f7d62a4d6b7",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "d72a820afd4a648a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "kc_ai_skills：AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM wo。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "kc_ai_skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "multi-agent-system-architect-v2：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "multi-agent-system-architect-v2 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -107,7 +114,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -130,7 +137,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

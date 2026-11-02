@@ -1,17 +1,17 @@
 {
-  "rank": 955,
-  "id": 743825398,
-  "name": "ruoyi-ai",
-  "fullName": "ageerle/ruoyi-ai",
-  "owner": "ageerle",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/32251822?v=4",
-  "url": "https://github.com/ageerle/ruoyi-ai",
-  "homepage": "https://doc.ruoyiai.chat",
-  "description": "Enterprise-grade AI agent framework with multi-provider LLM management, secure knowledge bases and high-precision RAG, visual workflow orchestration, and multi-agent coordination.",
-  "summary": "ruoyi-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1554,
+  "id": 1055446651,
+  "name": "Practical-Guide-to-Context-Engineering",
+  "fullName": "WakeUp-Jin/Practical-Guide-to-Context-Engineering",
+  "owner": "WakeUp-Jin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/112074542?v=4",
+  "url": "https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering",
+  "homepage": "https://wakeup-jin.github.io/Practical-Guide-to-Context-Engineering/",
+  "description": "大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路",
+  "summary": "Practical-Guide-to-Context-Engineering：大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
@@ -19,27 +19,24 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/ageerle/ruoyi-ai.git",
-  "language": "Java",
-  "license": "MIT",
-  "stars": 5802,
-  "forks": 1428,
-  "openIssues": 11,
-  "score": 113.3,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-21T17:04:10Z",
-  "updatedAt": "2026-11-01T05:10:56Z",
-  "createdAt": "2024-01-16T04:16:41Z",
+  "installCommand": "git clone https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering.git",
+  "language": "",
+  "license": "",
+  "stars": 850,
+  "forks": 70,
+  "openIssues": 0,
+  "score": 100.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-01T10:48:11Z",
+  "updatedAt": "2026-11-01T11:31:54Z",
+  "createdAt": "2025-09-12T09:24:44Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai",
-    "knowledge",
-    "mcp",
-    "rag"
+    "javascript",
+    "typescript"
   ],
   "platforms": [
     "Agent Skills"
@@ -47,15 +44,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ageerle/ruoyi-ai",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/WakeUp-Jin/Practical-Guide-to-Context-Engineering",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ageerle/ruoyi-ai#readme",
-  "detailPath": "data/details/ageerle__ruoyi__ai.json",
+  "readmeUrl": "https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering#readme",
+  "detailPath": "data/details/wakeup__jin__practical__guide__to__context__engineering.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "ruoyi-ai 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -71,17 +68,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "0e5ca155a1c9a1c9",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "aa6df2006b0b0bb9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ruoyi-ai：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ruoyi-ai 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Practical-Guide-to-Context-Engineering：大模型应用开发 -上下文工程与运行空间实践指南，上下文工程是设计原则，Agent Harness 是构建目标，本项目的目标，是为开发者和研究者提供一份大模型应用开发的骨架思路。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Practical-Guide-to-Context-Engineering 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -121,7 +118,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

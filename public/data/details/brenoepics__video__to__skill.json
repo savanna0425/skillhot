@@ -1,17 +1,17 @@
 {
-  "rank": 1012,
-  "id": 1343011496,
-  "name": "video-talkcraft",
-  "fullName": "Vincentwei1021/video-talkcraft",
-  "owner": "Vincentwei1021",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/18239147?v=4",
-  "url": "https://github.com/Vincentwei1021/video-talkcraft",
-  "homepage": "https://vincentwei1021.github.io/video-talkcraft/",
-  "description": "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 109 motion recipe cards, an anti-slideshow camera system, Remotion rendering.",
-  "summary": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1839,
+  "id": 1324416294,
+  "name": "video-to-skill",
+  "fullName": "brenoepics/video-to-skill",
+  "owner": "brenoepics",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/59066707?v=4",
+  "url": "https://github.com/brenoepics/video-to-skill",
+  "homepage": "https://v2s.dev",
+  "description": "Turn any tutorial video into a verified, installable AI-agent skill. Reads the screen, not the transcript. Runs locally. MIT.",
+  "summary": "video-to-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,51 +19,53 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Vincentwei1021/video-talkcraft.git",
-  "language": "HTML",
-  "license": "NOASSERTION",
-  "stars": 1991,
-  "forks": 206,
-  "openIssues": 1,
-  "score": 110.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-12T05:29:10Z",
-  "updatedAt": "2026-11-01T03:55:31Z",
-  "createdAt": "2026-08-22T17:11:05Z",
-  "sourceTopics": [],
+  "installCommand": "git clone https://github.com/brenoepics/video-to-skill.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 95,
+  "forks": 5,
+  "openIssues": 3,
+  "score": 90.5,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-02T05:35:24Z",
+  "updatedAt": "2026-11-02T06:14:54Z",
+  "createdAt": "2026-08-05T19:30:27Z",
+  "sourceTopics": [
+    "ai-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "ai-agent",
-    "claude",
+    "ai-agents",
+    "ai-skill",
+    "ai-skills",
     "claude-code",
-    "explainer-video",
-    "kinetic-typography",
-    "motion-design",
-    "motion-graphics",
-    "narration",
-    "remotion",
-    "talking-head",
-    "video-production"
+    "llm-tools",
+    "rust",
+    "screencast",
+    "video",
+    "video-processing",
+    "video-to-skill",
+    "video-to-text",
+    "whisper"
   ],
   "platforms": [
-    "Claude",
-    "Codex"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Vincentwei1021/video-talkcraft",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/brenoepics/video-to-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Vincentwei1021/video-talkcraft#readme",
-  "detailPath": "data/details/vincentwei1021__video__talkcraft.json",
+  "readmeUrl": "https://github.com/brenoepics/video-to-skill#readme",
+  "detailPath": "data/details/brenoepics__video__to__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "video-to-skill：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -79,17 +81,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "83c2021d8b7366c6",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "3f5facbe3432bc3f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "video-talkcraft：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "video-talkcraft 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "video-to-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "video-to-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -106,7 +108,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -129,7 +131,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

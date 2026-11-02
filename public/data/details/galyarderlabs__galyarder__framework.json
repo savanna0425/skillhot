@@ -1,14 +1,14 @@
 {
-  "rank": 1360,
-  "id": 1424340323,
-  "name": "huashu-motion",
-  "fullName": "alchaincyf/huashu-motion",
-  "owner": "alchaincyf",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/127714341?v=4",
-  "url": "https://github.com/alchaincyf/huashu-motion",
-  "homepage": "https://github.com/alchaincyf/huashu-motion",
-  "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-  "summary": "huashu-motion：让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 2111,
+  "id": 1201040549,
+  "name": "galyarder-framework",
+  "fullName": "galyarderlabs/galyarder-framework",
+  "owner": "galyarderlabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/258221923?v=4",
+  "url": "https://github.com/galyarderlabs/galyarder-framework",
+  "homepage": "https://galyarderlabs.github.io/galyarder-framework/",
+  "description": "Skills, commands, and integrations for AI coding agents.",
+  "summary": "galyarder-framework：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -19,47 +19,64 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alchaincyf/huashu-motion.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/galyarderlabs/galyarder-framework.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 1953,
-  "forks": 187,
-  "openIssues": 4,
-  "score": 102,
+  "stars": 29,
+  "forks": 6,
+  "openIssues": 51,
+  "score": 77.2,
   "activity": "本月活跃",
-  "pushedAt": "2026-10-22T12:19:37Z",
-  "updatedAt": "2026-11-01T06:15:23Z",
-  "createdAt": "2026-10-18T12:19:27Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-10-11T06:03:05Z",
+  "updatedAt": "2026-11-02T04:07:42Z",
+  "createdAt": "2026-04-04T06:03:18Z",
+  "sourceTopics": [
+    "hermes-skill",
+    "cursor-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "animation",
-    "claude-code",
-    "codex",
-    "gsap",
-    "launch-video",
-    "motion-graphics",
-    "skills"
+    "agentic-company",
+    "agentic-framework",
+    "agents",
+    "ai-agents",
+    "automation",
+    "claude-code-plugin",
+    "codex-skills",
+    "copilot-skills",
+    "cursor-skills",
+    "framework",
+    "gemini-skills",
+    "hermes-skill",
+    "marketing",
+    "openclaw-skills",
+    "opencode-skills",
+    "seo",
+    "tdd"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/alchaincyf/huashu-motion",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/galyarderlabs/galyarder-framework",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/alchaincyf/huashu-motion#readme",
-  "detailPath": "data/details/alchaincyf__huashu__motion.json",
+  "readmeUrl": "https://github.com/galyarderlabs/galyarder-framework#readme",
+  "detailPath": "data/details/galyarderlabs__galyarder__framework.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+    "summary": "galyarder-framework 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -78,14 +95,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "49088f50fbae47d3",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "073ea2d2b5506fc9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "huashu-motion：让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "huashu-motion 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "galyarder-framework：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "galyarder-framework 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -102,7 +119,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 869,
-  "id": 1439372976,
-  "name": "pixelfx",
-  "fullName": "patch-gg/pixelfx",
-  "owner": "patch-gg",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/337959018?v=4",
-  "url": "https://github.com/patch-gg/pixelfx",
-  "homepage": "https://patch-gg.github.io/pixelfx/",
-  "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-  "summary": "pixelfx：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1437,
+  "id": 1440461338,
+  "name": "ai-manju-skills",
+  "fullName": "zhanghao123vip/ai-manju-skills",
+  "owner": "zhanghao123vip",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/293264695?v=4",
+  "url": "https://github.com/zhanghao123vip/ai-manju-skills",
+  "homepage": "",
+  "description": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
+  "summary": "ai-manju-skills：21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -19,30 +19,29 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/patch-gg/pixelfx.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/zhanghao123vip/ai-manju-skills.git",
+  "language": "",
   "license": "MIT",
-  "stars": 1693,
-  "forks": 217,
-  "openIssues": 1,
-  "score": 115.5,
+  "stars": 289,
+  "forks": 55,
+  "openIssues": 0,
+  "score": 101.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-31T08:44:14Z",
-  "updatedAt": "2026-11-01T06:17:10Z",
-  "createdAt": "2026-10-30T06:43:25Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-01T02:53:40Z",
+  "updatedAt": "2026-11-02T06:15:28Z",
+  "createdAt": "2026-10-31T03:22:12Z",
+  "sourceTopics": [
+    "ai-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "animation",
-    "canvas",
-    "claude-code-plugin",
-    "gamedev",
-    "pixel-art",
-    "sprite-sheet",
-    "vfx"
+    "ai-skills",
+    "ai-video",
+    "chinese",
+    "claude-code",
+    "prompt-engineering"
   ],
   "platforms": [
     "Claude"
@@ -50,15 +49,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/patch-gg/pixelfx",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhanghao123vip/ai-manju-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/patch-gg/pixelfx#readme",
-  "detailPath": "data/details/patch__gg__pixelfx.json",
+  "readmeUrl": "https://github.com/zhanghao123vip/ai-manju-skills#readme",
+  "detailPath": "data/details/zhanghao123vip__ai__manju__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "pixelfx：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -77,14 +76,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "c980da75e0177835",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "8f9260bc94a66289",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "pixelfx：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "pixelfx 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-manju-skills：21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "ai-manju-skills 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",

@@ -1,14 +1,14 @@
 {
-  "rank": 698,
-  "id": 1435695423,
-  "name": "ai-pose-gallery-zh",
-  "fullName": "anhao/ai-pose-gallery-zh",
-  "owner": "anhao",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/9844218?v=4",
-  "url": "https://github.com/anhao/ai-pose-gallery-zh",
-  "homepage": "https://ai-pose-gallery.anhao.app",
-  "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-  "summary": "ai-pose-gallery-zh：中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 693,
+  "id": 584016836,
+  "name": "chili3d",
+  "fullName": "xiangechen/chili3d",
+  "owner": "xiangechen",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/96911970?v=4",
+  "url": "https://github.com/xiangechen/chili3d",
+  "homepage": "https://chili3d.com",
+  "description": "A browser-based 3D CAD for AI-assisted, parametric and direct modeling.",
+  "summary": "chili3d：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,47 +19,50 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "cd /path/to/ComfyUI/custom_nodes\ngit clone --depth 1 https://github.com/anhao/ai-pose-gallery-zh.git",
+  "installCommand": "git clone https://github.com/xiangechen/chili3d.git\ncd chili3d",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 4844,
-  "forks": 1231,
-  "openIssues": 9,
-  "score": 118.5,
+  "license": "AGPL-3.0",
+  "stars": 4957,
+  "forks": 497,
+  "openIssues": 45,
+  "score": 118.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-10-31T17:53:51Z",
-  "updatedAt": "2026-11-01T06:15:58Z",
-  "createdAt": "2026-10-27T12:24:37Z",
+  "pushedAt": "2026-11-02T01:42:35Z",
+  "updatedAt": "2026-11-02T03:32:42Z",
+  "createdAt": "2022-12-31T23:33:51Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-art",
-    "chinese",
-    "cloudflare-pages",
-    "gallery",
-    "i18n",
-    "pose",
-    "reference-images",
-    "static-site"
+    "3d",
+    "browser-based",
+    "cad",
+    "geometry",
+    "occ",
+    "occt",
+    "opencascade",
+    "three",
+    "threejs",
+    "wasm",
+    "webassembly",
+    "webcad"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/anhao/ai-pose-gallery-zh",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/xiangechen/chili3d",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/anhao/ai-pose-gallery-zh#readme",
-  "detailPath": "data/details/anhao__ai__pose__gallery__zh.json",
+  "readmeUrl": "https://github.com/xiangechen/chili3d#readme",
+  "detailPath": "data/details/xiangechen__chili3d.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+    "summary": "chili3d：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -75,17 +78,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-01T06:18:33.125Z",
-    "sourceHash": "b1be4888d31bab99",
+    "generatedAt": "2026-11-02T06:19:31.438Z",
+    "sourceHash": "61f239bd089f8923",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-pose-gallery-zh：中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "ai-pose-gallery-zh 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "chili3d：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "chili3d 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -102,7 +105,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -125,7 +128,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
