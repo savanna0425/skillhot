@@ -1,5 +1,5 @@
 {
-  "rank": 837,
+  "rank": 848,
   "id": 1163112839,
   "name": "ai-news-radar",
   "fullName": "LearnPrompt/ai-news-radar",
@@ -8,7 +8,7 @@
   "url": "https://github.com/LearnPrompt/ai-news-radar",
   "homepage": "https://learnprompt.github.io/ai-news-radar/",
   "description": "24h AI/tech news radar with GitHub Actions, live web UI, and Scout Skill for AI sources.",
-  "summary": "ai-news-radar：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "summary": "ai-news-radar：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "UI设计",
   "categoryDescription": "界面、体验、设计系统与视觉质量工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "体验质量检查"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add LearnPrompt/ai-news-radar -s ai-radar -g",
+  "installCommand": "git clone https://github.com/LearnPrompt/ai-news-radar.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 1805,
+  "stars": 1809,
   "forks": 447,
   "openIssues": 0,
   "score": 116.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T02:43:20Z",
-  "updatedAt": "2026-11-02T02:43:25Z",
+  "pushedAt": "2026-11-03T04:09:22Z",
+  "updatedAt": "2026-11-03T04:09:27Z",
   "createdAt": "2026-02-21T05:34:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,9 +36,7 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -70,13 +68,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "444b9db180fcccef",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "751090aa89a10881",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-news-radar：帮助改进界面设计、用户体验与视觉质量。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ai-news-radar：帮助改进界面设计、用户体验与视觉质量。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "ai-news-radar 可以先理解为一个「界面与视觉质量工具」。它围绕「界面设计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "让 Agent 做出来的页面缺少设计感，细节经常显得粗糙。",
@@ -94,7 +92,7 @@
       "用 Agent 做网页、App 原型或视觉材料的人。",
       "希望提高前端页面完成度的开发者。",
       "需要把设计规范沉淀为可复用流程的小团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想下载现成 UI 模板、不打算接入 Agent 工作流的人。",

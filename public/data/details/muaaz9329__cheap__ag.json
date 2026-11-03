@@ -1,5 +1,5 @@
 {
-  "rank": 1853,
+  "rank": 1840,
   "id": 1437694471,
   "name": "cheap-ag",
   "fullName": "muaaz9329/cheap-ag",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/63157500?v=4",
   "url": "https://github.com/muaaz9329/cheap-ag",
   "homepage": "https://cheapag.com",
-  "description": "50x your Claude usage with cheap-ag. Opus plans, a dirt-cheap model writes every line, and tests decide what ships. Your $20 plan stops hitting limits. One MCP server for Claude Code.",
-  "summary": "cheap-ag：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+  "description": "50x your usage with cheap-ag. Opus/Astra plans, a dirt-cheap model writes every line, and tests decide what ships. Your $20 plan stops hitting limits. One MCP server for Claude Code & Codex.",
+  "summary": "cheap-ag：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/muaaz9329/cheap-ag.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 207,
-  "forks": 16,
-  "openIssues": 4,
-  "score": 90.1,
+  "stars": 234,
+  "forks": 17,
+  "openIssues": 0,
+  "score": 91.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T00:42:27Z",
-  "updatedAt": "2026-11-02T05:30:49Z",
+  "pushedAt": "2026-11-02T23:39:53Z",
+  "updatedAt": "2026-11-03T06:45:19Z",
   "createdAt": "2026-10-28T22:26:18Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -60,6 +60,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "OpenCode"
   ],
   "skillCount": 1,
@@ -92,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "c359572885804480",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "f2a594789c043d42",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "cheap-ag：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "cheap-ag：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
     "whatItIs": "cheap-ag 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -116,7 +117,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、OpenCode 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

@@ -1,14 +1,14 @@
 {
-  "rank": 143,
+  "rank": 144,
   "id": 515647260,
   "name": "1Panel",
   "fullName": "1Panel-dev/1Panel",
   "owner": "1Panel-dev",
   "avatarUrl": "https://avatars.githubusercontent.com/u/109613420?v=4",
   "url": "https://github.com/1Panel-dev/1Panel",
-  "homepage": "https://1panel.pro",
-  "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
-  "summary": "1Panel：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "homepage": "https://1panel.cn",
+  "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服务器打造的管理面板。",
+  "summary": "1Panel：is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/1Panel-dev/1Panel.git",
   "language": "Go",
   "license": "GPL-3.0",
-  "stars": 37342,
-  "forks": 3401,
-  "openIssues": 367,
+  "stars": 37345,
+  "forks": 3400,
+  "openIssues": 361,
   "score": 143.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T03:36:19Z",
-  "updatedAt": "2026-11-02T05:53:16Z",
+  "pushedAt": "2026-11-03T06:38:19Z",
+  "updatedAt": "2026-11-03T06:38:21Z",
   "createdAt": "2022-07-19T15:44:52Z",
   "sourceTopics": [
     "openclaw"
@@ -66,7 +66,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "1Panel 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -85,13 +85,13 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "aa1ca572f6f18797",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "323ae12491f4fb3c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "1Panel：是用于运行、管理或编排 AI Agent 的开源工具。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "1Panel：is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "1Panel 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

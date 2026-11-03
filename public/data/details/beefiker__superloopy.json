@@ -1,5 +1,5 @@
 {
-  "rank": 2002,
+  "rank": 2011,
   "id": 1283603794,
   "name": "superloopy",
   "fullName": "beefiker/superloopy",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/55247450?v=4",
   "url": "https://github.com/beefiker/superloopy",
   "homepage": "https://superloopy.dev",
-  "description": "Lightweight Codex/Claude loop harness with strict evidence gates.",
-  "summary": "superloopy：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "Lightweight Codex/Claude/Antigravity loop harness with strict evidence gates.",
+  "summary": "superloopy：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/beefiker/superloopy.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 112,
+  "stars": 115,
   "forks": 17,
   "openIssues": 1,
-  "score": 84.1,
+  "score": 84.3,
   "activity": "本周活跃",
   "pushedAt": "2026-10-29T09:14:31Z",
-  "updatedAt": "2026-10-29T09:14:35Z",
+  "updatedAt": "2026-11-02T06:43:42Z",
   "createdAt": "2026-06-29T04:32:17Z",
   "sourceTopics": [
     "codex-skills"
@@ -38,6 +38,7 @@
   ],
   "repoTopics": [
     "ai-agents",
+    "antigravity",
     "claude",
     "claude-code",
     "claude-code-plugin",
@@ -52,7 +53,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -84,13 +86,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "7c7efcfa546af535",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "151a5e847f8f4797",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "superloopy：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "superloopy：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "superloopy 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -108,7 +110,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

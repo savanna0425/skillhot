@@ -1,5 +1,5 @@
 {
-  "rank": 2153,
+  "rank": 2093,
   "id": 1439924353,
   "name": "humanizer-lint",
   "fullName": "yanstd888/humanizer-lint",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/259196357?v=4",
   "url": "https://github.com/yanstd888/humanizer-lint",
   "homepage": "https://humanizer.aiclub.ai.id/",
-  "description": "A fast linter and style checker to detect AI-generated phrasing, eliminate corporate fluff, and enforce clear, natural, human-like writing across markdown and documentation.",
-  "summary": "humanizer-lint：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "description": "A local, zero-dependency prose, copywriting, UI-text, and code-comment linter that flags stiff, AI-sounding writing (stock phrases, flat sentence rhythm, repeated wording) and tells you what to revise. Includes 8 language packs. A style checker, not an AI detector.",
+  "summary": "humanizer-lint：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -22,45 +22,47 @@
   "installCommand": "git clone https://github.com/yanstd888/humanizer-lint.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 39,
+  "stars": 62,
   "forks": 6,
-  "openIssues": 0,
-  "score": 74.6,
+  "openIssues": 1,
+  "score": 78.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-01T12:41:33Z",
-  "updatedAt": "2026-11-02T05:46:08Z",
+  "pushedAt": "2026-11-02T17:39:09Z",
+  "updatedAt": "2026-11-03T06:43:12Z",
   "createdAt": "2026-10-30T15:46:45Z",
   "sourceTopics": [
-    "cursor-skills"
+    "hermes-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "agent-skills",
-    "ai",
-    "ai-humanizer",
-    "ai-text-detection",
-    "anti-slop",
-    "burstiness",
-    "claude-code",
-    "copywriting",
-    "cursor-skills",
-    "humanizer",
-    "indonesian-nlp",
-    "linter",
-    "natural-language",
+    "agent-skill",
+    "agent-skills-tools",
+    "ai-humanizer-free",
+    "claude-code-skill",
+    "claude-code-skills",
+    "codex",
+    "codex-skill",
+    "copywriting-ai",
+    "cursor",
+    "gemini-cli",
+    "hermes-skill",
+    "markdown-linter",
+    "multilingual",
     "prose-linter",
-    "skill-md",
-    "skills",
     "skills-sh",
-    "style-checker",
     "stylometry",
-    "text-analysis"
+    "text-analysis",
+    "windsurf",
+    "writing-assistant",
+    "zero-dependency"
   ],
   "platforms": [
     "Claude",
-    "Cursor"
+    "Codex",
+    "Cursor",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -71,7 +73,7 @@
   "readmeUrl": "https://github.com/yanstd888/humanizer-lint#readme",
   "detailPath": "data/details/yanstd888__humanizer__lint.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "humanizer-lint：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
@@ -92,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "611acd2f8aba541e",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "b2e5c2e308dda258",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "humanizer-lint：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "humanizer-lint：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "humanizer-lint 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -116,7 +118,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

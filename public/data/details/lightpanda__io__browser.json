@@ -1,5 +1,5 @@
 {
-  "rank": 177,
+  "rank": 172,
   "id": 598667202,
   "name": "browser",
   "fullName": "lightpanda-io/browser",
@@ -8,7 +8,7 @@
   "url": "https://github.com/lightpanda-io/browser",
   "homepage": "https://lightpanda.io",
   "description": "Lightpanda: the headless browser designed for AI and automation",
-  "summary": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "brew install lightpanda-io/browser/lightpanda",
   "language": "Zig",
   "license": "AGPL-3.0",
-  "stars": 40458,
-  "forks": 1979,
-  "openIssues": 108,
-  "score": 140.6,
+  "stars": 41037,
+  "forks": 2013,
+  "openIssues": 91,
+  "score": 140.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T04:41:48Z",
-  "updatedAt": "2026-11-02T06:17:30Z",
+  "pushedAt": "2026-11-03T04:03:05Z",
+  "updatedAt": "2026-11-03T06:53:54Z",
   "createdAt": "2023-02-07T15:19:34Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,6 +47,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -79,13 +80,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-02T06:19:31.438Z",
-    "sourceHash": "aca13dce7553b621",
+    "generatedAt": "2026-11-03T06:57:19.802Z",
+    "sourceHash": "17e2cfb7328317b4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "browser：Lightpanda：专为 AI 与自动化设计的无头浏览器。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "browser 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -103,7 +104,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
