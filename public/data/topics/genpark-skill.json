@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-10-31T05:54:35.247Z",
+    "generatedAt": "2026-11-04T06:37:37.761Z",
     "query": "skill",
     "topicPages": 3,
-    "repositories": 2348,
+    "repositories": 2350,
     "sourceTopics": 27,
     "discoveryChannels": 4,
-    "activeHighStarCutoff": "2026-08-02",
+    "activeHighStarCutoff": "2026-08-06",
     "readmeEnriched": 850,
     "updateMode": "GitHub REST API + reviewed summaries + weighted deterministic classification"
   },
@@ -57,6 +57,12 @@
           "url": "https://github.com/topics/education"
         },
         {
+          "name": "claude-skill",
+          "displayName": "claude-skill",
+          "description": "",
+          "url": "https://github.com/topics/claude-skill"
+        },
+        {
           "name": "codex-skill",
           "displayName": "codex-skill",
           "description": "",
@@ -67,18 +73,18 @@
           "displayName": "LeetCode",
           "description": "LeetCode offers a platform for improving coding skills and preparing for technical interviews.",
           "url": "https://github.com/topics/leetcode"
-        },
-        {
-          "name": "claude-code-skill",
-          "displayName": "claude-code-skill",
-          "description": "",
-          "url": "https://github.com/topics/claude-code-skill"
         }
       ]
     },
     {
       "page": 2,
       "topics": [
+        {
+          "name": "claude-code-skill",
+          "displayName": "claude-code-skill",
+          "description": "",
+          "url": "https://github.com/topics/claude-code-skill"
+        },
         {
           "name": "claude-code-skills",
           "displayName": "claude-code-skills",
@@ -132,18 +138,18 @@
           "displayName": "alexa-skill",
           "description": "",
           "url": "https://github.com/topics/alexa-skill"
-        },
-        {
-          "name": "skills-sh",
-          "displayName": "skills-sh",
-          "description": "",
-          "url": "https://github.com/topics/skills-sh"
         }
       ]
     },
     {
       "page": 3,
       "topics": [
+        {
+          "name": "skills-sh",
+          "displayName": "skills-sh",
+          "description": "",
+          "url": "https://github.com/topics/skills-sh"
+        },
         {
           "name": "openclaw-skill",
           "displayName": "openclaw-skill",
@@ -193,16 +199,10 @@
           "url": "https://github.com/topics/dsh-skill"
         },
         {
-          "name": "skill-management",
-          "displayName": "skill-management",
-          "description": "",
-          "url": "https://github.com/topics/skill-management"
-        },
-        {
-          "name": "alexa-skills-kit",
-          "displayName": "alexa-skills-kit",
-          "description": "",
-          "url": "https://github.com/topics/alexa-skills-kit"
+          "name": "interview",
+          "displayName": "Interview",
+          "description": "Interviews are formal meetings to assess applicants' suitability for positions.",
+          "url": "https://github.com/topics/interview"
         }
       ]
     }
@@ -269,6 +269,10 @@
       "url": "https://github.com/topics/mcp-skills"
     },
     {
+      "name": "claude-skill",
+      "url": "https://github.com/topics/claude-skill"
+    },
+    {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill"
     },
@@ -311,10 +315,6 @@
     {
       "name": "dsh-skill",
       "url": "https://github.com/topics/dsh-skill"
-    },
-    {
-      "name": "skill-management",
-      "url": "https://github.com/topics/skill-management"
     }
   ],
   "topics": [
@@ -322,176 +322,169 @@
       "name": "agent-skills",
       "url": "https://github.com/topics/agent-skills",
       "repositories": 100,
-      "activeRepositories": 94,
-      "stars": 3108357
+      "activeRepositories": 93,
+      "stars": 3237048
     },
     {
       "name": "skills",
       "url": "https://github.com/topics/skills",
       "repositories": 100,
-      "activeRepositories": 82,
-      "stars": 2483612
+      "activeRepositories": 80,
+      "stars": 2503029
     },
     {
       "name": "claude-skills",
       "url": "https://github.com/topics/claude-skills",
       "repositories": 100,
-      "activeRepositories": 77,
-      "stars": 1296087
+      "activeRepositories": 79,
+      "stars": 1326974
     },
     {
       "name": "skill",
       "url": "https://github.com/topics/skill",
       "repositories": 100,
-      "activeRepositories": 57,
-      "stars": 513200
+      "activeRepositories": 60,
+      "stars": 517784
     },
     {
       "name": "claude-code-skills",
       "url": "https://github.com/topics/claude-code-skills",
       "repositories": 100,
-      "activeRepositories": 64,
-      "stars": 347576
+      "activeRepositories": 69,
+      "stars": 351495
     },
     {
       "name": "claude-code-skill",
       "url": "https://github.com/topics/claude-code-skill",
       "repositories": 100,
-      "activeRepositories": 55,
-      "stars": 176031
+      "activeRepositories": 53,
+      "stars": 182812
     },
     {
       "name": "codex-skills",
       "url": "https://github.com/topics/codex-skills",
       "repositories": 99,
-      "activeRepositories": 63,
-      "stars": 392241
+      "activeRepositories": 67,
+      "stars": 396768
     },
     {
       "name": "ai-skills",
       "url": "https://github.com/topics/ai-skills",
       "repositories": 99,
-      "activeRepositories": 58,
-      "stars": 284067
+      "activeRepositories": 59,
+      "stars": 288174
     },
     {
       "name": "openclaw-skills",
       "url": "https://github.com/topics/openclaw-skills",
       "repositories": 88,
-      "activeRepositories": 37,
-      "stars": 245850
+      "activeRepositories": 38,
+      "stars": 246938
     },
     {
       "name": "ai-agent-skills",
       "url": "https://github.com/topics/ai-agent-skills",
-      "repositories": 49,
-      "activeRepositories": 41,
-      "stars": 53698
+      "repositories": 50,
+      "activeRepositories": 42,
+      "stars": 54040
     },
     {
       "name": "agentic-skills",
       "url": "https://github.com/topics/agentic-skills",
-      "repositories": 44,
-      "activeRepositories": 37,
-      "stars": 79836
+      "repositories": 43,
+      "activeRepositories": 35,
+      "stars": 80228
+    },
+    {
+      "name": "anthropic-skills",
+      "url": "https://github.com/topics/anthropic-skills",
+      "repositories": 34,
+      "activeRepositories": 28,
+      "stars": 4983
+    },
+    {
+      "name": "claude-skill",
+      "url": "https://github.com/topics/claude-skill",
+      "repositories": 30,
+      "activeRepositories": 16,
+      "stars": 100495
     },
     {
       "name": "codex-skill",
       "url": "https://github.com/topics/codex-skill",
       "repositories": 30,
       "activeRepositories": 20,
-      "stars": 97631
+      "stars": 99531
     },
     {
       "name": "skill-md",
       "url": "https://github.com/topics/skill-md",
       "repositories": 30,
-      "activeRepositories": 21,
-      "stars": 95383
+      "activeRepositories": 22,
+      "stars": 97041
     },
     {
       "name": "ai-skill",
       "url": "https://github.com/topics/ai-skill",
       "repositories": 30,
-      "activeRepositories": 11,
-      "stars": 95308
+      "activeRepositories": 13,
+      "stars": 96311
     },
     {
       "name": "skills-sh",
       "url": "https://github.com/topics/skills-sh",
       "repositories": 30,
-      "activeRepositories": 20,
-      "stars": 64039
+      "activeRepositories": 19,
+      "stars": 65725
     },
     {
       "name": "openclaw-skill",
       "url": "https://github.com/topics/openclaw-skill",
       "repositories": 30,
       "activeRepositories": 16,
-      "stars": 28059
+      "stars": 28439
     },
     {
       "name": "cursor-skills",
       "url": "https://github.com/topics/cursor-skills",
       "repositories": 29,
       "activeRepositories": 12,
-      "stars": 126241
-    },
-    {
-      "name": "anthropic-skills",
-      "url": "https://github.com/topics/anthropic-skills",
-      "repositories": 29,
-      "activeRepositories": 23,
-      "stars": 2745
+      "stars": 127260
     },
     {
       "name": "openclaw",
       "url": "https://github.com/topics/openclaw",
       "repositories": 28,
-      "activeRepositories": 23,
-      "stars": 1493272
+      "activeRepositories": 22,
+      "stars": 1503937
     },
     {
       "name": "hermes-skill",
       "url": "https://github.com/topics/hermes-skill",
       "repositories": 26,
       "activeRepositories": 20,
-      "stars": 46312
-    },
-    {
-      "name": "skill-management",
-      "url": "https://github.com/topics/skill-management",
-      "repositories": 22,
-      "activeRepositories": 16,
-      "stars": 14150
+      "stars": 46816
     },
     {
       "name": "workbuddy-skill",
       "url": "https://github.com/topics/workbuddy-skill",
       "repositories": 18,
       "activeRepositories": 16,
-      "stars": 4304
+      "stars": 4307
     },
     {
       "name": "dsh-skill",
       "url": "https://github.com/topics/dsh-skill",
-      "repositories": 17,
+      "repositories": 18,
       "activeRepositories": 16,
-      "stars": 2662
+      "stars": 2942
     },
     {
       "name": "mcp-skills",
       "url": "https://github.com/topics/mcp-skills",
       "repositories": 5,
       "activeRepositories": 4,
-      "stars": 1856
-    },
-    {
-      "name": "genpark-skill",
-      "url": "https://github.com/topics/genpark-skill",
-      "repositories": 4,
-      "activeRepositories": 4,
-      "stars": 36
+      "stars": 1863
     },
     {
       "name": "karpathy-skills",
@@ -499,33 +492,40 @@
       "repositories": 2,
       "activeRepositories": 1,
       "stars": 10
+    },
+    {
+      "name": "genpark-skill",
+      "url": "https://github.com/topics/genpark-skill",
+      "repositories": 2,
+      "activeRepositories": 2,
+      "stars": 0
     }
   ],
   "categories": [
     {
       "name": "UI设计",
       "description": "界面、体验、设计系统与视觉质量工作流",
-      "count": 56
+      "count": 58
     },
     {
       "name": "编程开发",
       "description": "开发、调试、评审、测试、架构与工程交付",
-      "count": 554
+      "count": 540
     },
     {
       "name": "办公效率",
       "description": "文档、表格、邮件、日历、笔记与个人生产力",
-      "count": 106
+      "count": 109
     },
     {
       "name": "内容创作",
       "description": "图片、视频、演示、写作、音频与社交内容生产",
-      "count": 223
+      "count": 230
     },
     {
       "name": "数据分析",
       "description": "SQL、数据处理、统计、可视化与商业分析",
-      "count": 68
+      "count": 67
     },
     {
       "name": "研究学习",
@@ -540,17 +540,17 @@
     {
       "name": "安全",
       "description": "安全审计、漏洞研究、威胁分析与合规",
-      "count": 54
+      "count": 51
     },
     {
       "name": "记忆与上下文",
       "description": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-      "count": 102
+      "count": 104
     },
     {
       "name": "Agent工具与平台",
       "description": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-      "count": 287
+      "count": 293
     },
     {
       "name": "产品与商业",
@@ -560,112 +560,30 @@
     {
       "name": "技能开发",
       "description": "创建、验证、安装、管理与分发 Skills 的基础设施",
-      "count": 48
+      "count": 39
     },
     {
       "name": "技能合集",
       "description": "官方或社区维护的 Skills、插件与资源目录",
-      "count": 183
+      "count": 186
     },
     {
       "name": "其他",
       "description": "尚未归入主要类别的实用项目",
-      "count": 345
+      "count": 351
     }
   ],
   "skills": [
     {
-      "rank": 2279,
-      "id": 1359948701,
-      "name": "genpark-first-order-logic-resolution-prover-skill",
-      "fullName": "alphaparkinc/genpark-first-order-logic-resolution-prover-skill",
-      "owner": "alphaparkinc",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/135203240?v=4",
-      "url": "https://github.com/alphaparkinc/genpark-first-order-logic-resolution-prover-skill",
-      "description": "GenPark AI Agent Skill - First-Order Logic (FOL) resolution theorem prover applying Most General Unification (MGU) and refutation proof trees.",
-      "summary": "genpark-first-order-logic-resolution-prover-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "编程开发",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "软件开发",
-        "代码质量",
-        "工程自动化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/alphaparkinc/genpark-first-order-logic-resolution-prover-skill.git",
-      "language": "Python",
-      "license": "",
-      "stars": 9,
-      "score": 65.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-09-30T09:34:41Z",
-      "sourceTopics": [
-        "genpark-skill"
-      ],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/alphaparkinc/genpark-first-order-logic-resolution-prover-skill",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/alphaparkinc__genpark__first__order__logic__resolution__prover__skill.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 2280,
-      "id": 1359947610,
-      "name": "genpark-dpll-sat-solver-boolean-satisfiability-skill",
-      "fullName": "alphaparkinc/genpark-dpll-sat-solver-boolean-satisfiability-skill",
-      "owner": "alphaparkinc",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/135203240?v=4",
-      "url": "https://github.com/alphaparkinc/genpark-dpll-sat-solver-boolean-satisfiability-skill",
-      "description": "GenPark AI Agent Skill - DPLL (Davis-Putnam-Logemann-Loveland) Boolean satisfiability solver with unit clause propagation and pure literal elimination for agent policy verification.",
-      "summary": "genpark-dpll-sat-solver-boolean-satisfiability-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-      "category": "编程开发",
-      "categoryConfidence": "待复核",
-      "scenarios": [
-        "软件开发",
-        "代码质量",
-        "工程自动化"
-      ],
-      "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/alphaparkinc/genpark-dpll-sat-solver-boolean-satisfiability-skill.git",
-      "language": "Python",
-      "license": "",
-      "stars": 9,
-      "score": 65.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-09-30T09:32:30Z",
-      "sourceTopics": [
-        "genpark-skill"
-      ],
-      "platforms": [
-        "Agent Skills"
-      ],
-      "skillCount": 1,
-      "isCollection": false,
-      "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/alphaparkinc/genpark-dpll-sat-solver-boolean-satisfiability-skill",
-        "videoUrl": ""
-      },
-      "detailPath": "data/details/alphaparkinc__genpark__dpll__sat__solver__boolean__satisfiability__skill.json",
-      "catalogStatus": "active",
-      "catalogDelta": "stable"
-    },
-    {
-      "rank": 2281,
-      "id": 1359948159,
-      "name": "genpark-dpll-sat-solver-boolean-satisfiability-skill",
-      "fullName": "Alpha-Park/genpark-dpll-sat-solver-boolean-satisfiability-skill",
+      "rank": 2283,
+      "id": 1439142373,
+      "name": "genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill",
+      "fullName": "Alpha-Park/genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill",
       "owner": "Alpha-Park",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135208971?v=4",
-      "url": "https://github.com/Alpha-Park/genpark-dpll-sat-solver-boolean-satisfiability-skill",
-      "description": "GenPark AI Agent Skill - DPLL (Davis-Putnam-Logemann-Loveland) Boolean satisfiability solver with unit clause propagation and pure literal elimination for agent policy verification.",
-      "summary": "genpark-dpll-sat-solver-boolean-satisfiability-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "url": "https://github.com/Alpha-Park/genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill",
+      "description": "GenPark high-grade production skill - https://www.genpark.ai | https://www.linkedin.com/company/92955550",
+      "summary": "genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
       "category": "编程开发",
       "categoryConfidence": "待复核",
       "scenarios": [
@@ -674,13 +592,13 @@
         "工程自动化"
       ],
       "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/Alpha-Park/genpark-dpll-sat-solver-boolean-satisfiability-skill.git",
+      "installCommand": "git clone https://github.com/Alpha-Park/genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill.git",
       "language": "Python",
-      "license": "",
-      "stars": 9,
-      "score": 65.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-09-30T09:33:26Z",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "score": 66,
+      "activity": "本周活跃",
+      "pushedAt": "2026-10-30T01:27:02Z",
       "sourceTopics": [
         "genpark-skill"
       ],
@@ -690,23 +608,23 @@
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/Alpha-Park/genpark-dpll-sat-solver-boolean-satisfiability-skill",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/Alpha-Park/genpark-agentic-commerce-e-invoicing-peppol-bis-billing-3-ubl-sanitizer-skill",
         "videoUrl": ""
       },
-      "detailPath": "data/details/alpha__park__genpark__dpll__sat__solver__boolean__satisfiability__skill.json",
+      "detailPath": "data/details/alpha__park__genpark__agentic__commerce__e__invoicing__peppol__bis__billing__3__ubl__sanitizer__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable"
+      "catalogDelta": "new"
     },
     {
-      "rank": 2282,
-      "id": 1359949359,
-      "name": "genpark-first-order-logic-resolution-prover-skill",
-      "fullName": "Alpha-Park/genpark-first-order-logic-resolution-prover-skill",
+      "rank": 2284,
+      "id": 1439132611,
+      "name": "genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill",
+      "fullName": "Alpha-Park/genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill",
       "owner": "Alpha-Park",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135208971?v=4",
-      "url": "https://github.com/Alpha-Park/genpark-first-order-logic-resolution-prover-skill",
-      "description": "GenPark AI Agent Skill - First-Order Logic (FOL) resolution theorem prover applying Most General Unification (MGU) and refutation proof trees.",
-      "summary": "genpark-first-order-logic-resolution-prover-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+      "url": "https://github.com/Alpha-Park/genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill",
+      "description": "GenPark high-grade production skill - https://www.genpark.ai | https://www.linkedin.com/company/92955550",
+      "summary": "genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
       "category": "编程开发",
       "categoryConfidence": "待复核",
       "scenarios": [
@@ -715,13 +633,13 @@
         "工程自动化"
       ],
       "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-      "installCommand": "git clone https://github.com/Alpha-Park/genpark-first-order-logic-resolution-prover-skill.git",
+      "installCommand": "git clone https://github.com/Alpha-Park/genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill.git",
       "language": "Python",
-      "license": "",
-      "stars": 9,
-      "score": 65.7,
-      "activity": "本月活跃",
-      "pushedAt": "2026-09-30T09:36:40Z",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "score": 66,
+      "activity": "本周活跃",
+      "pushedAt": "2026-10-30T01:12:39Z",
       "sourceTopics": [
         "genpark-skill"
       ],
@@ -731,12 +649,12 @@
       "skillCount": 1,
       "isCollection": false,
       "media": {
-        "socialPreview": "https://opengraph.githubassets.com/skillhot/Alpha-Park/genpark-first-order-logic-resolution-prover-skill",
+        "socialPreview": "https://opengraph.githubassets.com/skillhot/Alpha-Park/genpark-personal-agent-cardiac-stroke-volume-variance-hemodynamic-skill",
         "videoUrl": ""
       },
-      "detailPath": "data/details/alpha__park__genpark__first__order__logic__resolution__prover__skill.json",
+      "detailPath": "data/details/alpha__park__genpark__personal__agent__cardiac__stroke__volume__variance__hemodynamic__skill.json",
       "catalogStatus": "active",
-      "catalogDelta": "stable"
+      "catalogDelta": "new"
     }
   ]
 }

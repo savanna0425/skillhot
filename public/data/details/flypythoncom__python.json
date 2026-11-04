@@ -1,5 +1,5 @@
 {
-  "rank": 1034,
+  "rank": 798,
   "id": 5698643,
   "name": "python",
   "fullName": "flypythoncom/python",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/flypythoncom/python.git",
+  "installCommand": "git clone https://github.com/flypythoncom/python.git\ncd python\npython examples/product-slug/verify.py starter --expect-failure",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 4177,
-  "forks": 1415,
+  "stars": 4182,
+  "forks": 1416,
   "openIssues": 3,
-  "score": 109.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-22T16:18:14Z",
-  "updatedAt": "2026-11-03T06:39:06Z",
+  "score": 116.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-04T06:04:12Z",
+  "updatedAt": "2026-11-04T06:04:15Z",
   "createdAt": "2012-09-06T07:00:59Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -49,7 +49,8 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -81,8 +82,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-03T06:57:19.802Z",
-    "sourceHash": "35405997452ceabe",
+    "generatedAt": "2026-11-04T06:37:37.761Z",
+    "sourceHash": "8570767de9ec945d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

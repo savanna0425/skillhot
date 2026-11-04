@@ -1,5 +1,5 @@
 {
-  "rank": 44,
+  "rank": 42,
   "id": 159152904,
   "name": "JeecgBoot",
   "fullName": "jeecgboot/JeecgBoot",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/86360035?v=4",
   "url": "https://github.com/jeecgboot/JeecgBoot",
   "homepage": "https://jeecg.com",
-  "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
-  "summary": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。",
+  "summary": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "人工复核",
@@ -19,16 +19,16 @@
     "Java 低代码"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jeecgboot/JeecgBoot.git",
+  "installCommand": "git clone https://github.com/jeecgboot/JeecgBoot.git\ncd JeecgBoot\n./start-docker-compose.sh        # Windows 使用 start-docker-compose.bat",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 48364,
-  "forks": 16224,
+  "stars": 48368,
+  "forks": 16223,
   "openIssues": 10,
   "score": 154.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T01:31:30Z",
-  "updatedAt": "2026-11-03T03:57:15Z",
+  "pushedAt": "2026-11-04T03:02:21Z",
+  "updatedAt": "2026-11-04T06:24:23Z",
   "createdAt": "2018-11-26T10:40:00Z",
   "sourceTopics": [
     "skills"
@@ -62,7 +62,8 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -94,14 +95,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-03T06:57:19.802Z",
-    "sourceHash": "d55a37880f1b1263",
+    "generatedAt": "2026-11-04T06:37:37.761Z",
+    "sourceHash": "d6150b488acc3470",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -118,7 +119,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
