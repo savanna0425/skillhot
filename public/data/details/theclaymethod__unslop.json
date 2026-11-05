@@ -1,17 +1,17 @@
 {
-  "rank": 2282,
-  "id": 1227383057,
-  "name": "viral-copywriting-skill",
-  "fullName": "kangarooking/viral-copywriting-skill",
-  "owner": "kangarooking",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/52196004?v=4",
-  "url": "https://github.com/kangarooking/viral-copywriting-skill",
+  "rank": 1785,
+  "id": 1152852420,
+  "name": "unslop",
+  "fullName": "theclaymethod/unslop",
+  "owner": "theclaymethod",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3680230?v=4",
+  "url": "https://github.com/theclaymethod/unslop",
   "homepage": "",
-  "description": "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包",
-  "summary": "viral-copywriting-skill：把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "An agent skill to de-AI your writing",
+  "summary": "unslop：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,48 +19,37 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kangarooking/viral-copywriting-skill.git",
-  "language": "",
-  "license": "MIT",
-  "stars": 81,
-  "forks": 12,
-  "openIssues": 0,
-  "score": 66,
-  "activity": "活跃",
-  "pushedAt": "2026-05-02T15:55:20Z",
-  "updatedAt": "2026-11-04T03:35:09Z",
-  "createdAt": "2026-05-02T15:55:16Z",
-  "sourceTopics": [
-    "ai-skills"
-  ],
+  "installCommand": "git clone https://github.com/theclaymethod/unslop.git",
+  "language": "Python",
+  "license": "",
+  "stars": 845,
+  "forks": 42,
+  "openIssues": 9,
+  "score": 93.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-09-07T22:45:24Z",
+  "updatedAt": "2026-11-05T06:29:40Z",
+  "createdAt": "2026-02-08T14:38:42Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-workflows",
-    "ai-skills",
-    "book-to-skill",
-    "cangjie-skill",
-    "conversion-copywriting",
-    "copywriting",
-    "marketing",
-    "sales-copy"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kangarooking/viral-copywriting-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/theclaymethod/unslop",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kangarooking/viral-copywriting-skill#readme",
-  "detailPath": "data/details/kangarooking__viral__copywriting__skill.json",
+  "readmeUrl": "https://github.com/theclaymethod/unslop#readme",
+  "detailPath": "data/details/theclaymethod__unslop.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包",
+    "summary": "unslop：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -76,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "c641bccd0142ce24",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "bc4c4e0fda444e01",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "viral-copywriting-skill：把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "viral-copywriting-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "unslop：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "unslop 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -126,7 +115,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 829,
+  "rank": 1051,
   "id": 1155594962,
   "name": "desloppify",
   "fullName": "peteromallet/desloppify",
@@ -8,7 +8,7 @@
   "url": "https://github.com/peteromallet/desloppify",
   "homepage": "https://desloppify.it/",
   "description": "Agent harness to make your slop code well-engineered and beautiful.",
-  "summary": "desloppify：为让您的代码更加健壮且美观，我们提供 Agent 工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "summary": "desloppify：为让您的代码更加健壮且美观，我们提供 Agent 工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/peteromallet/desloppify.git",
   "language": "Python",
   "license": "NOASSERTION",
-  "stars": 4012,
-  "forks": 309,
-  "openIssues": 307,
-  "score": 116.5,
-  "activity": "本周活跃",
+  "stars": 4073,
+  "forks": 311,
+  "openIssues": 310,
+  "score": 109.7,
+  "activity": "本月活跃",
   "pushedAt": "2026-10-27T12:47:12Z",
-  "updatedAt": "2026-11-04T06:22:45Z",
+  "updatedAt": "2026-11-05T05:33:21Z",
   "createdAt": "2026-02-11T17:27:42Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,11 +38,7 @@
     "agent-harness"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -74,13 +70,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "c47493c3b20e48ad",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "ec03b2942025bc60",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "desloppify：为让您的代码更加健壮且美观，我们提供 Agent 工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "desloppify：为让您的代码更加健壮且美观，我们提供 Agent 工具。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "desloppify 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
@@ -98,7 +94,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",

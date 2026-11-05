@@ -19,16 +19,16 @@
     "日常生产力"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/alirezarezvani/claude-skills.git\ncd claude-skills\n./scripts/gemini-install.sh",
+  "installCommand": "npx skills add alirezarezvani/claude-skills",
   "language": "Python",
   "license": "MIT",
-  "stars": 29255,
-  "forks": 4062,
+  "stars": 29313,
+  "forks": 4071,
   "openIssues": 1,
   "score": 161.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-03T17:59:48Z",
-  "updatedAt": "2026-11-04T06:22:31Z",
+  "pushedAt": "2026-11-05T06:46:51Z",
+  "updatedAt": "2026-11-05T06:07:44Z",
   "createdAt": "2025-10-19T04:04:05Z",
   "sourceTopics": [
     "agent-skills",
@@ -71,10 +71,10 @@
     "Codex",
     "Cursor",
     "Gemini CLI",
-    "OpenClaw",
-    "OpenCode"
+    "GitHub Copilot",
+    "OpenClaw"
   ],
-  "skillCount": 345,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/alirezarezvani/claude-skills",
@@ -104,8 +104,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "8d18b9c0b9076f10",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "f5a12cbfa411c614",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -138,7 +138,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 345+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

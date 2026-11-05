@@ -1,14 +1,14 @@
 {
-  "rank": 1962,
-  "id": 1293640519,
-  "name": "Miko",
-  "fullName": "OpenAisec/Miko",
-  "owner": "OpenAisec",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/294683646?v=4",
-  "url": "https://github.com/OpenAisec/Miko",
+  "rank": 929,
+  "id": 1441526188,
+  "name": "claude-animated-shorts",
+  "fullName": "mromidev/claude-animated-shorts",
+  "owner": "mromidev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/233344575?v=4",
+  "url": "https://github.com/mromidev/claude-animated-shorts",
   "homepage": "",
-  "description": "",
-  "summary": "Miko：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+  "summary": "claude-animated-shorts：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/OpenAisec/Miko.git",
+  "installCommand": "git clone https://github.com/mromidev/claude-animated-shorts.git",
   "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 901,
-  "forks": 50,
+  "license": "MIT",
+  "stars": 1583,
+  "forks": 354,
   "openIssues": 5,
-  "score": 86,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-06T03:59:15Z",
-  "updatedAt": "2026-11-04T05:05:47Z",
-  "createdAt": "2026-07-08T13:31:20Z",
+  "score": 114.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-01T05:57:14Z",
+  "updatedAt": "2026-11-05T06:53:01Z",
+  "createdAt": "2026-11-01T05:50:38Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenAisec/Miko",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mromidev/claude-animated-shorts",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/OpenAisec/Miko#readme",
-  "detailPath": "data/details/openaisec__miko.json",
+  "readmeUrl": "https://github.com/mromidev/claude-animated-shorts#readme",
+  "detailPath": "data/details/mromidev__claude__animated__shorts.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Miko：尚未归入主要类别的实用项目。",
+    "summary": "claude-animated-shorts：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "41229bdf831b0342",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "00d31cbe2df83ebf",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Miko：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Miko 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "claude-animated-shorts：尚未归入主要类别的实用项目。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "claude-animated-shorts 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

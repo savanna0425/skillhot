@@ -19,16 +19,16 @@
     "长期记忆"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "**Core** provides foundation tools. **Console** opens the agent cockpit. **Mods** add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing.\n<img src=\"docs/assets/readme/icons/terminal.svg\" width=\"28\" height=\"28\" alt=\"\"> **Using Codex or another MCP enabled tool?** Use NPX for Ruflo p",
+  "installCommand": "From a terminal on Claude Code 2.1.292 or later, one command adds the marketplace and installs a plugin: `claude plugin install ruflo-core@ruflo --marketplace ruvnet/ruflo`.\n**Core** provides foundation tools. **Console** opens the agent cockpit. **Mods** add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review ",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 80820,
-  "forks": 9485,
-  "openIssues": 1001,
+  "stars": 80910,
+  "forks": 9514,
+  "openIssues": 1073,
   "score": 155.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-03T04:52:09Z",
-  "updatedAt": "2026-11-04T06:27:56Z",
+  "pushedAt": "2026-11-05T04:50:54Z",
+  "updatedAt": "2026-11-05T06:50:15Z",
   "createdAt": "2025-06-02T21:24:20Z",
   "sourceTopics": [
     "skills",
@@ -94,8 +94,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "289583670e23ea60",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "9d73c6d30cf6e8f1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

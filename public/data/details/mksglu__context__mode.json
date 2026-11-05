@@ -1,12 +1,12 @@
 {
-  "rank": 65,
+  "rank": 66,
   "id": 1164477708,
   "name": "context-mode",
   "fullName": "mksglu/context-mode",
   "owner": "mksglu",
   "avatarUrl": "https://avatars.githubusercontent.com/u/6067714?v=4",
   "url": "https://github.com/mksglu/context-mode",
-  "homepage": "https://contextmode.ai/?utm_source=github&utm_medium=about",
+  "homepage": "https://contextmode.ai",
   "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
   "summary": "context-mode：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/mksglu/context-mode.git\ncd context-mode\nnpm run install:openclaw",
-  "language": "TypeScript",
+  "installCommand": "claude plugin marketplace add mksglu/context-mode\nclaude plugin install context-mode@context-mode",
+  "language": "JavaScript",
   "license": "NOASSERTION",
-  "stars": 33409,
-  "forks": 2301,
-  "openIssues": 354,
+  "stars": 33510,
+  "forks": 2303,
+  "openIssues": 4,
   "score": 150.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-04T00:08:04Z",
-  "updatedAt": "2026-11-04T06:19:24Z",
+  "pushedAt": "2026-11-05T03:24:00Z",
+  "updatedAt": "2026-11-05T06:52:56Z",
   "createdAt": "2026-02-23T05:56:28Z",
   "sourceTopics": [
     "skills",
@@ -37,6 +37,7 @@
   ],
   "discoveredBy": [
     "GitHub Topics",
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -99,8 +100,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-04T06:37:37.761Z",
-    "sourceHash": "1e8bd69a3aa04b15",
+    "generatedAt": "2026-11-05T06:58:20.867Z",
+    "sourceHash": "687cd868fec362ac",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
