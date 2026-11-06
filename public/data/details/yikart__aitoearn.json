@@ -1,5 +1,5 @@
 {
-  "rank": 253,
+  "rank": 136,
   "id": 937970237,
   "name": "AiToEarn",
   "fullName": "yikart/AiToEarn",
@@ -8,7 +8,7 @@
   "url": "https://github.com/yikart/AiToEarn",
   "homepage": "https://aitoearn.ai/",
   "description": "Let's use AI to Earn!",
-  "summary": "AiToEarn：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+  "summary": "AiToEarn：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,26 +22,35 @@
   "installCommand": "git clone https://github.com/yikart/AiToEarn.git",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 27284,
-  "forks": 4522,
-  "openIssues": 20,
-  "score": 136.5,
+  "stars": 27338,
+  "forks": 4533,
+  "openIssues": 5,
+  "score": 144.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-05T03:19:44Z",
-  "updatedAt": "2026-11-05T05:21:39Z",
+  "pushedAt": "2026-11-06T06:21:03Z",
+  "updatedAt": "2026-11-06T06:52:09Z",
   "createdAt": "2025-02-24T08:03:24Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "agent-skills",
+    "codex-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
     "auto-publish",
+    "codex-skills",
     "douyin",
     "douyin-api",
+    "dsh-plugin",
     "electron-app",
     "electron-react",
     "kuaishou",
     "kwai",
+    "mcp",
+    "mcp-server",
     "published",
     "shipinhao",
     "tool",
@@ -49,6 +58,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor"
   ],
   "skillCount": 1,
@@ -60,7 +70,7 @@
   "readmeUrl": "https://github.com/yikart/AiToEarn#readme",
   "detailPath": "data/details/yikart__aitoearn.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "AiToEarn 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
@@ -81,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-05T06:58:20.867Z",
-    "sourceHash": "cbc2d7057d46814d",
+    "generatedAt": "2026-11-06T06:58:21.755Z",
+    "sourceHash": "e80f16786759596b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AiToEarn：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "AiToEarn：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "AiToEarn 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -105,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

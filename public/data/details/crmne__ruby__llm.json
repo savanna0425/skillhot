@@ -1,5 +1,5 @@
 {
-  "rank": 757,
+  "rank": 761,
   "id": 924568745,
   "name": "ruby_llm",
   "fullName": "crmne/ruby_llm",
@@ -8,7 +8,7 @@
   "url": "https://github.com/crmne/ruby_llm",
   "homepage": "https://rubyllm.com/",
   "description": "The Ruby AI framework.",
-  "summary": "ruby_llm：提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "ruby_llm：提供记忆、上下文管理或知识检索能力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/crmne/ruby_llm.git",
   "language": "Ruby",
   "license": "MIT",
-  "stars": 4494,
-  "forks": 531,
-  "openIssues": 0,
+  "stars": 4496,
+  "forks": 534,
+  "openIssues": 3,
   "score": 117.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-04T23:22:21Z",
-  "updatedAt": "2026-11-04T23:22:23Z",
+  "pushedAt": "2026-11-06T06:52:20Z",
+  "updatedAt": "2026-11-06T06:51:32Z",
   "createdAt": "2025-01-30T08:58:19Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,6 +57,7 @@
     "tool-calling"
   ],
   "platforms": [
+    "Claude",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -89,13 +90,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-05T06:58:20.867Z",
-    "sourceHash": "ce2f2cfb819ef071",
+    "generatedAt": "2026-11-06T06:58:21.755Z",
+    "sourceHash": "4276503e1efa71ca",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ruby_llm：提供记忆、上下文管理或知识检索能力。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "ruby_llm：提供记忆、上下文管理或知识检索能力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "ruby_llm 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
@@ -113,7 +114,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",

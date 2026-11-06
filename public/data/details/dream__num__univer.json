@@ -1,5 +1,5 @@
 {
-  "rank": 284,
+  "rank": 290,
   "id": 543101941,
   "name": "univer",
   "fullName": "dream-num/univer",
@@ -7,28 +7,28 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/61444807?v=4",
   "url": "https://github.com/dream-num/univer",
   "homepage": "https://univer.ai",
-  "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-  "summary": "univer：图片、视频、演示、写作、音频与社交内容生产。适合在 OpenClaw 相关工作流里先做选型判断。",
-  "category": "内容创作",
-  "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
+  "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+  "summary": "univer：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "category": "办公效率",
+  "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
-    "内容生产",
-    "视觉创作",
-    "多媒体工作流"
+    "文档与表格",
+    "邮件与日历",
+    "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pnpm add @univerjs/core @univerjs/design @univerjs/docs @univerjs/docs-ui @univerjs/engine-formula @univerjs/engine-render @univerjs/sheets @univerjs/sheets-formula @univerjs/sheets-formula-ui @univerjs/sheets-numfmt @univerjs/sheets-numfmt-ui @univerjs/sheets-ui @univerjs/ui",
+  "installCommand": "pnpm add @univerjs/presets @univerjs/preset-sheets-core",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 22894,
-  "forks": 1922,
-  "openIssues": 153,
+  "stars": 22903,
+  "forks": 1924,
+  "openIssues": 155,
   "score": 134.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-05T06:33:20Z",
-  "updatedAt": "2026-11-05T06:33:24Z",
+  "pushedAt": "2026-11-06T06:19:18Z",
+  "updatedAt": "2026-11-06T06:35:20Z",
   "createdAt": "2022-09-29T12:09:14Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -50,13 +50,14 @@
     "sheet",
     "slides",
     "spreadsheet",
+    "univer",
     "word",
     "wordprocessor",
     "workspace",
     "xlsx"
   ],
   "platforms": [
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -69,18 +70,18 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "univer：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "univer：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
-      "内容生产",
-      "视觉创作",
-      "多媒体工作流"
+      "文档与表格",
+      "邮件与日历",
+      "个人生产力"
     ],
     "expectedEffects": [
       "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要图片、视频、演示、写作、音频与社交内容生产能力的用户",
+      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -88,51 +89,51 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-05T06:58:20.867Z",
-    "sourceHash": "9a6f116e882579e3",
+    "generatedAt": "2026-11-06T06:58:21.755Z",
+    "sourceHash": "08713e20c6cb7e62",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "univer：图片、视频、演示、写作、音频与社交内容生产。适合在 OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "univer 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "univer：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "univer 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
-      "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
-      "同一套内容风格难以稳定复用。",
-      "创作任务需要把素材、脚本、生成和发布流程串起来。",
-      "如果你的任务和「内容生产」有关，它能帮你先建立一个可试用的入口。"
+      "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
+      "不同办公工具之间的信息流转需要手动复制、整理和检查。",
+      "用户想把个人工作流交给 Agent 承接，但缺少现成入口。",
+      "如果你的任务和「文档与表格」有关，它能帮你先建立一个可试用的入口。"
     ],
     "coreCapabilities": [
-      "辅助生成或整理图文、视频、演示、脚本、字幕、音频等内容。",
-      "把创作步骤、风格要求或发布流程沉淀成 Agent 可调用能力。",
-      "帮助你先判断它是否适合当前内容生产任务。",
+      "辅助处理文档、表格、邮件、笔记、PDF 或日程相关任务。",
+      "把常见办公流程封装成更容易调用的 Agent 能力。",
+      "帮助你判断它是否能接入自己的日常工具链。",
       "把仓库公开信息、平台和安装入口集中展示，减少你在 GitHub 来回翻找。"
     ],
     "bestFor": [
-      "内容创作者、运营、设计师和需要频繁产出素材的人。",
-      "用 Agent 做短视频、PPT、封面、文案或图文的人。",
-      "想把固定内容流程模板化的小团队。",
-      "正在使用 OpenClaw 等 Agent 工具链的人。"
+      "经常处理文档、知识库、邮件或会议资料的人。",
+      "希望用 Agent 降低重复办公成本的个人或团队。",
+      "需要把资料整理流程标准化的人。",
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
-      "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
-      "只想要一键生成所有内容且不参与编辑的人。"
+      "需要严格企业级权限审计但尚未核对安全边界的场景。",
+      "只想找传统办公软件替代品、不打算使用 Agent 的人。"
     ],
     "howItWorks": [
-      "通常通过模板、提示词、脚本、Skill 或生成工具串联创作流程。",
-      "用户提供主题、素材或目标平台后，让 Agent 生成初稿或半成品。",
-      "最终发布前仍需要人工审稿、校对和版权检查。",
+      "通常通过 API、CLI、插件或 Skill 与办公工具连接。",
+      "用户授权或配置后，让 Agent 执行整理、生成、查询或同步任务。",
+      "涉及个人数据时，需要自己确认权限和隐私设置。",
       "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
-      "先看 README 里的输入格式和示例输出。",
-      "用一条低风险内容试做，观察风格是否符合你的账号定位。",
-      "确认可编辑性和导出格式后再纳入正式流程。"
+      "先确认它支持你正在用的办公平台。",
+      "用不敏感的测试文档或样例数据试跑。",
+      "再决定是否接入真实邮箱、日历、文档或知识库。"
     ],
     "expectedOutcome": [
-      "从选题到初稿的速度更快。",
-      "内容风格更容易保持一致。",
-      "重复性创作流程可以被复用。"
+      "重复整理工作减少。",
+      "资料查找、生成和同步更快。",
+      "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
       "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",

@@ -1,5 +1,5 @@
 {
-  "rank": 83,
+  "rank": 32,
   "id": 1025856648,
   "name": "agents",
   "fullName": "wshobson/agents",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/553618?v=4",
   "url": "https://github.com/wshobson/agents",
   "homepage": "https://sethhobson.com",
-  "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-  "summary": "agents 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+  "summary": "agents：面向多种编程智能体的插件与技能市场。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "人工复核",
@@ -22,13 +22,13 @@
   "installCommand": "The native Codex manifests expose source skills. The generated TOML agents and command-derived skills use a separate adapter path. Native installation also reads the original skill bodies, while generated copies split oversized bodies into reference files for the 8 KB budget. See the [Codex setup details](docs/harnesses.md#native-install) before choosing an ",
   "language": "Python",
   "license": "MIT",
-  "stars": 42221,
-  "forks": 4460,
-  "openIssues": 9,
-  "score": 149,
+  "stars": 42246,
+  "forks": 4463,
+  "openIssues": 6,
+  "score": 157,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T01:08:47Z",
-  "updatedAt": "2026-11-05T06:34:13Z",
+  "pushedAt": "2026-11-05T15:57:30Z",
+  "updatedAt": "2026-11-06T05:08:33Z",
   "createdAt": "2025-07-24T23:28:14Z",
   "sourceTopics": [
     "agent-skills",
@@ -70,7 +70,7 @@
     "Antigravity"
   ],
   "skillCount": 185,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/wshobson/agents",
     "videoUrl": ""
@@ -87,11 +87,11 @@
       "工程自动化"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要Agent 客户端、模型切换、网关、运行环境与编排平台能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
@@ -99,14 +99,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-05T06:58:20.867Z",
-    "sourceHash": "623514a864bd01f4",
+    "generatedAt": "2026-11-06T06:58:21.755Z",
+    "sourceHash": "872d63f911e4c416",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agents 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "agents 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "agents：面向多种编程智能体的插件与技能市场。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "agents 可以先理解为一个「Agent 工具或运行平台」。它围绕「多智能体编排」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",

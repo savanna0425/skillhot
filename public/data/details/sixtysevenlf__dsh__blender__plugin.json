@@ -1,5 +1,5 @@
 {
-  "rank": 911,
+  "rank": 902,
   "id": 1368569221,
   "name": "dsh-blender-plugin",
   "fullName": "sixtysevenlf/dsh-blender-plugin",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/266081372?v=4",
   "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
   "homepage": "",
-  "description": "DSH × Blender 直连实时插件 v2.6.1：15 个模型工具让 AI 驱动 GUI Blender；支持 dsh-TUI（选中 chip / 页脚状态 / @ 提及 / /blender），活动状态置顶并可一键暂停 AI，原生选中/集合/子元素直送 DSH，随包建模 skill，支持 WSL / Windows / macOS。",
-  "summary": "dsh-blender-plugin：DSH × Blender 直连实时插件 v2.6.1：15 个模型工具让 AI 驱动 GUI Blender；支持 dsh-TUI（选中 chip / 页脚状态 / @ 提及 / /blender），活动状态置顶并可一键暂停 AI，原生选。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层；npm 安装 + addon zip，GUI 优先、无头备用；dsh-TUI 选中 chip / @ 提及 / /blender，随包建模 skill，支持 WSL / Windows / macOS。",
+  "summary": "dsh-blender-plugin：DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/sixtysevenlf/dsh-blender-plugin.git",
   "language": "Python",
   "license": "BSD-3-Clause",
-  "stars": 1629,
-  "forks": 64,
+  "stars": 1647,
+  "forks": 65,
   "openIssues": 3,
-  "score": 115.1,
+  "score": 115.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-04T23:28:48Z",
-  "updatedAt": "2026-11-05T06:45:53Z",
+  "pushedAt": "2026-11-06T06:21:21Z",
+  "updatedAt": "2026-11-06T06:53:03Z",
   "createdAt": "2026-09-13T16:07:04Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -59,7 +59,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "DSH × Blender 直连实时插件 v2.6.1：15 个模型工具让 AI 驱动 GUI Blender；支持 dsh-TUI（选中 chip / 页脚状态 / @ 提及 / /blender），活动状态置顶并可一键暂停 AI，原生选",
+    "summary": "DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层；",
     "useCases": [
       "重复任务",
       "浏览器操作",
@@ -78,13 +78,13 @@
       "许可证为 BSD-3-Clause，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-05T06:58:20.867Z",
-    "sourceHash": "a9d9065d75e4aa90",
+    "generatedAt": "2026-11-06T06:58:21.755Z",
+    "sourceHash": "4f40d95b44bde70b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dsh-blender-plugin：DSH × Blender 直连实时插件 v2.6.1：15 个模型工具让 AI 驱动 GUI Blender；支持 dsh-TUI（选中 chip / 页脚状态 / @ 提及 / /blender），活动状态置顶并可一键暂停 AI，原生选。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "dsh-blender-plugin：DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "dsh-blender-plugin 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
