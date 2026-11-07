@@ -1,5 +1,5 @@
 {
-  "rank": 188,
+  "rank": 190,
   "id": 1158692577,
   "name": "one-skill-to-rule-them-all",
   "fullName": "rebelytics/one-skill-to-rule-them-all",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/261660926?v=4",
   "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
   "homepage": "https://www.rebelytics.com/task-observer/",
-  "description": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonomous or human-led), captures patterns, corrections and judgement calls, and turns them into skill improvements and new skill candidates for your review. Practical application of the Augmented Expertise methodology. Open source: CC BY 4.0.",
+  "description": "The meta-skill that improves your skills, including itself. Turns the corrections, judgement calls and repeated workflows of your sessions (autonomous or human-led) into small skill updates and new skill candidates, each with its evidence and reason. Nothing touches a skill until you approve it. Augmented Expertise in practice. CC BY 4.0.",
   "summary": "one-skill-to-rule-them-all：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
-  "categoryConfidence": "高",
-  "categoryReason": "(?:create|generate|convert|build|validate|package|inst",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "创建技能",
     "组织工作流",
@@ -22,20 +22,21 @@
   "installCommand": "git clone https://github.com/rebelytics/one-skill-to-rule-them-all.git",
   "language": "Markdown",
   "license": "CC-BY-4.0",
-  "stars": 3751,
-  "forks": 371,
-  "openIssues": 27,
+  "stars": 3764,
+  "forks": 376,
+  "openIssues": 24,
   "score": 139.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-02T16:12:25Z",
-  "updatedAt": "2026-11-06T06:18:26Z",
+  "pushedAt": "2026-11-06T15:24:06Z",
+  "updatedAt": "2026-11-07T05:19:09Z",
   "createdAt": "2026-02-15T19:18:12Z",
   "sourceTopics": [
     "skills",
     "claude-skills",
     "ai-skills",
     "claude-code-skills",
-    "claude-code-skill"
+    "claude-code-skill",
+    "skill-management"
   ],
   "discoveredBy": [
     "GitHub Topics",
@@ -65,7 +66,7 @@
     "Claude",
     "OpenClaw"
   ],
-  "skillCount": 84,
+  "skillCount": 86,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/rebelytics/one-skill-to-rule-them-all",
@@ -95,8 +96,8 @@
       "许可证为 CC-BY-4.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-06T06:58:21.755Z",
-    "sourceHash": "4027a5168791fe2b",
+    "generatedAt": "2026-11-07T06:09:23.296Z",
+    "sourceHash": "93f0790b20524d13",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -129,7 +130,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "仓库信息显示它包含 84+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 86+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

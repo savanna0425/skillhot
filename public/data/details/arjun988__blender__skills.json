@@ -1,5 +1,5 @@
 {
-  "rank": 1634,
+  "rank": 645,
   "id": 1289817225,
   "name": "blender-skills",
   "fullName": "arjun988/blender-skills",
@@ -19,22 +19,23 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/arjun988/blender-skills.git",
+  "installCommand": "git clone https://github.com/arjun988/blender-skills.git\ncp -r blender-skills/.claude/skills /path/to/your/project/.claude/skills/",
   "language": "TypeScript",
   "license": "MIT",
-  "stars": 1944,
-  "forks": 168,
+  "stars": 1995,
+  "forks": 171,
   "openIssues": 3,
-  "score": 98,
-  "activity": "活跃",
-  "pushedAt": "2026-07-10T17:55:21Z",
-  "updatedAt": "2026-11-06T06:45:54Z",
+  "score": 121.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-06T08:42:41Z",
+  "updatedAt": "2026-11-07T05:37:52Z",
   "createdAt": "2026-07-05T08:36:06Z",
   "sourceTopics": [
     "claude-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub Topics",
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "3d-models",
@@ -54,7 +55,7 @@
     "Codex",
     "Cursor"
   ],
-  "skillCount": 1,
+  "skillCount": 94,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/arjun988/blender-skills",
@@ -84,8 +85,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-06T06:58:21.755Z",
-    "sourceHash": "c85ec4d9e06dfdb3",
+    "generatedAt": "2026-11-07T06:09:23.296Z",
+    "sourceHash": "fe951f68273bba8f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -118,7 +119,7 @@
       "通常通过桌面端、CLI、Web 服务、MCP 或配置文件连接模型和工具。",
       "用户配置模型服务、权限和项目后，在平台里发起任务。",
       "稳定性取决于模型服务、插件生态和本地/云端配置。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 94+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先确认它支持你常用的模型和 Agent 客户端。",

@@ -1,5 +1,5 @@
 {
-  "rank": 508,
+  "rank": 509,
   "id": 1078171437,
   "name": "raptor",
   "fullName": "gadievron/raptor",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/gadievron/raptor.git\ncd raptor\nuv sync --locked",
+  "installCommand": "git clone --branch v3.1.0 https://github.com/gadievron/raptor.git\ncd raptor\ndocker pull docker.io/danielcuthbert/raptor:latest@sha256:1887536162310b2ba841d4036f80b769dfcd4343a21a0d79985fec9f6a8bc1f2",
   "language": "Python",
   "license": "NOASSERTION",
   "stars": 3976,
-  "forks": 603,
-  "openIssues": 28,
+  "forks": 604,
+  "openIssues": 29,
   "score": 124.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-06T02:28:38Z",
-  "updatedAt": "2026-11-06T02:28:42Z",
+  "pushedAt": "2026-11-07T01:58:44Z",
+  "updatedAt": "2026-11-07T01:58:49Z",
   "createdAt": "2025-10-17T10:10:40Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -68,8 +68,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-06T06:58:21.755Z",
-    "sourceHash": "52039bb7abcae09a",
+    "generatedAt": "2026-11-07T06:09:23.296Z",
+    "sourceHash": "8a6ef9675444e255",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

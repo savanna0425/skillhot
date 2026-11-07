@@ -1,5 +1,5 @@
 {
-  "rank": 961,
+  "rank": 958,
   "id": 1305058794,
   "name": "novel-to-game",
   "fullName": "zenstory-ai/novel-to-game",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/novel-to-game",
   "homepage": "https://zenstory.ai/novel-to-game",
-  "description": "Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game), from systems games to interactive fiction and interactive film (互动影游): cited design docs, target-runtime builds, evidence-based QA. Two playable browser examples. For Claude Code, Codex, and Kimi Code.",
-  "summary": "novel-to-game：Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game), from systems games to interactive fi。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
+  "summary": "novel-to-game：把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,19 +22,20 @@
   "installCommand": "git clone https://github.com/zenstory-ai/novel-to-game.git",
   "language": "Markdown",
   "license": "MIT",
-  "stars": 972,
+  "stars": 977,
   "forks": 134,
   "openIssues": 0,
-  "score": 113.8,
+  "score": 113.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-05T16:28:29Z",
-  "updatedAt": "2026-11-05T23:55:15Z",
+  "pushedAt": "2026-11-06T12:28:53Z",
+  "updatedAt": "2026-11-07T03:18:50Z",
   "createdAt": "2026-07-18T16:29:56Z",
   "sourceTopics": [
     "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics",
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -74,7 +75,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game), from systems games to interactive fi",
+    "summary": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels ",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -93,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-06T06:58:21.755Z",
-    "sourceHash": "fdaded645770320b",
+    "generatedAt": "2026-11-07T06:09:23.296Z",
+    "sourceHash": "fd62db7c154ebfe9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "novel-to-game：Agent skills for source-grounded novel-to-game adaptation (小说改编游戏 / story to game), from systems games to interactive fi。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "novel-to-game：把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "novel-to-game 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
