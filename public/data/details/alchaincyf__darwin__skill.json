@@ -1,5 +1,5 @@
 {
-  "rank": 908,
+  "rank": 363,
   "id": 1209268581,
   "name": "darwin-skill",
   "fullName": "alchaincyf/darwin-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/alchaincyf/darwin-skill",
   "homepage": "",
   "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
-  "summary": "darwin-skill：达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert。适合在 Claude 相关工作流里先做选型判断。",
+  "summary": "darwin-skill：达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,24 +19,47 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alchaincyf/darwin-skill.git",
+  "installCommand": "npx skills add alchaincyf/darwin-skill",
   "language": "HTML",
   "license": "MIT",
-  "stars": 6831,
+  "stars": 6837,
   "forks": 709,
   "openIssues": 7,
-  "score": 115,
+  "score": 131.1,
   "activity": "近期活跃",
   "pushedAt": "2026-09-18T13:16:41Z",
-  "updatedAt": "2026-11-07T05:57:48Z",
+  "updatedAt": "2026-11-08T06:04:00Z",
   "createdAt": "2026-04-13T08:57:49Z",
-  "sourceTopics": [],
+  "sourceTopics": [
+    "skills",
+    "agent-skills",
+    "claude-skills",
+    "claude-code-skills"
+  ],
   "discoveredBy": [
+    "GitHub Topics",
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "autoresearch",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "evaluation",
+    "huashu-skills",
+    "llm",
+    "openclaw",
+    "prompt-optimization",
+    "self-improving",
+    "skills"
+  ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-07T06:09:23.296Z",
-    "sourceHash": "f94d3f9da52493b1",
+    "generatedAt": "2026-11-08T06:13:58.697Z",
+    "sourceHash": "e6ef89b80efd65b1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "darwin-skill：达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "darwin-skill：达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "darwin-skill 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -92,7 +115,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
