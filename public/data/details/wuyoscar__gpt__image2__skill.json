@@ -1,5 +1,5 @@
 {
-  "rank": 457,
+  "rank": 175,
   "id": 1217942969,
   "name": "GPT-Image2-Skill",
   "fullName": "wuyoscar/GPT-Image2-Skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
   "homepage": "",
   "description": "GPT Image 2/2.5 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
-  "summary": "GPT-Image2-Skill 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "GPT-Image2-Skill 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "command -v gpt-image || true\ncommand -v uv >/dev/null && uv tool list | grep -E '^gpt-image-cli([[:space:]]|$)' || true\ntest -n \"${OPENAI_API_KEY:-}\" && echo \"OPENAI_API_KEY is already set (value hidden)\"",
+  "installCommand": "</details>\n<details>\n<summary><strong>AgentSkills / npx skills</strong></summary>",
   "language": "Python",
   "license": "MIT",
-  "stars": 6035,
+  "stars": 6043,
   "forks": 484,
-  "openIssues": 1,
-  "score": 125.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-09-30T11:54:50Z",
-  "updatedAt": "2026-11-08T06:01:16Z",
+  "openIssues": 2,
+  "score": 140.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-08T22:34:08Z",
+  "updatedAt": "2026-11-09T06:21:04Z",
   "createdAt": "2026-04-22T11:27:21Z",
   "sourceTopics": [
     "agent-skills",
@@ -61,6 +61,7 @@
   "platforms": [
     "Claude",
     "Codex",
+    "Cursor",
     "OpenClaw"
   ],
   "skillCount": 2,
@@ -93,13 +94,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-08T06:13:58.697Z",
-    "sourceHash": "ab3700828b7928cc",
+    "generatedAt": "2026-11-09T06:47:43.575Z",
+    "sourceHash": "552a0980f873c9c9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "GPT-Image2-Skill 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "GPT-Image2-Skill 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "GPT-Image2-Skill 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -117,7 +118,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

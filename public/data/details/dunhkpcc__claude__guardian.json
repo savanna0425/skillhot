@@ -1,5 +1,5 @@
 {
-  "rank": 510,
+  "rank": 500,
   "id": 1420259750,
   "name": "Claude-Guardian",
   "fullName": "DUNHKpcc/Claude-Guardian",
@@ -22,13 +22,13 @@
   "installCommand": "- **Agent 主导：**理解你的需求，挑资料，解释结果，决定下一步。同一个 Skill 对不同的人给出不同的做法。\n- **状态机兜底：**上百个访谈问题按条件调度，选定路线后才问路线相关的问题；每次评估都列出要附上的资料。\n- **脚本照文档跑：**VM 搭建、防火墙等脚本由你运行，或经你批准后由 Agent 运行。",
   "language": "Python",
   "license": "GPL-3.0",
-  "stars": 1840,
-  "forks": 238,
+  "stars": 1873,
+  "forks": 240,
   "openIssues": 3,
-  "score": 124.4,
+  "score": 124.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-07T04:27:16Z",
-  "updatedAt": "2026-11-08T06:05:55Z",
+  "pushedAt": "2026-11-09T05:49:23Z",
+  "updatedAt": "2026-11-09T06:37:50Z",
   "createdAt": "2026-10-15T06:09:53Z",
   "sourceTopics": [
     "claude-skills",
@@ -40,6 +40,7 @@
   ],
   "repoTopics": [
     "agent-skills",
+    "ai-tools",
     "claude-code",
     "claude-skills",
     "codex-skill"
@@ -78,8 +79,8 @@
       "许可证为 GPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-08T06:13:58.697Z",
-    "sourceHash": "0a059d08f6f65393",
+    "generatedAt": "2026-11-09T06:47:43.575Z",
+    "sourceHash": "d0ab7fe140645d2c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

@@ -1,5 +1,5 @@
 {
-  "rank": 1344,
+  "rank": 733,
   "id": 1195208341,
   "name": "awesome-harness-engineering",
   "fullName": "walkinglabs/awesome-harness-engineering",
@@ -8,7 +8,7 @@
   "url": "https://github.com/walkinglabs/awesome-harness-engineering",
   "homepage": "",
   "description": "🛠️ Awesome tools & guides for harness engineering.",
-  "summary": "awesome-harness-engineering 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "awesome-harness-engineering 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -21,32 +21,37 @@
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/walkinglabs/awesome-harness-engineering.git",
   "language": "",
-  "license": "NOASSERTION",
-  "stars": 4652,
-  "forks": 478,
-  "openIssues": 67,
-  "score": 103,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-19T07:27:55Z",
-  "updatedAt": "2026-11-08T02:14:26Z",
+  "license": "CC0-1.0",
+  "stars": 4663,
+  "forks": 476,
+  "openIssues": 21,
+  "score": 118.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-09T01:54:35Z",
+  "updatedAt": "2026-11-09T06:34:46Z",
   "createdAt": "2026-03-29T11:29:37Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agemt",
+    "agent",
     "agentic",
     "agentic-ai",
     "ai",
     "ai-agents",
+    "awesome",
+    "awesome-list",
+    "awesome-lists",
+    "awesome-resources",
     "harness",
     "harness-engineering",
     "harness-framework",
     "llm"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": true,
@@ -75,16 +80,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 CC0-1.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-08T06:13:58.697Z",
-    "sourceHash": "275c8111fb048b15",
+    "generatedAt": "2026-11-09T06:47:43.575Z",
+    "sourceHash": "38929a0e4a8def40",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-harness-engineering 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "awesome-harness-engineering 是一个面向 Claude、Codex 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "awesome-harness-engineering 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -102,7 +107,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -125,7 +130,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 CC0-1.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "rank": 1512,
+  "rank": 1501,
   "id": 1178494429,
   "name": "h5i",
   "fullName": "h5i-dev/h5i",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/272305047?v=4",
   "url": "https://github.com/h5i-dev/h5i",
   "homepage": "https://h5i.dev",
-  "description": "An Axum-based Rust web framework for building and verifying web apps with Lean 4, featuring optional GPU acceleration and integrated development infrastructure for red-teaming and CI/CD.",
+  "description": "An Axum-based Rust web framework with Lean 4-verifiable application kernels that run on servers, bare-metal embedded devices, and GPUs, plus integrated security testing.",
   "summary": "h5i：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/h5i-dev/h5i.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 899,
-  "forks": 79,
+  "stars": 908,
+  "forks": 80,
   "openIssues": 4,
-  "score": 101,
+  "score": 101.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-06T15:55:56Z",
-  "updatedAt": "2026-11-08T03:13:18Z",
+  "pushedAt": "2026-11-08T20:46:30Z",
+  "updatedAt": "2026-11-09T05:59:27Z",
   "createdAt": "2026-03-11T04:30:52Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,10 +37,9 @@
   "repoTopics": [
     "ai-safety",
     "ai-security",
-    "bug-bounty",
-    "ctf",
     "cuda-kernels",
     "cybersecurity",
+    "embedded",
     "embedded-systems",
     "ethical-hacking",
     "formal-verification",
@@ -52,9 +51,10 @@
     "penetration-testing",
     "red-team",
     "theorem-proving",
-    "vercel",
+    "verification",
     "web-framework",
-    "web-security"
+    "web-security",
+    "webapp"
   ],
   "platforms": [
     "Agent Skills"
@@ -89,8 +89,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-08T06:13:58.697Z",
-    "sourceHash": "739417338b7db1c4",
+    "generatedAt": "2026-11-09T06:47:43.575Z",
+    "sourceHash": "2a9620f9dd1db3c3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
