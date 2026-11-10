@@ -1,5 +1,5 @@
 {
-  "rank": 761,
+  "rank": 752,
   "id": 2242086,
   "name": "twitter-bootstrap-rails",
   "fullName": "seyhunak/twitter-bootstrap-rails",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/seyhunak/twitter-bootstrap-rails.git",
+  "installCommand": "npx skills add twbs/bootstrap --skill bootstrap-v5-v6-migration\nrails g bootstrap:agent             # the guide tells agents to stay on Bootstrap 5 markup until you migrate\nrails g bootstrap:doctor --v6       # the migration worklist",
   "language": "Ruby",
   "license": "",
-  "stars": 4460,
+  "stars": 4459,
   "forks": 971,
   "openIssues": 0,
   "score": 117.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-06T20:24:06Z",
-  "updatedAt": "2026-11-06T20:18:33Z",
+  "pushedAt": "2026-11-09T19:46:34Z",
+  "updatedAt": "2026-11-09T21:50:13Z",
   "createdAt": "2011-08-21T03:31:16Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -75,8 +75,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-09T06:47:43.575Z",
-    "sourceHash": "1def44168557c449",
+    "generatedAt": "2026-11-10T07:28:38.285Z",
+    "sourceHash": "eb86f47eb1025e43",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

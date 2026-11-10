@@ -1,5 +1,5 @@
 {
-  "rank": 59,
+  "rank": 61,
   "id": 881458615,
   "name": "browser-use",
   "fullName": "browser-use/browser-use",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/browser-use/browser-use.git",
+  "installCommand": "```bash\npython3 -m venv .venv && source .venv/bin/activate\npip install 'browser-use==1.0.0'",
   "language": "Python",
   "license": "MIT",
-  "stars": 120377,
-  "forks": 13449,
-  "openIssues": 626,
+  "stars": 120493,
+  "forks": 13462,
+  "openIssues": 617,
   "score": 151.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-09T06:31:12Z",
-  "updatedAt": "2026-11-09T06:23:12Z",
+  "pushedAt": "2026-11-10T02:34:17Z",
+  "updatedAt": "2026-11-10T07:26:51Z",
   "createdAt": "2024-10-31T16:00:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,7 +57,6 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -90,8 +89,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-09T06:47:43.575Z",
-    "sourceHash": "201595f917fa7674",
+    "generatedAt": "2026-11-10T07:28:38.285Z",
+    "sourceHash": "7e6a5bb07294e986",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

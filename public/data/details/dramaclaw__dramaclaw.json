@@ -1,5 +1,5 @@
 {
-  "rank": 564,
+  "rank": 553,
   "id": 1193300953,
   "name": "dramaclaw",
   "fullName": "dramaclaw/dramaclaw",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dramaclaw/dramaclaw.git\ngit clone https://github.com/dramaclaw/dramaclaw-gateway.git   # bundled gateway, built from ../dramaclaw-gateway\ncd dramaclaw",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/dramaclaw/dramaclaw.git\ncd dramaclaw\ncp .env.example .env          # set PROMPT_EXPORT_PASSWORD to a non-default value",
+  "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 7562,
-  "forks": 955,
-  "openIssues": 95,
-  "score": 123.1,
+  "stars": 7652,
+  "forks": 957,
+  "openIssues": 99,
+  "score": 123.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-09T06:43:20Z",
-  "updatedAt": "2026-11-09T06:34:05Z",
+  "pushedAt": "2026-11-10T06:17:59Z",
+  "updatedAt": "2026-11-10T06:39:35Z",
   "createdAt": "2026-03-27T04:34:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -90,8 +90,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-09T06:47:43.575Z",
-    "sourceHash": "8ad3fab19162fe1f",
+    "generatedAt": "2026-11-10T07:28:38.285Z",
+    "sourceHash": "7acdd8eb145f4829",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
