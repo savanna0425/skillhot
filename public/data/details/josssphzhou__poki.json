@@ -1,45 +1,46 @@
 {
-  "rank": 1437,
-  "id": 1338394944,
-  "name": "agent-foundation",
-  "fullName": "converge-ai-labs/agent-foundation",
-  "owner": "converge-ai-labs",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/313832718?v=4",
-  "url": "https://github.com/converge-ai-labs/agent-foundation",
-  "homepage": "https://a13n.dev",
-  "description": "a13n - Build, run, and manage AI agents at scale on your own infrastructure. Open source, with a built-in harness, durable execution, multi-provider support, and a management console. Built With Love 💜 @converge-ai-labs",
-  "summary": "agent-foundation：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1460,
+  "id": 1447145240,
+  "name": "poki",
+  "fullName": "JosssphZhou/poki",
+  "owner": "JosssphZhou",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/260232027?v=4",
+  "url": "https://github.com/JosssphZhou/poki",
+  "homepage": "https://poki.bot",
+  "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+  "summary": "poki：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/converge-ai-labs/agent-foundation.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 956,
-  "forks": 32,
-  "openIssues": 40,
-  "score": 101.6,
+  "installCommand": "git clone https://github.com/JosssphZhou/poki.git",
+  "language": "Swift",
+  "license": "AGPL-3.0",
+  "stars": 939,
+  "forks": 177,
+  "openIssues": 21,
+  "score": 101.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-10T07:25:36Z",
-  "updatedAt": "2026-11-10T06:52:54Z",
-  "createdAt": "2026-08-18T12:44:56Z",
+  "pushedAt": "2026-11-11T05:57:27Z",
+  "updatedAt": "2026-11-11T06:22:03Z",
+  "createdAt": "2026-11-05T15:04:31Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "a13n",
-    "agent",
-    "harness",
-    "managed-agents",
-    "sign-in-with-chatgpt"
+    "ai-agents",
+    "automation",
+    "ios",
+    "iphone",
+    "mcp",
+    "model-context-protocol"
   ],
   "platforms": [
     "Agent Skills"
@@ -47,15 +48,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/converge-ai-labs/agent-foundation",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JosssphZhou/poki",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/converge-ai-labs/agent-foundation#readme",
-  "detailPath": "data/details/converge__ai__labs__agent__foundation.json",
+  "readmeUrl": "https://github.com/JosssphZhou/poki#readme",
+  "detailPath": "data/details/josssphzhou__poki.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent-foundation 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
+    "summary": "poki 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -71,17 +72,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "820abe7e30221886",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "a8501235293d843b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent-foundation：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agent-foundation 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "poki：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "poki 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -121,7 +122,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 1314,
-  "id": 1123338559,
-  "name": "open-agents",
-  "fullName": "vercel-labs/open-agents",
-  "owner": "vercel-labs",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/108547162?v=4",
-  "url": "https://github.com/vercel-labs/open-agents",
-  "homepage": "https://open-agents.dev",
-  "description": "An open source template for building cloud agents.",
-  "summary": "open-agents：构建云代理的开源模板。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1187,
+  "id": 1448515937,
+  "name": "pinky",
+  "fullName": "DIYgod/pinky",
+  "owner": "DIYgod",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?v=4",
+  "url": "https://github.com/DIYgod/pinky",
+  "homepage": "",
+  "description": "Let AI agents use your phone, with you in the loop.",
+  "summary": "pinky：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,42 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/vercel-labs/open-agents.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 5891,
-  "forks": 746,
-  "openIssues": 57,
-  "score": 105.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-29T08:05:05Z",
-  "updatedAt": "2026-11-09T16:00:18Z",
-  "createdAt": "2025-12-26T17:01:07Z",
+  "installCommand": "git clone https://github.com/DIYgod/pinky.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 1762,
+  "forks": 188,
+  "openIssues": 21,
+  "score": 108,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-11T05:25:26Z",
+  "updatedAt": "2026-11-11T06:31:54Z",
+  "createdAt": "2026-11-06T16:53:14Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent",
-    "agents",
-    "ai",
-    "background-agents"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/vercel-labs/open-agents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/DIYgod/pinky",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/vercel-labs/open-agents#readme",
-  "detailPath": "data/details/vercel__labs__open__agents.json",
+  "readmeUrl": "https://github.com/DIYgod/pinky#readme",
+  "detailPath": "data/details/diygod__pinky.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "构建云代理的开源模板",
+    "summary": "pinky：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -70,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "3083bb4810c5be15",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "d098ebd6535c1736",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "open-agents：构建云代理的开源模板。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "open-agents 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "pinky：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "pinky 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -120,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

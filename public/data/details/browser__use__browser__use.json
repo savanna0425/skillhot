@@ -1,5 +1,5 @@
 {
-  "rank": 61,
+  "rank": 59,
   "id": 881458615,
   "name": "browser-use",
   "fullName": "browser-use/browser-use",
@@ -8,7 +8,7 @@
   "url": "https://github.com/browser-use/browser-use",
   "homepage": "https://browser-use.com",
   "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
-  "summary": "browser-use 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "summary": "browser-use 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "```bash\npython3 -m venv .venv && source .venv/bin/activate\npip install 'browser-use==1.0.0'",
+  "installCommand": "```bash\npython3 -m venv .venv && source .venv/bin/activate\npip install 'browser-use==1.0.2'",
   "language": "Python",
   "license": "MIT",
-  "stars": 120493,
-  "forks": 13462,
+  "stars": 120651,
+  "forks": 13483,
   "openIssues": 617,
-  "score": 151.9,
+  "score": 152,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-10T02:34:17Z",
-  "updatedAt": "2026-11-10T07:26:51Z",
+  "pushedAt": "2026-11-11T04:07:36Z",
+  "updatedAt": "2026-11-11T06:33:51Z",
   "createdAt": "2024-10-31T16:00:56Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,7 +56,6 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
     "OpenClaw"
   ],
   "skillCount": 1,
@@ -89,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "7e6a5bb07294e986",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "6c4488584dc290f9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "browser-use 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "plainIntro": "browser-use 是一个面向 Claude、Codex、OpenClaw 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
     "whatItIs": "browser-use 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -113,7 +112,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

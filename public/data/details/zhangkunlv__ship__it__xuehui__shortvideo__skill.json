@@ -1,17 +1,17 @@
 {
-  "rank": 1382,
-  "id": 1243397963,
-  "name": "denova",
-  "fullName": "alfredxw/denova",
-  "owner": "alfredxw",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/52421523?v=4",
-  "url": "https://github.com/alfredxw/denova",
-  "homepage": "https://denova-ai.com/",
-  "description": "Your One-Stop AI Workbench for Novel Writing and Role-Playing.",
-  "summary": "denova：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2153,
+  "id": 1451040990,
+  "name": "xuehui-shortvideo-skill",
+  "fullName": "zhangkunlv-ship-it/xuehui-shortvideo-skill",
+  "owner": "zhangkunlv-ship-it",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/267281453?v=4",
+  "url": "https://github.com/zhangkunlv-ship-it/xuehui-shortvideo-skill",
+  "homepage": "",
+  "description": "薛辉短视频营销体系全量蒸馏 Skill｜新媒体运营 / 短视频运营 / IP 人设 / 账号定位 / 选题 / 脚本｜455 视频 317.9h 蒸馏为 13 册中文参考手册",
+  "summary": "xuehui-shortvideo-skill：薛辉短视频营销体系全量蒸馏 Skill｜新媒体运营 / 短视频运营 / IP 人设 / 账号定位 / 选题 / 脚本｜455 视频 317.9h 蒸馏为 13 册中文参考手册。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,27 +19,35 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/alfredxw/denova.git",
-  "language": "Go",
-  "license": "Apache-2.0",
-  "stars": 998,
-  "forks": 158,
-  "openIssues": 9,
-  "score": 102.1,
+  "installCommand": "git clone https://github.com/zhangkunlv-ship-it/xuehui-shortvideo-skill.git",
+  "language": "",
+  "license": "",
+  "stars": 13,
+  "forks": 3,
+  "openIssues": 0,
+  "score": 74.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-09T08:20:41Z",
-  "updatedAt": "2026-11-10T06:58:30Z",
-  "createdAt": "2026-05-19T09:56:12Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-09T07:08:46Z",
+  "updatedAt": "2026-11-11T05:54:32Z",
+  "createdAt": "2026-11-09T07:05:40Z",
+  "sourceTopics": [
+    "workbuddy-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "agent",
-    "ai-agents",
-    "ai-tools",
-    "ide",
-    "novel"
+    "ai-skill",
+    "chinese-notes",
+    "content-marketing",
+    "douyin",
+    "ip-positioning",
+    "new-media",
+    "new-media-operations",
+    "script-writing",
+    "short-video",
+    "workbuddy-skill",
+    "xuehui"
   ],
   "platforms": [
     "Agent Skills"
@@ -47,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/alfredxw/denova",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zhangkunlv-ship-it/xuehui-shortvideo-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/alfredxw/denova#readme",
-  "detailPath": "data/details/alfredxw__denova.json",
+  "readmeUrl": "https://github.com/zhangkunlv-ship-it/xuehui-shortvideo-skill#readme",
+  "detailPath": "data/details/zhangkunlv__ship__it__xuehui__shortvideo__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "denova：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "薛辉短视频营销体系全量蒸馏 Skill｜新媒体运营 / 短视频运营 / IP 人设 / 账号定位 / 选题 / 脚本｜455 视频 317.9h 蒸馏为 13 册中文参考手册",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -71,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "92704990d6229901",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "33b303c2b97b582a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "denova：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "denova 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "xuehui-shortvideo-skill：薛辉短视频营销体系全量蒸馏 Skill｜新媒体运营 / 短视频运营 / IP 人设 / 账号定位 / 选题 / 脚本｜455 视频 317.9h 蒸馏为 13 册中文参考手册。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "xuehui-shortvideo-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -121,7 +129,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

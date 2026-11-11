@@ -1,55 +1,54 @@
 {
-  "rank": 1079,
-  "id": 1207529559,
-  "name": "synthadoc",
-  "fullName": "axoviq-ai/synthadoc",
-  "owner": "axoviq-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/275206488?v=4",
-  "url": "https://github.com/axoviq-ai/synthadoc",
-  "homepage": "https://axoviq.com/resources/synthadoc",
-  "description": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
-  "summary": "synthadoc：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1800,
+  "id": 1334663580,
+  "name": "UniEmployee",
+  "fullName": "zj-unicom-ai/UniEmployee",
+  "owner": "zj-unicom-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/300753407?v=4",
+  "url": "https://github.com/zj-unicom-ai/UniEmployee",
+  "homepage": "",
+  "description": "面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。",
+  "summary": "UniEmployee：面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
-  "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "长期任务",
     "跨会话续接",
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/axoviq-ai/synthadoc.git",
+  "installCommand": "git clone https://github.com/zj-unicom-ai/UniEmployee.git",
   "language": "Python",
-  "license": "AGPL-3.0",
-  "stars": 1985,
-  "forks": 188,
-  "openIssues": 7,
-  "score": 109.2,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-10T03:18:45Z",
-  "updatedAt": "2026-11-10T06:34:50Z",
-  "createdAt": "2026-04-11T03:50:12Z",
+  "license": "MIT",
+  "stars": 852,
+  "forks": 29,
+  "openIssues": 4,
+  "score": 93.5,
+  "activity": "本月活跃",
+  "pushedAt": "2026-10-29T01:34:16Z",
+  "updatedAt": "2026-11-11T02:02:15Z",
+  "createdAt": "2026-08-14T23:56:01Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skills",
-    "agentic-ai",
-    "cli-tool",
-    "domain-adaptation",
-    "enterprise",
-    "enterprise-solutions",
+    "agent-orchestration",
+    "ai-agent",
+    "ai-employee",
+    "ai-platform",
+    "business-process",
+    "digital-employee",
+    "digital-workforce",
+    "enterprise-agents",
+    "enterprise-ai",
+    "human-in-the-loop",
     "knowledge-graph",
-    "local-llm",
-    "obsidian-md",
-    "obsidian-plugin",
-    "personal-knowledge-management",
-    "pkm",
-    "rag-alternative",
-    "synthetic",
-    "synthetic-data"
+    "llm",
+    "rag",
+    "workflow-automation"
   ],
   "platforms": [
     "Agent Skills"
@@ -57,15 +56,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/axoviq-ai/synthadoc",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/zj-unicom-ai/UniEmployee",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/axoviq-ai/synthadoc#readme",
-  "detailPath": "data/details/axoviq__ai__synthadoc.json",
+  "readmeUrl": "https://github.com/zj-unicom-ai/UniEmployee#readme",
+  "detailPath": "data/details/zj__unicom__ai__uniemployee.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "synthadoc 提供记忆、上下文管理或知识检索能力。",
+    "summary": "面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -81,17 +80,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "6943dc33a2877a43",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "a0858bc98f738bc0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "synthadoc：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "synthadoc 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "UniEmployee：面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "UniEmployee 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -131,7 +130,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

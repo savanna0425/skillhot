@@ -1,5 +1,5 @@
 {
-  "rank": 853,
+  "rank": 579,
   "id": 1237911785,
   "name": "science-skills",
   "fullName": "google-deepmind/science-skills",
@@ -8,7 +8,7 @@
   "url": "https://github.com/google-deepmind/science-skills",
   "homepage": "https://antigravity.google/use-cases/science",
   "description": "GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrate insights from AlphaGenome, AFDB, UniProt and 30+ other databases and tools.",
-  "summary": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/google-deepmind/science-skills.git",
+  "installCommand": "npx skills add google-deepmind/science-skills/",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 3439,
-  "forks": 399,
+  "stars": 3449,
+  "forks": 398,
   "openIssues": 1,
-  "score": 115.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-23T13:14:09Z",
-  "updatedAt": "2026-11-10T03:29:29Z",
+  "score": 122.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-10T18:46:47Z",
+  "updatedAt": "2026-11-11T03:53:30Z",
   "createdAt": "2026-05-13T16:17:41Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,7 +36,8 @@
   ],
   "repoTopics": [],
   "platforms": [
-    "Agent Skills"
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -68,13 +69,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-10T07:28:38.285Z",
-    "sourceHash": "83ef0917a7506965",
+    "generatedAt": "2026-11-11T06:38:37.360Z",
+    "sourceHash": "fb2eacfa20bba892",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "science-skills：GDM：提升科学工作流效率，增强可验证性并提高令牌效率。整合来自 AlphaGenome、AFDB、UniProt 及 30 多个数据库和工具的洞察。适合在 Gemini CLI、Antigravity 相关工作流里先做选型判断。",
     "whatItIs": "science-skills 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
@@ -92,7 +93,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
