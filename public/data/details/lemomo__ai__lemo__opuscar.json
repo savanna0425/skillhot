@@ -1,5 +1,5 @@
 {
-  "rank": 231,
+  "rank": 229,
   "id": 1389011744,
   "name": "lemo-opuscar",
   "fullName": "lemomo-ai/lemo-opuscar",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/97503247?v=4",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
-  "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
-  "summary": "lemo-opuscar：一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+  "summary": "lemo-opuscar：一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "claude plugin marketplace add lemomo-ai/lemo-opuscar\nclaude plugin install lemo-opuscar@lemolab",
+  "installCommand": "git clone https://github.com/lemomo-ai/lemo-opuscar.git",
   "language": "JavaScript",
-  "license": "MIT",
-  "stars": 14583,
-  "forks": 1761,
+  "license": "NOASSERTION",
+  "stars": 15013,
+  "forks": 1826,
   "openIssues": 6,
-  "score": 137.9,
+  "score": 138.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-10T01:28:42Z",
-  "updatedAt": "2026-11-11T06:30:20Z",
+  "pushedAt": "2026-11-12T05:59:53Z",
+  "updatedAt": "2026-11-12T07:06:46Z",
   "createdAt": "2026-09-26T10:10:41Z",
   "sourceTopics": [
     "agent-skills",
@@ -60,7 +60,8 @@
     "webgl"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -73,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
+    "summary": "一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -89,16 +90,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-11T06:38:37.360Z",
-    "sourceHash": "32ce8cc153c6cad4",
+    "generatedAt": "2026-11-12T07:21:50.616Z",
+    "sourceHash": "b622c912fac44e50",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "lemo-opuscar：一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的。适合在 Claude 相关工作流里先做选型判断。",
+    "plainIntro": "lemo-opuscar：一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "lemo-opuscar 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -116,7 +117,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -139,7 +140,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

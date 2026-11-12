@@ -1,5 +1,5 @@
 {
-  "rank": 463,
+  "rank": 433,
   "id": 1438661890,
   "name": "rea-video",
   "fullName": "JuneYaooo/rea-video",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/60815510?v=4",
   "url": "https://github.com/JuneYaooo/rea-video",
   "homepage": "https://www.reavideo.ai/",
-  "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
-  "summary": "rea-video：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+  "summary": "rea-video：逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/JuneYaooo/rea-video.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6615,
-  "forks": 954,
+  "stars": 7212,
+  "forks": 1058,
   "openIssues": 3,
-  "score": 125.7,
+  "score": 126.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-11T06:12:46Z",
-  "updatedAt": "2026-11-11T06:34:42Z",
+  "pushedAt": "2026-11-12T06:21:24Z",
+  "updatedAt": "2026-11-12T07:14:33Z",
   "createdAt": "2026-10-29T16:15:01Z",
   "sourceTopics": [
     "agent-skills"
@@ -54,6 +54,7 @@
     "video-breakdown",
     "video-editing",
     "video-generation",
+    "videomd",
     "vlm"
   ],
   "platforms": [
@@ -72,7 +73,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代",
+    "summary": "逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -91,13 +92,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-11T06:38:37.360Z",
-    "sourceHash": "3ca5ea9c2b3d0217",
+    "generatedAt": "2026-11-12T07:21:50.616Z",
+    "sourceHash": "807f78e92541d55e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "rea-video：Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "rea-video：逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "rea-video 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

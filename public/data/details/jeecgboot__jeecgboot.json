@@ -1,5 +1,5 @@
 {
-  "rank": 46,
+  "rank": 48,
   "id": 159152904,
   "name": "JeecgBoot",
   "fullName": "jeecgboot/JeecgBoot",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/86360035?v=4",
   "url": "https://github.com/jeecgboot/JeecgBoot",
   "homepage": "https://jeecg.com",
-  "description": "【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。",
+  "description": "一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型",
   "summary": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jeecgboot/JeecgBoot.git\ncd JeecgBoot\n./start-docker-compose.sh        # Windows 使用 start-docker-compose.bat",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 48423,
-  "forks": 16214,
+  "stars": 48437,
+  "forks": 16215,
   "openIssues": 6,
   "score": 154.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-05T14:34:39Z",
-  "updatedAt": "2026-11-11T05:21:37Z",
+  "pushedAt": "2026-11-11T14:09:01Z",
+  "updatedAt": "2026-11-12T06:59:51Z",
   "createdAt": "2018-11-26T10:40:00Z",
   "sourceTopics": [
     "skills"
@@ -95,14 +95,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-11T06:38:37.360Z",
-    "sourceHash": "26bfb8257153a533",
+    "generatedAt": "2026-11-12T07:21:50.616Z",
+    "sourceHash": "b5234073ab6a2a6c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
     "plainIntro": "JeecgBoot：内置 AI Skills、知识库与流程编排的 Java 低代码平台。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "whatItIs": "JeecgBoot 可以先理解为一个「软件开发辅助项目」。它围绕「企业应用开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。作者原始描述提到：一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 579,
   "id": 1431830406,
   "name": "tstack",
   "fullName": "t3dotgg/tstack",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/t3dotgg/tstack.git",
+  "installCommand": "git clone https://github.com/t3dotgg/tstack\ncp -R tstack/skills/* ~/.claude/skills/   # Claude Code\ncp -R tstack/skills/* ~/.codex/skills/    # Codex",
   "language": "Python",
   "license": "MIT",
-  "stars": 3458,
-  "forks": 260,
-  "openIssues": 16,
-  "score": 116,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-28T02:38:03Z",
-  "updatedAt": "2026-11-11T05:36:18Z",
+  "stars": 3495,
+  "forks": 263,
+  "openIssues": 17,
+  "score": 123.1,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-11T11:33:03Z",
+  "updatedAt": "2026-11-12T07:06:40Z",
   "createdAt": "2026-10-24T05:00:20Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -70,8 +70,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-11T06:38:37.360Z",
-    "sourceHash": "c6559ba7ff8d0f8c",
+    "generatedAt": "2026-11-12T07:21:50.616Z",
+    "sourceHash": "161009c592b2fc71",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

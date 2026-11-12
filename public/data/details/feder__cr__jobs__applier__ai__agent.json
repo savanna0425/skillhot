@@ -1,5 +1,5 @@
 {
-  "rank": 225,
+  "rank": 226,
   "id": 837911756,
   "name": "Jobs_Applier_AI_Agent",
   "fullName": "feder-cr/Jobs_Applier_AI_Agent",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/85809106?v=4",
   "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
   "homepage": "",
-  "description": "AI job application bot: automated job search and job hunting, auto-apply to resume-matching jobs while you sleep.",
-  "summary": "Jobs_Applier_AI_Agent：用于自动化浏览器、工具集成或重复流程。适合在 Gemini CLI 相关工作流里先做选型判断。",
+  "description": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while you sleep.",
+  "summary": "Jobs_Applier_AI_Agent：用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 32461,
-  "forks": 4753,
+  "stars": 32486,
+  "forks": 4752,
   "openIssues": 2,
   "score": 138.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-11T00:35:54Z",
-  "updatedAt": "2026-11-11T06:02:16Z",
+  "pushedAt": "2026-11-12T00:37:00Z",
+  "updatedAt": "2026-11-12T07:17:50Z",
   "createdAt": "2024-08-04T12:15:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -38,12 +38,12 @@
     "agentic-ai",
     "ai-agent",
     "ai-automation",
+    "aihawk",
     "automation",
     "autonomous-agents",
     "browser-automation",
     "cv",
     "firefox",
-    "gemini",
     "hr",
     "job-board",
     "job-search",
@@ -57,7 +57,7 @@
     "terminal-app"
   ],
   "platforms": [
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -89,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-11T06:38:37.360Z",
-    "sourceHash": "a39107922a683257",
+    "generatedAt": "2026-11-12T07:21:50.616Z",
+    "sourceHash": "d81fd31aacf24ec8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Jobs_Applier_AI_Agent：用于自动化浏览器、工具集成或重复流程。适合在 Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "Jobs_Applier_AI_Agent：用于自动化浏览器、工具集成或重复流程。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Jobs_Applier_AI_Agent 可以先理解为一个「流程自动化项目」。它围绕「重复任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "网页操作、工具集成和重复流程经常需要人工一步步处理。",
@@ -113,7 +113,7 @@
       "经常处理重复网页操作、数据搬运或工具联动的人。",
       "想让 Agent 执行半自动流程的开发者和运营人员。",
       "需要把日常任务脚本化的小团队。",
-      "正在使用 Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "涉及账号风控、违规抓取或平台禁止自动化的场景。",
