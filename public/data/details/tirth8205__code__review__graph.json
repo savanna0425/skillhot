@@ -1,5 +1,5 @@
 {
-  "rank": 223,
+  "rank": 224,
   "id": 1167788341,
   "name": "code-review-graph",
   "fullName": "tirth8205/code-review-graph",
@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "pip install code-review-graph          # or: pipx install code-review-graph\ncode-review-graph install              # detect installed AI coding tools and configure each one\ncode-review-graph build                # parse the codebase",
+  "installCommand": "uv tool install code-review-graph      # or: pipx install / pip install code-review-graph\ncode-review-graph install              # set up the AI coding tools found on this machine\ncode-review-graph build                # parse the codebase",
   "language": "Python",
   "license": "MIT",
-  "stars": 32726,
-  "forks": 2975,
-  "openIssues": 47,
+  "stars": 32742,
+  "forks": 2974,
+  "openIssues": 51,
   "score": 138.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-11T20:44:23Z",
-  "updatedAt": "2026-11-12T07:13:24Z",
+  "pushedAt": "2026-11-12T17:19:53Z",
+  "updatedAt": "2026-11-13T05:49:00Z",
   "createdAt": "2026-02-26T17:25:13Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -87,8 +87,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "de91a07284559dcd",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "f30297437cc80458",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

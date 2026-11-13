@@ -1,5 +1,5 @@
 {
-  "rank": 852,
+  "rank": 839,
   "id": 320463703,
   "name": "qsv",
   "fullName": "dathere/qsv",
@@ -8,7 +8,7 @@
   "url": "https://github.com/dathere/qsv",
   "homepage": "https://qsv.dathere.com",
   "description": "Blazing-fast, Neuro-symbolic Data-Wrangling toolkit",
-  "summary": "qsv：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "qsv：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "数据分析",
   "categoryDescription": "SQL、数据处理、统计、可视化与商业分析",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "分析与可视化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/dathere/qsv.git",
+  "installCommand": "pacman -S qsv\nbrew install qsv\nsudo port install qsv",
   "language": "Rust",
   "license": "NOASSERTION",
-  "stars": 3830,
+  "stars": 3844,
   "forks": 118,
-  "openIssues": 22,
-  "score": 116,
+  "openIssues": 23,
+  "score": 116.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-12T06:03:14Z",
-  "updatedAt": "2026-11-12T03:34:58Z",
+  "pushedAt": "2026-11-13T06:03:13Z",
+  "updatedAt": "2026-11-13T04:50:36Z",
   "createdAt": "2020-12-11T04:08:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -57,13 +57,14 @@
     "visualization"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/dathere/qsv",
-    "videoUrl": ""
+    "videoUrl": "https://www.youtube.com/watch?v=p9lf76xOA5k"
   },
   "readmeUrl": "https://github.com/dathere/qsv#readme",
   "detailPath": "data/details/dathere__qsv.json",
@@ -89,13 +90,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "f9164a1c2da4e3f1",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "32a93c6a64a426aa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "qsv：SQL、数据处理、统计、可视化与商业分析。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "qsv：SQL、数据处理、统计、可视化与商业分析。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "qsv 可以先理解为一个「数据分析辅助项目」。它围绕「数据处理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "SQL、表格、统计、可视化或数据清洗步骤容易重复。",
@@ -113,7 +114,7 @@
       "需要快速探索数据的开发者、分析师和运营人员。",
       "希望用 Agent 生成分析脚本、图表或报告的人。",
       "想把常见数据流程标准化的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "要求严格审计、合规或生产级数据治理但尚未核验的场景。",

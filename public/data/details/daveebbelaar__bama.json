@@ -1,5 +1,5 @@
 {
-  "rank": 856,
+  "rank": 841,
   "id": 1431986839,
   "name": "bama",
   "fullName": "daveebbelaar/bama",
@@ -8,7 +8,7 @@
   "url": "https://github.com/daveebbelaar/bama",
   "homepage": "",
   "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
-  "summary": "bama：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "summary": "bama：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -19,16 +19,16 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/daveebbelaar/bama.git",
+  "installCommand": "npx skills@latest add daveebbelaar/bama",
   "language": "Swift",
   "license": "MIT",
-  "stars": 1773,
-  "forks": 218,
-  "openIssues": 2,
-  "score": 116,
+  "stars": 1789,
+  "forks": 219,
+  "openIssues": 3,
+  "score": 116.1,
   "activity": "本周活跃",
   "pushedAt": "2026-11-05T13:09:56Z",
-  "updatedAt": "2026-11-12T06:19:04Z",
+  "updatedAt": "2026-11-13T05:43:16Z",
   "createdAt": "2026-10-24T08:44:36Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -53,9 +53,12 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
-  "skillCount": 1,
+  "skillCount": 21,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/daveebbelaar/bama",
@@ -85,13 +88,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "7c293f18cb39d948",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "de786e24da6c01d8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "bama：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "bama：用于创建、验证、安装或管理 Agent Skills。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "bama 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",
@@ -109,7 +112,7 @@
       "准备写自定义 Agent Skills 的开发者。",
       "需要维护团队技能库或插件库的人。",
       "想把文档、流程或经验产品化为 Skill 的团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想直接使用现成工具、不打算创建或维护 Skill 的人。",
@@ -119,7 +122,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 21+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

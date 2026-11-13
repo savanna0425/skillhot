@@ -1,5 +1,5 @@
 {
-  "rank": 2236,
+  "rank": 2216,
   "id": 1418466421,
   "name": "Rice-skills",
   "fullName": "shuke-bio/Rice-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/283092468?v=4",
   "url": "https://github.com/shuke-bio/Rice-skills",
   "homepage": "https://github.com/shuke-bio/Rice-skills/wiki",
-  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、133 个 R/Python 脚本 + 25 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/fine-mapping、KMERIA k-mer GWAS、mGWAS、野生-栽培稻泛基因组、T2T、单细胞/空间（RSTA）、编辑设计、CNS 级绘图与论文写作；含方案确认、依赖体检、CI 与工作流导出。",
-  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、133 个 R/Python 脚本 + 25 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、136 个 R/Python 脚本 + 26 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/fine-mapping、GenoBridge、KMERIA、mGWAS、野生-栽培稻泛基因组、T2T、单细胞/空间（RSTA/RankMap/CellART）、编辑设计、CNS 级绘图与论文写作；含方案确认、依赖体检、CI 与工作流导出。",
+  "summary": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、136 个 R/Python 脚本 + 26 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -27,8 +27,8 @@
   "openIssues": 0,
   "score": 67.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-10T16:10:36Z",
-  "updatedAt": "2026-11-10T16:11:20Z",
+  "pushedAt": "2026-11-12T16:57:39Z",
+  "updatedAt": "2026-11-12T16:58:21Z",
   "createdAt": "2026-10-14T06:21:10Z",
   "sourceTopics": [
     "ai-agent-skills"
@@ -72,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、133 个 R/Python 脚本 + 25 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f",
+    "summary": "开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、136 个 R/Python 脚本 + 26 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "c15fc766aa48499b",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "a08e7b1c3c2c14fa",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、133 个 R/Python 脚本 + 25 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Rice-skills：开源的水稻核心组学 + 育种分析技能库 — 18 个分析模块、136 个 R/Python 脚本 + 26 个 shell 封装、541 个精选 agent 技能；覆盖 FASTQ→counts、差异/时间序列、GWAS/TWAS/MR/f。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "Rice-skills 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

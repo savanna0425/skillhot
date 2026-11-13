@@ -1,5 +1,5 @@
 {
-  "rank": 537,
+  "rank": 346,
   "id": 1039587768,
   "name": "osaurus",
   "fullName": "osaurus-ai/osaurus",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/259953775?v=4",
   "url": "https://github.com/osaurus-ai/osaurus",
   "homepage": "https://osaurus.ai",
-  "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
-  "summary": "osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "Own your AI. The open-source agent harness for macOS. Run local or cloud models with persistent memory, skills, tools, and autonomous execution. Built in Swift.",
+  "summary": "osaurus：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "long.?term memory|persistent memory|agent memory|conte",
   "scenarios": [
     "长期任务",
@@ -22,13 +22,13 @@
   "installCommand": "brew install --cask osaurus",
   "language": "Swift",
   "license": "MIT",
-  "stars": 8162,
+  "stars": 8161,
   "forks": 494,
-  "openIssues": 252,
-  "score": 123.9,
+  "openIssues": 251,
+  "score": 131.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-12T07:10:29Z",
-  "updatedAt": "2026-11-12T06:25:46Z",
+  "pushedAt": "2026-11-13T06:29:21Z",
+  "updatedAt": "2026-11-13T05:59:16Z",
   "createdAt": "2025-08-17T15:05:39Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -62,7 +62,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源",
+    "summary": "osaurus 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -81,13 +81,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "9dd49952384912ce",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "8b6de195b90a286f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "osaurus：拥有您的 AI。专为 macOS 构建的 AI 代理原生框架——支持任意模型、持久化记忆、自主执行及加密身份。用 Swift 编写。完全离线。开源。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "osaurus：提供记忆、上下文管理或知识检索能力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "osaurus 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",

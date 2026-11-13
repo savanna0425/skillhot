@@ -1,5 +1,5 @@
 {
-  "rank": 374,
+  "rank": 373,
   "id": 1235403234,
   "name": "openmotion",
   "fullName": "nexu-io/openmotion",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone --branch feature/motion https://github.com/nexu-io/html-anything.git openmotion\ncd openmotion\nnpm ci",
+  "installCommand": "git clone --depth 1 https://github.com/nexu-io/openmotion.git\ncd openmotion\nnpm ci",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 9555,
-  "forks": 905,
-  "openIssues": 83,
-  "score": 129.5,
+  "stars": 9790,
+  "forks": 933,
+  "openIssues": 90,
+  "score": 129.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-12T07:16:52Z",
-  "updatedAt": "2026-11-12T07:15:30Z",
+  "pushedAt": "2026-11-13T06:49:45Z",
+  "updatedAt": "2026-11-13T06:39:11Z",
   "createdAt": "2026-05-11T09:40:38Z",
   "sourceTopics": [
     "agent-skills"
@@ -76,7 +76,7 @@
   "readmeUrl": "https://github.com/nexu-io/openmotion#readme",
   "detailPath": "data/details/nexu__io__openmotion.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "openmotion：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
@@ -97,8 +97,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-12T07:21:50.616Z",
-    "sourceHash": "b6585f5ed74dd16c",
+    "generatedAt": "2026-11-13T06:55:06.836Z",
+    "sourceHash": "b854139d50b86087",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
