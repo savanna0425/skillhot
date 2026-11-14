@@ -1,5 +1,5 @@
 {
-  "rank": 648,
+  "rank": 653,
   "id": 1062297179,
   "name": "agentscope-java",
   "fullName": "agentscope-ai/agentscope-java",
@@ -8,7 +8,7 @@
   "url": "https://github.com/agentscope-ai/agentscope-java",
   "homepage": "https://java.agentscope.io/",
   "description": "Build distributed, production-grade, long-running agents.",
-  "summary": "agentscope-java：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "agentscope-java：聚焦软件开发、代码质量与工程交付。适合在 Gemini CLI 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/agentscope-ai/agentscope-java.git",
   "language": "Java",
   "license": "Apache-2.0",
-  "stars": 6361,
-  "forks": 1606,
-  "openIssues": 965,
+  "stars": 6365,
+  "forks": 1608,
+  "openIssues": 970,
   "score": 121.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-13T04:23:32Z",
-  "updatedAt": "2026-11-13T05:57:10Z",
+  "pushedAt": "2026-11-14T02:45:13Z",
+  "updatedAt": "2026-11-14T02:30:47Z",
   "createdAt": "2025-09-23T04:37:43Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -46,7 +46,6 @@
     "llm"
   ],
   "platforms": [
-    "Claude",
     "Gemini CLI"
   ],
   "skillCount": 1,
@@ -79,13 +78,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "ab8f017bb202ee99",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "57c66263523c3162",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentscope-java：聚焦软件开发、代码质量与工程交付。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "agentscope-java：聚焦软件开发、代码质量与工程交付。适合在 Gemini CLI 相关工作流里先做选型判断。",
     "whatItIs": "agentscope-java 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -103,7 +102,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

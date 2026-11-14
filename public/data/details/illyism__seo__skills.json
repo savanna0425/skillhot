@@ -1,5 +1,5 @@
 {
-  "rank": 858,
+  "rank": 840,
   "id": 1265359383,
   "name": "seo-skills",
   "fullName": "Illyism/seo-skills",
@@ -19,16 +19,16 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/Illyism/seo-skills.git",
+  "installCommand": "npx skills add Illyism/seo-skills\nnpx skills add Illyism/seo-skills --skill seo-autopilot\nnpx skills add Illyism/seo-skills --list",
   "language": "JavaScript",
   "license": "",
-  "stars": 1180,
-  "forks": 110,
+  "stars": 1220,
+  "forks": 114,
   "openIssues": 1,
-  "score": 115.8,
+  "score": 116.2,
   "activity": "本周活跃",
   "pushedAt": "2026-11-12T03:02:47Z",
-  "updatedAt": "2026-11-13T06:31:40Z",
+  "updatedAt": "2026-11-14T04:33:48Z",
   "createdAt": "2026-06-10T17:47:14Z",
   "sourceTopics": [
     "skill-md"
@@ -61,9 +61,12 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "OpenCode"
   ],
-  "skillCount": 1,
+  "skillCount": 30,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/Illyism/seo-skills",
@@ -93,8 +96,8 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "8ca7f8497d24c4a0",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "d1de1d02aba36bd6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -127,7 +130,7 @@
       "通常通过模板、研究流程、脚本或 Skill 辅助产出业务材料。",
       "用户输入目标、背景和约束后，Agent 按流程生成分析或方案。",
       "最终决策仍需要结合真实数据和业务经验。",
-      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
+      "仓库信息显示它包含 30+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先用一个具体业务问题试跑。",

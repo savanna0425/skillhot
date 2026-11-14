@@ -1,5 +1,5 @@
 {
-  "rank": 820,
+  "rank": 1059,
   "id": 1426240325,
   "name": "REA-Prompts",
   "fullName": "JoasASantos/REA-Prompts",
@@ -8,7 +8,7 @@
   "url": "https://github.com/JoasASantos/REA-Prompts",
   "homepage": "",
   "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
-  "summary": "REA-Prompts：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "REA-Prompts：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/JoasASantos/REA-Prompts.git",
   "language": "Batchfile",
   "license": "MIT",
-  "stars": 4009,
-  "forks": 706,
+  "stars": 4048,
+  "forks": 713,
   "openIssues": 1,
-  "score": 116.5,
-  "activity": "本周活跃",
+  "score": 109.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-11-05T12:58:38Z",
-  "updatedAt": "2026-11-13T06:26:52Z",
+  "updatedAt": "2026-11-14T06:27:13Z",
   "createdAt": "2026-10-19T22:20:47Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -41,12 +41,9 @@
     "reverse-enginnering"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
-    "Antigravity"
+    "Agent Skills"
   ],
-  "skillCount": 26,
+  "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/JoasASantos/REA-Prompts",
@@ -76,13 +73,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "d7b87b2375f2ab9b",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "750bdcee455d8080",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "REA-Prompts：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "REA-Prompts：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "REA-Prompts 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -100,7 +97,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -110,7 +107,7 @@
       "通常通过 Skill、脚本、CLI、模板或工作流说明接入开发环境。",
       "Agent 会根据仓库提供的方法处理具体开发任务。",
       "最终质量仍需要你用测试、构建和代码评审来确认。",
-      "仓库信息显示它包含 26+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先读 README 的安装步骤和示例任务。",

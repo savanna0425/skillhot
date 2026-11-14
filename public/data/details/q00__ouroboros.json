@@ -1,5 +1,5 @@
 {
-  "rank": 384,
+  "rank": 386,
   "id": 1133901637,
   "name": "ouroboros",
   "fullName": "Q00/ouroboros",
@@ -19,25 +19,23 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "pipx install 'ouroboros-ai[mcp]'       # or: uv tool install 'ouroboros-ai[mcp]'\nouroboros setup --runtime kiro         # detects Kiro CLI, registers MCP server, and",
+  "installCommand": "git clone https://github.com/Q00/ouroboros\ncd ouroboros\nuv sync --python 3.13 --all-groups",
   "language": "Python",
   "license": "MIT",
-  "stars": 6357,
-  "forks": 640,
-  "openIssues": 81,
+  "stars": 6363,
+  "forks": 638,
+  "openIssues": 76,
   "score": 129.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-13T06:20:21Z",
-  "updatedAt": "2026-11-13T04:38:32Z",
+  "pushedAt": "2026-11-13T07:59:13Z",
+  "updatedAt": "2026-11-14T05:51:07Z",
   "createdAt": "2026-01-14T01:14:04Z",
   "sourceTopics": [
     "skill",
     "skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-os",
@@ -98,8 +96,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "e83124bb8fc3cb8c",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "d8f26fdf82b484d9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

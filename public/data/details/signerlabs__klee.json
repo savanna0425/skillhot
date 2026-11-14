@@ -1,55 +1,65 @@
 {
-  "rank": 883,
-  "id": 1143633223,
-  "name": "modern-web-guidance-src",
-  "fullName": "GoogleChrome/modern-web-guidance-src",
-  "owner": "GoogleChrome",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/1778935?v=4",
-  "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-  "homepage": "https://goo.gle/modern-web-guidance",
-  "description": "Keep your coding agent up to date with the latest web best practices",
-  "summary": "modern-web-guidance-src：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1188,
+  "id": 939749593,
+  "name": "Klee",
+  "fullName": "signerlabs/Klee",
+  "owner": "signerlabs",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/128497351?v=4",
+  "url": "https://github.com/signerlabs/Klee",
+  "homepage": "https://kleedesktop.com",
+  "description": "A native macOS AI chat app powered by MLX. 100% local inference on Apple Silicon, no cloud required. Built with ShipSwift.",
+  "summary": "Klee：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
-  "categoryReason": "software development|coding|codebase|developer|enginee",
+  "categoryConfidence": "中",
+  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/GoogleChrome/modern-web-guidance-src.git",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 3608,
-  "forks": 223,
-  "openIssues": 385,
-  "score": 115.4,
+  "installCommand": "git clone https://github.com/signerlabs/Klee.git",
+  "language": "Swift",
+  "license": "",
+  "stars": 1773,
+  "forks": 136,
+  "openIssues": 0,
+  "score": 108,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-13T06:34:46Z",
-  "updatedAt": "2026-11-13T06:49:41Z",
-  "createdAt": "2026-01-27T20:22:24Z",
+  "pushedAt": "2026-11-14T04:20:10Z",
+  "updatedAt": "2026-11-14T04:44:57Z",
+  "createdAt": "2025-02-27T03:34:31Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "app",
+    "apple-silicon",
+    "klee",
+    "llm",
+    "mcp",
+    "mlx",
+    "self-hosted",
+    "swift",
+    "swiftui"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/GoogleChrome/modern-web-guidance-src",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/signerlabs/Klee",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/GoogleChrome/modern-web-guidance-src#readme",
-  "detailPath": "data/details/googlechrome__modern__web__guidance__src.json",
+  "readmeUrl": "https://github.com/signerlabs/Klee#readme",
+  "detailPath": "data/details/signerlabs__klee.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "modern-web-guidance-src 聚焦软件开发、代码质量与工程交付。",
+    "summary": "Klee 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -65,17 +75,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "2795598cb318be68",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "19d11c48385fbb77",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "modern-web-guidance-src：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "modern-web-guidance-src 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Klee：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "Klee 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -115,7 +125,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

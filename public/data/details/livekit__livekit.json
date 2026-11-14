@@ -1,71 +1,63 @@
 {
-  "rank": 2332,
-  "id": 1430730727,
-  "name": "xiaohongshu-video-research-skill",
-  "fullName": "LiliLIN0324/xiaohongshu-video-research-skill",
-  "owner": "LiliLIN0324",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/224295171?v=4",
-  "url": "https://github.com/LiliLIN0324/xiaohongshu-video-research-skill",
-  "homepage": "",
-  "description": "拆条 · 调研小红书视频笔记的 agent skill（Qoder / Codex / Claude Code / Gemini / Grok / DeepSeek）：不登录取元数据、下载原视频抽帧读烧录字幕、按章节轴定位、逐个核实笔记提到的工具与账号",
-  "summary": "xiaohongshu-video-research-skill：拆条 · 调研小红书视频笔记的 agent skill（Qoder / Codex / Claude Code / Gemini / Grok / DeepSeek）：不登录取元数据、下载原视频抽帧读烧录字幕、按章节轴定位、逐个核实笔记提到。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 303,
+  "id": 299832860,
+  "name": "livekit",
+  "fullName": "livekit/livekit",
+  "owner": "livekit",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/69438833?v=4",
+  "url": "https://github.com/livekit/livekit",
+  "homepage": "https://docs.livekit.io",
+  "description": "End-to-end realtime stack for connecting humans and AI",
+  "summary": "livekit：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
-  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/LiliLIN0324/xiaohongshu-video-research-skill.git",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stars": 1,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-23T08:26:24Z",
-  "updatedAt": "2026-10-28T12:48:21Z",
-  "createdAt": "2026-10-23T07:38:17Z",
-  "sourceTopics": [
-    "qoder-skill"
-  ],
+  "installCommand": "brew install livekit",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 22201,
+  "forks": 2564,
+  "openIssues": 225,
+  "score": 134.3,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-13T21:31:24Z",
+  "updatedAt": "2026-11-14T05:38:01Z",
+  "createdAt": "2020-09-30T06:49:46Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-skill",
-    "browser-automation",
-    "claude-code",
-    "codex",
-    "content-research",
-    "ffmpeg",
-    "qoder-skill",
-    "research",
-    "video-analysis",
-    "xhs",
-    "xiaohongshu"
+    "golang",
+    "media-server",
+    "sfu",
+    "video",
+    "voice",
+    "voice-ai",
+    "webrtc"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/LiliLIN0324/xiaohongshu-video-research-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/livekit/livekit",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/LiliLIN0324/xiaohongshu-video-research-skill#readme",
-  "detailPath": "data/details/lililin0324__xiaohongshu__video__research__skill.json",
+  "readmeUrl": "https://github.com/livekit/livekit#readme",
+  "detailPath": "data/details/livekit__livekit.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "拆条 · 调研小红书视频笔记的 agent skill（Qoder / Codex / Claude Code / Gemini / Grok / DeepSeek）：不登录取元数据、下载原视频抽帧读烧录字幕、按章节轴定位、逐个核实笔记提到",
+    "summary": "livekit：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -81,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "7eda672bdc430e81",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "6e8b8b3a31b43e41",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "xiaohongshu-video-research-skill：拆条 · 调研小红书视频笔记的 agent skill（Qoder / Codex / Claude Code / Gemini / Grok / DeepSeek）：不登录取元数据、下载原视频抽帧读烧录字幕、按章节轴定位、逐个核实笔记提到。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "xiaohongshu-video-research-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "livekit：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "livekit 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -108,7 +100,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",
@@ -131,7 +123,7 @@
       "重复性创作流程可以被复用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,76 +1,74 @@
 {
-  "rank": 1737,
-  "id": 1115093974,
-  "name": "stock-sdk",
-  "fullName": "chengzuopeng/stock-sdk",
-  "owner": "chengzuopeng",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/32048561?v=4",
-  "url": "https://github.com/chengzuopeng/stock-sdk",
-  "homepage": "https://stock-sdk.linkdiary.cn/",
-  "description": "为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。",
-  "summary": "stock-sdk：为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1797,
+  "id": 1330516937,
+  "name": "HERO-Anti-OverDefense",
+  "fullName": "wanshuiyin/HERO-Anti-OverDefense",
+  "owner": "wanshuiyin",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/76990859?v=4",
+  "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+  "homepage": "",
+  "description": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
+  "summary": "HERO-Anti-OverDefense：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "中",
-  "categoryReason": "frontend|backend|full.?stack|react|vue|angular|typescr",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/chengzuopeng/stock-sdk.git",
-  "language": "TypeScript",
-  "license": "ISC",
-  "stars": 1999,
-  "forks": 201,
+  "installCommand": "git clone https://github.com/wanshuiyin/HERO-Anti-OverDefense.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 850,
+  "forks": 31,
   "openIssues": 0,
-  "score": 94.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-10-03T03:59:47Z",
-  "updatedAt": "2026-11-12T13:46:29Z",
-  "createdAt": "2025-12-12T10:30:17Z",
+  "score": 93.4,
+  "activity": "本月活跃",
+  "pushedAt": "2026-11-06T04:05:50Z",
+  "updatedAt": "2026-11-14T04:40:01Z",
+  "createdAt": "2026-08-11T05:08:30Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "a-share",
-    "ai-agent",
-    "akshare",
-    "finance",
-    "financial-data",
-    "fintech",
-    "free-stock-market-api",
-    "mcp",
-    "nodejs",
-    "quantitative-finance",
-    "sdk",
-    "stock",
-    "stock-data",
-    "stock-market",
-    "stock-prices",
-    "stocks",
-    "stocks-api",
-    "technical-analysis",
-    "trading",
-    "typescript"
+    "agents-md",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-md",
+    "codex",
+    "coding-agent",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "llm",
+    "prompt-engineering",
+    "windsurf"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/chengzuopeng/stock-sdk",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/wanshuiyin/HERO-Anti-OverDefense",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/chengzuopeng/stock-sdk#readme",
-  "detailPath": "data/details/chengzuopeng__stock__sdk.json",
+  "readmeUrl": "https://github.com/wanshuiyin/HERO-Anti-OverDefense#readme",
+  "detailPath": "data/details/wanshuiyin__hero__anti__overdefense.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。",
+    "summary": "HERO-Anti-OverDefense 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -86,17 +84,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 ISC，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "9743e969bec6ce90",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "b5d874a9e1dd9936",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "stock-sdk：为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "stock-sdk 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "HERO-Anti-OverDefense：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "HERO-Anti-OverDefense 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -113,7 +111,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -136,7 +134,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 ISC，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

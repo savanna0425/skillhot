@@ -1,5 +1,5 @@
 {
-  "rank": 276,
+  "rank": 280,
   "id": 1150205470,
   "name": "Product-Manager-Skills",
   "fullName": "deanpeters/Product-Manager-Skills",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
   "installCommand": "pip install -r app/requirements.txt\nstreamlit run app/main.py",
-  "language": "Shell",
+  "language": "Python",
   "license": "NOASSERTION",
-  "stars": 8002,
+  "stars": 8015,
   "forks": 966,
-  "openIssues": 4,
+  "openIssues": 1,
   "score": 135.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-12T14:18:51Z",
-  "updatedAt": "2026-11-13T05:29:15Z",
+  "pushedAt": "2026-11-13T15:19:58Z",
+  "updatedAt": "2026-11-14T06:16:19Z",
   "createdAt": "2026-02-05T02:16:46Z",
   "sourceTopics": [
     "claude-skills"
@@ -48,9 +48,10 @@
     "Claude",
     "Codex",
     "Cursor",
-    "OpenClaw"
+    "OpenClaw",
+    "OpenCode"
   ],
-  "skillCount": 77,
+  "skillCount": 95,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/deanpeters/Product-Manager-Skills",
@@ -80,8 +81,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "6ee76d0effebbb53",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "a0d7d12c60f902c4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -114,7 +115,7 @@
       "通常通过 CLI、模板、规范检查或生成器创建 Skill 文件。",
       "用户输入领域说明或现有材料后，工具生成可安装结构。",
       "生成后仍需要在真实 Agent 环境里测试。",
-      "仓库信息显示它包含 77+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 95+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读它支持的 Skill 格式。",

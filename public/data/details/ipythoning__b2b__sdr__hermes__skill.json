@@ -1,17 +1,17 @@
 {
-  "rank": 2274,
-  "id": 1246578038,
-  "name": "ManualGen",
-  "fullName": "songzhou666/ManualGen",
-  "owner": "songzhou666",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/62132555?v=4",
-  "url": "https://github.com/songzhou666/ManualGen",
-  "homepage": "",
-  "description": "Operation manual generator and user manual generator for business systems: AI walks the UI layer by layer (screen -> module -> area -> feature -> button -> field), builds a knowledge graph and emits a documented SOP. 业务系统操作手册生成器：六层递进 + 知识图谱",
-  "summary": "ManualGen：业务系统操作手册生成器：六层递进 + 知识图谱。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2208,
+  "id": 1207080231,
+  "name": "b2b-sdr-hermes-skill",
+  "fullName": "iPythoning/b2b-sdr-hermes-skill",
+  "owner": "iPythoning",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/29250610?v=4",
+  "url": "https://github.com/iPythoning/b2b-sdr-hermes-skill",
+  "homepage": "https://pulseagent.io",
+  "description": "Autonomous AI SDR skill for Hermes Agent — finds buyers, qualifies leads, sends outreach, manages CRM across WhatsApp/Email/Telegram for B2B export businesses",
+  "summary": "b2b-sdr-hermes-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -19,44 +19,35 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/songzhou666/ManualGen.git",
-  "language": "Python",
-  "license": "",
-  "stars": 7,
-  "forks": 2,
+  "installCommand": "git clone https://github.com/iPythoning/b2b-sdr-hermes-skill.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 44,
+  "forks": 6,
   "openIssues": 0,
-  "score": 63.5,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-05T09:51:47Z",
-  "updatedAt": "2026-11-05T09:51:49Z",
-  "createdAt": "2026-05-22T10:32:11Z",
+  "score": 68.6,
+  "activity": "近期活跃",
+  "pushedAt": "2026-08-20T12:35:50Z",
+  "updatedAt": "2026-11-13T18:53:49Z",
+  "createdAt": "2026-04-10T14:54:07Z",
   "sourceTopics": [
-    "trae-skill"
+    "hermes-skill"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
+    "agent-skill",
     "ai-agent",
-    "business-analysis",
-    "business-doc",
-    "code-analysis",
-    "doc-generator",
-    "documentation",
-    "documentation-tool",
-    "incremental",
-    "knowledge-base",
-    "knowledge-graph",
-    "manual",
-    "manual-generator",
-    "multi-agent",
-    "operation-manual",
-    "skill",
-    "sop",
-    "technical-writing",
-    "trae-skill",
-    "user-manual",
-    "user-manual-generator"
+    "b2b",
+    "crm",
+    "hermes-agent",
+    "hermes-skill",
+    "lead-generation",
+    "sales-automation",
+    "sdr",
+    "skills-sh",
+    "whatsapp"
   ],
   "platforms": [
     "Agent Skills"
@@ -64,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/songzhou666/ManualGen",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/iPythoning/b2b-sdr-hermes-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/songzhou666/ManualGen#readme",
-  "detailPath": "data/details/songzhou666__manualgen.json",
+  "readmeUrl": "https://github.com/iPythoning/b2b-sdr-hermes-skill#readme",
+  "detailPath": "data/details/ipythoning__b2b__sdr__hermes__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "业务系统操作手册生成器：六层递进 + 知识图谱",
+    "summary": "b2b-sdr-hermes-skill：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -88,17 +79,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "940d978c47ddcf6b",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "08c60c35a36eb043",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ManualGen：业务系统操作手册生成器：六层递进 + 知识图谱。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "ManualGen 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "b2b-sdr-hermes-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "b2b-sdr-hermes-skill 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -138,7 +129,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

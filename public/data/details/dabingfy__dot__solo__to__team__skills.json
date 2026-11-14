@@ -1,14 +1,14 @@
 {
-  "rank": 447,
-  "id": 1217153065,
-  "name": "claude-for-legal",
-  "fullName": "anthropics/claude-for-legal",
-  "owner": "anthropics",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/76263028?v=4",
-  "url": "https://github.com/anthropics/claude-for-legal",
+  "rank": 1153,
+  "id": 1448924811,
+  "name": "solo-to-team-skills",
+  "fullName": "dabingfy-dot/solo-to-team-skills",
+  "owner": "dabingfy-dot",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/344453732?v=4",
+  "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
   "homepage": "",
-  "description": "A suite of plugins for legal workflows",
-  "summary": "claude-for-legal：法律工作流插件套件。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
+  "summary": "solo-to-team-skills：Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,43 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/anthropics/claude-for-legal.git",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stars": 9993,
-  "forks": 1962,
-  "openIssues": 97,
-  "score": 126,
+  "installCommand": "git clone https://github.com/dabingfy-dot/solo-to-team-skills.git",
+  "language": "",
+  "license": "MIT",
+  "stars": 853,
+  "forks": 90,
+  "openIssues": 23,
+  "score": 108.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-08T14:42:37Z",
-  "updatedAt": "2026-11-13T06:10:09Z",
-  "createdAt": "2026-04-21T15:43:42Z",
+  "pushedAt": "2026-11-07T01:36:36Z",
+  "updatedAt": "2026-11-14T06:22:40Z",
+  "createdAt": "2026-11-07T01:36:28Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent-skills",
+    "ai-agents",
+    "collaboration",
+    "human-in-the-loop",
+    "workflow"
+  ],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/anthropics/claude-for-legal",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/dabingfy-dot/solo-to-team-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/anthropics/claude-for-legal#readme",
-  "detailPath": "data/details/anthropics__claude__for__legal.json",
+  "readmeUrl": "https://github.com/dabingfy-dot/solo-to-team-skills#readme",
+  "detailPath": "data/details/dabingfy__dot__solo__to__team__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "法律工作流插件套件",
+    "summary": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 ",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "936b22b83940e375",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "4cc700d04f825733",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-for-legal：法律工作流插件套件。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-for-legal 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "solo-to-team-skills：Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "solo-to-team-skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +98,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +121,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

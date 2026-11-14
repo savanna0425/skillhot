@@ -1,5 +1,5 @@
 {
-  "rank": 450,
+  "rank": 451,
   "id": 959123498,
   "name": "Unity-MCP",
   "fullName": "IvanMurzak/Unity-MCP",
@@ -19,16 +19,16 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g unity-mcp-cli\nunity-mcp-cli install-plugin ./MyUnityProject\nunity-mcp-cli login",
+  "installCommand": "npm install -g unity-mcp-cli\nunity-mcp-cli install-plugin ./MyUnityProject   # add the plugin to Packages/manifest.json\nunity-mcp-cli open ./MyUnityProject             # open the project in Unity",
   "language": "C#",
   "license": "Apache-2.0",
-  "stars": 4632,
+  "stars": 4636,
   "forks": 409,
-  "openIssues": 55,
+  "openIssues": 56,
   "score": 126,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-12T03:54:44Z",
-  "updatedAt": "2026-11-13T05:06:28Z",
+  "pushedAt": "2026-11-14T05:16:37Z",
+  "updatedAt": "2026-11-13T14:23:42Z",
   "createdAt": "2025-04-02T09:57:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -94,8 +94,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-13T06:55:06.836Z",
-    "sourceHash": "09b70631198692ec",
+    "generatedAt": "2026-11-14T06:37:29.179Z",
+    "sourceHash": "167f105168b53698",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
