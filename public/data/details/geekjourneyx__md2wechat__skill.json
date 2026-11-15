@@ -1,5 +1,5 @@
 {
-  "rank": 669,
+  "rank": 975,
   "id": 1132020002,
   "name": "md2wechat-skill",
   "fullName": "geekjourneyx/md2wechat-skill",
@@ -8,7 +8,7 @@
   "url": "https://github.com/geekjourneyx/md2wechat-skill",
   "homepage": "https://md2wechat.cn",
   "description": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
-  "summary": "md2wechat-skill：面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "md2wechat-skill：面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "待复核",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g @geekjourneyx/md2wechat@3.8.0\nmd2wechat version --json\nmd2wechat config init --json",
+  "installCommand": "git clone https://github.com/geekjourneyx/md2wechat-skill.git",
   "language": "Go",
   "license": "NOASSERTION",
   "stars": 3800,
   "forks": 423,
   "openIssues": 5,
-  "score": 120.9,
-  "activity": "本月活跃",
+  "score": 112.9,
+  "activity": "近期活跃",
   "pushedAt": "2026-10-14T16:18:24Z",
-  "updatedAt": "2026-11-14T06:02:29Z",
+  "updatedAt": "2026-11-15T05:57:56Z",
   "createdAt": "2026-01-11T06:36:13Z",
   "sourceTopics": [
     "claude-skills"
@@ -60,10 +60,7 @@
     "weixin"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI",
-    "OpenClaw"
+    "Claude"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -95,13 +92,13 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "b07ece01c18b9670",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "ae03657b1485e0d5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "md2wechat-skill：面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "md2wechat-skill：面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。适合在 Claude 相关工作流里先做选型判断。",
     "whatItIs": "md2wechat-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
@@ -119,7 +116,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

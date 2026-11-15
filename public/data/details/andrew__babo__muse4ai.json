@@ -1,75 +1,55 @@
 {
-  "rank": 2301,
-  "id": 1164313834,
-  "name": "github-explorer-skill",
-  "fullName": "caution724/github-explorer-skill",
-  "owner": "caution724",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/145236944?v=4",
-  "url": "https://github.com/caution724/github-explorer-skill",
+  "rank": 1587,
+  "id": 1444635695,
+  "name": "muse4ai",
+  "fullName": "andrew-babo/muse4ai",
+  "owner": "andrew-babo",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/204065716?v=4",
+  "url": "https://github.com/andrew-babo/muse4ai",
   "homepage": "",
-  "description": "🔍 Analyze GitHub projects deeply using multi-source data and AI to generate structured, actionable reports for informed decision-making.",
-  "summary": "github-explorer-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Antigravity 相关工作流里先做选型判断。",
+  "description": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
+  "summary": "muse4ai：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
     "视觉创作",
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/caution724/github-explorer-skill.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/andrew-babo/muse4ai.git",
+  "language": "TypeScript",
   "license": "MIT",
-  "stars": 2,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-14T07:09:36Z",
-  "updatedAt": "2026-10-14T07:09:40Z",
-  "createdAt": "2026-02-22T23:45:32Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "stars": 851,
+  "forks": 64,
+  "openIssues": 4,
+  "score": 100.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-13T17:36:17Z",
+  "updatedAt": "2026-11-15T06:29:54Z",
+  "createdAt": "2026-11-03T17:45:18Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agent-skills",
-    "agentic-skills",
-    "ai-agent",
-    "antigravity-ide",
-    "audio",
-    "github-api",
-    "github-config",
-    "learntocode",
-    "mcp",
-    "open-source-projects",
-    "opensourcecontributions",
-    "project-analysis",
-    "project-ideas",
-    "python",
-    "pythongames",
-    "pythonprojects",
-    "unique-projects"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Antigravity"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/caution724/github-explorer-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/andrew-babo/muse4ai",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/caution724/github-explorer-skill#readme",
-  "detailPath": "data/details/caution724__github__explorer__skill.json",
+  "readmeUrl": "https://github.com/andrew-babo/muse4ai#readme",
+  "detailPath": "data/details/andrew__babo__muse4ai.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "github-explorer-skill：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "muse4ai：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -88,14 +68,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "1c2aa19dd4b6be9b",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "cbdfc7a3d2f32949",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "github-explorer-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Antigravity 相关工作流里先做选型判断。",
-    "whatItIs": "github-explorer-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "muse4ai：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "muse4ai 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -112,7 +92,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Antigravity 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

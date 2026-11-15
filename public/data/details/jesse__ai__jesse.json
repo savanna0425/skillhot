@@ -1,5 +1,5 @@
 {
-  "rank": 500,
+  "rank": 501,
   "id": 156847937,
   "name": "jesse",
   "fullName": "jesse-ai/jesse",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/44895627?v=4",
   "url": "https://github.com/jesse-ai/jesse",
   "homepage": "https://jesse.trade",
-  "description": "An advanced crypto trading bot written in Python",
-  "summary": "jesse：用 Python 编写的先进加密货币交易机器人。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "An advanced trading bot written in Python",
+  "summary": "jesse：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/jesse-ai/jesse.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 8803,
-  "forks": 1285,
+  "stars": 8805,
+  "forks": 1286,
   "openIssues": 4,
   "score": 124.7,
   "activity": "本周活跃",
   "pushedAt": "2026-11-10T10:05:34Z",
-  "updatedAt": "2026-11-13T16:28:58Z",
+  "updatedAt": "2026-11-15T03:42:49Z",
   "createdAt": "2018-11-09T10:38:44Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,6 +37,7 @@
   "repoTopics": [
     "algo-trading",
     "algorithmic-trading",
+    "alpaca",
     "bitcoin",
     "bot",
     "crypto",
@@ -48,6 +49,7 @@
     "python",
     "quantitative-finance",
     "quantitative-trading",
+    "stocks",
     "trade",
     "trading",
     "trading-algorithms",
@@ -70,7 +72,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "用 Python 编写的先进加密货币交易机器人",
+    "summary": "jesse 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -89,13 +91,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "a0a1824ae98b9cbe",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "a009fa860bc2d5f1",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "jesse：用 Python 编写的先进加密货币交易机器人。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "jesse：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "jesse 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",

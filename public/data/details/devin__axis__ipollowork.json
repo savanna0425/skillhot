@@ -1,5 +1,5 @@
 {
-  "rank": 294,
+  "rank": 298,
   "id": 1044010907,
   "name": "iPolloWork",
   "fullName": "Devin-AXIS/iPolloWork",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/228423313?v=4",
   "url": "https://github.com/Devin-AXIS/iPolloWork",
   "homepage": "https://www.ipollo.ai/",
-  "description": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for Codex Harness, DeepSeek Harness, and OpenCode, with unified plugins and Skills, multi-agent projects and tasks, and editable code, documents, presentations, design, and video.",
+  "description": "An enterprise collaboration platform for people and multi-agent teams, built on the open-source DeepSeek Harness. Shared projects, plugins and Skills, integrated messaging, and editable code, documents, presentations, design, websites and video.",
   "summary": "iPolloWork：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "npx @deepseek-ai/dsh plugin --profile web add deepseek-idesign deepseek-ippt deepseek-ivideo\nnpx @deepseek-ai/dsh web",
+  "installCommand": "git clone --branch main https://github.com/Devin-AXIS/iPolloWork.git\ncd iPolloWork\nnpm run setup:build",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 7451,
+  "stars": 7453,
   "forks": 1135,
-  "openIssues": 91,
+  "openIssues": 96,
   "score": 134.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-14T06:19:54Z",
-  "updatedAt": "2026-11-13T14:58:11Z",
+  "pushedAt": "2026-11-15T06:04:15Z",
+  "updatedAt": "2026-11-15T01:26:31Z",
   "createdAt": "2025-08-25T03:57:40Z",
   "sourceTopics": [
     "agent-skills"
@@ -92,8 +92,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "15b60cd36a881f29",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "b5aa992268119093",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

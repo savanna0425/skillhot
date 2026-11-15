@@ -1,5 +1,5 @@
 {
-  "rank": 2016,
+  "rank": 1305,
   "id": 1147015603,
   "name": "ai-marketing-claude-code-skills",
   "fullName": "BrianRWagner/ai-marketing-claude-code-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/3800703?v=4",
   "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
   "homepage": "https://www.brianrwagner.com/",
-  "description": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc. ",
-  "summary": "ai-marketing-claude-code-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "description": "20 free marketing skills that AI actually executes. Built for Claude Code; also works with Codex, ChatGPT, Cursor and Grok. MIT licensed.",
+  "summary": "ai-marketing-claude-code-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
   "categoryConfidence": "高",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/BrianRWagner/ai-marketing-claude-code-skills.git",
-  "language": "Shell",
-  "license": "",
-  "stars": 455,
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 454,
   "forks": 104,
-  "openIssues": 5,
-  "score": 83,
-  "activity": "活跃",
-  "pushedAt": "2026-03-19T12:37:28Z",
-  "updatedAt": "2026-11-11T05:51:25Z",
+  "openIssues": 0,
+  "score": 106,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-14T19:51:25Z",
+  "updatedAt": "2026-11-14T19:51:26Z",
   "createdAt": "2026-02-01T03:40:36Z",
   "sourceTopics": [
     "claude-code-skills"
@@ -48,7 +48,8 @@
   ],
   "platforms": [
     "Claude",
-    "OpenClaw"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -77,16 +78,16 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "16103e6bd2887aea",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "cc773c48ca2e8917",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-marketing-claude-code-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "ai-marketing-claude-code-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "ai-marketing-claude-code-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
@@ -104,7 +105,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -127,7 +128,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

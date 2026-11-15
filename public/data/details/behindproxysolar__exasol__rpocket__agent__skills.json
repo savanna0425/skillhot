@@ -1,55 +1,71 @@
 {
-  "rank": 1549,
-  "id": 1382503730,
-  "name": "agentrun",
-  "fullName": "Parcha-ai/agentrun",
-  "owner": "Parcha-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/129819217?v=4",
-  "url": "https://github.com/Parcha-ai/agentrun",
-  "homepage": "https://agentrun.ai",
-  "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter, more fault tolerant and use fewer tokens with every run.",
-  "summary": "agentrun：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2005,
+  "id": 1446939070,
+  "name": "exasol-rpocket-agent-skills",
+  "fullName": "BehindProxySolar/exasol-rpocket-agent-skills",
+  "owner": "BehindProxySolar",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/351933297?v=4",
+  "url": "https://github.com/BehindProxySolar/exasol-rpocket-agent-skills",
+  "homepage": "",
+  "description": "Exasol skills for AI agents. Optimized for Claude Code and OpenAI Codex 🤖",
+  "summary": "exasol-rpocket-agent-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "高",
-  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/Parcha-ai/agentrun.git",
-  "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 891,
-  "forks": 65,
-  "openIssues": 69,
-  "score": 100.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-14T06:35:46Z",
-  "updatedAt": "2026-11-14T06:35:46Z",
-  "createdAt": "2026-09-23T00:27:34Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "installCommand": "git clone https://github.com/BehindProxySolar/exasol-rpocket-agent-skills.git",
+  "language": "",
+  "license": "",
+  "stars": 96,
+  "forks": 0,
+  "openIssues": 0,
+  "score": 83.6,
+  "activity": "本月活跃",
+  "pushedAt": "2026-11-05T11:55:45Z",
+  "updatedAt": "2026-11-14T14:04:01Z",
+  "createdAt": "2026-11-05T11:55:37Z",
+  "sourceTopics": [
+    "codex-skills"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "abogado",
+    "abogados",
+    "chile",
+    "chilean",
+    "codex-skills",
+    "derecho",
+    "derecho-laboral",
+    "exasol",
+    "exasol-integration",
+    "exasol-labs",
+    "openai",
+    "skills"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/Parcha-ai/agentrun",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BehindProxySolar/exasol-rpocket-agent-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/Parcha-ai/agentrun#readme",
-  "detailPath": "data/details/parcha__ai__agentrun.json",
+  "readmeUrl": "https://github.com/BehindProxySolar/exasol-rpocket-agent-skills#readme",
+  "detailPath": "data/details/behindproxysolar__exasol__rpocket__agent__skills.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agentrun 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "exasol-rpocket-agent-skills 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -65,17 +81,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-14T06:37:29.179Z",
-    "sourceHash": "cd8a6ec0c0394014",
+    "generatedAt": "2026-11-15T06:45:19.954Z",
+    "sourceHash": "baf3fbf525914d78",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentrun：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agentrun 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "exasol-rpocket-agent-skills：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "exasol-rpocket-agent-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -92,7 +108,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -115,7 +131,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
