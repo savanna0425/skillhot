@@ -1,5 +1,5 @@
 {
-  "rank": 1508,
+  "rank": 1509,
   "id": 1382625851,
   "name": "Valen",
   "fullName": "Valen-Team/Valen",
@@ -7,11 +7,11 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/341766111?v=4",
   "url": "https://github.com/Valen-Team/Valen",
   "homepage": "https://valen-team.github.io",
-  "description": "Open, lightweight multimodal decision models for text, images, and video. Train and run them yourself.",
+  "description": "Open multimodal decision models, 0.8B to 27B, for text, images and video. Decide with probabilities over your own candidates and locate with bounding boxes, in place of generated text. Free API, ONNX, GGUF, vLLM and SGLang; fine-tuning code included.",
   "summary": "Valen：图片、视频、演示、写作、音频与社交内容生产。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/Valen-Team/Valen.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 914,
+  "stars": 916,
   "forks": 88,
   "openIssues": 0,
   "score": 101.2,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-15T01:26:41Z",
-  "updatedAt": "2026-11-13T06:58:33Z",
+  "pushedAt": "2026-11-15T17:45:29Z",
+  "updatedAt": "2026-11-16T04:51:50Z",
   "createdAt": "2026-09-23T02:48:02Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -36,9 +36,20 @@
   ],
   "repoTopics": [
     "decision-model",
+    "fine-tuning",
+    "gguf",
     "jev",
+    "multimodal",
+    "onnx",
+    "structured-output",
     "system-one",
-    "typed-decisions"
+    "typed-decisions",
+    "video-understanding",
+    "vision-language-model",
+    "visual-grounding",
+    "vllm",
+    "vlm",
+    "zero-shot-classification"
   ],
   "platforms": [
     "Agent Skills"
@@ -73,8 +84,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-15T06:45:19.954Z",
-    "sourceHash": "3637dafb39b5d92a",
+    "generatedAt": "2026-11-16T06:43:08.724Z",
+    "sourceHash": "37a081dd3fcaf5df",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

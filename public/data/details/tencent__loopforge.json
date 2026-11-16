@@ -1,17 +1,17 @@
 {
-  "rank": 2280,
-  "id": 1195507999,
-  "name": "docmancer",
-  "fullName": "docmancer/docmancer",
-  "owner": "docmancer",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/272027700?v=4",
-  "url": "https://github.com/docmancer/docmancer",
-  "homepage": "https://docmancer.dev",
-  "description": "Find out what your coding agents already know. Docmancer indexes the memory, rules, and instructions Claude Code, Codex, Cursor, and Gemini wrote on your machine, then carries the durable parts to every agent. It is local-first and under MIT license.",
-  "summary": "docmancer：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 1153,
+  "id": 1314510108,
+  "name": "LoopForge",
+  "fullName": "Tencent/LoopForge",
+  "owner": "Tencent",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/18461506?v=4",
+  "url": "https://github.com/Tencent/LoopForge",
+  "homepage": "https://loopforge.cn",
+  "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+  "summary": "LoopForge：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,62 +19,60 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/docmancer/docmancer.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 133,
-  "forks": 12,
-  "openIssues": 5,
-  "score": 62.7,
-  "activity": "活跃",
-  "pushedAt": "2026-08-13T15:35:57Z",
-  "updatedAt": "2026-10-23T10:30:28Z",
-  "createdAt": "2026-03-29T18:46:53Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "installCommand": "git clone https://github.com/Tencent/LoopForge.git",
+  "language": "Go",
+  "license": "NOASSERTION",
+  "stars": 1831,
+  "forks": 304,
+  "openIssues": 132,
+  "score": 108.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-16T06:32:13Z",
+  "updatedAt": "2026-11-16T06:42:14Z",
+  "createdAt": "2026-07-28T03:51:01Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent-memory",
-    "ai",
+    "agent-orchestration",
+    "agentic-workflow",
     "ai-agents",
-    "ai-memory",
+    "ai-coding",
     "claude-code",
-    "claude-code-skill",
-    "claude-skills",
-    "cli",
+    "code-review",
+    "codebuddy",
     "codex",
-    "context-engineering",
+    "coding-agents",
+    "cursor",
     "developer-tools",
-    "devtool",
+    "human-on-the-loop",
     "llm",
-    "local-first",
     "mcp",
-    "memory",
-    "python",
-    "rag",
-    "semantic-search"
+    "multi-agent",
+    "sdlc",
+    "self-hosted",
+    "sop",
+    "workflow-automation",
+    "workflow-engine"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "Gemini CLI"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/docmancer/docmancer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Tencent/LoopForge",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/docmancer/docmancer#readme",
-  "detailPath": "data/details/docmancer__docmancer.json",
+  "readmeUrl": "https://github.com/Tencent/LoopForge#readme",
+  "detailPath": "data/details/tencent__loopforge.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "docmancer 聚焦软件开发、代码质量与工程交付。",
+    "summary": "LoopForge 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -90,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-15T06:45:19.954Z",
-    "sourceHash": "fd9d9a6a892c74e7",
+    "generatedAt": "2026-11-16T06:43:08.724Z",
+    "sourceHash": "3ef00b3d68f6acab",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "docmancer：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "docmancer 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "LoopForge：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "LoopForge 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -140,7 +138,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

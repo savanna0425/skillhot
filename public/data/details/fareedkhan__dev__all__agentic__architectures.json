@@ -1,75 +1,73 @@
 {
-  "rank": 697,
-  "id": 1327214801,
-  "name": "phone-harness",
-  "fullName": "phone-harness/phone-harness",
-  "owner": "phone-harness",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/325502100?v=4",
-  "url": "https://github.com/phone-harness/phone-harness",
-  "homepage": "phone-harness.com",
-  "description": "let your agent control your phone",
-  "summary": "phone-harness：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 716,
+  "id": 1063265931,
+  "name": "all-agentic-architectures",
+  "fullName": "FareedKhan-dev/all-agentic-architectures",
+  "owner": "FareedKhan-dev",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/63067900?v=4",
+  "url": "https://github.com/FareedKhan-dev/all-agentic-architectures",
+  "homepage": "https://fareedkhan-dev.github.io/all-agentic-architectures/",
+  "description": "35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent, ...) — a Python library and runnable textbook with multi-provider LLM support and a 17-task benchmark leaderboard.",
+  "summary": "all-agentic-architectures 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
     "代码质量",
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/phone-harness/phone-harness.git",
-  "language": "Python",
+  "installCommand": "pip install \"agentic-architectures[nebius,faiss,tavily]\"",
+  "language": "Jupyter Notebook",
   "license": "MIT",
-  "stars": 4999,
-  "forks": 518,
-  "openIssues": 99,
-  "score": 118.8,
+  "stars": 4756,
+  "forks": 798,
+  "openIssues": 13,
+  "score": 118.3,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-09T03:59:36Z",
-  "updatedAt": "2026-11-15T06:09:35Z",
-  "createdAt": "2026-08-07T22:28:53Z",
+  "pushedAt": "2026-11-16T05:37:27Z",
+  "updatedAt": "2026-11-16T06:15:20Z",
+  "createdAt": "2025-09-24T11:47:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agent",
-    "ai",
-    "automation",
-    "developer-tools",
-    "mobile-ai",
-    "mobile-development"
+    "agentic-ai",
+    "ai-agents",
+    "langchain",
+    "langgraph",
+    "langsmith",
+    "llm"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "OpenClaw"
+    "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/phone-harness/phone-harness",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/FareedKhan-dev/all-agentic-architectures",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/phone-harness/phone-harness#readme",
-  "detailPath": "data/details/phone__harness__phone__harness.json",
+  "readmeUrl": "https://github.com/FareedKhan-dev/all-agentic-architectures#readme",
+  "detailPath": "data/details/fareedkhan__dev__all__agentic__architectures.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "phone-harness 聚焦软件开发、代码质量与工程交付。",
+    "summary": "35 种生产级代理 AI 架构（Reflexion、LATS、GraphRAG、MemGPT、Voyager、BrowserAgent，...）——一个支持多提供商 LLM 的 Python 库及可运行教材，包含 17 项任务基准排行榜",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -77,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-15T06:45:19.954Z",
-    "sourceHash": "d344c8330feddca4",
+    "generatedAt": "2026-11-16T06:43:08.724Z",
+    "sourceHash": "7a27fbf5b06a61a5",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "phone-harness：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "phone-harness 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "all-agentic-architectures 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "all-agentic-architectures 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -101,7 +99,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

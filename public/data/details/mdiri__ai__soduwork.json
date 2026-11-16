@@ -1,65 +1,78 @@
 {
-  "rank": 2291,
-  "id": 1314830653,
-  "name": "aikey",
-  "fullName": "iamzifei/aikey",
-  "owner": "iamzifei",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/399680?v=4",
-  "url": "https://github.com/iamzifei/aikey",
-  "homepage": "https://jamesai.dev",
-  "description": "AI KEY（AI 钥匙）· 内容操盘手 + 生意操盘手 —— 25 个中文 AI 技能，不给公式，给判据。每条规则都标了实测代价。",
-  "summary": "aikey：AI KEY（AI 钥匙）· 内容操盘手 + 生意操盘手 —— 25 个中文 AI 技能，不给公式，给判据。每条规则都标了实测代价。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1399,
+  "id": 1437869585,
+  "name": "SoduWork",
+  "fullName": "mdiri-ai/SoduWork",
+  "owner": "mdiri-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/342439292?v=4",
+  "url": "https://github.com/mdiri-ai/SoduWork",
+  "homepage": "https://www.soduwork.ai",
+  "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+  "summary": "SoduWork：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "高",
+  "categoryReason": "agent platform|agent framework|agent harness|agent wor",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/iamzifei/aikey.git",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 4,
-  "forks": 1,
-  "openIssues": 0,
-  "score": 61.5,
+  "installCommand": "git clone https://github.com/mdiri-ai/SoduWork.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 996,
+  "forks": 153,
+  "openIssues": 51,
+  "score": 102.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-07T08:14:04Z",
-  "updatedAt": "2026-11-07T08:13:43Z",
-  "createdAt": "2026-07-28T10:13:17Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "pushedAt": "2026-11-16T06:13:58Z",
+  "updatedAt": "2026-11-16T06:31:35Z",
+  "createdAt": "2026-10-29T02:43:14Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agents-skills",
-    "ai-agent-skills",
+    "agent-harness",
+    "agent-orchestration",
+    "agent-workflows",
+    "ai-agents",
+    "ai-workflows",
+    "anti-slop",
     "claude-code",
-    "clawhub",
-    "openclaw",
-    "skills-sh"
+    "codex",
+    "deepseek",
+    "electron",
+    "fastapi",
+    "harness",
+    "human-in-the-loop",
+    "llm",
+    "mcp",
+    "multi-agent",
+    "opencode",
+    "plugin-system",
+    "self-hosted",
+    "team-collaboration"
   ],
   "platforms": [
     "Claude",
-    "OpenClaw"
+    "Codex",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/iamzifei/aikey",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mdiri-ai/SoduWork",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/iamzifei/aikey#readme",
-  "detailPath": "data/details/iamzifei__aikey.json",
+  "readmeUrl": "https://github.com/mdiri-ai/SoduWork#readme",
+  "detailPath": "data/details/mdiri__ai__soduwork.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "AI KEY（AI 钥匙）· 内容操盘手 + 生意操盘手 —— 25 个中文 AI 技能，不给公式，给判据。每条规则都标了实测代价。",
+    "summary": "SoduWork 是用于运行、管理或编排 AI Agent 的开源工具。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -75,17 +88,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-15T06:45:19.954Z",
-    "sourceHash": "ccabbfeb909d01c0",
+    "generatedAt": "2026-11-16T06:43:08.724Z",
+    "sourceHash": "d489b0159fd03a71",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "aikey：AI KEY（AI 钥匙）· 内容操盘手 + 生意操盘手 —— 25 个中文 AI 技能，不给公式，给判据。每条规则都标了实测代价。适合在 Claude、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "aikey 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "SoduWork：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、OpenCode 相关工作流里先做选型判断。",
+    "whatItIs": "SoduWork 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -102,7 +115,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Claude、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenCode 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -125,7 +138,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
