@@ -1,5 +1,5 @@
 {
-  "rank": 1319,
+  "rank": 1329,
   "id": 1143440578,
   "name": "unbrowse",
   "fullName": "unbrowse-ai/unbrowse",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/263146700?v=4",
   "url": "https://github.com/unbrowse-ai/unbrowse",
   "homepage": "https://unbrowse.ai",
-  "description": "Unbrowse - Reverse engineer any website so that your agents can access its APIs directly",
+  "description": "Unbrowse - agents use the web faster without a browser",
   "summary": "unbrowse：用于自动化浏览器、工具集成或重复流程。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "自动化",
   "categoryDescription": "浏览器、网页抓取、工具集成与重复流程自动化",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/unbrowse-ai/unbrowse.git",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 933,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "stars": 934,
   "forks": 86,
   "openIssues": 5,
   "score": 105.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-17T03:07:36Z",
-  "updatedAt": "2026-11-16T22:39:59Z",
+  "pushedAt": "2026-11-18T02:12:34Z",
+  "updatedAt": "2026-11-17T15:39:48Z",
   "createdAt": "2026-01-27T15:30:07Z",
   "sourceTopics": [
     "openclaw-skills"
@@ -91,11 +91,11 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-17T08:03:34.841Z",
-    "sourceHash": "c1d6b21da86abe14",
+    "generatedAt": "2026-11-18T07:40:22.013Z",
+    "sourceHash": "89a461e4fc96c056",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -141,7 +141,7 @@
       "Agent 可以承担更多可控的执行型任务。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
