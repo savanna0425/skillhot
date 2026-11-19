@@ -1,14 +1,14 @@
 {
-  "rank": 325,
-  "id": 1444573070,
-  "name": "agent_skills",
-  "fullName": "janestreet/agent_skills",
-  "owner": "janestreet",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/3384712?v=4",
-  "url": "https://github.com/janestreet/agent_skills",
+  "rank": 2095,
+  "id": 1462189515,
+  "name": "skill-siphon",
+  "fullName": "JL-GUO/skill-siphon",
+  "owner": "JL-GUO",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/82819648?v=4",
+  "url": "https://github.com/JL-GUO/skill-siphon",
   "homepage": "",
-  "description": "Agent skills",
-  "summary": "agent_skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "吸星大法.skill（Skill-Siphon）是一个面向 Agent Skill 的学习提炼工具：它把优秀 skill 里高手已经写下来的经验，提炼成人能学懂、能练习、能用到自己工作里的资料。实现效果：隔空吸纳、汇入经脉、炼化内力、凝成精华。它通用适配各种支持 Skill 的 Agent 工具，可帮你从高星/热门 skill 或指定 skill 中提炼核心经验，默认生成学习指南、上手实践、来源与边界三类资料。仓库地址：https://github.com/JL-GUO/skill-siphon  路过留下个star再走吧~非常感谢！",
+  "summary": "skill-siphon：吸星大法.skill（Skill-Siphon）是一个面向 Agent Skill 的学习提炼工具：它把优秀 skill 里高手已经写下来的经验，提炼成人能学懂、能练习、能用到自己工作里的资料。实现效果：隔空吸纳、汇入经脉、炼化内力、凝成精。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,59 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/janestreet/agent_skills.git",
+  "installCommand": "git clone https://github.com/JL-GUO/skill-siphon.git",
   "language": "",
   "license": "MIT",
-  "stars": 9951,
-  "forks": 678,
+  "stars": 23,
+  "forks": 2,
   "openIssues": 0,
-  "score": 134,
+  "score": 78.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-17T16:38:00Z",
-  "updatedAt": "2026-11-18T07:38:54Z",
-  "createdAt": "2026-11-03T16:50:21Z",
-  "sourceTopics": [],
-  "discoveredBy": [
-    "GitHub 高星活跃搜索"
+  "pushedAt": "2026-11-19T05:43:21Z",
+  "updatedAt": "2026-11-19T05:57:57Z",
+  "createdAt": "2026-11-18T01:48:42Z",
+  "sourceTopics": [
+    "workbuddy-skill"
   ],
-  "repoTopics": [],
+  "discoveredBy": [
+    "GitHub Topics"
+  ],
+  "repoTopics": [
+    "agent",
+    "agent-skills",
+    "agents",
+    "claude-code",
+    "claude-skill",
+    "claude-skills",
+    "codex",
+    "codex-skill",
+    "codex-skills",
+    "dsh",
+    "dsh-skill",
+    "knowledge-distillation",
+    "llm",
+    "skill",
+    "skills",
+    "workbuddy",
+    "workbuddy-skill",
+    "workbuddy-skills"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/janestreet/agent_skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/JL-GUO/skill-siphon",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/janestreet/agent_skills#readme",
-  "detailPath": "data/details/janestreet__agent__skills.json",
+  "readmeUrl": "https://github.com/JL-GUO/skill-siphon#readme",
+  "detailPath": "data/details/jl__guo__skill__siphon.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agent_skills：尚未归入主要类别的实用项目。",
+    "summary": "吸星大法.skill（Skill-Siphon）是一个面向 Agent Skill 的学习提炼工具：它把优秀 skill 里高手已经写下来的经验，提炼成人能学懂、能练习、能用到自己工作里的资料。实现效果：隔空吸纳、汇入经脉、炼化内力、凝成精",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -68,14 +90,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-18T07:40:22.013Z",
-    "sourceHash": "154a4caff6168339",
+    "generatedAt": "2026-11-19T07:35:36.197Z",
+    "sourceHash": "d9ffaeacd91b2272",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agent_skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agent_skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "skill-siphon：吸星大法.skill（Skill-Siphon）是一个面向 Agent Skill 的学习提炼工具：它把优秀 skill 里高手已经写下来的经验，提炼成人能学懂、能练习、能用到自己工作里的资料。实现效果：隔空吸纳、汇入经脉、炼化内力、凝成精。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "skill-siphon 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +114,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

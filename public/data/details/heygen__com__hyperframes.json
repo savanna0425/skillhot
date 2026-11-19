@@ -1,5 +1,5 @@
 {
-  "rank": 90,
+  "rank": 91,
   "id": 1177402105,
   "name": "hyperframes",
   "fullName": "heygen-com/hyperframes",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/65394575?v=4",
   "url": "https://github.com/heygen-com/hyperframes",
   "homepage": "https://hyperframes.heygen.com",
-  "description": "Write HTML. Render video. Built for agents.",
-  "summary": "hyperframes：让智能体使用 HTML、CSS 与 GSAP 制作可确定性渲染视频的框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+  "summary": "hyperframes：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "claude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 86154,
-  "forks": 7982,
-  "openIssues": 286,
-  "score": 148.4,
+  "stars": 86679,
+  "forks": 8052,
+  "openIssues": 301,
+  "score": 148.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-18T07:38:31Z",
-  "updatedAt": "2026-11-18T07:30:49Z",
+  "pushedAt": "2026-11-19T07:27:15Z",
+  "updatedAt": "2026-11-19T07:32:10Z",
   "createdAt": "2026-03-10T01:51:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -71,7 +71,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "让智能体使用 HTML、CSS 与 GSAP 制作可确定性渲染视频的框架",
+    "summary": "hyperframes：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -90,13 +90,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-18T07:40:22.013Z",
-    "sourceHash": "60d06572c31613fc",
+    "generatedAt": "2026-11-19T07:35:36.197Z",
+    "sourceHash": "4d936e246123e0dc",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "hyperframes：让智能体使用 HTML、CSS 与 GSAP 制作可确定性渲染视频的框架。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "hyperframes：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "hyperframes 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

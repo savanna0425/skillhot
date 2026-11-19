@@ -1,13 +1,13 @@
 {
-  "rank": 2149,
+  "rank": 1688,
   "id": 1187538031,
   "name": "ppt-agent-skill",
   "fullName": "Akxan/ppt-agent-skill",
   "owner": "Akxan",
   "avatarUrl": "https://avatars.githubusercontent.com/u/137117276?v=4",
   "url": "https://github.com/Akxan/ppt-agent-skill",
-  "homepage": "https://github.com/Akxan/ppt-agent-skill",
-  "description": "🎨 World-class AI presentation generator · 26 styles · 18 charts · benchmarked against Linear/Anthropic/Stripe/Apple/NYT — a Claude Code Skill that turns one sentence into design-agency-quality decks (HTML + editable PPTX)",
+  "homepage": "https://akxan.github.io/ppt-agent-skill/",
+  "description": "🎨 World-class AI presentation generator · 26 styles · 18 charts · benchmarked against Linear/Anthropic/Stripe/Apple/NYT — a Claude Code Skill that turns one sentence into design-agency-quality decks (HTML + editable PPTX with transitions & animations)",
   "summary": "ppt-agent-skill：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
@@ -20,15 +20,15 @@
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
   "installCommand": "git clone https://github.com/Akxan/ppt-agent-skill.git",
-  "language": "Python",
+  "language": "HTML",
   "license": "MIT",
-  "stars": 184,
+  "stars": 186,
   "forks": 50,
   "openIssues": 0,
-  "score": 73.9,
-  "activity": "活跃",
-  "pushedAt": "2026-05-11T00:47:17Z",
-  "updatedAt": "2026-11-16T14:45:33Z",
+  "score": 97,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-18T14:23:59Z",
+  "updatedAt": "2026-11-19T06:24:01Z",
   "createdAt": "2026-03-20T20:59:32Z",
   "sourceTopics": [
     "claude-code-skill"
@@ -44,6 +44,7 @@
     "claude",
     "claude-code",
     "claude-code-skill",
+    "claude-skills",
     "data-visualization",
     "design-system",
     "html-to-pptx",
@@ -55,8 +56,7 @@
     "slidedeck",
     "slides",
     "style-system",
-    "typography",
-    "world-class-design"
+    "typography"
   ],
   "platforms": [
     "Claude"
@@ -91,8 +91,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-18T07:40:22.013Z",
-    "sourceHash": "becca8a0fb10f7b5",
+    "generatedAt": "2026-11-19T07:35:36.197Z",
+    "sourceHash": "e312f56df245c40f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

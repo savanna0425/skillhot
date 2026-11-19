@@ -1,55 +1,64 @@
 {
-  "rank": 1988,
-  "id": 1176623797,
-  "name": "Research-Claw",
-  "fullName": "wentorai/Research-Claw",
-  "owner": "wentorai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/266438744?v=4",
-  "url": "https://github.com/wentorai/Research-Claw",
-  "homepage": "",
-  "description": "In the AI era, why can't everyone be a Principal Investigator?",
-  "summary": "Research-Claw：在人工智能时代，为何不能人人成为首席科学家。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 341,
+  "id": 1196617276,
+  "name": "hermes-webui",
+  "fullName": "nesquena/hermes-webui",
+  "owner": "nesquena",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/6511?v=4",
+  "url": "https://github.com/nesquena/hermes-webui",
+  "homepage": "https://get-hermes.ai/setup",
+  "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+  "summary": "hermes-webui：Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "研究学习",
   "categoryDescription": "科研、知识检索、文献、教学、学习与推理工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "research|scientific|academic|paper|literature|citation",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "资料调研",
     "知识检索",
     "学习与推理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/wentorai/Research-Claw.git",
-  "language": "TypeScript",
-  "license": "NOASSERTION",
-  "stars": 863,
-  "forks": 119,
-  "openIssues": 15,
-  "score": 85.6,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-20T14:26:06Z",
-  "updatedAt": "2026-11-14T23:03:17Z",
-  "createdAt": "2026-03-09T07:54:53Z",
+  "installCommand": "git clone https://github.com/nesquena/hermes-webui.git hermes-webui\ncd hermes-webui\npython3 bootstrap.py",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 19567,
+  "forks": 2844,
+  "openIssues": 1007,
+  "score": 133,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-19T06:11:26Z",
+  "updatedAt": "2026-11-19T05:54:47Z",
+  "createdAt": "2026-03-30T21:50:12Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "ai-agents",
+    "hermes",
+    "hermes-agent",
+    "nous-research"
+  ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "OpenClaw",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/wentorai/Research-Claw",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/nesquena/hermes-webui",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/wentorai/Research-Claw#readme",
-  "detailPath": "data/details/wentorai__research__claw.json",
+  "readmeUrl": "https://github.com/nesquena/hermes-webui#readme",
+  "detailPath": "data/details/nesquena__hermes__webui.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "在人工智能时代，为何不能人人成为首席科学家？",
+    "summary": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式！",
     "useCases": [
       "资料调研",
       "知识检索",
@@ -65,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-18T07:40:22.013Z",
-    "sourceHash": "55c027492465eb9c",
+    "generatedAt": "2026-11-19T07:35:36.197Z",
+    "sourceHash": "ab9334ad362a74ac",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Research-Claw：在人工智能时代，为何不能人人成为首席科学家。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Research-Claw 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "hermes-webui：Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "hermes-webui 可以先理解为一个「研究与学习辅助项目」。它围绕「资料调研」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "资料、论文、课程或知识点太分散，整理成本高。",
       "Agent 做研究任务时容易缺少来源意识和结构化步骤。",
@@ -92,7 +101,7 @@
       "学生、研究者、知识工作者和需要快速调研的人。",
       "想让 Agent 帮忙读论文、整理资料或建立学习路线的人。",
       "需要把研究过程沉淀成固定流程的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作学术结论、医疗建议或投资建议的人。",
@@ -115,7 +124,7 @@
       "学习或研究过程更容易复盘。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
