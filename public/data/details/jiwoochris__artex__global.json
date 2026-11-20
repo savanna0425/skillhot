@@ -1,5 +1,5 @@
 {
-  "rank": 1056,
+  "rank": 806,
   "id": 1403307052,
   "name": "artex-global",
   "fullName": "jiwoochris/artex-global",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/jiwoochris/artex-global.git",
+  "installCommand": "git clone https://github.com/jiwoochris/artex-global.git\ncd artex-global\ncp .env.example .env          # set POSTGRES_PASSWORD; ANTHROPIC_API_KEY is optional",
   "language": "Go",
   "license": "AGPL-3.0",
-  "stars": 4003,
-  "forks": 3384,
+  "stars": 4195,
+  "forks": 3492,
   "openIssues": 10,
-  "score": 109.5,
-  "activity": "本月活跃",
-  "pushedAt": "2026-11-09T16:14:32Z",
-  "updatedAt": "2026-11-19T07:27:44Z",
+  "score": 117,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-19T15:55:08Z",
+  "updatedAt": "2026-11-20T07:20:53Z",
   "createdAt": "2026-10-03T14:49:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -83,8 +83,8 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-19T07:35:36.197Z",
-    "sourceHash": "5fb622f7b9041230",
+    "generatedAt": "2026-11-20T07:27:42.727Z",
+    "sourceHash": "c4e2849d6cfafa53",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

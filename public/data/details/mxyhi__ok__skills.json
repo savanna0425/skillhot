@@ -1,5 +1,5 @@
 {
-  "rank": 708,
+  "rank": 908,
   "id": 1147757151,
   "name": "ok-skills",
   "fullName": "mxyhi/ok-skills",
@@ -19,13 +19,13 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "mkdir -p ~/.agents/skills\ncd ~/.agents/skills\ngit clone https://github.com/mxyhi/ok-skills.git ok-skills",
+  "installCommand": "git clone https://github.com/mxyhi/ok-skills.git",
   "language": "HTML",
   "license": "Apache-2.0",
   "stars": 516,
   "forks": 58,
   "openIssues": 7,
-  "score": 119.3,
+  "score": 115.3,
   "activity": "本周活跃",
   "pushedAt": "2026-11-18T19:59:44Z",
   "updatedAt": "2026-11-13T13:44:15Z",
@@ -33,8 +33,7 @@
   "sourceTopics": [
     "claude-code-skills",
     "codex-skills",
-    "openclaw-skills",
-    "cursor-skills"
+    "openclaw-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
@@ -93,7 +92,7 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-19T07:35:36.197Z",
+    "generatedAt": "2026-11-20T07:27:42.727Z",
     "sourceHash": "04a8d65f14b4c669",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"

@@ -1,5 +1,5 @@
 {
-  "rank": 327,
+  "rank": 331,
   "id": 1302986554,
   "name": "drama-skills",
   "fullName": "zenstory-ai/drama-skills",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/drama-skills",
   "homepage": "https://zenstory.ai/zh/drama-skills",
-  "description": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comics",
-  "summary": "drama-skills：AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short d。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "description": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion comics",
+  "summary": "drama-skills：AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion c。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add zenstory-ai/drama-skills -y -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 4487,
-  "forks": 770,
+  "stars": 4544,
+  "forks": 777,
   "openIssues": 3,
-  "score": 133.7,
+  "score": 133.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-16T07:17:05Z",
-  "updatedAt": "2026-11-19T07:16:17Z",
+  "pushedAt": "2026-11-20T04:48:06Z",
+  "updatedAt": "2026-11-20T06:53:15Z",
   "createdAt": "2026-07-16T16:11:19Z",
   "sourceTopics": [
     "claude-skills",
@@ -74,7 +74,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short d",
+    "summary": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion c",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -93,13 +93,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-19T07:35:36.197Z",
-    "sourceHash": "562a97dfe07a8c15",
+    "generatedAt": "2026-11-20T07:27:42.727Z",
+    "sourceHash": "657fcddc1778c8f7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "drama-skills：AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short d。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "drama-skills：AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion c。适合在 Claude、Codex 相关工作流里先做选型判断。",
     "whatItIs": "drama-skills 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

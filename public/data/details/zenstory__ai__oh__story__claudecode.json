@@ -1,5 +1,5 @@
 {
-  "rank": 89,
+  "rank": 84,
   "id": 1218208502,
   "name": "oh-story-claudecode",
   "fullName": "zenstory-ai/oh-story-claudecode",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/311489559?v=4",
   "url": "https://github.com/zenstory-ai/oh-story-claudecode",
   "homepage": "https://zenstory.ai/zh/oh-story",
-  "description": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Agent skill pack for writing Chinese web novels",
-  "summary": "oh-story-claudecode：AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Agent skil。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "description": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
+  "summary": "oh-story-claudecode：网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "npx skills add zenstory-ai/oh-story-claudecode -y -g",
   "language": "Python",
   "license": "MIT",
-  "stars": 8744,
-  "forks": 1229,
-  "openIssues": 10,
-  "score": 148.6,
+  "stars": 8777,
+  "forks": 1232,
+  "openIssues": 11,
+  "score": 148.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-18T00:43:38Z",
-  "updatedAt": "2026-11-19T06:52:33Z",
+  "pushedAt": "2026-11-20T04:48:12Z",
+  "updatedAt": "2026-11-20T06:15:51Z",
   "createdAt": "2026-04-22T16:35:39Z",
   "sourceTopics": [
     "skill",
@@ -80,7 +80,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Agent skil",
+    "summary": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -99,13 +99,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-19T07:35:36.197Z",
-    "sourceHash": "81dbab178b0b0b2c",
+    "generatedAt": "2026-11-20T07:27:42.727Z",
+    "sourceHash": "2df00eddfe9342c0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "oh-story-claudecode：AI 写网文全流程 skill 包：扫榜选材、拆解爆款、大纲细纲、长篇设定与伏笔追踪、短篇反转、去AI味与封面生成，适配 Claude Code / Codex / Antigravity / OpenCode 等 ｜ Agent skil。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "oh-story-claudecode：网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "oh-story-claudecode 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",

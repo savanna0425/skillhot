@@ -1,5 +1,5 @@
 {
-  "rank": 701,
+  "rank": 111,
   "id": 1151667698,
   "name": "godogen",
   "fullName": "htdt/godogen",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/5243839?v=4",
   "url": "https://github.com/htdt/godogen",
   "homepage": "https://x.com/alex_erm",
-  "description": "Autonomous game development with Claude Code and Codex",
+  "description": "Skills for Claude Code, Codex and Antigravity to build games, and anything else a game engine renders well",
   "summary": "godogen：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
@@ -19,19 +19,20 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/htdt/godogen.git",
+  "installCommand": "npx skills add htdt/godogen",
   "language": "Python",
   "license": "MIT",
-  "stars": 7370,
-  "forks": 689,
+  "stars": 7372,
+  "forks": 690,
   "openIssues": 2,
-  "score": 119.8,
-  "activity": "近期活跃",
-  "pushedAt": "2026-10-16T14:56:03Z",
-  "updatedAt": "2026-11-19T03:44:35Z",
+  "score": 146.8,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-19T16:54:26Z",
+  "updatedAt": "2026-11-20T07:21:05Z",
   "createdAt": "2026-02-06T18:46:52Z",
   "sourceTopics": [
     "skills",
+    "agent-skills",
     "claude-code-skill",
     "codex-skill"
   ],
@@ -40,6 +41,10 @@
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "agent-skills",
+    "antigravity",
+    "babylonjs",
+    "bevy",
     "claude",
     "claude-code",
     "claude-code-skill",
@@ -49,12 +54,14 @@
     "game-development",
     "godot",
     "godot4",
-    "skills"
+    "skills",
+    "threejs"
   ],
   "platforms": [
     "Claude",
     "Codex",
-    "Gemini CLI"
+    "Gemini CLI",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -86,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-19T07:35:36.197Z",
-    "sourceHash": "34f94bfab073391b",
+    "generatedAt": "2026-11-20T07:27:42.727Z",
+    "sourceHash": "ed3cf30871a5de34",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
