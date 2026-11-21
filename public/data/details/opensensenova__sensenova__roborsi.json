@@ -1,14 +1,14 @@
 {
-  "rank": 689,
-  "id": 924394244,
-  "name": "agents",
-  "fullName": "cloudflare/agents",
-  "owner": "cloudflare",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/314135?v=4",
-  "url": "https://github.com/cloudflare/agents",
-  "homepage": "https://developers.cloudflare.com/agents/",
-  "description": "Build and deploy AI Agents on Cloudflare ",
-  "summary": "agents：在 Cloudflare 上构建并部署 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1590,
+  "id": 1411978943,
+  "name": "SenseNova-RoboRSI",
+  "fullName": "OpenSenseNova/SenseNova-RoboRSI",
+  "owner": "OpenSenseNova",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/175909011?v=4",
+  "url": "https://github.com/OpenSenseNova/SenseNova-RoboRSI",
+  "homepage": "",
+  "description": "A unified framework for building, evaluating, and recursively improving embodied agents. 🚀 Code release coming soon.",
+  "summary": "SenseNova-RoboRSI：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,43 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm create cloudflare@latest -- --template cloudflare/agents-starter",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stars": 6012,
-  "forks": 853,
-  "openIssues": 218,
-  "score": 120.7,
+  "installCommand": "git clone https://github.com/OpenSenseNova/SenseNova-RoboRSI.git",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 854,
+  "forks": 94,
+  "openIssues": 3,
+  "score": 100.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-20T04:18:37Z",
-  "updatedAt": "2026-11-20T03:38:04Z",
-  "createdAt": "2025-01-29T23:14:04Z",
+  "pushedAt": "2026-11-20T14:37:03Z",
+  "updatedAt": "2026-11-21T07:15:31Z",
+  "createdAt": "2026-10-09T14:28:26Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "agents",
-    "ai",
-    "cloudflare",
-    "durable-objects",
-    "workflows"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/cloudflare/agents",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/OpenSenseNova/SenseNova-RoboRSI",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/cloudflare/agents#readme",
-  "detailPath": "data/details/cloudflare__agents.json",
+  "readmeUrl": "https://github.com/OpenSenseNova/SenseNova-RoboRSI#readme",
+  "detailPath": "data/details/opensensenova__sensenova__roborsi.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "在 Cloudflare 上构建并部署 AI 代理",
+    "summary": "SenseNova-RoboRSI：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -71,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "529f4f5812530afa",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "8898fcdaf1b842a0",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agents：在 Cloudflare 上构建并部署 AI 代理。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "agents 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "SenseNova-RoboRSI：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "SenseNova-RoboRSI 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -121,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

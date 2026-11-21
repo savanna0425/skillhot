@@ -1,17 +1,17 @@
 {
-  "rank": 1068,
-  "id": 1429583155,
-  "name": "ai-startup-skills",
-  "fullName": "huaxialucaicaizi/ai-startup-skills",
-  "owner": "huaxialucaicaizi",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/268513644?v=4",
-  "url": "https://github.com/huaxialucaicaizi/ai-startup-skills",
+  "rank": 1841,
+  "id": 1463927360,
+  "name": "restaurant-ai-skills",
+  "fullName": "heep-ai/restaurant-ai-skills",
+  "owner": "heep-ai",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/328009474?v=4",
+  "url": "https://github.com/heep-ai/restaurant-ai-skills",
   "homepage": "",
-  "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
-  "summary": "ai-startup-skills：创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Practical AI skills for restaurant marketing, reservations and guest communication. Maintained by Heep.",
+  "summary": "restaurant-ai-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
@@ -19,53 +19,37 @@
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/huaxialucaicaizi/ai-startup-skills.git",
+  "installCommand": "git clone https://github.com/heep-ai/restaurant-ai-skills.git",
   "language": "Python",
-  "license": "NOASSERTION",
-  "stars": 932,
-  "forks": 66,
+  "license": "MIT",
+  "stars": 177,
+  "forks": 1,
   "openIssues": 0,
-  "score": 109.4,
+  "score": 92.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-18T13:43:17Z",
-  "updatedAt": "2026-11-19T23:36:15Z",
-  "createdAt": "2026-10-22T10:23:29Z",
+  "pushedAt": "2026-11-19T13:21:36Z",
+  "updatedAt": "2026-11-21T07:02:09Z",
+  "createdAt": "2026-11-19T09:26:20Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub 搜索"
   ],
-  "repoTopics": [
-    "agent-skills",
-    "ai",
-    "business-plan",
-    "claude-code",
-    "codex",
-    "cursor",
-    "entrepreneurship",
-    "growth",
-    "mvp-validation",
-    "one-person-company",
-    "openai",
-    "pricing",
-    "startup"
-  ],
+  "repoTopics": [],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/huaxialucaicaizi/ai-startup-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/heep-ai/restaurant-ai-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/huaxialucaicaizi/ai-startup-skills#readme",
-  "detailPath": "data/details/huaxialucaicaizi__ai__startup__skills.json",
+  "readmeUrl": "https://github.com/heep-ai/restaurant-ai-skills#readme",
+  "detailPath": "data/details/heep__ai__restaurant__ai__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
+    "summary": "restaurant-ai-skills：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -81,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "fac526622ed68aa0",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "bad08a481b03acb4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "ai-startup-skills：创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "ai-startup-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "restaurant-ai-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "restaurant-ai-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -108,7 +92,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -131,7 +115,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

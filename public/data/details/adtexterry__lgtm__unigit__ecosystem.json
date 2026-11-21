@@ -1,60 +1,47 @@
 {
-  "rank": 1423,
-  "id": 957592072,
-  "name": "synaplan",
-  "fullName": "metadist/synaplan",
-  "owner": "metadist",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/119858153?v=4",
-  "url": "https://github.com/metadist/synaplan",
-  "homepage": "https://www.synaplan.com",
-  "description": "Own the flow: one open-source AI platform for your knowledge, models and channels – web, WhatsApp, email, Outlook, Nextcloud & ownCloud. Local and cloud models side by side, with the cost on every answer.",
-  "summary": "synaplan：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1805,
+  "id": 1354611198,
+  "name": "unigit-ecosystem",
+  "fullName": "adtexterry-lgtm/unigit-ecosystem",
+  "owner": "adtexterry-lgtm",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/317701536?v=4",
+  "url": "https://github.com/adtexterry-lgtm/unigit-ecosystem",
+  "homepage": "https://unigit.ai/",
+  "description": "UNIGIT public brand and ecosystem hub — AI should work for everyone.",
+  "summary": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "高",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "categoryConfidence": "待复核",
+  "categoryReason": "仓库 Topic 弱信号",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/metadist/synaplan.git",
-  "language": "PHP",
-  "license": "Apache-2.0",
-  "stars": 976,
-  "forks": 118,
-  "openIssues": 14,
-  "score": 101.9,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-20T07:19:35Z",
-  "updatedAt": "2026-11-20T07:22:10Z",
-  "createdAt": "2025-03-30T18:33:30Z",
+  "installCommand": "git clone https://github.com/adtexterry-lgtm/unigit-ecosystem.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1856,
+  "forks": 45,
+  "openIssues": 0,
+  "score": 93.5,
+  "activity": "近期活跃",
+  "pushedAt": "2026-09-02T12:51:17Z",
+  "updatedAt": "2026-11-21T01:23:59Z",
+  "createdAt": "2026-09-02T10:08:01Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-agents",
-    "anthropic",
-    "chat",
-    "chatbot-widget",
-    "chatgpt-alternative",
-    "docker",
-    "email-automation",
-    "gdpr",
-    "knowledge-base",
-    "llm",
-    "local-llm",
+    "agentic-ai",
+    "ai-tools",
+    "ai-workbench",
+    "ecosystem",
     "mcp",
-    "ollama",
-    "openai",
-    "php",
-    "rag",
-    "self-hosted",
-    "symfony",
-    "whatsapp-bot"
+    "productivity",
+    "unigit"
   ],
   "platforms": [
     "Agent Skills"
@@ -62,15 +49,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/metadist/synaplan",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/adtexterry-lgtm/unigit-ecosystem",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/metadist/synaplan#readme",
-  "detailPath": "data/details/metadist__synaplan.json",
+  "readmeUrl": "https://github.com/adtexterry-lgtm/unigit-ecosystem#readme",
+  "detailPath": "data/details/adtexterry__lgtm__unigit__ecosystem.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "synaplan：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -86,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "e6fac14573ced804",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "f34600a81723ca83",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "synaplan：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "synaplan 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "unigit-ecosystem：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "unigit-ecosystem 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -136,7 +123,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

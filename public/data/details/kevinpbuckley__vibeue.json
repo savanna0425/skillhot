@@ -1,17 +1,17 @@
 {
-  "rank": 1737,
-  "id": 1053169398,
-  "name": "claude-code-devcontainer",
-  "fullName": "trailofbits/claude-code-devcontainer",
-  "owner": "trailofbits",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2314423?v=4",
-  "url": "https://github.com/trailofbits/claude-code-devcontainer",
-  "homepage": "",
-  "description": "Sandboxed devcontainer for running Claude Code in bypass mode safely. Built for security audits and untrusted code review.",
-  "summary": "claude-code-devcontainer：为安全运行 Claude Code 的沙盒开发容器，专为安全审计和不信任代码审查构建。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1606,
+  "id": 1055613678,
+  "name": "VibeUE",
+  "fullName": "kevinpbuckley/VibeUE",
+  "owner": "kevinpbuckley",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/2954744?v=4",
+  "url": "https://github.com/kevinpbuckley/VibeUE",
+  "homepage": "https://www.vibeue.com",
+  "description": "Unreal Engine Vibe Coding tool",
+  "summary": "VibeUE：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "software development|coding|codebase|developer|enginee",
   "scenarios": [
     "软件开发",
@@ -19,37 +19,60 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/trailofbits/claude-code-devcontainer.git",
-  "language": "Shell",
-  "license": "Apache-2.0",
-  "stars": 982,
-  "forks": 114,
-  "openIssues": 7,
-  "score": 94.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-11-09T09:22:20Z",
-  "updatedAt": "2026-11-15T13:42:50Z",
-  "createdAt": "2025-09-09T04:55:26Z",
+  "installCommand": "git clone https://github.com/kevinpbuckley/VibeUE.git",
+  "language": "C++",
+  "license": "MIT",
+  "stars": 844,
+  "forks": 182,
+  "openIssues": 5,
+  "score": 100.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-20T02:05:56Z",
+  "updatedAt": "2026-11-21T03:30:44Z",
+  "createdAt": "2025-09-12T14:25:35Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "ai-tools",
+    "automation",
+    "blueprint",
+    "claude",
+    "copilot",
+    "cursor",
+    "game-development",
+    "gamedev",
+    "landscape",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "niagara",
+    "open-source",
+    "python",
+    "ue5",
+    "unreal-engine",
+    "unreal-engine-plugin",
+    "vibe-coding"
+  ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Cursor",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/trailofbits/claude-code-devcontainer",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kevinpbuckley/VibeUE",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/trailofbits/claude-code-devcontainer#readme",
-  "detailPath": "data/details/trailofbits__claude__code__devcontainer.json",
+  "readmeUrl": "https://github.com/kevinpbuckley/VibeUE#readme",
+  "detailPath": "data/details/kevinpbuckley__vibeue.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "为安全运行 Claude Code 的沙盒开发容器，专为安全审计和不信任代码审查构建",
+    "summary": "VibeUE 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -65,17 +88,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "5eb2909ec270ae32",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "35c6c40cec6345d4",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "claude-code-devcontainer：为安全运行 Claude Code 的沙盒开发容器，专为安全审计和不信任代码审查构建。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "claude-code-devcontainer 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "VibeUE：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+    "whatItIs": "VibeUE 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -92,7 +115,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
@@ -115,7 +138,7 @@
       "你能更快判断一个仓库是否值得投入时间试用。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

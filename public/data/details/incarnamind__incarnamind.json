@@ -1,5 +1,5 @@
 {
-  "rank": 1590,
+  "rank": 1584,
   "id": 683066449,
   "name": "IncarnaMind",
   "fullName": "IncarnaMind/IncarnaMind",
@@ -7,12 +7,12 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/341153780?v=4",
   "url": "https://github.com/IncarnaMind/IncarnaMind",
   "homepage": "",
-  "description": "From messy files to a checked report. A free, open-source desktop app for macOS, Windows and Linux: write and analyse with AI from your own files, check each sentence and figure against them, and export to Word. Meeting notes too. Works with ChatGPT, Claude, Gemini or a local model through Ollama.",
-  "summary": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+  "description": "The artifact layer for any agent: what your AI writes, checked against your files. A free, open-source desktop app for macOS, Windows and Linux. Connect Claude Code or another agent, or use your ChatGPT plan, your own key or a local model. Your files in one Library, sorted and searchable, with your meetings.",
+  "summary": "IncarnaMind 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "高",
-  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
+  "categoryConfidence": "中",
+  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
@@ -23,45 +23,44 @@
   "language": "TypeScript",
   "license": "Apache-2.0",
   "stars": 859,
-  "forks": 62,
-  "openIssues": 301,
+  "forks": 61,
+  "openIssues": 304,
   "score": 100.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-20T04:32:26Z",
-  "updatedAt": "2026-11-19T23:02:58Z",
+  "pushedAt": "2026-11-20T23:43:30Z",
+  "updatedAt": "2026-11-20T15:53:43Z",
   "createdAt": "2023-08-25T14:13:15Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "ai-agents",
     "ai-assistant",
     "chat-with-pdf",
     "citations",
+    "claude-code",
     "desktop-app",
     "document-qa",
     "fact-checking",
     "financial-analysis",
-    "granola-alternative",
     "knowledge-management",
     "llm",
     "local-first",
-    "local-llm",
+    "mcp-server",
     "meeting-assistant",
     "note-taking",
     "notebooklm",
     "ollama",
     "pdf",
     "rag",
-    "research-tool",
-    "writing-tool"
+    "research-tool"
   ],
   "platforms": [
-    "Claude",
-    "Gemini CLI"
+    "Claude"
   ],
   "skillCount": 1,
-  "isCollection": false,
+  "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/IncarnaMind/IncarnaMind",
     "videoUrl": ""
@@ -78,11 +77,11 @@
       "个人生产力"
     ],
     "expectedEffects": [
-      "把重复工作沉淀成可复用能力",
+      "减少逐个搜索同类项目的时间",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "需要文档、表格、邮件、日历、笔记与个人生产力能力的用户",
+      "想集中发现和比较 Skills 的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -90,14 +89,14 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "bd9b5c9864b3b76d",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "a7b7ebacda080878",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "IncarnaMind：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "IncarnaMind 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "IncarnaMind 是一个面向 Claude 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+    "whatItIs": "IncarnaMind 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -114,7 +113,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

@@ -1,14 +1,14 @@
 {
-  "rank": 2218,
-  "id": 1139139307,
-  "name": "skills-updater",
-  "fullName": "yizhiyanhua-ai/skills-updater",
-  "owner": "yizhiyanhua-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/251871046?v=4",
-  "url": "https://github.com/yizhiyanhua-ai/skills-updater",
+  "rank": 944,
+  "id": 1195011586,
+  "name": "wecom-cli",
+  "fullName": "WecomTeam/wecom-cli",
+  "owner": "WecomTeam",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/89206810?v=4",
+  "url": "https://github.com/WecomTeam/wecom-cli",
   "homepage": "",
-  "description": "Manage, update, and discover Claude Code skills. 管理、更新和发现 Claude Code 技能。",
-  "summary": "skills-updater：Manage, update, and discover Claude Code skills. 管理、更新和发现 Claude Code 技能。适合在 Claude 相关工作流里先做选型判断。",
+  "description": "企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信",
+  "summary": "wecom-cli：企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/yizhiyanhua-ai/skills-updater.git",
-  "language": "Python",
-  "license": "",
-  "stars": 175,
-  "forks": 15,
-  "openIssues": 3,
-  "score": 69.4,
-  "activity": "活跃",
-  "pushedAt": "2026-01-22T14:50:16Z",
-  "updatedAt": "2026-11-17T06:55:21Z",
-  "createdAt": "2026-01-21T15:18:18Z",
+  "installCommand": "git clone https://github.com/WecomTeam/wecom-cli.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 3358,
+  "forks": 231,
+  "openIssues": 81,
+  "score": 114.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-18T08:02:42Z",
+  "updatedAt": "2026-11-20T13:39:53Z",
+  "createdAt": "2026-03-29T05:06:59Z",
   "sourceTopics": [],
   "discoveredBy": [
-    "GitHub 搜索"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [],
   "platforms": [
-    "Claude"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/yizhiyanhua-ai/skills-updater",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/WecomTeam/wecom-cli",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/yizhiyanhua-ai/skills-updater#readme",
-  "detailPath": "data/details/yizhiyanhua__ai__skills__updater.json",
+  "readmeUrl": "https://github.com/WecomTeam/wecom-cli#readme",
+  "detailPath": "data/details/wecomteam__wecom__cli.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Manage, update, and discover Claude Code skills. 管理、更新和发现 Claude Code 技能。",
+    "summary": "企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-20T07:27:42.727Z",
-    "sourceHash": "e9729c8bad29b5ed",
+    "generatedAt": "2026-11-21T07:20:46.665Z",
+    "sourceHash": "9b5f80f1a6f7c295",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills-updater：Manage, update, and discover Claude Code skills. 管理、更新和发现 Claude Code 技能。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "skills-updater 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "wecom-cli：企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "wecom-cli 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -92,7 +92,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -115,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
