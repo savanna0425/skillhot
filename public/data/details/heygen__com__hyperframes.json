@@ -1,5 +1,5 @@
 {
-  "rank": 86,
+  "rank": 84,
   "id": 1177402105,
   "name": "hyperframes",
   "fullName": "heygen-com/hyperframes",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "claude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes",
+  "installCommand": "npx skills add heygen-com/hyperframes     # pick \"Core Skills\" in the picker\nnpx hyperframes skills update",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 87569,
-  "forks": 8135,
-  "openIssues": 304,
-  "score": 148.6,
+  "stars": 87932,
+  "forks": 8183,
+  "openIssues": 306,
+  "score": 148.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-21T07:17:41Z",
-  "updatedAt": "2026-11-21T07:19:26Z",
+  "pushedAt": "2026-11-22T06:57:49Z",
+  "updatedAt": "2026-11-22T06:48:12Z",
   "createdAt": "2026-03-10T01:51:06Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -56,9 +56,7 @@
     "Claude",
     "Codex",
     "Cursor",
-    "Gemini CLI",
-    "GitHub Copilot",
-    "OpenCode"
+    "Gemini CLI"
   ],
   "skillCount": 9,
   "isCollection": false,
@@ -90,8 +88,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-21T07:20:46.665Z",
-    "sourceHash": "34fee01e9d9a7e34",
+    "generatedAt": "2026-11-22T07:01:26.996Z",
+    "sourceHash": "ad0611b0ed8b2c6e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

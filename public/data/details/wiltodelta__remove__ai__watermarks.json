@@ -1,5 +1,5 @@
 {
-  "rank": 405,
+  "rank": 401,
   "id": 1191930807,
   "name": "remove-ai-watermarks",
   "fullName": "wiltodelta/remove-ai-watermarks",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1192743?v=4",
   "url": "https://github.com/wiltodelta/remove-ai-watermarks",
   "homepage": "https://raiw.cc",
-  "description": "Remove visible and invisible AI watermarks from images and video, and AI provenance metadata from images, video, and audio. Python library, CLI, and agent skill for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks. By Victor Kuznetsov.",
+  "description": "Remove visible and invisible AI watermarks from images and video, clean supported audio watermarks, and strip AI provenance metadata. Python library, CLI, and agent skill for SynthID, C2PA, and other AI marks. By Victor Kuznetsov.",
   "summary": "remove-ai-watermarks 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
@@ -22,13 +22,13 @@
   "installCommand": "uv tool install \"remove-ai-watermarks[visible]\"   # CLI for visible marks and metadata\nnpx skills add wiltodelta/remove-ai-watermarks    # agent skill for Claude Code, Codex, Cursor, and other agents",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6475,
+  "stars": 6480,
   "forks": 599,
   "openIssues": 0,
   "score": 129.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-21T00:12:58Z",
-  "updatedAt": "2026-11-21T06:22:30Z",
+  "pushedAt": "2026-11-22T05:39:31Z",
+  "updatedAt": "2026-11-22T05:03:07Z",
   "createdAt": "2026-03-25T18:15:24Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -37,6 +37,7 @@
   "repoTopics": [
     "agent-skill",
     "ai-watermark",
+    "audio-watermarking",
     "c2pa",
     "cli",
     "comfyui",
@@ -53,8 +54,7 @@
     "synthid",
     "veo",
     "video-processing",
-    "watermark-removal",
-    "watermark-remover"
+    "watermark-removal"
   ],
   "platforms": [
     "Claude",
@@ -92,8 +92,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-21T07:20:46.665Z",
-    "sourceHash": "4e7a1bf3d08cfd56",
+    "generatedAt": "2026-11-22T07:01:26.996Z",
+    "sourceHash": "193c7d63bfdacc20",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

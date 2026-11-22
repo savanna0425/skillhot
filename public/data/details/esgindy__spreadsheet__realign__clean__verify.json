@@ -1,14 +1,14 @@
 {
-  "rank": 585,
-  "id": 324025361,
-  "name": "himalaya",
-  "fullName": "pimalaya/himalaya",
-  "owner": "pimalaya",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/179413183?v=4",
-  "url": "https://github.com/pimalaya/himalaya",
-  "homepage": "https://pimalaya.org",
-  "description": "CLI to manage emails",
-  "summary": "himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2241,
+  "id": 1457867350,
+  "name": "spreadsheet-realign-clean-verify",
+  "fullName": "esgindy/spreadsheet-realign-clean-verify",
+  "owner": "esgindy",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/25334477?v=4",
+  "url": "https://github.com/esgindy/spreadsheet-realign-clean-verify",
+  "homepage": "",
+  "description": "Cross-platform AI Agent Skill for cleaning, semantically realigning, strictly TRIMming, deduplicating, and 100% source-verifying messy & large-scale Excel/CSV spreadsheets (50k-1M+ rows) with interactive setup, _needs_review.csv quarantine, Arabic/English bilingual intelligence, and UTF-8 BOM exports.",
+  "summary": "spreadsheet-realign-clean-verify：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -19,52 +19,57 @@
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://aur.archlinux.org/himalaya-git.git\ncd himalaya-git\nmakepkg -isc",
-  "language": "Rust",
-  "license": "Apache-2.0",
-  "stars": 7685,
-  "forks": 272,
+  "installCommand": "git clone https://github.com/esgindy/spreadsheet-realign-clean-verify.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 2,
+  "forks": 1,
   "openIssues": 0,
-  "score": 123.3,
+  "score": 67.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-20T21:13:59Z",
-  "updatedAt": "2026-11-20T11:07:09Z",
-  "createdAt": "2020-12-23T23:56:25Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-14T22:08:42Z",
+  "updatedAt": "2026-11-21T13:55:09Z",
+  "createdAt": "2026-11-14T15:05:15Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "cli",
-    "client",
-    "email",
-    "gpg",
-    "himalaya",
-    "imap",
-    "notmuch",
-    "pgp",
-    "pimalaya",
-    "rust",
-    "sendmail",
-    "smtp",
-    "terminal"
+    "ai-agent-skills",
+    "antigravity",
+    "arabic-nlp",
+    "claude",
+    "claude-code",
+    "codex",
+    "csv",
+    "data-cleaning",
+    "data-verification",
+    "etl",
+    "excel",
+    "google-antigravity",
+    "grok-bot",
+    "openpyxl",
+    "python"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Antigravity"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/pimalaya/himalaya",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/esgindy/spreadsheet-realign-clean-verify",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/pimalaya/himalaya#readme",
-  "detailPath": "data/details/pimalaya__himalaya.json",
+  "readmeUrl": "https://github.com/esgindy/spreadsheet-realign-clean-verify#readme",
+  "detailPath": "data/details/esgindy__spreadsheet__realign__clean__verify.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "命令行工具用于管理邮件",
+    "summary": "spreadsheet-realign-clean-verify：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -80,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-21T07:20:46.665Z",
-    "sourceHash": "bb6654f50e751311",
+    "generatedAt": "2026-11-22T07:01:26.996Z",
+    "sourceHash": "c7bd33fd28623804",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "himalaya：命令行工具用于管理邮件。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "himalaya 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "spreadsheet-realign-clean-verify：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Antigravity 相关工作流里先做选型判断。",
+    "whatItIs": "spreadsheet-realign-clean-verify 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -107,7 +112,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Antigravity 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -130,7 +135,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

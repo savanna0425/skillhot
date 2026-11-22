@@ -1,14 +1,14 @@
 {
-  "rank": 1061,
-  "id": 1207529559,
-  "name": "synthadoc",
-  "fullName": "axoviq-ai/synthadoc",
-  "owner": "axoviq-ai",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/275206488?v=4",
-  "url": "https://github.com/axoviq-ai/synthadoc",
-  "homepage": "https://axoviq.com/resources/synthadoc",
-  "description": "Synthadoc: An open-source LLM knowledge compilation engine that turns raw documents into structured, local-first wikis. A transparent, human-readable alternative to traditional RAG, which can be self-managed and self-improved without the use of any tools.",
-  "summary": "synthadoc：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2094,
+  "id": 1312077672,
+  "name": "zhigui-openclaw-ui-second-brain-skill",
+  "fullName": "CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
+  "owner": "CarlWangChina",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/41322045?v=4",
+  "url": "https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
+  "homepage": "",
+  "description": "An advanced, UI-powered AI second brain Agent Skill for OpenClaw, Hermes Agent, WorkBuddy, TRAE, and QClaw. ZhiGui uses long-term memory to help you make better decisions, automatically plan tomorrow, resolve conflicting notes, and deliver each day's plan through your existing agent channels.",
+  "summary": "zhigui-openclaw-ui-second-brain-skill：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,53 +19,59 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/axoviq-ai/synthadoc.git",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stars": 1998,
-  "forks": 185,
-  "openIssues": 4,
-  "score": 109.3,
+  "installCommand": "git clone https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill.git",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 23,
+  "forks": 2,
+  "openIssues": 0,
+  "score": 78.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-21T02:56:41Z",
-  "updatedAt": "2026-11-21T06:48:08Z",
-  "createdAt": "2026-04-11T03:50:12Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-21T10:50:41Z",
+  "updatedAt": "2026-10-17T16:51:29Z",
+  "createdAt": "2026-07-25T15:08:17Z",
+  "sourceTopics": [
+    "workbuddy-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
-    "agentic-ai",
-    "cli-tool",
-    "domain-adaptation",
-    "enterprise",
-    "enterprise-solutions",
-    "knowledge-graph",
-    "local-llm",
-    "obsidian-md",
-    "obsidian-plugin",
-    "personal-knowledge-management",
-    "pkm",
-    "rag-alternative",
-    "synthetic",
-    "synthetic-data"
+    "ai-memory",
+    "daily-planner",
+    "hermes-agent",
+    "hermes-agent-skill",
+    "interactive-ai-planning",
+    "long-term-memory",
+    "openclaw",
+    "openclaw-skills",
+    "personal-ai-agent",
+    "personal-ai-assistant",
+    "qclaw",
+    "qclaw-skill",
+    "second-brain",
+    "second-brain-planner",
+    "task-planning",
+    "trae",
+    "workbuddy",
+    "workbuddy-skill"
   ],
   "platforms": [
-    "Agent Skills"
+    "OpenClaw"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/axoviq-ai/synthadoc",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/CarlWangChina/zhigui-openclaw-ui-second-brain-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/axoviq-ai/synthadoc#readme",
-  "detailPath": "data/details/axoviq__ai__synthadoc.json",
+  "readmeUrl": "https://github.com/CarlWangChina/zhigui-openclaw-ui-second-brain-skill#readme",
+  "detailPath": "data/details/carlwangchina__zhigui__openclaw__ui__second__brain__skill.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "synthadoc 提供记忆、上下文管理或知识检索能力。",
+    "summary": "zhigui-openclaw-ui-second-brain-skill 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -81,17 +87,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-21T07:20:46.665Z",
-    "sourceHash": "11af1238fe238e5f",
+    "generatedAt": "2026-11-22T07:01:26.996Z",
+    "sourceHash": "721820e7f60d87ba",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "synthadoc：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "synthadoc 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "zhigui-openclaw-ui-second-brain-skill：提供记忆、上下文管理或知识检索能力。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "whatItIs": "zhigui-openclaw-ui-second-brain-skill 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -108,7 +114,7 @@
       "长期使用 Agent 做项目的人。",
       "需要跨会话续接、知识库检索或团队记忆的人。",
       "代码库、文档库或资料库较大的团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 OpenClaw 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只做一次性短任务、不需要保存上下文的人。",
@@ -131,7 +137,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }
