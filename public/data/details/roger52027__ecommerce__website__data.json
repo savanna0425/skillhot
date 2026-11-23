@@ -1,76 +1,72 @@
 {
-  "rank": 1068,
-  "id": 1326915228,
-  "name": "easy-stock",
-  "fullName": "jundizhou/easy-stock",
-  "owner": "jundizhou",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/92794317?v=4",
-  "url": "https://github.com/jundizhou/easy-stock",
-  "homepage": "https://github.com/jundizhou/easy-stock/blob/main/docs/user-guide.md",
-  "description": "A股 AI 投研",
-  "summary": "easy-stock：A股 AI 投研。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 2147,
+  "id": 1192547116,
+  "name": "ecommerce-website-data",
+  "fullName": "roger52027/ecommerce-website-data",
+  "owner": "roger52027",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/10524979?v=4",
+  "url": "https://github.com/roger52027/ecommerce-website-data",
+  "homepage": "https://eccompass.ai",
+  "description": "Free AI agent skill for searching and analyzing 10M+ ecommerce stores — GMV, tech stack, contacts, and competitor data, powered by EcCompass.AI.",
+  "summary": "ecommerce-website-data：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "pricing|go.?to.?market|market research|app store optim",
   "scenarios": [
     "产品管理",
     "营销增长",
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jundizhou/easy-stock.git",
-  "language": "Go",
-  "license": "NOASSERTION",
-  "stars": 1994,
-  "forks": 238,
-  "openIssues": 15,
-  "score": 109.2,
+  "installCommand": "git clone https://github.com/roger52027/ecommerce-website-data.git",
+  "language": "Python",
+  "license": "",
+  "stars": 14,
+  "forks": 2,
+  "openIssues": 0,
+  "score": 75.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-19T08:52:36Z",
-  "updatedAt": "2026-11-22T06:49:14Z",
-  "createdAt": "2026-08-07T16:25:36Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-22T09:06:54Z",
+  "updatedAt": "2026-11-07T03:06:10Z",
+  "createdAt": "2026-03-26T10:22:06Z",
+  "sourceTopics": [
+    "ai-agent-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "a-share",
-    "ai",
-    "ai-agent",
-    "ashare",
-    "china-stock",
-    "desktop-app",
-    "electron",
-    "go",
-    "golang",
-    "llm",
-    "llm-agent",
-    "quant",
-    "quant-trading",
-    "quantitative-finance",
-    "react",
-    "stock",
-    "stock-analysis",
-    "stock-market",
-    "trading",
-    "trading-agents"
+    "ai-agent-skills",
+    "ai-skills",
+    "claude-skills",
+    "ecommerce",
+    "ecommerce-analytics",
+    "ecommerce-data",
+    "ecommerce-skills",
+    "gemini-skills",
+    "gpt-skills",
+    "leads",
+    "openai-skills",
+    "shopify",
+    "skills"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Gemini CLI"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jundizhou/easy-stock",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/roger52027/ecommerce-website-data",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jundizhou/easy-stock#readme",
-  "detailPath": "data/details/jundizhou__easy__stock.json",
+  "readmeUrl": "https://github.com/roger52027/ecommerce-website-data#readme",
+  "detailPath": "data/details/roger52027__ecommerce__website__data.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "A股 AI 投研",
+    "summary": "ecommerce-website-data：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -86,17 +82,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "42c4ab33de1e0053",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "49a2a5a278ff86ff",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "easy-stock：A股 AI 投研。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "easy-stock 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ecommerce-website-data：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Gemini CLI 相关工作流里先做选型判断。",
+    "whatItIs": "ecommerce-website-data 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -113,7 +109,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Gemini CLI 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",
@@ -136,7 +132,7 @@
       "团队讨论有更清楚的起点。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -19,16 +19,16 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/tt-a1i/archify.git",
+  "installCommand": "Optional PR companion (repository-source installs only; the default install stays `archify`): after installing `archify`, `npx -y skills@latest add tt-a1i/archify --skill archify-pr --agent cursor --global --copy --yes` adds PR change walkthroughs. It stays silent for docs, lockfiles, formatting and other small changes and offers a diagram only for material ",
   "language": "JavaScript",
   "license": "Apache-2.0",
-  "stars": 98636,
-  "forks": 6741,
-  "openIssues": 362,
+  "stars": 98897,
+  "forks": 6771,
+  "openIssues": 359,
   "score": 165.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-22T06:58:57Z",
-  "updatedAt": "2026-11-22T06:57:21Z",
+  "pushedAt": "2026-11-23T05:21:17Z",
+  "updatedAt": "2026-11-23T07:45:39Z",
   "createdAt": "2026-04-15T05:27:37Z",
   "sourceTopics": [
     "agent-skills",
@@ -98,8 +98,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "14b4c3020a173cba",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "55edb5dbfd68a79c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

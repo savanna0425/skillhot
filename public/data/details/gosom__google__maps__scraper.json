@@ -19,16 +19,16 @@
     "跨工具集成"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npx skills add gosom/google-maps-scraper",
+  "installCommand": "git clone https://github.com/gosom/google-maps-scraper.git",
   "language": "Go",
   "license": "MIT",
-  "stars": 8303,
-  "forks": 1323,
+  "stars": 8337,
+  "forks": 1325,
   "openIssues": 66,
   "score": 136.1,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-21T08:32:42Z",
-  "updatedAt": "2026-11-22T06:08:22Z",
+  "pushedAt": "2026-11-22T18:15:36Z",
+  "updatedAt": "2026-11-23T07:18:13Z",
   "createdAt": "2023-04-22T14:35:13Z",
   "sourceTopics": [
     "agent-skills",
@@ -54,8 +54,7 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor",
-    "GitHub Copilot"
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -87,8 +86,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "482fd1d8b46ffa92",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "ee22292028a02e60",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

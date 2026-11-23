@@ -1,14 +1,14 @@
 {
-  "rank": 1701,
-  "id": 1416220570,
-  "name": "machine-skill",
-  "fullName": "AirsupHQ/machine-skill",
-  "owner": "AirsupHQ",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/335045975?v=4",
-  "url": "https://github.com/AirsupHQ/machine-skill",
-  "homepage": "https://airsup.ai/lab/skill",
-  "description": "Describe any machine in one line. Claude builds a photoreal, physics based, interactive simulation of it in one HTML file, plus the film to post it. An open source Claude Code skill.",
-  "summary": "machine-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 949,
+  "id": 1425045498,
+  "name": "rederive",
+  "fullName": "EricJujianZou/rederive",
+  "owner": "EricJujianZou",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/182662111?v=4",
+  "url": "https://github.com/EricJujianZou/rederive",
+  "homepage": "https://ericzou.dev/rederive/",
+  "description": "Explain code that AI wrote for you, in an interview or at work. An open source Claude Code skill that asks how you would build each part of your repo, so you re-derive its design decisions yourself. It also works on open source repos you want to learn.",
+  "summary": "rederive：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "待复核",
@@ -19,34 +19,35 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/AirsupHQ/machine-skill.git",
-  "language": "JavaScript",
+  "installCommand": "git clone https://github.com/EricJujianZou/rederive.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 732,
-  "forks": 99,
+  "stars": 1559,
+  "forks": 73,
   "openIssues": 4,
-  "score": 95.9,
-  "activity": "近期活跃",
-  "pushedAt": "2026-10-13T16:21:53Z",
-  "updatedAt": "2026-11-22T06:10:55Z",
-  "createdAt": "2026-10-12T23:10:01Z",
-  "sourceTopics": [
-    "claude-skill"
-  ],
+  "score": 114.7,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-19T16:36:37Z",
+  "updatedAt": "2026-11-23T07:43:22Z",
+  "createdAt": "2026-10-19T03:05:36Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
     "agent-skills",
-    "claude",
+    "ai-generated-code",
     "claude-code",
-    "claude-skill",
-    "cutaway",
-    "engineering",
-    "physics",
-    "simulation",
-    "threejs",
-    "webgl"
+    "claude-code-plugin",
+    "claude-skills",
+    "code-comprehension",
+    "interview-prep",
+    "learning",
+    "onboarding",
+    "socratic-method",
+    "system-design",
+    "technical-interview",
+    "vibe-coding"
   ],
   "platforms": [
     "Claude"
@@ -54,15 +55,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/AirsupHQ/machine-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/EricJujianZou/rederive",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/AirsupHQ/machine-skill#readme",
-  "detailPath": "data/details/airsuphq__machine__skill.json",
+  "readmeUrl": "https://github.com/EricJujianZou/rederive#readme",
+  "detailPath": "data/details/ericjujianzou__rederive.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "machine-skill 聚焦软件开发、代码质量与工程交付。",
+    "summary": "rederive 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -81,14 +82,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "bf2f1a54bbeb7dc1",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "4809e6d608f09615",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "machine-skill：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "machine-skill 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "rederive：聚焦软件开发、代码质量与工程交付。适合在 Claude 相关工作流里先做选型判断。",
+    "whatItIs": "rederive 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",

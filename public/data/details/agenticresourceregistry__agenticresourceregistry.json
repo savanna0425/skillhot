@@ -1,5 +1,5 @@
 {
-  "rank": 676,
+  "rank": 963,
   "id": 1196352488,
   "name": "AgenticResourceRegistry",
   "fullName": "AgenticResourceRegistry/AgenticResourceRegistry",
@@ -19,16 +19,16 @@
     "构建个人技能库"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "git clone https://github.com/AgenticResourceRegistry/AgenticResourceRegistry.git && cd AgenticResourceRegistry\ncp .env.example .env\nmake up",
+  "installCommand": "git clone https://github.com/AgenticResourceRegistry/AgenticResourceRegistry.git",
   "language": "Python",
   "license": "Apache-2.0",
   "stars": 4169,
-  "forks": 1154,
-  "openIssues": 273,
-  "score": 120.9,
-  "activity": "本周活跃",
+  "forks": 1157,
+  "openIssues": 279,
+  "score": 113.9,
+  "activity": "本月活跃",
   "pushedAt": "2026-11-15T06:55:34Z",
-  "updatedAt": "2026-11-22T02:46:48Z",
+  "updatedAt": "2026-11-22T18:34:09Z",
   "createdAt": "2026-03-30T16:05:36Z",
   "sourceTopics": [
     "skills"
@@ -61,8 +61,6 @@
     "Claude",
     "Codex",
     "Cursor",
-    "GitHub Copilot",
-    "OpenCode",
     "Antigravity"
   ],
   "skillCount": 1,
@@ -95,8 +93,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "7cd3d300972573ec",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "33aa081f82c7bcf6",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

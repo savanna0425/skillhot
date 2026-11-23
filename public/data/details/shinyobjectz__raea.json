@@ -1,5 +1,5 @@
 {
-  "rank": 920,
+  "rank": 769,
   "id": 1424671157,
   "name": "raea",
   "fullName": "shinyobjectz/raea",
@@ -19,16 +19,16 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/shinyobjectz/raea.git",
+  "installCommand": "git clone https://github.com/shinyobjectz/raea && cd raea\ncargo build --release -p raea-cli --no-default-features\nfor d in sdk/raea sdk/react/js sdk/react/tw; do (cd $d && bun install); done",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 3481,
-  "forks": 262,
-  "openIssues": 25,
-  "score": 115,
+  "stars": 4489,
+  "forks": 349,
+  "openIssues": 27,
+  "score": 117.7,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-22T06:56:58Z",
-  "updatedAt": "2026-11-22T06:56:07Z",
+  "pushedAt": "2026-11-23T04:19:33Z",
+  "updatedAt": "2026-11-23T07:49:11Z",
   "createdAt": "2026-10-18T18:08:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -67,7 +67,7 @@
   "readmeUrl": "https://github.com/shinyobjectz/raea#readme",
   "detailPath": "data/details/shinyobjectz__raea.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "raea：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
@@ -88,8 +88,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-22T07:01:26.996Z",
-    "sourceHash": "96c0389c608ff57e",
+    "generatedAt": "2026-11-23T07:50:55.583Z",
+    "sourceHash": "cd37f94b467455e9",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
