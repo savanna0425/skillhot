@@ -1,14 +1,14 @@
 {
-  "rank": 1607,
-  "id": 1055613678,
-  "name": "VibeUE",
-  "fullName": "kevinpbuckley/VibeUE",
-  "owner": "kevinpbuckley",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/2954744?v=4",
-  "url": "https://github.com/kevinpbuckley/VibeUE",
-  "homepage": "https://www.vibeue.com",
-  "description": "Unreal Engine Vibe Coding tool",
-  "summary": "VibeUE：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
+  "rank": 1685,
+  "id": 1468478986,
+  "name": "browser-capture",
+  "fullName": "duwqijlk/browser-capture",
+  "owner": "duwqijlk",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/126966774?v=4",
+  "url": "https://github.com/duwqijlk/browser-capture",
+  "homepage": "",
+  "description": "Zero-dependency browser CDP + stealth Hook capture & reverse-engineering AI Skill / CLI for BitBrowser, AdsPower, and Chrome/VisibleV8",
+  "summary": "browser-capture：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,60 +19,50 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/kevinpbuckley/VibeUE.git",
-  "language": "C++",
+  "installCommand": "git clone https://github.com/duwqijlk/browser-capture.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 845,
-  "forks": 182,
-  "openIssues": 2,
-  "score": 100.4,
+  "stars": 185,
+  "forks": 93,
+  "openIssues": 0,
+  "score": 97,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-22T04:03:07Z",
-  "updatedAt": "2026-11-21T21:53:48Z",
-  "createdAt": "2025-09-12T14:25:35Z",
-  "sourceTopics": [],
+  "pushedAt": "2026-11-23T08:19:50Z",
+  "updatedAt": "2026-11-24T09:14:51Z",
+  "createdAt": "2026-11-23T08:19:43Z",
+  "sourceTopics": [
+    "ai-skill"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics",
+    "GitHub 搜索"
   ],
   "repoTopics": [
-    "ai",
-    "ai-tools",
-    "automation",
-    "blueprint",
-    "claude",
-    "copilot",
-    "cursor",
-    "game-development",
-    "gamedev",
-    "landscape",
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "niagara",
-    "open-source",
-    "python",
-    "ue5",
-    "unreal-engine",
-    "unreal-engine-plugin",
-    "vibe-coding"
+    "adspower",
+    "ai-skill",
+    "anti-debug",
+    "bitbrowser",
+    "cdp",
+    "packet-capture",
+    "reverse-engineering",
+    "visiblev8",
+    "wasm"
   ],
   "platforms": [
-    "Claude",
-    "Cursor",
-    "GitHub Copilot"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/kevinpbuckley/VibeUE",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/duwqijlk/browser-capture",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/kevinpbuckley/VibeUE#readme",
-  "detailPath": "data/details/kevinpbuckley__vibeue.json",
+  "readmeUrl": "https://github.com/duwqijlk/browser-capture#readme",
+  "detailPath": "data/details/duwqijlk__browser__capture.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "VibeUE 聚焦软件开发、代码质量与工程交付。",
+    "summary": "browser-capture 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
@@ -91,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-23T07:50:55.583Z",
-    "sourceHash": "e103fec2b871dae6",
+    "generatedAt": "2026-11-24T10:03:13.718Z",
+    "sourceHash": "107f4c9a82789850",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "VibeUE：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
-    "whatItIs": "VibeUE 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "browser-capture：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "browser-capture 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
@@ -115,7 +105,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

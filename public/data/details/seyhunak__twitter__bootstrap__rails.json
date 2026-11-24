@@ -1,5 +1,5 @@
 {
-  "rank": 1019,
+  "rank": 772,
   "id": 2242086,
   "name": "twitter-bootstrap-rails",
   "fullName": "seyhunak/twitter-bootstrap-rails",
@@ -8,7 +8,7 @@
   "url": "https://github.com/seyhunak/twitter-bootstrap-rails",
   "homepage": "https://github.com/seyhunak/twitter-bootstrap-rails",
   "description": "Twitter Bootstrap for Rails 8",
-  "summary": "twitter-bootstrap-rails：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "twitter-bootstrap-rails：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,15 +19,15 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/seyhunak/twitter-bootstrap-rails.git",
+  "installCommand": "rails g bootstrap:nes                              # package.json + .npmrc + initializer\nexport HERODEVS_NES_TOKEN=...                      # your HeroDevs access token\nnpm install",
   "language": "Ruby",
   "license": "",
   "stars": 4459,
   "forks": 969,
   "openIssues": 0,
-  "score": 110.6,
-  "activity": "本月活跃",
-  "pushedAt": "2026-11-09T19:46:34Z",
+  "score": 117.6,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-23T20:14:26Z",
   "updatedAt": "2026-11-09T21:50:13Z",
   "createdAt": "2011-08-21T03:31:16Z",
   "sourceTopics": [],
@@ -41,7 +41,9 @@
     "twitter-bootstrap-rails"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -73,13 +75,13 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-23T07:50:55.583Z",
-    "sourceHash": "eb86f47eb1025e43",
+    "generatedAt": "2026-11-24T10:03:13.718Z",
+    "sourceHash": "d85be0c2e6692c3a",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "twitter-bootstrap-rails：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "twitter-bootstrap-rails：尚未归入主要类别的实用项目。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "twitter-bootstrap-rails 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
@@ -97,7 +99,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",

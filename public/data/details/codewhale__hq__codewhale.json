@@ -1,5 +1,5 @@
 {
-  "rank": 193,
+  "rank": 191,
   "id": 1137711311,
   "name": "Codewhale",
   "fullName": "codewhale-hq/Codewhale",
@@ -8,7 +8,7 @@
   "url": "https://github.com/codewhale-hq/Codewhale",
   "homepage": "https://codewhale.net/",
   "description": "An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.",
-  "summary": "Codewhale：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "summary": "Codewhale：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "winget install --id HunterBown.CodeWhale --exact --source winget  # Windows x64\nnpm install -g codewhale                                          # wraps the same release binaries\ncargo install codewhale-cli --locked                              # builds from source; can trail GitHub Releases",
   "language": "Rust",
   "license": "MIT",
-  "stars": 41198,
-  "forks": 3575,
-  "openIssues": 105,
+  "stars": 41196,
+  "forks": 3578,
+  "openIssues": 89,
   "score": 140.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-23T07:28:55Z",
-  "updatedAt": "2026-11-23T07:33:00Z",
+  "pushedAt": "2026-11-24T10:00:41Z",
+  "updatedAt": "2026-11-24T09:50:58Z",
   "createdAt": "2026-01-19T18:21:01Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -55,7 +55,9 @@
     "tui"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Cursor",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -87,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-23T07:50:55.583Z",
-    "sourceHash": "f0faee4b25103e82",
+    "generatedAt": "2026-11-24T10:03:13.718Z",
+    "sourceHash": "bbf2385852efc859",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Codewhale：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "plainIntro": "Codewhale：聚焦软件开发、代码质量与工程交付。适合在 Claude、Cursor、GitHub Copilot 相关工作流里先做选型判断。",
     "whatItIs": "Codewhale 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -111,7 +113,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Cursor、GitHub Copilot 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

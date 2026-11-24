@@ -1,78 +1,64 @@
 {
-  "rank": 1081,
-  "id": 1450794567,
-  "name": "agentes-chat",
-  "fullName": "agentes-chat/agentes-chat",
-  "owner": "agentes-chat",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/343980363?v=4",
-  "url": "https://github.com/agentes-chat/agentes-chat",
-  "homepage": "https://agentes.chat",
-  "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-  "summary": "agentes-chat：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
+  "rank": 1278,
+  "id": 1252294823,
+  "name": "inno-agent",
+  "fullName": "hhyqhh/inno-agent",
+  "owner": "hhyqhh",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/30362676?v=4",
+  "url": "https://github.com/hhyqhh/inno-agent",
+  "homepage": "https://hhyqhh.github.io/inno-agent-website",
+  "description": "An open-source personal learning agent with three-layer memory (learner profile / wiki knowledge base / cross-conversation recall), a proactive scheduler, personal IM channels, and a workspace-scoped Practice Lab — built on the Pi SDK.",
+  "summary": "inno-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
-  "categoryConfidence": "中",
-  "categoryReason": "meeting|task management|personal knowledge|knowledge b",
+  "categoryConfidence": "高",
+  "categoryReason": "office|productivity|workspace|obsidian|notion|calendar",
   "scenarios": [
     "文档与表格",
     "邮件与日历",
     "个人生产力"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/agentes-chat/agentes-chat.git",
+  "installCommand": "git clone https://github.com/hhyqhh/inno-agent.git",
   "language": "TypeScript",
-  "license": "AGPL-3.0",
-  "stars": 1963,
-  "forks": 382,
-  "openIssues": 434,
-  "score": 109.1,
+  "license": "MIT",
+  "stars": 1570,
+  "forks": 254,
+  "openIssues": 8,
+  "score": 106.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-23T07:27:19Z",
-  "updatedAt": "2026-11-23T06:27:08Z",
-  "createdAt": "2026-11-09T00:50:28Z",
+  "pushedAt": "2026-11-24T09:52:35Z",
+  "updatedAt": "2026-11-24T09:17:34Z",
+  "createdAt": "2026-05-28T11:32:12Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic-ai",
-    "ai-agents",
-    "browser-automation",
-    "chat",
-    "claude",
-    "claude-code",
-    "codex",
-    "collaboration",
-    "computer-use",
-    "docker-compose",
-    "gemini",
-    "grok",
-    "human-in-the-loop",
-    "llm",
-    "mcp",
-    "multi-agent",
-    "openai",
-    "self-hosted",
-    "slack-alternative",
-    "team-chat"
+    "cli",
+    "electron",
+    "learning-agent",
+    "llm-agent",
+    "memory",
+    "personal-knowledge-management",
+    "pi-sdk",
+    "typescript"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Gemini CLI"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/agentes-chat/agentes-chat",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/hhyqhh/inno-agent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/agentes-chat/agentes-chat#readme",
-  "detailPath": "data/details/agentes__chat__agentes__chat.json",
+  "readmeUrl": "https://github.com/hhyqhh/inno-agent#readme",
+  "detailPath": "data/details/hhyqhh__inno__agent.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "agentes-chat：文档、表格、邮件、日历、笔记与个人生产力。",
+    "summary": "inno-agent：文档、表格、邮件、日历、笔记与个人生产力。",
     "useCases": [
       "文档与表格",
       "邮件与日历",
@@ -88,17 +74,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-23T07:50:55.583Z",
-    "sourceHash": "d9c9d35bd8b28a4a",
+    "generatedAt": "2026-11-24T10:03:13.718Z",
+    "sourceHash": "277a52d0a916f33c",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "agentes-chat：文档、表格、邮件、日历、笔记与个人生产力。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
-    "whatItIs": "agentes-chat 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "inno-agent：文档、表格、邮件、日历、笔记与个人生产力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "inno-agent 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
       "不同办公工具之间的信息流转需要手动复制、整理和检查。",
@@ -115,7 +101,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 Claude、Codex、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",
@@ -138,7 +124,7 @@
       "个人工作流更容易被 Agent 接住。"
     ],
     "caveats": [
-      "许可证为 AGPL-3.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

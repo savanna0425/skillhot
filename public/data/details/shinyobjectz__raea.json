@@ -1,5 +1,5 @@
 {
-  "rank": 769,
+  "rank": 730,
   "id": 1424671157,
   "name": "raea",
   "fullName": "shinyobjectz/raea",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/shinyobjectz/raea && cd raea\ncargo build --release -p raea-cli --no-default-features\nfor d in sdk/raea sdk/react/js sdk/react/tw; do (cd $d && bun install); done",
   "language": "TypeScript",
   "license": "NOASSERTION",
-  "stars": 4489,
-  "forks": 349,
-  "openIssues": 27,
-  "score": 117.7,
+  "stars": 4818,
+  "forks": 386,
+  "openIssues": 37,
+  "score": 118.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-23T04:19:33Z",
-  "updatedAt": "2026-11-23T07:49:11Z",
+  "pushedAt": "2026-11-24T02:23:58Z",
+  "updatedAt": "2026-11-24T09:51:30Z",
   "createdAt": "2026-10-18T18:08:48Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -88,8 +88,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-23T07:50:55.583Z",
-    "sourceHash": "cd37f94b467455e9",
+    "generatedAt": "2026-11-24T10:03:13.718Z",
+    "sourceHash": "91acaba4fe3e22f3",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
