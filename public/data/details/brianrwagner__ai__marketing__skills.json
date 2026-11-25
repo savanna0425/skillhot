@@ -1,67 +1,68 @@
 {
-  "rank": 2317,
-  "id": 1280387120,
-  "name": "proposal-skill",
-  "fullName": "ChuluuMGL/proposal-skill",
-  "owner": "ChuluuMGL",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/140325237?v=4",
-  "url": "https://github.com/ChuluuMGL/proposal-skill",
-  "homepage": "https://github.com/ChuluuMGL",
-  "description": "Commercial proposal skill for editable PowerPoint and interactive HTML: strategy, evidence, scope, pricing, presenter scripts and validation.",
-  "summary": "proposal-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "rank": 1648,
+  "id": 1147015603,
+  "name": "ai-marketing-skills",
+  "fullName": "BrianRWagner/ai-marketing-skills",
+  "owner": "BrianRWagner",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/3800703?v=4",
+  "url": "https://github.com/BrianRWagner/ai-marketing-skills",
+  "homepage": "https://www.brianrwagner.com/",
+  "description": "20 free marketing skills that AI actually executes. Built for Claude Code; also works with Codex, ChatGPT, Cursor and Grok. MIT licensed.",
+  "summary": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "产品与商业",
   "categoryDescription": "产品管理、营销增长、销售、金融与商业工作流",
-  "categoryConfidence": "中",
-  "categoryReason": "pricing|go.?to.?market|market research|app store optim",
+  "categoryConfidence": "高",
+  "categoryReason": "product management|product manager|marketing|growth|se",
   "scenarios": [
     "产品管理",
     "营销增长",
     "商业决策"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ChuluuMGL/proposal-skill.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/BrianRWagner/ai-marketing-skills.git",
+  "language": "JavaScript",
   "license": "MIT",
-  "stars": 2,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60.9,
+  "stars": 462,
+  "forks": 105,
+  "openIssues": 2,
+  "score": 99.2,
   "activity": "本月活跃",
-  "pushedAt": "2026-10-24T11:09:08Z",
-  "updatedAt": "2026-11-24T04:12:04Z",
-  "createdAt": "2026-06-25T14:30:17Z",
+  "pushedAt": "2026-11-14T19:51:25Z",
+  "updatedAt": "2026-11-24T13:30:41Z",
+  "createdAt": "2026-02-01T03:40:36Z",
   "sourceTopics": [
-    "ai-agent-skills"
+    "claude-code-skills"
   ],
   "discoveredBy": [
     "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agent-skills",
-    "business-proposal",
+    "ai",
+    "ai-agents",
+    "branding",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
     "claude-skills",
-    "codex-skill",
-    "pitch-deck",
-    "pptx",
-    "presentation",
-    "proposal-deck"
+    "marketing"
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ChuluuMGL/proposal-skill",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/BrianRWagner/ai-marketing-skills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ChuluuMGL/proposal-skill#readme",
-  "detailPath": "data/details/chuluumgl__proposal__skill.json",
+  "readmeUrl": "https://github.com/BrianRWagner/ai-marketing-skills#readme",
+  "detailPath": "data/details/brianrwagner__ai__marketing__skills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "proposal-skill：产品管理、营销增长、销售、金融与商业工作流。",
+    "summary": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。",
     "useCases": [
       "产品管理",
       "营销增长",
@@ -80,14 +81,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-24T10:03:13.718Z",
-    "sourceHash": "d6d6be6c97e78534",
+    "generatedAt": "2026-11-25T08:47:20.485Z",
+    "sourceHash": "dd167ebf92984699",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "proposal-skill：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex 相关工作流里先做选型判断。",
-    "whatItIs": "proposal-skill 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "ai-marketing-skills：产品管理、营销增长、销售、金融与商业工作流。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "ai-marketing-skills 可以先理解为一个「产品与商业工作流项目」。它围绕「产品管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "产品、营销、销售、增长或商业分析任务经常依赖大量模板和重复调研。",
       "团队想让 Agent 辅助决策，但需要更清晰的流程。",
@@ -104,7 +105,7 @@
       "产品经理、创业者、运营、市场和销售团队。",
       "想用 Agent 做用户研究、竞品分析或增长方案的人。",
       "需要把业务流程模板化的小团队。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "把输出直接当作法律、财务或投资建议的人。",

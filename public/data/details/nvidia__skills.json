@@ -1,5 +1,5 @@
 {
-  "rank": 509,
+  "rank": 517,
   "id": 1167034425,
   "name": "skills",
   "fullName": "NVIDIA/skills",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1728152?v=4",
   "url": "https://github.com/NVIDIA/skills",
   "homepage": "https://docs.nvidia.com/skills",
-  "description": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
+  "description": "Agent Skills and plugins for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
   "summary": "skills 是一个面向 Claude、Codex、Cursor 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
   "category": "技能合集",
   "categoryDescription": "官方或社区维护的 Skills、插件与资源目录",
@@ -19,16 +19,16 @@
     "官方技能复用"
   ],
   "howToUse": "先在仓库目录中选择目标 Skill，再按 README 将对应目录复制或安装到你的 Agent Skills 目录。",
-  "installCommand": "npx skills add nvidia/skills --skill nvidia-skill-finder --yes",
+  "installCommand": "npx skills add nvidia/skills --skill cuopt-numerical-optimization-api --yes",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 4131,
-  "forks": 554,
-  "openIssues": 27,
+  "stars": 4142,
+  "forks": 555,
+  "openIssues": 23,
   "score": 124.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-24T04:12:13Z",
-  "updatedAt": "2026-11-24T07:44:23Z",
+  "pushedAt": "2026-11-25T03:04:52Z",
+  "updatedAt": "2026-11-25T08:38:36Z",
   "createdAt": "2026-02-25T21:54:05Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -54,9 +54,10 @@
   "platforms": [
     "Claude",
     "Codex",
-    "Cursor"
+    "Cursor",
+    "OpenClaw"
   ],
-  "skillCount": 20,
+  "skillCount": 1,
   "isCollection": true,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/NVIDIA/skills",
@@ -86,8 +87,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-24T10:03:13.718Z",
-    "sourceHash": "c6b85bcc75f69e0d",
+    "generatedAt": "2026-11-25T08:47:20.485Z",
+    "sourceHash": "798a55daed476b38",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -120,7 +121,7 @@
       "通常以 README、目录结构或清单形式维护资源。",
       "用户从目录里选择具体项目，再进入对应仓库安装或试用。",
       "质量取决于维护者更新频率和收录标准。",
-      "仓库信息显示它包含 20+ 项能力或技能线索，适合先按目录筛选。"
+      "它更像一个单项工具或单一方向项目，适合先用小任务验证。"
     ],
     "gettingStarted": [
       "先看目录是否按平台、领域或用途分类。",

@@ -1,5 +1,5 @@
 {
-  "rank": 784,
+  "rank": 1069,
   "id": 763842651,
   "name": "FinRobot",
   "fullName": "AI4Finance-Foundation/FinRobot",
@@ -19,16 +19,16 @@
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "cd finrobot_desktop\nuv sync                        # backend dependencies\n(cd desktop && npm install)    # frontend dependencies — one time",
+  "installCommand": "git clone https://github.com/AI4Finance-Foundation/FinRobot.git",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 8470,
-  "forks": 1431,
+  "stars": 8476,
+  "forks": 1433,
   "openIssues": 84,
-  "score": 117.3,
-  "activity": "本月活跃",
+  "score": 109.3,
+  "activity": "近期活跃",
   "pushedAt": "2026-10-24T13:58:26Z",
-  "updatedAt": "2026-11-24T05:44:25Z",
+  "updatedAt": "2026-11-25T04:00:29Z",
   "createdAt": "2024-02-27T02:30:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -51,7 +51,7 @@
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/AI4Finance-Foundation/FinRobot",
-    "videoUrl": "https://www.youtube.com/watch?v=ebgPiJINi-k"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/AI4Finance-Foundation/FinRobot#readme",
   "detailPath": "data/details/ai4finance__foundation__finrobot.json",
@@ -77,8 +77,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-24T10:03:13.718Z",
-    "sourceHash": "d4b1957ce074913a",
+    "generatedAt": "2026-11-25T08:47:20.485Z",
+    "sourceHash": "c52ef5d587e32e86",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
