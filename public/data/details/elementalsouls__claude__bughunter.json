@@ -1,13 +1,13 @@
 {
-  "rank": 119,
+  "rank": 110,
   "id": 1229774092,
   "name": "Claude-BugHunter",
   "fullName": "elementalsouls/Claude-BugHunter",
   "owner": "elementalsouls",
   "avatarUrl": "https://avatars.githubusercontent.com/u/49252733?v=4",
   "url": "https://github.com/elementalsouls/Claude-BugHunter",
-  "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
-  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+  "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
+  "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
   "summary": "Claude-BugHunter：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Gemini CLI 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/elementalsouls/Claude-BugHunter.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 22005,
-  "forks": 2274,
-  "openIssues": 16,
-  "score": 146.2,
+  "stars": 23509,
+  "forks": 2399,
+  "openIssues": 18,
+  "score": 146.9,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-25T04:26:49Z",
-  "updatedAt": "2026-11-25T08:44:33Z",
+  "pushedAt": "2026-11-26T04:27:01Z",
+  "updatedAt": "2026-11-26T08:28:52Z",
   "createdAt": "2026-05-05T11:22:32Z",
   "sourceTopics": [
     "claude-skills"
@@ -63,7 +63,7 @@
     "OpenCode",
     "Antigravity"
   ],
-  "skillCount": 84,
+  "skillCount": 85,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/elementalsouls/Claude-BugHunter",
@@ -93,8 +93,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "ec6ee816cf298491",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "51e0593474f0888d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
@@ -127,7 +127,7 @@
       "通常通过规则、脚本、扫描器、Skill 或报告模板执行检查。",
       "用户提供目标代码、配置或范围后，Agent 按流程分析并输出线索。",
       "安全结论需要结合上下文和专业复核。",
-      "仓库信息显示它包含 84+ 项能力或技能线索，适合先按目录筛选。"
+      "仓库信息显示它包含 85+ 项能力或技能线索，适合先按目录筛选。"
     ],
     "gettingStarted": [
       "先阅读许可和使用边界。",

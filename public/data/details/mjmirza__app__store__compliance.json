@@ -1,5 +1,5 @@
 {
-  "rank": 420,
+  "rank": 401,
   "id": 1261204838,
   "name": "app-store-compliance",
   "fullName": "mjmirza/app-store-compliance",
@@ -7,7 +7,7 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/34001140?v=4",
   "url": "https://github.com/mjmirza/app-store-compliance",
   "homepage": "https://mjmirza.github.io/app-store-compliance/",
-  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+  "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
   "summary": "app-store-compliance：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/mjmirza/app-store-compliance ~/repositories/app-store-compliance\nbash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-guard.sh \"/path/to/your/app\"",
   "language": "Shell",
   "license": "NOASSERTION",
-  "stars": 6103,
-  "forks": 397,
-  "openIssues": 34,
-  "score": 128.9,
+  "stars": 6671,
+  "forks": 439,
+  "openIssues": 37,
+  "score": 129.8,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-25T08:45:44Z",
-  "updatedAt": "2026-11-25T08:44:55Z",
+  "pushedAt": "2026-11-26T08:28:34Z",
+  "updatedAt": "2026-11-26T08:31:06Z",
   "createdAt": "2026-06-06T11:29:45Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -73,7 +73,7 @@
   "readmeUrl": "https://github.com/mjmirza/app-store-compliance#readme",
   "detailPath": "data/details/mjmirza__app__store__compliance.json",
   "catalogStatus": "active",
-  "catalogDelta": "new",
+  "catalogDelta": "stable",
   "projectInsight": {
     "summary": "app-store-compliance 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
@@ -94,8 +94,8 @@
       "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "3d2222ddb394d33f",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "0f94830e7c9ee22f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

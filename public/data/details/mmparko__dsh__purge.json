@@ -1,14 +1,14 @@
 {
-  "rank": 2272,
-  "id": 1433850072,
-  "name": "skills",
-  "fullName": "jfdevelops/skills",
-  "owner": "jfdevelops",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/243263145?v=4",
-  "url": "https://github.com/jfdevelops/skills",
-  "homepage": "https://jfdevelops.com/docs/skills",
-  "description": "",
-  "summary": "skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1326,
+  "id": 1416497190,
+  "name": "dsh-purge",
+  "fullName": "mmparko/dsh-purge",
+  "owner": "mmparko",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/72783367?v=4",
+  "url": "https://github.com/mmparko/dsh-purge",
+  "homepage": "https://github.com/YuJunZhiXue/dsh-purge",
+  "description": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
+  "summary": "dsh-purge：DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,30 +19,31 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jfdevelops/skills.git",
+  "installCommand": "git clone https://github.com/mmparko/dsh-purge.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 0,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 66,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-25T03:56:27Z",
-  "updatedAt": "2026-11-23T16:45:32Z",
-  "createdAt": "2026-10-26T03:17:21Z",
-  "sourceTopics": [
-    "agentic-skills"
-  ],
+  "stars": 6032,
+  "forks": 5143,
+  "openIssues": 12,
+  "score": 105.7,
+  "activity": "近期活跃",
+  "pushedAt": "2026-10-13T05:50:46Z",
+  "updatedAt": "2026-11-26T08:30:36Z",
+  "createdAt": "2026-10-13T05:14:47Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "agentic",
-    "agentic-ai",
-    "agentic-skill-provider",
-    "agentic-skill-source",
-    "agentic-skills",
-    "skills"
+    "archive",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-plugins",
+    "harness-jailbreak",
+    "jailbreak",
+    "llm-jailbreak",
+    "mirror"
   ],
   "platforms": [
     "Agent Skills"
@@ -50,15 +51,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jfdevelops/skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/mmparko/dsh-purge",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jfdevelops/skills#readme",
-  "detailPath": "data/details/jfdevelops__skills.json",
+  "readmeUrl": "https://github.com/mmparko/dsh-purge#readme",
+  "detailPath": "data/details/mmparko__dsh__purge.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "skills：尚未归入主要类别的实用项目。",
+    "summary": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -77,14 +78,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "51e54bfd3a4f0803",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "1fb6b583a6dec46e",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "skills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "skills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "dsh-purge：DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "dsh-purge 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",

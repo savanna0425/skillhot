@@ -1,14 +1,14 @@
 {
-  "rank": 1364,
-  "id": 1244090374,
-  "name": "Legal-Skills-Chinese",
-  "fullName": "THUYRan/Legal-Skills-Chinese",
-  "owner": "THUYRan",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/136361687?v=4",
-  "url": "https://github.com/THUYRan/Legal-Skills-Chinese",
+  "rank": 1814,
+  "id": 1182703926,
+  "name": "HIGAgentSkills",
+  "fullName": "justinwetch/HIGAgentSkills",
+  "owner": "justinwetch",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/104049514?v=4",
+  "url": "https://github.com/justinwetch/HIGAgentSkills",
   "homepage": "",
-  "description": "",
-  "summary": "Legal-Skills-Chinese：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "Apple Human Interface Guidelines for Agents",
+  "summary": "HIGAgentSkills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,37 +19,43 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/THUYRan/Legal-Skills-Chinese.git",
-  "language": "",
-  "license": "",
-  "stars": 998,
-  "forks": 112,
-  "openIssues": 8,
-  "score": 103.1,
-  "activity": "本月活跃",
-  "pushedAt": "2026-11-15T02:20:21Z",
-  "updatedAt": "2026-11-25T04:37:08Z",
-  "createdAt": "2026-05-20T00:41:03Z",
+  "installCommand": "git clone https://github.com/justinwetch/HIGAgentSkills.git",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 846,
+  "forks": 30,
+  "openIssues": 2,
+  "score": 93.4,
+  "activity": "近期活跃",
+  "pushedAt": "2026-10-17T22:01:22Z",
+  "updatedAt": "2026-11-25T21:40:40Z",
+  "createdAt": "2026-03-15T21:31:19Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "agent",
+    "apple",
+    "design",
+    "designsystem",
+    "skills"
+  ],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/THUYRan/Legal-Skills-Chinese",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/justinwetch/HIGAgentSkills",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/THUYRan/Legal-Skills-Chinese#readme",
-  "detailPath": "data/details/thuyran__legal__skills__chinese.json",
+  "readmeUrl": "https://github.com/justinwetch/HIGAgentSkills#readme",
+  "detailPath": "data/details/justinwetch__higagentskills.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Legal-Skills-Chinese：尚未归入主要类别的实用项目。",
+    "summary": "HIGAgentSkills：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -65,17 +71,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "仓库未声明许可证，商用前需要谨慎核对。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "44e7927ea034e549",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "18b690c030c91af7",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "Legal-Skills-Chinese：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "Legal-Skills-Chinese 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "HIGAgentSkills：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "HIGAgentSkills 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -115,7 +121,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "仓库未声明许可证，商用或二次分发前需要谨慎核对。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

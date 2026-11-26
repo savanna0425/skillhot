@@ -1,5 +1,5 @@
 {
-  "rank": 647,
+  "rank": 957,
   "id": 627925034,
   "name": "AiNiee",
   "fullName": "NEKOparapa/AiNiee",
@@ -8,7 +8,7 @@
   "url": "https://github.com/NEKOparapa/AiNiee",
   "homepage": "",
   "description": "一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。",
-  "summary": "AiNiee：一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。适合在 OpenCode 相关工作流里先做选型判断。",
+  "summary": "AiNiee：一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "办公效率",
   "categoryDescription": "文档、表格、邮件、日历、笔记与个人生产力",
   "categoryConfidence": "中",
@@ -22,13 +22,13 @@
   "installCommand": "git clone https://github.com/NEKOparapa/AiNiee.git",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stars": 6536,
-  "forks": 399,
+  "stars": 6539,
+  "forks": 398,
   "openIssues": 22,
-  "score": 121.6,
-  "activity": "本周活跃",
+  "score": 114.6,
+  "activity": "本月活跃",
   "pushedAt": "2026-11-17T13:21:24Z",
-  "updatedAt": "2026-11-24T14:25:06Z",
+  "updatedAt": "2026-11-26T07:19:21Z",
   "createdAt": "2023-04-14T13:58:00Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -48,13 +48,13 @@
     "video-translations"
   ],
   "platforms": [
-    "OpenCode"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
     "socialPreview": "https://opengraph.githubassets.com/skillhot/NEKOparapa/AiNiee",
-    "videoUrl": "https://www.bilibili.com/video/BV1h6421c7MA"
+    "videoUrl": ""
   },
   "readmeUrl": "https://github.com/NEKOparapa/AiNiee#readme",
   "detailPath": "data/details/nekoparapa__ainiee.json",
@@ -80,13 +80,13 @@
       "许可证为 AGPL-3.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "5e2fd35a843384a5",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "ad804e6812c99d80",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "AiNiee：一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。适合在 OpenCode 相关工作流里先做选型判断。",
+    "plainIntro": "AiNiee：一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。适合在 Agent Skills 相关工作流里先做选型判断。",
     "whatItIs": "AiNiee 可以先理解为一个「办公与个人效率工具」。它围绕「文档与表格」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "文档、邮件、日程、笔记或资料整理经常占用大量重复时间。",
@@ -104,7 +104,7 @@
       "经常处理文档、知识库、邮件或会议资料的人。",
       "希望用 Agent 降低重复办公成本的个人或团队。",
       "需要把资料整理流程标准化的人。",
-      "正在使用 OpenCode 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要严格企业级权限审计但尚未核对安全边界的场景。",

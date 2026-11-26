@@ -1,5 +1,5 @@
 {
-  "rank": 143,
+  "rank": 142,
   "id": 1054793726,
   "name": "chrome-devtools-mcp",
   "fullName": "ChromeDevTools/chrome-devtools-mcp",
@@ -8,7 +8,7 @@
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "homepage": "https://developer.chrome.com/docs/devtools/agents",
   "description": "Chrome DevTools for coding agents",
-  "summary": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+  "summary": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "高",
@@ -22,13 +22,13 @@
   "installCommand": "Google handles this data in accordance with the [Google Privacy Policy](https://policies.google.com/privacy).\nGoogle's collection of usage statistics for Chrome DevTools MCP is independent from the Chrome browser's usage statistics. Opting out of Chrome metrics does not automatically opt you out of this tool, and vice-versa.\nCollection is disabled if `CHROME",
   "language": "TypeScript",
   "license": "Apache-2.0",
-  "stars": 59271,
-  "forks": 4887,
-  "openIssues": 120,
-  "score": 144.5,
+  "stars": 59408,
+  "forks": 4891,
+  "openIssues": 121,
+  "score": 144.6,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-25T08:39:58Z",
-  "updatedAt": "2026-11-25T08:45:07Z",
+  "pushedAt": "2026-11-26T08:02:21Z",
+  "updatedAt": "2026-11-26T08:07:33Z",
   "createdAt": "2025-09-11T10:39:55Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -47,6 +47,7 @@
   ],
   "platforms": [
     "Claude",
+    "Codex",
     "Cursor",
     "Gemini CLI",
     "GitHub Copilot",
@@ -82,13 +83,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "5683b773c434faeb",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "f2021910907f9c98",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Cursor、Gemini CLI 相关工作流里先做选型判断。",
+    "plainIntro": "chrome-devtools-mcp：Chrome DevTools 开发代理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "chrome-devtools-mcp 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -106,7 +107,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Cursor、Gemini CLI 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",

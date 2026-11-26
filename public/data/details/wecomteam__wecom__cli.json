@@ -1,14 +1,14 @@
 {
-  "rank": 1447,
-  "id": 1449581967,
-  "name": "dsh-purge-safe",
-  "fullName": "CallMeGuLab/dsh-purge-safe",
-  "owner": "CallMeGuLab",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/319308597?v=4",
-  "url": "https://github.com/CallMeGuLab/dsh-purge-safe",
+  "rank": 1223,
+  "id": 1195011586,
+  "name": "wecom-cli",
+  "fullName": "WecomTeam/wecom-cli",
+  "owner": "WecomTeam",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/89206810?v=4",
+  "url": "https://github.com/WecomTeam/wecom-cli",
   "homepage": "",
-  "description": "正版dsh-purge  DeepSeek Harness 破甲 ：默认提示词面向国模，原小码酱，完整开放版，无付费墙，技能库与知识库全含，免费公开。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐",
-  "summary": "dsh-purge-safe：正版dsh-purge DeepSeek Harness 破甲 ：默认提示词面向国模，原小码酱，完整开放版，无付费墙，技能库与知识库全含，免费公开。Jailbreak for every model — swap prompts per m。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "description": "企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信",
+  "summary": "wecom-cli：企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,47 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/CallMeGuLab/dsh-purge-safe.git",
-  "language": "JavaScript",
-  "license": "Apache-2.0",
-  "stars": 963,
-  "forks": 509,
-  "openIssues": 1,
-  "score": 101.7,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-22T08:37:04Z",
-  "updatedAt": "2026-11-25T07:50:01Z",
-  "createdAt": "2026-11-07T17:26:53Z",
+  "installCommand": "git clone https://github.com/WecomTeam/wecom-cli.git",
+  "language": "Rust",
+  "license": "MIT",
+  "stars": 3381,
+  "forks": 232,
+  "openIssues": 83,
+  "score": 107.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-11-18T08:02:42Z",
+  "updatedAt": "2026-11-26T07:39:03Z",
+  "createdAt": "2026-03-29T05:06:59Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "deepseek",
-    "deepseek-harness",
-    "dsh-plugin",
-    "dsh-purge",
-    "harness-jailbreak",
-    "jailbreak",
-    "llm-jailbreak",
-    "prompt-injection",
-    "red-team"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/CallMeGuLab/dsh-purge-safe",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/WecomTeam/wecom-cli",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/CallMeGuLab/dsh-purge-safe#readme",
-  "detailPath": "data/details/callmegulab__dsh__purge__safe.json",
+  "readmeUrl": "https://github.com/WecomTeam/wecom-cli#readme",
+  "detailPath": "data/details/wecomteam__wecom__cli.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "正版dsh-purge DeepSeek Harness 破甲 ：默认提示词面向国模，原小码酱，完整开放版，无付费墙，技能库与知识库全含，免费公开。Jailbreak for every model — swap prompts per m",
+    "summary": "企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -75,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "cefaacd9641c1466",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "b203826e2b781737",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "dsh-purge-safe：正版dsh-purge DeepSeek Harness 破甲 ：默认提示词面向国模，原小码酱，完整开放版，无付费墙，技能库与知识库全含，免费公开。Jailbreak for every model — swap prompts per m。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "dsh-purge-safe 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "wecom-cli：企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "wecom-cli 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -125,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "rank": 1470,
-  "id": 674164679,
-  "name": "awesome-ai-devtools",
-  "fullName": "jamesmurdza/awesome-ai-devtools",
-  "owner": "jamesmurdza",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/33395784?v=4",
-  "url": "https://github.com/jamesmurdza/awesome-ai-devtools",
+  "rank": 764,
+  "id": 1199906287,
+  "name": "autoagent",
+  "fullName": "thirdlayerinc/autoagent",
+  "owner": "thirdlayerinc",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/222081722?v=4",
+  "url": "https://github.com/thirdlayerinc/autoagent",
   "homepage": "",
-  "description": "Curated list of AI-powered developer tools.",
-  "summary": "awesome-ai-devtools 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
+  "description": "autonomous harness engineering",
+  "summary": "autoagent：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,17 +19,17 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/jamesmurdza/awesome-ai-devtools.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/thirdlayerinc/autoagent.git",
+  "language": "Python",
   "license": "",
-  "stars": 4000,
-  "forks": 1307,
-  "openIssues": 587,
-  "score": 101.5,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-27T15:25:27Z",
-  "updatedAt": "2026-11-23T01:58:52Z",
-  "createdAt": "2023-08-03T09:36:57Z",
+  "stars": 4572,
+  "forks": 494,
+  "openIssues": 8,
+  "score": 117.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-25T18:48:41Z",
+  "updatedAt": "2026-11-26T00:45:11Z",
+  "createdAt": "2026-04-02T20:44:58Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
@@ -39,28 +39,28 @@
     "Agent Skills"
   ],
   "skillCount": 1,
-  "isCollection": true,
+  "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/jamesmurdza/awesome-ai-devtools",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/thirdlayerinc/autoagent",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/jamesmurdza/awesome-ai-devtools#readme",
-  "detailPath": "data/details/jamesmurdza__awesome__ai__devtools.json",
+  "readmeUrl": "https://github.com/thirdlayerinc/autoagent#readme",
+  "detailPath": "data/details/thirdlayerinc__autoagent.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "精选的基于人工智能的开发者工具列表",
+    "summary": "autoagent 聚焦软件开发、代码质量与工程交付。",
     "useCases": [
       "软件开发",
       "代码质量",
       "工程自动化"
     ],
     "expectedEffects": [
-      "减少逐个搜索同类项目的时间",
+      "把重复工作沉淀成可复用能力",
       "帮助用户更快判断项目是否值得进一步阅读 README"
     ],
     "targetUsers": [
-      "想集中发现和比较 Skills 的用户",
+      "需要开发、调试、评审、测试、架构与工程交付能力的用户",
       "开发者和 AI 工具使用者"
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
@@ -68,14 +68,14 @@
       "仓库未声明许可证，商用前需要谨慎核对。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-25T08:47:20.485Z",
-    "sourceHash": "8819ebb78a834dc7",
+    "generatedAt": "2026-11-26T08:32:34.369Z",
+    "sourceHash": "f23cf4ac1940f2e8",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "awesome-ai-devtools 是一个面向 Agent Skills 的 Skills 目录或资源合集，用来帮你集中发现、比较和筛选相关项目。",
-    "whatItIs": "awesome-ai-devtools 可以先理解为一个选型入口：它把分散的 Skills、插件、示例或社区资源放到一起。你可以先判断它是否适合你的当前任务，再决定打开哪些具体仓库继续阅读 README。",
+    "plainIntro": "autoagent：聚焦软件开发、代码质量与工程交付。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "autoagent 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
       "复杂代码任务需要更明确的工程流程，而不是只靠一句提示。",
