@@ -1,5 +1,5 @@
 {
-  "rank": 190,
+  "rank": 189,
   "id": 1383809012,
   "name": "magpie",
   "fullName": "yetone/magpie",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/1206493?v=4",
   "url": "https://github.com/yetone/magpie",
   "homepage": "https://usemagpie.ai",
-  "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-  "summary": "magpie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+  "summary": "magpie：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
   "categoryConfidence": "中",
@@ -22,25 +22,34 @@
   "installCommand": "git clone https://github.com/yetone/magpie.git",
   "language": "Go",
   "license": "MIT",
-  "stars": 41754,
-  "forks": 3826,
-  "openIssues": 5199,
-  "score": 140.9,
+  "stars": 42286,
+  "forks": 3885,
+  "openIssues": 5304,
+  "score": 141,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-26T07:52:14Z",
-  "updatedAt": "2026-11-26T08:31:20Z",
+  "pushedAt": "2026-11-27T08:41:25Z",
+  "updatedAt": "2026-11-27T08:41:12Z",
   "createdAt": "2026-09-23T16:22:35Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
+    "ai-agents",
+    "chatgpt",
+    "claude",
     "claude-code",
     "codex",
     "deepseek",
     "gemini-cli",
+    "github-copilot",
+    "glm",
+    "kimi",
+    "linux",
     "llm",
-    "macos"
+    "llm-gateway",
+    "macos",
+    "windows"
   ],
   "platforms": [
     "Claude",
@@ -61,7 +70,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "magpie 是用于运行、管理或编排 AI Agent 的开源工具。",
+    "summary": "magpie 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -80,13 +89,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "c754e42722a65252",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "4f3354260cb51dc2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "magpie：是用于运行、管理或编排 AI Agent 的开源工具。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "plainIntro": "magpie：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "magpie 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",

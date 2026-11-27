@@ -1,17 +1,17 @@
 {
-  "rank": 2325,
-  "id": 1365686163,
-  "name": "douyin-video-words",
-  "fullName": "why20261/douyin-video-words",
-  "owner": "why20261",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/323855170?v=4",
-  "url": "https://github.com/why20261/douyin-video-words",
-  "homepage": "https://www.guaikei.com",
-  "description": "抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案、理解场景描述文案。",
-  "summary": "douyin-video-words：抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
+  "rank": 1488,
+  "id": 1441280900,
+  "name": "cook",
+  "fullName": "Leonxlnx/cook",
+  "owner": "Leonxlnx",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/219127460?v=4",
+  "url": "https://github.com/Leonxlnx/cook",
+  "homepage": "",
+  "description": "Give your agent a target, a bar and time, then let it cook. An agent skill for visual builds that have to match reference images or videos.",
+  "summary": "cook：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "高",
+  "categoryConfidence": "中",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,64 +19,44 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/why20261/douyin-video-words.git",
+  "installCommand": "git clone https://github.com/Leonxlnx/cook.git",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 2,
-  "forks": 0,
+  "stars": 856,
+  "forks": 64,
   "openIssues": 0,
-  "score": 60.9,
+  "score": 101.5,
   "activity": "本月活跃",
-  "pushedAt": "2026-10-27T02:45:05Z",
-  "updatedAt": "2026-11-03T06:59:24Z",
-  "createdAt": "2026-09-11T08:46:01Z",
-  "sourceTopics": [
-    "qoder-skill",
-    "trae-skill",
-    "workbuddy-skills"
-  ],
+  "pushedAt": "2026-10-31T21:48:44Z",
+  "updatedAt": "2026-11-27T08:29:54Z",
+  "createdAt": "2026-10-31T21:48:38Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "claude-code-skill",
-    "claude-code-skills",
-    "claude-skills",
-    "codex-skill",
-    "codex-skills",
-    "douyin-skill",
-    "douyin-video",
-    "dumate-skill",
-    "openclaw-skill",
-    "openclaw-skills",
-    "qoder-skill",
-    "skills-sh",
-    "skillsmp",
-    "trae-skill",
-    "trae-skills",
-    "trae-work-skill",
-    "video-to-text",
-    "video2text",
-    "workbuddy-skill",
-    "workbuddy-skills"
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "prompting",
+    "threejs"
   ],
   "platforms": [
     "Claude",
-    "Codex",
-    "OpenClaw"
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/why20261/douyin-video-words",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/Leonxlnx/cook",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/why20261/douyin-video-words#readme",
-  "detailPath": "data/details/why20261__douyin__video__words.json",
+  "readmeUrl": "https://github.com/Leonxlnx/cook#readme",
+  "detailPath": "data/details/leonxlnx__cook.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案",
+    "summary": "cook：图片、视频、演示、写作、音频与社交内容生产。",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -95,14 +75,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "a80c75ec3f1e6d0a",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "5ef613ffc6e52180",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "douyin-video-words：抖音视频文案提取。输入抖音视频链接、用千问LLM进行智能语音转写，支持普通话、粤语等方言及外语，结果直接输出到聊天。当用户做抖音文案提取、抖音视频文案提取、抖音视频转文字、抖音口播转文字或抖音逐字稿提取时使用。支持提取音频文案、提取口播文案。适合在 Claude、Codex、OpenClaw 相关工作流里先做选型判断。",
-    "whatItIs": "douyin-video-words 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "cook：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "cook 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -119,7 +99,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、OpenClaw 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

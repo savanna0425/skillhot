@@ -1,17 +1,17 @@
 {
-  "rank": 2205,
-  "id": 1231063903,
-  "name": "compliance-skills",
-  "fullName": "goSprinto/compliance-skills",
-  "owner": "goSprinto",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/45191188?v=4",
-  "url": "https://github.com/goSprinto/compliance-skills",
-  "homepage": "",
-  "description": "",
-  "summary": "compliance-skills：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
+  "rank": 1558,
+  "id": 1343960452,
+  "name": "secfoo",
+  "fullName": "secfoo-com/secfoo",
+  "owner": "secfoo-com",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/320249575?v=4",
+  "url": "https://github.com/secfoo-com/secfoo",
+  "homepage": "https://secfoo.com",
+  "description": "AI security review CLI: SAST, secret scanning, SCA, threat modeling and architecture review with Claude Code, Copilot, Codex, Gemini, Cursor or an API key. Reads your design docs, Confluence and Jira through MCP. SARIF output for CI.",
+  "summary": "secfoo：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "安全",
   "categoryDescription": "安全审计、漏洞研究、威胁分析与合规",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "cybersecurity|security audit|secure coding|vulnerab|pe",
   "scenarios": [
     "代码审计",
@@ -19,43 +19,62 @@
     "安全合规"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/goSprinto/compliance-skills.git",
-  "language": "",
+  "installCommand": "git clone https://github.com/secfoo-com/secfoo.git",
+  "language": "Python",
   "license": "MIT",
-  "stars": 134,
-  "forks": 14,
-  "openIssues": 0,
-  "score": 70.8,
-  "activity": "活跃",
-  "pushedAt": "2026-05-26T08:04:09Z",
-  "updatedAt": "2026-11-21T19:42:40Z",
-  "createdAt": "2026-05-06T15:34:33Z",
-  "sourceTopics": [
-    "claude-code-skill"
-  ],
+  "stars": 891,
+  "forks": 337,
+  "openIssues": 29,
+  "score": 100.9,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-27T08:24:49Z",
+  "updatedAt": "2026-11-27T08:44:23Z",
+  "createdAt": "2026-08-23T16:15:08Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "claude-code-skill",
-    "claude-skills",
-    "skillsmp"
+    "ai-security",
+    "appsec",
+    "claude-code",
+    "code-review",
+    "codex",
+    "copilot",
+    "devsecops",
+    "gemini",
+    "github-actions",
+    "llm",
+    "mcp",
+    "owasp",
+    "python",
+    "sarif",
+    "sast",
+    "secret-scanning",
+    "security",
+    "security-scanner",
+    "static-analysis",
+    "threat-modeling"
   ],
   "platforms": [
-    "Claude"
+    "Claude",
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "GitHub Copilot"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/goSprinto/compliance-skills",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/secfoo-com/secfoo",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/goSprinto/compliance-skills#readme",
-  "detailPath": "data/details/gosprinto__compliance__skills.json",
+  "readmeUrl": "https://github.com/secfoo-com/secfoo#readme",
+  "detailPath": "data/details/secfoo__com__secfoo.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "compliance-skills 聚焦安全审计、漏洞检查与风险治理。",
+    "summary": "secfoo 聚焦安全审计、漏洞检查与风险治理。",
     "useCases": [
       "代码审计",
       "漏洞研究",
@@ -74,14 +93,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "268f128a3f2312bd",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "8b47119caf594f04",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "compliance-skills：聚焦安全审计、漏洞检查与风险治理。适合在 Claude 相关工作流里先做选型判断。",
-    "whatItIs": "compliance-skills 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "secfoo：聚焦安全审计、漏洞检查与风险治理。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+    "whatItIs": "secfoo 可以先理解为一个「安全与风险检查项目」。它围绕「代码审计」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "代码、配置、依赖或 Agent 工具链里的风险不容易系统检查。",
       "安全排查需要固定流程，不能只靠临时经验。",
@@ -98,7 +117,7 @@
       "开发者、安全研究员和需要做风险自查的团队。",
       "想把安全检查嵌入 Agent 或开发流程的人。",
       "需要快速筛查配置、依赖或代码风险的人。",
-      "正在使用 Claude 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "未经授权的攻击、绕过或滥用场景。",

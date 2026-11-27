@@ -1,14 +1,14 @@
 {
-  "rank": 1142,
-  "id": 1429553852,
-  "name": "motty",
-  "fullName": "t8y2/motty",
-  "owner": "t8y2",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/77960507?v=4",
-  "url": "https://github.com/t8y2/motty",
-  "homepage": "https://motty.page",
-  "description": "SSH, SFTP, port forwarding, VNC/RDP and an AI assistant、MCP in one native window — a Go desktop app built on Viva, with no webview.",
-  "summary": "motty：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 645,
+  "id": 1219400421,
+  "name": "agent-sprite-forge",
+  "fullName": "0x0funky/agent-sprite-forge",
+  "owner": "0x0funky",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/148287731?v=4",
+  "url": "https://github.com/0x0funky/agent-sprite-forge",
+  "homepage": "",
+  "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
+  "summary": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,49 +19,45 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/t8y2/motty.git",
-  "language": "Go",
-  "license": "Apache-2.0",
-  "stars": 1882,
-  "forks": 180,
-  "openIssues": 347,
-  "score": 108.6,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-26T07:58:10Z",
-  "updatedAt": "2026-11-26T07:58:00Z",
-  "createdAt": "2026-10-22T09:56:24Z",
+  "installCommand": "claude plugin marketplace add 0x0funky/agent-sprite-forge --sparse .claude-plugin skills\nclaude plugin install agent-sprite-forge@agent-sprite-forge\npython -m pip install \"numpy>=1.26\" \"Pillow>=10.1\" \"scipy>=1.11\"",
+  "language": "Python",
+  "license": "MIT",
+  "stars": 6021,
+  "forks": 591,
+  "openIssues": 14,
+  "score": 121.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-11-13T01:41:03Z",
+  "updatedAt": "2026-11-27T08:38:02Z",
+  "createdAt": "2026-04-23T20:52:52Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-assistant",
-    "golang",
-    "native",
-    "port-forwarding",
-    "rdp",
-    "sftp",
-    "ssh",
-    "ssh-client",
-    "terminal",
-    "viva",
-    "vnc"
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "grok-build",
+    "pixel-art",
+    "sprite-generator"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/t8y2/motty",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/0x0funky/agent-sprite-forge",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/t8y2/motty#readme",
-  "detailPath": "data/details/t8y2__motty.json",
+  "readmeUrl": "https://github.com/0x0funky/agent-sprite-forge#readme",
+  "detailPath": "data/details/0x0funky__agent__sprite__forge.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "motty：尚未归入主要类别的实用项目。",
+    "summary": "为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -77,17 +73,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "5957573079472863",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "77385afc487cd97d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "motty：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "motty 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "agent-sprite-forge：为提示词生成 2D 精灵图、地图、透明 PNG 帧和动画 GIF 的 Agent 技能。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "agent-sprite-forge 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -104,7 +100,7 @@
       "愿意探索垂直开源项目的人。",
       "需要快速筛选 GitHub 项目的开发者和 Agent 用户。",
       "想发现非典型但可能有用工具的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要成熟商业产品和完整售后的人。",
@@ -127,7 +123,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,64 +1,73 @@
 {
-  "rank": 1613,
-  "id": 1337955304,
-  "name": "sprix-sage-router",
-  "fullName": "wang2122/sprix-sage-router",
-  "owner": "wang2122",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/78741078?v=4",
-  "url": "https://github.com/wang2122/sprix-sage-router",
-  "homepage": "",
-  "description": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
-  "summary": "sprix-sage-router：Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1239,
+  "id": 1405283311,
+  "name": "Grandet",
+  "fullName": "hanzohanzhe/Grandet",
+  "owner": "hanzohanzhe",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/120188782?v=4",
+  "url": "https://github.com/hanzohanzhe/Grandet",
+  "homepage": "https://grandet.ai",
+  "description": "Find the cheapest API for any model and connect it from your AI agent: Grandet Skill and an anonymous MCP server, backed by listed prices from 1,800+ official, inference and relay providers on grandet.ai.",
+  "summary": "Grandet：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
   "category": "Agent工具与平台",
   "categoryDescription": "Agent 客户端、模型切换、网关、运行环境与编排平台",
-  "categoryConfidence": "待复核",
-  "categoryReason": "仓库 Topic 弱信号",
+  "categoryConfidence": "中",
+  "categoryReason": "claude[-\\s]?code.*codex|codex.*claude[-\\s]?code|codex[",
   "scenarios": [
     "模型与客户端管理",
     "Agent 编排",
     "多平台协作"
   ],
   "howToUse": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
-  "installCommand": "git clone https://github.com/wang2122/sprix-sage-router.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 3562,
-  "forks": 129,
-  "openIssues": 3,
-  "score": 100.3,
-  "activity": "近期活跃",
-  "pushedAt": "2026-08-28T09:12:08Z",
-  "updatedAt": "2026-11-25T21:04:55Z",
-  "createdAt": "2026-08-18T04:08:11Z",
+  "installCommand": "git clone https://github.com/hanzohanzhe/Grandet.git",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 1562,
+  "forks": 152,
+  "openIssues": 41,
+  "score": 107.7,
+  "activity": "本月活跃",
+  "pushedAt": "2026-11-07T20:59:58Z",
+  "updatedAt": "2026-11-27T07:54:40Z",
+  "createdAt": "2026-10-05T06:50:33Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "a2a",
-    "agent-orchestration",
-    "agent-routing",
+    "agent-skills",
+    "ai",
     "ai-agents",
-    "multi-agent-systems",
-    "python",
-    "sprix-ai",
-    "task-scheduling"
+    "api-credits",
+    "api-pricing",
+    "api-relay",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "free-api",
+    "free-tier",
+    "llm",
+    "llm-api",
+    "mcp",
+    "mcp-server",
+    "price-comparison"
   ],
   "platforms": [
-    "Agent Skills"
+    "Claude",
+    "Codex"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/wang2122/sprix-sage-router",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/hanzohanzhe/Grandet",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/wang2122/sprix-sage-router#readme",
-  "detailPath": "data/details/wang2122__sprix__sage__router.json",
+  "readmeUrl": "https://github.com/hanzohanzhe/Grandet#readme",
+  "detailPath": "data/details/hanzohanzhe__grandet.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+    "summary": "Grandet 用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。",
     "useCases": [
       "模型与客户端管理",
       "Agent 编排",
@@ -74,17 +83,17 @@
     ],
     "gettingStarted": "按 README 安装客户端或服务，配置模型提供商与凭据后，在对应界面或命令行使用。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "372f30148685255b",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "0f87b78f28550e77",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "sprix-sage-router：Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "sprix-sage-router 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "Grandet：用于统一切换和管理不同 AI 模型、提供商或 Agent 配置。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "whatItIs": "Grandet 可以先理解为一个「Agent 工具或运行平台」。它围绕「模型与客户端管理」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "多个 Agent、模型、工具和配置之间切换成本高。",
       "想让 Agent 执行真实任务，但缺少统一运行环境或编排方式。",
@@ -101,7 +110,7 @@
       "重度使用 Claude、Codex、Cursor、OpenCode、Gemini 等工具的人。",
       "需要管理多个模型、多个 Agent 或多个项目环境的开发者。",
       "想搭建个人或团队 Agent 工作台的人。",
-      "正在使用 Agent Skills 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只需要一个简单聊天窗口、不想配置工具链的人。",
@@ -124,7 +133,7 @@
       "个人 Agent 工作流更容易长期维护。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

@@ -1,17 +1,17 @@
 {
-  "rank": 1530,
-  "id": 1233956613,
-  "name": "gflow-cli",
-  "fullName": "ffroliva/gflow-cli",
-  "owner": "ffroliva",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/25033371?v=4",
-  "url": "https://github.com/ffroliva/gflow-cli",
-  "homepage": "https://ffroliva.github.io/gflow-cli/",
-  "description": "MCP server and CLI for Google Flow: generate Veo 3.1 and Omni video and Nano Banana / Imagen images from Claude Code, Claude Desktop, Cursor, Codex or the terminal. Free, MIT, on PyPI. Independent project, not affiliated with Google.",
-  "summary": "gflow-cli：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
+  "rank": 2266,
+  "id": 1227383057,
+  "name": "viral-copywriting-skill",
+  "fullName": "kangarooking/viral-copywriting-skill",
+  "owner": "kangarooking",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/52196004?v=4",
+  "url": "https://github.com/kangarooking/viral-copywriting-skill",
+  "homepage": "",
+  "description": "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包",
+  "summary": "viral-copywriting-skill：把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "内容创作",
   "categoryDescription": "图片、视频、演示、写作、音频与社交内容生产",
-  "categoryConfidence": "中",
+  "categoryConfidence": "高",
   "categoryReason": "image generation|video|slides?|ppt|presentation|writin",
   "scenarios": [
     "内容生产",
@@ -19,60 +19,48 @@
     "多媒体工作流"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/ffroliva/gflow-cli.git",
-  "language": "Python",
+  "installCommand": "git clone https://github.com/kangarooking/viral-copywriting-skill.git",
+  "language": "",
   "license": "MIT",
-  "stars": 906,
-  "forks": 177,
-  "openIssues": 87,
-  "score": 101.1,
-  "activity": "本周活跃",
-  "pushedAt": "2026-11-26T08:29:16Z",
-  "updatedAt": "2026-11-26T08:04:48Z",
-  "createdAt": "2026-05-09T15:05:54Z",
-  "sourceTopics": [],
+  "stars": 95,
+  "forks": 14,
+  "openIssues": 0,
+  "score": 67.5,
+  "activity": "活跃",
+  "pushedAt": "2026-05-02T15:55:20Z",
+  "updatedAt": "2026-11-27T07:46:10Z",
+  "createdAt": "2026-05-02T15:55:16Z",
+  "sourceTopics": [
+    "ai-skills"
+  ],
   "discoveredBy": [
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
-    "ai-agents",
-    "ai-video",
-    "claude-code",
-    "cli",
-    "codex",
-    "cursor",
-    "generative-ai",
-    "google-flow",
-    "image-to-video",
-    "imagen",
-    "mcp",
-    "mcp-server",
-    "model-context-protocol",
-    "nano-banana",
-    "python",
-    "text-to-video",
-    "veo",
-    "veo-3",
-    "veo3",
-    "video-generation"
+    "agent-workflows",
+    "ai-skills",
+    "book-to-skill",
+    "cangjie-skill",
+    "conversion-copywriting",
+    "copywriting",
+    "marketing",
+    "sales-copy"
   ],
   "platforms": [
-    "Claude",
-    "Codex",
-    "Cursor"
+    "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/ffroliva/gflow-cli",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/kangarooking/viral-copywriting-skill",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/ffroliva/gflow-cli#readme",
-  "detailPath": "data/details/ffroliva__gflow__cli.json",
+  "readmeUrl": "https://github.com/kangarooking/viral-copywriting-skill#readme",
+  "detailPath": "data/details/kangarooking__viral__copywriting__skill.json",
   "catalogStatus": "active",
   "catalogDelta": "new",
   "projectInsight": {
-    "summary": "gflow-cli：图片、视频、演示、写作、音频与社交内容生产。",
+    "summary": "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包",
     "useCases": [
       "内容生产",
       "视觉创作",
@@ -91,14 +79,14 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "17ec143dc65d797a",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "7d20bb54c6e67462",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "gflow-cli：图片、视频、演示、写作、音频与社交内容生产。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
-    "whatItIs": "gflow-cli 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "viral-copywriting-skill：把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "viral-copywriting-skill 可以先理解为一个「内容生产辅助项目」。它围绕「内容生产」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "图片、视频、演示、文案或社交内容制作流程容易碎片化。",
       "同一套内容风格难以稳定复用。",
@@ -115,7 +103,7 @@
       "内容创作者、运营、设计师和需要频繁产出素材的人。",
       "用 Agent 做短视频、PPT、封面、文案或图文的人。",
       "想把固定内容流程模板化的小团队。",
-      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
+      "正在使用 Agent Skills 等 Agent 工具链的人。"
     ],
     "notFor": [
       "需要专业版权、品牌法务或成片质检但尚未人工复核的场景。",

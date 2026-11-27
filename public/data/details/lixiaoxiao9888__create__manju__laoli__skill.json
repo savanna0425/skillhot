@@ -1,5 +1,5 @@
 {
-  "rank": 632,
+  "rank": 618,
   "id": 1334904197,
   "name": "manju-laoli-skill",
   "fullName": "lixiaoxiao9888-create/manju-laoli-skill",
@@ -7,8 +7,8 @@
   "avatarUrl": "https://avatars.githubusercontent.com/u/304246313?v=4",
   "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
   "homepage": "",
-  "description": "漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 子技能 · 四层纵深——赛道分流 / 素材采风 / 剧本 / 资产 / 分镜 / 三大打戏引擎 / 投喂 / 质检全链路。六道前置锁 + I 画风锁 · 50 份规则库 · 机检 C1~C33 | H1~H12 + 六道投喂闸门 + P4.5 故事板机检（P450~P458）· 素材形态 M0/M1/M2（本包不持有图）· 产出可直接投喂 Seedance 2.5 / 2.0 / MiniMax H3 的七段式提示词组。测试版，二次修改整合开源内容。",
-  "summary": "manju-laoli-skill：漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 子技能 · 四层纵深——赛道分流 / 素材采风 / 剧本 / 资产 / 分镜 / 三大。适合在 OpenClaw 相关工作流里先做选型判断。",
+  "description": "🎬 漫剧老李 · AIGC 短剧/漫剧全流程 Skill（V8.2.0-SLIM）｜1 总控 + 10 子技能 · 四层纵深：五道锁 + I 画风锁 → 剧本 → 资产 → 文武三轨分镜 → 七段式投喂 → C1~C41 质检。53 份规则库 · 场景五宫格 · 站位方案 C+/C++ · 三大打戏引擎 · Seedance 2.5/2.0 · 素材形态 M0/M1/M2（不持有图）。测试版，二次修改整合开源内容。",
+  "summary": "manju-laoli-skill：漫剧老李 · AIGC 短剧/漫剧全流程 Skill（V8.2.0-SLIM）｜1 总控 + 10 子技能 · 四层纵深：五道锁 + I 画风锁 → 剧本 → 资产 → 文武三轨分镜 → 七段式投喂 → C1~C41 质检。53 份规则库。适合在 OpenClaw 相关工作流里先做选型判断。",
   "category": "技能开发",
   "categoryDescription": "创建、验证、安装、管理与分发 Skills 的基础设施",
   "categoryConfidence": "中",
@@ -22,19 +22,30 @@
   "installCommand": "git clone https://github.com/lixiaoxiao9888-create/manju-laoli-skill.git",
   "language": "Python",
   "license": "MIT",
-  "stars": 3156,
-  "forks": 386,
+  "stars": 3290,
+  "forks": 417,
   "openIssues": 13,
-  "score": 122,
+  "score": 122.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-19T01:44:09Z",
-  "updatedAt": "2026-11-26T08:25:08Z",
+  "pushedAt": "2026-11-26T12:41:43Z",
+  "updatedAt": "2026-11-27T08:40:16Z",
   "createdAt": "2026-08-15T08:00:57Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 搜索"
   ],
-  "repoTopics": [],
+  "repoTopics": [
+    "ai",
+    "ai-agent",
+    "ai-video",
+    "llm",
+    "openclaw",
+    "prompt-engineering",
+    "screenplay",
+    "seedance",
+    "short-drama",
+    "storyboard"
+  ],
   "platforms": [
     "OpenClaw"
   ],
@@ -49,7 +60,7 @@
   "catalogStatus": "active",
   "catalogDelta": "stable",
   "projectInsight": {
-    "summary": "漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 子技能 · 四层纵深——赛道分流 / 素材采风 / 剧本 / 资产 / 分镜 / 三大",
+    "summary": "漫剧老李 · AIGC 短剧/漫剧全流程 Skill（V8.2.0-SLIM）｜1 总控 + 10 子技能 · 四层纵深：五道锁 + I 画风锁 → 剧本 → 资产 → 文武三轨分镜 → 七段式投喂 → C1~C41 质检。53 份规则库 ",
     "useCases": [
       "创建技能",
       "组织工作流",
@@ -68,13 +79,13 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "530f1a965ca7bfa7",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "0388a22459623d8f",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "manju-laoli-skill：漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 子技能 · 四层纵深——赛道分流 / 素材采风 / 剧本 / 资产 / 分镜 / 三大。适合在 OpenClaw 相关工作流里先做选型判断。",
+    "plainIntro": "manju-laoli-skill：漫剧老李 · AIGC 短剧/漫剧全流程 Skill（V8.2.0-SLIM）｜1 总控 + 10 子技能 · 四层纵深：五道锁 + I 画风锁 → 剧本 → 资产 → 文武三轨分镜 → 七段式投喂 → C1~C41 质检。53 份规则库。适合在 OpenClaw 相关工作流里先做选型判断。",
     "whatItIs": "manju-laoli-skill 可以先理解为一个「Skills 创建与管理工具」。它围绕「创建技能」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "想创建 Skill，但不知道结构、规范、安装和验证流程。",

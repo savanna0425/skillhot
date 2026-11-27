@@ -1,14 +1,14 @@
 {
-  "rank": 400,
+  "rank": 388,
   "id": 1459971684,
   "name": "rust-anything",
   "fullName": "erkamyaman/rust-anything",
   "owner": "erkamyaman",
   "avatarUrl": "https://avatars.githubusercontent.com/u/88717125?v=4",
   "url": "https://github.com/erkamyaman/rust-anything",
-  "homepage": "rust-anything.com",
-  "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-  "summary": "rust-anything：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+  "homepage": "https://rustanything.ai",
+  "description": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
+  "summary": "rust-anything：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
   "category": "编程开发",
   "categoryDescription": "开发、调试、评审、测试、架构与工程交付",
   "categoryConfidence": "中",
@@ -19,24 +19,22 @@
     "工程自动化"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "npm install -g eslint-rs     # ESLint 10.15.0",
+  "installCommand": "git clone https://github.com/erkamyaman/rust-anything.git",
   "language": "Rust",
   "license": "Apache-2.0",
-  "stars": 9763,
-  "forks": 795,
-  "openIssues": 9,
-  "score": 129.8,
+  "stars": 10446,
+  "forks": 848,
+  "openIssues": 15,
+  "score": 130.5,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-25T23:49:01Z",
-  "updatedAt": "2026-11-26T08:25:19Z",
+  "pushedAt": "2026-11-27T06:59:50Z",
+  "updatedAt": "2026-11-27T08:43:33Z",
   "createdAt": "2026-11-16T12:10:36Z",
   "sourceTopics": [
     "agent-skills"
   ],
   "discoveredBy": [
-    "GitHub Topics",
-    "GitHub 搜索",
-    "GitHub 高星活跃搜索"
+    "GitHub Topics"
   ],
   "repoTopics": [
     "agent-skills",
@@ -62,7 +60,10 @@
   ],
   "platforms": [
     "Claude",
-    "Codex"
+    "Codex",
+    "Cursor",
+    "Gemini CLI",
+    "OpenCode"
   ],
   "skillCount": 1,
   "isCollection": false,
@@ -94,13 +95,13 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-26T08:32:34.369Z",
-    "sourceHash": "9d1590a65f3c7f74",
+    "generatedAt": "2026-11-27T08:46:12.238Z",
+    "sourceHash": "27d85320f1ed707b",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "rust-anything：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex 相关工作流里先做选型判断。",
+    "plainIntro": "rust-anything：聚焦软件开发、代码质量与工程交付。适合在 Claude、Codex、Cursor 相关工作流里先做选型判断。",
     "whatItIs": "rust-anything 可以先理解为一个「软件开发辅助项目」。它围绕「软件开发」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "Agent 写代码时容易跳过规划、测试、评审或上下文整理。",
@@ -118,7 +119,7 @@
       "经常用 Claude Code、Codex、Cursor 或类似工具写代码的开发者。",
       "需要让 Agent 参与真实工程任务的团队。",
       "想把开发流程标准化、可复盘的人。",
-      "正在使用 Claude、Codex 等 Agent 工具链的人。"
+      "正在使用 Claude、Codex、Cursor 等 Agent 工具链的人。"
     ],
     "notFor": [
       "只想找一个无需配置的成品 SaaS 工具的人。",
