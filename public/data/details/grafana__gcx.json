@@ -1,14 +1,14 @@
 {
-  "rank": 2324,
-  "id": 1362575119,
-  "name": "bnul",
-  "fullName": "KawaroX/bnul",
-  "owner": "KawaroX",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/140841769?v=4",
-  "url": "https://github.com/KawaroX/bnul",
-  "homepage": "",
-  "description": "北京师范大学图书馆座位预约 CLI 与 AI skill：自动登录、时段查询和预约",
-  "summary": "bnul：北京师范大学图书馆座位预约 CLI 与 AI skill：自动登录、时段查询和预约。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1608,
+  "id": 1189576423,
+  "name": "gcx",
+  "fullName": "grafana/gcx",
+  "owner": "grafana",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+  "url": "https://github.com/grafana/gcx",
+  "homepage": "http://grafana.com",
+  "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+  "summary": "gcx：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "其他",
   "categoryDescription": "尚未归入主要类别的实用项目",
   "categoryConfidence": "待复核",
@@ -19,47 +19,37 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/KawaroX/bnul.git",
-  "language": "Python",
-  "license": "MIT",
-  "stars": 2,
-  "forks": 0,
-  "openIssues": 0,
-  "score": 60.9,
-  "activity": "本月活跃",
-  "pushedAt": "2026-10-28T04:37:14Z",
-  "updatedAt": "2026-10-28T04:37:18Z",
-  "createdAt": "2026-09-09T11:13:01Z",
-  "sourceTopics": [
-    "ai-agent-skills"
-  ],
+  "installCommand": "git clone https://github.com/grafana/gcx.git",
+  "language": "Go",
+  "license": "Apache-2.0",
+  "stars": 847,
+  "forks": 71,
+  "openIssues": 433,
+  "score": 100.4,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-27T21:55:41Z",
+  "updatedAt": "2026-11-27T22:08:46Z",
+  "createdAt": "2026-03-23T13:12:02Z",
+  "sourceTopics": [],
   "discoveredBy": [
-    "GitHub Topics"
+    "GitHub 高星活跃搜索"
   ],
-  "repoTopics": [
-    "ai-agent",
-    "ai-agent-skill",
-    "ai-agent-skills",
-    "ai-agents",
-    "bnu",
-    "skill-md",
-    "skills"
-  ],
+  "repoTopics": [],
   "platforms": [
     "Agent Skills"
   ],
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/KawaroX/bnul",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/grafana/gcx",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/KawaroX/bnul#readme",
-  "detailPath": "data/details/kawarox__bnul.json",
+  "readmeUrl": "https://github.com/grafana/gcx#readme",
+  "detailPath": "data/details/grafana__gcx.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "北京师范大学图书馆座位预约 CLI 与 AI skill：自动登录、时段查询和预约",
+    "summary": "gcx：尚未归入主要类别的实用项目。",
     "useCases": [
       "能力探索",
       "流程扩展",
@@ -75,17 +65,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 MIT，商用前仍建议核对仓库条款。",
+      "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-27T08:46:12.238Z",
-    "sourceHash": "ecacefd925a40fb6",
+    "generatedAt": "2026-11-28T07:59:58.392Z",
+    "sourceHash": "07c42b7567c651be",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "bnul：北京师范大学图书馆座位预约 CLI 与 AI skill：自动登录、时段查询和预约。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "bnul 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "gcx：尚未归入主要类别的实用项目。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "gcx 可以先理解为一个「开源 Agent 相关项目」。它围绕「能力探索」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "项目用途可能比较垂直，单看仓库名不容易判断是否相关。",
       "用户需要先快速判断它和自己的任务有没有关系。",
@@ -125,7 +115,7 @@
       "为后续选型留下一个清晰起点。"
     ],
     "caveats": [
-      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
+      "许可证为 Apache-2.0，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

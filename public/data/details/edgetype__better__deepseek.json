@@ -1,14 +1,14 @@
 {
-  "rank": 1196,
-  "id": 996124831,
-  "name": "WFGY",
-  "fullName": "onestardao/WFGY",
-  "owner": "onestardao",
-  "avatarUrl": "https://avatars.githubusercontent.com/u/212544643?v=4",
-  "url": "https://github.com/onestardao/WFGY",
-  "homepage": "https://github.com/onestardao/WFGY",
-  "description": "WFGY is heading toward WFGY 5.0 Polaris Protocol, a major open-source release for AI reasoning, RAG, agents, and real-world workflows. Includes Problem Map, Global Debug Card, WFGY 4.0, and the CFV Easter Egg.",
-  "summary": "WFGY：正迈向 WFGY 5.0 Polaris 协议，这是一个面向 AI 推理、RAG、智能体及现实工作流的重大开源发布。包含问题地图、全局调试卡、WFGY 4.0 以及 CFV 彩蛋。适合在 Agent Skills 相关工作流里先做选型判断。",
+  "rank": 1176,
+  "id": 1208490640,
+  "name": "better-deepseek",
+  "fullName": "EdgeTypE/better-deepseek",
+  "owner": "EdgeTypE",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/34396598?v=4",
+  "url": "https://github.com/EdgeTypE/better-deepseek",
+  "homepage": "https://chromewebstore.google.com/detail/better-deepseek/aabiopennjmopfippagcalmkdjlepdhh",
+  "description": "A powerful browser extension that supercharges DeepSeek Chat with custom tooling, persistent memory, and seamless project scaffolding. Generate and download files, run Python in-browser, create PowerPoint and Excel documents, build multi-file projects as ZIP archives, and manage custom skills and characters.",
+  "summary": "better-deepseek：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
   "category": "记忆与上下文",
   "categoryDescription": "长期记忆、RAG、上下文压缩、知识图谱与检索",
   "categoryConfidence": "高",
@@ -19,34 +19,41 @@
     "上下文管理"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/onestardao/WFGY.git",
-  "language": "Jupyter Notebook",
-  "license": "NOASSERTION",
-  "stars": 1804,
-  "forks": 167,
-  "openIssues": 14,
-  "score": 108.2,
+  "installCommand": "git clone https://github.com/EdgeTypE/better-deepseek.git",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 847,
+  "forks": 84,
+  "openIssues": 24,
+  "score": 108.4,
   "activity": "本周活跃",
-  "pushedAt": "2026-11-26T16:34:41Z",
-  "updatedAt": "2026-11-25T20:51:15Z",
-  "createdAt": "2025-06-04T13:45:14Z",
+  "pushedAt": "2026-11-20T13:34:45Z",
+  "updatedAt": "2026-11-27T15:00:27Z",
+  "createdAt": "2026-04-12T11:03:32Z",
   "sourceTopics": [],
   "discoveredBy": [
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
-    "ai-agents",
-    "alignment",
-    "debugging",
-    "evaluation",
-    "graphrag",
-    "hallucination",
-    "information-retrieval",
-    "knowledge-graph",
-    "llm",
-    "rag",
-    "reasoning",
-    "retrieval-augmented-generation"
+    "ai-tools",
+    "automation",
+    "browser-extension",
+    "chrome-extension",
+    "deepseek",
+    "developer-tools",
+    "docx-generator",
+    "excel-generator",
+    "file-generator",
+    "firefox",
+    "local-first",
+    "memory-management",
+    "open-source",
+    "pptx-generator",
+    "privacy-focused",
+    "productivity",
+    "python-runner",
+    "svelte",
+    "vite"
   ],
   "platforms": [
     "Agent Skills"
@@ -54,15 +61,15 @@
   "skillCount": 1,
   "isCollection": false,
   "media": {
-    "socialPreview": "https://opengraph.githubassets.com/skillhot/onestardao/WFGY",
+    "socialPreview": "https://opengraph.githubassets.com/skillhot/EdgeTypE/better-deepseek",
     "videoUrl": ""
   },
-  "readmeUrl": "https://github.com/onestardao/WFGY#readme",
-  "detailPath": "data/details/onestardao__wfgy.json",
+  "readmeUrl": "https://github.com/EdgeTypE/better-deepseek#readme",
+  "detailPath": "data/details/edgetype__better__deepseek.json",
   "catalogStatus": "active",
-  "catalogDelta": "stable",
+  "catalogDelta": "new",
   "projectInsight": {
-    "summary": "WFGY 正迈向 WFGY 5.0 Polaris 协议，这是一个面向 AI 推理、RAG、智能体及现实工作流的重大开源发布。包含问题地图、全局调试卡、WFGY 4.0 以及 CFV 彩蛋",
+    "summary": "better-deepseek 提供记忆、上下文管理或知识检索能力。",
     "useCases": [
       "长期任务",
       "跨会话续接",
@@ -78,17 +85,17 @@
     ],
     "gettingStarted": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
     "limitations": [
-      "许可证为 NOASSERTION，商用前仍建议核对仓库条款。",
+      "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-27T08:46:12.238Z",
-    "sourceHash": "09973ab094526581",
+    "generatedAt": "2026-11-28T07:59:58.392Z",
+    "sourceHash": "4564da4515df365d",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
   "projectProfile": {
-    "plainIntro": "WFGY：正迈向 WFGY 5.0 Polaris 协议，这是一个面向 AI 推理、RAG、智能体及现实工作流的重大开源发布。包含问题地图、全局调试卡、WFGY 4.0 以及 CFV 彩蛋。适合在 Agent Skills 相关工作流里先做选型判断。",
-    "whatItIs": "WFGY 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
+    "plainIntro": "better-deepseek：提供记忆、上下文管理或知识检索能力。适合在 Agent Skills 相关工作流里先做选型判断。",
+    "whatItIs": "better-deepseek 可以先理解为一个「记忆与上下文管理项目」。它围绕「长期任务」这类任务，把公开仓库里的方法、工具或流程整理成可试用的开源入口。你可以先判断它是否适合你的当前任务，再决定是否打开 README 深入配置。",
     "problemSolved": [
       "长任务容易丢上下文，Agent 记不住项目历史。",
       "资料、代码和决策分散，下一次会话很难续接。",
@@ -128,7 +135,7 @@
       "长任务的上下文管理成本下降。"
     ],
     "caveats": [
-      "许可证为 NOASSERTION，商用或二次分发前仍建议核对条款。",
+      "许可证为 MIT，商用或二次分发前仍建议核对条款。",
       "这份说明来自仓库公开信息和规则整理，关键功能仍建议打开 README 核对。"
     ]
   }

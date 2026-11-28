@@ -1,5 +1,5 @@
 {
-  "rank": 379,
+  "rank": 243,
   "id": 1225178950,
   "name": "anysearch-skill",
   "fullName": "anysearch-ai/anysearch-skill",
@@ -19,16 +19,16 @@
     "开源工具试用"
   ],
   "howToUse": "阅读仓库 README 的安装要求，将 Skill、插件或工具接入对应环境，再按文档触发工作流。",
-  "installCommand": "git clone https://github.com/anysearch-ai/anysearch-skill.git",
+  "installCommand": "> **Windows checksum note:** If you use `git clone` with `core.autocrlf=true`, `.py/.js/.ps1` files are converted to CRLF on checkout, so `Get-FileHash` will not match `SHA256SUMS.txt` (computed with LF); `.sh` is forced to LF by `.gitattributes` and is fine. Verify using files unpacked from the Release archive, or normalize to LF before comparing, so line-e",
   "language": "Python",
   "license": "Apache-2.0",
-  "stars": 6934,
+  "stars": 6936,
   "forks": 403,
   "openIssues": 2,
-  "score": 131.2,
-  "activity": "本月活跃",
-  "pushedAt": "2026-11-13T07:00:11Z",
-  "updatedAt": "2026-11-27T04:57:42Z",
+  "score": 138.2,
+  "activity": "本周活跃",
+  "pushedAt": "2026-11-27T10:55:28Z",
+  "updatedAt": "2026-11-28T02:24:27Z",
   "createdAt": "2026-04-30T02:55:36Z",
   "sourceTopics": [
     "skill",
@@ -36,6 +36,7 @@
   ],
   "discoveredBy": [
     "GitHub Topics",
+    "GitHub 搜索",
     "GitHub 高星活跃搜索"
   ],
   "repoTopics": [
@@ -85,8 +86,8 @@
       "许可证为 Apache-2.0，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-27T08:46:12.238Z",
-    "sourceHash": "c637deaad639914b",
+    "generatedAt": "2026-11-28T07:59:58.392Z",
+    "sourceHash": "36114e4452c261e2",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },

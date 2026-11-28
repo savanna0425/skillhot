@@ -1,5 +1,5 @@
 {
-  "rank": 847,
+  "rank": 846,
   "id": 1330468709,
   "name": "website-rebuild-skill",
   "fullName": "boyang-hu/website-rebuild-skill",
@@ -19,16 +19,16 @@
     "扩展 Agent 能力"
   ],
   "howToUse": "按 README 安装工具或 CLI，使用其命令创建、验证、安装或管理 Skills。",
-  "installCommand": "git clone https://github.com/boyang-hu/website-rebuild-skill.git",
+  "installCommand": "npx website-rebuild-skill                    # → ~/.claude/skills/website-rebuild\nnpx website-rebuild-skill --project          # → ./.claude/skills/website-rebuild\nnpx website-rebuild-skill --dir <skills 目录>  # 其他 runtime，目录名 website-rebuild 会自动追加",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 1832,
-  "forks": 329,
+  "stars": 1835,
+  "forks": 330,
   "openIssues": 0,
   "score": 116.4,
   "activity": "本周活跃",
   "pushedAt": "2026-11-22T11:50:19Z",
-  "updatedAt": "2026-11-27T02:47:43Z",
+  "updatedAt": "2026-11-28T06:58:42Z",
   "createdAt": "2026-08-11T03:50:30Z",
   "sourceTopics": [],
   "discoveredBy": [
@@ -78,8 +78,8 @@
       "许可证为 MIT，商用前仍建议核对仓库条款。",
       "这份解读根据仓库公开信息整理，仍建议打开 GitHub 核对细节。"
     ],
-    "generatedAt": "2026-11-27T08:46:12.238Z",
-    "sourceHash": "71dc0b4d9e09eae3",
+    "generatedAt": "2026-11-28T07:59:58.392Z",
+    "sourceHash": "9bfcf4782e1a0521",
     "method": "metadata-derived-v1",
     "sourceNote": "根据仓库公开信息整理，仅供选型参考。"
   },
